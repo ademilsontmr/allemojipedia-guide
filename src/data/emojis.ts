@@ -6579,6 +6579,709 @@ export const emojis: Emoji[] = [
     subgroup: "place-geographic",
     keywords: ["island", "tropical", "vacation", "paradise", "beach"]
   },
+  {
+    unicode: "🚕",
+    name: "Taxi",
+    slug: "taxi",
+    shortMeaning: "A yellow taxi cab.",
+    detailedMeaning: "The Taxi emoji shows a classic yellow taxi cab, representing urban transportation, New York City vibes, and getting around town.\n\nUsed for taxi rides, NYC content, and urban transportation discussions.",
+    usageContexts: ["Transportation", "NYC", "Urban", "Travel", "Ride"],
+    examples: [
+      { context: "Ride", text: "Calling a cab 🚕" },
+      { context: "NYC", text: "NYC vibes 🚕" },
+      { context: "Travel", text: "Taxi to the airport 🚕" }
+    ],
+    misunderstandings: ["Clear taxi meaning"],
+    relatedEmojis: ["automobile", "bus", "oncoming-taxi"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["taxi", "cab", "yellow", "NYC", "ride"]
+  },
+  {
+    unicode: "🚌",
+    name: "Bus",
+    slug: "bus",
+    shortMeaning: "A public transit bus.",
+    detailedMeaning: "The Bus emoji shows a public transit bus, representing public transportation, commuting, and affordable travel.\n\nUsed for bus travel, public transit discussions, and school bus references.",
+    usageContexts: ["Public transit", "Commute", "Travel", "School", "Transport"],
+    examples: [
+      { context: "Commute", text: "Taking the bus 🚌" },
+      { context: "Travel", text: "Bus tour 🚌" },
+      { context: "School", text: "School bus 🚌" }
+    ],
+    misunderstandings: ["Clear bus meaning"],
+    relatedEmojis: ["bus-stop", "trolleybus", "automobile"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["bus", "public transit", "commute", "transport", "school"]
+  },
+  {
+    unicode: "🚂",
+    name: "Locomotive",
+    slug: "locomotive",
+    shortMeaning: "A steam train locomotive.",
+    detailedMeaning: "The Locomotive emoji shows a classic steam train engine, representing rail travel, nostalgia, and powerful forward movement.\n\nUsed for train travel, vintage vibes, and expressions of moving forward with power.",
+    usageContexts: ["Train", "Travel", "Vintage", "Power", "Journey"],
+    examples: [
+      { context: "Travel", text: "All aboard 🚂" },
+      { context: "Progress", text: "Full steam ahead 🚂" },
+      { context: "Vintage", text: "Old school 🚂" }
+    ],
+    misunderstandings: ["Nostalgic train type"],
+    relatedEmojis: ["railway-car", "station", "steam"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["train", "locomotive", "steam", "railway", "vintage"]
+  },
+  {
+    unicode: "🚃",
+    name: "Railway Car",
+    slug: "railway-car",
+    shortMeaning: "A train passenger car.",
+    detailedMeaning: "The Railway Car emoji shows a train passenger car, representing train travel, commuting by rail, and subway systems.\n\nUsed for train rides, metro/subway references, and rail travel.",
+    usageContexts: ["Train", "Metro", "Subway", "Commute", "Rail"],
+    examples: [
+      { context: "Commute", text: "On the train 🚃" },
+      { context: "Metro", text: "Taking the subway 🚃" },
+      { context: "Travel", text: "Train journey 🚃" }
+    ],
+    misunderstandings: ["Generic train car"],
+    relatedEmojis: ["locomotive", "metro", "station"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["train", "railway", "metro", "subway", "car"]
+  },
+  {
+    unicode: "🚄",
+    name: "High-Speed Train",
+    slug: "high-speed-train",
+    shortMeaning: "A modern bullet train.",
+    detailedMeaning: "The High-Speed Train emoji shows a sleek bullet train, representing modern rail travel, speed, and efficiency. Associated with Japan's Shinkansen.\n\nUsed for fast train travel, Japanese culture, and modern transportation.",
+    usageContexts: ["Fast", "Modern", "Japan", "Efficient", "Travel"],
+    examples: [
+      { context: "Japan", text: "Riding the Shinkansen 🚄" },
+      { context: "Fast", text: "Speeding through 🚄" },
+      { context: "Modern", text: "Future of travel 🚄" }
+    ],
+    misunderstandings: ["Specifically high-speed rail"],
+    relatedEmojis: ["locomotive", "japan", "speed"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["bullet train", "shinkansen", "fast", "speed", "Japan"]
+  },
+  {
+    unicode: "🚁",
+    name: "Helicopter",
+    slug: "helicopter",
+    shortMeaning: "A helicopter.",
+    detailedMeaning: "The Helicopter emoji shows a helicopter, representing aerial transportation, rescue operations, and VIP travel.\n\nUsed for helicopter rides, emergency services, and luxury travel references.",
+    usageContexts: ["Air travel", "Emergency", "VIP", "Rescue", "Aerial"],
+    examples: [
+      { context: "VIP", text: "Helicopter ride 🚁" },
+      { context: "Rescue", text: "Air rescue 🚁" },
+      { context: "View", text: "Aerial view 🚁" }
+    ],
+    misunderstandings: ["Clear helicopter meaning"],
+    relatedEmojis: ["airplane", "small-airplane", "parachute"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-air",
+    keywords: ["helicopter", "chopper", "aerial", "rescue", "fly"]
+  },
+  {
+    unicode: "🛳️",
+    name: "Passenger Ship",
+    slug: "passenger-ship",
+    shortMeaning: "A large cruise ship.",
+    detailedMeaning: "The Passenger Ship emoji shows a large cruise liner, representing ocean travel, cruises, and maritime adventures.\n\nUsed for cruise vacations, ocean travel, and nautical themes.",
+    usageContexts: ["Cruise", "Ocean", "Vacation", "Maritime", "Travel"],
+    examples: [
+      { context: "Cruise", text: "Cruise vacation 🛳️" },
+      { context: "Ocean", text: "Setting sail 🛳️" },
+      { context: "Luxury", text: "Luxury cruise 🛳️" }
+    ],
+    misunderstandings: ["Large passenger vessel"],
+    relatedEmojis: ["ship", "anchor", "ocean"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-water",
+    keywords: ["cruise", "ship", "boat", "ocean", "travel"]
+  },
+  {
+    unicode: "⛵",
+    name: "Sailboat",
+    slug: "sailboat",
+    shortMeaning: "A sailboat on the water.",
+    detailedMeaning: "The Sailboat emoji shows a small sailing boat, representing sailing, nautical activities, and peaceful water travel.\n\nUsed for sailing content, beach/ocean themes, and leisurely boating.",
+    usageContexts: ["Sailing", "Ocean", "Leisure", "Nautical", "Water"],
+    examples: [
+      { context: "Sailing", text: "Smooth sailing ⛵" },
+      { context: "Vacation", text: "Day on the water ⛵" },
+      { context: "Peace", text: "Sailing away ⛵" }
+    ],
+    misunderstandings: ["Clear sailing meaning"],
+    relatedEmojis: ["boat", "anchor", "ocean"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-water",
+    keywords: ["sail", "boat", "sailing", "nautical", "ocean"]
+  },
+  {
+    unicode: "🚲",
+    name: "Bicycle",
+    slug: "bicycle",
+    shortMeaning: "A bicycle for cycling.",
+    detailedMeaning: "The Bicycle emoji shows a standard bicycle, representing cycling, exercise, eco-friendly transportation, and outdoor activities.\n\nUsed for biking content, fitness, and sustainable transportation.",
+    usageContexts: ["Cycling", "Exercise", "Eco-friendly", "Transport", "Outdoor"],
+    examples: [
+      { context: "Exercise", text: "Morning bike ride 🚲" },
+      { context: "Commute", text: "Biking to work 🚲" },
+      { context: "Eco", text: "Green transport 🚲" }
+    ],
+    misunderstandings: ["Clear bicycle meaning"],
+    relatedEmojis: ["person-biking", "motorcycle", "scooter"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["bicycle", "bike", "cycling", "exercise", "eco"]
+  },
+  {
+    unicode: "🏍️",
+    name: "Motorcycle",
+    slug: "motorcycle",
+    shortMeaning: "A motorcycle or motorbike.",
+    detailedMeaning: "The Motorcycle emoji shows a motorcycle/motorbike, representing freedom, speed, and two-wheeled travel.\n\nUsed for motorcycle content, biker culture, and adventurous travel.",
+    usageContexts: ["Motorcycle", "Speed", "Freedom", "Biker", "Adventure"],
+    examples: [
+      { context: "Ride", text: "Motorcycle ride 🏍️" },
+      { context: "Freedom", text: "Open road 🏍️" },
+      { context: "Adventure", text: "Biker life 🏍️" }
+    ],
+    misunderstandings: ["Clear motorcycle meaning"],
+    relatedEmojis: ["racing-car", "bicycle", "helmet"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["motorcycle", "motorbike", "biker", "speed", "ride"]
+  },
+  {
+    unicode: "🚀",
+    name: "Rocket",
+    slug: "rocket",
+    shortMeaning: "A rocket ship launching.",
+    detailedMeaning: "The Rocket emoji shows a rocket launching, representing space travel, rapid growth, and taking off. Very popular in tech/startup culture.\n\nUsed for launches, crypto/stocks, space content, and rapid progress.",
+    usageContexts: ["Launch", "Space", "Growth", "Startup", "Progress"],
+    examples: [
+      { context: "Launch", text: "Launch day 🚀" },
+      { context: "Growth", text: "To the moon 🚀" },
+      { context: "Success", text: "Taking off 🚀" }
+    ],
+    misunderstandings: ["Crypto/stock market connotation"],
+    relatedEmojis: ["sparkles", "star", "astronaut"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-air",
+    keywords: ["rocket", "launch", "space", "moon", "startup"]
+  },
+  {
+    unicode: "🛸",
+    name: "Flying Saucer",
+    slug: "flying-saucer",
+    shortMeaning: "A UFO/flying saucer.",
+    detailedMeaning: "The Flying Saucer emoji shows a classic UFO, representing aliens, sci-fi, and otherworldly things.\n\nUsed for alien/UFO content, sci-fi themes, and expressing weirdness.",
+    usageContexts: ["UFO", "Aliens", "Sci-fi", "Weird", "Space"],
+    examples: [
+      { context: "Alien", text: "Alien vibes 🛸" },
+      { context: "Weird", text: "Out of this world 🛸" },
+      { context: "Sci-fi", text: "UFO spotted 🛸" }
+    ],
+    misunderstandings: ["Playful alien meaning"],
+    relatedEmojis: ["alien", "rocket", "star"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-air",
+    keywords: ["UFO", "alien", "spaceship", "flying saucer", "sci-fi"]
+  },
+  // BUILDINGS & LANDMARKS
+  {
+    unicode: "🏢",
+    name: "Office Building",
+    slug: "office-building",
+    shortMeaning: "A tall office building.",
+    detailedMeaning: "The Office Building emoji shows a generic office tower, representing work, corporate life, and urban business districts.\n\nUsed for work content, office life, and business discussions.",
+    usageContexts: ["Work", "Office", "Corporate", "Business", "Urban"],
+    examples: [
+      { context: "Work", text: "Back to the office 🏢" },
+      { context: "Corporate", text: "Office life 🏢" },
+      { context: "City", text: "Downtown 🏢" }
+    ],
+    misunderstandings: ["Generic office meaning"],
+    relatedEmojis: ["briefcase", "cityscape", "building-construction"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["office", "building", "work", "corporate", "business"]
+  },
+  {
+    unicode: "🏥",
+    name: "Hospital",
+    slug: "hospital",
+    shortMeaning: "A hospital building.",
+    detailedMeaning: "The Hospital emoji shows a hospital with a medical cross, representing healthcare, medical facilities, and health matters.\n\nUsed for health discussions, medical visits, and healthcare topics.",
+    usageContexts: ["Health", "Medical", "Hospital", "Doctor", "Care"],
+    examples: [
+      { context: "Visit", text: "Hospital visit 🏥" },
+      { context: "Health", text: "Getting checked 🏥" },
+      { context: "Care", text: "Healthcare heroes 🏥" }
+    ],
+    misunderstandings: ["Clear medical meaning"],
+    relatedEmojis: ["ambulance", "doctor", "nurse"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["hospital", "medical", "health", "doctor", "care"]
+  },
+  {
+    unicode: "🏫",
+    name: "School",
+    slug: "school",
+    shortMeaning: "A school building.",
+    detailedMeaning: "The School emoji shows a school building, representing education, learning, and academic institutions.\n\nUsed for education content, back-to-school, and learning discussions.",
+    usageContexts: ["Education", "Learning", "School", "Students", "Academic"],
+    examples: [
+      { context: "School", text: "Back to school 🏫" },
+      { context: "Learning", text: "Study time 🏫" },
+      { context: "Education", text: "School days 🏫" }
+    ],
+    misunderstandings: ["Clear education meaning"],
+    relatedEmojis: ["graduation-cap", "books", "teacher"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["school", "education", "learning", "student", "class"]
+  },
+  {
+    unicode: "🏛️",
+    name: "Classical Building",
+    slug: "classical-building",
+    shortMeaning: "A classical Greek/Roman style building.",
+    detailedMeaning: "The Classical Building emoji shows a building with classical columns, representing government, law, museums, and history.\n\nUsed for government, legal matters, museums, and historical content.",
+    usageContexts: ["Government", "Museum", "History", "Law", "Classical"],
+    examples: [
+      { context: "Government", text: "Capitol building 🏛️" },
+      { context: "Museum", text: "Museum visit 🏛️" },
+      { context: "History", text: "Ancient history 🏛️" }
+    ],
+    misunderstandings: ["Government or museum context"],
+    relatedEmojis: ["bank", "statue-of-liberty", "scroll"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["classical", "government", "museum", "columns", "history"]
+  },
+  {
+    unicode: "🏰",
+    name: "Castle",
+    slug: "castle",
+    shortMeaning: "A European castle.",
+    detailedMeaning: "The Castle emoji shows a medieval European castle, representing royalty, fairy tales, and historical sites.\n\nUsed for Disney references, European travel, fantasy themes, and historical content.",
+    usageContexts: ["Royalty", "Fantasy", "Disney", "Europe", "Medieval"],
+    examples: [
+      { context: "Disney", text: "Disney castle 🏰" },
+      { context: "Europe", text: "Castle tour 🏰" },
+      { context: "Fantasy", text: "Fairy tale vibes 🏰" }
+    ],
+    misunderstandings: ["Western/European castle style"],
+    relatedEmojis: ["crown", "princess", "knight"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["castle", "royal", "medieval", "Disney", "fairy tale"]
+  },
+  {
+    unicode: "🗼",
+    name: "Tokyo Tower",
+    slug: "tokyo-tower",
+    shortMeaning: "The iconic Tokyo Tower.",
+    detailedMeaning: "The Tokyo Tower emoji shows the famous red Tokyo Tower, representing Japan, Tokyo, and Japanese culture.\n\nUsed for Japan travel, Tokyo references, and Japanese content.",
+    usageContexts: ["Japan", "Tokyo", "Travel", "Landmark", "Asia"],
+    examples: [
+      { context: "Tokyo", text: "Tokyo vibes 🗼" },
+      { context: "Japan", text: "Visit Japan 🗼" },
+      { context: "Travel", text: "Tokyo trip 🗼" }
+    ],
+    misunderstandings: ["Specifically Tokyo Tower, not Eiffel Tower"],
+    relatedEmojis: ["japan", "mount-fuji", "shinkansen"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["Tokyo", "Japan", "tower", "landmark", "travel"]
+  },
+  {
+    unicode: "🗽",
+    name: "Statue of Liberty",
+    slug: "statue-of-liberty",
+    shortMeaning: "The Statue of Liberty.",
+    detailedMeaning: "The Statue of Liberty emoji shows the iconic New York landmark, representing America, freedom, and New York City.\n\nUsed for NYC content, American themes, and freedom/liberty discussions.",
+    usageContexts: ["NYC", "America", "Freedom", "Liberty", "Landmark"],
+    examples: [
+      { context: "NYC", text: "New York City 🗽" },
+      { context: "America", text: "USA 🗽" },
+      { context: "Freedom", text: "Liberty 🗽" }
+    ],
+    misunderstandings: ["Clear American symbol"],
+    relatedEmojis: ["us-flag", "new-york", "freedom"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["Statue of Liberty", "NYC", "America", "freedom", "landmark"]
+  },
+  {
+    unicode: "🗿",
+    name: "Moai",
+    slug: "moai",
+    shortMeaning: "An Easter Island moai statue.",
+    detailedMeaning: "The Moai emoji shows an Easter Island stone head, representing stoicism, mystery, and the 'bruh' meme expression.\n\nUsed for deadpan reactions, meme culture, and mysterious vibes.",
+    usageContexts: ["Meme", "Stoic", "Deadpan", "Mystery", "Bruh"],
+    examples: [
+      { context: "Meme", text: "Bruh 🗿" },
+      { context: "Deadpan", text: "No reaction 🗿" },
+      { context: "Mystery", text: "Ancient mystery 🗿" }
+    ],
+    misunderstandings: ["Popular meme usage"],
+    relatedEmojis: ["stone", "statue", "ancient"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["moai", "Easter Island", "stone", "bruh", "meme"]
+  },
+  {
+    unicode: "⛪",
+    name: "Church",
+    slug: "church",
+    shortMeaning: "A Christian church building.",
+    detailedMeaning: "The Church emoji shows a Christian church with a cross, representing Christianity, worship, and religious services.\n\nUsed for religious content, Sunday services, and Christian themes.",
+    usageContexts: ["Religion", "Christianity", "Worship", "Sunday", "Faith"],
+    examples: [
+      { context: "Sunday", text: "Church Sunday ⛪" },
+      { context: "Faith", text: "Blessed ⛪" },
+      { context: "Wedding", text: "Church wedding ⛪" }
+    ],
+    misunderstandings: ["Christian-specific"],
+    relatedEmojis: ["cross", "pray", "bible"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-religious",
+    keywords: ["church", "religion", "Christian", "worship", "faith"]
+  },
+  {
+    unicode: "🕌",
+    name: "Mosque",
+    slug: "mosque",
+    shortMeaning: "An Islamic mosque.",
+    detailedMeaning: "The Mosque emoji shows an Islamic mosque with domes and minarets, representing Islam, Muslim worship, and Islamic culture.\n\nUsed for Islamic content, Ramadan, and Muslim community discussions.",
+    usageContexts: ["Islam", "Muslim", "Ramadan", "Worship", "Faith"],
+    examples: [
+      { context: "Ramadan", text: "Ramadan Mubarak 🕌" },
+      { context: "Prayer", text: "Prayer time 🕌" },
+      { context: "Faith", text: "Blessed 🕌" }
+    ],
+    misunderstandings: ["Islamic-specific"],
+    relatedEmojis: ["crescent-moon", "star-and-crescent", "prayer-beads"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-religious",
+    keywords: ["mosque", "Islam", "Muslim", "Ramadan", "prayer"]
+  },
+  {
+    unicode: "🕍",
+    name: "Synagogue",
+    slug: "synagogue",
+    shortMeaning: "A Jewish synagogue.",
+    detailedMeaning: "The Synagogue emoji shows a Jewish synagogue with the Star of David, representing Judaism, Jewish worship, and Jewish culture.\n\nUsed for Jewish content, holidays, and Jewish community discussions.",
+    usageContexts: ["Judaism", "Jewish", "Worship", "Holidays", "Faith"],
+    examples: [
+      { context: "Shabbat", text: "Shabbat Shalom 🕍" },
+      { context: "Holiday", text: "Happy Hanukkah 🕍" },
+      { context: "Faith", text: "Temple visit 🕍" }
+    ],
+    misunderstandings: ["Jewish-specific"],
+    relatedEmojis: ["star-of-david", "menorah", "dreidel"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-religious",
+    keywords: ["synagogue", "Jewish", "Judaism", "temple", "worship"]
+  },
+  {
+    unicode: "🏟️",
+    name: "Stadium",
+    slug: "stadium",
+    shortMeaning: "A large sports stadium.",
+    detailedMeaning: "The Stadium emoji shows a large sports arena/stadium, representing sports events, concerts, and large gatherings.\n\nUsed for sports games, concerts, and major events.",
+    usageContexts: ["Sports", "Concert", "Event", "Game", "Arena"],
+    examples: [
+      { context: "Sports", text: "Game day 🏟️" },
+      { context: "Concert", text: "Concert tonight 🏟️" },
+      { context: "Event", text: "Big game 🏟️" }
+    ],
+    misunderstandings: ["Clear stadium meaning"],
+    relatedEmojis: ["soccer-ball", "football", "microphone"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["stadium", "arena", "sports", "concert", "event"]
+  },
+  {
+    unicode: "🏖️",
+    name: "Beach with Umbrella",
+    slug: "beach-with-umbrella",
+    shortMeaning: "A beach scene with umbrella.",
+    detailedMeaning: "The Beach with Umbrella emoji shows a sandy beach with an umbrella, representing beach vacations, summer, and relaxation.\n\nUsed for beach trips, summer content, and vacation planning.",
+    usageContexts: ["Beach", "Vacation", "Summer", "Relaxation", "Sun"],
+    examples: [
+      { context: "Vacation", text: "Beach day 🏖️" },
+      { context: "Summer", text: "Summer vibes 🏖️" },
+      { context: "Relax", text: "Beach life 🏖️" }
+    ],
+    misunderstandings: ["Clear beach meaning"],
+    relatedEmojis: ["desert-island", "sun", "ocean"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-geographic",
+    keywords: ["beach", "vacation", "summer", "sand", "umbrella"]
+  },
+  {
+    unicode: "🏔️",
+    name: "Snow-Capped Mountain",
+    slug: "snow-capped-mountain",
+    shortMeaning: "A mountain with snow on top.",
+    detailedMeaning: "The Snow-Capped Mountain emoji shows a mountain with snow, representing mountains, hiking, skiing, and nature adventures.\n\nUsed for mountain travel, skiing, hiking, and majestic nature content.",
+    usageContexts: ["Mountain", "Skiing", "Hiking", "Nature", "Adventure"],
+    examples: [
+      { context: "Ski", text: "Ski trip 🏔️" },
+      { context: "Hiking", text: "Mountain hiking 🏔️" },
+      { context: "View", text: "Mountain views 🏔️" }
+    ],
+    misunderstandings: ["Clear mountain meaning"],
+    relatedEmojis: ["mountain", "skier", "snowflake"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-geographic",
+    keywords: ["mountain", "snow", "ski", "hiking", "nature"]
+  },
+  {
+    unicode: "🗻",
+    name: "Mount Fuji",
+    slug: "mount-fuji",
+    shortMeaning: "Japan's iconic Mount Fuji.",
+    detailedMeaning: "The Mount Fuji emoji shows Japan's famous mountain, representing Japan, natural beauty, and iconic landmarks.\n\nUsed for Japan travel, Japanese content, and mountain appreciation.",
+    usageContexts: ["Japan", "Mountain", "Iconic", "Travel", "Nature"],
+    examples: [
+      { context: "Japan", text: "Mount Fuji view 🗻" },
+      { context: "Travel", text: "Japan trip 🗻" },
+      { context: "Beautiful", text: "Fuji-san 🗻" }
+    ],
+    misunderstandings: ["Specifically Mount Fuji"],
+    relatedEmojis: ["japan", "tokyo-tower", "cherry-blossom"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-geographic",
+    keywords: ["Fuji", "Japan", "mountain", "iconic", "nature"]
+  },
+  {
+    unicode: "🌋",
+    name: "Volcano",
+    slug: "volcano",
+    shortMeaning: "An erupting volcano.",
+    detailedMeaning: "The Volcano emoji shows a volcano with lava, representing volcanic activity, explosive energy, and intense situations.\n\nUsed for volcano content, explosive emotions, and intense situations.",
+    usageContexts: ["Volcano", "Explosive", "Intense", "Nature", "Hot"],
+    examples: [
+      { context: "Intense", text: "About to explode 🌋" },
+      { context: "Nature", text: "Volcano tour 🌋" },
+      { context: "Hot", text: "Things are heating up 🌋" }
+    ],
+    misunderstandings: ["Can mean explosive anger"],
+    relatedEmojis: ["fire", "mountain", "lava"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-geographic",
+    keywords: ["volcano", "lava", "eruption", "hot", "explosive"]
+  },
+  {
+    unicode: "🏜️",
+    name: "Desert",
+    slug: "desert",
+    shortMeaning: "A sandy desert landscape.",
+    detailedMeaning: "The Desert emoji shows a desert with dunes and cacti, representing arid regions, the Southwest, and extreme conditions.\n\nUsed for desert travel, Arizona/Southwest content, and dry humor.",
+    usageContexts: ["Desert", "Southwest", "Hot", "Dry", "Nature"],
+    examples: [
+      { context: "Travel", text: "Desert road trip 🏜️" },
+      { context: "Hot", text: "Desert heat 🏜️" },
+      { context: "Southwest", text: "Arizona vibes 🏜️" }
+    ],
+    misunderstandings: ["Clear desert meaning"],
+    relatedEmojis: ["cactus", "sun", "camel"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-geographic",
+    keywords: ["desert", "sand", "hot", "dry", "Southwest"]
+  },
+  {
+    unicode: "🌃",
+    name: "Night with Stars",
+    slug: "night-with-stars",
+    shortMeaning: "A city skyline at night with stars.",
+    detailedMeaning: "The Night with Stars emoji shows a city at night with stars, representing urban nightlife, city living, and beautiful night scenes.\n\nUsed for night content, city life, and romantic evening vibes.",
+    usageContexts: ["Night", "City", "Urban", "Stars", "Evening"],
+    examples: [
+      { context: "Night", text: "City nights 🌃" },
+      { context: "Urban", text: "Downtown evening 🌃" },
+      { context: "Romance", text: "Romantic night 🌃" }
+    ],
+    misunderstandings: ["Clear nighttime city meaning"],
+    relatedEmojis: ["cityscape", "star", "moon"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["night", "city", "stars", "urban", "evening"]
+  },
+  {
+    unicode: "🌆",
+    name: "Cityscape at Dusk",
+    slug: "cityscape-at-dusk",
+    shortMeaning: "A city skyline at sunset.",
+    detailedMeaning: "The Cityscape at Dusk emoji shows a city at sunset with orange/pink sky, representing evening, urban beauty, and the end of day.\n\nUsed for sunset content, city appreciation, and evening vibes.",
+    usageContexts: ["Sunset", "City", "Evening", "Urban", "Dusk"],
+    examples: [
+      { context: "Sunset", text: "City sunset 🌆" },
+      { context: "Evening", text: "Golden hour 🌆" },
+      { context: "Beautiful", text: "Skyline views 🌆" }
+    ],
+    misunderstandings: ["Clear sunset city meaning"],
+    relatedEmojis: ["sunrise", "cityscape", "sun"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["dusk", "sunset", "city", "skyline", "evening"]
+  },
+  {
+    unicode: "🌇",
+    name: "Sunset",
+    slug: "sunset",
+    shortMeaning: "A beautiful sunset scene.",
+    detailedMeaning: "The Sunset emoji shows the sun setting on the horizon with orange sky, representing endings, beauty, and peaceful transitions.\n\nUsed for sunset photos, ending of day, and beautiful moments.",
+    usageContexts: ["Sunset", "Evening", "Beautiful", "End", "Peace"],
+    examples: [
+      { context: "Beautiful", text: "Gorgeous sunset 🌇" },
+      { context: "Evening", text: "Day is done 🌇" },
+      { context: "Peace", text: "Peaceful evening 🌇" }
+    ],
+    misunderstandings: ["Clear sunset meaning"],
+    relatedEmojis: ["sunrise", "sun", "dusk"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["sunset", "sun", "evening", "orange", "beautiful"]
+  },
+  {
+    unicode: "🌅",
+    name: "Sunrise",
+    slug: "sunrise",
+    shortMeaning: "A sunrise over the horizon.",
+    detailedMeaning: "The Sunrise emoji shows the sun rising over water, representing new beginnings, morning, and hope.\n\nUsed for morning content, new starts, and hopeful messages.",
+    usageContexts: ["Morning", "New beginning", "Hope", "Sunrise", "Fresh"],
+    examples: [
+      { context: "Morning", text: "Early riser 🌅" },
+      { context: "New", text: "New day, new start 🌅" },
+      { context: "Beautiful", text: "Sunrise views 🌅" }
+    ],
+    misunderstandings: ["Clear sunrise meaning"],
+    relatedEmojis: ["sunset", "sun", "morning"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["sunrise", "morning", "new day", "hope", "beginning"]
+  },
+  {
+    unicode: "🎡",
+    name: "Ferris Wheel",
+    slug: "ferris-wheel",
+    shortMeaning: "A colorful ferris wheel.",
+    detailedMeaning: "The Ferris Wheel emoji shows an amusement park ride, representing fun, carnivals, and entertainment.\n\nUsed for amusement parks, fair/carnival content, and fun activities.",
+    usageContexts: ["Amusement park", "Carnival", "Fun", "Fair", "Entertainment"],
+    examples: [
+      { context: "Fun", text: "Amusement park day 🎡" },
+      { context: "Fair", text: "County fair 🎡" },
+      { context: "Date", text: "Carnival date 🎡" }
+    ],
+    misunderstandings: ["Clear amusement meaning"],
+    relatedEmojis: ["roller-coaster", "carousel", "circus-tent"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["ferris wheel", "carnival", "fair", "amusement", "fun"]
+  },
+  {
+    unicode: "🎢",
+    name: "Roller Coaster",
+    slug: "roller-coaster",
+    shortMeaning: "A thrilling roller coaster.",
+    detailedMeaning: "The Roller Coaster emoji shows a roller coaster track, representing thrill rides, ups and downs, and exciting experiences.\n\nUsed for amusement parks, life's ups and downs, and thrilling experiences.",
+    usageContexts: ["Thrill", "Amusement park", "Ups and downs", "Exciting", "Ride"],
+    examples: [
+      { context: "Fun", text: "Roller coaster time 🎢" },
+      { context: "Life", text: "What a ride 🎢" },
+      { context: "Emotions", text: "Emotional roller coaster 🎢" }
+    ],
+    misunderstandings: ["Can mean emotional ups and downs"],
+    relatedEmojis: ["ferris-wheel", "carousel", "scream"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["roller coaster", "thrill", "ride", "amusement", "exciting"]
+  },
+  {
+    unicode: "⛲",
+    name: "Fountain",
+    slug: "fountain",
+    shortMeaning: "A decorative water fountain.",
+    detailedMeaning: "The Fountain emoji shows a decorative fountain, representing parks, plazas, and beautiful public spaces.\n\nUsed for park visits, European travel, and peaceful settings.",
+    usageContexts: ["Park", "Plaza", "Peaceful", "Water", "Decor"],
+    examples: [
+      { context: "Park", text: "Park fountain ⛲" },
+      { context: "Travel", text: "Beautiful plaza ⛲" },
+      { context: "Peaceful", text: "Relaxing by the fountain ⛲" }
+    ],
+    misunderstandings: ["Clear fountain meaning"],
+    relatedEmojis: ["park", "water", "statue"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["fountain", "water", "park", "plaza", "decorative"]
+  },
+  {
+    unicode: "⛺",
+    name: "Tent",
+    slug: "tent",
+    shortMeaning: "A camping tent.",
+    detailedMeaning: "The Tent emoji shows a camping tent, representing outdoor camping, nature adventures, and roughing it.\n\nUsed for camping trips, outdoor adventures, and nature content.",
+    usageContexts: ["Camping", "Outdoor", "Nature", "Adventure", "Sleep"],
+    examples: [
+      { context: "Camping", text: "Camping weekend ⛺" },
+      { context: "Nature", text: "Into the wild ⛺" },
+      { context: "Adventure", text: "Tent life ⛺" }
+    ],
+    misunderstandings: ["Clear camping meaning"],
+    relatedEmojis: ["campfire", "mountain", "forest"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-other",
+    keywords: ["tent", "camping", "outdoor", "nature", "adventure"]
+  },
+  {
+    unicode: "🗺️",
+    name: "World Map",
+    slug: "world-map",
+    shortMeaning: "A map of the world.",
+    detailedMeaning: "The World Map emoji shows a flat world map, representing travel, geography, and global thinking.\n\nUsed for travel planning, global content, and world exploration.",
+    usageContexts: ["Travel", "World", "Geography", "Global", "Explore"],
+    examples: [
+      { context: "Travel", text: "Where to next? 🗺️" },
+      { context: "Plan", text: "Planning adventures 🗺️" },
+      { context: "Global", text: "Around the world 🗺️" }
+    ],
+    misunderstandings: ["Clear world/travel meaning"],
+    relatedEmojis: ["globe", "compass", "airplane"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-map",
+    keywords: ["map", "world", "travel", "geography", "explore"]
+  },
+  {
+    unicode: "🧭",
+    name: "Compass",
+    slug: "compass",
+    shortMeaning: "A navigation compass.",
+    detailedMeaning: "The Compass emoji shows a navigation compass, representing direction, exploration, and finding your way.\n\nUsed for travel, life direction, and navigation themes.",
+    usageContexts: ["Navigation", "Direction", "Travel", "Explore", "Guidance"],
+    examples: [
+      { context: "Direction", text: "Finding my way 🧭" },
+      { context: "Travel", text: "Adventure awaits 🧭" },
+      { context: "Life", text: "Following my compass 🧭" }
+    ],
+    misunderstandings: ["Can mean life direction"],
+    relatedEmojis: ["world-map", "globe", "adventure"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-map",
+    keywords: ["compass", "direction", "navigation", "explore", "guide"]
+  },
   // ACTIVITIES
   {
     unicode: "⚽",
