@@ -11,8 +11,10 @@ const PeopleSubcategory = () => {
   const subcategory = peopleSubcategories.find(s => s.slug === slug);
   const allPeopleEmojis = getEmojisByCategory("people-and-body");
   
-  // Filter based on subcategory (simplified - in real app would filter by subgroup)
-  const emojis = allPeopleEmojis.slice(0, 12);
+  // Filter based on subcategory subgroups
+  const emojis = subcategory 
+    ? allPeopleEmojis.filter(e => subcategory.subgroups.includes(e.subgroup))
+    : [];
 
   if (!subcategory) return <NotFound />;
 

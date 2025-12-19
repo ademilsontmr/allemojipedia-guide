@@ -87,8 +87,32 @@ export const getCategoryBySlug = (slug: string): Category | undefined => {
 };
 
 export const peopleSubcategories = [
-  { slug: "gestures", name: "Gestures", description: "Hand gestures and body language emojis for expressing actions and emotions non-verbally.", icon: "👋" },
-  { slug: "emotions", name: "Emotions", description: "People expressing various emotions through facial expressions and body language.", icon: "🤗" },
-  { slug: "professions", name: "Professions", description: "Professional and occupational emojis representing various careers and jobs.", icon: "👨‍⚕️" },
-  { slug: "family", name: "Family", description: "Family member emojis representing parents, children, and various family structures.", icon: "👨‍👩‍👧" }
+  { 
+    slug: "gestures", 
+    name: "Gestures", 
+    description: "Hand gestures and body language emojis for expressing actions and emotions non-verbally.", 
+    icon: "👋",
+    subgroups: ["hand-fingers-open", "hand-fingers-partial", "hand-single-finger", "hand-fingers-closed", "hands"]
+  },
+  { 
+    slug: "emotions", 
+    name: "Emotions", 
+    description: "People expressing various emotions through facial expressions and body language.", 
+    icon: "🤗",
+    subgroups: ["person-gesture", "emotion"]
+  },
+  { 
+    slug: "professions", 
+    name: "Professions", 
+    description: "Professional and occupational emojis representing various careers and jobs.", 
+    icon: "👨‍⚕️",
+    subgroups: ["person-role"]
+  },
+  { 
+    slug: "family", 
+    name: "Family", 
+    description: "Family member emojis representing parents, children, and various family structures.", 
+    icon: "👨‍👩‍👧",
+    subgroups: ["family", "person"]
+  }
 ];
