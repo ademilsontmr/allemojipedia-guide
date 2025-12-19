@@ -8837,6 +8837,1217 @@ export const emojis: Emoji[] = [
     subgroup: "av-symbol",
     keywords: ["music", "note", "song", "melody", "tune"]
   },
+  // HEARTS
+  {
+    unicode: "❤️",
+    name: "Red Heart",
+    slug: "red-heart",
+    shortMeaning: "Classic red heart - love and affection.",
+    detailedMeaning: "The Red Heart is the classic symbol of love, romance, and deep affection. It's the most popular heart emoji and carries strong emotional significance.\n\nUsed for expressing love, romance, gratitude, and strong emotional connections.",
+    usageContexts: ["Love", "Romance", "Affection", "Gratitude", "Care"],
+    examples: [
+      { context: "Love", text: "I love you ❤️" },
+      { context: "Gratitude", text: "Thank you so much ❤️" },
+      { context: "Affection", text: "You're the best ❤️" }
+    ],
+    misunderstandings: ["Very strong romantic connotation"],
+    relatedEmojis: ["heart-with-arrow", "two-hearts", "beating-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "love", "red", "romance", "affection"]
+  },
+  {
+    unicode: "🧡",
+    name: "Orange Heart",
+    slug: "orange-heart",
+    shortMeaning: "Orange heart - friendship and care.",
+    detailedMeaning: "The Orange Heart represents friendship, support, and care without romantic implications. It's warmer than yellow but less intense than red.\n\nUsed for expressing friendly love, support, and autumn vibes.",
+    usageContexts: ["Friendship", "Support", "Care", "Autumn", "Warm"],
+    examples: [
+      { context: "Friend", text: "You're amazing 🧡" },
+      { context: "Support", text: "I'm here for you 🧡" },
+      { context: "Autumn", text: "Fall vibes 🧡" }
+    ],
+    misunderstandings: ["Less romantic than red heart"],
+    relatedEmojis: ["red-heart", "yellow-heart", "green-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["orange", "heart", "friendship", "warm", "care"]
+  },
+  {
+    unicode: "💛",
+    name: "Yellow Heart",
+    slug: "yellow-heart",
+    shortMeaning: "Yellow heart - friendship and happiness.",
+    detailedMeaning: "The Yellow Heart represents happiness, friendship, and positivity. It's associated with sunshine and platonic love.\n\nUsed for close friendships, positivity, and joyful connections.",
+    usageContexts: ["Friendship", "Happiness", "Positivity", "Joy", "Platonic"],
+    examples: [
+      { context: "Friend", text: "Best friends 💛" },
+      { context: "Happy", text: "You make me smile 💛" },
+      { context: "Positive", text: "Good vibes only 💛" }
+    ],
+    misunderstandings: ["On Snapchat means #1 best friend"],
+    relatedEmojis: ["orange-heart", "green-heart", "sun"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["yellow", "heart", "friendship", "happy", "sunshine"]
+  },
+  {
+    unicode: "💚",
+    name: "Green Heart",
+    slug: "green-heart",
+    shortMeaning: "Green heart - nature, health, and jealousy.",
+    detailedMeaning: "The Green Heart can represent nature, health, growth, or sometimes jealousy. It's associated with environmental themes and wellness.\n\nUsed for eco-friendly content, health themes, Irish pride, and sometimes jealousy.",
+    usageContexts: ["Nature", "Health", "Irish", "Environment", "Jealousy"],
+    examples: [
+      { context: "Nature", text: "Go green 💚" },
+      { context: "Irish", text: "Happy St. Patrick's 💚" },
+      { context: "Health", text: "Healthy living 💚" }
+    ],
+    misunderstandings: ["Can mean jealousy"],
+    relatedEmojis: ["yellow-heart", "blue-heart", "shamrock"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["green", "heart", "nature", "eco", "jealousy"]
+  },
+  {
+    unicode: "💙",
+    name: "Blue Heart",
+    slug: "blue-heart",
+    shortMeaning: "Blue heart - trust, loyalty, and peace.",
+    detailedMeaning: "The Blue Heart represents trust, loyalty, peace, and sometimes awareness causes. Blue is calming and represents stability.\n\nUsed for expressing trust, supporting causes, brand loyalty, and calm love.",
+    usageContexts: ["Trust", "Loyalty", "Peace", "Awareness", "Calm"],
+    examples: [
+      { context: "Trust", text: "I trust you 💙" },
+      { context: "Loyalty", text: "Always got your back 💙" },
+      { context: "Calm", text: "Peaceful vibes 💙" }
+    ],
+    misunderstandings: ["Less intense than red heart"],
+    relatedEmojis: ["green-heart", "purple-heart", "water-wave"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["blue", "heart", "trust", "loyalty", "peace"]
+  },
+  {
+    unicode: "💜",
+    name: "Purple Heart",
+    slug: "purple-heart",
+    shortMeaning: "Purple heart - compassion and K-pop.",
+    detailedMeaning: "The Purple Heart represents compassion, support, and is especially popular in K-pop fandoms (BTS Army). It's also associated with royalty and luxury.\n\nUsed heavily by BTS fans, expressing compassion, and luxury themes.",
+    usageContexts: ["K-pop", "BTS", "Compassion", "Luxury", "Support"],
+    examples: [
+      { context: "BTS", text: "I purple you 💜" },
+      { context: "Support", text: "Sending love 💜" },
+      { context: "Luxury", text: "Royal vibes 💜" }
+    ],
+    misunderstandings: ["Strong K-pop association"],
+    relatedEmojis: ["blue-heart", "black-heart", "sparkles"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["purple", "heart", "BTS", "kpop", "compassion"]
+  },
+  {
+    unicode: "🖤",
+    name: "Black Heart",
+    slug: "black-heart",
+    shortMeaning: "Black heart - dark humor, sorrow, or edgy aesthetic.",
+    detailedMeaning: "The Black Heart represents dark humor, sorrow, morbidity, or an edgy/alternative aesthetic. It's popular in goth and emo communities.\n\nUsed for dark humor, expressing grief, or edgy/alternative aesthetic.",
+    usageContexts: ["Dark humor", "Goth", "Sorrow", "Edgy", "Alternative"],
+    examples: [
+      { context: "Dark", text: "Dark soul 🖤" },
+      { context: "Aesthetic", text: "All black everything 🖤" },
+      { context: "Humor", text: "Dead inside 🖤" }
+    ],
+    misunderstandings: ["Can seem negative or sad"],
+    relatedEmojis: ["purple-heart", "skull", "bat"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["black", "heart", "dark", "goth", "edgy"]
+  },
+  {
+    unicode: "🤍",
+    name: "White Heart",
+    slug: "white-heart",
+    shortMeaning: "White heart - purity and support.",
+    detailedMeaning: "The White Heart represents purity, support for causes, and clean aesthetics. It's associated with peace and remembrance.\n\nUsed for expressing pure love, support, and minimalist aesthetic.",
+    usageContexts: ["Purity", "Support", "Clean", "Remembrance", "Peace"],
+    examples: [
+      { context: "Pure", text: "Pure love 🤍" },
+      { context: "Support", text: "Sending support 🤍" },
+      { context: "Aesthetic", text: "Clean vibes 🤍" }
+    ],
+    misunderstandings: ["Sometimes used for mourning"],
+    relatedEmojis: ["black-heart", "dove", "peace-symbol"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["white", "heart", "pure", "peace", "support"]
+  },
+  {
+    unicode: "🤎",
+    name: "Brown Heart",
+    slug: "brown-heart",
+    shortMeaning: "Brown heart - earth tones and BLM support.",
+    detailedMeaning: "The Brown Heart represents earth tones, nature, and has been used in support of Black Lives Matter and racial equality movements.\n\nUsed for earthy themes, autumn vibes, and solidarity with POC communities.",
+    usageContexts: ["Earth", "BLM", "Autumn", "Nature", "Solidarity"],
+    examples: [
+      { context: "Earth", text: "Earthy vibes 🤎" },
+      { context: "Autumn", text: "Fall colors 🤎" },
+      { context: "Support", text: "Solidarity 🤎" }
+    ],
+    misunderstandings: ["Can have political meaning"],
+    relatedEmojis: ["green-heart", "orange-heart", "fallen-leaf"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["brown", "heart", "earth", "autumn", "solidarity"]
+  },
+  {
+    unicode: "💔",
+    name: "Broken Heart",
+    slug: "broken-heart",
+    shortMeaning: "Broken heart - heartbreak and sadness.",
+    detailedMeaning: "The Broken Heart shows a heart split in two, representing heartbreak, loss, and emotional pain.\n\nUsed for breakups, disappointment, and expressing emotional hurt.",
+    usageContexts: ["Heartbreak", "Breakup", "Sadness", "Loss", "Pain"],
+    examples: [
+      { context: "Breakup", text: "We broke up 💔" },
+      { context: "Sad", text: "Heartbroken 💔" },
+      { context: "Loss", text: "Missing you 💔" }
+    ],
+    misunderstandings: ["Clear heartbreak meaning"],
+    relatedEmojis: ["red-heart", "crying-face", "mending-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["broken", "heart", "sad", "breakup", "hurt"]
+  },
+  {
+    unicode: "❤️‍🔥",
+    name: "Heart on Fire",
+    slug: "heart-on-fire",
+    shortMeaning: "Heart on fire - passionate love.",
+    detailedMeaning: "The Heart on Fire represents passionate, intense love and burning desire. It's a newer emoji showing strong romantic feelings.\n\nUsed for expressing intense passion, attraction, and fiery love.",
+    usageContexts: ["Passion", "Desire", "Intense love", "Attraction", "Hot"],
+    examples: [
+      { context: "Passion", text: "Burning love ❤️‍🔥" },
+      { context: "Attraction", text: "So hot ❤️‍🔥" },
+      { context: "Intense", text: "Fire in my heart ❤️‍🔥" }
+    ],
+    misunderstandings: ["Very intense romantic meaning"],
+    relatedEmojis: ["red-heart", "fire", "smiling-face-with-heart-eyes"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "fire", "passion", "love", "burning"]
+  },
+  {
+    unicode: "❤️‍🩹",
+    name: "Mending Heart",
+    slug: "mending-heart",
+    shortMeaning: "Heart with bandage - healing from heartbreak.",
+    detailedMeaning: "The Mending Heart shows a heart with a bandage, representing emotional healing and recovery from heartbreak.\n\nUsed for expressing recovery from emotional pain and the healing process.",
+    usageContexts: ["Healing", "Recovery", "Moving on", "Self-care", "Growth"],
+    examples: [
+      { context: "Healing", text: "Getting better ❤️‍🩹" },
+      { context: "Recovery", text: "Healing takes time ❤️‍🩹" },
+      { context: "Growth", text: "Growing stronger ❤️‍🩹" }
+    ],
+    misunderstandings: ["Represents healing, not broken"],
+    relatedEmojis: ["broken-heart", "red-heart", "bandage"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "mending", "healing", "bandage", "recovery"]
+  },
+  {
+    unicode: "💕",
+    name: "Two Hearts",
+    slug: "two-hearts",
+    shortMeaning: "Two hearts together - love and affection.",
+    detailedMeaning: "Two Hearts shows two pink hearts, representing love between two people, mutual affection, and romantic feelings.\n\nUsed for expressing mutual love, cute affection, and romantic messages.",
+    usageContexts: ["Love", "Couple", "Affection", "Cute", "Together"],
+    examples: [
+      { context: "Couple", text: "Us forever 💕" },
+      { context: "Love", text: "Love you 💕" },
+      { context: "Cute", text: "So cute 💕" }
+    ],
+    misunderstandings: ["Clear romantic meaning"],
+    relatedEmojis: ["red-heart", "revolving-hearts", "heart-with-arrow"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["two", "hearts", "love", "couple", "together"]
+  },
+  {
+    unicode: "💞",
+    name: "Revolving Hearts",
+    slug: "revolving-hearts",
+    shortMeaning: "Hearts revolving around each other.",
+    detailedMeaning: "Revolving Hearts shows two hearts circling each other, representing mutual love and reciprocal feelings.\n\nUsed for expressing mutual love and the feeling of being in love.",
+    usageContexts: ["Mutual love", "In love", "Reciprocal", "Romance", "Together"],
+    examples: [
+      { context: "In love", text: "Falling for you 💞" },
+      { context: "Mutual", text: "We match 💞" },
+      { context: "Romance", text: "Love you too 💞" }
+    ],
+    misunderstandings: ["Romantic context"],
+    relatedEmojis: ["two-hearts", "beating-heart", "sparkling-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["revolving", "hearts", "mutual", "love", "together"]
+  },
+  {
+    unicode: "💓",
+    name: "Beating Heart",
+    slug: "beating-heart",
+    shortMeaning: "A heart beating with excitement.",
+    detailedMeaning: "The Beating Heart shows a heart with vibration lines, representing a pounding heart from excitement, love, or nervousness.\n\nUsed for expressing excitement, love, and heart-racing moments.",
+    usageContexts: ["Excitement", "Love", "Nervous", "Anticipation", "Heart racing"],
+    examples: [
+      { context: "Excited", text: "Heart is racing 💓" },
+      { context: "Love", text: "My heart beats for you 💓" },
+      { context: "Nervous", text: "So nervous 💓" }
+    ],
+    misunderstandings: ["Clear heart/love meaning"],
+    relatedEmojis: ["growing-heart", "sparkling-heart", "red-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["beating", "heart", "excited", "love", "pulse"]
+  },
+  {
+    unicode: "💗",
+    name: "Growing Heart",
+    slug: "growing-heart",
+    shortMeaning: "A heart growing larger with love.",
+    detailedMeaning: "The Growing Heart shows concentric hearts getting bigger, representing growing love, affection, and overflowing feelings.\n\nUsed for expressing increasing love and overwhelming affection.",
+    usageContexts: ["Growing love", "Affection", "Overwhelming", "More", "Expanding"],
+    examples: [
+      { context: "Love", text: "Love you more 💗" },
+      { context: "Growing", text: "My heart is full 💗" },
+      { context: "Affection", text: "So much love 💗" }
+    ],
+    misunderstandings: ["Clear growing love meaning"],
+    relatedEmojis: ["beating-heart", "sparkling-heart", "red-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["growing", "heart", "love", "expanding", "more"]
+  },
+  {
+    unicode: "💖",
+    name: "Sparkling Heart",
+    slug: "sparkling-heart",
+    shortMeaning: "A pink heart with sparkles.",
+    detailedMeaning: "The Sparkling Heart shows a heart with sparkle effects, representing magical love, excitement, and special affection.\n\nUsed for expressing extra-special love and magical feelings.",
+    usageContexts: ["Special love", "Magical", "Sparkle", "Affection", "Cute"],
+    examples: [
+      { context: "Special", text: "You're special 💖" },
+      { context: "Love", text: "Magical love 💖" },
+      { context: "Cute", text: "So adorable 💖" }
+    ],
+    misunderstandings: ["Very positive meaning"],
+    relatedEmojis: ["growing-heart", "sparkles", "red-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["sparkling", "heart", "love", "magical", "special"]
+  },
+  {
+    unicode: "💘",
+    name: "Heart with Arrow",
+    slug: "heart-with-arrow",
+    shortMeaning: "Heart pierced by Cupid's arrow.",
+    detailedMeaning: "The Heart with Arrow shows Cupid's arrow through a heart, representing falling in love, Valentine's Day, and being struck by love.\n\nUsed for Valentine's Day, expressing that you've fallen for someone.",
+    usageContexts: ["Valentine", "Cupid", "Falling in love", "Struck", "Romance"],
+    examples: [
+      { context: "Valentine", text: "Happy Valentine's 💘" },
+      { context: "Love", text: "Struck by love 💘" },
+      { context: "Falling", text: "Fell for you 💘" }
+    ],
+    misunderstandings: ["Very romantic meaning"],
+    relatedEmojis: ["red-heart", "cupid", "valentine"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "arrow", "cupid", "valentine", "love"]
+  },
+  {
+    unicode: "💝",
+    name: "Heart with Ribbon",
+    slug: "heart-with-ribbon",
+    shortMeaning: "A heart-shaped gift box.",
+    detailedMeaning: "The Heart with Ribbon shows a heart-shaped gift box, representing gift of love, Valentine's presents, and romantic gifts.\n\nUsed for gift-giving occasions, Valentine's Day, and romantic presents.",
+    usageContexts: ["Gift", "Valentine", "Present", "Love", "Special"],
+    examples: [
+      { context: "Gift", text: "For you 💝" },
+      { context: "Valentine", text: "Valentine's gift 💝" },
+      { context: "Special", text: "Something special 💝" }
+    ],
+    misunderstandings: ["Gift/present context"],
+    relatedEmojis: ["gift", "red-heart", "ribbon"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "ribbon", "gift", "present", "valentine"]
+  },
+  // ARROWS
+  {
+    unicode: "⬆️",
+    name: "Up Arrow",
+    slug: "up-arrow",
+    shortMeaning: "Arrow pointing up - increase or upward.",
+    detailedMeaning: "The Up Arrow points upward, representing increase, improvement, or upward direction.\n\nUsed for indicating growth, pointing up, or expressing improvement.",
+    usageContexts: ["Up", "Increase", "Growth", "Improve", "Direction"],
+    examples: [
+      { context: "Growth", text: "Numbers are up ⬆️" },
+      { context: "Improve", text: "Leveling up ⬆️" },
+      { context: "Direction", text: "Look up ⬆️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["down-arrow", "right-arrow", "chart-increasing"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["up", "arrow", "increase", "rise", "growth"]
+  },
+  {
+    unicode: "⬇️",
+    name: "Down Arrow",
+    slug: "down-arrow",
+    shortMeaning: "Arrow pointing down - decrease or downward.",
+    detailedMeaning: "The Down Arrow points downward, representing decrease, decline, or downward direction.\n\nUsed for indicating decrease, pointing down, or downloading.",
+    usageContexts: ["Down", "Decrease", "Download", "Drop", "Direction"],
+    examples: [
+      { context: "Download", text: "Download below ⬇️" },
+      { context: "Decrease", text: "Prices dropped ⬇️" },
+      { context: "Direction", text: "Scroll down ⬇️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["up-arrow", "right-arrow", "chart-decreasing"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["down", "arrow", "decrease", "drop", "download"]
+  },
+  {
+    unicode: "⬅️",
+    name: "Left Arrow",
+    slug: "left-arrow",
+    shortMeaning: "Arrow pointing left - back or previous.",
+    detailedMeaning: "The Left Arrow points left, representing going back, previous, or leftward direction.\n\nUsed for indicating back, previous content, or left direction.",
+    usageContexts: ["Back", "Previous", "Left", "Return", "Direction"],
+    examples: [
+      { context: "Back", text: "Go back ⬅️" },
+      { context: "Previous", text: "Previous slide ⬅️" },
+      { context: "Direction", text: "This way ⬅️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["right-arrow", "up-arrow", "back-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["left", "arrow", "back", "previous", "return"]
+  },
+  {
+    unicode: "↗️",
+    name: "Up-Right Arrow",
+    slug: "up-right-arrow",
+    shortMeaning: "Arrow pointing up and to the right.",
+    detailedMeaning: "The Up-Right Arrow points diagonally, often representing growth, progress, or external links.\n\nUsed for indicating growth, external links, and positive trends.",
+    usageContexts: ["Growth", "External link", "Progress", "Trend", "Positive"],
+    examples: [
+      { context: "Growth", text: "Trending up ↗️" },
+      { context: "Link", text: "Learn more ↗️" },
+      { context: "Progress", text: "Moving forward ↗️" }
+    ],
+    misunderstandings: ["Often means external link"],
+    relatedEmojis: ["up-arrow", "right-arrow", "chart-increasing"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["up-right", "arrow", "growth", "external", "link"]
+  },
+  {
+    unicode: "↩️",
+    name: "Right Arrow Curving Left",
+    slug: "right-arrow-curving-left",
+    shortMeaning: "Arrow curving back - reply or return.",
+    detailedMeaning: "This curved arrow represents replying, returning, or going back. It's commonly used as a reply symbol.\n\nUsed for replies, undo actions, and going back.",
+    usageContexts: ["Reply", "Return", "Undo", "Back", "Response"],
+    examples: [
+      { context: "Reply", text: "Replying ↩️" },
+      { context: "Return", text: "Going back ↩️" },
+      { context: "Undo", text: "Undo that ↩️" }
+    ],
+    misunderstandings: ["Clear reply/return meaning"],
+    relatedEmojis: ["left-arrow", "back-arrow", "repeat"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["reply", "return", "back", "undo", "curve"]
+  },
+  {
+    unicode: "🔄",
+    name: "Counterclockwise Arrows Button",
+    slug: "counterclockwise-arrows-button",
+    shortMeaning: "Circular arrows - refresh or repeat.",
+    detailedMeaning: "The Counterclockwise Arrows represent refreshing, repeating, or cycling through something.\n\nUsed for refresh actions, repeating content, and cycles.",
+    usageContexts: ["Refresh", "Repeat", "Cycle", "Reload", "Again"],
+    examples: [
+      { context: "Refresh", text: "Refreshing 🔄" },
+      { context: "Repeat", text: "On repeat 🔄" },
+      { context: "Reload", text: "Reload page 🔄" }
+    ],
+    misunderstandings: ["Clear refresh/repeat meaning"],
+    relatedEmojis: ["repeat-button", "arrows", "cycle"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["refresh", "repeat", "cycle", "reload", "arrows"]
+  },
+  // ZODIAC
+  {
+    unicode: "♈",
+    name: "Aries",
+    slug: "aries",
+    shortMeaning: "Aries zodiac sign - The Ram.",
+    detailedMeaning: "Aries is the first zodiac sign (March 21 - April 19), represented by the Ram. Aries are known for being bold, ambitious, and competitive.\n\nUsed by Aries individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Aries", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Aries season ♈" },
+      { context: "Identity", text: "Proud Aries ♈" },
+      { context: "Astrology", text: "Aries energy ♈" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["taurus", "star", "fire"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["aries", "zodiac", "ram", "astrology", "fire sign"]
+  },
+  {
+    unicode: "♉",
+    name: "Taurus",
+    slug: "taurus",
+    shortMeaning: "Taurus zodiac sign - The Bull.",
+    detailedMeaning: "Taurus is the second zodiac sign (April 20 - May 20), represented by the Bull. Taurus are known for being reliable, patient, and practical.\n\nUsed by Taurus individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Taurus", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Taurus season ♉" },
+      { context: "Identity", text: "Stubborn Taurus ♉" },
+      { context: "Astrology", text: "Earth sign vibes ♉" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["aries", "gemini", "earth"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["taurus", "zodiac", "bull", "astrology", "earth sign"]
+  },
+  {
+    unicode: "♊",
+    name: "Gemini",
+    slug: "gemini",
+    shortMeaning: "Gemini zodiac sign - The Twins.",
+    detailedMeaning: "Gemini is the third zodiac sign (May 21 - June 20), represented by the Twins. Geminis are known for being adaptable, curious, and communicative.\n\nUsed by Gemini individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Gemini", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Gemini season ♊" },
+      { context: "Identity", text: "Two-faced Gemini ♊" },
+      { context: "Astrology", text: "Air sign energy ♊" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["taurus", "cancer", "air"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["gemini", "zodiac", "twins", "astrology", "air sign"]
+  },
+  {
+    unicode: "♋",
+    name: "Cancer",
+    slug: "cancer",
+    shortMeaning: "Cancer zodiac sign - The Crab.",
+    detailedMeaning: "Cancer is the fourth zodiac sign (June 21 - July 22), represented by the Crab. Cancers are known for being emotional, nurturing, and protective.\n\nUsed by Cancer individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Cancer", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Cancer season ♋" },
+      { context: "Identity", text: "Emotional Cancer ♋" },
+      { context: "Astrology", text: "Water sign feels ♋" }
+    ],
+    misunderstandings: ["Astrological context, not the disease"],
+    relatedEmojis: ["gemini", "leo", "crab"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["cancer", "zodiac", "crab", "astrology", "water sign"]
+  },
+  {
+    unicode: "♌",
+    name: "Leo",
+    slug: "leo",
+    shortMeaning: "Leo zodiac sign - The Lion.",
+    detailedMeaning: "Leo is the fifth zodiac sign (July 23 - August 22), represented by the Lion. Leos are known for being confident, dramatic, and natural leaders.\n\nUsed by Leo individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Leo", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Leo season ♌" },
+      { context: "Identity", text: "King Leo ♌" },
+      { context: "Astrology", text: "Fire sign energy ♌" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["cancer", "virgo", "lion"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["leo", "zodiac", "lion", "astrology", "fire sign"]
+  },
+  {
+    unicode: "♍",
+    name: "Virgo",
+    slug: "virgo",
+    shortMeaning: "Virgo zodiac sign - The Maiden.",
+    detailedMeaning: "Virgo is the sixth zodiac sign (August 23 - September 22), represented by the Maiden. Virgos are known for being analytical, practical, and detail-oriented.\n\nUsed by Virgo individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Virgo", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Virgo season ♍" },
+      { context: "Identity", text: "Perfectionist Virgo ♍" },
+      { context: "Astrology", text: "Earth sign vibes ♍" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["leo", "libra", "earth"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["virgo", "zodiac", "maiden", "astrology", "earth sign"]
+  },
+  {
+    unicode: "♎",
+    name: "Libra",
+    slug: "libra",
+    shortMeaning: "Libra zodiac sign - The Scales.",
+    detailedMeaning: "Libra is the seventh zodiac sign (September 23 - October 22), represented by the Scales. Libras are known for being diplomatic, fair-minded, and social.\n\nUsed by Libra individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Libra", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Libra season ♎" },
+      { context: "Identity", text: "Balanced Libra ♎" },
+      { context: "Astrology", text: "Air sign energy ♎" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["virgo", "scorpio", "balance-scale"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["libra", "zodiac", "scales", "astrology", "air sign"]
+  },
+  {
+    unicode: "♏",
+    name: "Scorpio",
+    slug: "scorpio",
+    shortMeaning: "Scorpio zodiac sign - The Scorpion.",
+    detailedMeaning: "Scorpio is the eighth zodiac sign (October 23 - November 21), represented by the Scorpion. Scorpios are known for being passionate, determined, and mysterious.\n\nUsed by Scorpio individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Scorpio", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Scorpio season ♏" },
+      { context: "Identity", text: "Intense Scorpio ♏" },
+      { context: "Astrology", text: "Water sign vibes ♏" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["libra", "sagittarius", "scorpion"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["scorpio", "zodiac", "scorpion", "astrology", "water sign"]
+  },
+  {
+    unicode: "♐",
+    name: "Sagittarius",
+    slug: "sagittarius",
+    shortMeaning: "Sagittarius zodiac sign - The Archer.",
+    detailedMeaning: "Sagittarius is the ninth zodiac sign (November 22 - December 21), represented by the Archer. Sagittarians are known for being adventurous, optimistic, and freedom-loving.\n\nUsed by Sagittarius individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Sagittarius", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Sagittarius season ♐" },
+      { context: "Identity", text: "Adventurous Sag ♐" },
+      { context: "Astrology", text: "Fire sign energy ♐" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["scorpio", "capricorn", "bow-and-arrow"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["sagittarius", "zodiac", "archer", "astrology", "fire sign"]
+  },
+  {
+    unicode: "♑",
+    name: "Capricorn",
+    slug: "capricorn",
+    shortMeaning: "Capricorn zodiac sign - The Sea-Goat.",
+    detailedMeaning: "Capricorn is the tenth zodiac sign (December 22 - January 19), represented by the Sea-Goat. Capricorns are known for being disciplined, ambitious, and practical.\n\nUsed by Capricorn individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Capricorn", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Capricorn season ♑" },
+      { context: "Identity", text: "Hardworking Cap ♑" },
+      { context: "Astrology", text: "Earth sign vibes ♑" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["sagittarius", "aquarius", "goat"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["capricorn", "zodiac", "goat", "astrology", "earth sign"]
+  },
+  {
+    unicode: "♒",
+    name: "Aquarius",
+    slug: "aquarius",
+    shortMeaning: "Aquarius zodiac sign - The Water Bearer.",
+    detailedMeaning: "Aquarius is the eleventh zodiac sign (January 20 - February 18), represented by the Water Bearer. Aquarians are known for being independent, progressive, and humanitarian.\n\nUsed by Aquarius individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Aquarius", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Aquarius season ♒" },
+      { context: "Identity", text: "Unique Aquarius ♒" },
+      { context: "Astrology", text: "Air sign energy ♒" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["capricorn", "pisces", "water"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["aquarius", "zodiac", "water bearer", "astrology", "air sign"]
+  },
+  {
+    unicode: "♓",
+    name: "Pisces",
+    slug: "pisces",
+    shortMeaning: "Pisces zodiac sign - The Fish.",
+    detailedMeaning: "Pisces is the twelfth zodiac sign (February 19 - March 20), represented by the Fish. Pisces are known for being intuitive, artistic, and compassionate.\n\nUsed by Pisces individuals and in astrology discussions.",
+    usageContexts: ["Zodiac", "Astrology", "Pisces", "Horoscope", "Birthday"],
+    examples: [
+      { context: "Zodiac", text: "Pisces season ♓" },
+      { context: "Identity", text: "Dreamy Pisces ♓" },
+      { context: "Astrology", text: "Water sign feels ♓" }
+    ],
+    misunderstandings: ["Astrological context"],
+    relatedEmojis: ["aquarius", "aries", "fish"],
+    categorySlug: "symbols",
+    subgroup: "zodiac",
+    keywords: ["pisces", "zodiac", "fish", "astrology", "water sign"]
+  },
+  // WARNING & INFORMATION SYMBOLS
+  {
+    unicode: "⚠️",
+    name: "Warning",
+    slug: "warning",
+    shortMeaning: "Yellow warning triangle - caution!",
+    detailedMeaning: "The Warning symbol is a yellow triangle with an exclamation mark, indicating caution, hazard, or important alerts.\n\nUsed for warnings, safety alerts, and important cautions.",
+    usageContexts: ["Warning", "Caution", "Alert", "Danger", "Important"],
+    examples: [
+      { context: "Caution", text: "Be careful ⚠️" },
+      { context: "Alert", text: "Warning ⚠️" },
+      { context: "Important", text: "Read this first ⚠️" }
+    ],
+    misunderstandings: ["Clear warning meaning"],
+    relatedEmojis: ["exclamation-mark", "no-entry", "stop-sign"],
+    categorySlug: "symbols",
+    subgroup: "warning",
+    keywords: ["warning", "caution", "alert", "danger", "hazard"]
+  },
+  {
+    unicode: "🚫",
+    name: "Prohibited",
+    slug: "prohibited",
+    shortMeaning: "Red circle with line - not allowed.",
+    detailedMeaning: "The Prohibited symbol shows a red circle with a diagonal line, indicating something is not allowed or forbidden.\n\nUsed for expressing prohibition, rejection, and things that are not allowed.",
+    usageContexts: ["Not allowed", "Forbidden", "Reject", "Ban", "Stop"],
+    examples: [
+      { context: "Forbidden", text: "Not allowed 🚫" },
+      { context: "Reject", text: "Nope 🚫" },
+      { context: "Ban", text: "No smoking 🚫" }
+    ],
+    misunderstandings: ["Clear prohibition meaning"],
+    relatedEmojis: ["no-entry", "cross-mark", "stop-sign"],
+    categorySlug: "symbols",
+    subgroup: "warning",
+    keywords: ["prohibited", "not allowed", "forbidden", "ban", "no"]
+  },
+  {
+    unicode: "⛔",
+    name: "No Entry",
+    slug: "no-entry",
+    shortMeaning: "Red no entry sign - do not enter.",
+    detailedMeaning: "The No Entry sign is a solid red circle, indicating that entry is not permitted.\n\nUsed for no entry, off limits, and forbidden access.",
+    usageContexts: ["No entry", "Off limits", "Forbidden", "Stop", "Private"],
+    examples: [
+      { context: "Private", text: "Off limits ⛔" },
+      { context: "Stop", text: "Do not enter ⛔" },
+      { context: "Forbidden", text: "Keep out ⛔" }
+    ],
+    misunderstandings: ["Clear no entry meaning"],
+    relatedEmojis: ["prohibited", "stop-sign", "warning"],
+    categorySlug: "symbols",
+    subgroup: "warning",
+    keywords: ["no entry", "stop", "forbidden", "off limits", "private"]
+  },
+  {
+    unicode: "🛑",
+    name: "Stop Sign",
+    slug: "stop-sign",
+    shortMeaning: "Red octagon stop sign.",
+    detailedMeaning: "The Stop Sign is the classic red octagon, indicating to stop immediately.\n\nUsed for stopping, pausing, and demanding attention.",
+    usageContexts: ["Stop", "Halt", "Pause", "Wait", "Attention"],
+    examples: [
+      { context: "Stop", text: "Stop right there 🛑" },
+      { context: "Halt", text: "Hold on 🛑" },
+      { context: "Attention", text: "Wait 🛑" }
+    ],
+    misunderstandings: ["Clear stop meaning"],
+    relatedEmojis: ["no-entry", "prohibited", "warning"],
+    categorySlug: "symbols",
+    subgroup: "warning",
+    keywords: ["stop", "sign", "halt", "wait", "red"]
+  },
+  {
+    unicode: "🔞",
+    name: "No One Under Eighteen",
+    slug: "no-one-under-eighteen",
+    shortMeaning: "18+ age restriction symbol.",
+    detailedMeaning: "This symbol indicates content is restricted to adults 18 years and older.\n\nUsed for adult content warnings and age restrictions.",
+    usageContexts: ["Adult", "18+", "Mature", "Restricted", "Age limit"],
+    examples: [
+      { context: "Adult", text: "Adults only 🔞" },
+      { context: "Warning", text: "Mature content 🔞" },
+      { context: "Restrict", text: "18+ 🔞" }
+    ],
+    misunderstandings: ["Clear adult content meaning"],
+    relatedEmojis: ["prohibited", "warning", "adult"],
+    categorySlug: "symbols",
+    subgroup: "warning",
+    keywords: ["18", "adult", "mature", "restricted", "age"]
+  },
+  {
+    unicode: "ℹ️",
+    name: "Information",
+    slug: "information",
+    shortMeaning: "Information symbol - learn more.",
+    detailedMeaning: "The Information symbol indicates additional information is available.\n\nUsed for sharing info, help sections, and additional details.",
+    usageContexts: ["Info", "Help", "Details", "Learn", "About"],
+    examples: [
+      { context: "Info", text: "More info ℹ️" },
+      { context: "Help", text: "Need help? ℹ️" },
+      { context: "Details", text: "Details here ℹ️" }
+    ],
+    misunderstandings: ["Clear information meaning"],
+    relatedEmojis: ["question-mark", "help", "book"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["information", "info", "help", "details", "about"]
+  },
+  {
+    unicode: "🆘",
+    name: "SOS Button",
+    slug: "sos-button",
+    shortMeaning: "SOS emergency signal.",
+    detailedMeaning: "The SOS Button represents an emergency distress signal, indicating urgent help is needed.\n\nUsed for emergencies, urgent help requests, and SOS situations.",
+    usageContexts: ["Emergency", "Help", "Urgent", "Distress", "SOS"],
+    examples: [
+      { context: "Emergency", text: "Help needed 🆘" },
+      { context: "Urgent", text: "SOS 🆘" },
+      { context: "Distress", text: "Urgent situation 🆘" }
+    ],
+    misunderstandings: ["Should be used for actual urgency"],
+    relatedEmojis: ["warning", "exclamation-mark", "ambulance"],
+    categorySlug: "symbols",
+    subgroup: "alphanum",
+    keywords: ["SOS", "emergency", "help", "urgent", "distress"]
+  },
+  {
+    unicode: "🆕",
+    name: "NEW Button",
+    slug: "new-button",
+    shortMeaning: "NEW label - something fresh.",
+    detailedMeaning: "The NEW Button indicates something is new, fresh, or recently added.\n\nUsed for announcing new content, products, or features.",
+    usageContexts: ["New", "Fresh", "Recent", "Launch", "Update"],
+    examples: [
+      { context: "Product", text: "New release 🆕" },
+      { context: "Content", text: "Just added 🆕" },
+      { context: "Feature", text: "New feature 🆕" }
+    ],
+    misunderstandings: ["Clear new meaning"],
+    relatedEmojis: ["sparkles", "star", "announcement"],
+    categorySlug: "symbols",
+    subgroup: "alphanum",
+    keywords: ["new", "fresh", "recent", "launch", "update"]
+  },
+  {
+    unicode: "🆓",
+    name: "FREE Button",
+    slug: "free-button",
+    shortMeaning: "FREE label - no cost.",
+    detailedMeaning: "The FREE Button indicates something is available at no cost.\n\nUsed for free offers, promotions, and no-cost items.",
+    usageContexts: ["Free", "No cost", "Gratis", "Offer", "Promo"],
+    examples: [
+      { context: "Offer", text: "Get it free 🆓" },
+      { context: "Promo", text: "Free shipping 🆓" },
+      { context: "Deal", text: "Free download 🆓" }
+    ],
+    misunderstandings: ["Clear free meaning"],
+    relatedEmojis: ["money-bag", "gift", "tag"],
+    categorySlug: "symbols",
+    subgroup: "alphanum",
+    keywords: ["free", "gratis", "no cost", "offer", "promo"]
+  },
+  {
+    unicode: "🔴",
+    name: "Red Circle",
+    slug: "red-circle",
+    shortMeaning: "A red circle.",
+    detailedMeaning: "The Red Circle can represent live streaming, recording, or a simple marker.\n\nUsed for live indicators, recording, and attention markers.",
+    usageContexts: ["Live", "Recording", "Marker", "Stop", "Alert"],
+    examples: [
+      { context: "Live", text: "Going live 🔴" },
+      { context: "Record", text: "Recording 🔴" },
+      { context: "Alert", text: "Important 🔴" }
+    ],
+    misunderstandings: ["Often means live streaming"],
+    relatedEmojis: ["blue-circle", "green-circle", "record"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["red", "circle", "live", "recording", "alert"]
+  },
+  {
+    unicode: "🟢",
+    name: "Green Circle",
+    slug: "green-circle",
+    shortMeaning: "A green circle.",
+    detailedMeaning: "The Green Circle often represents online status, go signal, or approval.\n\nUsed for online indicators, approval, and green lights.",
+    usageContexts: ["Online", "Go", "Approved", "Active", "Available"],
+    examples: [
+      { context: "Online", text: "I'm online 🟢" },
+      { context: "Go", text: "Green light 🟢" },
+      { context: "Active", text: "Available 🟢" }
+    ],
+    misunderstandings: ["Often means online/available"],
+    relatedEmojis: ["red-circle", "check-mark", "available"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["green", "circle", "online", "go", "available"]
+  },
+  {
+    unicode: "🔵",
+    name: "Blue Circle",
+    slug: "blue-circle",
+    shortMeaning: "A blue circle.",
+    detailedMeaning: "The Blue Circle can represent status, markers, or simply the color blue.\n\nUsed for status indicators, markers, and blue themes.",
+    usageContexts: ["Status", "Marker", "Blue", "Indicator", "Theme"],
+    examples: [
+      { context: "Status", text: "Status update 🔵" },
+      { context: "Theme", text: "Blue vibes 🔵" },
+      { context: "Marker", text: "Mark this 🔵" }
+    ],
+    misunderstandings: ["General marker"],
+    relatedEmojis: ["red-circle", "green-circle", "blue-heart"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["blue", "circle", "marker", "status", "indicator"]
+  },
+  {
+    unicode: "⚪",
+    name: "White Circle",
+    slug: "white-circle",
+    shortMeaning: "A white circle.",
+    detailedMeaning: "The White Circle represents neutrality, empty status, or a simple marker.\n\nUsed for neutral status, empty indicators, and markers.",
+    usageContexts: ["Neutral", "Empty", "Marker", "Clean", "Simple"],
+    examples: [
+      { context: "Empty", text: "Slot available ⚪" },
+      { context: "Neutral", text: "Neutral status ⚪" },
+      { context: "Clean", text: "Clean slate ⚪" }
+    ],
+    misunderstandings: ["Neutral marker"],
+    relatedEmojis: ["black-circle", "red-circle", "white-heart"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["white", "circle", "neutral", "empty", "clean"]
+  },
+  {
+    unicode: "⚫",
+    name: "Black Circle",
+    slug: "black-circle",
+    shortMeaning: "A black circle.",
+    detailedMeaning: "The Black Circle can represent a bullet point, marker, or dark theme.\n\nUsed for bullet points, markers, and dark aesthetic.",
+    usageContexts: ["Bullet", "Marker", "Dark", "Point", "List"],
+    examples: [
+      { context: "List", text: "Point one ⚫" },
+      { context: "Dark", text: "Dark mode ⚫" },
+      { context: "Marker", text: "Mark here ⚫" }
+    ],
+    misunderstandings: ["General marker"],
+    relatedEmojis: ["white-circle", "black-heart", "record-button"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["black", "circle", "bullet", "marker", "dark"]
+  },
+  // MORE SYMBOLS
+  {
+    unicode: "♻️",
+    name: "Recycling Symbol",
+    slug: "recycling-symbol",
+    shortMeaning: "Recycling symbol - environmental awareness.",
+    detailedMeaning: "The Recycling Symbol represents recycling, sustainability, and environmental consciousness.\n\nUsed for environmental topics, sustainability, and recycling discussions.",
+    usageContexts: ["Recycle", "Environment", "Sustainable", "Green", "Eco"],
+    examples: [
+      { context: "Recycle", text: "Please recycle ♻️" },
+      { context: "Eco", text: "Eco-friendly ♻️" },
+      { context: "Green", text: "Sustainable choice ♻️" }
+    ],
+    misunderstandings: ["Clear environmental meaning"],
+    relatedEmojis: ["earth", "seedling", "green-heart"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["recycle", "environment", "green", "eco", "sustainable"]
+  },
+  {
+    unicode: "☮️",
+    name: "Peace Symbol",
+    slug: "peace-symbol",
+    shortMeaning: "Peace symbol - peace and love.",
+    detailedMeaning: "The Peace Symbol represents peace, anti-war sentiment, and harmony.\n\nUsed for peace messages, hippie culture, and harmony themes.",
+    usageContexts: ["Peace", "Harmony", "Love", "Hippie", "Anti-war"],
+    examples: [
+      { context: "Peace", text: "Peace and love ☮️" },
+      { context: "Harmony", text: "Choose peace ☮️" },
+      { context: "Vibes", text: "Peaceful vibes ☮️" }
+    ],
+    misunderstandings: ["Clear peace meaning"],
+    relatedEmojis: ["dove", "white-flag", "rainbow"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["peace", "symbol", "love", "harmony", "hippie"]
+  },
+  {
+    unicode: "☯️",
+    name: "Yin Yang",
+    slug: "yin-yang",
+    shortMeaning: "Yin Yang symbol - balance and duality.",
+    detailedMeaning: "The Yin Yang represents balance, harmony, and the duality of opposite forces.\n\nUsed for balance themes, Eastern philosophy, and harmony discussions.",
+    usageContexts: ["Balance", "Harmony", "Philosophy", "Duality", "Eastern"],
+    examples: [
+      { context: "Balance", text: "Finding balance ☯️" },
+      { context: "Harmony", text: "Harmony in life ☯️" },
+      { context: "Philosophy", text: "Zen vibes ☯️" }
+    ],
+    misunderstandings: ["Eastern philosophical meaning"],
+    relatedEmojis: ["peace-symbol", "om", "lotus"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["yin yang", "balance", "harmony", "duality", "zen"]
+  },
+  {
+    unicode: "✝️",
+    name: "Latin Cross",
+    slug: "latin-cross",
+    shortMeaning: "Christian cross symbol.",
+    detailedMeaning: "The Latin Cross is the primary symbol of Christianity, representing faith and Jesus Christ.\n\nUsed for Christian content, faith discussions, and religious themes.",
+    usageContexts: ["Christianity", "Faith", "Religion", "Church", "Pray"],
+    examples: [
+      { context: "Faith", text: "Blessed ✝️" },
+      { context: "Church", text: "Sunday service ✝️" },
+      { context: "Pray", text: "Prayers up ✝️" }
+    ],
+    misunderstandings: ["Christian religious symbol"],
+    relatedEmojis: ["church", "pray", "angel"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["cross", "christian", "faith", "religion", "Jesus"]
+  },
+  {
+    unicode: "☪️",
+    name: "Star and Crescent",
+    slug: "star-and-crescent",
+    shortMeaning: "Islamic symbol - star and crescent moon.",
+    detailedMeaning: "The Star and Crescent is associated with Islam, representing the Muslim faith.\n\nUsed for Islamic content, Ramadan, and Muslim community discussions.",
+    usageContexts: ["Islam", "Muslim", "Ramadan", "Faith", "Religion"],
+    examples: [
+      { context: "Ramadan", text: "Ramadan Mubarak ☪️" },
+      { context: "Faith", text: "Blessed ☪️" },
+      { context: "Muslim", text: "Islamic art ☪️" }
+    ],
+    misunderstandings: ["Islamic religious symbol"],
+    relatedEmojis: ["mosque", "crescent-moon", "pray"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["islam", "muslim", "star", "crescent", "ramadan"]
+  },
+  {
+    unicode: "🕉️",
+    name: "Om",
+    slug: "om",
+    shortMeaning: "Om symbol - Hindu and Buddhist sacred sound.",
+    detailedMeaning: "Om is a sacred sound and spiritual symbol in Hinduism, Buddhism, and other religions, representing the universe.\n\nUsed for spiritual content, meditation, and yoga themes.",
+    usageContexts: ["Hinduism", "Buddhism", "Meditation", "Yoga", "Spiritual"],
+    examples: [
+      { context: "Meditation", text: "Om 🕉️" },
+      { context: "Yoga", text: "Namaste 🕉️" },
+      { context: "Spiritual", text: "Inner peace 🕉️" }
+    ],
+    misunderstandings: ["Sacred religious symbol"],
+    relatedEmojis: ["lotus", "yin-yang", "pray"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["om", "hindu", "buddhist", "meditation", "spiritual"]
+  },
+  {
+    unicode: "✡️",
+    name: "Star of David",
+    slug: "star-of-david",
+    shortMeaning: "Jewish Star of David symbol.",
+    detailedMeaning: "The Star of David is the symbol of Judaism and Jewish identity.\n\nUsed for Jewish content, holidays, and cultural discussions.",
+    usageContexts: ["Judaism", "Jewish", "Israel", "Faith", "Religion"],
+    examples: [
+      { context: "Holiday", text: "Happy Hanukkah ✡️" },
+      { context: "Faith", text: "Jewish pride ✡️" },
+      { context: "Culture", text: "Shabbat Shalom ✡️" }
+    ],
+    misunderstandings: ["Jewish religious symbol"],
+    relatedEmojis: ["synagogue", "menorah", "pray"],
+    categorySlug: "symbols",
+    subgroup: "religion",
+    keywords: ["star of david", "jewish", "judaism", "israel", "faith"]
+  },
+  {
+    unicode: "🎶",
+    name: "Musical Notes",
+    slug: "musical-notes",
+    shortMeaning: "Multiple musical notes - music playing.",
+    detailedMeaning: "Musical Notes show multiple notes, representing music playing, singing, or musical content.\n\nUsed for music content, singing, and musical moods.",
+    usageContexts: ["Music", "Singing", "Song", "Melody", "Playing"],
+    examples: [
+      { context: "Music", text: "Listening to music 🎶" },
+      { context: "Singing", text: "Singing along 🎶" },
+      { context: "Mood", text: "Musical vibes 🎶" }
+    ],
+    misunderstandings: ["Clear music meaning"],
+    relatedEmojis: ["musical-note", "headphones", "microphone"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["music", "notes", "melody", "song", "singing"]
+  },
+  {
+    unicode: "💯",
+    name: "Hundred Points",
+    slug: "hundred-points",
+    shortMeaning: "100 - perfect score or keeping it real.",
+    detailedMeaning: "The Hundred Points emoji represents perfection, keeping it real, and 100% authenticity.\n\nUsed for expressing perfection, agreement, and authenticity.",
+    usageContexts: ["Perfect", "Real", "Authentic", "Agree", "Facts"],
+    examples: [
+      { context: "Perfect", text: "Nailed it 💯" },
+      { context: "Real", text: "Keeping it 💯" },
+      { context: "Agree", text: "Facts 💯" }
+    ],
+    misunderstandings: ["Slang for authentic/real"],
+    relatedEmojis: ["fire", "check-mark", "trophy"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["hundred", "perfect", "real", "authentic", "100"]
+  },
+  {
+    unicode: "💤",
+    name: "Zzz",
+    slug: "zzz",
+    shortMeaning: "Zzz - sleeping or tired.",
+    detailedMeaning: "The Zzz symbol represents sleep, tiredness, or boredom. It's the visual representation of snoring.\n\nUsed for expressing tiredness, going to sleep, or boredom.",
+    usageContexts: ["Sleep", "Tired", "Bored", "Night", "Rest"],
+    examples: [
+      { context: "Sleep", text: "Good night 💤" },
+      { context: "Tired", text: "So sleepy 💤" },
+      { context: "Bored", text: "Boring 💤" }
+    ],
+    misunderstandings: ["Clear sleep meaning"],
+    relatedEmojis: ["sleeping-face", "bed", "moon"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["sleep", "zzz", "tired", "snore", "rest"]
+  },
+  {
+    unicode: "💬",
+    name: "Speech Balloon",
+    slug: "speech-balloon",
+    shortMeaning: "Speech bubble - talking or commenting.",
+    detailedMeaning: "The Speech Balloon represents talking, commenting, or dialogue in comics style.\n\nUsed for comments, conversations, and speaking references.",
+    usageContexts: ["Talk", "Comment", "Chat", "Speak", "Discuss"],
+    examples: [
+      { context: "Comment", text: "Comment below 💬" },
+      { context: "Chat", text: "Let's chat 💬" },
+      { context: "Speak", text: "Speaking up 💬" }
+    ],
+    misunderstandings: ["Clear speech meaning"],
+    relatedEmojis: ["thought-balloon", "left-speech-bubble", "microphone"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["speech", "talk", "comment", "chat", "balloon"]
+  },
+  {
+    unicode: "💭",
+    name: "Thought Balloon",
+    slug: "thought-balloon",
+    shortMeaning: "Thought bubble - thinking or daydreaming.",
+    detailedMeaning: "The Thought Balloon represents thinking, daydreaming, or internal thoughts in comics style.\n\nUsed for expressing thoughts, wondering, and pondering.",
+    usageContexts: ["Think", "Wonder", "Dream", "Ponder", "Imagine"],
+    examples: [
+      { context: "Think", text: "Thinking about 💭" },
+      { context: "Wonder", text: "I wonder 💭" },
+      { context: "Dream", text: "Daydreaming 💭" }
+    ],
+    misunderstandings: ["Clear thought meaning"],
+    relatedEmojis: ["speech-balloon", "thinking-face", "cloud"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["thought", "think", "wonder", "dream", "balloon"]
+  },
+  {
+    unicode: "🔱",
+    name: "Trident Emblem",
+    slug: "trident-emblem",
+    shortMeaning: "Trident symbol - power and the sea.",
+    detailedMeaning: "The Trident is associated with Poseidon/Neptune and represents the sea, power, and maritime themes.\n\nUsed for ocean content, power themes, and mythology references.",
+    usageContexts: ["Sea", "Power", "Poseidon", "Maritime", "Mythology"],
+    examples: [
+      { context: "Sea", text: "Ocean king 🔱" },
+      { context: "Power", text: "Powerful 🔱" },
+      { context: "Myth", text: "Poseidon vibes 🔱" }
+    ],
+    misunderstandings: ["Greek mythology reference"],
+    relatedEmojis: ["ocean", "merman", "water"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["trident", "poseidon", "sea", "power", "neptune"]
+  },
+  {
+    unicode: "⚜️",
+    name: "Fleur-de-lis",
+    slug: "fleur-de-lis",
+    shortMeaning: "Fleur-de-lis symbol - French royalty.",
+    detailedMeaning: "The Fleur-de-lis is a stylized lily associated with French royalty, New Orleans, and scouting.\n\nUsed for French content, New Orleans references, and scouts.",
+    usageContexts: ["French", "Royalty", "New Orleans", "Scouts", "Elegant"],
+    examples: [
+      { context: "French", text: "Vive la France ⚜️" },
+      { context: "NOLA", text: "New Orleans love ⚜️" },
+      { context: "Elegant", text: "Royal vibes ⚜️" }
+    ],
+    misunderstandings: ["French royalty symbol"],
+    relatedEmojis: ["crown", "castle", "french-flag"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["fleur-de-lis", "french", "royalty", "new orleans", "lily"]
+  },
+  {
+    unicode: "©️",
+    name: "Copyright",
+    slug: "copyright",
+    shortMeaning: "Copyright symbol.",
+    detailedMeaning: "The Copyright symbol indicates copyrighted content and intellectual property protection.\n\nUsed for copyright notices and content ownership.",
+    usageContexts: ["Copyright", "Legal", "Ownership", "Rights", "IP"],
+    examples: [
+      { context: "Legal", text: "All rights reserved ©️" },
+      { context: "Content", text: "Copyright 2024 ©️" },
+      { context: "Ownership", text: "Original content ©️" }
+    ],
+    misunderstandings: ["Legal symbol"],
+    relatedEmojis: ["trademark", "registered", "memo"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["copyright", "legal", "rights", "ownership", "IP"]
+  },
+  {
+    unicode: "™️",
+    name: "Trade Mark",
+    slug: "trade-mark",
+    shortMeaning: "Trademark symbol.",
+    detailedMeaning: "The Trademark symbol indicates a trademarked brand, name, or phrase.\n\nUsed for trademark notices and brand references.",
+    usageContexts: ["Trademark", "Brand", "Legal", "Business", "Name"],
+    examples: [
+      { context: "Brand", text: "Brand name™️" },
+      { context: "Joke", text: "That's my thing™️" },
+      { context: "Legal", text: "Trademarked ™️" }
+    ],
+    misunderstandings: ["Often used humorously"],
+    relatedEmojis: ["copyright", "registered", "briefcase"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["trademark", "brand", "legal", "TM", "business"]
+  },
   // FLAGS
   {
     unicode: "🏳️",
