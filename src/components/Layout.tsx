@@ -2,20 +2,16 @@ import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 export const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
-
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       navigate(`/?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
-
-  return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
+  return <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2 font-bold text-xl">
           <span className="emoji text-2xl">📚</span>
@@ -25,13 +21,7 @@ export const Header = () => {
         <form onSubmit={handleSearch} className="flex-1 max-w-md">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <input
-              type="search"
-              placeholder="Search emojis..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring"
-            />
+            <input type="search" placeholder="Search emojis..." value={searchQuery} onChange={e => setSearchQuery(e.target.value)} className="w-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring" />
           </div>
         </form>
 
@@ -40,12 +30,9 @@ export const Header = () => {
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
         </nav>
       </div>
-    </header>
-  );
+    </header>;
 };
-
-export const Footer = () => (
-  <footer className="border-t border-border bg-muted/30 py-8 mt-12">
+export const Footer = () => <footer className="border-t border-border bg-muted/30 py-8 mt-12">
     <div className="container-page">
       <div className="grid gap-8 md:grid-cols-4">
         <div>
@@ -70,35 +57,33 @@ export const Footer = () => (
         </div>
         <div>
           <h4 className="font-medium mb-3">About</h4>
-          <p className="text-sm text-muted-foreground">© 2024 Allemojipedia. All emoji meanings and content provided for educational purposes.</p>
+          <p className="text-sm text-muted-foreground">© 2026 Allemojipedia. All emoji meanings and content provided for educational purposes.</p>
         </div>
       </div>
     </div>
-  </footer>
-);
-
-export const Breadcrumbs = ({ items }: { items: { label: string; href?: string }[] }) => (
-  <nav aria-label="Breadcrumb" className="mb-6">
+  </footer>;
+export const Breadcrumbs = ({
+  items
+}: {
+  items: {
+    label: string;
+    href?: string;
+  }[];
+}) => <nav aria-label="Breadcrumb" className="mb-6">
     <ol className="flex items-center gap-2 text-sm text-muted-foreground" itemScope itemType="https://schema.org/BreadcrumbList">
-      {items.map((item, i) => (
-        <li key={i} className="flex items-center gap-2" itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+      {items.map((item, i) => <li key={i} className="flex items-center gap-2" itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
           {i > 0 && <span>/</span>}
-          {item.href ? (
-            <Link to={item.href} itemProp="item" className="hover:text-foreground"><span itemProp="name">{item.label}</span></Link>
-          ) : (
-            <span itemProp="name" className="text-foreground">{item.label}</span>
-          )}
+          {item.href ? <Link to={item.href} itemProp="item" className="hover:text-foreground"><span itemProp="name">{item.label}</span></Link> : <span itemProp="name" className="text-foreground">{item.label}</span>}
           <meta itemProp="position" content={String(i + 1)} />
-        </li>
-      ))}
+        </li>)}
     </ol>
-  </nav>
-);
-
-export const Layout = ({ children }: { children: React.ReactNode }) => (
-  <div className="min-h-screen flex flex-col">
+  </nav>;
+export const Layout = ({
+  children
+}: {
+  children: React.ReactNode;
+}) => <div className="min-h-screen flex flex-col">
     <Header />
     <main className="flex-1">{children}</main>
     <Footer />
-  </div>
-);
+  </div>;
