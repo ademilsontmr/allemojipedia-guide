@@ -7444,6 +7444,893 @@ export const emojis: Emoji[] = [
     subgroup: "sky-weather",
     keywords: ["sweat", "splash", "water", "workout", "hot"]
   },
+  // MORE PETS
+  {
+    unicode: "🐕",
+    name: "Dog",
+    slug: "dog",
+    shortMeaning: "A full-body dog.",
+    detailedMeaning: "The Dog emoji shows a full-body dog, representing dogs, pets, and man's best friend.\n\nUsed for dog content, walking dogs, and pet appreciation.",
+    usageContexts: ["Dog", "Pet", "Walk", "Loyal", "Friend"],
+    examples: [
+      { context: "Pet", text: "My best friend 🐕" },
+      { context: "Walk", text: "Dog walk time 🐕" },
+      { context: "Love", text: "Dog life 🐕" }
+    ],
+    misunderstandings: ["Clear dog meaning"],
+    relatedEmojis: ["dog-face", "guide-dog", "paw-prints"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["dog", "pet", "puppy", "canine", "loyal"]
+  },
+  {
+    unicode: "🦮",
+    name: "Guide Dog",
+    slug: "guide-dog",
+    shortMeaning: "A guide dog for the visually impaired.",
+    detailedMeaning: "The Guide Dog emoji shows a guide dog with harness, representing service animals and accessibility.\n\nUsed for guide dogs, accessibility discussions, and service animals.",
+    usageContexts: ["Service", "Guide", "Accessibility", "Helper", "Blind"],
+    examples: [
+      { context: "Service", text: "Service dog 🦮" },
+      { context: "Guide", text: "Guide dog 🦮" },
+      { context: "Helper", text: "Best helper 🦮" }
+    ],
+    misunderstandings: ["Specifically guide/service dog"],
+    relatedEmojis: ["dog", "dog-face", "person-with-white-cane"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["guide", "dog", "service", "helper", "accessibility"]
+  },
+  {
+    unicode: "🐕‍🦺",
+    name: "Service Dog",
+    slug: "service-dog",
+    shortMeaning: "A service dog wearing a vest.",
+    detailedMeaning: "The Service Dog emoji shows a dog wearing a service vest, representing trained assistance animals.\n\nUsed for service dogs, working animals, and disability assistance.",
+    usageContexts: ["Service", "Working", "Assistance", "Helper", "Trained"],
+    examples: [
+      { context: "Service", text: "Working dog 🐕‍🦺" },
+      { context: "Help", text: "Service animal 🐕‍🦺" },
+      { context: "Trained", text: "Trained helper 🐕‍🦺" }
+    ],
+    misunderstandings: ["Service/working dog specifically"],
+    relatedEmojis: ["guide-dog", "dog", "dog-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["service", "dog", "working", "vest", "helper"]
+  },
+  {
+    unicode: "🐩",
+    name: "Poodle",
+    slug: "poodle",
+    shortMeaning: "A groomed poodle dog.",
+    detailedMeaning: "The Poodle emoji shows a fancy groomed poodle, representing poodles, fancy dogs, and dog grooming.\n\nUsed for poodle lovers, fancy pets, and grooming content.",
+    usageContexts: ["Poodle", "Fancy", "Groomed", "Elegant", "Dog"],
+    examples: [
+      { context: "Fancy", text: "Fancy puppy 🐩" },
+      { context: "Groomed", text: "Fresh from the groomer 🐩" },
+      { context: "Poodle", text: "Poodle life 🐩" }
+    ],
+    misunderstandings: ["Specifically poodle breed"],
+    relatedEmojis: ["dog-face", "dog", "scissors"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["poodle", "fancy", "groomed", "dog", "elegant"]
+  },
+  {
+    unicode: "🐈",
+    name: "Cat",
+    slug: "cat",
+    shortMeaning: "A full-body cat.",
+    detailedMeaning: "The Cat emoji shows a full-body cat, representing cats, pets, and feline companions.\n\nUsed for cat content, pet appreciation, and feline love.",
+    usageContexts: ["Cat", "Pet", "Feline", "Independent", "Cute"],
+    examples: [
+      { context: "Pet", text: "Cat life 🐈" },
+      { context: "Love", text: "My fur baby 🐈" },
+      { context: "Cat", text: "Cat person 🐈" }
+    ],
+    misunderstandings: ["Clear cat meaning"],
+    relatedEmojis: ["cat-face", "black-cat", "paw-prints"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["cat", "pet", "feline", "kitty", "meow"]
+  },
+  {
+    unicode: "🐈‍⬛",
+    name: "Black Cat",
+    slug: "black-cat",
+    shortMeaning: "A black cat.",
+    detailedMeaning: "The Black Cat emoji shows a black cat, associated with Halloween, superstition, and witches.\n\nUsed for Halloween, superstition, black cats, and spooky vibes.",
+    usageContexts: ["Halloween", "Superstition", "Witchy", "Spooky", "Cat"],
+    examples: [
+      { context: "Halloween", text: "Spooky season 🐈‍⬛" },
+      { context: "Witchy", text: "Witch vibes 🐈‍⬛" },
+      { context: "Pet", text: "My black cat 🐈‍⬛" }
+    ],
+    misunderstandings: ["Superstition associations"],
+    relatedEmojis: ["cat", "jack-o-lantern", "witch"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["black cat", "Halloween", "superstition", "witchy", "spooky"]
+  },
+  {
+    unicode: "🐇",
+    name: "Rabbit",
+    slug: "rabbit",
+    shortMeaning: "A full-body white rabbit.",
+    detailedMeaning: "The Rabbit emoji shows a white rabbit, representing rabbits, Easter, and cuteness.\n\nUsed for Easter, pet rabbits, and cute animal content.",
+    usageContexts: ["Rabbit", "Easter", "Cute", "Pet", "Bunny"],
+    examples: [
+      { context: "Easter", text: "Easter bunny 🐇" },
+      { context: "Pet", text: "Pet rabbit 🐇" },
+      { context: "Cute", text: "So fluffy 🐇" }
+    ],
+    misunderstandings: ["Clear rabbit meaning"],
+    relatedEmojis: ["rabbit-face", "carrot", "egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rabbit", "bunny", "Easter", "pet", "cute"]
+  },
+  {
+    unicode: "🐰",
+    name: "Rabbit Face",
+    slug: "rabbit-face",
+    shortMeaning: "A cute rabbit face.",
+    detailedMeaning: "The Rabbit Face emoji shows an adorable bunny face, representing cuteness, Easter, and innocence.\n\nUsed for cute content, Easter, and expressing innocence.",
+    usageContexts: ["Cute", "Easter", "Innocent", "Bunny", "Adorable"],
+    examples: [
+      { context: "Cute", text: "Bunny face 🐰" },
+      { context: "Easter", text: "Happy Easter 🐰" },
+      { context: "Innocent", text: "Who, me? 🐰" }
+    ],
+    misunderstandings: ["Clear bunny meaning"],
+    relatedEmojis: ["rabbit", "carrot", "egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rabbit", "bunny", "face", "cute", "Easter"]
+  },
+  {
+    unicode: "🐹",
+    name: "Hamster",
+    slug: "hamster",
+    shortMeaning: "A cute hamster face.",
+    detailedMeaning: "The Hamster emoji shows a hamster with chubby cheeks, representing hamsters, small pets, and cuteness.\n\nUsed for small pets, cute animal content, and hoarding jokes.",
+    usageContexts: ["Hamster", "Pet", "Cute", "Small", "Cheeks"],
+    examples: [
+      { context: "Pet", text: "My hamster 🐹" },
+      { context: "Cute", text: "Chubby cheeks 🐹" },
+      { context: "Hoarding", text: "Saving snacks 🐹" }
+    ],
+    misunderstandings: ["Clear hamster meaning"],
+    relatedEmojis: ["mouse", "rat", "wheel"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["hamster", "pet", "cheeks", "cute", "small"]
+  },
+  {
+    unicode: "🐾",
+    name: "Paw Prints",
+    slug: "paw-prints",
+    shortMeaning: "Animal paw prints.",
+    detailedMeaning: "The Paw Prints emoji shows animal footprints, representing pets, animals, and tracking.\n\nUsed for pet content, animal lovers, and furry fandom.",
+    usageContexts: ["Pets", "Animals", "Tracking", "Furry", "Prints"],
+    examples: [
+      { context: "Pet", text: "Pet parent 🐾" },
+      { context: "Love", text: "Animal lover 🐾" },
+      { context: "Track", text: "Following tracks 🐾" }
+    ],
+    misunderstandings: ["Clear paw print meaning"],
+    relatedEmojis: ["dog", "cat", "bear"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["paw", "prints", "pet", "animal", "tracks"]
+  },
+  // MORE WILDLIFE
+  {
+    unicode: "🦁",
+    name: "Lion",
+    slug: "lion",
+    shortMeaning: "A lion face - king of the jungle.",
+    detailedMeaning: "The Lion emoji shows a majestic lion face, representing power, royalty, and the Leo zodiac sign.\n\nUsed for strength, bravery, Leo zodiac, and African wildlife.",
+    usageContexts: ["Power", "Leo", "King", "Brave", "Safari"],
+    examples: [
+      { context: "Strong", text: "King of the jungle 🦁" },
+      { context: "Leo", text: "Leo season 🦁" },
+      { context: "Brave", text: "Brave heart 🦁" }
+    ],
+    misunderstandings: ["Clear lion/Leo meaning"],
+    relatedEmojis: ["tiger", "crown", "leo"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["lion", "king", "Leo", "brave", "mane"]
+  },
+  {
+    unicode: "🐯",
+    name: "Tiger Face",
+    slug: "tiger-face",
+    shortMeaning: "A fierce tiger face.",
+    detailedMeaning: "The Tiger emoji shows a tiger face, representing power, fierceness, and the Chinese zodiac.\n\nUsed for strength, Chinese New Year, and fierce energy.",
+    usageContexts: ["Fierce", "Power", "Chinese zodiac", "Strong", "Wild"],
+    examples: [
+      { context: "Fierce", text: "Eye of the tiger 🐯" },
+      { context: "Strong", text: "Fierce energy 🐯" },
+      { context: "Zodiac", text: "Year of the Tiger 🐯" }
+    ],
+    misunderstandings: ["Clear tiger meaning"],
+    relatedEmojis: ["lion", "leopard", "cat"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["tiger", "fierce", "power", "stripes", "zodiac"]
+  },
+  {
+    unicode: "🐆",
+    name: "Leopard",
+    slug: "leopard",
+    shortMeaning: "A spotted leopard.",
+    detailedMeaning: "The Leopard emoji shows a leopard with spots, representing leopards, cheetahs, and wild cats.\n\nUsed for wild cats, speed (cheetah), and spotted patterns.",
+    usageContexts: ["Leopard", "Spots", "Wild", "Fast", "Safari"],
+    examples: [
+      { context: "Fast", text: "Fast like a leopard 🐆" },
+      { context: "Wild", text: "Wild cat 🐆" },
+      { context: "Pattern", text: "Leopard print 🐆" }
+    ],
+    misunderstandings: ["Can mean leopard or cheetah"],
+    relatedEmojis: ["tiger", "lion", "jaguar"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["leopard", "cheetah", "spots", "fast", "wild"]
+  },
+  {
+    unicode: "🐺",
+    name: "Wolf",
+    slug: "wolf",
+    shortMeaning: "A wolf face.",
+    detailedMeaning: "The Wolf emoji shows a grey wolf face, representing wolves, pack mentality, and wildness.\n\nUsed for wolf content, lone wolf personality, and howling at the moon.",
+    usageContexts: ["Wolf", "Pack", "Lone", "Wild", "Howl"],
+    examples: [
+      { context: "Lone", text: "Lone wolf 🐺" },
+      { context: "Pack", text: "Pack mentality 🐺" },
+      { context: "Howl", text: "Howling at the moon 🐺" }
+    ],
+    misunderstandings: ["Clear wolf meaning"],
+    relatedEmojis: ["fox", "dog", "moon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["wolf", "pack", "lone", "howl", "wild"]
+  },
+  {
+    unicode: "🦊",
+    name: "Fox",
+    slug: "fox",
+    shortMeaning: "A clever fox face.",
+    detailedMeaning: "The Fox emoji shows an orange fox face, representing foxes, cleverness, and cunning.\n\nUsed for cleverness, 'foxy' (attractive), and fox appreciation.",
+    usageContexts: ["Clever", "Foxy", "Cunning", "Cute", "Sly"],
+    examples: [
+      { context: "Clever", text: "Clever like a fox 🦊" },
+      { context: "Foxy", text: "Looking foxy 🦊" },
+      { context: "Cute", text: "So cute 🦊" }
+    ],
+    misunderstandings: ["Foxy can mean attractive"],
+    relatedEmojis: ["wolf", "dog", "raccoon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["fox", "clever", "foxy", "cunning", "orange"]
+  },
+  {
+    unicode: "🦌",
+    name: "Deer",
+    slug: "deer",
+    shortMeaning: "A deer with antlers.",
+    detailedMeaning: "The Deer emoji shows a deer with antlers, representing deer, nature, and grace.\n\nUsed for hunting, forest animals, Christmas (reindeer), and grace.",
+    usageContexts: ["Deer", "Forest", "Hunting", "Grace", "Nature"],
+    examples: [
+      { context: "Forest", text: "Forest friend 🦌" },
+      { context: "Grace", text: "Graceful 🦌" },
+      { context: "Nature", text: "Nature walk 🦌" }
+    ],
+    misunderstandings: ["Clear deer meaning"],
+    relatedEmojis: ["forest", "antlers", "moose"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["deer", "antlers", "forest", "grace", "nature"]
+  },
+  {
+    unicode: "🦬",
+    name: "Bison",
+    slug: "bison",
+    shortMeaning: "An American bison/buffalo.",
+    detailedMeaning: "The Bison emoji shows an American bison, representing the American West, wildlife, and strength.\n\nUsed for American wildlife, Western themes, and strength.",
+    usageContexts: ["Bison", "Buffalo", "American", "West", "Strong"],
+    examples: [
+      { context: "American", text: "American wildlife 🦬" },
+      { context: "West", text: "Wild West 🦬" },
+      { context: "Strong", text: "Strong as a buffalo 🦬" }
+    ],
+    misunderstandings: ["American bison specifically"],
+    relatedEmojis: ["cow", "ox", "bull"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["bison", "buffalo", "American", "west", "strong"]
+  },
+  {
+    unicode: "🐂",
+    name: "Ox",
+    slug: "ox",
+    shortMeaning: "An ox or bull.",
+    detailedMeaning: "The Ox emoji shows an ox, representing strength, stubbornness, and the Chinese zodiac Year of the Ox.\n\nUsed for strength, Chinese New Year, and determination.",
+    usageContexts: ["Ox", "Strong", "Zodiac", "Stubborn", "Work"],
+    examples: [
+      { context: "Zodiac", text: "Year of the Ox 🐂" },
+      { context: "Strong", text: "Strong as an ox 🐂" },
+      { context: "Work", text: "Working hard 🐂" }
+    ],
+    misunderstandings: ["Chinese zodiac animal"],
+    relatedEmojis: ["cow", "bull", "bison"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["ox", "bull", "strong", "zodiac", "work"]
+  },
+  {
+    unicode: "🐄",
+    name: "Cow",
+    slug: "cow",
+    shortMeaning: "A spotted dairy cow.",
+    detailedMeaning: "The Cow emoji shows a black and white dairy cow, representing cows, milk, and farm life.\n\nUsed for farms, dairy, and country life.",
+    usageContexts: ["Cow", "Dairy", "Farm", "Milk", "Country"],
+    examples: [
+      { context: "Farm", text: "Farm life 🐄" },
+      { context: "Dairy", text: "Fresh milk 🐄" },
+      { context: "Country", text: "Country vibes 🐄" }
+    ],
+    misunderstandings: ["Clear cow meaning"],
+    relatedEmojis: ["milk", "cheese", "farm"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["cow", "dairy", "milk", "farm", "spots"]
+  },
+  {
+    unicode: "🐖",
+    name: "Pig",
+    slug: "pig",
+    shortMeaning: "A full-body pig.",
+    detailedMeaning: "The Pig emoji shows a pink pig, representing pigs, farms, and the Chinese zodiac.\n\nUsed for farm animals, Chinese New Year, and eating/indulgence.",
+    usageContexts: ["Pig", "Farm", "Zodiac", "Eating", "Pink"],
+    examples: [
+      { context: "Zodiac", text: "Year of the Pig 🐖" },
+      { context: "Farm", text: "Farm animal 🐖" },
+      { context: "Eating", text: "Pigging out 🐖" }
+    ],
+    misunderstandings: ["Chinese zodiac animal"],
+    relatedEmojis: ["pig-face", "bacon", "farm"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["pig", "pink", "farm", "zodiac", "oink"]
+  },
+  {
+    unicode: "🐑",
+    name: "Ewe",
+    slug: "ewe",
+    shortMeaning: "A fluffy white sheep.",
+    detailedMeaning: "The Ewe emoji shows a white sheep, representing sheep, wool, and gentle nature.\n\nUsed for sheep, counting sheep (sleep), and farm content.",
+    usageContexts: ["Sheep", "Wool", "Sleep", "Farm", "Fluffy"],
+    examples: [
+      { context: "Sleep", text: "Counting sheep 🐑" },
+      { context: "Fluffy", text: "So fluffy 🐑" },
+      { context: "Farm", text: "Farm life 🐑" }
+    ],
+    misunderstandings: ["Clear sheep meaning"],
+    relatedEmojis: ["ram", "goat", "wool"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["sheep", "ewe", "wool", "fluffy", "sleep"]
+  },
+  {
+    unicode: "🐐",
+    name: "Goat",
+    slug: "goat",
+    shortMeaning: "A goat with horns.",
+    detailedMeaning: "The Goat emoji shows a goat, representing actual goats and 'GOAT' (Greatest Of All Time) slang.\n\nUsed for 'GOAT' status, Capricorn zodiac, and farm animals.",
+    usageContexts: ["GOAT", "Capricorn", "Farm", "Greatest", "Stubborn"],
+    examples: [
+      { context: "Greatest", text: "He's the GOAT 🐐" },
+      { context: "Capricorn", text: "Capricorn energy 🐐" },
+      { context: "Farm", text: "Farm goat 🐐" }
+    ],
+    misunderstandings: ["GOAT slang is common"],
+    relatedEmojis: ["trophy", "crown", "sheep"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["goat", "GOAT", "greatest", "Capricorn", "horns"]
+  },
+  {
+    unicode: "🦘",
+    name: "Kangaroo",
+    slug: "kangaroo",
+    shortMeaning: "An Australian kangaroo.",
+    detailedMeaning: "The Kangaroo emoji shows a kangaroo with joey, representing Australia and unique wildlife.\n\nUsed for Australian content, jumping, and carrying (joey in pouch).",
+    usageContexts: ["Australia", "Jumping", "Outback", "Joey", "Wildlife"],
+    examples: [
+      { context: "Australia", text: "Aussie vibes 🦘" },
+      { context: "Jump", text: "Jumping around 🦘" },
+      { context: "Wildlife", text: "Australian wildlife 🦘" }
+    ],
+    misunderstandings: ["Clear Australian meaning"],
+    relatedEmojis: ["koala", "australia-flag", "outback"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["kangaroo", "Australia", "joey", "jump", "outback"]
+  },
+  // MORE BIRDS
+  {
+    unicode: "🦅",
+    name: "Eagle",
+    slug: "eagle",
+    shortMeaning: "A majestic bald eagle.",
+    detailedMeaning: "The Eagle emoji shows a bald eagle, representing America, freedom, and power.\n\nUsed for patriotic content, freedom, and majestic birds.",
+    usageContexts: ["America", "Freedom", "Power", "Majestic", "Patriotic"],
+    examples: [
+      { context: "America", text: "Murica 🦅" },
+      { context: "Freedom", text: "Freedom 🦅" },
+      { context: "Power", text: "Soaring high 🦅" }
+    ],
+    misunderstandings: ["American patriotic symbol"],
+    relatedEmojis: ["us-flag", "statue-of-liberty", "bird"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["eagle", "America", "freedom", "bald", "majestic"]
+  },
+  {
+    unicode: "🦆",
+    name: "Duck",
+    slug: "duck",
+    shortMeaning: "A mallard duck.",
+    detailedMeaning: "The Duck emoji shows a duck, representing ducks, ponds, and the phrase 'if it looks like a duck.'\n\nUsed for ducks, water birds, and ducking (dodging).",
+    usageContexts: ["Duck", "Pond", "Water", "Cute", "Quack"],
+    examples: [
+      { context: "Pond", text: "Duck pond 🦆" },
+      { context: "Cute", text: "Quack quack 🦆" },
+      { context: "Dodge", text: "Duck and cover 🦆" }
+    ],
+    misunderstandings: ["Clear duck meaning"],
+    relatedEmojis: ["swan", "goose", "pond"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["duck", "mallard", "quack", "pond", "water"]
+  },
+  {
+    unicode: "🦢",
+    name: "Swan",
+    slug: "swan",
+    shortMeaning: "An elegant white swan.",
+    detailedMeaning: "The Swan emoji shows a graceful white swan, representing beauty, elegance, and transformation (ugly duckling story).\n\nUsed for grace, ballet, romance, and elegant beauty.",
+    usageContexts: ["Swan", "Elegant", "Grace", "Ballet", "Beauty"],
+    examples: [
+      { context: "Elegant", text: "Swan-like grace 🦢" },
+      { context: "Ballet", text: "Swan Lake 🦢" },
+      { context: "Beauty", text: "Beautiful 🦢" }
+    ],
+    misunderstandings: ["Clear swan meaning"],
+    relatedEmojis: ["duck", "goose", "ballet"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["swan", "elegant", "grace", "white", "beauty"]
+  },
+  {
+    unicode: "🦉",
+    name: "Owl",
+    slug: "owl",
+    shortMeaning: "A wise owl.",
+    detailedMeaning: "The Owl emoji shows an owl, representing wisdom, night, and watchfulness.\n\nUsed for wisdom, night owls, Halloween, and being observant.",
+    usageContexts: ["Owl", "Wise", "Night", "Watchful", "Halloween"],
+    examples: [
+      { context: "Wise", text: "Wise owl 🦉" },
+      { context: "Night", text: "Night owl 🦉" },
+      { context: "Watch", text: "Keeping watch 🦉" }
+    ],
+    misunderstandings: ["Clear owl meaning"],
+    relatedEmojis: ["moon", "night", "wisdom"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["owl", "wise", "night", "hoot", "wisdom"]
+  },
+  {
+    unicode: "🦜",
+    name: "Parrot",
+    slug: "parrot",
+    shortMeaning: "A colorful parrot.",
+    detailedMeaning: "The Parrot emoji shows a colorful parrot, representing tropical birds, talking/mimicking, and pirates.\n\nUsed for tropical vibes, repeating things, and pirate themes.",
+    usageContexts: ["Parrot", "Tropical", "Repeat", "Colorful", "Pirate"],
+    examples: [
+      { context: "Repeat", text: "Parrot everything 🦜" },
+      { context: "Tropical", text: "Tropical bird 🦜" },
+      { context: "Pirate", text: "Pirate's friend 🦜" }
+    ],
+    misunderstandings: ["Can mean repeating/copying"],
+    relatedEmojis: ["tropical", "pirate", "colorful"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["parrot", "tropical", "colorful", "talk", "pirate"]
+  },
+  {
+    unicode: "🦚",
+    name: "Peacock",
+    slug: "peacock",
+    shortMeaning: "A peacock with colorful feathers.",
+    detailedMeaning: "The Peacock emoji shows a peacock displaying feathers, representing beauty, pride, and showing off.\n\nUsed for beauty, showing off, and colorful displays.",
+    usageContexts: ["Peacock", "Beautiful", "Proud", "Show off", "Colorful"],
+    examples: [
+      { context: "Proud", text: "Proud peacock 🦚" },
+      { context: "Beautiful", text: "Stunning colors 🦚" },
+      { context: "Show off", text: "Showing off 🦚" }
+    ],
+    misunderstandings: ["Can mean showing off"],
+    relatedEmojis: ["feather", "rainbow", "sparkles"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["peacock", "feathers", "proud", "beautiful", "colors"]
+  },
+  {
+    unicode: "🐧",
+    name: "Penguin",
+    slug: "penguin",
+    shortMeaning: "A cute black and white penguin.",
+    detailedMeaning: "The Penguin emoji shows an adorable penguin, representing cold climates, Antarctica, and cute waddling birds.\n\nUsed for penguins, cold weather, Linux, and cuteness.",
+    usageContexts: ["Penguin", "Cold", "Antarctica", "Cute", "Linux"],
+    examples: [
+      { context: "Cold", text: "Penguin weather 🐧" },
+      { context: "Cute", text: "Waddle waddle 🐧" },
+      { context: "Linux", text: "Linux user 🐧" }
+    ],
+    misunderstandings: ["Linux mascot"],
+    relatedEmojis: ["snowflake", "ice", "antarctic"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["penguin", "cold", "Antarctica", "cute", "waddle"]
+  },
+  {
+    unicode: "🦩",
+    name: "Flamingo",
+    slug: "flamingo",
+    shortMeaning: "A pink flamingo.",
+    detailedMeaning: "The Flamingo emoji shows a pink flamingo, representing Florida, tropics, and lawn ornaments.\n\nUsed for tropical vibes, Florida, and pink aesthetics.",
+    usageContexts: ["Flamingo", "Pink", "Florida", "Tropical", "Aesthetic"],
+    examples: [
+      { context: "Florida", text: "Florida vibes 🦩" },
+      { context: "Pink", text: "Pretty in pink 🦩" },
+      { context: "Tropical", text: "Tropical bird 🦩" }
+    ],
+    misunderstandings: ["Florida association"],
+    relatedEmojis: ["palm-tree", "pink-heart", "tropical"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["flamingo", "pink", "Florida", "tropical", "bird"]
+  },
+  // MORE MARINE LIFE
+  {
+    unicode: "🐳",
+    name: "Spouting Whale",
+    slug: "spouting-whale",
+    shortMeaning: "A whale spouting water.",
+    detailedMeaning: "The Spouting Whale emoji shows a whale with water spout, representing whales, ocean life, and size.\n\nUsed for whales, ocean content, and crypto (whale = big investor).",
+    usageContexts: ["Whale", "Ocean", "Big", "Crypto", "Marine"],
+    examples: [
+      { context: "Ocean", text: "Whale watching 🐳" },
+      { context: "Crypto", text: "Crypto whale 🐳" },
+      { context: "Size", text: "Whale of a time 🐳" }
+    ],
+    misunderstandings: ["Crypto whale meaning"],
+    relatedEmojis: ["whale", "dolphin", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["whale", "spout", "ocean", "big", "marine"]
+  },
+  {
+    unicode: "🐬",
+    name: "Dolphin",
+    slug: "dolphin",
+    shortMeaning: "A friendly dolphin.",
+    detailedMeaning: "The Dolphin emoji shows a playful dolphin, representing dolphins, intelligence, and ocean fun.\n\nUsed for ocean activities, intelligence, and playful energy.",
+    usageContexts: ["Dolphin", "Smart", "Playful", "Ocean", "Beach"],
+    examples: [
+      { context: "Ocean", text: "Swimming with dolphins 🐬" },
+      { context: "Smart", text: "Smart as a dolphin 🐬" },
+      { context: "Playful", text: "Playful vibes 🐬" }
+    ],
+    misunderstandings: ["Clear dolphin meaning"],
+    relatedEmojis: ["whale", "ocean", "wave"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["dolphin", "smart", "playful", "ocean", "marine"]
+  },
+  {
+    unicode: "🦈",
+    name: "Shark",
+    slug: "shark",
+    shortMeaning: "A shark.",
+    detailedMeaning: "The Shark emoji shows a grey shark, representing sharks, danger, and predators.\n\nUsed for sharks, Shark Week, danger, and aggressive business practices.",
+    usageContexts: ["Shark", "Danger", "Predator", "Ocean", "Week"],
+    examples: [
+      { context: "Danger", text: "Shark alert 🦈" },
+      { context: "Week", text: "Shark week 🦈" },
+      { context: "Business", text: "Shark mode 🦈" }
+    ],
+    misunderstandings: ["Can mean aggressive business"],
+    relatedEmojis: ["ocean", "fish", "danger"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["shark", "danger", "predator", "ocean", "week"]
+  },
+  {
+    unicode: "🐢",
+    name: "Turtle",
+    slug: "turtle",
+    shortMeaning: "A green turtle.",
+    detailedMeaning: "The Turtle emoji shows a turtle, representing slowness, longevity, and steady progress.\n\nUsed for slow pace, sea turtles, and 'slow and steady wins the race.'",
+    usageContexts: ["Turtle", "Slow", "Steady", "Ocean", "Longevity"],
+    examples: [
+      { context: "Slow", text: "Taking it slow 🐢" },
+      { context: "Steady", text: "Slow and steady 🐢" },
+      { context: "Ocean", text: "Sea turtle 🐢" }
+    ],
+    misunderstandings: ["Clear turtle meaning"],
+    relatedEmojis: ["snail", "tortoise", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["turtle", "slow", "steady", "shell", "ocean"]
+  },
+  {
+    unicode: "🦋",
+    name: "Butterfly",
+    slug: "butterfly",
+    shortMeaning: "A colorful butterfly.",
+    detailedMeaning: "The Butterfly emoji shows a beautiful butterfly, representing transformation, beauty, and butterflies in stomach.\n\nUsed for transformation, spring, nature, and nervous excitement.",
+    usageContexts: ["Butterfly", "Transform", "Beautiful", "Spring", "Nervous"],
+    examples: [
+      { context: "Transform", text: "Glow up 🦋" },
+      { context: "Nervous", text: "Butterflies in my stomach 🦋" },
+      { context: "Spring", text: "Spring vibes 🦋" }
+    ],
+    misunderstandings: ["Transformation meaning"],
+    relatedEmojis: ["caterpillar", "flower", "spring"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["butterfly", "transform", "beautiful", "wings", "spring"]
+  },
+  {
+    unicode: "🐝",
+    name: "Honeybee",
+    slug: "honeybee",
+    shortMeaning: "A busy bee.",
+    detailedMeaning: "The Honeybee emoji shows a honeybee, representing hard work, bees, and Beyoncé fans (Beyhive).\n\nUsed for being busy, productivity, honey, and Beyoncé.",
+    usageContexts: ["Bee", "Busy", "Work", "Honey", "Beyoncé"],
+    examples: [
+      { context: "Busy", text: "Busy bee 🐝" },
+      { context: "Work", text: "Working hard 🐝" },
+      { context: "Fan", text: "Beyhive 🐝" }
+    ],
+    misunderstandings: ["Beyoncé fandom"],
+    relatedEmojis: ["honey", "flower", "work"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["bee", "busy", "honey", "work", "Beyoncé"]
+  },
+  {
+    unicode: "🐛",
+    name: "Bug",
+    slug: "bug",
+    shortMeaning: "A green caterpillar/bug.",
+    detailedMeaning: "The Bug emoji shows a caterpillar, representing bugs, insects, and software bugs.\n\nUsed for insects, software bugs, and transformation (future butterfly).",
+    usageContexts: ["Bug", "Caterpillar", "Software", "Insect", "Transform"],
+    examples: [
+      { context: "Software", text: "Found a bug 🐛" },
+      { context: "Caterpillar", text: "Future butterfly 🐛" },
+      { context: "Insect", text: "Little bug 🐛" }
+    ],
+    misunderstandings: ["Software bug meaning"],
+    relatedEmojis: ["butterfly", "lady-beetle", "ant"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["bug", "caterpillar", "insect", "software", "crawl"]
+  },
+  {
+    unicode: "🐜",
+    name: "Ant",
+    slug: "ant",
+    shortMeaning: "A small ant.",
+    detailedMeaning: "The Ant emoji shows a tiny ant, representing ants, hard work, and small but mighty.\n\nUsed for ants, teamwork, being small, and picnic problems.",
+    usageContexts: ["Ant", "Small", "Work", "Team", "Picnic"],
+    examples: [
+      { context: "Work", text: "Ant work ethic 🐜" },
+      { context: "Small", text: "Tiny but mighty 🐜" },
+      { context: "Picnic", text: "Ants at a picnic 🐜" }
+    ],
+    misunderstandings: ["Clear ant meaning"],
+    relatedEmojis: ["bee", "bug", "spider"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["ant", "small", "work", "team", "insect"]
+  },
+  {
+    unicode: "🕷️",
+    name: "Spider",
+    slug: "spider",
+    shortMeaning: "A black spider.",
+    detailedMeaning: "The Spider emoji shows a spider, representing spiders, Halloween, and spider webs.\n\nUsed for spiders, Halloween, fears, and web content.",
+    usageContexts: ["Spider", "Halloween", "Web", "Scary", "Creepy"],
+    examples: [
+      { context: "Halloween", text: "Spooky spider 🕷️" },
+      { context: "Fear", text: "Spider alert 🕷️" },
+      { context: "Web", text: "Spider web 🕷️" }
+    ],
+    misunderstandings: ["Often associated with fear"],
+    relatedEmojis: ["web", "Halloween", "creepy"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["spider", "web", "Halloween", "creepy", "eight legs"]
+  },
+  {
+    unicode: "🦎",
+    name: "Lizard",
+    slug: "lizard",
+    shortMeaning: "A green lizard.",
+    detailedMeaning: "The Lizard emoji shows a green lizard, representing lizards, reptiles, and cold-blooded creatures.\n\nUsed for lizards, reptile pets, and sunbathing.",
+    usageContexts: ["Lizard", "Reptile", "Pet", "Sunbathing", "Cold-blooded"],
+    examples: [
+      { context: "Pet", text: "Pet lizard 🦎" },
+      { context: "Sun", text: "Sunbathing like a lizard 🦎" },
+      { context: "Reptile", text: "Reptile friend 🦎" }
+    ],
+    misunderstandings: ["Clear lizard meaning"],
+    relatedEmojis: ["snake", "gecko", "chameleon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["lizard", "reptile", "green", "sun", "cold-blooded"]
+  },
+  {
+    unicode: "🐍",
+    name: "Snake",
+    slug: "snake",
+    shortMeaning: "A green snake.",
+    detailedMeaning: "The Snake emoji shows a snake, representing snakes, sneakiness, and betrayal.\n\nUsed for snakes, sneaky behavior, and calling someone a 'snake.'",
+    usageContexts: ["Snake", "Sneaky", "Betrayal", "Reptile", "Sly"],
+    examples: [
+      { context: "Sneaky", text: "Such a snake 🐍" },
+      { context: "Pet", text: "Pet snake 🐍" },
+      { context: "Zodiac", text: "Year of the Snake 🐍" }
+    ],
+    misunderstandings: ["Can mean betrayal/sneaky"],
+    relatedEmojis: ["lizard", "dragon", "backstab"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["snake", "sneaky", "reptile", "sly", "betrayal"]
+  },
+  {
+    unicode: "🐸",
+    name: "Frog",
+    slug: "frog",
+    shortMeaning: "A green frog face.",
+    detailedMeaning: "The Frog emoji shows a frog face, representing frogs, rainy weather, and memes (Kermit, Pepe).\n\nUsed for frogs, 'but that's none of my business' meme, and rain.",
+    usageContexts: ["Frog", "Meme", "Rain", "Green", "Pond"],
+    examples: [
+      { context: "Meme", text: "But that's none of my business 🐸" },
+      { context: "Rain", text: "Frog weather 🐸" },
+      { context: "Cute", text: "Ribbit 🐸" }
+    ],
+    misunderstandings: ["Kermit tea meme"],
+    relatedEmojis: ["tea", "lily-pad", "rain"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-amphibian",
+    keywords: ["frog", "ribbit", "green", "meme", "tea"]
+  },
+  // MORE PLANTS
+  {
+    unicode: "🌵",
+    name: "Cactus",
+    slug: "cactus",
+    shortMeaning: "A green cactus.",
+    detailedMeaning: "The Cactus emoji shows a desert cactus, representing deserts, the Southwest, and prickly personalities.\n\nUsed for desert vibes, Arizona/Texas, and being tough/resilient.",
+    usageContexts: ["Cactus", "Desert", "Southwest", "Prickly", "Tough"],
+    examples: [
+      { context: "Desert", text: "Desert vibes 🌵" },
+      { context: "Arizona", text: "Arizona life 🌵" },
+      { context: "Prickly", text: "Don't touch 🌵" }
+    ],
+    misunderstandings: ["Clear cactus meaning"],
+    relatedEmojis: ["desert", "sun", "cowboy"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["cactus", "desert", "Southwest", "prickly", "tough"]
+  },
+  {
+    unicode: "🌴",
+    name: "Palm Tree",
+    slug: "palm-tree",
+    shortMeaning: "A tropical palm tree.",
+    detailedMeaning: "The Palm Tree emoji shows a palm tree, representing tropical places, beaches, and vacations.\n\nUsed for tropical vibes, beaches, Florida/California, and island life.",
+    usageContexts: ["Tropical", "Beach", "Vacation", "Florida", "Island"],
+    examples: [
+      { context: "Beach", text: "Beach life 🌴" },
+      { context: "Vacation", text: "Vacation mode 🌴" },
+      { context: "Florida", text: "Florida vibes 🌴" }
+    ],
+    misunderstandings: ["Clear tropical meaning"],
+    relatedEmojis: ["beach", "coconut", "island"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["palm", "tree", "tropical", "beach", "vacation"]
+  },
+  {
+    unicode: "🌲",
+    name: "Evergreen Tree",
+    slug: "evergreen-tree",
+    shortMeaning: "A tall evergreen pine tree.",
+    detailedMeaning: "The Evergreen Tree emoji shows a tall pine tree, representing forests, nature, and the outdoors.\n\nUsed for forests, hiking, Pacific Northwest, and nature content.",
+    usageContexts: ["Forest", "Nature", "Hiking", "Christmas", "PNW"],
+    examples: [
+      { context: "Forest", text: "Forest walk 🌲" },
+      { context: "Nature", text: "Into the woods 🌲" },
+      { context: "PNW", text: "Pacific Northwest 🌲" }
+    ],
+    misunderstandings: ["Clear forest meaning"],
+    relatedEmojis: ["deciduous-tree", "mountain", "camping"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["tree", "pine", "forest", "evergreen", "nature"]
+  },
+  {
+    unicode: "🌳",
+    name: "Deciduous Tree",
+    slug: "deciduous-tree",
+    shortMeaning: "A leafy green tree.",
+    detailedMeaning: "The Deciduous Tree emoji shows a tree with full green leaves, representing trees, parks, and nature.\n\nUsed for nature, parks, trees, and outdoor spaces.",
+    usageContexts: ["Tree", "Nature", "Park", "Green", "Shade"],
+    examples: [
+      { context: "Park", text: "Park day 🌳" },
+      { context: "Nature", text: "Nature lover 🌳" },
+      { context: "Shade", text: "Under the tree 🌳" }
+    ],
+    misunderstandings: ["Clear tree meaning"],
+    relatedEmojis: ["evergreen-tree", "park", "leaf"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["tree", "deciduous", "leafy", "green", "park"]
+  },
+  {
+    unicode: "💮",
+    name: "White Flower",
+    slug: "white-flower",
+    shortMeaning: "A white flower stamp.",
+    detailedMeaning: "The White Flower emoji shows a stylized white flower, often used in Japan as a stamp for 'well done' on schoolwork.\n\nUsed for good job, well done, and floral aesthetics.",
+    usageContexts: ["Good job", "Well done", "Flower", "Japan", "Stamp"],
+    examples: [
+      { context: "Good", text: "Well done 💮" },
+      { context: "Praise", text: "Excellent work 💮" },
+      { context: "Flower", text: "Pretty flower 💮" }
+    ],
+    misunderstandings: ["Japanese 'well done' stamp"],
+    relatedEmojis: ["blossom", "check-mark", "star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["flower", "white", "stamp", "well done", "Japan"]
+  },
+  {
+    unicode: "🌾",
+    name: "Sheaf of Rice",
+    slug: "sheaf-of-rice",
+    shortMeaning: "A sheaf of rice or wheat.",
+    detailedMeaning: "The Sheaf of Rice emoji shows grain stalks, representing harvest, agriculture, and autumn.\n\nUsed for harvest, farming, Thanksgiving, and agricultural themes.",
+    usageContexts: ["Harvest", "Farm", "Rice", "Autumn", "Agriculture"],
+    examples: [
+      { context: "Harvest", text: "Harvest time 🌾" },
+      { context: "Farm", text: "Farm fresh 🌾" },
+      { context: "Autumn", text: "Fall harvest 🌾" }
+    ],
+    misunderstandings: ["Clear agricultural meaning"],
+    relatedEmojis: ["farmer", "rice", "wheat"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["rice", "wheat", "harvest", "grain", "farm"]
+  },
   // FOOD & DRINK
   {
     unicode: "🍕",
