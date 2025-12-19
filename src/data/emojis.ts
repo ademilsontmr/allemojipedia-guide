@@ -19855,6 +19855,673 @@ export const emojis: Emoji[] = [
     subgroup: "country-flag",
     keywords: ["slovenia", "slovenian", "flag", "europe", "alps"]
   },
+  {
+    unicode: "🇧🇭",
+    name: "Flag: Bahrain",
+    slug: "flag-bahrain",
+    shortMeaning: "The national flag of Bahrain.",
+    detailedMeaning: "The Flag of Bahrain emoji displays the white and red flag with serrated edge. Bahrain is known for Formula 1 racing and pearl diving heritage.\n\nUsed to represent Bahrain, Bahraini identity, and discussions about the country.",
+    usageContexts: ["Bahrain", "F1", "Gulf", "Culture", "Middle East"],
+    examples: [
+      { context: "F1", text: "Bahrain Grand Prix 🇧🇭🏎️" },
+      { context: "Pride", text: "Bahraini pride 🇧🇭" },
+      { context: "Culture", text: "Bahraini heritage 🇧🇭" }
+    ],
+    misunderstandings: ["Distinctive serrated edge"],
+    relatedEmojis: ["racing-car", "pearl"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["bahrain", "bahraini", "flag", "middle east", "gulf"]
+  },
+  {
+    unicode: "🇴🇲",
+    name: "Flag: Oman",
+    slug: "flag-oman",
+    shortMeaning: "The national flag of Oman.",
+    detailedMeaning: "The Flag of Oman emoji displays the red, white, and green stripes with emblem. Oman is known for its rich history, frankincense, and beautiful wadis.\n\nUsed to represent Oman, Omani identity, and discussions about the country.",
+    usageContexts: ["Oman", "History", "Gulf", "Culture", "Middle East"],
+    examples: [
+      { context: "Pride", text: "Omani pride 🇴🇲" },
+      { context: "Travel", text: "Muscat trip 🇴🇲" },
+      { context: "Culture", text: "Omani heritage 🇴🇲" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["desert", "mosque", "camel"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["oman", "omani", "flag", "middle east", "muscat"]
+  },
+  {
+    unicode: "🇾🇪",
+    name: "Flag: Yemen",
+    slug: "flag-yemen",
+    shortMeaning: "The national flag of Yemen.",
+    detailedMeaning: "The Flag of Yemen emoji displays the red, white, and black horizontal stripes. Yemen is known for its ancient architecture and rich history.\n\nUsed to represent Yemen, Yemeni identity, and discussions about the country.",
+    usageContexts: ["Yemen", "History", "Culture", "Heritage", "Middle East"],
+    examples: [
+      { context: "Pride", text: "Yemeni pride 🇾🇪" },
+      { context: "Culture", text: "Yemeni heritage 🇾🇪" },
+      { context: "History", text: "Ancient Sana'a 🇾🇪" }
+    ],
+    misunderstandings: ["Similar to other Arab tricolors"],
+    relatedEmojis: ["ancient-building", "coffee"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["yemen", "yemeni", "flag", "middle east", "arabia"]
+  },
+  {
+    unicode: "🇦🇿",
+    name: "Flag: Azerbaijan",
+    slug: "flag-azerbaijan",
+    shortMeaning: "The national flag of Azerbaijan.",
+    detailedMeaning: "The Flag of Azerbaijan emoji displays the blue, red, and green horizontal stripes with crescent and star. Azerbaijan is known for oil, the Flame Towers, and rich culture.\n\nUsed to represent Azerbaijan, Azerbaijani identity, and discussions about the country.",
+    usageContexts: ["Azerbaijan", "Baku", "Oil", "Culture", "Caucasus"],
+    examples: [
+      { context: "Pride", text: "Azerbaijani pride 🇦🇿" },
+      { context: "Travel", text: "Baku trip 🇦🇿" },
+      { context: "Culture", text: "Land of Fire 🇦🇿🔥" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["fire", "cityscape"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["azerbaijan", "azerbaijani", "flag", "caucasus", "baku"]
+  },
+  {
+    unicode: "🇬🇪",
+    name: "Flag: Georgia",
+    slug: "flag-georgia",
+    shortMeaning: "The national flag of Georgia (country).",
+    detailedMeaning: "The Flag of Georgia emoji displays the white flag with red cross and four smaller crosses. Georgia is known for wine, hospitality, and Caucasus mountains.\n\nUsed to represent Georgia (the country), Georgian identity, and discussions about Georgian culture.",
+    usageContexts: ["Georgia", "Wine", "Caucasus", "Culture", "Hospitality"],
+    examples: [
+      { context: "Wine", text: "Georgian wine 🇬🇪🍷" },
+      { context: "Pride", text: "Georgian pride 🇬🇪" },
+      { context: "Culture", text: "Georgian hospitality 🇬🇪" }
+    ],
+    misunderstandings: ["Not US state Georgia"],
+    relatedEmojis: ["wine-glass", "mountain", "grapes"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["georgia", "georgian", "flag", "caucasus", "wine"]
+  },
+  {
+    unicode: "🇦🇲",
+    name: "Flag: Armenia",
+    slug: "flag-armenia",
+    shortMeaning: "The national flag of Armenia.",
+    detailedMeaning: "The Flag of Armenia emoji displays the red, blue, and orange horizontal stripes. Armenia is known for ancient history, Mount Ararat views, and rich culture.\n\nUsed to represent Armenia, Armenian identity, and discussions about Armenian heritage.",
+    usageContexts: ["Armenia", "History", "Ararat", "Culture", "Caucasus"],
+    examples: [
+      { context: "Pride", text: "Armenian pride 🇦🇲" },
+      { context: "Culture", text: "Armenian heritage 🇦🇲" },
+      { context: "History", text: "First Christian nation 🇦🇲" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mountain", "church", "pomegranate"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["armenia", "armenian", "flag", "caucasus", "ararat"]
+  },
+  {
+    unicode: "🇰🇿",
+    name: "Flag: Kazakhstan",
+    slug: "flag-kazakhstan",
+    shortMeaning: "The national flag of Kazakhstan.",
+    detailedMeaning: "The Flag of Kazakhstan emoji displays the light blue flag with golden sun and eagle. Kazakhstan is the world's largest landlocked country, known for steppes and space exploration.\n\nUsed to represent Kazakhstan, Kazakh identity, and discussions about the country.",
+    usageContexts: ["Kazakhstan", "Steppes", "Space", "Culture", "Central Asia"],
+    examples: [
+      { context: "Pride", text: "Kazakh pride 🇰🇿" },
+      { context: "Space", text: "Baikonur Cosmodrome 🇰🇿🚀" },
+      { context: "Culture", text: "Kazakh heritage 🇰🇿" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["eagle", "rocket", "horse"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["kazakhstan", "kazakh", "flag", "central asia", "steppes"]
+  },
+  {
+    unicode: "🇺🇿",
+    name: "Flag: Uzbekistan",
+    slug: "flag-uzbekistan",
+    shortMeaning: "The national flag of Uzbekistan.",
+    detailedMeaning: "The Flag of Uzbekistan emoji displays the blue, white, and green stripes with crescent and stars. Uzbekistan is known for Silk Road cities like Samarkand.\n\nUsed to represent Uzbekistan, Uzbek identity, and discussions about the country.",
+    usageContexts: ["Uzbekistan", "Silk Road", "Samarkand", "Culture", "Central Asia"],
+    examples: [
+      { context: "Travel", text: "Samarkand adventure 🇺🇿" },
+      { context: "Pride", text: "Uzbek pride 🇺🇿" },
+      { context: "History", text: "Silk Road heritage 🇺🇿" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["ancient-building", "camel"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["uzbekistan", "uzbek", "flag", "central asia", "silk road"]
+  },
+  {
+    unicode: "🇹🇲",
+    name: "Flag: Turkmenistan",
+    slug: "flag-turkmenistan",
+    shortMeaning: "The national flag of Turkmenistan.",
+    detailedMeaning: "The Flag of Turkmenistan emoji displays the green flag with carpet patterns and crescent. Turkmenistan is known for unique architecture and ancient history.\n\nUsed to represent Turkmenistan, Turkmen identity, and discussions about the country.",
+    usageContexts: ["Turkmenistan", "Ashgabat", "Culture", "Heritage", "Central Asia"],
+    examples: [
+      { context: "Pride", text: "Turkmen pride 🇹🇲" },
+      { context: "Culture", text: "Turkmen heritage 🇹🇲" },
+      { context: "Travel", text: "Ashgabat 🇹🇲" }
+    ],
+    misunderstandings: ["Most detailed flag design"],
+    relatedEmojis: ["carpet", "horse"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["turkmenistan", "turkmen", "flag", "central asia", "ashgabat"]
+  },
+  {
+    unicode: "🇰🇬",
+    name: "Flag: Kyrgyzstan",
+    slug: "flag-kyrgyzstan",
+    shortMeaning: "The national flag of Kyrgyzstan.",
+    detailedMeaning: "The Flag of Kyrgyzstan emoji displays the red flag with yellow sun and tunduk (yurt crown). Kyrgyzstan is known for stunning mountains and nomadic heritage.\n\nUsed to represent Kyrgyzstan, Kyrgyz identity, and discussions about the country.",
+    usageContexts: ["Kyrgyzstan", "Mountains", "Nomadic", "Culture", "Central Asia"],
+    examples: [
+      { context: "Pride", text: "Kyrgyz pride 🇰🇬" },
+      { context: "Nature", text: "Tian Shan mountains 🇰🇬🏔️" },
+      { context: "Culture", text: "Nomadic heritage 🇰🇬" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mountain", "horse", "tent"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["kyrgyzstan", "kyrgyz", "flag", "central asia", "mountains"]
+  },
+  {
+    unicode: "🇹🇯",
+    name: "Flag: Tajikistan",
+    slug: "flag-tajikistan",
+    shortMeaning: "The national flag of Tajikistan.",
+    detailedMeaning: "The Flag of Tajikistan emoji displays the red, white, and green stripes with crown and stars. Tajikistan is known for the Pamir mountains and Persian heritage.\n\nUsed to represent Tajikistan, Tajik identity, and discussions about the country.",
+    usageContexts: ["Tajikistan", "Pamir", "Mountains", "Culture", "Central Asia"],
+    examples: [
+      { context: "Pride", text: "Tajik pride 🇹🇯" },
+      { context: "Nature", text: "Pamir Highway 🇹🇯" },
+      { context: "Culture", text: "Tajik heritage 🇹🇯" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mountain", "crown"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["tajikistan", "tajik", "flag", "central asia", "pamir"]
+  },
+  {
+    unicode: "🇲🇳",
+    name: "Flag: Mongolia",
+    slug: "flag-mongolia",
+    shortMeaning: "The national flag of Mongolia.",
+    detailedMeaning: "The Flag of Mongolia emoji displays the red and blue stripes with Soyombo symbol. Mongolia is known for steppes, Genghis Khan, and nomadic culture.\n\nUsed to represent Mongolia, Mongolian identity, and discussions about the country.",
+    usageContexts: ["Mongolia", "Steppes", "Nomadic", "History", "Asia"],
+    examples: [
+      { context: "Pride", text: "Mongolian pride 🇲🇳" },
+      { context: "Culture", text: "Nomadic heritage 🇲🇳" },
+      { context: "History", text: "Land of Genghis Khan 🇲🇳" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["horse", "eagle", "tent"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["mongolia", "mongolian", "flag", "asia", "steppes"]
+  },
+  {
+    unicode: "🇦🇩",
+    name: "Flag: Andorra",
+    slug: "flag-andorra",
+    shortMeaning: "The national flag of Andorra.",
+    detailedMeaning: "The Flag of Andorra emoji displays the blue, yellow, and red vertical stripes with coat of arms. Andorra is a small principality in the Pyrenees known for skiing and tax-free shopping.\n\nUsed to represent Andorra, Andorran identity, and discussions about the country.",
+    usageContexts: ["Andorra", "Pyrenees", "Skiing", "Shopping", "Europe"],
+    examples: [
+      { context: "Travel", text: "Andorra ski trip 🇦🇩⛷️" },
+      { context: "Pride", text: "Andorran pride 🇦🇩" },
+      { context: "Shopping", text: "Duty-free shopping 🇦🇩" }
+    ],
+    misunderstandings: ["Similar to Chad and Romania"],
+    relatedEmojis: ["skier", "mountain", "shopping-bags"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["andorra", "andorran", "flag", "europe", "pyrenees"]
+  },
+  {
+    unicode: "🇲🇨",
+    name: "Flag: Monaco",
+    slug: "flag-monaco",
+    shortMeaning: "The national flag of Monaco.",
+    detailedMeaning: "The Flag of Monaco emoji displays the red and white horizontal bicolor. Monaco is known for luxury, casinos, and Formula 1 racing.\n\nUsed to represent Monaco, Monegasque identity, and discussions about luxury and racing.",
+    usageContexts: ["Monaco", "Luxury", "F1", "Casinos", "Europe"],
+    examples: [
+      { context: "F1", text: "Monaco Grand Prix 🇲🇨🏎️" },
+      { context: "Luxury", text: "Monaco lifestyle 🇲🇨" },
+      { context: "Travel", text: "Monte Carlo 🇲🇨" }
+    ],
+    misunderstandings: ["Identical to Indonesia but different proportions"],
+    relatedEmojis: ["racing-car", "money-bag", "yacht"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["monaco", "monegasque", "flag", "europe", "luxury"]
+  },
+  {
+    unicode: "🇸🇲",
+    name: "Flag: San Marino",
+    slug: "flag-san-marino",
+    shortMeaning: "The national flag of San Marino.",
+    detailedMeaning: "The Flag of San Marino emoji displays the white and light blue horizontal stripes with coat of arms. San Marino is one of the world's oldest and smallest republics.\n\nUsed to represent San Marino, Sammarinese identity, and discussions about the microstate.",
+    usageContexts: ["San Marino", "History", "Microstate", "Europe", "Republic"],
+    examples: [
+      { context: "Pride", text: "San Marino pride 🇸🇲" },
+      { context: "History", text: "Oldest republic 🇸🇲" },
+      { context: "Travel", text: "San Marino visit 🇸🇲" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["castle", "mountain"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["san marino", "sammarinese", "flag", "europe", "microstate"]
+  },
+  {
+    unicode: "🇻🇦",
+    name: "Flag: Vatican City",
+    slug: "flag-vatican-city",
+    shortMeaning: "The flag of Vatican City (Holy See).",
+    detailedMeaning: "The Flag of Vatican City emoji displays the yellow and white vertical halves with papal tiara and keys. Vatican City is the smallest country and center of the Catholic Church.\n\nUsed to represent Vatican City, Catholic discussions, and visits to Rome.",
+    usageContexts: ["Vatican", "Catholic", "Rome", "Pope", "Religion"],
+    examples: [
+      { context: "Travel", text: "Vatican visit 🇻🇦" },
+      { context: "Religion", text: "Catholic faith 🇻🇦" },
+      { context: "History", text: "St. Peter's Basilica 🇻🇦" }
+    ],
+    misunderstandings: ["Clear religious significance"],
+    relatedEmojis: ["church", "cross", "crown"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["vatican", "holy see", "flag", "pope", "catholic"]
+  },
+  {
+    unicode: "🇱🇮",
+    name: "Flag: Liechtenstein",
+    slug: "flag-liechtenstein",
+    shortMeaning: "The national flag of Liechtenstein.",
+    detailedMeaning: "The Flag of Liechtenstein emoji displays the blue and red horizontal stripes with crown. Liechtenstein is a small alpine principality known for banking and beautiful scenery.\n\nUsed to represent Liechtenstein and discussions about the microstate.",
+    usageContexts: ["Liechtenstein", "Alps", "Microstate", "Banking", "Europe"],
+    examples: [
+      { context: "Pride", text: "Liechtenstein pride 🇱🇮" },
+      { context: "Travel", text: "Alpine adventure 🇱🇮" },
+      { context: "Culture", text: "Vaduz Castle 🇱🇮" }
+    ],
+    misunderstandings: ["Added crown after 1936 Olympics"],
+    relatedEmojis: ["crown", "mountain", "castle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["liechtenstein", "flag", "europe", "alps", "microstate"]
+  },
+  {
+    unicode: "🇧🇹",
+    name: "Flag: Bhutan",
+    slug: "flag-bhutan",
+    shortMeaning: "The national flag of Bhutan with thunder dragon.",
+    detailedMeaning: "The Flag of Bhutan emoji displays the orange and yellow diagonal with the Druk (thunder dragon). Bhutan is known for Gross National Happiness and Himalayan beauty.\n\nUsed to represent Bhutan, Bhutanese identity, and discussions about happiness and culture.",
+    usageContexts: ["Bhutan", "Happiness", "Himalaya", "Dragon", "Asia"],
+    examples: [
+      { context: "Pride", text: "Bhutanese pride 🇧🇹" },
+      { context: "Happiness", text: "Land of Happiness 🇧🇹" },
+      { context: "Travel", text: "Bhutan trekking 🇧🇹" }
+    ],
+    misunderstandings: ["Distinctive dragon design"],
+    relatedEmojis: ["dragon", "mountain", "temple"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["bhutan", "bhutanese", "flag", "asia", "dragon"]
+  },
+  {
+    unicode: "🇦🇫",
+    name: "Flag: Afghanistan",
+    slug: "flag-afghanistan",
+    shortMeaning: "The national flag of Afghanistan.",
+    detailedMeaning: "The Flag of Afghanistan emoji displays the black, red, and green vertical stripes with emblem. Afghanistan has a rich history and diverse culture.\n\nUsed to represent Afghanistan, Afghan identity, and discussions about the country.",
+    usageContexts: ["Afghanistan", "Culture", "Heritage", "History", "Asia"],
+    examples: [
+      { context: "Pride", text: "Afghan pride 🇦🇫" },
+      { context: "Culture", text: "Afghan heritage 🇦🇫" },
+      { context: "History", text: "Ancient land 🇦🇫" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mountain", "mosque"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["afghanistan", "afghan", "flag", "asia", "kabul"]
+  },
+  {
+    unicode: "🇸🇾",
+    name: "Flag: Syria",
+    slug: "flag-syria",
+    shortMeaning: "The national flag of Syria.",
+    detailedMeaning: "The Flag of Syria emoji displays the red, white, and black horizontal stripes with two green stars. Syria has ancient history including Damascus, one of the oldest cities.\n\nUsed to represent Syria, Syrian identity, and discussions about the country.",
+    usageContexts: ["Syria", "History", "Culture", "Heritage", "Middle East"],
+    examples: [
+      { context: "Pride", text: "Syrian pride 🇸🇾" },
+      { context: "History", text: "Ancient Damascus 🇸🇾" },
+      { context: "Culture", text: "Syrian heritage 🇸🇾" }
+    ],
+    misunderstandings: ["Similar to other Arab flags"],
+    relatedEmojis: ["ancient-building", "mosque"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["syria", "syrian", "flag", "middle east", "damascus"]
+  },
+  {
+    unicode: "🇵🇸",
+    name: "Flag: Palestinian Territories",
+    slug: "flag-palestinian-territories",
+    shortMeaning: "The flag of the Palestinian Territories.",
+    detailedMeaning: "The Flag of the Palestinian Territories emoji displays the black, white, green stripes with red triangle. It represents Palestinian identity and heritage.\n\nUsed to represent Palestine, Palestinian identity, and discussions about Palestinian culture.",
+    usageContexts: ["Palestine", "Culture", "Heritage", "Identity", "Middle East"],
+    examples: [
+      { context: "Pride", text: "Palestinian pride 🇵🇸" },
+      { context: "Culture", text: "Palestinian heritage 🇵🇸" },
+      { context: "Identity", text: "Palestine 🇵🇸" }
+    ],
+    misunderstandings: ["Clear symbolic meaning"],
+    relatedEmojis: ["olive", "peace-symbol"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["palestine", "palestinian", "flag", "middle east"]
+  },
+  {
+    unicode: "🇹🇼",
+    name: "Flag: Taiwan",
+    slug: "flag-taiwan",
+    shortMeaning: "The flag of Taiwan (Republic of China).",
+    detailedMeaning: "The Flag of Taiwan emoji displays the red flag with blue canton and white sun. Taiwan is known for technology, night markets, and unique culture.\n\nUsed to represent Taiwan, Taiwanese identity, and discussions about the island.",
+    usageContexts: ["Taiwan", "Technology", "Culture", "Asia", "Island"],
+    examples: [
+      { context: "Pride", text: "Taiwanese pride 🇹🇼" },
+      { context: "Food", text: "Night market food 🇹🇼" },
+      { context: "Tech", text: "Made in Taiwan 🇹🇼" }
+    ],
+    misunderstandings: ["Clear regional flag"],
+    relatedEmojis: ["bubble-tea", "microchip"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["taiwan", "taiwanese", "flag", "asia", "roc"]
+  },
+  {
+    unicode: "🇭🇰",
+    name: "Flag: Hong Kong",
+    slug: "flag-hong-kong",
+    shortMeaning: "The flag of Hong Kong SAR.",
+    detailedMeaning: "The Flag of Hong Kong emoji displays the red flag with white Bauhinia flower. Hong Kong is known as a global financial hub with unique East-meets-West culture.\n\nUsed to represent Hong Kong, Hong Kong identity, and discussions about the city.",
+    usageContexts: ["Hong Kong", "Finance", "Culture", "Asia", "City"],
+    examples: [
+      { context: "Pride", text: "Hong Kong pride 🇭🇰" },
+      { context: "Finance", text: "Hong Kong markets 🇭🇰" },
+      { context: "Food", text: "Dim sum 🇭🇰" }
+    ],
+    misunderstandings: ["Clear regional flag"],
+    relatedEmojis: ["cityscape", "dumpling"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["hong kong", "hk", "flag", "asia", "sar"]
+  },
+  {
+    unicode: "🇲🇴",
+    name: "Flag: Macao",
+    slug: "flag-macao",
+    shortMeaning: "The flag of Macao SAR.",
+    detailedMeaning: "The Flag of Macao emoji displays the green flag with lotus flower and bridge. Macao is known for casinos and Portuguese heritage.\n\nUsed to represent Macao, Macanese identity, and discussions about the territory.",
+    usageContexts: ["Macao", "Casinos", "Culture", "Asia", "Gaming"],
+    examples: [
+      { context: "Travel", text: "Macao trip 🇲🇴" },
+      { context: "Gaming", text: "Macao casinos 🇲🇴" },
+      { context: "Culture", text: "Portuguese heritage 🇲🇴" }
+    ],
+    misunderstandings: ["Clear regional flag"],
+    relatedEmojis: ["slot-machine", "lotus"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["macao", "macau", "flag", "asia", "sar"]
+  },
+  {
+    unicode: "🇸🇩",
+    name: "Flag: Sudan",
+    slug: "flag-sudan",
+    shortMeaning: "The national flag of Sudan.",
+    detailedMeaning: "The Flag of Sudan emoji displays the red, white, and black horizontal stripes with green triangle. Sudan is known for ancient Nubian pyramids and the Nile.\n\nUsed to represent Sudan, Sudanese identity, and discussions about the country.",
+    usageContexts: ["Sudan", "Nile", "History", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Sudanese pride 🇸🇩" },
+      { context: "History", text: "Nubian heritage 🇸🇩" },
+      { context: "Culture", text: "Sudanese culture 🇸🇩" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["pyramid", "river"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["sudan", "sudanese", "flag", "africa", "nile"]
+  },
+  {
+    unicode: "🇩🇿",
+    name: "Flag: Algeria",
+    slug: "flag-algeria",
+    shortMeaning: "The national flag of Algeria.",
+    detailedMeaning: "The Flag of Algeria emoji displays the green and white halves with red crescent and star. Algeria is the largest African country with Saharan landscapes.\n\nUsed to represent Algeria, Algerian identity, and discussions about the country.",
+    usageContexts: ["Algeria", "Sahara", "Culture", "Africa", "Desert"],
+    examples: [
+      { context: "Pride", text: "Algerian pride 🇩🇿" },
+      { context: "Nature", text: "Sahara desert 🇩🇿" },
+      { context: "Football", text: "Les Fennecs 🇩🇿" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["desert", "camel", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["algeria", "algerian", "flag", "africa", "sahara"]
+  },
+  {
+    unicode: "🇹🇳",
+    name: "Flag: Tunisia",
+    slug: "flag-tunisia",
+    shortMeaning: "The national flag of Tunisia.",
+    detailedMeaning: "The Flag of Tunisia emoji displays the red flag with white circle containing crescent and star. Tunisia is known for ancient Carthage and Mediterranean beaches.\n\nUsed to represent Tunisia, Tunisian identity, and discussions about the country.",
+    usageContexts: ["Tunisia", "Carthage", "Mediterranean", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Tunisian pride 🇹🇳" },
+      { context: "History", text: "Ancient Carthage 🇹🇳" },
+      { context: "Travel", text: "Tunisia beaches 🇹🇳" }
+    ],
+    misunderstandings: ["Similar to Turkey flag"],
+    relatedEmojis: ["ancient-building", "beach"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["tunisia", "tunisian", "flag", "africa", "carthage"]
+  },
+  {
+    unicode: "🇱🇾",
+    name: "Flag: Libya",
+    slug: "flag-libya",
+    shortMeaning: "The national flag of Libya.",
+    detailedMeaning: "The Flag of Libya emoji displays the red, black, and green horizontal stripes with crescent and star. Libya has ancient Roman ruins and Saharan landscapes.\n\nUsed to represent Libya, Libyan identity, and discussions about the country.",
+    usageContexts: ["Libya", "Sahara", "History", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Libyan pride 🇱🇾" },
+      { context: "History", text: "Leptis Magna 🇱🇾" },
+      { context: "Culture", text: "Libyan heritage 🇱🇾" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["ancient-building", "desert"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["libya", "libyan", "flag", "africa", "sahara"]
+  },
+  {
+    unicode: "🇨🇲",
+    name: "Flag: Cameroon",
+    slug: "flag-cameroon",
+    shortMeaning: "The national flag of Cameroon.",
+    detailedMeaning: "The Flag of Cameroon emoji displays the green, red, and yellow vertical stripes with star. Cameroon is called 'Africa in miniature' for its diverse landscapes.\n\nUsed to represent Cameroon, Cameroonian identity, and discussions about the country.",
+    usageContexts: ["Cameroon", "Football", "Diversity", "Culture", "Africa"],
+    examples: [
+      { context: "Football", text: "Indomitable Lions 🇨🇲⚽" },
+      { context: "Pride", text: "Cameroonian pride 🇨🇲" },
+      { context: "Culture", text: "Africa in miniature 🇨🇲" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["lion", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["cameroon", "cameroonian", "flag", "africa", "lions"]
+  },
+  {
+    unicode: "🇨🇮",
+    name: "Flag: Côte d'Ivoire",
+    slug: "flag-cote-divoire",
+    shortMeaning: "The national flag of Côte d'Ivoire (Ivory Coast).",
+    detailedMeaning: "The Flag of Côte d'Ivoire emoji displays the orange, white, and green vertical stripes. Côte d'Ivoire is known for cocoa production and football.\n\nUsed to represent Côte d'Ivoire, Ivorian identity, and discussions about the country.",
+    usageContexts: ["Côte d'Ivoire", "Cocoa", "Football", "Culture", "Africa"],
+    examples: [
+      { context: "Football", text: "Les Éléphants 🇨🇮⚽" },
+      { context: "Pride", text: "Ivorian pride 🇨🇮" },
+      { context: "Culture", text: "Ivorian heritage 🇨🇮" }
+    ],
+    misunderstandings: ["Inverted Ireland flag"],
+    relatedEmojis: ["elephant", "soccer-ball", "chocolate-bar"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ivory coast", "cote divoire", "ivorian", "flag", "africa"]
+  },
+  {
+    unicode: "🇸🇳",
+    name: "Flag: Senegal",
+    slug: "flag-senegal",
+    shortMeaning: "The national flag of Senegal.",
+    detailedMeaning: "The Flag of Senegal emoji displays the green, yellow, and red vertical stripes with star. Senegal is known for Dakar, teranga (hospitality), and music.\n\nUsed to represent Senegal, Senegalese identity, and discussions about the country.",
+    usageContexts: ["Senegal", "Teranga", "Music", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Senegalese pride 🇸🇳" },
+      { context: "Football", text: "Lions of Teranga 🇸🇳⚽" },
+      { context: "Culture", text: "Teranga spirit 🇸🇳" }
+    ],
+    misunderstandings: ["Similar to Mali flag"],
+    relatedEmojis: ["lion", "drum", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["senegal", "senegalese", "flag", "africa", "teranga"]
+  },
+  {
+    unicode: "🇲🇱",
+    name: "Flag: Mali",
+    slug: "flag-mali",
+    shortMeaning: "The national flag of Mali.",
+    detailedMeaning: "The Flag of Mali emoji displays the green, yellow, and red vertical stripes. Mali has a rich history including the ancient Mali Empire and Timbuktu.\n\nUsed to represent Mali, Malian identity, and discussions about the country.",
+    usageContexts: ["Mali", "Timbuktu", "History", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Malian pride 🇲🇱" },
+      { context: "History", text: "Timbuktu heritage 🇲🇱" },
+      { context: "Culture", text: "Malian culture 🇲🇱" }
+    ],
+    misunderstandings: ["Similar to Senegal and Guinea flags"],
+    relatedEmojis: ["ancient-building", "desert"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["mali", "malian", "flag", "africa", "timbuktu"]
+  },
+  {
+    unicode: "🇷🇼",
+    name: "Flag: Rwanda",
+    slug: "flag-rwanda",
+    shortMeaning: "The national flag of Rwanda.",
+    detailedMeaning: "The Flag of Rwanda emoji displays the blue, yellow, and green stripes with sun. Rwanda is known as the 'Land of a Thousand Hills' and for gorilla trekking.\n\nUsed to represent Rwanda, Rwandan identity, and discussions about the country.",
+    usageContexts: ["Rwanda", "Gorillas", "Nature", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Rwandan pride 🇷🇼" },
+      { context: "Nature", text: "Gorilla trekking 🇷🇼🦍" },
+      { context: "Travel", text: "Land of a Thousand Hills 🇷🇼" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["gorilla", "mountain", "sun"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["rwanda", "rwandan", "flag", "africa", "gorillas"]
+  },
+  {
+    unicode: "🇦🇴",
+    name: "Flag: Angola",
+    slug: "flag-angola",
+    shortMeaning: "The national flag of Angola.",
+    detailedMeaning: "The Flag of Angola emoji displays the red and black horizontal stripes with machete and gear emblem. Angola is known for oil, diamonds, and diverse wildlife.\n\nUsed to represent Angola, Angolan identity, and discussions about the country.",
+    usageContexts: ["Angola", "Culture", "Resources", "Heritage", "Africa"],
+    examples: [
+      { context: "Pride", text: "Angolan pride 🇦🇴" },
+      { context: "Culture", text: "Angolan heritage 🇦🇴" },
+      { context: "Nature", text: "Angolan wildlife 🇦🇴" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["diamond", "oil-drum"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["angola", "angolan", "flag", "africa", "luanda"]
+  },
+  {
+    unicode: "🇲🇿",
+    name: "Flag: Mozambique",
+    slug: "flag-mozambique",
+    shortMeaning: "The national flag of Mozambique.",
+    detailedMeaning: "The Flag of Mozambique emoji displays the green, black, yellow, and red stripes with AK-47 emblem. Mozambique is known for beautiful beaches and diverse culture.\n\nUsed to represent Mozambique, Mozambican identity, and discussions about the country.",
+    usageContexts: ["Mozambique", "Beaches", "Culture", "Heritage", "Africa"],
+    examples: [
+      { context: "Pride", text: "Mozambican pride 🇲🇿" },
+      { context: "Travel", text: "Mozambique beaches 🇲🇿" },
+      { context: "Culture", text: "Mozambican heritage 🇲🇿" }
+    ],
+    misunderstandings: ["Only flag with firearm"],
+    relatedEmojis: ["beach", "tropical-fish"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["mozambique", "mozambican", "flag", "africa", "maputo"]
+  },
+  // Regional Indicators
+  {
+    unicode: "🇪🇺",
+    name: "Flag: European Union",
+    slug: "flag-european-union",
+    shortMeaning: "The flag of the European Union.",
+    detailedMeaning: "The European Union Flag emoji displays the blue flag with 12 golden stars in a circle. It represents unity and solidarity among EU member nations.\n\nUsed for EU discussions, European identity, and debates about European integration.",
+    usageContexts: ["EU", "Europe", "Unity", "Politics", "Integration"],
+    examples: [
+      { context: "EU", text: "European Union 🇪🇺" },
+      { context: "Unity", text: "Stronger together 🇪🇺" },
+      { context: "Politics", text: "EU summit 🇪🇺" }
+    ],
+    misunderstandings: ["Clear EU symbol"],
+    relatedEmojis: ["star", "globe-showing-europe-africa"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["eu", "european union", "europe", "flag", "unity"]
+  },
+  {
+    unicode: "🇺🇳",
+    name: "Flag: United Nations",
+    slug: "flag-united-nations",
+    shortMeaning: "The flag of the United Nations.",
+    detailedMeaning: "The United Nations Flag emoji displays the light blue flag with world map and olive branches. It represents international cooperation and world peace.\n\nUsed for UN discussions, international relations, and peace-related topics.",
+    usageContexts: ["UN", "Peace", "International", "Cooperation", "Global"],
+    examples: [
+      { context: "UN", text: "United Nations 🇺🇳" },
+      { context: "Peace", text: "World peace 🇺🇳" },
+      { context: "Global", text: "International cooperation 🇺🇳" }
+    ],
+    misunderstandings: ["Clear UN symbol"],
+    relatedEmojis: ["peace-symbol", "dove", "globe"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["un", "united nations", "peace", "flag", "international"]
+  },
   // FOOD & DRINK - Additional
   {
     unicode: "🍕",
