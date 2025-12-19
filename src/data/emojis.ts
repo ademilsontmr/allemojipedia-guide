@@ -14784,6 +14784,909 @@ export const emojis: Emoji[] = [
     subgroup: "light-video",
     keywords: ["search", "magnifying glass", "find", "look", "examine"]
   },
+  // MORE ELECTRONICS
+  {
+    unicode: "📱",
+    name: "Mobile Phone",
+    slug: "mobile-phone",
+    shortMeaning: "A smartphone.",
+    detailedMeaning: "The Mobile Phone emoji shows a smartphone, representing communication, apps, and modern technology.\n\nUsed for phone calls, texting, and mobile technology.",
+    usageContexts: ["Phone", "Text", "Call", "Apps", "Mobile"],
+    examples: [
+      { context: "Call", text: "Call me 📱" },
+      { context: "Text", text: "Text me 📱" },
+      { context: "Tech", text: "New phone 📱" }
+    ],
+    misunderstandings: ["Clear smartphone meaning"],
+    relatedEmojis: ["telephone", "laptop", "camera"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["phone", "mobile", "smartphone", "cell", "call"]
+  },
+  {
+    unicode: "📲",
+    name: "Mobile Phone with Arrow",
+    slug: "mobile-phone-with-arrow",
+    shortMeaning: "A phone receiving a call or download.",
+    detailedMeaning: "The Mobile Phone with Arrow emoji shows a phone with incoming arrow, representing receiving calls or downloads.\n\nUsed for incoming calls, downloads, and receiving notifications.",
+    usageContexts: ["Incoming", "Download", "Receive", "Call", "Notification"],
+    examples: [
+      { context: "Call", text: "Incoming call 📲" },
+      { context: "Download", text: "Download complete 📲" },
+      { context: "Receive", text: "Got it 📲" }
+    ],
+    misunderstandings: ["Clear incoming meaning"],
+    relatedEmojis: ["mobile-phone", "telephone", "bell"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["phone", "incoming", "download", "call", "receive"]
+  },
+  {
+    unicode: "☎️",
+    name: "Telephone",
+    slug: "telephone",
+    shortMeaning: "A classic rotary telephone.",
+    detailedMeaning: "The Telephone emoji shows a vintage rotary phone, representing phone calls and retro communication.\n\nUsed for phone calls, retro vibes, and customer service.",
+    usageContexts: ["Call", "Retro", "Telephone", "Contact", "Communication"],
+    examples: [
+      { context: "Call", text: "Give me a ring ☎️" },
+      { context: "Retro", text: "Old school ☎️" },
+      { context: "Contact", text: "Call us ☎️" }
+    ],
+    misunderstandings: ["Retro phone style"],
+    relatedEmojis: ["mobile-phone", "fax-machine", "receiver"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["telephone", "phone", "call", "rotary", "retro"]
+  },
+  {
+    unicode: "📟",
+    name: "Pager",
+    slug: "pager",
+    shortMeaning: "A pager/beeper.",
+    detailedMeaning: "The Pager emoji shows a pager device, representing 90s technology, doctors on call, and retro communication.\n\nUsed for retro references, medical contexts, and 90s nostalgia.",
+    usageContexts: ["Retro", "90s", "Doctor", "Beeper", "Communication"],
+    examples: [
+      { context: "Retro", text: "90s vibes 📟" },
+      { context: "Doctor", text: "On call 📟" },
+      { context: "Nostalgia", text: "Remember these? 📟" }
+    ],
+    misunderstandings: ["Outdated technology"],
+    relatedEmojis: ["mobile-phone", "telephone", "floppy-disk"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["pager", "beeper", "90s", "retro", "doctor"]
+  },
+  {
+    unicode: "📠",
+    name: "Fax Machine",
+    slug: "fax-machine",
+    shortMeaning: "A fax machine.",
+    detailedMeaning: "The Fax Machine emoji shows a fax machine, representing office communication and outdated but still-used technology.\n\nUsed for office humor, bureaucracy, and retro tech references.",
+    usageContexts: ["Office", "Retro", "Bureaucracy", "Document", "Communication"],
+    examples: [
+      { context: "Office", text: "Office life 📠" },
+      { context: "Retro", text: "Still using fax? 📠" },
+      { context: "Document", text: "Fax it over 📠" }
+    ],
+    misunderstandings: ["Often used ironically"],
+    relatedEmojis: ["printer", "telephone", "desktop-computer"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["fax", "office", "retro", "document", "machine"]
+  },
+  {
+    unicode: "🔋",
+    name: "Battery",
+    slug: "battery",
+    shortMeaning: "A full battery.",
+    detailedMeaning: "The Battery emoji shows a charged battery, representing power levels, energy, and device charging.\n\nUsed for energy levels, charging, and power references.",
+    usageContexts: ["Power", "Energy", "Charge", "Battery", "Full"],
+    examples: [
+      { context: "Energy", text: "Fully charged 🔋" },
+      { context: "Ready", text: "Battery at 100% 🔋" },
+      { context: "Power", text: "Powered up 🔋" }
+    ],
+    misunderstandings: ["Can mean personal energy too"],
+    relatedEmojis: ["electric-plug", "mobile-phone", "laptop"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["battery", "power", "charge", "energy", "full"]
+  },
+  {
+    unicode: "🔌",
+    name: "Electric Plug",
+    slug: "electric-plug",
+    shortMeaning: "An electrical plug.",
+    detailedMeaning: "The Electric Plug emoji shows an electric plug, representing charging, electricity, and connection.\n\nUsed for charging devices, electrical work, and plugging in.",
+    usageContexts: ["Charge", "Electric", "Connect", "Power", "Plug"],
+    examples: [
+      { context: "Charge", text: "Plugging in 🔌" },
+      { context: "Connect", text: "Connected 🔌" },
+      { context: "Power", text: "Power up 🔌" }
+    ],
+    misunderstandings: ["Clear charging meaning"],
+    relatedEmojis: ["battery", "light-bulb", "mobile-phone"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["plug", "electric", "charge", "power", "outlet"]
+  },
+  {
+    unicode: "💻",
+    name: "Laptop",
+    slug: "laptop-computer",
+    shortMeaning: "A laptop computer.",
+    detailedMeaning: "The Laptop emoji shows a laptop computer, representing work, computing, and digital life.\n\nUsed for work content, computing, and remote work.",
+    usageContexts: ["Work", "Computer", "Remote", "Tech", "Digital"],
+    examples: [
+      { context: "Work", text: "Working from home 💻" },
+      { context: "Remote", text: "Remote work 💻" },
+      { context: "Tech", text: "New laptop 💻" }
+    ],
+    misunderstandings: ["Clear laptop meaning"],
+    relatedEmojis: ["desktop-computer", "keyboard", "mouse"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["laptop", "computer", "work", "tech", "remote"]
+  },
+  {
+    unicode: "🖥️",
+    name: "Desktop Computer",
+    slug: "desktop-computer-screen",
+    shortMeaning: "A desktop computer monitor.",
+    detailedMeaning: "The Desktop Computer emoji shows a computer monitor, representing desktop computing and office work.\n\nUsed for work content, gaming setups, and computing.",
+    usageContexts: ["Computer", "Work", "Gaming", "Office", "Desktop"],
+    examples: [
+      { context: "Work", text: "Office setup 🖥️" },
+      { context: "Gaming", text: "Gaming rig 🖥️" },
+      { context: "Tech", text: "New monitor 🖥️" }
+    ],
+    misunderstandings: ["Clear desktop meaning"],
+    relatedEmojis: ["laptop", "keyboard", "mouse"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["desktop", "computer", "monitor", "screen", "PC"]
+  },
+  {
+    unicode: "🖨️",
+    name: "Printer",
+    slug: "printer-machine",
+    shortMeaning: "A printer.",
+    detailedMeaning: "The Printer emoji shows a desktop printer, representing printing documents and office equipment.\n\nUsed for printing, office work, and document creation.",
+    usageContexts: ["Print", "Office", "Document", "Paper", "Copy"],
+    examples: [
+      { context: "Print", text: "Printing now 🖨️" },
+      { context: "Office", text: "Office essentials 🖨️" },
+      { context: "Document", text: "Print it out 🖨️" }
+    ],
+    misunderstandings: ["Clear printer meaning"],
+    relatedEmojis: ["desktop-computer", "page", "fax-machine"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["printer", "print", "office", "paper", "document"]
+  },
+  {
+    unicode: "🖱️",
+    name: "Computer Mouse",
+    slug: "computer-mouse-device",
+    shortMeaning: "A computer mouse.",
+    detailedMeaning: "The Computer Mouse emoji shows a computer mouse, representing computing and navigation.\n\nUsed for computer content, clicking, and tech discussions.",
+    usageContexts: ["Computer", "Click", "Navigate", "Tech", "Cursor"],
+    examples: [
+      { context: "Click", text: "Click here 🖱️" },
+      { context: "Computer", text: "Mouse and keyboard 🖱️" },
+      { context: "Tech", text: "New mouse 🖱️" }
+    ],
+    misunderstandings: ["Clear computer mouse meaning"],
+    relatedEmojis: ["keyboard", "laptop", "desktop-computer"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["mouse", "computer", "click", "cursor", "navigate"]
+  },
+  {
+    unicode: "🖲️",
+    name: "Trackball",
+    slug: "trackball",
+    shortMeaning: "A computer trackball.",
+    detailedMeaning: "The Trackball emoji shows a trackball input device, representing computer navigation and retro computing.\n\nUsed for computing, retro tech, and input devices.",
+    usageContexts: ["Computer", "Input", "Retro", "Navigate", "Tech"],
+    examples: [
+      { context: "Retro", text: "Old school input 🖲️" },
+      { context: "Tech", text: "Trackball user 🖲️" },
+      { context: "Navigate", text: "Navigating 🖲️" }
+    ],
+    misunderstandings: ["Less common device"],
+    relatedEmojis: ["computer-mouse", "keyboard", "joystick"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["trackball", "computer", "input", "navigate", "retro"]
+  },
+  {
+    unicode: "🕹️",
+    name: "Joystick",
+    slug: "joystick",
+    shortMeaning: "A gaming joystick.",
+    detailedMeaning: "The Joystick emoji shows a gaming joystick, representing gaming, arcade games, and retro gaming.\n\nUsed for gaming content, arcade references, and retro gaming.",
+    usageContexts: ["Gaming", "Arcade", "Retro", "Play", "Control"],
+    examples: [
+      { context: "Gaming", text: "Game on 🕹️" },
+      { context: "Arcade", text: "Arcade vibes 🕹️" },
+      { context: "Retro", text: "Retro gaming 🕹️" }
+    ],
+    misunderstandings: ["Clear gaming meaning"],
+    relatedEmojis: ["video-game", "alien-monster", "game-die"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["joystick", "gaming", "arcade", "retro", "controller"]
+  },
+  {
+    unicode: "🎮",
+    name: "Video Game",
+    slug: "video-game",
+    shortMeaning: "A game controller.",
+    detailedMeaning: "The Video Game emoji shows a game controller, representing gaming, video games, and entertainment.\n\nUsed for gaming content, video game discussions, and player culture.",
+    usageContexts: ["Gaming", "Controller", "Video games", "Play", "Entertainment"],
+    examples: [
+      { context: "Gaming", text: "Gaming night 🎮" },
+      { context: "Play", text: "Let's play 🎮" },
+      { context: "Games", text: "New game 🎮" }
+    ],
+    misunderstandings: ["Clear gaming meaning"],
+    relatedEmojis: ["joystick", "alien-monster", "trophy"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["gaming", "controller", "video game", "play", "console"]
+  },
+  {
+    unicode: "📷",
+    name: "Camera",
+    slug: "camera-photo",
+    shortMeaning: "A digital camera.",
+    detailedMeaning: "The Camera emoji shows a camera, representing photography, pictures, and capturing moments.\n\nUsed for photography, taking pictures, and camera content.",
+    usageContexts: ["Photo", "Camera", "Picture", "Capture", "Photography"],
+    examples: [
+      { context: "Photo", text: "Photo time 📷" },
+      { context: "Capture", text: "Capturing memories 📷" },
+      { context: "Photography", text: "Photography day 📷" }
+    ],
+    misunderstandings: ["Clear camera meaning"],
+    relatedEmojis: ["camera-with-flash", "video-camera", "selfie"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["camera", "photo", "picture", "capture", "photography"]
+  },
+  {
+    unicode: "📸",
+    name: "Camera with Flash",
+    slug: "camera-with-flash",
+    shortMeaning: "A camera with flash going off.",
+    detailedMeaning: "The Camera with Flash emoji shows a camera with flash, representing taking photos, paparazzi, and photo shoots.\n\nUsed for taking pictures, celebrity/paparazzi content, and flash photography.",
+    usageContexts: ["Photo", "Flash", "Paparazzi", "Shoot", "Picture"],
+    examples: [
+      { context: "Photo", text: "Say cheese 📸" },
+      { context: "Paparazzi", text: "Paparazzi moment 📸" },
+      { context: "Shoot", text: "Photo shoot 📸" }
+    ],
+    misunderstandings: ["Often means taking a photo"],
+    relatedEmojis: ["camera", "video-camera", "sparkles"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["camera", "flash", "photo", "paparazzi", "picture"]
+  },
+  {
+    unicode: "📹",
+    name: "Video Camera",
+    slug: "video-camera-device",
+    shortMeaning: "A video camera.",
+    detailedMeaning: "The Video Camera emoji shows a camcorder, representing recording video, filming, and video creation.\n\nUsed for video content, recording, and filming.",
+    usageContexts: ["Video", "Record", "Film", "Camera", "Content"],
+    examples: [
+      { context: "Record", text: "Recording now 📹" },
+      { context: "Video", text: "Making a video 📹" },
+      { context: "Film", text: "Filming time 📹" }
+    ],
+    misunderstandings: ["Clear video camera meaning"],
+    relatedEmojis: ["camera", "movie-camera", "clapper-board"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["video", "camera", "record", "film", "camcorder"]
+  },
+  {
+    unicode: "📺",
+    name: "Television",
+    slug: "television-set",
+    shortMeaning: "A television set.",
+    detailedMeaning: "The Television emoji shows a TV, representing watching shows, entertainment, and streaming.\n\nUsed for TV watching, streaming content, and entertainment.",
+    usageContexts: ["TV", "Watch", "Streaming", "Entertainment", "Show"],
+    examples: [
+      { context: "Watch", text: "Binge watching 📺" },
+      { context: "Streaming", text: "Netflix time 📺" },
+      { context: "Show", text: "New show 📺" }
+    ],
+    misunderstandings: ["Clear TV meaning"],
+    relatedEmojis: ["movie-camera", "popcorn", "couch-and-lamp"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["TV", "television", "watch", "show", "streaming"]
+  },
+  {
+    unicode: "📻",
+    name: "Radio",
+    slug: "radio-device",
+    shortMeaning: "A portable radio.",
+    detailedMeaning: "The Radio emoji shows a radio, representing music, broadcasts, and retro audio technology.\n\nUsed for music, radio shows, and retro tech content.",
+    usageContexts: ["Music", "Radio", "Broadcast", "Retro", "Audio"],
+    examples: [
+      { context: "Music", text: "Radio jams 📻" },
+      { context: "Broadcast", text: "Live on radio 📻" },
+      { context: "Retro", text: "Old school vibes 📻" }
+    ],
+    misunderstandings: ["Clear radio meaning"],
+    relatedEmojis: ["speaker", "headphones", "microphone"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["radio", "music", "broadcast", "audio", "retro"]
+  },
+  {
+    unicode: "🔦",
+    name: "Flashlight",
+    slug: "flashlight",
+    shortMeaning: "A flashlight/torch.",
+    detailedMeaning: "The Flashlight emoji shows a flashlight, representing light, searching in the dark, and camping.\n\nUsed for light sources, searching, and camping content.",
+    usageContexts: ["Light", "Search", "Dark", "Camping", "Illuminate"],
+    examples: [
+      { context: "Light", text: "Shining a light 🔦" },
+      { context: "Camping", text: "Camping gear 🔦" },
+      { context: "Search", text: "Searching 🔦" }
+    ],
+    misunderstandings: ["Clear flashlight meaning"],
+    relatedEmojis: ["light-bulb", "candle", "camping"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["flashlight", "torch", "light", "search", "dark"]
+  },
+  {
+    unicode: "🏮",
+    name: "Red Paper Lantern",
+    slug: "red-paper-lantern",
+    shortMeaning: "A red paper lantern.",
+    detailedMeaning: "The Red Paper Lantern emoji shows a Japanese/Chinese lantern, representing Asian culture, festivals, and restaurants.\n\nUsed for Asian restaurants, festivals, and cultural celebrations.",
+    usageContexts: ["Asian", "Festival", "Restaurant", "Culture", "Celebration"],
+    examples: [
+      { context: "Restaurant", text: "Japanese restaurant 🏮" },
+      { context: "Festival", text: "Lantern festival 🏮" },
+      { context: "Culture", text: "Cultural vibes 🏮" }
+    ],
+    misunderstandings: ["Asian cultural item"],
+    relatedEmojis: ["sushi", "chopsticks", "japanese-flag"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["lantern", "red", "Japanese", "Chinese", "festival"]
+  },
+  // MORE TOOLS
+  {
+    unicode: "🔧",
+    name: "Wrench Tool",
+    slug: "wrench-tool",
+    shortMeaning: "A wrench for repairs.",
+    detailedMeaning: "The Wrench emoji shows a wrench, representing fixing, repairs, and mechanical work.\n\nUsed for repair content, settings, and fixing things.",
+    usageContexts: ["Fix", "Repair", "Settings", "Tool", "Mechanical"],
+    examples: [
+      { context: "Fix", text: "Fixing it 🔧" },
+      { context: "Settings", text: "Tweaking settings 🔧" },
+      { context: "Repair", text: "Under repair 🔧" }
+    ],
+    misunderstandings: ["Clear tool meaning"],
+    relatedEmojis: ["hammer", "screwdriver", "gear"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["wrench", "fix", "repair", "tool", "settings"]
+  },
+  {
+    unicode: "🪓",
+    name: "Axe",
+    slug: "axe",
+    shortMeaning: "A wood-chopping axe.",
+    detailedMeaning: "The Axe emoji shows an axe, representing chopping wood, lumberjacks, and cutting.\n\nUsed for chopping, outdoors content, and lumberjack references.",
+    usageContexts: ["Chop", "Wood", "Lumberjack", "Outdoors", "Cut"],
+    examples: [
+      { context: "Chop", text: "Chopping wood 🪓" },
+      { context: "Outdoors", text: "Cabin life 🪓" },
+      { context: "Lumberjack", text: "Lumberjack vibes 🪓" }
+    ],
+    misunderstandings: ["Clear axe meaning"],
+    relatedEmojis: ["wood", "evergreen-tree", "carpentry-saw"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["axe", "chop", "wood", "lumberjack", "cut"]
+  },
+  {
+    unicode: "⛏️",
+    name: "Pick",
+    slug: "pick",
+    shortMeaning: "A mining pickaxe.",
+    detailedMeaning: "The Pick emoji shows a pickaxe, representing mining, digging, and Minecraft references.\n\nUsed for mining, construction, and gaming references.",
+    usageContexts: ["Mining", "Dig", "Minecraft", "Construction", "Work"],
+    examples: [
+      { context: "Mining", text: "Mining time ⛏️" },
+      { context: "Minecraft", text: "Minecraft vibes ⛏️" },
+      { context: "Dig", text: "Digging deep ⛏️" }
+    ],
+    misunderstandings: ["Minecraft association"],
+    relatedEmojis: ["hammer", "gem-stone", "mountain"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["pick", "pickaxe", "mining", "dig", "Minecraft"]
+  },
+  {
+    unicode: "⚒️",
+    name: "Hammer and Pick",
+    slug: "hammer-and-pick",
+    shortMeaning: "A hammer and pick crossed.",
+    detailedMeaning: "The Hammer and Pick emoji shows crossed tools, representing mining, hard work, and labor.\n\nUsed for mining, construction, and work themes.",
+    usageContexts: ["Mining", "Labor", "Work", "Construction", "Tools"],
+    examples: [
+      { context: "Work", text: "Hard at work ⚒️" },
+      { context: "Mining", text: "Mining operation ⚒️" },
+      { context: "Labor", text: "Labor day ⚒️" }
+    ],
+    misunderstandings: ["Soviet imagery association"],
+    relatedEmojis: ["hammer", "pick", "gear"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["hammer", "pick", "mining", "work", "labor"]
+  },
+  {
+    unicode: "🛠️",
+    name: "Hammer and Wrench",
+    slug: "hammer-and-wrench",
+    shortMeaning: "Tools for building and fixing.",
+    detailedMeaning: "The Hammer and Wrench emoji shows crossed tools, representing building, repairs, and technical work.\n\nUsed for DIY projects, repairs, and construction content.",
+    usageContexts: ["Build", "Fix", "DIY", "Repair", "Tools"],
+    examples: [
+      { context: "Build", text: "Building something 🛠️" },
+      { context: "DIY", text: "DIY project 🛠️" },
+      { context: "Fix", text: "Under construction 🛠️" }
+    ],
+    misunderstandings: ["Clear tools meaning"],
+    relatedEmojis: ["hammer", "wrench", "gear"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["hammer", "wrench", "tools", "build", "fix"]
+  },
+  {
+    unicode: "🗜️",
+    name: "Clamp",
+    slug: "clamp",
+    shortMeaning: "A C-clamp tool.",
+    detailedMeaning: "The Clamp emoji shows a C-clamp, representing gripping, woodworking, and holding things in place.\n\nUsed for woodworking, DIY projects, and holding tight.",
+    usageContexts: ["Woodworking", "Hold", "Grip", "DIY", "Tool"],
+    examples: [
+      { context: "Woodworking", text: "Clamping it down 🗜️" },
+      { context: "Hold", text: "Holding tight 🗜️" },
+      { context: "DIY", text: "Workshop tool 🗜️" }
+    ],
+    misunderstandings: ["Clear clamp meaning"],
+    relatedEmojis: ["carpentry-saw", "hammer", "wrench"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["clamp", "grip", "hold", "tool", "woodworking"]
+  },
+  {
+    unicode: "🧰",
+    name: "Toolbox",
+    slug: "toolbox",
+    shortMeaning: "A red toolbox.",
+    detailedMeaning: "The Toolbox emoji shows a toolbox, representing tools, repairs, and being prepared.\n\nUsed for repair content, DIY projects, and having the right tools.",
+    usageContexts: ["Tools", "Repair", "DIY", "Prepared", "Work"],
+    examples: [
+      { context: "Repair", text: "Got my toolbox 🧰" },
+      { context: "DIY", text: "DIY ready 🧰" },
+      { context: "Prepared", text: "Fully equipped 🧰" }
+    ],
+    misunderstandings: ["Clear toolbox meaning"],
+    relatedEmojis: ["hammer", "wrench", "screwdriver"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["toolbox", "tools", "repair", "DIY", "prepared"]
+  },
+  {
+    unicode: "🔐",
+    name: "Locked with Key",
+    slug: "locked-with-key",
+    shortMeaning: "A locked padlock with key.",
+    detailedMeaning: "The Locked with Key emoji shows a padlock with key, representing security, privacy, and access control.\n\nUsed for security content, privacy, and authorized access.",
+    usageContexts: ["Security", "Privacy", "Access", "Protected", "Key"],
+    examples: [
+      { context: "Security", text: "Secured 🔐" },
+      { context: "Privacy", text: "Private content 🔐" },
+      { context: "Access", text: "Authorized only 🔐" }
+    ],
+    misunderstandings: ["Strong security meaning"],
+    relatedEmojis: ["locked", "key", "shield"],
+    categorySlug: "objects",
+    subgroup: "lock",
+    keywords: ["lock", "key", "security", "private", "secure"]
+  },
+  {
+    unicode: "🗝️",
+    name: "Old Key",
+    slug: "old-key",
+    shortMeaning: "An antique key.",
+    detailedMeaning: "The Old Key emoji shows an ornate antique key, representing secrets, unlocking mysteries, and vintage items.\n\nUsed for secrets, mysteries, and vintage/antique content.",
+    usageContexts: ["Secret", "Mystery", "Vintage", "Unlock", "Antique"],
+    examples: [
+      { context: "Secret", text: "The key to success 🗝️" },
+      { context: "Mystery", text: "Unlocking secrets 🗝️" },
+      { context: "Vintage", text: "Vintage vibes 🗝️" }
+    ],
+    misunderstandings: ["Can mean solution/answer"],
+    relatedEmojis: ["key", "locked", "treasure"],
+    categorySlug: "objects",
+    subgroup: "lock",
+    keywords: ["key", "old", "antique", "secret", "mystery"]
+  },
+  {
+    unicode: "⚖️",
+    name: "Balance Scale",
+    slug: "balance-scale",
+    shortMeaning: "A balance scale for weighing.",
+    detailedMeaning: "The Balance Scale emoji shows scales, representing justice, law, balance, and the Libra zodiac.\n\nUsed for legal content, fairness, balance, and Libra references.",
+    usageContexts: ["Justice", "Law", "Balance", "Libra", "Fair"],
+    examples: [
+      { context: "Justice", text: "Justice served ⚖️" },
+      { context: "Balance", text: "Finding balance ⚖️" },
+      { context: "Libra", text: "Libra season ⚖️" }
+    ],
+    misunderstandings: ["Libra zodiac association"],
+    relatedEmojis: ["gavel", "court", "statue-of-liberty"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["scale", "balance", "justice", "law", "Libra"]
+  },
+  {
+    unicode: "🧲",
+    name: "Magnet Tool",
+    slug: "magnet-tool",
+    shortMeaning: "A horseshoe magnet.",
+    detailedMeaning: "The Magnet emoji shows a magnet, representing attraction, magnetism, and drawing things together.\n\nUsed for attraction topics, being magnetic, and science content.",
+    usageContexts: ["Attract", "Magnetic", "Pull", "Science", "Draw"],
+    examples: [
+      { context: "Attract", text: "Attracting success 🧲" },
+      { context: "Magnetic", text: "Magnetic personality 🧲" },
+      { context: "Science", text: "Science project 🧲" }
+    ],
+    misunderstandings: ["Can mean attractive"],
+    relatedEmojis: ["sparkles", "lightning", "science"],
+    categorySlug: "objects",
+    subgroup: "tool",
+    keywords: ["magnet", "attract", "pull", "magnetic", "science"]
+  },
+  // MORE HOUSEHOLD ITEMS
+  {
+    unicode: "🪤",
+    name: "Mouse Trap",
+    slug: "mouse-trap",
+    shortMeaning: "A mouse trap.",
+    detailedMeaning: "The Mouse Trap emoji shows a mouse trap, representing catching mice, traps, and being caught.\n\nUsed for pest control, trap references, and falling for tricks.",
+    usageContexts: ["Trap", "Catch", "Mouse", "Trick", "Bait"],
+    examples: [
+      { context: "Trap", text: "It's a trap 🪤" },
+      { context: "Catch", text: "Caught 🪤" },
+      { context: "Mouse", text: "Mouse problem 🪤" }
+    ],
+    misunderstandings: ["Can mean any kind of trap"],
+    relatedEmojis: ["mouse", "cheese-wedge", "warning"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["trap", "mouse", "catch", "bait", "pest"]
+  },
+  {
+    unicode: "🪜",
+    name: "Ladder",
+    slug: "ladder",
+    shortMeaning: "A step ladder.",
+    detailedMeaning: "The Ladder emoji shows a ladder, representing climbing, reaching heights, and career advancement.\n\nUsed for climbing, reaching goals, and career content.",
+    usageContexts: ["Climb", "Reach", "Career", "Height", "Progress"],
+    examples: [
+      { context: "Career", text: "Climbing the ladder 🪜" },
+      { context: "Reach", text: "Reaching new heights 🪜" },
+      { context: "Progress", text: "Moving up 🪜" }
+    ],
+    misunderstandings: ["Career advancement metaphor"],
+    relatedEmojis: ["chart-increasing", "trophy", "star"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["ladder", "climb", "reach", "career", "height"]
+  },
+  {
+    unicode: "🧯",
+    name: "Fire Extinguisher",
+    slug: "fire-extinguisher",
+    shortMeaning: "A fire extinguisher.",
+    detailedMeaning: "The Fire Extinguisher emoji shows a fire extinguisher, representing safety, emergencies, and putting out fires.\n\nUsed for safety content, emergencies, and calming situations.",
+    usageContexts: ["Safety", "Emergency", "Fire", "Calm", "Extinguish"],
+    examples: [
+      { context: "Safety", text: "Safety first 🧯" },
+      { context: "Calm", text: "Putting out fires 🧯" },
+      { context: "Emergency", text: "Emergency ready 🧯" }
+    ],
+    misunderstandings: ["Can mean calming drama"],
+    relatedEmojis: ["fire", "firefighter", "warning"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["extinguisher", "fire", "safety", "emergency", "calm"]
+  },
+  {
+    unicode: "🛒",
+    name: "Shopping Cart",
+    slug: "shopping-cart",
+    shortMeaning: "A shopping cart.",
+    detailedMeaning: "The Shopping Cart emoji shows a shopping cart, representing shopping, groceries, and online shopping.\n\nUsed for shopping content, e-commerce, and grocery runs.",
+    usageContexts: ["Shopping", "Groceries", "Cart", "E-commerce", "Buy"],
+    examples: [
+      { context: "Shopping", text: "Shopping time 🛒" },
+      { context: "Groceries", text: "Grocery run 🛒" },
+      { context: "Online", text: "Add to cart 🛒" }
+    ],
+    misunderstandings: ["Clear shopping meaning"],
+    relatedEmojis: ["credit-card", "shopping-bags", "receipt"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["cart", "shopping", "groceries", "buy", "store"]
+  },
+  {
+    unicode: "🛍️",
+    name: "Shopping Bags",
+    slug: "shopping-bags",
+    shortMeaning: "Colorful shopping bags.",
+    detailedMeaning: "The Shopping Bags emoji shows shopping bags, representing retail therapy, shopping sprees, and purchases.\n\nUsed for shopping hauls, retail content, and fashion shopping.",
+    usageContexts: ["Shopping", "Retail", "Haul", "Fashion", "Bags"],
+    examples: [
+      { context: "Haul", text: "Shopping haul 🛍️" },
+      { context: "Retail", text: "Retail therapy 🛍️" },
+      { context: "Fashion", text: "New purchases 🛍️" }
+    ],
+    misunderstandings: ["Clear shopping meaning"],
+    relatedEmojis: ["shopping-cart", "credit-card", "dress"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["shopping", "bags", "retail", "haul", "fashion"]
+  },
+  {
+    unicode: "🎁",
+    name: "Wrapped Gift",
+    slug: "wrapped-gift",
+    shortMeaning: "A wrapped gift box.",
+    detailedMeaning: "The Wrapped Gift emoji shows a gift box with bow, representing presents, surprises, and celebrations.\n\nUsed for gifts, birthdays, holidays, and surprises.",
+    usageContexts: ["Gift", "Present", "Birthday", "Holiday", "Surprise"],
+    examples: [
+      { context: "Birthday", text: "Happy birthday 🎁" },
+      { context: "Holiday", text: "Holiday gifts 🎁" },
+      { context: "Surprise", text: "Surprise for you 🎁" }
+    ],
+    misunderstandings: ["Clear gift meaning"],
+    relatedEmojis: ["party-popper", "birthday-cake", "christmas-tree"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["gift", "present", "birthday", "holiday", "wrapped"]
+  },
+  {
+    unicode: "🪔",
+    name: "Diya Lamp",
+    slug: "diya-lamp",
+    shortMeaning: "A traditional oil lamp.",
+    detailedMeaning: "The Diya Lamp emoji shows an Indian oil lamp, representing Diwali, light, and Hindu celebrations.\n\nUsed for Diwali, Indian culture, and spiritual light.",
+    usageContexts: ["Diwali", "Indian", "Light", "Spiritual", "Festival"],
+    examples: [
+      { context: "Diwali", text: "Happy Diwali 🪔" },
+      { context: "Light", text: "Festival of lights 🪔" },
+      { context: "Culture", text: "Indian traditions 🪔" }
+    ],
+    misunderstandings: ["Indian cultural item"],
+    relatedEmojis: ["candle", "fire", "india-flag"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["diya", "lamp", "Diwali", "Indian", "light"]
+  },
+  {
+    unicode: "🧿",
+    name: "Nazar Amulet",
+    slug: "nazar-amulet",
+    shortMeaning: "An evil eye amulet.",
+    detailedMeaning: "The Nazar Amulet emoji shows the evil eye bead, representing protection, Turkish/Greek culture, and warding off bad luck.\n\nUsed for protection, cultural references, and aesthetic content.",
+    usageContexts: ["Protection", "Evil eye", "Turkish", "Greek", "Amulet"],
+    examples: [
+      { context: "Protection", text: "Protected 🧿" },
+      { context: "Culture", text: "Mediterranean vibes 🧿" },
+      { context: "Aesthetic", text: "Evil eye aesthetic 🧿" }
+    ],
+    misunderstandings: ["Cultural protection symbol"],
+    relatedEmojis: ["eye", "sparkles", "prayer-beads"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["nazar", "evil eye", "amulet", "protection", "Turkish"]
+  },
+  {
+    unicode: "📿",
+    name: "Prayer Beads",
+    slug: "prayer-beads",
+    shortMeaning: "A string of prayer beads.",
+    detailedMeaning: "The Prayer Beads emoji shows beads used for prayer/meditation, representing spirituality, religion, and mindfulness.\n\nUsed for spiritual content, meditation, and religious practices.",
+    usageContexts: ["Prayer", "Meditation", "Spiritual", "Religious", "Mindful"],
+    examples: [
+      { context: "Prayer", text: "In prayer 📿" },
+      { context: "Meditation", text: "Meditation time 📿" },
+      { context: "Spiritual", text: "Spiritual practice 📿" }
+    ],
+    misunderstandings: ["Religious/spiritual item"],
+    relatedEmojis: ["nazar-amulet", "om", "person-in-lotus-position"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["prayer", "beads", "meditation", "spiritual", "rosary"]
+  },
+  {
+    unicode: "🪶",
+    name: "Feather",
+    slug: "feather",
+    shortMeaning: "A bird feather.",
+    detailedMeaning: "The Feather emoji shows a feather, representing lightness, birds, writing quills, and Native American culture.\n\nUsed for light topics, birds, writing, and cultural references.",
+    usageContexts: ["Light", "Bird", "Writing", "Native", "Soft"],
+    examples: [
+      { context: "Light", text: "Light as a feather 🪶" },
+      { context: "Writing", text: "Old school writing 🪶" },
+      { context: "Bird", text: "Bird feather 🪶" }
+    ],
+    misunderstandings: ["Cultural significance varies"],
+    relatedEmojis: ["bird", "peacock", "pen"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["feather", "bird", "light", "quill", "soft"]
+  },
+  {
+    unicode: "🪵",
+    name: "Wood",
+    slug: "wood",
+    shortMeaning: "A log of wood.",
+    detailedMeaning: "The Wood emoji shows a wood log, representing lumber, camping, fires, and natural materials.\n\nUsed for camping, firewood, woodworking, and nature content.",
+    usageContexts: ["Wood", "Camping", "Fire", "Natural", "Lumber"],
+    examples: [
+      { context: "Camping", text: "Campfire wood 🪵" },
+      { context: "Nature", text: "Back to nature 🪵" },
+      { context: "Woodworking", text: "Woodworking project 🪵" }
+    ],
+    misunderstandings: ["Clear wood meaning"],
+    relatedEmojis: ["fire", "axe", "evergreen-tree"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["wood", "log", "lumber", "camping", "fire"]
+  },
+  {
+    unicode: "🪨",
+    name: "Rock",
+    slug: "rock",
+    shortMeaning: "A large rock.",
+    detailedMeaning: "The Rock emoji shows a boulder/rock, representing stability, strength, and the phrase 'you rock.'\n\nUsed for stability, strength expressions, and nature content.",
+    usageContexts: ["Rock", "Stable", "Strong", "Nature", "Solid"],
+    examples: [
+      { context: "Praise", text: "You rock 🪨" },
+      { context: "Stable", text: "Solid as a rock 🪨" },
+      { context: "Nature", text: "Nature vibes 🪨" }
+    ],
+    misunderstandings: ["You rock expression"],
+    relatedEmojis: ["mountain", "gem-stone", "wood"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["rock", "stone", "boulder", "solid", "stable"]
+  },
+  {
+    unicode: "⏰",
+    name: "Alarm Clock",
+    slug: "alarm-clock",
+    shortMeaning: "An alarm clock.",
+    detailedMeaning: "The Alarm Clock emoji shows an alarm clock, representing time, wake-up calls, and deadlines.\n\nUsed for time references, alarms, and deadlines.",
+    usageContexts: ["Time", "Alarm", "Wake up", "Deadline", "Clock"],
+    examples: [
+      { context: "Wake up", text: "Alarm set ⏰" },
+      { context: "Time", text: "Time check ⏰" },
+      { context: "Deadline", text: "Time's running out ⏰" }
+    ],
+    misunderstandings: ["Clear time meaning"],
+    relatedEmojis: ["clock", "timer", "hourglass"],
+    categorySlug: "objects",
+    subgroup: "time",
+    keywords: ["alarm", "clock", "time", "wake", "deadline"]
+  },
+  {
+    unicode: "⏳",
+    name: "Hourglass Not Done",
+    slug: "hourglass-not-done",
+    shortMeaning: "An hourglass with sand flowing.",
+    detailedMeaning: "The Hourglass Not Done emoji shows sand still flowing, representing time passing, waiting, and patience.\n\nUsed for waiting, time passing, and patience.",
+    usageContexts: ["Waiting", "Time", "Patience", "Progress", "Passing"],
+    examples: [
+      { context: "Waiting", text: "Still waiting ⏳" },
+      { context: "Time", text: "Time is passing ⏳" },
+      { context: "Patience", text: "Patience ⏳" }
+    ],
+    misunderstandings: ["Waiting/in progress"],
+    relatedEmojis: ["hourglass-done", "clock", "timer"],
+    categorySlug: "objects",
+    subgroup: "time",
+    keywords: ["hourglass", "time", "waiting", "patience", "sand"]
+  },
+  {
+    unicode: "⌛",
+    name: "Hourglass Done",
+    slug: "hourglass-done",
+    shortMeaning: "An hourglass with sand finished.",
+    detailedMeaning: "The Hourglass Done emoji shows sand finished flowing, representing time's up, completion, and urgency.\n\nUsed for deadlines, time's up, and completed waiting.",
+    usageContexts: ["Done", "Time's up", "Deadline", "Complete", "Finished"],
+    examples: [
+      { context: "Time's up", text: "Time's up ⌛" },
+      { context: "Deadline", text: "Deadline passed ⌛" },
+      { context: "Complete", text: "Wait is over ⌛" }
+    ],
+    misunderstandings: ["Time expired"],
+    relatedEmojis: ["hourglass-not-done", "clock", "alarm-clock"],
+    categorySlug: "objects",
+    subgroup: "time",
+    keywords: ["hourglass", "done", "time", "finished", "expired"]
+  },
+  {
+    unicode: "🧭",
+    name: "Compass",
+    slug: "compass",
+    shortMeaning: "A navigation compass.",
+    detailedMeaning: "The Compass emoji shows a compass, representing direction, navigation, and finding your way.\n\nUsed for navigation, direction, and finding purpose.",
+    usageContexts: ["Direction", "Navigate", "Travel", "Purpose", "Guide"],
+    examples: [
+      { context: "Direction", text: "Finding my way 🧭" },
+      { context: "Navigate", text: "Navigating life 🧭" },
+      { context: "Travel", text: "Adventure awaits 🧭" }
+    ],
+    misunderstandings: ["Can mean moral compass"],
+    relatedEmojis: ["world-map", "airplane", "hiking-boot"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["compass", "direction", "navigate", "travel", "guide"]
+  },
+  {
+    unicode: "🧳",
+    name: "Luggage",
+    slug: "luggage",
+    shortMeaning: "A rolling suitcase.",
+    detailedMeaning: "The Luggage emoji shows a suitcase, representing travel, packing, and trips.\n\nUsed for travel content, packing, and vacation planning.",
+    usageContexts: ["Travel", "Packing", "Trip", "Vacation", "Suitcase"],
+    examples: [
+      { context: "Travel", text: "Bags packed 🧳" },
+      { context: "Vacation", text: "Vacation ready 🧳" },
+      { context: "Trip", text: "Off on a trip 🧳" }
+    ],
+    misunderstandings: ["Clear travel meaning"],
+    relatedEmojis: ["airplane", "passport", "world-map"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["luggage", "suitcase", "travel", "packing", "trip"]
+  },
+  {
+    unicode: "☂️",
+    name: "Umbrella",
+    slug: "umbrella",
+    shortMeaning: "An open umbrella.",
+    detailedMeaning: "The Umbrella emoji shows an open umbrella, representing rain, protection, and weather.\n\nUsed for rainy weather, protection, and weather discussions.",
+    usageContexts: ["Rain", "Weather", "Protection", "Umbrella", "Wet"],
+    examples: [
+      { context: "Rain", text: "Rainy day ☂️" },
+      { context: "Protection", text: "Stay dry ☂️" },
+      { context: "Weather", text: "Don't forget your umbrella ☂️" }
+    ],
+    misunderstandings: ["Clear umbrella meaning"],
+    relatedEmojis: ["cloud-with-rain", "raindrops", "sun-behind-rain-cloud"],
+    categorySlug: "objects",
+    subgroup: "household",
+    keywords: ["umbrella", "rain", "weather", "protection", "wet"]
+  },
   // SYMBOLS
   {
     unicode: "✅",
