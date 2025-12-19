@@ -7391,6 +7391,1072 @@ export const emojis: Emoji[] = [
     subgroup: "event",
     keywords: ["gift", "present", "birthday", "holiday", "surprise"]
   },
+  // MORE SPORTS
+  {
+    unicode: "🏈",
+    name: "American Football",
+    slug: "american-football",
+    shortMeaning: "An American football - touchdown time!",
+    detailedMeaning: "The American Football emoji shows the distinctive brown oval ball, representing NFL football, Super Bowl, and American sports culture.\n\nUsed for football games, tailgating, Super Bowl parties, and American sports enthusiasm.",
+    usageContexts: ["NFL", "Football", "Sports", "Super Bowl", "Touchdown"],
+    examples: [
+      { context: "Game", text: "Game day 🏈" },
+      { context: "Super Bowl", text: "Super Bowl party 🏈" },
+      { context: "Fan", text: "Go Cowboys 🏈" }
+    ],
+    misunderstandings: ["Only refers to American football, not soccer"],
+    relatedEmojis: ["soccer-ball", "trophy", "stadium"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["football", "NFL", "American", "touchdown", "sport"]
+  },
+  {
+    unicode: "⚾",
+    name: "Baseball",
+    slug: "baseball",
+    shortMeaning: "A baseball - America's pastime.",
+    detailedMeaning: "The Baseball emoji shows a white baseball with red stitching, representing baseball, MLB, and America's national pastime.\n\nUsed for baseball games, World Series, and expressing love for the sport.",
+    usageContexts: ["Baseball", "MLB", "Sports", "World Series", "Games"],
+    examples: [
+      { context: "Game", text: "Take me out to the ball game ⚾" },
+      { context: "Sports", text: "Baseball season ⚾" },
+      { context: "Fan", text: "Yankees fan ⚾" }
+    ],
+    misunderstandings: ["Clear baseball meaning"],
+    relatedEmojis: ["softball", "baseball-cap", "stadium"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["baseball", "MLB", "sport", "ball", "pitcher"]
+  },
+  {
+    unicode: "🥎",
+    name: "Softball",
+    slug: "softball",
+    shortMeaning: "A softball - larger and yellow.",
+    detailedMeaning: "The Softball emoji shows a yellow softball, representing the sport that's similar to baseball but with a larger ball.\n\nUsed for softball games, women's sports, and athletic activities.",
+    usageContexts: ["Softball", "Sports", "Games", "Athletic", "Team"],
+    examples: [
+      { context: "Game", text: "Softball practice 🥎" },
+      { context: "Sports", text: "Softball season 🥎" },
+      { context: "Team", text: "Go team 🥎" }
+    ],
+    misunderstandings: ["Sometimes confused with baseball"],
+    relatedEmojis: ["baseball", "trophy", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["softball", "sport", "ball", "game", "athletic"]
+  },
+  {
+    unicode: "🎾",
+    name: "Tennis",
+    slug: "tennis",
+    shortMeaning: "A tennis ball - game, set, match!",
+    detailedMeaning: "The Tennis emoji shows a bright yellow-green tennis ball, representing tennis, racket sports, and athletic elegance.\n\nUsed for tennis content, Wimbledon, and racket sport discussions.",
+    usageContexts: ["Tennis", "Sports", "Wimbledon", "Racket", "Athletic"],
+    examples: [
+      { context: "Game", text: "Tennis time 🎾" },
+      { context: "Sports", text: "Wimbledon finals 🎾" },
+      { context: "Play", text: "Let's hit some balls 🎾" }
+    ],
+    misunderstandings: ["Clear tennis meaning"],
+    relatedEmojis: ["badminton", "ping-pong", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["tennis", "sport", "ball", "racket", "Wimbledon"]
+  },
+  {
+    unicode: "🏐",
+    name: "Volleyball",
+    slug: "volleyball",
+    shortMeaning: "A volleyball - beach and indoor fun.",
+    detailedMeaning: "The Volleyball emoji shows a white and colored volleyball, representing both beach and indoor volleyball.\n\nUsed for volleyball games, beach activities, and team sports.",
+    usageContexts: ["Volleyball", "Beach", "Sports", "Team", "Games"],
+    examples: [
+      { context: "Beach", text: "Beach volleyball 🏐" },
+      { context: "Game", text: "Volleyball match 🏐" },
+      { context: "Sports", text: "Spike it 🏐" }
+    ],
+    misunderstandings: ["Clear volleyball meaning"],
+    relatedEmojis: ["beach-with-umbrella", "trophy", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["volleyball", "beach", "sport", "ball", "team"]
+  },
+  {
+    unicode: "🏉",
+    name: "Rugby Football",
+    slug: "rugby-football",
+    shortMeaning: "A rugby ball - the rough and tumble sport.",
+    detailedMeaning: "The Rugby Football emoji shows the distinctive oval rugby ball, representing rugby union and rugby league.\n\nUsed for rugby matches, World Cup, and the physical team sport.",
+    usageContexts: ["Rugby", "Sports", "World Cup", "Team", "Athletic"],
+    examples: [
+      { context: "Game", text: "Rugby match 🏉" },
+      { context: "Sports", text: "Rugby World Cup 🏉" },
+      { context: "Play", text: "Scrum time 🏉" }
+    ],
+    misunderstandings: ["Sometimes confused with American football"],
+    relatedEmojis: ["american-football", "trophy", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["rugby", "sport", "ball", "team", "scrum"]
+  },
+  {
+    unicode: "🎱",
+    name: "Pool 8 Ball",
+    slug: "pool-8-ball",
+    shortMeaning: "The 8 ball from pool/billiards.",
+    detailedMeaning: "The Pool 8 Ball emoji shows the iconic black 8 ball from pool/billiards, representing the game, bars, and hanging out.\n\nUsed for pool games, bars, and the phrase 'behind the 8 ball.'",
+    usageContexts: ["Pool", "Billiards", "Bar", "Games", "Hanging out"],
+    examples: [
+      { context: "Game", text: "Pool night 🎱" },
+      { context: "Bar", text: "At the bar 🎱" },
+      { context: "Fun", text: "Who's up for pool 🎱" }
+    ],
+    misunderstandings: ["Magic 8 ball fortune telling context"],
+    relatedEmojis: ["video-game", "dart", "bowling"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["pool", "billiards", "8 ball", "game", "bar"]
+  },
+  {
+    unicode: "🏓",
+    name: "Ping Pong",
+    slug: "ping-pong",
+    shortMeaning: "A ping pong paddle and ball.",
+    detailedMeaning: "The Ping Pong emoji shows a red paddle and white ball, representing table tennis and office games.\n\nUsed for ping pong, table tennis, and recreational sports.",
+    usageContexts: ["Ping Pong", "Table Tennis", "Games", "Office", "Recreation"],
+    examples: [
+      { context: "Game", text: "Ping pong break 🏓" },
+      { context: "Office", text: "Office tournament 🏓" },
+      { context: "Fun", text: "Table tennis time 🏓" }
+    ],
+    misunderstandings: ["Clear ping pong meaning"],
+    relatedEmojis: ["tennis", "badminton", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["ping pong", "table tennis", "paddle", "game", "sport"]
+  },
+  {
+    unicode: "🏸",
+    name: "Badminton",
+    slug: "badminton",
+    shortMeaning: "A badminton racket and shuttlecock.",
+    detailedMeaning: "The Badminton emoji shows a racket and shuttlecock (birdie), representing the popular racket sport.\n\nUsed for badminton games, backyard activities, and racket sports.",
+    usageContexts: ["Badminton", "Sports", "Backyard", "Games", "Recreation"],
+    examples: [
+      { context: "Game", text: "Badminton time 🏸" },
+      { context: "Backyard", text: "Backyard badminton 🏸" },
+      { context: "Sports", text: "Shuttlecock smash 🏸" }
+    ],
+    misunderstandings: ["Clear badminton meaning"],
+    relatedEmojis: ["tennis", "ping-pong", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["badminton", "racket", "shuttlecock", "sport", "game"]
+  },
+  {
+    unicode: "🥊",
+    name: "Boxing Glove",
+    slug: "boxing-glove",
+    shortMeaning: "A red boxing glove - fight night!",
+    detailedMeaning: "The Boxing Glove emoji shows a red boxing glove, representing boxing, combat sports, and fighting spirit.\n\nUsed for boxing matches, UFC/MMA, fighting metaphors, and staying strong.",
+    usageContexts: ["Boxing", "Fighting", "Combat", "Strength", "Determination"],
+    examples: [
+      { context: "Fight", text: "Fight night 🥊" },
+      { context: "Motivation", text: "Keep fighting 🥊" },
+      { context: "Sports", text: "Boxing training 🥊" }
+    ],
+    misunderstandings: ["Can mean aggression or fighting spirit"],
+    relatedEmojis: ["martial-arts-uniform", "trophy", "flexed-biceps"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["boxing", "glove", "fight", "combat", "punch"]
+  },
+  {
+    unicode: "🥋",
+    name: "Martial Arts Uniform",
+    slug: "martial-arts-uniform",
+    shortMeaning: "A martial arts gi/uniform.",
+    detailedMeaning: "The Martial Arts Uniform emoji shows a white karate gi with a belt, representing martial arts like karate, judo, and taekwondo.\n\nUsed for martial arts training, discipline, and combat sports.",
+    usageContexts: ["Martial Arts", "Karate", "Judo", "Training", "Discipline"],
+    examples: [
+      { context: "Training", text: "Karate practice 🥋" },
+      { context: "Martial Arts", text: "Belt test today 🥋" },
+      { context: "Discipline", text: "Training hard 🥋" }
+    ],
+    misunderstandings: ["Clear martial arts meaning"],
+    relatedEmojis: ["boxing-glove", "sports-medal", "flexed-biceps"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["martial arts", "karate", "judo", "uniform", "gi"]
+  },
+  {
+    unicode: "⛳",
+    name: "Flag in Hole",
+    slug: "flag-in-hole",
+    shortMeaning: "A golf flag in the hole.",
+    detailedMeaning: "The Flag in Hole emoji shows a golf green with flag, representing golf and the country club lifestyle.\n\nUsed for golf content, relaxation, and upscale leisure activities.",
+    usageContexts: ["Golf", "Sports", "Leisure", "Relaxation", "Country Club"],
+    examples: [
+      { context: "Golf", text: "Golf day ⛳" },
+      { context: "Sports", text: "18 holes ⛳" },
+      { context: "Leisure", text: "Tee time ⛳" }
+    ],
+    misunderstandings: ["Clear golf meaning"],
+    relatedEmojis: ["sports-medal", "trophy", "sun"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["golf", "hole", "flag", "sport", "course"]
+  },
+  {
+    unicode: "⛷️",
+    name: "Skier",
+    slug: "skier",
+    shortMeaning: "A person skiing down slopes.",
+    detailedMeaning: "The Skier emoji shows a person skiing, representing winter sports, mountain vacations, and alpine adventures.\n\nUsed for skiing trips, winter sports, and mountain activities.",
+    usageContexts: ["Skiing", "Winter", "Mountains", "Sports", "Vacation"],
+    examples: [
+      { context: "Skiing", text: "Hitting the slopes ⛷️" },
+      { context: "Vacation", text: "Ski trip ⛷️" },
+      { context: "Winter", text: "Fresh powder ⛷️" }
+    ],
+    misunderstandings: ["Clear skiing meaning"],
+    relatedEmojis: ["snowboarder", "mountain", "snow"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["ski", "skiing", "winter", "snow", "sport"]
+  },
+  {
+    unicode: "🏂",
+    name: "Snowboarder",
+    slug: "snowboarder",
+    shortMeaning: "A person snowboarding.",
+    detailedMeaning: "The Snowboarder emoji shows a person on a snowboard, representing snowboarding, winter sports, and extreme mountain activities.\n\nUsed for snowboarding, winter sports, and mountain adventures.",
+    usageContexts: ["Snowboarding", "Winter", "Mountains", "Extreme", "Sports"],
+    examples: [
+      { context: "Snowboard", text: "Shredding the gnar 🏂" },
+      { context: "Vacation", text: "Snowboard trip 🏂" },
+      { context: "Winter", text: "Catching air 🏂" }
+    ],
+    misunderstandings: ["Clear snowboarding meaning"],
+    relatedEmojis: ["skier", "mountain", "snow"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["snowboard", "winter", "snow", "sport", "extreme"]
+  },
+  {
+    unicode: "🏋️",
+    name: "Person Lifting Weights",
+    slug: "person-lifting-weights",
+    shortMeaning: "A person lifting weights - gym time!",
+    detailedMeaning: "The Person Lifting Weights emoji shows someone lifting a barbell, representing weightlifting, gym culture, and fitness.\n\nUsed for gym sessions, fitness goals, and showing dedication to working out.",
+    usageContexts: ["Gym", "Fitness", "Weightlifting", "Workout", "Strength"],
+    examples: [
+      { context: "Gym", text: "Gym time 🏋️" },
+      { context: "Fitness", text: "Leg day 🏋️" },
+      { context: "Workout", text: "Gains incoming 🏋️" }
+    ],
+    misunderstandings: ["Clear weightlifting meaning"],
+    relatedEmojis: ["flexed-biceps", "running-shoe", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["weights", "gym", "fitness", "workout", "lifting"]
+  },
+  {
+    unicode: "🤸",
+    name: "Person Cartwheeling",
+    slug: "person-cartwheeling",
+    shortMeaning: "A person doing a cartwheel.",
+    detailedMeaning: "The Person Cartwheeling emoji shows someone doing a cartwheel, representing gymnastics, flexibility, and playful energy.\n\nUsed for gymnastics, excitement, and expressing joy through movement.",
+    usageContexts: ["Gymnastics", "Joy", "Excitement", "Playful", "Athletic"],
+    examples: [
+      { context: "Joy", text: "So happy I could cartwheel 🤸" },
+      { context: "Gymnastics", text: "Gymnastics practice 🤸" },
+      { context: "Playful", text: "Feeling free 🤸" }
+    ],
+    misunderstandings: ["Clear cartwheeling meaning"],
+    relatedEmojis: ["person-doing-cartwheel", "trophy", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["cartwheel", "gymnastics", "acrobatic", "flip", "athletic"]
+  },
+  {
+    unicode: "🏊",
+    name: "Person Swimming",
+    slug: "person-swimming",
+    shortMeaning: "A person swimming.",
+    detailedMeaning: "The Person Swimming emoji shows someone swimming, representing swimming, water sports, and aquatic fitness.\n\nUsed for swimming, pool time, beach activities, and water fitness.",
+    usageContexts: ["Swimming", "Pool", "Beach", "Water", "Fitness"],
+    examples: [
+      { context: "Pool", text: "Pool time 🏊" },
+      { context: "Swimming", text: "Lap swimming 🏊" },
+      { context: "Fitness", text: "Morning swim 🏊" }
+    ],
+    misunderstandings: ["Clear swimming meaning"],
+    relatedEmojis: ["water-wave", "beach-with-umbrella", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["swim", "swimming", "pool", "water", "sport"]
+  },
+  {
+    unicode: "🚴",
+    name: "Person Biking",
+    slug: "person-biking",
+    shortMeaning: "A person riding a bicycle.",
+    detailedMeaning: "The Person Biking emoji shows someone cycling, representing cycling, biking, and eco-friendly transportation.\n\nUsed for biking, cycling, commuting, and fitness activities.",
+    usageContexts: ["Biking", "Cycling", "Commute", "Fitness", "Eco-friendly"],
+    examples: [
+      { context: "Commute", text: "Biking to work 🚴" },
+      { context: "Fitness", text: "Morning bike ride 🚴" },
+      { context: "Sports", text: "Cycling race 🚴" }
+    ],
+    misunderstandings: ["Clear cycling meaning"],
+    relatedEmojis: ["bicycle", "person-mountain-biking", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["bike", "cycling", "bicycle", "ride", "sport"]
+  },
+  {
+    unicode: "🚵",
+    name: "Person Mountain Biking",
+    slug: "person-mountain-biking",
+    shortMeaning: "A person mountain biking.",
+    detailedMeaning: "The Person Mountain Biking emoji shows someone on a mountain bike, representing off-road cycling and adventure sports.\n\nUsed for mountain biking, trail riding, and outdoor adventures.",
+    usageContexts: ["Mountain Biking", "Trails", "Adventure", "Outdoor", "Sports"],
+    examples: [
+      { context: "Trails", text: "Trail riding 🚵" },
+      { context: "Adventure", text: "Mountain bike adventure 🚵" },
+      { context: "Sports", text: "Hitting the trails 🚵" }
+    ],
+    misunderstandings: ["Clear mountain biking meaning"],
+    relatedEmojis: ["person-biking", "mountain", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["mountain bike", "cycling", "trail", "adventure", "sport"]
+  },
+  {
+    unicode: "🧘",
+    name: "Person in Lotus Position",
+    slug: "person-in-lotus-position",
+    shortMeaning: "A person meditating in lotus position.",
+    detailedMeaning: "The Person in Lotus Position emoji shows someone meditating, representing yoga, meditation, and mindfulness.\n\nUsed for meditation, yoga, relaxation, and spiritual practice.",
+    usageContexts: ["Meditation", "Yoga", "Mindfulness", "Relaxation", "Wellness"],
+    examples: [
+      { context: "Meditation", text: "Meditation time 🧘" },
+      { context: "Yoga", text: "Yoga class 🧘" },
+      { context: "Wellness", text: "Finding my zen 🧘" }
+    ],
+    misunderstandings: ["Clear meditation/yoga meaning"],
+    relatedEmojis: ["om", "yin-yang", "pray"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["meditation", "yoga", "lotus", "zen", "mindfulness"]
+  },
+  {
+    unicode: "🏇",
+    name: "Horse Racing",
+    slug: "horse-racing",
+    shortMeaning: "A jockey on a racing horse.",
+    detailedMeaning: "The Horse Racing emoji shows a jockey on a racing horse, representing horse racing, Kentucky Derby, and equestrian sports.\n\nUsed for horse racing, derby events, and betting contexts.",
+    usageContexts: ["Horse Racing", "Derby", "Betting", "Sports", "Equestrian"],
+    examples: [
+      { context: "Derby", text: "Kentucky Derby 🏇" },
+      { context: "Racing", text: "Race day 🏇" },
+      { context: "Sports", text: "And they're off 🏇" }
+    ],
+    misunderstandings: ["Clear horse racing meaning"],
+    relatedEmojis: ["horse", "trophy", "sports-medal"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["horse", "racing", "jockey", "derby", "sport"]
+  },
+  // AWARDS & MEDALS
+  {
+    unicode: "🏆",
+    name: "Trophy",
+    slug: "trophy",
+    shortMeaning: "A golden trophy - winner!",
+    detailedMeaning: "The Trophy emoji shows a gold trophy cup, representing victory, achievement, and being the best at something.\n\nUsed for winning, achievements, congratulations, and recognizing excellence.",
+    usageContexts: ["Winning", "Achievement", "Champion", "Best", "Success"],
+    examples: [
+      { context: "Win", text: "We won 🏆" },
+      { context: "Achievement", text: "First place 🏆" },
+      { context: "Praise", text: "You're a champion 🏆" }
+    ],
+    misunderstandings: ["Clear trophy/winner meaning"],
+    relatedEmojis: ["gold-medal", "sports-medal", "crown"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["trophy", "winner", "champion", "award", "victory"]
+  },
+  {
+    unicode: "🥇",
+    name: "1st Place Medal",
+    slug: "1st-place-medal",
+    shortMeaning: "A gold medal for first place.",
+    detailedMeaning: "The 1st Place Medal emoji shows a gold medal with a ribbon, representing first place, winning, and gold medal achievement.\n\nUsed for first place finishes, gold medal moments, and being the best.",
+    usageContexts: ["First Place", "Gold", "Winner", "Champion", "Best"],
+    examples: [
+      { context: "Winner", text: "Gold medal 🥇" },
+      { context: "First", text: "First place finish 🥇" },
+      { context: "Best", text: "You're number one 🥇" }
+    ],
+    misunderstandings: ["Clear first place meaning"],
+    relatedEmojis: ["2nd-place-medal", "3rd-place-medal", "trophy"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["gold", "first", "medal", "winner", "champion"]
+  },
+  {
+    unicode: "🥈",
+    name: "2nd Place Medal",
+    slug: "2nd-place-medal",
+    shortMeaning: "A silver medal for second place.",
+    detailedMeaning: "The 2nd Place Medal emoji shows a silver medal with a ribbon, representing second place and silver medal achievement.\n\nUsed for second place finishes and runner-up positions.",
+    usageContexts: ["Second Place", "Silver", "Runner-up", "Achievement", "Almost"],
+    examples: [
+      { context: "Runner-up", text: "Silver medal 🥈" },
+      { context: "Second", text: "Second place 🥈" },
+      { context: "Close", text: "So close 🥈" }
+    ],
+    misunderstandings: ["Clear second place meaning"],
+    relatedEmojis: ["1st-place-medal", "3rd-place-medal", "trophy"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["silver", "second", "medal", "runner-up", "achievement"]
+  },
+  {
+    unicode: "🥉",
+    name: "3rd Place Medal",
+    slug: "3rd-place-medal",
+    shortMeaning: "A bronze medal for third place.",
+    detailedMeaning: "The 3rd Place Medal emoji shows a bronze medal with a ribbon, representing third place and bronze medal achievement.\n\nUsed for third place finishes and podium positions.",
+    usageContexts: ["Third Place", "Bronze", "Podium", "Achievement", "Top Three"],
+    examples: [
+      { context: "Bronze", text: "Bronze medal 🥉" },
+      { context: "Third", text: "Third place 🥉" },
+      { context: "Podium", text: "Made the podium 🥉" }
+    ],
+    misunderstandings: ["Clear third place meaning"],
+    relatedEmojis: ["1st-place-medal", "2nd-place-medal", "trophy"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["bronze", "third", "medal", "podium", "achievement"]
+  },
+  {
+    unicode: "🏅",
+    name: "Sports Medal",
+    slug: "sports-medal",
+    shortMeaning: "A sports medal on a ribbon.",
+    detailedMeaning: "The Sports Medal emoji shows a gold medal on a ribbon, representing athletic achievement and sports excellence.\n\nUsed for athletic accomplishments, finishing races, and sports achievements.",
+    usageContexts: ["Sports", "Achievement", "Athletic", "Finish", "Award"],
+    examples: [
+      { context: "Race", text: "Finished the marathon 🏅" },
+      { context: "Sports", text: "Personal best 🏅" },
+      { context: "Achievement", text: "Earned my medal 🏅" }
+    ],
+    misunderstandings: ["Generic sports medal, not specific place"],
+    relatedEmojis: ["1st-place-medal", "trophy", "running-shoe"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["medal", "sports", "athletic", "award", "achievement"]
+  },
+  {
+    unicode: "🎖️",
+    name: "Military Medal",
+    slug: "military-medal",
+    shortMeaning: "A military medal for service.",
+    detailedMeaning: "The Military Medal emoji shows a medal of honor, representing military service, bravery, and distinguished achievement.\n\nUsed for veterans, military recognition, and honoring service.",
+    usageContexts: ["Military", "Veterans", "Service", "Honor", "Bravery"],
+    examples: [
+      { context: "Veterans", text: "Thank you for your service 🎖️" },
+      { context: "Honor", text: "True hero 🎖️" },
+      { context: "Military", text: "Medal of honor 🎖️" }
+    ],
+    misunderstandings: ["Specifically military, not sports"],
+    relatedEmojis: ["sports-medal", "trophy", "star"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["military", "medal", "honor", "service", "veteran"]
+  },
+  // CELEBRATIONS & EVENTS
+  {
+    unicode: "🎂",
+    name: "Birthday Cake",
+    slug: "birthday-cake",
+    shortMeaning: "A birthday cake with candles.",
+    detailedMeaning: "The Birthday Cake emoji shows a cake with lit candles, representing birthdays, celebrations, and making wishes.\n\nUsed for birthday wishes, celebrations, and special occasions.",
+    usageContexts: ["Birthday", "Celebration", "Cake", "Party", "Wishes"],
+    examples: [
+      { context: "Birthday", text: "Happy birthday 🎂" },
+      { context: "Celebration", text: "Make a wish 🎂" },
+      { context: "Party", text: "Party time 🎂" }
+    ],
+    misunderstandings: ["Clear birthday meaning"],
+    relatedEmojis: ["party-popper", "balloon", "wrapped-gift"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["birthday", "cake", "candles", "party", "celebration"]
+  },
+  {
+    unicode: "🎈",
+    name: "Balloon",
+    slug: "balloon",
+    shortMeaning: "A colorful party balloon.",
+    detailedMeaning: "The Balloon emoji shows a red balloon on a string, representing parties, celebrations, and festive occasions.\n\nUsed for parties, birthdays, celebrations, and adding festive flair.",
+    usageContexts: ["Party", "Celebration", "Birthday", "Festive", "Happy"],
+    examples: [
+      { context: "Party", text: "Party time 🎈" },
+      { context: "Birthday", text: "Happy birthday 🎈" },
+      { context: "Festive", text: "Celebration mode 🎈" }
+    ],
+    misunderstandings: ["Clear party/celebration meaning"],
+    relatedEmojis: ["party-popper", "birthday-cake", "confetti-ball"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["balloon", "party", "celebration", "birthday", "festive"]
+  },
+  {
+    unicode: "🎊",
+    name: "Confetti Ball",
+    slug: "confetti-ball",
+    shortMeaning: "A confetti ball exploding.",
+    detailedMeaning: "The Confetti Ball emoji shows a ball releasing confetti, representing celebration, New Year's, and festive moments.\n\nUsed for celebrations, New Year's, and congratulatory messages.",
+    usageContexts: ["Celebration", "New Year", "Congrats", "Party", "Festive"],
+    examples: [
+      { context: "New Year", text: "Happy New Year 🎊" },
+      { context: "Celebration", text: "Congratulations 🎊" },
+      { context: "Party", text: "Let's celebrate 🎊" }
+    ],
+    misunderstandings: ["Clear celebration meaning"],
+    relatedEmojis: ["party-popper", "balloon", "sparkles"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["confetti", "celebration", "party", "New Year", "festive"]
+  },
+  {
+    unicode: "✨",
+    name: "Sparkles",
+    slug: "sparkles",
+    shortMeaning: "Sparkles and glitter.",
+    detailedMeaning: "The Sparkles emoji shows twinkling stars or glitter, representing magic, excitement, newness, and special qualities.\n\nUsed to add emphasis, show something is special, express excitement, or add aesthetic flair.",
+    usageContexts: ["Magic", "Special", "Aesthetic", "Excitement", "New"],
+    examples: [
+      { context: "Special", text: "You're amazing ✨" },
+      { context: "New", text: "New look ✨" },
+      { context: "Aesthetic", text: "Vibes ✨" }
+    ],
+    misunderstandings: ["Overused for aesthetic purposes"],
+    relatedEmojis: ["star", "glowing-star", "dizzy"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["sparkle", "glitter", "magic", "special", "shine"]
+  },
+  {
+    unicode: "🎇",
+    name: "Sparkler",
+    slug: "sparkler",
+    shortMeaning: "A lit sparkler firework.",
+    detailedMeaning: "The Sparkler emoji shows a handheld sparkler firework, representing celebrations, holidays, and festive occasions.\n\nUsed for Fourth of July, New Year's, and celebration moments.",
+    usageContexts: ["Celebration", "Fourth of July", "New Year", "Fireworks", "Party"],
+    examples: [
+      { context: "Fourth of July", text: "Happy 4th 🎇" },
+      { context: "Celebration", text: "Sparkler time 🎇" },
+      { context: "Party", text: "Light it up 🎇" }
+    ],
+    misunderstandings: ["Clear sparkler/firework meaning"],
+    relatedEmojis: ["fireworks", "party-popper", "confetti-ball"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["sparkler", "firework", "celebration", "holiday", "festive"]
+  },
+  {
+    unicode: "🎆",
+    name: "Fireworks",
+    slug: "fireworks",
+    shortMeaning: "Colorful fireworks in the night sky.",
+    detailedMeaning: "The Fireworks emoji shows fireworks exploding in the night sky, representing celebrations, New Year's, and spectacular displays.\n\nUsed for New Year's, Fourth of July, and any spectacular celebration.",
+    usageContexts: ["Celebration", "New Year", "Fourth of July", "Night", "Spectacular"],
+    examples: [
+      { context: "New Year", text: "Happy New Year 🎆" },
+      { context: "Celebration", text: "Fireworks show 🎆" },
+      { context: "Fourth", text: "July 4th 🎆" }
+    ],
+    misunderstandings: ["Clear fireworks meaning"],
+    relatedEmojis: ["sparkler", "party-popper", "night-stars"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["fireworks", "celebration", "New Year", "night", "explosion"]
+  },
+  {
+    unicode: "🧨",
+    name: "Firecracker",
+    slug: "firecracker",
+    shortMeaning: "A red firecracker.",
+    detailedMeaning: "The Firecracker emoji shows a red firecracker/dynamite, representing celebrations, Chinese New Year, and explosive situations.\n\nUsed for Chinese New Year, celebrations, or expressing something explosive.",
+    usageContexts: ["Chinese New Year", "Celebration", "Explosive", "Exciting", "Bang"],
+    examples: [
+      { context: "Chinese New Year", text: "Happy Lunar New Year 🧨" },
+      { context: "Explosive", text: "Mind blown 🧨" },
+      { context: "Exciting", text: "This is fire 🧨" }
+    ],
+    misunderstandings: ["Can look like dynamite"],
+    relatedEmojis: ["fireworks", "sparkler", "fire"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["firecracker", "celebration", "Chinese New Year", "explosive", "bang"]
+  },
+  // ARTS & HOBBIES
+  {
+    unicode: "🎨",
+    name: "Artist Palette",
+    slug: "artist-palette",
+    shortMeaning: "A painter's palette - art and creativity!",
+    detailedMeaning: "The Artist Palette emoji shows a painter's palette with colors, representing art, creativity, and artistic expression.\n\nUsed for art content, creative projects, and expressing artistic energy.",
+    usageContexts: ["Art", "Creativity", "Painting", "Design", "Creative"],
+    examples: [
+      { context: "Art", text: "Art time 🎨" },
+      { context: "Creative", text: "Feeling creative 🎨" },
+      { context: "Design", text: "New design 🎨" }
+    ],
+    misunderstandings: ["Clear art/creativity meaning"],
+    relatedEmojis: ["frame-with-picture", "paintbrush", "crayon"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["art", "palette", "paint", "creative", "artist"]
+  },
+  {
+    unicode: "🖌️",
+    name: "Paintbrush",
+    slug: "paintbrush",
+    shortMeaning: "A paintbrush for art.",
+    detailedMeaning: "The Paintbrush emoji shows an artist's paintbrush, representing painting, art, and creative expression.\n\nUsed for art, painting, decorating, and creative activities.",
+    usageContexts: ["Painting", "Art", "Creative", "Decorating", "Design"],
+    examples: [
+      { context: "Painting", text: "Painting day 🖌️" },
+      { context: "Art", text: "New artwork 🖌️" },
+      { context: "Creative", text: "Getting creative 🖌️" }
+    ],
+    misunderstandings: ["Clear paintbrush meaning"],
+    relatedEmojis: ["artist-palette", "crayon", "frame-with-picture"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["paintbrush", "art", "paint", "creative", "brush"]
+  },
+  {
+    unicode: "🖍️",
+    name: "Crayon",
+    slug: "crayon",
+    shortMeaning: "A colorful crayon.",
+    detailedMeaning: "The Crayon emoji shows a wax crayon, representing childhood art, coloring, and simple creativity.\n\nUsed for kids' activities, coloring, and nostalgic creative moments.",
+    usageContexts: ["Kids", "Coloring", "Art", "Childhood", "Creative"],
+    examples: [
+      { context: "Kids", text: "Coloring time 🖍️" },
+      { context: "Art", text: "Drawing with crayons 🖍️" },
+      { context: "Fun", text: "Staying in the lines 🖍️" }
+    ],
+    misunderstandings: ["Clear crayon meaning"],
+    relatedEmojis: ["artist-palette", "paintbrush", "pencil"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["crayon", "coloring", "kids", "art", "draw"]
+  },
+  {
+    unicode: "🎭",
+    name: "Performing Arts",
+    slug: "performing-arts",
+    shortMeaning: "Theater masks - drama and performance.",
+    detailedMeaning: "The Performing Arts emoji shows comedy and tragedy theater masks, representing drama, theater, and performing arts.\n\nUsed for theater, drama, acting, and expressing the range of emotions.",
+    usageContexts: ["Theater", "Drama", "Acting", "Performance", "Arts"],
+    examples: [
+      { context: "Theater", text: "Opening night 🎭" },
+      { context: "Drama", text: "Drama queen 🎭" },
+      { context: "Acting", text: "Break a leg 🎭" }
+    ],
+    misunderstandings: ["Can represent drama in relationships"],
+    relatedEmojis: ["clapper-board", "microphone", "ticket"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["theater", "drama", "masks", "performance", "acting"]
+  },
+  {
+    unicode: "🎪",
+    name: "Circus Tent",
+    slug: "circus-tent",
+    shortMeaning: "A colorful circus big top.",
+    detailedMeaning: "The Circus Tent emoji shows a striped circus big top, representing circus, carnival, and spectacular entertainment.\n\nUsed for circus themes, carnival events, and describing chaotic situations.",
+    usageContexts: ["Circus", "Carnival", "Entertainment", "Chaos", "Fun"],
+    examples: [
+      { context: "Circus", text: "Going to the circus 🎪" },
+      { context: "Chaos", text: "This place is a circus 🎪" },
+      { context: "Fun", text: "Carnival time 🎪" }
+    ],
+    misunderstandings: ["Can mean chaos metaphorically"],
+    relatedEmojis: ["clown-face", "ferris-wheel", "balloon"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["circus", "tent", "carnival", "entertainment", "show"]
+  },
+  {
+    unicode: "🎤",
+    name: "Microphone",
+    slug: "microphone",
+    shortMeaning: "A microphone - sing or speak up!",
+    detailedMeaning: "The Microphone emoji shows a handheld microphone, representing singing, karaoke, public speaking, and performances.\n\nUsed for singing, karaoke, speeches, podcasts, and expressing voice.",
+    usageContexts: ["Singing", "Karaoke", "Speaking", "Performance", "Podcast"],
+    examples: [
+      { context: "Karaoke", text: "Karaoke night 🎤" },
+      { context: "Singing", text: "Drop the mic 🎤" },
+      { context: "Speaking", text: "Let me speak 🎤" }
+    ],
+    misunderstandings: ["Clear microphone meaning"],
+    relatedEmojis: ["musical-notes", "headphones", "studio-microphone"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["microphone", "singing", "karaoke", "music", "speak"]
+  },
+  {
+    unicode: "🎧",
+    name: "Headphones",
+    slug: "headphones",
+    shortMeaning: "Headphones for music listening.",
+    detailedMeaning: "The Headphones emoji shows a pair of headphones, representing music, audio, and immersive listening.\n\nUsed for listening to music, podcasts, focus time, and audio content.",
+    usageContexts: ["Music", "Podcast", "Focus", "Audio", "Listening"],
+    examples: [
+      { context: "Music", text: "Vibing 🎧" },
+      { context: "Focus", text: "Do not disturb 🎧" },
+      { context: "Podcast", text: "Podcast time 🎧" }
+    ],
+    misunderstandings: ["Clear headphones meaning"],
+    relatedEmojis: ["microphone", "musical-notes", "speaker-high-volume"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["headphones", "music", "audio", "listen", "podcast"]
+  },
+  {
+    unicode: "🎹",
+    name: "Musical Keyboard",
+    slug: "musical-keyboard",
+    shortMeaning: "A musical keyboard/piano.",
+    detailedMeaning: "The Musical Keyboard emoji shows piano keys, representing piano, keyboards, and musical composition.\n\nUsed for piano, music production, and musical content.",
+    usageContexts: ["Piano", "Music", "Keyboard", "Composition", "Playing"],
+    examples: [
+      { context: "Piano", text: "Piano practice 🎹" },
+      { context: "Music", text: "Making beats 🎹" },
+      { context: "Playing", text: "Tickling the ivories 🎹" }
+    ],
+    misunderstandings: ["Clear keyboard/piano meaning"],
+    relatedEmojis: ["musical-notes", "violin", "saxophone"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["piano", "keyboard", "music", "keys", "instrument"]
+  },
+  {
+    unicode: "🎸",
+    name: "Guitar",
+    slug: "guitar",
+    shortMeaning: "An electric guitar - rock on!",
+    detailedMeaning: "The Guitar emoji shows an electric guitar, representing rock music, guitar playing, and musical performance.\n\nUsed for guitar content, rock music, and expressing musical passion.",
+    usageContexts: ["Guitar", "Rock", "Music", "Playing", "Performance"],
+    examples: [
+      { context: "Rock", text: "Rock on 🎸" },
+      { context: "Music", text: "Guitar solo 🎸" },
+      { context: "Playing", text: "Jam session 🎸" }
+    ],
+    misunderstandings: ["Clear guitar meaning"],
+    relatedEmojis: ["musical-keyboard", "musical-notes", "microphone"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["guitar", "rock", "music", "instrument", "play"]
+  },
+  {
+    unicode: "🎷",
+    name: "Saxophone",
+    slug: "saxophone",
+    shortMeaning: "A saxophone - jazz it up!",
+    detailedMeaning: "The Saxophone emoji shows a saxophone, representing jazz music, smooth sounds, and musical sophistication.\n\nUsed for jazz, music appreciation, and smooth vibes.",
+    usageContexts: ["Jazz", "Music", "Saxophone", "Smooth", "Performance"],
+    examples: [
+      { context: "Jazz", text: "Jazz night 🎷" },
+      { context: "Smooth", text: "Smooth vibes 🎷" },
+      { context: "Music", text: "Sax solo 🎷" }
+    ],
+    misunderstandings: ["Clear saxophone meaning"],
+    relatedEmojis: ["trumpet", "musical-notes", "guitar"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["saxophone", "jazz", "music", "instrument", "smooth"]
+  },
+  {
+    unicode: "🎺",
+    name: "Trumpet",
+    slug: "trumpet",
+    shortMeaning: "A trumpet - make some noise!",
+    detailedMeaning: "The Trumpet emoji shows a brass trumpet, representing brass music, fanfare, and bold announcements.\n\nUsed for music, celebrations, and making bold statements.",
+    usageContexts: ["Music", "Fanfare", "Announcement", "Brass", "Celebration"],
+    examples: [
+      { context: "Announcement", text: "Breaking news 🎺" },
+      { context: "Music", text: "Trumpet solo 🎺" },
+      { context: "Fanfare", text: "Ta-da 🎺" }
+    ],
+    misunderstandings: ["Clear trumpet meaning"],
+    relatedEmojis: ["saxophone", "musical-notes", "megaphone"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["trumpet", "music", "brass", "fanfare", "instrument"]
+  },
+  {
+    unicode: "🎻",
+    name: "Violin",
+    slug: "violin",
+    shortMeaning: "A violin - classical elegance.",
+    detailedMeaning: "The Violin emoji shows a violin with bow, representing classical music, elegance, and the 'world's smallest violin' meme.\n\nUsed for classical music, sarcasm (smallest violin), and musical elegance.",
+    usageContexts: ["Classical", "Music", "Sarcasm", "Elegance", "Violin"],
+    examples: [
+      { context: "Sarcasm", text: "Playing the world's smallest violin 🎻" },
+      { context: "Classical", text: "Classical concert 🎻" },
+      { context: "Music", text: "Violin solo 🎻" }
+    ],
+    misunderstandings: ["Often used sarcastically"],
+    relatedEmojis: ["musical-keyboard", "saxophone", "musical-notes"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["violin", "classical", "music", "instrument", "sarcasm"]
+  },
+  {
+    unicode: "🥁",
+    name: "Drum",
+    slug: "drum",
+    shortMeaning: "A drum - beat it!",
+    detailedMeaning: "The Drum emoji shows a snare drum with drumsticks, representing drumming, rhythm, and musical beats.\n\nUsed for drums, music, building suspense (drum roll), and rhythm.",
+    usageContexts: ["Drums", "Music", "Rhythm", "Drum Roll", "Beat"],
+    examples: [
+      { context: "Suspense", text: "Drum roll please 🥁" },
+      { context: "Music", text: "Beat drop 🥁" },
+      { context: "Drums", text: "Drum solo 🥁" }
+    ],
+    misunderstandings: ["Clear drum meaning"],
+    relatedEmojis: ["guitar", "musical-notes", "microphone"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["drum", "beat", "music", "rhythm", "instrument"]
+  },
+  {
+    unicode: "🎲",
+    name: "Game Die",
+    slug: "game-die",
+    shortMeaning: "A dice - roll the dice!",
+    detailedMeaning: "The Game Die emoji shows a six-sided die, representing gambling, board games, and taking chances.\n\nUsed for games, luck, gambling, and taking risks or chances.",
+    usageContexts: ["Games", "Gambling", "Luck", "Chance", "Risk"],
+    examples: [
+      { context: "Luck", text: "Roll the dice 🎲" },
+      { context: "Games", text: "Game night 🎲" },
+      { context: "Chance", text: "Taking a chance 🎲" }
+    ],
+    misunderstandings: ["Clear dice/game meaning"],
+    relatedEmojis: ["slot-machine", "playing-cards", "video-game"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["dice", "game", "gambling", "luck", "chance"]
+  },
+  {
+    unicode: "🎯",
+    name: "Bullseye",
+    slug: "bullseye",
+    shortMeaning: "A dart hitting the bullseye - on target!",
+    detailedMeaning: "The Bullseye emoji shows a dart in the center of a target, representing accuracy, goals, and hitting the mark.\n\nUsed for achieving goals, accuracy, darts, and being on point.",
+    usageContexts: ["Goals", "Accuracy", "Darts", "On Point", "Target"],
+    examples: [
+      { context: "Goals", text: "Hit my target 🎯" },
+      { context: "Accuracy", text: "Nailed it 🎯" },
+      { context: "Darts", text: "Darts night 🎯" }
+    ],
+    misunderstandings: ["Clear target/goal meaning"],
+    relatedEmojis: ["trophy", "check-mark", "star"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["bullseye", "target", "dart", "goal", "accuracy"]
+  },
+  {
+    unicode: "🧩",
+    name: "Puzzle Piece",
+    slug: "puzzle-piece",
+    shortMeaning: "A puzzle piece - fitting together.",
+    detailedMeaning: "The Puzzle Piece emoji shows a single puzzle piece, representing puzzles, fitting in, and the autism awareness symbol.\n\nUsed for puzzles, problem solving, fitting in, and autism awareness.",
+    usageContexts: ["Puzzles", "Problem Solving", "Fitting In", "Autism", "Games"],
+    examples: [
+      { context: "Puzzle", text: "Puzzle time 🧩" },
+      { context: "Solution", text: "Found the missing piece 🧩" },
+      { context: "Fit", text: "It all fits together 🧩" }
+    ],
+    misunderstandings: ["Associated with autism awareness"],
+    relatedEmojis: ["game-die", "brain", "thinking-face"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["puzzle", "piece", "game", "autism", "problem"]
+  },
+  {
+    unicode: "🃏",
+    name: "Joker Card",
+    slug: "joker-card",
+    shortMeaning: "The joker playing card.",
+    detailedMeaning: "The Joker Card emoji shows a joker from a deck of cards, representing wild cards, tricksters, and unpredictability.\n\nUsed for card games, joking around, and wild card situations.",
+    usageContexts: ["Cards", "Joker", "Wild Card", "Trickster", "Games"],
+    examples: [
+      { context: "Joking", text: "Just joking 🃏" },
+      { context: "Wild", text: "Wild card 🃏" },
+      { context: "Cards", text: "Card shark 🃏" }
+    ],
+    misunderstandings: ["Can reference the Batman villain"],
+    relatedEmojis: ["game-die", "spades", "hearts"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["joker", "card", "wild", "trickster", "game"]
+  },
+  {
+    unicode: "♠️",
+    name: "Spade Suit",
+    slug: "spade-suit",
+    shortMeaning: "The spade card suit.",
+    detailedMeaning: "The Spade Suit emoji shows the black spade from playing cards, representing card games and the spade suit.\n\nUsed for card games, poker, and gambling themes.",
+    usageContexts: ["Cards", "Poker", "Gambling", "Games", "Suit"],
+    examples: [
+      { context: "Poker", text: "Ace of spades ♠️" },
+      { context: "Cards", text: "Poker night ♠️" },
+      { context: "Games", text: "All in ♠️" }
+    ],
+    misunderstandings: ["Clear card suit meaning"],
+    relatedEmojis: ["heart-suit", "diamond-suit", "club-suit"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["spade", "cards", "poker", "suit", "game"]
+  },
+  {
+    unicode: "♥️",
+    name: "Heart Suit",
+    slug: "heart-suit",
+    shortMeaning: "The heart card suit.",
+    detailedMeaning: "The Heart Suit emoji shows the red heart from playing cards, representing card games and the heart suit.\n\nUsed for card games and can also represent love (different from emoji hearts).",
+    usageContexts: ["Cards", "Poker", "Love", "Games", "Suit"],
+    examples: [
+      { context: "Cards", text: "Queen of hearts ♥️" },
+      { context: "Poker", text: "Card night ♥️" },
+      { context: "Games", text: "Full house ♥️" }
+    ],
+    misunderstandings: ["Different from love heart emojis"],
+    relatedEmojis: ["spade-suit", "diamond-suit", "club-suit"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["heart", "cards", "poker", "suit", "game"]
+  },
+  {
+    unicode: "♦️",
+    name: "Diamond Suit",
+    slug: "diamond-suit",
+    shortMeaning: "The diamond card suit.",
+    detailedMeaning: "The Diamond Suit emoji shows the red diamond from playing cards, representing card games and the diamond suit.\n\nUsed for card games, poker, and gambling themes.",
+    usageContexts: ["Cards", "Poker", "Gambling", "Games", "Suit"],
+    examples: [
+      { context: "Cards", text: "King of diamonds ♦️" },
+      { context: "Poker", text: "Poker face ♦️" },
+      { context: "Games", text: "High stakes ♦️" }
+    ],
+    misunderstandings: ["Different from gem stone diamond"],
+    relatedEmojis: ["spade-suit", "heart-suit", "club-suit"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["diamond", "cards", "poker", "suit", "game"]
+  },
+  {
+    unicode: "♣️",
+    name: "Club Suit",
+    slug: "club-suit",
+    shortMeaning: "The club card suit.",
+    detailedMeaning: "The Club Suit emoji shows the black club from playing cards, representing card games and the club suit.\n\nUsed for card games, poker, and gambling themes.",
+    usageContexts: ["Cards", "Poker", "Gambling", "Games", "Suit"],
+    examples: [
+      { context: "Cards", text: "Jack of clubs ♣️" },
+      { context: "Poker", text: "Texas hold'em ♣️" },
+      { context: "Games", text: "Dealer's choice ♣️" }
+    ],
+    misunderstandings: ["Clear card suit meaning"],
+    relatedEmojis: ["spade-suit", "heart-suit", "diamond-suit"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["club", "cards", "poker", "suit", "game"]
+  },
+  {
+    unicode: "🎳",
+    name: "Bowling",
+    slug: "bowling",
+    shortMeaning: "A bowling ball and pin.",
+    detailedMeaning: "The Bowling emoji shows a bowling ball and pin, representing bowling, strikes, and social outings.\n\nUsed for bowling, game nights, and social activities.",
+    usageContexts: ["Bowling", "Games", "Social", "Strike", "Fun"],
+    examples: [
+      { context: "Bowling", text: "Bowling night 🎳" },
+      { context: "Strike", text: "Strike 🎳" },
+      { context: "Fun", text: "Let's bowl 🎳" }
+    ],
+    misunderstandings: ["Clear bowling meaning"],
+    relatedEmojis: ["pool-8-ball", "video-game", "trophy"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["bowling", "ball", "pin", "strike", "game"]
+  },
+  {
+    unicode: "🪁",
+    name: "Kite",
+    slug: "kite",
+    shortMeaning: "A colorful flying kite.",
+    detailedMeaning: "The Kite emoji shows a diamond-shaped kite, representing kite flying, outdoor fun, and childhood activities.\n\nUsed for outdoor activities, spring, and carefree moments.",
+    usageContexts: ["Outdoor", "Spring", "Fun", "Wind", "Childhood"],
+    examples: [
+      { context: "Outdoor", text: "Perfect kite weather 🪁" },
+      { context: "Spring", text: "Spring day 🪁" },
+      { context: "Fun", text: "Flying high 🪁" }
+    ],
+    misunderstandings: ["Clear kite meaning"],
+    relatedEmojis: ["wind-face", "sun", "park"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["kite", "flying", "outdoor", "wind", "fun"]
+  },
+  {
+    unicode: "🧵",
+    name: "Thread",
+    slug: "thread",
+    shortMeaning: "A spool of thread.",
+    detailedMeaning: "The Thread emoji shows a spool of thread, representing sewing, crafting, and online discussion threads.\n\nUsed for sewing, crafts, and the social media term 'thread.'",
+    usageContexts: ["Sewing", "Crafts", "Thread", "Social Media", "DIY"],
+    examples: [
+      { context: "Craft", text: "Sewing project 🧵" },
+      { context: "Social", text: "Thread incoming 🧵" },
+      { context: "DIY", text: "Needle and thread 🧵" }
+    ],
+    misunderstandings: ["Can mean social media thread"],
+    relatedEmojis: ["yarn", "scissors", "needle"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["thread", "sewing", "craft", "spool", "Twitter"]
+  },
+  {
+    unicode: "🧶",
+    name: "Yarn",
+    slug: "yarn",
+    shortMeaning: "A ball of yarn.",
+    detailedMeaning: "The Yarn emoji shows a ball of yarn, representing knitting, crocheting, and cozy crafts.\n\nUsed for knitting, crafting, and cozy winter activities.",
+    usageContexts: ["Knitting", "Crochet", "Crafts", "Cozy", "DIY"],
+    examples: [
+      { context: "Knitting", text: "Knitting time 🧶" },
+      { context: "Craft", text: "New project 🧶" },
+      { context: "Cozy", text: "Cozy crafts 🧶" }
+    ],
+    misunderstandings: ["Clear yarn meaning"],
+    relatedEmojis: ["thread", "scarf", "needle"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["yarn", "knitting", "crochet", "craft", "cozy"]
+  },
   // OBJECTS
   {
     unicode: "💡",
