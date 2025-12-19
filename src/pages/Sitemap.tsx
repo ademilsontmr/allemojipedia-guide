@@ -3,6 +3,9 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { emojis } from "@/data/emojis";
 import { Helmet } from "react-helmet-async";
+import { downloadSitemap, getEmojiCount } from "@/utils/generateSitemap";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const Sitemap = () => (
   <Layout>
@@ -14,7 +17,18 @@ const Sitemap = () => (
 
     <div className="container-page section-spacing">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Sitemap" }]} />
-      <h1 className="text-3xl font-bold mb-8">Sitemap</h1>
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+        <div>
+          <h1 className="text-3xl font-bold">Sitemap</h1>
+          <p className="text-muted-foreground mt-1">
+            {getEmojiCount()} emojis indexed
+          </p>
+        </div>
+        <Button onClick={downloadSitemap} variant="outline" className="gap-2">
+          <Download className="h-4 w-4" />
+          Download sitemap.xml
+        </Button>
+      </div>
 
       <section className="mb-10">
         <h2 className="text-xl font-semibold mb-4">Main Pages</h2>
