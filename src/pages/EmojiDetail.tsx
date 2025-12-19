@@ -1,10 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
+import { CopyEmojiCard } from "@/components/CopyEmojiCard";
 import { getEmojiBySlug, getEmojisByCategory } from "@/data/emojis";
 import { getCategoryBySlug } from "@/data/categories";
-import { toast } from "@/hooks/use-toast";
 import { Helmet } from "react-helmet-async";
-import { Copy } from "lucide-react";
 import NotFound from "./NotFound";
 
 const EmojiDetail = () => {
@@ -15,11 +14,6 @@ const EmojiDetail = () => {
 
   const category = getCategoryBySlug(emoji.categorySlug);
   const relatedEmojis = emoji.relatedEmojis.map(s => getEmojiBySlug(s)).filter(Boolean).slice(0, 6);
-
-  const copyEmoji = () => {
-    navigator.clipboard.writeText(emoji.unicode);
-    toast({ title: "Copied!", description: `${emoji.unicode} copied to clipboard` });
-  };
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -55,12 +49,7 @@ const EmojiDetail = () => {
             </div>
           </header>
 
-          <section className="mb-8 p-4 rounded-xl bg-primary/5 border border-primary/20 flex items-center gap-4">
-            <span className="emoji-text-2xl">{emoji.unicode}</span>
-            <button onClick={copyEmoji} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors">
-              <Copy className="w-4 h-4" /> Copy Emoji
-            </button>
-          </section>
+          <CopyEmojiCard unicode={emoji.unicode} name={emoji.name} />
 
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-3">Quick Meaning</h2>
