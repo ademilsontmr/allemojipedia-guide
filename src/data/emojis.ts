@@ -6506,6 +6506,1130 @@ export const emojis: Emoji[] = [
     subgroup: "drink",
     keywords: ["wine", "red wine", "glass", "elegant", "relax"]
   },
+  // ASIAN CUISINE
+  {
+    unicode: "🍣",
+    name: "Sushi",
+    slug: "sushi",
+    shortMeaning: "A piece of sushi - Japanese delicacy.",
+    detailedMeaning: "The Sushi emoji shows a piece of nigiri sushi with fish on rice, representing Japanese cuisine, fine dining, and fresh seafood.\n\nUsed for sushi cravings, Japanese food, and upscale dining experiences.",
+    usageContexts: ["Japanese", "Sushi", "Seafood", "Dining", "Fresh"],
+    examples: [
+      { context: "Craving", text: "Sushi night 🍣" },
+      { context: "Dining", text: "All you can eat 🍣" },
+      { context: "Food", text: "Fresh sushi 🍣" }
+    ],
+    misunderstandings: ["Clear sushi meaning"],
+    relatedEmojis: ["rice-ball", "chopsticks", "fish"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["sushi", "Japanese", "fish", "rice", "seafood"]
+  },
+  {
+    unicode: "🍜",
+    name: "Steaming Bowl",
+    slug: "steaming-bowl",
+    shortMeaning: "A steaming bowl of noodles - ramen time!",
+    detailedMeaning: "The Steaming Bowl emoji shows a bowl of hot noodles with steam rising, representing ramen, pho, and Asian noodle soups.\n\nUsed for noodle cravings, Asian cuisine, and comfort food.",
+    usageContexts: ["Ramen", "Pho", "Noodles", "Asian", "Comfort food"],
+    examples: [
+      { context: "Ramen", text: "Ramen weather 🍜" },
+      { context: "Comfort", text: "Hot soup 🍜" },
+      { context: "Asian", text: "Noodle time 🍜" }
+    ],
+    misunderstandings: ["Could be any noodle soup"],
+    relatedEmojis: ["sushi", "chopsticks", "hot-beverage"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["noodles", "ramen", "pho", "soup", "Asian"]
+  },
+  {
+    unicode: "🍛",
+    name: "Curry Rice",
+    slug: "curry-rice",
+    shortMeaning: "A plate of curry with rice.",
+    detailedMeaning: "The Curry Rice emoji shows a plate of curry sauce with rice, representing Indian, Japanese, and Thai curry dishes.\n\nUsed for curry cravings, Indian food, and spicy dishes.",
+    usageContexts: ["Curry", "Indian", "Spicy", "Rice", "Comfort food"],
+    examples: [
+      { context: "Indian", text: "Curry night 🍛" },
+      { context: "Spicy", text: "Need something spicy 🍛" },
+      { context: "Food", text: "Comfort food 🍛" }
+    ],
+    misunderstandings: ["Could be any curry style"],
+    relatedEmojis: ["rice", "hot-pepper", "indian-flag"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["curry", "rice", "Indian", "spicy", "comfort"]
+  },
+  {
+    unicode: "🍚",
+    name: "Cooked Rice",
+    slug: "cooked-rice",
+    shortMeaning: "A bowl of cooked white rice.",
+    detailedMeaning: "The Cooked Rice emoji shows a bowl of steamed white rice, a staple food in many Asian cultures.\n\nUsed for Asian cuisine, rice dishes, and simple meals.",
+    usageContexts: ["Rice", "Asian", "Staple", "Meal", "Comfort"],
+    examples: [
+      { context: "Meal", text: "Rice with everything 🍚" },
+      { context: "Asian", text: "Rice is life 🍚" },
+      { context: "Simple", text: "Simple dinner 🍚" }
+    ],
+    misunderstandings: ["Clear rice meaning"],
+    relatedEmojis: ["curry-rice", "sushi", "chopsticks"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["rice", "white rice", "Asian", "staple", "bowl"]
+  },
+  {
+    unicode: "🍙",
+    name: "Rice Ball",
+    slug: "rice-ball",
+    shortMeaning: "A Japanese rice ball (onigiri).",
+    detailedMeaning: "The Rice Ball emoji shows a Japanese onigiri wrapped in nori seaweed, a popular snack and lunch item in Japan.\n\nUsed for Japanese food, bento, and quick snacks.",
+    usageContexts: ["Japanese", "Onigiri", "Snack", "Bento", "Lunch"],
+    examples: [
+      { context: "Snack", text: "Onigiri time 🍙" },
+      { context: "Japanese", text: "Japanese lunch 🍙" },
+      { context: "Bento", text: "Packed lunch 🍙" }
+    ],
+    misunderstandings: ["Clear onigiri meaning"],
+    relatedEmojis: ["sushi", "cooked-rice", "bento-box"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["rice ball", "onigiri", "Japanese", "snack", "seaweed"]
+  },
+  {
+    unicode: "🍘",
+    name: "Rice Cracker",
+    slug: "rice-cracker",
+    shortMeaning: "A Japanese rice cracker.",
+    detailedMeaning: "The Rice Cracker emoji shows a senbei (Japanese rice cracker) with nori seaweed, a popular Asian snack.\n\nUsed for Japanese snacks, crackers, and tea time treats.",
+    usageContexts: ["Japanese", "Snack", "Cracker", "Tea time", "Asian"],
+    examples: [
+      { context: "Snack", text: "Rice cracker snack 🍘" },
+      { context: "Tea", text: "Tea and crackers 🍘" },
+      { context: "Japanese", text: "Senbei time 🍘" }
+    ],
+    misunderstandings: ["Clear rice cracker meaning"],
+    relatedEmojis: ["rice-ball", "teacup", "cookie"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["rice cracker", "senbei", "Japanese", "snack", "Asian"]
+  },
+  {
+    unicode: "🍱",
+    name: "Bento Box",
+    slug: "bento-box",
+    shortMeaning: "A Japanese bento box meal.",
+    detailedMeaning: "The Bento Box emoji shows a compartmentalized Japanese lunch box with various foods, representing organized meals and Japanese cuisine.\n\nUsed for Japanese food, meal prep, and organized lunches.",
+    usageContexts: ["Japanese", "Bento", "Lunch", "Meal prep", "Organized"],
+    examples: [
+      { context: "Lunch", text: "Bento for lunch 🍱" },
+      { context: "Japanese", text: "Japanese lunch box 🍱" },
+      { context: "Meal prep", text: "Meal prepping 🍱" }
+    ],
+    misunderstandings: ["Clear bento meaning"],
+    relatedEmojis: ["rice-ball", "sushi", "chopsticks"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["bento", "Japanese", "lunch box", "meal", "organized"]
+  },
+  {
+    unicode: "🥟",
+    name: "Dumpling",
+    slug: "dumpling",
+    shortMeaning: "A steamed or fried dumpling.",
+    detailedMeaning: "The Dumpling emoji shows a Asian dumpling (gyoza, jiaozi, mandu), representing dumplings from various Asian cuisines.\n\nUsed for Chinese food, dim sum, and Asian dumplings.",
+    usageContexts: ["Chinese", "Dumplings", "Dim sum", "Asian", "Steamed"],
+    examples: [
+      { context: "Dim sum", text: "Dim sum time 🥟" },
+      { context: "Chinese", text: "Dumplings for dinner 🥟" },
+      { context: "Craving", text: "Craving dumplings 🥟" }
+    ],
+    misunderstandings: ["Could be any Asian dumpling"],
+    relatedEmojis: ["takeout-box", "chopsticks", "steaming-bowl"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["dumpling", "gyoza", "dim sum", "Chinese", "Asian"]
+  },
+  {
+    unicode: "🥡",
+    name: "Takeout Box",
+    slug: "takeout-box",
+    shortMeaning: "A Chinese takeout container.",
+    detailedMeaning: "The Takeout Box emoji shows the iconic Chinese takeout container, representing takeout food, delivery, and late-night eating.\n\nUsed for Chinese food, takeout orders, and delivery meals.",
+    usageContexts: ["Takeout", "Chinese", "Delivery", "Late night", "Food"],
+    examples: [
+      { context: "Takeout", text: "Chinese takeout 🥡" },
+      { context: "Delivery", text: "Ordering in 🥡" },
+      { context: "Late night", text: "Late night eats 🥡" }
+    ],
+    misunderstandings: ["Clear takeout meaning"],
+    relatedEmojis: ["dumpling", "chopsticks", "steaming-bowl"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["takeout", "Chinese", "delivery", "container", "food"]
+  },
+  {
+    unicode: "🥢",
+    name: "Chopsticks",
+    slug: "chopsticks",
+    shortMeaning: "A pair of chopsticks.",
+    detailedMeaning: "The Chopsticks emoji shows a pair of chopsticks, the eating utensils used throughout Asia.\n\nUsed for Asian cuisine, sushi, noodles, and Chinese/Japanese food.",
+    usageContexts: ["Asian", "Utensils", "Sushi", "Noodles", "Chinese"],
+    examples: [
+      { context: "Asian", text: "Chopstick skills 🥢" },
+      { context: "Sushi", text: "Sushi time 🥢" },
+      { context: "Noodles", text: "Slurping noodles 🥢" }
+    ],
+    misunderstandings: ["Clear chopsticks meaning"],
+    relatedEmojis: ["sushi", "steaming-bowl", "rice-ball"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-asian",
+    keywords: ["chopsticks", "Asian", "utensils", "eating", "Japanese"]
+  },
+  // MEXICAN & LATIN CUISINE
+  {
+    unicode: "🌮",
+    name: "Taco",
+    slug: "taco",
+    shortMeaning: "A delicious taco - Taco Tuesday!",
+    detailedMeaning: "The Taco emoji shows a hard shell taco with fillings, representing Mexican cuisine and the beloved Taco Tuesday tradition.\n\nUsed for Mexican food, Taco Tuesday, and Latin American cuisine.",
+    usageContexts: ["Mexican", "Taco Tuesday", "Food", "Latin", "Casual"],
+    examples: [
+      { context: "Tuesday", text: "Taco Tuesday 🌮" },
+      { context: "Mexican", text: "Mexican night 🌮" },
+      { context: "Food", text: "Taco time 🌮" }
+    ],
+    misunderstandings: ["Clear taco meaning"],
+    relatedEmojis: ["burrito", "hot-pepper", "avocado"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["taco", "Mexican", "Tuesday", "food", "shell"]
+  },
+  {
+    unicode: "🌯",
+    name: "Burrito",
+    slug: "burrito",
+    shortMeaning: "A wrapped burrito.",
+    detailedMeaning: "The Burrito emoji shows a wrapped tortilla burrito, representing Mexican and Tex-Mex cuisine.\n\nUsed for Mexican food, burritos, and hearty wrapped meals.",
+    usageContexts: ["Mexican", "Burrito", "Wrap", "Tex-Mex", "Hearty"],
+    examples: [
+      { context: "Mexican", text: "Burrito bowl 🌯" },
+      { context: "Lunch", text: "Big burrito 🌯" },
+      { context: "Food", text: "Burrito run 🌯" }
+    ],
+    misunderstandings: ["Clear burrito meaning"],
+    relatedEmojis: ["taco", "hot-pepper", "beans"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["burrito", "Mexican", "wrap", "Tex-Mex", "tortilla"]
+  },
+  {
+    unicode: "🫔",
+    name: "Tamale",
+    slug: "tamale",
+    shortMeaning: "A wrapped tamale.",
+    detailedMeaning: "The Tamale emoji shows a corn husk-wrapped tamale, representing traditional Mexican and Latin American cuisine.\n\nUsed for Mexican holidays, traditional food, and Latin American cuisine.",
+    usageContexts: ["Mexican", "Traditional", "Holiday", "Latin", "Homemade"],
+    examples: [
+      { context: "Holiday", text: "Homemade tamales 🫔" },
+      { context: "Mexican", text: "Grandma's tamales 🫔" },
+      { context: "Traditional", text: "Traditional recipe 🫔" }
+    ],
+    misunderstandings: ["Clear tamale meaning"],
+    relatedEmojis: ["taco", "burrito", "hot-pepper"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["tamale", "Mexican", "corn", "traditional", "Latin"]
+  },
+  {
+    unicode: "🥑",
+    name: "Avocado",
+    slug: "avocado",
+    shortMeaning: "A halved avocado - millennial favorite!",
+    detailedMeaning: "The Avocado emoji shows a halved avocado with pit, representing healthy eating, guacamole, and millennial food culture.\n\nUsed for healthy food, avocado toast, guacamole, and trendy eating.",
+    usageContexts: ["Healthy", "Avocado toast", "Guacamole", "Trendy", "Millennial"],
+    examples: [
+      { context: "Healthy", text: "Avocado toast 🥑" },
+      { context: "Guac", text: "Guac is extra 🥑" },
+      { context: "Trendy", text: "Basic but delicious 🥑" }
+    ],
+    misunderstandings: ["Associated with millennial culture"],
+    relatedEmojis: ["taco", "salad", "bread"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["avocado", "guacamole", "healthy", "green", "millennial"]
+  },
+  // EUROPEAN CUISINE
+  {
+    unicode: "🥐",
+    name: "Croissant",
+    slug: "croissant",
+    shortMeaning: "A flaky French croissant.",
+    detailedMeaning: "The Croissant emoji shows a golden, flaky French pastry, representing French cuisine, breakfast, and café culture.\n\nUsed for French food, breakfast, Paris references, and café vibes.",
+    usageContexts: ["French", "Breakfast", "Pastry", "Paris", "Café"],
+    examples: [
+      { context: "Breakfast", text: "Croissant and coffee 🥐" },
+      { context: "French", text: "Feeling French 🥐" },
+      { context: "Paris", text: "Paris vibes 🥐" }
+    ],
+    misunderstandings: ["Clear croissant meaning"],
+    relatedEmojis: ["baguette", "hot-beverage", "french-flag"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["croissant", "French", "pastry", "breakfast", "flaky"]
+  },
+  {
+    unicode: "🥖",
+    name: "Baguette Bread",
+    slug: "baguette-bread",
+    shortMeaning: "A French baguette.",
+    detailedMeaning: "The Baguette Bread emoji shows a long French baguette, representing French cuisine and artisan bread.\n\nUsed for French food, bread, and stereotypical French imagery.",
+    usageContexts: ["French", "Bread", "Bakery", "Paris", "Artisan"],
+    examples: [
+      { context: "French", text: "Fresh baguette 🥖" },
+      { context: "Bakery", text: "Bakery run 🥖" },
+      { context: "Paris", text: "So French 🥖" }
+    ],
+    misunderstandings: ["Clear baguette meaning"],
+    relatedEmojis: ["croissant", "cheese", "french-flag"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["baguette", "French", "bread", "bakery", "loaf"]
+  },
+  {
+    unicode: "🧀",
+    name: "Cheese Wedge",
+    slug: "cheese-wedge",
+    shortMeaning: "A wedge of cheese.",
+    detailedMeaning: "The Cheese Wedge emoji shows a yellow cheese wedge with holes, representing cheese, dairy, and European cuisine.\n\nUsed for cheese, pizza toppings, and cheesy expressions.",
+    usageContexts: ["Cheese", "Pizza", "Dairy", "European", "Cheesy"],
+    examples: [
+      { context: "Cheese", text: "Cheese plate 🧀" },
+      { context: "Cheesy", text: "That's so cheesy 🧀" },
+      { context: "Pizza", text: "Extra cheese 🧀" }
+    ],
+    misunderstandings: ["Can mean corny/cheesy"],
+    relatedEmojis: ["pizza", "mouse", "wine-glass"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["cheese", "dairy", "wedge", "cheesy", "European"]
+  },
+  {
+    unicode: "🍝",
+    name: "Spaghetti",
+    slug: "spaghetti",
+    shortMeaning: "A plate of spaghetti with tomato sauce.",
+    detailedMeaning: "The Spaghetti emoji shows a plate of pasta with red sauce and a fork, representing Italian cuisine and pasta dishes.\n\nUsed for Italian food, pasta dinners, and carb cravings.",
+    usageContexts: ["Italian", "Pasta", "Dinner", "Carbs", "Comfort food"],
+    examples: [
+      { context: "Italian", text: "Italian night 🍝" },
+      { context: "Pasta", text: "Pasta time 🍝" },
+      { context: "Dinner", text: "Spaghetti dinner 🍝" }
+    ],
+    misunderstandings: ["Clear pasta meaning"],
+    relatedEmojis: ["pizza", "cheese-wedge", "tomato"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["spaghetti", "pasta", "Italian", "tomato", "carbs"]
+  },
+  // AMERICAN CLASSICS
+  {
+    unicode: "🌭",
+    name: "Hot Dog",
+    slug: "hot-dog",
+    shortMeaning: "A hot dog in a bun.",
+    detailedMeaning: "The Hot Dog emoji shows a frankfurter in a bun, representing American fast food, baseball games, and BBQs.\n\nUsed for BBQs, sports events, and American casual food.",
+    usageContexts: ["American", "BBQ", "Baseball", "Fast food", "Summer"],
+    examples: [
+      { context: "Baseball", text: "Ballpark frank 🌭" },
+      { context: "BBQ", text: "Hot dogs on the grill 🌭" },
+      { context: "Fast food", text: "Quick lunch 🌭" }
+    ],
+    misunderstandings: ["Clear hot dog meaning"],
+    relatedEmojis: ["hamburger", "french-fries", "baseball"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["hot dog", "frankfurter", "American", "BBQ", "fast food"]
+  },
+  {
+    unicode: "🥪",
+    name: "Sandwich",
+    slug: "sandwich",
+    shortMeaning: "A layered sandwich.",
+    detailedMeaning: "The Sandwich emoji shows a multi-layered sandwich with bread, meat, and vegetables, representing lunch, deli food, and quick meals.\n\nUsed for lunch, sandwiches, and deli content.",
+    usageContexts: ["Lunch", "Sandwich", "Deli", "Quick meal", "Picnic"],
+    examples: [
+      { context: "Lunch", text: "Sandwich for lunch 🥪" },
+      { context: "Deli", text: "Deli run 🥪" },
+      { context: "Picnic", text: "Packed lunch 🥪" }
+    ],
+    misunderstandings: ["Clear sandwich meaning"],
+    relatedEmojis: ["hamburger", "bread", "cheese-wedge"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["sandwich", "lunch", "deli", "bread", "meal"]
+  },
+  {
+    unicode: "🥓",
+    name: "Bacon",
+    slug: "bacon",
+    shortMeaning: "Crispy strips of bacon.",
+    detailedMeaning: "The Bacon emoji shows crispy bacon strips, representing breakfast, brunch, and the beloved pork product.\n\nUsed for breakfast, bacon lovers, and adding bacon to everything.",
+    usageContexts: ["Breakfast", "Bacon", "Brunch", "Meat", "Delicious"],
+    examples: [
+      { context: "Breakfast", text: "Bacon and eggs 🥓" },
+      { context: "Love", text: "Bacon makes everything better 🥓" },
+      { context: "Brunch", text: "Brunch time 🥓" }
+    ],
+    misunderstandings: ["Clear bacon meaning"],
+    relatedEmojis: ["egg", "pancakes", "sandwich"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["bacon", "breakfast", "crispy", "pork", "meat"]
+  },
+  {
+    unicode: "🍳",
+    name: "Cooking",
+    slug: "cooking",
+    shortMeaning: "A fried egg in a pan.",
+    detailedMeaning: "The Cooking emoji shows a fried egg in a frying pan, representing cooking, breakfast, and homemade meals.\n\nUsed for cooking, breakfast, and homemade food content.",
+    usageContexts: ["Cooking", "Breakfast", "Eggs", "Homemade", "Kitchen"],
+    examples: [
+      { context: "Breakfast", text: "Eggs for breakfast 🍳" },
+      { context: "Cooking", text: "Cooking up something 🍳" },
+      { context: "Homemade", text: "Home cooking 🍳" }
+    ],
+    misunderstandings: ["Represents cooking, not just eggs"],
+    relatedEmojis: ["bacon", "pancakes", "chef"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["cooking", "egg", "breakfast", "frying", "pan"]
+  },
+  {
+    unicode: "🥞",
+    name: "Pancakes",
+    slug: "pancakes",
+    shortMeaning: "A stack of pancakes.",
+    detailedMeaning: "The Pancakes emoji shows a stack of pancakes with butter and syrup, representing breakfast, brunch, and comfort food.\n\nUsed for breakfast, brunch, and weekend morning meals.",
+    usageContexts: ["Breakfast", "Brunch", "Pancakes", "Weekend", "Comfort"],
+    examples: [
+      { context: "Breakfast", text: "Pancake breakfast 🥞" },
+      { context: "Weekend", text: "Sunday pancakes 🥞" },
+      { context: "Brunch", text: "Brunch stack 🥞" }
+    ],
+    misunderstandings: ["Clear pancake meaning"],
+    relatedEmojis: ["bacon", "cooking", "maple-syrup"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["pancakes", "breakfast", "stack", "syrup", "brunch"]
+  },
+  {
+    unicode: "🧇",
+    name: "Waffle",
+    slug: "waffle",
+    shortMeaning: "A golden waffle.",
+    detailedMeaning: "The Waffle emoji shows a Belgian waffle with its distinctive grid pattern, representing breakfast, brunch, and sweet treats.\n\nUsed for breakfast, brunch, and waffle cravings.",
+    usageContexts: ["Breakfast", "Brunch", "Waffle", "Sweet", "Weekend"],
+    examples: [
+      { context: "Breakfast", text: "Waffle time 🧇" },
+      { context: "Brunch", text: "Belgian waffles 🧇" },
+      { context: "Sweet", text: "Waffles and berries 🧇" }
+    ],
+    misunderstandings: ["Clear waffle meaning"],
+    relatedEmojis: ["pancakes", "strawberry", "whipped-cream"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-prepared",
+    keywords: ["waffle", "breakfast", "Belgian", "brunch", "grid"]
+  },
+  // FRUITS
+  {
+    unicode: "🍎",
+    name: "Red Apple",
+    slug: "red-apple",
+    shortMeaning: "A red apple - healthy and classic.",
+    detailedMeaning: "The Red Apple emoji shows a shiny red apple, representing health, teachers, and the classic fruit.\n\nUsed for healthy eating, teachers, and fruit-related content.",
+    usageContexts: ["Healthy", "Teacher", "Fruit", "School", "Fresh"],
+    examples: [
+      { context: "Healthy", text: "An apple a day 🍎" },
+      { context: "Teacher", text: "For the teacher 🍎" },
+      { context: "Fresh", text: "Fresh fruit 🍎" }
+    ],
+    misunderstandings: ["Associated with teachers and school"],
+    relatedEmojis: ["green-apple", "pear", "cherries"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["apple", "red", "fruit", "healthy", "teacher"]
+  },
+  {
+    unicode: "🍊",
+    name: "Tangerine",
+    slug: "tangerine",
+    shortMeaning: "A tangerine/orange citrus fruit.",
+    detailedMeaning: "The Tangerine emoji shows an orange citrus fruit, representing oranges, vitamin C, and fresh fruit.\n\nUsed for citrus fruits, healthy eating, and orange-colored things.",
+    usageContexts: ["Citrus", "Orange", "Healthy", "Vitamin C", "Fruit"],
+    examples: [
+      { context: "Healthy", text: "Vitamin C boost 🍊" },
+      { context: "Fruit", text: "Fresh oranges 🍊" },
+      { context: "Color", text: "Orange vibes 🍊" }
+    ],
+    misunderstandings: ["Clear orange/citrus meaning"],
+    relatedEmojis: ["lemon", "red-apple", "banana"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["orange", "tangerine", "citrus", "fruit", "vitamin"]
+  },
+  {
+    unicode: "🍋",
+    name: "Lemon",
+    slug: "lemon",
+    shortMeaning: "A yellow lemon.",
+    detailedMeaning: "The Lemon emoji shows a bright yellow lemon, representing sour, citrus, and the phrase 'when life gives you lemons.'\n\nUsed for citrus, sour things, and optimistic expressions.",
+    usageContexts: ["Citrus", "Sour", "Lemonade", "Optimism", "Fresh"],
+    examples: [
+      { context: "Saying", text: "When life gives you 🍋" },
+      { context: "Drink", text: "Fresh lemonade 🍋" },
+      { context: "Sour", text: "Sour face 🍋" }
+    ],
+    misunderstandings: ["Associated with 'lemons' idiom"],
+    relatedEmojis: ["tangerine", "lime", "lemonade"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["lemon", "citrus", "sour", "yellow", "fruit"]
+  },
+  {
+    unicode: "🍌",
+    name: "Banana",
+    slug: "banana",
+    shortMeaning: "A yellow banana.",
+    detailedMeaning: "The Banana emoji shows a peeled banana, representing the popular fruit, potassium, and sometimes comedic/suggestive content.\n\nUsed for fruit, smoothies, and healthy snacks.",
+    usageContexts: ["Fruit", "Healthy", "Smoothie", "Potassium", "Snack"],
+    examples: [
+      { context: "Healthy", text: "Banana for energy 🍌" },
+      { context: "Smoothie", text: "Banana smoothie 🍌" },
+      { context: "Snack", text: "Quick snack 🍌" }
+    ],
+    misunderstandings: ["Sometimes used suggestively"],
+    relatedEmojis: ["red-apple", "strawberry", "monkey"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["banana", "fruit", "yellow", "potassium", "healthy"]
+  },
+  {
+    unicode: "🍇",
+    name: "Grapes",
+    slug: "grapes",
+    shortMeaning: "A bunch of purple grapes.",
+    detailedMeaning: "The Grapes emoji shows a cluster of purple grapes, representing wine, fruit, and vineyards.\n\nUsed for fruit, wine references, and grape-flavored things.",
+    usageContexts: ["Fruit", "Wine", "Vineyard", "Purple", "Healthy"],
+    examples: [
+      { context: "Wine", text: "Wine grapes 🍇" },
+      { context: "Fruit", text: "Fresh grapes 🍇" },
+      { context: "Snack", text: "Healthy snack 🍇" }
+    ],
+    misunderstandings: ["Associated with wine"],
+    relatedEmojis: ["wine-glass", "cherries", "blueberries"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["grapes", "purple", "fruit", "wine", "vineyard"]
+  },
+  {
+    unicode: "🍓",
+    name: "Strawberry",
+    slug: "strawberry",
+    shortMeaning: "A red strawberry.",
+    detailedMeaning: "The Strawberry emoji shows a red strawberry with green leaves, representing sweetness, summer, and fresh berries.\n\nUsed for berries, desserts, and sweet content.",
+    usageContexts: ["Berries", "Sweet", "Summer", "Dessert", "Fresh"],
+    examples: [
+      { context: "Sweet", text: "Sweet as a strawberry 🍓" },
+      { context: "Dessert", text: "Strawberry shortcake 🍓" },
+      { context: "Summer", text: "Berry season 🍓" }
+    ],
+    misunderstandings: ["Clear strawberry meaning"],
+    relatedEmojis: ["cherries", "blueberries", "whipped-cream"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["strawberry", "berry", "red", "sweet", "fruit"]
+  },
+  {
+    unicode: "🍒",
+    name: "Cherries",
+    slug: "cherries",
+    shortMeaning: "A pair of red cherries.",
+    detailedMeaning: "The Cherries emoji shows two red cherries on a stem, representing sweetness and sometimes romantic or flirty content.\n\nUsed for fruit, desserts, and sometimes flirtatious messages.",
+    usageContexts: ["Fruit", "Sweet", "Flirty", "Dessert", "Summer"],
+    examples: [
+      { context: "Sweet", text: "Cherry on top 🍒" },
+      { context: "Dessert", text: "Cherry pie 🍒" },
+      { context: "Cute", text: "So cherry 🍒" }
+    ],
+    misunderstandings: ["Sometimes used flirtatiously"],
+    relatedEmojis: ["strawberry", "grapes", "peach"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["cherries", "fruit", "red", "sweet", "pair"]
+  },
+  {
+    unicode: "🍑",
+    name: "Peach",
+    slug: "peach",
+    shortMeaning: "A fuzzy peach.",
+    detailedMeaning: "The Peach emoji shows an orange peach, representing the fruit but also commonly used as a butt emoji due to its shape.\n\nUsed for peaches, summer fruit, and often suggestively for buttocks.",
+    usageContexts: ["Fruit", "Summer", "Suggestive", "Georgia", "Sweet"],
+    examples: [
+      { context: "Fruit", text: "Peachy keen 🍑" },
+      { context: "Georgia", text: "Georgia peach 🍑" },
+      { context: "Flirty", text: "Looking good 🍑" }
+    ],
+    misunderstandings: ["Commonly used to represent buttocks"],
+    relatedEmojis: ["cherries", "eggplant", "strawberry"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["peach", "fruit", "butt", "summer", "fuzzy"]
+  },
+  {
+    unicode: "🥭",
+    name: "Mango",
+    slug: "mango",
+    shortMeaning: "A tropical mango.",
+    detailedMeaning: "The Mango emoji shows an orange-yellow mango, representing tropical fruit and exotic flavors.\n\nUsed for tropical fruit, summer, and mango-flavored things.",
+    usageContexts: ["Tropical", "Fruit", "Exotic", "Summer", "Sweet"],
+    examples: [
+      { context: "Tropical", text: "Tropical vibes 🥭" },
+      { context: "Fruit", text: "Fresh mango 🥭" },
+      { context: "Sweet", text: "Mango smoothie 🥭" }
+    ],
+    misunderstandings: ["Clear mango meaning"],
+    relatedEmojis: ["pineapple", "coconut", "peach"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["mango", "tropical", "fruit", "exotic", "sweet"]
+  },
+  {
+    unicode: "🍍",
+    name: "Pineapple",
+    slug: "pineapple",
+    shortMeaning: "A tropical pineapple.",
+    detailedMeaning: "The Pineapple emoji shows a pineapple with its spiky top, representing tropical vibes, hospitality, and the pizza topping debate.\n\nUsed for tropical themes, summer, and the pineapple on pizza debate.",
+    usageContexts: ["Tropical", "Summer", "Hospitality", "Hawaii", "Sweet"],
+    examples: [
+      { context: "Tropical", text: "Tropical paradise 🍍" },
+      { context: "Hawaii", text: "Hawaii vibes 🍍" },
+      { context: "Debate", text: "Pineapple on pizza 🍍" }
+    ],
+    misunderstandings: ["Symbol of hospitality"],
+    relatedEmojis: ["coconut", "mango", "palm-tree"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["pineapple", "tropical", "Hawaii", "fruit", "summer"]
+  },
+  {
+    unicode: "🥥",
+    name: "Coconut",
+    slug: "coconut",
+    shortMeaning: "A halved coconut.",
+    detailedMeaning: "The Coconut emoji shows a coconut cut in half, representing tropical islands, coconut water, and beach vibes.\n\nUsed for tropical themes, beach content, and coconut products.",
+    usageContexts: ["Tropical", "Beach", "Island", "Healthy", "Summer"],
+    examples: [
+      { context: "Beach", text: "Beach vibes 🥥" },
+      { context: "Healthy", text: "Coconut water 🥥" },
+      { context: "Tropical", text: "Island life 🥥" }
+    ],
+    misunderstandings: ["Clear coconut meaning"],
+    relatedEmojis: ["pineapple", "palm-tree", "beach-with-umbrella"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["coconut", "tropical", "beach", "island", "fruit"]
+  },
+  {
+    unicode: "🍉",
+    name: "Watermelon",
+    slug: "watermelon",
+    shortMeaning: "A slice of watermelon.",
+    detailedMeaning: "The Watermelon emoji shows a red slice of watermelon with seeds, representing summer, picnics, and refreshing fruit.\n\nUsed for summer, BBQs, picnics, and hot weather content.",
+    usageContexts: ["Summer", "Picnic", "BBQ", "Refreshing", "Hot weather"],
+    examples: [
+      { context: "Summer", text: "Summer vibes 🍉" },
+      { context: "Picnic", text: "Picnic snack 🍉" },
+      { context: "Refreshing", text: "So refreshing 🍉" }
+    ],
+    misunderstandings: ["Clear watermelon meaning"],
+    relatedEmojis: ["strawberry", "grapes", "sun"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-fruit",
+    keywords: ["watermelon", "summer", "fruit", "picnic", "refreshing"]
+  },
+  // VEGETABLES
+  {
+    unicode: "🥕",
+    name: "Carrot",
+    slug: "carrot",
+    shortMeaning: "An orange carrot.",
+    detailedMeaning: "The Carrot emoji shows an orange carrot with green top, representing vegetables, healthy eating, and rabbits.\n\nUsed for healthy food, cooking, and bunny-related content.",
+    usageContexts: ["Healthy", "Vegetables", "Cooking", "Rabbit", "Orange"],
+    examples: [
+      { context: "Healthy", text: "Eat your veggies 🥕" },
+      { context: "Cooking", text: "Fresh carrots 🥕" },
+      { context: "Bunny", text: "Bunny food 🥕" }
+    ],
+    misunderstandings: ["Clear carrot meaning"],
+    relatedEmojis: ["broccoli", "salad", "rabbit"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["carrot", "vegetable", "orange", "healthy", "rabbit"]
+  },
+  {
+    unicode: "🥦",
+    name: "Broccoli",
+    slug: "broccoli",
+    shortMeaning: "A head of broccoli.",
+    detailedMeaning: "The Broccoli emoji shows green broccoli florets, representing healthy eating, vegetables, and nutritious food.\n\nUsed for healthy eating, vegetables, and green food.",
+    usageContexts: ["Healthy", "Vegetables", "Green", "Nutritious", "Cooking"],
+    examples: [
+      { context: "Healthy", text: "Eat your broccoli 🥦" },
+      { context: "Green", text: "Green and healthy 🥦" },
+      { context: "Cooking", text: "Steamed broccoli 🥦" }
+    ],
+    misunderstandings: ["Clear broccoli meaning"],
+    relatedEmojis: ["carrot", "salad", "leafy-green"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["broccoli", "vegetable", "green", "healthy", "nutritious"]
+  },
+  {
+    unicode: "🌶️",
+    name: "Hot Pepper",
+    slug: "hot-pepper",
+    shortMeaning: "A red hot chili pepper.",
+    detailedMeaning: "The Hot Pepper emoji shows a red chili pepper, representing spicy food, heat, and something being 'hot' or attractive.\n\nUsed for spicy food, Mexican cuisine, and describing something as hot/attractive.",
+    usageContexts: ["Spicy", "Hot", "Mexican", "Attractive", "Heat"],
+    examples: [
+      { context: "Spicy", text: "Make it spicy 🌶️" },
+      { context: "Hot", text: "That's hot 🌶️" },
+      { context: "Mexican", text: "Mexican heat 🌶️" }
+    ],
+    misunderstandings: ["Can mean attractive/hot"],
+    relatedEmojis: ["taco", "fire", "curry-rice"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["pepper", "hot", "spicy", "chili", "heat"]
+  },
+  {
+    unicode: "🧄",
+    name: "Garlic",
+    slug: "garlic",
+    shortMeaning: "A head of garlic.",
+    detailedMeaning: "The Garlic emoji shows a garlic bulb, representing cooking, flavor, and vampire repellent jokes.\n\nUsed for cooking, Italian food, and garlic bread references.",
+    usageContexts: ["Cooking", "Italian", "Flavor", "Vampire", "Garlic bread"],
+    examples: [
+      { context: "Cooking", text: "More garlic always 🧄" },
+      { context: "Italian", text: "Garlic bread 🧄" },
+      { context: "Joke", text: "Keeping vampires away 🧄" }
+    ],
+    misunderstandings: ["Vampire jokes"],
+    relatedEmojis: ["onion", "spaghetti", "pizza"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["garlic", "cooking", "Italian", "flavor", "vampire"]
+  },
+  {
+    unicode: "🧅",
+    name: "Onion",
+    slug: "onion",
+    shortMeaning: "A yellow onion.",
+    detailedMeaning: "The Onion emoji shows a brown/yellow onion, representing cooking and the 'layers' metaphor.\n\nUsed for cooking, tears from cutting onions, and the layers concept.",
+    usageContexts: ["Cooking", "Tears", "Layers", "Flavor", "Vegetable"],
+    examples: [
+      { context: "Cooking", text: "Chopping onions 🧅" },
+      { context: "Tears", text: "Crying from onions 🧅" },
+      { context: "Layers", text: "Like an onion 🧅" }
+    ],
+    misunderstandings: ["Layers/Shrek reference"],
+    relatedEmojis: ["garlic", "carrot", "cooking"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["onion", "cooking", "tears", "layers", "vegetable"]
+  },
+  {
+    unicode: "🍄",
+    name: "Mushroom",
+    slug: "mushroom",
+    shortMeaning: "A red mushroom with white spots.",
+    detailedMeaning: "The Mushroom emoji shows a red and white spotted mushroom (fly agaric), representing mushrooms, nature, and sometimes psychedelic themes.\n\nUsed for mushrooms, nature, cooking, and sometimes drug references.",
+    usageContexts: ["Nature", "Cooking", "Psychedelic", "Forest", "Vegetable"],
+    examples: [
+      { context: "Cooking", text: "Mushroom risotto 🍄" },
+      { context: "Nature", text: "Forest finds 🍄" },
+      { context: "Cute", text: "Cottagecore vibes 🍄" }
+    ],
+    misunderstandings: ["Can reference psychedelics"],
+    relatedEmojis: ["evergreen-tree", "broccoli", "herb"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["mushroom", "fungus", "nature", "forest", "cooking"]
+  },
+  {
+    unicode: "🥔",
+    name: "Potato",
+    slug: "potato",
+    shortMeaning: "A brown potato.",
+    detailedMeaning: "The Potato emoji shows a brown potato, representing the versatile vegetable and sometimes used as self-deprecating humor.\n\nUsed for potatoes, fries, and calling oneself a 'potato.'",
+    usageContexts: ["Vegetable", "French fries", "Self-deprecating", "Comfort", "Versatile"],
+    examples: [
+      { context: "Self", text: "I'm a potato 🥔" },
+      { context: "Food", text: "Mashed potatoes 🥔" },
+      { context: "Lazy", text: "Couch potato 🥔" }
+    ],
+    misunderstandings: ["Self-deprecating humor"],
+    relatedEmojis: ["french-fries", "carrot", "cooking"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["potato", "vegetable", "fries", "couch potato", "comfort"]
+  },
+  {
+    unicode: "🍆",
+    name: "Eggplant",
+    slug: "eggplant",
+    shortMeaning: "A purple eggplant.",
+    detailedMeaning: "The Eggplant emoji shows a purple eggplant/aubergine, but is widely known as a phallic symbol in digital communication.\n\nUsed suggestively or for actual eggplant/cooking content.",
+    usageContexts: ["Suggestive", "Cooking", "Purple", "Flirty", "Vegetable"],
+    examples: [
+      { context: "Cooking", text: "Eggplant parmesan 🍆" },
+      { context: "Color", text: "Purple vibes 🍆" },
+      { context: "Suggestive", text: "[context dependent] 🍆" }
+    ],
+    misunderstandings: ["Commonly used as phallic symbol"],
+    relatedEmojis: ["peach", "hot-pepper", "cucumber"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["eggplant", "aubergine", "purple", "suggestive", "vegetable"]
+  },
+  {
+    unicode: "🥒",
+    name: "Cucumber",
+    slug: "cucumber",
+    shortMeaning: "A green cucumber.",
+    detailedMeaning: "The Cucumber emoji shows a green cucumber, representing the vegetable, pickles, and spa treatments (cucumber on eyes).\n\nUsed for vegetables, pickles, and spa/relaxation content.",
+    usageContexts: ["Vegetable", "Pickle", "Spa", "Healthy", "Cool"],
+    examples: [
+      { context: "Healthy", text: "Cool as a cucumber 🥒" },
+      { context: "Spa", text: "Spa day 🥒" },
+      { context: "Food", text: "Pickles 🥒" }
+    ],
+    misunderstandings: ["Clear cucumber meaning"],
+    relatedEmojis: ["salad", "carrot", "spa"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["cucumber", "pickle", "vegetable", "spa", "cool"]
+  },
+  {
+    unicode: "🥗",
+    name: "Green Salad",
+    slug: "green-salad",
+    shortMeaning: "A bowl of green salad.",
+    detailedMeaning: "The Green Salad emoji shows a bowl of mixed salad, representing healthy eating, dieting, and fresh vegetables.\n\nUsed for healthy eating, diets, and light meals.",
+    usageContexts: ["Healthy", "Diet", "Vegetables", "Light meal", "Fresh"],
+    examples: [
+      { context: "Diet", text: "Eating healthy 🥗" },
+      { context: "Light", text: "Light lunch 🥗" },
+      { context: "Fresh", text: "Fresh salad 🥗" }
+    ],
+    misunderstandings: ["Clear salad meaning"],
+    relatedEmojis: ["broccoli", "carrot", "avocado"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-vegetable",
+    keywords: ["salad", "healthy", "vegetables", "diet", "fresh"]
+  },
+  // DESSERTS & SWEETS
+  {
+    unicode: "🍰",
+    name: "Shortcake",
+    slug: "shortcake",
+    shortMeaning: "A slice of strawberry shortcake.",
+    detailedMeaning: "The Shortcake emoji shows a slice of cake with strawberry, representing dessert, celebrations, and sweet treats.\n\nUsed for desserts, birthdays, and cake cravings.",
+    usageContexts: ["Dessert", "Birthday", "Celebration", "Sweet", "Cake"],
+    examples: [
+      { context: "Birthday", text: "Birthday cake 🍰" },
+      { context: "Dessert", text: "Dessert time 🍰" },
+      { context: "Sweet", text: "Sweet treat 🍰" }
+    ],
+    misunderstandings: ["Clear cake meaning"],
+    relatedEmojis: ["birthday-cake", "cupcake", "pie"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["cake", "shortcake", "dessert", "strawberry", "sweet"]
+  },
+  {
+    unicode: "🧁",
+    name: "Cupcake",
+    slug: "cupcake",
+    shortMeaning: "A frosted cupcake.",
+    detailedMeaning: "The Cupcake emoji shows a cupcake with frosting and a cherry, representing sweet treats, birthdays, and baking.\n\nUsed for desserts, baking, and cute sweet content.",
+    usageContexts: ["Dessert", "Baking", "Sweet", "Birthday", "Cute"],
+    examples: [
+      { context: "Baking", text: "Baking cupcakes 🧁" },
+      { context: "Sweet", text: "Sweet treat 🧁" },
+      { context: "Cute", text: "So cute 🧁" }
+    ],
+    misunderstandings: ["Clear cupcake meaning"],
+    relatedEmojis: ["shortcake", "doughnut", "cookie"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["cupcake", "dessert", "frosting", "baking", "sweet"]
+  },
+  {
+    unicode: "🥧",
+    name: "Pie",
+    slug: "pie",
+    shortMeaning: "A slice of pie.",
+    detailedMeaning: "The Pie emoji shows a slice of pie (often depicted as pumpkin), representing Thanksgiving, dessert, and American traditions.\n\nUsed for Thanksgiving, desserts, and pie cravings.",
+    usageContexts: ["Thanksgiving", "Dessert", "American", "Fall", "Sweet"],
+    examples: [
+      { context: "Thanksgiving", text: "Pumpkin pie 🥧" },
+      { context: "Dessert", text: "Pie for dessert 🥧" },
+      { context: "Math", text: "Easy as pie 🥧" }
+    ],
+    misunderstandings: ["Clear pie meaning"],
+    relatedEmojis: ["shortcake", "turkey", "maple-leaf"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["pie", "dessert", "Thanksgiving", "pumpkin", "sweet"]
+  },
+  {
+    unicode: "🍫",
+    name: "Chocolate Bar",
+    slug: "chocolate-bar",
+    shortMeaning: "A chocolate bar.",
+    detailedMeaning: "The Chocolate Bar emoji shows a wrapped chocolate bar, representing sweets, comfort food, and chocolate cravings.\n\nUsed for chocolate cravings, desserts, and comfort eating.",
+    usageContexts: ["Chocolate", "Sweet", "Comfort", "Dessert", "Craving"],
+    examples: [
+      { context: "Craving", text: "Need chocolate 🍫" },
+      { context: "Comfort", text: "Comfort food 🍫" },
+      { context: "Sweet", text: "Chocolate fix 🍫" }
+    ],
+    misunderstandings: ["Clear chocolate meaning"],
+    relatedEmojis: ["cookie", "candy", "ice-cream"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["chocolate", "candy", "sweet", "bar", "comfort"]
+  },
+  {
+    unicode: "🍬",
+    name: "Candy",
+    slug: "candy",
+    shortMeaning: "A wrapped candy.",
+    detailedMeaning: "The Candy emoji shows a wrapped piece of candy, representing sweets, Halloween, and treats.\n\nUsed for candy, Halloween, and sweet treats.",
+    usageContexts: ["Sweet", "Halloween", "Treat", "Candy", "Kids"],
+    examples: [
+      { context: "Halloween", text: "Trick or treat 🍬" },
+      { context: "Sweet", text: "Sweet tooth 🍬" },
+      { context: "Treat", text: "Candy time 🍬" }
+    ],
+    misunderstandings: ["Clear candy meaning"],
+    relatedEmojis: ["lollipop", "chocolate-bar", "jack-o-lantern"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["candy", "sweet", "Halloween", "treat", "wrapper"]
+  },
+  {
+    unicode: "🍭",
+    name: "Lollipop",
+    slug: "lollipop",
+    shortMeaning: "A colorful swirled lollipop.",
+    detailedMeaning: "The Lollipop emoji shows a rainbow swirled lollipop on a stick, representing candy, childhood, and sweet treats.\n\nUsed for candy, sweets, and colorful/fun content.",
+    usageContexts: ["Candy", "Sweet", "Colorful", "Fun", "Childhood"],
+    examples: [
+      { context: "Sweet", text: "Sweet as a lollipop 🍭" },
+      { context: "Fun", text: "Candy land 🍭" },
+      { context: "Colorful", text: "Rainbow vibes 🍭" }
+    ],
+    misunderstandings: ["Clear lollipop meaning"],
+    relatedEmojis: ["candy", "rainbow", "cupcake"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["lollipop", "candy", "sweet", "swirl", "rainbow"]
+  },
+  {
+    unicode: "🍪",
+    name: "Cookie",
+    slug: "cookie",
+    shortMeaning: "A chocolate chip cookie.",
+    detailedMeaning: "The Cookie emoji shows a chocolate chip cookie, representing baking, treats, and the phrase 'that's how the cookie crumbles.'\n\nUsed for cookies, baking, and sweet snacks.",
+    usageContexts: ["Baking", "Sweet", "Snack", "Treat", "Cookie"],
+    examples: [
+      { context: "Baking", text: "Fresh cookies 🍪" },
+      { context: "Snack", text: "Cookie break 🍪" },
+      { context: "Saying", text: "That's the way the cookie crumbles 🍪" }
+    ],
+    misunderstandings: ["Clear cookie meaning"],
+    relatedEmojis: ["cupcake", "chocolate-bar", "milk"],
+    categorySlug: "food-and-drink",
+    subgroup: "food-sweet",
+    keywords: ["cookie", "baking", "chocolate chip", "sweet", "snack"]
+  },
+  // MORE DRINKS
+  {
+    unicode: "🧃",
+    name: "Beverage Box",
+    slug: "beverage-box",
+    shortMeaning: "A juice box with straw.",
+    detailedMeaning: "The Beverage Box emoji shows a juice box with straw, representing kids' drinks, juice, and packed lunches.\n\nUsed for juice, kids' lunches, and casual drinks.",
+    usageContexts: ["Juice", "Kids", "Lunch", "Drink", "Casual"],
+    examples: [
+      { context: "Lunch", text: "Packed lunch 🧃" },
+      { context: "Kids", text: "Juice time 🧃" },
+      { context: "Casual", text: "Sippin' juice 🧃" }
+    ],
+    misunderstandings: ["Clear juice box meaning"],
+    relatedEmojis: ["glass-of-milk", "cup-with-straw", "red-apple"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["juice", "box", "straw", "kids", "drink"]
+  },
+  {
+    unicode: "🧋",
+    name: "Bubble Tea",
+    slug: "bubble-tea",
+    shortMeaning: "A cup of bubble tea with tapioca pearls.",
+    detailedMeaning: "The Bubble Tea emoji shows a cup of boba/bubble tea with tapioca pearls, representing the popular Taiwanese drink.\n\nUsed for boba tea, Asian drinks, and trendy beverages.",
+    usageContexts: ["Boba", "Asian", "Trendy", "Sweet", "Tea"],
+    examples: [
+      { context: "Boba", text: "Boba run 🧋" },
+      { context: "Treat", text: "Treat yourself 🧋" },
+      { context: "Asian", text: "Bubble tea time 🧋" }
+    ],
+    misunderstandings: ["Clear boba meaning"],
+    relatedEmojis: ["hot-beverage", "teacup", "cup-with-straw"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["bubble tea", "boba", "tapioca", "Asian", "trendy"]
+  },
+  {
+    unicode: "🍵",
+    name: "Teacup Without Handle",
+    slug: "teacup-without-handle",
+    shortMeaning: "A Japanese teacup with green tea.",
+    detailedMeaning: "The Teacup Without Handle emoji shows a Japanese-style teacup with matcha/green tea, representing tea, zen, and relaxation.\n\nUsed for tea, matcha, and calm/zen moments.",
+    usageContexts: ["Tea", "Matcha", "Zen", "Relaxation", "Japanese"],
+    examples: [
+      { context: "Tea", text: "Tea time 🍵" },
+      { context: "Zen", text: "Finding my zen 🍵" },
+      { context: "Matcha", text: "Matcha latte 🍵" }
+    ],
+    misunderstandings: ["Japanese-style tea specifically"],
+    relatedEmojis: ["hot-beverage", "bubble-tea", "herb"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["tea", "matcha", "green tea", "Japanese", "zen"]
+  },
+  {
+    unicode: "🥤",
+    name: "Cup with Straw",
+    slug: "cup-with-straw",
+    shortMeaning: "A disposable cup with straw.",
+    detailedMeaning: "The Cup with Straw emoji shows a fast food soft drink cup with straw, representing soda, fast food drinks, and takeout beverages.\n\nUsed for soft drinks, fast food, and takeout.",
+    usageContexts: ["Soda", "Fast food", "Takeout", "Drink", "Cold"],
+    examples: [
+      { context: "Fast food", text: "Combo meal 🥤" },
+      { context: "Soda", text: "Cold drink 🥤" },
+      { context: "Takeout", text: "Drive-thru 🥤" }
+    ],
+    misunderstandings: ["Clear soft drink meaning"],
+    relatedEmojis: ["hamburger", "french-fries", "beverage-box"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["soda", "drink", "straw", "cup", "fast food"]
+  },
+  {
+    unicode: "🥛",
+    name: "Glass of Milk",
+    slug: "glass-of-milk",
+    shortMeaning: "A glass of milk.",
+    detailedMeaning: "The Glass of Milk emoji shows a glass of white milk, representing dairy, cookies and milk, and wholesome nutrition.\n\nUsed for dairy, breakfast, and cookies and milk pairing.",
+    usageContexts: ["Dairy", "Breakfast", "Cookies", "Wholesome", "Nutrition"],
+    examples: [
+      { context: "Cookies", text: "Cookies and milk 🥛" },
+      { context: "Breakfast", text: "Morning milk 🥛" },
+      { context: "Wholesome", text: "Got milk 🥛" }
+    ],
+    misunderstandings: ["Clear milk meaning"],
+    relatedEmojis: ["cookie", "cow", "baby-bottle"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["milk", "dairy", "glass", "white", "breakfast"]
+  },
+  {
+    unicode: "🍸",
+    name: "Cocktail Glass",
+    slug: "cocktail-glass",
+    shortMeaning: "A martini/cocktail glass.",
+    detailedMeaning: "The Cocktail Glass emoji shows a martini glass with olive, representing cocktails, bars, and sophisticated drinking.\n\nUsed for cocktails, martinis, and fancy drinks.",
+    usageContexts: ["Cocktails", "Bar", "Martini", "Fancy", "Night out"],
+    examples: [
+      { context: "Bar", text: "Cocktail hour 🍸" },
+      { context: "Fancy", text: "Feeling fancy 🍸" },
+      { context: "Night", text: "Night out 🍸" }
+    ],
+    misunderstandings: ["Alcohol reference"],
+    relatedEmojis: ["wine-glass", "tropical-drink", "beer-mug"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["cocktail", "martini", "drink", "bar", "fancy"]
+  },
+  {
+    unicode: "🍹",
+    name: "Tropical Drink",
+    slug: "tropical-drink",
+    shortMeaning: "A tropical cocktail with umbrella.",
+    detailedMeaning: "The Tropical Drink emoji shows a colorful cocktail with umbrella and fruit, representing vacation, beach bars, and tropical vibes.\n\nUsed for vacation, tropical destinations, and summer drinks.",
+    usageContexts: ["Vacation", "Tropical", "Beach", "Summer", "Cocktail"],
+    examples: [
+      { context: "Vacation", text: "Vacation mode 🍹" },
+      { context: "Beach", text: "Beach bar 🍹" },
+      { context: "Summer", text: "Summer vibes 🍹" }
+    ],
+    misunderstandings: ["Clear tropical drink meaning"],
+    relatedEmojis: ["palm-tree", "beach-with-umbrella", "cocktail-glass"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["tropical", "cocktail", "vacation", "beach", "umbrella"]
+  },
+  {
+    unicode: "🍾",
+    name: "Bottle with Popping Cork",
+    slug: "bottle-with-popping-cork",
+    shortMeaning: "Champagne bottle with cork popping.",
+    detailedMeaning: "The Bottle with Popping Cork emoji shows a champagne bottle with cork flying off, representing celebration, New Year's, and special occasions.\n\nUsed for celebrations, champagne toasts, and big announcements.",
+    usageContexts: ["Celebration", "Champagne", "New Year", "Toast", "Victory"],
+    examples: [
+      { context: "Celebrate", text: "Pop the champagne 🍾" },
+      { context: "New Year", text: "Happy New Year 🍾" },
+      { context: "Toast", text: "Cheers 🍾" }
+    ],
+    misunderstandings: ["Clear celebration meaning"],
+    relatedEmojis: ["wine-glass", "party-popper", "clinking-glasses"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["champagne", "celebration", "pop", "cork", "toast"]
+  },
+  {
+    unicode: "🥂",
+    name: "Clinking Glasses",
+    slug: "clinking-glasses",
+    shortMeaning: "Two champagne glasses clinking.",
+    detailedMeaning: "The Clinking Glasses emoji shows two champagne flutes toasting, representing celebration, cheers, and special moments.\n\nUsed for toasts, celebrations, and congratulations.",
+    usageContexts: ["Toast", "Cheers", "Celebration", "Wedding", "Congrats"],
+    examples: [
+      { context: "Cheers", text: "Cheers 🥂" },
+      { context: "Celebration", text: "Congratulations 🥂" },
+      { context: "Wedding", text: "To the happy couple 🥂" }
+    ],
+    misunderstandings: ["Clear toast/cheers meaning"],
+    relatedEmojis: ["bottle-with-popping-cork", "wine-glass", "party-popper"],
+    categorySlug: "food-and-drink",
+    subgroup: "drink",
+    keywords: ["cheers", "toast", "champagne", "celebration", "clinking"]
+  },
   // TRAVEL & PLACES
   {
     unicode: "✈️",
