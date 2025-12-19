@@ -952,6 +952,564 @@ export const emojis: Emoji[] = [
     subgroup: "emotion",
     keywords: ["hundred", "perfect", "real", "facts", "agreement"]
   },
+  {
+    unicode: "💢",
+    name: "Anger Symbol",
+    slug: "anger-symbol",
+    shortMeaning: "A symbol of anger or frustration from manga/anime.",
+    detailedMeaning: "The Anger Symbol emoji shows the stylized manga symbol for anger - a popping vein. It represents frustration, annoyance, or being upset.\n\nUsed to express anger without using an angry face, often in a more stylized or humorous way.",
+    usageContexts: ["Anger", "Frustration", "Annoyance", "Upset", "Irritation"],
+    examples: [
+      { context: "Angry", text: "Stop doing that 💢" },
+      { context: "Frustrated", text: "This is so annoying 💢" },
+      { context: "Irritated", text: "I can't take it 💢" }
+    ],
+    misunderstandings: ["May not be recognized outside anime/manga fans"],
+    relatedEmojis: ["angry-face", "pouting-face", "face-with-symbols-on-mouth"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["anger", "frustration", "vein", "manga", "upset"]
+  },
+  {
+    unicode: "💥",
+    name: "Collision",
+    slug: "collision",
+    shortMeaning: "An explosion or impact - boom!",
+    detailedMeaning: "The Collision emoji shows a comic-style explosion. It represents impact, crashes, explosions, or something mind-blowing.\n\nUsed for emphasis, explosive situations, or when something hits hard (literally or figuratively).",
+    usageContexts: ["Explosion", "Impact", "Mind-blown", "Crash", "Emphasis"],
+    examples: [
+      { context: "Impact", text: "That news hit me hard 💥" },
+      { context: "Explosion", text: "Boom! 💥" },
+      { context: "Mind-blown", text: "This is explosive 💥" }
+    ],
+    misunderstandings: ["Clear explosive meaning"],
+    relatedEmojis: ["fire", "boom", "star"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["collision", "explosion", "boom", "impact", "crash"]
+  },
+  {
+    unicode: "💫",
+    name: "Dizzy",
+    slug: "dizzy",
+    shortMeaning: "Dizzy, seeing stars, or something magical.",
+    detailedMeaning: "The Dizzy emoji shows a circling star, like seeing stars after a hit to the head. It can represent dizziness, being stunned, or magical/dreamy vibes.\n\nUsed for feeling dizzy, overwhelmed, starstruck, or adding a dreamy quality.",
+    usageContexts: ["Dizzy", "Stunned", "Magical", "Overwhelmed", "Starstruck"],
+    examples: [
+      { context: "Dizzy", text: "Spun around too fast 💫" },
+      { context: "Overwhelmed", text: "So much happening 💫" },
+      { context: "Dreamy", text: "Feeling magical 💫" }
+    ],
+    misunderstandings: ["Can mean dizzy or magical depending on context"],
+    relatedEmojis: ["sparkles", "star", "face-with-spiral-eyes"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["dizzy", "stars", "magical", "stunned", "dreamy"]
+  },
+  {
+    unicode: "💦",
+    name: "Sweat Droplets",
+    slug: "sweat-droplets",
+    shortMeaning: "Sweat, water splashing, or hard work.",
+    detailedMeaning: "The Sweat Droplets emoji shows drops of sweat or water. It represents hard work, effort, nervousness, or water-related activities.\n\nUsed for gym/workout content, hot weather, being nervous, or water activities.",
+    usageContexts: ["Workout", "Hard Work", "Nervous", "Hot", "Water"],
+    examples: [
+      { context: "Workout", text: "Gym session 💦" },
+      { context: "Hot", text: "It's so hot 💦" },
+      { context: "Effort", text: "Working hard 💦" }
+    ],
+    misunderstandings: ["Context-dependent meaning"],
+    relatedEmojis: ["hot-face", "person-running", "water-wave"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["sweat", "water", "workout", "hard work", "effort"]
+  },
+  {
+    unicode: "💨",
+    name: "Dashing Away",
+    slug: "dashing-away",
+    shortMeaning: "Moving fast, running away, or a puff of air.",
+    detailedMeaning: "The Dashing Away emoji shows a puff of air/dust cloud indicating fast movement. It represents running away quickly, speed, or something vanishing.\n\nUsed when leaving quickly, showing speed, or indicating something disappeared fast.",
+    usageContexts: ["Fast", "Running Away", "Speed", "Gone", "Wind"],
+    examples: [
+      { context: "Leaving", text: "Gotta go 💨" },
+      { context: "Fast", text: "Zooming by 💨" },
+      { context: "Gone", text: "He vanished 💨" }
+    ],
+    misunderstandings: ["Clear speed/movement meaning"],
+    relatedEmojis: ["person-running", "wind-face", "person-walking"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["dash", "fast", "running", "wind", "speed"]
+  },
+  {
+    unicode: "💬",
+    name: "Speech Balloon",
+    slug: "speech-balloon",
+    shortMeaning: "A speech bubble - talking or commenting.",
+    detailedMeaning: "The Speech Balloon emoji shows a comic-style speech bubble. It represents talking, commenting, having a conversation, or sharing thoughts.\n\nUsed to indicate speech, discussions, or that someone has something to say.",
+    usageContexts: ["Talking", "Comment", "Discussion", "Chat", "Speaking"],
+    examples: [
+      { context: "Talking", text: "Let's chat 💬" },
+      { context: "Comment", text: "Drop a comment 💬" },
+      { context: "Discussion", text: "We need to talk 💬" }
+    ],
+    misunderstandings: ["Clear communication meaning"],
+    relatedEmojis: ["thought-balloon", "left-speech-bubble", "speaking-head"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["speech", "talk", "chat", "comment", "conversation"]
+  },
+  {
+    unicode: "💭",
+    name: "Thought Balloon",
+    slug: "thought-balloon",
+    shortMeaning: "A thought bubble - thinking or dreaming.",
+    detailedMeaning: "The Thought Balloon emoji shows a comic-style thought bubble with circles leading to it. It represents thinking, pondering, or daydreaming.\n\nUsed to share thoughts, indicate thinking, or show someone is lost in thought.",
+    usageContexts: ["Thinking", "Dreaming", "Pondering", "Ideas", "Thoughts"],
+    examples: [
+      { context: "Thinking", text: "Just thinking 💭" },
+      { context: "Ideas", text: "I have an idea 💭" },
+      { context: "Dreaming", text: "Daydreaming about vacation 💭" }
+    ],
+    misunderstandings: ["Clear thinking meaning"],
+    relatedEmojis: ["speech-balloon", "thinking-face", "brain"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["thought", "thinking", "dream", "idea", "ponder"]
+  },
+  {
+    unicode: "💤",
+    name: "Zzz",
+    slug: "zzz",
+    shortMeaning: "Sleeping - the classic comic snoring symbol.",
+    detailedMeaning: "The Zzz emoji represents sleep with the classic comic book snoring symbol. It shows someone is sleeping, tired, or something is boring.\n\nUsed for sleeping, being tired, going to bed, or indicating boredom.",
+    usageContexts: ["Sleeping", "Tired", "Bedtime", "Boring", "Nap"],
+    examples: [
+      { context: "Sleeping", text: "Going to bed 💤" },
+      { context: "Tired", text: "So sleepy 💤" },
+      { context: "Boring", text: "This lecture 💤" }
+    ],
+    misunderstandings: ["Clear sleep meaning"],
+    relatedEmojis: ["sleeping-face", "bed", "night-with-stars"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["sleep", "zzz", "tired", "snore", "nap"]
+  },
+  {
+    unicode: "🩷",
+    name: "Pink Heart",
+    slug: "pink-heart",
+    shortMeaning: "A pink heart - gentle love and affection.",
+    detailedMeaning: "The Pink Heart emoji is a softer, more gentle expression of love compared to the red heart. It represents sweetness, romance, and tender affection.\n\nUsed for cute love, friendship, or adding a softer romantic touch.",
+    usageContexts: ["Love", "Sweet", "Gentle", "Romance", "Cute"],
+    examples: [
+      { context: "Love", text: "You're so sweet 🩷" },
+      { context: "Cute", text: "That's adorable 🩷" },
+      { context: "Affection", text: "Love you 🩷" }
+    ],
+    misunderstandings: ["Softer than red heart"],
+    relatedEmojis: ["red-heart", "purple-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["pink", "heart", "love", "sweet", "gentle"]
+  },
+  {
+    unicode: "🧡",
+    name: "Orange Heart",
+    slug: "orange-heart",
+    shortMeaning: "An orange heart - warmth and friendship.",
+    detailedMeaning: "The Orange Heart emoji represents warmth, caring, and comfort. It's often used for friendship love or when red feels too intense.\n\nUsed for supportive friendships, warm feelings, or autumn vibes.",
+    usageContexts: ["Friendship", "Warmth", "Caring", "Support", "Autumn"],
+    examples: [
+      { context: "Friend", text: "Best friend 🧡" },
+      { context: "Warm", text: "Sending warmth 🧡" },
+      { context: "Fall", text: "Autumn vibes 🧡" }
+    ],
+    misunderstandings: ["Less romantic than red heart"],
+    relatedEmojis: ["red-heart", "yellow-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["orange", "heart", "warm", "friendship", "caring"]
+  },
+  {
+    unicode: "💛",
+    name: "Yellow Heart",
+    slug: "yellow-heart",
+    shortMeaning: "A yellow heart - friendship and happiness.",
+    detailedMeaning: "The Yellow Heart emoji represents friendship, happiness, and platonic love. It's bright and cheerful without romantic implications.\n\nUsed for close friendships, showing care without romance, or sunny happy feelings.",
+    usageContexts: ["Friendship", "Happiness", "Platonic Love", "Cheerful", "Sunny"],
+    examples: [
+      { context: "Friend", text: "You're my bestie 💛" },
+      { context: "Happy", text: "This makes me happy 💛" },
+      { context: "Care", text: "Thinking of you 💛" }
+    ],
+    misunderstandings: ["Clearly friendship-focused"],
+    relatedEmojis: ["red-heart", "orange-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["yellow", "heart", "friendship", "happy", "platonic"]
+  },
+  {
+    unicode: "💚",
+    name: "Green Heart",
+    slug: "green-heart",
+    shortMeaning: "A green heart - nature, health, or jealousy.",
+    detailedMeaning: "The Green Heart emoji can represent nature, environmental causes, health, or sometimes jealousy. Its meaning varies by context.\n\nUsed for eco-friendly topics, health and wellness, Irish themes, or sometimes envy.",
+    usageContexts: ["Nature", "Health", "Environment", "Irish", "Jealousy"],
+    examples: [
+      { context: "Eco", text: "Go green 💚" },
+      { context: "Health", text: "Healthy living 💚" },
+      { context: "Irish", text: "St. Patrick's Day 💚" }
+    ],
+    misunderstandings: ["Can mean jealousy in some contexts"],
+    relatedEmojis: ["red-heart", "blue-heart", "recycling-symbol"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["green", "heart", "nature", "health", "eco"]
+  },
+  {
+    unicode: "💙",
+    name: "Blue Heart",
+    slug: "blue-heart",
+    shortMeaning: "A blue heart - trust, loyalty, and calm.",
+    detailedMeaning: "The Blue Heart emoji represents trust, harmony, peace, and loyalty. It's often used for professional or platonic contexts.\n\nUsed for showing loyalty, trust in friendships, or supporting causes that use blue branding.",
+    usageContexts: ["Trust", "Loyalty", "Peace", "Calm", "Support"],
+    examples: [
+      { context: "Loyalty", text: "Always here for you 💙" },
+      { context: "Trust", text: "I trust you 💙" },
+      { context: "Calm", text: "Peaceful vibes 💙" }
+    ],
+    misunderstandings: ["Less romantic than red heart"],
+    relatedEmojis: ["red-heart", "purple-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["blue", "heart", "trust", "loyalty", "peace"]
+  },
+  {
+    unicode: "💜",
+    name: "Purple Heart",
+    slug: "purple-heart",
+    shortMeaning: "A purple heart - compassion, love, and K-pop.",
+    detailedMeaning: "The Purple Heart emoji represents compassion, love, and understanding. It's heavily associated with BTS and K-pop fandoms.\n\nUsed by K-pop fans (especially BTS ARMY), for showing compassion, or luxury/glamour.",
+    usageContexts: ["K-pop", "BTS", "Compassion", "Love", "Glamour"],
+    examples: [
+      { context: "BTS", text: "I purple you 💜" },
+      { context: "Love", text: "Love you 💜" },
+      { context: "Support", text: "Supporting you 💜" }
+    ],
+    misunderstandings: ["Strong K-pop association"],
+    relatedEmojis: ["red-heart", "blue-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["purple", "heart", "BTS", "kpop", "compassion"]
+  },
+  {
+    unicode: "🖤",
+    name: "Black Heart",
+    slug: "black-heart",
+    shortMeaning: "A black heart - dark humor, sorrow, or edgy love.",
+    detailedMeaning: "The Black Heart emoji represents dark emotions, morbid humor, or an edgy aesthetic. It can show sorrow or unconventional love.\n\nUsed for dark humor, gothic aesthetics, expressing grief, or alternative subcultures.",
+    usageContexts: ["Dark Humor", "Gothic", "Grief", "Edgy", "Alternative"],
+    examples: [
+      { context: "Dark", text: "Dark soul 🖤" },
+      { context: "Gothic", text: "Goth vibes 🖤" },
+      { context: "Humor", text: "My sense of humor 🖤" }
+    ],
+    misunderstandings: ["Can seem negative but often ironic"],
+    relatedEmojis: ["red-heart", "skull", "bat"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["black", "heart", "dark", "gothic", "edgy"]
+  },
+  {
+    unicode: "🩶",
+    name: "Grey Heart",
+    slug: "grey-heart",
+    shortMeaning: "A grey heart - neutral feelings or loss.",
+    detailedMeaning: "The Grey Heart emoji represents neutral feelings, sadness, or something between love and indifference. It's often used for loss or fading emotions.\n\nUsed for expressing complicated feelings, memorial posts, or understated affection.",
+    usageContexts: ["Neutral", "Loss", "Fading", "Memorial", "Complicated"],
+    examples: [
+      { context: "Neutral", text: "Feeling meh 🩶" },
+      { context: "Memorial", text: "In memory 🩶" },
+      { context: "Complicated", text: "It's complicated 🩶" }
+    ],
+    misunderstandings: ["Can indicate sadness"],
+    relatedEmojis: ["white-heart", "black-heart", "broken-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["grey", "gray", "heart", "neutral", "loss"]
+  },
+  {
+    unicode: "🤍",
+    name: "White Heart",
+    slug: "white-heart",
+    shortMeaning: "A white heart - purity, peace, and support.",
+    detailedMeaning: "The White Heart emoji represents purity, peace, and support. It's often used for BLM support or expressing pure love.\n\nUsed for showing support, pure intentions, peace, or minimalist aesthetics.",
+    usageContexts: ["Purity", "Peace", "Support", "Clean", "Love"],
+    examples: [
+      { context: "Pure", text: "Pure love 🤍" },
+      { context: "Peace", text: "Sending peace 🤍" },
+      { context: "Clean", text: "Clean aesthetic 🤍" }
+    ],
+    misunderstandings: ["Clear positive meaning"],
+    relatedEmojis: ["red-heart", "grey-heart", "dove"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["white", "heart", "pure", "peace", "clean"]
+  },
+  {
+    unicode: "🤎",
+    name: "Brown Heart",
+    slug: "brown-heart",
+    shortMeaning: "A brown heart - earth tones and warmth.",
+    detailedMeaning: "The Brown Heart emoji represents earth tones, nature, chocolate, coffee, and inclusivity. It's warm and grounded.\n\nUsed for autumn vibes, chocolate/coffee content, or representing people of color.",
+    usageContexts: ["Earth", "Autumn", "Chocolate", "Coffee", "Inclusivity"],
+    examples: [
+      { context: "Coffee", text: "Coffee time 🤎" },
+      { context: "Autumn", text: "Fall vibes 🤎" },
+      { context: "Warm", text: "Cozy feels 🤎" }
+    ],
+    misunderstandings: ["Clear warm/earthy meaning"],
+    relatedEmojis: ["orange-heart", "red-heart", "fallen-leaf"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["brown", "heart", "earth", "warm", "autumn"]
+  },
+  {
+    unicode: "💔",
+    name: "Broken Heart",
+    slug: "broken-heart",
+    shortMeaning: "A broken heart - heartbreak and sadness.",
+    detailedMeaning: "The Broken Heart emoji shows a heart split in two. It represents heartbreak, sadness, grief, or disappointment in love.\n\nUsed for breakups, loss, disappointment, or anything that causes emotional pain.",
+    usageContexts: ["Heartbreak", "Breakup", "Sadness", "Loss", "Disappointment"],
+    examples: [
+      { context: "Breakup", text: "We broke up 💔" },
+      { context: "Sad", text: "This breaks my heart 💔" },
+      { context: "Loss", text: "Missing you 💔" }
+    ],
+    misunderstandings: ["Clear heartbreak meaning"],
+    relatedEmojis: ["red-heart", "crying-face", "pensive-face"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["broken", "heart", "heartbreak", "sad", "breakup"]
+  },
+  {
+    unicode: "❤️‍🔥",
+    name: "Heart on Fire",
+    slug: "heart-on-fire",
+    shortMeaning: "A heart on fire - burning passion and desire.",
+    detailedMeaning: "The Heart on Fire emoji shows a heart engulfed in flames. It represents intense passion, burning love, desire, or lust.\n\nUsed for expressing passionate love, intense desire, or strong attraction.",
+    usageContexts: ["Passion", "Desire", "Intense Love", "Attraction", "Burning"],
+    examples: [
+      { context: "Passion", text: "My heart is on fire for you ❤️‍🔥" },
+      { context: "Desire", text: "Can't stop thinking about you ❤️‍🔥" },
+      { context: "Intense", text: "Burning love ❤️‍🔥" }
+    ],
+    misunderstandings: ["Very intense emotion"],
+    relatedEmojis: ["red-heart", "fire", "smiling-face-with-heart-eyes"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["heart", "fire", "passion", "desire", "burning"]
+  },
+  {
+    unicode: "❤️‍🩹",
+    name: "Mending Heart",
+    slug: "mending-heart",
+    shortMeaning: "A heart with bandage - healing and recovery.",
+    detailedMeaning: "The Mending Heart emoji shows a heart with a bandage. It represents emotional healing, recovery from heartbreak, or getting better.\n\nUsed for showing healing process, recovery, or supporting someone through tough times.",
+    usageContexts: ["Healing", "Recovery", "Getting Better", "Support", "Care"],
+    examples: [
+      { context: "Healing", text: "Slowly healing ❤️‍🩹" },
+      { context: "Recovery", text: "Getting better every day ❤️‍🩹" },
+      { context: "Support", text: "Here for you ❤️‍🩹" }
+    ],
+    misunderstandings: ["Clear healing meaning"],
+    relatedEmojis: ["broken-heart", "red-heart", "face-with-head-bandage"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["mending", "heart", "healing", "recovery", "bandage"]
+  },
+  {
+    unicode: "💕",
+    name: "Two Hearts",
+    slug: "two-hearts",
+    shortMeaning: "Two hearts - love is in the air.",
+    detailedMeaning: "The Two Hearts emoji shows two pink hearts together. It represents mutual love, romance, and affection between two people.\n\nUsed for showing love between two people, cute romantic moments, or friendship love.",
+    usageContexts: ["Love", "Romance", "Mutual", "Couple", "Affection"],
+    examples: [
+      { context: "Couple", text: "Us together 💕" },
+      { context: "Love", text: "Love you so much 💕" },
+      { context: "Cute", text: "You two are adorable 💕" }
+    ],
+    misunderstandings: ["Clear romantic meaning"],
+    relatedEmojis: ["red-heart", "revolving-hearts", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["two", "hearts", "love", "romance", "together"]
+  },
+  {
+    unicode: "💞",
+    name: "Revolving Hearts",
+    slug: "revolving-hearts",
+    shortMeaning: "Hearts circling - being in love.",
+    detailedMeaning: "The Revolving Hearts emoji shows two hearts circling around each other. It represents falling in love, romantic feelings, or a loving relationship.\n\nUsed for showing being in love, butterflies feeling, or romantic moments.",
+    usageContexts: ["In Love", "Romance", "Falling", "Butterflies", "Couple"],
+    examples: [
+      { context: "In Love", text: "Falling for you 💞" },
+      { context: "Romance", text: "Head over heels 💞" },
+      { context: "Together", text: "Our love 💞" }
+    ],
+    misunderstandings: ["Clear romantic meaning"],
+    relatedEmojis: ["two-hearts", "sparkling-heart", "heart-with-arrow"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["revolving", "hearts", "love", "falling", "romance"]
+  },
+  {
+    unicode: "💓",
+    name: "Beating Heart",
+    slug: "beating-heart",
+    shortMeaning: "A beating heart - strong love or excitement.",
+    detailedMeaning: "The Beating Heart emoji shows a heart with vibration lines. It represents a heart beating fast from love, excitement, or nervousness.\n\nUsed for showing strong emotions, excitement, or your heart racing.",
+    usageContexts: ["Excitement", "Love", "Nervous", "Racing Heart", "Alive"],
+    examples: [
+      { context: "Excited", text: "My heart is racing 💓" },
+      { context: "Love", text: "Heart beating for you 💓" },
+      { context: "Nervous", text: "So nervous 💓" }
+    ],
+    misunderstandings: ["Clear excitement/love meaning"],
+    relatedEmojis: ["red-heart", "growing-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["beating", "heart", "love", "excited", "racing"]
+  },
+  {
+    unicode: "💗",
+    name: "Growing Heart",
+    slug: "growing-heart",
+    shortMeaning: "A growing heart - love increasing.",
+    detailedMeaning: "The Growing Heart emoji shows a heart with concentric layers getting bigger. It represents love growing, increasing affection, or overwhelming emotions.\n\nUsed for showing love growing stronger or feelings intensifying.",
+    usageContexts: ["Growing Love", "Increasing", "Overwhelming", "More", "Affection"],
+    examples: [
+      { context: "Growing", text: "My love for you grows 💗" },
+      { context: "More", text: "Loving you more each day 💗" },
+      { context: "Overwhelming", text: "So much love 💗" }
+    ],
+    misunderstandings: ["Clear growing love meaning"],
+    relatedEmojis: ["red-heart", "beating-heart", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["growing", "heart", "love", "increase", "more"]
+  },
+  {
+    unicode: "💖",
+    name: "Sparkling Heart",
+    slug: "sparkling-heart",
+    shortMeaning: "A sparkling heart - exciting love and affection.",
+    detailedMeaning: "The Sparkling Heart emoji shows a pink heart with sparkles. It represents exciting love, special affection, or magical romance.\n\nUsed for showing special love, magical moments, or extra affection.",
+    usageContexts: ["Special Love", "Magic", "Sparkle", "Affection", "Exciting"],
+    examples: [
+      { context: "Special", text: "You're special to me 💖" },
+      { context: "Love", text: "Sparkling love 💖" },
+      { context: "Magic", text: "Magical moments 💖" }
+    ],
+    misunderstandings: ["Clear positive love meaning"],
+    relatedEmojis: ["red-heart", "two-hearts", "sparkles"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["sparkling", "heart", "love", "special", "magic"]
+  },
+  {
+    unicode: "💘",
+    name: "Heart with Arrow",
+    slug: "heart-with-arrow",
+    shortMeaning: "Cupid's arrow through a heart - falling in love.",
+    detailedMeaning: "The Heart with Arrow emoji shows a heart pierced by Cupid's arrow. It represents falling in love, being struck by love, or Valentine's romance.\n\nUsed for expressing falling in love, Valentine's Day, or romantic feelings.",
+    usageContexts: ["Falling in Love", "Cupid", "Valentine's", "Romance", "Struck"],
+    examples: [
+      { context: "In Love", text: "Cupid struck me 💘" },
+      { context: "Valentine", text: "Happy Valentine's 💘" },
+      { context: "Falling", text: "Falling for you 💘" }
+    ],
+    misunderstandings: ["Clear romantic meaning"],
+    relatedEmojis: ["red-heart", "bow-and-arrow", "revolving-hearts"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["arrow", "heart", "cupid", "love", "valentine"]
+  },
+  {
+    unicode: "💝",
+    name: "Heart with Ribbon",
+    slug: "heart-with-ribbon",
+    shortMeaning: "A gift heart - love given as a present.",
+    detailedMeaning: "The Heart with Ribbon emoji shows a heart wrapped with a ribbon like a gift. It represents love as a gift, Valentine's presents, or giving your heart.\n\nUsed for Valentine's Day, love gifts, or offering your heart to someone.",
+    usageContexts: ["Gift", "Valentine's", "Present", "Giving Love", "Special"],
+    examples: [
+      { context: "Gift", text: "My heart is yours 💝" },
+      { context: "Valentine", text: "Valentine's gift 💝" },
+      { context: "Special", text: "For you 💝" }
+    ],
+    misunderstandings: ["Clear gift/love meaning"],
+    relatedEmojis: ["red-heart", "wrapped-gift", "sparkling-heart"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["ribbon", "heart", "gift", "present", "valentine"]
+  },
+  {
+    unicode: "💟",
+    name: "Heart Decoration",
+    slug: "heart-decoration",
+    shortMeaning: "A decorative heart - love and decoration.",
+    detailedMeaning: "The Heart Decoration emoji shows a heart in a square frame like a decoration. It represents love, affection, and decorative purposes.\n\nUsed for adding a love touch, decoration, or expressing gentle affection.",
+    usageContexts: ["Decoration", "Love", "Design", "Gentle", "Affection"],
+    examples: [
+      { context: "Decor", text: "Love decor 💟" },
+      { context: "Sweet", text: "Sweet thoughts 💟" },
+      { context: "Gentle", text: "Gentle love 💟" }
+    ],
+    misunderstandings: ["Clear decorative love meaning"],
+    relatedEmojis: ["red-heart", "sparkling-heart", "peace-symbol"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "heart",
+    keywords: ["decoration", "heart", "love", "design", "gentle"]
+  },
+  {
+    unicode: "☮️",
+    name: "Peace Symbol",
+    slug: "peace-symbol",
+    shortMeaning: "The peace symbol - peace and anti-war.",
+    detailedMeaning: "The Peace Symbol emoji shows the iconic peace sign. It represents peace, anti-war sentiments, harmony, and 1960s counterculture.\n\nUsed for expressing desire for peace, hippie vibes, or peaceful intentions.",
+    usageContexts: ["Peace", "Harmony", "Anti-war", "Hippie", "Calm"],
+    examples: [
+      { context: "Peace", text: "Peace and love ☮️" },
+      { context: "Hippie", text: "Hippie vibes ☮️" },
+      { context: "Calm", text: "Stay peaceful ☮️" }
+    ],
+    misunderstandings: ["Clear peace meaning"],
+    relatedEmojis: ["victory-hand", "dove", "rainbow"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["peace", "symbol", "harmony", "love", "hippie"]
+  },
+  {
+    unicode: "☯️",
+    name: "Yin Yang",
+    slug: "yin-yang",
+    shortMeaning: "Yin and Yang - balance and harmony.",
+    detailedMeaning: "The Yin Yang emoji represents balance, harmony, and the duality of nature. It's a Taoist symbol showing complementary forces.\n\nUsed for expressing balance, philosophy, or spiritual concepts.",
+    usageContexts: ["Balance", "Harmony", "Philosophy", "Spiritual", "Duality"],
+    examples: [
+      { context: "Balance", text: "Finding balance ☯️" },
+      { context: "Harmony", text: "In harmony ☯️" },
+      { context: "Life", text: "Life is about balance ☯️" }
+    ],
+    misunderstandings: ["Clear balance meaning"],
+    relatedEmojis: ["peace-symbol", "om", "lotus"],
+    categorySlug: "smileys-and-emotion",
+    subgroup: "emotion",
+    keywords: ["yin", "yang", "balance", "harmony", "duality"]
+  },
   // PEOPLE & BODY
   {
     unicode: "👋",
