@@ -1,0 +1,151 @@
+import { useParams, Link } from "react-router-dom";
+import { Layout, Breadcrumbs } from "@/components/Layout";
+import { getEmojiBySlug, getEmojisByCategory } from "@/data/emojis";
+import { getCategoryBySlug } from "@/data/categories";
+import { toast } from "@/hooks/use-toast";
+import { Helmet } from "react-helmet-async";
+import { Copy } from "lucide-react";
+import NotFound from "./NotFound";
+
+const EmojiDetail = () => {
+  const { slug } = useParams<{ slug: string }>();
+  const emoji = getEmojiBySlug(slug || "");
+
+  if (!emoji) return <NotFound />;
+
+  const category = getCategoryBySlug(emoji.categorySlug);
+  const relatedEmojis = emoji.relatedEmojis.map(s => getEmojiBySlug(s)).filter(Boolean).slice(0, 6);
+
+  const copyEmoji = () => {
+    navigator.clipboard.writeText(emoji.unicode);
+    toast({ title: "Copied!", description: `${emoji.unicode} copied to clipboard` });
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": `What does ${emoji.unicode} mean?`, "acceptedAnswer": { "@type": "Answer", "text": emoji.shortMeaning } },
+      { "@type": "Question", "name": `When should I use ${emoji.unicode}?`, "acceptedAnswer": { "@type": "Answer", "text": emoji.usageContexts.join(", ") } }
+    ]
+  };
+
+  return (
+    <Layout>
+      <Helmet>
+        <title>{emoji.unicode} {emoji.name} Emoji Meaning | Allemojipedia</title>
+        <meta name="description" content={`${emoji.unicode} ${emoji.name} meaning: ${emoji.shortMeaning} Learn how to use this emoji and copy it.`} />
+        <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
+
+      <div className="container-page section-spacing">
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: category?.name || "Category", href: `/category/${emoji.categorySlug}` },
+          { label: emoji.name }
+        ]} />
+
+        <article className="max-w-3xl">
+          <header className="flex items-start gap-6 mb-8">
+            <span className="emoji-text-4xl">{emoji.unicode}</span>
+            <div>
+              <h1 className="text-3xl font-bold mb-2">{emoji.unicode} {emoji.name} Emoji Meaning</h1>
+              <p className="text-muted-foreground">{emoji.shortMeaning}</p>
+            </div>
+          </header>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">Quick Meaning</h2>
+            <p>{emoji.shortMeaning}</p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">Detailed Meaning</h2>
+            {emoji.detailedMeaning.split('\n\n').map((p, i) => <p key={i} className="mb-3 text-muted-foreground">{p}</p>)}
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">How People Use It</h2>
+            <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+              {emoji.usageContexts.map((ctx, i) => <li key={i}>{ctx}</li>)}
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">Examples</h2>
+            <div className="space-y-3">
+              {emoji.examples.map((ex, i) => (
+                <div key={i} className="p-3 rounded-lg bg-muted/50">
+                  <h3 className="text-sm font-medium text-muted-foreground mb-1">{ex.context}</h3>
+                  <p>"{ex.text}"</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {emoji.variations && emoji.variations.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold mb-3">Variations (Skin Tone / Gender)</h2>
+              <div className="flex flex-wrap gap-3">
+                {emoji.variations.map((v, i) => (
+                  <div key={i} className="flex items-center gap-2 p-2 rounded-lg bg-muted/50">
+                    <span className="emoji text-2xl">{v.emoji}</span>
+                    <span className="text-sm text-muted-foreground">{v.description}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">Common Misunderstandings</h2>
+            <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+              {emoji.misunderstandings.map((m, i) => <li key={i}>{m}</li>)}
+            </ul>
+          </section>
+
+          {relatedEmojis.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold mb-3">Related Emojis</h2>
+              <div className="flex flex-wrap gap-3">
+                {relatedEmojis.map(e => e && (
+                  <Link key={e.slug} to={`/emoji/${e.slug}`} className="flex items-center gap-2 p-2 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                    <span className="emoji text-2xl">{e.unicode}</span>
+                    <span className="text-sm">{e.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <section className="mb-8 p-6 rounded-xl bg-primary/5 border border-primary/20">
+            <h2 className="text-xl font-semibold mb-3">Copy & Paste</h2>
+            <div className="flex items-center gap-4">
+              <span className="emoji-text-3xl">{emoji.unicode}</span>
+              <button onClick={copyEmoji} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors">
+                <Copy className="w-4 h-4" /> Copy Emoji
+              </button>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-3">FAQ</h2>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-medium">What does {emoji.unicode} mean?</h3>
+                <p className="text-muted-foreground">{emoji.shortMeaning}</p>
+              </div>
+              <div>
+                <h3 className="font-medium">When should I use {emoji.unicode}?</h3>
+                <p className="text-muted-foreground">Use this emoji when: {emoji.usageContexts.join(", ")}.</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </Layout>
+  );
+};
+
+export default EmojiDetail;

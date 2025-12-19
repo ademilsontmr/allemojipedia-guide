@@ -57,33 +57,57 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        emoji: {
+          card: "hsl(var(--emoji-card-bg))",
+          "card-hover": "hsl(var(--emoji-card-hover))",
+        },
+        search: {
+          bg: "hsl(var(--search-bg))",
+        },
+        category: {
+          smileys: "hsl(var(--category-smileys))",
+          people: "hsl(var(--category-people))",
+          animals: "hsl(var(--category-animals))",
+          food: "hsl(var(--category-food))",
+          travel: "hsl(var(--category-travel))",
+          activities: "hsl(var(--category-activities))",
+          objects: "hsl(var(--category-objects))",
+          symbols: "hsl(var(--category-symbols))",
+          flags: "hsl(var(--category-flags))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        emoji: ['Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'sans-serif'],
+      },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "fade-in": {
+          from: { opacity: "0", transform: "translateY(4px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+        "scale-in": {
+          from: { transform: "scale(0.95)", opacity: "0" },
+          to: { transform: "scale(1)", opacity: "1" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.3s ease-out",
+        "scale-in": "scale-in 0.2s ease-out",
       },
     },
   },
