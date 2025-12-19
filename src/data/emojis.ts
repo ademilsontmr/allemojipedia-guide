@@ -4199,6 +4199,1158 @@ export const emojis: Emoji[] = [
     subgroup: "sky-weather",
     keywords: ["rainbow", "pride", "hope", "LGBTQ", "colorful"]
   },
+  {
+    unicode: "🐭",
+    name: "Mouse Face",
+    slug: "mouse-face",
+    shortMeaning: "A cute mouse face.",
+    detailedMeaning: "The Mouse Face emoji shows a friendly grey mouse. It represents mice, small creatures, and sometimes shyness.\n\nUsed for mouse references, being quiet/shy, or cute small things.",
+    usageContexts: ["Mouse", "Small", "Cute", "Quiet", "Shy"],
+    examples: [
+      { context: "Small", text: "Quiet as a mouse 🐭" },
+      { context: "Cute", text: "So tiny 🐭" },
+      { context: "Pet", text: "My little mouse 🐭" }
+    ],
+    misunderstandings: ["Clear mouse meaning"],
+    relatedEmojis: ["rat", "hamster", "cheese"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["mouse", "small", "cute", "quiet", "rodent"]
+  },
+  {
+    unicode: "🐹",
+    name: "Hamster",
+    slug: "hamster",
+    shortMeaning: "A cute hamster face with chubby cheeks.",
+    detailedMeaning: "The Hamster emoji shows a hamster with adorable chubby cheeks. It represents hamsters, pet rodents, and cuteness.\n\nUsed for hamster lovers, cute pet content, or showing adorable chubby things.",
+    usageContexts: ["Hamster", "Pet", "Cute", "Chubby", "Adorable"],
+    examples: [
+      { context: "Pet", text: "My hamster 🐹" },
+      { context: "Cute", text: "Chubby cheeks 🐹" },
+      { context: "Food", text: "Stuffing my face like 🐹" }
+    ],
+    misunderstandings: ["Clear hamster meaning"],
+    relatedEmojis: ["mouse-face", "rabbit-face", "guinea-pig"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["hamster", "pet", "cute", "cheeks", "rodent"]
+  },
+  {
+    unicode: "🐰",
+    name: "Rabbit Face",
+    slug: "rabbit-face",
+    shortMeaning: "A cute bunny face with long ears.",
+    detailedMeaning: "The Rabbit Face emoji shows an adorable bunny with long ears. It represents rabbits, bunnies, Easter, and cuteness.\n\nUsed for Easter, pet bunnies, cute content, or Playboy references.",
+    usageContexts: ["Rabbit", "Easter", "Cute", "Pet", "Bunny"],
+    examples: [
+      { context: "Easter", text: "Easter bunny 🐰" },
+      { context: "Pet", text: "My bunny 🐰" },
+      { context: "Cute", text: "Bunny vibes 🐰" }
+    ],
+    misunderstandings: ["Can have playful/flirty connotations"],
+    relatedEmojis: ["rabbit", "carrot", "easter-egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rabbit", "bunny", "Easter", "cute", "ears"]
+  },
+  {
+    unicode: "🐯",
+    name: "Tiger Face",
+    slug: "tiger-face",
+    shortMeaning: "A fierce tiger face.",
+    detailedMeaning: "The Tiger Face emoji shows an orange and black striped tiger. It represents tigers, power, fierceness, and wild beauty.\n\nUsed for showing strength, fierceness, or love for big cats.",
+    usageContexts: ["Tiger", "Fierce", "Strong", "Wild", "Power"],
+    examples: [
+      { context: "Fierce", text: "Fierce like a tiger 🐯" },
+      { context: "Strong", text: "Tiger mode 🐯" },
+      { context: "Wild", text: "Wild cat 🐯" }
+    ],
+    misunderstandings: ["Clear tiger meaning"],
+    relatedEmojis: ["lion", "leopard", "cat-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["tiger", "fierce", "stripes", "wild", "power"]
+  },
+  {
+    unicode: "🐮",
+    name: "Cow Face",
+    slug: "cow-face",
+    shortMeaning: "A friendly cow face.",
+    detailedMeaning: "The Cow Face emoji shows a black and white spotted cow. It represents cows, farm life, milk, and rural areas.\n\nUsed for farm references, dairy content, or countryside vibes.",
+    usageContexts: ["Cow", "Farm", "Milk", "Rural", "Dairy"],
+    examples: [
+      { context: "Farm", text: "Farm life 🐮" },
+      { context: "Milk", text: "Got milk? 🐮" },
+      { context: "Cute", text: "Holy cow 🐮" }
+    ],
+    misunderstandings: ["Clear cow meaning"],
+    relatedEmojis: ["ox", "water-buffalo", "glass-of-milk"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["cow", "farm", "milk", "moo", "dairy"]
+  },
+  {
+    unicode: "🐷",
+    name: "Pig Face",
+    slug: "pig-face",
+    shortMeaning: "A cute pink pig face.",
+    detailedMeaning: "The Pig Face emoji shows a pink pig with a snout. It represents pigs, farm animals, cuteness, or sometimes gluttony.\n\nUsed for farm references, cute content, or eating a lot.",
+    usageContexts: ["Pig", "Farm", "Cute", "Eating", "Pink"],
+    examples: [
+      { context: "Eating", text: "Pigging out 🐷" },
+      { context: "Cute", text: "Little piggy 🐷" },
+      { context: "Farm", text: "Farm animals 🐷" }
+    ],
+    misunderstandings: ["Can be negative if calling someone a pig"],
+    relatedEmojis: ["pig-nose", "boar", "bacon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["pig", "piggy", "pink", "farm", "oink"]
+  },
+  {
+    unicode: "🐸",
+    name: "Frog",
+    slug: "frog",
+    shortMeaning: "A green frog face - often used for Kermit memes.",
+    detailedMeaning: "The Frog emoji shows a green frog face. It's heavily associated with Kermit memes like 'But that's none of my business' and Pepe.\n\nUsed for frog lovers, Kermit memes, or tea-spilling gossip.",
+    usageContexts: ["Frog", "Meme", "Kermit", "Tea", "Gossip"],
+    examples: [
+      { context: "Meme", text: "But that's none of my business 🐸☕" },
+      { context: "Cute", text: "Little froggy 🐸" },
+      { context: "Gossip", text: "Spill the tea 🐸" }
+    ],
+    misunderstandings: ["Strong meme association"],
+    relatedEmojis: ["snake", "lizard", "crocodile"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-amphibian",
+    keywords: ["frog", "Kermit", "meme", "tea", "green"]
+  },
+  {
+    unicode: "🐵",
+    name: "Monkey Face",
+    slug: "monkey-face",
+    shortMeaning: "A cute monkey face.",
+    detailedMeaning: "The Monkey Face emoji shows a brown monkey. It represents monkeys, playfulness, and mischief.\n\nUsed for playful situations, monkey business, or expressing silliness.",
+    usageContexts: ["Monkey", "Playful", "Silly", "Mischief", "Fun"],
+    examples: [
+      { context: "Playful", text: "Monkeying around 🐵" },
+      { context: "Silly", text: "Being silly 🐵" },
+      { context: "Fun", text: "Monkey business 🐵" }
+    ],
+    misunderstandings: ["Clear monkey meaning"],
+    relatedEmojis: ["see-no-evil-monkey", "hear-no-evil-monkey", "gorilla"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["monkey", "playful", "silly", "fun", "primate"]
+  },
+  {
+    unicode: "🐔",
+    name: "Chicken",
+    slug: "chicken",
+    shortMeaning: "A chicken - the farm bird.",
+    detailedMeaning: "The Chicken emoji shows a white chicken. It represents chickens, farm birds, or calling someone a coward.\n\nUsed for farm references, food discussions, or playfully calling someone chicken.",
+    usageContexts: ["Chicken", "Farm", "Coward", "Food", "Bird"],
+    examples: [
+      { context: "Food", text: "Fried chicken 🐔" },
+      { context: "Coward", text: "Don't be a chicken 🐔" },
+      { context: "Farm", text: "Farm fresh 🐔" }
+    ],
+    misunderstandings: ["Can imply cowardice"],
+    relatedEmojis: ["rooster", "hatching-chick", "egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["chicken", "hen", "farm", "bird", "coward"]
+  },
+  {
+    unicode: "🐧",
+    name: "Penguin",
+    slug: "penguin",
+    shortMeaning: "An adorable penguin.",
+    detailedMeaning: "The Penguin emoji shows a cute black and white penguin. It represents penguins, cold weather, Antarctica, and cuteness.\n\nUsed for penguin lovers, winter content, or expressing adorableness.",
+    usageContexts: ["Penguin", "Cold", "Cute", "Winter", "Antarctica"],
+    examples: [
+      { context: "Cold", text: "Freezing like a penguin 🐧" },
+      { context: "Cute", text: "Waddle waddle 🐧" },
+      { context: "Winter", text: "Winter vibes 🐧" }
+    ],
+    misunderstandings: ["Clear penguin meaning"],
+    relatedEmojis: ["snowflake", "ice", "polar-bear"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["penguin", "cold", "cute", "Antarctica", "waddle"]
+  },
+  {
+    unicode: "🐦",
+    name: "Bird",
+    slug: "bird",
+    shortMeaning: "A generic bird.",
+    detailedMeaning: "The Bird emoji shows a blue bird. It represents birds in general, freedom, Twitter/X, and nature.\n\nUsed for bird watching, nature content, or Twitter references.",
+    usageContexts: ["Bird", "Twitter", "Nature", "Freedom", "Flying"],
+    examples: [
+      { context: "Nature", text: "Bird watching 🐦" },
+      { context: "Free", text: "Free as a bird 🐦" },
+      { context: "Morning", text: "Early bird 🐦" }
+    ],
+    misunderstandings: ["Clear bird meaning"],
+    relatedEmojis: ["dove", "eagle", "parrot"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["bird", "flying", "nature", "Twitter", "free"]
+  },
+  {
+    unicode: "🦅",
+    name: "Eagle",
+    slug: "eagle",
+    shortMeaning: "A majestic eagle - symbol of freedom.",
+    detailedMeaning: "The Eagle emoji shows a brown eagle. It represents America, freedom, power, and patriotism.\n\nUsed for American patriotism, expressing freedom, or showing power.",
+    usageContexts: ["Eagle", "America", "Freedom", "Power", "Patriotic"],
+    examples: [
+      { context: "America", text: "USA! 🦅" },
+      { context: "Freedom", text: "Soaring free 🦅" },
+      { context: "Power", text: "Eagle eye 🦅" }
+    ],
+    misunderstandings: ["Strong American association"],
+    relatedEmojis: ["american-flag", "statue-of-liberty", "bird"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["eagle", "America", "freedom", "bald eagle", "patriotic"]
+  },
+  {
+    unicode: "🦆",
+    name: "Duck",
+    slug: "duck",
+    shortMeaning: "A cute duck.",
+    detailedMeaning: "The Duck emoji shows a colorful mallard duck. It represents ducks, ponds, and waterfowl.\n\nUsed for duck references, pond/lake content, or the phrase 'duck it'.",
+    usageContexts: ["Duck", "Pond", "Lake", "Water", "Bird"],
+    examples: [
+      { context: "Pond", text: "Feeding the ducks 🦆" },
+      { context: "Cute", text: "Quack quack 🦆" },
+      { context: "Water", text: "Duck pond 🦆" }
+    ],
+    misunderstandings: ["Clear duck meaning"],
+    relatedEmojis: ["swan", "goose", "bird"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["duck", "quack", "pond", "mallard", "waterfowl"]
+  },
+  {
+    unicode: "🦉",
+    name: "Owl",
+    slug: "owl",
+    shortMeaning: "A wise owl.",
+    detailedMeaning: "The Owl emoji shows a brown owl. It represents wisdom, night, knowledge, and mystery.\n\nUsed for expressing wisdom, night owl lifestyle, or Halloween.",
+    usageContexts: ["Owl", "Wise", "Night", "Knowledge", "Halloween"],
+    examples: [
+      { context: "Wise", text: "Wise as an owl 🦉" },
+      { context: "Night", text: "Night owl 🦉" },
+      { context: "Smart", text: "Owl energy 🦉" }
+    ],
+    misunderstandings: ["Clear owl meaning"],
+    relatedEmojis: ["bat", "moon", "night-with-stars"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["owl", "wise", "night", "hoot", "knowledge"]
+  },
+  {
+    unicode: "🐝",
+    name: "Honeybee",
+    slug: "honeybee",
+    shortMeaning: "A busy honeybee.",
+    detailedMeaning: "The Honeybee emoji shows a yellow and black bee. It represents bees, hard work, honey, and being busy.\n\nUsed for being busy, Beyoncé (Beyhive), or environmental topics about bees.",
+    usageContexts: ["Bee", "Busy", "Honey", "Hard Work", "Beyoncé"],
+    examples: [
+      { context: "Busy", text: "Busy bee 🐝" },
+      { context: "Work", text: "Working hard 🐝" },
+      { context: "Queen", text: "Queen Bey 🐝" }
+    ],
+    misunderstandings: ["Clear bee meaning"],
+    relatedEmojis: ["honey-pot", "sunflower", "ladybug"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["bee", "busy", "honey", "work", "buzz"]
+  },
+  {
+    unicode: "🐛",
+    name: "Bug",
+    slug: "bug",
+    shortMeaning: "A green caterpillar or bug.",
+    detailedMeaning: "The Bug emoji shows a green caterpillar or generic bug. It represents bugs, insects, or software bugs.\n\nUsed for insects, software bugs, or things that 'bug' you.",
+    usageContexts: ["Bug", "Insect", "Software", "Caterpillar", "Nature"],
+    examples: [
+      { context: "Software", text: "Found a bug 🐛" },
+      { context: "Annoying", text: "This bugs me 🐛" },
+      { context: "Nature", text: "Little bug 🐛" }
+    ],
+    misunderstandings: ["Can mean software bug"],
+    relatedEmojis: ["butterfly", "ant", "ladybug"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["bug", "caterpillar", "insect", "software", "creepy"]
+  },
+  {
+    unicode: "🐌",
+    name: "Snail",
+    slug: "snail",
+    shortMeaning: "A slow snail with its shell.",
+    detailedMeaning: "The Snail emoji shows a snail with a spiral shell. It represents slowness, patience, and taking your time.\n\nUsed for expressing being slow, taking it easy, or snail mail.",
+    usageContexts: ["Snail", "Slow", "Patience", "Mail", "Easy"],
+    examples: [
+      { context: "Slow", text: "Moving at snail pace 🐌" },
+      { context: "Mail", text: "Snail mail 🐌" },
+      { context: "Patience", text: "Slow and steady 🐌" }
+    ],
+    misunderstandings: ["Clear slow meaning"],
+    relatedEmojis: ["turtle", "sloth", "mail"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["snail", "slow", "shell", "patience", "steady"]
+  },
+  {
+    unicode: "🐢",
+    name: "Turtle",
+    slug: "turtle",
+    shortMeaning: "A green turtle.",
+    detailedMeaning: "The Turtle emoji shows a green sea turtle. It represents turtles, slowness, longevity, and ocean life.\n\nUsed for being slow, ocean content, or expressing patience and wisdom.",
+    usageContexts: ["Turtle", "Slow", "Ocean", "Patience", "Longevity"],
+    examples: [
+      { context: "Slow", text: "Turtle speed 🐢" },
+      { context: "Ocean", text: "Sea turtle 🐢" },
+      { context: "Wise", text: "Slow and wise 🐢" }
+    ],
+    misunderstandings: ["Clear turtle meaning"],
+    relatedEmojis: ["snail", "ocean", "coral"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["turtle", "slow", "shell", "ocean", "patience"]
+  },
+  {
+    unicode: "🐍",
+    name: "Snake",
+    slug: "snake",
+    shortMeaning: "A green snake - can mean sneaky or treacherous.",
+    detailedMeaning: "The Snake emoji shows a green snake. It represents snakes, sneakiness, betrayal, or the Slytherin house.\n\nUsed for calling someone a snake (untrustworthy), Slytherin references, or actual snakes.",
+    usageContexts: ["Snake", "Sneaky", "Betrayal", "Slytherin", "Reptile"],
+    examples: [
+      { context: "Betrayal", text: "She's such a snake 🐍" },
+      { context: "Slytherin", text: "Slytherin pride 🐍" },
+      { context: "Sneaky", text: "Snake behavior 🐍" }
+    ],
+    misunderstandings: ["Often negative meaning"],
+    relatedEmojis: ["lizard", "crocodile", "dragon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["snake", "sneaky", "sly", "Slytherin", "reptile"]
+  },
+  {
+    unicode: "🦎",
+    name: "Lizard",
+    slug: "lizard",
+    shortMeaning: "A green lizard.",
+    detailedMeaning: "The Lizard emoji shows a green lizard. It represents lizards, reptiles, and cold-blooded creatures.\n\nUsed for lizard lovers, reptile content, or desert vibes.",
+    usageContexts: ["Lizard", "Reptile", "Desert", "Pet", "Cold-blooded"],
+    examples: [
+      { context: "Pet", text: "My lizard 🦎" },
+      { context: "Desert", text: "Desert life 🦎" },
+      { context: "Chill", text: "Lizard vibes 🦎" }
+    ],
+    misunderstandings: ["Clear lizard meaning"],
+    relatedEmojis: ["snake", "crocodile", "gecko"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["lizard", "reptile", "gecko", "desert", "cold-blooded"]
+  },
+  {
+    unicode: "🦈",
+    name: "Shark",
+    slug: "shark",
+    shortMeaning: "A fierce shark.",
+    detailedMeaning: "The Shark emoji shows a grey shark. It represents sharks, danger, the ocean, and fierceness.\n\nUsed for Shark Week, ocean content, or business sharks.",
+    usageContexts: ["Shark", "Ocean", "Fierce", "Danger", "Business"],
+    examples: [
+      { context: "Business", text: "Shark mode 🦈" },
+      { context: "Ocean", text: "Shark Week 🦈" },
+      { context: "Fierce", text: "Shark mentality 🦈" }
+    ],
+    misunderstandings: ["Can imply aggressive business tactics"],
+    relatedEmojis: ["whale", "dolphin", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["shark", "ocean", "fierce", "danger", "teeth"]
+  },
+  {
+    unicode: "🐳",
+    name: "Spouting Whale",
+    slug: "spouting-whale",
+    shortMeaning: "A whale spouting water.",
+    detailedMeaning: "The Spouting Whale emoji shows a blue whale with water spouting. It represents whales, the ocean, and large things.\n\nUsed for ocean content, expressing something is huge, or crypto 'whales'.",
+    usageContexts: ["Whale", "Ocean", "Huge", "Crypto", "Marine"],
+    examples: [
+      { context: "Big", text: "Having a whale of a time 🐳" },
+      { context: "Crypto", text: "Crypto whale 🐳" },
+      { context: "Ocean", text: "Whale watching 🐳" }
+    ],
+    misunderstandings: ["Crypto whale meaning"],
+    relatedEmojis: ["whale", "dolphin", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["whale", "ocean", "spout", "big", "marine"]
+  },
+  {
+    unicode: "🐬",
+    name: "Dolphin",
+    slug: "dolphin",
+    shortMeaning: "A playful dolphin.",
+    detailedMeaning: "The Dolphin emoji shows a grey dolphin. It represents dolphins, intelligence, playfulness, and ocean life.\n\nUsed for beach vacations, marine life, or expressing playfulness and intelligence.",
+    usageContexts: ["Dolphin", "Ocean", "Playful", "Smart", "Beach"],
+    examples: [
+      { context: "Smart", text: "Smart as a dolphin 🐬" },
+      { context: "Beach", text: "Beach day 🐬" },
+      { context: "Playful", text: "Dolphin vibes 🐬" }
+    ],
+    misunderstandings: ["Clear dolphin meaning"],
+    relatedEmojis: ["whale", "shark", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["dolphin", "ocean", "smart", "playful", "marine"]
+  },
+  {
+    unicode: "🐙",
+    name: "Octopus",
+    slug: "octopus",
+    shortMeaning: "An orange octopus with tentacles.",
+    detailedMeaning: "The Octopus emoji shows an orange octopus. It represents octopi, the ocean, multitasking, and cleverness.\n\nUsed for ocean content, multitasking, or expressing flexibility.",
+    usageContexts: ["Octopus", "Ocean", "Multitask", "Clever", "Flexible"],
+    examples: [
+      { context: "Multitask", text: "Multitasking like an octopus 🐙" },
+      { context: "Ocean", text: "Under the sea 🐙" },
+      { context: "Hug", text: "Octopus hug 🐙" }
+    ],
+    misunderstandings: ["Clear octopus meaning"],
+    relatedEmojis: ["squid", "jellyfish", "crab"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["octopus", "tentacles", "ocean", "smart", "marine"]
+  },
+  {
+    unicode: "🦀",
+    name: "Crab",
+    slug: "crab",
+    shortMeaning: "A red crab - also Cancer zodiac.",
+    detailedMeaning: "The Crab emoji shows a red crab. It represents crabs, seafood, beaches, and the Cancer zodiac sign.\n\nUsed for beach content, seafood discussions, or Cancer zodiac references.",
+    usageContexts: ["Crab", "Beach", "Cancer", "Seafood", "Ocean"],
+    examples: [
+      { context: "Beach", text: "Beach vibes 🦀" },
+      { context: "Zodiac", text: "Cancer season 🦀" },
+      { context: "Seafood", text: "Crab dinner 🦀" }
+    ],
+    misunderstandings: ["Clear crab meaning"],
+    relatedEmojis: ["lobster", "shrimp", "beach"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["crab", "beach", "Cancer", "seafood", "ocean"]
+  },
+  {
+    unicode: "🐠",
+    name: "Tropical Fish",
+    slug: "tropical-fish",
+    shortMeaning: "A colorful tropical fish.",
+    detailedMeaning: "The Tropical Fish emoji shows a colorful striped fish. It represents aquariums, tropical seas, and colorful fish.\n\nUsed for aquarium content, snorkeling/diving, or tropical vacations.",
+    usageContexts: ["Fish", "Tropical", "Aquarium", "Ocean", "Colorful"],
+    examples: [
+      { context: "Aquarium", text: "At the aquarium 🐠" },
+      { context: "Tropical", text: "Tropical vibes 🐠" },
+      { context: "Diving", text: "Snorkeling 🐠" }
+    ],
+    misunderstandings: ["Clear fish meaning"],
+    relatedEmojis: ["fish", "blowfish", "coral"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["fish", "tropical", "aquarium", "colorful", "ocean"]
+  },
+  {
+    unicode: "🐊",
+    name: "Crocodile",
+    slug: "crocodile",
+    shortMeaning: "A green crocodile.",
+    detailedMeaning: "The Crocodile emoji shows a green crocodile. It represents crocodiles, alligators, danger, and swamps.\n\nUsed for crocodile/alligator references, Florida content, or expressing danger.",
+    usageContexts: ["Crocodile", "Alligator", "Danger", "Swamp", "Florida"],
+    examples: [
+      { context: "Florida", text: "Florida vibes 🐊" },
+      { context: "Danger", text: "Watch out 🐊" },
+      { context: "Wild", text: "Crocodile hunter 🐊" }
+    ],
+    misunderstandings: ["Can mean alligator too"],
+    relatedEmojis: ["snake", "lizard", "frog"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["crocodile", "alligator", "swamp", "danger", "reptile"]
+  },
+  {
+    unicode: "🦓",
+    name: "Zebra",
+    slug: "zebra",
+    shortMeaning: "A black and white zebra.",
+    detailedMeaning: "The Zebra emoji shows a striped zebra. It represents zebras, Africa, uniqueness, and safari.\n\nUsed for safari content, African wildlife, or expressing uniqueness.",
+    usageContexts: ["Zebra", "Africa", "Safari", "Stripes", "Unique"],
+    examples: [
+      { context: "Safari", text: "On safari 🦓" },
+      { context: "Unique", text: "Earn your stripes 🦓" },
+      { context: "Africa", text: "African wildlife 🦓" }
+    ],
+    misunderstandings: ["Clear zebra meaning"],
+    relatedEmojis: ["giraffe", "elephant", "lion"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["zebra", "stripes", "Africa", "safari", "unique"]
+  },
+  {
+    unicode: "🦒",
+    name: "Giraffe",
+    slug: "giraffe",
+    shortMeaning: "A tall giraffe with spots.",
+    detailedMeaning: "The Giraffe emoji shows a tall spotted giraffe. It represents giraffes, Africa, height, and safari.\n\nUsed for safari content, being tall, or African wildlife.",
+    usageContexts: ["Giraffe", "Tall", "Africa", "Safari", "Spots"],
+    examples: [
+      { context: "Tall", text: "Feeling tall 🦒" },
+      { context: "Safari", text: "Safari life 🦒" },
+      { context: "Zoo", text: "At the zoo 🦒" }
+    ],
+    misunderstandings: ["Clear giraffe meaning"],
+    relatedEmojis: ["zebra", "elephant", "lion"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["giraffe", "tall", "spots", "Africa", "safari"]
+  },
+  {
+    unicode: "🐘",
+    name: "Elephant",
+    slug: "elephant",
+    shortMeaning: "A grey elephant with tusks.",
+    detailedMeaning: "The Elephant emoji shows a grey elephant. It represents elephants, memory, wisdom, and size. Also the Republican party symbol.\n\nUsed for elephants, good memory, or political references.",
+    usageContexts: ["Elephant", "Memory", "Big", "Wise", "Republican"],
+    examples: [
+      { context: "Memory", text: "Elephant never forgets 🐘" },
+      { context: "Big", text: "Elephant in the room 🐘" },
+      { context: "Safari", text: "Safari day 🐘" }
+    ],
+    misunderstandings: ["Political connotation in US"],
+    relatedEmojis: ["mammoth", "rhinoceros", "hippopotamus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["elephant", "big", "memory", "wise", "tusks"]
+  },
+  {
+    unicode: "🦛",
+    name: "Hippopotamus",
+    slug: "hippopotamus",
+    shortMeaning: "A grey hippo.",
+    detailedMeaning: "The Hippopotamus emoji shows a grey hippo. It represents hippos, Africa, rivers, and surprisingly dangerous animals.\n\nUsed for hippo content, African wildlife, or things that are unexpectedly dangerous.",
+    usageContexts: ["Hippo", "Africa", "River", "Dangerous", "Wildlife"],
+    examples: [
+      { context: "Cute", text: "Hippo vibes 🦛" },
+      { context: "Hungry", text: "Hungry hungry hippo 🦛" },
+      { context: "Africa", text: "African wildlife 🦛" }
+    ],
+    misunderstandings: ["Clear hippo meaning"],
+    relatedEmojis: ["elephant", "rhinoceros", "crocodile"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["hippo", "hippopotamus", "Africa", "river", "big"]
+  },
+  {
+    unicode: "🦏",
+    name: "Rhinoceros",
+    slug: "rhinoceros",
+    shortMeaning: "A grey rhino with a horn.",
+    detailedMeaning: "The Rhinoceros emoji shows a grey rhino. It represents rhinos, endangered species, strength, and conservation.\n\nUsed for conservation topics, safari content, or expressing toughness.",
+    usageContexts: ["Rhino", "Conservation", "Strong", "Africa", "Safari"],
+    examples: [
+      { context: "Strong", text: "Tough as a rhino 🦏" },
+      { context: "Conservation", text: "Save the rhinos 🦏" },
+      { context: "Safari", text: "Big five 🦏" }
+    ],
+    misunderstandings: ["Clear rhino meaning"],
+    relatedEmojis: ["elephant", "hippopotamus", "buffalo"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rhino", "rhinoceros", "horn", "Africa", "endangered"]
+  },
+  {
+    unicode: "🐪",
+    name: "Camel",
+    slug: "camel",
+    shortMeaning: "A one-humped camel (dromedary).",
+    detailedMeaning: "The Camel emoji shows a dromedary camel with one hump. It represents deserts, Middle East, Wednesday (hump day), and endurance.\n\nUsed for desert content, hump day references, or Middle Eastern themes.",
+    usageContexts: ["Camel", "Desert", "Hump Day", "Middle East", "Endurance"],
+    examples: [
+      { context: "Wednesday", text: "Hump day 🐪" },
+      { context: "Desert", text: "Desert vibes 🐪" },
+      { context: "Travel", text: "Camel ride 🐪" }
+    ],
+    misunderstandings: ["Hump day association"],
+    relatedEmojis: ["two-hump-camel", "desert", "cactus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["camel", "desert", "hump", "Wednesday", "dromedary"]
+  },
+  {
+    unicode: "🦙",
+    name: "Llama",
+    slug: "llama",
+    shortMeaning: "A fluffy llama.",
+    detailedMeaning: "The Llama emoji shows a white llama. It represents llamas, alpacas, South America, and drama (drama llama).\n\nUsed for llama lovers, South American content, or 'no drama llama' memes.",
+    usageContexts: ["Llama", "South America", "Drama", "Fluffy", "Peru"],
+    examples: [
+      { context: "Drama", text: "No drama llama 🦙" },
+      { context: "Peru", text: "Machu Picchu vibes 🦙" },
+      { context: "Cute", text: "Fluffy llama 🦙" }
+    ],
+    misunderstandings: ["Drama llama meme"],
+    relatedEmojis: ["alpaca", "camel", "goat"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["llama", "alpaca", "Peru", "drama", "fluffy"]
+  },
+  {
+    unicode: "🦘",
+    name: "Kangaroo",
+    slug: "kangaroo",
+    shortMeaning: "An Australian kangaroo.",
+    detailedMeaning: "The Kangaroo emoji shows a brown kangaroo. It represents Australia, jumping, and outback life.\n\nUsed for Australian content, jumping/hopping, or boxing references.",
+    usageContexts: ["Kangaroo", "Australia", "Jumping", "Outback", "Boxing"],
+    examples: [
+      { context: "Australia", text: "G'day mate 🦘" },
+      { context: "Jump", text: "Hopping around 🦘" },
+      { context: "Outback", text: "Outback life 🦘" }
+    ],
+    misunderstandings: ["Clear kangaroo meaning"],
+    relatedEmojis: ["koala", "australia", "boomerang"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["kangaroo", "Australia", "hop", "jump", "outback"]
+  },
+  {
+    unicode: "🦔",
+    name: "Hedgehog",
+    slug: "hedgehog",
+    shortMeaning: "A cute spiky hedgehog.",
+    detailedMeaning: "The Hedgehog emoji shows a small brown hedgehog. It represents hedgehogs, cuteness, and Sonic the Hedgehog.\n\nUsed for hedgehog lovers, Sonic references, or expressing cuteness with spikes.",
+    usageContexts: ["Hedgehog", "Cute", "Sonic", "Spiky", "Pet"],
+    examples: [
+      { context: "Cute", text: "So cute 🦔" },
+      { context: "Sonic", text: "Gotta go fast 🦔" },
+      { context: "Spiky", text: "Little spiky friend 🦔" }
+    ],
+    misunderstandings: ["Clear hedgehog meaning"],
+    relatedEmojis: ["hamster", "squirrel", "mouse"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["hedgehog", "spiky", "cute", "Sonic", "pet"]
+  },
+  {
+    unicode: "🦇",
+    name: "Bat",
+    slug: "bat",
+    shortMeaning: "A flying bat.",
+    detailedMeaning: "The Bat emoji shows a black bat. It represents bats, Halloween, vampires, and night creatures.\n\nUsed for Halloween, spooky content, Batman references, or night owl vibes.",
+    usageContexts: ["Bat", "Halloween", "Night", "Vampire", "Batman"],
+    examples: [
+      { context: "Halloween", text: "Spooky season 🦇" },
+      { context: "Night", text: "Night creature 🦇" },
+      { context: "Batman", text: "I'm Batman 🦇" }
+    ],
+    misunderstandings: ["Clear bat meaning"],
+    relatedEmojis: ["vampire", "ghost", "jack-o-lantern"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["bat", "Halloween", "night", "vampire", "spooky"]
+  },
+  {
+    unicode: "🦃",
+    name: "Turkey",
+    slug: "turkey",
+    shortMeaning: "A Thanksgiving turkey.",
+    detailedMeaning: "The Turkey emoji shows a brown turkey. It represents Thanksgiving, autumn, and American holidays.\n\nUsed for Thanksgiving content, autumn vibes, or calling something a 'turkey'.",
+    usageContexts: ["Turkey", "Thanksgiving", "Autumn", "Holiday", "Food"],
+    examples: [
+      { context: "Thanksgiving", text: "Happy Thanksgiving 🦃" },
+      { context: "Fall", text: "Autumn vibes 🦃" },
+      { context: "Feast", text: "Turkey time 🦃" }
+    ],
+    misunderstandings: ["Clear Thanksgiving meaning"],
+    relatedEmojis: ["fallen-leaf", "corn", "pumpkin"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["turkey", "Thanksgiving", "autumn", "bird", "feast"]
+  },
+  {
+    unicode: "🦚",
+    name: "Peacock",
+    slug: "peacock",
+    shortMeaning: "A beautiful peacock with colorful feathers.",
+    detailedMeaning: "The Peacock emoji shows a colorful peacock. It represents beauty, pride, showing off, and elegance.\n\nUsed for showing off, expressing beauty, or peacock/NBC references.",
+    usageContexts: ["Peacock", "Beautiful", "Pride", "Show Off", "Colorful"],
+    examples: [
+      { context: "Beauty", text: "Feeling fabulous 🦚" },
+      { context: "Show Off", text: "Peacocking 🦚" },
+      { context: "Pride", text: "Proud moment 🦚" }
+    ],
+    misunderstandings: ["Can imply showing off"],
+    relatedEmojis: ["parrot", "flamingo", "rainbow"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["peacock", "beautiful", "feathers", "colorful", "pride"]
+  },
+  {
+    unicode: "🦜",
+    name: "Parrot",
+    slug: "parrot",
+    shortMeaning: "A colorful parrot.",
+    detailedMeaning: "The Parrot emoji shows a colorful parrot. It represents parrots, tropical birds, pirates, and mimicking.\n\nUsed for tropical vibes, pirates, or repeating/mimicking someone.",
+    usageContexts: ["Parrot", "Tropical", "Pirate", "Mimic", "Colorful"],
+    examples: [
+      { context: "Tropical", text: "Tropical vibes 🦜" },
+      { context: "Pirate", text: "Ahoy matey 🦜" },
+      { context: "Repeat", text: "Stop parroting me 🦜" }
+    ],
+    misunderstandings: ["Clear parrot meaning"],
+    relatedEmojis: ["peacock", "flamingo", "palm-tree"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["parrot", "tropical", "colorful", "pirate", "bird"]
+  },
+  {
+    unicode: "🦩",
+    name: "Flamingo",
+    slug: "flamingo",
+    shortMeaning: "A pink flamingo.",
+    detailedMeaning: "The Flamingo emoji shows a pink flamingo. It represents flamingos, Florida, tropical vibes, and standing out.\n\nUsed for tropical content, Florida, or being unique (standing out).",
+    usageContexts: ["Flamingo", "Pink", "Florida", "Tropical", "Unique"],
+    examples: [
+      { context: "Florida", text: "Florida vibes 🦩" },
+      { context: "Pink", text: "Pretty in pink 🦩" },
+      { context: "Stand Out", text: "Be a flamingo 🦩" }
+    ],
+    misunderstandings: ["Clear flamingo meaning"],
+    relatedEmojis: ["parrot", "peacock", "palm-tree"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bird",
+    keywords: ["flamingo", "pink", "Florida", "tropical", "unique"]
+  },
+  {
+    unicode: "🐺",
+    name: "Wolf",
+    slug: "wolf",
+    shortMeaning: "A grey wolf face.",
+    detailedMeaning: "The Wolf emoji shows a grey wolf. It represents wolves, pack mentality, lone wolf, and wild nature.\n\nUsed for wolf lovers, expressing independence (lone wolf), or pack/team references.",
+    usageContexts: ["Wolf", "Pack", "Wild", "Lone Wolf", "Night"],
+    examples: [
+      { context: "Lone", text: "Lone wolf 🐺" },
+      { context: "Pack", text: "Wolf pack 🐺" },
+      { context: "Wild", text: "Wild spirit 🐺" }
+    ],
+    misunderstandings: ["Clear wolf meaning"],
+    relatedEmojis: ["fox", "dog-face", "moon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["wolf", "pack", "wild", "lone", "howl"]
+  },
+  {
+    unicode: "🐴",
+    name: "Horse Face",
+    slug: "horse-face",
+    shortMeaning: "A brown horse face.",
+    detailedMeaning: "The Horse Face emoji shows a brown horse. It represents horses, racing, riding, and strength.\n\nUsed for horse lovers, racing, or expressing freedom and power.",
+    usageContexts: ["Horse", "Racing", "Riding", "Strong", "Free"],
+    examples: [
+      { context: "Racing", text: "Race day 🐴" },
+      { context: "Riding", text: "Horseback riding 🐴" },
+      { context: "Free", text: "Wild and free 🐴" }
+    ],
+    misunderstandings: ["Clear horse meaning"],
+    relatedEmojis: ["unicorn", "racehorse", "carousel-horse"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["horse", "racing", "riding", "equine", "free"]
+  },
+  {
+    unicode: "🦄",
+    name: "Unicorn",
+    slug: "unicorn",
+    shortMeaning: "A magical unicorn - rare and special.",
+    detailedMeaning: "The Unicorn emoji shows a colorful unicorn. It represents magic, uniqueness, fantasy, and rare things.\n\nUsed for magical content, expressing uniqueness, or describing something rare (unicorn startup).",
+    usageContexts: ["Unicorn", "Magic", "Rare", "Unique", "Fantasy"],
+    examples: [
+      { context: "Magic", text: "Believe in magic 🦄" },
+      { context: "Rare", text: "You're a unicorn 🦄" },
+      { context: "Special", text: "Unicorn vibes 🦄" }
+    ],
+    misunderstandings: ["Startup term for billion-dollar companies"],
+    relatedEmojis: ["rainbow", "sparkles", "horse-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["unicorn", "magic", "rare", "rainbow", "fantasy"]
+  },
+  {
+    unicode: "🐿️",
+    name: "Chipmunk",
+    slug: "chipmunk",
+    shortMeaning: "A cute chipmunk with chubby cheeks.",
+    detailedMeaning: "The Chipmunk emoji shows a small brown chipmunk. It represents chipmunks, squirrels, autumn, and gathering food.\n\nUsed for autumn content, cute animals, or storing things away.",
+    usageContexts: ["Chipmunk", "Autumn", "Cute", "Nuts", "Storing"],
+    examples: [
+      { context: "Autumn", text: "Fall vibes 🐿️" },
+      { context: "Cute", text: "So cute 🐿️" },
+      { context: "Saving", text: "Storing for later 🐿️" }
+    ],
+    misunderstandings: ["Clear chipmunk meaning"],
+    relatedEmojis: ["squirrel", "acorn", "fallen-leaf"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["chipmunk", "squirrel", "autumn", "cute", "nuts"]
+  },
+  {
+    unicode: "🦨",
+    name: "Skunk",
+    slug: "skunk",
+    shortMeaning: "A black and white skunk.",
+    detailedMeaning: "The Skunk emoji shows a black and white skunk. It represents skunks, bad smells, and being avoided.\n\nUsed for something stinky, someone being avoided, or actual skunk references.",
+    usageContexts: ["Skunk", "Stinky", "Avoided", "Black and White", "Spray"],
+    examples: [
+      { context: "Stinky", text: "Something smells 🦨" },
+      { context: "Avoided", text: "Being avoided like a skunk 🦨" },
+      { context: "Cute", text: "Even skunks are cute 🦨" }
+    ],
+    misunderstandings: ["Often implies bad smell"],
+    relatedEmojis: ["nose", "raccoon", "badger"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["skunk", "stinky", "spray", "black and white", "smell"]
+  },
+  {
+    unicode: "🦝",
+    name: "Raccoon",
+    slug: "raccoon",
+    shortMeaning: "A masked raccoon.",
+    detailedMeaning: "The Raccoon emoji shows a grey raccoon with its distinctive mask. It represents raccoons, trash pandas, sneakiness, and nocturnal creatures.\n\nUsed for 'trash panda' memes, sneaky behavior, or night creature references.",
+    usageContexts: ["Raccoon", "Trash Panda", "Sneaky", "Night", "Masked"],
+    examples: [
+      { context: "Trash Panda", text: "Trash panda vibes 🦝" },
+      { context: "Sneaky", text: "Being sneaky 🦝" },
+      { context: "Night", text: "Night creature 🦝" }
+    ],
+    misunderstandings: ["Trash panda meme"],
+    relatedEmojis: ["fox", "skunk", "badger"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["raccoon", "trash panda", "sneaky", "masked", "night"]
+  },
+  {
+    unicode: "🦥",
+    name: "Sloth",
+    slug: "sloth",
+    shortMeaning: "A slow, lazy sloth.",
+    detailedMeaning: "The Sloth emoji shows a grey sloth hanging from a branch. It represents slowness, laziness, taking it easy, and relaxation.\n\nUsed for lazy days, taking things slow, or expressing tiredness.",
+    usageContexts: ["Sloth", "Lazy", "Slow", "Relaxed", "Tired"],
+    examples: [
+      { context: "Lazy", text: "Sloth mode 🦥" },
+      { context: "Slow", text: "Taking it slow 🦥" },
+      { context: "Relaxed", text: "Sunday vibes 🦥" }
+    ],
+    misunderstandings: ["Clear lazy/slow meaning"],
+    relatedEmojis: ["koala", "turtle", "snail"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["sloth", "lazy", "slow", "relaxed", "tired"]
+  },
+  {
+    unicode: "🐀",
+    name: "Rat",
+    slug: "rat",
+    shortMeaning: "A grey rat.",
+    detailedMeaning: "The Rat emoji shows a grey rat. It represents rats, the Chinese zodiac, or calling someone a snitch/traitor.\n\nUsed for Chinese New Year, pet rats, or calling someone out as a rat.",
+    usageContexts: ["Rat", "Snitch", "Chinese Zodiac", "Traitor", "Pet"],
+    examples: [
+      { context: "Snitch", text: "You're such a rat 🐀" },
+      { context: "Zodiac", text: "Year of the Rat 🐀" },
+      { context: "Pet", text: "My pet rat 🐀" }
+    ],
+    misunderstandings: ["Can imply snitch/traitor"],
+    relatedEmojis: ["mouse-face", "hamster", "cheese"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rat", "snitch", "rodent", "zodiac", "traitor"]
+  },
+  {
+    unicode: "🐇",
+    name: "Rabbit",
+    slug: "rabbit",
+    shortMeaning: "A full-body white rabbit.",
+    detailedMeaning: "The Rabbit emoji shows a white rabbit. It represents rabbits, Easter, speed, and multiplication.\n\nUsed for Easter, fast reproduction jokes, or bunny references.",
+    usageContexts: ["Rabbit", "Easter", "Fast", "Bunny", "White"],
+    examples: [
+      { context: "Easter", text: "Easter time 🐇" },
+      { context: "Fast", text: "Quick like a bunny 🐇" },
+      { context: "Lucky", text: "Lucky rabbit 🐇" }
+    ],
+    misunderstandings: ["Clear rabbit meaning"],
+    relatedEmojis: ["rabbit-face", "carrot", "easter-egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["rabbit", "bunny", "Easter", "fast", "white"]
+  },
+  {
+    unicode: "🐕",
+    name: "Dog",
+    slug: "dog",
+    shortMeaning: "A full-body dog.",
+    detailedMeaning: "The Dog emoji shows a full-body brown dog. It represents dogs, pets, loyalty, and companionship.\n\nUsed for dog lovers, pet content, or expressing loyalty.",
+    usageContexts: ["Dog", "Pet", "Loyal", "Friend", "Companion"],
+    examples: [
+      { context: "Pet", text: "Walking the dog 🐕" },
+      { context: "Loyal", text: "Best friend 🐕" },
+      { context: "Love", text: "Dog lover 🐕" }
+    ],
+    misunderstandings: ["Clear dog meaning"],
+    relatedEmojis: ["dog-face", "paw-prints", "bone"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["dog", "pet", "loyal", "friend", "companion"]
+  },
+  {
+    unicode: "🐈",
+    name: "Cat",
+    slug: "cat",
+    shortMeaning: "A full-body orange cat.",
+    detailedMeaning: "The Cat emoji shows a full-body orange cat. It represents cats, pets, and feline companions.\n\nUsed for cat lovers, pet content, or expressing independence.",
+    usageContexts: ["Cat", "Pet", "Feline", "Independent", "Orange"],
+    examples: [
+      { context: "Pet", text: "My cat 🐈" },
+      { context: "Cute", text: "Cat life 🐈" },
+      { context: "Love", text: "Cat lover 🐈" }
+    ],
+    misunderstandings: ["Clear cat meaning"],
+    relatedEmojis: ["cat-face", "black-cat", "paw-prints"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["cat", "pet", "feline", "orange", "tabby"]
+  },
+  {
+    unicode: "🐈‍⬛",
+    name: "Black Cat",
+    slug: "black-cat",
+    shortMeaning: "A black cat - mysterious and Halloween-y.",
+    detailedMeaning: "The Black Cat emoji shows a full-body black cat. It represents black cats, Halloween, superstition, and mystery.\n\nUsed for Halloween, spooky content, or black cat appreciation.",
+    usageContexts: ["Black Cat", "Halloween", "Spooky", "Mysterious", "Superstition"],
+    examples: [
+      { context: "Halloween", text: "Spooky season 🐈‍⬛" },
+      { context: "Pet", text: "My black cat 🐈‍⬛" },
+      { context: "Lucky", text: "Black cats are good luck 🐈‍⬛" }
+    ],
+    misunderstandings: ["Superstition about bad luck"],
+    relatedEmojis: ["cat", "bat", "jack-o-lantern"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["black cat", "Halloween", "spooky", "mysterious", "superstition"]
+  },
+  {
+    unicode: "🦮",
+    name: "Guide Dog",
+    slug: "guide-dog",
+    shortMeaning: "A guide dog with harness.",
+    detailedMeaning: "The Guide Dog emoji shows a golden retriever in a guide dog harness. It represents service dogs, accessibility, and assistance animals.\n\nUsed for service dog content, accessibility discussions, or showing appreciation for working dogs.",
+    usageContexts: ["Guide Dog", "Service", "Accessibility", "Helper", "Blind"],
+    examples: [
+      { context: "Service", text: "Service dog 🦮" },
+      { context: "Helper", text: "Best helper 🦮" },
+      { context: "Appreciation", text: "Thank you guide dogs 🦮" }
+    ],
+    misunderstandings: ["Clear service dog meaning"],
+    relatedEmojis: ["dog", "dog-face", "wheelchair-symbol"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["guide dog", "service", "helper", "blind", "accessibility"]
+  },
+  {
+    unicode: "🐕‍🦺",
+    name: "Service Dog",
+    slug: "service-dog",
+    shortMeaning: "A service dog with vest.",
+    detailedMeaning: "The Service Dog emoji shows a dog wearing a service vest. It represents service dogs, working animals, and assistance dogs.\n\nUsed for service dog content, accessibility, or appreciation for working dogs.",
+    usageContexts: ["Service Dog", "Working", "Assistance", "Helper", "Vest"],
+    examples: [
+      { context: "Service", text: "Working dog 🐕‍🦺" },
+      { context: "Helper", text: "Service animal 🐕‍🦺" },
+      { context: "Appreciation", text: "Amazing service dogs 🐕‍🦺" }
+    ],
+    misunderstandings: ["Clear service dog meaning"],
+    relatedEmojis: ["guide-dog", "dog", "dog-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["service dog", "working", "helper", "vest", "assistance"]
+  },
+  {
+    unicode: "🐩",
+    name: "Poodle",
+    slug: "poodle",
+    shortMeaning: "A fancy groomed poodle.",
+    detailedMeaning: "The Poodle emoji shows a groomed white poodle. It represents poodles, fancy dogs, grooming, and elegance.\n\nUsed for poodle lovers, fancy/groomed content, or expressing elegance.",
+    usageContexts: ["Poodle", "Fancy", "Groomed", "Elegant", "French"],
+    examples: [
+      { context: "Fancy", text: "Feeling fancy 🐩" },
+      { context: "Groomed", text: "Freshly groomed 🐩" },
+      { context: "Pet", text: "My poodle 🐩" }
+    ],
+    misunderstandings: ["Clear poodle meaning"],
+    relatedEmojis: ["dog", "dog-face", "bow"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["poodle", "fancy", "groomed", "elegant", "french"]
+  },
+  {
+    unicode: "🦌",
+    name: "Deer",
+    slug: "deer",
+    shortMeaning: "A brown deer with antlers.",
+    detailedMeaning: "The Deer emoji shows a deer with antlers. It represents deer, nature, forest, and Christmas (reindeer).\n\nUsed for nature content, hunting season, or Christmas references.",
+    usageContexts: ["Deer", "Forest", "Nature", "Hunting", "Christmas"],
+    examples: [
+      { context: "Nature", text: "Saw a deer 🦌" },
+      { context: "Forest", text: "Forest life 🦌" },
+      { context: "Christmas", text: "Reindeer vibes 🦌" }
+    ],
+    misunderstandings: ["Clear deer meaning"],
+    relatedEmojis: ["christmas-tree", "forest", "goat"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["deer", "forest", "nature", "antlers", "reindeer"]
+  },
+  {
+    unicode: "🦬",
+    name: "Bison",
+    slug: "bison",
+    shortMeaning: "A large brown bison.",
+    detailedMeaning: "The Bison emoji shows a large brown bison. It represents bison, buffalo, American wildlife, and strength.\n\nUsed for American prairie content, national parks, or expressing strength.",
+    usageContexts: ["Bison", "Buffalo", "American", "Strong", "Prairie"],
+    examples: [
+      { context: "American", text: "American wildlife 🦬" },
+      { context: "Strong", text: "Strong like a bison 🦬" },
+      { context: "Nature", text: "Yellowstone vibes 🦬" }
+    ],
+    misunderstandings: ["Sometimes confused with buffalo"],
+    relatedEmojis: ["cow-face", "ox", "mammoth"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["bison", "buffalo", "American", "prairie", "strong"]
+  },
+  {
+    unicode: "🐐",
+    name: "Goat",
+    slug: "goat",
+    shortMeaning: "A goat - also means Greatest Of All Time.",
+    detailedMeaning: "The Goat emoji shows a white goat. It represents goats, farms, and most importantly, GOAT (Greatest Of All Time).\n\nUsed to call someone the greatest, farm content, or Capricorn zodiac.",
+    usageContexts: ["GOAT", "Greatest", "Farm", "Capricorn", "Legend"],
+    examples: [
+      { context: "Greatest", text: "You're the GOAT 🐐" },
+      { context: "Legend", text: "Absolute legend 🐐" },
+      { context: "Best", text: "The greatest 🐐" }
+    ],
+    misunderstandings: ["GOAT meaning is very popular"],
+    relatedEmojis: ["trophy", "crown", "star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["goat", "GOAT", "greatest", "legend", "best"]
+  },
+  {
+    unicode: "🐑",
+    name: "Ewe",
+    slug: "ewe",
+    shortMeaning: "A white sheep.",
+    detailedMeaning: "The Ewe emoji shows a fluffy white sheep. It represents sheep, wool, farms, and counting sheep (sleep).\n\nUsed for farm content, wool references, or counting sheep to sleep.",
+    usageContexts: ["Sheep", "Wool", "Farm", "Sleep", "Fluffy"],
+    examples: [
+      { context: "Sleep", text: "Counting sheep 🐑" },
+      { context: "Farm", text: "Farm life 🐑" },
+      { context: "Wool", text: "Fluffy wool 🐑" }
+    ],
+    misunderstandings: ["Clear sheep meaning"],
+    relatedEmojis: ["ram", "goat", "yarn"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["sheep", "wool", "fluffy", "farm", "sleep"]
+  },
+  {
+    unicode: "🦧",
+    name: "Orangutan",
+    slug: "orangutan",
+    shortMeaning: "An orange orangutan.",
+    detailedMeaning: "The Orangutan emoji shows an orange orangutan. It represents orangutans, great apes, and rainforest conservation.\n\nUsed for primate content, rainforest discussions, or conservation topics.",
+    usageContexts: ["Orangutan", "Ape", "Rainforest", "Conservation", "Orange"],
+    examples: [
+      { context: "Conservation", text: "Save the orangutans 🦧" },
+      { context: "Smart", text: "Smart like an orangutan 🦧" },
+      { context: "Rainforest", text: "Rainforest life 🦧" }
+    ],
+    misunderstandings: ["Clear orangutan meaning"],
+    relatedEmojis: ["gorilla", "monkey-face", "palm-tree"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["orangutan", "ape", "rainforest", "conservation", "orange"]
+  },
+  {
+    unicode: "🦍",
+    name: "Gorilla",
+    slug: "gorilla",
+    shortMeaning: "A strong gorilla.",
+    detailedMeaning: "The Gorilla emoji shows a grey gorilla. It represents gorillas, strength, great apes, and Harambe memes.\n\nUsed for strength, crypto 'apes', or great ape content.",
+    usageContexts: ["Gorilla", "Strong", "Ape", "Crypto", "Harambe"],
+    examples: [
+      { context: "Strong", text: "Gorilla strength 🦍" },
+      { context: "Crypto", text: "Ape together strong 🦍" },
+      { context: "Wild", text: "Wild gorilla 🦍" }
+    ],
+    misunderstandings: ["Crypto ape reference"],
+    relatedEmojis: ["orangutan", "monkey-face", "flexed-biceps"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["gorilla", "strong", "ape", "powerful", "crypto"]
+  },
+  {
+    unicode: "🐲",
+    name: "Dragon Face",
+    slug: "dragon-face",
+    shortMeaning: "A green dragon face.",
+    detailedMeaning: "The Dragon Face emoji shows a green Eastern-style dragon. It represents dragons, Chinese culture, power, and fantasy.\n\nUsed for Chinese New Year, fantasy content, or expressing power.",
+    usageContexts: ["Dragon", "Chinese", "Fantasy", "Power", "Zodiac"],
+    examples: [
+      { context: "Chinese", text: "Year of the Dragon 🐲" },
+      { context: "Fantasy", text: "Dragon energy 🐲" },
+      { context: "Power", text: "Dragon mode 🐲" }
+    ],
+    misunderstandings: ["Chinese dragon vs Western dragon"],
+    relatedEmojis: ["dragon", "fire", "chinese-new-year"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["dragon", "Chinese", "fantasy", "power", "zodiac"]
+  },
+  {
+    unicode: "🐉",
+    name: "Dragon",
+    slug: "dragon",
+    shortMeaning: "A full-body green dragon.",
+    detailedMeaning: "The Dragon emoji shows a full Eastern-style dragon. It represents dragons, Chinese mythology, and power.\n\nUsed for Chinese culture, fantasy content, or expressing majesty.",
+    usageContexts: ["Dragon", "Chinese", "Mythology", "Power", "Fantasy"],
+    examples: [
+      { context: "Chinese", text: "Dragon dance 🐉" },
+      { context: "Fantasy", text: "Mythical dragon 🐉" },
+      { context: "Power", text: "Dragon spirit 🐉" }
+    ],
+    misunderstandings: ["Eastern dragon style"],
+    relatedEmojis: ["dragon-face", "fire", "red-envelope"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["dragon", "Chinese", "mythology", "power", "serpent"]
+  },
   // FOOD & DRINK
   {
     unicode: "🍕",
