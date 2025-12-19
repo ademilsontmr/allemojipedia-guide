@@ -47,13 +47,20 @@ const EmojiDetail = () => {
         ]} />
 
         <article className="max-w-3xl">
-          <header className="flex items-start gap-6 mb-8">
+          <header className="flex items-start gap-6 mb-6">
             <span className="emoji-text-4xl">{emoji.unicode}</span>
             <div>
               <h1 className="text-3xl font-bold mb-2">{emoji.unicode} {emoji.name} Emoji Meaning</h1>
               <p className="text-muted-foreground">{emoji.shortMeaning}</p>
             </div>
           </header>
+
+          <section className="mb-8 p-4 rounded-xl bg-primary/5 border border-primary/20 flex items-center gap-4">
+            <span className="emoji-text-2xl">{emoji.unicode}</span>
+            <button onClick={copyEmoji} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors">
+              <Copy className="w-4 h-4" /> Copy Emoji
+            </button>
+          </section>
 
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-3">Quick Meaning</h2>
@@ -119,15 +126,6 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          <section className="mb-8 p-6 rounded-xl bg-primary/5 border border-primary/20">
-            <h2 className="text-xl font-semibold mb-3">Copy & Paste</h2>
-            <div className="flex items-center gap-4">
-              <span className="emoji-text-3xl">{emoji.unicode}</span>
-              <button onClick={copyEmoji} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors">
-                <Copy className="w-4 h-4" /> Copy Emoji
-              </button>
-            </div>
-          </section>
 
           <section>
             <h2 className="text-xl font-semibold mb-3">FAQ</h2>
