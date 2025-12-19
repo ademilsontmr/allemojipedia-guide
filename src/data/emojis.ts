@@ -17007,6 +17007,819 @@ export const emojis: Emoji[] = [
     subgroup: "other-symbol",
     keywords: ["trademark", "brand", "legal", "TM", "business"]
   },
+  // MORE ARROWS
+  {
+    unicode: "➡️",
+    name: "Right Arrow",
+    slug: "right-arrow-symbol",
+    shortMeaning: "Arrow pointing right - next or forward.",
+    detailedMeaning: "The Right Arrow points right, representing forward movement, next steps, or continuation.\n\nUsed for indicating next, forward, and continuation.",
+    usageContexts: ["Next", "Forward", "Continue", "Right", "Direction"],
+    examples: [
+      { context: "Next", text: "Next slide ➡️" },
+      { context: "Forward", text: "Moving forward ➡️" },
+      { context: "Continue", text: "Continue ➡️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["left-arrow", "up-arrow", "down-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["right", "arrow", "next", "forward", "direction"]
+  },
+  {
+    unicode: "↕️",
+    name: "Up-Down Arrow",
+    slug: "up-down-arrow",
+    shortMeaning: "Arrow pointing up and down.",
+    detailedMeaning: "The Up-Down Arrow points both directions, representing range, variability, or vertical scrolling.\n\nUsed for indicating range, scrolling, and bidirectional movement.",
+    usageContexts: ["Range", "Scroll", "Variable", "Both ways", "Vertical"],
+    examples: [
+      { context: "Range", text: "Prices fluctuate ↕️" },
+      { context: "Scroll", text: "Scroll up or down ↕️" },
+      { context: "Variable", text: "Results vary ↕️" }
+    ],
+    misunderstandings: ["Clear bidirectional meaning"],
+    relatedEmojis: ["up-arrow", "down-arrow", "left-right-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["up-down", "arrow", "vertical", "range", "scroll"]
+  },
+  {
+    unicode: "↔️",
+    name: "Left-Right Arrow",
+    slug: "left-right-arrow",
+    shortMeaning: "Arrow pointing left and right.",
+    detailedMeaning: "The Left-Right Arrow points both directions, representing exchange, comparison, or horizontal navigation.\n\nUsed for indicating comparison, exchange, and horizontal movement.",
+    usageContexts: ["Exchange", "Compare", "Both ways", "Horizontal", "Between"],
+    examples: [
+      { context: "Exchange", text: "Trade between ↔️" },
+      { context: "Compare", text: "Compare these ↔️" },
+      { context: "Navigate", text: "Swipe left or right ↔️" }
+    ],
+    misunderstandings: ["Clear bidirectional meaning"],
+    relatedEmojis: ["left-arrow", "right-arrow", "up-down-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["left-right", "arrow", "horizontal", "exchange", "compare"]
+  },
+  {
+    unicode: "↖️",
+    name: "Up-Left Arrow",
+    slug: "up-left-arrow",
+    shortMeaning: "Arrow pointing up and to the left.",
+    detailedMeaning: "The Up-Left Arrow points diagonally up-left, representing back, previous, or northwest direction.\n\nUsed for indicating back, previous content, or diagonal direction.",
+    usageContexts: ["Back", "Previous", "Northwest", "Diagonal", "Return"],
+    examples: [
+      { context: "Back", text: "Go back ↖️" },
+      { context: "Previous", text: "Previous page ↖️" },
+      { context: "Direction", text: "This way ↖️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["up-arrow", "left-arrow", "up-right-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["up-left", "arrow", "back", "diagonal", "northwest"]
+  },
+  {
+    unicode: "↘️",
+    name: "Down-Right Arrow",
+    slug: "down-right-arrow",
+    shortMeaning: "Arrow pointing down and to the right.",
+    detailedMeaning: "The Down-Right Arrow points diagonally, often indicating decrease with progress or southeast direction.\n\nUsed for trends, directions, and diagonal movement.",
+    usageContexts: ["Trend", "Direction", "Southeast", "Diagonal", "Move"],
+    examples: [
+      { context: "Trend", text: "Trending down ↘️" },
+      { context: "Direction", text: "Southeast ↘️" },
+      { context: "Move", text: "Move here ↘️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["down-arrow", "right-arrow", "down-left-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["down-right", "arrow", "diagonal", "southeast", "trend"]
+  },
+  {
+    unicode: "↙️",
+    name: "Down-Left Arrow",
+    slug: "down-left-arrow",
+    shortMeaning: "Arrow pointing down and to the left.",
+    detailedMeaning: "The Down-Left Arrow points diagonally down-left, representing southwest direction or decline.\n\nUsed for directions, declines, and diagonal movement.",
+    usageContexts: ["Direction", "Southwest", "Diagonal", "Decline", "Move"],
+    examples: [
+      { context: "Direction", text: "Southwest ↙️" },
+      { context: "Decline", text: "Going down ↙️" },
+      { context: "Move", text: "Move here ↙️" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["down-arrow", "left-arrow", "down-right-arrow"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["down-left", "arrow", "diagonal", "southwest", "decline"]
+  },
+  {
+    unicode: "↪️",
+    name: "Left Arrow Curving Right",
+    slug: "left-arrow-curving-right",
+    shortMeaning: "Arrow curving forward - forward or redo.",
+    detailedMeaning: "This curved arrow represents forwarding, sharing, or redo actions.\n\nUsed for forwarding content, share buttons, and redo.",
+    usageContexts: ["Forward", "Share", "Redo", "Send", "Continue"],
+    examples: [
+      { context: "Forward", text: "Forwarding ↪️" },
+      { context: "Share", text: "Share this ↪️" },
+      { context: "Redo", text: "Redo action ↪️" }
+    ],
+    misunderstandings: ["Clear forward/share meaning"],
+    relatedEmojis: ["right-arrow-curving-left", "share", "repeat"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["forward", "share", "redo", "curve", "arrow"]
+  },
+  {
+    unicode: "🔃",
+    name: "Clockwise Vertical Arrows",
+    slug: "clockwise-vertical-arrows",
+    shortMeaning: "Arrows going clockwise - sync or reload.",
+    detailedMeaning: "Clockwise arrows represent synchronization, reloading, or updating content.\n\nUsed for sync, reload, and update actions.",
+    usageContexts: ["Sync", "Reload", "Update", "Refresh", "Cycle"],
+    examples: [
+      { context: "Sync", text: "Syncing now 🔃" },
+      { context: "Update", text: "Updating 🔃" },
+      { context: "Reload", text: "Reload page 🔃" }
+    ],
+    misunderstandings: ["Clear sync/reload meaning"],
+    relatedEmojis: ["counterclockwise-arrows", "repeat", "cycle"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["clockwise", "sync", "reload", "update", "arrows"]
+  },
+  {
+    unicode: "🔁",
+    name: "Repeat Button",
+    slug: "repeat-button",
+    shortMeaning: "Repeat arrows - loop or repeat.",
+    detailedMeaning: "The Repeat Button shows two arrows forming a loop, representing repeat, loop, or continuous play.\n\nUsed for repeat mode in music, looping, and continuous actions.",
+    usageContexts: ["Repeat", "Loop", "Music", "Continuous", "Again"],
+    examples: [
+      { context: "Music", text: "On repeat 🔁" },
+      { context: "Loop", text: "Looping this 🔁" },
+      { context: "Again", text: "Play again 🔁" }
+    ],
+    misunderstandings: ["Clear repeat/loop meaning"],
+    relatedEmojis: ["repeat-single-button", "shuffle", "musical-note"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["repeat", "loop", "continuous", "music", "again"]
+  },
+  {
+    unicode: "🔂",
+    name: "Repeat Single Button",
+    slug: "repeat-single-button",
+    shortMeaning: "Repeat one - loop single song.",
+    detailedMeaning: "The Repeat Single Button shows repeat arrows with a '1', representing single track repeat.\n\nUsed for repeating one song, single item loops.",
+    usageContexts: ["Repeat one", "Single loop", "Music", "Song", "Track"],
+    examples: [
+      { context: "Music", text: "This song on repeat 🔂" },
+      { context: "Loop", text: "Playing this one 🔂" },
+      { context: "Obsessed", text: "Can't stop listening 🔂" }
+    ],
+    misunderstandings: ["Clear single repeat meaning"],
+    relatedEmojis: ["repeat-button", "musical-note", "headphones"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["repeat", "one", "single", "loop", "song"]
+  },
+  {
+    unicode: "🔀",
+    name: "Shuffle Tracks Button",
+    slug: "shuffle-tracks-button",
+    shortMeaning: "Shuffle arrows - random play.",
+    detailedMeaning: "The Shuffle Button shows crossing arrows, representing random or shuffled playback.\n\nUsed for shuffle mode in music, randomization, and mixing up.",
+    usageContexts: ["Shuffle", "Random", "Music", "Mix", "Playlist"],
+    examples: [
+      { context: "Music", text: "Shuffle playlist 🔀" },
+      { context: "Random", text: "Random order 🔀" },
+      { context: "Mix", text: "Mix it up 🔀" }
+    ],
+    misunderstandings: ["Clear shuffle meaning"],
+    relatedEmojis: ["repeat-button", "musical-notes", "headphones"],
+    categorySlug: "symbols",
+    subgroup: "arrow",
+    keywords: ["shuffle", "random", "mix", "music", "playlist"]
+  },
+  {
+    unicode: "⏩",
+    name: "Fast-Forward Button",
+    slug: "fast-forward-button",
+    shortMeaning: "Fast forward arrows - skip ahead.",
+    detailedMeaning: "The Fast-Forward Button shows double right arrows, representing skipping ahead or fast forwarding.\n\nUsed for fast forwarding, skipping ahead, and speeding up.",
+    usageContexts: ["Fast forward", "Skip", "Speed up", "Ahead", "Video"],
+    examples: [
+      { context: "Skip", text: "Skipping ahead ⏩" },
+      { context: "Fast", text: "Fast forward ⏩" },
+      { context: "Time", text: "Let's skip to the good part ⏩" }
+    ],
+    misunderstandings: ["Clear fast forward meaning"],
+    relatedEmojis: ["rewind-button", "play-button", "next-track-button"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["fast forward", "skip", "ahead", "speed", "forward"]
+  },
+  {
+    unicode: "⏪",
+    name: "Rewind Button",
+    slug: "rewind-button",
+    shortMeaning: "Rewind arrows - go back.",
+    detailedMeaning: "The Rewind Button shows double left arrows, representing rewinding or going back.\n\nUsed for rewinding, going back, and revisiting.",
+    usageContexts: ["Rewind", "Go back", "Reverse", "Replay", "Video"],
+    examples: [
+      { context: "Rewind", text: "Let me rewind ⏪" },
+      { context: "Back", text: "Going back ⏪" },
+      { context: "Replay", text: "Replay that ⏪" }
+    ],
+    misunderstandings: ["Clear rewind meaning"],
+    relatedEmojis: ["fast-forward-button", "play-button", "previous-track-button"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["rewind", "back", "reverse", "replay", "backward"]
+  },
+  {
+    unicode: "⏯️",
+    name: "Play or Pause Button",
+    slug: "play-or-pause-button",
+    shortMeaning: "Play/pause toggle button.",
+    detailedMeaning: "The Play or Pause Button combines both symbols, representing media control and toggle.\n\nUsed for media controls, starting/stopping content.",
+    usageContexts: ["Play", "Pause", "Media", "Video", "Music"],
+    examples: [
+      { context: "Media", text: "Press play ⏯️" },
+      { context: "Control", text: "Play/pause ⏯️" },
+      { context: "Start", text: "Ready to go ⏯️" }
+    ],
+    misunderstandings: ["Clear media control meaning"],
+    relatedEmojis: ["play-button", "pause-button", "stop-button"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["play", "pause", "media", "toggle", "control"]
+  },
+  {
+    unicode: "▶️",
+    name: "Play Button",
+    slug: "play-button",
+    shortMeaning: "Play button - start.",
+    detailedMeaning: "The Play Button represents starting, playing, or beginning media playback.\n\nUsed for starting videos, music, and action.",
+    usageContexts: ["Play", "Start", "Begin", "Video", "Music"],
+    examples: [
+      { context: "Play", text: "Press play ▶️" },
+      { context: "Start", text: "Let's go ▶️" },
+      { context: "Video", text: "Watch now ▶️" }
+    ],
+    misunderstandings: ["Clear play meaning"],
+    relatedEmojis: ["pause-button", "stop-button", "fast-forward-button"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["play", "start", "begin", "video", "music"]
+  },
+  {
+    unicode: "⏸️",
+    name: "Pause Button",
+    slug: "pause-button",
+    shortMeaning: "Pause button - stop temporarily.",
+    detailedMeaning: "The Pause Button represents temporary stop, break, or pause.\n\nUsed for pausing content, taking breaks, and waiting.",
+    usageContexts: ["Pause", "Break", "Wait", "Stop", "Hold"],
+    examples: [
+      { context: "Pause", text: "Taking a pause ⏸️" },
+      { context: "Break", text: "Break time ⏸️" },
+      { context: "Wait", text: "Hold on ⏸️" }
+    ],
+    misunderstandings: ["Clear pause meaning"],
+    relatedEmojis: ["play-button", "stop-button", "break"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["pause", "stop", "break", "wait", "hold"]
+  },
+  {
+    unicode: "⏹️",
+    name: "Stop Button",
+    slug: "stop-button",
+    shortMeaning: "Stop button - end playback.",
+    detailedMeaning: "The Stop Button represents complete stop, ending, or termination.\n\nUsed for stopping content, ending actions, and completion.",
+    usageContexts: ["Stop", "End", "Finish", "Terminate", "Complete"],
+    examples: [
+      { context: "Stop", text: "Stop here ⏹️" },
+      { context: "End", text: "That's it ⏹️" },
+      { context: "Finish", text: "Done ⏹️" }
+    ],
+    misunderstandings: ["Clear stop meaning"],
+    relatedEmojis: ["play-button", "pause-button", "end"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["stop", "end", "finish", "terminate", "done"]
+  },
+  {
+    unicode: "⏺️",
+    name: "Record Button",
+    slug: "record-button",
+    shortMeaning: "Record button - recording.",
+    detailedMeaning: "The Record Button represents recording, capturing, or documenting.\n\nUsed for recording content, live sessions, and capturing moments.",
+    usageContexts: ["Record", "Capture", "Live", "Document", "Save"],
+    examples: [
+      { context: "Record", text: "Recording now ⏺️" },
+      { context: "Live", text: "Going live ⏺️" },
+      { context: "Capture", text: "Capturing this ⏺️" }
+    ],
+    misunderstandings: ["Clear recording meaning"],
+    relatedEmojis: ["red-circle", "camera", "microphone"],
+    categorySlug: "symbols",
+    subgroup: "av-symbol",
+    keywords: ["record", "recording", "live", "capture", "save"]
+  },
+  // MORE HEARTS
+  {
+    unicode: "🩷",
+    name: "Pink Heart",
+    slug: "pink-heart",
+    shortMeaning: "A pink heart - cute affection.",
+    detailedMeaning: "The Pink Heart represents gentle love, cuteness, and soft affection.\n\nUsed for cute content, soft love, and feminine affection.",
+    usageContexts: ["Cute", "Soft", "Affection", "Pink", "Sweet"],
+    examples: [
+      { context: "Cute", text: "So cute 🩷" },
+      { context: "Love", text: "Love you 🩷" },
+      { context: "Sweet", text: "Sweet vibes 🩷" }
+    ],
+    misunderstandings: ["Clear cute/love meaning"],
+    relatedEmojis: ["red-heart", "sparkling-heart", "two-hearts"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["pink", "heart", "cute", "soft", "affection"]
+  },
+  {
+    unicode: "🩵",
+    name: "Light Blue Heart",
+    slug: "light-blue-heart",
+    shortMeaning: "A light blue heart - calm love.",
+    detailedMeaning: "The Light Blue Heart represents calm, peaceful love and tranquility.\n\nUsed for peaceful affection, calm vibes, and cool love.",
+    usageContexts: ["Calm", "Peace", "Cool", "Tranquil", "Light"],
+    examples: [
+      { context: "Calm", text: "Peaceful vibes 🩵" },
+      { context: "Love", text: "Calm love 🩵" },
+      { context: "Cool", text: "Cool and collected 🩵" }
+    ],
+    misunderstandings: ["Clear calm/peaceful meaning"],
+    relatedEmojis: ["blue-heart", "white-heart", "peace-symbol"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["light blue", "heart", "calm", "peace", "tranquil"]
+  },
+  {
+    unicode: "🩶",
+    name: "Grey Heart",
+    slug: "grey-heart",
+    shortMeaning: "A grey heart - neutral affection.",
+    detailedMeaning: "The Grey Heart represents neutral affection, loss, or a subdued emotional state.\n\nUsed for neutral feelings, loss, and muted emotions.",
+    usageContexts: ["Neutral", "Loss", "Subdued", "Grey", "Muted"],
+    examples: [
+      { context: "Neutral", text: "Feeling grey 🩶" },
+      { context: "Loss", text: "Missing you 🩶" },
+      { context: "Muted", text: "Quiet love 🩶" }
+    ],
+    misunderstandings: ["Can mean sadness or loss"],
+    relatedEmojis: ["white-heart", "black-heart", "broken-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["grey", "heart", "neutral", "loss", "muted"]
+  },
+  {
+    unicode: "❤️‍🔥",
+    name: "Heart on Fire",
+    slug: "heart-on-fire-symbol",
+    shortMeaning: "A heart on fire - passionate love.",
+    detailedMeaning: "The Heart on Fire represents intense passion, burning desire, and fiery love.\n\nUsed for expressing intense romantic feelings and passion.",
+    usageContexts: ["Passion", "Intense", "Fire", "Desire", "Hot"],
+    examples: [
+      { context: "Passion", text: "Burning for you ❤️‍🔥" },
+      { context: "Intense", text: "Intense feelings ❤️‍🔥" },
+      { context: "Hot", text: "On fire ❤️‍🔥" }
+    ],
+    misunderstandings: ["Very intense romantic meaning"],
+    relatedEmojis: ["red-heart", "fire", "smiling-face-with-hearts"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "fire", "passion", "intense", "burning"]
+  },
+  {
+    unicode: "💔",
+    name: "Broken Heart Symbol",
+    slug: "broken-heart-symbol",
+    shortMeaning: "A broken heart - heartbreak and sadness.",
+    detailedMeaning: "The Broken Heart represents heartbreak, emotional pain, and loss.\n\nUsed for expressing sadness, breakups, and emotional pain.",
+    usageContexts: ["Heartbreak", "Sad", "Loss", "Pain", "Breakup"],
+    examples: [
+      { context: "Breakup", text: "Heart is broken 💔" },
+      { context: "Sad", text: "So sad 💔" },
+      { context: "Loss", text: "Missing you 💔" }
+    ],
+    misunderstandings: ["Clear heartbreak meaning"],
+    relatedEmojis: ["mending-heart", "crying-face", "red-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["broken", "heart", "sad", "breakup", "pain"]
+  },
+  {
+    unicode: "❣️",
+    name: "Heart Exclamation",
+    slug: "heart-exclamation",
+    shortMeaning: "A heart exclamation mark - strong love.",
+    detailedMeaning: "The Heart Exclamation represents emphatic love, strong affection, and heartfelt emphasis.\n\nUsed for emphasizing love and strong affection.",
+    usageContexts: ["Emphasis", "Strong love", "Affection", "Heartfelt", "Exclaim"],
+    examples: [
+      { context: "Love", text: "Love this ❣️" },
+      { context: "Emphasis", text: "So important ❣️" },
+      { context: "Affection", text: "Really love you ❣️" }
+    ],
+    misunderstandings: ["Clear emphatic love meaning"],
+    relatedEmojis: ["red-heart", "exclamation-mark", "sparkling-heart"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "exclamation", "love", "emphasis", "strong"]
+  },
+  {
+    unicode: "💟",
+    name: "Heart Decoration",
+    slug: "heart-decoration",
+    shortMeaning: "A decorative heart.",
+    detailedMeaning: "The Heart Decoration shows a heart in a decorative frame, representing love in a more formal or aesthetic context.\n\nUsed for decorative love expressions and aesthetic content.",
+    usageContexts: ["Decoration", "Aesthetic", "Love", "Design", "Pretty"],
+    examples: [
+      { context: "Aesthetic", text: "Pretty vibes 💟" },
+      { context: "Decoration", text: "Decorating 💟" },
+      { context: "Love", text: "Love this look 💟" }
+    ],
+    misunderstandings: ["Decorative heart style"],
+    relatedEmojis: ["sparkling-heart", "red-heart", "sparkles"],
+    categorySlug: "symbols",
+    subgroup: "heart",
+    keywords: ["heart", "decoration", "aesthetic", "pretty", "design"]
+  },
+  // MORE GEOMETRIC SHAPES
+  {
+    unicode: "🟠",
+    name: "Orange Circle",
+    slug: "orange-circle",
+    shortMeaning: "An orange circle.",
+    detailedMeaning: "The Orange Circle can represent warning status, away mode, or a marker.\n\nUsed for status indicators, warnings, and markers.",
+    usageContexts: ["Status", "Away", "Warning", "Marker", "Orange"],
+    examples: [
+      { context: "Status", text: "Away 🟠" },
+      { context: "Warning", text: "Caution 🟠" },
+      { context: "Marker", text: "Mark this 🟠" }
+    ],
+    misunderstandings: ["Often means away/idle status"],
+    relatedEmojis: ["yellow-circle", "red-circle", "orange-heart"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["orange", "circle", "away", "status", "warning"]
+  },
+  {
+    unicode: "🟡",
+    name: "Yellow Circle",
+    slug: "yellow-circle",
+    shortMeaning: "A yellow circle.",
+    detailedMeaning: "The Yellow Circle can represent caution, pending status, or a marker.\n\nUsed for caution, pending indicators, and markers.",
+    usageContexts: ["Caution", "Pending", "Yellow", "Status", "Marker"],
+    examples: [
+      { context: "Caution", text: "Proceed with care 🟡" },
+      { context: "Pending", text: "Pending review 🟡" },
+      { context: "Marker", text: "Note this 🟡" }
+    ],
+    misunderstandings: ["Often means pending"],
+    relatedEmojis: ["orange-circle", "green-circle", "yellow-heart"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["yellow", "circle", "caution", "pending", "status"]
+  },
+  {
+    unicode: "🟣",
+    name: "Purple Circle",
+    slug: "purple-circle",
+    shortMeaning: "A purple circle.",
+    detailedMeaning: "The Purple Circle represents creativity, royalty, or a marker.\n\nUsed for creative themes, royalty, and markers.",
+    usageContexts: ["Creative", "Royal", "Purple", "Marker", "Special"],
+    examples: [
+      { context: "Creative", text: "Creative vibes 🟣" },
+      { context: "Royal", text: "Royal purple 🟣" },
+      { context: "Marker", text: "Mark this 🟣" }
+    ],
+    misunderstandings: ["General marker"],
+    relatedEmojis: ["purple-heart", "blue-circle", "sparkles"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["purple", "circle", "creative", "royal", "marker"]
+  },
+  {
+    unicode: "🟤",
+    name: "Brown Circle",
+    slug: "brown-circle",
+    shortMeaning: "A brown circle.",
+    detailedMeaning: "The Brown Circle represents earth, nature, or neutral markers.\n\nUsed for earth themes, natural elements, and markers.",
+    usageContexts: ["Earth", "Natural", "Brown", "Marker", "Neutral"],
+    examples: [
+      { context: "Earth", text: "Earth tones 🟤" },
+      { context: "Natural", text: "Natural vibes 🟤" },
+      { context: "Marker", text: "Note this 🟤" }
+    ],
+    misunderstandings: ["General marker"],
+    relatedEmojis: ["brown-heart", "black-circle", "earth"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["brown", "circle", "earth", "natural", "marker"]
+  },
+  {
+    unicode: "🔶",
+    name: "Large Orange Diamond",
+    slug: "large-orange-diamond",
+    shortMeaning: "An orange diamond shape.",
+    detailedMeaning: "The Large Orange Diamond is a geometric shape used for emphasis or decoration.\n\nUsed for bullet points, emphasis, and decoration.",
+    usageContexts: ["Emphasis", "Bullet", "Decoration", "Orange", "Shape"],
+    examples: [
+      { context: "Bullet", text: "Point one 🔶" },
+      { context: "Emphasis", text: "Important 🔶" },
+      { context: "Design", text: "Decorating 🔶" }
+    ],
+    misunderstandings: ["Decorative shape"],
+    relatedEmojis: ["small-orange-diamond", "large-blue-diamond", "orange-circle"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["orange", "diamond", "shape", "bullet", "emphasis"]
+  },
+  {
+    unicode: "🔷",
+    name: "Large Blue Diamond",
+    slug: "large-blue-diamond",
+    shortMeaning: "A blue diamond shape.",
+    detailedMeaning: "The Large Blue Diamond is a geometric shape used for emphasis or decoration.\n\nUsed for bullet points, emphasis, and decoration.",
+    usageContexts: ["Emphasis", "Bullet", "Decoration", "Blue", "Shape"],
+    examples: [
+      { context: "Bullet", text: "Point one 🔷" },
+      { context: "Emphasis", text: "Key item 🔷" },
+      { context: "Design", text: "Decorating 🔷" }
+    ],
+    misunderstandings: ["Decorative shape"],
+    relatedEmojis: ["small-blue-diamond", "large-orange-diamond", "blue-circle"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["blue", "diamond", "shape", "bullet", "emphasis"]
+  },
+  {
+    unicode: "🔸",
+    name: "Small Orange Diamond",
+    slug: "small-orange-diamond",
+    shortMeaning: "A small orange diamond.",
+    detailedMeaning: "The Small Orange Diamond is a geometric shape for bullet points and emphasis.\n\nUsed for lists, bullets, and small emphasis.",
+    usageContexts: ["Bullet", "List", "Small", "Orange", "Point"],
+    examples: [
+      { context: "List", text: "Item one 🔸" },
+      { context: "Point", text: "Sub-point 🔸" },
+      { context: "Emphasis", text: "Note 🔸" }
+    ],
+    misunderstandings: ["Decorative bullet"],
+    relatedEmojis: ["large-orange-diamond", "small-blue-diamond", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["small", "orange", "diamond", "bullet", "point"]
+  },
+  {
+    unicode: "🔹",
+    name: "Small Blue Diamond",
+    slug: "small-blue-diamond",
+    shortMeaning: "A small blue diamond.",
+    detailedMeaning: "The Small Blue Diamond is a geometric shape for bullet points and emphasis.\n\nUsed for lists, bullets, and small emphasis.",
+    usageContexts: ["Bullet", "List", "Small", "Blue", "Point"],
+    examples: [
+      { context: "List", text: "Item one 🔹" },
+      { context: "Point", text: "Sub-point 🔹" },
+      { context: "Emphasis", text: "Note 🔹" }
+    ],
+    misunderstandings: ["Decorative bullet"],
+    relatedEmojis: ["large-blue-diamond", "small-orange-diamond", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["small", "blue", "diamond", "bullet", "point"]
+  },
+  {
+    unicode: "▪️",
+    name: "Black Small Square",
+    slug: "black-small-square",
+    shortMeaning: "A small black square.",
+    detailedMeaning: "The Black Small Square is used for bullet points and simple markers.\n\nUsed for lists, bullets, and minimal markers.",
+    usageContexts: ["Bullet", "List", "Marker", "Square", "Point"],
+    examples: [
+      { context: "List", text: "Item ▪️" },
+      { context: "Bullet", text: "Point ▪️" },
+      { context: "Marker", text: "Mark ▪️" }
+    ],
+    misunderstandings: ["Simple bullet point"],
+    relatedEmojis: ["white-small-square", "black-circle", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["black", "square", "small", "bullet", "marker"]
+  },
+  {
+    unicode: "▫️",
+    name: "White Small Square",
+    slug: "white-small-square",
+    shortMeaning: "A small white square.",
+    detailedMeaning: "The White Small Square is used for bullet points and simple markers.\n\nUsed for lists, bullets, and minimal markers.",
+    usageContexts: ["Bullet", "List", "Marker", "Square", "Point"],
+    examples: [
+      { context: "List", text: "Item ▫️" },
+      { context: "Bullet", text: "Point ▫️" },
+      { context: "Marker", text: "Mark ▫️" }
+    ],
+    misunderstandings: ["Simple bullet point"],
+    relatedEmojis: ["black-small-square", "white-circle", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["white", "square", "small", "bullet", "marker"]
+  },
+  {
+    unicode: "◾",
+    name: "Black Medium-Small Square",
+    slug: "black-medium-small-square",
+    shortMeaning: "A black medium-small square.",
+    detailedMeaning: "The Black Medium-Small Square is used for bullet points and emphasis.\n\nUsed for lists and medium emphasis.",
+    usageContexts: ["Bullet", "List", "Medium", "Square", "Emphasis"],
+    examples: [
+      { context: "List", text: "Item ◾" },
+      { context: "Emphasis", text: "Point ◾" },
+      { context: "Marker", text: "Mark ◾" }
+    ],
+    misunderstandings: ["Decorative bullet"],
+    relatedEmojis: ["black-small-square", "black-large-square", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["black", "square", "medium", "bullet", "marker"]
+  },
+  {
+    unicode: "◽",
+    name: "White Medium-Small Square",
+    slug: "white-medium-small-square",
+    shortMeaning: "A white medium-small square.",
+    detailedMeaning: "The White Medium-Small Square is used for bullet points and emphasis.\n\nUsed for lists and medium emphasis.",
+    usageContexts: ["Bullet", "List", "Medium", "Square", "Emphasis"],
+    examples: [
+      { context: "List", text: "Item ◽" },
+      { context: "Emphasis", text: "Point ◽" },
+      { context: "Marker", text: "Mark ◽" }
+    ],
+    misunderstandings: ["Decorative bullet"],
+    relatedEmojis: ["white-small-square", "white-large-square", "bullet"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["white", "square", "medium", "bullet", "marker"]
+  },
+  {
+    unicode: "⬛",
+    name: "Black Large Square",
+    slug: "black-large-square",
+    shortMeaning: "A large black square.",
+    detailedMeaning: "The Black Large Square is a solid geometric shape for emphasis or dark themes.\n\nUsed for emphasis, dark themes, and large markers.",
+    usageContexts: ["Dark", "Emphasis", "Large", "Square", "Block"],
+    examples: [
+      { context: "Dark", text: "Dark theme ⬛" },
+      { context: "Block", text: "Block this ⬛" },
+      { context: "Emphasis", text: "Important ⬛" }
+    ],
+    misunderstandings: ["Large geometric shape"],
+    relatedEmojis: ["black-circle", "black-heart", "black-medium-small-square"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["black", "square", "large", "block", "dark"]
+  },
+  {
+    unicode: "⬜",
+    name: "White Large Square",
+    slug: "white-large-square",
+    shortMeaning: "A large white square.",
+    detailedMeaning: "The White Large Square is a solid geometric shape for emphasis or light themes.\n\nUsed for emphasis, light themes, and large markers.",
+    usageContexts: ["Light", "Emphasis", "Large", "Square", "Block"],
+    examples: [
+      { context: "Light", text: "Light theme ⬜" },
+      { context: "Block", text: "Blank space ⬜" },
+      { context: "Emphasis", text: "Clean slate ⬜" }
+    ],
+    misunderstandings: ["Large geometric shape"],
+    relatedEmojis: ["white-circle", "white-heart", "white-medium-small-square"],
+    categorySlug: "symbols",
+    subgroup: "geometric",
+    keywords: ["white", "square", "large", "block", "clean"]
+  },
+  {
+    unicode: "⭐",
+    name: "Star",
+    slug: "star",
+    shortMeaning: "A yellow star.",
+    detailedMeaning: "The Star represents excellence, favorites, and rating.\n\nUsed for ratings, favorites, and highlighting quality.",
+    usageContexts: ["Favorite", "Rating", "Excellent", "Star", "Quality"],
+    examples: [
+      { context: "Rating", text: "Five stars ⭐" },
+      { context: "Favorite", text: "My favorite ⭐" },
+      { context: "Quality", text: "Top quality ⭐" }
+    ],
+    misunderstandings: ["Clear star/rating meaning"],
+    relatedEmojis: ["glowing-star", "sparkles", "trophy"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["star", "favorite", "rating", "excellent", "quality"]
+  },
+  {
+    unicode: "🌟",
+    name: "Glowing Star",
+    slug: "glowing-star",
+    shortMeaning: "A glowing star with sparkles.",
+    detailedMeaning: "The Glowing Star represents something special, outstanding, or magical.\n\nUsed for highlighting excellence and special moments.",
+    usageContexts: ["Special", "Outstanding", "Magical", "Glow", "Shine"],
+    examples: [
+      { context: "Special", text: "You're a star 🌟" },
+      { context: "Outstanding", text: "Amazing 🌟" },
+      { context: "Magical", text: "Magical night 🌟" }
+    ],
+    misunderstandings: ["Clear excellence meaning"],
+    relatedEmojis: ["star", "sparkles", "trophy"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["glowing", "star", "special", "outstanding", "shine"]
+  },
+  {
+    unicode: "✨",
+    name: "Sparkles",
+    slug: "sparkles",
+    shortMeaning: "Sparkling stars - magic and excitement.",
+    detailedMeaning: "Sparkles represent magic, excitement, and something special or new.\n\nUsed for emphasizing something magical, new, or exciting.",
+    usageContexts: ["Magic", "New", "Exciting", "Special", "Clean"],
+    examples: [
+      { context: "New", text: "Brand new ✨" },
+      { context: "Magic", text: "Magical ✨" },
+      { context: "Clean", text: "Sparkling clean ✨" }
+    ],
+    misunderstandings: ["Very versatile emoji"],
+    relatedEmojis: ["star", "glowing-star", "fire"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["sparkles", "magic", "new", "exciting", "special"]
+  },
+  {
+    unicode: "💫",
+    name: "Dizzy",
+    slug: "dizzy",
+    shortMeaning: "A shooting star or dizzy symbol.",
+    detailedMeaning: "The Dizzy emoji represents dizziness, stars when hit, or a shooting star effect.\n\nUsed for expressing dizziness, amazement, or impact.",
+    usageContexts: ["Dizzy", "Amazed", "Star", "Impact", "Spinning"],
+    examples: [
+      { context: "Dizzy", text: "Feeling dizzy 💫" },
+      { context: "Amazed", text: "Mind blown 💫" },
+      { context: "Star", text: "Shooting star 💫" }
+    ],
+    misunderstandings: ["Can mean both dizzy and star"],
+    relatedEmojis: ["star", "sparkles", "face-with-spiral-eyes"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["dizzy", "star", "shooting", "spinning", "amazed"]
+  },
+  {
+    unicode: "🔥",
+    name: "Fire",
+    slug: "fire",
+    shortMeaning: "Fire - hot, lit, or trending.",
+    detailedMeaning: "Fire represents something hot, exciting, trendy, or excellent in modern slang.\n\nUsed for expressing that something is amazing, trending, or 'lit.'",
+    usageContexts: ["Hot", "Lit", "Trending", "Excellent", "Amazing"],
+    examples: [
+      { context: "Hot", text: "This is fire 🔥" },
+      { context: "Trending", text: "Trending 🔥" },
+      { context: "Excellent", text: "So good 🔥" }
+    ],
+    misunderstandings: ["Slang for excellent"],
+    relatedEmojis: ["hundred-points", "sparkles", "star"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["fire", "hot", "lit", "trending", "amazing"]
+  },
+  {
+    unicode: "💥",
+    name: "Collision",
+    slug: "collision",
+    shortMeaning: "An explosion or impact.",
+    detailedMeaning: "The Collision emoji represents an explosion, impact, or something mind-blowing.\n\nUsed for expressing impact, excitement, and explosive content.",
+    usageContexts: ["Explosion", "Impact", "Boom", "Exciting", "Mind-blowing"],
+    examples: [
+      { context: "Impact", text: "Boom 💥" },
+      { context: "Exciting", text: "Explosive news 💥" },
+      { context: "Mind-blowing", text: "Mind blown 💥" }
+    ],
+    misunderstandings: ["Clear impact meaning"],
+    relatedEmojis: ["fire", "sparkles", "exclamation-mark"],
+    categorySlug: "symbols",
+    subgroup: "other-symbol",
+    keywords: ["collision", "explosion", "boom", "impact", "bang"]
+  },
   // FLAGS
   {
     unicode: "🏳️",
