@@ -5351,6 +5351,1016 @@ export const emojis: Emoji[] = [
     subgroup: "animal-reptile",
     keywords: ["dragon", "Chinese", "mythology", "power", "serpent"]
   },
+  // PLANTS & FLOWERS
+  {
+    unicode: "🌸",
+    name: "Cherry Blossom",
+    slug: "cherry-blossom",
+    shortMeaning: "A delicate pink cherry blossom flower.",
+    detailedMeaning: "The Cherry Blossom emoji represents the beautiful pink flowers of cherry trees, especially associated with Japan's sakura season. It symbolizes spring, renewal, beauty, and the fleeting nature of life.\n\nUsed for spring content, Japanese culture, beauty appreciation, and expressing delicate femininity.",
+    usageContexts: ["Spring", "Japan", "Beauty", "Nature", "Renewal"],
+    examples: [
+      { context: "Spring", text: "Cherry blossom season 🌸" },
+      { context: "Beauty", text: "So pretty 🌸" },
+      { context: "Japan", text: "Tokyo in spring 🌸" }
+    ],
+    misunderstandings: ["Clear meaning - universally beautiful"],
+    relatedEmojis: ["blossom", "hibiscus", "tulip"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["cherry", "blossom", "sakura", "spring", "Japan", "pink"]
+  },
+  {
+    unicode: "🌷",
+    name: "Tulip",
+    slug: "tulip",
+    shortMeaning: "A colorful tulip flower.",
+    detailedMeaning: "The Tulip emoji shows a pink/red tulip flower, representing spring, gardens, and Dutch culture. Tulips are associated with elegance, love, and the Netherlands.\n\nUsed for spring content, gardening, romantic gestures, and expressing appreciation for beauty.",
+    usageContexts: ["Spring", "Gardens", "Romance", "Netherlands", "Flowers"],
+    examples: [
+      { context: "Spring", text: "Tulip season 🌷" },
+      { context: "Garden", text: "My garden is blooming 🌷" },
+      { context: "Gift", text: "Flowers for you 🌷" }
+    ],
+    misunderstandings: ["Clear flower meaning"],
+    relatedEmojis: ["cherry-blossom", "rose", "bouquet"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["tulip", "flower", "spring", "garden", "Netherlands"]
+  },
+  {
+    unicode: "🌹",
+    name: "Rose",
+    slug: "rose",
+    shortMeaning: "A beautiful red rose - the flower of love.",
+    detailedMeaning: "The Rose emoji shows a red rose, the universal symbol of love and romance. Roses are associated with Valentine's Day, romantic gestures, and deep affection.\n\nUsed for expressing love, romance, appreciation, and beauty. Red roses carry strong romantic connotations.",
+    usageContexts: ["Romance", "Love", "Valentine's Day", "Beauty", "Gifts"],
+    examples: [
+      { context: "Romance", text: "For you my love 🌹" },
+      { context: "Valentine", text: "Happy Valentine's Day 🌹" },
+      { context: "Beauty", text: "Beautiful like a rose 🌹" }
+    ],
+    misunderstandings: ["Strong romantic connotation"],
+    relatedEmojis: ["red-heart", "bouquet", "hibiscus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["rose", "love", "romance", "red", "Valentine"]
+  },
+  {
+    unicode: "🌺",
+    name: "Hibiscus",
+    slug: "hibiscus",
+    shortMeaning: "A tropical hibiscus flower.",
+    detailedMeaning: "The Hibiscus emoji shows a bright pink tropical flower, associated with Hawaii, tropical islands, and exotic beauty. Hibiscus flowers represent vacation vibes and warmth.\n\nUsed for tropical content, Hawaiian themes, summer vibes, and expressing exotic beauty.",
+    usageContexts: ["Tropical", "Hawaii", "Summer", "Vacation", "Beauty"],
+    examples: [
+      { context: "Hawaii", text: "Aloha 🌺" },
+      { context: "Vacation", text: "Tropical paradise 🌺" },
+      { context: "Summer", text: "Island vibes 🌺" }
+    ],
+    misunderstandings: ["Clear tropical flower meaning"],
+    relatedEmojis: ["palm-tree", "beach", "pineapple"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["hibiscus", "tropical", "Hawaii", "flower", "island"]
+  },
+  {
+    unicode: "🌻",
+    name: "Sunflower",
+    slug: "sunflower",
+    shortMeaning: "A bright yellow sunflower.",
+    detailedMeaning: "The Sunflower emoji shows a large yellow sunflower, representing happiness, summer, and positivity. Sunflowers are known for following the sun and symbolize warmth and joy.\n\nUsed for expressing happiness, summer content, positivity, and bright energy.",
+    usageContexts: ["Summer", "Happiness", "Positivity", "Nature", "Bright"],
+    examples: [
+      { context: "Happy", text: "You're my sunshine 🌻" },
+      { context: "Summer", text: "Sunflower fields 🌻" },
+      { context: "Positive", text: "Stay bright 🌻" }
+    ],
+    misunderstandings: ["Clear positive meaning"],
+    relatedEmojis: ["sun", "yellow-heart", "blossom"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["sunflower", "yellow", "summer", "happy", "bright"]
+  },
+  {
+    unicode: "🌼",
+    name: "Blossom",
+    slug: "blossom",
+    shortMeaning: "A simple yellow/white flower blossom.",
+    detailedMeaning: "The Blossom emoji shows a simple flower with white or yellow petals, representing spring, blooming, and natural beauty. It's a generic flower for various contexts.\n\nUsed for spring content, nature appreciation, gardening, and general floral themes.",
+    usageContexts: ["Spring", "Nature", "Gardens", "Growth", "Beauty"],
+    examples: [
+      { context: "Spring", text: "Spring is here 🌼" },
+      { context: "Garden", text: "Flowers blooming 🌼" },
+      { context: "Pretty", text: "So lovely 🌼" }
+    ],
+    misunderstandings: ["Generic flower meaning"],
+    relatedEmojis: ["cherry-blossom", "tulip", "bouquet"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["blossom", "flower", "spring", "bloom", "nature"]
+  },
+  {
+    unicode: "💐",
+    name: "Bouquet",
+    slug: "bouquet",
+    shortMeaning: "A colorful bouquet of flowers.",
+    detailedMeaning: "The Bouquet emoji shows a wrapped bundle of colorful flowers, representing gifts, celebrations, and appreciation. Bouquets are given for various occasions from romance to congratulations.\n\nUsed for expressing appreciation, congratulations, romantic gestures, and celebrations.",
+    usageContexts: ["Gifts", "Romance", "Congratulations", "Appreciation", "Celebrations"],
+    examples: [
+      { context: "Gift", text: "Flowers for you 💐" },
+      { context: "Congrats", text: "Congratulations 💐" },
+      { context: "Thanks", text: "Thank you so much 💐" }
+    ],
+    misunderstandings: ["Clear gift/appreciation meaning"],
+    relatedEmojis: ["rose", "tulip", "gift"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["bouquet", "flowers", "gift", "arrangement", "celebration"]
+  },
+  {
+    unicode: "🪻",
+    name: "Hyacinth",
+    slug: "hyacinth",
+    shortMeaning: "A fragrant purple hyacinth flower.",
+    detailedMeaning: "The Hyacinth emoji shows a purple hyacinth flower, known for its strong fragrance and spring blooming. Hyacinths represent playfulness, sport, and sincerity.\n\nUsed for spring content, fragrant garden discussions, and expressing purple aesthetic.",
+    usageContexts: ["Spring", "Fragrance", "Gardens", "Purple", "Beauty"],
+    examples: [
+      { context: "Spring", text: "Hyacinths blooming 🪻" },
+      { context: "Garden", text: "Smells amazing 🪻" },
+      { context: "Purple", text: "Purple vibes 🪻" }
+    ],
+    misunderstandings: ["Less common flower"],
+    relatedEmojis: ["tulip", "lavender", "cherry-blossom"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["hyacinth", "purple", "fragrant", "spring", "flower"]
+  },
+  {
+    unicode: "🪷",
+    name: "Lotus",
+    slug: "lotus",
+    shortMeaning: "A sacred lotus flower.",
+    detailedMeaning: "The Lotus emoji shows a pink lotus flower, sacred in many Asian cultures. The lotus represents purity, enlightenment, and spiritual growth as it blooms from muddy waters.\n\nUsed for spirituality, meditation, yoga, Buddhism, and expressing inner peace.",
+    usageContexts: ["Spirituality", "Meditation", "Yoga", "Buddhism", "Peace"],
+    examples: [
+      { context: "Meditation", text: "Finding peace 🪷" },
+      { context: "Yoga", text: "Namaste 🪷" },
+      { context: "Spiritual", text: "Inner growth 🪷" }
+    ],
+    misunderstandings: ["Has spiritual significance"],
+    relatedEmojis: ["om", "yoga", "peace-symbol"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["lotus", "spiritual", "meditation", "Buddhism", "purity"]
+  },
+  {
+    unicode: "🌾",
+    name: "Sheaf of Rice",
+    slug: "sheaf-of-rice",
+    shortMeaning: "Golden stalks of rice or wheat.",
+    detailedMeaning: "The Sheaf of Rice emoji shows golden grain stalks, representing harvest, agriculture, and abundance. It can represent rice, wheat, or other cereal crops.\n\nUsed for harvest themes, farming content, fall/autumn, and expressing abundance.",
+    usageContexts: ["Harvest", "Agriculture", "Autumn", "Abundance", "Farming"],
+    examples: [
+      { context: "Harvest", text: "Harvest season 🌾" },
+      { context: "Farm", text: "Golden fields 🌾" },
+      { context: "Fall", text: "Autumn vibes 🌾" }
+    ],
+    misunderstandings: ["Agricultural meaning"],
+    relatedEmojis: ["ear-of-corn", "wheat", "tractor"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["rice", "wheat", "harvest", "grain", "agriculture"]
+  },
+  {
+    unicode: "🌵",
+    name: "Cactus",
+    slug: "cactus",
+    shortMeaning: "A green cactus from the desert.",
+    detailedMeaning: "The Cactus emoji shows a green cactus, representing desert environments, the American Southwest, and resilience. Cacti survive in harsh conditions with little water.\n\nUsed for desert content, Arizona/Texas themes, resilience, and trendy plant decor.",
+    usageContexts: ["Desert", "Southwest", "Resilience", "Plants", "Decor"],
+    examples: [
+      { context: "Desert", text: "Arizona vibes 🌵" },
+      { context: "Strong", text: "Stay sharp 🌵" },
+      { context: "Plants", text: "New plant baby 🌵" }
+    ],
+    misunderstandings: ["Clear desert plant meaning"],
+    relatedEmojis: ["desert", "sun", "scorpion"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["cactus", "desert", "succulent", "prickly", "Southwest"]
+  },
+  {
+    unicode: "🌲",
+    name: "Evergreen Tree",
+    slug: "evergreen-tree",
+    shortMeaning: "A tall evergreen pine tree.",
+    detailedMeaning: "The Evergreen Tree emoji shows a tall conifer/pine tree, representing forests, nature, and outdoor activities. Evergreens stay green year-round and symbolize resilience.\n\nUsed for nature content, camping, hiking, Pacific Northwest vibes, and forest themes.",
+    usageContexts: ["Nature", "Forest", "Camping", "Hiking", "Outdoors"],
+    examples: [
+      { context: "Nature", text: "Into the woods 🌲" },
+      { context: "Camping", text: "Camping weekend 🌲" },
+      { context: "Fresh", text: "Fresh forest air 🌲" }
+    ],
+    misunderstandings: ["Clear tree meaning"],
+    relatedEmojis: ["deciduous-tree", "national-park", "tent"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["pine", "evergreen", "forest", "tree", "nature"]
+  },
+  {
+    unicode: "🌳",
+    name: "Deciduous Tree",
+    slug: "deciduous-tree",
+    shortMeaning: "A leafy green deciduous tree.",
+    detailedMeaning: "The Deciduous Tree emoji shows a round, leafy tree that loses its leaves in fall. It represents parks, shade, nature, and environmental themes.\n\nUsed for nature content, parks, environmental discussions, and general tree references.",
+    usageContexts: ["Nature", "Parks", "Environment", "Shade", "Green"],
+    examples: [
+      { context: "Park", text: "Picnic under the tree 🌳" },
+      { context: "Nature", text: "Tree hugger 🌳" },
+      { context: "Green", text: "Go green 🌳" }
+    ],
+    misunderstandings: ["Clear tree meaning"],
+    relatedEmojis: ["evergreen-tree", "fallen-leaf", "park"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["tree", "deciduous", "green", "park", "nature"]
+  },
+  {
+    unicode: "🌴",
+    name: "Palm Tree",
+    slug: "palm-tree",
+    shortMeaning: "A tropical palm tree.",
+    detailedMeaning: "The Palm Tree emoji shows a tropical palm tree, instantly evoking beaches, vacations, and warm climates. Palm trees are iconic symbols of tropical paradise.\n\nUsed for vacation content, beach themes, tropical vibes, and summer feeling.",
+    usageContexts: ["Vacation", "Beach", "Tropical", "Summer", "Paradise"],
+    examples: [
+      { context: "Vacation", text: "Beach vibes 🌴" },
+      { context: "Paradise", text: "Tropical paradise 🌴" },
+      { context: "Summer", text: "Summer mode 🌴" }
+    ],
+    misunderstandings: ["Clear tropical meaning"],
+    relatedEmojis: ["beach", "coconut", "hibiscus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["palm", "tropical", "beach", "vacation", "island"]
+  },
+  {
+    unicode: "🎋",
+    name: "Tanabata Tree",
+    slug: "tanabata-tree",
+    shortMeaning: "A bamboo tree with wishes for Tanabata.",
+    detailedMeaning: "The Tanabata Tree emoji shows a bamboo tree decorated with colorful paper wishes, used during the Japanese Tanabata festival. It represents wishes, Japanese culture, and celebration.\n\nUsed for Japanese festivals, making wishes, and cultural celebrations.",
+    usageContexts: ["Japan", "Festival", "Wishes", "Culture", "Celebration"],
+    examples: [
+      { context: "Tanabata", text: "Happy Tanabata 🎋" },
+      { context: "Wish", text: "Making a wish 🎋" },
+      { context: "Japan", text: "Japanese summer 🎋" }
+    ],
+    misunderstandings: ["Specific Japanese cultural meaning"],
+    relatedEmojis: ["bamboo", "star", "wind-chime"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["tanabata", "bamboo", "wish", "Japan", "festival"]
+  },
+  {
+    unicode: "🎍",
+    name: "Pine Decoration",
+    slug: "pine-decoration",
+    shortMeaning: "A Japanese New Year pine decoration.",
+    detailedMeaning: "The Pine Decoration emoji shows kadomatsu, a traditional Japanese New Year decoration made of pine and bamboo. It represents Japanese New Year traditions and fresh starts.\n\nUsed for Japanese New Year greetings and cultural celebrations.",
+    usageContexts: ["New Year", "Japan", "Tradition", "Celebration", "Fresh start"],
+    examples: [
+      { context: "New Year", text: "Happy New Year 🎍" },
+      { context: "Japan", text: "Akemashite omedetou 🎍" },
+      { context: "Fresh", text: "New beginnings 🎍" }
+    ],
+    misunderstandings: ["Specific Japanese cultural meaning"],
+    relatedEmojis: ["new-year", "fireworks", "sake"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["kadomatsu", "pine", "New Year", "Japan", "tradition"]
+  },
+  {
+    unicode: "🍀",
+    name: "Four Leaf Clover",
+    slug: "four-leaf-clover",
+    shortMeaning: "A lucky four-leaf clover.",
+    detailedMeaning: "The Four Leaf Clover emoji represents luck and good fortune, as finding a four-leaf clover is rare. It's associated with Irish culture and St. Patrick's Day.\n\nUsed for wishing luck, Irish themes, and expressing hope for good fortune.",
+    usageContexts: ["Luck", "Irish", "St. Patrick's Day", "Fortune", "Hope"],
+    examples: [
+      { context: "Luck", text: "Good luck 🍀" },
+      { context: "Irish", text: "Happy St. Paddy's 🍀" },
+      { context: "Hope", text: "Fingers crossed 🍀" }
+    ],
+    misunderstandings: ["Clear luck meaning"],
+    relatedEmojis: ["shamrock", "leprechaun", "rainbow"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["clover", "luck", "Irish", "fortune", "green"]
+  },
+  {
+    unicode: "☘️",
+    name: "Shamrock",
+    slug: "shamrock",
+    shortMeaning: "A three-leaf shamrock - symbol of Ireland.",
+    detailedMeaning: "The Shamrock emoji shows a three-leaf clover, the national symbol of Ireland. Unlike the four-leaf clover, this is the traditional Irish shamrock used by St. Patrick.\n\nUsed for Irish themes, St. Patrick's Day, and Irish pride.",
+    usageContexts: ["Ireland", "St. Patrick's Day", "Irish", "Green", "Celtic"],
+    examples: [
+      { context: "Irish", text: "Irish pride ☘️" },
+      { context: "St. Patrick", text: "Erin go bragh ☘️" },
+      { context: "Green", text: "Wearing green ☘️" }
+    ],
+    misunderstandings: ["Different from four-leaf clover"],
+    relatedEmojis: ["four-leaf-clover", "irish-flag", "green-heart"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["shamrock", "Ireland", "Irish", "St. Patrick", "Celtic"]
+  },
+  {
+    unicode: "🍃",
+    name: "Leaf Fluttering in Wind",
+    slug: "leaf-fluttering-in-wind",
+    shortMeaning: "Green leaves blowing in the wind.",
+    detailedMeaning: "The Leaf Fluttering in Wind emoji shows green leaves being carried by the wind. It represents nature, fresh air, and peaceful outdoor moments.\n\nUsed for nature content, breezy weather, fresh feelings, and tranquil moments.",
+    usageContexts: ["Nature", "Wind", "Fresh", "Peaceful", "Breeze"],
+    examples: [
+      { context: "Fresh", text: "Fresh breeze 🍃" },
+      { context: "Nature", text: "Nature walk 🍃" },
+      { context: "Calm", text: "Peaceful day 🍃" }
+    ],
+    misunderstandings: ["Sometimes associated with marijuana"],
+    relatedEmojis: ["wind", "fallen-leaf", "herb"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["leaf", "wind", "breeze", "nature", "fresh"]
+  },
+  {
+    unicode: "🍂",
+    name: "Fallen Leaf",
+    slug: "fallen-leaf",
+    shortMeaning: "Autumn fallen leaves.",
+    detailedMeaning: "The Fallen Leaf emoji shows dried, autumn-colored leaves, representing fall season, change, and the passage of time. Fallen leaves evoke nostalgia and seasonal transitions.\n\nUsed for autumn content, seasonal changes, and cozy fall vibes.",
+    usageContexts: ["Autumn", "Fall", "Change", "Seasonal", "Cozy"],
+    examples: [
+      { context: "Fall", text: "Fall vibes 🍂" },
+      { context: "Autumn", text: "Autumn is here 🍂" },
+      { context: "Cozy", text: "Sweater weather 🍂" }
+    ],
+    misunderstandings: ["Clear autumn meaning"],
+    relatedEmojis: ["maple-leaf", "pumpkin", "hot-beverage"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["autumn", "fall", "leaves", "seasonal", "change"]
+  },
+  {
+    unicode: "🍁",
+    name: "Maple Leaf",
+    slug: "maple-leaf",
+    shortMeaning: "A red maple leaf - symbol of Canada.",
+    detailedMeaning: "The Maple Leaf emoji shows a red maple leaf, the national symbol of Canada. It also represents autumn and fall foliage.\n\nUsed for Canadian content, fall themes, and autumn appreciation.",
+    usageContexts: ["Canada", "Autumn", "Fall", "Nature", "Seasons"],
+    examples: [
+      { context: "Canada", text: "Oh Canada 🍁" },
+      { context: "Fall", text: "Autumn colors 🍁" },
+      { context: "Nature", text: "Fall foliage 🍁" }
+    ],
+    misunderstandings: ["Clear Canada/autumn meaning"],
+    relatedEmojis: ["fallen-leaf", "canada-flag", "pumpkin"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["maple", "Canada", "autumn", "fall", "red"]
+  },
+  {
+    unicode: "🪴",
+    name: "Potted Plant",
+    slug: "potted-plant",
+    shortMeaning: "A houseplant in a pot.",
+    detailedMeaning: "The Potted Plant emoji shows a green plant in a terracotta pot, representing houseplants, indoor gardening, and plant parenthood. Houseplants are trendy for home decor.\n\nUsed for plant content, home decor, gardening, and the plant parent lifestyle.",
+    usageContexts: ["Houseplants", "Decor", "Gardening", "Home", "Green"],
+    examples: [
+      { context: "Plants", text: "Plant mom 🪴" },
+      { context: "Decor", text: "Home jungle 🪴" },
+      { context: "New", text: "New plant baby 🪴" }
+    ],
+    misunderstandings: ["Clear houseplant meaning"],
+    relatedEmojis: ["seedling", "herb", "cactus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["plant", "houseplant", "pot", "indoor", "decor"]
+  },
+  {
+    unicode: "🌱",
+    name: "Seedling",
+    slug: "seedling",
+    shortMeaning: "A young plant seedling sprouting.",
+    detailedMeaning: "The Seedling emoji shows a small green sprout emerging from the ground, representing new beginnings, growth, and environmental awareness. Seedlings symbolize potential.\n\nUsed for growth themes, new beginnings, environmental content, and starting fresh.",
+    usageContexts: ["Growth", "New beginnings", "Environment", "Potential", "Fresh start"],
+    examples: [
+      { context: "Growth", text: "Growing every day 🌱" },
+      { context: "New", text: "Fresh start 🌱" },
+      { context: "Green", text: "Go green 🌱" }
+    ],
+    misunderstandings: ["Clear growth meaning"],
+    relatedEmojis: ["potted-plant", "herb", "leaf"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["seedling", "growth", "plant", "new", "sprout"]
+  },
+  {
+    unicode: "🌿",
+    name: "Herb",
+    slug: "herb",
+    shortMeaning: "A green herb sprig.",
+    detailedMeaning: "The Herb emoji shows a green herb with multiple leaves. It can represent various herbs for cooking or sometimes marijuana.\n\nUsed for cooking content, natural themes, and sometimes cannabis references.",
+    usageContexts: ["Cooking", "Nature", "Fresh", "Green", "Cannabis"],
+    examples: [
+      { context: "Cooking", text: "Fresh herbs 🌿" },
+      { context: "Natural", text: "All natural 🌿" },
+      { context: "Fresh", text: "Fresh and green 🌿" }
+    ],
+    misunderstandings: ["Sometimes associated with marijuana"],
+    relatedEmojis: ["seedling", "leaf", "salad"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["herb", "green", "plant", "fresh", "natural"]
+  },
+  {
+    unicode: "🪹",
+    name: "Empty Nest",
+    slug: "empty-nest",
+    shortMeaning: "An empty bird's nest.",
+    detailedMeaning: "The Empty Nest emoji shows a bird's nest without eggs, representing the 'empty nest' feeling when children leave home, or simply a nest.\n\nUsed for empty nest syndrome, nature content, and home themes.",
+    usageContexts: ["Empty nest", "Nature", "Home", "Birds", "Parenting"],
+    examples: [
+      { context: "Kids", text: "Empty nester now 🪹" },
+      { context: "Nature", text: "Bird's home 🪹" },
+      { context: "Quiet", text: "Quiet house 🪹" }
+    ],
+    misunderstandings: ["Emotional family meaning"],
+    relatedEmojis: ["nest-with-eggs", "bird", "house"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["nest", "empty", "bird", "home", "parenting"]
+  },
+  {
+    unicode: "🪺",
+    name: "Nest with Eggs",
+    slug: "nest-with-eggs",
+    shortMeaning: "A bird's nest with eggs.",
+    detailedMeaning: "The Nest with Eggs emoji shows a bird's nest containing eggs, representing family, new life, and nurturing. Nests with eggs symbolize anticipation and care.\n\nUsed for pregnancy announcements, family themes, spring, and nurturing content.",
+    usageContexts: ["Family", "Pregnancy", "Spring", "Nurturing", "New life"],
+    examples: [
+      { context: "Baby", text: "Baby announcement 🪺" },
+      { context: "Spring", text: "New life 🪺" },
+      { context: "Family", text: "Growing family 🪺" }
+    ],
+    misunderstandings: ["Can be pregnancy-related"],
+    relatedEmojis: ["baby-chick", "bird", "egg"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["nest", "eggs", "bird", "family", "spring"]
+  },
+  {
+    unicode: "🍄",
+    name: "Mushroom",
+    slug: "mushroom",
+    shortMeaning: "A red and white spotted mushroom.",
+    detailedMeaning: "The Mushroom emoji shows a classic red and white spotted toadstool, reminiscent of fairy tales and video games like Mario. It can also represent actual mushrooms or psychedelics.\n\nUsed for fairy tale themes, gaming references, food, and sometimes psychedelic culture.",
+    usageContexts: ["Fairy tales", "Gaming", "Food", "Nature", "Psychedelics"],
+    examples: [
+      { context: "Gaming", text: "Power up 🍄" },
+      { context: "Fairy tale", text: "Magical forest 🍄" },
+      { context: "Food", text: "Mushroom risotto 🍄" }
+    ],
+    misunderstandings: ["Can reference psychedelics"],
+    relatedEmojis: ["fairy", "video-game", "forest"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["mushroom", "toadstool", "Mario", "fairy", "fungus"]
+  },
+  {
+    unicode: "🪨",
+    name: "Rock",
+    slug: "rock",
+    shortMeaning: "A solid gray rock or boulder.",
+    detailedMeaning: "The Rock emoji shows a large gray rock or boulder. It represents stability, strength, and reliability, or can be used literally for rocks and geology.\n\nUsed for expressing stability, rock climbing, geology, or 'you rock' expressions.",
+    usageContexts: ["Stability", "Strength", "Geology", "Nature", "Climbing"],
+    examples: [
+      { context: "Strong", text: "Solid as a rock 🪨" },
+      { context: "Thanks", text: "You rock 🪨" },
+      { context: "Nature", text: "Rock formations 🪨" }
+    ],
+    misunderstandings: ["Sometimes used for 'The Rock' Dwayne Johnson"],
+    relatedEmojis: ["mountain", "gem", "brick"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["rock", "stone", "boulder", "solid", "strong"]
+  },
+  {
+    unicode: "🪵",
+    name: "Wood",
+    slug: "wood",
+    shortMeaning: "A log of wood.",
+    detailedMeaning: "The Wood emoji shows a brown wooden log, representing lumber, campfires, and natural materials. Wood is associated with craftsmanship and outdoor activities.\n\nUsed for camping, woodworking, natural materials, and rustic themes.",
+    usageContexts: ["Camping", "Woodworking", "Natural", "Rustic", "Fire"],
+    examples: [
+      { context: "Camping", text: "Campfire time 🪵" },
+      { context: "Craft", text: "Woodworking project 🪵" },
+      { context: "Natural", text: "Natural materials 🪵" }
+    ],
+    misunderstandings: ["Clear wood meaning"],
+    relatedEmojis: ["fire", "axe", "carpenter"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["wood", "log", "lumber", "campfire", "natural"]
+  },
+  // WEATHER & SKY
+  {
+    unicode: "☀️",
+    name: "Sun",
+    slug: "sun",
+    shortMeaning: "A bright yellow sun.",
+    detailedMeaning: "The Sun emoji shows a bright yellow sun with rays, representing sunny weather, warmth, happiness, and positivity. The sun is a universal symbol of light and life.\n\nUsed for sunny weather, positive vibes, summer content, and expressing brightness.",
+    usageContexts: ["Weather", "Summer", "Positivity", "Warmth", "Bright"],
+    examples: [
+      { context: "Weather", text: "Sunny day ☀️" },
+      { context: "Happy", text: "Sunshine vibes ☀️" },
+      { context: "Summer", text: "Beach weather ☀️" }
+    ],
+    misunderstandings: ["Clear sun meaning"],
+    relatedEmojis: ["sunflower", "beach", "rainbow"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["sun", "sunny", "bright", "warm", "summer"]
+  },
+  {
+    unicode: "🌤️",
+    name: "Sun Behind Small Cloud",
+    slug: "sun-behind-small-cloud",
+    shortMeaning: "Partly cloudy with sun.",
+    detailedMeaning: "The Sun Behind Small Cloud emoji shows the sun partially covered by a small cloud, representing partly cloudy or fair weather. It's a pleasant weather condition.\n\nUsed for weather updates, pleasant days, and mild conditions.",
+    usageContexts: ["Weather", "Partly cloudy", "Pleasant", "Fair", "Mild"],
+    examples: [
+      { context: "Weather", text: "Nice day out 🌤️" },
+      { context: "Forecast", text: "Partly cloudy 🌤️" },
+      { context: "Plans", text: "Good for a walk 🌤️" }
+    ],
+    misunderstandings: ["Clear weather meaning"],
+    relatedEmojis: ["sun", "cloud", "sun-behind-cloud"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["sun", "cloud", "partly cloudy", "fair", "weather"]
+  },
+  {
+    unicode: "⛅",
+    name: "Sun Behind Cloud",
+    slug: "sun-behind-cloud",
+    shortMeaning: "Partly cloudy weather.",
+    detailedMeaning: "The Sun Behind Cloud emoji shows the sun half-covered by a cloud, representing partly cloudy conditions. It indicates mixed weather that's neither fully sunny nor overcast.\n\nUsed for weather descriptions and moderate conditions.",
+    usageContexts: ["Weather", "Partly cloudy", "Mixed", "Moderate", "Forecast"],
+    examples: [
+      { context: "Weather", text: "Partly cloudy today ⛅" },
+      { context: "Forecast", text: "Mixed conditions ⛅" },
+      { context: "Mood", text: "Meh kind of day ⛅" }
+    ],
+    misunderstandings: ["Standard weather emoji"],
+    relatedEmojis: ["sun", "cloud", "sun-behind-rain-cloud"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["partly cloudy", "weather", "sun", "cloud", "mixed"]
+  },
+  {
+    unicode: "🌥️",
+    name: "Sun Behind Large Cloud",
+    slug: "sun-behind-large-cloud",
+    shortMeaning: "Mostly cloudy with some sun.",
+    detailedMeaning: "The Sun Behind Large Cloud emoji shows mostly cloudy conditions with the sun peeking from behind a large cloud. It represents overcast weather with occasional brightness.\n\nUsed for cloudy weather updates and gloomy days.",
+    usageContexts: ["Weather", "Cloudy", "Overcast", "Gloomy", "Forecast"],
+    examples: [
+      { context: "Weather", text: "Mostly cloudy 🌥️" },
+      { context: "Gloomy", text: "Gray day 🌥️" },
+      { context: "Mood", text: "Cloudy mood 🌥️" }
+    ],
+    misunderstandings: ["Clear weather meaning"],
+    relatedEmojis: ["cloud", "sun-behind-cloud", "fog"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["cloudy", "overcast", "weather", "gray", "gloomy"]
+  },
+  {
+    unicode: "☁️",
+    name: "Cloud",
+    slug: "cloud",
+    shortMeaning: "A white fluffy cloud.",
+    detailedMeaning: "The Cloud emoji shows a simple white cloud, representing cloudy weather, cloud computing, or dreamy/floaty feelings.\n\nUsed for weather, cloud technology, daydreaming, and soft aesthetic.",
+    usageContexts: ["Weather", "Technology", "Dreamy", "Soft", "Fluffy"],
+    examples: [
+      { context: "Weather", text: "Cloudy day ☁️" },
+      { context: "Tech", text: "Cloud storage ☁️" },
+      { context: "Dreamy", text: "Head in the clouds ☁️" }
+    ],
+    misunderstandings: ["Tech vs weather context"],
+    relatedEmojis: ["sun-behind-cloud", "fog", "rain"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["cloud", "cloudy", "weather", "computing", "fluffy"]
+  },
+  {
+    unicode: "🌦️",
+    name: "Sun Behind Rain Cloud",
+    slug: "sun-behind-rain-cloud",
+    shortMeaning: "Sun with rain showers.",
+    detailedMeaning: "The Sun Behind Rain Cloud emoji shows a rain shower while the sun is visible, often creating rainbow conditions. It represents mixed weather with sunshine and rain.\n\nUsed for sun showers, unpredictable weather, and rainbow-making conditions.",
+    usageContexts: ["Weather", "Sun shower", "Rain", "Mixed", "Rainbow"],
+    examples: [
+      { context: "Weather", text: "Sun shower 🌦️" },
+      { context: "Mixed", text: "Crazy weather 🌦️" },
+      { context: "Rainbow", text: "Rainbow weather 🌦️" }
+    ],
+    misunderstandings: ["Unusual weather condition"],
+    relatedEmojis: ["rainbow", "rain", "sun"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["sun shower", "rain", "mixed", "weather", "rainbow"]
+  },
+  {
+    unicode: "🌧️",
+    name: "Cloud with Rain",
+    slug: "cloud-with-rain",
+    shortMeaning: "Rainy weather.",
+    detailedMeaning: "The Cloud with Rain emoji shows a dark cloud with raindrops falling, representing rainy weather. Rain can symbolize sadness, coziness, or renewal depending on context.\n\nUsed for rainy weather, sad feelings, cozy indoor days, and cleansing themes.",
+    usageContexts: ["Weather", "Rain", "Sad", "Cozy", "Indoor"],
+    examples: [
+      { context: "Weather", text: "Rainy day 🌧️" },
+      { context: "Cozy", text: "Perfect for staying in 🌧️" },
+      { context: "Mood", text: "Feeling blue 🌧️" }
+    ],
+    misunderstandings: ["Can imply sadness"],
+    relatedEmojis: ["umbrella", "rain", "cloud"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["rain", "rainy", "weather", "wet", "storm"]
+  },
+  {
+    unicode: "⛈️",
+    name: "Cloud with Lightning and Rain",
+    slug: "cloud-with-lightning-and-rain",
+    shortMeaning: "Thunderstorm weather.",
+    detailedMeaning: "The Cloud with Lightning and Rain emoji shows a severe thunderstorm with lightning and rain. It represents intense weather, drama, or powerful emotions.\n\nUsed for storm warnings, dramatic situations, and intense feelings.",
+    usageContexts: ["Weather", "Storm", "Drama", "Intense", "Power"],
+    examples: [
+      { context: "Weather", text: "Thunderstorm alert ⛈️" },
+      { context: "Drama", text: "Things got intense ⛈️" },
+      { context: "Power", text: "Electric energy ⛈️" }
+    ],
+    misunderstandings: ["Indicates severe weather"],
+    relatedEmojis: ["lightning", "rain", "tornado"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["storm", "thunder", "lightning", "rain", "severe"]
+  },
+  {
+    unicode: "🌩️",
+    name: "Cloud with Lightning",
+    slug: "cloud-with-lightning",
+    shortMeaning: "Lightning storm without rain.",
+    detailedMeaning: "The Cloud with Lightning emoji shows a cloud with lightning bolt, representing electrical storms or sudden inspiration. Lightning symbolizes power and sudden events.\n\nUsed for storms, sudden ideas, power, and dramatic moments.",
+    usageContexts: ["Storm", "Power", "Ideas", "Sudden", "Electric"],
+    examples: [
+      { context: "Storm", text: "Lightning storm 🌩️" },
+      { context: "Idea", text: "Struck by inspiration 🌩️" },
+      { context: "Power", text: "Electric vibes 🌩️" }
+    ],
+    misunderstandings: ["Dramatic weather"],
+    relatedEmojis: ["high-voltage", "cloud", "storm"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["lightning", "storm", "electric", "thunder", "power"]
+  },
+  {
+    unicode: "🌨️",
+    name: "Cloud with Snow",
+    slug: "cloud-with-snow",
+    shortMeaning: "Snowy weather.",
+    detailedMeaning: "The Cloud with Snow emoji shows a cloud dropping snowflakes, representing winter weather, snow days, and cold conditions.\n\nUsed for snow forecasts, winter content, and cold weather discussions.",
+    usageContexts: ["Weather", "Snow", "Winter", "Cold", "Forecast"],
+    examples: [
+      { context: "Weather", text: "Snow day 🌨️" },
+      { context: "Winter", text: "Snowing outside 🌨️" },
+      { context: "Cold", text: "Bundle up 🌨️" }
+    ],
+    misunderstandings: ["Clear winter weather meaning"],
+    relatedEmojis: ["snowflake", "snowman", "cold-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["snow", "winter", "cold", "weather", "blizzard"]
+  },
+  {
+    unicode: "❄️",
+    name: "Snowflake",
+    slug: "snowflake",
+    shortMeaning: "A detailed snowflake crystal.",
+    detailedMeaning: "The Snowflake emoji shows a detailed ice crystal, representing winter, cold, uniqueness (like each snowflake), or as slang for sensitive people.\n\nUsed for winter themes, cold weather, uniqueness, and sometimes as an insult.",
+    usageContexts: ["Winter", "Cold", "Unique", "Snow", "Sensitive"],
+    examples: [
+      { context: "Winter", text: "Winter wonderland ❄️" },
+      { context: "Cold", text: "Freezing out ❄️" },
+      { context: "Unique", text: "One of a kind ❄️" }
+    ],
+    misunderstandings: ["'Snowflake' can be derogatory"],
+    relatedEmojis: ["cloud-with-snow", "cold-face", "ice"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["snowflake", "winter", "cold", "unique", "ice"]
+  },
+  {
+    unicode: "🌪️",
+    name: "Tornado",
+    slug: "tornado",
+    shortMeaning: "A destructive tornado.",
+    detailedMeaning: "The Tornado emoji shows a destructive twister/tornado, representing severe weather, chaos, or moving through life quickly.\n\nUsed for tornado warnings, chaotic situations, and whirlwind activities.",
+    usageContexts: ["Weather", "Chaos", "Disaster", "Fast", "Whirlwind"],
+    examples: [
+      { context: "Weather", text: "Tornado warning 🌪️" },
+      { context: "Chaos", text: "What a whirlwind 🌪️" },
+      { context: "Busy", text: "Crazy busy week 🌪️" }
+    ],
+    misunderstandings: ["Serious weather warning"],
+    relatedEmojis: ["wind-face", "storm", "cyclone"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["tornado", "twister", "storm", "disaster", "wind"]
+  },
+  {
+    unicode: "🌫️",
+    name: "Fog",
+    slug: "fog",
+    shortMeaning: "Foggy or misty conditions.",
+    detailedMeaning: "The Fog emoji represents foggy, misty conditions with reduced visibility. Fog can symbolize mystery, uncertainty, or early morning atmospheres.\n\nUsed for weather updates, mysterious vibes, and unclear situations.",
+    usageContexts: ["Weather", "Mystery", "Unclear", "Misty", "Atmosphere"],
+    examples: [
+      { context: "Weather", text: "Foggy morning 🌫️" },
+      { context: "Mystery", text: "Things are hazy 🌫️" },
+      { context: "Mood", text: "Mysterious vibes 🌫️" }
+    ],
+    misunderstandings: ["Can mean confusion"],
+    relatedEmojis: ["cloud", "mist", "bridge-at-night"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["fog", "mist", "hazy", "weather", "unclear"]
+  },
+  {
+    unicode: "💨",
+    name: "Dashing Away",
+    slug: "dashing-away",
+    shortMeaning: "Wind or running fast.",
+    detailedMeaning: "The Dashing Away emoji shows a puff of wind/air, often used to represent speed, running away quickly, or passing gas (fart humor).\n\nUsed for speed, wind, leaving quickly, and sometimes flatulence humor.",
+    usageContexts: ["Speed", "Wind", "Running", "Fast", "Gas"],
+    examples: [
+      { context: "Fast", text: "Gotta run 💨" },
+      { context: "Wind", text: "Windy day 💨" },
+      { context: "Quick", text: "Zoom zoom 💨" }
+    ],
+    misunderstandings: ["Often used for fart jokes"],
+    relatedEmojis: ["wind-face", "runner", "dash"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["wind", "fast", "running", "speed", "dash"]
+  },
+  {
+    unicode: "🌈",
+    name: "Rainbow",
+    slug: "rainbow",
+    shortMeaning: "A colorful rainbow.",
+    detailedMeaning: "The Rainbow emoji shows a colorful arc of rainbow colors, representing hope, LGBTQ+ pride, beauty after storms, and good fortune.\n\nUsed for LGBTQ+ content, hope, positivity, and beautiful weather moments.",
+    usageContexts: ["Pride", "Hope", "Beauty", "LGBTQ+", "Positivity"],
+    examples: [
+      { context: "Pride", text: "Happy Pride 🌈" },
+      { context: "Hope", text: "After the storm 🌈" },
+      { context: "Beautiful", text: "Look at that rainbow 🌈" }
+    ],
+    misunderstandings: ["Strong LGBTQ+ association"],
+    relatedEmojis: ["pride-flag", "sparkles", "sun"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["rainbow", "pride", "hope", "colorful", "LGBTQ"]
+  },
+  {
+    unicode: "🌙",
+    name: "Crescent Moon",
+    slug: "crescent-moon",
+    shortMeaning: "A crescent moon.",
+    detailedMeaning: "The Crescent Moon emoji shows a waxing or waning crescent moon, representing nighttime, sleep, dreams, and Islamic symbolism.\n\nUsed for night content, sleep themes, Ramadan, and mystical aesthetics.",
+    usageContexts: ["Night", "Sleep", "Dreams", "Islamic", "Mystical"],
+    examples: [
+      { context: "Night", text: "Good night 🌙" },
+      { context: "Sleep", text: "Time for bed 🌙" },
+      { context: "Ramadan", text: "Ramadan Mubarak 🌙" }
+    ],
+    misunderstandings: ["Islamic significance"],
+    relatedEmojis: ["full-moon", "star", "night"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["moon", "night", "crescent", "sleep", "dreams"]
+  },
+  {
+    unicode: "🌕",
+    name: "Full Moon",
+    slug: "full-moon",
+    shortMeaning: "A bright full moon.",
+    detailedMeaning: "The Full Moon emoji shows a complete circular moon, representing full moons, werewolf jokes, and lunacy/craziness.\n\nUsed for full moon events, night content, and 'crazy' behavior references.",
+    usageContexts: ["Moon", "Night", "Werewolf", "Lunacy", "Full moon"],
+    examples: [
+      { context: "Moon", text: "Full moon tonight 🌕" },
+      { context: "Crazy", text: "Full moon energy 🌕" },
+      { context: "Night", text: "Beautiful moon 🌕" }
+    ],
+    misunderstandings: ["Associated with 'lunacy'"],
+    relatedEmojis: ["crescent-moon", "wolf", "night"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["full moon", "moon", "night", "werewolf", "lunar"]
+  },
+  {
+    unicode: "🌑",
+    name: "New Moon",
+    slug: "new-moon",
+    shortMeaning: "A dark new moon.",
+    detailedMeaning: "The New Moon emoji shows a completely dark moon (new moon phase), representing new beginnings, darkness, or lunar cycles.\n\nUsed for moon phases, new beginnings, and dark aesthetics.",
+    usageContexts: ["Moon phase", "New beginning", "Dark", "Lunar", "Cycle"],
+    examples: [
+      { context: "Phase", text: "New moon tonight 🌑" },
+      { context: "New", text: "Fresh start 🌑" },
+      { context: "Dark", text: "Dark vibes 🌑" }
+    ],
+    misunderstandings: ["Represents dark/new phase"],
+    relatedEmojis: ["full-moon", "crescent-moon", "star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["new moon", "dark", "moon", "lunar", "phase"]
+  },
+  {
+    unicode: "⭐",
+    name: "Star",
+    slug: "star",
+    shortMeaning: "A golden star.",
+    detailedMeaning: "The Star emoji shows a classic golden star, representing excellence, ratings, achievements, and celestial objects. Stars symbolize brilliance and aspiration.\n\nUsed for ratings, achievements, favorites, and expressing excellence.",
+    usageContexts: ["Rating", "Achievement", "Excellent", "Favorite", "Night sky"],
+    examples: [
+      { context: "Rating", text: "5 stars ⭐" },
+      { context: "Excellent", text: "You're a star ⭐" },
+      { context: "Favorite", text: "Starred this ⭐" }
+    ],
+    misunderstandings: ["Clear positive meaning"],
+    relatedEmojis: ["glowing-star", "sparkles", "trophy"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["star", "rating", "excellent", "gold", "achievement"]
+  },
+  {
+    unicode: "🌟",
+    name: "Glowing Star",
+    slug: "glowing-star",
+    shortMeaning: "A sparkling, glowing star.",
+    detailedMeaning: "The Glowing Star emoji shows a star with sparkle effects, representing something special, magical, or outstanding. It's more emphatic than the regular star.\n\nUsed for highlighting excellence, magic, and special moments.",
+    usageContexts: ["Special", "Magic", "Outstanding", "Highlight", "Excellence"],
+    examples: [
+      { context: "Special", text: "You're amazing 🌟" },
+      { context: "Magic", text: "Magical moment 🌟" },
+      { context: "Highlight", text: "Star of the show 🌟" }
+    ],
+    misunderstandings: ["Clear positive meaning"],
+    relatedEmojis: ["star", "sparkles", "shooting-star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["star", "glowing", "special", "magic", "sparkle"]
+  },
+  {
+    unicode: "💫",
+    name: "Dizzy",
+    slug: "dizzy-star",
+    shortMeaning: "Stars orbiting - dizziness or amazement.",
+    detailedMeaning: "The Dizzy emoji shows a star with a swirl, representing dizziness, seeing stars after impact, or being starstruck/amazed.\n\nUsed for dizziness, amazement, and whimsical/magical feelings.",
+    usageContexts: ["Dizzy", "Amazed", "Starstruck", "Impact", "Magical"],
+    examples: [
+      { context: "Dizzy", text: "Spinning 💫" },
+      { context: "Amazed", text: "Mind blown 💫" },
+      { context: "Magic", text: "Magical vibes 💫" }
+    ],
+    misunderstandings: ["Can mean dizziness or amazement"],
+    relatedEmojis: ["sparkles", "star", "collision"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["dizzy", "star", "spinning", "amazed", "magical"]
+  },
+  {
+    unicode: "✨",
+    name: "Sparkles",
+    slug: "sparkles",
+    shortMeaning: "Magical sparkles.",
+    detailedMeaning: "The Sparkles emoji shows three sparkle stars, representing magic, glamour, excitement, and adding flair to messages. It's one of the most popular aesthetic emojis.\n\nUsed to add emphasis, excitement, magic, and aesthetic flair to any message.",
+    usageContexts: ["Magic", "Glamour", "Excitement", "Aesthetic", "Emphasis"],
+    examples: [
+      { context: "Excited", text: "So excited ✨" },
+      { context: "New", text: "Fresh start ✨" },
+      { context: "Pretty", text: "Looking good ✨" }
+    ],
+    misunderstandings: ["Very versatile - rarely misunderstood"],
+    relatedEmojis: ["star", "glowing-star", "magic-wand"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["sparkles", "magic", "glamour", "shiny", "aesthetic"]
+  },
+  {
+    unicode: "☄️",
+    name: "Comet",
+    slug: "comet",
+    shortMeaning: "A comet with a tail.",
+    detailedMeaning: "The Comet emoji shows a comet streaking through space with its tail. Comets represent rare events, speed, and cosmic phenomena.\n\nUsed for space content, rare occurrences, and dramatic entrances/exits.",
+    usageContexts: ["Space", "Rare", "Speed", "Cosmic", "Dramatic"],
+    examples: [
+      { context: "Rare", text: "Once in a lifetime ☄️" },
+      { context: "Fast", text: "Blazing through ☄️" },
+      { context: "Space", text: "Cosmic vibes ☄️" }
+    ],
+    misunderstandings: ["Sometimes confused with meteor"],
+    relatedEmojis: ["shooting-star", "rocket", "star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["comet", "space", "cosmic", "rare", "tail"]
+  },
+  {
+    unicode: "🌊",
+    name: "Water Wave",
+    slug: "water-wave",
+    shortMeaning: "A large ocean wave.",
+    detailedMeaning: "The Water Wave emoji shows a large curling ocean wave, representing the sea, surfing, and powerful water. It's inspired by Hokusai's famous wave artwork.\n\nUsed for beach/ocean content, surfing, and making waves (impact).",
+    usageContexts: ["Ocean", "Beach", "Surfing", "Impact", "Water"],
+    examples: [
+      { context: "Beach", text: "Beach day 🌊" },
+      { context: "Surf", text: "Catching waves 🌊" },
+      { context: "Impact", text: "Making waves 🌊" }
+    ],
+    misunderstandings: ["Clear water meaning"],
+    relatedEmojis: ["beach", "surfer", "dolphin"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["wave", "ocean", "water", "beach", "surf"]
+  },
+  {
+    unicode: "🔥",
+    name: "Fire",
+    slug: "fire",
+    shortMeaning: "Flames - something hot or awesome.",
+    detailedMeaning: "The Fire emoji shows orange/red flames, representing literal fire, something hot/attractive, something excellent, or trending content.\n\nUsed extensively to express that something is amazing, hot, or exciting. One of the most popular emojis.",
+    usageContexts: ["Hot", "Awesome", "Trending", "Attractive", "Intense"],
+    examples: [
+      { context: "Amazing", text: "This is fire 🔥" },
+      { context: "Hot", text: "Looking hot 🔥" },
+      { context: "Trending", text: "Trending now 🔥" }
+    ],
+    misunderstandings: ["Very versatile - widely understood"],
+    relatedEmojis: ["hundred-points", "star-struck", "hot-face"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["fire", "hot", "lit", "awesome", "flames"]
+  },
+  {
+    unicode: "💧",
+    name: "Droplet",
+    slug: "droplet",
+    shortMeaning: "A water droplet.",
+    detailedMeaning: "The Droplet emoji shows a single water drop, representing water, sweat, tears, or sometimes used suggestively.\n\nUsed for water content, sweating, hydration, and various contexts involving liquids.",
+    usageContexts: ["Water", "Sweat", "Tears", "Hydration", "Liquid"],
+    examples: [
+      { context: "Water", text: "Stay hydrated 💧" },
+      { context: "Sweat", text: "What a workout 💧" },
+      { context: "Tears", text: "Crying 💧" }
+    ],
+    misunderstandings: ["Can be suggestive in certain contexts"],
+    relatedEmojis: ["sweat-droplets", "water-wave", "rain"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["water", "drop", "sweat", "tear", "hydrate"]
+  },
+  {
+    unicode: "💦",
+    name: "Sweat Droplets",
+    slug: "sweat-droplets",
+    shortMeaning: "Multiple sweat or water droplets.",
+    detailedMeaning: "The Sweat Droplets emoji shows multiple water drops spraying, representing sweating from exercise, heat, nervousness, or sometimes used suggestively.\n\nUsed for workouts, heat, exertion, and various adult contexts.",
+    usageContexts: ["Sweat", "Exercise", "Hot", "Effort", "Suggestive"],
+    examples: [
+      { context: "Workout", text: "Post-gym 💦" },
+      { context: "Hot", text: "So hot today 💦" },
+      { context: "Work", text: "Working hard 💦" }
+    ],
+    misunderstandings: ["Often used suggestively"],
+    relatedEmojis: ["droplet", "hot-face", "exercise"],
+    categorySlug: "animals-and-nature",
+    subgroup: "sky-weather",
+    keywords: ["sweat", "splash", "water", "workout", "hot"]
+  },
   // FOOD & DRINK
   {
     unicode: "🍕",
