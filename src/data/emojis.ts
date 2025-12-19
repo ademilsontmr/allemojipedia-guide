@@ -1322,6 +1322,438 @@ export const emojis: Emoji[] = [
     keywords: ["handshake", "deal", "agreement", "partner", "business"]
   },
   {
+    unicode: "🖐️",
+    name: "Hand with Fingers Splayed",
+    slug: "hand-with-fingers-splayed",
+    shortMeaning: "An open hand with fingers spread wide.",
+    detailedMeaning: "The Hand with Fingers Splayed emoji shows an open palm with fingers spread apart. It represents openness, high fives, stopping, or the number five.\n\nUsed for high fives, saying stop, or showing open honesty.",
+    usageContexts: ["High Five", "Stop", "Open", "Five", "Greeting"],
+    examples: [
+      { context: "High Five", text: "High five! 🖐️" },
+      { context: "Stop", text: "Wait right there 🖐️" },
+      { context: "Counting", text: "Five more minutes 🖐️" }
+    ],
+    misunderstandings: ["Clear open hand meaning"],
+    relatedEmojis: ["waving-hand", "raised-hand", "vulcan-salute"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["open hand", "high five", "stop", "five", "splayed"]
+  },
+  {
+    unicode: "🖖",
+    name: "Vulcan Salute",
+    slug: "vulcan-salute",
+    shortMeaning: "The Vulcan greeting - 'Live long and prosper.'",
+    detailedMeaning: "The Vulcan Salute emoji shows a hand with fingers split between middle and ring finger. It's the famous Star Trek greeting meaning 'Live long and prosper.'\n\nUsed by Star Trek fans, for sci-fi references, or as a nerdy greeting.",
+    usageContexts: ["Star Trek", "Sci-Fi", "Greeting", "Nerdy", "Peace"],
+    examples: [
+      { context: "Star Trek", text: "Live long and prosper 🖖" },
+      { context: "Farewell", text: "See you later 🖖" },
+      { context: "Nerdy", text: "Trekkie vibes 🖖" }
+    ],
+    misunderstandings: ["May not be recognized by non-Star Trek fans"],
+    relatedEmojis: ["waving-hand", "hand-with-fingers-splayed", "rocket"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["vulcan", "star trek", "spock", "prosper", "salute"]
+  },
+  {
+    unicode: "🤌",
+    name: "Pinched Fingers",
+    slug: "pinched-fingers",
+    shortMeaning: "Italian hand gesture - 'What do you want?' or 'Perfect!'",
+    detailedMeaning: "The Pinched Fingers emoji shows fingers brought together in a pinch. It's the iconic Italian gesture that can mean 'What do you want?', 'Perfect!', or express emphasis.\n\nUsed for Italian references, expressing perfection, or adding dramatic flair.",
+    usageContexts: ["Italian", "Perfect", "Emphasis", "Questioning", "Chef's Kiss"],
+    examples: [
+      { context: "Italian", text: "Mamma mia! 🤌" },
+      { context: "Perfect", text: "This pasta is 🤌" },
+      { context: "Questioning", text: "What are you doing? 🤌" }
+    ],
+    misunderstandings: ["Cultural meaning varies - mostly associated with Italian gestures"],
+    relatedEmojis: ["ok-hand", "pinching-hand", "chef"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-partial",
+    keywords: ["pinched", "italian", "perfect", "what", "chef kiss"]
+  },
+  {
+    unicode: "🤏",
+    name: "Pinching Hand",
+    slug: "pinching-hand",
+    shortMeaning: "A small amount - 'just a little bit.'",
+    detailedMeaning: "The Pinching Hand emoji shows thumb and index finger close together, indicating a small amount. It's used to show something is tiny or to ask for just a little.\n\nUsed for indicating small quantities, measurements, or minimal amounts.",
+    usageContexts: ["Small", "Little Bit", "Tiny", "Amount", "Measurement"],
+    examples: [
+      { context: "Small", text: "Just a little 🤏" },
+      { context: "Tiny", text: "It's this big 🤏" },
+      { context: "Amount", text: "A pinch of salt 🤏" }
+    ],
+    misunderstandings: ["May be used sarcastically to minimize things"],
+    relatedEmojis: ["pinched-fingers", "ok-hand", "index-pointing-up"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-partial",
+    keywords: ["pinch", "small", "tiny", "little", "amount"]
+  },
+  {
+    unicode: "☝️",
+    name: "Index Pointing Up",
+    slug: "index-pointing-up",
+    shortMeaning: "Pointing up - 'one moment' or drawing attention.",
+    detailedMeaning: "The Index Pointing Up emoji shows a finger pointing upward. It's used to indicate 'one moment,' draw attention to something above, or represent the number one.\n\nUsed for asking to wait, pointing something out, or emphasizing importance.",
+    usageContexts: ["Wait", "Attention", "Number One", "Important", "Point"],
+    examples: [
+      { context: "Wait", text: "One second ☝️" },
+      { context: "Important", text: "This is key ☝️" },
+      { context: "Number", text: "Number one ☝️" }
+    ],
+    misunderstandings: ["Clear pointing meaning"],
+    relatedEmojis: ["backhand-index-pointing-up", "index-pointing-at-viewer", "raised-hand"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "up", "one", "wait", "attention"]
+  },
+  {
+    unicode: "👆",
+    name: "Backhand Index Pointing Up",
+    slug: "backhand-index-pointing-up",
+    shortMeaning: "Pointing upward - directing attention above.",
+    detailedMeaning: "The Backhand Index Pointing Up emoji shows the back of a hand with index finger pointing up. It's used to direct attention to something above or previously mentioned.\n\nUsed to reference something above in a conversation or on screen.",
+    usageContexts: ["Look Up", "Above", "Previous", "Direction", "Reference"],
+    examples: [
+      { context: "Above", text: "Read that 👆" },
+      { context: "Previous", text: "What they said 👆" },
+      { context: "Direction", text: "Scroll up 👆" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["index-pointing-up", "backhand-index-pointing-down", "up-arrow"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "up", "above", "look", "previous"]
+  },
+  {
+    unicode: "👇",
+    name: "Backhand Index Pointing Down",
+    slug: "backhand-index-pointing-down",
+    shortMeaning: "Pointing downward - directing attention below.",
+    detailedMeaning: "The Backhand Index Pointing Down emoji shows the back of a hand with index finger pointing down. It's used to direct attention to something below or following.\n\nUsed to indicate something coming next or to look below.",
+    usageContexts: ["Look Down", "Below", "Next", "Direction", "Following"],
+    examples: [
+      { context: "Below", text: "Check this out 👇" },
+      { context: "Next", text: "Link below 👇" },
+      { context: "Thread", text: "Thread 👇" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["backhand-index-pointing-up", "down-arrow", "index-pointing-up"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "down", "below", "look", "next"]
+  },
+  {
+    unicode: "👈",
+    name: "Backhand Index Pointing Left",
+    slug: "backhand-index-pointing-left",
+    shortMeaning: "Pointing left - directing attention to the left.",
+    detailedMeaning: "The Backhand Index Pointing Left emoji shows the back of a hand with index finger pointing left. It's used to direct attention to something on the left.\n\nUsed to indicate direction or point at something to the left.",
+    usageContexts: ["Look Left", "Direction", "Point", "That Way", "Reference"],
+    examples: [
+      { context: "Direction", text: "Over there 👈" },
+      { context: "Point", text: "This person 👈" },
+      { context: "Exit", text: "Exit that way 👈" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["backhand-index-pointing-right", "left-arrow", "index-pointing-up"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "left", "direction", "that", "way"]
+  },
+  {
+    unicode: "👉",
+    name: "Backhand Index Pointing Right",
+    slug: "backhand-index-pointing-right",
+    shortMeaning: "Pointing right - directing attention to the right.",
+    detailedMeaning: "The Backhand Index Pointing Right emoji shows the back of a hand with index finger pointing right. It's used to direct attention to something on the right.\n\nOften paired with other emojis to point at them or create memes.",
+    usageContexts: ["Look Right", "Direction", "Point", "This", "Reference"],
+    examples: [
+      { context: "Point", text: "You 👉😎👉" },
+      { context: "Direction", text: "Click here 👉" },
+      { context: "Emphasis", text: "This is it 👉" }
+    ],
+    misunderstandings: ["Clear directional meaning"],
+    relatedEmojis: ["backhand-index-pointing-left", "right-arrow", "index-pointing-up"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "right", "direction", "this", "click"]
+  },
+  {
+    unicode: "🫵",
+    name: "Index Pointing at the Viewer",
+    slug: "index-pointing-at-viewer",
+    shortMeaning: "Pointing at you - 'I'm talking to you!'",
+    detailedMeaning: "The Index Pointing at the Viewer emoji shows a finger pointing directly at the viewer. It's used to address someone directly, like the famous Uncle Sam poster.\n\nUsed for calling someone out, addressing the reader directly, or recruitment-style messaging.",
+    usageContexts: ["You", "Direct", "Calling Out", "Recruitment", "Address"],
+    examples: [
+      { context: "You", text: "Yes, you! 🫵" },
+      { context: "Direct", text: "I need you 🫵" },
+      { context: "Call Out", text: "Tag yourself 🫵" }
+    ],
+    misunderstandings: ["Can feel confrontational"],
+    relatedEmojis: ["index-pointing-up", "backhand-index-pointing-right", "eyes"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-single-finger",
+    keywords: ["point", "you", "viewer", "direct", "calling"]
+  },
+  {
+    unicode: "🤚",
+    name: "Raised Back of Hand",
+    slug: "raised-back-of-hand",
+    shortMeaning: "The back of a raised hand.",
+    detailedMeaning: "The Raised Back of Hand emoji shows the back of a raised hand. It's used for stopping, waiting, or as an alternative wave.\n\nUsed to say stop, wait, or as a variation of a raised hand gesture.",
+    usageContexts: ["Stop", "Wait", "Halt", "Raised Hand", "Attention"],
+    examples: [
+      { context: "Stop", text: "Hold on 🤚" },
+      { context: "Wait", text: "Wait a minute 🤚" },
+      { context: "Halt", text: "Stop right there 🤚" }
+    ],
+    misunderstandings: ["Clear stop/wait meaning"],
+    relatedEmojis: ["raised-hand", "hand-with-fingers-splayed", "stop-sign"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["back", "hand", "stop", "wait", "raised"]
+  },
+  {
+    unicode: "🫲",
+    name: "Leftwards Hand",
+    slug: "leftwards-hand",
+    shortMeaning: "A hand extended to the left.",
+    detailedMeaning: "The Leftwards Hand emoji shows an open hand pointing left. It's used for offering, directing, or gesturing to the left.\n\nUsed for handshakes, offering something, or pointing direction.",
+    usageContexts: ["Offer", "Direction", "Gesture", "Handshake", "Give"],
+    examples: [
+      { context: "Offer", text: "Here you go 🫲" },
+      { context: "Direction", text: "This way 🫲" },
+      { context: "Handshake", text: "Nice to meet you 🫲🫱" }
+    ],
+    misunderstandings: ["Clear directional gesture"],
+    relatedEmojis: ["rightwards-hand", "handshake", "waving-hand"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["left", "hand", "offer", "direction", "gesture"]
+  },
+  {
+    unicode: "🫱",
+    name: "Rightwards Hand",
+    slug: "rightwards-hand",
+    shortMeaning: "A hand extended to the right.",
+    detailedMeaning: "The Rightwards Hand emoji shows an open hand pointing right. It's used for offering, directing, or gesturing to the right.\n\nUsed for handshakes, offering something, or pointing direction.",
+    usageContexts: ["Offer", "Direction", "Gesture", "Handshake", "Give"],
+    examples: [
+      { context: "Offer", text: "Take this 🫱" },
+      { context: "Direction", text: "Over here 🫱" },
+      { context: "Handshake", text: "Shake hands 🫲🫱" }
+    ],
+    misunderstandings: ["Clear directional gesture"],
+    relatedEmojis: ["leftwards-hand", "handshake", "waving-hand"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["right", "hand", "offer", "direction", "gesture"]
+  },
+  {
+    unicode: "🫳",
+    name: "Palm Down Hand",
+    slug: "palm-down-hand",
+    shortMeaning: "A hand with palm facing down.",
+    detailedMeaning: "The Palm Down Hand emoji shows a hand with the palm facing downward. It's used for calming down, lowering something, or dropping gestures.\n\nUsed to indicate calming down, lowering volume, or settling things.",
+    usageContexts: ["Calm Down", "Lower", "Drop", "Settle", "Relax"],
+    examples: [
+      { context: "Calm", text: "Easy now 🫳" },
+      { context: "Lower", text: "Keep it down 🫳" },
+      { context: "Settle", text: "Let's settle this 🫳" }
+    ],
+    misunderstandings: ["Clear calming gesture"],
+    relatedEmojis: ["palm-up-hand", "raised-hand", "stop-sign"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["palm", "down", "calm", "lower", "settle"]
+  },
+  {
+    unicode: "🫴",
+    name: "Palm Up Hand",
+    slug: "palm-up-hand",
+    shortMeaning: "A hand with palm facing up - offering or asking.",
+    detailedMeaning: "The Palm Up Hand emoji shows a hand with the palm facing upward. It's used for offering, asking, or presenting something.\n\nUsed to indicate offering, beckoning, or presenting something to someone.",
+    usageContexts: ["Offer", "Ask", "Present", "Beckon", "Give"],
+    examples: [
+      { context: "Offer", text: "Here, take it 🫴" },
+      { context: "Ask", text: "May I? 🫴" },
+      { context: "Present", text: "Ta-da! 🫴" }
+    ],
+    misunderstandings: ["Clear offering gesture"],
+    relatedEmojis: ["palm-down-hand", "open-hands", "folded-hands"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-open",
+    keywords: ["palm", "up", "offer", "ask", "present"]
+  },
+  {
+    unicode: "🫰",
+    name: "Hand with Index Finger and Thumb Crossed",
+    slug: "hand-with-index-finger-and-thumb-crossed",
+    shortMeaning: "A gesture meaning money or love (Korean heart).",
+    detailedMeaning: "The Hand with Index Finger and Thumb Crossed emoji shows fingers forming a snapping position or money gesture. It can represent money, a snap, or the Korean finger heart.\n\nUsed for money references, snapping, or as a cute heart gesture.",
+    usageContexts: ["Money", "Snap", "Korean Heart", "Love", "Expensive"],
+    examples: [
+      { context: "Money", text: "Cha-ching 🫰" },
+      { context: "Love", text: "Finger heart 🫰" },
+      { context: "Snap", text: "Just like that 🫰" }
+    ],
+    misunderstandings: ["Multiple meanings depending on culture"],
+    relatedEmojis: ["money-bag", "heart", "ok-hand"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-partial",
+    keywords: ["money", "snap", "heart", "korean", "finger"]
+  },
+  {
+    unicode: "🤙",
+    name: "Call Me Hand",
+    slug: "call-me-hand",
+    shortMeaning: "The 'call me' or 'shaka' gesture.",
+    detailedMeaning: "The Call Me Hand emoji shows a hand with thumb and pinky extended. It represents 'call me' or the Hawaiian shaka sign meaning 'hang loose.'\n\nUsed for asking someone to call, surf culture references, or laid-back vibes.",
+    usageContexts: ["Call Me", "Shaka", "Hang Loose", "Surf", "Chill"],
+    examples: [
+      { context: "Call", text: "Call me later 🤙" },
+      { context: "Chill", text: "Hang loose 🤙" },
+      { context: "Surf", text: "Surf's up 🤙" }
+    ],
+    misunderstandings: ["Clear meaning in both contexts"],
+    relatedEmojis: ["waving-hand", "telephone", "surfer"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-partial",
+    keywords: ["call", "shaka", "hang loose", "surf", "phone"]
+  },
+  {
+    unicode: "🫶",
+    name: "Heart Hands",
+    slug: "heart-hands",
+    shortMeaning: "Hands forming a heart shape.",
+    detailedMeaning: "The Heart Hands emoji shows two hands forming a heart shape. It represents love, appreciation, and affection through the iconic heart gesture.\n\nUsed to express love, support, gratitude, or admiration.",
+    usageContexts: ["Love", "Support", "Gratitude", "Appreciation", "Affection"],
+    examples: [
+      { context: "Love", text: "Sending love 🫶" },
+      { context: "Support", text: "Here for you 🫶" },
+      { context: "Thanks", text: "Thank you all 🫶" }
+    ],
+    misunderstandings: ["Clear love/heart meaning"],
+    relatedEmojis: ["red-heart", "smiling-face-with-hearts", "folded-hands"],
+    categorySlug: "people-and-body",
+    subgroup: "hands",
+    keywords: ["heart", "love", "hands", "support", "affection"]
+  },
+  {
+    unicode: "👐",
+    name: "Open Hands",
+    slug: "open-hands",
+    shortMeaning: "Open hands showing openness or jazz hands.",
+    detailedMeaning: "The Open Hands emoji shows two open hands facing forward. It represents openness, hugs, jazz hands, or a welcoming gesture.\n\nUsed for hugs, welcoming, jazz hands celebration, or showing openness.",
+    usageContexts: ["Hug", "Welcome", "Jazz Hands", "Open", "Celebration"],
+    examples: [
+      { context: "Hug", text: "Virtual hug 👐" },
+      { context: "Jazz Hands", text: "Ta-da! 👐" },
+      { context: "Welcome", text: "Welcome! 👐" }
+    ],
+    misunderstandings: ["Can mean hug or jazz hands"],
+    relatedEmojis: ["raising-hands", "clapping-hands", "folded-hands"],
+    categorySlug: "people-and-body",
+    subgroup: "hands",
+    keywords: ["open", "hands", "hug", "jazz hands", "welcome"]
+  },
+  {
+    unicode: "🤲",
+    name: "Palms Up Together",
+    slug: "palms-up-together",
+    shortMeaning: "Palms together facing up - offering or prayer.",
+    detailedMeaning: "The Palms Up Together emoji shows two palms facing upward together. It represents offering, receiving, prayer, or asking.\n\nUsed for offering something, religious contexts, or asking for something.",
+    usageContexts: ["Offer", "Prayer", "Receive", "Ask", "Give"],
+    examples: [
+      { context: "Offer", text: "Here, take it 🤲" },
+      { context: "Prayer", text: "Prayers for you 🤲" },
+      { context: "Ask", text: "Please help 🤲" }
+    ],
+    misunderstandings: ["Clear offering/prayer meaning"],
+    relatedEmojis: ["folded-hands", "open-hands", "palm-up-hand"],
+    categorySlug: "people-and-body",
+    subgroup: "hands",
+    keywords: ["palms", "up", "offer", "prayer", "receive"]
+  },
+  {
+    unicode: "🤛",
+    name: "Left-Facing Fist",
+    slug: "left-facing-fist",
+    shortMeaning: "A fist facing left - for fist bumps.",
+    detailedMeaning: "The Left-Facing Fist emoji shows a fist facing left. It's typically used with the right-facing fist to create a fist bump.\n\nUsed for fist bumps, greetings, or showing solidarity with someone.",
+    usageContexts: ["Fist Bump", "Greeting", "Solidarity", "Bro", "Connection"],
+    examples: [
+      { context: "Fist Bump", text: "Nice work! 🤜🤛" },
+      { context: "Greeting", text: "What's up 🤛" },
+      { context: "Solidarity", text: "We got this 🤛" }
+    ],
+    misunderstandings: ["Usually paired with right-facing fist"],
+    relatedEmojis: ["right-facing-fist", "oncoming-fist", "handshake"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-closed",
+    keywords: ["fist", "left", "bump", "greeting", "bro"]
+  },
+  {
+    unicode: "🤜",
+    name: "Right-Facing Fist",
+    slug: "right-facing-fist",
+    shortMeaning: "A fist facing right - for fist bumps.",
+    detailedMeaning: "The Right-Facing Fist emoji shows a fist facing right. It's typically used with the left-facing fist to create a fist bump.\n\nUsed for fist bumps, greetings, or showing connection with someone.",
+    usageContexts: ["Fist Bump", "Greeting", "Connection", "Bro", "Teamwork"],
+    examples: [
+      { context: "Fist Bump", text: "Great job! 🤜🤛" },
+      { context: "Greeting", text: "Yo! 🤜" },
+      { context: "Team", text: "Teamwork 🤜🤛" }
+    ],
+    misunderstandings: ["Usually paired with left-facing fist"],
+    relatedEmojis: ["left-facing-fist", "oncoming-fist", "handshake"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-fingers-closed",
+    keywords: ["fist", "right", "bump", "greeting", "bro"]
+  },
+  {
+    unicode: "✍️",
+    name: "Writing Hand",
+    slug: "writing-hand",
+    shortMeaning: "A hand writing - taking notes or signing.",
+    detailedMeaning: "The Writing Hand emoji shows a hand holding a pen or pencil writing. It represents writing, note-taking, signing documents, or being an author.\n\nUsed for writing, studying, signing things, or creative writing.",
+    usageContexts: ["Writing", "Notes", "Signing", "Author", "Study"],
+    examples: [
+      { context: "Writing", text: "Working on my novel ✍️" },
+      { context: "Notes", text: "Taking notes ✍️" },
+      { context: "Signing", text: "Just signed the contract ✍️" }
+    ],
+    misunderstandings: ["Clear writing meaning"],
+    relatedEmojis: ["memo", "pen", "notebook"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-prop",
+    keywords: ["writing", "hand", "pen", "notes", "author"]
+  },
+  {
+    unicode: "🤳",
+    name: "Selfie",
+    slug: "selfie",
+    shortMeaning: "A hand taking a selfie with a phone.",
+    detailedMeaning: "The Selfie emoji shows a hand holding a phone taking a selfie. It represents taking selfies, phone photography, or social media culture.\n\nUsed for selfie references, social media posts, or phone photography.",
+    usageContexts: ["Selfie", "Phone", "Photo", "Social Media", "Camera"],
+    examples: [
+      { context: "Selfie", text: "Selfie time 🤳" },
+      { context: "Photo", text: "Taking pics 🤳" },
+      { context: "Social", text: "Posting later 🤳" }
+    ],
+    misunderstandings: ["Clear selfie meaning"],
+    relatedEmojis: ["camera", "mobile-phone", "face-with-sunglasses"],
+    categorySlug: "people-and-body",
+    subgroup: "hand-prop",
+    keywords: ["selfie", "phone", "photo", "camera", "social"]
+  },
+  {
     unicode: "🙏",
     name: "Folded Hands",
     slug: "folded-hands",
