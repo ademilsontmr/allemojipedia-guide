@@ -1,9 +1,49 @@
 import { useSearchParams, Link } from "react-router-dom";
+import { useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { categories } from "@/data/categories";
 import { getTrendingEmojis, getPopularCombos, searchEmojis } from "@/data/emojis";
 import { Helmet } from "react-helmet-async";
+import { toast } from "sonner";
+import { Copy, Check } from "lucide-react";
+
+
+const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(emojis);
+      setCopied(true);
+      toast.success(`${emojis} copied!`, { duration: 2000 });
+      
+      // Haptic feedback on mobile
+      if (navigator.vibrate) {
+        navigator.vibrate(50);
+      }
+      
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      toast.error("Failed to copy");
+    }
+  };
+
+  return (
+    <button
+      onClick={handleCopy}
+      className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted border border-transparent hover:border-primary/30 transition-all duration-300 text-left group w-full"
+    >
+      <span className="text-3xl group-hover:scale-110 transition-transform duration-300">{emojis}</span>
+      <div className="flex-1 min-w-0">
+        <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">{meaning}</p>
+      </div>
+      <div className={`flex items-center justify-center w-8 h-8 rounded-full transition-all duration-300 ${copied ? 'bg-green-500/20 text-green-500' : 'bg-muted-foreground/10 text-muted-foreground group-hover:text-primary'}`}>
+        {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+      </div>
+    </button>
+  );
+};
 
 const Index = () => {
   const [searchParams] = useSearchParams();
@@ -72,10 +112,7 @@ const Index = () => {
               <h2 className="text-2xl font-semibold mb-6">Popular Emoji Combos</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {combos.map((combo, i) => (
-                  <div key={i} className="flex items-center gap-4 p-4 rounded-lg bg-muted/50">
-                    <span className="emoji text-2xl">{combo.emojis}</span>
-                    <p className="text-sm">{combo.meaning}</p>
-                  </div>
+                  <ComboCard key={i} emojis={combo.emojis} meaning={combo.meaning} />
                 ))}
               </div>
             </section>
