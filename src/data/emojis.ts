@@ -1407,6 +1407,633 @@ export const emojis: Emoji[] = [
     subgroup: "body-parts",
     keywords: ["tongue", "lick", "taste", "yummy", "playful"]
   },
+  // PERSON GESTURES (Emotions subcategory)
+  {
+    unicode: "🤗",
+    name: "Hugging Face",
+    slug: "hugging-face",
+    shortMeaning: "A warm hug emoji showing open arms and affection.",
+    detailedMeaning: "The Hugging Face emoji shows a smiling face with open hands, as if offering a warm hug. It represents affection, warmth, care, and the desire to embrace someone.\n\nUsed to send virtual hugs, express warmth and care, or show appreciation and love for someone.",
+    usageContexts: ["Hugs", "Affection", "Care", "Warmth", "Comfort"],
+    examples: [
+      { context: "Hug", text: "Sending hugs 🤗" },
+      { context: "Care", text: "Thinking of you 🤗" },
+      { context: "Welcome", text: "Welcome home 🤗" }
+    ],
+    misunderstandings: ["Sometimes seen as jazz hands instead of hugging"],
+    relatedEmojis: ["smiling-face-with-hearts", "red-heart", "folded-hands"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["hug", "embrace", "warm", "care", "affection"]
+  },
+  {
+    unicode: "🤷",
+    name: "Person Shrugging",
+    slug: "person-shrugging",
+    shortMeaning: "I don't know - the classic shrug gesture.",
+    detailedMeaning: "The Person Shrugging emoji shows a person raising both hands with palms up in a shrug gesture. It represents uncertainty, indifference, or 'I don't know.'\n\nUsed to express confusion, uncertainty, or nonchalance. It's the perfect emoji for when you don't have an answer or don't really care.",
+    usageContexts: ["Uncertainty", "I don't know", "Indifference", "Confusion", "Whatever"],
+    examples: [
+      { context: "Unknown", text: "Who knows 🤷" },
+      { context: "Indifferent", text: "Whatever happens 🤷" },
+      { context: "Confused", text: "No idea 🤷" }
+    ],
+    variations: [
+      { description: "Woman shrugging", emoji: "🤷‍♀️" },
+      { description: "Man shrugging", emoji: "🤷‍♂️" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["thinking-face", "confused-face", "person-facepalming"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["shrug", "idk", "whatever", "uncertain", "indifferent"]
+  },
+  {
+    unicode: "🤦",
+    name: "Person Facepalming",
+    slug: "person-facepalming",
+    shortMeaning: "Facepalm - disappointment, embarrassment, or disbelief.",
+    detailedMeaning: "The Person Facepalming emoji shows a person with their hand on their face in a facepalm gesture. It represents frustration, embarrassment, disbelief, or disappointment.\n\nUsed when something is frustrating, embarrassing, or unbelievable. It's the universal gesture for 'I can't believe this.'",
+    usageContexts: ["Frustration", "Embarrassment", "Disbelief", "Disappointment", "Facepalm"],
+    examples: [
+      { context: "Frustration", text: "Not again 🤦" },
+      { context: "Embarrassing", text: "Can't believe I did that 🤦" },
+      { context: "Disbelief", text: "Really? 🤦" }
+    ],
+    variations: [
+      { description: "Woman facepalming", emoji: "🤦‍♀️" },
+      { description: "Man facepalming", emoji: "🤦‍♂️" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["person-shrugging", "confused-face", "unamused-face"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["facepalm", "frustrated", "embarrassed", "disbelief", "disappointed"]
+  },
+  {
+    unicode: "🙋",
+    name: "Person Raising Hand",
+    slug: "person-raising-hand",
+    shortMeaning: "Raising hand - volunteering, asking a question, or saying hi.",
+    detailedMeaning: "The Person Raising Hand emoji shows a person with their hand raised high. It represents volunteering, asking questions, getting attention, or enthusiastic participation.\n\nUsed to volunteer for something, ask a question, or enthusiastically agree or participate in something.",
+    usageContexts: ["Volunteering", "Questions", "Participation", "Attention", "Hi"],
+    examples: [
+      { context: "Volunteer", text: "I'll do it 🙋" },
+      { context: "Question", text: "Quick question 🙋" },
+      { context: "Agree", text: "Me too 🙋" }
+    ],
+    variations: [
+      { description: "Woman raising hand", emoji: "🙋‍♀️" },
+      { description: "Man raising hand", emoji: "🙋‍♂️" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["raised-hand", "waving-hand", "person-bowing"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["raise hand", "volunteer", "question", "me", "hi"]
+  },
+  {
+    unicode: "🙅",
+    name: "Person Gesturing No",
+    slug: "person-gesturing-no",
+    shortMeaning: "Crossing arms in an X - no, not allowed, or stop.",
+    detailedMeaning: "The Person Gesturing No emoji shows a person with arms crossed in an X shape. It represents refusal, negation, or indicating something is not allowed.\n\nUsed to say no, decline something, or indicate that something is forbidden or not acceptable.",
+    usageContexts: ["No", "Refusal", "Not allowed", "Stop", "Decline"],
+    examples: [
+      { context: "No", text: "Absolutely not 🙅" },
+      { context: "Refuse", text: "I won't do it 🙅" },
+      { context: "Stop", text: "Not happening 🙅" }
+    ],
+    variations: [
+      { description: "Woman gesturing no", emoji: "🙅‍♀️" },
+      { description: "Man gesturing no", emoji: "🙅‍♂️" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["person-gesturing-ok", "cross-mark", "prohibited"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["no", "not allowed", "stop", "refuse", "decline"]
+  },
+  {
+    unicode: "🙆",
+    name: "Person Gesturing OK",
+    slug: "person-gesturing-ok",
+    shortMeaning: "Arms forming O above head - OK, yes, or all good.",
+    detailedMeaning: "The Person Gesturing OK emoji shows a person with arms raised forming an O shape above their head. It represents agreement, approval, or indicating everything is okay.\n\nUsed to say OK, give approval, or confirm that everything is fine and acceptable.",
+    usageContexts: ["OK", "Approval", "Yes", "All good", "Confirmed"],
+    examples: [
+      { context: "OK", text: "Sounds good 🙆" },
+      { context: "Approve", text: "All clear 🙆" },
+      { context: "Yes", text: "I'm in 🙆" }
+    ],
+    variations: [
+      { description: "Woman gesturing OK", emoji: "🙆‍♀️" },
+      { description: "Man gesturing OK", emoji: "🙆‍♂️" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["person-gesturing-no", "ok-hand", "check-mark"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["ok", "yes", "good", "approve", "confirmed"]
+  },
+  {
+    unicode: "🙇",
+    name: "Person Bowing",
+    slug: "person-bowing",
+    shortMeaning: "Bowing deeply - respect, apology, or gratitude.",
+    detailedMeaning: "The Person Bowing emoji shows a person bowing deeply. In many cultures, especially Asian cultures, bowing represents respect, apology, gratitude, or greeting.\n\nUsed to show deep respect, apologize sincerely, express profound gratitude, or greet someone formally.",
+    usageContexts: ["Respect", "Apology", "Gratitude", "Greeting", "Honor"],
+    examples: [
+      { context: "Apology", text: "I'm so sorry 🙇" },
+      { context: "Gratitude", text: "Thank you so much 🙇" },
+      { context: "Respect", text: "Much respect 🙇" }
+    ],
+    variations: [
+      { description: "Woman bowing", emoji: "🙇‍♀️" },
+      { description: "Man bowing", emoji: "🙇‍♂️" }
+    ],
+    misunderstandings: ["May not be understood in Western contexts"],
+    relatedEmojis: ["folded-hands", "person-raising-hand", "heart"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["bow", "respect", "apology", "gratitude", "honor"]
+  },
+  {
+    unicode: "💁",
+    name: "Person Tipping Hand",
+    slug: "person-tipping-hand",
+    shortMeaning: "Sassy hand flip - serving information or attitude.",
+    detailedMeaning: "The Person Tipping Hand emoji shows a person with their palm facing up in a presenting gesture. It's often used to convey sassiness, serving information, or 'here's the tea.'\n\nUsed to present information, be sassy, or express 'obviously' or 'as I was saying.' It has become iconic for serving attitude.",
+    usageContexts: ["Sassy", "Information", "Obviously", "Presenting", "Attitude"],
+    examples: [
+      { context: "Sassy", text: "As I said 💁" },
+      { context: "Obvious", text: "Obviously 💁" },
+      { context: "Info", text: "Here's the thing 💁" }
+    ],
+    variations: [
+      { description: "Woman tipping hand", emoji: "💁‍♀️" },
+      { description: "Man tipping hand", emoji: "💁‍♂️" }
+    ],
+    misunderstandings: ["Originally 'information desk person' but used for sass"],
+    relatedEmojis: ["person-shrugging", "nail-polish", "face-with-raised-eyebrow"],
+    categorySlug: "people-and-body",
+    subgroup: "person-gesture",
+    keywords: ["sassy", "information", "obviously", "attitude", "presenting"]
+  },
+  // PERSON ROLES (Professions subcategory)
+  {
+    unicode: "👨‍⚕️",
+    name: "Man Health Worker",
+    slug: "man-health-worker",
+    shortMeaning: "A male doctor or healthcare professional.",
+    detailedMeaning: "The Man Health Worker emoji shows a male healthcare professional, typically depicted wearing scrubs or a white coat with a stethoscope. It represents doctors, nurses, and medical professionals.\n\nUsed when discussing healthcare, medical topics, or referring to healthcare heroes and medical professionals.",
+    usageContexts: ["Healthcare", "Doctor", "Medical", "Hospital", "Health"],
+    examples: [
+      { context: "Doctor", text: "Going to see the doctor 👨‍⚕️" },
+      { context: "Medical", text: "Healthcare heroes 👨‍⚕️" },
+      { context: "Advice", text: "Doctor says rest 👨‍⚕️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-health-worker", "hospital", "syringe"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["doctor", "nurse", "healthcare", "medical", "hospital"]
+  },
+  {
+    unicode: "👩‍⚕️",
+    name: "Woman Health Worker",
+    slug: "woman-health-worker",
+    shortMeaning: "A female doctor or healthcare professional.",
+    detailedMeaning: "The Woman Health Worker emoji shows a female healthcare professional. It represents women in medicine including doctors, nurses, and other medical professionals.\n\nUsed to represent female healthcare workers, discuss medical topics, or honor women in medicine.",
+    usageContexts: ["Healthcare", "Doctor", "Nurse", "Medical", "Hospital"],
+    examples: [
+      { context: "Doctor", text: "My doctor is amazing 👩‍⚕️" },
+      { context: "Nurse", text: "Nurses are heroes 👩‍⚕️" },
+      { context: "Medical", text: "Women in medicine 👩‍⚕️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-health-worker", "hospital", "stethoscope"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["doctor", "nurse", "healthcare", "medical", "woman"]
+  },
+  {
+    unicode: "👨‍🏫",
+    name: "Man Teacher",
+    slug: "man-teacher",
+    shortMeaning: "A male teacher or professor.",
+    detailedMeaning: "The Man Teacher emoji shows a male educator typically at a chalkboard. It represents teachers, professors, instructors, and educators.\n\nUsed when discussing education, learning, or honoring teachers and their important work.",
+    usageContexts: ["Education", "Teacher", "School", "Learning", "Professor"],
+    examples: [
+      { context: "School", text: "Back to school 👨‍🏫" },
+      { context: "Teacher", text: "Best teacher ever 👨‍🏫" },
+      { context: "Learning", text: "Teaching time 👨‍🏫" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-teacher", "school", "books"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["teacher", "professor", "education", "school", "instructor"]
+  },
+  {
+    unicode: "👩‍🏫",
+    name: "Woman Teacher",
+    slug: "woman-teacher",
+    shortMeaning: "A female teacher or professor.",
+    detailedMeaning: "The Woman Teacher emoji shows a female educator. It represents women teachers, professors, and instructors in education.\n\nUsed to represent female educators, discuss education, or thank teachers.",
+    usageContexts: ["Education", "Teacher", "School", "Learning", "Professor"],
+    examples: [
+      { context: "Teacher", text: "Thank you teacher 👩‍🏫" },
+      { context: "School", text: "Teacher's day 👩‍🏫" },
+      { context: "Education", text: "Educators rock 👩‍🏫" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-teacher", "school", "graduation-cap"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["teacher", "professor", "education", "school", "woman"]
+  },
+  {
+    unicode: "👨‍💻",
+    name: "Man Technologist",
+    slug: "man-technologist",
+    shortMeaning: "A male programmer or tech worker.",
+    detailedMeaning: "The Man Technologist emoji shows a male working on a computer. It represents programmers, developers, IT professionals, and tech workers.\n\nUsed for discussing technology, coding, software development, or tech careers.",
+    usageContexts: ["Technology", "Programming", "Coding", "Developer", "IT"],
+    examples: [
+      { context: "Coding", text: "Coding all night 👨‍💻" },
+      { context: "Tech", text: "Tech life 👨‍💻" },
+      { context: "Work", text: "Debugging 👨‍💻" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-technologist", "laptop", "keyboard"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["programmer", "developer", "coder", "tech", "IT"]
+  },
+  {
+    unicode: "👩‍💻",
+    name: "Woman Technologist",
+    slug: "woman-technologist",
+    shortMeaning: "A female programmer or tech worker.",
+    detailedMeaning: "The Woman Technologist emoji shows a female working on a computer. It represents women in tech including programmers, developers, and IT professionals.\n\nUsed to represent women in technology, discuss coding, or promote diversity in tech.",
+    usageContexts: ["Technology", "Programming", "Coding", "Developer", "Women in Tech"],
+    examples: [
+      { context: "Coding", text: "Women who code 👩‍💻" },
+      { context: "Tech", text: "Tech queen 👩‍💻" },
+      { context: "Work", text: "Building apps 👩‍💻" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-technologist", "laptop", "mobile-phone"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["programmer", "developer", "coder", "tech", "woman"]
+  },
+  {
+    unicode: "👨‍🍳",
+    name: "Man Cook",
+    slug: "man-cook",
+    shortMeaning: "A male chef or cook.",
+    detailedMeaning: "The Man Cook emoji shows a male chef in a chef's hat. It represents professional chefs, cooks, and anyone who loves cooking.\n\nUsed when discussing cooking, food preparation, culinary arts, or restaurants.",
+    usageContexts: ["Cooking", "Chef", "Food", "Restaurant", "Culinary"],
+    examples: [
+      { context: "Cooking", text: "Chef mode 👨‍🍳" },
+      { context: "Food", text: "Dinner time 👨‍🍳" },
+      { context: "Restaurant", text: "Master chef 👨‍🍳" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-cook", "cooking", "fork-and-knife"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["chef", "cook", "food", "kitchen", "culinary"]
+  },
+  {
+    unicode: "👩‍🍳",
+    name: "Woman Cook",
+    slug: "woman-cook",
+    shortMeaning: "A female chef or cook.",
+    detailedMeaning: "The Woman Cook emoji shows a female chef. It represents women chefs, cooks, and culinary professionals.\n\nUsed to represent female chefs, discuss cooking, or celebrate culinary arts.",
+    usageContexts: ["Cooking", "Chef", "Food", "Kitchen", "Culinary"],
+    examples: [
+      { context: "Cooking", text: "Cooking up something special 👩‍🍳" },
+      { context: "Chef", text: "Chef life 👩‍🍳" },
+      { context: "Food", text: "Home cooking 👩‍🍳" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-cook", "pot-of-food", "cooking"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["chef", "cook", "food", "kitchen", "woman"]
+  },
+  {
+    unicode: "👮",
+    name: "Police Officer",
+    slug: "police-officer",
+    shortMeaning: "A police officer in uniform.",
+    detailedMeaning: "The Police Officer emoji shows a person in police uniform with a cap. It represents law enforcement, police, and public safety.\n\nUsed when discussing law enforcement, safety, or emergencies.",
+    usageContexts: ["Police", "Law enforcement", "Safety", "Emergency", "Authority"],
+    examples: [
+      { context: "Police", text: "Calling the police 👮" },
+      { context: "Safety", text: "Stay safe 👮" },
+      { context: "Law", text: "Law and order 👮" }
+    ],
+    variations: [
+      { description: "Woman police officer", emoji: "👮‍♀️" },
+      { description: "Man police officer", emoji: "👮‍♂️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["police-car", "siren", "detective"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["police", "cop", "officer", "law", "safety"]
+  },
+  {
+    unicode: "👷",
+    name: "Construction Worker",
+    slug: "construction-worker",
+    shortMeaning: "A construction worker in hard hat.",
+    detailedMeaning: "The Construction Worker emoji shows a person wearing a hard hat and construction gear. It represents construction workers, builders, and manual laborers.\n\nUsed when discussing construction, building, renovation, or hard work.",
+    usageContexts: ["Construction", "Building", "Work", "Renovation", "Labor"],
+    examples: [
+      { context: "Work", text: "Hard at work 👷" },
+      { context: "Building", text: "Building something great 👷" },
+      { context: "Construction", text: "Construction zone 👷" }
+    ],
+    variations: [
+      { description: "Woman construction worker", emoji: "👷‍♀️" },
+      { description: "Man construction worker", emoji: "👷‍♂️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["building-construction", "hammer", "wrench"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["construction", "builder", "worker", "hard hat", "labor"]
+  },
+  {
+    unicode: "👨‍🎨",
+    name: "Man Artist",
+    slug: "man-artist",
+    shortMeaning: "A male artist or painter.",
+    detailedMeaning: "The Man Artist emoji shows a male artist typically with a beret and paintbrush. It represents artists, painters, and creative professionals.\n\nUsed to discuss art, creativity, or artistic endeavors.",
+    usageContexts: ["Art", "Painting", "Creativity", "Artist", "Design"],
+    examples: [
+      { context: "Art", text: "Creating art 👨‍🎨" },
+      { context: "Creative", text: "Artist life 👨‍🎨" },
+      { context: "Painting", text: "New painting 👨‍🎨" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-artist", "artist-palette", "framed-picture"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["artist", "painter", "art", "creative", "design"]
+  },
+  {
+    unicode: "👩‍🎨",
+    name: "Woman Artist",
+    slug: "woman-artist",
+    shortMeaning: "A female artist or painter.",
+    detailedMeaning: "The Woman Artist emoji shows a female artist. It represents women artists, painters, and creative professionals.\n\nUsed to represent female artists, discuss art, or celebrate creativity.",
+    usageContexts: ["Art", "Painting", "Creativity", "Artist", "Women in Art"],
+    examples: [
+      { context: "Art", text: "Woman artist 👩‍🎨" },
+      { context: "Creative", text: "Creative soul 👩‍🎨" },
+      { context: "Work", text: "Working on my art 👩‍🎨" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-artist", "artist-palette", "paintbrush"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["artist", "painter", "art", "creative", "woman"]
+  },
+  // FAMILY (Family subcategory)
+  {
+    unicode: "👨‍👩‍👧",
+    name: "Family: Man, Woman, Girl",
+    slug: "family-man-woman-girl",
+    shortMeaning: "A family with father, mother, and daughter.",
+    detailedMeaning: "This family emoji shows a family unit with a man, woman, and girl child. It represents traditional family structures and parent-child relationships.\n\nUsed to discuss family, parenting, or family activities.",
+    usageContexts: ["Family", "Parents", "Children", "Home", "Parenting"],
+    examples: [
+      { context: "Family", text: "Family time 👨‍👩‍👧" },
+      { context: "Home", text: "Home with my family 👨‍👩‍👧" },
+      { context: "Love", text: "Love my family 👨‍👩‍👧" }
+    ],
+    misunderstandings: ["Clear family meaning"],
+    relatedEmojis: ["family-man-woman-boy", "family-man-woman-girl-boy", "heart"],
+    categorySlug: "people-and-body",
+    subgroup: "family",
+    keywords: ["family", "parents", "daughter", "girl", "home"]
+  },
+  {
+    unicode: "👨‍👩‍👧‍👦",
+    name: "Family: Man, Woman, Girl, Boy",
+    slug: "family-man-woman-girl-boy",
+    shortMeaning: "A family with father, mother, daughter, and son.",
+    detailedMeaning: "This family emoji shows a family with parents and two children - a girl and a boy. It represents larger family units.\n\nUsed to discuss family, siblings, or family gatherings.",
+    usageContexts: ["Family", "Siblings", "Parents", "Children", "Home"],
+    examples: [
+      { context: "Family", text: "My whole family 👨‍👩‍👧‍👦" },
+      { context: "Kids", text: "The kids 👨‍👩‍👧‍👦" },
+      { context: "Together", text: "Family complete 👨‍👩‍👧‍👦" }
+    ],
+    misunderstandings: ["Clear family meaning"],
+    relatedEmojis: ["family-man-woman-girl", "family-man-woman-boy-boy", "house"],
+    categorySlug: "people-and-body",
+    subgroup: "family",
+    keywords: ["family", "siblings", "kids", "parents", "complete"]
+  },
+  {
+    unicode: "👨‍👩‍👦",
+    name: "Family: Man, Woman, Boy",
+    slug: "family-man-woman-boy",
+    shortMeaning: "A family with father, mother, and son.",
+    detailedMeaning: "This family emoji shows a family unit with a man, woman, and boy child. It represents family with a son.\n\nUsed to discuss family, parenting, or family life.",
+    usageContexts: ["Family", "Parents", "Son", "Children", "Home"],
+    examples: [
+      { context: "Family", text: "Family day 👨‍👩‍👦" },
+      { context: "Son", text: "Our boy 👨‍👩‍👦" },
+      { context: "Home", text: "Home is where they are 👨‍👩‍👦" }
+    ],
+    misunderstandings: ["Clear family meaning"],
+    relatedEmojis: ["family-man-woman-girl", "family-man-woman-boy-boy", "heart"],
+    categorySlug: "people-and-body",
+    subgroup: "family",
+    keywords: ["family", "parents", "son", "boy", "home"]
+  },
+  {
+    unicode: "👩‍👩‍👧",
+    name: "Family: Woman, Woman, Girl",
+    slug: "family-woman-woman-girl",
+    shortMeaning: "A family with two mothers and daughter.",
+    detailedMeaning: "This family emoji shows two women and a girl, representing same-sex parents with a daughter. It promotes inclusive family representation.\n\nUsed to represent diverse family structures and LGBTQ+ families.",
+    usageContexts: ["Family", "LGBTQ+", "Mothers", "Daughter", "Inclusive"],
+    examples: [
+      { context: "Family", text: "Our family 👩‍👩‍👧" },
+      { context: "Pride", text: "Love is love 👩‍👩‍👧" },
+      { context: "Home", text: "Two moms 👩‍👩‍👧" }
+    ],
+    misunderstandings: ["Represents LGBTQ+ families"],
+    relatedEmojis: ["family-man-man-girl", "rainbow-flag", "heart"],
+    categorySlug: "people-and-body",
+    subgroup: "family",
+    keywords: ["family", "lgbtq", "mothers", "daughter", "inclusive"]
+  },
+  {
+    unicode: "👨‍👨‍👦",
+    name: "Family: Man, Man, Boy",
+    slug: "family-man-man-boy",
+    shortMeaning: "A family with two fathers and son.",
+    detailedMeaning: "This family emoji shows two men and a boy, representing same-sex parents with a son. It promotes inclusive family representation.\n\nUsed to represent diverse family structures and LGBTQ+ families.",
+    usageContexts: ["Family", "LGBTQ+", "Fathers", "Son", "Inclusive"],
+    examples: [
+      { context: "Family", text: "Our family 👨‍👨‍👦" },
+      { context: "Pride", text: "Two dads 👨‍👨‍👦" },
+      { context: "Love", text: "Family is family 👨‍👨‍👦" }
+    ],
+    misunderstandings: ["Represents LGBTQ+ families"],
+    relatedEmojis: ["family-woman-woman-boy", "rainbow-flag", "heart"],
+    categorySlug: "people-and-body",
+    subgroup: "family",
+    keywords: ["family", "lgbtq", "fathers", "son", "inclusive"]
+  },
+  {
+    unicode: "👶",
+    name: "Baby",
+    slug: "baby",
+    shortMeaning: "A cute baby face.",
+    detailedMeaning: "The Baby emoji shows a baby's face. It represents babies, infants, newborns, and new beginnings.\n\nUsed when discussing babies, pregnancy, new parents, or anything adorably innocent.",
+    usageContexts: ["Baby", "Newborn", "Infant", "Pregnancy", "Cute"],
+    examples: [
+      { context: "Baby", text: "Baby on the way 👶" },
+      { context: "Cute", text: "So precious 👶" },
+      { context: "New", text: "Welcome baby 👶" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "👶🏻" },
+      { description: "Medium skin tone", emoji: "👶🏽" },
+      { description: "Dark skin tone", emoji: "👶🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["baby-bottle", "baby-angel", "family"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["baby", "infant", "newborn", "child", "cute"]
+  },
+  {
+    unicode: "👧",
+    name: "Girl",
+    slug: "girl",
+    shortMeaning: "A young girl.",
+    detailedMeaning: "The Girl emoji shows a young female child's face. It represents girls, daughters, and female children.\n\nUsed when talking about daughters, girls, or young females.",
+    usageContexts: ["Girl", "Daughter", "Child", "Young", "Female"],
+    examples: [
+      { context: "Daughter", text: "My little girl 👧" },
+      { context: "Child", text: "When I was a girl 👧" },
+      { context: "Cute", text: "Sweet girl 👧" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "👧🏻" },
+      { description: "Medium skin tone", emoji: "👧🏽" },
+      { description: "Dark skin tone", emoji: "👧🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["boy", "baby", "woman"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["girl", "daughter", "child", "young", "female"]
+  },
+  {
+    unicode: "👦",
+    name: "Boy",
+    slug: "boy",
+    shortMeaning: "A young boy.",
+    detailedMeaning: "The Boy emoji shows a young male child's face. It represents boys, sons, and male children.\n\nUsed when talking about sons, boys, or young males.",
+    usageContexts: ["Boy", "Son", "Child", "Young", "Male"],
+    examples: [
+      { context: "Son", text: "My little boy 👦" },
+      { context: "Child", text: "Growing up fast 👦" },
+      { context: "Cute", text: "Good boy 👦" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "👦🏻" },
+      { description: "Medium skin tone", emoji: "👦🏽" },
+      { description: "Dark skin tone", emoji: "👦🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["girl", "baby", "man"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["boy", "son", "child", "young", "male"]
+  },
+  {
+    unicode: "👨",
+    name: "Man",
+    slug: "man",
+    shortMeaning: "An adult man.",
+    detailedMeaning: "The Man emoji shows an adult male face. It represents men, adults, and the male gender.\n\nUsed when referring to men, adult males, or the male perspective.",
+    usageContexts: ["Man", "Adult", "Male", "Person", "Gender"],
+    examples: [
+      { context: "Man", text: "A good man 👨" },
+      { context: "Adult", text: "Grown man things 👨" },
+      { context: "Person", text: "This man 👨" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "👨🏻" },
+      { description: "Medium skin tone", emoji: "👨🏽" },
+      { description: "Dark skin tone", emoji: "👨🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["woman", "boy", "person"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["man", "male", "adult", "person", "guy"]
+  },
+  {
+    unicode: "👩",
+    name: "Woman",
+    slug: "woman",
+    shortMeaning: "An adult woman.",
+    detailedMeaning: "The Woman emoji shows an adult female face. It represents women, adults, and the female gender.\n\nUsed when referring to women, adult females, or the female perspective.",
+    usageContexts: ["Woman", "Adult", "Female", "Person", "Gender"],
+    examples: [
+      { context: "Woman", text: "A strong woman 👩" },
+      { context: "Adult", text: "Woman of the year 👩" },
+      { context: "Person", text: "This woman 👩" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "👩🏻" },
+      { description: "Medium skin tone", emoji: "👩🏽" },
+      { description: "Dark skin tone", emoji: "👩🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["man", "girl", "person"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["woman", "female", "adult", "person", "lady"]
+  },
+  {
+    unicode: "🧓",
+    name: "Older Person",
+    slug: "older-person",
+    shortMeaning: "An elderly person.",
+    detailedMeaning: "The Older Person emoji shows an elderly person's face with gray hair. It represents seniors, grandparents, and the elderly.\n\nUsed when discussing seniors, aging, wisdom, or grandparents.",
+    usageContexts: ["Elderly", "Senior", "Grandparent", "Wisdom", "Aging"],
+    examples: [
+      { context: "Grandparent", text: "Love my grandparents 🧓" },
+      { context: "Wisdom", text: "Elder wisdom 🧓" },
+      { context: "Respect", text: "Respect your elders 🧓" }
+    ],
+    variations: [
+      { description: "Light skin tone", emoji: "🧓🏻" },
+      { description: "Medium skin tone", emoji: "🧓🏽" },
+      { description: "Dark skin tone", emoji: "🧓🏿" }
+    ],
+    misunderstandings: ["Clear meaning"],
+    relatedEmojis: ["old-man", "old-woman", "family"],
+    categorySlug: "people-and-body",
+    subgroup: "person",
+    keywords: ["elderly", "senior", "old", "grandparent", "wisdom"]
+  },
   // ANIMALS & NATURE
   {
     unicode: "🐶",
