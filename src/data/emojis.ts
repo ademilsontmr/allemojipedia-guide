@@ -2151,6 +2151,132 @@ export const emojis: Emoji[] = [
     subgroup: "person-role",
     keywords: ["student", "graduate", "education", "school", "woman"]
   },
+  {
+    unicode: "👨‍⚕️",
+    name: "Man Nurse",
+    slug: "man-nurse",
+    shortMeaning: "A male nurse or healthcare worker.",
+    detailedMeaning: "The Man Nurse emoji shows a male in medical attire. It represents male nurses, healthcare workers, and medical professionals.\n\nUsed for nursing, healthcare, or medical care discussions.",
+    usageContexts: ["Nurse", "Healthcare", "Medical", "Hospital", "Caregiver"],
+    examples: [
+      { context: "Work", text: "On shift at the hospital 👨‍⚕️" },
+      { context: "Care", text: "Helping patients 👨‍⚕️" },
+      { context: "Pride", text: "Proud to be a nurse 👨‍⚕️" }
+    ],
+    misunderstandings: ["May be confused with doctor"],
+    relatedEmojis: ["woman-nurse", "hospital", "stethoscope"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["nurse", "healthcare", "medical", "hospital", "man"]
+  },
+  {
+    unicode: "👩‍⚕️",
+    name: "Woman Nurse",
+    slug: "woman-nurse",
+    shortMeaning: "A female nurse or healthcare worker.",
+    detailedMeaning: "The Woman Nurse emoji shows a female in medical attire. It represents female nurses, healthcare workers, and medical professionals.\n\nUsed for nursing, healthcare, or medical care discussions.",
+    usageContexts: ["Nurse", "Healthcare", "Medical", "Hospital", "Caregiver"],
+    examples: [
+      { context: "Work", text: "Night shift at the hospital 👩‍⚕️" },
+      { context: "Care", text: "Taking care of patients 👩‍⚕️" },
+      { context: "Pride", text: "Nursing is my calling 👩‍⚕️" }
+    ],
+    misunderstandings: ["May be confused with doctor"],
+    relatedEmojis: ["man-nurse", "hospital", "stethoscope"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["nurse", "healthcare", "medical", "hospital", "woman"]
+  },
+  {
+    unicode: "👨‍⚖️",
+    name: "Man Lawyer",
+    slug: "man-lawyer",
+    shortMeaning: "A male lawyer or judge.",
+    detailedMeaning: "The Man Lawyer emoji shows a male in legal attire. It represents lawyers, judges, attorneys, and legal professionals.\n\nUsed for legal discussions, court matters, or justice topics.",
+    usageContexts: ["Lawyer", "Legal", "Court", "Justice", "Attorney"],
+    examples: [
+      { context: "Work", text: "Heading to court 👨‍⚖️" },
+      { context: "Legal", text: "Consulting my lawyer 👨‍⚖️" },
+      { context: "Justice", text: "Fighting for justice 👨‍⚖️" }
+    ],
+    misunderstandings: ["Represents both lawyers and judges"],
+    relatedEmojis: ["woman-lawyer", "balance-scale", "briefcase"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["lawyer", "judge", "attorney", "legal", "court", "man"]
+  },
+  {
+    unicode: "👩‍⚖️",
+    name: "Woman Lawyer",
+    slug: "woman-lawyer",
+    shortMeaning: "A female lawyer or judge.",
+    detailedMeaning: "The Woman Lawyer emoji shows a female in legal attire. It represents lawyers, judges, attorneys, and legal professionals.\n\nUsed for legal discussions, court matters, or justice topics.",
+    usageContexts: ["Lawyer", "Legal", "Court", "Justice", "Attorney"],
+    examples: [
+      { context: "Work", text: "In the courtroom 👩‍⚖️" },
+      { context: "Legal", text: "My attorney 👩‍⚖️" },
+      { context: "Justice", text: "Justice prevails 👩‍⚖️" }
+    ],
+    misunderstandings: ["Represents both lawyers and judges"],
+    relatedEmojis: ["man-lawyer", "balance-scale", "briefcase"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["lawyer", "judge", "attorney", "legal", "court", "woman"]
+  },
+  {
+    unicode: "👷",
+    name: "Engineer",
+    slug: "engineer",
+    shortMeaning: "An engineer or construction worker.",
+    detailedMeaning: "The Engineer emoji shows a person wearing a hard hat. It represents engineers, construction workers, builders, and technical professionals.\n\nUsed for engineering, construction, or building discussions.",
+    usageContexts: ["Engineer", "Construction", "Building", "Technical", "Work"],
+    examples: [
+      { context: "Work", text: "On the construction site 👷" },
+      { context: "Build", text: "Building something new 👷" },
+      { context: "Career", text: "Proud engineer 👷" }
+    ],
+    misunderstandings: ["Can mean any hard hat worker"],
+    relatedEmojis: ["man-engineer", "woman-engineer", "wrench"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["engineer", "construction", "builder", "hard hat", "worker"]
+  },
+  {
+    unicode: "👷‍♂️",
+    name: "Man Engineer",
+    slug: "man-engineer",
+    shortMeaning: "A male engineer or construction worker.",
+    detailedMeaning: "The Man Engineer emoji shows a male wearing a hard hat. It represents male engineers, construction workers, and technical professionals.\n\nUsed for engineering, construction, or technical work.",
+    usageContexts: ["Engineer", "Construction", "Technical", "Building", "Work"],
+    examples: [
+      { context: "Work", text: "Engineering project 👷‍♂️" },
+      { context: "Build", text: "Building the future 👷‍♂️" },
+      { context: "Career", text: "Civil engineer 👷‍♂️" }
+    ],
+    misunderstandings: ["May represent any construction worker"],
+    relatedEmojis: ["woman-engineer", "engineer", "hammer"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["engineer", "construction", "builder", "man", "technical"]
+  },
+  {
+    unicode: "👷‍♀️",
+    name: "Woman Engineer",
+    slug: "woman-engineer",
+    shortMeaning: "A female engineer or construction worker.",
+    detailedMeaning: "The Woman Engineer emoji shows a female wearing a hard hat. It represents female engineers, construction workers, and technical professionals.\n\nUsed for engineering, construction, or technical work.",
+    usageContexts: ["Engineer", "Construction", "Technical", "Building", "Women in STEM"],
+    examples: [
+      { context: "Work", text: "On the job site 👷‍♀️" },
+      { context: "Career", text: "Software engineer 👷‍♀️" },
+      { context: "Pride", text: "Women in engineering 👷‍♀️" }
+    ],
+    misunderstandings: ["May represent any construction worker"],
+    relatedEmojis: ["man-engineer", "engineer", "computer"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["engineer", "construction", "builder", "woman", "technical"]
+  },
   // FAMILY (Family subcategory)
   {
     unicode: "👨‍👩‍👧",
