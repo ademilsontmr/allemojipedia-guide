@@ -1805,6 +1805,352 @@ export const emojis: Emoji[] = [
     subgroup: "person-role",
     keywords: ["artist", "painter", "art", "creative", "woman"]
   },
+  {
+    unicode: "👨‍🚒",
+    name: "Man Firefighter",
+    slug: "man-firefighter",
+    shortMeaning: "A male firefighter - a real-life hero.",
+    detailedMeaning: "The Man Firefighter emoji shows a male firefighter in protective gear. Firefighters are heroes who risk their lives to save others and fight fires.\n\nUsed to represent firefighters, emergencies, bravery, or thanking first responders.",
+    usageContexts: ["Firefighter", "Emergency", "Hero", "Rescue", "Brave"],
+    examples: [
+      { context: "Hero", text: "Firefighters are heroes 👨‍🚒" },
+      { context: "Emergency", text: "Fire department 👨‍🚒" },
+      { context: "Thanks", text: "Thank you first responders 👨‍🚒" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-firefighter", "fire-engine", "fire"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["firefighter", "fireman", "hero", "rescue", "emergency"]
+  },
+  {
+    unicode: "👩‍🚒",
+    name: "Woman Firefighter",
+    slug: "woman-firefighter",
+    shortMeaning: "A female firefighter - brave and heroic.",
+    detailedMeaning: "The Woman Firefighter emoji shows a female firefighter. It represents women in firefighting and emergency services.\n\nUsed to represent female firefighters, promote diversity in emergency services, or thank first responders.",
+    usageContexts: ["Firefighter", "Emergency", "Hero", "Women", "Brave"],
+    examples: [
+      { context: "Hero", text: "Women firefighters 👩‍🚒" },
+      { context: "Brave", text: "Fearless 👩‍🚒" },
+      { context: "Career", text: "Dream job 👩‍🚒" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-firefighter", "fire-engine", "fire"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["firefighter", "firewoman", "hero", "rescue", "woman"]
+  },
+  {
+    unicode: "👨‍✈️",
+    name: "Man Pilot",
+    slug: "man-pilot",
+    shortMeaning: "A male pilot flying high.",
+    detailedMeaning: "The Man Pilot emoji shows a male pilot in uniform with a captain's hat. Pilots are skilled professionals who fly aircraft.\n\nUsed when discussing aviation, travel, or admiring pilots and their profession.",
+    usageContexts: ["Pilot", "Aviation", "Travel", "Flying", "Captain"],
+    examples: [
+      { context: "Flying", text: "Captain speaking 👨‍✈️" },
+      { context: "Travel", text: "Ready for takeoff 👨‍✈️" },
+      { context: "Career", text: "Dream of flying 👨‍✈️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-pilot", "airplane", "airport"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["pilot", "captain", "aviation", "flying", "airplane"]
+  },
+  {
+    unicode: "👩‍✈️",
+    name: "Woman Pilot",
+    slug: "woman-pilot",
+    shortMeaning: "A female pilot soaring the skies.",
+    detailedMeaning: "The Woman Pilot emoji shows a female pilot in uniform. It represents women in aviation and promotes diversity in the cockpit.\n\nUsed to represent female pilots, discuss aviation, or celebrate women in male-dominated fields.",
+    usageContexts: ["Pilot", "Aviation", "Women", "Flying", "Captain"],
+    examples: [
+      { context: "Flying", text: "Women pilots 👩‍✈️" },
+      { context: "Career", text: "Sky's not the limit 👩‍✈️" },
+      { context: "Travel", text: "Captain 👩‍✈️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-pilot", "airplane", "globe"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["pilot", "captain", "aviation", "flying", "woman"]
+  },
+  {
+    unicode: "👨‍🔬",
+    name: "Man Scientist",
+    slug: "man-scientist",
+    shortMeaning: "A male scientist conducting research.",
+    detailedMeaning: "The Man Scientist emoji shows a male scientist in a lab coat, often with goggles. Scientists pursue knowledge and make discoveries.\n\nUsed when discussing science, research, experiments, or celebrating scientific achievements.",
+    usageContexts: ["Science", "Research", "Lab", "Discovery", "Experiment"],
+    examples: [
+      { context: "Science", text: "Science rules 👨‍🔬" },
+      { context: "Research", text: "In the lab 👨‍🔬" },
+      { context: "Discovery", text: "Eureka moment 👨‍🔬" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-scientist", "microscope", "test-tube"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["scientist", "research", "lab", "science", "discovery"]
+  },
+  {
+    unicode: "👩‍🔬",
+    name: "Woman Scientist",
+    slug: "woman-scientist",
+    shortMeaning: "A female scientist making discoveries.",
+    detailedMeaning: "The Woman Scientist emoji shows a female scientist. It represents women in science and STEM fields.\n\nUsed to represent female scientists, promote women in STEM, or discuss scientific topics.",
+    usageContexts: ["Science", "Research", "Women in STEM", "Lab", "Discovery"],
+    examples: [
+      { context: "STEM", text: "Women in science 👩‍🔬" },
+      { context: "Research", text: "Lab work 👩‍🔬" },
+      { context: "Career", text: "Future scientist 👩‍🔬" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-scientist", "microscope", "dna"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["scientist", "research", "lab", "STEM", "woman"]
+  },
+  {
+    unicode: "👨‍🚀",
+    name: "Man Astronaut",
+    slug: "man-astronaut",
+    shortMeaning: "A male astronaut exploring space.",
+    detailedMeaning: "The Man Astronaut emoji shows a male astronaut in a spacesuit. Astronauts are pioneers who explore the final frontier.\n\nUsed when discussing space exploration, NASA, dreaming big, or reaching for the stars.",
+    usageContexts: ["Space", "Astronaut", "NASA", "Exploration", "Dreams"],
+    examples: [
+      { context: "Space", text: "To infinity and beyond 👨‍🚀" },
+      { context: "Dreams", text: "Reach for the stars 👨‍🚀" },
+      { context: "Explore", text: "Space explorer 👨‍🚀" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-astronaut", "rocket", "moon"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["astronaut", "space", "NASA", "explorer", "rocket"]
+  },
+  {
+    unicode: "👩‍🚀",
+    name: "Woman Astronaut",
+    slug: "woman-astronaut",
+    shortMeaning: "A female astronaut conquering space.",
+    detailedMeaning: "The Woman Astronaut emoji shows a female astronaut. It represents women in space exploration and aerospace.\n\nUsed to represent female astronauts, celebrate women in space, or discuss space exploration.",
+    usageContexts: ["Space", "Astronaut", "Women", "NASA", "Exploration"],
+    examples: [
+      { context: "Space", text: "Women in space 👩‍🚀" },
+      { context: "Dreams", text: "Sky is not the limit 👩‍🚀" },
+      { context: "Hero", text: "Space hero 👩‍🚀" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-astronaut", "rocket", "stars"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["astronaut", "space", "NASA", "explorer", "woman"]
+  },
+  {
+    unicode: "👨‍⚖️",
+    name: "Man Judge",
+    slug: "man-judge",
+    shortMeaning: "A male judge upholding justice.",
+    detailedMeaning: "The Man Judge emoji shows a male judge in robes. Judges are responsible for upholding the law and delivering justice.\n\nUsed when discussing law, courts, justice, or legal matters.",
+    usageContexts: ["Law", "Justice", "Court", "Legal", "Judge"],
+    examples: [
+      { context: "Justice", text: "Justice served 👨‍⚖️" },
+      { context: "Court", text: "Court day 👨‍⚖️" },
+      { context: "Law", text: "The law 👨‍⚖️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-judge", "balance-scale", "courthouse"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["judge", "law", "justice", "court", "legal"]
+  },
+  {
+    unicode: "👩‍⚖️",
+    name: "Woman Judge",
+    slug: "woman-judge",
+    shortMeaning: "A female judge delivering justice.",
+    detailedMeaning: "The Woman Judge emoji shows a female judge. It represents women in the legal system and judiciary.\n\nUsed to represent female judges, discuss legal matters, or promote women in law.",
+    usageContexts: ["Law", "Justice", "Court", "Women", "Legal"],
+    examples: [
+      { context: "Justice", text: "Women in law 👩‍⚖️" },
+      { context: "Court", text: "Honorable judge 👩‍⚖️" },
+      { context: "Career", text: "Future judge 👩‍⚖️" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-judge", "balance-scale", "briefcase"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["judge", "law", "justice", "court", "woman"]
+  },
+  {
+    unicode: "👨‍🌾",
+    name: "Man Farmer",
+    slug: "man-farmer",
+    shortMeaning: "A male farmer working the land.",
+    detailedMeaning: "The Man Farmer emoji shows a male farmer, typically with a straw hat. Farmers grow our food and work with nature.\n\nUsed when discussing agriculture, farming, food production, or rural life.",
+    usageContexts: ["Farming", "Agriculture", "Food", "Rural", "Nature"],
+    examples: [
+      { context: "Farm", text: "Farm life 👨‍🌾" },
+      { context: "Food", text: "Growing food 👨‍🌾" },
+      { context: "Nature", text: "Working the land 👨‍🌾" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-farmer", "tractor", "corn"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["farmer", "agriculture", "farm", "food", "rural"]
+  },
+  {
+    unicode: "👩‍🌾",
+    name: "Woman Farmer",
+    slug: "woman-farmer",
+    shortMeaning: "A female farmer nurturing the earth.",
+    detailedMeaning: "The Woman Farmer emoji shows a female farmer. It represents women in agriculture and farming.\n\nUsed to represent female farmers, discuss agriculture, or celebrate rural life.",
+    usageContexts: ["Farming", "Agriculture", "Women", "Food", "Rural"],
+    examples: [
+      { context: "Farm", text: "Women farmers 👩‍🌾" },
+      { context: "Harvest", text: "Harvest time 👩‍🌾" },
+      { context: "Nature", text: "Organic farming 👩‍🌾" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-farmer", "seedling", "vegetables"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["farmer", "agriculture", "farm", "food", "woman"]
+  },
+  {
+    unicode: "👨‍🔧",
+    name: "Man Mechanic",
+    slug: "man-mechanic",
+    shortMeaning: "A male mechanic fixing things.",
+    detailedMeaning: "The Man Mechanic emoji shows a male mechanic or technician. Mechanics repair vehicles, machines, and equipment.\n\nUsed when discussing repairs, vehicles, mechanical work, or skilled trades.",
+    usageContexts: ["Mechanic", "Repair", "Cars", "Technical", "Fixing"],
+    examples: [
+      { context: "Repair", text: "Fixing it 👨‍🔧" },
+      { context: "Car", text: "Car troubles 👨‍🔧" },
+      { context: "Work", text: "Mechanic life 👨‍🔧" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-mechanic", "wrench", "automobile"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["mechanic", "repair", "fix", "car", "technician"]
+  },
+  {
+    unicode: "👩‍🔧",
+    name: "Woman Mechanic",
+    slug: "woman-mechanic",
+    shortMeaning: "A female mechanic getting the job done.",
+    detailedMeaning: "The Woman Mechanic emoji shows a female mechanic. It represents women in mechanical trades and technical work.\n\nUsed to represent female mechanics, discuss repairs, or promote women in trades.",
+    usageContexts: ["Mechanic", "Repair", "Women", "Technical", "Trades"],
+    examples: [
+      { context: "Work", text: "Women mechanics 👩‍🔧" },
+      { context: "Fix", text: "I can fix it 👩‍🔧" },
+      { context: "Career", text: "Skilled trades 👩‍🔧" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-mechanic", "wrench", "gear"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["mechanic", "repair", "fix", "technician", "woman"]
+  },
+  {
+    unicode: "👨‍🎤",
+    name: "Man Singer",
+    slug: "man-singer",
+    shortMeaning: "A male singer or rock star.",
+    detailedMeaning: "The Man Singer emoji shows a male performer, often with a punk or rock style. Singers entertain and express through music.\n\nUsed when discussing music, concerts, singing, or expressing love for performers.",
+    usageContexts: ["Music", "Singing", "Concert", "Performer", "Rock"],
+    examples: [
+      { context: "Music", text: "Rock star 👨‍🎤" },
+      { context: "Concert", text: "Concert night 👨‍🎤" },
+      { context: "Singing", text: "Karaoke time 👨‍🎤" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["woman-singer", "microphone", "musical-notes"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["singer", "musician", "performer", "rock", "music"]
+  },
+  {
+    unicode: "👩‍🎤",
+    name: "Woman Singer",
+    slug: "woman-singer",
+    shortMeaning: "A female singer or pop star.",
+    detailedMeaning: "The Woman Singer emoji shows a female performer with a stylish look. It represents female musicians and vocalists.\n\nUsed when discussing music, female artists, concerts, or singing.",
+    usageContexts: ["Music", "Singing", "Pop star", "Performer", "Concert"],
+    examples: [
+      { context: "Music", text: "Pop princess 👩‍🎤" },
+      { context: "Concert", text: "Live performance 👩‍🎤" },
+      { context: "Singing", text: "Singing queen 👩‍🎤" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["man-singer", "microphone", "headphone"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["singer", "musician", "performer", "pop star", "woman"]
+  },
+  {
+    unicode: "🧑‍💼",
+    name: "Office Worker",
+    slug: "office-worker",
+    shortMeaning: "An office worker or business professional.",
+    detailedMeaning: "The Office Worker emoji shows a professional in business attire. It represents office jobs, corporate work, and business professionals.\n\nUsed when discussing work, business, corporate life, or professional environments.",
+    usageContexts: ["Office", "Business", "Work", "Corporate", "Professional"],
+    examples: [
+      { context: "Work", text: "Office mode 🧑‍💼" },
+      { context: "Business", text: "Business meeting 🧑‍💼" },
+      { context: "Job", text: "9 to 5 life 🧑‍💼" }
+    ],
+    variations: [
+      { description: "Woman office worker", emoji: "👩‍💼" },
+      { description: "Man office worker", emoji: "👨‍💼" }
+    ],
+    misunderstandings: ["Clear profession meaning"],
+    relatedEmojis: ["briefcase", "laptop", "office-building"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["office", "business", "professional", "work", "corporate"]
+  },
+  {
+    unicode: "👨‍🎓",
+    name: "Man Student",
+    slug: "man-student",
+    shortMeaning: "A male student or graduate.",
+    detailedMeaning: "The Man Student emoji shows a male wearing a graduation cap. It represents students, graduates, and academic achievement.\n\nUsed for education, graduation, studying, or academic celebrations.",
+    usageContexts: ["Education", "Graduate", "Student", "School", "University"],
+    examples: [
+      { context: "Graduate", text: "Graduation day 👨‍🎓" },
+      { context: "Study", text: "Study mode 👨‍🎓" },
+      { context: "School", text: "Back to school 👨‍🎓" }
+    ],
+    misunderstandings: ["Clear education meaning"],
+    relatedEmojis: ["woman-student", "graduation-cap", "books"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["student", "graduate", "education", "school", "university"]
+  },
+  {
+    unicode: "👩‍🎓",
+    name: "Woman Student",
+    slug: "woman-student",
+    shortMeaning: "A female student or graduate.",
+    detailedMeaning: "The Woman Student emoji shows a female wearing a graduation cap. It represents female students, graduates, and academic success.\n\nUsed for education, graduation celebrations, or studying.",
+    usageContexts: ["Education", "Graduate", "Student", "Women", "University"],
+    examples: [
+      { context: "Graduate", text: "She graduated 👩‍🎓" },
+      { context: "Study", text: "Studying hard 👩‍🎓" },
+      { context: "Success", text: "Academic excellence 👩‍🎓" }
+    ],
+    misunderstandings: ["Clear education meaning"],
+    relatedEmojis: ["man-student", "graduation-cap", "diploma"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["student", "graduate", "education", "school", "woman"]
+  },
   // FAMILY (Family subcategory)
   {
     unicode: "👨‍👩‍👧",
