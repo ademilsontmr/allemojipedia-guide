@@ -2222,6 +2222,1447 @@ export const emojis: Emoji[] = [
     categorySlug: "symbols",
     subgroup: "av-symbol",
     keywords: ["music", "note", "song", "melody", "tune"]
+  },
+  // FLAGS
+  {
+    unicode: "🏳️",
+    name: "White Flag",
+    slug: "white-flag",
+    shortMeaning: "A white flag symbolizing peace, surrender, or truce.",
+    detailedMeaning: "The White Flag emoji represents surrender, peace, or a truce. Historically used in warfare to indicate the desire to negotiate or surrender, it has evolved to symbolize peace and the end of conflict.\n\nCommonly used to express giving up (in a humorous way), asking for peace in an argument, or representing pacifism and peaceful intentions.",
+    usageContexts: ["Surrender", "Peace", "Truce", "Giving up", "Pacifism"],
+    examples: [
+      { context: "Surrender", text: "I give up, you win 🏳️" },
+      { context: "Peace", text: "Can we call a truce? 🏳️" },
+      { context: "Humor", text: "Monday already won 🏳️" }
+    ],
+    misunderstandings: ["May be confused with other plain flags"],
+    relatedEmojis: ["peace-symbol", "dove", "checkered-flag"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["white", "surrender", "peace", "truce", "flag"]
+  },
+  {
+    unicode: "🏴",
+    name: "Black Flag",
+    slug: "black-flag",
+    shortMeaning: "A black flag often associated with anarchy or piracy.",
+    detailedMeaning: "The Black Flag emoji is a solid black flag that can represent various concepts including anarchy, piracy, or rebellion. In some contexts, it's associated with mourning or protest.\n\nUsed in discussions about alternative movements, pirate themes, or as a symbol of defiance and non-conformity.",
+    usageContexts: ["Anarchy", "Piracy", "Rebellion", "Protest", "Alternative culture"],
+    examples: [
+      { context: "Pirate", text: "Pirate life 🏴" },
+      { context: "Rebellion", text: "Against the system 🏴" },
+      { context: "Metal", text: "Black metal vibes 🏴" }
+    ],
+    misunderstandings: ["Can have political connotations"],
+    relatedEmojis: ["pirate-flag", "skull-and-crossbones", "white-flag"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["black", "anarchy", "pirate", "rebellion", "flag"]
+  },
+  {
+    unicode: "🏴‍☠️",
+    name: "Pirate Flag",
+    slug: "pirate-flag",
+    shortMeaning: "The Jolly Roger - the classic skull and crossbones pirate flag.",
+    detailedMeaning: "The Pirate Flag emoji shows the iconic Jolly Roger - a black flag with a white skull and crossbones. This symbol has been associated with pirates since the early 18th century.\n\nUsed for pirate-themed content, expressing rebellion, adventure, or a love for pirate culture in movies, games, and literature.",
+    usageContexts: ["Pirates", "Adventure", "Rebellion", "Gaming", "Movies"],
+    examples: [
+      { context: "Pirate", text: "Ahoy matey 🏴‍☠️" },
+      { context: "Gaming", text: "Playing Sea of Thieves 🏴‍☠️" },
+      { context: "Adventure", text: "Treasure hunting 🏴‍☠️" }
+    ],
+    misunderstandings: ["Clear pirate reference"],
+    relatedEmojis: ["skull-and-crossbones", "black-flag", "ship"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["pirate", "jolly roger", "skull", "crossbones", "adventure"]
+  },
+  {
+    unicode: "🏁",
+    name: "Chequered Flag",
+    slug: "chequered-flag",
+    shortMeaning: "A checkered flag signaling the finish line or completion.",
+    detailedMeaning: "The Chequered Flag emoji represents the finish line in racing, particularly motorsports. The black and white checkered pattern is universally recognized as the signal for race completion.\n\nUsed to celebrate finishing something, reaching goals, motorsport discussions, or indicating the end of a task or project.",
+    usageContexts: ["Racing", "Finish line", "Completion", "Goals", "Motorsports"],
+    examples: [
+      { context: "Completion", text: "Project done 🏁" },
+      { context: "Racing", text: "F1 race day 🏁" },
+      { context: "Achievement", text: "Finally finished the marathon 🏁" }
+    ],
+    misunderstandings: ["Clear racing/finish meaning"],
+    relatedEmojis: ["racing-car", "trophy", "medal"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["racing", "finish", "checkered", "motorsport", "complete"]
+  },
+  {
+    unicode: "🚩",
+    name: "Triangular Flag",
+    slug: "triangular-flag",
+    shortMeaning: "A red triangular flag often meaning 'red flag' or warning.",
+    detailedMeaning: "The Triangular Flag emoji has gained significant popularity as 'red flag' slang, indicating warning signs in relationships, situations, or behaviors. Originally representing location markers or golf course flags.\n\nExtremely popular in social media to point out concerning behaviors or warning signs, especially in dating and relationship contexts.",
+    usageContexts: ["Red flags", "Warnings", "Dating advice", "Location marking", "Golf"],
+    examples: [
+      { context: "Warning", text: "He doesn't like dogs 🚩" },
+      { context: "Red flag", text: "That's a major red flag 🚩" },
+      { context: "Social media", text: "Says they have no drama 🚩🚩🚩" }
+    ],
+    misunderstandings: ["Originally meant location marker, now primarily means warning"],
+    relatedEmojis: ["warning", "stop-sign", "no-entry"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["red flag", "warning", "danger", "alert", "triangular"]
+  },
+  {
+    unicode: "🎌",
+    name: "Crossed Flags",
+    slug: "crossed-flags",
+    shortMeaning: "Two crossed Japanese flags representing celebration in Japan.",
+    detailedMeaning: "The Crossed Flags emoji shows two Japanese flags crossed, traditionally used to represent Japanese celebrations and national holidays. It's a symbol of festivity and national pride in Japan.\n\nUsed during Japanese holidays, cultural events, or to express connection to Japanese culture and celebrations.",
+    usageContexts: ["Japanese holidays", "Celebrations", "Cultural events", "National pride", "Festivals"],
+    examples: [
+      { context: "Holiday", text: "Happy Children's Day 🎌" },
+      { context: "Culture", text: "Japanese festival time 🎌" },
+      { context: "Pride", text: "Celebrating Japan 🎌" }
+    ],
+    misunderstandings: ["Specifically Japanese, not generic celebration"],
+    relatedEmojis: ["flag-japan", "cherry-blossom", "mount-fuji"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["japan", "celebration", "holiday", "crossed", "festival"]
+  },
+  {
+    unicode: "🇦🇫",
+    name: "Flag: Afghanistan",
+    slug: "flag-afghanistan",
+    shortMeaning: "The national flag of Afghanistan.",
+    detailedMeaning: "The Flag of Afghanistan emoji displays the national flag of Afghanistan. The flag features three vertical stripes of black, red, and green with the national emblem in the center.\n\nUsed to represent Afghanistan, its people, culture, and in discussions about the country.",
+    usageContexts: ["Afghanistan", "National identity", "Culture", "Travel", "Sports"],
+    examples: [
+      { context: "Pride", text: "Afghan pride 🇦🇫" },
+      { context: "Sports", text: "Go Afghanistan 🇦🇫" },
+      { context: "Culture", text: "Afghan heritage 🇦🇫" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["globe-showing-asia-australia"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["afghanistan", "afghan", "flag", "country", "nation"]
+  },
+  {
+    unicode: "🇦🇷",
+    name: "Flag: Argentina",
+    slug: "flag-argentina",
+    shortMeaning: "The national flag of Argentina.",
+    detailedMeaning: "The Flag of Argentina emoji shows the light blue and white striped flag with the Sun of May in the center. Argentina is known for football, tango, and its vibrant culture.\n\nUsed to represent Argentina, especially during football matches, cultural discussions, or by Argentinians expressing national pride.",
+    usageContexts: ["Argentina", "Football", "Tango", "South America", "Sports"],
+    examples: [
+      { context: "Football", text: "Vamos Argentina 🇦🇷" },
+      { context: "Pride", text: "Argentinian and proud 🇦🇷" },
+      { context: "Culture", text: "Tango night 🇦🇷" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["soccer-ball", "mate", "globe-showing-americas"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["argentina", "argentine", "flag", "south america", "football"]
+  },
+  {
+    unicode: "🇦🇺",
+    name: "Flag: Australia",
+    slug: "flag-australia",
+    shortMeaning: "The national flag of Australia.",
+    detailedMeaning: "The Flag of Australia emoji displays the blue flag with the Union Jack, the Commonwealth Star, and the Southern Cross constellation. Australia is known for its unique wildlife and outdoor culture.\n\nUsed to represent Australia, Australians abroad, discussions about the country, and during sporting events.",
+    usageContexts: ["Australia", "Sports", "Travel", "Wildlife", "Culture"],
+    examples: [
+      { context: "Sports", text: "Go Aussies 🇦🇺" },
+      { context: "Travel", text: "G'day from Australia 🇦🇺" },
+      { context: "Pride", text: "Aussie pride 🇦🇺" }
+    ],
+    misunderstandings: ["Similar to New Zealand flag"],
+    relatedEmojis: ["kangaroo", "koala", "boomerang"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["australia", "aussie", "flag", "oceania", "down under"]
+  },
+  {
+    unicode: "🇧🇷",
+    name: "Flag: Brazil",
+    slug: "flag-brazil",
+    shortMeaning: "The national flag of Brazil.",
+    detailedMeaning: "The Flag of Brazil emoji shows the distinctive green flag with a yellow diamond and blue globe featuring stars and the motto 'Ordem e Progresso'. Brazil is famous for football, carnival, and samba.\n\nWidely used during the World Cup, carnival season, and to express Brazilian identity and cultural pride.",
+    usageContexts: ["Brazil", "Football", "Carnival", "Samba", "South America"],
+    examples: [
+      { context: "Football", text: "Brasil! 🇧🇷⚽" },
+      { context: "Carnival", text: "Carnival vibes 🇧🇷" },
+      { context: "Pride", text: "Brazilian pride 🇧🇷" }
+    ],
+    misunderstandings: ["Clear and distinctive flag"],
+    relatedEmojis: ["soccer-ball", "palm-tree", "parrot"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["brazil", "brazilian", "flag", "south america", "football"]
+  },
+  {
+    unicode: "🇨🇦",
+    name: "Flag: Canada",
+    slug: "flag-canada",
+    shortMeaning: "The national flag of Canada with maple leaf.",
+    detailedMeaning: "The Flag of Canada emoji displays the iconic red and white flag with the maple leaf. Canada is known for its friendly people, hockey, and stunning natural landscapes.\n\nUsed to represent Canada, Canadian identity, hockey discussions, and to express the famous Canadian friendliness.",
+    usageContexts: ["Canada", "Hockey", "Maple syrup", "Politeness", "Nature"],
+    examples: [
+      { context: "Hockey", text: "Go Leafs Go 🇨🇦🏒" },
+      { context: "Pride", text: "Canadian eh 🇨🇦" },
+      { context: "Culture", text: "Maple syrup season 🇨🇦" }
+    ],
+    misunderstandings: ["Very distinctive flag"],
+    relatedEmojis: ["maple-leaf", "hockey", "moose"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["canada", "canadian", "maple", "flag", "north america"]
+  },
+  {
+    unicode: "🇨🇳",
+    name: "Flag: China",
+    slug: "flag-china",
+    shortMeaning: "The national flag of China.",
+    detailedMeaning: "The Flag of China emoji shows the red flag with five yellow stars. China is known for its ancient history, culture, cuisine, and as one of the world's major economies.\n\nUsed to represent China, Chinese culture, traditions, and by Chinese people expressing national identity.",
+    usageContexts: ["China", "Chinese culture", "History", "Cuisine", "Festivals"],
+    examples: [
+      { context: "Culture", text: "Chinese New Year 🇨🇳🧧" },
+      { context: "Pride", text: "Chinese heritage 🇨🇳" },
+      { context: "Travel", text: "Visiting China 🇨🇳" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["dragon", "red-envelope", "dumpling"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["china", "chinese", "flag", "asia", "prc"]
+  },
+  {
+    unicode: "🇨🇴",
+    name: "Flag: Colombia",
+    slug: "flag-colombia",
+    shortMeaning: "The national flag of Colombia.",
+    detailedMeaning: "The Flag of Colombia emoji displays the yellow, blue, and red horizontal striped flag. Colombia is known for its coffee, music, biodiversity, and warm culture.\n\nUsed to represent Colombia, Colombian identity, and in discussions about the country's rich culture and natural beauty.",
+    usageContexts: ["Colombia", "Coffee", "Culture", "South America", "Music"],
+    examples: [
+      { context: "Pride", text: "Colombian pride 🇨🇴" },
+      { context: "Culture", text: "Colombian coffee ☕🇨🇴" },
+      { context: "Sports", text: "Vamos Colombia 🇨🇴" }
+    ],
+    misunderstandings: ["Similar to Ecuador and Venezuela flags"],
+    relatedEmojis: ["coffee", "globe-showing-americas"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["colombia", "colombian", "flag", "south america", "coffee"]
+  },
+  {
+    unicode: "🇩🇪",
+    name: "Flag: Germany",
+    slug: "flag-germany",
+    shortMeaning: "The national flag of Germany.",
+    detailedMeaning: "The Flag of Germany emoji shows the black, red, and gold horizontal tricolor. Germany is known for engineering, beer, football, and its central role in European culture.\n\nUsed to represent Germany, German culture, during football matches, and discussions about German engineering or traditions.",
+    usageContexts: ["Germany", "Football", "Engineering", "Beer", "Europe"],
+    examples: [
+      { context: "Football", text: "Deutschland! 🇩🇪⚽" },
+      { context: "Culture", text: "Oktoberfest 🇩🇪🍺" },
+      { context: "Pride", text: "German engineering 🇩🇪" }
+    ],
+    misunderstandings: ["Similar to Belgian flag colors but different order"],
+    relatedEmojis: ["beer-mug", "pretzel", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["germany", "german", "flag", "europe", "deutschland"]
+  },
+  {
+    unicode: "🇪🇬",
+    name: "Flag: Egypt",
+    slug: "flag-egypt",
+    shortMeaning: "The national flag of Egypt.",
+    detailedMeaning: "The Flag of Egypt emoji displays the red, white, and black horizontal stripes with the golden Eagle of Saladin in the center. Egypt is famous for its ancient pyramids and rich history.\n\nUsed to represent Egypt, Egyptian heritage, discussions about ancient history, and modern Egyptian culture.",
+    usageContexts: ["Egypt", "Ancient history", "Pyramids", "Culture", "Africa"],
+    examples: [
+      { context: "History", text: "Land of the pharaohs 🇪🇬" },
+      { context: "Travel", text: "Visiting the pyramids 🇪🇬" },
+      { context: "Pride", text: "Egyptian heritage 🇪🇬" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["pyramid", "sphinx", "camel"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["egypt", "egyptian", "flag", "africa", "pyramids"]
+  },
+  {
+    unicode: "🇪🇸",
+    name: "Flag: Spain",
+    slug: "flag-spain",
+    shortMeaning: "The national flag of Spain.",
+    detailedMeaning: "The Flag of Spain emoji shows the red and yellow flag with the coat of arms. Spain is known for flamenco, bullfighting, football, and its vibrant Mediterranean culture.\n\nUsed to represent Spain, Spanish culture, during La Liga matches, and to express love for Spanish traditions and lifestyle.",
+    usageContexts: ["Spain", "Football", "Flamenco", "Tapas", "Mediterranean"],
+    examples: [
+      { context: "Football", text: "¡Vamos España! 🇪🇸⚽" },
+      { context: "Culture", text: "Tapas night 🇪🇸" },
+      { context: "Travel", text: "Hola from Barcelona 🇪🇸" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["flamenco", "paella", "bull"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["spain", "spanish", "flag", "europe", "espana"]
+  },
+  {
+    unicode: "🇫🇷",
+    name: "Flag: France",
+    slug: "flag-france",
+    shortMeaning: "The national flag of France - the Tricolore.",
+    detailedMeaning: "The Flag of France emoji displays the famous blue, white, and red vertical tricolor. France is known for fashion, cuisine, art, romance, and the Eiffel Tower.\n\nUsed to represent France, French culture, discussions about fashion, wine, cuisine, and expressions of love for Paris and French lifestyle.",
+    usageContexts: ["France", "Fashion", "Cuisine", "Paris", "Romance"],
+    examples: [
+      { context: "Travel", text: "Bonjour from Paris 🇫🇷" },
+      { context: "Culture", text: "French wine and cheese 🇫🇷🍷" },
+      { context: "Fashion", text: "Paris Fashion Week 🇫🇷" }
+    ],
+    misunderstandings: ["May be confused with other tricolors"],
+    relatedEmojis: ["eiffel-tower", "baguette", "wine-glass"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["france", "french", "flag", "europe", "paris"]
+  },
+  {
+    unicode: "🇬🇧",
+    name: "Flag: United Kingdom",
+    slug: "flag-united-kingdom",
+    shortMeaning: "The Union Jack - flag of the United Kingdom.",
+    detailedMeaning: "The Flag of the United Kingdom emoji shows the Union Jack, combining the crosses of England, Scotland, and Ireland. The UK is known for tea, the Royal Family, and British culture.\n\nUsed to represent the UK, British culture, during sporting events, and discussions about British traditions and history.",
+    usageContexts: ["United Kingdom", "British culture", "Tea", "Royalty", "Sports"],
+    examples: [
+      { context: "Culture", text: "Tea time 🇬🇧☕" },
+      { context: "Sports", text: "Come on England 🇬🇧" },
+      { context: "Pride", text: "British and proud 🇬🇧" }
+    ],
+    misunderstandings: ["Often confused with just England"],
+    relatedEmojis: ["crown", "tea", "big-ben"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["uk", "britain", "british", "union jack", "england"]
+  },
+  {
+    unicode: "🇮🇳",
+    name: "Flag: India",
+    slug: "flag-india",
+    shortMeaning: "The national flag of India with Ashoka Chakra.",
+    detailedMeaning: "The Flag of India emoji displays the saffron, white, and green tricolor with the navy blue Ashoka Chakra in the center. India is known for its diverse culture, cuisine, Bollywood, and rich history.\n\nUsed to represent India, Indian culture, during cricket matches, and to express pride in Indian heritage and traditions.",
+    usageContexts: ["India", "Cricket", "Bollywood", "Culture", "Festivals"],
+    examples: [
+      { context: "Cricket", text: "Go India 🇮🇳🏏" },
+      { context: "Festival", text: "Happy Diwali 🇮🇳🪔" },
+      { context: "Pride", text: "Indian heritage 🇮🇳" }
+    ],
+    misunderstandings: ["May be confused with similar tricolors"],
+    relatedEmojis: ["diya-lamp", "curry-rice", "peacock"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["india", "indian", "flag", "asia", "cricket"]
+  },
+  {
+    unicode: "🇮🇹",
+    name: "Flag: Italy",
+    slug: "flag-italy",
+    shortMeaning: "The national flag of Italy - the Italian Tricolore.",
+    detailedMeaning: "The Flag of Italy emoji shows the green, white, and red vertical tricolor. Italy is famous for pizza, pasta, fashion, art, and its romantic culture.\n\nUsed to represent Italy, Italian culture, cuisine discussions, football matches, and expressions of Italian identity and style.",
+    usageContexts: ["Italy", "Food", "Fashion", "Football", "Art"],
+    examples: [
+      { context: "Food", text: "Pizza time 🇮🇹🍕" },
+      { context: "Football", text: "Forza Italia 🇮🇹" },
+      { context: "Culture", text: "Italian style 🇮🇹" }
+    ],
+    misunderstandings: ["Similar to Mexican flag but different emblem"],
+    relatedEmojis: ["pizza", "spaghetti", "wine-glass"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["italy", "italian", "flag", "europe", "italia"]
+  },
+  {
+    unicode: "🇯🇵",
+    name: "Flag: Japan",
+    slug: "flag-japan",
+    shortMeaning: "The national flag of Japan - the Rising Sun.",
+    detailedMeaning: "The Flag of Japan emoji displays the simple but iconic white flag with a red circle representing the sun. Japan is known for technology, anime, sushi, and its unique blend of tradition and modernity.\n\nUsed to represent Japan, Japanese culture, anime discussions, travel, and expressions of appreciation for Japanese traditions.",
+    usageContexts: ["Japan", "Anime", "Sushi", "Technology", "Culture"],
+    examples: [
+      { context: "Culture", text: "Japanese culture 🇯🇵" },
+      { context: "Food", text: "Sushi night 🇯🇵🍣" },
+      { context: "Anime", text: "New anime season 🇯🇵" }
+    ],
+    misunderstandings: ["Very distinctive flag"],
+    relatedEmojis: ["cherry-blossom", "sushi", "mount-fuji"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["japan", "japanese", "flag", "asia", "nihon"]
+  },
+  {
+    unicode: "🇰🇷",
+    name: "Flag: South Korea",
+    slug: "flag-south-korea",
+    shortMeaning: "The national flag of South Korea - Taegukgi.",
+    detailedMeaning: "The Flag of South Korea emoji displays the Taegukgi with its yin-yang symbol and four trigrams. South Korea is known for K-pop, technology, cuisine, and its dynamic modern culture.\n\nUsed to represent South Korea, K-pop fandom, Korean culture discussions, and expressions of appreciation for Korean entertainment and traditions.",
+    usageContexts: ["South Korea", "K-pop", "K-drama", "Technology", "Food"],
+    examples: [
+      { context: "K-pop", text: "BTS concert 🇰🇷" },
+      { context: "Food", text: "Korean BBQ 🇰🇷" },
+      { context: "Culture", text: "K-drama marathon 🇰🇷" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["kimchi", "microphone", "headphone"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["korea", "korean", "south korea", "flag", "kpop"]
+  },
+  {
+    unicode: "🇲🇽",
+    name: "Flag: Mexico",
+    slug: "flag-mexico",
+    shortMeaning: "The national flag of Mexico with eagle emblem.",
+    detailedMeaning: "The Flag of Mexico emoji displays the green, white, and red vertical stripes with the coat of arms featuring an eagle eating a snake. Mexico is famous for tacos, tequila, mariachi, and vibrant culture.\n\nUsed to represent Mexico, Mexican culture, during national celebrations like Cinco de Mayo, and to express Mexican pride and heritage.",
+    usageContexts: ["Mexico", "Food", "Culture", "Celebrations", "Music"],
+    examples: [
+      { context: "Food", text: "Taco Tuesday 🇲🇽🌮" },
+      { context: "Celebration", text: "Cinco de Mayo 🇲🇽" },
+      { context: "Pride", text: "Viva Mexico 🇲🇽" }
+    ],
+    misunderstandings: ["Similar to Italian flag but with emblem"],
+    relatedEmojis: ["taco", "cactus", "hot-pepper"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["mexico", "mexican", "flag", "north america", "taco"]
+  },
+  {
+    unicode: "🇳🇬",
+    name: "Flag: Nigeria",
+    slug: "flag-nigeria",
+    shortMeaning: "The national flag of Nigeria.",
+    detailedMeaning: "The Flag of Nigeria emoji displays the green and white vertical stripes. Nigeria is Africa's most populous country, known for its music, Nollywood, and diverse cultures.\n\nUsed to represent Nigeria, Nigerian pride, Afrobeats music discussions, and during football matches.",
+    usageContexts: ["Nigeria", "Afrobeats", "Football", "Nollywood", "Culture"],
+    examples: [
+      { context: "Music", text: "Afrobeats vibes 🇳🇬" },
+      { context: "Football", text: "Super Eagles 🇳🇬⚽" },
+      { context: "Pride", text: "Nigerian pride 🇳🇬" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["musical-notes", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["nigeria", "nigerian", "flag", "africa", "afrobeats"]
+  },
+  {
+    unicode: "🇳🇱",
+    name: "Flag: Netherlands",
+    slug: "flag-netherlands",
+    shortMeaning: "The national flag of the Netherlands.",
+    detailedMeaning: "The Flag of the Netherlands emoji displays the red, white, and blue horizontal stripes. The Netherlands is known for tulips, windmills, cycling, and its liberal culture.\n\nUsed to represent the Netherlands, Dutch culture, during football matches, and discussions about Dutch traditions and lifestyle.",
+    usageContexts: ["Netherlands", "Football", "Tulips", "Cycling", "Culture"],
+    examples: [
+      { context: "Football", text: "Hup Holland Hup 🇳🇱" },
+      { context: "Culture", text: "Tulip season 🇳🇱🌷" },
+      { context: "Pride", text: "Dutch pride 🇳🇱" }
+    ],
+    misunderstandings: ["Similar to other red-white-blue flags"],
+    relatedEmojis: ["tulip", "bicycle", "windmill"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["netherlands", "dutch", "holland", "flag", "europe"]
+  },
+  {
+    unicode: "🇵🇭",
+    name: "Flag: Philippines",
+    slug: "flag-philippines",
+    shortMeaning: "The national flag of the Philippines.",
+    detailedMeaning: "The Flag of the Philippines emoji shows the blue and red flag with the white triangle, sun, and stars. The Philippines is known for its beautiful islands, hospitality, and vibrant culture.\n\nUsed to represent the Philippines, Filipino pride, discussions about the country's beautiful beaches and culture.",
+    usageContexts: ["Philippines", "Islands", "Culture", "Travel", "Pride"],
+    examples: [
+      { context: "Pride", text: "Filipino pride 🇵🇭" },
+      { context: "Travel", text: "Philippine beaches 🇵🇭🏝️" },
+      { context: "Culture", text: "Mabuhay 🇵🇭" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["beach", "palm-tree", "sun"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["philippines", "filipino", "flag", "asia", "islands"]
+  },
+  {
+    unicode: "🇵🇱",
+    name: "Flag: Poland",
+    slug: "flag-poland",
+    shortMeaning: "The national flag of Poland.",
+    detailedMeaning: "The Flag of Poland emoji displays the white and red horizontal bicolor. Poland is known for its rich history, culture, and resilient people.\n\nUsed to represent Poland, Polish heritage, during football matches, and discussions about Polish culture and traditions.",
+    usageContexts: ["Poland", "Culture", "History", "Football", "Europe"],
+    examples: [
+      { context: "Pride", text: "Polish pride 🇵🇱" },
+      { context: "Football", text: "Polska! 🇵🇱⚽" },
+      { context: "Culture", text: "Polish heritage 🇵🇱" }
+    ],
+    misunderstandings: ["Similar to Indonesian and Monaco flags (inverted)"],
+    relatedEmojis: ["pierogi", "eagle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["poland", "polish", "polska", "flag", "europe"]
+  },
+  {
+    unicode: "🇵🇹",
+    name: "Flag: Portugal",
+    slug: "flag-portugal",
+    shortMeaning: "The national flag of Portugal.",
+    detailedMeaning: "The Flag of Portugal emoji shows the green and red flag with the armillary sphere and Portuguese shield. Portugal is known for football, pastéis de nata, and its maritime history.\n\nUsed to represent Portugal, Portuguese culture, during football matches, and discussions about Portuguese traditions and cuisine.",
+    usageContexts: ["Portugal", "Football", "Cuisine", "History", "Culture"],
+    examples: [
+      { context: "Football", text: "Força Portugal 🇵🇹⚽" },
+      { context: "Food", text: "Pastéis de nata 🇵🇹" },
+      { context: "Pride", text: "Portuguese pride 🇵🇹" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["soccer-ball", "ship"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["portugal", "portuguese", "flag", "europe", "football"]
+  },
+  {
+    unicode: "🇷🇺",
+    name: "Flag: Russia",
+    slug: "flag-russia",
+    shortMeaning: "The national flag of Russia.",
+    detailedMeaning: "The Flag of Russia emoji displays the white, blue, and red horizontal tricolor. Russia is known for its vast size, rich culture, literature, and ballet.\n\nUsed to represent Russia, Russian culture, and discussions about Russian traditions, literature, and arts.",
+    usageContexts: ["Russia", "Culture", "Literature", "Ballet", "History"],
+    examples: [
+      { context: "Culture", text: "Russian culture 🇷🇺" },
+      { context: "Pride", text: "Russian heritage 🇷🇺" },
+      { context: "Arts", text: "Ballet night 🇷🇺🩰" }
+    ],
+    misunderstandings: ["Similar to other tricolor flags"],
+    relatedEmojis: ["matryoshka", "ballet-shoes"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["russia", "russian", "flag", "europe", "asia"]
+  },
+  {
+    unicode: "🇸🇦",
+    name: "Flag: Saudi Arabia",
+    slug: "flag-saudi-arabia",
+    shortMeaning: "The national flag of Saudi Arabia.",
+    detailedMeaning: "The Flag of Saudi Arabia emoji shows the green flag with the Shahada and sword. Saudi Arabia is known for its Islamic heritage, oil wealth, and hosting holy sites Mecca and Medina.\n\nUsed to represent Saudi Arabia, Saudi culture, and discussions about the country's heritage and traditions.",
+    usageContexts: ["Saudi Arabia", "Islam", "Culture", "Heritage", "Travel"],
+    examples: [
+      { context: "Pride", text: "Saudi Arabia 🇸🇦" },
+      { context: "Culture", text: "Saudi heritage 🇸🇦" },
+      { context: "Travel", text: "Visiting Riyadh 🇸🇦" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mosque", "camel", "desert"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["saudi arabia", "saudi", "flag", "middle east", "arabia"]
+  },
+  {
+    unicode: "🇿🇦",
+    name: "Flag: South Africa",
+    slug: "flag-south-africa",
+    shortMeaning: "The national flag of South Africa.",
+    detailedMeaning: "The Flag of South Africa emoji displays the distinctive Y-shaped design with six colors. South Africa is known as the Rainbow Nation for its diverse cultures and history.\n\nUsed to represent South Africa, South African pride, during sporting events, and discussions about the country's diverse heritage.",
+    usageContexts: ["South Africa", "Rainbow Nation", "Sports", "Culture", "Heritage"],
+    examples: [
+      { context: "Sports", text: "Go Springboks 🇿🇦🏉" },
+      { context: "Pride", text: "South African pride 🇿🇦" },
+      { context: "Culture", text: "Rainbow Nation 🇿🇦" }
+    ],
+    misunderstandings: ["Distinctive and recognizable flag"],
+    relatedEmojis: ["rugby-football", "lion", "elephant"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["south africa", "african", "flag", "africa", "rainbow nation"]
+  },
+  {
+    unicode: "🇹🇷",
+    name: "Flag: Turkey",
+    slug: "flag-turkey",
+    shortMeaning: "The national flag of Turkey.",
+    detailedMeaning: "The Flag of Turkey emoji shows the red flag with white crescent moon and star. Turkey is known for its unique position bridging Europe and Asia, rich history, and delicious cuisine.\n\nUsed to represent Turkey, Turkish culture, discussions about the country's cuisine, history, and tourism.",
+    usageContexts: ["Turkey", "Culture", "Cuisine", "History", "Travel"],
+    examples: [
+      { context: "Food", text: "Turkish kebab 🇹🇷" },
+      { context: "Pride", text: "Turkish pride 🇹🇷" },
+      { context: "Travel", text: "Istanbul calling 🇹🇷" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mosque", "tea", "crescent-moon"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["turkey", "turkish", "flag", "europe", "asia"]
+  },
+  {
+    unicode: "🇺🇦",
+    name: "Flag: Ukraine",
+    slug: "flag-ukraine",
+    shortMeaning: "The national flag of Ukraine.",
+    detailedMeaning: "The Flag of Ukraine emoji displays the blue and yellow horizontal bicolor, representing the sky and wheat fields. Ukraine is known for its rich culture, history, and resilient spirit.\n\nUsed to represent Ukraine, Ukrainian identity, expressions of support, and discussions about Ukrainian culture and heritage.",
+    usageContexts: ["Ukraine", "Support", "Culture", "Identity", "Heritage"],
+    examples: [
+      { context: "Support", text: "Slava Ukraini 🇺🇦" },
+      { context: "Pride", text: "Ukrainian pride 🇺🇦" },
+      { context: "Culture", text: "Ukrainian heritage 🇺🇦" }
+    ],
+    misunderstandings: ["Very recognizable currently"],
+    relatedEmojis: ["sunflower", "wheat", "heart"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ukraine", "ukrainian", "flag", "europe", "support"]
+  },
+  {
+    unicode: "🇺🇸",
+    name: "Flag: United States",
+    slug: "flag-united-states",
+    shortMeaning: "The Stars and Stripes - flag of the United States.",
+    detailedMeaning: "The Flag of the United States emoji displays the iconic Stars and Stripes with 50 stars and 13 stripes. The USA is known for its cultural influence, entertainment industry, and diverse population.\n\nWidely used to represent the United States, American culture, patriotism, and during national celebrations and sporting events.",
+    usageContexts: ["United States", "Patriotism", "Sports", "Culture", "Holidays"],
+    examples: [
+      { context: "Holiday", text: "Happy 4th of July 🇺🇸" },
+      { context: "Sports", text: "USA! USA! 🇺🇸" },
+      { context: "Pride", text: "American dream 🇺🇸" }
+    ],
+    misunderstandings: ["Very distinctive flag"],
+    relatedEmojis: ["statue-of-liberty", "eagle", "fireworks"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["usa", "america", "american", "united states", "flag"]
+  },
+  {
+    unicode: "🇻🇪",
+    name: "Flag: Venezuela",
+    slug: "flag-venezuela",
+    shortMeaning: "The national flag of Venezuela.",
+    detailedMeaning: "The Flag of Venezuela emoji displays the yellow, blue, and red horizontal stripes with stars. Venezuela is known for its natural beauty, music, and oil reserves.\n\nUsed to represent Venezuela, Venezuelan identity, and discussions about the country's culture and heritage.",
+    usageContexts: ["Venezuela", "Culture", "Music", "Heritage", "Identity"],
+    examples: [
+      { context: "Pride", text: "Venezuelan pride 🇻🇪" },
+      { context: "Culture", text: "Venezuelan heritage 🇻🇪" },
+      { context: "Music", text: "Venezuelan music 🇻🇪" }
+    ],
+    misunderstandings: ["Similar to Colombia and Ecuador flags"],
+    relatedEmojis: ["arepa", "musical-notes"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["venezuela", "venezuelan", "flag", "south america"]
+  },
+  {
+    unicode: "🇻🇳",
+    name: "Flag: Vietnam",
+    slug: "flag-vietnam",
+    shortMeaning: "The national flag of Vietnam.",
+    detailedMeaning: "The Flag of Vietnam emoji displays the red flag with a yellow star in the center. Vietnam is known for its beautiful landscapes, delicious cuisine, and rich history.\n\nUsed to represent Vietnam, Vietnamese culture, discussions about Vietnamese cuisine and travel.",
+    usageContexts: ["Vietnam", "Cuisine", "Travel", "Culture", "History"],
+    examples: [
+      { context: "Food", text: "Pho night 🇻🇳🍜" },
+      { context: "Pride", text: "Vietnamese pride 🇻🇳" },
+      { context: "Travel", text: "Vietnam trip 🇻🇳" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["steaming-bowl", "rice", "water-buffalo"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["vietnam", "vietnamese", "flag", "asia", "pho"]
+  },
+  {
+    unicode: "🏳️‍🌈",
+    name: "Rainbow Flag",
+    slug: "rainbow-flag",
+    shortMeaning: "The rainbow Pride flag representing LGBTQ+ community.",
+    detailedMeaning: "The Rainbow Flag emoji displays the iconic six-color rainbow Pride flag, symbolizing LGBTQ+ pride and diversity. Designed by Gilbert Baker in 1978, it has become a universal symbol of acceptance and celebration.\n\nWidely used during Pride month, to express LGBTQ+ identity, show allyship, and celebrate diversity and inclusion.",
+    usageContexts: ["Pride", "LGBTQ+", "Diversity", "Inclusion", "Celebration"],
+    examples: [
+      { context: "Pride", text: "Happy Pride Month 🏳️‍🌈" },
+      { context: "Identity", text: "Proud to be me 🏳️‍🌈" },
+      { context: "Support", text: "Love is love 🏳️‍🌈" }
+    ],
+    misunderstandings: ["Well-understood symbol"],
+    relatedEmojis: ["rainbow", "sparkles", "heart"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["pride", "lgbtq", "rainbow", "gay", "diversity"]
+  },
+  {
+    unicode: "🏳️‍⚧️",
+    name: "Transgender Flag",
+    slug: "transgender-flag",
+    shortMeaning: "The transgender Pride flag representing trans community.",
+    detailedMeaning: "The Transgender Flag emoji displays the light blue, pink, and white striped flag designed by Monica Helms in 1999. It represents the transgender community and trans pride.\n\nUsed to express transgender identity, show support for trans rights, and celebrate transgender visibility and pride.",
+    usageContexts: ["Trans pride", "LGBTQ+", "Identity", "Support", "Visibility"],
+    examples: [
+      { context: "Pride", text: "Trans pride 🏳️‍⚧️" },
+      { context: "Support", text: "Trans rights are human rights 🏳️‍⚧️" },
+      { context: "Identity", text: "Proud to be trans 🏳️‍⚧️" }
+    ],
+    misunderstandings: ["Well-understood symbol"],
+    relatedEmojis: ["rainbow-flag", "sparkles", "heart"],
+    categorySlug: "flags",
+    subgroup: "flag",
+    keywords: ["transgender", "trans", "pride", "lgbtq", "flag"]
+  },
+  {
+    unicode: "🇦🇪",
+    name: "Flag: United Arab Emirates",
+    slug: "flag-united-arab-emirates",
+    shortMeaning: "The national flag of the United Arab Emirates.",
+    detailedMeaning: "The Flag of the UAE emoji displays the green, white, black, and red flag. The UAE is known for Dubai, luxury tourism, and modern architecture.\n\nUsed to represent the UAE, discussions about Dubai, Abu Dhabi, and the country's rapid development.",
+    usageContexts: ["UAE", "Dubai", "Luxury", "Travel", "Business"],
+    examples: [
+      { context: "Travel", text: "Dubai vibes 🇦🇪" },
+      { context: "Pride", text: "UAE 🇦🇪" },
+      { context: "Business", text: "UAE business 🇦🇪" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["desert", "money-bag", "airplane"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["uae", "dubai", "emirates", "flag", "middle east"]
+  },
+  {
+    unicode: "🇮🇩",
+    name: "Flag: Indonesia",
+    slug: "flag-indonesia",
+    shortMeaning: "The national flag of Indonesia.",
+    detailedMeaning: "The Flag of Indonesia emoji displays the red and white bicolor known as Merah Putih. Indonesia is the world's largest archipelago, known for Bali, diverse cultures, and rich biodiversity.\n\nUsed to represent Indonesia, Indonesian culture, discussions about travel to Bali and other islands.",
+    usageContexts: ["Indonesia", "Bali", "Travel", "Culture", "Islands"],
+    examples: [
+      { context: "Travel", text: "Bali calling 🇮🇩" },
+      { context: "Pride", text: "Indonesian pride 🇮🇩" },
+      { context: "Culture", text: "Indonesian heritage 🇮🇩" }
+    ],
+    misunderstandings: ["Similar to Poland and Monaco flags"],
+    relatedEmojis: ["palm-tree", "rice", "volcano"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["indonesia", "indonesian", "bali", "flag", "asia"]
+  },
+  {
+    unicode: "🇹🇭",
+    name: "Flag: Thailand",
+    slug: "flag-thailand",
+    shortMeaning: "The national flag of Thailand.",
+    detailedMeaning: "The Flag of Thailand emoji displays the red, white, and blue horizontal stripes. Thailand is known as the Land of Smiles, famous for temples, beaches, and cuisine.\n\nUsed to represent Thailand, Thai culture, discussions about travel and Thai food.",
+    usageContexts: ["Thailand", "Travel", "Food", "Culture", "Beaches"],
+    examples: [
+      { context: "Food", text: "Thai food 🇹🇭" },
+      { context: "Travel", text: "Thailand vacation 🇹🇭" },
+      { context: "Culture", text: "Sawadee 🇹🇭" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["elephant", "temple", "curry-rice"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["thailand", "thai", "flag", "asia", "beaches"]
+  },
+  {
+    unicode: "🇸🇬",
+    name: "Flag: Singapore",
+    slug: "flag-singapore",
+    shortMeaning: "The national flag of Singapore.",
+    detailedMeaning: "The Flag of Singapore emoji displays the red and white flag with crescent moon and five stars. Singapore is known for its cleanliness, efficiency, and blend of cultures.\n\nUsed to represent Singapore, Singaporean identity, discussions about the city-state's modern culture.",
+    usageContexts: ["Singapore", "Business", "Travel", "Culture", "Cleanliness"],
+    examples: [
+      { context: "Travel", text: "Singapore trip 🇸🇬" },
+      { context: "Pride", text: "Singaporean pride 🇸🇬" },
+      { context: "Food", text: "Hawker food 🇸🇬" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["cityscape", "airplane", "noodles"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["singapore", "singaporean", "flag", "asia", "city"]
+  },
+  {
+    unicode: "🇲🇾",
+    name: "Flag: Malaysia",
+    slug: "flag-malaysia",
+    shortMeaning: "The national flag of Malaysia.",
+    detailedMeaning: "The Flag of Malaysia emoji displays the Jalur Gemilang with red and white stripes, blue canton, crescent and 14-point star. Malaysia is known for its diverse cultures and tropical beauty.\n\nUsed to represent Malaysia, Malaysian identity, and discussions about the country's culture.",
+    usageContexts: ["Malaysia", "Culture", "Travel", "Food", "Diversity"],
+    examples: [
+      { context: "Pride", text: "Malaysian pride 🇲🇾" },
+      { context: "Food", text: "Malaysian food 🇲🇾" },
+      { context: "Travel", text: "Malaysia trip 🇲🇾" }
+    ],
+    misunderstandings: ["Similar design to US flag"],
+    relatedEmojis: ["palm-tree", "tropical-drink"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["malaysia", "malaysian", "flag", "asia", "culture"]
+  },
+  {
+    unicode: "🇳🇿",
+    name: "Flag: New Zealand",
+    slug: "flag-new-zealand",
+    shortMeaning: "The national flag of New Zealand.",
+    detailedMeaning: "The Flag of New Zealand emoji displays the blue flag with Union Jack and Southern Cross stars. New Zealand is known for stunning landscapes, the All Blacks, and Maori culture.\n\nUsed to represent New Zealand, Kiwi identity, during rugby matches, and discussions about the country.",
+    usageContexts: ["New Zealand", "Rugby", "Nature", "Maori", "Travel"],
+    examples: [
+      { context: "Rugby", text: "All Blacks 🇳🇿🏉" },
+      { context: "Pride", text: "Kiwi pride 🇳🇿" },
+      { context: "Travel", text: "New Zealand adventure 🇳🇿" }
+    ],
+    misunderstandings: ["Similar to Australian flag"],
+    relatedEmojis: ["kiwi-bird", "rugby-football", "mountain"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["new zealand", "kiwi", "nz", "flag", "oceania"]
+  },
+  {
+    unicode: "🇮🇪",
+    name: "Flag: Ireland",
+    slug: "flag-ireland",
+    shortMeaning: "The national flag of Ireland.",
+    detailedMeaning: "The Flag of Ireland emoji displays the green, white, and orange tricolor. Ireland is known for its rolling green landscapes, Celtic culture, and friendly people.\n\nUsed to represent Ireland, Irish pride, during St. Patrick's Day, and discussions about Irish culture.",
+    usageContexts: ["Ireland", "St. Patrick's Day", "Celtic", "Culture", "Heritage"],
+    examples: [
+      { context: "Holiday", text: "Happy St. Patrick's Day 🇮🇪☘️" },
+      { context: "Pride", text: "Irish pride 🇮🇪" },
+      { context: "Culture", text: "Irish heritage 🇮🇪" }
+    ],
+    misunderstandings: ["May be confused with Ivory Coast flag (inverted)"],
+    relatedEmojis: ["shamrock", "beer-mug", "four-leaf-clover"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ireland", "irish", "flag", "europe", "celtic"]
+  },
+  {
+    unicode: "🇸🇪",
+    name: "Flag: Sweden",
+    slug: "flag-sweden",
+    shortMeaning: "The national flag of Sweden.",
+    detailedMeaning: "The Flag of Sweden emoji displays the blue flag with yellow Nordic cross. Sweden is known for IKEA, ABBA, design, and high quality of life.\n\nUsed to represent Sweden, Swedish culture, discussions about Scandinavian lifestyle.",
+    usageContexts: ["Sweden", "Scandinavia", "Design", "Culture", "IKEA"],
+    examples: [
+      { context: "Culture", text: "Swedish design 🇸🇪" },
+      { context: "Pride", text: "Swedish pride 🇸🇪" },
+      { context: "Music", text: "ABBA vibes 🇸🇪" }
+    ],
+    misunderstandings: ["Clear Nordic flag design"],
+    relatedEmojis: ["snowflake", "christmas-tree"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["sweden", "swedish", "flag", "europe", "scandinavia"]
+  },
+  {
+    unicode: "🇳🇴",
+    name: "Flag: Norway",
+    slug: "flag-norway",
+    shortMeaning: "The national flag of Norway.",
+    detailedMeaning: "The Flag of Norway emoji displays the red flag with blue-bordered white Nordic cross. Norway is known for fjords, Vikings, and stunning natural beauty.\n\nUsed to represent Norway, Norwegian identity, and discussions about Norwegian culture and landscapes.",
+    usageContexts: ["Norway", "Fjords", "Vikings", "Nature", "Scandinavia"],
+    examples: [
+      { context: "Nature", text: "Norwegian fjords 🇳🇴" },
+      { context: "Pride", text: "Norwegian pride 🇳🇴" },
+      { context: "Culture", text: "Viking heritage 🇳🇴" }
+    ],
+    misunderstandings: ["Clear Nordic flag design"],
+    relatedEmojis: ["mountain", "snowflake", "ship"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["norway", "norwegian", "flag", "europe", "scandinavia"]
+  },
+  {
+    unicode: "🇩🇰",
+    name: "Flag: Denmark",
+    slug: "flag-denmark",
+    shortMeaning: "The national flag of Denmark - the Dannebrog.",
+    detailedMeaning: "The Flag of Denmark emoji displays the Dannebrog, the oldest state flag still in use, featuring a white Nordic cross on red. Denmark is known for hygge, Vikings, and high happiness.\n\nUsed to represent Denmark, Danish identity, and discussions about Scandinavian culture.",
+    usageContexts: ["Denmark", "Hygge", "Vikings", "Culture", "Scandinavia"],
+    examples: [
+      { context: "Culture", text: "Danish hygge 🇩🇰" },
+      { context: "Pride", text: "Danish pride 🇩🇰" },
+      { context: "Food", text: "Danish pastry 🇩🇰" }
+    ],
+    misunderstandings: ["Clear Nordic flag design"],
+    relatedEmojis: ["croissant", "snowflake"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["denmark", "danish", "flag", "europe", "scandinavia"]
+  },
+  {
+    unicode: "🇫🇮",
+    name: "Flag: Finland",
+    slug: "flag-finland",
+    shortMeaning: "The national flag of Finland.",
+    detailedMeaning: "The Flag of Finland emoji displays the white flag with blue Nordic cross. Finland is known for saunas, education, Nokia, and beautiful lakes.\n\nUsed to represent Finland, Finnish identity, and discussions about Finnish culture and lifestyle.",
+    usageContexts: ["Finland", "Sauna", "Education", "Nature", "Scandinavia"],
+    examples: [
+      { context: "Culture", text: "Sauna time 🇫🇮" },
+      { context: "Pride", text: "Finnish pride 🇫🇮" },
+      { context: "Nature", text: "Finnish lakes 🇫🇮" }
+    ],
+    misunderstandings: ["Clear Nordic flag design"],
+    relatedEmojis: ["evergreen-tree", "snowflake"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["finland", "finnish", "flag", "europe", "nordic"]
+  },
+  {
+    unicode: "🇨🇭",
+    name: "Flag: Switzerland",
+    slug: "flag-switzerland",
+    shortMeaning: "The national flag of Switzerland.",
+    detailedMeaning: "The Flag of Switzerland emoji displays the distinctive square red flag with white cross. Switzerland is known for neutrality, chocolate, watches, and the Alps.\n\nUsed to represent Switzerland, Swiss identity, and discussions about Swiss products and culture.",
+    usageContexts: ["Switzerland", "Alps", "Chocolate", "Watches", "Neutrality"],
+    examples: [
+      { context: "Travel", text: "Swiss Alps 🇨🇭🏔️" },
+      { context: "Culture", text: "Swiss chocolate 🇨🇭🍫" },
+      { context: "Pride", text: "Swiss quality 🇨🇭" }
+    ],
+    misunderstandings: ["Inverted to Red Cross symbol"],
+    relatedEmojis: ["snow-capped-mountain", "chocolate-bar", "watch"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["switzerland", "swiss", "flag", "europe", "alps"]
+  },
+  {
+    unicode: "🇦🇹",
+    name: "Flag: Austria",
+    slug: "flag-austria",
+    shortMeaning: "The national flag of Austria.",
+    detailedMeaning: "The Flag of Austria emoji displays the red and white horizontal stripes. Austria is known for classical music, Mozart, the Alps, and Viennese culture.\n\nUsed to represent Austria, Austrian identity, and discussions about Austrian culture and music.",
+    usageContexts: ["Austria", "Music", "Vienna", "Alps", "Culture"],
+    examples: [
+      { context: "Music", text: "Mozart vibes 🇦🇹🎵" },
+      { context: "Pride", text: "Austrian pride 🇦🇹" },
+      { context: "Travel", text: "Vienna trip 🇦🇹" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["musical-note", "mountain", "snowflake"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["austria", "austrian", "flag", "europe", "vienna"]
+  },
+  {
+    unicode: "🇧🇪",
+    name: "Flag: Belgium",
+    slug: "flag-belgium",
+    shortMeaning: "The national flag of Belgium.",
+    detailedMeaning: "The Flag of Belgium emoji displays the black, yellow, and red vertical stripes. Belgium is known for chocolate, waffles, beer, and being home to EU institutions.\n\nUsed to represent Belgium, Belgian identity, and discussions about Belgian culture and products.",
+    usageContexts: ["Belgium", "Chocolate", "Waffles", "Beer", "EU"],
+    examples: [
+      { context: "Food", text: "Belgian waffles 🇧🇪🧇" },
+      { context: "Culture", text: "Belgian chocolate 🇧🇪🍫" },
+      { context: "Pride", text: "Belgian pride 🇧🇪" }
+    ],
+    misunderstandings: ["Similar to German flag colors but different order"],
+    relatedEmojis: ["waffle", "chocolate-bar", "beer-mug"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["belgium", "belgian", "flag", "europe", "brussels"]
+  },
+  {
+    unicode: "🇬🇷",
+    name: "Flag: Greece",
+    slug: "flag-greece",
+    shortMeaning: "The national flag of Greece.",
+    detailedMeaning: "The Flag of Greece emoji displays the blue and white stripes with cross in the canton. Greece is known for ancient history, philosophy, mythology, and beautiful islands.\n\nUsed to represent Greece, Greek identity, and discussions about Greek culture and history.",
+    usageContexts: ["Greece", "Ancient history", "Islands", "Mythology", "Culture"],
+    examples: [
+      { context: "Travel", text: "Greek islands 🇬🇷🏝️" },
+      { context: "History", text: "Ancient Greece 🇬🇷" },
+      { context: "Pride", text: "Greek pride 🇬🇷" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["classical-building", "olive", "beach"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["greece", "greek", "flag", "europe", "hellas"]
+  },
+  {
+    unicode: "🇮🇱",
+    name: "Flag: Israel",
+    slug: "flag-israel",
+    shortMeaning: "The national flag of Israel.",
+    detailedMeaning: "The Flag of Israel emoji displays the white flag with two blue horizontal stripes and the Star of David. Israel is known for its historical significance and diverse culture.\n\nUsed to represent Israel, Israeli identity, and discussions about Israeli culture.",
+    usageContexts: ["Israel", "Culture", "History", "Heritage", "Travel"],
+    examples: [
+      { context: "Pride", text: "Israeli pride 🇮🇱" },
+      { context: "Culture", text: "Israeli heritage 🇮🇱" },
+      { context: "Travel", text: "Tel Aviv trip 🇮🇱" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["star-of-david", "menorah"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["israel", "israeli", "flag", "middle east", "jewish"]
+  },
+  {
+    unicode: "🇵🇰",
+    name: "Flag: Pakistan",
+    slug: "flag-pakistan",
+    shortMeaning: "The national flag of Pakistan.",
+    detailedMeaning: "The Flag of Pakistan emoji displays the green flag with white crescent and star, and white stripe. Pakistan is known for cricket, rich culture, and historical heritage.\n\nUsed to represent Pakistan, Pakistani identity, and during cricket matches.",
+    usageContexts: ["Pakistan", "Cricket", "Culture", "Heritage", "Sports"],
+    examples: [
+      { context: "Cricket", text: "Pakistan zindabad 🇵🇰🏏" },
+      { context: "Pride", text: "Pakistani pride 🇵🇰" },
+      { context: "Culture", text: "Pakistani heritage 🇵🇰" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["cricket-game", "crescent-moon"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["pakistan", "pakistani", "flag", "asia", "cricket"]
+  },
+  {
+    unicode: "🇧🇩",
+    name: "Flag: Bangladesh",
+    slug: "flag-bangladesh",
+    shortMeaning: "The national flag of Bangladesh.",
+    detailedMeaning: "The Flag of Bangladesh emoji displays the green flag with red circle. Bangladesh is known for cricket, textiles, and its river deltas.\n\nUsed to represent Bangladesh, Bangladeshi identity, and during cricket matches.",
+    usageContexts: ["Bangladesh", "Cricket", "Culture", "Heritage", "Textiles"],
+    examples: [
+      { context: "Pride", text: "Bangladeshi pride 🇧🇩" },
+      { context: "Cricket", text: "Go Bangladesh 🇧🇩🏏" },
+      { context: "Culture", text: "Bengali heritage 🇧🇩" }
+    ],
+    misunderstandings: ["Similar to Japanese flag with different colors"],
+    relatedEmojis: ["cricket-game", "rice"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["bangladesh", "bangladeshi", "bengali", "flag", "asia"]
+  },
+  {
+    unicode: "🇨🇱",
+    name: "Flag: Chile",
+    slug: "flag-chile",
+    shortMeaning: "The national flag of Chile.",
+    detailedMeaning: "The Flag of Chile emoji displays the white and red horizontal bands with blue canton and white star. Chile is known for its long geography, wine, and stunning landscapes.\n\nUsed to represent Chile, Chilean identity, and discussions about Chilean culture.",
+    usageContexts: ["Chile", "Wine", "Landscapes", "Culture", "South America"],
+    examples: [
+      { context: "Pride", text: "Chilean pride 🇨🇱" },
+      { context: "Wine", text: "Chilean wine 🇨🇱🍷" },
+      { context: "Travel", text: "Patagonia adventure 🇨🇱" }
+    ],
+    misunderstandings: ["Similar to Texas state flag"],
+    relatedEmojis: ["wine-glass", "mountain", "llama"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["chile", "chilean", "flag", "south america", "wine"]
+  },
+  {
+    unicode: "🇵🇪",
+    name: "Flag: Peru",
+    slug: "flag-peru",
+    shortMeaning: "The national flag of Peru.",
+    detailedMeaning: "The Flag of Peru emoji displays the red and white vertical stripes. Peru is known for Machu Picchu, rich history, and diverse cuisine.\n\nUsed to represent Peru, Peruvian identity, and discussions about Peruvian culture and heritage.",
+    usageContexts: ["Peru", "Machu Picchu", "History", "Cuisine", "Andes"],
+    examples: [
+      { context: "Travel", text: "Machu Picchu trip 🇵🇪" },
+      { context: "Pride", text: "Peruvian pride 🇵🇪" },
+      { context: "Food", text: "Peruvian cuisine 🇵🇪" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["llama", "mountain", "potato"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["peru", "peruvian", "flag", "south america", "andes"]
+  },
+  {
+    unicode: "🇪🇨",
+    name: "Flag: Ecuador",
+    slug: "flag-ecuador",
+    shortMeaning: "The national flag of Ecuador.",
+    detailedMeaning: "The Flag of Ecuador emoji displays the yellow, blue, and red horizontal stripes with coat of arms. Ecuador is known for the Galápagos Islands and biodiversity.\n\nUsed to represent Ecuador, Ecuadorian identity, and discussions about the Galápagos.",
+    usageContexts: ["Ecuador", "Galápagos", "Biodiversity", "Nature", "South America"],
+    examples: [
+      { context: "Travel", text: "Galápagos adventure 🇪🇨" },
+      { context: "Pride", text: "Ecuadorian pride 🇪🇨" },
+      { context: "Nature", text: "Ecuador biodiversity 🇪🇨" }
+    ],
+    misunderstandings: ["Similar to Colombia and Venezuela flags"],
+    relatedEmojis: ["turtle", "parrot", "volcano"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ecuador", "ecuadorian", "flag", "south america", "galapagos"]
+  },
+  {
+    unicode: "🇨🇺",
+    name: "Flag: Cuba",
+    slug: "flag-cuba",
+    shortMeaning: "The national flag of Cuba.",
+    detailedMeaning: "The Flag of Cuba emoji displays the blue and white stripes with red triangle and white star. Cuba is known for cigars, music, classic cars, and vibrant culture.\n\nUsed to represent Cuba, Cuban identity, and discussions about Cuban culture.",
+    usageContexts: ["Cuba", "Music", "Cigars", "Culture", "Caribbean"],
+    examples: [
+      { context: "Culture", text: "Cuban salsa 🇨🇺💃" },
+      { context: "Pride", text: "Cuban pride 🇨🇺" },
+      { context: "Travel", text: "Havana nights 🇨🇺" }
+    ],
+    misunderstandings: ["Similar to Puerto Rico flag (inverted colors)"],
+    relatedEmojis: ["man-dancing", "musical-notes", "palm-tree"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["cuba", "cuban", "flag", "caribbean", "havana"]
+  },
+  {
+    unicode: "🇯🇲",
+    name: "Flag: Jamaica",
+    slug: "flag-jamaica",
+    shortMeaning: "The national flag of Jamaica.",
+    detailedMeaning: "The Flag of Jamaica emoji displays the distinctive diagonal cross in gold with green and black triangles. Jamaica is known for reggae, Bob Marley, and sprinting.\n\nUsed to represent Jamaica, Jamaican identity, and discussions about reggae culture.",
+    usageContexts: ["Jamaica", "Reggae", "Bob Marley", "Athletics", "Caribbean"],
+    examples: [
+      { context: "Music", text: "Reggae vibes 🇯🇲🎵" },
+      { context: "Pride", text: "Jamaican pride 🇯🇲" },
+      { context: "Sports", text: "Usain Bolt 🇯🇲🏃" }
+    ],
+    misunderstandings: ["Distinctive flag design"],
+    relatedEmojis: ["musical-notes", "runner", "palm-tree"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["jamaica", "jamaican", "flag", "caribbean", "reggae"]
+  },
+  {
+    unicode: "🇭🇹",
+    name: "Flag: Haiti",
+    slug: "flag-haiti",
+    shortMeaning: "The national flag of Haiti.",
+    detailedMeaning: "The Flag of Haiti emoji displays the blue and red horizontal bands with coat of arms. Haiti was the first free Black republic and has a rich cultural heritage.\n\nUsed to represent Haiti, Haitian identity, and discussions about Haitian culture and history.",
+    usageContexts: ["Haiti", "Culture", "History", "Heritage", "Caribbean"],
+    examples: [
+      { context: "Pride", text: "Haitian pride 🇭🇹" },
+      { context: "Culture", text: "Haitian heritage 🇭🇹" },
+      { context: "History", text: "First free Black republic 🇭🇹" }
+    ],
+    misunderstandings: ["Similar to Liechtenstein flag"],
+    relatedEmojis: ["palm-tree", "drum"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["haiti", "haitian", "flag", "caribbean", "creole"]
+  },
+  {
+    unicode: "🇩🇴",
+    name: "Flag: Dominican Republic",
+    slug: "flag-dominican-republic",
+    shortMeaning: "The national flag of the Dominican Republic.",
+    detailedMeaning: "The Flag of the Dominican Republic emoji displays the blue and red quartered flag with white cross and coat of arms. The DR is known for baseball, merengue, and beautiful beaches.\n\nUsed to represent the Dominican Republic, Dominican identity, and discussions about Dominican culture.",
+    usageContexts: ["Dominican Republic", "Baseball", "Merengue", "Beaches", "Caribbean"],
+    examples: [
+      { context: "Sports", text: "Dominican baseball 🇩🇴⚾" },
+      { context: "Pride", text: "Dominican pride 🇩🇴" },
+      { context: "Music", text: "Merengue night 🇩🇴" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["baseball", "palm-tree", "beach"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["dominican republic", "dominican", "flag", "caribbean", "baseball"]
+  },
+  {
+    unicode: "🇵🇷",
+    name: "Flag: Puerto Rico",
+    slug: "flag-puerto-rico",
+    shortMeaning: "The flag of Puerto Rico.",
+    detailedMeaning: "The Flag of Puerto Rico emoji displays the red and white stripes with blue triangle and white star. Puerto Rico is a US territory known for its culture, music, and beautiful beaches.\n\nUsed to represent Puerto Rico, Puerto Rican identity and pride, and discussions about the island's culture.",
+    usageContexts: ["Puerto Rico", "Culture", "Music", "Beaches", "Heritage"],
+    examples: [
+      { context: "Pride", text: "Boricua pride 🇵🇷" },
+      { context: "Music", text: "Reggaeton vibes 🇵🇷" },
+      { context: "Culture", text: "Puerto Rican heritage 🇵🇷" }
+    ],
+    misunderstandings: ["Similar to Cuban flag (inverted colors)"],
+    relatedEmojis: ["palm-tree", "musical-notes", "beach"],
+    categorySlug: "flags",
+    subgroup: "subdivision-flag",
+    keywords: ["puerto rico", "boricua", "flag", "caribbean", "territory"]
+  },
+  {
+    unicode: "🇰🇪",
+    name: "Flag: Kenya",
+    slug: "flag-kenya",
+    shortMeaning: "The national flag of Kenya.",
+    detailedMeaning: "The Flag of Kenya emoji displays the black, red, and green horizontal stripes with white borders and Maasai shield. Kenya is known for safaris, marathons, and diverse wildlife.\n\nUsed to represent Kenya, Kenyan identity, and discussions about Kenyan culture and nature.",
+    usageContexts: ["Kenya", "Safari", "Running", "Wildlife", "Africa"],
+    examples: [
+      { context: "Wildlife", text: "Kenyan safari 🇰🇪🦁" },
+      { context: "Sports", text: "Kenyan runners 🇰🇪🏃" },
+      { context: "Pride", text: "Kenyan pride 🇰🇪" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["lion", "elephant", "runner"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["kenya", "kenyan", "flag", "africa", "safari"]
+  },
+  {
+    unicode: "🇬🇭",
+    name: "Flag: Ghana",
+    slug: "flag-ghana",
+    shortMeaning: "The national flag of Ghana.",
+    detailedMeaning: "The Flag of Ghana emoji displays the red, yellow, and green horizontal stripes with black star. Ghana was the first African country to gain independence from colonialism.\n\nUsed to represent Ghana, Ghanaian identity, and discussions about Ghanaian culture.",
+    usageContexts: ["Ghana", "Culture", "History", "Heritage", "Africa"],
+    examples: [
+      { context: "Pride", text: "Ghanaian pride 🇬🇭" },
+      { context: "Football", text: "Black Stars 🇬🇭⚽" },
+      { context: "Culture", text: "Ghanaian heritage 🇬🇭" }
+    ],
+    misunderstandings: ["Similar to other African tricolors"],
+    relatedEmojis: ["drum", "soccer-ball"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ghana", "ghanaian", "flag", "africa", "gold coast"]
+  },
+  {
+    unicode: "🇪🇹",
+    name: "Flag: Ethiopia",
+    slug: "flag-ethiopia",
+    shortMeaning: "The national flag of Ethiopia.",
+    detailedMeaning: "The Flag of Ethiopia emoji displays the green, yellow, and red horizontal stripes with emblem. Ethiopia has never been colonized and has rich ancient history.\n\nUsed to represent Ethiopia, Ethiopian identity, and discussions about Ethiopian culture and history.",
+    usageContexts: ["Ethiopia", "Culture", "History", "Coffee", "Africa"],
+    examples: [
+      { context: "Pride", text: "Ethiopian pride 🇪🇹" },
+      { context: "Culture", text: "Birthplace of coffee 🇪🇹☕" },
+      { context: "History", text: "Ethiopian heritage 🇪🇹" }
+    ],
+    misunderstandings: ["Pan-African color inspiration"],
+    relatedEmojis: ["coffee", "lion"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["ethiopia", "ethiopian", "flag", "africa", "coffee"]
+  },
+  {
+    unicode: "🇲🇦",
+    name: "Flag: Morocco",
+    slug: "flag-morocco",
+    shortMeaning: "The national flag of Morocco.",
+    detailedMeaning: "The Flag of Morocco emoji displays the red flag with green pentagram (Solomon's Seal). Morocco is known for its markets, culture, and beautiful architecture.\n\nUsed to represent Morocco, Moroccan identity, and discussions about Moroccan culture.",
+    usageContexts: ["Morocco", "Culture", "Travel", "Cuisine", "Africa"],
+    examples: [
+      { context: "Travel", text: "Marrakech vibes 🇲🇦" },
+      { context: "Pride", text: "Moroccan pride 🇲🇦" },
+      { context: "Culture", text: "Moroccan heritage 🇲🇦" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["camel", "tea", "mosque"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["morocco", "moroccan", "flag", "africa", "marrakech"]
+  },
+  {
+    unicode: "🇹🇿",
+    name: "Flag: Tanzania",
+    slug: "flag-tanzania",
+    shortMeaning: "The national flag of Tanzania.",
+    detailedMeaning: "The Flag of Tanzania emoji displays the diagonal green, yellow, and blue sections with black diagonal band. Tanzania is home to Mount Kilimanjaro and Serengeti.\n\nUsed to represent Tanzania, Tanzanian identity, and discussions about the country.",
+    usageContexts: ["Tanzania", "Kilimanjaro", "Safari", "Nature", "Africa"],
+    examples: [
+      { context: "Nature", text: "Climbing Kilimanjaro 🇹🇿🏔️" },
+      { context: "Pride", text: "Tanzanian pride 🇹🇿" },
+      { context: "Safari", text: "Serengeti adventure 🇹🇿" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["mountain", "lion", "elephant"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["tanzania", "tanzanian", "flag", "africa", "kilimanjaro"]
+  },
+  {
+    unicode: "🇺🇬",
+    name: "Flag: Uganda",
+    slug: "flag-uganda",
+    shortMeaning: "The national flag of Uganda.",
+    detailedMeaning: "The Flag of Uganda emoji displays black, yellow, and red horizontal stripes with crane emblem. Uganda is known as the Pearl of Africa for its natural beauty.\n\nUsed to represent Uganda, Ugandan identity, and discussions about the country.",
+    usageContexts: ["Uganda", "Nature", "Wildlife", "Culture", "Africa"],
+    examples: [
+      { context: "Pride", text: "Ugandan pride 🇺🇬" },
+      { context: "Nature", text: "Pearl of Africa 🇺🇬" },
+      { context: "Wildlife", text: "Gorilla trekking 🇺🇬🦍" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["gorilla", "bird"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["uganda", "ugandan", "flag", "africa", "pearl of africa"]
+  },
+  {
+    unicode: "🇿🇼",
+    name: "Flag: Zimbabwe",
+    slug: "flag-zimbabwe",
+    shortMeaning: "The national flag of Zimbabwe.",
+    detailedMeaning: "The Flag of Zimbabwe emoji displays green, yellow, red, and black stripes with white triangle containing the Zimbabwe Bird. Known for Victoria Falls and rich heritage.\n\nUsed to represent Zimbabwe, Zimbabwean identity, and discussions about the country.",
+    usageContexts: ["Zimbabwe", "Culture", "Victoria Falls", "Heritage", "Africa"],
+    examples: [
+      { context: "Pride", text: "Zimbabwean pride 🇿🇼" },
+      { context: "Travel", text: "Victoria Falls 🇿🇼" },
+      { context: "Culture", text: "Zimbabwean heritage 🇿🇼" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["waterfall", "bird"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["zimbabwe", "zimbabwean", "flag", "africa", "victoria falls"]
+  },
+  {
+    unicode: "🇨🇿",
+    name: "Flag: Czechia",
+    slug: "flag-czechia",
+    shortMeaning: "The national flag of the Czech Republic.",
+    detailedMeaning: "The Flag of Czechia emoji displays the white and red horizontal bands with blue triangle. Czechia is known for Prague, beer, and rich history.\n\nUsed to represent Czechia, Czech identity, and discussions about Czech culture.",
+    usageContexts: ["Czechia", "Prague", "Beer", "Culture", "Europe"],
+    examples: [
+      { context: "Travel", text: "Prague trip 🇨🇿" },
+      { context: "Pride", text: "Czech pride 🇨🇿" },
+      { context: "Culture", text: "Czech beer 🇨🇿🍺" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["beer-mug", "castle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["czechia", "czech", "flag", "europe", "prague"]
+  },
+  {
+    unicode: "🇭🇺",
+    name: "Flag: Hungary",
+    slug: "flag-hungary",
+    shortMeaning: "The national flag of Hungary.",
+    detailedMeaning: "The Flag of Hungary emoji displays the red, white, and green horizontal stripes. Hungary is known for Budapest, thermal baths, and rich culture.\n\nUsed to represent Hungary, Hungarian identity, and discussions about Hungarian culture.",
+    usageContexts: ["Hungary", "Budapest", "Culture", "Thermal baths", "Europe"],
+    examples: [
+      { context: "Travel", text: "Budapest trip 🇭🇺" },
+      { context: "Pride", text: "Hungarian pride 🇭🇺" },
+      { context: "Culture", text: "Hungarian heritage 🇭🇺" }
+    ],
+    misunderstandings: ["Similar to other tricolors"],
+    relatedEmojis: ["hot-springs", "castle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["hungary", "hungarian", "flag", "europe", "budapest"]
+  },
+  {
+    unicode: "🇷🇴",
+    name: "Flag: Romania",
+    slug: "flag-romania",
+    shortMeaning: "The national flag of Romania.",
+    detailedMeaning: "The Flag of Romania emoji displays the blue, yellow, and red vertical stripes. Romania is known for Transylvania, castles, and Carpathian mountains.\n\nUsed to represent Romania, Romanian identity, and discussions about Romanian culture.",
+    usageContexts: ["Romania", "Transylvania", "Castles", "Culture", "Europe"],
+    examples: [
+      { context: "Travel", text: "Transylvania trip 🇷🇴" },
+      { context: "Pride", text: "Romanian pride 🇷🇴" },
+      { context: "Culture", text: "Romanian heritage 🇷🇴" }
+    ],
+    misunderstandings: ["Similar to Chad flag"],
+    relatedEmojis: ["castle", "bat", "mountain"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["romania", "romanian", "flag", "europe", "transylvania"]
+  },
+  {
+    unicode: "🇧🇬",
+    name: "Flag: Bulgaria",
+    slug: "flag-bulgaria",
+    shortMeaning: "The national flag of Bulgaria.",
+    detailedMeaning: "The Flag of Bulgaria emoji displays the white, green, and red horizontal stripes. Bulgaria is known for its Black Sea coast and rose oil production.\n\nUsed to represent Bulgaria, Bulgarian identity, and discussions about Bulgarian culture.",
+    usageContexts: ["Bulgaria", "Black Sea", "Culture", "Roses", "Europe"],
+    examples: [
+      { context: "Pride", text: "Bulgarian pride 🇧🇬" },
+      { context: "Travel", text: "Black Sea vacation 🇧🇬" },
+      { context: "Culture", text: "Bulgarian heritage 🇧🇬" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["rose", "beach"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["bulgaria", "bulgarian", "flag", "europe", "balkans"]
+  },
+  {
+    unicode: "🇭🇷",
+    name: "Flag: Croatia",
+    slug: "flag-croatia",
+    shortMeaning: "The national flag of Croatia.",
+    detailedMeaning: "The Flag of Croatia emoji displays the red, white, and blue horizontal stripes with checkerboard coat of arms. Croatia is known for Dubrovnik and Adriatic coast.\n\nUsed to represent Croatia, Croatian identity, and during football matches.",
+    usageContexts: ["Croatia", "Dubrovnik", "Football", "Adriatic", "Europe"],
+    examples: [
+      { context: "Football", text: "Vatreni! 🇭🇷⚽" },
+      { context: "Travel", text: "Dubrovnik trip 🇭🇷" },
+      { context: "Pride", text: "Croatian pride 🇭🇷" }
+    ],
+    misunderstandings: ["Clear national flag"],
+    relatedEmojis: ["soccer-ball", "beach", "castle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["croatia", "croatian", "flag", "europe", "adriatic"]
+  },
+  {
+    unicode: "🇷🇸",
+    name: "Flag: Serbia",
+    slug: "flag-serbia",
+    shortMeaning: "The national flag of Serbia.",
+    detailedMeaning: "The Flag of Serbia emoji displays the red, blue, and white horizontal stripes with coat of arms. Serbia is known for Belgrade, hospitality, and sports.\n\nUsed to represent Serbia, Serbian identity, and discussions about Serbian culture.",
+    usageContexts: ["Serbia", "Belgrade", "Culture", "Sports", "Europe"],
+    examples: [
+      { context: "Pride", text: "Serbian pride 🇷🇸" },
+      { context: "Sports", text: "Go Serbia 🇷🇸" },
+      { context: "Culture", text: "Serbian heritage 🇷🇸" }
+    ],
+    misunderstandings: ["Similar to other Slavic flags"],
+    relatedEmojis: ["tennis", "castle"],
+    categorySlug: "flags",
+    subgroup: "country-flag",
+    keywords: ["serbia", "serbian", "flag", "europe", "balkans"]
+  },
+  {
+    unicode: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    name: "Flag: England",
+    slug: "flag-england",
+    shortMeaning: "The flag of England - St George's Cross.",
+    detailedMeaning: "The Flag of England emoji displays the St George's Cross - a red cross on white background. England is the largest country in the United Kingdom.\n\nUsed to represent England specifically (not the UK), during football matches, and discussions about English culture.",
+    usageContexts: ["England", "Football", "Culture", "Sports", "UK"],
+    examples: [
+      { context: "Football", text: "Come on England 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽" },
+      { context: "Pride", text: "English pride 🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
+      { context: "Sports", text: "Three Lions 🏴󠁧󠁢󠁥󠁮󠁧󠁿🦁" }
+    ],
+    misunderstandings: ["Often confused with UK flag"],
+    relatedEmojis: ["flag-united-kingdom", "soccer-ball", "crown"],
+    categorySlug: "flags",
+    subgroup: "subdivision-flag",
+    keywords: ["england", "english", "flag", "uk", "st george"]
+  },
+  {
+    unicode: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    name: "Flag: Scotland",
+    slug: "flag-scotland",
+    shortMeaning: "The flag of Scotland - the Saltire.",
+    detailedMeaning: "The Flag of Scotland emoji displays the Saltire or St Andrew's Cross - a white diagonal cross on blue background. Scotland is known for highlands, bagpipes, and whisky.\n\nUsed to represent Scotland, Scottish identity, during rugby matches, and discussions about Scottish culture.",
+    usageContexts: ["Scotland", "Highlands", "Whisky", "Rugby", "UK"],
+    examples: [
+      { context: "Pride", text: "Scottish pride 🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
+      { context: "Culture", text: "Scottish whisky 🏴󠁧󠁢󠁳󠁣󠁴󠁿🥃" },
+      { context: "Rugby", text: "Go Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿🏉" }
+    ],
+    misunderstandings: ["Clear Scottish flag"],
+    relatedEmojis: ["flag-united-kingdom", "whisky", "bagpipes"],
+    categorySlug: "flags",
+    subgroup: "subdivision-flag",
+    keywords: ["scotland", "scottish", "flag", "uk", "saltire"]
+  },
+  {
+    unicode: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    name: "Flag: Wales",
+    slug: "flag-wales",
+    shortMeaning: "The flag of Wales with red dragon.",
+    detailedMeaning: "The Flag of Wales emoji displays the distinctive Red Dragon (Y Ddraig Goch) on green and white. Wales is known for rugby, singing, and beautiful landscapes.\n\nUsed to represent Wales, Welsh identity, during rugby matches, and discussions about Welsh culture.",
+    usageContexts: ["Wales", "Rugby", "Dragon", "Culture", "UK"],
+    examples: [
+      { context: "Rugby", text: "Cymru am byth 🏴󠁧󠁢󠁷󠁬󠁳󠁿🏉" },
+      { context: "Pride", text: "Welsh pride 🏴󠁧󠁢󠁷󠁬󠁳󠁿" },
+      { context: "Culture", text: "Welsh heritage 🏴󠁧󠁢󠁷󠁬󠁳󠁿🐉" }
+    ],
+    misunderstandings: ["Very distinctive with dragon"],
+    relatedEmojis: ["flag-united-kingdom", "dragon", "rugby-football"],
+    categorySlug: "flags",
+    subgroup: "subdivision-flag",
+    keywords: ["wales", "welsh", "flag", "uk", "dragon"]
   }
 ];
 
