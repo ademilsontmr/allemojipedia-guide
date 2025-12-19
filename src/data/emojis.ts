@@ -2277,6 +2277,420 @@ export const emojis: Emoji[] = [
     subgroup: "person-role",
     keywords: ["engineer", "construction", "builder", "woman", "technical"]
   },
+  {
+    unicode: "👨‍🍳",
+    name: "Man Chef",
+    slug: "man-chef",
+    shortMeaning: "A male chef or cook.",
+    detailedMeaning: "The Man Chef emoji shows a male wearing a chef's hat. It represents chefs, cooks, and culinary professionals.\n\nUsed for cooking, restaurants, or culinary discussions.",
+    usageContexts: ["Chef", "Cooking", "Restaurant", "Culinary", "Food"],
+    examples: [
+      { context: "Work", text: "In the kitchen 👨‍🍳" },
+      { context: "Cooking", text: "Making dinner 👨‍🍳" },
+      { context: "Career", text: "Professional chef 👨‍🍳" }
+    ],
+    misunderstandings: ["Clear cooking meaning"],
+    relatedEmojis: ["woman-chef", "cooking", "fork-and-knife"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["chef", "cook", "kitchen", "culinary", "man"]
+  },
+  {
+    unicode: "👩‍🍳",
+    name: "Woman Chef",
+    slug: "woman-chef",
+    shortMeaning: "A female chef or cook.",
+    detailedMeaning: "The Woman Chef emoji shows a female wearing a chef's hat. It represents chefs, cooks, and culinary professionals.\n\nUsed for cooking, restaurants, or culinary discussions.",
+    usageContexts: ["Chef", "Cooking", "Restaurant", "Culinary", "Food"],
+    examples: [
+      { context: "Work", text: "Running the kitchen 👩‍🍳" },
+      { context: "Cooking", text: "Preparing a feast 👩‍🍳" },
+      { context: "Career", text: "Head chef 👩‍🍳" }
+    ],
+    misunderstandings: ["Clear cooking meaning"],
+    relatedEmojis: ["man-chef", "cooking", "fork-and-knife"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["chef", "cook", "kitchen", "culinary", "woman"]
+  },
+  {
+    unicode: "👨‍🎨",
+    name: "Man Artist",
+    slug: "man-artist",
+    shortMeaning: "A male artist or painter.",
+    detailedMeaning: "The Man Artist emoji shows a male wearing a beret. It represents artists, painters, and creative professionals.\n\nUsed for art, creativity, or artistic discussions.",
+    usageContexts: ["Artist", "Painting", "Creative", "Art", "Design"],
+    examples: [
+      { context: "Work", text: "Working on my canvas 👨‍🎨" },
+      { context: "Art", text: "Creating art 👨‍🎨" },
+      { context: "Career", text: "Professional artist 👨‍🎨" }
+    ],
+    misunderstandings: ["Represents visual artists"],
+    relatedEmojis: ["woman-artist", "artist-palette", "framed-picture"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["artist", "painter", "creative", "art", "man"]
+  },
+  {
+    unicode: "👩‍🎨",
+    name: "Woman Artist",
+    slug: "woman-artist",
+    shortMeaning: "A female artist or painter.",
+    detailedMeaning: "The Woman Artist emoji shows a female wearing a beret. It represents artists, painters, and creative professionals.\n\nUsed for art, creativity, or artistic discussions.",
+    usageContexts: ["Artist", "Painting", "Creative", "Art", "Design"],
+    examples: [
+      { context: "Work", text: "In the studio 👩‍🎨" },
+      { context: "Art", text: "Painting today 👩‍🎨" },
+      { context: "Career", text: "Gallery artist 👩‍🎨" }
+    ],
+    misunderstandings: ["Represents visual artists"],
+    relatedEmojis: ["man-artist", "artist-palette", "framed-picture"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["artist", "painter", "creative", "art", "woman"]
+  },
+  {
+    unicode: "👮",
+    name: "Police Officer",
+    slug: "police-officer",
+    shortMeaning: "A police officer.",
+    detailedMeaning: "The Police Officer emoji shows a person in police uniform. It represents law enforcement, police, and public safety.\n\nUsed for police, law enforcement, or safety discussions.",
+    usageContexts: ["Police", "Law Enforcement", "Safety", "Security", "Authority"],
+    examples: [
+      { context: "Safety", text: "Police on duty 👮" },
+      { context: "Career", text: "Serving the community 👮" },
+      { context: "Law", text: "Law enforcement 👮" }
+    ],
+    misunderstandings: ["Clear law enforcement meaning"],
+    relatedEmojis: ["man-police-officer", "woman-police-officer", "police-car"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["police", "officer", "cop", "law", "enforcement"]
+  },
+  {
+    unicode: "👮‍♂️",
+    name: "Man Police Officer",
+    slug: "man-police-officer",
+    shortMeaning: "A male police officer.",
+    detailedMeaning: "The Man Police Officer emoji shows a male in police uniform. It represents male police officers and law enforcement.\n\nUsed for police, law enforcement, or safety discussions.",
+    usageContexts: ["Police", "Law Enforcement", "Safety", "Security", "Career"],
+    examples: [
+      { context: "Work", text: "On patrol 👮‍♂️" },
+      { context: "Career", text: "Police officer 👮‍♂️" },
+      { context: "Safety", text: "Keeping peace 👮‍♂️" }
+    ],
+    misunderstandings: ["Clear police meaning"],
+    relatedEmojis: ["woman-police-officer", "police-officer", "police-car"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["police", "officer", "cop", "man", "law"]
+  },
+  {
+    unicode: "👮‍♀️",
+    name: "Woman Police Officer",
+    slug: "woman-police-officer",
+    shortMeaning: "A female police officer.",
+    detailedMeaning: "The Woman Police Officer emoji shows a female in police uniform. It represents female police officers and law enforcement.\n\nUsed for police, law enforcement, or safety discussions.",
+    usageContexts: ["Police", "Law Enforcement", "Safety", "Security", "Career"],
+    examples: [
+      { context: "Work", text: "On duty 👮‍♀️" },
+      { context: "Career", text: "Police woman 👮‍♀️" },
+      { context: "Safety", text: "Protecting citizens 👮‍♀️" }
+    ],
+    misunderstandings: ["Clear police meaning"],
+    relatedEmojis: ["man-police-officer", "police-officer", "police-car"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["police", "officer", "cop", "woman", "law"]
+  },
+  {
+    unicode: "🕵️",
+    name: "Detective",
+    slug: "detective",
+    shortMeaning: "A detective or spy.",
+    detailedMeaning: "The Detective emoji shows a person in a trench coat and hat. It represents detectives, investigators, spies, and mystery.\n\nUsed for investigation, mystery, or detective discussions.",
+    usageContexts: ["Detective", "Investigation", "Mystery", "Spy", "Secret"],
+    examples: [
+      { context: "Mystery", text: "Solving the case 🕵️" },
+      { context: "Investigation", text: "Investigating 🕵️" },
+      { context: "Secret", text: "Undercover 🕵️" }
+    ],
+    misunderstandings: ["Can mean spy or detective"],
+    relatedEmojis: ["man-detective", "woman-detective", "magnifying-glass"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["detective", "spy", "investigator", "mystery", "secret"]
+  },
+  {
+    unicode: "🕵️‍♂️",
+    name: "Man Detective",
+    slug: "man-detective",
+    shortMeaning: "A male detective or spy.",
+    detailedMeaning: "The Man Detective emoji shows a male in detective attire. It represents male detectives, investigators, and spies.\n\nUsed for investigation, mystery, or detective discussions.",
+    usageContexts: ["Detective", "Investigation", "Mystery", "Spy", "Career"],
+    examples: [
+      { context: "Work", text: "On the case 🕵️‍♂️" },
+      { context: "Mystery", text: "Following clues 🕵️‍♂️" },
+      { context: "Secret", text: "Secret agent 🕵️‍♂️" }
+    ],
+    misunderstandings: ["Can represent detective or spy"],
+    relatedEmojis: ["woman-detective", "detective", "magnifying-glass"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["detective", "spy", "investigator", "man", "mystery"]
+  },
+  {
+    unicode: "🕵️‍♀️",
+    name: "Woman Detective",
+    slug: "woman-detective",
+    shortMeaning: "A female detective or spy.",
+    detailedMeaning: "The Woman Detective emoji shows a female in detective attire. It represents female detectives, investigators, and spies.\n\nUsed for investigation, mystery, or detective discussions.",
+    usageContexts: ["Detective", "Investigation", "Mystery", "Spy", "Career"],
+    examples: [
+      { context: "Work", text: "Cracking the case 🕵️‍♀️" },
+      { context: "Mystery", text: "Gathering evidence 🕵️‍♀️" },
+      { context: "Secret", text: "Spy mode 🕵️‍♀️" }
+    ],
+    misunderstandings: ["Can represent detective or spy"],
+    relatedEmojis: ["man-detective", "detective", "magnifying-glass"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["detective", "spy", "investigator", "woman", "mystery"]
+  },
+  {
+    unicode: "💂",
+    name: "Guard",
+    slug: "guard",
+    shortMeaning: "A royal guard or security guard.",
+    detailedMeaning: "The Guard emoji shows a person in a guard uniform with a tall hat. It represents guards, security, and protection.\n\nUsed for security, guards, or British royal guard references.",
+    usageContexts: ["Guard", "Security", "Protection", "British", "Royal"],
+    examples: [
+      { context: "Security", text: "On guard duty 💂" },
+      { context: "British", text: "Buckingham Palace 💂" },
+      { context: "Protection", text: "Standing guard 💂" }
+    ],
+    misunderstandings: ["Often associated with British royal guards"],
+    relatedEmojis: ["man-guard", "woman-guard", "castle"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["guard", "security", "royal", "british", "protection"]
+  },
+  {
+    unicode: "👨‍🎤",
+    name: "Man Singer",
+    slug: "man-singer",
+    shortMeaning: "A male singer or musician.",
+    detailedMeaning: "The Man Singer emoji shows a male with a distinctive hairstyle. It represents singers, rock stars, and musicians.\n\nUsed for music, singing, or performer discussions.",
+    usageContexts: ["Singer", "Music", "Performer", "Rock Star", "Concert"],
+    examples: [
+      { context: "Music", text: "Performing tonight 👨‍🎤" },
+      { context: "Concert", text: "Rock star mode 👨‍🎤" },
+      { context: "Career", text: "Professional singer 👨‍🎤" }
+    ],
+    misunderstandings: ["Represents singers and musicians"],
+    relatedEmojis: ["woman-singer", "microphone", "musical-notes"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["singer", "musician", "performer", "rock", "man"]
+  },
+  {
+    unicode: "👩‍🎤",
+    name: "Woman Singer",
+    slug: "woman-singer",
+    shortMeaning: "A female singer or musician.",
+    detailedMeaning: "The Woman Singer emoji shows a female with a distinctive hairstyle. It represents singers, rock stars, and musicians.\n\nUsed for music, singing, or performer discussions.",
+    usageContexts: ["Singer", "Music", "Performer", "Rock Star", "Concert"],
+    examples: [
+      { context: "Music", text: "On stage 👩‍🎤" },
+      { context: "Concert", text: "Pop star 👩‍🎤" },
+      { context: "Career", text: "Lead vocalist 👩‍🎤" }
+    ],
+    misunderstandings: ["Represents singers and musicians"],
+    relatedEmojis: ["man-singer", "microphone", "musical-notes"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["singer", "musician", "performer", "rock", "woman"]
+  },
+  {
+    unicode: "👨‍💻",
+    name: "Man Technologist",
+    slug: "man-technologist",
+    shortMeaning: "A male programmer or tech worker.",
+    detailedMeaning: "The Man Technologist emoji shows a male working on a laptop. It represents programmers, developers, and tech professionals.\n\nUsed for technology, coding, or IT discussions.",
+    usageContexts: ["Programmer", "Developer", "Tech", "Coding", "IT"],
+    examples: [
+      { context: "Work", text: "Coding all day 👨‍💻" },
+      { context: "Career", text: "Software developer 👨‍💻" },
+      { context: "Tech", text: "Tech life 👨‍💻" }
+    ],
+    misunderstandings: ["Represents tech workers broadly"],
+    relatedEmojis: ["woman-technologist", "laptop", "keyboard"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["programmer", "developer", "coder", "tech", "man"]
+  },
+  {
+    unicode: "👩‍💻",
+    name: "Woman Technologist",
+    slug: "woman-technologist",
+    shortMeaning: "A female programmer or tech worker.",
+    detailedMeaning: "The Woman Technologist emoji shows a female working on a laptop. It represents programmers, developers, and tech professionals.\n\nUsed for technology, coding, or IT discussions.",
+    usageContexts: ["Programmer", "Developer", "Tech", "Coding", "Women in Tech"],
+    examples: [
+      { context: "Work", text: "Debugging code 👩‍💻" },
+      { context: "Career", text: "Full-stack developer 👩‍💻" },
+      { context: "Tech", text: "Women in tech 👩‍💻" }
+    ],
+    misunderstandings: ["Represents tech workers broadly"],
+    relatedEmojis: ["man-technologist", "laptop", "keyboard"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["programmer", "developer", "coder", "tech", "woman"]
+  },
+  {
+    unicode: "👨‍🔧",
+    name: "Man Mechanic",
+    slug: "man-mechanic",
+    shortMeaning: "A male mechanic or repairman.",
+    detailedMeaning: "The Man Mechanic emoji shows a male in mechanic attire. It represents mechanics, repairmen, and technicians.\n\nUsed for repair, mechanics, or technical work discussions.",
+    usageContexts: ["Mechanic", "Repair", "Cars", "Technical", "Maintenance"],
+    examples: [
+      { context: "Work", text: "Fixing cars 👨‍🔧" },
+      { context: "Repair", text: "Repair time 👨‍🔧" },
+      { context: "Career", text: "Auto mechanic 👨‍🔧" }
+    ],
+    misunderstandings: ["Represents repair workers"],
+    relatedEmojis: ["woman-mechanic", "wrench", "car"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["mechanic", "repair", "technician", "cars", "man"]
+  },
+  {
+    unicode: "👩‍🔧",
+    name: "Woman Mechanic",
+    slug: "woman-mechanic",
+    shortMeaning: "A female mechanic or repairwoman.",
+    detailedMeaning: "The Woman Mechanic emoji shows a female in mechanic attire. It represents mechanics, repairwomen, and technicians.\n\nUsed for repair, mechanics, or technical work discussions.",
+    usageContexts: ["Mechanic", "Repair", "Cars", "Technical", "Maintenance"],
+    examples: [
+      { context: "Work", text: "Under the hood 👩‍🔧" },
+      { context: "Repair", text: "Fixing it up 👩‍🔧" },
+      { context: "Career", text: "Master mechanic 👩‍🔧" }
+    ],
+    misunderstandings: ["Represents repair workers"],
+    relatedEmojis: ["man-mechanic", "wrench", "car"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["mechanic", "repair", "technician", "cars", "woman"]
+  },
+  {
+    unicode: "👨‍🌾",
+    name: "Man Farmer",
+    slug: "man-farmer",
+    shortMeaning: "A male farmer.",
+    detailedMeaning: "The Man Farmer emoji shows a male wearing overalls and a hat. It represents farmers and agricultural workers.\n\nUsed for farming, agriculture, or rural discussions.",
+    usageContexts: ["Farmer", "Agriculture", "Farm", "Rural", "Crops"],
+    examples: [
+      { context: "Work", text: "Harvesting crops 👨‍🌾" },
+      { context: "Farm", text: "Farm life 👨‍🌾" },
+      { context: "Career", text: "Family farmer 👨‍🌾" }
+    ],
+    misunderstandings: ["Clear farming meaning"],
+    relatedEmojis: ["woman-farmer", "tractor", "corn"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["farmer", "agriculture", "farm", "crops", "man"]
+  },
+  {
+    unicode: "👩‍🌾",
+    name: "Woman Farmer",
+    slug: "woman-farmer",
+    shortMeaning: "A female farmer.",
+    detailedMeaning: "The Woman Farmer emoji shows a female wearing overalls and a hat. It represents farmers and agricultural workers.\n\nUsed for farming, agriculture, or rural discussions.",
+    usageContexts: ["Farmer", "Agriculture", "Farm", "Rural", "Crops"],
+    examples: [
+      { context: "Work", text: "Tending the fields 👩‍🌾" },
+      { context: "Farm", text: "Organic farming 👩‍🌾" },
+      { context: "Career", text: "Farm owner 👩‍🌾" }
+    ],
+    misunderstandings: ["Clear farming meaning"],
+    relatedEmojis: ["man-farmer", "tractor", "corn"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["farmer", "agriculture", "farm", "crops", "woman"]
+  },
+  {
+    unicode: "👨‍🏭",
+    name: "Man Factory Worker",
+    slug: "man-factory-worker",
+    shortMeaning: "A male factory worker.",
+    detailedMeaning: "The Man Factory Worker emoji shows a male in factory work attire. It represents factory workers, manufacturing, and industrial jobs.\n\nUsed for manufacturing, industry, or labor discussions.",
+    usageContexts: ["Factory", "Manufacturing", "Industry", "Labor", "Worker"],
+    examples: [
+      { context: "Work", text: "On the assembly line 👨‍🏭" },
+      { context: "Industry", text: "Factory shift 👨‍🏭" },
+      { context: "Career", text: "Manufacturing job 👨‍🏭" }
+    ],
+    misunderstandings: ["Represents factory workers"],
+    relatedEmojis: ["woman-factory-worker", "factory", "gear"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["factory", "worker", "manufacturing", "industry", "man"]
+  },
+  {
+    unicode: "👩‍🏭",
+    name: "Woman Factory Worker",
+    slug: "woman-factory-worker",
+    shortMeaning: "A female factory worker.",
+    detailedMeaning: "The Woman Factory Worker emoji shows a female in factory work attire. It represents factory workers, manufacturing, and industrial jobs.\n\nUsed for manufacturing, industry, or labor discussions.",
+    usageContexts: ["Factory", "Manufacturing", "Industry", "Labor", "Worker"],
+    examples: [
+      { context: "Work", text: "Factory floor 👩‍🏭" },
+      { context: "Industry", text: "Industrial worker 👩‍🏭" },
+      { context: "Career", text: "Factory supervisor 👩‍🏭" }
+    ],
+    misunderstandings: ["Represents factory workers"],
+    relatedEmojis: ["man-factory-worker", "factory", "gear"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["factory", "worker", "manufacturing", "industry", "woman"]
+  },
+  {
+    unicode: "👨‍💼",
+    name: "Man Office Worker",
+    slug: "man-office-worker",
+    shortMeaning: "A male office worker or businessman.",
+    detailedMeaning: "The Man Office Worker emoji shows a male in business attire. It represents office workers, businessmen, and corporate professionals.\n\nUsed for business, corporate, or office discussions.",
+    usageContexts: ["Office", "Business", "Corporate", "Professional", "Work"],
+    examples: [
+      { context: "Work", text: "At the office 👨‍💼" },
+      { context: "Business", text: "Business meeting 👨‍💼" },
+      { context: "Career", text: "Corporate life 👨‍💼" }
+    ],
+    misunderstandings: ["Represents office workers broadly"],
+    relatedEmojis: ["woman-office-worker", "briefcase", "office-building"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["office", "business", "corporate", "professional", "man"]
+  },
+  {
+    unicode: "👩‍💼",
+    name: "Woman Office Worker",
+    slug: "woman-office-worker",
+    shortMeaning: "A female office worker or businesswoman.",
+    detailedMeaning: "The Woman Office Worker emoji shows a female in business attire. It represents office workers, businesswomen, and corporate professionals.\n\nUsed for business, corporate, or office discussions.",
+    usageContexts: ["Office", "Business", "Corporate", "Professional", "Work"],
+    examples: [
+      { context: "Work", text: "Running the meeting 👩‍💼" },
+      { context: "Business", text: "CEO vibes 👩‍💼" },
+      { context: "Career", text: "Corporate executive 👩‍💼" }
+    ],
+    misunderstandings: ["Represents office workers broadly"],
+    relatedEmojis: ["man-office-worker", "briefcase", "office-building"],
+    categorySlug: "people-and-body",
+    subgroup: "person-role",
+    keywords: ["office", "business", "corporate", "professional", "woman"]
+  },
   // FAMILY (Family subcategory)
   {
     unicode: "👨‍👩‍👧",
