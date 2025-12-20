@@ -24,7 +24,7 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
       title: "Copied! ✓", 
       description: `${unicode} ready to paste` 
     });
-    setTimeout(() => setCopied(false), 2000);
+    // Estado "Copied" é mantido permanentemente após clicar
   };
 
   return (

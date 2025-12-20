@@ -23,7 +23,7 @@ const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => 
         navigator.vibrate(50);
       }
       
-      setTimeout(() => setCopied(false), 2000);
+      // Estado "Copied" é mantido permanentemente após clicar
     } catch {
       toast.error("Failed to copy");
     }
