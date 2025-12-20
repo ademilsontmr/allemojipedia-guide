@@ -16,6 +16,7 @@ Nenhuma variável de ambiente é necessária para este projeto.
 ## Notas
 
 - O arquivo `_redirects` na pasta `public` já está configurado para redirecionar todas as rotas para `index.html` (necessário para SPAs com React Router)
+- O arquivo `_headers` na pasta `public` configura os MIME types corretos para arquivos JavaScript, CSS e outros (resolve o erro de "application/octet-stream")
 - O build gera os arquivos na pasta `dist`
 - O Cloudflare Pages deve servir os arquivos da pasta `dist`, não da raiz do projeto
 
