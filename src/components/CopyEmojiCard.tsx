@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Copy, Check, Smartphone } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
@@ -8,24 +8,8 @@ interface CopyEmojiCardProps {
 }
 
 export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
-  // Usar localStorage para persistir o estado
-  const storageKey = `copied_emoji_${unicode}`;
-  const [copied, setCopied] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem(storageKey) === 'true';
-    }
-    return false;
-  });
+  const [copied, setCopied] = useState(false);
   const [isPressed, setIsPressed] = useState(false);
-
-  // Sincronizar com localStorage quando o estado mudar
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      if (copied) {
-        localStorage.setItem(storageKey, 'true');
-      }
-    }
-  }, [copied, storageKey]);
 
   const copyEmoji = (e?: React.MouseEvent) => {
     if (e) {
@@ -45,7 +29,7 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
       title: "Copied! ✓", 
       description: `${unicode} ready to paste` 
     });
-    // Estado "Copied" é mantido permanentemente após clicar
+    // Estado "Copied" é mantido enquanto o componente estiver montado (não persiste entre navegações)
   };
 
   return (

@@ -1,5 +1,5 @@
 import { useSearchParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { categories } from "@/data/categories";
@@ -10,23 +10,7 @@ import { Copy, Check } from "lucide-react";
 
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
-  // Usar localStorage para persistir o estado
-  const storageKey = `copied_combo_${emojis}`;
-  const [copied, setCopied] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem(storageKey) === 'true';
-    }
-    return false;
-  });
-
-  // Sincronizar com localStorage quando o estado mudar
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      if (copied) {
-        localStorage.setItem(storageKey, 'true');
-      }
-    }
-  }, [copied, storageKey]);
+  const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
     try {
@@ -39,7 +23,7 @@ const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => 
         navigator.vibrate(50);
       }
       
-      // Estado "Copied" é mantido permanentemente após clicar
+      // Estado "Copied" é mantido enquanto o componente estiver montado (não persiste entre navegações)
     } catch {
       toast.error("Failed to copy");
     }
