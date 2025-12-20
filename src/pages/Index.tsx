@@ -1,5 +1,5 @@
 import { useSearchParams, Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { categories } from "@/data/categories";
@@ -10,7 +10,23 @@ import { Copy, Check } from "lucide-react";
 
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
-  const [copied, setCopied] = useState(false);
+  // Usar localStorage para persistir o estado
+  const storageKey = `copied_combo_${emojis}`;
+  const [copied, setCopied] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem(storageKey) === 'true';
+    }
+    return false;
+  });
+
+  // Sincronizar com localStorage quando o estado mudar
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      if (copied) {
+        localStorage.setItem(storageKey, 'true');
+      }
+    }
+  }, [copied, storageKey]);
 
   const handleCopy = async () => {
     try {

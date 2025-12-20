@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Copy, Check, Smartphone } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
@@ -8,10 +8,31 @@ interface CopyEmojiCardProps {
 }
 
 export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
-  const [copied, setCopied] = useState(false);
+  // Usar localStorage para persistir o estado
+  const storageKey = `copied_emoji_${unicode}`;
+  const [copied, setCopied] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem(storageKey) === 'true';
+    }
+    return false;
+  });
   const [isPressed, setIsPressed] = useState(false);
 
-  const copyEmoji = () => {
+  // Sincronizar com localStorage quando o estado mudar
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      if (copied) {
+        localStorage.setItem(storageKey, 'true');
+      }
+    }
+  }, [copied, storageKey]);
+
+  const copyEmoji = (e?: React.MouseEvent) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    
     navigator.clipboard.writeText(unicode);
     setCopied(true);
     
@@ -73,6 +94,7 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
 
             {/* Full width button on mobile */}
             <button 
+              onClick={copyEmoji}
               className={`
                 w-full flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-base
                 transition-all duration-200 shadow-sm
@@ -118,6 +140,7 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
             </div>
 
             <button 
+              onClick={copyEmoji}
               className={`
                 flex items-center gap-2 px-5 py-3 rounded-xl font-medium
                 transition-all duration-200 shadow-sm
