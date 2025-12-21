@@ -20738,6 +20738,853 @@ export const emojis: Emoji[] = [
     categorySlug: "food-and-drink",
     subgroup: "drink",
     keywords: ["wine", "glass", "red wine", "drink", "elegant"]
+  },
+  // ===== 50 NEW EMOJIS =====
+  {
+    unicode: "🌈",
+    name: "Rainbow",
+    slug: "rainbow",
+    shortMeaning: "A colorful rainbow symbolizing hope, diversity, and positivity.",
+    detailedMeaning: "The Rainbow emoji displays the iconic arc of colors appearing after rain. It represents hope, diversity, LGBTQ+ pride, beauty after storms, and general positivity.\n\nWidely used to express optimism, celebrate diversity, show support for the LGBTQ+ community, or simply add color and joy to messages.",
+    usageContexts: ["Hope", "LGBTQ+ pride", "Diversity", "Positivity", "After storms"],
+    examples: [
+      { context: "Hope", text: "Better days ahead 🌈" },
+      { context: "Pride", text: "Love is love 🌈" },
+      { context: "Beauty", text: "Look at this beautiful sky 🌈" }
+    ],
+    misunderstandings: ["May be interpreted as exclusively LGBTQ+ related when used generally for positivity"],
+    relatedEmojis: ["sparkles", "sun", "cloud-with-rain"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["rainbow", "hope", "pride", "diversity", "colorful"]
+  },
+  {
+    unicode: "⭐",
+    name: "Star",
+    slug: "star",
+    shortMeaning: "A classic five-pointed star representing excellence and favorites.",
+    detailedMeaning: "The Star emoji is a simple, classic yellow star. It represents excellence, quality, favorites, ratings, fame, and standout achievements.\n\nCommonly used for ratings, marking favorites, celebrating achievements, or adding sparkle to messages. It's more subdued than the sparkles emoji.",
+    usageContexts: ["Ratings", "Favorites", "Excellence", "Achievements", "Night sky"],
+    examples: [
+      { context: "Rating", text: "5 stars ⭐⭐⭐⭐⭐" },
+      { context: "Excellence", text: "You're a star ⭐" },
+      { context: "Favorite", text: "My favorite place ⭐" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["sparkles", "glowing-star", "shooting-star"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["star", "favorite", "rating", "excellent", "night"]
+  },
+  {
+    unicode: "🌙",
+    name: "Crescent Moon",
+    slug: "crescent-moon",
+    shortMeaning: "A crescent moon representing night, sleep, and dreams.",
+    detailedMeaning: "The Crescent Moon emoji shows a yellow crescent moon, symbolizing nighttime, sleep, dreams, and the passage of time. It's often associated with bedtime, evening activities, and mystical themes.\n\nUsed for goodnight messages, nighttime content, Ramadan celebrations, or anything related to the moon and night.",
+    usageContexts: ["Goodnight", "Evening", "Dreams", "Ramadan", "Mystical"],
+    examples: [
+      { context: "Goodnight", text: "Sweet dreams 🌙" },
+      { context: "Evening", text: "Beautiful night 🌙" },
+      { context: "Ramadan", text: "Ramadan Mubarak 🌙" }
+    ],
+    misunderstandings: ["May be confused with religious symbols in some contexts"],
+    relatedEmojis: ["full-moon", "star", "night-with-stars"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["moon", "crescent", "night", "sleep", "dreams"]
+  },
+  {
+    unicode: "☀️",
+    name: "Sun",
+    slug: "sun",
+    shortMeaning: "A bright sun representing warmth, summer, and happiness.",
+    detailedMeaning: "The Sun emoji is a classic representation of our star, symbolizing warmth, summer, good weather, energy, and positivity. It's one of the most universally positive weather emojis.\n\nUsed for sunny days, summer vibes, warmth, positivity, or morning greetings.",
+    usageContexts: ["Sunny weather", "Summer", "Warmth", "Positivity", "Morning"],
+    examples: [
+      { context: "Weather", text: "Beautiful sunny day ☀️" },
+      { context: "Summer", text: "Summer vibes ☀️" },
+      { context: "Morning", text: "Good morning ☀️" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["sunflower", "beach-with-umbrella", "hot-face"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["sun", "sunny", "weather", "summer", "warm"]
+  },
+  {
+    unicode: "❄️",
+    name: "Snowflake",
+    slug: "snowflake",
+    shortMeaning: "A snowflake representing cold, winter, and uniqueness.",
+    detailedMeaning: "The Snowflake emoji represents cold weather, winter, snow, and the holiday season. Like real snowflakes, it can also symbolize uniqueness and delicacy.\n\nUsed for winter content, cold weather, Christmas themes, or to indicate something is 'cold' in slang.",
+    usageContexts: ["Winter", "Snow", "Cold", "Christmas", "Uniqueness"],
+    examples: [
+      { context: "Winter", text: "First snow of the season ❄️" },
+      { context: "Cold", text: "It's freezing out there ❄️" },
+      { context: "Christmas", text: "White Christmas ❄️" }
+    ],
+    misunderstandings: ["In slang, can mean someone is overly sensitive"],
+    relatedEmojis: ["snowman", "cloud-with-snow", "cold-face"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["snowflake", "snow", "winter", "cold", "frozen"]
+  },
+  {
+    unicode: "⚡",
+    name: "High Voltage",
+    slug: "high-voltage",
+    shortMeaning: "A lightning bolt representing power, speed, and energy.",
+    detailedMeaning: "The High Voltage emoji shows a classic lightning bolt, representing electricity, power, speed, and intense energy. It conveys excitement, quick action, or something shocking.\n\nUsed for energy, power, fast responses, shocking news, or anything electric and dynamic.",
+    usageContexts: ["Energy", "Speed", "Power", "Shocking", "Electric"],
+    examples: [
+      { context: "Energy", text: "Feeling energized ⚡" },
+      { context: "Speed", text: "Quick response ⚡" },
+      { context: "Power", text: "Full power mode ⚡" }
+    ],
+    misunderstandings: ["May be confused with weather-related lightning"],
+    relatedEmojis: ["fire", "sparkles", "battery"],
+    categorySlug: "travel-and-places",
+    subgroup: "sky-weather",
+    keywords: ["lightning", "electric", "power", "energy", "fast"]
+  },
+  {
+    unicode: "🎵",
+    name: "Musical Note",
+    slug: "musical-note",
+    shortMeaning: "Musical notes representing music, singing, and rhythm.",
+    detailedMeaning: "The Musical Note emoji shows two beamed eighth notes, representing music, singing, melodies, and rhythm. It's the go-to emoji for anything music-related.\n\nUsed when listening to music, singing, dancing, or referencing songs and musical content.",
+    usageContexts: ["Music", "Singing", "Dancing", "Songs", "Melodies"],
+    examples: [
+      { context: "Listening", text: "This song is amazing 🎵" },
+      { context: "Singing", text: "Singing in the shower 🎵" },
+      { context: "Mood", text: "Music makes everything better 🎵" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["headphones", "microphone", "guitar"],
+    categorySlug: "objects",
+    subgroup: "music",
+    keywords: ["music", "note", "song", "singing", "melody"]
+  },
+  {
+    unicode: "🎉",
+    name: "Party Popper",
+    slug: "party-popper",
+    shortMeaning: "A party popper exploding with confetti for celebrations.",
+    detailedMeaning: "The Party Popper emoji shows a cone-shaped party favor shooting out confetti and streamers. It's the ultimate celebration emoji, used for birthdays, achievements, and exciting announcements.\n\nPerfect for congratulations, parties, New Year's, birthdays, or any exciting good news worth celebrating.",
+    usageContexts: ["Celebration", "Birthday", "Congratulations", "New Year", "Achievements"],
+    examples: [
+      { context: "Birthday", text: "Happy Birthday 🎉" },
+      { context: "Achievement", text: "We did it 🎉" },
+      { context: "New Year", text: "Happy New Year 🎉" }
+    ],
+    misunderstandings: ["Clear celebratory meaning"],
+    relatedEmojis: ["confetti-ball", "balloon", "birthday-cake"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["party", "celebration", "confetti", "birthday", "congrats"]
+  },
+  {
+    unicode: "🎁",
+    name: "Wrapped Gift",
+    slug: "wrapped-gift",
+    shortMeaning: "A wrapped present with a bow for gift-giving occasions.",
+    detailedMeaning: "The Wrapped Gift emoji shows a colorful gift box with a decorative bow on top. It represents presents, gift-giving, surprises, and special occasions like birthdays and holidays.\n\nUsed for birthdays, Christmas, surprises, rewards, or any context involving giving or receiving gifts.",
+    usageContexts: ["Birthday", "Christmas", "Gifts", "Surprises", "Rewards"],
+    examples: [
+      { context: "Birthday", text: "Got you something special 🎁" },
+      { context: "Christmas", text: "Presents under the tree 🎁" },
+      { context: "Surprise", text: "Surprise for you 🎁" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["party-popper", "birthday-cake", "christmas-tree"],
+    categorySlug: "activities",
+    subgroup: "event",
+    keywords: ["gift", "present", "birthday", "christmas", "wrapped"]
+  },
+  {
+    unicode: "🏆",
+    name: "Trophy",
+    slug: "trophy",
+    shortMeaning: "A golden trophy representing victory and achievement.",
+    detailedMeaning: "The Trophy emoji shows a golden cup trophy, the classic symbol of winning and achievement. It represents first place, victory, success, and being the best at something.\n\nUsed for celebrating wins, recognizing achievements, sports victories, or acknowledging someone who's exceptional.",
+    usageContexts: ["Winning", "Achievement", "Sports", "Recognition", "Success"],
+    examples: [
+      { context: "Victory", text: "We won the championship 🏆" },
+      { context: "Achievement", text: "Employee of the month 🏆" },
+      { context: "Recognition", text: "You're a winner 🏆" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["medal", "first-place-medal", "star"],
+    categorySlug: "activities",
+    subgroup: "award-medal",
+    keywords: ["trophy", "winner", "champion", "award", "victory"]
+  },
+  {
+    unicode: "⚽",
+    name: "Soccer Ball",
+    slug: "soccer-ball",
+    shortMeaning: "A classic black and white soccer ball for the world's favorite sport.",
+    detailedMeaning: "The Soccer Ball emoji shows the iconic black and white patterned ball used in soccer (football). It represents the world's most popular sport, team spirit, and athletic competition.\n\nUsed for soccer/football content, sports discussions, World Cup events, or showing team support.",
+    usageContexts: ["Soccer", "Football", "Sports", "World Cup", "Teams"],
+    examples: [
+      { context: "Game", text: "Game day ⚽" },
+      { context: "World Cup", text: "World Cup finals ⚽" },
+      { context: "Play", text: "Let's play ⚽" }
+    ],
+    misunderstandings: ["Called 'football' in most countries outside the US"],
+    relatedEmojis: ["basketball", "american-football", "trophy"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["soccer", "football", "sport", "ball", "game"]
+  },
+  {
+    unicode: "🏀",
+    name: "Basketball",
+    slug: "basketball",
+    shortMeaning: "An orange basketball with black lines for hoops fans.",
+    detailedMeaning: "The Basketball emoji shows the distinctive orange ball with black seams used in basketball. It represents the sport, NBA culture, and athletic achievement.\n\nUsed for basketball content, NBA discussions, sports activities, or showing love for the game.",
+    usageContexts: ["Basketball", "NBA", "Sports", "Games", "Athletics"],
+    examples: [
+      { context: "Game", text: "Lakers vs Celtics tonight 🏀" },
+      { context: "Play", text: "Shooting hoops 🏀" },
+      { context: "Fan", text: "Ball is life 🏀" }
+    ],
+    misunderstandings: ["Clear sports meaning"],
+    relatedEmojis: ["soccer-ball", "trophy", "person-bouncing-ball"],
+    categorySlug: "activities",
+    subgroup: "sport",
+    keywords: ["basketball", "NBA", "sport", "hoops", "ball"]
+  },
+  {
+    unicode: "🎮",
+    name: "Video Game",
+    slug: "video-game",
+    shortMeaning: "A game controller for gaming enthusiasts.",
+    detailedMeaning: "The Video Game emoji shows a classic game controller with buttons and joystick. It represents video gaming, esports, console gaming, and gamer culture.\n\nUsed for gaming sessions, discussing video games, streaming content, or expressing gamer identity.",
+    usageContexts: ["Gaming", "Video games", "Esports", "Streaming", "Gamer culture"],
+    examples: [
+      { context: "Gaming", text: "Gaming night 🎮" },
+      { context: "Invite", text: "Wanna play? 🎮" },
+      { context: "Identity", text: "Gamer for life 🎮" }
+    ],
+    misunderstandings: ["Clear gaming meaning"],
+    relatedEmojis: ["joystick", "computer", "television"],
+    categorySlug: "activities",
+    subgroup: "game",
+    keywords: ["gaming", "video game", "controller", "play", "gamer"]
+  },
+  {
+    unicode: "🎬",
+    name: "Clapper Board",
+    slug: "clapper-board",
+    shortMeaning: "A movie clapper board for film and cinema content.",
+    detailedMeaning: "The Clapper Board emoji shows the iconic film slate used in movie production. It represents movies, filmmaking, cinema, and entertainment industry.\n\nUsed for movie discussions, film recommendations, cinema visits, or content creation contexts.",
+    usageContexts: ["Movies", "Film", "Cinema", "Production", "Entertainment"],
+    examples: [
+      { context: "Movies", text: "Movie night 🎬" },
+      { context: "Cinema", text: "Going to the movies 🎬" },
+      { context: "Filming", text: "Lights, camera, action 🎬" }
+    ],
+    misunderstandings: ["Clear film/movie meaning"],
+    relatedEmojis: ["film-frames", "popcorn", "television"],
+    categorySlug: "activities",
+    subgroup: "arts-crafts",
+    keywords: ["movie", "film", "cinema", "clapper", "action"]
+  },
+  {
+    unicode: "📱",
+    name: "Mobile Phone",
+    slug: "mobile-phone",
+    shortMeaning: "A smartphone representing mobile technology and communication.",
+    detailedMeaning: "The Mobile Phone emoji shows a modern smartphone. It represents mobile communication, apps, texting, calls, and the digital lifestyle.\n\nUsed for phone-related content, calling, texting, mobile apps, or indicating to contact someone.",
+    usageContexts: ["Calling", "Texting", "Mobile", "Apps", "Contact"],
+    examples: [
+      { context: "Call", text: "Call me 📱" },
+      { context: "Text", text: "Text you later 📱" },
+      { context: "Mobile", text: "New phone 📱" }
+    ],
+    misunderstandings: ["Clear technology meaning"],
+    relatedEmojis: ["telephone", "laptop", "camera"],
+    categorySlug: "objects",
+    subgroup: "phone",
+    keywords: ["phone", "mobile", "smartphone", "call", "text"]
+  },
+  {
+    unicode: "💻",
+    name: "Laptop",
+    slug: "laptop",
+    shortMeaning: "A laptop computer for work, study, and digital life.",
+    detailedMeaning: "The Laptop emoji shows an open laptop computer. It represents work, studying, remote work, technology, and the digital workspace.\n\nUsed for work-from-home content, coding, studying, online activities, or anything computer-related.",
+    usageContexts: ["Work", "Study", "Remote work", "Coding", "Online"],
+    examples: [
+      { context: "Work", text: "Working from home 💻" },
+      { context: "Study", text: "Study session 💻" },
+      { context: "Coding", text: "Coding all night 💻" }
+    ],
+    misunderstandings: ["Clear technology meaning"],
+    relatedEmojis: ["mobile-phone", "keyboard", "computer-mouse"],
+    categorySlug: "objects",
+    subgroup: "computer",
+    keywords: ["laptop", "computer", "work", "study", "tech"]
+  },
+  {
+    unicode: "📷",
+    name: "Camera",
+    slug: "camera",
+    shortMeaning: "A camera for photography and capturing memories.",
+    detailedMeaning: "The Camera emoji shows a classic camera, representing photography, pictures, memories, and visual content creation.\n\nUsed for photo-taking contexts, photography content, memories, or requesting/sharing pictures.",
+    usageContexts: ["Photography", "Pictures", "Memories", "Content creation", "Photos"],
+    examples: [
+      { context: "Photo", text: "Say cheese 📷" },
+      { context: "Memory", text: "Capturing memories 📷" },
+      { context: "Photography", text: "New camera day 📷" }
+    ],
+    misunderstandings: ["Clear photography meaning"],
+    relatedEmojis: ["camera-with-flash", "video-camera", "mobile-phone"],
+    categorySlug: "objects",
+    subgroup: "light-video",
+    keywords: ["camera", "photo", "picture", "photography", "capture"]
+  },
+  {
+    unicode: "🔑",
+    name: "Key",
+    slug: "key",
+    shortMeaning: "A key representing access, security, and solutions.",
+    detailedMeaning: "The Key emoji shows a classic golden key. It represents access, security, unlocking, solutions, and important knowledge or secrets.\n\nUsed for access-related content, security, housing (new home keys), or metaphorically for the 'key' to something.",
+    usageContexts: ["Access", "Security", "New home", "Solutions", "Important"],
+    examples: [
+      { context: "Home", text: "Got the keys to my new place 🔑" },
+      { context: "Solution", text: "Here's the key to success 🔑" },
+      { context: "Access", text: "VIP access 🔑" }
+    ],
+    misunderstandings: ["Clear meaning in most contexts"],
+    relatedEmojis: ["lock", "house", "door"],
+    categorySlug: "objects",
+    subgroup: "lock",
+    keywords: ["key", "lock", "access", "unlock", "security"]
+  },
+  {
+    unicode: "💎",
+    name: "Gem Stone",
+    slug: "gem-stone",
+    shortMeaning: "A sparkling diamond representing luxury and value.",
+    detailedMeaning: "The Gem Stone emoji shows a brilliant cut diamond or gem, representing luxury, wealth, beauty, and high value. It's also used to describe something or someone precious.\n\nUsed for luxury content, jewelry, describing something valuable, or calling someone a 'gem' of a person.",
+    usageContexts: ["Luxury", "Jewelry", "Value", "Precious", "Quality"],
+    examples: [
+      { context: "Value", text: "You're a gem 💎" },
+      { context: "Luxury", text: "Diamond life 💎" },
+      { context: "Quality", text: "Premium quality 💎" }
+    ],
+    misunderstandings: ["Clear luxury/value meaning"],
+    relatedEmojis: ["ring", "crown", "sparkles"],
+    categorySlug: "objects",
+    subgroup: "other-object",
+    keywords: ["diamond", "gem", "jewel", "luxury", "precious"]
+  },
+  {
+    unicode: "👑",
+    name: "Crown",
+    slug: "crown",
+    shortMeaning: "A royal crown representing royalty, excellence, and being the best.",
+    detailedMeaning: "The Crown emoji shows a golden royal crown with jewels. It represents royalty, excellence, being the best, self-confidence, and treating yourself like royalty.\n\nUsed for royalty content, recognizing excellence, self-love affirmations, or calling someone a king/queen.",
+    usageContexts: ["Royalty", "Excellence", "Self-love", "Recognition", "King/Queen"],
+    examples: [
+      { context: "Excellence", text: "King behavior 👑" },
+      { context: "Self-love", text: "Know your worth 👑" },
+      { context: "Recognition", text: "You're the queen 👑" }
+    ],
+    misunderstandings: ["Clear royalty/excellence meaning"],
+    relatedEmojis: ["gem-stone", "sparkles", "star"],
+    categorySlug: "objects",
+    subgroup: "clothing",
+    keywords: ["crown", "royal", "king", "queen", "best"]
+  },
+  {
+    unicode: "🎧",
+    name: "Headphones",
+    slug: "headphones",
+    shortMeaning: "Headphones for listening to music and audio.",
+    detailedMeaning: "The Headphones emoji shows a pair of over-ear headphones. It represents listening to music, podcasts, audio content, and personal audio experiences.\n\nUsed for music listening, podcasts, focus mode, or indicating you're tuned into something.",
+    usageContexts: ["Music", "Podcasts", "Focus", "Audio", "Listening"],
+    examples: [
+      { context: "Music", text: "Vibing to my playlist 🎧" },
+      { context: "Focus", text: "Do not disturb mode 🎧" },
+      { context: "Podcast", text: "New episode dropped 🎧" }
+    ],
+    misunderstandings: ["Clear audio/music meaning"],
+    relatedEmojis: ["musical-note", "microphone", "radio"],
+    categorySlug: "objects",
+    subgroup: "music",
+    keywords: ["headphones", "music", "listen", "audio", "podcast"]
+  },
+  {
+    unicode: "🌸",
+    name: "Cherry Blossom",
+    slug: "cherry-blossom",
+    shortMeaning: "A pink cherry blossom flower representing spring and beauty.",
+    detailedMeaning: "The Cherry Blossom emoji shows a delicate pink flower with five petals. It represents spring, Japanese culture, beauty, femininity, and the fleeting nature of life.\n\nUsed for spring content, Japanese themes, beauty posts, or adding a soft, feminine aesthetic.",
+    usageContexts: ["Spring", "Japanese culture", "Beauty", "Nature", "Feminine"],
+    examples: [
+      { context: "Spring", text: "Spring is here 🌸" },
+      { context: "Japan", text: "Sakura season 🌸" },
+      { context: "Beauty", text: "Feeling pretty 🌸" }
+    ],
+    misunderstandings: ["Strongly associated with Japanese culture"],
+    relatedEmojis: ["hibiscus", "tulip", "sunflower"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["cherry blossom", "sakura", "flower", "spring", "pink"]
+  },
+  {
+    unicode: "🌻",
+    name: "Sunflower",
+    slug: "sunflower",
+    shortMeaning: "A bright yellow sunflower representing happiness and summer.",
+    detailedMeaning: "The Sunflower emoji shows a large yellow sunflower. It represents sunshine, happiness, summer, positivity, and adoration (sunflowers follow the sun).\n\nUsed for happy content, summer vibes, nature posts, or expressing positivity and warmth.",
+    usageContexts: ["Happiness", "Summer", "Positivity", "Nature", "Warmth"],
+    examples: [
+      { context: "Happy", text: "Sunny disposition 🌻" },
+      { context: "Summer", text: "Summer flowers 🌻" },
+      { context: "Positivity", text: "Brighten someone's day 🌻" }
+    ],
+    misunderstandings: ["Clear positive/nature meaning"],
+    relatedEmojis: ["sun", "cherry-blossom", "hibiscus"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-flower",
+    keywords: ["sunflower", "flower", "summer", "happy", "yellow"]
+  },
+  {
+    unicode: "🍀",
+    name: "Four Leaf Clover",
+    slug: "four-leaf-clover",
+    shortMeaning: "A lucky four-leaf clover for good fortune.",
+    detailedMeaning: "The Four Leaf Clover emoji shows the rare lucky charm with four leaves instead of three. It represents good luck, fortune, Irish culture, and St. Patrick's Day.\n\nUsed for wishing luck, St. Patrick's Day, Irish themes, or expressing hope for good fortune.",
+    usageContexts: ["Good luck", "St. Patrick's Day", "Irish", "Fortune", "Wishful"],
+    examples: [
+      { context: "Luck", text: "Good luck 🍀" },
+      { context: "St. Patrick's", text: "Happy St. Patrick's Day 🍀" },
+      { context: "Fortune", text: "Lucky day 🍀" }
+    ],
+    misunderstandings: ["Clear luck/fortune meaning"],
+    relatedEmojis: ["shamrock", "rainbow", "pot-of-gold"],
+    categorySlug: "animals-and-nature",
+    subgroup: "plant-other",
+    keywords: ["clover", "luck", "lucky", "irish", "fortune"]
+  },
+  {
+    unicode: "🦋",
+    name: "Butterfly",
+    slug: "butterfly",
+    shortMeaning: "A colorful butterfly representing transformation and beauty.",
+    detailedMeaning: "The Butterfly emoji shows a beautiful butterfly with colorful wings. It represents transformation, freedom, beauty, nature, and personal growth (metamorphosis).\n\nUsed for nature content, personal transformation stories, beauty posts, or expressing freedom and change.",
+    usageContexts: ["Transformation", "Nature", "Beauty", "Freedom", "Growth"],
+    examples: [
+      { context: "Change", text: "Becoming a new me 🦋" },
+      { context: "Nature", text: "Beautiful butterfly 🦋" },
+      { context: "Freedom", text: "Free spirit 🦋" }
+    ],
+    misunderstandings: ["May be used for nervous 'butterflies in stomach' feeling"],
+    relatedEmojis: ["bee", "lady-beetle", "cherry-blossom"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-bug",
+    keywords: ["butterfly", "nature", "transformation", "beauty", "wings"]
+  },
+  {
+    unicode: "🐶",
+    name: "Dog Face",
+    slug: "dog-face",
+    shortMeaning: "A cute dog face representing man's best friend.",
+    detailedMeaning: "The Dog Face emoji shows an adorable puppy or dog face. It represents dogs, loyalty, friendship, cuteness, and pet love.\n\nUsed for dog content, expressing cuteness, loyalty references, or showing love for pets.",
+    usageContexts: ["Dogs", "Pets", "Cuteness", "Loyalty", "Best friend"],
+    examples: [
+      { context: "Pet", text: "My best friend 🐶" },
+      { context: "Cute", text: "Look at this cutie 🐶" },
+      { context: "Loyalty", text: "Loyal like a dog 🐶" }
+    ],
+    misunderstandings: ["Clear dog/pet meaning"],
+    relatedEmojis: ["dog", "guide-dog", "paw-prints"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["dog", "puppy", "pet", "cute", "loyal"]
+  },
+  {
+    unicode: "🐱",
+    name: "Cat Face",
+    slug: "cat-face",
+    shortMeaning: "An adorable cat face for feline lovers.",
+    detailedMeaning: "The Cat Face emoji shows a cute cat face with whiskers. It represents cats, cuteness, independence, and mysterious charm.\n\nUsed for cat content, expressing cuteness, cat-like behavior, or showing love for felines.",
+    usageContexts: ["Cats", "Pets", "Cuteness", "Independence", "Mysterious"],
+    examples: [
+      { context: "Pet", text: "My fur baby 🐱" },
+      { context: "Cute", text: "So adorable 🐱" },
+      { context: "Cat lady", text: "Cat mom life 🐱" }
+    ],
+    misunderstandings: ["Clear cat/pet meaning"],
+    relatedEmojis: ["cat", "black-cat", "paw-prints"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["cat", "kitten", "pet", "cute", "feline"]
+  },
+  {
+    unicode: "🦁",
+    name: "Lion",
+    slug: "lion",
+    shortMeaning: "A majestic lion representing courage and leadership.",
+    detailedMeaning: "The Lion emoji shows the face of a lion with its distinctive mane. It represents courage, strength, leadership, royalty, and the Leo zodiac sign.\n\nUsed for expressing bravery, leadership content, Leo zodiac references, or African wildlife themes.",
+    usageContexts: ["Courage", "Leadership", "Leo zodiac", "Wildlife", "Strength"],
+    examples: [
+      { context: "Brave", text: "Be brave like a lion 🦁" },
+      { context: "Zodiac", text: "Leo season 🦁" },
+      { context: "Leader", text: "King of the jungle 🦁" }
+    ],
+    misunderstandings: ["Clear lion/courage meaning"],
+    relatedEmojis: ["tiger-face", "crown", "star"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["lion", "leo", "courage", "king", "brave"]
+  },
+  {
+    unicode: "🐻",
+    name: "Bear",
+    slug: "bear",
+    shortMeaning: "A cute bear face representing strength and cuddliness.",
+    detailedMeaning: "The Bear emoji shows a friendly bear face. It represents bears, strength, cuddliness, teddy bears, and protective nature.\n\nUsed for bear content, expressing something is cute but strong, teddy bear references, or bear hugs.",
+    usageContexts: ["Bears", "Cute but strong", "Bear hugs", "Teddy bears", "Wildlife"],
+    examples: [
+      { context: "Hugs", text: "Bear hugs 🐻" },
+      { context: "Cute", text: "Cute as a teddy bear 🐻" },
+      { context: "Strong", text: "Strong like a bear 🐻" }
+    ],
+    misunderstandings: ["May be confused with teddy bear toy"],
+    relatedEmojis: ["teddy-bear", "panda", "polar-bear"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["bear", "cute", "strong", "hug", "teddy"]
+  },
+  {
+    unicode: "🐼",
+    name: "Panda",
+    slug: "panda",
+    shortMeaning: "An adorable panda face with distinctive black and white markings.",
+    detailedMeaning: "The Panda emoji shows the face of a giant panda with its iconic black and white coloring. It represents pandas, cuteness, China, conservation, and gentle nature.\n\nUsed for panda content, Chinese themes, expressing cuteness, or conservation awareness.",
+    usageContexts: ["Pandas", "China", "Cuteness", "Conservation", "Wildlife"],
+    examples: [
+      { context: "Cute", text: "So adorable 🐼" },
+      { context: "China", text: "Chinese treasure 🐼" },
+      { context: "Mood", text: "Panda mode: eat and sleep 🐼" }
+    ],
+    misunderstandings: ["Clear panda meaning"],
+    relatedEmojis: ["bear", "koala", "bamboo"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["panda", "cute", "china", "bear", "black and white"]
+  },
+  {
+    unicode: "🦊",
+    name: "Fox",
+    slug: "fox",
+    shortMeaning: "A clever fox face representing cunning and wit.",
+    detailedMeaning: "The Fox emoji shows an orange fox face. It represents cleverness, wit, cunning, beauty, and the phrase 'clever like a fox.'\n\nUsed for expressing cleverness, fox content, autumn themes, or describing someone smart and sly.",
+    usageContexts: ["Clever", "Cunning", "Autumn", "Wildlife", "Smart"],
+    examples: [
+      { context: "Clever", text: "Clever like a fox 🦊" },
+      { context: "Autumn", text: "Fall vibes 🦊" },
+      { context: "Smart", text: "Outfoxed everyone 🦊" }
+    ],
+    misunderstandings: ["May imply slyness or untrustworthiness"],
+    relatedEmojis: ["wolf", "dog-face", "maple-leaf"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["fox", "clever", "sly", "cunning", "autumn"]
+  },
+  {
+    unicode: "🐷",
+    name: "Pig Face",
+    slug: "pig-face",
+    shortMeaning: "A pink pig face for farm content or playful teasing.",
+    detailedMeaning: "The Pig Face emoji shows a cute pink pig with a snout. It represents pigs, farm life, overeating, money (piggy bank), or playful teasing.\n\nUsed for farm content, playful 'pig out' references, money-saving themes, or as playful teasing.",
+    usageContexts: ["Farm", "Overeating", "Money saving", "Playful", "Cute"],
+    examples: [
+      { context: "Eating", text: "Time to pig out 🐷" },
+      { context: "Saving", text: "Piggy bank mode 🐷" },
+      { context: "Cute", text: "Oink oink 🐷" }
+    ],
+    misunderstandings: ["Can be seen as insulting if calling someone a pig"],
+    relatedEmojis: ["pig", "piggy-bank", "bacon"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["pig", "piggy", "farm", "pink", "cute"]
+  },
+  {
+    unicode: "🐸",
+    name: "Frog",
+    slug: "frog",
+    shortMeaning: "A green frog face, often used for 'that's none of my business' memes.",
+    detailedMeaning: "The Frog emoji shows a green frog face. Beyond representing frogs, it's strongly associated with the 'Kermit sipping tea' meme, implying 'but that's none of my business.'\n\nUsed for frog content, subtle shade/gossip, meme references, or nature themes.",
+    usageContexts: ["Memes", "Tea/gossip", "Frogs", "Nature", "Shade"],
+    examples: [
+      { context: "Meme", text: "But that's none of my business 🐸" },
+      { context: "Tea", text: "Sipping tea 🐸" },
+      { context: "Nature", text: "Found a frog 🐸" }
+    ],
+    misunderstandings: ["Strongly associated with meme culture and gossip"],
+    relatedEmojis: ["snake", "teacup", "eyes"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-amphibian",
+    keywords: ["frog", "kermit", "tea", "meme", "gossip"]
+  },
+  {
+    unicode: "🦄",
+    name: "Unicorn",
+    slug: "unicorn",
+    shortMeaning: "A magical unicorn representing rarity and uniqueness.",
+    detailedMeaning: "The Unicorn emoji shows a mythical horse with a horn on its forehead. It represents magic, uniqueness, rarity, fantasy, and exceptional people or things ('unicorn' in business means rare valuable find).\n\nUsed for magical/fantasy content, describing someone unique, startup culture, or rainbow/pride themes.",
+    usageContexts: ["Magic", "Unique", "Rare", "Fantasy", "Special"],
+    examples: [
+      { context: "Unique", text: "You're a unicorn 🦄" },
+      { context: "Rare", text: "Found a unicorn employee 🦄" },
+      { context: "Magic", text: "Magical vibes 🦄" }
+    ],
+    misunderstandings: ["In business, specifically means rare successful startup"],
+    relatedEmojis: ["rainbow", "sparkles", "horse"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-mammal",
+    keywords: ["unicorn", "magic", "unique", "rare", "fantasy"]
+  },
+  {
+    unicode: "🐢",
+    name: "Turtle",
+    slug: "turtle",
+    shortMeaning: "A cute turtle representing slowness and longevity.",
+    detailedMeaning: "The Turtle emoji shows a green turtle with its shell. It represents slowness, patience, longevity, wisdom, and the phrase 'slow and steady wins the race.'\n\nUsed for slow progress, patience content, marine life, or the slow and steady approach.",
+    usageContexts: ["Slow", "Patient", "Steady", "Longevity", "Marine life"],
+    examples: [
+      { context: "Slow", text: "Slow and steady 🐢" },
+      { context: "Progress", text: "Making progress 🐢" },
+      { context: "Patience", text: "Patience is key 🐢" }
+    ],
+    misunderstandings: ["May imply someone is too slow"],
+    relatedEmojis: ["snail", "sloth", "whale"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-reptile",
+    keywords: ["turtle", "slow", "patient", "steady", "shell"]
+  },
+  {
+    unicode: "🐬",
+    name: "Dolphin",
+    slug: "dolphin",
+    shortMeaning: "A playful dolphin representing intelligence and fun.",
+    detailedMeaning: "The Dolphin emoji shows a friendly dolphin jumping. It represents intelligence, playfulness, the ocean, and friendly nature. Dolphins are known for their smarts and social behavior.\n\nUsed for ocean content, expressing playfulness, marine life, or describing someone smart and friendly.",
+    usageContexts: ["Ocean", "Playful", "Smart", "Marine life", "Fun"],
+    examples: [
+      { context: "Ocean", text: "Ocean vibes 🐬" },
+      { context: "Playful", text: "Having fun 🐬" },
+      { context: "Smart", text: "Smart as a dolphin 🐬" }
+    ],
+    misunderstandings: ["Clear marine/playful meaning"],
+    relatedEmojis: ["whale", "fish", "ocean"],
+    categorySlug: "animals-and-nature",
+    subgroup: "animal-marine",
+    keywords: ["dolphin", "ocean", "playful", "smart", "marine"]
+  },
+  {
+    unicode: "🌍",
+    name: "Globe Showing Europe-Africa",
+    slug: "globe-europe-africa",
+    shortMeaning: "Planet Earth showing Europe and Africa.",
+    detailedMeaning: "The Globe emoji shows Earth from space, featuring Europe and Africa. It represents the world, global thinking, environmentalism, international matters, and worldwide reach.\n\nUsed for global topics, environmentalism, international content, or indicating worldwide scope.",
+    usageContexts: ["Global", "World", "International", "Environment", "Earth"],
+    examples: [
+      { context: "Global", text: "Worldwide impact 🌍" },
+      { context: "Environment", text: "Protect our planet 🌍" },
+      { context: "Travel", text: "Exploring the world 🌍" }
+    ],
+    misunderstandings: ["Different globe emojis show different continents"],
+    relatedEmojis: ["globe-americas", "globe-asia", "world-map"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-map",
+    keywords: ["earth", "globe", "world", "planet", "global"]
+  },
+  {
+    unicode: "🏠",
+    name: "House",
+    slug: "house",
+    shortMeaning: "A simple house representing home and family.",
+    detailedMeaning: "The House emoji shows a basic house with a roof. It represents home, family, housing, domesticity, and the concept of 'home sweet home.'\n\nUsed for home-related content, real estate, family themes, or indicating you're heading/staying home.",
+    usageContexts: ["Home", "Family", "Real estate", "Housing", "Domestic"],
+    examples: [
+      { context: "Home", text: "Home sweet home 🏠" },
+      { context: "Arriving", text: "Finally home 🏠" },
+      { context: "Real estate", text: "New house 🏠" }
+    ],
+    misunderstandings: ["Clear home meaning"],
+    relatedEmojis: ["house-with-garden", "key", "family"],
+    categorySlug: "travel-and-places",
+    subgroup: "place-building",
+    keywords: ["house", "home", "family", "building", "domestic"]
+  },
+  {
+    unicode: "🚗",
+    name: "Car",
+    slug: "car",
+    shortMeaning: "A red car for driving and transportation.",
+    detailedMeaning: "The Car emoji shows a red automobile. It represents driving, transportation, road trips, commuting, and car culture.\n\nUsed for driving content, road trips, car-related topics, or indicating transportation.",
+    usageContexts: ["Driving", "Road trip", "Transportation", "Commute", "Cars"],
+    examples: [
+      { context: "Road trip", text: "Road trip time 🚗" },
+      { context: "Driving", text: "On my way 🚗" },
+      { context: "New car", text: "New wheels 🚗" }
+    ],
+    misunderstandings: ["Clear transportation meaning"],
+    relatedEmojis: ["taxi", "bus", "motorcycle"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-ground",
+    keywords: ["car", "drive", "road", "transportation", "vehicle"]
+  },
+  {
+    unicode: "✈️",
+    name: "Airplane",
+    slug: "airplane",
+    shortMeaning: "An airplane for travel and flying.",
+    detailedMeaning: "The Airplane emoji shows a passenger aircraft. It represents air travel, vacations, flying, airports, and long-distance journeys.\n\nUsed for travel content, vacation announcements, airport check-ins, or anything flight-related.",
+    usageContexts: ["Travel", "Flying", "Vacation", "Airport", "Journey"],
+    examples: [
+      { context: "Travel", text: "Off we go ✈️" },
+      { context: "Vacation", text: "Vacation mode ✈️" },
+      { context: "Airport", text: "At the airport ✈️" }
+    ],
+    misunderstandings: ["Clear travel/flight meaning"],
+    relatedEmojis: ["airplane-departure", "airplane-arrival", "luggage"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-air",
+    keywords: ["airplane", "travel", "fly", "vacation", "flight"]
+  },
+  {
+    unicode: "🚀",
+    name: "Rocket",
+    slug: "rocket",
+    shortMeaning: "A rocket ship representing speed, progress, and ambition.",
+    detailedMeaning: "The Rocket emoji shows a launching rocket ship. It represents space exploration, rapid growth, ambition, startups taking off, and shooting for the stars.\n\nUsed for rapid progress, startup culture, space content, or anything 'taking off' or launching.",
+    usageContexts: ["Launch", "Growth", "Space", "Startups", "Progress"],
+    examples: [
+      { context: "Launch", text: "Product launch 🚀" },
+      { context: "Growth", text: "To the moon 🚀" },
+      { context: "Ambition", text: "Shooting for the stars 🚀" }
+    ],
+    misunderstandings: ["In crypto/stocks means rapid price increase"],
+    relatedEmojis: ["star", "sparkles", "airplane"],
+    categorySlug: "travel-and-places",
+    subgroup: "transport-air",
+    keywords: ["rocket", "launch", "space", "growth", "startup"]
+  },
+  {
+    unicode: "⏰",
+    name: "Alarm Clock",
+    slug: "alarm-clock",
+    shortMeaning: "An alarm clock for time-related matters.",
+    detailedMeaning: "The Alarm Clock emoji shows a classic ringing alarm clock. It represents time, urgency, waking up, deadlines, and reminders.\n\nUsed for time-sensitive content, morning routines, deadlines, or indicating urgency.",
+    usageContexts: ["Time", "Morning", "Deadline", "Urgent", "Reminder"],
+    examples: [
+      { context: "Morning", text: "Early wake up ⏰" },
+      { context: "Deadline", text: "Time's running out ⏰" },
+      { context: "Reminder", text: "Don't forget ⏰" }
+    ],
+    misunderstandings: ["Clear time/urgency meaning"],
+    relatedEmojis: ["watch", "hourglass", "timer"],
+    categorySlug: "travel-and-places",
+    subgroup: "time",
+    keywords: ["alarm", "clock", "time", "wake", "urgent"]
+  },
+  {
+    unicode: "💰",
+    name: "Money Bag",
+    slug: "money-bag",
+    shortMeaning: "A bag of money representing wealth and financial gain.",
+    detailedMeaning: "The Money Bag emoji shows a bag with a dollar sign filled with money. It represents wealth, money, financial success, getting paid, and prosperity.\n\nUsed for money-related content, payday celebrations, financial success, or discussing wealth.",
+    usageContexts: ["Money", "Wealth", "Payday", "Success", "Financial"],
+    examples: [
+      { context: "Payday", text: "Payday 💰" },
+      { context: "Success", text: "Making money moves 💰" },
+      { context: "Wealth", text: "Bag secured 💰" }
+    ],
+    misunderstandings: ["Clear money/wealth meaning"],
+    relatedEmojis: ["dollar", "money-with-wings", "gem-stone"],
+    categorySlug: "objects",
+    subgroup: "money",
+    keywords: ["money", "bag", "wealth", "rich", "cash"]
+  },
+  {
+    unicode: "💸",
+    name: "Money with Wings",
+    slug: "money-with-wings",
+    shortMeaning: "Money flying away representing spending or expenses.",
+    detailedMeaning: "The Money with Wings emoji shows dollar bills with wings flying away. It represents spending money, expenses, money leaving quickly, or the feeling of money disappearing.\n\nUsed for expressing spending, expenses, shopping, or when money seems to vanish quickly.",
+    usageContexts: ["Spending", "Expenses", "Shopping", "Bills", "Money gone"],
+    examples: [
+      { context: "Spending", text: "There goes my paycheck 💸" },
+      { context: "Shopping", text: "Shopping spree 💸" },
+      { context: "Bills", text: "Bills paid 💸" }
+    ],
+    misunderstandings: ["Represents money leaving, not gaining"],
+    relatedEmojis: ["money-bag", "dollar", "credit-card"],
+    categorySlug: "objects",
+    subgroup: "money",
+    keywords: ["money", "spending", "flying", "expensive", "bills"]
+  },
+  {
+    unicode: "📚",
+    name: "Books",
+    slug: "books",
+    shortMeaning: "A stack of books for reading and education.",
+    detailedMeaning: "The Books emoji shows a stack of colorful books. It represents reading, studying, education, knowledge, and literature.\n\nUsed for reading content, study sessions, education themes, or library/bookstore visits.",
+    usageContexts: ["Reading", "Studying", "Education", "Knowledge", "Library"],
+    examples: [
+      { context: "Study", text: "Study time 📚" },
+      { context: "Reading", text: "Book lover 📚" },
+      { context: "Education", text: "Back to school 📚" }
+    ],
+    misunderstandings: ["Clear education/reading meaning"],
+    relatedEmojis: ["book", "notebook", "graduation-cap"],
+    categorySlug: "objects",
+    subgroup: "book-paper",
+    keywords: ["books", "reading", "study", "education", "library"]
+  },
+  {
+    unicode: "✉️",
+    name: "Envelope",
+    slug: "envelope",
+    shortMeaning: "A mail envelope for letters and messages.",
+    detailedMeaning: "The Envelope emoji shows a classic paper envelope. It represents mail, letters, messages, correspondence, and communication.\n\nUsed for mail content, messages, email references, or indicating you're sending/receiving something.",
+    usageContexts: ["Mail", "Letter", "Message", "Email", "Correspondence"],
+    examples: [
+      { context: "Mail", text: "You've got mail ✉️" },
+      { context: "Message", text: "Message sent ✉️" },
+      { context: "Letter", text: "Writing letters ✉️" }
+    ],
+    misunderstandings: ["Clear mail/message meaning"],
+    relatedEmojis: ["incoming-envelope", "email", "postbox"],
+    categorySlug: "objects",
+    subgroup: "mail",
+    keywords: ["envelope", "mail", "letter", "message", "email"]
+  },
+  {
+    unicode: "🔔",
+    name: "Bell",
+    slug: "bell",
+    shortMeaning: "A ringing bell for notifications and alerts.",
+    detailedMeaning: "The Bell emoji shows a golden bell. It represents notifications, alerts, reminders, attention, and announcements. On social media, it often means 'turn on notifications.'\n\nUsed for notification reminders, alerts, announcements, or holiday/school bells.",
+    usageContexts: ["Notifications", "Alerts", "Reminders", "Announcements", "Attention"],
+    examples: [
+      { context: "Notification", text: "Hit the bell 🔔" },
+      { context: "Alert", text: "Important update 🔔" },
+      { context: "Reminder", text: "Don't forget 🔔" }
+    ],
+    misunderstandings: ["Strongly associated with YouTube notifications"],
+    relatedEmojis: ["mega", "loudspeaker", "notification"],
+    categorySlug: "objects",
+    subgroup: "sound",
+    keywords: ["bell", "notification", "alert", "ring", "reminder"]
   }
 ];
 
