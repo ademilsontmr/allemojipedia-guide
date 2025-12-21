@@ -4,6 +4,33 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 
+// Helper function to render inline markdown (bold, italic)
+const renderInlineMarkdown = (text: string) => {
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  
+  // Match **bold** patterns
+  const boldRegex = /\*\*(.+?)\*\*/g;
+  let match;
+  
+  while ((match = boldRegex.exec(text)) !== null) {
+    // Add text before the match
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    // Add the bold text
+    parts.push(<strong key={match.index} className="font-semibold text-foreground">{match[1]}</strong>);
+    lastIndex = match.index + match[0].length;
+  }
+  
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  
+  return parts.length > 0 ? parts : text;
+};
+
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = blogPosts.find((p) => p.slug === slug);
@@ -61,14 +88,14 @@ const BlogPost = () => {
             if (paragraph.startsWith("## ")) {
               return (
                 <h2 key={index} className="text-2xl font-bold mt-8 mb-4">
-                  {paragraph.replace("## ", "")}
+                  {renderInlineMarkdown(paragraph.replace("## ", ""))}
                 </h2>
               );
             }
             if (paragraph.startsWith("### ")) {
               return (
                 <h3 key={index} className="text-xl font-semibold mt-6 mb-3">
-                  {paragraph.replace("### ", "")}
+                  {renderInlineMarkdown(paragraph.replace("### ", ""))}
                 </h3>
               );
             }
@@ -78,7 +105,7 @@ const BlogPost = () => {
                 <ul key={index} className="list-disc pl-6 space-y-2 my-4">
                   {items.map((item, i) => (
                     <li key={i} className="text-muted-foreground">
-                      {item.replace("- ", "")}
+                      {renderInlineMarkdown(item.replace("- ", ""))}
                     </li>
                   ))}
                 </ul>
@@ -90,7 +117,7 @@ const BlogPost = () => {
                 <ol key={index} className="list-decimal pl-6 space-y-2 my-4">
                   {items.map((item, i) => (
                     <li key={i} className="text-muted-foreground">
-                      {item.replace(/^\d+\.\s*/, "")}
+                      {renderInlineMarkdown(item.replace(/^\d+\.\s*/, ""))}
                     </li>
                   ))}
                 </ol>
@@ -98,7 +125,7 @@ const BlogPost = () => {
             }
             return (
               <p key={index} className="text-muted-foreground leading-relaxed mb-4">
-                {paragraph}
+                {renderInlineMarkdown(paragraph)}
               </p>
             );
           })}
