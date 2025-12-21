@@ -1,5 +1,6 @@
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const Privacy = () => {
   return (
@@ -98,7 +99,7 @@ const Privacy = () => {
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">9. Contact Us</h2>
             <p className="text-muted-foreground">
-              If you have any questions about this privacy policy, please visit our <a href="/contact" className="text-primary hover:underline">Contact page</a>.
+              If you have any questions about this privacy policy, please visit our <Link to="/contact" className="text-primary hover:underline">Contact page</Link>.
             </p>
           </section>
         </div>
