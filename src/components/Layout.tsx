@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
-import { useState } from "react";
+import { useState, forwardRef } from "react";
 import { useNavigate } from "react-router-dom";
 export const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -32,7 +32,8 @@ export const Header = () => {
       </div>
     </header>;
 };
-export const Footer = () => <footer className="border-t border-border bg-muted/30 py-8 mt-12">
+export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>((props, ref) => (
+  <footer ref={ref} className="border-t border-border bg-muted/30 py-8 mt-12" {...props}>
     <div className="container-page">
       <div className="grid gap-8 md:grid-cols-4">
         <div>
@@ -61,7 +62,10 @@ export const Footer = () => <footer className="border-t border-border bg-muted/3
         </div>
       </div>
     </div>
-  </footer>;
+  </footer>
+));
+
+Footer.displayName = "Footer";
 export const Breadcrumbs = ({
   items
 }: {
