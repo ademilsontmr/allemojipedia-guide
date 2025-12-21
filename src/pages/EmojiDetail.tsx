@@ -15,29 +15,59 @@ const EmojiDetail = () => {
   const category = getCategoryBySlug(emoji.categorySlug);
   const relatedEmojis = emoji.relatedEmojis.map(s => getEmojiBySlug(s)).filter(Boolean).slice(0, 6);
   
-  // Get 3 random emojis from the same category for "You Might Also Like"
   const categoryEmojis = getEmojisByCategory(emoji.categorySlug)
     .filter(e => e.slug !== emoji.slug)
     .sort(() => Math.random() - 0.5)
     .slice(0, 3);
 
+  const primaryRelated = relatedEmojis[0];
+
+  const faqItems = [
+    { 
+      question: `What does ${emoji.unicode} mean in texting?`, 
+      answer: `In texting, ${emoji.unicode} typically means ${emoji.shortMeaning.toLowerCase()} People use it to ${emoji.usageContexts[0]?.toLowerCase() || 'express emotion'}.` 
+    },
+    { 
+      question: `Is ${emoji.unicode} friendly or sarcastic?`, 
+      answer: emoji.misunderstandings.length > 0 
+        ? `The ${emoji.name} emoji is generally friendly, though ${emoji.misunderstandings[0].toLowerCase()}` 
+        : `The ${emoji.name} emoji is typically used in a friendly, genuine way to express ${emoji.keywords[0] || 'positive feelings'}.`
+    },
+    { 
+      question: `Can ${emoji.unicode} be used at work?`, 
+      answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional') || ctx.toLowerCase().includes('work'))
+        ? `Yes, ${emoji.unicode} is generally appropriate for workplace communication when used in casual team chats or friendly emails.`
+        : `Use ${emoji.unicode} cautiously at work. It's best suited for casual team chats rather than formal emails or client communication.`
+    },
+    { 
+      question: `What emojis are similar to ${emoji.unicode}?`, 
+      answer: relatedEmojis.length > 0 
+        ? `Similar emojis include ${relatedEmojis.slice(0, 3).map(e => `${e?.unicode} ${e?.name}`).join(", ")}. Each has slightly different nuances.`
+        : `Check the Related Emojis section for alternatives that convey similar feelings.`
+    },
+    { 
+      question: primaryRelated ? `What's the difference between ${emoji.unicode} and ${primaryRelated.unicode}?` : `How do I copy the ${emoji.name} emoji?`,
+      answer: primaryRelated 
+        ? `While both express similar feelings, ${emoji.unicode} ${emoji.name} emphasizes ${emoji.keywords[0] || 'the emotion'}, whereas ${primaryRelated.unicode} ${primaryRelated.name} is more about ${primaryRelated.keywords?.[0] || 'a related feeling'}.`
+        : `Click on the ${emoji.unicode} emoji in the Copy & Paste section above to instantly copy it to your clipboard.`
+    }
+  ];
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": `What does ${emoji.unicode} mean?`, "acceptedAnswer": { "@type": "Answer", "text": emoji.shortMeaning } },
-      { "@type": "Question", "name": `When should I use ${emoji.unicode}?`, "acceptedAnswer": { "@type": "Answer", "text": emoji.usageContexts.join(", ") } },
-      { "@type": "Question", "name": `How do I copy the ${emoji.name} emoji?`, "acceptedAnswer": { "@type": "Answer", "text": `Click on the ${emoji.unicode} emoji above to copy it to your clipboard instantly.` } },
-      { "@type": "Question", "name": `What are similar emojis to ${emoji.unicode}?`, "acceptedAnswer": { "@type": "Answer", "text": emoji.relatedEmojis.length > 0 ? `Similar emojis include those in the related emojis section above.` : "Check the related emojis section for alternatives." } },
-      { "@type": "Question", "name": `Can I use ${emoji.unicode} on all platforms?`, "acceptedAnswer": { "@type": "Answer", "text": `Yes, the ${emoji.name} emoji is supported on all major platforms including iOS, Android, Windows, and Mac.` } }
-    ]
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+    }))
   };
 
   return (
     <Layout>
       <Helmet>
-        <title>{emoji.unicode} {emoji.name} Emoji Meaning | Allemojipedia</title>
-        <meta name="description" content={`${emoji.unicode} ${emoji.name} meaning: ${emoji.shortMeaning} Learn how to use this emoji and copy it.`} />
+        <title>{emoji.unicode} {emoji.name} — Meaning, Usage & Examples | Allemojipedia</title>
+        <meta name="description" content={`What does ${emoji.unicode} mean? ${emoji.shortMeaning} Learn how people use ${emoji.name} in texting, social media, and at work.`} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -50,33 +80,75 @@ const EmojiDetail = () => {
         ]} />
 
         <article className="max-w-3xl">
+          {/* H1 - Optimized for long-tail */}
           <header className="flex items-start gap-6 mb-6">
             <span className="emoji-text-4xl">{emoji.unicode}</span>
             <div>
-              <h1 className="text-3xl font-bold mb-2">{emoji.unicode} {emoji.name} Emoji Meaning</h1>
-              <p className="text-muted-foreground">{emoji.shortMeaning}</p>
+              <h1 className="text-3xl font-bold mb-2">{emoji.unicode} {emoji.name} — Meaning, Usage & Examples</h1>
             </div>
           </header>
 
+          {/* TL;DR - Featured Snippet Target */}
+          <section className="mb-8 p-4 rounded-xl bg-primary/5 border border-primary/20">
+            <h2 className="text-lg font-semibold mb-2">TL;DR</h2>
+            <p className="text-foreground">
+              {emoji.shortMeaning} People commonly use {emoji.unicode} {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
+            </p>
+          </section>
+
           <CopyEmojiCard unicode={emoji.unicode} name={emoji.name} />
 
+          {/* What does X mean? - Search intent heading */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">Quick Meaning</h2>
-            <p>{emoji.shortMeaning}</p>
+            <h2 className="text-xl font-semibold mb-3">What does {emoji.unicode} mean?</h2>
+            <p className="mb-3">{emoji.shortMeaning}</p>
+            {emoji.detailedMeaning.split('\n\n').map((p, i) => (
+              <p key={i} className="mb-3 text-muted-foreground">{p}</p>
+            ))}
           </section>
 
+          {/* Context-based long tail section */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">Detailed Meaning</h2>
-            {emoji.detailedMeaning.split('\n\n').map((p, i) => <p key={i} className="mb-3 text-muted-foreground">{p}</p>)}
+            <h2 className="text-xl font-semibold mb-4">{emoji.unicode} meaning in texting, social media, and at work</h2>
+            
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-medium mb-2">In texting</h3>
+                <p className="text-muted-foreground">
+                  When texting friends or family, {emoji.unicode} is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}. 
+                  It adds warmth and personality to your messages without being over the top.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-medium mb-2">On social media</h3>
+                <p className="text-muted-foreground">
+                  On platforms like Instagram, Twitter, and TikTok, {emoji.unicode} helps convey {emoji.keywords[0] || 'emotion'} in captions and comments. 
+                  It's widely recognized and adds emotional context to your posts.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-medium mb-2">In a work or professional setting</h3>
+                <p className="text-muted-foreground">
+                  {emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional'))
+                    ? `The ${emoji.name} emoji can work well in casual workplace communication like Slack or Teams messages with colleagues you know well.`
+                    : `Use ${emoji.unicode} sparingly at work. It's best for informal team chats rather than emails to clients or executives.`
+                  }
+                </p>
+              </div>
+            </div>
           </section>
 
+          {/* How people use it - reframed */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">How People Use It</h2>
+            <h2 className="text-xl font-semibold mb-3">How people actually use {emoji.unicode}</h2>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
               {emoji.usageContexts.map((ctx, i) => <li key={i}>{ctx}</li>)}
             </ul>
           </section>
 
+          {/* Examples */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-3">Examples</h2>
             <div className="space-y-3">
@@ -89,9 +161,10 @@ const EmojiDetail = () => {
             </div>
           </section>
 
+          {/* Variations */}
           {emoji.variations && emoji.variations.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-semibold mb-3">Variations (Skin Tone / Gender)</h2>
+              <h2 className="text-xl font-semibold mb-3">Variations</h2>
               <div className="flex flex-wrap gap-3">
                 {emoji.variations.map((v, i) => (
                   <div key={i} className="flex items-center gap-2 p-2 rounded-lg bg-muted/50">
@@ -103,13 +176,30 @@ const EmojiDetail = () => {
             </section>
           )}
 
+          {/* When NOT to use - Negative usage long tail */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">Common Misunderstandings</h2>
-            <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-              {emoji.misunderstandings.map((m, i) => <li key={i}>{m}</li>)}
+            <h2 className="text-xl font-semibold mb-3">When NOT to use {emoji.unicode}</h2>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+              <li>Avoid using {emoji.unicode} in formal emails or professional documents where emojis may seem unprofessional.</li>
+              <li>Skip it when delivering serious or sensitive news — the tone may come across as dismissive.</li>
+              {emoji.misunderstandings.map((m, i) => (
+                <li key={i}>Be careful: {m.toLowerCase()}</li>
+              ))}
+              <li>Consider your audience — older recipients or different cultures may interpret it differently.</li>
             </ul>
           </section>
 
+          {/* Common Misunderstandings */}
+          {emoji.misunderstandings.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold mb-3">Common Misunderstandings</h2>
+              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+                {emoji.misunderstandings.map((m, i) => <li key={i}>{m}</li>)}
+              </ul>
+            </section>
+          )}
+
+          {/* Related Emojis */}
           {relatedEmojis.length > 0 && (
             <section className="mb-8">
               <h2 className="text-xl font-semibold mb-3">Related Emojis</h2>
@@ -124,37 +214,46 @@ const EmojiDetail = () => {
             </section>
           )}
 
-
+          {/* FAQ - Optimized for search intent */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-3">FAQ</h2>
             <div className="space-y-4">
-              <div>
-                <h3 className="font-medium">What does {emoji.unicode} mean?</h3>
-                <p className="text-muted-foreground">{emoji.shortMeaning}</p>
-              </div>
-              <div>
-                <h3 className="font-medium">When should I use {emoji.unicode}?</h3>
-                <p className="text-muted-foreground">Use this emoji when: {emoji.usageContexts.join(", ")}.</p>
-              </div>
-              <div>
-                <h3 className="font-medium">How do I copy the {emoji.name} emoji?</h3>
-                <p className="text-muted-foreground">Simply click on the {emoji.unicode} emoji in the "Copy & Paste" section above. It will be instantly copied to your clipboard.</p>
-              </div>
-              <div>
-                <h3 className="font-medium">What are similar emojis to {emoji.unicode}?</h3>
-                <p className="text-muted-foreground">
-                  {relatedEmojis.length > 0 
-                    ? `Similar emojis include ${relatedEmojis.slice(0, 3).map(e => e?.unicode).join(", ")}. Check the Related Emojis section for more options.`
-                    : "Check the Related Emojis section above for similar alternatives."}
-                </p>
-              </div>
-              <div>
-                <h3 className="font-medium">Can I use {emoji.unicode} on all platforms?</h3>
-                <p className="text-muted-foreground">Yes! The {emoji.name} emoji is supported on all major platforms including iOS, Android, Windows, Mac, and web browsers.</p>
-              </div>
+              {faqItems.map((item, i) => (
+                <div key={i}>
+                  <h3 className="font-medium">{item.question}</h3>
+                  <p className="text-muted-foreground">{item.answer}</p>
+                </div>
+              ))}
             </div>
           </section>
 
+          {/* Internal Linking Suggestions */}
+          <section className="mb-8 p-4 rounded-xl bg-muted/30 border border-border">
+            <h2 className="text-lg font-semibold mb-3">Explore More</h2>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link to={`/category/${emoji.categorySlug}`} className="text-primary hover:underline">
+                  Browse all {category?.name || 'emojis in this category'} →
+                </Link>
+              </li>
+              {primaryRelated && (
+                <li>
+                  <Link to={`/emoji/${primaryRelated.slug}`} className="text-primary hover:underline">
+                    Compare: {emoji.unicode} vs {primaryRelated.unicode} {primaryRelated.name} →
+                  </Link>
+                </li>
+              )}
+              {relatedEmojis[1] && (
+                <li>
+                  <Link to={`/emoji/${relatedEmojis[1].slug}`} className="text-primary hover:underline">
+                    See also: {relatedEmojis[1].unicode} {relatedEmojis[1].name} →
+                  </Link>
+                </li>
+              )}
+            </ul>
+          </section>
+
+          {/* You Might Also Like */}
           {categoryEmojis.length > 0 && (
             <section className="mb-8">
               <h2 className="text-xl font-semibold mb-3">You Might Also Like</h2>
