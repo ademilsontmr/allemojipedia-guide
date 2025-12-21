@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Copy, Check, Smartphone } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
@@ -10,6 +10,11 @@ interface CopyEmojiCardProps {
 export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
   const [copied, setCopied] = useState(false);
   const [isPressed, setIsPressed] = useState(false);
+
+  // Reset copied state when emoji changes (navigation)
+  useEffect(() => {
+    setCopied(false);
+  }, [unicode]);
 
   const copyEmoji = (e?: React.MouseEvent) => {
     if (e) {
