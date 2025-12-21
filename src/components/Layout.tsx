@@ -28,6 +28,7 @@ export const Header = () => {
         <nav className="hidden md:flex items-center gap-6">
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Categories</Link>
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
+          <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
         </nav>
       </div>
     </header>;
@@ -53,6 +54,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/categories" className="hover:text-foreground">All Categories</Link></li>
             <li><Link to="/people" className="hover:text-foreground">People Hub</Link></li>
+            <li><Link to="/blog" className="hover:text-foreground">Blog</Link></li>
             <li><Link to="/sitemap" className="hover:text-foreground">Sitemap</Link></li>
             <li><Link to="/about" className="hover:text-foreground">About Us</Link></li>
             <li><Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>

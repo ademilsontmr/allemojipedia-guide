@@ -14,6 +14,8 @@ import Sitemap from "./pages/Sitemap";
 import Privacy from "./pages/Privacy";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +34,8 @@ const App = () => (
             <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
             <Route path="/people" element={<People />} />
             <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/sitemap" element={<Sitemap />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/contact" element={<Contact />} />
