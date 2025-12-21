@@ -11,6 +11,8 @@ import EmojiDetailWrapper from "./pages/EmojiDetailWrapper";
 import People from "./pages/People";
 import PeopleSubcategoryWrapper from "./pages/PeopleSubcategoryWrapper";
 import Sitemap from "./pages/Sitemap";
+import Privacy from "./pages/Privacy";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +32,8 @@ const App = () => (
             <Route path="/people" element={<People />} />
             <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
             <Route path="/sitemap" element={<Sitemap />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
