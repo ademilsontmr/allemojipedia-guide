@@ -54,6 +54,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
             <li><Link to="/categories" className="hover:text-foreground">All Categories</Link></li>
             <li><Link to="/people" className="hover:text-foreground">People Hub</Link></li>
             <li><Link to="/sitemap" className="hover:text-foreground">Sitemap</Link></li>
+            <li><Link to="/about" className="hover:text-foreground">About Us</Link></li>
             <li><Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>
             <li><Link to="/contact" className="hover:text-foreground">Contact</Link></li>
           </ul>

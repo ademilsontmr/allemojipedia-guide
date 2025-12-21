@@ -13,6 +13,7 @@ import PeopleSubcategoryWrapper from "./pages/PeopleSubcategoryWrapper";
 import Sitemap from "./pages/Sitemap";
 import Privacy from "./pages/Privacy";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/sitemap" element={<Sitemap />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
