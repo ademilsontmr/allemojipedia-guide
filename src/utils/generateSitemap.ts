@@ -1,5 +1,6 @@
 import { emojis } from '@/data/emojis';
 import { categories, peopleSubcategories } from '@/data/categories';
+import { blogPosts } from '@/data/blogPosts';
 
 const BASE_URL = 'https://allemojipedia.com';
 
@@ -15,6 +16,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   urls.push({ loc: `${BASE_URL}/`, priority: '1.0' });
   urls.push({ loc: `${BASE_URL}/categories`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/people`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/blog`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/sitemap`, priority: '0.5' });
 
   // Category pages
@@ -25,6 +27,11 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   // People subcategory pages
   peopleSubcategories.forEach(sub => {
     urls.push({ loc: `${BASE_URL}/people/${sub.slug}`, priority: '0.7' });
+  });
+
+  // Blog post pages (automatically includes all posts)
+  blogPosts.forEach(post => {
+    urls.push({ loc: `${BASE_URL}/blog/${post.slug}`, priority: '0.7' });
   });
 
   // All emoji pages
@@ -60,3 +67,4 @@ export const downloadSitemap = () => {
 };
 
 export const getEmojiCount = (): number => emojis.length;
+export const getBlogPostCount = (): number => blogPosts.length;
