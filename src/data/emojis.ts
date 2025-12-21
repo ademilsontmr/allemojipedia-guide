@@ -1,3 +1,7 @@
+import { flagEmojis } from './emojis/flags';
+import { symbolEmojis } from './emojis/symbols';
+import { activityEmojis } from './emojis/activities';
+
 export interface Emoji {
   unicode: string;
   name: string;
@@ -14,7 +18,7 @@ export interface Emoji {
   keywords: string[];
 }
 
-export const emojis: Emoji[] = [
+const baseEmojis: Emoji[] = [
   // SMILEYS & EMOTION
   {
     unicode: "😀",
@@ -21496,6 +21500,14 @@ export const emojis: Emoji[] = [
     subgroup: "drink",
     keywords: ["teapot", "tea", "British", "gossip", "brewing"]
   }
+];
+
+// Combine all emoji arrays
+export const emojis: Emoji[] = [
+  ...baseEmojis,
+  ...flagEmojis,
+  ...symbolEmojis,
+  ...activityEmojis
 ];
 
 export const getEmojiBySlug = (slug: string): Emoji | undefined => {
