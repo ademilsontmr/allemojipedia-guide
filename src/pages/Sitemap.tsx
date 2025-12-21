@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { emojis } from "@/data/emojis";
+import { blogPosts } from "@/data/blogPosts";
 import { Helmet } from "react-helmet-async";
-import { downloadSitemap, getEmojiCount } from "@/utils/generateSitemap";
+import { downloadSitemap, getEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 
@@ -21,7 +22,7 @@ const Sitemap = () => (
         <div>
           <h1 className="text-3xl font-bold">Sitemap</h1>
           <p className="text-muted-foreground mt-1">
-            {getEmojiCount()} emojis indexed
+            {getEmojiCount()} emojis and {getBlogPostCount()} articles indexed
           </p>
         </div>
         <Button onClick={downloadSitemap} variant="outline" className="gap-2">
@@ -36,6 +37,7 @@ const Sitemap = () => (
           <li><Link to="/" className="text-primary hover:underline">Home</Link></li>
           <li><Link to="/categories" className="text-primary hover:underline">Categories</Link></li>
           <li><Link to="/people" className="text-primary hover:underline">People Hub</Link></li>
+          <li><Link to="/blog" className="text-primary hover:underline">Blog</Link></li>
         </ul>
       </section>
 
@@ -59,6 +61,19 @@ const Sitemap = () => (
             <li key={sub.slug}>
               <Link to={`/people/${sub.slug}`} className="text-primary hover:underline">
                 {sub.icon} {sub.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold mb-4">Blog Articles</h2>
+        <ul className="space-y-2">
+          {blogPosts.map(post => (
+            <li key={post.slug}>
+              <Link to={`/blog/${post.slug}`} className="text-primary hover:underline">
+                {post.image} {post.title}
               </Link>
             </li>
           ))}
