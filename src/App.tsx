@@ -7,7 +7,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
-import EmojiDetail from "./pages/EmojiDetail";
+import EmojiDetailWrapper from "./pages/EmojiDetailWrapper";
 import People from "./pages/People";
 import PeopleSubcategory from "./pages/PeopleSubcategory";
 import Sitemap from "./pages/Sitemap";
@@ -26,7 +26,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/categories" element={<Categories />} />
             <Route path="/category/:slug" element={<Category />} />
-            <Route path="/emoji/:slug" element={<EmojiDetail />} />
+            <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
             <Route path="/people" element={<People />} />
             <Route path="/people/:slug" element={<PeopleSubcategory />} />
             <Route path="/sitemap" element={<Sitemap />} />
