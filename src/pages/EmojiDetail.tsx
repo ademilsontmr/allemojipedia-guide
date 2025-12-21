@@ -92,7 +92,7 @@ const EmojiDetail = () => {
           <section className="mb-8 p-4 rounded-xl bg-primary/5 border border-primary/20">
             <h2 className="text-lg font-semibold mb-2">TL;DR</h2>
             <p className="text-foreground">
-              {emoji.shortMeaning} People commonly use {emoji.unicode} {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
+              {emoji.shortMeaning} People commonly use <span className="emoji">{emoji.unicode}</span> {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
             </p>
           </section>
 
