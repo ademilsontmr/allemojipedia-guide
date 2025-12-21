@@ -66,8 +66,8 @@ const EmojiDetail = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{emoji.unicode} {emoji.name} — Meaning, Usage & Examples | Allemojipedia</title>
-        <meta name="description" content={`What does ${emoji.unicode} mean? ${emoji.shortMeaning} Learn how people use ${emoji.name} in texting, social media, and at work.`} />
+        <title>{emoji.unicode} {emoji.name} Emoji — Meaning & Copy | Allemojipedia</title>
+        <meta name="description" content={`${emoji.unicode} ${emoji.name} emoji meaning: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -76,21 +76,21 @@ const EmojiDetail = () => {
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
           { label: category?.name || "Category", href: `/category/${emoji.categorySlug}` },
-          { label: emoji.name }
+          { label: `${emoji.unicode} ${emoji.name}` }
         ]} />
 
         <article className="max-w-3xl">
-          {/* H1 - Optimized for long-tail */}
-          <header className="flex items-start gap-6 mb-6">
-            <span className="emoji-text-4xl">{emoji.unicode}</span>
-            <div>
-              <h1 className="text-3xl font-bold mb-2">{emoji.unicode} {emoji.name} — Meaning, Usage & Examples</h1>
-            </div>
+          {/* H1 - SEO optimized with Copy */}
+          <header className="mb-8">
+            <h1 className="text-3xl md:text-4xl font-bold mb-3">
+              <span className="emoji">{emoji.unicode}</span> {emoji.name} Emoji — Meaning & Copy
+            </h1>
+            <p className="text-lg text-muted-foreground">{emoji.shortMeaning}</p>
           </header>
 
-          {/* TL;DR - Featured Snippet Target */}
-          <section className="mb-8 p-4 rounded-xl bg-primary/5 border border-primary/20">
-            <h2 className="text-lg font-semibold mb-2">TL;DR</h2>
+          {/* Quick Summary - Featured Snippet Target */}
+          <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
+            <h2 className="text-lg font-semibold mb-2">Quick Summary</h2>
             <p className="text-foreground">
               {emoji.shortMeaning} People commonly use <span className="emoji">{emoji.unicode}</span> {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
             </p>
@@ -98,38 +98,38 @@ const EmojiDetail = () => {
 
           <CopyEmojiCard unicode={emoji.unicode} name={emoji.name} />
 
-          {/* What does X mean? - Search intent heading */}
+          {/* What does X mean? */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">What does {emoji.unicode} mean?</h2>
-            <p className="mb-3">{emoji.shortMeaning}</p>
+            <h2 className="text-2xl font-semibold mb-4">What Does <span className="emoji">{emoji.unicode}</span> {emoji.name} Mean?</h2>
+            <p className="mb-3 text-lg">{emoji.shortMeaning}</p>
             {emoji.detailedMeaning.split('\n\n').map((p, i) => (
-              <p key={i} className="mb-3 text-muted-foreground">{p}</p>
+              <p key={i} className="mb-3 text-muted-foreground leading-relaxed">{p}</p>
             ))}
           </section>
 
-          {/* Context-based long tail section */}
+          {/* Context-based meaning */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">{emoji.unicode} meaning in texting, social media, and at work</h2>
+            <h2 className="text-2xl font-semibold mb-4"><span className="emoji">{emoji.unicode}</span> Meaning in Texting, Social Media & Work</h2>
             
-            <div className="space-y-4">
-              <div>
-                <h3 className="font-medium mb-2">In texting</h3>
+            <div className="space-y-5">
+              <div className="p-4 rounded-lg bg-muted/30">
+                <h3 className="text-lg font-medium mb-2">📱 In Texting</h3>
                 <p className="text-muted-foreground">
-                  When texting friends or family, {emoji.unicode} is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}. 
+                  When texting friends or family, <span className="emoji">{emoji.unicode}</span> is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}. 
                   It adds warmth and personality to your messages without being over the top.
                 </p>
               </div>
               
-              <div>
-                <h3 className="font-medium mb-2">On social media</h3>
+              <div className="p-4 rounded-lg bg-muted/30">
+                <h3 className="text-lg font-medium mb-2">📲 On Social Media</h3>
                 <p className="text-muted-foreground">
-                  On platforms like Instagram, Twitter, and TikTok, {emoji.unicode} helps convey {emoji.keywords[0] || 'emotion'} in captions and comments. 
+                  On platforms like Instagram, Twitter, and TikTok, <span className="emoji">{emoji.unicode}</span> helps convey {emoji.keywords[0] || 'emotion'} in captions and comments. 
                   It's widely recognized and adds emotional context to your posts.
                 </p>
               </div>
               
-              <div>
-                <h3 className="font-medium mb-2">In a work or professional setting</h3>
+              <div className="p-4 rounded-lg bg-muted/30">
+                <h3 className="text-lg font-medium mb-2">💼 At Work</h3>
                 <p className="text-muted-foreground">
                   {emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional'))
                     ? `The ${emoji.name} emoji can work well in casual workplace communication like Slack or Teams messages with colleagues you know well.`
@@ -140,22 +140,22 @@ const EmojiDetail = () => {
             </div>
           </section>
 
-          {/* How people use it - reframed */}
+          {/* How to use */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">How people actually use {emoji.unicode}</h2>
-            <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+            <h2 className="text-2xl font-semibold mb-4">How to Use <span className="emoji">{emoji.unicode}</span> {emoji.name}</h2>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               {emoji.usageContexts.map((ctx, i) => <li key={i}>{ctx}</li>)}
             </ul>
           </section>
 
           {/* Examples */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">Examples</h2>
+            <h2 className="text-2xl font-semibold mb-4"><span className="emoji">{emoji.unicode}</span> {emoji.name} Examples</h2>
             <div className="space-y-3">
               {emoji.examples.map((ex, i) => (
-                <div key={i} className="p-3 rounded-lg bg-muted/50">
-                  <h3 className="text-sm font-medium text-muted-foreground mb-1">{ex.context}</h3>
-                  <p>"{ex.text}"</p>
+                <div key={i} className="p-4 rounded-lg bg-muted/50 border border-border/50">
+                  <h3 className="text-sm font-semibold text-primary mb-1">{ex.context}</h3>
+                  <p className="text-foreground">"{ex.text}"</p>
                 </div>
               ))}
             </div>
@@ -164,10 +164,10 @@ const EmojiDetail = () => {
           {/* Variations */}
           {emoji.variations && emoji.variations.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-semibold mb-3">Variations</h2>
+              <h2 className="text-2xl font-semibold mb-4"><span className="emoji">{emoji.unicode}</span> Variations & Skin Tones</h2>
               <div className="flex flex-wrap gap-3">
                 {emoji.variations.map((v, i) => (
-                  <div key={i} className="flex items-center gap-2 p-2 rounded-lg bg-muted/50">
+                  <div key={i} className="flex items-center gap-2 p-3 rounded-lg bg-muted/50 border border-border/50">
                     <span className="emoji text-2xl">{v.emoji}</span>
                     <span className="text-sm text-muted-foreground">{v.description}</span>
                   </div>
@@ -176,11 +176,11 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          {/* When NOT to use - Negative usage long tail */}
+          {/* When NOT to use */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">When NOT to use {emoji.unicode}</h2>
+            <h2 className="text-2xl font-semibold mb-4">When NOT to Use <span className="emoji">{emoji.unicode}</span></h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li>Avoid using {emoji.unicode} in formal emails or professional documents where emojis may seem unprofessional.</li>
+              <li>Avoid using <span className="emoji">{emoji.unicode}</span> in formal emails or professional documents where emojis may seem unprofessional.</li>
               <li>Skip it when delivering serious or sensitive news — the tone may come across as dismissive.</li>
               {emoji.misunderstandings.map((m, i) => (
                 <li key={i}>Be careful: {m.toLowerCase()}</li>
@@ -192,8 +192,8 @@ const EmojiDetail = () => {
           {/* Common Misunderstandings */}
           {emoji.misunderstandings.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-semibold mb-3">Common Misunderstandings</h2>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+              <h2 className="text-2xl font-semibold mb-4"><span className="emoji">{emoji.unicode}</span> Common Misunderstandings</h2>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
                 {emoji.misunderstandings.map((m, i) => <li key={i}>{m}</li>)}
               </ul>
             </section>
@@ -202,51 +202,51 @@ const EmojiDetail = () => {
           {/* Related Emojis */}
           {relatedEmojis.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-semibold mb-3">Related Emojis</h2>
+              <h2 className="text-2xl font-semibold mb-4">Related Emojis to <span className="emoji">{emoji.unicode}</span></h2>
               <div className="flex flex-wrap gap-3">
                 {relatedEmojis.map(e => e && (
-                  <Link key={e.slug} to={`/emoji/${e.slug}`} className="flex items-center gap-2 p-2 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                  <Link key={e.slug} to={`/emoji/${e.slug}`} className="flex items-center gap-2 p-3 rounded-lg bg-muted/50 border border-border/50 hover:border-primary/30 hover:bg-muted transition-all">
                     <span className="emoji text-2xl">{e.unicode}</span>
-                    <span className="text-sm">{e.name}</span>
+                    <span className="text-sm font-medium">{e.name}</span>
                   </Link>
                 ))}
               </div>
             </section>
           )}
 
-          {/* FAQ - Optimized for search intent */}
+          {/* FAQ */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-3">FAQ</h2>
+            <h2 className="text-2xl font-semibold mb-4"><span className="emoji">{emoji.unicode}</span> {emoji.name} FAQ</h2>
             <div className="space-y-4">
               {faqItems.map((item, i) => (
-                <div key={i}>
-                  <h3 className="font-medium">{item.question}</h3>
+                <div key={i} className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="font-semibold mb-2">{item.question}</h3>
                   <p className="text-muted-foreground">{item.answer}</p>
                 </div>
               ))}
             </div>
           </section>
 
-          {/* Internal Linking Suggestions */}
-          <section className="mb-8 p-4 rounded-xl bg-muted/30 border border-border">
-            <h2 className="text-lg font-semibold mb-3">Explore More</h2>
-            <ul className="space-y-2 text-sm">
+          {/* Explore More */}
+          <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
+            <h2 className="text-xl font-semibold mb-4">Explore More Emojis</h2>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link to={`/category/${emoji.categorySlug}`} className="text-primary hover:underline">
-                  Browse all {category?.name || 'emojis in this category'} →
+                <Link to={`/category/${emoji.categorySlug}`} className="text-primary hover:underline font-medium">
+                  → Browse all {category?.name || 'emojis in this category'}
                 </Link>
               </li>
               {primaryRelated && (
                 <li>
-                  <Link to={`/emoji/${primaryRelated.slug}`} className="text-primary hover:underline">
-                    Compare: {emoji.unicode} vs {primaryRelated.unicode} {primaryRelated.name} →
+                  <Link to={`/emoji/${primaryRelated.slug}`} className="text-primary hover:underline font-medium">
+                    → Compare: <span className="emoji">{emoji.unicode}</span> vs <span className="emoji">{primaryRelated.unicode}</span> {primaryRelated.name}
                   </Link>
                 </li>
               )}
               {relatedEmojis[1] && (
                 <li>
-                  <Link to={`/emoji/${relatedEmojis[1].slug}`} className="text-primary hover:underline">
-                    See also: {relatedEmojis[1].unicode} {relatedEmojis[1].name} →
+                  <Link to={`/emoji/${relatedEmojis[1].slug}`} className="text-primary hover:underline font-medium">
+                    → See also: <span className="emoji">{relatedEmojis[1].unicode}</span> {relatedEmojis[1].name}
                   </Link>
                 </li>
               )}
@@ -256,7 +256,7 @@ const EmojiDetail = () => {
           {/* You Might Also Like */}
           {categoryEmojis.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-semibold mb-3">You Might Also Like</h2>
+              <h2 className="text-2xl font-semibold mb-4">You Might Also Like</h2>
               <div className="grid grid-cols-3 gap-3">
                 {categoryEmojis.map(e => (
                   <Link 
@@ -264,7 +264,7 @@ const EmojiDetail = () => {
                     to={`/emoji/${e.slug}`} 
                     className="flex flex-col items-center gap-2 p-4 rounded-xl bg-gradient-to-br from-muted/50 to-muted border border-border/50 hover:border-primary/30 hover:shadow-lg hover:scale-105 transition-all duration-300 group"
                   >
-                    <span className="text-4xl group-hover:scale-110 transition-transform duration-300">{e.unicode}</span>
+                    <span className="emoji text-4xl group-hover:scale-110 transition-transform duration-300">{e.unicode}</span>
                     <span className="text-sm text-center text-muted-foreground group-hover:text-foreground transition-colors line-clamp-2">{e.name}</span>
                   </Link>
                 ))}
