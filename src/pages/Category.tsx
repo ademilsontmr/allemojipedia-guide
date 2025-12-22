@@ -18,6 +18,7 @@ const Category = () => {
       <Helmet>
         <title>{category.name} Emojis | Allemojipedia</title>
         <meta name="description" content={category.description} />
+        <meta name="keywords" content={`${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, ${category.name.toLowerCase()} emoticons, copy ${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} symbols`} />
         <link rel="canonical" href={`https://allemojipedia.com/category/${slug}`} />
       </Helmet>
 

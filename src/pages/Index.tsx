@@ -57,6 +57,7 @@ const Index = () => {
       <Helmet>
         <title>Allemojipedia — Emoji Meanings, Names & Copy</title>
         <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia." />
+        <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis, emoji symbols, emoticons" />
         <link rel="canonical" href="https://allemojipedia.com/" />
       </Helmet>
 
