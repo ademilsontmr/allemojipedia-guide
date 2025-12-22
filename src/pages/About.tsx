@@ -6,11 +6,13 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>About Us - All Emojipedia</title>
+        <title>About Us - Allemojipedia</title>
         <meta
           name="description"
-          content="Learn about All Emojipedia - your comprehensive emoji reference guide. Discover why we created this project and our mission to help everyone communicate better with emojis."
+          content="Learn about Allemojipedia - your comprehensive emoji reference guide. Discover why we created this project and our mission to help everyone communicate better with emojis."
         />
+        <meta name="keywords" content="about allemojipedia, emoji encyclopedia, emoji reference, emoji dictionary, emoji guide, about us" />
+        <link rel="canonical" href="https://allemojipedia.com/about" />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
