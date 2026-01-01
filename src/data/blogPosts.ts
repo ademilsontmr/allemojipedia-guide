@@ -7,6 +7,7 @@ export interface BlogPost {
   date: string;
   readTime: string;
   image: string;
+  keywords?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -9996,7 +9997,8 @@ The most important emojis to remember: ⚽🥅🏆🎉 plus your team's flag.
 Get ready for the biggest World Cup ever! 🇺🇸🇲🇽🇨🇦⚽`,
     date: "2026-01-01",
     readTime: "8 min read",
-    image: "⚽"
+    image: "⚽",
+    keywords: "world cup 2026 emojis, fifa world cup emojis, soccer emojis, football emojis, world cup usa mexico canada, soccer ball emoji, goal emoji, trophy emoji, world cup social media, soccer fan emojis, world cup celebration emojis, flag emojis world cup"
   },
   {
     id: "33",
@@ -10124,7 +10126,8 @@ The right emoji reaction can capture the emotion of a World Cup goal better than
 Bookmark this guide and get ready to react to every goal at World Cup 2026! ⚽🎉🏆`,
     date: "2026-01-02",
     readTime: "7 min read",
-    image: "🥅"
+    image: "🥅",
+    keywords: "world cup goal reactions, soccer goal emojis, football celebration emojis, world cup 2026 goals, penalty shootout emojis, last minute goal emoji, hat trick emoji, goalkeeper save emoji, VAR emoji reactions, world cup emotions"
   },
   {
     id: "34",
@@ -10244,7 +10247,8 @@ Follow the trends, support your team, and watch which country emojis rise to the
 Which flag emoji will you be using? 🏆⚽🌍`,
     date: "2026-01-03",
     readTime: "8 min read",
-    image: "🏆"
+    image: "🏆",
+    keywords: "world cup 2026 predictions, country flag emojis, brazil emoji, argentina emoji, france emoji, england emoji, world cup favorites, world cup dark horses, national team emojis, world cup social media trends, flag emoji world cup"
   },
   {
     id: "35",
@@ -10407,7 +10411,8 @@ Use this guide to represent your city, celebrate USA goals, and connect with fan
 🇺🇸⚽🏆 — See you at the World Cup!`,
     date: "2026-01-04",
     readTime: "9 min read",
-    image: "🇺🇸"
+    image: "🇺🇸",
+    keywords: "usa world cup 2026, american host cities world cup, metlife stadium world cup, sofi stadium world cup, usa soccer emojis, world cup new york, world cup los angeles, world cup dallas miami, us flag emoji soccer, american football emojis"
   },
   {
     id: "36",
@@ -10580,7 +10585,8 @@ Whether you're watching from the stands at Azteca or cheering from home, these e
 ¡Viva México! 🇲🇽⚽🏆🎺`,
     date: "2026-01-05",
     readTime: "9 min read",
-    image: "🇲🇽"
+    image: "🇲🇽",
+    keywords: "mexico world cup 2026, estadio azteca world cup, mexican soccer emojis, el tri emojis, mexico flag emoji, guadalajara monterrey world cup, mexican football culture, azteca stadium history, mexico host cities, mariachi soccer celebration"
   },
   {
     id: "37",
@@ -10789,6 +10795,7 @@ This is the moment Canadian soccer has waited for. Use these emojis to celebrate
 The maple leaf rises! 🇨🇦⚽🍁🏆`,
     date: "2026-01-06",
     readTime: "9 min read",
-    image: "🇨🇦"
+    image: "🇨🇦",
+    keywords: "canada world cup 2026, canadian soccer emojis, toronto vancouver world cup, canada flag emoji, maple leaf emoji soccer, bmo field bc place world cup, canadian football history, alphonso davies, canada first world cup host, canmnt emojis"
   }
 ];
