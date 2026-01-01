@@ -133,6 +133,13 @@ const EmojiDetail = () => {
         <meta name="description" content={`${emoji.unicode} ${emoji.name} emoji meaning: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji, ${emoji.name} emoji meaning`} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
+        <meta property="og:title" content={`${emoji.unicode} ${emoji.name} Emoji — Meaning & Copy`} />
+        <meta property="og:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://allemojipedia.com/emoji/${slug}`} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${emoji.unicode} ${emoji.name} Emoji — Meaning & Copy`} />
+        <meta name="twitter:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode}.`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
