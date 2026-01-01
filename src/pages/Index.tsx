@@ -117,10 +117,10 @@ const Index = () => {
         <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia with 3,700+ emojis." />
         <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis, emoji symbols, emoticons" />
         <link rel="canonical" href="https://allemojipedia.com/" />
-        <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="container-page">
         {query ? (

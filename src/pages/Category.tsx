@@ -62,14 +62,14 @@ const Category = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{category.name} Emojis — Copy & Paste All {emojis.length} | Allemojipedia</title>
+        <title>{`${category.name} Emojis — Copy & Paste All ${emojis.length} | Allemojipedia`}</title>
         <meta name="description" content={`${category.description} Copy and paste ${emojis.length} ${category.name.toLowerCase()} emojis instantly.`} />
         <meta name="keywords" content={`${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, ${category.name.toLowerCase()} emoticons, copy ${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} symbols`} />
         <link rel="canonical" href={`https://allemojipedia.com/category/${slug}`} />
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(collectionSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="container-page section-spacing">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Categories", href: "/categories" }, { label: category.name }]} />

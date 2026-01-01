@@ -129,15 +129,15 @@ const EmojiDetail = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{emoji.unicode} {emoji.name} Emoji — Meaning & Copy | Allemojipedia</title>
+        <title>{`${emoji.unicode} ${emoji.name} Emoji — Meaning & Copy | Allemojipedia`}</title>
         <meta name="description" content={`${emoji.unicode} ${emoji.name} emoji meaning: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji, ${emoji.name} emoji meaning`} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(webPageSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
       </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
 
       <div className="container-page section-spacing">
         <Breadcrumbs items={[
