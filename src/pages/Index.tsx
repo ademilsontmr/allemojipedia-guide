@@ -52,13 +52,74 @@ const Index = () => {
   const trending = getTrendingEmojis();
   const combos = getPopularCombos();
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Allemojipedia",
+    "alternateName": "All Emoji Pedia",
+    "url": "https://allemojipedia.com",
+    "description": "Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis, and learn how to use them.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://allemojipedia.com/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Allemojipedia",
+    "url": "https://allemojipedia.com",
+    "logo": "https://allemojipedia.com/favicon.ico",
+    "sameAs": []
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Allemojipedia?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Allemojipedia is a complete emoji encyclopedia where you can find emoji meanings, copy and paste emojis, and learn how to use them in texting, social media, and work." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I copy an emoji?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Simply click on any emoji on our site to copy it instantly to your clipboard. Then paste it anywhere - WhatsApp, Instagram, Twitter, Facebook, or any text field." }
+      },
+      {
+        "@type": "Question",
+        "name": "How many emojis are there?",
+        "acceptedAnswer": { "@type": "Answer", "text": "There are over 3,700 emojis in the Unicode Standard. Allemojipedia covers all of them with meanings, examples, and usage tips." }
+      },
+      {
+        "@type": "Question",
+        "name": "What does 😂 mean?",
+        "acceptedAnswer": { "@type": "Answer", "text": "😂 Face with Tears of Joy is one of the most popular emojis. It represents laughing so hard that tears are streaming down your face. It's used when something is extremely funny." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use emojis at work?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, but use them thoughtfully. Emojis like 👍 ✅ 🎉 are generally safe for workplace communication. Avoid using emojis in formal emails or with clients you don't know well." }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <Helmet>
         <title>Allemojipedia — Emoji Meanings, Names & Copy</title>
-        <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia." />
+        <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia with 3,700+ emojis." />
         <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis, emoji symbols, emoticons" />
         <link rel="canonical" href="https://allemojipedia.com/" />
+        <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       <div className="container-page">

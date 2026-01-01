@@ -63,6 +63,69 @@ const EmojiDetail = () => {
     }))
   };
 
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${emoji.unicode} ${emoji.name} Emoji — Meaning & Copy`,
+    "description": emoji.shortMeaning,
+    "url": `https://allemojipedia.com/emoji/${slug}`,
+    "inLanguage": "en-US",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Allemojipedia",
+      "url": "https://allemojipedia.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": emoji.name,
+      "description": emoji.shortMeaning
+    },
+    "mainEntity": {
+      "@type": "DefinedTerm",
+      "name": `${emoji.unicode} ${emoji.name}`,
+      "description": emoji.detailedMeaning.split('\n')[0],
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Unicode Emoji",
+        "url": "https://unicode.org/emoji/"
+      }
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com" },
+      { "@type": "ListItem", "position": 2, "name": category?.name || "Category", "item": `https://allemojipedia.com/category/${emoji.categorySlug}` },
+      { "@type": "ListItem", "position": 3, "name": `${emoji.unicode} ${emoji.name}` }
+    ]
+  };
+
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": `How to Copy and Use ${emoji.unicode} ${emoji.name} Emoji`,
+    "description": `Learn how to copy the ${emoji.name} emoji and use it in your messages, social media, and more.`,
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Click to Copy",
+        "text": `Click on the ${emoji.unicode} emoji above to copy it to your clipboard instantly.`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Paste Anywhere",
+        "text": "Paste the emoji in any app - WhatsApp, Instagram, Twitter, Facebook, or any text field."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Use in Context",
+        "text": `Use ${emoji.unicode} when ${emoji.usageContexts[0]?.toLowerCase() || 'expressing this emotion'}.`
+      }
+    ]
+  };
+
   return (
     <Layout>
       <Helmet>
@@ -71,6 +134,9 @@ const EmojiDetail = () => {
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji, ${emoji.name} emoji meaning`} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(webPageSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
       </Helmet>
 
       <div className="container-page section-spacing">

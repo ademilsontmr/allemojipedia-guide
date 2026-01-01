@@ -13,13 +13,62 @@ const Category = () => {
 
   if (!category) return <NotFound />;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com" },
+      { "@type": "ListItem", "position": 2, "name": "Categories", "item": "https://allemojipedia.com/categories" },
+      { "@type": "ListItem", "position": 3, "name": category.name }
+    ]
+  };
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${category.name} Emojis`,
+    "description": category.description,
+    "url": `https://allemojipedia.com/category/${slug}`,
+    "numberOfItems": emojis.length,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Allemojipedia",
+      "url": "https://allemojipedia.com"
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `How many ${category.name.toLowerCase()} emojis are there?`,
+        "acceptedAnswer": { "@type": "Answer", "text": `There are ${emojis.length} ${category.name.toLowerCase()} emojis available. This includes all variations and skin tones.` }
+      },
+      {
+        "@type": "Question",
+        "name": `How do I copy ${category.name.toLowerCase()} emojis?`,
+        "acceptedAnswer": { "@type": "Answer", "text": `Click on any emoji in the list below to copy it instantly. Then paste it anywhere - WhatsApp, Instagram, Twitter, or any text field.` }
+      },
+      {
+        "@type": "Question",
+        "name": `What are the most popular ${category.name.toLowerCase()} emojis?`,
+        "acceptedAnswer": { "@type": "Answer", "text": `The most popular ${category.name.toLowerCase()} emojis include ${emojis.slice(0, 5).map(e => e.unicode).join(' ')}. Click on any emoji to learn more about its meaning.` }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <Helmet>
-        <title>{category.name} Emojis | Allemojipedia</title>
-        <meta name="description" content={category.description} />
+        <title>{category.name} Emojis — Copy & Paste All {emojis.length} | Allemojipedia</title>
+        <meta name="description" content={`${category.description} Copy and paste ${emojis.length} ${category.name.toLowerCase()} emojis instantly.`} />
         <meta name="keywords" content={`${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, ${category.name.toLowerCase()} emoticons, copy ${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} symbols`} />
         <link rel="canonical" href={`https://allemojipedia.com/category/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(collectionSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       <div className="container-page section-spacing">
