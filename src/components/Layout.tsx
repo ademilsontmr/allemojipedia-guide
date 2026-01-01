@@ -38,7 +38,10 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
     <div className="container-page">
       <div className="grid gap-8 md:grid-cols-4">
         <div>
-          <h3 className="font-semibold mb-3">Allemojipedia</h3>
+          <h3 className="font-semibold mb-3 flex items-center gap-2">
+            <span className="emoji text-xl">📚</span>
+            Allemojipedia
+          </h3>
           <p className="text-sm text-muted-foreground">Your complete emoji encyclopedia with meanings, examples, and copy-paste functionality.</p>
         </div>
         <div>
