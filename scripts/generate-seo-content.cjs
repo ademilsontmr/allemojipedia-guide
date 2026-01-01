@@ -136,36 +136,12 @@ function generateSEOContent(emoji, name, categorySlug, subgroup) {
   
   const shortMeaning = shortMeanings[Math.floor(Math.random() * shortMeanings.length)];
 
-  // Generate detailed SEO-rich meaning
-  const detailedMeaning = `## What Does ${mainKeyword} ${emoji} Mean?
-
-The ${mainKeyword} emoji ${emoji} is a versatile symbol used across digital platforms to express ${subgroupCtx.mood} sentiments. ${category.intro} this expressive icon that has become essential in modern communication.
-
-### When to Use ${mainKeyword} ${emoji}
+  // Generate detailed SEO-rich meaning (plain text, no markdown)
+  const detailedMeaning = `The ${mainKeyword} emoji ${emoji} is a versatile symbol used across digital platforms to express ${subgroupCtx.mood} sentiments. ${category.intro} this expressive icon that has become essential in modern communication.
 
 ${category.usage}. This emoji is particularly effective for ${subgroupCtx.actions.join(', ')}.
 
-### ${mainKeyword} Emoji Meaning in Different Contexts
-
-The interpretation of ${emoji} can vary based on context:
-- **Social Media**: Popular on Instagram, Twitter, TikTok, and Facebook for ${subgroupCtx.actions[0]}
-- **Text Messages**: Commonly used in personal conversations to add emotional depth
-- **Professional Communication**: Use thoughtfully in casual workplace chats
-
-### Copy and Paste ${mainKeyword} ${emoji}
-
-Simply click to copy this emoji and paste it anywhere - works on iPhone, Android, Windows, Mac, and all major platforms.
-
-### FAQ About ${mainKeyword} Emoji
-
-**What does ${emoji} mean in texting?**
-In texting, ${emoji} typically conveys ${subgroupCtx.mood} emotions and is used for ${subgroupCtx.actions[0]}.
-
-**Is ${emoji} appropriate for professional use?**
-${emoji} can be used in casual professional settings but consider your audience and context.
-
-**What platforms support ${emoji}?**
-${emoji} is supported on iOS, Android, Windows, macOS, and all major social media platforms.`;
+The interpretation of ${emoji} can vary based on context. On social media platforms like Instagram, Twitter, TikTok, and Facebook, it's popular for ${subgroupCtx.actions[0]}. In text messages, it's commonly used in personal conversations to add emotional depth. For professional communication, use it thoughtfully in casual workplace chats.`;
 
   // Generate contextual examples
   const examples = [
