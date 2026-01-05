@@ -15,6 +15,7 @@ import Privacy from "./pages/Privacy";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import BlogPage from "./pages/BlogPage";
 import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/people" element={<People />} />
             <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/page/:page" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/sitemap" element={<Sitemap />} />
             <Route path="/privacy" element={<Privacy />} />

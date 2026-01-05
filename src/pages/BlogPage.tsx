@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, useParams, Navigate } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock } from "lucide-react";
@@ -7,27 +7,49 @@ import BlogPagination from "@/components/BlogPagination";
 
 const POSTS_PER_PAGE = 9;
 
-const Blog = () => {
+const BlogPage = () => {
+  const { page } = useParams<{ page: string }>();
+  const pageNumber = parseInt(page || "1", 10);
+  
   const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
-  const currentPosts = blogPosts.slice(0, POSTS_PER_PAGE);
+  
+  // Redirect invalid pages
+  if (isNaN(pageNumber) || pageNumber < 1) {
+    return <Navigate to="/blog" replace />;
+  }
+  
+  if (pageNumber > totalPages) {
+    return <Navigate to={`/blog/page/${totalPages.toString().padStart(2, "0")}`} replace />;
+  }
+  
+  // Page 1 should redirect to /blog
+  if (pageNumber === 1) {
+    return <Navigate to="/blog" replace />;
+  }
+  
+  const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  const currentPosts = blogPosts.slice(startIndex, endIndex);
+  
+  const formatPageNumber = (num: number) => num.toString().padStart(2, "0");
 
   return (
     <Layout>
       <Helmet>
-        <title>Emoji Blog - Tips, Guides & Insights | Allemojipedia</title>
+        <title>{`Emoji Blog - Page ${pageNumber} | Allemojipedia`}</title>
         <meta
           name="description"
-          content="Explore our emoji blog for tips, guides, and fascinating insights about emojis, their meanings, and how to use them effectively."
+          content={`Browse emoji articles, tips, and guides - Page ${pageNumber} of ${totalPages}`}
         />
-        <meta name="keywords" content="emoji blog, emoji tips, emoji guides, emoji insights, how to use emojis, emoji meanings blog, emoji articles" />
-        <link rel="canonical" href="https://allemojipedia.com/blog" />
+        <link rel="canonical" href={`https://allemojipedia.com/blog/page/${formatPageNumber(pageNumber)}`} />
       </Helmet>
 
       <div className="container-page py-8">
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Blog" },
+            { label: "Blog", href: "/blog" },
+            { label: `Page ${pageNumber}` },
           ]}
         />
 
@@ -74,17 +96,15 @@ const Blog = () => {
           ))}
         </div>
 
-        {totalPages > 1 && (
-          <BlogPagination
-            currentPage={1}
-            totalPages={totalPages}
-            totalPosts={blogPosts.length}
-            postsPerPage={POSTS_PER_PAGE}
-          />
-        )}
+        <BlogPagination
+          currentPage={pageNumber}
+          totalPages={totalPages}
+          totalPosts={blogPosts.length}
+          postsPerPage={POSTS_PER_PAGE}
+        />
       </div>
     </Layout>
   );
 };
 
-export default Blog;
+export default BlogPage;

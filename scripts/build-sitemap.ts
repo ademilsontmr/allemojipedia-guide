@@ -21,6 +21,14 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   urls.push({ loc: `${BASE_URL}/blog`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/sitemap`, priority: '0.5' });
 
+  // Blog pagination pages
+  const POSTS_PER_PAGE = 9;
+  const totalBlogPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
+  for (let i = 2; i <= totalBlogPages; i++) {
+    const pageNum = i.toString().padStart(2, '0');
+    urls.push({ loc: `${BASE_URL}/blog/page/${pageNum}`, priority: '0.7' });
+  }
+
   // Category pages
   categories.forEach(category => {
     urls.push({ loc: `${BASE_URL}/category/${category.slug}`, priority: '0.8' });
