@@ -8,7 +8,6 @@ import { Helmet } from "react-helmet-async";
 import { toast } from "sonner";
 import { Copy, Check } from "lucide-react";
 
-
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
   const [copied, setCopied] = useState(false);
 
@@ -17,13 +16,7 @@ const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => 
       await navigator.clipboard.writeText(emojis);
       setCopied(true);
       toast.success(`${emojis} copied!`, { duration: 2000 });
-      
-      // Haptic feedback on mobile
-      if (navigator.vibrate) {
-        navigator.vibrate(50);
-      }
-      
-      // Estado "Copied" é mantido enquanto o componente estiver montado (não persiste entre navegações)
+      if (navigator.vibrate) navigator.vibrate(50);
     } catch {
       toast.error("Failed to copy");
     }
@@ -61,10 +54,7 @@ const Index = () => {
     "description": "Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis, and learn how to use them.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://allemojipedia.com/?search={search_term_string}"
-      },
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://allemojipedia.com/?search={search_term_string}" },
       "query-input": "required name=search_term_string"
     }
   };
@@ -74,8 +64,7 @@ const Index = () => {
     "@type": "Organization",
     "name": "Allemojipedia",
     "url": "https://allemojipedia.com",
-    "logo": "https://allemojipedia.com/favicon.ico",
-    "sameAs": []
+    "logo": "https://allemojipedia.com/favicon.ico"
   };
 
   const faqSchema = {
@@ -96,16 +85,6 @@ const Index = () => {
         "@type": "Question",
         "name": "How many emojis are there?",
         "acceptedAnswer": { "@type": "Answer", "text": "There are over 3,700 emojis in the Unicode Standard. Allemojipedia covers all of them with meanings, examples, and usage tips." }
-      },
-      {
-        "@type": "Question",
-        "name": "What does 😂 mean?",
-        "acceptedAnswer": { "@type": "Answer", "text": "😂 Face with Tears of Joy is one of the most popular emojis. It represents laughing so hard that tears are streaming down your face. It's used when something is extremely funny." }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I use emojis at work?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes, but use them thoughtfully. Emojis like 👍 ✅ 🎉 are generally safe for workplace communication. Avoid using emojis in formal emails or with clients you don't know well." }
       }
     ]
   };
@@ -115,7 +94,7 @@ const Index = () => {
       <Helmet>
         <title>Allemojipedia — Emoji Meanings, Names & Copy</title>
         <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia with 3,700+ emojis." />
-        <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis, emoji symbols, emoticons" />
+        <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis" />
         <link rel="canonical" href="https://allemojipedia.com/" />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
@@ -137,13 +116,15 @@ const Index = () => {
           </section>
         ) : (
           <>
+            {/* H1 - Main Title */}
             <section className="section-spacing text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Allemojipedia — Emoji Meanings, Names & Copy</h1>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Your complete emoji encyclopedia. Find what emojis mean, learn how to use them, and copy with one click. Discover emoji meanings for every occasion.
+                Your complete emoji encyclopedia. Find what emojis mean, learn how to use them, and copy with one click.
               </p>
             </section>
 
+            {/* H2 - Emoji Categories */}
             <section className="section-spacing">
               <h2 className="text-2xl font-semibold mb-6">Emoji Categories</h2>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -163,6 +144,7 @@ const Index = () => {
               </div>
             </section>
 
+            {/* H2 - Trending Emojis */}
             <section className="section-spacing">
               <h2 className="text-2xl font-semibold mb-6">Trending Emoji Meanings</h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -170,12 +152,32 @@ const Index = () => {
               </div>
             </section>
 
+            {/* H2 - Popular Combos */}
             <section className="section-spacing">
               <h2 className="text-2xl font-semibold mb-6">Popular Emoji Combos</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {combos.map((combo, i) => (
                   <ComboCard key={i} emojis={combo.emojis} meaning={combo.meaning} />
                 ))}
+              </div>
+            </section>
+
+            {/* H2 - FAQ */}
+            <section className="section-spacing">
+              <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+              <div className="space-y-4 max-w-2xl">
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="font-semibold mb-2">What is Allemojipedia?</h3>
+                  <p className="text-muted-foreground">Allemojipedia is a complete emoji encyclopedia where you can find emoji meanings, copy and paste emojis, and learn how to use them in texting, social media, and work.</p>
+                </div>
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="font-semibold mb-2">How do I copy an emoji?</h3>
+                  <p className="text-muted-foreground">Simply click on any emoji on our site to copy it instantly to your clipboard. Then paste it anywhere - WhatsApp, Instagram, Twitter, Facebook, or any text field.</p>
+                </div>
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="font-semibold mb-2">How many emojis are there?</h3>
+                  <p className="text-muted-foreground">There are over 3,700 emojis in the Unicode Standard. Allemojipedia covers all of them with meanings, examples, and usage tips.</p>
+                </div>
               </div>
             </section>
           </>
