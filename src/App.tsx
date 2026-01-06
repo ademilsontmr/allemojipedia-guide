@@ -18,6 +18,11 @@ const EmojiDetailWrapper = lazy(() => import("./pages/EmojiDetailWrapper"));
 const People = lazy(() => import("./pages/People"));
 const PeopleSubcategoryWrapper = lazy(() => import("./pages/PeopleSubcategoryWrapper"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
+const About = lazy(() => import("./pages/About"));
+const Privacy = lazy(() => import("./pages/Privacy"));
+const Contact = lazy(() => import("./pages/Contact"));
 
 // Loading fallback
 const PageLoader = () => (
@@ -51,7 +56,12 @@ const App = () => (
               <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
               <Route path="/people" element={<People />} />
               <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:slug" element={<BlogPost />} />
               <Route path="/sitemap" element={<Sitemap />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
