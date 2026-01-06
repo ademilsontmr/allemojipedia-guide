@@ -164,8 +164,8 @@ const Index = () => {
 
             {/* H2 - FAQ */}
             <section className="section-spacing">
-              <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
-              <div className="space-y-4 max-w-2xl">
+              <h2 className="text-2xl font-semibold mb-6 text-center">Frequently Asked Questions</h2>
+              <div className="space-y-4 max-w-2xl mx-auto">
                 <div className="p-4 rounded-lg bg-muted/30">
                   <h3 className="font-semibold mb-2">What is Allemojipedia?</h3>
                   <p className="text-muted-foreground">Allemojipedia is a complete emoji encyclopedia where you can find emoji meanings, copy and paste emojis, and learn how to use them in texting, social media, and work.</p>
