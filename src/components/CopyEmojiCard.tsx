@@ -11,7 +11,6 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
   const [copied, setCopied] = useState(false);
   const [isPressed, setIsPressed] = useState(false);
 
-  // Reset copied state when emoji changes (navigation)
   useEffect(() => {
     setCopied(false);
   }, [unicode]);
@@ -25,7 +24,6 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
     navigator.clipboard.writeText(unicode);
     setCopied(true);
     
-    // Haptic feedback on mobile if available
     if (navigator.vibrate) {
       navigator.vibrate(50);
     }
@@ -34,11 +32,10 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
       title: "Copied! ✓", 
       description: `${unicode} ready to paste` 
     });
-    // Estado "Copied" é mantido enquanto o componente estiver montado (não persiste entre navegações)
   };
 
   return (
-    <div className="mb-8">
+    <div className="mb-8 min-h-[140px] sm:min-h-[100px]">
       <div 
         onClick={copyEmoji}
         onTouchStart={() => setIsPressed(true)}
@@ -56,20 +53,18 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
           ${isPressed && !copied ? 'scale-[0.98] border-primary/50' : ''}
         `}
       >
-        {/* Main content - stacked on mobile, side by side on desktop */}
         <div className="relative p-4 sm:p-6">
-          {/* Mobile: Centered vertical layout */}
+          {/* Mobile */}
           <div className="flex flex-col items-center text-center sm:hidden">
-            {/* Big emoji for easy tapping */}
             <div className={`
               relative p-5 mb-4 rounded-2xl bg-background shadow-md border-2 
-              transition-all duration-200
+              transition-all duration-200 w-[100px] h-[100px] flex items-center justify-center
               ${copied ? 'border-green-400 bg-green-50 dark:bg-green-950/20' : 'border-border'}
               ${isPressed && !copied ? 'scale-95 shadow-sm' : 'shadow-md'}
             `}>
-              <span className="emoji text-6xl block">{unicode}</span>
+              <span className="emoji text-6xl">{unicode}</span>
               {copied && (
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center animate-scale-in">
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
                   <Check className="w-5 h-5 text-white" />
                 </div>
               )}
@@ -81,12 +76,11 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
               Tap to copy
             </p>
 
-            {/* Full width button on mobile */}
             <button 
               onClick={copyEmoji}
               className={`
                 w-full flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-base
-                transition-all duration-200 shadow-sm
+                transition-all duration-200 shadow-sm h-[56px]
                 ${copied 
                   ? 'bg-green-500 text-white' 
                   : 'bg-primary text-primary-foreground active:bg-primary/80'
@@ -107,17 +101,17 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
             </button>
           </div>
 
-          {/* Desktop: Horizontal layout */}
+          {/* Desktop */}
           <div className="hidden sm:flex items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <div className={`
                 relative p-4 rounded-xl bg-background shadow-sm border border-border
-                transition-transform duration-200
+                transition-transform duration-200 w-[80px] h-[80px] flex items-center justify-center
                 ${isPressed && !copied ? 'scale-95' : 'scale-100'}
               `}>
-                <span className="emoji text-5xl block">{unicode}</span>
+                <span className="emoji text-5xl">{unicode}</span>
                 {copied && (
-                  <div className="absolute -top-2 -right-2 w-7 h-7 bg-green-500 rounded-full flex items-center justify-center animate-scale-in">
+                  <div className="absolute -top-2 -right-2 w-7 h-7 bg-green-500 rounded-full flex items-center justify-center">
                     <Check className="w-4 h-4 text-white" />
                   </div>
                 )}
@@ -132,7 +126,7 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
               onClick={copyEmoji}
               className={`
                 flex items-center gap-2 px-5 py-3 rounded-xl font-medium
-                transition-all duration-200 shadow-sm
+                transition-all duration-200 shadow-sm h-[48px]
                 ${copied 
                   ? 'bg-green-500 text-white' 
                   : 'bg-primary text-primary-foreground hover:bg-primary/90'
@@ -154,10 +148,9 @@ export const CopyEmojiCard = ({ unicode, name }: CopyEmojiCardProps) => {
           </div>
         </div>
 
-        {/* Success animation overlay */}
         {copied && (
           <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute inset-0 bg-green-500/5 animate-fade-in" />
+            <div className="absolute inset-0 bg-green-500/5" />
           </div>
         )}
       </div>

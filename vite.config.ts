@@ -85,16 +85,28 @@ export default defineConfig(({ mode }) => ({
   build: {
     rollupOptions: {
       output: {
-        // Garantir que os arquivos JS tenham a extensão correta
+        // Code splitting for better caching
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+          'vendor-ui': ['@radix-ui/react-tooltip', '@radix-ui/react-toast', 'lucide-react'],
+          'vendor-query': ['@tanstack/react-query'],
+        },
         entryFileNames: 'assets/[name]-[hash].js',
         chunkFileNames: 'assets/[name]-[hash].js',
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name?.endsWith('.js')) {
-            return 'assets/[name]-[hash][extname]';
-          }
-          return 'assets/[name]-[hash][extname]';
-        },
+        assetFileNames: 'assets/[name]-[hash][extname]',
       },
     },
+    // Minification
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+    // Target modern browsers
+    target: 'es2020',
+    // Chunk size warning
+    chunkSizeWarningLimit: 500,
   },
 }));

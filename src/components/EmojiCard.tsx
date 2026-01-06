@@ -13,11 +13,11 @@ export const EmojiCard = ({ emoji }: { emoji: Emoji }) => {
   return (
     <Link
       to={`/emoji/${emoji.slug}`}
-      className="group flex items-center gap-3 p-3 rounded-lg bg-emoji-card hover:bg-emoji-card-hover transition-colors border border-transparent hover:border-border"
+      className="group flex items-center gap-3 p-3 rounded-lg bg-emoji-card hover:bg-emoji-card-hover transition-colors border border-transparent hover:border-border min-h-[72px]"
     >
       <button
         onClick={copyEmoji}
-        className="emoji text-3xl hover:scale-110 transition-transform cursor-copy"
+        className="emoji text-3xl hover:scale-110 transition-transform cursor-copy w-[40px] h-[40px] flex items-center justify-center flex-shrink-0"
         title="Click to copy"
       >
         {emoji.unicode}

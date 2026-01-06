@@ -2,36 +2,47 @@ import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useState, forwardRef } from "react";
 import { useNavigate } from "react-router-dom";
+
 export const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
+  
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       navigate(`/?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
-  return <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
+  
+  return (
+    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur h-16">
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2 font-bold text-xl">
-          <span className="emoji text-2xl">📚</span>
+          <span className="emoji text-2xl w-8 h-8 flex items-center justify-center">📚</span>
           <span className="hidden sm:inline">Allemojipedia</span>
         </Link>
         
         <form onSubmit={handleSearch} className="flex-1 max-w-md">
-          <div className="relative">
+          <div className="relative h-10">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <input type="search" placeholder="Search emojis..." value={searchQuery} onChange={e => setSearchQuery(e.target.value)} className="w-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring" />
+            <input 
+              type="search" 
+              placeholder="Search emojis..." 
+              value={searchQuery} 
+              onChange={e => setSearchQuery(e.target.value)} 
+              className="w-full h-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring" 
+            />
           </div>
         </form>
 
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6 h-10">
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Categories</Link>
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
           <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
         </nav>
       </div>
-    </header>;
+    </header>
+  );
 };
 export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>((props, ref) => (
   <footer ref={ref} className="border-t border-border bg-muted/30 py-8 mt-12" {...props}>
