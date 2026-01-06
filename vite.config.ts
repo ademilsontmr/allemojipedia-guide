@@ -96,14 +96,8 @@ export default defineConfig(({ mode }) => ({
         assetFileNames: 'assets/[name]-[hash][extname]',
       },
     },
-    // Minification
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
+    // Use esbuild (default) for minification
+    minify: 'esbuild',
     // Target modern browsers
     target: 'es2020',
     // Chunk size warning
