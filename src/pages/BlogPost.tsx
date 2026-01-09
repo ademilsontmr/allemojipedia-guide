@@ -10,24 +10,18 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
   let remaining = text;
   let keyIndex = 0;
 
-  // Process links and bold text
   while (remaining.length > 0) {
-    // Check for markdown link [text](/url)
     const linkMatch = remaining.match(/\[([^\]]+)\]\(([^)]+)\)/);
-    // Check for bold **text**
     const boldMatch = remaining.match(/\*\*(.+?)\*\*/);
 
-    // Find which comes first
     const linkIndex = linkMatch ? remaining.indexOf(linkMatch[0]) : -1;
     const boldIndex = boldMatch ? remaining.indexOf(boldMatch[0]) : -1;
 
     if (linkIndex === -1 && boldIndex === -1) {
-      // No more matches, add remaining text
       parts.push(remaining);
       break;
     }
 
-    // Determine which match comes first
     let firstMatchIndex = -1;
     let matchType: 'link' | 'bold' | null = null;
 
@@ -39,14 +33,12 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
       matchType = 'bold';
     }
 
-    // Add text before the match
     if (firstMatchIndex > 0) {
       parts.push(remaining.slice(0, firstMatchIndex));
     }
 
     if (matchType === 'link' && linkMatch) {
       const [fullMatch, linkText, linkUrl] = linkMatch;
-      // Check if it's an internal link
       if (linkUrl.startsWith('/')) {
         parts.push(
           <Link 
@@ -85,74 +77,83 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
   return parts.length > 0 ? parts : text;
 };
 
-// Check if line contains emoji pattern (emoji + description)
-const isEmojiLine = (line: string) => {
-  const emojiPattern = /^-?\s*[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
-  return emojiPattern.test(line.trim());
+// Parse emoji combination line: "👉👈 (Pointing fingers together) Meaning: Shy... Example: ..."
+const parseEmojiMeaningLine = (line: string) => {
+  // Pattern: emoji (name) Meaning: meaning Example: "example"
+  const match = line.match(/^([\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{200D}\u{FE0F}\s]+)\s*(?:\(([^)]+)\))?\s*(?:Meaning:\s*)?([^"]*?)(?:\s*Example:\s*"([^"]+)")?$/u);
+  
+  if (match) {
+    return {
+      emoji: match[1]?.trim() || '',
+      name: match[2]?.trim() || '',
+      meaning: match[3]?.trim() || '',
+      example: match[4]?.trim() || ''
+    };
+  }
+  
+  // Simpler pattern: emoji Meaning: meaning Example: "example"
+  const simpleMatch = line.match(/^([\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{200D}\u{FE0F}\s✨]+)\s*Meaning:\s*([^"]*?)(?:\s*Example:\s*"([^"]+)")?$/u);
+  if (simpleMatch) {
+    return {
+      emoji: simpleMatch[1]?.trim() || '',
+      name: '',
+      meaning: simpleMatch[2]?.trim() || '',
+      example: simpleMatch[3]?.trim() || ''
+    };
+  }
+  
+  return null;
 };
 
-// Parse emoji content into structured data
-const parseEmojiContent = (lines: string[]) => {
-  return lines.map(line => {
-    const cleanLine = line.replace(/^-\s*/, '').trim();
-    const separators = [' = ', ' — ', ' - ', ': '];
-    for (const sep of separators) {
-      const idx = cleanLine.indexOf(sep);
-      if (idx > 0) {
-        return {
-          emoji: cleanLine.slice(0, idx).trim(),
-          description: cleanLine.slice(idx + sep.length).trim()
-        };
-      }
-    }
-    return { emoji: cleanLine, description: '' };
-  });
+// Check if paragraph contains emoji meaning patterns
+const hasEmojiMeaningPattern = (text: string) => {
+  return /[\u{1F300}-\u{1F9FF}].*Meaning:/u.test(text);
 };
 
-// Render emoji table
-const EmojiTable = ({ items }: { items: { emoji: string; description: string }[] }) => (
-  <div className="my-6 overflow-x-auto">
-    <table className="w-full border-collapse rounded-lg overflow-hidden">
-      <thead>
-        <tr className="bg-muted/50">
-          <th className="px-4 py-3 text-left text-sm font-semibold border-b border-border">Emoji</th>
-          <th className="px-4 py-3 text-left text-sm font-semibold border-b border-border">Meaning</th>
-        </tr>
-      </thead>
-      <tbody>
-        {items.map((item, i) => (
-          <tr key={i} className="hover:bg-muted/30 transition-colors">
-            <td className="px-4 py-3 text-2xl border-b border-border/50">{item.emoji}</td>
-            <td className="px-4 py-3 text-muted-foreground border-b border-border/50">{item.description}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+// Emoji Meaning Card Component
+const EmojiMeaningCard = ({ emoji, name, meaning, example }: { emoji: string; name?: string; meaning: string; example?: string }) => (
+  <div className="p-4 rounded-xl bg-gradient-to-br from-muted/50 to-muted border border-border hover:border-primary/30 transition-all">
+    <div className="flex items-start gap-4">
+      <span className="text-4xl flex-shrink-0">{emoji}</span>
+      <div className="flex-1 min-w-0">
+        {name && <p className="text-xs text-muted-foreground mb-1">{name}</p>}
+        <p className="text-foreground font-medium mb-2">{meaning}</p>
+        {example && (
+          <p className="text-sm text-muted-foreground italic bg-background/50 px-3 py-2 rounded-lg">
+            "{example}"
+          </p>
+        )}
+      </div>
+    </div>
   </div>
 );
 
-// Render emoji cards for combinations
-const EmojiCards = ({ items }: { items: { emoji: string; description: string }[] }) => (
-  <div className="my-6 grid gap-3 sm:grid-cols-2">
+// Emoji Grid for simple emoji lists
+const EmojiGrid = ({ items }: { items: { emoji: string; description: string }[] }) => (
+  <div className="my-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
     {items.map((item, i) => (
-      <div key={i} className="flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:border-primary/50 transition-colors">
-        <span className="text-3xl shrink-0">{item.emoji}</span>
+      <div key={i} className="flex items-center gap-3 p-3 rounded-lg border border-border bg-card hover:border-primary/30 transition-colors">
+        <span className="text-2xl">{item.emoji}</span>
         <span className="text-sm text-muted-foreground">{item.description}</span>
       </div>
     ))}
   </div>
 );
 
-// Render key facts as badges
-const KeyFactsBadges = ({ facts }: { facts: string[] }) => (
-  <div className="my-4 flex flex-wrap gap-2">
-    {facts.map((fact, i) => (
-      <span key={i} className="inline-flex items-center px-3 py-1.5 rounded-full text-sm bg-primary/10 text-primary border border-primary/20">
-        {fact.trim()}
-      </span>
-    ))}
-  </div>
-);
+// Callout/Highlight Box
+const CalloutBox = ({ children, type = 'info' }: { children: React.ReactNode; type?: 'info' | 'tip' | 'warning' }) => {
+  const styles = {
+    info: 'bg-blue-50 border-blue-200 dark:bg-blue-950/30 dark:border-blue-800',
+    tip: 'bg-green-50 border-green-200 dark:bg-green-950/30 dark:border-green-800',
+    warning: 'bg-amber-50 border-amber-200 dark:bg-amber-950/30 dark:border-amber-800'
+  };
+  
+  return (
+    <div className={`my-6 p-4 rounded-xl border-l-4 ${styles[type]}`}>
+      {children}
+    </div>
+  );
+};
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -162,10 +163,16 @@ const BlogPost = () => {
     return <Navigate to="/blog" replace />;
   }
 
-  // Get related posts
-  const relatedPosts = post.relatedPosts 
+  // Get related posts - mix of defined related and random others
+  const definedRelated = post.relatedPosts 
     ? blogPosts.filter(p => post.relatedPosts?.includes(p.slug))
-    : blogPosts.filter(p => p.id !== post.id).slice(0, 3);
+    : [];
+  
+  const otherPosts = blogPosts
+    .filter(p => p.id !== post.id && !post.relatedPosts?.includes(p.slug))
+    .sort(() => Math.random() - 0.5);
+  
+  const suggestedPosts = [...definedRelated, ...otherPosts].slice(0, 6);
 
   // Process content into blocks
   const renderContent = () => {
@@ -179,7 +186,7 @@ const BlogPost = () => {
       // Headers
       if (paragraph.startsWith("## ")) {
         result.push(
-          <h2 key={i} className="text-2xl font-bold mt-10 mb-4 pb-2 border-b border-border">
+          <h2 key={i} className="text-2xl font-bold mt-12 mb-6 pb-3 border-b border-border text-foreground">
             {renderInlineMarkdown(paragraph.replace("## ", ""))}
           </h2>
         );
@@ -189,7 +196,7 @@ const BlogPost = () => {
 
       if (paragraph.startsWith("### ")) {
         result.push(
-          <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-foreground">
+          <h3 key={i} className="text-xl font-semibold mt-8 mb-4 text-foreground">
             {renderInlineMarkdown(paragraph.replace("### ", ""))}
           </h3>
         );
@@ -197,39 +204,67 @@ const BlogPost = () => {
         continue;
       }
 
-      // Check for "Key facts:" pattern
-      if (paragraph.toLowerCase().includes("key facts:")) {
-        const factsMatch = paragraph.match(/key facts:?\s*[-–]?\s*(.*)/i);
-        if (factsMatch) {
-          const facts = factsMatch[1].split(/\s*[-–]\s*/).filter(Boolean);
-          result.push(<KeyFactsBadges key={i} facts={facts} />);
+      // Check for emoji meaning patterns (Gen Z style)
+      if (hasEmojiMeaningPattern(paragraph)) {
+        const lines = paragraph.split("\n").filter(Boolean);
+        const emojiItems: { emoji: string; name?: string; meaning: string; example?: string }[] = [];
+        
+        for (const line of lines) {
+          const parsed = parseEmojiMeaningLine(line.trim());
+          if (parsed && parsed.emoji) {
+            emojiItems.push(parsed);
+          }
+        }
+        
+        if (emojiItems.length > 0) {
+          result.push(
+            <div key={i} className="my-6 space-y-4">
+              {emojiItems.map((item, j) => (
+                <EmojiMeaningCard key={j} {...item} />
+              ))}
+            </div>
+          );
           i++;
           continue;
         }
       }
 
-      // Check for emoji combinations/lists
+      // Check for simple emoji lists (- emoji = meaning)
       if (paragraph.startsWith("- ")) {
         const lines = paragraph.split("\n").filter((line) => line.startsWith("- "));
         
-        if (lines.some(isEmojiLine)) {
-          const emojiData = parseEmojiContent(lines);
-          if (lines[0].includes(" + ") || lines[0].includes("=")) {
-            result.push(<EmojiCards key={i} items={emojiData} />);
-          } else {
-            result.push(<EmojiTable key={i} items={emojiData} />);
-          }
+        // Check if these are emoji definition lines
+        const emojiPattern = /^-\s*([\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]+)/u;
+        const hasEmojis = lines.some(line => emojiPattern.test(line));
+        
+        if (hasEmojis) {
+          const items = lines.map(line => {
+            const cleanLine = line.replace(/^-\s*/, '').trim();
+            const separators = [' = ', ' — ', ' - ', ': '];
+            for (const sep of separators) {
+              const idx = cleanLine.indexOf(sep);
+              if (idx > 0) {
+                return {
+                  emoji: cleanLine.slice(0, idx).trim(),
+                  description: cleanLine.slice(idx + sep.length).trim()
+                };
+              }
+            }
+            return { emoji: cleanLine, description: '' };
+          });
+          
+          result.push(<EmojiGrid key={i} items={items} />);
           i++;
           continue;
         }
 
-        // Regular list
+        // Regular list with better styling
         result.push(
-          <ul key={i} className="space-y-2 my-4 ml-4">
+          <ul key={i} className="my-6 space-y-3">
             {lines.map((item, j) => (
-              <li key={j} className="flex items-start gap-2 text-muted-foreground">
-                <span className="text-primary mt-1.5">•</span>
-                <span>{renderInlineMarkdown(item.replace("- ", ""))}</span>
+              <li key={j} className="flex items-start gap-3 text-muted-foreground">
+                <span className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                <span className="leading-relaxed">{renderInlineMarkdown(item.replace("- ", ""))}</span>
               </li>
             ))}
           </ul>
@@ -238,17 +273,17 @@ const BlogPost = () => {
         continue;
       }
 
-      // Numbered lists
+      // Numbered lists with better styling
       if (paragraph.startsWith("1. ")) {
         const items = paragraph.split("\n").filter((line) => /^\d+\./.test(line));
         result.push(
-          <ol key={i} className="space-y-3 my-4 ml-4">
+          <ol key={i} className="my-6 space-y-4">
             {items.map((item, j) => (
-              <li key={j} className="flex items-start gap-3 text-muted-foreground">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary text-sm font-medium flex items-center justify-center">
+              <li key={j} className="flex items-start gap-4 text-muted-foreground">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/10 text-primary font-semibold flex items-center justify-center text-sm">
                   {j + 1}
                 </span>
-                <span className="pt-0.5">{renderInlineMarkdown(item.replace(/^\d+\.\s*/, ""))}</span>
+                <span className="pt-1 leading-relaxed">{renderInlineMarkdown(item.replace(/^\d+\.\s*/, ""))}</span>
               </li>
             ))}
           </ol>
@@ -257,19 +292,22 @@ const BlogPost = () => {
         continue;
       }
 
-      // Check for inline emoji patterns
-      const emojiLinePattern = /^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}].*[=—-]/u;
-      if (emojiLinePattern.test(paragraph.trim())) {
-        const lines = paragraph.split("\n").filter(Boolean);
-        const emojiData = parseEmojiContent(lines);
-        result.push(<EmojiCards key={i} items={emojiData} />);
+      // Blockquote style for important notes
+      if (paragraph.startsWith(">")) {
+        result.push(
+          <CalloutBox key={i} type="tip">
+            <p className="text-muted-foreground leading-relaxed">
+              {renderInlineMarkdown(paragraph.replace(/^>\s*/, ""))}
+            </p>
+          </CalloutBox>
+        );
         i++;
         continue;
       }
 
-      // Regular paragraph
+      // Regular paragraph with better typography
       result.push(
-        <p key={i} className="text-muted-foreground leading-relaxed mb-4">
+        <p key={i} className="text-muted-foreground leading-relaxed mb-6 text-[17px]">
           {renderInlineMarkdown(paragraph)}
         </p>
       );
@@ -299,17 +337,18 @@ const BlogPost = () => {
 
         <Link
           to="/blog"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6"
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to Blog
         </Link>
 
-        <header className="mb-8">
-          <div className="text-6xl mb-4">{post.image}</div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.title}</h1>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <span className="flex items-center gap-1">
+        <header className="mb-10">
+          <div className="text-7xl mb-6">{post.image}</div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">{post.title}</h1>
+          <p className="text-lg text-muted-foreground mb-6 leading-relaxed">{post.excerpt}</p>
+          <div className="flex items-center gap-6 text-sm text-muted-foreground border-t border-b border-border py-4">
+            <span className="flex items-center gap-2">
               <Calendar className="h-4 w-4" />
               {new Date(post.date).toLocaleDateString("en-US", {
                 month: "long",
@@ -317,60 +356,33 @@ const BlogPost = () => {
                 year: "numeric",
               })}
             </span>
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
               {post.readTime}
             </span>
           </div>
         </header>
 
-        <div className="prose prose-lg dark:prose-invert max-w-none">
+        <div className="prose-custom">
           {renderContent()}
         </div>
 
-        {/* Related Articles */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <h2 className="text-2xl font-semibold mb-6">Related Articles</h2>
-          <div className="grid gap-4 md:grid-cols-3">
-            {relatedPosts.slice(0, 3).map((relatedPost) => (
+        {/* Continue Reading - Single unified section */}
+        <div className="mt-16 pt-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-8">Continue Reading</h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {suggestedPosts.map((suggestedPost) => (
               <Link
-                key={relatedPost.id}
-                to={`/blog/${relatedPost.slug}`}
-                className="block rounded-lg border border-border p-4 hover:border-primary/50 hover:shadow-md transition-all"
+                key={suggestedPost.id}
+                to={`/blog/${suggestedPost.slug}`}
+                className="group block rounded-xl border border-border p-5 hover:border-primary/50 hover:shadow-lg transition-all bg-card"
               >
-                <div className="flex flex-col gap-3">
-                  <span className="text-4xl">{relatedPost.image}</span>
-                  <div>
-                    <h3 className="font-medium line-clamp-2 mb-2">{relatedPost.title}</h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2">{relatedPost.excerpt}</p>
-                    <p className="text-xs text-muted-foreground mt-2">{relatedPost.readTime}</p>
-                  </div>
-                </div>
+                <span className="text-4xl block mb-4 group-hover:scale-110 transition-transform">{suggestedPost.image}</span>
+                <h3 className="font-semibold line-clamp-2 mb-2 group-hover:text-primary transition-colors">{suggestedPost.title}</h3>
+                <p className="text-sm text-muted-foreground line-clamp-2 mb-3">{suggestedPost.excerpt}</p>
+                <p className="text-xs text-muted-foreground">{suggestedPost.readTime}</p>
               </Link>
             ))}
-          </div>
-        </div>
-
-        {/* More Articles */}
-        <div className="mt-8 pt-8 border-t border-border">
-          <h2 className="text-xl font-semibold mb-4">More Articles</h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {blogPosts
-              .filter((p) => p.id !== post.id && !post.relatedPosts?.includes(p.slug))
-              .slice(0, 4)
-              .map((otherPost) => (
-                <Link
-                  key={otherPost.id}
-                  to={`/blog/${otherPost.slug}`}
-                  className="flex items-start gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors"
-                >
-                  <span className="text-2xl">{otherPost.image}</span>
-                  <div>
-                    <h4 className="font-medium text-sm line-clamp-2">{otherPost.title}</h4>
-                    <p className="text-xs text-muted-foreground mt-1">{otherPost.readTime}</p>
-                  </div>
-                </Link>
-              ))}
           </div>
         </div>
       </article>
