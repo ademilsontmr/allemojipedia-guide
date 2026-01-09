@@ -20,6 +20,7 @@ const PeopleSubcategoryWrapper = lazy(() => import("./pages/PeopleSubcategoryWra
 const Sitemap = lazy(() => import("./pages/Sitemap"));
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogPost = lazy(() => import("./pages/BlogPost"));
+const BlogPage = lazy(() => import("./pages/BlogPage"));
 const About = lazy(() => import("./pages/About"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -57,6 +58,7 @@ const App = () => (
               <Route path="/people" element={<People />} />
               <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/page/:page" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
               <Route path="/sitemap" element={<Sitemap />} />
               <Route path="/about" element={<About />} />
