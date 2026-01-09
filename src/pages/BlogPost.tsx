@@ -4,36 +4,89 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 
-// Helper function to render inline markdown (bold, italic)
-const renderInlineMarkdown = (text: string) => {
+// Helper function to render inline markdown (bold, italic, links)
+const renderInlineMarkdown = (text: string): React.ReactNode => {
   const parts: React.ReactNode[] = [];
-  let lastIndex = 0;
-  
-  // Match **bold** patterns
-  const boldRegex = /\*\*(.+?)\*\*/g;
-  let match;
-  
-  while ((match = boldRegex.exec(text)) !== null) {
-    // Add text before the match
-    if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
+  let remaining = text;
+  let keyIndex = 0;
+
+  // Process links and bold text
+  while (remaining.length > 0) {
+    // Check for markdown link [text](/url)
+    const linkMatch = remaining.match(/\[([^\]]+)\]\(([^)]+)\)/);
+    // Check for bold **text**
+    const boldMatch = remaining.match(/\*\*(.+?)\*\*/);
+
+    // Find which comes first
+    const linkIndex = linkMatch ? remaining.indexOf(linkMatch[0]) : -1;
+    const boldIndex = boldMatch ? remaining.indexOf(boldMatch[0]) : -1;
+
+    if (linkIndex === -1 && boldIndex === -1) {
+      // No more matches, add remaining text
+      parts.push(remaining);
+      break;
     }
-    // Add the bold text
-    parts.push(<strong key={match.index} className="font-semibold text-foreground">{match[1]}</strong>);
-    lastIndex = match.index + match[0].length;
+
+    // Determine which match comes first
+    let firstMatchIndex = -1;
+    let matchType: 'link' | 'bold' | null = null;
+
+    if (linkIndex !== -1 && (boldIndex === -1 || linkIndex < boldIndex)) {
+      firstMatchIndex = linkIndex;
+      matchType = 'link';
+    } else if (boldIndex !== -1) {
+      firstMatchIndex = boldIndex;
+      matchType = 'bold';
+    }
+
+    // Add text before the match
+    if (firstMatchIndex > 0) {
+      parts.push(remaining.slice(0, firstMatchIndex));
+    }
+
+    if (matchType === 'link' && linkMatch) {
+      const [fullMatch, linkText, linkUrl] = linkMatch;
+      // Check if it's an internal link
+      if (linkUrl.startsWith('/')) {
+        parts.push(
+          <Link 
+            key={`link-${keyIndex++}`} 
+            to={linkUrl} 
+            className="text-primary hover:underline font-medium"
+          >
+            {linkText}
+          </Link>
+        );
+      } else {
+        parts.push(
+          <a 
+            key={`link-${keyIndex++}`} 
+            href={linkUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-primary hover:underline font-medium"
+          >
+            {linkText}
+          </a>
+        );
+      }
+      remaining = remaining.slice(firstMatchIndex + fullMatch.length);
+    } else if (matchType === 'bold' && boldMatch) {
+      const [fullMatch, boldText] = boldMatch;
+      parts.push(
+        <strong key={`bold-${keyIndex++}`} className="font-semibold text-foreground">
+          {boldText}
+        </strong>
+      );
+      remaining = remaining.slice(firstMatchIndex + fullMatch.length);
+    }
   }
-  
-  // Add remaining text
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-  
+
   return parts.length > 0 ? parts : text;
 };
 
 // Check if line contains emoji pattern (emoji + description)
 const isEmojiLine = (line: string) => {
-  // Match patterns like "🏠💻 = Working from home" or "- 🎉 Party popper"
   const emojiPattern = /^-?\s*[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
   return emojiPattern.test(line.trim());
 };
@@ -42,7 +95,6 @@ const isEmojiLine = (line: string) => {
 const parseEmojiContent = (lines: string[]) => {
   return lines.map(line => {
     const cleanLine = line.replace(/^-\s*/, '').trim();
-    // Split by common separators: =, —, -, :
     const separators = [' = ', ' — ', ' - ', ': '];
     for (const sep of separators) {
       const idx = cleanLine.indexOf(sep);
@@ -110,6 +162,11 @@ const BlogPost = () => {
     return <Navigate to="/blog" replace />;
   }
 
+  // Get related posts
+  const relatedPosts = post.relatedPosts 
+    ? blogPosts.filter(p => post.relatedPosts?.includes(p.slug))
+    : blogPosts.filter(p => p.id !== post.id).slice(0, 3);
+
   // Process content into blocks
   const renderContent = () => {
     const blocks = post.content.split("\n\n");
@@ -155,10 +212,8 @@ const BlogPost = () => {
       if (paragraph.startsWith("- ")) {
         const lines = paragraph.split("\n").filter((line) => line.startsWith("- "));
         
-        // Check if these are emoji lines
         if (lines.some(isEmojiLine)) {
           const emojiData = parseEmojiContent(lines);
-          // Use cards for combinations, table for definitions
           if (lines[0].includes(" + ") || lines[0].includes("=")) {
             result.push(<EmojiCards key={i} items={emojiData} />);
           } else {
@@ -202,7 +257,7 @@ const BlogPost = () => {
         continue;
       }
 
-      // Check for inline emoji patterns in paragraphs (like "🏠💻 = Working from home")
+      // Check for inline emoji patterns
       const emojiLinePattern = /^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}].*[=—-]/u;
       if (emojiLinePattern.test(paragraph.trim())) {
         const lines = paragraph.split("\n").filter(Boolean);
@@ -273,26 +328,46 @@ const BlogPost = () => {
           {renderContent()}
         </div>
 
+        {/* Related Articles */}
         <div className="mt-12 pt-8 border-t border-border">
-          <h3 className="text-xl font-semibold mb-4">More Articles</h3>
+          <h2 className="text-2xl font-semibold mb-6">Related Articles</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {relatedPosts.slice(0, 3).map((relatedPost) => (
+              <Link
+                key={relatedPost.id}
+                to={`/blog/${relatedPost.slug}`}
+                className="block rounded-lg border border-border p-4 hover:border-primary/50 hover:shadow-md transition-all"
+              >
+                <div className="flex flex-col gap-3">
+                  <span className="text-4xl">{relatedPost.image}</span>
+                  <div>
+                    <h3 className="font-medium line-clamp-2 mb-2">{relatedPost.title}</h3>
+                    <p className="text-sm text-muted-foreground line-clamp-2">{relatedPost.excerpt}</p>
+                    <p className="text-xs text-muted-foreground mt-2">{relatedPost.readTime}</p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* More Articles */}
+        <div className="mt-8 pt-8 border-t border-border">
+          <h2 className="text-xl font-semibold mb-4">More Articles</h2>
           <div className="grid gap-4 md:grid-cols-2">
             {blogPosts
-              .filter((p) => p.id !== post.id)
-              .slice(0, 2)
-              .map((relatedPost) => (
+              .filter((p) => p.id !== post.id && !post.relatedPosts?.includes(p.slug))
+              .slice(0, 4)
+              .map((otherPost) => (
                 <Link
-                  key={relatedPost.id}
-                  to={`/blog/${relatedPost.slug}`}
-                  className="block rounded-lg border border-border p-4 hover:border-primary/50 transition-colors"
+                  key={otherPost.id}
+                  to={`/blog/${otherPost.slug}`}
+                  className="flex items-start gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors"
                 >
-                  <div className="flex items-start gap-3">
-                    <span className="text-3xl">{relatedPost.image}</span>
-                    <div>
-                      <h4 className="font-medium line-clamp-2">{relatedPost.title}</h4>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        {relatedPost.readTime}
-                      </p>
-                    </div>
+                  <span className="text-2xl">{otherPost.image}</span>
+                  <div>
+                    <h4 className="font-medium text-sm line-clamp-2">{otherPost.title}</h4>
+                    <p className="text-xs text-muted-foreground mt-1">{otherPost.readTime}</p>
                   </div>
                 </Link>
               ))}
