@@ -1,6 +1,6 @@
-import { emojis } from '../data/emojis';
-import { categories, peopleSubcategories } from '../data/categories';
-import { blogPosts } from '../data/blogPosts';
+import { emojis } from '../src/data/emojis';
+import { categories, peopleSubcategories } from '../src/data/categories';
+import { blogPosts } from '../src/data/blogPosts';
 import * as fs from 'fs';
 import * as path from 'path';
 
