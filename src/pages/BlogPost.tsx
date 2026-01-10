@@ -41,9 +41,9 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
       const [fullMatch, linkText, linkUrl] = linkMatch;
       if (linkUrl.startsWith('/')) {
         parts.push(
-          <Link 
-            key={`link-${keyIndex++}`} 
-            to={linkUrl} 
+          <Link
+            key={`link-${keyIndex++}`}
+            to={linkUrl}
             className="text-primary hover:underline font-medium"
           >
             {linkText}
@@ -51,10 +51,10 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
         );
       } else {
         parts.push(
-          <a 
-            key={`link-${keyIndex++}`} 
-            href={linkUrl} 
-            target="_blank" 
+          <a
+            key={`link-${keyIndex++}`}
+            href={linkUrl}
+            target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline font-medium"
           >
@@ -78,11 +78,45 @@ const renderInlineMarkdown = (text: string): React.ReactNode => {
 };
 
 // Highlight box for tips/notes
-const HighlightBox = ({ children, icon = "💡" }: { children: React.ReactNode; icon?: string }) => (
-  <div className="my-8 p-5 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border border-amber-200 dark:border-amber-800">
-    <div className="flex gap-4">
-      <span className="text-2xl">{icon}</span>
-      <div className="flex-1">{children}</div>
+const HighlightBox = ({ children, icon = "💡", type = "default" }: { children: React.ReactNode; icon?: string; type?: "default" | "success" | "warning" | "error" }) => {
+  const bgColors = {
+    default: "from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-amber-200 dark:border-amber-800",
+    success: "from-emerald-50 to-teal-50 dark:from-emerald-950/30 dark:to-teal-950/30 border-emerald-200 dark:border-emerald-800",
+    warning: "from-amber-50 to-yellow-50 dark:from-amber-950/30 dark:to-yellow-950/30 border-amber-200 dark:border-amber-800",
+    error: "from-rose-50 to-red-50 dark:from-rose-950/30 dark:to-red-950/30 border-rose-200 dark:border-rose-800",
+  };
+
+  return (
+    <div className={`my-8 p-6 rounded-2xl bg-gradient-to-r border ${bgColors[type]}`}>
+      <div className="flex gap-4">
+        <span className="text-2xl flex-shrink-0">{icon}</span>
+        <div className="flex-1 space-y-3">{children}</div>
+      </div>
+    </div>
+  );
+};
+
+// Comparison component for Rude vs Polite
+const ComparisonBox = ({ rude, polite, why }: { rude: string; polite: string; why: string }) => (
+  <div className="my-10 overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
+    <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border">
+      <div className="p-6 bg-rose-50/50 dark:bg-rose-950/10">
+        <div className="flex items-center gap-2 mb-3 text-rose-600 dark:text-rose-400 font-bold uppercase text-xs tracking-wider">
+          <span>🚩</span> Rude / Blunt
+        </div>
+        <p className="text-lg font-medium text-foreground italic">"{rude}"</p>
+      </div>
+      <div className="p-6 bg-emerald-50/50 dark:bg-emerald-950/10">
+        <div className="flex items-center gap-2 mb-3 text-emerald-600 dark:text-emerald-400 font-bold uppercase text-xs tracking-wider">
+          <span>✅</span> Polite / Better
+        </div>
+        <p className="text-lg font-medium text-foreground italic">"{polite}"</p>
+      </div>
+    </div>
+    <div className="p-5 bg-muted/30 border-t border-border">
+      <p className="text-sm text-muted-foreground italic">
+        <span className="font-bold text-foreground not-italic mr-1">Why:</span> {why}
+      </p>
     </div>
   </div>
 );
@@ -96,14 +130,14 @@ const BlogPost = () => {
   }
 
   // Get suggested posts
-  const definedRelated = post.relatedPosts 
+  const definedRelated = post.relatedPosts
     ? blogPosts.filter(p => post.relatedPosts?.includes(p.slug))
     : [];
-  
+
   const otherPosts = blogPosts
     .filter(p => p.id !== post.id && !post.relatedPosts?.includes(p.slug))
     .sort(() => Math.random() - 0.5);
-  
+
   const suggestedPosts = [...definedRelated, ...otherPosts].slice(0, 6);
 
   // Process content into blocks
@@ -169,13 +203,32 @@ const BlogPost = () => {
         continue;
       }
 
+      // Comparison Box (Custom syntax: [COMPARE] Rude | Polite | Why)
+      if (paragraph.startsWith("[COMPARE]")) {
+        const parts = paragraph.replace("[COMPARE]", "").split("|").map(p => p.trim());
+        if (parts.length >= 3) {
+          result.push(
+            <ComparisonBox
+              key={i}
+              rude={parts[0]}
+              polite={parts[1]}
+              why={parts[2]}
+            />
+          );
+          continue;
+        }
+      }
+
       // Blockquotes
       if (paragraph.startsWith(">")) {
+        const lines = paragraph.split("\n").map(line => line.replace(/^>\s*/, ""));
         result.push(
           <HighlightBox key={i}>
-            <p className="text-muted-foreground leading-relaxed">
-              {renderInlineMarkdown(paragraph.replace(/^>\s*/, ""))}
-            </p>
+            {lines.map((line, idx) => (
+              <p key={idx} className="text-muted-foreground leading-relaxed">
+                {renderInlineMarkdown(line)}
+              </p>
+            ))}
           </HighlightBox>
         );
         continue;
@@ -242,15 +295,15 @@ const BlogPost = () => {
               </div>
             </div>
           </div>
-          
+
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight tracking-tight">
             {post.title}
           </h1>
-          
+
           <p className="text-xl text-muted-foreground leading-relaxed">
             {post.excerpt}
           </p>
-          
+
           <div className="mt-8 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         </header>
 
