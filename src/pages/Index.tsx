@@ -1,12 +1,13 @@
 import { useSearchParams, Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { categories } from "@/data/categories";
-import { getTrendingEmojis, getPopularCombos, searchEmojis } from "@/data/emojis";
 import { Helmet } from "react-helmet-async";
 import { toast } from "sonner";
 import { Copy, Check } from "lucide-react";
+
+import type { Emoji } from "@/data/emojis";
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
   const [copied, setCopied] = useState(false);
@@ -41,9 +42,32 @@ const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => 
 const Index = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("search") || "";
-  const searchResults = query ? searchEmojis(query) : [];
-  const trending = getTrendingEmojis();
-  const combos = getPopularCombos();
+  const [searchResults, setSearchResults] = useState<Emoji[]>([]);
+  const [trending, setTrending] = useState<Emoji[]>([]);
+  const [combos, setCombos] = useState<{ emojis: string; meaning: string }[]>([]);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      const emojisModule = await import("@/data/emojis");
+      if (cancelled) return;
+
+      setTrending(emojisModule.getTrendingEmojis());
+      setCombos(emojisModule.getPopularCombos());
+      setSearchResults(query ? emojisModule.searchEmojis(query) : []);
+      setIsEmojiDataLoaded(true);
+    };
+
+    load().catch(() => {
+      if (!cancelled) setIsEmojiDataLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [query]);
 
   const websiteSchema = {
     "@context": "https://schema.org",
@@ -106,7 +130,9 @@ const Index = () => {
           <section className="section-spacing">
             <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: `Search: ${query}` }]} />
             <h1 className="text-3xl font-bold mb-6">Search Results for "{query}"</h1>
-            {searchResults.length > 0 ? (
+            {!isEmojiDataLoaded ? (
+              <p className="text-muted-foreground">Loading emojis…</p>
+            ) : searchResults.length > 0 ? (
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {searchResults.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
               </div>
@@ -147,19 +173,27 @@ const Index = () => {
             {/* H2 - Trending Emojis */}
             <section className="section-spacing">
               <h2 className="text-2xl font-semibold mb-6">Trending Emoji Meanings</h2>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {trending.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
-              </div>
+              {!isEmojiDataLoaded ? (
+                <p className="text-muted-foreground">Loading emojis…</p>
+              ) : (
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {trending.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
+                </div>
+              )}
             </section>
 
             {/* H2 - Popular Combos */}
             <section className="section-spacing">
               <h2 className="text-2xl font-semibold mb-6">Popular Emoji Combos</h2>
-              <div className="grid gap-4 sm:grid-cols-2">
-                {combos.map((combo, i) => (
-                  <ComboCard key={i} emojis={combo.emojis} meaning={combo.meaning} />
-                ))}
-              </div>
+              {!isEmojiDataLoaded ? (
+                <p className="text-muted-foreground">Loading combos…</p>
+              ) : (
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {combos.map((combo, i) => (
+                    <ComboCard key={i} emojis={combo.emojis} meaning={combo.meaning} />
+                  ))}
+                </div>
+              )}
             </section>
 
             {/* H2 - FAQ */}

@@ -1,24 +1,78 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { CopyEmojiCard } from "@/components/CopyEmojiCard";
-import { getEmojiBySlug, getEmojisByCategory } from "@/data/emojis";
 import { getCategoryBySlug } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
+import type { Emoji } from "@/data/emojis";
+
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
-  const emoji = getEmojiBySlug(slug || "");
+  const [emoji, setEmoji] = useState<Emoji | null>(null);
+  const [relatedEmojis, setRelatedEmojis] = useState<Emoji[]>([]);
+  const [categoryEmojis, setCategoryEmojis] = useState<Emoji[]>([]);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      const emojisModule = await import("@/data/emojis");
+      if (cancelled) return;
+
+      const found = emojisModule.getEmojiBySlug(slug || "") as Emoji | undefined;
+
+      if (!found) {
+        setEmoji(null);
+        setRelatedEmojis([]);
+        setCategoryEmojis([]);
+        setIsEmojiDataLoaded(true);
+        return;
+      }
+
+      const related = (found.relatedEmojis
+        .map((s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined)
+        .filter(Boolean) as Emoji[]).slice(0, 6);
+
+      const sameCategory = emojisModule
+        .getEmojisByCategory(found.categorySlug)
+        .filter((e: Emoji) => e.slug !== found.slug)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3);
+
+      setEmoji(found);
+      setRelatedEmojis(related);
+      setCategoryEmojis(sameCategory);
+      setIsEmojiDataLoaded(true);
+    };
+
+    setIsEmojiDataLoaded(false);
+    load().catch(() => {
+      if (!cancelled) setIsEmojiDataLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [slug]);
+
+  const category = useMemo(() => {
+    return emoji ? getCategoryBySlug(emoji.categorySlug) : null;
+  }, [emoji]);
+
+  if (!isEmojiDataLoaded) {
+    return (
+      <Layout>
+        <div className="container-page section-spacing">
+          <p className="text-muted-foreground">Loading emoji…</p>
+        </div>
+      </Layout>
+    );
+  }
 
   if (!emoji) return <NotFound />;
-
-  const category = getCategoryBySlug(emoji.categorySlug);
-  const relatedEmojis = emoji.relatedEmojis.map(s => getEmojiBySlug(s)).filter(Boolean).slice(0, 6);
-  
-  const categoryEmojis = getEmojisByCategory(emoji.categorySlug)
-    .filter(e => e.slug !== emoji.slug)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
 
   const primaryRelated = relatedEmojis[0];
 

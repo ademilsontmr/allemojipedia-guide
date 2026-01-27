@@ -1,15 +1,39 @@
 import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { getCategoryBySlug } from "@/data/categories";
-import { getEmojisByCategory } from "@/data/emojis";
 import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
+
+import type { Emoji } from "@/data/emojis";
 
 const Category = () => {
   const { slug } = useParams<{ slug: string }>();
   const category = getCategoryBySlug(slug || "");
-  const emojis = getEmojisByCategory(slug || "");
+  const [emojis, setEmojis] = useState<Emoji[]>([]);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      const emojisModule = await import("@/data/emojis");
+      if (cancelled) return;
+
+      setEmojis(emojisModule.getEmojisByCategory(slug || ""));
+      setIsEmojiDataLoaded(true);
+    };
+
+    setIsEmojiDataLoaded(false);
+    load().catch(() => {
+      if (!cancelled) setIsEmojiDataLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [slug]);
 
   if (!category) return <NotFound />;
 
@@ -82,7 +106,9 @@ const Category = () => {
         {/* H2 - All Emojis */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-6">All {category.name} Emojis ({emojis.length})</h2>
-          {emojis.length > 0 ? (
+          {!isEmojiDataLoaded ? (
+            <p className="text-muted-foreground">Loading emojis…</p>
+          ) : emojis.length > 0 ? (
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {emojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
             </div>

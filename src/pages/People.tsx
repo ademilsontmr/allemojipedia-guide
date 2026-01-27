@@ -1,12 +1,36 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
-import { getEmojisByCategory } from "@/data/emojis";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 
+import type { Emoji } from "@/data/emojis";
+
 const People = () => {
-  const peopleEmojis = getEmojisByCategory("people-and-body").slice(0, 12);
+  const [peopleEmojis, setPeopleEmojis] = useState<Emoji[]>([]);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      const emojisModule = await import("@/data/emojis");
+      if (cancelled) return;
+
+      setPeopleEmojis(emojisModule.getEmojisByCategory("people-and-body").slice(0, 12));
+      setIsEmojiDataLoaded(true);
+    };
+
+    setIsEmojiDataLoaded(false);
+    load().catch(() => {
+      if (!cancelled) setIsEmojiDataLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -67,9 +91,13 @@ const People = () => {
         {/* H2 - Popular People Emojis */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-6">Popular People Emojis</h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {peopleEmojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
-          </div>
+          {!isEmojiDataLoaded ? (
+            <p className="text-muted-foreground">Loading emojis…</p>
+          ) : (
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {peopleEmojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
+            </div>
+          )}
           <Link to="/category/people-and-body" className="inline-block mt-6 text-primary hover:underline">
             View all People & Body emojis →
           </Link>

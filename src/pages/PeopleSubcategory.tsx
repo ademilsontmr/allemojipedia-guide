@@ -1,19 +1,44 @@
 import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
-import { getEmojisByCategory } from "@/data/emojis";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
+import type { Emoji } from "@/data/emojis";
+
 const PeopleSubcategory = () => {
   const { slug } = useParams<{ slug: string }>();
   const subcategory = peopleSubcategories.find(s => s.slug === slug);
-  const allPeopleEmojis = getEmojisByCategory("people-and-body");
-  
-  const emojis = subcategory 
-    ? allPeopleEmojis.filter(e => subcategory.subgroups.includes(e.subgroup))
-    : [];
+  const [emojis, setEmojis] = useState<Emoji[]>([]);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      const emojisModule = await import("@/data/emojis");
+      if (cancelled) return;
+
+      const allPeopleEmojis = emojisModule.getEmojisByCategory("people-and-body");
+      const filtered = subcategory
+        ? allPeopleEmojis.filter(e => subcategory.subgroups.includes(e.subgroup))
+        : [];
+
+      setEmojis(filtered);
+      setIsEmojiDataLoaded(true);
+    };
+
+    setIsEmojiDataLoaded(false);
+    load().catch(() => {
+      if (!cancelled) setIsEmojiDataLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [slug, subcategory]);
 
   if (!subcategory) return <NotFound />;
 
@@ -74,9 +99,13 @@ const PeopleSubcategory = () => {
         {/* H2 - All Emojis */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-6">All {subcategory.name} Emojis ({emojis.length})</h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {emojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
-          </div>
+          {!isEmojiDataLoaded ? (
+            <p className="text-muted-foreground">Loading emojis…</p>
+          ) : (
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {emojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
+            </div>
+          )}
         </section>
 
         {/* H2 - FAQ */}
