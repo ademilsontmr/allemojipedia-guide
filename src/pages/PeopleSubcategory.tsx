@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
+import { getEmojiCache } from "@/data/emojisCache";
 
 const PeopleSubcategory = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -18,7 +19,7 @@ const PeopleSubcategory = () => {
     let cancelled = false;
 
     const load = async () => {
-      const emojisModule = await import("@/data/emojis");
+      const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
       const allPeopleEmojis = emojisModule.getEmojisByCategory("people-and-body");

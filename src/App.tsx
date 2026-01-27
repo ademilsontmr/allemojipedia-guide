@@ -1,4 +1,4 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -41,36 +41,52 @@ const queryClient = new QueryClient({
   },
 });
 
-const App = () => (
-  <HelmetProvider>
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <ScrollToTop />
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/categories" element={<Categories />} />
-              <Route path="/category/:slug" element={<CategoryWrapper />} />
-              <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
-              <Route path="/people" element={<People />} />
-              <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/page/:page" element={<BlogPage />} />
-              <Route path="/blog/:slug" element={<BlogPost />} />
-              <Route path="/sitemap" element={<Sitemap />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </BrowserRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
-  </HelmetProvider>
-);
+const App = () => {
+  useEffect(() => {
+    const schedule = (cb: () => void) => {
+      if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+        (window as unknown as { requestIdleCallback: (fn: () => void, opts?: { timeout: number }) => number }).requestIdleCallback(cb, { timeout: 3000 });
+      } else {
+        globalThis.setTimeout(cb, 1500);
+      }
+    };
+
+    schedule(() => {
+      import("@/data/emojis").catch(() => {});
+    });
+  }, []);
+
+  return (
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <ScrollToTop />
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/categories" element={<Categories />} />
+                <Route path="/category/:slug" element={<CategoryWrapper />} />
+                <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
+                <Route path="/people" element={<People />} />
+                <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/page/:page" element={<BlogPage />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
+                <Route path="/sitemap" element={<Sitemap />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/privacy" element={<Privacy />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Suspense>
+          </BrowserRouter>
+        </TooltipProvider>
+      </QueryClientProvider>
+    </HelmetProvider>
+  );
+};
 
 export default App;

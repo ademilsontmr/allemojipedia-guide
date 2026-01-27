@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 
 import type { Emoji } from "@/data/emojis";
+import { getEmojiCache } from "@/data/emojisCache";
 
 const Sitemap = () => {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
@@ -18,7 +19,7 @@ const Sitemap = () => {
     let cancelled = false;
 
     const load = async () => {
-      const emojisModule = await import("@/data/emojis");
+      const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
       setEmojis(emojisModule.emojis as Emoji[]);

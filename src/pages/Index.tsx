@@ -8,6 +8,7 @@ import { toast } from "sonner";
 import { Copy, Check } from "lucide-react";
 
 import type { Emoji } from "@/data/emojis";
+import { getEmojiCache } from "@/data/emojisCache";
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
   const [copied, setCopied] = useState(false);
@@ -51,7 +52,7 @@ const Index = () => {
     let cancelled = false;
 
     const load = async () => {
-      const emojisModule = await import("@/data/emojis");
+      const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
       setTrending(emojisModule.getTrendingEmojis());

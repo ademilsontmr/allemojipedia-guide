@@ -6,6 +6,7 @@ import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 
 import type { Emoji } from "@/data/emojis";
+import { getEmojiCache } from "@/data/emojisCache";
 
 const People = () => {
   const [peopleEmojis, setPeopleEmojis] = useState<Emoji[]>([]);
@@ -15,7 +16,7 @@ const People = () => {
     let cancelled = false;
 
     const load = async () => {
-      const emojisModule = await import("@/data/emojis");
+      const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
       setPeopleEmojis(emojisModule.getEmojisByCategory("people-and-body").slice(0, 12));

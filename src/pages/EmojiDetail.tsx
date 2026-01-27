@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
+import { getEmojiCache } from "@/data/emojisCache";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -19,7 +20,7 @@ const EmojiDetail = () => {
     let cancelled = false;
 
     const load = async () => {
-      const emojisModule = await import("@/data/emojis");
+      const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
       const found = emojisModule.getEmojiBySlug(slug || "") as Emoji | undefined;
@@ -36,11 +37,22 @@ const EmojiDetail = () => {
         .map((s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined)
         .filter(Boolean) as Emoji[]).slice(0, 6);
 
-      const sameCategory = emojisModule
+      const pool = emojisModule
         .getEmojisByCategory(found.categorySlug)
-        .filter((e: Emoji) => e.slug !== found.slug)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
+        .filter((e: Emoji) => e.slug !== found.slug);
+
+      const sameCategory = (() => {
+        if (pool.length <= 3) return pool;
+        const copy = pool.slice();
+        for (let i = copy.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const tmp = copy[i];
+          copy[i] = copy[j];
+          copy[j] = tmp;
+          if (copy.length - i >= 3) break;
+        }
+        return copy.slice(0, 3);
+      })();
 
       setEmoji(found);
       setRelatedEmojis(related);
