@@ -49,12 +49,9 @@ export const getEmojiCache = async (): Promise<EmojiCache> => {
     const bySlug = new Map<string, Emoji>();
     const byCategory = new Map<string, Emoji[]>();
 
-    const searchable = emojis.map((e) => {
-      const name = e.name.toLowerCase();
-      const shortMeaning = e.shortMeaning.toLowerCase();
-      const keywords = e.keywords.map((k) => k.toLowerCase());
-      return { e, name, shortMeaning, keywords };
-    });
+    let searchable:
+      | Array<{ e: Emoji; name: string; shortMeaning: string; keywords: string[] }>
+      | null = null;
 
     for (const e of emojis) {
       bySlug.set(e.slug, e);
@@ -72,6 +69,15 @@ export const getEmojiCache = async (): Promise<EmojiCache> => {
       if (!trimmed) return [];
 
       const lowerQuery = trimmed.toLowerCase();
+
+      if (!searchable) {
+        searchable = emojis.map((e) => {
+          const name = e.name.toLowerCase();
+          const shortMeaning = e.shortMeaning.toLowerCase();
+          const keywords = e.keywords.map((k) => k.toLowerCase());
+          return { e, name, shortMeaning, keywords };
+        });
+      }
 
       return searchable
         .filter(({ e, name, shortMeaning, keywords }) =>
