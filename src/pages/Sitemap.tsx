@@ -41,7 +41,7 @@ const Sitemap = () => {
       <Helmet>
         <title>Sitemap | Allemojipedia</title>
         <meta name="description" content="Complete sitemap of Allemojipedia - find all emoji pages, categories, and resources." />
-        <link rel="canonical" href="https://allemojipedia.com/sitemap" />
+        <link rel="canonical" href="https://allemojipedia.com/sitemap/" />
       </Helmet>
 
       <div className="container-page section-spacing">

@@ -9,7 +9,7 @@ const Contact = () => {
         <title>Contact Us - Allemojipedia</title>
         <meta name="description" content="Contact Allemojipedia for questions, feedback, or suggestions about our emoji encyclopedia." />
         <meta name="keywords" content="contact allemojipedia, emoji feedback, emoji suggestions, emoji support, contact us" />
-        <link rel="canonical" href="https://allemojipedia.com/contact" />
+        <link rel="canonical" href="https://allemojipedia.com/contact/" />
       </Helmet>
       
       <div className="container-page py-8">

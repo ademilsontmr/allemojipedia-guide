@@ -56,7 +56,7 @@ const People = () => {
         <title>People Emojis and Their Meanings | Allemojipedia</title>
         <meta name="description" content="Explore people emojis including gestures, emotions, professions, and family. Learn about skin tone variations and gender representations." />
         <meta name="keywords" content="people emojis, human emojis, gesture emojis, profession emojis, family emojis, skin tone emojis" />
-        <link rel="canonical" href="https://allemojipedia.com/people" />
+        <link rel="canonical" href="https://allemojipedia.com/people/" />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 

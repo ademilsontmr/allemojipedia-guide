@@ -251,7 +251,7 @@ const BlogPost = () => {
         <title>{post.title} | Allemojipedia Blog</title>
         <meta name="description" content={post.excerpt} />
         {post.keywords && <meta name="keywords" content={post.keywords} />}
-        <link rel="canonical" href={`https://allemojipedia.com/blog/${post.slug}`} />
+        <link rel="canonical" href={`https://allemojipedia.com/blog/${post.slug}/`} />
       </Helmet>
 
       <article className="container-page py-8 max-w-3xl mx-auto">

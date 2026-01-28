@@ -27,7 +27,7 @@ const Categories = () => {
         <title>Emoji Categories | Allemojipedia</title>
         <meta name="description" content="Browse all emoji categories including smileys, people, animals, food, travel, activities, objects, symbols, and flags. Find the perfect emoji." />
         <meta name="keywords" content="emoji categories, emoji groups, smileys emojis, people emojis, animals emojis, food emojis, travel emojis" />
-        <link rel="canonical" href="https://allemojipedia.com/categories" />
+        <link rel="canonical" href="https://allemojipedia.com/categories/" />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 

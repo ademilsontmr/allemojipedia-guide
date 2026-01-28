@@ -20,7 +20,7 @@ const Blog = () => {
           content="Explore our emoji blog for tips, guides, and fascinating insights about emojis, their meanings, and how to use them effectively."
         />
         <meta name="keywords" content="emoji blog, emoji tips, emoji guides, emoji insights, how to use emojis, emoji meanings blog, emoji articles" />
-        <link rel="canonical" href="https://allemojipedia.com/blog" />
+        <link rel="canonical" href="https://allemojipedia.com/blog/" />
       </Helmet>
 
       <div className="container-page py-8">

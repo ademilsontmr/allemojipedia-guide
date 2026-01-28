@@ -9,7 +9,7 @@ const Privacy = () => {
         <title>Privacy Policy - Allemojipedia</title>
         <meta name="description" content="Privacy Policy for Allemojipedia. Learn how we collect, use, and protect your personal information." />
         <meta name="keywords" content="privacy policy, allemojipedia privacy, data protection, cookie policy, personal information" />
-        <link rel="canonical" href="https://allemojipedia.com/privacy" />
+        <link rel="canonical" href="https://allemojipedia.com/privacy/" />
       </Helmet>
       
       <div className="container-page py-8">

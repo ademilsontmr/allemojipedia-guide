@@ -41,7 +41,7 @@ const BlogPage = () => {
           name="description"
           content={`Browse emoji articles, tips, and guides - Page ${pageNumber} of ${totalPages}`}
         />
-        <link rel="canonical" href={`https://allemojipedia.com/blog/page/${formatPageNumber(pageNumber)}`} />
+        <link rel="canonical" href={`https://allemojipedia.com/blog/page/${formatPageNumber(pageNumber)}/`} />
       </Helmet>
 
       <div className="container-page py-8">

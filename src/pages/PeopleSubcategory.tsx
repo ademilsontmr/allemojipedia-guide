@@ -76,7 +76,7 @@ const PeopleSubcategory = () => {
         <title>{subcategory.name} Emojis — Copy & Paste | Allemojipedia</title>
         <meta name="description" content={`${subcategory.description} Copy and paste ${emojis.length} ${subcategory.name.toLowerCase()} emojis instantly.`} />
         <meta name="keywords" content={`${subcategory.name.toLowerCase()} emojis, ${subcategory.name.toLowerCase()} emoji list, copy ${subcategory.name.toLowerCase()} emojis`} />
-        <link rel="canonical" href={`https://allemojipedia.com/people/${slug}`} />
+        <link rel="canonical" href={`https://allemojipedia.com/people/${slug}/`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
