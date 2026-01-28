@@ -46,7 +46,7 @@ const Blog = () => {
           {currentPosts.map((post) => (
             <Link
               key={post.id}
-              to={`/blog/${post.slug}`}
+              to={`/blog/${post.slug}/`}
               className="group block rounded-xl border border-border bg-card p-6 transition-all hover:shadow-lg hover:border-primary/50"
             >
               <div className="text-5xl mb-4">{post.image}</div>

@@ -47,7 +47,7 @@ const Categories = () => {
             {categories.map(cat => (
               <Link
                 key={cat.slug}
-                to={`/category/${cat.slug}`}
+                to={`/category/${cat.slug}/`}
                 className="group p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all"
               >
                 <span className="emoji text-5xl block mb-4">{cat.icon}</span>

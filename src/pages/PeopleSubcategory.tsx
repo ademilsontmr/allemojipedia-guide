@@ -47,8 +47,8 @@ const PeopleSubcategory = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com" },
-      { "@type": "ListItem", "position": 2, "name": "People Hub", "item": "https://allemojipedia.com/people" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com/" },
+      { "@type": "ListItem", "position": 2, "name": "People Hub", "item": "https://allemojipedia.com/people/" },
       { "@type": "ListItem", "position": 3, "name": subcategory.name }
     ]
   };
@@ -84,7 +84,7 @@ const PeopleSubcategory = () => {
       <div className="container-page section-spacing">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
-          { label: "People Hub", href: "/people" },
+          { label: "People Hub", href: "/people/" },
           { label: subcategory.name }
         ]} />
 

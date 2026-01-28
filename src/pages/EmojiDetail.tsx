@@ -124,9 +124,9 @@ const EmojiDetail = () => {
     "@type": "WebPage",
     "name": `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`,
     "description": emoji.shortMeaning,
-    "url": `https://allemojipedia.com/emoji/${slug}`,
+    "url": `https://allemojipedia.com/emoji/${slug}/`,
     "inLanguage": "en-US",
-    "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com" },
+    "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com/" },
     "about": { "@type": "Thing", "name": emoji.name, "description": emoji.shortMeaning },
     "mainEntity": {
       "@type": "DefinedTerm",
@@ -140,8 +140,8 @@ const EmojiDetail = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com" },
-      { "@type": "ListItem", "position": 2, "name": category?.name || "Category", "item": `https://allemojipedia.com/category/${emoji.categorySlug}` },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com/" },
+      { "@type": "ListItem", "position": 2, "name": category?.name || "Category", "item": `https://allemojipedia.com/category/${emoji.categorySlug}/` },
       { "@type": "ListItem", "position": 3, "name": `${emoji.unicode} ${emoji.name}` }
     ]
   };
@@ -168,7 +168,7 @@ const EmojiDetail = () => {
         <meta property="og:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
         <meta property="og:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://allemojipedia.com/emoji/${slug}`} />
+        <meta property="og:url" content={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
         <meta name="twitter:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode}.`} />
@@ -296,7 +296,7 @@ const EmojiDetail = () => {
               </p>
               <div className="flex flex-wrap gap-3">
                 {relatedEmojis.map(e => e && (
-                  <Link key={e.slug} to={`/emoji/${e.slug}`} className="flex items-center gap-2 p-3 rounded-lg bg-muted/50 border border-border/50 hover:border-primary/30 hover:bg-muted transition-all">
+                  <Link key={e.slug} to={`/emoji/${e.slug}/`} className="flex items-center gap-2 p-3 rounded-lg bg-muted/50 border border-border/50 hover:border-primary/30 hover:bg-muted transition-all">
                     <span className="emoji text-2xl">{e.unicode}</span>
                     <span className="text-sm font-medium">{e.name}</span>
                   </Link>
@@ -325,13 +325,13 @@ const EmojiDetail = () => {
             <h2 className="text-xl font-semibold mb-4">Explore More Emojis</h2>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to={`/category/${emoji.categorySlug}`} className="text-primary hover:underline font-medium">
+                <Link to={`/category/${emoji.categorySlug}/`} className="text-primary hover:underline font-medium">
                   → Browse all {category?.name || 'emojis in this category'}
                 </Link>
               </li>
               {primaryRelated && (
                 <li>
-                  <Link to={`/emoji/${primaryRelated.slug}`} className="text-primary hover:underline font-medium">
+                  <Link to={`/emoji/${primaryRelated.slug}/`} className="text-primary hover:underline font-medium">
                     → Compare: <span className="emoji">{emoji.unicode}</span> vs <span className="emoji">{primaryRelated.unicode}</span> {primaryRelated.name}
                   </Link>
                 </li>
@@ -347,7 +347,7 @@ const EmojiDetail = () => {
                 {categoryEmojis.map(e => (
                   <Link 
                     key={e.slug} 
-                    to={`/emoji/${e.slug}`} 
+                    to={`/emoji/${e.slug}/`} 
                     className="flex flex-col items-center gap-2 p-4 rounded-xl bg-gradient-to-br from-muted/50 to-muted border border-border/50 hover:border-primary/30 hover:shadow-lg hover:scale-105 transition-all duration-300 group"
                   >
                     <span className="emoji text-4xl group-hover:scale-110 transition-transform duration-300">{e.unicode}</span>

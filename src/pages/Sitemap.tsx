@@ -74,7 +74,7 @@ const Sitemap = () => {
         <ul className="space-y-2">
           {categories.map(cat => (
             <li key={cat.slug}>
-              <Link to={`/category/${cat.slug}`} className="text-primary hover:underline">
+              <Link to={`/category/${cat.slug}/`} className="text-primary hover:underline">
                 {cat.icon} {cat.name}
               </Link>
             </li>
@@ -100,7 +100,7 @@ const Sitemap = () => {
         <ul className="space-y-2">
           {blogPosts.map(post => (
             <li key={post.slug}>
-              <Link to={`/blog/${post.slug}`} className="text-primary hover:underline">
+              <Link to={`/blog/${post.slug}/`} className="text-primary hover:underline">
                 {post.image} {post.title}
               </Link>
             </li>
@@ -115,7 +115,7 @@ const Sitemap = () => {
         ) : (
           <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
             {[...emojis].sort((a, b) => a.name.localeCompare(b.name)).map(e => (
-              <Link key={e.slug} to={`/emoji/${e.slug}`} className="text-sm text-primary hover:underline py-1">
+              <Link key={e.slug} to={`/emoji/${e.slug}/`} className="text-sm text-primary hover:underline py-1">
                 {e.unicode} {e.name}
               </Link>
             ))}

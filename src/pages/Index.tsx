@@ -1,4 +1,4 @@
-import { useSearchParams, Link } from "react-router-dom";
+ceimport { useSearchParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
@@ -75,7 +75,7 @@ const Index = () => {
     "@type": "WebSite",
     "name": "Allemojipedia",
     "alternateName": "All Emoji Pedia",
-    "url": "https://allemojipedia.com",
+    "url": "https://allemojipedia.com/",
     "description": "Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis, and learn how to use them.",
     "potentialAction": {
       "@type": "SearchAction",
@@ -88,7 +88,7 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Allemojipedia",
-    "url": "https://allemojipedia.com",
+    "url": "https://allemojipedia.com/",
     "logo": "https://allemojipedia.com/favicon.ico"
   };
 
@@ -158,7 +158,7 @@ const Index = () => {
                 {categories.map(cat => (
                   <Link
                     key={cat.slug}
-                    to={`/category/${cat.slug}`}
+                    to={`/category/${cat.slug}/`}
                     className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 transition-all"
                   >
                     <span className="emoji text-4xl">{cat.icon}</span>

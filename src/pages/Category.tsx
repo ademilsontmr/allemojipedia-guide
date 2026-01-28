@@ -42,8 +42,8 @@ const Category = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com" },
-      { "@type": "ListItem", "position": 2, "name": "Categories", "item": "https://allemojipedia.com/categories" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Categories", "item": "https://allemojipedia.com/categories/" },
       { "@type": "ListItem", "position": 3, "name": category.name }
     ]
   };
@@ -53,9 +53,9 @@ const Category = () => {
     "@type": "CollectionPage",
     "name": `${category.name} Emojis`,
     "description": category.description,
-    "url": `https://allemojipedia.com/category/${slug}`,
+    "url": `https://allemojipedia.com/category/${slug}/`,
     "numberOfItems": emojis.length,
-    "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com" }
+    "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com/" }
   };
 
   const faqSchema = {

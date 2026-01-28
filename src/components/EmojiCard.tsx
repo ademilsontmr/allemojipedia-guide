@@ -12,7 +12,7 @@ export const EmojiCard = ({ emoji }: { emoji: Emoji }) => {
 
   return (
     <Link
-      to={`/emoji/${emoji.slug}`}
+      to={`/emoji/${emoji.slug}/`}
       className="group flex items-center gap-3 p-3 rounded-lg bg-emoji-card hover:bg-emoji-card-hover transition-colors border border-transparent hover:border-border min-h-[72px]"
     >
       <button

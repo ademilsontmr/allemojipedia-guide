@@ -78,7 +78,7 @@ const People = () => {
             {peopleSubcategories.map(sub => (
               <Link
                 key={sub.slug}
-                to={`/people/${sub.slug}`}
+                to={`/people/${sub.slug}/`}
                 className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-md transition-all text-center"
               >
                 <span className="emoji text-4xl block mb-3">{sub.icon}</span>
@@ -99,7 +99,7 @@ const People = () => {
               {peopleEmojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
             </div>
           )}
-          <Link to="/category/people-and-body" className="inline-block mt-6 text-primary hover:underline">
+          <Link to="/category/people-and-body/" className="inline-block mt-6 text-primary hover:underline">
             View all People & Body emojis →
           </Link>
         </section>

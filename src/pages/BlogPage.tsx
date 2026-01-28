@@ -19,12 +19,12 @@ const BlogPage = () => {
   }
   
   if (pageNumber > totalPages) {
-    return <Navigate to={`/blog/page/${totalPages.toString().padStart(2, "0")}`} replace />;
+    return <Navigate to={`/blog/page/${totalPages.toString().padStart(2, "0")}/`} replace />;
   }
   
   // Page 1 should redirect to /blog
   if (pageNumber === 1) {
-    return <Navigate to="/blog" replace />;
+    return <Navigate to="/blog/" replace />;
   }
   
   const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;
@@ -68,7 +68,7 @@ const BlogPage = () => {
           {currentPosts.map((post) => (
             <Link
               key={post.id}
-              to={`/blog/${post.slug}`}
+              to={`/blog/${post.slug}/`}
               className="group block rounded-xl border border-border bg-card p-6 transition-all hover:shadow-lg hover:border-primary/50"
             >
               <div className="text-5xl mb-4">{post.image}</div>

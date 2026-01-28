@@ -126,7 +126,7 @@ const BlogPost = () => {
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
-    return <Navigate to="/blog" replace />;
+    return <Navigate to="/blog/" replace />;
   }
 
   // Get suggested posts
@@ -264,7 +264,7 @@ const BlogPost = () => {
         />
 
         <Link
-          to="/blog"
+          to="/blog/"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
         >
           <ArrowLeft className="h-4 w-4" />
@@ -322,7 +322,7 @@ const BlogPost = () => {
             {suggestedPosts.map((suggestedPost) => (
               <Link
                 key={suggestedPost.id}
-                to={`/blog/${suggestedPost.slug}`}
+                to={`/blog/${suggestedPost.slug}/`}
                 className="group block rounded-2xl border border-border p-5 hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform duration-300">
