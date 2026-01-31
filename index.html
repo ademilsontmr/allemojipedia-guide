@@ -30,6 +30,48 @@
       .loading-skeleton{background:linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.5s infinite}
       @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
     </style>
+    
+    <!-- Structured Data - WebSite + Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Allemojipedia",
+      "alternateName": "All Emoji Pedia",
+      "url": "https://allemojipedia.com/",
+      "description": "Allemojipedia is a complete online encyclopedia of emojis, meanings, Unicode information, copy and paste emojis, and emoji usage guides.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Allemojipedia",
+        "url": "https://allemojipedia.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://allemojipedia.com/favicon.ico"
+        }
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://allemojipedia.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Allemojipedia",
+      "url": "https://allemojipedia.com/",
+      "sameAs": [],
+      "description": "An online emoji encyclopedia providing meanings, Unicode data, copy and paste emojis, and emoji usage explanations."
+    }
+    </script>
   </head>
 
   <body>
