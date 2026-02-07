@@ -53,7 +53,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
 
   // All emoji pages
   emojis.forEach(emoji => {
-    urls.push({ loc: `${BASE_URL}/emoji/${emoji.slug}`, priority: '0.6' });
+    urls.push({ loc: `${BASE_URL}/emoji/${emoji.slug}`, priority: '0.8' });
   });
 
   return urls;
