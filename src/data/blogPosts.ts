@@ -13188,5 +13188,1249 @@ Want to make sure you aren't being accidentally rude? Read [How to Tell If an Em
     readTime: "4 min read",
     image: "💬",
     keywords: "texting with emojis, flirting emojis, emoji etiquette, decoding text messages, emotional intelligence"
+  },
+  {
+    id: "world-cup-2026-emoji-guide",
+    title: "World Cup 2026 Emoji Guide: How to Celebrate Like a True Fan",
+    slug: "world-cup-2026-emoji-guide",
+    excerpt: "Get ready for FIFA World Cup 2026! ⚽🏆 Learn the best emojis to celebrate goals, support your team, and trash talk rivals. From ⚽ to 🇺🇸🇨🇦🇲🇽, master the ultimate fan emoji playbook for the biggest tournament in North America.",
+    content: `The FIFA World Cup 2026 is coming to North America, and it's going to be MASSIVE! 🌎 With matches across the USA 🇺🇸, Canada 🇨🇦, and Mexico 🇲🇽, this tournament will unite billions of fans worldwide. And what better way to celebrate than with the perfect emojis?
+
+## Essential World Cup Emojis ⚽
+
+### The Classics
+- **⚽ Soccer Ball**: The universal symbol. Use it for everything World Cup related.
+- **🏆 Trophy**: For celebrating victories or predicting winners.
+- **🥅 Goal Net**: Perfect for "GOOOAL!" moments.
+- **🎉 Party Popper**: When your team scores or wins.
+- **😭 Crying Face**: When your team loses (we've all been there).
+
+### Country Flags 🚩
+The 2026 World Cup will feature 48 teams! Here are the host nations:
+- **🇺🇸 USA**: Home advantage for the USMNT!
+- **🇨🇦 Canada**: The Great White North joins the party!
+- **🇲🇽 Mexico**: El Tri bringing the passion!
+
+Other favorites:
+- **🇧🇷 Brazil**: 5-time champions
+- **🇦🇷 Argentina**: Defending champions
+- **🇫🇷 France**: 2018 winners
+- **🇩🇪 Germany**: 4-time champions
+- **🇪🇸 Spain**: European powerhouse
+
+## How to Use Emojis During Matches 📱
+
+### Celebrating a Goal
+**Basic:** ⚽🎉
+**Intermediate:** GOOOOOAL! ⚽🔥🔥🔥
+**Expert:** 🚀⚽➡️🥅 WHAT A STRIKE! 🤯🔥
+
+### Supporting Your Team
+**Pre-Match:** Let's go! 🇺🇸⚽💪 #USA
+**During Match:** Come on boys! 🙏⚽🔥
+**Victory:** CHAMPIONS! 🏆🇺🇸🎉🎊
+
+### Friendly Trash Talk
+**Before the match:** 🇺🇸 > 🇲🇽 (use wisely!)
+**After winning:** GG! 🤝⚽ (be a good sport)
+**After losing:** 😭⚽ Next time! 💪
+
+## Group Chat Etiquette 💬
+
+### DO:
+- ✅ Use reactions to save time (👍, ❤️, 😂)
+- ✅ Celebrate with your team's flag
+- ✅ Share excitement with 🔥 and ⚡
+- ✅ Be respectful with rival fans
+
+### DON'T:
+- ❌ Spam 50 emojis in a row
+- ❌ Be toxic after winning
+- ❌ Use offensive emojis
+- ❌ Overuse 💀 (Gen Z: "I'm dead" / Others: confused)
+
+## Stadium Emojis 🏟️
+
+Watching live? Use these:
+- **🏟️ Stadium**: "I'm at the game!"
+- **📍 Location Pin**: Share where you're watching
+- **🍺 Beer**: Tailgate vibes
+- **🌭 Hot Dog**: Classic stadium food
+- **📸 Camera**: Capturing memories
+
+## Prediction Emojis 🔮
+
+Make your predictions fun:
+- **🔮 Crystal Ball**: "I predict..."
+- **🎯 Direct Hit**: "Calling it now!"
+- **🤔 Thinking Face**: "Tough call..."
+- **🔥 Fire**: "This team is HOT!"
+- **❄️ Snowflake**: "They're cold right now"
+
+## Watch Party Emojis 🎊
+
+Hosting or attending a watch party?
+- **🏠 House**: "Watch party at my place!"
+- **📺 TV**: "Game time!"
+- **🍕 Pizza**: Essential watch party food
+- **👥 People**: "Bring friends!"
+- **🎮 Video Game**: "FIFA tournament after?"
+
+## Meme-Worthy Moments 😂
+
+World Cup always delivers viral moments:
+- **🤯 Exploding Head**: Unbelievable plays
+- **😱 Screaming Face**: Shocking upsets
+- **🙈 See-No-Evil Monkey**: Embarrassing misses
+- **🤡 Clown Face**: Bad referee calls
+- **👻 Ghost**: When a team "disappears" in big games
+
+## Regional Emoji Combos 🌎
+
+### North American Vibes
+🇺🇸🇨🇦🇲🇽⚽🏆 - The host nations united!
+
+### South American Passion
+🇧🇷🇦🇷⚽🔥💃 - Samba and tango on the pitch!
+
+### European Excellence
+🇫🇷🇩🇪🇪🇸⚽👑 - The traditional powerhouses!
+
+## Emoji Reactions for Key Moments ⚡
+
+- **Penalty Kick:** 😬🙏⚽
+- **Red Card:** 🟥😱
+- **VAR Review:** 📹🤔⏳
+- **Injury Time Goal:** ⏰⚽🤯
+- **Penalty Shootout:** 😰🎯🙏
+
+## Creating Your Fan Profile 👤
+
+Update your status with:
+- **Pre-Tournament:** 🇺🇸⚽ World Cup 2026 Ready!
+- **During Tournament:** ⚽🏆 #USA #WorldCup2026
+- **After Victory:** 🏆🇺🇸 CHAMPIONS!
+
+## Conclusion 🏁
+
+The World Cup 2026 will be unforgettable, and emojis will help you express every emotion along the way. Whether you're celebrating in a packed stadium 🏟️ or watching from your couch 📺, these emojis will make your messages more fun and engaging.
+
+Ready to explore more? Check out our [Complete Emoji Dictionary](/) or learn [How to Use Emojis on WhatsApp Without Sounding Rude](/blog/how-to-use-emojis-on-whatsapp-without-sounding-rude)! ⚽🎉`,
+    date: "2026-02-10",
+    readTime: "8 min read",
+    image: "⚽",
+    keywords: "world cup 2026 emojis, fifa world cup emojis, soccer emojis, football emojis, world cup 2026 usa canada mexico, sports emojis, fan emojis, celebration emojis",
+    relatedPosts: ["world-cup-2026-host-cities-emojis", "soccer-emojis-meanings"]
   }
-];
+,
+  {
+    id: "world-cup-2026-host-cities-emojis",
+    title: "World Cup 2026 Host Cities: The Ultimate Emoji Travel Guide",
+    slug: "world-cup-2026-host-cities-emojis",
+    excerpt: "Explore all 16 World Cup 2026 host cities through emojis! 🏙️⚽ From New York 🗽 to Mexico City 🌮, discover the perfect emojis to represent each stadium city and plan your World Cup road trip.",
+    content: `The FIFA World Cup 2026 will be played across 16 incredible cities in three countries! 🌎 Whether you're planning to attend matches or just want to show support for specific venues, here's your emoji guide to every host city.
+
+## United States 🇺🇸 (11 Cities)
+
+### New York/New Jersey 🗽
+**Stadium:** MetLife Stadium
+**City Emojis:** 🗽🍎🚕🌃
+**Vibe:** The Big Apple! Iconic skyline, world-class food, and electric energy.
+**Perfect Post:** "Watching the World Cup in NYC! 🗽⚽🌃"
+
+### Los Angeles 🌴
+**Stadium:** SoFi Stadium
+**City Emojis:** 🌴☀️🎬🏖️
+**Vibe:** Hollywood glamour meets beach vibes.
+**Perfect Post:** "World Cup under the California sun! ☀️⚽🌴"
+
+### Dallas 🤠
+**Stadium:** AT&T Stadium
+**City Emojis:** 🤠🏈🌵🔥
+**Vibe:** Everything's bigger in Texas!
+**Perfect Post:** "Howdy from Dallas! 🤠⚽🔥"
+
+### San Francisco Bay Area 🌉
+**Stadium:** Levi's Stadium
+**City Emojis:** 🌉🚃💻🌁
+**Vibe:** Tech hub with stunning views.
+**Perfect Post:** "Golden Gate goals! 🌉⚽✨"
+
+### Miami 🏖️
+**Stadium:** Hard Rock Stadium
+**City Emojis:** 🏖️🌴☀️🎉
+**Vibe:** Tropical paradise with Latin flavor.
+**Perfect Post:** "Beach and soccer! 🏖️⚽🌴"
+
+### Atlanta 🍑
+**Stadium:** Mercedes-Benz Stadium
+**City Emojis:** 🍑🎵🏙️✈️
+**Vibe:** Southern hospitality meets modern city.
+**Perfect Post:** "ATL representing! 🍑⚽🔥"
+
+### Philadelphia 🔔
+**Stadium:** Lincoln Financial Field
+**City Emojis:** 🔔🥨🦅🏛️
+**Vibe:** Historic city with passionate sports fans.
+**Perfect Post:** "Liberty and soccer! 🔔⚽🇺🇸"
+
+### Seattle ☕
+**Stadium:** Lumen Field
+**City Emojis:** ☕🌲🌧️🎸
+**Vibe:** Coffee capital with stunning nature.
+**Perfect Post:** "Rainy day soccer! ☕⚽🌲"
+
+### Kansas City 🍖
+**Stadium:** Arrowhead Stadium
+**City Emojis:** 🍖🏈🎵🌾
+**Vibe:** BBQ capital and heartland pride.
+**Perfect Post:** "BBQ and World Cup! 🍖⚽🔥"
+
+### Boston 🦞
+**Stadium:** Gillette Stadium
+**City Emojis:** 🦞🏛️⚾🎓
+**Vibe:** Historic charm with championship pedigree.
+**Perfect Post:** "Wicked awesome soccer! 🦞⚽🏆"
+
+### Houston 🚀
+**Stadium:** NRG Stadium
+**City Emojis:** 🚀🤠🌮🏙️
+**Vibe:** Space City with diverse culture.
+**Perfect Post:** "Houston, we have goals! 🚀⚽🔥"
+
+## Canada 🇨🇦 (2 Cities)
+
+### Toronto 🍁
+**Stadium:** BMO Field
+**City Emojis:** 🍁🏙️🦌🏒
+**Vibe:** Multicultural metropolis, Canada's largest city.
+**Perfect Post:** "Eh! World Cup in Toronto! 🍁⚽🏙️"
+
+### Vancouver 🏔️
+**Stadium:** BC Place
+**City Emojis:** 🏔️🌲🌊🚴
+**Vibe:** Mountains meet ocean, stunning natural beauty.
+**Perfect Post:** "Beautiful BC soccer! 🏔️⚽🌲"
+
+## Mexico 🇲🇽 (3 Cities)
+
+### Mexico City 🌮
+**Stadium:** Estadio Azteca
+**City Emojis:** 🌮🏛️🌋🎉
+**Vibe:** Historic venue, hosted 1970 and 1986 finals!
+**Perfect Post:** "Legendary Azteca! 🌮⚽🏛️"
+
+### Guadalajara 🎺
+**Stadium:** Estadio Akron
+**City Emojis:** 🎺🌮🎉🏙️
+**Vibe:** Mariachi capital, tequila country.
+**Perfect Post:** "¡Viva México! 🎺⚽🇲🇽"
+
+### Monterrey 🏔️
+**Stadium:** Estadio BBVA
+**City Emojis:** 🏔️🌮🏙️🔥
+**Vibe:** Industrial powerhouse with mountain backdrop.
+**Perfect Post:** "Mountain soccer! 🏔️⚽🇲🇽"
+
+## Planning Your World Cup Road Trip 🗺️
+
+### Cross-Country Journey
+🇺🇸 Start: New York 🗽
+➡️ Philadelphia 🔔
+➡️ Atlanta 🍑
+➡️ Miami 🏖️
+➡️ Houston 🚀
+➡️ Dallas 🤠
+➡️ Kansas City 🍖
+➡️ Seattle ☕
+➡️ San Francisco 🌉
+➡️ Los Angeles 🌴
+
+### North American Tour
+🇨🇦 Vancouver 🏔️
+➡️ Seattle ☕
+➡️ San Francisco 🌉
+➡️ Los Angeles 🌴
+➡️ 🇲🇽 Guadalajara 🎺
+➡️ Mexico City 🌮
+➡️ Monterrey 🏔️
+
+## Stadium Atmosphere Emojis 🏟️
+
+### Loud Crowds
+- **Seattle:** ☕🔊⚽ (12th Man energy!)
+- **Mexico City:** 🌮📢⚽ (105,000 capacity!)
+- **Kansas City:** 🍖🔥⚽ (Arrowhead roar!)
+
+### Scenic Views
+- **Vancouver:** 🏔️🌊⚽
+- **San Francisco:** 🌉✨⚽
+- **Monterrey:** 🏔️🌅⚽
+
+### Party Atmosphere
+- **Miami:** 🏖️🎉⚽
+- **Los Angeles:** 🌴🎬⚽
+- **Guadalajara:** 🎺🎉⚽
+
+## Food & Culture Emojis by City 🍽️
+
+### Must-Try Foods
+- **New York:** 🍕🥯🌭
+- **Philadelphia:** 🥨🧀🥩 (Cheesesteak!)
+- **Kansas City:** 🍖🔥 (BBQ heaven)
+- **Boston:** 🦞🍺
+- **Los Angeles:** 🌮🍔🍣
+- **Mexico City:** 🌮🌯🫔
+- **Toronto:** 🍁🥓🍺
+
+## Weather Emojis by Season ☀️
+
+### June (Group Stage)
+- **Southern Cities:** ☀️🔥 (Hot!)
+- **Northern Cities:** ☀️🌤️ (Perfect!)
+- **Mexico:** ☀️🌧️ (Rainy season starts)
+
+### July (Knockout Rounds)
+- **All Cities:** ☀️🔥 (Peak summer!)
+- **Final (July 19):** 🏆⚽🎉
+
+## Transportation Emojis 🚗
+
+### Getting Around
+- **Flights:** ✈️🌎
+- **Road Trip:** 🚗🗺️
+- **Train:** 🚂🎫
+- **Subway:** 🚇🎟️
+- **Uber/Taxi:** 🚕📱
+
+## Accommodation Emojis 🏨
+
+- **Hotel:** 🏨💼
+- **Airbnb:** 🏠🔑
+- **Hostel:** 🛏️💰
+- **Camping:** ⛺🏕️ (For the adventurous!)
+
+## Conclusion 🌟
+
+The World Cup 2026 will showcase the best of North America! From the bright lights of New York 🗽 to the historic Azteca 🏛️, each city offers a unique experience. Use these emojis to share your journey and connect with fans worldwide!
+
+Planning your trip? Check out our [World Cup 2026 Emoji Guide](/blog/world-cup-2026-emoji-guide) or explore [Soccer Emoji Meanings](/blog/soccer-emojis-meanings)! ⚽🌎`,
+    date: "2026-02-12",
+    readTime: "10 min read",
+    image: "🏙️",
+    keywords: "world cup 2026 host cities, fifa 2026 venues, world cup travel guide, usa canada mexico world cup, stadium emojis, travel emojis, city emojis",
+    relatedPosts: ["world-cup-2026-emoji-guide", "travel-emojis-guide"]
+  }
+,
+  {
+    id: "soccer-emojis-meanings",
+    title: "Complete Guide to Soccer Emojis: Meanings and When to Use Them",
+    slug: "soccer-emojis-meanings",
+    excerpt: "Master every soccer emoji! ⚽🥅 From ⚽ to 🏆, learn the meanings, hidden uses, and perfect timing for all football-related emojis. Essential guide for World Cup 2026 and beyond.",
+    content: `Soccer (or football, depending on where you're from! ⚽🌍) is the world's most popular sport, and emojis help us celebrate every moment. Here's your complete guide to understanding and using soccer emojis like a pro!
+
+## The Essential Soccer Emojis ⚽
+
+### ⚽ Soccer Ball
+**Official Name:** Soccer Ball
+**Meaning:** The universal symbol for soccer/football
+**When to Use:**
+- Any soccer-related post or message
+- Celebrating goals: "GOAL! ⚽🎉"
+- Match announcements: "Game day! ⚽"
+- General football talk
+
+**Pro Tip:** Can be used for any level - from kids' games to World Cup finals!
+
+### 🥅 Goal Net
+**Official Name:** Goal Net
+**Meaning:** The target every striker aims for
+**When to Use:**
+- Celebrating goals: "Back of the net! 🥅"
+- Predicting scores: "3-0, all in the 🥅"
+- Goalkeeper saves: "Nothing gets past this 🥅"
+
+**Fun Fact:** Added in 2016, perfect timing for Euro 2016!
+
+### 🏆 Trophy
+**Official Name:** Trophy
+**Meaning:** Championship, victory, winning
+**When to Use:**
+- Celebrating tournament wins
+- Predicting champions: "🇧🇷🏆 Brazil will win!"
+- After your team wins: "CHAMPIONS! 🏆"
+
+**World Cup Context:** The actual FIFA World Cup trophy is gold, making this emoji perfect!
+
+### 🥇 1st Place Medal
+**Official Name:** 1st Place Medal
+**Meaning:** Being number one, winning gold
+**When to Use:**
+- Individual player achievements
+- Golden Boot winner: "Top scorer! 🥇⚽"
+- MVP celebrations
+
+### 🥈 2nd Place Medal / 🥉 3rd Place Medal
+**Meaning:** Runner-up and third place
+**When to Use:**
+- Consolation: "Good effort! 🥈"
+- Bronze medal match results
+- Playful teasing: "Always the bridesmaid 🥈😅"
+
+## Player Position Emojis 👤
+
+### 🧤 Gloves
+**Meaning:** Goalkeeper
+**When to Use:**
+- Praising saves: "What a save! 🧤"
+- Goalkeeper discussions
+- Clean sheet celebrations: "🧤 Shutout!"
+
+### 👟 Running Shoe
+**Meaning:** Players, running, speed
+**When to Use:**
+- Fast players: "He's so quick! 👟💨"
+- Stamina: "90 minutes of running 👟"
+- New cleats: "Fresh boots! 👟⚽"
+
+### 🎽 Running Shirt
+**Meaning:** Jersey, team kit
+**When to Use:**
+- New kit releases: "New jersey! 🎽"
+- Team colors: "Wearing the 🎽 with pride!"
+
+## Action Emojis 💥
+
+### 🚀 Rocket
+**Meaning:** Powerful shot, speed
+**When to Use:**
+- Screamer goals: "What a rocket! 🚀⚽"
+- Fast attacks: "Counter-attack 🚀"
+- Powerful strikes: "Absolute thunderbolt! 🚀"
+
+### 💨 Dash
+**Meaning:** Speed, quick movement
+**When to Use:**
+- Fast players: "Mbappé is lightning! ⚡💨"
+- Quick plays: "Speed demon 💨⚽"
+
+### 🔥 Fire
+**Meaning:** Hot form, amazing performance
+**When to Use:**
+- Players in form: "He's on fire! 🔥⚽"
+- Hot streaks: "5 goals in 3 games 🔥"
+- Exciting matches: "What a game! 🔥"
+
+### ⚡ Lightning
+**Meaning:** Electric performance, shocking moment
+**When to Use:**
+- Stunning goals: "Thunderstrike! ⚡⚽"
+- Quick goals: "30 seconds in! ⚡"
+- Electric atmosphere: "Stadium is electric! ⚡"
+
+## Referee & Rules Emojis 👨‍⚖️
+
+### 🟨 Yellow Square
+**Meaning:** Yellow card, caution
+**When to Use:**
+- Bookings: "That's a yellow! 🟨"
+- Warnings: "Walking on thin ice 🟨"
+- Accumulation: "One more 🟨 and he's out!"
+
+### 🟥 Red Square
+**Meaning:** Red card, ejection
+**When to Use:**
+- Sending offs: "Straight red! 🟥"
+- Harsh decisions: "That's harsh! 🟥"
+- Suspensions: "Banned for 3 games 🟥"
+
+### 🚩 Flag
+**Meaning:** Offside, linesman flag
+**When to Use:**
+- Offside calls: "Flag is up! 🚩"
+- Controversial decisions: "Was that offside? 🚩🤔"
+
+### 📹 Video Camera
+**Meaning:** VAR (Video Assistant Referee)
+**When to Use:**
+- VAR reviews: "Checking VAR 📹"
+- Overturned decisions: "VAR says no goal! 📹❌"
+- Waiting: "VAR taking forever 📹⏳"
+
+## Emotion Emojis 😊
+
+### 😭 Crying Face
+**Meaning:** Heartbreak, devastating loss
+**When to Use:**
+- Elimination: "We're out 😭⚽"
+- Missed penalties: "How did he miss?! 😭"
+- Relegation: "Going down 😭"
+
+### 🤯 Exploding Head
+**Meaning:** Unbelievable, mind-blowing
+**When to Use:**
+- Incredible goals: "Did that just happen?! 🤯"
+- Shocking results: "They beat them 5-0! 🤯"
+- Amazing saves: "How did he save that?! 🤯"
+
+### 😤 Huffing Face
+**Meaning:** Determination, frustration
+**When to Use:**
+- Comeback mode: "We're not done yet! 😤"
+- Rivalry matches: "Let's get them! 😤⚽"
+
+### 🥳 Party Face
+**Meaning:** Celebration, victory
+**When to Use:**
+- Winning: "We won! 🥳⚽"
+- Qualification: "We're going to the World Cup! 🥳"
+- Championships: "CHAMPIONS! 🥳🏆"
+
+## Stadium & Fan Emojis 🏟️
+
+### 🏟️ Stadium
+**Meaning:** Match venue, game location
+**When to Use:**
+- Match day: "Heading to the 🏟️"
+- Atmosphere: "Packed stadium! 🏟️"
+- Historic venues: "Playing at the Azteca! 🏟️"
+
+### 📣 Megaphone
+**Meaning:** Cheering, fan support
+**When to Use:**
+- Rallying support: "Let's go! 📣"
+- Loud fans: "12th man! 📣"
+- Chanting: "Sing it loud! 📣⚽"
+
+### 🎺 Trumpet
+**Meaning:** Vuvuzelas, fan noise
+**When to Use:**
+- South African vibes: "2010 memories 🎺"
+- Loud atmosphere: "Can't hear myself! 🎺"
+
+### 🍺 Beer
+**Meaning:** Watching with drinks, pub atmosphere
+**When to Use:**
+- Watch parties: "Beers and soccer! 🍺⚽"
+- Pub viewing: "At the bar 🍺📺"
+
+## Tactical Emojis 🎯
+
+### 🎯 Direct Hit
+**Meaning:** Precision, accuracy
+**When to Use:**
+- Perfect passes: "What a ball! 🎯"
+- Accurate shots: "Top corner! 🎯⚽"
+- Predictions: "Calling it! 🎯"
+
+### 🧠 Brain
+**Meaning:** Intelligence, tactical awareness
+**When to Use:**
+- Smart plays: "Big brain move! 🧠"
+- Tactical genius: "Masterclass! 🧠⚽"
+- IQ plays: "200 IQ pass! 🧠"
+
+### 🛡️ Shield
+**Meaning:** Defense, protection
+**When to Use:**
+- Solid defense: "Defensive wall! 🛡️"
+- Clean sheets: "Nothing gets through! 🛡️"
+- Protecting leads: "Park the bus! 🛡️"
+
+## Time Emojis ⏰
+
+### ⏰ Alarm Clock
+**Meaning:** Match time, kick-off
+**When to Use:**
+- Reminders: "Game starts in 1 hour! ⏰"
+- Injury time: "Added time! ⏰"
+
+### ⏱️ Stopwatch
+**Meaning:** Timing, countdown
+**When to Use:**
+- Counting down: "5 minutes left! ⏱️"
+- Speed records: "Fastest goal! ⏱️"
+
+### ⌛ Hourglass
+**Meaning:** Time running out
+**When to Use:**
+- Final minutes: "Time's running out! ⌛"
+- Pressure: "Clock is ticking! ⌛⚽"
+
+## Combination Emojis 🎨
+
+### Goal Celebrations
+- **Simple:** ⚽🎉
+- **Epic:** 🚀⚽➡️🥅 GOLAZO! 🔥
+- **Emotional:** ⚽😭🙏 (relief goal)
+
+### Match Predictions
+- **Confident:** 🇧🇷 3-1 🇦🇷 🎯
+- **Hopeful:** 🇺🇸 vs 🇲🇽 🙏⚽
+- **Trash Talk:** 🇫🇷 > 🇩🇪 😏
+
+### Penalty Shootouts
+- **Tension:** 😰🎯⚽
+- **Miss:** 😭⚽❌
+- **Score:** ⚽✅🎉
+
+## World Cup Specific 🌍
+
+### 🌍 Globe
+**Meaning:** World Cup, global tournament
+**When to Use:**
+- World Cup posts: "The whole world is watching! 🌍⚽"
+- International football: "Global game 🌍"
+
+### 🏅 Medal
+**Meaning:** Achievement, honor
+**When to Use:**
+- Individual awards: "Golden Ball winner! 🏅"
+- Career achievements: "Legend! 🏅⚽"
+
+## Conclusion ⚽
+
+Soccer emojis help us express the passion, drama, and joy of the beautiful game! Whether you're celebrating a last-minute winner 🚀⚽ or commiserating a heartbreaking loss 😭, there's an emoji for every moment.
+
+Ready for World Cup 2026? Check out our [World Cup 2026 Emoji Guide](/blog/world-cup-2026-emoji-guide) or explore [How to Use Emojis on WhatsApp](/blog/how-to-use-emojis-on-whatsapp-without-sounding-rude)! 🏆⚽`,
+    date: "2026-02-14",
+    readTime: "12 min read",
+    image: "⚽",
+    keywords: "soccer emojis, football emojis, sports emojis meanings, goal emoji, trophy emoji, world cup emojis, soccer ball emoji meaning",
+    relatedPosts: ["world-cup-2026-emoji-guide", "sports-emojis-guide"]
+  }
+,
+  {
+    id: "world-cup-group-chat-emoji-etiquette",
+    title: "World Cup Group Chat Etiquette: The Ultimate Emoji Rules",
+    slug: "world-cup-group-chat-emoji-etiquette",
+    excerpt: "Don't be THAT person in your World Cup group chat! 📱⚽ Learn the unwritten rules of emoji etiquette, from celebrating goals to handling trash talk. Master the art of digital sportsmanship for FIFA 2026.",
+    content: `The World Cup brings people together, but group chats can get messy FAST! ⚽💬 Whether you're in a family chat, friend group, or office league, here are the unwritten rules of World Cup emoji etiquette.
+
+## The Golden Rules 🏆
+
+### Rule #1: Don't Spam During Live Play 🚫
+**DON'T:**
+- Send 50 emojis during a goal: ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽
+- Flood the chat with reactions every 30 seconds
+- Use ALL CAPS with 20 fire emojis
+
+**DO:**
+- Use reactions instead: ❤️, 🔥, 😂
+- One celebratory message: "WHAT A GOAL! 🚀⚽"
+- Save the spam for MAJOR moments (finals, last-minute winners)
+
+### Rule #2: Be a Gracious Winner 🤝
+**DON'T:**
+- Rub it in: "HAHAHA YOU LOST 😂😂😂"
+- Mock the losing team excessively
+- Bring up old losses: "Remember 2014? 😏"
+
+**DO:**
+- Celebrate respectfully: "Great game! 🤝⚽"
+- Acknowledge good plays from both sides
+- Use friendly banter: "GG! See you next time 😊"
+
+### Rule #3: Be a Humble Loser 😔
+**DON'T:**
+- Blame the referee: "RIGGED! 🤬"
+- Make excuses: "We didn't even try 🙄"
+- Leave the group chat (seriously, don't)
+
+**DO:**
+- Accept defeat gracefully: "Fair play, you deserved it 🤝"
+- Look forward: "We'll get you next time! 💪"
+- Use humor: "Well, that hurt 😭⚽"
+
+## Emoji Etiquette by Situation 📱
+
+### When Your Team Scores ⚽
+
+**Appropriate:**
+- ⚽🎉 (Simple celebration)
+- GOOOAL! 🚀⚽ (Excitement)
+- YES! 🙌⚽ (Joy)
+
+**Too Much:**
+- ⚽⚽⚽⚽⚽🎉🎉🎉🎉🎉🔥🔥🔥🔥🔥 (Spam)
+- 😂😂😂 IN YOUR FACE! (Toxic)
+- Sending 10 separate messages
+
+**Pro Tip:** Save the big celebrations for important goals (equalizers, winners, tournament-deciding goals).
+
+### When Your Team Concedes 😭
+
+**Appropriate:**
+- 😭⚽ (Sadness)
+- Nooo! 😫 (Frustration)
+- *silence* (Sometimes saying nothing is best)
+
+**Too Much:**
+- 🤬🤬🤬 (Excessive anger)
+- Blaming specific players with insults
+- Rage-quitting the chat
+
+### When There's a Controversial Call 🚩
+
+**Appropriate:**
+- That's questionable 🤔
+- VAR check? 📹
+- Hmm... 🧐
+
+**Too Much:**
+- CORRUPTION! 🤬🤬🤬
+- Conspiracy theories
+- Personal attacks on referees
+
+### Penalty Shootouts 😰
+
+**Appropriate:**
+- 😰🙏 (Nervous)
+- Can't watch! 🙈
+- *Heart emojis for support*
+
+**Too Much:**
+- Jinxing your own team
+- Celebrating opponent misses too hard
+- Excessive trash talk before it's over
+
+## Group Chat Roles & Their Emojis 👥
+
+### The Analyst 🧠
+**Typical Messages:**
+- "Their formation is all wrong 🧠⚽"
+- "Tactical masterclass! 🎯"
+- "They need to press higher 📊"
+
+**Etiquette:** Don't over-analyze every play. Save it for halftime!
+
+### The Hype Man 🔥
+**Typical Messages:**
+- "LET'S GOOO! 🔥🔥🔥"
+- "WE'RE WINNING THIS! 💪⚽"
+- "BELIEVE! 🙏✨"
+
+**Etiquette:** Energy is great, but don't spam. One hype message per half is enough!
+
+### The Pessimist 😔
+**Typical Messages:**
+- "We're going to lose 😔"
+- "It's over 😭"
+- "Why do I even watch? 😞"
+
+**Etiquette:** Negativity brings everyone down. Try to stay hopeful or stay quiet!
+
+### The Comedian 😂
+**Typical Messages:**
+- Memes after every play
+- Funny observations: "That dive deserves an Oscar 🎭"
+- Lighthearted jokes
+
+**Etiquette:** Timing is everything! Don't joke during tense moments.
+
+### The Silent Observer 👀
+**Typical Messages:**
+- *Reactions only*
+- Occasional: "Wow 😮"
+- Appears only for major moments
+
+**Etiquette:** Perfect! This is actually ideal behavior.
+
+## Emoji Reactions Guide ⚡
+
+### When to Use Reactions vs. Messages
+
+**Use Reactions (👍, ❤️, 😂, 😮, 😢):**
+- Someone shares a highlight
+- Quick agreement
+- Acknowledging a message without cluttering
+- During live play (less disruptive)
+
+**Use Messages:**
+- Major moments (goals, red cards, penalties)
+- Starting discussions
+- Predictions and analysis
+- Celebrating victories
+
+## Trash Talk Etiquette 😏
+
+### Friendly Banter (✅ Acceptable)
+- "May the best team win! 😏⚽"
+- "Prepare to lose! 😎"
+- "We're coming for you! 💪"
+
+### Crossing the Line (❌ Not Cool)
+- Personal insults
+- Bringing up unrelated topics
+- Excessive gloating after winning
+- Mocking someone's genuine sadness
+
+### The 24-Hour Rule ⏰
+After a big win, give the losing side 24 hours before bringing it up again. Let them heal! 🩹
+
+## Special Situations 🎯
+
+### When Multiple Teams Are Represented 🌍
+
+**DO:**
+- Respect all teams: "Good luck to everyone! 🤝"
+- Celebrate your team without putting others down
+- Use neutral emojis for shared moments: 🏆⚽
+
+**DON'T:**
+- Form alliances against one person
+- Pile on when someone's team loses
+- Make it personal
+
+### When Someone's Team Gets Eliminated 😭
+
+**DO:**
+- Show empathy: "Tough loss, they played well 🤝"
+- Give them space
+- Invite them to support another team: "Who are you rooting for now?"
+
+**DON'T:**
+- Rub it in
+- Bring it up repeatedly
+- Make jokes immediately after
+
+### When Your Team Isn't Playing 🍿
+
+**DO:**
+- Enjoy as a neutral: "Great match! 🍿⚽"
+- Support the underdog
+- Appreciate good football
+
+**DON'T:**
+- Complain about "boring" games
+- Make it about your team
+- Spam unrelated content
+
+## Timing Your Messages ⏰
+
+### Pre-Match
+**Good:** Predictions, hype, lineup discussions
+**Bad:** Overconfidence, excessive trash talk
+
+### During Match
+**Good:** Reactions to major moments, quick observations
+**Bad:** Constant commentary, spoilers (if someone's watching delayed)
+
+### Post-Match
+**Good:** Congratulations, analysis, looking ahead
+**Bad:** Immediate gloating, bringing up past losses
+
+### Between Matches
+**Good:** Highlights, memes, tournament discussion
+**Bad:** Keeping arguments going, dwelling on losses
+
+## The Ultimate Don'ts 🚫
+
+1. **Don't spoil for delayed watchers** 📺
+   - Ask if everyone is watching live
+   - Use spoiler warnings
+   - Wait 30 minutes after the match
+
+2. **Don't leave the group chat** 🚪
+   - It's petty
+   - You'll miss the fun
+   - Stay for the banter!
+
+3. **Don't make it personal** 👤
+   - It's just a game
+   - Separate team loyalty from friendship
+   - Remember: you'll see these people after the World Cup!
+
+4. **Don't be a sore loser OR winner** 😤
+   - Both are equally annoying
+   - Show class in victory and defeat
+   - The tournament is long - your turn will come!
+
+## Emoji Combinations for Every Situation 🎨
+
+### Celebrating Your Goal
+- **Classy:** ⚽🎉
+- **Excited:** YESSS! 🚀⚽🔥
+- **Relieved:** Finally! 😅⚽
+
+### Opponent Scores
+- **Accepting:** Fair play 🤝
+- **Frustrated:** 😤⚽
+- **Hopeful:** We can come back! 💪
+
+### Controversial Moment
+- **Questioning:** 🤔📹
+- **Frustrated:** Come on ref! 😤
+- **Accepting:** It is what it is 🤷
+
+### Match Ends
+- **Victory:** CHAMPIONS! 🏆🎉
+- **Loss:** Good game 🤝😔
+- **Draw:** Fair result 🤝⚽
+
+## Creating a Positive Chat Environment 🌟
+
+### Encourage Good Behavior
+- Thank people for good sportsmanship: "Love the energy here! 🙌"
+- Acknowledge great plays from all teams
+- Keep it fun and friendly
+
+### Handle Toxic Behavior
+- Don't engage with trolls
+- Use humor to diffuse tension: "Okay, let's all calm down 😅"
+- Private message if someone crosses the line
+
+### Set Ground Rules
+Before the tournament starts:
+- "Let's keep it friendly! 🤝"
+- "Banter is fine, but no personal attacks"
+- "May the best team win! ⚽🏆"
+
+## Conclusion 🏁
+
+World Cup group chats are meant to be fun! 🎉 By following these emoji etiquette rules, you'll ensure everyone has a great time, regardless of which team they support. Remember: it's just a game, and friendships last longer than tournaments! 🤝⚽
+
+Want more emoji tips? Check out [How to Use Emojis on WhatsApp Without Sounding Rude](/blog/how-to-use-emojis-on-whatsapp-without-sounding-rude) or our [World Cup 2026 Emoji Guide](/blog/world-cup-2026-emoji-guide)! 📱⚽`,
+    date: "2026-02-16",
+    readTime: "11 min read",
+    image: "📱",
+    keywords: "world cup group chat, emoji etiquette, sports chat rules, whatsapp world cup, group chat manners, soccer emoji etiquette, trash talk rules",
+    relatedPosts: ["world-cup-2026-emoji-guide", "how-to-use-emojis-on-whatsapp-without-sounding-rude"]
+  }
+,
+  {
+    id: "world-cup-2026-emoji-predictions",
+    title: "World Cup 2026 Predictions: Using Emojis to Forecast the Winner",
+    slug: "world-cup-2026-emoji-predictions",
+    excerpt: "Who will win World Cup 2026? 🔮⚽ Use emojis to make your predictions! From 🇧🇷 to 🇦🇷, analyze favorites, dark horses, and create the perfect prediction post for social media. Plus: emoji bracket challenge!",
+    content: `The FIFA World Cup 2026 is approaching, and everyone wants to predict the winner! 🏆 Let's use emojis to analyze the favorites, dark horses, and make our predictions for the biggest tournament in football history!
+
+## The Favorites 👑
+
+### 🇧🇷 Brazil
+**Emoji Profile:** 🇧🇷⚽👑🌟
+**Strengths:** 5-time champions, incredible talent pool
+**Prediction Emoji:** 🔥🔥🔥
+**Chances:** ⭐⭐⭐⭐⭐
+
+**Why They Could Win:**
+- Neymar's last chance? 🎯
+- Young stars emerging 🌟
+- Samba magic ✨
+- Tournament experience 🏆
+
+**Prediction Post:**
+"Brazil to win it all! 🇧🇷🏆 Neymar's destiny! ⚽✨ #WorldCup2026"
+
+### 🇦🇷 Argentina
+**Emoji Profile:** 🇦🇷⚽🏆💙
+**Strengths:** Defending champions, Messi legacy
+**Prediction Emoji:** 🔥🔥🔥🔥
+**Chances:** ⭐⭐⭐⭐⭐
+
+**Why They Could Win:**
+- Back-to-back champions? 🏆🏆
+- Strong squad depth 💪
+- Winning mentality 🧠
+- Messi's final tournament? 👑
+
+**Prediction Post:**
+"Argentina repeating! 🇦🇷🏆 Dynasty mode activated! 💙⚽"
+
+### 🇫🇷 France
+**Emoji Profile:** 🇫🇷⚽🐓💙
+**Strengths:** Young talent, tournament experience
+**Prediction Emoji:** 🔥🔥🔥🔥
+**Chances:** ⭐⭐⭐⭐⭐
+
+**Why They Could Win:**
+- Mbappé in his prime 🚀
+- Deep squad 💪
+- 2018 winners 🏆
+- Tactical excellence 🧠
+
+**Prediction Post:**
+"France going back-to-back! 🇫🇷🏆 Mbappé era! ⚡⚽"
+
+### 🇩🇪 Germany
+**Emoji Profile:** 🇩🇪⚽🦅⚫🔴🟡
+**Strengths:** 4-time champions, always competitive
+**Prediction Emoji:** 🔥🔥🔥
+**Chances:** ⭐⭐⭐⭐
+
+**Why They Could Win:**
+- Tournament pedigree 🏆
+- Young generation 🌟
+- Tactical discipline 🎯
+- Never count them out! 💪
+
+**Prediction Post:**
+"Germany back on top! 🇩🇪🏆 Die Mannschaft! 🦅⚽"
+
+### 🇪🇸 Spain
+**Emoji Profile:** 🇪🇸⚽🦁❤️💛
+**Strengths:** Tiki-taka masters, young talent
+**Prediction Emoji:** 🔥🔥🔥
+**Chances:** ⭐⭐⭐⭐
+
+**Why They Could Win:**
+- Beautiful football ✨
+- Young stars 🌟
+- 2010 winners 🏆
+- Technical excellence 🎯
+
+**Prediction Post:**
+"Spain's golden generation 2.0! 🇪🇸🏆 Tiki-taka is back! ⚽✨"
+
+## The Dark Horses 🐴
+
+### 🇺🇸 USA
+**Emoji Profile:** 🇺🇸⚽🦅🏠
+**Strengths:** Home advantage, young talent
+**Prediction Emoji:** 🔥🔥
+**Chances:** ⭐⭐⭐
+
+**Why They Could Surprise:**
+- Home field advantage 🏟️
+- Young generation 🌟
+- Growing talent pool 💪
+- Underdog mentality 🐕
+
+**Prediction Post:**
+"USA shocking the world! 🇺🇸🏆 Home advantage! 🏠⚽"
+
+### 🇲🇽 Mexico
+**Emoji Profile:** 🇲🇽⚽🌮🏠
+**Strengths:** Home games, passionate fans
+**Prediction Emoji:** 🔥🔥
+**Chances:** ⭐⭐⭐
+
+**Why They Could Surprise:**
+- Azteca magic 🏟️
+- Passionate support 📣
+- Tournament experience 💪
+- Home advantage 🏠
+
+**Prediction Post:**
+"El Tri going all the way! 🇲🇽🏆 Azteca power! 🌮⚽"
+
+### 🇵🇹 Portugal
+**Emoji Profile:** 🇵🇹⚽🦁💚❤️
+**Strengths:** Ronaldo's last dance, talented squad
+**Prediction Emoji:** 🔥🔥
+**Chances:** ⭐⭐⭐
+
+**Why They Could Surprise:**
+- CR7's final chance 👑
+- Strong squad 💪
+- Euro 2016 winners 🏆
+- Never give up mentality 🔥
+
+**Prediction Post:**
+"Ronaldo's destiny! 🇵🇹🏆 CR7's final chapter! ⚽👑"
+
+### 🇳🇱 Netherlands
+**Emoji Profile:** 🇳🇱⚽🦁🧡
+**Strengths:** Total football, strong squad
+**Prediction Emoji:** 🔥🔥
+**Chances:** ⭐⭐⭐
+
+**Why They Could Surprise:**
+- Always competitive 💪
+- Beautiful football ✨
+- Hungry for first title 🏆
+- Strong generation 🌟
+
+**Prediction Post:**
+"Netherlands finally winning! 🇳🇱🏆 Total football! 🧡⚽"
+
+## Long Shots 🎯
+
+### 🇨🇦 Canada
+**Emoji Profile:** 🇨🇦⚽🍁🏠
+**Prediction Emoji:** 🔥
+**Chances:** ⭐⭐
+
+**Cinderella Story:**
+"Canada's fairy tale! 🇨🇦🏆 Home magic! 🍁⚽"
+
+### 🇺🇾 Uruguay
+**Emoji Profile:** 🇺🇾⚽💙
+**Prediction Emoji:** 🔥
+**Chances:** ⭐⭐
+
+**Dark Horse:**
+"Uruguay's revenge! 🇺🇾🏆 La Celeste! 💙⚽"
+
+### 🇧🇪 Belgium
+**Emoji Profile:** 🇧🇪⚽🦁
+**Prediction Emoji:** 🔥
+**Chances:** ⭐⭐
+
+**Golden Generation:**
+"Belgium's last chance! 🇧🇪🏆 Now or never! 🦁⚽"
+
+## How to Make Your Prediction Post 📱
+
+### Format 1: Simple Prediction
+"My World Cup 2026 winner: 🇧🇷🏆 #WorldCup2026 #Brazil"
+
+### Format 2: Top 4 Prediction
+
+🥇 🇧🇷 Brazil
+🥈 🇦🇷 Argentina  
+🥉 🇫🇷 France
+4️⃣ 🇩🇪 Germany
+#WorldCup2026
+
+
+### Format 3: Bracket Style
+
+🏆 FINAL 🏆
+🇧🇷 Brazil vs Argentina 🇦🇷
+Winner: 🇧🇷 2-1 🎉
+
+
+### Format 4: Bold Prediction
+"HOT TAKE 🔥
+🇺🇸 USA will reach the semifinals!
+Home advantage is REAL! 🏠⚽
+#WorldCup2026"
+
+## Emoji Prediction Categories 🎯
+
+### Golden Boot (Top Scorer) ⚽
+**Favorites:**
+- Mbappé 🇫🇷: 🚀⚽ (Speed + Finishing)
+- Haaland 🇳🇴: 🤖⚽ (Goal machine)
+- Vinícius Jr 🇧🇷: ✨⚽ (Magic)
+
+**Prediction Post:**
+"Golden Boot: Mbappé 🇫🇷⚽ 10+ goals! 🚀 #WorldCup2026"
+
+### Golden Glove (Best Goalkeeper) 🧤
+**Favorites:**
+- Alisson 🇧🇷: 🧤🛡️
+- Donnarumma 🇮🇹: 🧤🏰
+- Courtois 🇧🇪: 🧤🦒
+
+**Prediction Post:**
+"Golden Glove: Alisson 🇧🇷🧤 Clean sheets incoming! 🛡️"
+
+### Best Young Player 🌟
+**Favorites:**
+- Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿: 🌟🧠
+- Gavi 🇪🇸: 🌟⚡
+- Endrick 🇧🇷: 🌟🔥
+
+**Prediction Post:**
+"Breakout star: Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿🌟 Future Ballon d'Or! 🏆"
+
+### Surprise Team 🐴
+**Candidates:**
+- 🇺🇸 USA (Home advantage)
+- 🇨🇦 Canada (Home advantage)
+- 🇯🇵 Japan (Giant killers)
+- 🇲🇦 Morocco (2022 semifinalists)
+
+**Prediction Post:**
+"Dark horse: 🇺🇸 USA reaching quarters! 🐴🏠 #WorldCup2026"
+
+## Create Your Emoji Bracket 🏆
+
+### Round of 16
+
+🇧🇷 vs 🇰🇷 → 🇧🇷
+🇦🇷 vs 🇲🇽 → 🇦🇷
+🇫🇷 vs 🇺🇸 → 🇫🇷
+🇩🇪 vs 🇯🇵 → 🇩🇪
+
+
+### Quarterfinals
+
+🇧🇷 vs 🇵🇹 → 🇧🇷
+🇦🇷 vs 🇪🇸 → 🇦🇷
+🇫🇷 vs 🇳🇱 → 🇫🇷
+🇩🇪 vs 🇧🇪 → 🇩🇪
+
+
+### Semifinals
+
+🇧🇷 vs 🇦🇷 → 🇧🇷
+🇫🇷 vs 🇩🇪 → 🇫🇷
+
+
+### Final
+
+🏆 FINAL 🏆
+🇧🇷 Brazil 2-1 France 🇫🇷
+CHAMPIONS: 🇧🇷🏆🎉
+
+
+## Prediction Emojis Explained 🔮
+
+### Confidence Levels
+- 🔥🔥🔥🔥🔥 = Lock it in!
+- 🔥🔥🔥🔥 = Very confident
+- 🔥🔥🔥 = Solid pick
+- 🔥🔥 = Dark horse
+- 🔥 = Long shot
+
+### Prediction Types
+- 🔮 Crystal Ball = Bold prediction
+- 🎯 Target = Confident pick
+- 🤔 Thinking = Uncertain
+- 🙏 Praying Hands = Hopeful
+- 💭 Thought Bubble = Just a thought
+
+## Fun Prediction Challenges 🎮
+
+### Challenge 1: Emoji-Only Bracket
+Create your entire bracket using only emojis (no words!)
+
+### Challenge 2: Underdog Special
+Pick a team ranked outside top 10 to reach semifinals
+
+### Challenge 3: Score Predictor
+Predict exact score of the final using emojis:
+"Final: 🇧🇷 3️⃣-1️⃣ 🇫🇷"
+
+### Challenge 4: Wild Card
+Make one completely wild prediction:
+"🇨🇦 Canada will beat 🇧🇷 Brazil! 🍁>🇧🇷"
+
+## Tracking Your Predictions 📊
+
+### Create a Prediction Post
+
+MY WORLD CUP 2026 PREDICTIONS 🔮⚽
+
+🏆 Winner: 🇧🇷 Brazil
+🥇 Golden Boot: Mbappé 🇫🇷
+🧤 Golden Glove: Alisson 🇧🇷
+🌟 Best Young Player: Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+🐴 Dark Horse: 🇺🇸 USA
+🤯 Upset: 🇯🇵 beats 🇩🇪
+
+Saving this to see how wrong I am! 😅
+#WorldCup2026 #Predictions
+
+
+### Update as Tournament Progresses
+- ✅ = Correct prediction
+- ❌ = Wrong prediction
+- 🤷 = Too early to tell
+
+## Conclusion 🏁
+
+Making predictions is half the fun of the World Cup! 🎉 Whether you're backing the favorites 🇧🇷🇦🇷🇫🇷 or rooting for an underdog 🇺🇸🇨🇦, emojis make your predictions more engaging and fun to share!
+
+Remember: No one gets them all right, so have fun with it! 😊⚽
+
+Want more World Cup content? Check out our [World Cup 2026 Emoji Guide](/blog/world-cup-2026-emoji-guide) or [World Cup Host Cities Guide](/blog/world-cup-2026-host-cities-emojis)! 🏆⚽`,
+    date: "2026-02-18",
+    readTime: "13 min read",
+    image: "🔮",
+    keywords: "world cup 2026 predictions, fifa 2026 winner, world cup favorites, soccer predictions, emoji predictions, world cup bracket, tournament predictions",
+    relatedPosts: ["world-cup-2026-emoji-guide", "world-cup-2026-host-cities-emojis", "soccer-emojis-meanings"]
+  }];
