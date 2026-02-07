@@ -11,6 +11,28 @@ interface SitemapUrl {
   priority: string;
 }
 
+// Popular emoji comparisons
+const popularComparisons = [
+  { slug1: 'grinning-face', slug2: 'grinning-face-with-big-eyes' },
+  { slug1: 'grinning-face-with-smiling-eyes', slug2: 'beaming-face-with-smiling-eyes' },
+  { slug1: 'face-with-tears-of-joy', slug2: 'rolling-on-the-floor-laughing' },
+  { slug1: 'slightly-smiling-face', slug2: 'smiling-face' },
+  { slug1: 'smiling-face-with-hearts', slug2: 'smiling-face-with-heart-eyes' },
+  { slug1: 'winking-face', slug2: 'smiling-face-with-smiling-eyes' },
+  { slug1: 'thinking-face', slug2: 'face-with-raised-eyebrow' },
+  { slug1: 'neutral-face', slug2: 'expressionless-face' },
+  { slug1: 'confused-face', slug2: 'worried-face' },
+  { slug1: 'crying-face', slug2: 'loudly-crying-face' },
+  { slug1: 'angry-face', slug2: 'pouting-face' },
+  { slug1: 'red-heart', slug2: 'pink-heart' },
+  { slug1: 'red-heart', slug2: 'orange-heart' },
+  { slug1: 'thumbs-up', slug2: 'thumbs-down' },
+  { slug1: 'waving-hand', slug2: 'raised-hand' },
+  { slug1: 'clapping-hands', slug2: 'raising-hands' },
+  { slug1: 'folded-hands', slug2: 'palms-up-together' },
+  { slug1: 'victory-hand', slug2: 'crossed-fingers' },
+];
+
 const generateSitemapUrls = (): SitemapUrl[] => {
   const urls: SitemapUrl[] = [];
 
@@ -19,6 +41,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   urls.push({ loc: `${BASE_URL}/categories`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/people`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/blog`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/emoji-comparisons`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/sitemap`, priority: '0.5' });
 
   // Blog pagination pages
@@ -42,6 +65,11 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   // Blog post pages
   blogPosts.forEach(post => {
     urls.push({ loc: `${BASE_URL}/blog/${post.slug}`, priority: '0.7' });
+  });
+
+  // Emoji comparison pages (BEFORE individual emojis for better crawling)
+  popularComparisons.forEach(({ slug1, slug2 }) => {
+    urls.push({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}`, priority: '0.8' });
   });
 
   // All emoji pages

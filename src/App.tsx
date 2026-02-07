@@ -15,7 +15,8 @@ import NotFound from "./pages/NotFound";
 // Lazy load non-critical pages
 const Categories = lazy(() => import("./pages/Categories"));
 const CategoryWrapper = lazy(() => import("./pages/CategoryWrapper"));
-const EmojiDetailWrapper = lazy(() => import("./pages/EmojiDetailWrapper"));
+const EmojiDetailOrComparisonWrapper = lazy(() => import("./pages/EmojiDetailOrComparisonWrapper"));
+const EmojiComparisons = lazy(() => import("./pages/EmojiComparisons"));
 const People = lazy(() => import("./pages/People"));
 const PeopleSubcategoryWrapper = lazy(() => import("./pages/PeopleSubcategoryWrapper"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
@@ -71,7 +72,8 @@ const App = () => {
                 <Route path="/" element={<Index />} />
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/category/:slug" element={<CategoryWrapper />} />
-                <Route path="/emoji/:slug" element={<EmojiDetailWrapper />} />
+                <Route path="/emoji-comparisons" element={<EmojiComparisons />} />
+                <Route path="/emoji/:slug" element={<EmojiDetailOrComparisonWrapper />} />
                 <Route path="/people" element={<People />} />
                 <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />
                 <Route path="/blog" element={<Blog />} />
