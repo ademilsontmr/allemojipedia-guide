@@ -26,6 +26,8 @@ const EmojiComparisons = () => {
           name="keywords" 
           content="emoji comparison, emoji differences, emoji vs emoji, similar emojis, emoji guide" 
         />
+        <meta name="author" content="Emoji Pedia" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/emoji-comparisons" />
       </Helmet>
 

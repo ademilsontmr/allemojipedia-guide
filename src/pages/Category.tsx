@@ -86,6 +86,8 @@ const Category = () => {
         <title>{`${category.name} Emojis — Copy & Paste All ${emojis.length} | Allemojipedia`}</title>
         <meta name="description" content={`${category.description} Copy and paste ${emojis.length} ${category.name.toLowerCase()} emojis instantly.`} />
         <meta name="keywords" content={`${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, copy ${category.name.toLowerCase()} emojis`} />
+        <meta name="author" content="Emoji Pedia" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/category/${slug}/`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />

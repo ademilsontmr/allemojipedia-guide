@@ -164,6 +164,8 @@ const EmojiDetail = () => {
         <title>{`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`}</title>
         <meta name="description" content={`${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`} />
+        <meta name="author" content="Emoji Pedia" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta property="og:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
         <meta property="og:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />

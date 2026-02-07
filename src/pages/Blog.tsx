@@ -20,6 +20,8 @@ const Blog = () => {
           content="Explore our emoji blog for tips, guides, and fascinating insights about emojis, their meanings, and how to use them effectively."
         />
         <meta name="keywords" content="emoji blog, emoji tips, emoji guides, emoji insights, how to use emojis, emoji meanings blog, emoji articles" />
+        <meta name="author" content="Emoji Pedia" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/blog/" />
       </Helmet>
 

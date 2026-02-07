@@ -30,6 +30,8 @@ const EmojiComparison = () => {
         <title>{pageTitle} | Allemojipedia</title>
         <meta name="description" content={pageDescription} />
         <meta name="keywords" content={`${emoji1.name} vs ${emoji2.name}, emoji comparison, ${emoji1.name}, ${emoji2.name}, emoji differences`} />
+        <meta name="author" content="Emoji Pedia" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
       </Helmet>
 
