@@ -11,7 +11,12 @@ const BlogPage = () => {
   const { page } = useParams<{ page: string }>();
   const pageNumber = parseInt(page || "1", 10);
   
-  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
+  // Sort posts by date (most recent first)
+  const sortedPosts = [...blogPosts].sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+  
+  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
   
   // Redirect invalid pages
   if (isNaN(pageNumber) || pageNumber < 1) {
@@ -29,7 +34,7 @@ const BlogPage = () => {
   
   const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;
   const endIndex = startIndex + POSTS_PER_PAGE;
-  const currentPosts = blogPosts.slice(startIndex, endIndex);
+  const currentPosts = sortedPosts.slice(startIndex, endIndex);
   
   const formatPageNumber = (num: number) => num.toString().padStart(2, "0");
 
@@ -60,7 +65,7 @@ const BlogPage = () => {
           <p className="text-muted-foreground text-lg max-w-2xl">
             Discover fascinating articles about emojis, their history, meanings,
             and best practices for using them in your daily communication.
-            <span className="ml-2 text-sm">({blogPosts.length} articles)</span>
+            <span className="ml-2 text-sm">({sortedPosts.length} articles)</span>
           </p>
         </div>
 
@@ -99,7 +104,7 @@ const BlogPage = () => {
         <BlogPagination
           currentPage={pageNumber}
           totalPages={totalPages}
-          totalPosts={blogPosts.length}
+          totalPosts={sortedPosts.length}
           postsPerPage={POSTS_PER_PAGE}
         />
       </div>

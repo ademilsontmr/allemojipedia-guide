@@ -8,8 +8,13 @@ import BlogPagination from "@/components/BlogPagination";
 const POSTS_PER_PAGE = 9;
 
 const Blog = () => {
-  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
-  const currentPosts = blogPosts.slice(0, POSTS_PER_PAGE);
+  // Sort posts by date (most recent first)
+  const sortedPosts = [...blogPosts].sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+
+  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
+  const currentPosts = sortedPosts.slice(0, POSTS_PER_PAGE);
 
   return (
     <Layout>
@@ -40,7 +45,7 @@ const Blog = () => {
           <p className="text-muted-foreground text-lg max-w-2xl">
             Discover fascinating articles about emojis, their history, meanings,
             and best practices for using them in your daily communication.
-            <span className="ml-2 text-sm">({blogPosts.length} articles)</span>
+            <span className="ml-2 text-sm">({sortedPosts.length} articles)</span>
           </p>
         </div>
 
@@ -80,7 +85,7 @@ const Blog = () => {
           <BlogPagination
             currentPage={1}
             totalPages={totalPages}
-            totalPosts={blogPosts.length}
+            totalPosts={sortedPosts.length}
             postsPerPage={POSTS_PER_PAGE}
           />
         )}
