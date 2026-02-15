@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { Search, Menu } from "lucide-react";
+import { Search, Menu, Sun, Moon } from "lucide-react";
 import { useState, forwardRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTheme } from "@/hooks/use-theme";
 import {
   Sheet,
   SheetContent,
@@ -9,11 +10,18 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
+  const { theme, setTheme } = useTheme();
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -52,48 +60,92 @@ export const Header = () => {
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
           <Link to="/emoji-comparisons" className="text-sm font-medium hover:text-primary transition-colors">Emoji Comparisons</Link>
           <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
+          
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="relative inline-flex items-center justify-center p-2 hover:bg-accent rounded-md">
+                <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <span className="sr-only">Toggle theme</span>
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onClick={() => setTheme("light")}>
+                Light
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("dark")}>
+                Dark
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("system")}>
+                System
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
 
-        <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger asChild>
-            <button className="md:hidden p-2 hover:bg-accent rounded-md">
-              <Menu className="h-6 w-6" />
-              <span className="sr-only">Menu</span>
-            </button>
-          </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-            <nav className="flex flex-col gap-4 mt-8">
-              <Link
-                to="/categories"
-                className="text-lg font-medium hover:text-primary transition-colors py-2"
-                onClick={handleNavClick}
-              >
-                Categories
-              </Link>
-              <Link
-                to="/people"
-                className="text-lg font-medium hover:text-primary transition-colors py-2"
-                onClick={handleNavClick}
-              >
-                People
-              </Link>
-              <Link
-                to="/emoji-comparisons"
-                className="text-lg font-medium hover:text-primary transition-colors py-2"
-                onClick={handleNavClick}
-              >
-                Emoji Comparisons
-              </Link>
-              <Link
-                to="/blog"
-                className="text-lg font-medium hover:text-primary transition-colors py-2"
-                onClick={handleNavClick}
-              >
-                Blog
-              </Link>
-            </nav>
-          </SheetContent>
-        </Sheet>
+        <div className="flex md:hidden items-center gap-2">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="relative inline-flex items-center justify-center p-2 hover:bg-accent rounded-md">
+                <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <span className="sr-only">Toggle theme</span>
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onClick={() => setTheme("light")}>
+                Light
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("dark")}>
+                Dark
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("system")}>
+                System
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <button className="p-2 hover:bg-accent rounded-md">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Menu</span>
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <nav className="flex flex-col gap-4 mt-8">
+                <Link
+                  to="/categories"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  Categories
+                </Link>
+                <Link
+                  to="/people"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  People
+                </Link>
+                <Link
+                  to="/emoji-comparisons"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  Emoji Comparisons
+                </Link>
+                <Link
+                  to="/blog"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  Blog
+                </Link>
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

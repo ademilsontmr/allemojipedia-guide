@@ -2,6 +2,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { ErrorBoundary } from "./components/ErrorBoundary";
+import { ThemeProvider } from "./hooks/use-theme";
 
 const rootElement = document.getElementById("root");
 
@@ -11,6 +12,8 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <ErrorBoundary>
-    <App />
+    <ThemeProvider defaultTheme="system" storageKey="allemojipedia-theme">
+      <App />
+    </ThemeProvider>
   </ErrorBoundary>
 );
