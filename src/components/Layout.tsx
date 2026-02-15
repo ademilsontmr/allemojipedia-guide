@@ -1,19 +1,31 @@
 import { Link } from "react-router-dom";
-import { Search } from "lucide-react";
+import { Search, Menu } from "lucide-react";
 import { useState, forwardRef } from "react";
 import { useNavigate } from "react-router-dom";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
-  
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       navigate(`/?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
-  
+
+  const handleNavClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur h-16">
       <div className="container-page flex h-16 items-center justify-between gap-4">
@@ -21,16 +33,16 @@ export const Header = () => {
           <span className="emoji text-2xl w-8 h-8 flex items-center justify-center">📚</span>
           <span className="hidden sm:inline">Allemojipedia</span>
         </Link>
-        
+
         <form onSubmit={handleSearch} className="flex-1 max-w-md">
           <div className="relative h-10">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <input 
-              type="search" 
-              placeholder="Search emojis..." 
-              value={searchQuery} 
-              onChange={e => setSearchQuery(e.target.value)} 
-              className="w-full h-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring" 
+            <input
+              type="search"
+              placeholder="Search emojis..."
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
+              className="w-full h-full rounded-lg border border-input bg-search-bg py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring"
             />
           </div>
         </form>
@@ -38,8 +50,50 @@ export const Header = () => {
         <nav className="hidden md:flex items-center gap-6 h-10">
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Categories</Link>
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
+          <Link to="/emoji-comparisons" className="text-sm font-medium hover:text-primary transition-colors">Emoji Comparisons</Link>
           <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
         </nav>
+
+        <Sheet open={isOpen} onOpenChange={setIsOpen}>
+          <SheetTrigger asChild>
+            <button className="md:hidden p-2 hover:bg-accent rounded-md">
+              <Menu className="h-6 w-6" />
+              <span className="sr-only">Menu</span>
+            </button>
+          </SheetTrigger>
+          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+            <nav className="flex flex-col gap-4 mt-8">
+              <Link
+                to="/categories"
+                className="text-lg font-medium hover:text-primary transition-colors py-2"
+                onClick={handleNavClick}
+              >
+                Categories
+              </Link>
+              <Link
+                to="/people"
+                className="text-lg font-medium hover:text-primary transition-colors py-2"
+                onClick={handleNavClick}
+              >
+                People
+              </Link>
+              <Link
+                to="/emoji-comparisons"
+                className="text-lg font-medium hover:text-primary transition-colors py-2"
+                onClick={handleNavClick}
+              >
+                Emoji Comparisons
+              </Link>
+              <Link
+                to="/blog"
+                className="text-lg font-medium hover:text-primary transition-colors py-2"
+                onClick={handleNavClick}
+              >
+                Blog
+              </Link>
+            </nav>
+          </SheetContent>
+        </Sheet>
       </div>
     </header>
   );
@@ -68,6 +122,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/categories" className="hover:text-foreground">All Categories</Link></li>
             <li><Link to="/people" className="hover:text-foreground">People Hub</Link></li>
+            <li><Link to="/emoji-comparisons" className="hover:text-foreground">Emoji Comparisons</Link></li>
             <li><Link to="/blog" className="hover:text-foreground">Blog</Link></li>
             <li><Link to="/sitemap" className="hover:text-foreground">Sitemap</Link></li>
             <li><Link to="/about" className="hover:text-foreground">About Us</Link></li>

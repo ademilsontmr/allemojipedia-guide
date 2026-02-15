@@ -147,26 +147,26 @@ const Index = () => {
           <>
             {/* H1 - Main Title */}
             <section className="section-spacing text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">Allemojipedia — Emoji Meanings, Names & Copy</h1>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <h1 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">Allemojipedia — Emoji Meanings, Names & Copy</h1>
+              <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
                 Your complete emoji encyclopedia. Find what emojis mean, learn how to use them, and copy with one click.
               </p>
             </section>
 
             {/* H2 - Emoji Categories */}
             <section className="section-spacing">
-              <h2 className="text-2xl font-semibold mb-6">Emoji Categories</h2>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <h2 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">Emoji Categories</h2>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {categories.map(cat => (
                   <Link
                     key={cat.slug}
                     to={`/category/${cat.slug}/`}
-                    className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 transition-all"
+                    className="flex items-center gap-3 md:gap-4 p-3 md:p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 transition-all"
                   >
-                    <span className="emoji text-4xl">{cat.icon}</span>
+                    <span className="emoji text-3xl md:text-4xl">{cat.icon}</span>
                     <div>
-                      <h3 className="font-semibold">{cat.name}</h3>
-                      <p className="text-sm text-muted-foreground line-clamp-1">{cat.description}</p>
+                      <h3 className="font-semibold text-sm md:text-base">{cat.name}</h3>
+                      <p className="text-xs md:text-sm text-muted-foreground line-clamp-1">{cat.description}</p>
                     </div>
                   </Link>
                 ))}
@@ -175,7 +175,7 @@ const Index = () => {
 
             {/* H2 - Trending Emojis */}
             <section className="section-spacing">
-              <h2 className="text-2xl font-semibold mb-6">Trending Emoji Meanings</h2>
+              <h2 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">Trending Emoji Meanings</h2>
               {!isEmojiDataLoaded ? (
                 <p className="text-muted-foreground">Loading emojis…</p>
               ) : (
@@ -187,120 +187,120 @@ const Index = () => {
 
             {/* H2 - Emoji Comparisons */}
             <section className="section-spacing">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-semibold">Emoji Comparisons</h2>
-                <Link to="/emoji-comparisons" className="text-sm text-primary hover:underline">
+              <div className="flex items-center justify-between mb-4 md:mb-6">
+                <h2 className="text-xl md:text-2xl font-semibold">Emoji Comparisons</h2>
+                <Link to="/emoji-comparisons" className="text-xs md:text-sm text-primary hover:underline">
                   View all →
                 </Link>
               </div>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
                 Compare similar emojis side-by-side to understand their differences and when to use each one.
               </p>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-3 md:gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <Link
                   to="/emoji/grinning-face-vs-grinning-face-with-big-eyes"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😀
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😃
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Grinning Face vs Grinning Face with Big Eyes
                   </h3>
                 </Link>
 
                 <Link
                   to="/emoji/face-with-tears-of-joy-vs-rolling-on-the-floor-laughing"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😂
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       🤣
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Face with Tears of Joy vs Rolling on the Floor Laughing
                   </h3>
                 </Link>
 
                 <Link
                   to="/emoji/red-heart-vs-pink-heart"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       ❤️
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       🩷
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Red Heart vs Pink Heart
                   </h3>
                 </Link>
 
                 <Link
                   to="/emoji/thinking-face-vs-face-with-raised-eyebrow"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       🤔
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       🤨
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Thinking Face vs Face with Raised Eyebrow
                   </h3>
                 </Link>
 
                 <Link
                   to="/emoji/thumbs-up-vs-thumbs-down"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       👍
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       👎
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Thumbs Up vs Thumbs Down
                   </h3>
                 </Link>
 
                 <Link
                   to="/emoji/crying-face-vs-loudly-crying-face"
-                  className="group block p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
+                  className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
-                  <div className="flex items-center justify-center gap-4 mb-4">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😢
                     </div>
-                    <span className="text-2xl font-bold text-muted-foreground">VS</span>
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-lg md:text-2xl font-bold text-muted-foreground">VS</span>
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500/10 to-purple-500/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😭
                     </div>
                   </div>
-                  <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold text-center text-sm md:text-base mb-2 group-hover:text-primary transition-colors">
                     Crying Face vs Loudly Crying Face
                   </h3>
                 </Link>
