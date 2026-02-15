@@ -59,6 +59,7 @@ export const Header = () => {
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Categories</Link>
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
           <Link to="/emoji-comparisons" className="text-sm font-medium hover:text-primary transition-colors">Emoji Comparisons</Link>
+          <Link to="/flag-quiz" className="text-sm font-medium hover:text-primary transition-colors">Flag Quiz</Link>
           <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
           
           <DropdownMenu>
@@ -136,6 +137,13 @@ export const Header = () => {
                   Emoji Comparisons
                 </Link>
                 <Link
+                  to="/flag-quiz"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  Flag Quiz
+                </Link>
+                <Link
                   to="/blog"
                   className="text-lg font-medium hover:text-primary transition-colors py-2"
                   onClick={handleNavClick}
@@ -162,7 +170,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           <p className="text-sm text-muted-foreground">Your complete emoji encyclopedia with meanings, examples, and copy-paste functionality.</p>
         </div>
         <div>
-          <h4 className="font-medium mb-3">Categories</h4>
+          <div className="font-medium mb-3">Categories</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/category/smileys-and-emotion" className="hover:text-foreground">Smileys & Emotion</Link></li>
             <li><Link to="/category/people-and-body" className="hover:text-foreground">People & Body</Link></li>
@@ -170,11 +178,12 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           </ul>
         </div>
         <div>
-          <h4 className="font-medium mb-3">Resources</h4>
+          <div className="font-medium mb-3">Resources</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/categories" className="hover:text-foreground">All Categories</Link></li>
             <li><Link to="/people" className="hover:text-foreground">People Hub</Link></li>
             <li><Link to="/emoji-comparisons" className="hover:text-foreground">Emoji Comparisons</Link></li>
+            <li><Link to="/flag-quiz" className="hover:text-foreground">Flag Quiz</Link></li>
             <li><Link to="/blog" className="hover:text-foreground">Blog</Link></li>
             <li><Link to="/sitemap" className="hover:text-foreground">Sitemap</Link></li>
             <li><Link to="/about" className="hover:text-foreground">About Us</Link></li>
@@ -183,7 +192,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           </ul>
         </div>
         <div>
-          <h4 className="font-medium mb-3">About</h4>
+          <div className="font-medium mb-3">About</div>
           <p className="text-sm text-muted-foreground">© 2026 Allemojipedia. All emoji meanings and content provided for educational purposes.</p>
         </div>
       </div>

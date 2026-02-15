@@ -2,6 +2,7 @@ import { useSearchParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
+import { FlagQuiz } from "@/components/FlagQuiz";
 import { categories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import { toast } from "sonner";
@@ -170,6 +171,27 @@ const Index = () => {
                     </div>
                   </Link>
                 ))}
+              </div>
+            </section>
+
+            {/* H2 - Flag Quiz */}
+            <section className="section-spacing">
+              <div className="mb-4 md:mb-6">
+                <h2 className="text-xl md:text-2xl font-semibold mb-2">Guess the Flag Emoji Quiz</h2>
+                <p className="text-sm md:text-base text-muted-foreground">
+                  Test your knowledge of world flags! Can you identify these countries by their flag emojis?
+                </p>
+              </div>
+              <div className="p-6 md:p-8 rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-purple-500/5">
+                <FlagQuiz />
+                <div className="mt-6 text-center">
+                  <Link 
+                    to="/flag-quiz" 
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
+                  >
+                    Play Full Quiz & Learn More 🎯
+                  </Link>
+                </div>
               </div>
             </section>
 
