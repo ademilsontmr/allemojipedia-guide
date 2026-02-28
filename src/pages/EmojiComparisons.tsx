@@ -18,17 +18,17 @@ const EmojiComparisons = () => {
     <Layout>
       <Helmet>
         <title>Emoji Comparisons: Side-by-Side Differences | Allemojipedia</title>
-        <meta 
-          name="description" 
-          content="Compare similar emojis side-by-side. Learn the differences, when to use each one, and their emotional tones. Complete emoji comparison guide." 
+        <meta
+          name="description"
+          content="Compare similar emojis side-by-side. Learn the differences, when to use each one, and their emotional tones. Complete emoji comparison guide."
         />
-        <meta 
-          name="keywords" 
-          content="emoji comparison, emoji differences, emoji vs emoji, similar emojis, emoji guide" 
+        <meta
+          name="keywords"
+          content="emoji comparison, emoji differences, emoji vs emoji, similar emojis, emoji guide"
         />
         <meta name="author" content="Emoji Pedia" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <link rel="canonical" href="https://allemojipedia.com/emoji-comparisons" />
+        <link rel="canonical" href="https://allemojipedia.com/emoji-comparisons/" />
       </Helmet>
 
       <div className="container-page py-8">
@@ -54,12 +54,12 @@ const EmojiComparisons = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Popular Comparisons
           </h2>
-          
+
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {comparisons.map((comp) => {
               if (!comp) return null;
               const { emoji1, emoji2, slug } = comp;
-              
+
               return (
                 <Link
                   key={slug}
@@ -75,11 +75,11 @@ const EmojiComparisons = () => {
                       {emoji2.unicode}
                     </div>
                   </div>
-                  
+
                   <h3 className="font-semibold text-center mb-2 group-hover:text-primary transition-colors line-clamp-2">
                     {emoji1.name} vs {emoji2.name}
                   </h3>
-                  
+
                   <p className="text-sm text-muted-foreground text-center line-clamp-2">
                     Compare these similar emojis
                   </p>
@@ -121,7 +121,7 @@ const EmojiComparisons = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Browse All Emojis
           </h2>
-          
+
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <Link
               to="/category/smileys-and-emotion"
@@ -131,7 +131,7 @@ const EmojiComparisons = () => {
               <h3 className="font-semibold mb-1">Smileys & Emotion</h3>
               <p className="text-sm text-muted-foreground">Compare facial expressions</p>
             </Link>
-            
+
             <Link
               to="/category/people-and-body"
               className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card"
@@ -140,7 +140,7 @@ const EmojiComparisons = () => {
               <h3 className="font-semibold mb-1">People & Body</h3>
               <p className="text-sm text-muted-foreground">Compare gestures and people</p>
             </Link>
-            
+
             <Link
               to="/categories"
               className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card"

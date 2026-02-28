@@ -17,43 +17,43 @@ const generateSitemapUrls = (): SitemapUrl[] => {
 
   // Main pages
   urls.push({ loc: `${BASE_URL}/`, priority: '1.0' });
-  urls.push({ loc: `${BASE_URL}/categories`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/people`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/blog`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/emoji-comparisons`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/sitemap`, priority: '0.5' });
+  urls.push({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/people/`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
 
   // Blog pagination pages
   const POSTS_PER_PAGE = 9;
   const totalBlogPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
   for (let i = 2; i <= totalBlogPages; i++) {
     const pageNum = i.toString().padStart(2, '0');
-    urls.push({ loc: `${BASE_URL}/blog/page/${pageNum}`, priority: '0.7' });
+    urls.push({ loc: `${BASE_URL}/blog/page/${pageNum}/`, priority: '0.7' });
   }
 
   // Category pages
   categories.forEach(category => {
-    urls.push({ loc: `${BASE_URL}/category/${category.slug}`, priority: '0.8' });
+    urls.push({ loc: `${BASE_URL}/category/${category.slug}/`, priority: '0.8' });
   });
 
   // People subcategory pages
   peopleSubcategories.forEach(sub => {
-    urls.push({ loc: `${BASE_URL}/people/${sub.slug}`, priority: '0.7' });
+    urls.push({ loc: `${BASE_URL}/people/${sub.slug}/`, priority: '0.7' });
   });
 
   // Blog post pages
   blogPosts.forEach(post => {
-    urls.push({ loc: `${BASE_URL}/blog/${post.slug}`, priority: '0.7' });
+    urls.push({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7' });
   });
 
   // Emoji comparison pages (BEFORE individual emojis for better crawling)
   popularComparisons.forEach(({ slug1, slug2 }) => {
-    urls.push({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}`, priority: '0.8' });
+    urls.push({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
   });
 
   // All emoji pages
   emojis.forEach(emoji => {
-    urls.push({ loc: `${BASE_URL}/emoji/${emoji.slug}`, priority: '0.8' });
+    urls.push({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8' });
   });
 
   return urls;
@@ -61,7 +61,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
 
 const generateSitemapXml = (): string => {
   const urls = generateSitemapUrls();
-  
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => `  <url><loc>${url.loc}</loc><priority>${url.priority}</priority></url>`).join('\n')}

@@ -6,7 +6,7 @@ import { ArrowLeft, Check, X } from "lucide-react";
 
 const EmojiComparison = () => {
   const { slug } = useParams<{ slug: string }>();
-  
+
   // Parse slug like "grinning-face-vs-grinning-face-with-big-eyes"
   const parts = slug?.split('-vs-');
   if (!parts || parts.length !== 2) {
@@ -32,7 +32,7 @@ const EmojiComparison = () => {
         <meta name="keywords" content={`${emoji1.name} vs ${emoji2.name}, emoji comparison, ${emoji1.name}, ${emoji2.name}, emoji differences`} />
         <meta name="author" content="Emoji Pedia" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}`} />
+        <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
       </Helmet>
 
       <article className="container-page py-8 max-w-4xl mx-auto">
@@ -61,9 +61,9 @@ const EmojiComparison = () => {
               </div>
               <p className="text-xl font-semibold">{emoji1.name}</p>
             </div>
-            
+
             <span className="text-4xl font-bold text-muted-foreground">VS</span>
-            
+
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-purple-500/20 to-purple-500/5 flex items-center justify-center text-6xl shadow-lg mb-3">
                 {emoji2.unicode}
@@ -71,15 +71,15 @@ const EmojiComparison = () => {
               <p className="text-xl font-semibold">{emoji2.name}</p>
             </div>
           </div>
-          
+
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             {emoji1.unicode} {emoji1.name} vs {emoji2.unicode} {emoji2.name}
           </h1>
-          
+
           <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             {pageDescription}
           </p>
-          
+
           <div className="mt-8 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         </header>
 
@@ -111,7 +111,7 @@ const EmojiComparison = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Side-by-Side Comparison
           </h2>
-          
+
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
@@ -153,7 +153,7 @@ const EmojiComparison = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Emotional Tone
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl border border-border bg-card">
               <div className="flex items-center gap-3 mb-4">
@@ -164,7 +164,7 @@ const EmojiComparison = () => {
                 {getEmotionalTone(emoji1)}
               </p>
             </div>
-            
+
             <div className="p-6 rounded-2xl border border-border bg-card">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-4xl">{emoji2.unicode}</span>
@@ -183,7 +183,7 @@ const EmojiComparison = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             When to Use Each Emoji
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 border border-green-200 dark:border-green-800">
               <div className="flex items-center gap-3 mb-4">
@@ -199,7 +199,7 @@ const EmojiComparison = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="p-6 rounded-2xl bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950/30 dark:to-violet-950/30 border border-purple-200 dark:border-purple-800">
               <div className="flex items-center gap-3 mb-4">
                 <Check className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -223,7 +223,7 @@ const EmojiComparison = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Key Differences
           </h2>
-          
+
           <div className="p-6 rounded-2xl border border-border bg-card">
             <ul className="space-y-4">
               {getKeyDifferences(emoji1, emoji2).map((diff, i) => (
@@ -244,7 +244,7 @@ const EmojiComparison = () => {
             <span className="w-1 h-8 bg-primary rounded-full" />
             Related Emojis
           </h2>
-          
+
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             <Link
               to={`/emoji/${emoji1.slug}`}
@@ -253,7 +253,7 @@ const EmojiComparison = () => {
               <div className="text-4xl mb-2">{emoji1.unicode}</div>
               <p className="text-sm font-medium line-clamp-2">{emoji1.name}</p>
             </Link>
-            
+
             <Link
               to={`/emoji/${emoji2.slug}`}
               className="p-4 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card text-center"
@@ -261,11 +261,11 @@ const EmojiComparison = () => {
               <div className="text-4xl mb-2">{emoji2.unicode}</div>
               <p className="text-sm font-medium line-clamp-2">{emoji2.name}</p>
             </Link>
-            
+
             {emojis
-              .filter(e => 
-                e.categorySlug === emoji1.categorySlug && 
-                e.slug !== emoji1.slug && 
+              .filter(e =>
+                e.categorySlug === emoji1.categorySlug &&
+                e.slug !== emoji1.slug &&
                 e.slug !== emoji2.slug
               )
               .slice(0, 6)
@@ -296,7 +296,7 @@ function getEmotionalTone(emoji: typeof emojis[0]): string {
     'face-with-tears-of-joy': 'Indicates something is hilariously funny. Overwhelming amusement.',
     'slightly-smiling-face': 'Subtle, gentle happiness. Polite and understated.',
   };
-  
+
   return tones[emoji.slug] || `Conveys ${emoji.shortMeaning.toLowerCase()}. ${emoji.detailedMeaning || ''}`;
 }
 
@@ -321,7 +321,7 @@ function getUseCases(emoji: typeof emojis[0]): string[] {
       'Expressing contentment and satisfaction'
     ],
   };
-  
+
   return cases[emoji.slug] || [
     `When expressing ${emoji.shortMeaning.toLowerCase()}`,
     'In casual conversations with friends',

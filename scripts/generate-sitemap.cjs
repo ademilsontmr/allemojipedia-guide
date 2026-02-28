@@ -21,10 +21,10 @@ const urls = [];
 
 // Main pages
 urls.push({ loc: `${BASE_URL}/`, priority: '1.0' });
-urls.push({ loc: `${BASE_URL}/categories`, priority: '0.9' });
-urls.push({ loc: `${BASE_URL}/people`, priority: '0.9' });
-urls.push({ loc: `${BASE_URL}/blog`, priority: '0.9' });
-urls.push({ loc: `${BASE_URL}/sitemap`, priority: '0.5' });
+urls.push({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
+urls.push({ loc: `${BASE_URL}/people/`, priority: '0.9' });
+urls.push({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+urls.push({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
 
 // Category pages
 const categories = [
@@ -40,23 +40,23 @@ const categories = [
 ];
 
 categories.forEach(cat => {
-  urls.push({ loc: `${BASE_URL}/category/${cat}`, priority: '0.8' });
+  urls.push({ loc: `${BASE_URL}/category/${cat}/`, priority: '0.8' });
 });
 
 // People subcategory pages
 const peopleSubcategories = ['gestures', 'emotions', 'professions', 'family'];
 peopleSubcategories.forEach(sub => {
-  urls.push({ loc: `${BASE_URL}/people/${sub}`, priority: '0.7' });
+  urls.push({ loc: `${BASE_URL}/people/${sub}/`, priority: '0.7' });
 });
 
 // Blog posts
 blogSlugs.forEach(slug => {
-  urls.push({ loc: `${BASE_URL}/blog/${slug}`, priority: '0.7' });
+  urls.push({ loc: `${BASE_URL}/blog/${slug}/`, priority: '0.7' });
 });
 
 // All emoji pages
 emojiSlugs.forEach(slug => {
-  urls.push({ loc: `${BASE_URL}/emoji/${slug}`, priority: '0.6' });
+  urls.push({ loc: `${BASE_URL}/emoji/${slug}/`, priority: '0.6' });
 });
 
 // Generate XML

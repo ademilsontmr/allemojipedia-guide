@@ -9,7 +9,7 @@ const FlagQuizPage = () => {
     "@type": "WebPage",
     "name": "Guess the Flag Emoji - World Flags Quiz Online",
     "description": "Play our country flag emoji quiz online! Interactive emoji flag game with 50 world flags. Free world flag recognition quiz and online geography challenge.",
-    "url": "https://allemojipedia.com/flag-quiz",
+    "url": "https://allemojipedia.com/flag-quiz/",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Allemojipedia",
@@ -81,18 +81,18 @@ const FlagQuizPage = () => {
         <meta name="keywords" content="guess the flag emoji, country flag emoji quiz, world flags quiz online, emoji flag game, geography emoji quiz, flag emoji quiz, guess the flag game, country flag emoji game, world flag recognition quiz, online geography challenge, flag recognition game, educational quiz, geography learning, flag emojis, country flags quiz, interactive geography game, free flag quiz" />
         <meta name="author" content="Allemojipedia" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <link rel="canonical" href="https://allemojipedia.com/flag-quiz" />
-        
+        <link rel="canonical" href="https://allemojipedia.com/flag-quiz/" />
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://allemojipedia.com/flag-quiz" />
+        <meta property="og:url" content="https://allemojipedia.com/flag-quiz/" />
         <meta property="og:title" content="Guess the Flag Emoji - World Flags Quiz Online" />
         <meta property="og:description" content="Play the best country flag emoji quiz online! Test your geography knowledge with our interactive emoji flag game. 50 world flags, 30 questions. Free!" />
         <meta property="og:image" content="https://allemojipedia.com/flag-quiz-og.png" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://allemojipedia.com/flag-quiz" />
+        <meta property="twitter:url" content="https://allemojipedia.com/flag-quiz/" />
         <meta property="twitter:title" content="Guess the Flag Emoji - World Flags Quiz Online" />
         <meta property="twitter:description" content="Play the best country flag emoji quiz online! Interactive emoji flag game with 50 world flags. Free geography challenge!" />
         <meta property="twitter:image" content="https://allemojipedia.com/flag-quiz-og.png" />
