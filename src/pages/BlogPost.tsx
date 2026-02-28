@@ -260,7 +260,7 @@ const BlogPost = () => {
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Blog", href: "/blog" },
+            { label: "Blog", href: "/blog/" },
             { label: post.title },
           ]}
         />

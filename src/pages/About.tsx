@@ -23,14 +23,15 @@ const About = () => {
           ]}
         />
 
+
         <div className="max-w-3xl mx-auto space-y-8">
           <h1 className="text-3xl font-bold">About All Emojipedia</h1>
 
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">Our Mission</h2>
             <p className="text-muted-foreground">
-              All Emojipedia was created with a simple yet powerful goal: to provide everyone with a comprehensive, 
-              easy-to-use, and completely free emoji reference guide. We believe that emojis have become an essential 
+              All Emojipedia was created with a simple yet powerful goal: to provide everyone with a comprehensive,
+              easy-to-use, and completely free emoji reference guide. We believe that emojis have become an essential
               part of modern communication, and everyone deserves access to understand and use them effectively.
             </p>
           </section>
@@ -38,8 +39,8 @@ const About = () => {
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">Why We Built This</h2>
             <p className="text-muted-foreground">
-              In today's digital world, emojis transcend language barriers and add emotional depth to our conversations. 
-              However, with thousands of emojis available, it can be challenging to find the perfect one or understand 
+              In today's digital world, emojis transcend language barriers and add emotional depth to our conversations.
+              However, with thousands of emojis available, it can be challenging to find the perfect one or understand
               what a particular emoji means. That's where All Emojipedia comes in.
             </p>
             <p className="text-muted-foreground">
@@ -57,8 +58,8 @@ const About = () => {
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">What We Offer</h2>
             <p className="text-muted-foreground">
-              All Emojipedia features a complete collection of emojis organized by categories including People & Body, 
-              Animals & Nature, Food & Drink, Activities, Travel & Places, Objects, Symbols, and Flags. Each emoji 
+              All Emojipedia features a complete collection of emojis organized by categories including People & Body,
+              Animals & Nature, Food & Drink, Activities, Travel & Places, Objects, Symbols, and Flags. Each emoji
               comes with its official name, making it easy to search and identify the exact emoji you need.
             </p>
           </section>
@@ -66,8 +67,8 @@ const About = () => {
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">Our Commitment</h2>
             <p className="text-muted-foreground">
-              We are committed to keeping All Emojipedia updated with the latest emoji releases and maintaining 
-              a clean, fast, and user-friendly experience. Our goal is to be your go-to resource whenever you 
+              We are committed to keeping All Emojipedia updated with the latest emoji releases and maintaining
+              a clean, fast, and user-friendly experience. Our goal is to be your go-to resource whenever you
               need to find, understand, or copy an emoji.
             </p>
           </section>
@@ -75,8 +76,9 @@ const About = () => {
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">Get in Touch</h2>
             <p className="text-muted-foreground">
-              We love hearing from our users! If you have suggestions, feedback, or questions, please don't 
-              hesitate to reach out through our <Link to="/contact" className="text-primary hover:underline">Contact page</Link>.
+              We love hearing from our users! If you have suggestions, feedback, or questions, please don't
+              hesitate to reach out through our <Link to="/contact/" className="text-primary hover:underline">Contact page</Link>.
+
             </p>
           </section>
 

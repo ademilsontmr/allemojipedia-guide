@@ -95,8 +95,9 @@ const Category = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="container-page section-spacing">
-        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Categories", href: "/categories" }, { label: category.name }]} />
-        
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Categories", href: "/categories/" }, { label: category.name }]} />
+
+
         {/* H1 - Main Title */}
         <header className="mb-8">
           <div className="flex items-center gap-4 mb-3">

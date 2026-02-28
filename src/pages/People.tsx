@@ -62,7 +62,8 @@ const People = () => {
 
       <div className="container-page section-spacing">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "People Hub" }]} />
-        
+
+
         {/* H1 - Main Title */}
         <header className="mb-8">
           <h1 className="text-3xl font-bold mb-3">People Emojis and Their Meanings</h1>

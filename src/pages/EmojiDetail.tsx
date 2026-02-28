@@ -89,21 +89,21 @@ const EmojiDetail = () => {
   const primaryRelated = relatedEmojis[0];
 
   const faqItems = [
-    { 
-      question: `Is the ${emoji.unicode} emoji informal?`, 
+    {
+      question: `Is the ${emoji.unicode} emoji informal?`,
       answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('casual') || ctx.toLowerCase().includes('friend'))
         ? `Yes, the ${emoji.name} emoji is generally considered informal and works best in casual conversations with friends and family.`
         : `The ${emoji.name} emoji can be used in both casual and semi-formal contexts, depending on your relationship with the recipient.`
     },
-    { 
-      question: `Can I use the ${emoji.unicode} emoji at work?`, 
+    {
+      question: `Can I use the ${emoji.unicode} emoji at work?`,
       answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional') || ctx.toLowerCase().includes('work'))
         ? `Yes, ${emoji.unicode} is generally appropriate for workplace communication when used in casual team chats or friendly emails with colleagues you know well.`
         : `Use ${emoji.unicode} cautiously at work. It's acceptable in informal team chats but avoid it in formal emails or communication with clients and executives.`
     },
-    { 
+    {
       question: primaryRelated ? `What is the difference between ${emoji.unicode} and ${primaryRelated.unicode}?` : `How do I copy the ${emoji.name} emoji?`,
-      answer: primaryRelated 
+      answer: primaryRelated
         ? `While both emojis may seem similar, ${emoji.unicode} ${emoji.name} is typically used to ${emoji.usageContexts[0]?.toLowerCase() || 'express a specific feeling'}, whereas ${primaryRelated.unicode} ${primaryRelated.name} conveys ${primaryRelated.keywords?.[0] || 'a different nuance'}. Choose based on the exact tone you want to communicate.`
         : `Simply click on the ${emoji.unicode} emoji in the Copy section above to instantly copy it to your clipboard. Then paste it anywhere you need.`
     }
@@ -183,9 +183,10 @@ const EmojiDetail = () => {
       <div className="container-page section-spacing">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
-          { label: category?.name || "Category", href: `/category/${emoji.categorySlug}` },
+          { label: category?.name || "Category", href: `/category/${emoji.categorySlug}/` },
           { label: `${emoji.unicode} ${emoji.name}` }
         ]} />
+
 
         <article className="max-w-3xl">
           {/* H1 */}
@@ -216,26 +217,26 @@ const EmojiDetail = () => {
           {/* H2 - Meaning in different contexts */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Meaning in different contexts</h2>
-            
+
             <div className="space-y-5">
               {/* H3 - In conversations */}
               <div className="p-4 rounded-lg bg-muted/30">
                 <h3 className="text-lg font-medium mb-2">In conversations</h3>
                 <p className="text-muted-foreground">
-                  When chatting with friends or family, <span className="emoji">{emoji.unicode}</span> is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}. 
+                  When chatting with friends or family, <span className="emoji">{emoji.unicode}</span> is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}.
                   It adds warmth and personality to your messages without being over the top.
                 </p>
               </div>
-              
+
               {/* H3 - On social media */}
               <div className="p-4 rounded-lg bg-muted/30">
                 <h3 className="text-lg font-medium mb-2">On social media</h3>
                 <p className="text-muted-foreground">
-                  On platforms like Instagram, Twitter, and WhatsApp, <span className="emoji">{emoji.unicode}</span> helps convey {emoji.keywords[0] || 'emotion'} in captions and comments. 
+                  On platforms like Instagram, Twitter, and WhatsApp, <span className="emoji">{emoji.unicode}</span> helps convey {emoji.keywords[0] || 'emotion'} in captions and comments.
                   It's widely recognized and adds emotional context to your posts.
                 </p>
               </div>
-              
+
               {/* H3 - At work */}
               <div className="p-4 rounded-lg bg-muted/30">
                 <h3 className="text-lg font-medium mb-2">At work</h3>
@@ -347,9 +348,9 @@ const EmojiDetail = () => {
               <h2 className="text-2xl font-semibold mb-4">You Might Also Like</h2>
               <div className="grid grid-cols-3 gap-3">
                 {categoryEmojis.map(e => (
-                  <Link 
-                    key={e.slug} 
-                    to={`/emoji/${e.slug}/`} 
+                  <Link
+                    key={e.slug}
+                    to={`/emoji/${e.slug}/`}
                     className="flex flex-col items-center gap-2 p-4 rounded-xl bg-gradient-to-br from-muted/50 to-muted border border-border/50 hover:border-primary/30 hover:shadow-lg hover:scale-105 transition-all duration-300 group"
                   >
                     <span className="emoji text-4xl group-hover:scale-110 transition-transform duration-300">{e.unicode}</span>

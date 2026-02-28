@@ -13,8 +13,9 @@ const FlagQuizPage = () => {
     "isPartOf": {
       "@type": "WebSite",
       "name": "Allemojipedia",
-      "url": "https://allemojipedia.com"
+      "url": "https://allemojipedia.com/"
     },
+
     "about": {
       "@type": "Thing",
       "name": "Flag Emojis and Geography Quiz",
@@ -263,17 +264,17 @@ const FlagQuizPage = () => {
           <section className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">More Emoji Content</h2>
             <div className="grid gap-4 md:grid-cols-3">
-              <Link to="/categories" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
+              <Link to="/categories/" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
                 <div className="text-3xl mb-3">📂</div>
                 <p className="font-semibold mb-2">Emoji Categories</p>
                 <p className="text-sm text-muted-foreground">Browse all emoji categories and learn their meanings</p>
               </Link>
-              <Link to="/emoji-comparisons" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
+              <Link to="/emoji-comparisons/" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
                 <div className="text-3xl mb-3">⚖️</div>
                 <p className="font-semibold mb-2">Emoji Comparisons</p>
                 <p className="text-sm text-muted-foreground">Compare similar emojis and understand their differences</p>
               </Link>
-              <Link to="/blog/guess-the-flag-emoji-quiz" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
+              <Link to="/blog/guess-the-flag-emoji-quiz/" className="p-6 rounded-xl border border-border hover:border-primary/50 hover:bg-muted/50 transition-all">
                 <div className="text-3xl mb-3">📝</div>
                 <p className="font-semibold mb-2">Quiz Guide</p>
                 <p className="text-sm text-muted-foreground">Read our complete guide with tips and strategies</p>

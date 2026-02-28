@@ -124,27 +124,30 @@ const EmojiComparisons = () => {
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <Link
-              to="/category/smileys-and-emotion"
+              to="/category/smileys-and-emotion/"
               className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card"
             >
+
               <div className="text-4xl mb-3">😊</div>
               <h3 className="font-semibold mb-1">Smileys & Emotion</h3>
               <p className="text-sm text-muted-foreground">Compare facial expressions</p>
             </Link>
 
             <Link
-              to="/category/people-and-body"
+              to="/category/people-and-body/"
               className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card"
             >
+
               <div className="text-4xl mb-3">👋</div>
               <h3 className="font-semibold mb-1">People & Body</h3>
               <p className="text-sm text-muted-foreground">Compare gestures and people</p>
             </Link>
 
             <Link
-              to="/categories"
+              to="/categories/"
               className="p-6 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card"
             >
+
               <div className="text-4xl mb-3">📂</div>
               <h3 className="font-semibold mb-1">All Categories</h3>
               <p className="text-sm text-muted-foreground">Browse all emoji categories</p>

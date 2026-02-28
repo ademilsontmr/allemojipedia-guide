@@ -88,6 +88,7 @@ const PeopleSubcategory = () => {
           { label: subcategory.name }
         ]} />
 
+
         {/* H1 - Main Title */}
         <header className="mb-8">
           <div className="flex items-center gap-4 mb-3">

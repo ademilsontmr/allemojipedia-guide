@@ -185,10 +185,11 @@ const Index = () => {
               <div className="p-6 md:p-8 rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-purple-500/5">
                 <FlagQuiz />
                 <div className="mt-6 text-center">
-                  <Link 
-                    to="/flag-quiz" 
+                  <Link
+                    to="/flag-quiz/"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
                   >
+
                     Play Full Quiz & Learn More 🎯
                   </Link>
                 </div>
@@ -211,18 +212,20 @@ const Index = () => {
             <section className="section-spacing">
               <div className="flex items-center justify-between mb-4 md:mb-6">
                 <h2 className="text-xl md:text-2xl font-semibold">Emoji Comparisons</h2>
-                <Link to="/emoji-comparisons" className="text-xs md:text-sm text-primary hover:underline">
+                <Link to="/emoji-comparisons/" className="text-xs md:text-sm text-primary hover:underline">
                   View all →
                 </Link>
+
               </div>
               <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
                 Compare similar emojis side-by-side to understand their differences and when to use each one.
               </p>
               <div className="grid gap-3 md:gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <Link
-                  to="/emoji/grinning-face-vs-grinning-face-with-big-eyes"
+                  to="/emoji/grinning-face-vs-grinning-face-with-big-eyes/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😀
@@ -238,9 +241,10 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/face-with-tears-of-joy-vs-rolling-on-the-floor-laughing"
+                  to="/emoji/face-with-tears-of-joy-vs-rolling-on-the-floor-laughing/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😂
@@ -256,9 +260,10 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/red-heart-vs-pink-heart"
+                  to="/emoji/red-heart-vs-pink-heart/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       ❤️
@@ -274,9 +279,10 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/thinking-face-vs-face-with-raised-eyebrow"
+                  to="/emoji/thinking-face-vs-face-with-raised-eyebrow/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       🤔
@@ -292,9 +298,10 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/thumbs-up-vs-thumbs-down"
+                  to="/emoji/thumbs-up-vs-thumbs-down/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       👍
@@ -310,9 +317,10 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/crying-face-vs-loudly-crying-face"
+                  to="/emoji/crying-face-vs-loudly-crying-face/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
+
                   <div className="flex items-center justify-center gap-2 md:gap-4 mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center text-2xl md:text-4xl group-hover:scale-110 transition-transform duration-300">
                       😢

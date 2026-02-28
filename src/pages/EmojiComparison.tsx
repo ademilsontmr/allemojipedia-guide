@@ -39,15 +39,17 @@ const EmojiComparison = () => {
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Emoji Comparisons", href: "/emoji-comparisons" },
+            { label: "Emoji Comparisons", href: "/emoji-comparisons/" },
             { label: pageTitle },
           ]}
         />
 
+
         <Link
-          to="/emoji-comparisons"
+          to="/emoji-comparisons/"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
         >
+
           <ArrowLeft className="h-4 w-4" />
           Back to Comparisons
         </Link>
@@ -247,7 +249,7 @@ const EmojiComparison = () => {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             <Link
-              to={`/emoji/${emoji1.slug}`}
+              to={`/emoji/${emoji1.slug}/`}
               className="p-4 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card text-center"
             >
               <div className="text-4xl mb-2">{emoji1.unicode}</div>
@@ -255,7 +257,7 @@ const EmojiComparison = () => {
             </Link>
 
             <Link
-              to={`/emoji/${emoji2.slug}`}
+              to={`/emoji/${emoji2.slug}/`}
               className="p-4 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card text-center"
             >
               <div className="text-4xl mb-2">{emoji2.unicode}</div>
@@ -272,7 +274,7 @@ const EmojiComparison = () => {
               .map(emoji => (
                 <Link
                   key={emoji.slug}
-                  to={`/emoji/${emoji.slug}`}
+                  to={`/emoji/${emoji.slug}/`}
                   className="p-4 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 bg-card text-center"
                 >
                   <div className="text-4xl mb-2">{emoji.unicode}</div>
