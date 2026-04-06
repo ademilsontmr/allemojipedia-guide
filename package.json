@@ -9,7 +9,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-pages": "tsx scripts/generate-static-pages.ts"
+    "generate-pages": "tsx scripts/generate-static-pages.ts",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name=allemojipedia --branch=main"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

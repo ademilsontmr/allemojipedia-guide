@@ -193,6 +193,9 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
         </div>
         <div>
           <div className="font-medium mb-3">About</div>
+          <p className="text-sm text-muted-foreground mb-3">
+            Allemojipedia helps you communicate better by providing clear emoji meanings, usage examples, and cultural context. Whether you're texting friends, posting on social media, or learning a new language, we make emoji communication simple and effective.
+          </p>
           <p className="text-sm text-muted-foreground">© 2026 Allemojipedia. All emoji meanings and content provided for educational purposes.</p>
         </div>
       </div>
