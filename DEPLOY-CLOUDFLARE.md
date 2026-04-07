@@ -70,3 +70,47 @@ Se der erro de projeto não encontrado, crie o projeto primeiro:
 ```bash
 npx wrangler pages project create allemojipedia
 ```
+
+
+---
+
+## Corrigir Erros de Redirecionamento no Google Search Console
+
+Se você está vendo muitas páginas com redirecionamento no Google Search Console, siga estes passos:
+
+### 1. Configurar Redirect Rules no Cloudflare
+
+Vá em: **Cloudflare Dashboard > Seu domínio > Rules > Redirect Rules**
+
+**Regra 1: Forçar HTTPS**
+- Nome: "Force HTTPS"
+- If: `Scheme` equals `http`
+- Then: Dynamic redirect
+  - Type: `301 Permanent Redirect`
+  - Expression: `concat("https://", http.host, http.request.uri.path)`
+
+**Regra 2: Remover www**
+- Nome: "Remove www"
+- If: `Hostname` equals `www.allemojipedia.com`
+- Then: Static redirect
+  - Type: `301 Permanent Redirect`
+  - URL: `https://allemojipedia.com$request_uri`
+
+### 2. Configurar SSL/TLS
+
+Vá em: **SSL/TLS > Overview**
+- Selecione: **Full (strict)**
+
+### 3. Aguardar Recrawl do Google
+
+Depois de configurar os redirecionamentos:
+- Aguarde 24-48 horas para o Google recrawl
+- Os erros de redirecionamento vão diminuir gradualmente
+- Você pode solicitar reindexação de URLs importantes no Search Console
+
+### 4. Verificar Sitemap
+
+Certifique-se que o sitemap está usando apenas HTTPS sem www:
+- ✅ `https://allemojipedia.com/emoji/...`
+- ❌ `http://allemojipedia.com/emoji/...`
+- ❌ `https://www.allemojipedia.com/emoji/...`
