@@ -78,39 +78,100 @@ npx wrangler pages project create allemojipedia
 
 Se você está vendo muitas páginas com redirecionamento no Google Search Console, siga estes passos:
 
-### 1. Configurar Redirect Rules no Cloudflare
+### Problema: "Página com redirecionamento" com validação falha
+
+Isso acontece quando:
+1. URLs com `www` ou `http://` ainda estão sendo rastreadas pelo Google
+2. Redirecionamentos em cadeia (múltiplos redirects)
+3. Google ainda tem URLs antigas indexadas da migração anterior
+
+### Solução no Cloudflare Pages
+
+#### 1. Verificar arquivo `_redirects`
+
+O arquivo `public/_redirects` deve ter:
+
+```
+# Force HTTPS and non-www
+http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
+http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
+https://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
+
+# SPA fallback (must be last)
+/* /index.html 200
+```
+
+#### 2. Configurar Redirect Rules no Cloudflare Dashboard
 
 Vá em: **Cloudflare Dashboard > Seu domínio > Rules > Redirect Rules**
 
-**Regra 1: Forçar HTTPS**
+**Regra 1: Force HTTPS**
 - Nome: "Force HTTPS"
 - If: `Scheme` equals `http`
 - Then: Dynamic redirect
   - Type: `301 Permanent Redirect`
   - Expression: `concat("https://", http.host, http.request.uri.path)`
 
-**Regra 2: Remover www**
+**Regra 2: Remove www**
 - Nome: "Remove www"
 - If: `Hostname` equals `www.allemojipedia.com`
-- Then: Static redirect
+- Then: Dynamic redirect
   - Type: `301 Permanent Redirect`
-  - URL: `https://allemojipedia.com$request_uri`
+  - Expression: `concat("https://allemojipedia.com", http.request.uri.path)`
 
-### 2. Configurar SSL/TLS
+#### 3. Verificar Sitemap
 
-Vá em: **SSL/TLS > Overview**
-- Selecione: **Full (strict)**
+Certifique-se que TODAS as URLs no sitemap:
+- ✅ Usam `https://` (não http://)
+- ✅ NÃO têm `www`
+- ✅ TÊM trailing slash no final (/)
 
-### 3. Aguardar Recrawl do Google
+Exemplo correto:
+```
+https://allemojipedia.com/
+https://allemojipedia.com/emoji/skull/
+https://allemojipedia.com/category/smileys-and-emotion/
+```
 
-Depois de configurar os redirecionamentos:
-- Aguarde 24-48 horas para o Google recrawl
-- Os erros de redirecionamento vão diminuir gradualmente
-- Você pode solicitar reindexação de URLs importantes no Search Console
+Exemplo ERRADO:
+```
+http://allemojipedia.com/emoji/skull/
+https://www.allemojipedia.com/category/smileys-and-emotion/
+```
 
-### 4. Verificar Sitemap
+#### 4. Aguardar Recrawl do Google
 
-Certifique-se que o sitemap está usando apenas HTTPS sem www:
-- ✅ `https://allemojipedia.com/emoji/...`
-- ❌ `http://allemojipedia.com/emoji/...`
-- ❌ `https://www.allemojipedia.com/emoji/...`
+- Após a migração de servidor, é NORMAL ter muitas páginas com redirecionamento
+- Google ainda tem URLs antigas indexadas (da Vercel ou configuração anterior)
+- Essas URLs antigas redirecionam corretamente para as novas
+- Aguarde 2-4 semanas para o Google recrawlear
+- O número de redirecionamentos vai diminuir gradualmente
+
+#### 5. (Opcional) Solicitar Reindexação
+
+No Google Search Console:
+1. Vá em "Inspeção de URL"
+2. Cole URLs importantes (homepage, categorias principais)
+3. Clique em "Solicitar indexação"
+
+**NÃO faça isso para todas as URLs** - o Google vai recrawlear automaticamente.
+
+### Por que isso acontece?
+
+Quando você migra de servidor (Vercel → Cloudflare):
+1. Google ainda tem milhares de URLs antigas indexadas
+2. Essas URLs antigas redirecionam para as novas (correto!)
+3. Aparecem como "Página com redirecionamento" no Search Console
+4. Isso é ESPERADO e vai se resolver sozinho em 2-4 semanas
+
+### Checklist Final ✅
+
+- [ ] Arquivo `_redirects` configurado (força HTTPS, remove www)
+- [ ] Redirect Rules no Cloudflare Dashboard criadas
+- [ ] Sitemap usa apenas URLs canônicas (https, sem www, COM trailing slash)
+- [ ] SSL/TLS configurado como "Full (strict)"
+- [ ] Aguardando 2-4 semanas para recrawl completo do Google
+
+### Importante ⚠️
+
+Os 2,31 mil redirecionamentos que você está vendo são NORMAIS após migração. Não é um erro! É o Google encontrando URLs antigas que redirecionam corretamente para as novas. Com o tempo, esse número vai diminuir.
