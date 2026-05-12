@@ -328,19 +328,116 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
   `);
 };
 
-const comparisonBody = (left: Emoji, right: Emoji) => staticShell(`
-  <article>
-    <nav><a href="/">Home</a> / <a href="/emoji-comparisons/">Emoji Comparisons</a></nav>
-    <h1>${escapeHtml(`${left.unicode} ${left.name} vs ${right.unicode} ${right.name}`)}</h1>
-    <p>Compare the meaning, tone, and best use cases for ${escapeHtml(left.name)} and ${escapeHtml(right.name)}.</p>
-    <h2>${escapeHtml(`${left.unicode} ${left.name}`)}</h2>
-    <p>${escapeHtml(left.shortMeaning)}</p>
-    ${renderParagraphs(left.detailedMeaning, 1)}
-    <h2>${escapeHtml(`${right.unicode} ${right.name}`)}</h2>
-    <p>${escapeHtml(right.shortMeaning)}</p>
-    ${renderParagraphs(right.detailedMeaning, 1)}
-  </article>
-`);
+const lowerFirst = (value: string) => value.charAt(0).toLowerCase() + value.slice(1);
+
+const emojiTone = (emoji: Emoji) => {
+  const firstContext = emoji.usageContexts[0] ?? emoji.shortMeaning;
+  return `${emoji.unicode} ${emoji.name} is best for ${lowerFirst(firstContext.replace(/\.$/, ''))}. It usually feels connected to ${emoji.keywords.slice(0, 3).join(', ') || 'its core meaning'}, but the exact tone depends on the words around it.`;
+};
+
+const emojiUseCases = (emoji: Emoji) => {
+  const contexts = emoji.usageContexts.slice(0, 3);
+  return contexts.length ? contexts : [
+    `Use ${emoji.unicode} when you want to express ${lowerFirst(emoji.shortMeaning.replace(/\.$/, ''))}.`,
+    `Use ${emoji.unicode} in casual messages where the context makes the tone clear.`,
+    `Use ${emoji.unicode} when the emoji adds meaning that plain text would not show.`,
+  ];
+};
+
+const comparisonFaqItems = (left: Emoji, right: Emoji) => [
+  {
+    question: `What is the difference between ${left.unicode} and ${right.unicode}?`,
+    answer: `${left.unicode} ${left.name} usually means ${lowerFirst(left.shortMeaning.replace(/\.$/, ''))}, while ${right.unicode} ${right.name} usually means ${lowerFirst(right.shortMeaning.replace(/\.$/, ''))}. Choose based on the tone and situation of your message.`,
+  },
+  {
+    question: `When should I use ${left.unicode} instead of ${right.unicode}?`,
+    answer: `Use ${left.unicode} when your message matches ${lowerFirst((left.usageContexts[0] ?? left.shortMeaning).replace(/\.$/, ''))}. Use ${right.unicode} when the context is closer to ${lowerFirst((right.usageContexts[0] ?? right.shortMeaning).replace(/\.$/, ''))}.`,
+  },
+  {
+    question: `Can ${left.unicode} and ${right.unicode} be used together?`,
+    answer: `Yes. You can use ${left.unicode} and ${right.unicode} together when you want to layer similar feelings or make the tone stronger, but avoid stacking them in formal or sensitive messages.`,
+  },
+];
+
+const comparisonBody = (left: Emoji, right: Emoji) => {
+  const faqItems = comparisonFaqItems(left, right);
+
+  return staticShell(`
+    <article>
+      <nav><a href="/">Home</a> / <a href="/emoji-comparisons/">Emoji Comparisons</a></nav>
+      <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+      <h1>${escapeHtml(`${left.unicode} ${left.name} vs ${right.unicode} ${right.name}`)}</h1>
+      <p>Compare the meaning, tone, and best use cases for ${escapeHtml(left.name)} and ${escapeHtml(right.name)} so you can choose the emoji that fits your message.</p>
+
+      <h2>Quick difference</h2>
+      <p><strong>${escapeHtml(left.unicode)} ${escapeHtml(left.name)}</strong>: ${escapeHtml(left.shortMeaning)}</p>
+      <p><strong>${escapeHtml(right.unicode)} ${escapeHtml(right.name)}</strong>: ${escapeHtml(right.shortMeaning)}</p>
+
+      <h2>Side-by-side comparison</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>${escapeHtml(`${left.unicode} ${left.name}`)}</th>
+            <th>${escapeHtml(`${right.unicode} ${right.name}`)}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Core meaning</td>
+            <td>${escapeHtml(left.shortMeaning)}</td>
+            <td>${escapeHtml(right.shortMeaning)}</td>
+          </tr>
+          <tr>
+            <td>Common tone</td>
+            <td>${escapeHtml(emojiTone(left))}</td>
+            <td>${escapeHtml(emojiTone(right))}</td>
+          </tr>
+          <tr>
+            <td>Category</td>
+            <td>${escapeHtml(left.categorySlug.replace(/-/g, ' '))}</td>
+            <td>${escapeHtml(right.categorySlug.replace(/-/g, ' '))}</td>
+          </tr>
+          <tr>
+            <td>Search intent</td>
+            <td>${escapeHtml(`${left.name} meaning, ${left.unicode} in texting`)}</td>
+            <td>${escapeHtml(`${right.name} meaning, ${right.unicode} in texting`)}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>${escapeHtml(`When to use ${left.unicode} ${left.name}`)}</h2>
+      <ul>${emojiUseCases(left).map((useCase) => `<li>${escapeHtml(useCase)}</li>`).join('')}</ul>
+      ${renderParagraphs(left.detailedMeaning, 1)}
+
+      <h2>${escapeHtml(`When to use ${right.unicode} ${right.name}`)}</h2>
+      <ul>${emojiUseCases(right).map((useCase) => `<li>${escapeHtml(useCase)}</li>`).join('')}</ul>
+      ${renderParagraphs(right.detailedMeaning, 1)}
+
+      <h2>Examples</h2>
+      <ul>
+        ${left.examples.slice(0, 2).map((example) => `<li><strong>${escapeHtml(left.unicode)} ${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`).join('')}
+        ${right.examples.slice(0, 2).map((example) => `<li><strong>${escapeHtml(right.unicode)} ${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`).join('')}
+      </ul>
+
+      <h2>Which one should you choose?</h2>
+      <p>Choose ${escapeHtml(left.unicode)} when the message is closer to ${escapeHtml(lowerFirst((left.usageContexts[0] ?? left.shortMeaning).replace(/\.$/, '')))}. Choose ${escapeHtml(right.unicode)} when the tone is closer to ${escapeHtml(lowerFirst((right.usageContexts[0] ?? right.shortMeaning).replace(/\.$/, '')))}. If the conversation is serious, professional, or emotionally sensitive, add words instead of relying only on emoji tone.</p>
+
+      <h2>Frequently asked questions</h2>
+      ${faqItems.map((faq) => `
+        <h3>${escapeHtml(faq.question)}</h3>
+        <p>${escapeHtml(faq.answer)}</p>
+      `).join('\n')}
+
+      <h2>Related emoji pages</h2>
+      ${renderLinks([
+        { href: `/emoji/${left.slug}/`, label: `${left.unicode} ${left.name}`, description: left.shortMeaning },
+        { href: `/emoji/${right.slug}/`, label: `${right.unicode} ${right.name}`, description: right.shortMeaning },
+        { href: '/emoji-comparisons/', label: 'More emoji comparisons', description: 'Compare similar emojis by meaning, tone, and use case.' },
+      ])}
+    </article>
+  `);
+};
 
 const breadcrumbSchema = (items: Array<{ name: string; url?: string }>): StructuredData => ({
   '@context': 'https://schema.org',
@@ -465,6 +562,51 @@ const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredDat
     { name: post.title },
   ]),
 ];
+
+const emojiComparisonStructuredData = (left: Emoji, right: Emoji): StructuredData[] => {
+  const faqItems = comparisonFaqItems(left, right);
+  const path = `/emoji/${left.slug}-vs-${right.slug}/`;
+
+  return [
+    webPageSchema(
+      `${left.unicode} ${left.name} vs ${right.unicode} ${right.name}`,
+      `Compare ${left.name} and ${right.name}: meanings, tone, examples, and when to use each emoji.`,
+      canonicalUrl(path)
+    ),
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: `${left.name} vs ${right.name} comparison`,
+      itemListElement: [left, right].map((emoji, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'DefinedTerm',
+          name: `${emoji.unicode} ${emoji.name}`,
+          description: emoji.shortMeaning,
+          url: canonicalUrl(`/emoji/${emoji.slug}/`),
+        },
+      })),
+    },
+    breadcrumbSchema([
+      { name: 'Home', url: `${BASE_URL}/` },
+      { name: 'Emoji Comparisons', url: canonicalUrl('/emoji-comparisons/') },
+      { name: `${left.unicode} ${left.name} vs ${right.unicode} ${right.name}` },
+    ]),
+  ];
+};
 
 const emojiIntentClusterStructuredData = (
   cluster: EmojiIntentCluster,
@@ -794,7 +936,9 @@ const generateStaticPages = () => {
       description,
       `${left.name} vs ${right.name}, ${left.unicode} vs ${right.unicode}, emoji comparison`,
       comparisonBody(left, right),
-      'article'
+      'article',
+      INDEX_FOLLOW_ROBOTS,
+      emojiComparisonStructuredData(left, right)
     );
     count++;
   });
