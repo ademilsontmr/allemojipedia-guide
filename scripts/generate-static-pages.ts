@@ -5,6 +5,7 @@ import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
+import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -139,6 +140,7 @@ const staticShell = (content: string) => `
 
 const emojiBody = (emoji: Emoji) => {
   const clusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const editorial = getTopEmojiEditorial(emoji);
   const relatedLinks = emoji.relatedEmojis.slice(0, 6).map((slug) => ({
     href: `/emoji/${slug}/`,
     label: slug.split('-').map((word) => word[0]?.toUpperCase() + word.slice(1)).join(' '),
@@ -149,6 +151,17 @@ const emojiBody = (emoji: Emoji) => {
       <nav><a href="/">Home</a> / <a href="/category/${escapeHtml(emoji.categorySlug)}/">Category</a></nav>
       <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
       <p><strong>${escapeHtml(emoji.shortMeaning)}</strong></p>
+      ${editorial ? `
+        <h2>Quick answer</h2>
+        <p>${escapeHtml(editorial.snippetAnswer)}</p>
+        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
+        <h3>In texting</h3>
+        <p>${escapeHtml(editorial.textingMeaning)}</p>
+        <h3>On social media</h3>
+        <p>${escapeHtml(editorial.socialMeaning)}</p>
+        <h3>Tone warning</h3>
+        <p>${escapeHtml(editorial.caution)}</p>
+      ` : ''}
       ${renderParagraphs(emoji.detailedMeaning)}
       <h2>Common uses</h2>
       <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join('')}</ul>
@@ -157,7 +170,7 @@ const emojiBody = (emoji: Emoji) => {
       <h2>Meaning by intent</h2>
       <p>The ${escapeHtml(emoji.name)} emoji can shift meaning depending on tone, platform, and relationship. In texting it may clarify emotion, while on social media it often acts as a fast reaction or caption signal.</p>
       <h2>Search terms people use for this emoji</h2>
-      <ul>${emoji.keywords.slice(0, 8).map((keyword) => `<li>${escapeHtml(keyword)} emoji meaning</li>`).join('')}</ul>
+      <ul>${(editorial?.searchIntents ?? emoji.keywords.slice(0, 8).map((keyword) => `${keyword} emoji meaning`)).map((intent) => `<li>${escapeHtml(intent)}</li>`).join('')}</ul>
       ${clusters.length ? `<h2>Related meaning guides</h2>${renderLinks(clusters.map((cluster) => ({
         href: `/emoji-meanings/${cluster.slug}/`,
         label: cluster.shortTitle,
@@ -315,26 +328,42 @@ const webPageSchema = (name: string, description: string, url: string): Structur
   },
 });
 
-const emojiStructuredData = (emoji: Emoji): StructuredData[] => [
-  webPageSchema(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`, emoji.shortMeaning, canonicalUrl(`/emoji/${emoji.slug}/`)),
-  {
+const emojiStructuredData = (emoji: Emoji): StructuredData[] => {
+  const editorial = getTopEmojiEditorial(emoji);
+
+  return [
+    webPageSchema(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`, editorial?.snippetAnswer ?? emoji.shortMeaning, canonicalUrl(`/emoji/${emoji.slug}/`)),
+    {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
     name: `${emoji.unicode} ${emoji.name}`,
-    description: compactText(emoji.shortMeaning),
+    description: compactText(editorial?.snippetAnswer ?? emoji.shortMeaning),
     url: canonicalUrl(`/emoji/${emoji.slug}/`),
     inDefinedTermSet: {
       '@type': 'DefinedTermSet',
       name: 'Unicode Emoji',
       url: 'https://unicode.org/emoji/',
     },
-  },
-  breadcrumbSchema([
+    },
+    ...(editorial ? [{
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: editorial.faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    }] : []),
+    breadcrumbSchema([
     { name: 'Home', url: `${BASE_URL}/` },
     { name: 'Category', url: canonicalUrl(`/category/${emoji.categorySlug}/`) },
     { name: `${emoji.unicode} ${emoji.name}` },
-  ]),
-];
+    ]),
+  ];
+};
 
 const categoryStructuredData = (
   category: (typeof categories)[number],
@@ -502,8 +531,13 @@ const generateStaticPages = () => {
   // Generate emoji pages
   console.log('Generating emoji pages...');
   emojis.forEach((emoji) => {
-    const title = `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`;
-    const description = `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`;
+    const editorial = getTopEmojiEditorial(emoji);
+    const title = editorial
+      ? `${emoji.unicode} ${editorial.searchTitle} | Allemojipedia`
+      : `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`;
+    const description = editorial
+      ? editorial.snippetAnswer
+      : `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`;
     const keywords = `${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`;
 
     writeStaticPage(

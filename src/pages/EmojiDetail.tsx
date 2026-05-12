@@ -11,6 +11,7 @@ import { getEmojiCache } from "@/data/emojisCache";
 import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
+import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -91,6 +92,7 @@ const EmojiDetail = () => {
 
   const primaryRelated = relatedEmojis[0];
   const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const editorial = getTopEmojiEditorial(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(({ slug1, slug2 }) =>
       (slug1 === emoji.slug && slug2 === primaryRelated.slug) ||
@@ -99,6 +101,7 @@ const EmojiDetail = () => {
     : null;
 
   const faqItems = [
+    ...(editorial?.faqs ?? []),
     {
       question: `Is the ${emoji.unicode} emoji informal?`,
       answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('casual') || ctx.toLowerCase().includes('friend'))
@@ -171,8 +174,8 @@ const EmojiDetail = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`}</title>
-        <meta name="description" content={`${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
+        <title>{editorial ? `${emoji.unicode} ${editorial.searchTitle} | Allemojipedia` : `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`}</title>
+        <meta name="description" content={editorial ? editorial.snippetAnswer : `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`} />
         <meta name="author" content="Emoji Pedia" />
         <meta name="robots" content={getEmojiRobots(emoji)} />
@@ -207,6 +210,13 @@ const EmojiDetail = () => {
 
           <CopyEmojiCard unicode={emoji.unicode} name={emoji.name} />
 
+          {editorial && (
+            <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
+              <h2 className="text-xl font-semibold mb-2">Quick answer</h2>
+              <p className="text-foreground leading-relaxed">{editorial.snippetAnswer}</p>
+            </section>
+          )}
+
           {/* H2 - Quick summary */}
           <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
             <h2 className="text-xl font-semibold mb-2">Quick summary</h2>
@@ -214,6 +224,26 @@ const EmojiDetail = () => {
               {emoji.shortMeaning} People commonly use <span className="emoji">{emoji.unicode}</span> {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
             </p>
           </section>
+
+          {editorial && (
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">{emoji.unicode} meaning in texting and social media</h2>
+              <div className="space-y-4">
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="text-lg font-medium mb-2">In texting</h3>
+                  <p className="text-muted-foreground">{editorial.textingMeaning}</p>
+                </div>
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="text-lg font-medium mb-2">On social media</h3>
+                  <p className="text-muted-foreground">{editorial.socialMeaning}</p>
+                </div>
+                <div className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="text-lg font-medium mb-2">Tone warning</h3>
+                  <p className="text-muted-foreground">{editorial.caution}</p>
+                </div>
+              </div>
+            </section>
+          )}
 
           {/* H2 - What does the emoji mean? */}
           <section className="mb-8">
@@ -292,6 +322,17 @@ const EmojiDetail = () => {
               </div>
             )}
           </section>
+
+          {editorial && (
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">Popular searches for {emoji.unicode}</h2>
+              <ul className="grid gap-2 sm:grid-cols-2 text-muted-foreground">
+                {editorial.searchIntents.map(intent => (
+                  <li key={intent} className="rounded-lg bg-muted/30 p-3">{intent}</li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           {/* H2 - When NOT to use the emoji */}
           <section className="mb-8">
