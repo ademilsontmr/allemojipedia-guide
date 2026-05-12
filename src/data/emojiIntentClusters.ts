@@ -233,7 +233,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "eyes",
       "sparkling-heart",
     ],
-    blogSlugs: ["how-to-use-emojis-when-flirting", "emoji-meaning-texting-guide"],
+    blogSlugs: ["flirty-emoji-meanings-romantic-or-friendly", "emoji-meanings-from-a-girl-or-guy", "how-to-use-emojis-when-flirting", "emoji-meaning-texting-guide"],
     sections: [
       {
         heading: "When an emoji is actually flirty",
@@ -303,7 +303,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "skull",
       "sparkles",
     ],
-    blogSlugs: ["emoji-meaning-texting-guide", "hidden-emoji-meanings-secrets"],
+    blogSlugs: ["emoji-meanings-from-a-girl-or-guy", "emoji-meaning-texting-guide", "hidden-emoji-meanings-secrets"],
     sections: [
       {
         heading: "Do not read one emoji in isolation",
@@ -339,7 +339,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "hundred-points",
       "flexed-biceps",
     ],
-    blogSlugs: ["emoji-meaning-texting-guide", "how-to-use-emojis-when-flirting"],
+    blogSlugs: ["emoji-meanings-from-a-girl-or-guy", "flirty-emoji-meanings-romantic-or-friendly", "emoji-meaning-texting-guide", "how-to-use-emojis-when-flirting"],
     sections: [
       {
         heading: "Friendly vs flirty depends on the message",
@@ -375,7 +375,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "check-mark",
       "speech-balloon",
     ],
-    blogSlugs: ["how-to-use-emojis-on-whatsapp-without-sounding-rude", "emoji-meaning-texting-guide"],
+    blogSlugs: ["whatsapp-emoji-meanings-tone-guide", "how-to-use-emojis-on-whatsapp-without-sounding-rude", "emoji-meaning-texting-guide"],
     sections: [
       {
         heading: "WhatsApp emojis are relationship-driven",
@@ -412,7 +412,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "star-struck",
       "selfie",
     ],
-    blogSlugs: ["how-to-use-emojis-instagram-captions", "emoji-social-media-engagement-guide"],
+    blogSlugs: ["instagram-emoji-meanings-comments-dms", "how-to-use-emojis-instagram-captions", "emoji-social-media-engagement-guide"],
     sections: [
       {
         heading: "Instagram emojis often work as compliments",
@@ -448,7 +448,7 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       "see-no-evil-monkey",
       "musical-notes",
     ],
-    blogSlugs: ["gen-z-emoji-meanings-decoded", "emoji-social-media-engagement-guide"],
+    blogSlugs: ["tiktok-emoji-meanings-gen-z-slang", "gen-z-emoji-meanings-decoded", "emoji-social-media-engagement-guide"],
     sections: [
       {
         heading: "TikTok emojis are often ironic",

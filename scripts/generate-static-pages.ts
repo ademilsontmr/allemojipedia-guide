@@ -134,6 +134,14 @@ const renderLinks = (items: LinkItem[]) => `
   </ul>
 `;
 
+const renderInlineMarkdownHtml = (value: string) => {
+  const escaped = escapeHtml(compactText(value));
+
+  return escaped
+    .replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+};
+
 const staticShell = (content: string) => `
   <main class="static-seo-fallback" style="max-width: 960px; margin: 0 auto; padding: 32px 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6;">
     ${content}
@@ -309,12 +317,12 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
       const items = block
         .split('\n')
         .filter((line) => line.startsWith('- '))
-        .map((line) => `<li>${escapeHtml(line.replace(/^- /, ''))}</li>`)
+        .map((line) => `<li>${renderInlineMarkdownHtml(line.replace(/^- /, ''))}</li>`)
         .join('');
       return `<ul>${items}</ul>`;
     }
 
-    return `<p>${escapeHtml(compactText(block))}</p>`;
+    return `<p>${renderInlineMarkdownHtml(block)}</p>`;
   }).join('\n');
 
   return staticShell(`
