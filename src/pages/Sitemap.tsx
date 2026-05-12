@@ -4,9 +4,10 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { blogPosts } from "@/data/blogPosts";
 import { Helmet } from "react-helmet-async";
-import { downloadSitemap, getEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
+import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { shouldIndexEmoji } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -22,7 +23,7 @@ const Sitemap = () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setEmojis(emojisModule.emojis as Emoji[]);
+      setEmojis((emojisModule.emojis as Emoji[]).filter(shouldIndexEmoji));
       setIsEmojiDataLoaded(true);
     };
 
@@ -50,7 +51,7 @@ const Sitemap = () => {
           <div>
             <h1 className="text-3xl font-bold">Sitemap</h1>
             <p className="text-muted-foreground mt-1">
-              {getEmojiCount()} emojis and {getBlogPostCount()} articles indexed
+              {getIndexableEmojiCount()} emoji pages and {getBlogPostCount()} articles in the XML sitemap
             </p>
           </div>
           <Button onClick={downloadSitemap} variant="outline" className="gap-2">
@@ -66,6 +67,11 @@ const Sitemap = () => {
             <li><Link to="/categories/" className="text-primary hover:underline">Categories</Link></li>
             <li><Link to="/people/" className="text-primary hover:underline">People Hub</Link></li>
             <li><Link to="/blog/" className="text-primary hover:underline">Blog</Link></li>
+            <li><Link to="/emoji-comparisons/" className="text-primary hover:underline">Emoji Comparisons</Link></li>
+            <li><Link to="/flag-quiz/" className="text-primary hover:underline">Flag Quiz</Link></li>
+            <li><Link to="/about/" className="text-primary hover:underline">About</Link></li>
+            <li><Link to="/privacy/" className="text-primary hover:underline">Privacy Policy</Link></li>
+            <li><Link to="/contact/" className="text-primary hover:underline">Contact</Link></li>
           </ul>
         </section>
 

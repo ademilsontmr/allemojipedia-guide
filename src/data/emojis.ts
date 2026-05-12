@@ -61082,13 +61082,26 @@ const baseEmojis: Emoji[] = [
   },
 ];
 
-// Combine all emoji arrays
-export const emojis: Emoji[] = [
+// Keep the first definition for each slug so static HTML, runtime lookup,
+// and sitemap generation all describe the same canonical page.
+const dedupeEmojisBySlug = (items: Emoji[]): Emoji[] => {
+  const seen = new Set<string>();
+
+  return items.filter((emoji) => {
+    if (seen.has(emoji.slug)) return false;
+    seen.add(emoji.slug);
+    return true;
+  });
+};
+
+const allEmojis: Emoji[] = [
   ...baseEmojis,
   ...flagEmojis,
   ...symbolEmojis,
   ...activityEmojis
 ];
+
+export const emojis: Emoji[] = dedupeEmojisBySlug(allEmojis);
 
 export const getEmojiBySlug = (slug: string): Emoji | undefined => {
   return emojis.find(e => e.slug === slug);

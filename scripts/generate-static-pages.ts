@@ -4,6 +4,7 @@ import { emojis, type Emoji } from '../src/data/emojis';
 import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
+import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
 const DIST_DIR = 'dist';
@@ -14,6 +15,8 @@ type LinkItem = {
   label: string;
   description?: string;
 };
+
+type StructuredData = Record<string, unknown>;
 
 // Read the base index.html template
 const getBaseTemplate = () => {
@@ -91,6 +94,20 @@ const injectMetaTags = (template: string, metaTags: string) => {
 
 const injectStaticBody = (template: string, bodyHtml: string) => {
   return template.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+};
+
+const renderStructuredData = (items: StructuredData[]) =>
+  items
+    .map((item) => {
+      const json = JSON.stringify(item).replace(/</g, '\\u003c');
+      return `<script type="application/ld+json">${json}</script>`;
+    })
+    .join('\n');
+
+const injectStructuredData = (template: string, items: StructuredData[] = []) => {
+  if (!items.length) return template;
+
+  return template.replace('</head>', `${renderStructuredData(items)}\n</head>`);
 };
 
 const renderParagraphs = (text: string, limit = 3) =>
@@ -216,6 +233,103 @@ const comparisonBody = (left: Emoji, right: Emoji) => staticShell(`
   </article>
 `);
 
+const breadcrumbSchema = (items: Array<{ name: string; url?: string }>): StructuredData => ({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    ...(item.url ? { item: item.url } : {}),
+  })),
+});
+
+const webPageSchema = (name: string, description: string, url: string): StructuredData => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name,
+  description: compactText(description),
+  url,
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Allemojipedia',
+    url: `${BASE_URL}/`,
+  },
+});
+
+const emojiStructuredData = (emoji: Emoji): StructuredData[] => [
+  webPageSchema(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`, emoji.shortMeaning, canonicalUrl(`/emoji/${emoji.slug}/`)),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: `${emoji.unicode} ${emoji.name}`,
+    description: compactText(emoji.shortMeaning),
+    url: canonicalUrl(`/emoji/${emoji.slug}/`),
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name: 'Unicode Emoji',
+      url: 'https://unicode.org/emoji/',
+    },
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Category', url: canonicalUrl(`/category/${emoji.categorySlug}/`) },
+    { name: `${emoji.unicode} ${emoji.name}` },
+  ]),
+];
+
+const categoryStructuredData = (
+  category: (typeof categories)[number],
+  categoryEmojis: Emoji[]
+): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${category.name} Emojis`,
+    description: category.description,
+    url: canonicalUrl(`/category/${category.slug}/`),
+    numberOfItems: categoryEmojis.length,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/`,
+    },
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Categories', url: canonicalUrl('/categories/') },
+    { name: category.name },
+  ]),
+];
+
+const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: compactText(post.excerpt),
+    url: canonicalUrl(`/blog/${post.slug}/`),
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/about/`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/`,
+    },
+    mainEntityOfPage: canonicalUrl(`/blog/${post.slug}/`),
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Blog', url: canonicalUrl('/blog/') },
+    { name: post.title },
+  ]),
+];
+
 // Ensure directory exists
 const ensureDir = (dir: string) => {
   if (!fs.existsSync(dir)) {
@@ -231,11 +345,12 @@ const writeStaticPage = (
   keywords: string | undefined,
   bodyHtml: string,
   ogType = 'website',
-  robots?: string
+  robots = INDEX_FOLLOW_ROBOTS,
+  structuredData: StructuredData[] = []
 ) => {
   const route = canonicalPath(routePath);
   const metaTags = generateMetaTags(title, description, canonicalUrl(route), keywords, ogType, robots);
-  const html = injectStaticBody(injectMetaTags(template, metaTags), bodyHtml);
+  const html = injectStaticBody(injectStructuredData(injectMetaTags(template, metaTags), structuredData), bodyHtml);
   const dir = route === '/' ? DIST_DIR : path.join(DIST_DIR, route.replace(/^\/|\/$/g, ''));
 
   ensureDir(dir);
@@ -303,7 +418,17 @@ const generateStaticPages = () => {
     const description = `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`;
     const keywords = `${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`;
 
-    writeStaticPage(template, `/emoji/${emoji.slug}/`, title, description, keywords, emojiBody(emoji), 'article');
+    writeStaticPage(
+      template,
+      `/emoji/${emoji.slug}/`,
+      title,
+      description,
+      keywords,
+      emojiBody(emoji),
+      'article',
+      getEmojiRobots(emoji),
+      emojiStructuredData(emoji)
+    );
     count++;
   });
 
@@ -315,7 +440,17 @@ const generateStaticPages = () => {
     const description = `${category.description} Copy and paste ${categoryEmojis.length} ${category.name.toLowerCase()} emojis instantly.`;
     const keywords = `${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, copy ${category.name.toLowerCase()} emojis`;
 
-    writeStaticPage(template, `/category/${category.slug}/`, title, description, keywords, categoryBody(category, categoryEmojis));
+    writeStaticPage(
+      template,
+      `/category/${category.slug}/`,
+      title,
+      description,
+      keywords,
+      categoryBody(category, categoryEmojis),
+      'website',
+      INDEX_FOLLOW_ROBOTS,
+      categoryStructuredData(category, categoryEmojis)
+    );
     count++;
   });
 
@@ -341,7 +476,9 @@ const generateStaticPages = () => {
       post.excerpt,
       post.keywords,
       blogPostBody(post),
-      'article'
+      'article',
+      INDEX_FOLLOW_ROBOTS,
+      blogPostStructuredData(post)
     );
     count++;
   });

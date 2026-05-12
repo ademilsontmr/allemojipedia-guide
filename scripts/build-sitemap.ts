@@ -2,6 +2,7 @@ import { emojis } from '../src/data/emojis';
 import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
+import { shouldIndexEmoji } from '../src/utils/seoPolicy';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -20,47 +21,60 @@ const writeSitemap = (xml: string, outputPath: string) => {
 
 const generateSitemapUrls = (): SitemapUrl[] => {
   const urls: SitemapUrl[] = [];
+  const seen = new Set<string>();
+
+  const addUrl = (url: SitemapUrl) => {
+    if (seen.has(url.loc)) {
+      throw new Error(`Duplicate sitemap URL: ${url.loc}`);
+    }
+
+    seen.add(url.loc);
+    urls.push(url);
+  };
 
   // Main pages
-  urls.push({ loc: `${BASE_URL}/`, priority: '1.0' });
-  urls.push({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/people/`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
-  urls.push({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
-  urls.push({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
+  addUrl({ loc: `${BASE_URL}/`, priority: '1.0' });
+  addUrl({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
+  addUrl({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
+  addUrl({ loc: `${BASE_URL}/about/`, priority: '0.4' });
+  addUrl({ loc: `${BASE_URL}/privacy/`, priority: '0.3' });
+  addUrl({ loc: `${BASE_URL}/contact/`, priority: '0.3' });
 
   // Blog pagination pages
   const POSTS_PER_PAGE = 9;
   const totalBlogPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
   for (let i = 2; i <= totalBlogPages; i++) {
     const pageNum = i.toString().padStart(2, '0');
-    urls.push({ loc: `${BASE_URL}/blog/page/${pageNum}/`, priority: '0.7' });
+    addUrl({ loc: `${BASE_URL}/blog/page/${pageNum}/`, priority: '0.7' });
   }
 
   // Category pages
   categories.forEach(category => {
-    urls.push({ loc: `${BASE_URL}/category/${category.slug}/`, priority: '0.8' });
+    addUrl({ loc: `${BASE_URL}/category/${category.slug}/`, priority: '0.8' });
   });
 
   // People subcategory pages
   peopleSubcategories.forEach(sub => {
-    urls.push({ loc: `${BASE_URL}/people/${sub.slug}/`, priority: '0.7' });
+    addUrl({ loc: `${BASE_URL}/people/${sub.slug}/`, priority: '0.7' });
   });
 
   // Blog post pages
   blogPosts.forEach(post => {
-    urls.push({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7' });
+    addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7' });
   });
 
   // Emoji comparison pages (BEFORE individual emojis for better crawling)
   popularComparisons.forEach(({ slug1, slug2 }) => {
-    urls.push({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
+    addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
   });
 
   // All emoji pages
-  emojis.forEach(emoji => {
-    urls.push({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8' });
+  emojis.filter(shouldIndexEmoji).forEach(emoji => {
+    addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8' });
   });
 
   return urls;
