@@ -1,6 +1,5 @@
 import type { Emoji } from "@/data/emojis";
-
-type Combo = { emojis: string; meaning: string };
+import { popularEmojiCombos, type EmojiCombo } from "@/data/featuredEmojis";
 
 type EmojiCache = {
   emojis: Emoji[];
@@ -8,7 +7,7 @@ type EmojiCache = {
   getEmojisByCategory: (categorySlug: string) => Emoji[];
   searchEmojis: (query: string) => Emoji[];
   getTrendingEmojis: () => Emoji[];
-  getPopularCombos: () => Combo[];
+  getPopularCombos: () => EmojiCombo[];
 };
 
 let cachePromise: Promise<EmojiCache> | null = null;
@@ -26,17 +25,6 @@ const trendingSlugs = [
   "hundred-points",
   "thumbs-up",
   "folded-hands",
-];
-
-const popularCombos: Combo[] = [
-  { emojis: "😂💀", meaning: "Dying laughing - something is extremely funny" },
-  { emojis: "❤️‍🔥", meaning: "Intense passion or burning love" },
-  { emojis: "🥺👉👈", meaning: "Shy or hesitant request, asking cutely" },
-  { emojis: "✨💅", meaning: "Self-confidence and treating yourself" },
-  { emojis: "🙈🙉🙊", meaning: "See no evil, hear no evil, speak no evil" },
-  { emojis: "💀⚰️", meaning: "Dead from laughter or something shocking" },
-  { emojis: "🔥💯", meaning: "Something is absolutely perfect and impressive" },
-  { emojis: "🥹🫶", meaning: "Touched and showing love/appreciation" },
 ];
 
 export const getEmojiCache = async (): Promise<EmojiCache> => {
@@ -93,7 +81,7 @@ export const getEmojiCache = async (): Promise<EmojiCache> => {
       return trendingSlugs.map((s) => bySlug.get(s)).filter((e): e is Emoji => Boolean(e));
     };
 
-    const getPopularCombos = (): Combo[] => popularCombos;
+    const getPopularCombos = (): EmojiCombo[] => popularEmojiCombos;
 
     return {
       emojis,

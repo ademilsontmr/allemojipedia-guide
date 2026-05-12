@@ -9,7 +9,9 @@ import { toast } from "sonner";
 import { Copy, Check } from "lucide-react";
 
 import type { Emoji } from "@/data/emojis";
+import type { EmojiCardData } from "@/components/EmojiCard";
 import { getEmojiCache } from "@/data/emojisCache";
+import { popularEmojiCombos, trendingEmojiCards, type EmojiCombo } from "@/data/featuredEmojis";
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
   const [copied, setCopied] = useState(false);
@@ -45,20 +47,27 @@ const Index = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("search") || "";
   const [searchResults, setSearchResults] = useState<Emoji[]>([]);
-  const [trending, setTrending] = useState<Emoji[]>([]);
-  const [combos, setCombos] = useState<{ emojis: string; meaning: string }[]>([]);
-  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const [trending, setTrending] = useState<EmojiCardData[]>(trendingEmojiCards);
+  const [combos, setCombos] = useState<EmojiCombo[]>(popularEmojiCombos);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
 
     const load = async () => {
+      if (!query) {
+        setTrending(trendingEmojiCards);
+        setCombos(popularEmojiCombos);
+        setSearchResults([]);
+        setIsEmojiDataLoaded(true);
+        return;
+      }
+
+      setIsEmojiDataLoaded(false);
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setTrending(emojisModule.getTrendingEmojis());
-      setCombos(emojisModule.getPopularCombos());
-      setSearchResults(query ? emojisModule.searchEmojis(query) : []);
+      setSearchResults(emojisModule.searchEmojis(query));
       setIsEmojiDataLoaded(true);
     };
 

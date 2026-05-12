@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import { toast } from "@/hooks/use-toast";
 import type { Emoji } from "@/data/emojis";
 
-export const EmojiCard = ({ emoji }: { emoji: Emoji }) => {
+export type EmojiCardData = Pick<Emoji, "slug" | "unicode" | "name" | "shortMeaning">;
+
+export const EmojiCard = ({ emoji }: { emoji: EmojiCardData }) => {
   const copyEmoji = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
