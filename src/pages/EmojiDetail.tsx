@@ -12,6 +12,8 @@ import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
+import { editorialMeta } from "@/data/editorialMeta";
+import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -92,6 +94,7 @@ const EmojiDetail = () => {
 
   const primaryRelated = relatedEmojis[0];
   const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
   const editorial = getTopEmojiEditorial(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(({ slug1, slug2 }) =>
@@ -139,6 +142,9 @@ const EmojiDetail = () => {
     "description": emoji.shortMeaning,
     "url": `https://allemojipedia.com/emoji/${slug}/`,
     "inLanguage": "en-US",
+    "dateModified": editorialMeta.lastUpdatedIso,
+    "author": { "@type": "Organization", "name": editorialMeta.teamName, "url": "https://allemojipedia.com/about/" },
+    "publisher": { "@type": "Organization", "name": editorialMeta.siteName, "url": "https://allemojipedia.com/" },
     "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com/" },
     "about": { "@type": "Thing", "name": emoji.name, "description": emoji.shortMeaning },
     "mainEntity": {
@@ -177,7 +183,7 @@ const EmojiDetail = () => {
         <title>{editorial ? `${emoji.unicode} ${editorial.searchTitle} | Allemojipedia` : `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`}</title>
         <meta name="description" content={editorial ? editorial.snippetAnswer : `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`} />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content={editorialMeta.teamName} />
         <meta name="robots" content={getEmojiRobots(emoji)} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta property="og:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
@@ -202,6 +208,9 @@ const EmojiDetail = () => {
 
 
         <article className="max-w-3xl">
+          <p className="text-sm text-muted-foreground mb-3">
+            Reviewed by {editorialMeta.teamName} • Last updated {editorialMeta.lastUpdated}
+          </p>
           {/* H1 */}
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="emoji">{emoji.unicode}</span> {emoji.name} Emoji: Meaning and How to Use
@@ -224,6 +233,27 @@ const EmojiDetail = () => {
               {emoji.shortMeaning} People commonly use <span className="emoji">{emoji.unicode}</span> {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
             </p>
           </section>
+
+          {contextPages.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">Meaning by sender and platform</h2>
+              <p className="text-muted-foreground mb-4">
+                These guides explain how <span className="emoji">{emoji.unicode}</span> can change meaning depending on who sends it and where it appears.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {contextPages.map(page => (
+                  <Link
+                    key={page.context}
+                    to={`/emoji/${emoji.slug}/${page.context}/`}
+                    className="rounded-lg border border-border bg-muted/30 p-4 hover:border-primary/40 transition-colors"
+                  >
+                    <h3 className="font-semibold mb-1">{page.shortTitle}</h3>
+                    <p className="text-sm text-muted-foreground">{page.description}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {editorial && (
             <section className="mb-8">
@@ -361,6 +391,22 @@ const EmojiDetail = () => {
                 </div>
               ))}
             </div>
+          </section>
+
+          <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
+            <h2 className="text-xl font-semibold mb-3">Editorial review and sources</h2>
+            <p className="text-muted-foreground mb-3">
+              This emoji guide is reviewed by {editorialMeta.teamName}. We combine Unicode naming, CLDR annotations, and common usage patterns from texting and social platforms.
+            </p>
+            <ul className="space-y-2 text-sm">
+              {editorialMeta.sources.map(source => (
+                <li key={source.name}>
+                  <a href={source.url} className="text-primary hover:underline" rel="nofollow">
+                    {source.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </section>
 
           {/* H2 - Related emojis */}

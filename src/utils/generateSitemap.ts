@@ -3,6 +3,7 @@ import { categories, peopleSubcategories } from '@/data/categories';
 import { blogPosts } from '@/data/blogPosts';
 import { popularComparisons } from '@/data/emojiComparisons';
 import { emojiIntentClusters } from '@/data/emojiIntentClusters';
+import { emojiContextPages } from '@/data/emojiContextPages';
 import { shouldIndexEmoji } from './seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -61,6 +62,12 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
 
   emojiIntentClusters.forEach(cluster => {
     addUrl({ loc: `${BASE_URL}/emoji-meanings/${cluster.slug}/`, priority: '0.9' });
+  });
+
+  emojiContextPages.forEach(({ emojiSlug, context }) => {
+    const emoji = emojis.find((item) => item.slug === emojiSlug);
+    if (!emoji || !shouldIndexEmoji(emoji)) return;
+    addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8' });
   });
 
   popularComparisons.forEach(({ slug1, slug2 }) => {

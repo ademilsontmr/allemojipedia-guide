@@ -3,6 +3,7 @@ import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters } from '../src/data/emojiIntentClusters';
+import { emojiContextPages } from '../src/data/emojiContextPages';
 import { shouldIndexEmoji } from '../src/utils/seoPolicy';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -73,6 +74,13 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   // Intent cluster pages
   emojiIntentClusters.forEach(cluster => {
     addUrl({ loc: `${BASE_URL}/emoji-meanings/${cluster.slug}/`, priority: '0.9' });
+  });
+
+  // High-intent context pages for specific emojis
+  emojiContextPages.forEach(({ emojiSlug, context }) => {
+    const emoji = emojis.find((item) => item.slug === emojiSlug);
+    if (!emoji || !shouldIndexEmoji(emoji)) return;
+    addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8' });
   });
 
   // Emoji comparison pages (BEFORE individual emojis for better crawling)

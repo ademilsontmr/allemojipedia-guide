@@ -1,6 +1,7 @@
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import { editorialMeta } from "@/data/editorialMeta";
 
 const About = () => {
   return (
@@ -62,6 +63,31 @@ const About = () => {
               Animals & Nature, Food & Drink, Activities, Travel & Places, Objects, Symbols, and Flags. Each emoji
               comes with its official name, making it easy to search and identify the exact emoji you need.
             </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-xl font-semibold">Editorial Process</h2>
+            <p className="text-muted-foreground">
+              Emoji meanings on Allemojipedia are reviewed by the {editorialMeta.teamName}. We combine official Unicode
+              naming, CLDR annotations, and real-world usage patterns from texting, workplace messaging, and social media.
+              Our emoji meaning pages are updated when usage shifts or when new Unicode emoji releases change the reference set.
+            </p>
+            <p className="text-muted-foreground">
+              Last editorial update: {editorialMeta.lastUpdated}.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-xl font-semibold">Sources We Use</h2>
+            <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+              {editorialMeta.sources.map((source) => (
+                <li key={source.name}>
+                  <a href={source.url} className="text-primary hover:underline" rel="nofollow">
+                    {source.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </section>
 
           <section className="space-y-4">

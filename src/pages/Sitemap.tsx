@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { blogPosts } from "@/data/blogPosts";
 import { emojiIntentClusters } from "@/data/emojiIntentClusters";
+import { emojiContextPages } from "@/data/emojiContextPages";
 import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
@@ -84,6 +85,19 @@ const Sitemap = () => {
               <li key={cluster.slug}>
                 <Link to={`/emoji-meanings/${cluster.slug}/`} className="text-primary hover:underline">
                   {cluster.shortTitle}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-4">Emoji Context Guides</h2>
+          <ul className="space-y-2">
+            {emojiContextPages.map(page => (
+              <li key={`${page.emojiSlug}-${page.context}`}>
+                <Link to={`/emoji/${page.emojiSlug}/${page.context}/`} className="text-primary hover:underline">
+                  {page.title}
                 </Link>
               </li>
             ))}

@@ -6,6 +6,8 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
+import { editorialMeta } from '../src/data/editorialMeta';
+import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -140,6 +142,7 @@ const staticShell = (content: string) => `
 
 const emojiBody = (emoji: Emoji) => {
   const clusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
   const editorial = getTopEmojiEditorial(emoji);
   const relatedLinks = emoji.relatedEmojis.slice(0, 6).map((slug) => ({
     href: `/emoji/${slug}/`,
@@ -149,6 +152,7 @@ const emojiBody = (emoji: Emoji) => {
   return staticShell(`
     <article>
       <nav><a href="/">Home</a> / <a href="/category/${escapeHtml(emoji.categorySlug)}/">Category</a></nav>
+      <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
       <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
       <p><strong>${escapeHtml(emoji.shortMeaning)}</strong></p>
       ${editorial ? `
@@ -176,10 +180,44 @@ const emojiBody = (emoji: Emoji) => {
         label: cluster.shortTitle,
         description: cluster.description,
       })))}` : ''}
+      ${contextPages.length ? `<h2>Meaning by sender and platform</h2>${renderLinks(contextPages.map((page) => ({
+        href: `/emoji/${emoji.slug}/${page.context}/`,
+        label: page.shortTitle,
+        description: page.description,
+      })))}` : ''}
+      <h2>Editorial review and sources</h2>
+      <p>This emoji guide is reviewed by ${escapeHtml(editorialMeta.teamName)}. We combine Unicode naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
+      ${renderLinks(editorialMeta.sources.map((source) => ({
+        href: source.url,
+        label: source.name,
+      })))}
       ${relatedLinks.length ? `<h2>Often compared with</h2>${renderLinks(relatedLinks)}` : ''}
     </article>
   `);
 };
+
+const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / <a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(`${emoji.unicode} ${page.title}`)}</h1>
+    <p>${escapeHtml(page.description)}</p>
+    <h2>Quick answer</h2>
+    <p>${escapeHtml(page.answer)}</p>
+    <h2>Signs this is the intended meaning</h2>
+    <ul>${page.signals.map((signal) => `<li>${escapeHtml(signal)}</li>`).join('')}</ul>
+    <h2>Example messages</h2>
+    <ul>${page.examples.map((example) => `<li>${escapeHtml(example)}</li>`).join('')}</ul>
+    <h2>Tone warning</h2>
+    <p>${escapeHtml(page.caution)}</p>
+    <h2>Editorial review and sources</h2>
+    <p>This guide combines Unicode emoji naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
+    ${renderLinks(editorialMeta.sources.map((source) => ({
+      href: source.url,
+      label: source.name,
+    })))}
+  </article>
+`);
 
 const categoryBody = (
   category: (typeof categories)[number],
@@ -321,6 +359,17 @@ const webPageSchema = (name: string, description: string, url: string): Structur
   name,
   description: compactText(description),
   url,
+  dateModified: editorialMeta.lastUpdatedIso,
+  author: {
+    '@type': 'Organization',
+    name: editorialMeta.teamName,
+    url: `${BASE_URL}/about/`,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: editorialMeta.siteName,
+    url: `${BASE_URL}/`,
+  },
   isPartOf: {
     '@type': 'WebSite',
     name: 'Allemojipedia',
@@ -446,6 +495,39 @@ const emojiIntentClusterStructuredData = (
   ]),
 ];
 
+const emojiContextPageStructuredData = (emoji: Emoji, page: EmojiContextPage): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${emoji.unicode} ${page.title}`,
+    description: page.description,
+    url: canonicalUrl(`/emoji/${emoji.slug}/${page.context}/`),
+    datePublished: editorialMeta.lastUpdatedIso,
+    dateModified: editorialMeta.lastUpdatedIso,
+    author: {
+      '@type': 'Organization',
+      name: editorialMeta.teamName,
+      url: `${BASE_URL}/about/`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: editorialMeta.siteName,
+      url: `${BASE_URL}/`,
+    },
+    mainEntityOfPage: canonicalUrl(`/emoji/${emoji.slug}/${page.context}/`),
+    about: {
+      '@type': 'DefinedTerm',
+      name: `${emoji.unicode} ${emoji.name}`,
+      url: canonicalUrl(`/emoji/${emoji.slug}/`),
+    },
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: `${emoji.unicode} ${emoji.name}`, url: canonicalUrl(`/emoji/${emoji.slug}/`) },
+    { name: page.shortTitle },
+  ]),
+];
+
 // Ensure directory exists
 const ensureDir = (dir: string) => {
   if (!fs.existsSync(dir)) {
@@ -550,6 +632,26 @@ const generateStaticPages = () => {
       'article',
       getEmojiRobots(emoji),
       emojiStructuredData(emoji)
+    );
+    count++;
+  });
+
+  // Generate high-intent emoji context pages
+  console.log('Generating emoji context pages...');
+  emojiContextPages.forEach((page) => {
+    const emoji = emojiBySlug.get(page.emojiSlug);
+    if (!emoji) return;
+
+    writeStaticPage(
+      template,
+      `/emoji/${emoji.slug}/${page.context}/`,
+      `${emoji.unicode} ${page.title} | Allemojipedia`,
+      page.description,
+      `${emoji.name} emoji ${page.shortTitle.toLowerCase()}, ${emoji.unicode} meaning ${page.shortTitle.toLowerCase()}, ${page.title.toLowerCase()}`,
+      emojiContextPageBody(emoji, page),
+      'article',
+      getEmojiRobots(emoji),
+      emojiContextPageStructuredData(emoji, page)
     );
     count++;
   });
