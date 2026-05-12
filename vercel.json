@@ -10,9 +10,6 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -66,5 +63,5 @@
       ]
     }
   ],
-  "trailingSlash": false
+  "trailingSlash": true
 }

@@ -1,21 +1,31 @@
-// Script to generate sitemap.xml with all emojis
-// Run with: node scripts/generate-sitemap.js
+// Legacy CommonJS sitemap generator kept for manual use.
+// The production build uses scripts/build-sitemap.ts.
 
 const fs = require('fs');
 const path = require('path');
 
-// Read the emojis.ts file
-const emojisFile = fs.readFileSync(path.join(__dirname, '../src/data/emojis.ts'), 'utf8');
-
-// Extract all slugs using regex
-const slugMatches = emojisFile.matchAll(/slug:\s*["']([^"']+)["']/g);
-const emojiSlugs = [...slugMatches].map(match => match[1]);
-
-// Read blogPosts.ts
-const blogFile = fs.readFileSync(path.join(__dirname, '../src/data/blogPosts.ts'), 'utf8');
-const blogSlugs = [...blogFile.matchAll(/slug:\s*["']([^"']+)["']/g)].map(match => match[1]);
-
 const BASE_URL = 'https://allemojipedia.com';
+const POSTS_PER_PAGE = 9;
+
+const readFile = (relativePath) => fs.readFileSync(path.join(__dirname, '..', relativePath), 'utf8');
+const extractSlugs = (content) => [...content.matchAll(/slug:\s*["']([^"']+)["']/g)].map(match => match[1]);
+
+const emojiSlugs = new Set(extractSlugs(readFile('src/data/emojis.ts')));
+const emojiDataDir = path.join(__dirname, '../src/data/emojis');
+
+if (fs.existsSync(emojiDataDir)) {
+  fs.readdirSync(emojiDataDir)
+    .filter(file => file.endsWith('.ts'))
+    .forEach(file => {
+      extractSlugs(fs.readFileSync(path.join(emojiDataDir, file), 'utf8')).forEach(slug => emojiSlugs.add(slug));
+    });
+}
+
+const blogFile = readFile('src/data/blogPosts.ts');
+const blogSlugs = extractSlugs(blogFile);
+const comparisonFile = readFile('src/data/emojiComparisons.ts');
+const comparisonPairs = [...comparisonFile.matchAll(/slug1:\s*["']([^"']+)["'],\s*slug2:\s*["']([^"']+)["']/g)]
+  .map(([, slug1, slug2]) => ({ slug1, slug2 }));
 
 const urls = [];
 
@@ -24,7 +34,15 @@ urls.push({ loc: `${BASE_URL}/`, priority: '1.0' });
 urls.push({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
 urls.push({ loc: `${BASE_URL}/people/`, priority: '0.9' });
 urls.push({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+urls.push({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
+urls.push({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
 urls.push({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
+
+const totalBlogPages = Math.ceil(blogSlugs.length / POSTS_PER_PAGE);
+for (let i = 2; i <= totalBlogPages; i++) {
+  const pageNum = i.toString().padStart(2, '0');
+  urls.push({ loc: `${BASE_URL}/blog/page/${pageNum}/`, priority: '0.7' });
+}
 
 // Category pages
 const categories = [
@@ -54,9 +72,14 @@ blogSlugs.forEach(slug => {
   urls.push({ loc: `${BASE_URL}/blog/${slug}/`, priority: '0.7' });
 });
 
+// Emoji comparison pages
+comparisonPairs.forEach(({ slug1, slug2 }) => {
+  urls.push({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
+});
+
 // All emoji pages
-emojiSlugs.forEach(slug => {
-  urls.push({ loc: `${BASE_URL}/emoji/${slug}/`, priority: '0.6' });
+emojiSlugs.forEach((slug) => {
+  urls.push({ loc: `${BASE_URL}/emoji/${slug}/`, priority: '0.8' });
 });
 
 // Generate XML
@@ -65,11 +88,18 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 ${urls.map(url => `  <url><loc>${url.loc}</loc><priority>${url.priority}</priority></url>`).join('\n')}
 </urlset>`;
 
-// Write to public/sitemap.xml
-fs.writeFileSync(path.join(__dirname, '../public/sitemap.xml'), xml);
+// Write to public and dist when available
+[
+  path.join(__dirname, '../public/sitemap.xml'),
+  path.join(__dirname, '../dist/sitemap.xml'),
+].forEach(outputPath => {
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, xml);
+});
 
 console.log(`Sitemap generated with ${urls.length} URLs`);
-console.log(`- ${emojiSlugs.length} emojis`);
+console.log(`- ${emojiSlugs.size} emojis`);
 console.log(`- ${blogSlugs.length} blog posts`);
+console.log(`- ${comparisonPairs.length} emoji comparisons`);
 console.log(`- ${categories.length} categories`);
 console.log(`- ${peopleSubcategories.length} people subcategories`);

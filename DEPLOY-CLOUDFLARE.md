@@ -96,10 +96,9 @@ O arquivo `public/_redirects` deve ter:
 http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
 http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 https://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
-
-# SPA fallback (must be last)
-/* /index.html 200
 ```
+
+Não adicione fallback global `/* /index.html 200`. O build gera HTML estático para as rotas válidas e URLs inválidas devem retornar 404 real para evitar soft 404 no Google.
 
 #### 2. Configurar Redirect Rules no Cloudflare Dashboard
 

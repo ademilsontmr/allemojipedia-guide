@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect } from "react";
+import { Suspense, lazy } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -45,20 +45,6 @@ const queryClient = new QueryClient({
 });
 
 const App = () => {
-  useEffect(() => {
-    const schedule = (cb: () => void) => {
-      if (typeof window !== "undefined" && "requestIdleCallback" in window) {
-        (window as unknown as { requestIdleCallback: (fn: () => void, opts?: { timeout: number }) => number }).requestIdleCallback(cb, { timeout: 3000 });
-      } else {
-        globalThis.setTimeout(cb, 1500);
-      }
-    };
-
-    schedule(() => {
-      import("@/data/emojis").catch(() => {});
-    });
-  }, []);
-
   return (
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>

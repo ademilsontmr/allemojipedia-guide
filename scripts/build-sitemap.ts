@@ -12,6 +12,12 @@ interface SitemapUrl {
   priority: string;
 }
 
+const writeSitemap = (xml: string, outputPath: string) => {
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, xml);
+  console.log(`Saved to: ${outputPath}`);
+};
+
 const generateSitemapUrls = (): SitemapUrl[] => {
   const urls: SitemapUrl[] = [];
 
@@ -21,6 +27,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   urls.push({ loc: `${BASE_URL}/people/`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
   urls.push({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
+  urls.push({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
   urls.push({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
 
   // Blog pagination pages
@@ -72,8 +79,11 @@ ${urls.map(url => `  <url><loc>${url.loc}</loc><priority>${url.priority}</priori
 
 // Generate and save sitemap
 const xml = generateSitemapXml();
-const outputPath = path.join(process.cwd(), 'public', 'sitemap.xml');
-fs.writeFileSync(outputPath, xml);
+const outputPaths = [
+  path.join(process.cwd(), 'public', 'sitemap.xml'),
+  path.join(process.cwd(), 'dist', 'sitemap.xml'),
+];
+
+outputPaths.forEach((outputPath) => writeSitemap(xml, outputPath));
 
 console.log(`Sitemap generated with ${generateSitemapUrls().length} URLs`);
-console.log(`Saved to: ${outputPath}`);
