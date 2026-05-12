@@ -212,6 +212,256 @@ export const emojiIntentClusters: EmojiIntentCluster[] = [
       },
     ],
   },
+  {
+    slug: "flirty-emoji-meanings",
+    title: "Flirty Emoji Meanings: How to Read Romantic and Playful Texts",
+    shortTitle: "Flirty Emoji Meanings",
+    description:
+      "Decode flirty emojis like wink, smirk, heart eyes, kiss face, pleading face, red heart, and eyes in dating or crush conversations.",
+    keywords:
+      "flirty emoji meanings, flirting emojis, emoji meaning from a crush, wink emoji meaning, smirk emoji meaning, heart eyes meaning",
+    emojiSlugs: [
+      "winking-face",
+      "smirking-face",
+      "face-blowing-a-kiss",
+      "kissing-face",
+      "smiling-face-with-heart-eyes",
+      "flushed-face",
+      "pleading-face",
+      "red-heart",
+      "kiss-mark",
+      "eyes",
+      "sparkling-heart",
+    ],
+    blogSlugs: ["how-to-use-emojis-when-flirting", "emoji-meaning-texting-guide"],
+    sections: [
+      {
+        heading: "When an emoji is actually flirty",
+        body:
+          "An emoji becomes flirty when the message already has romantic, teasing, or affectionate context. A wink, smirk, kiss, or heart eyes can be playful from a crush, but may be harmless between close friends.",
+      },
+      {
+        heading: "Look for repetition and timing",
+        body:
+          "One emoji does not prove attraction. Repeated use, quick replies, compliments, and matching energy are stronger signs that the emoji is being used flirtatiously.",
+      },
+    ],
+  },
+  {
+    slug: "passive-aggressive-emojis",
+    title: "Passive-Aggressive Emojis: Texting Tone, Hidden Meanings, and What to Avoid",
+    shortTitle: "Passive-Aggressive Emojis",
+    description:
+      "Learn which emojis can feel passive-aggressive in texts and work chats, including thumbs up, slight smile, eye roll, neutral face, and upside-down face.",
+    keywords:
+      "passive aggressive emojis, thumbs up passive aggressive, slight smile meaning, eye roll emoji meaning, rude emojis in texting",
+    emojiSlugs: [
+      "thumbs-up",
+      "slightly-smiling-face",
+      "neutral-face",
+      "face-with-rolling-eyes",
+      "unamused-face",
+      "upside-down-face",
+      "grimacing-face",
+      "clown-face",
+      "skull",
+      "zipper-mouth-face",
+    ],
+    blogSlugs: ["when-not-to-use-emojis-guide", "how-to-use-emojis-on-whatsapp-without-sounding-rude"],
+    sections: [
+      {
+        heading: "Why some emojis feel passive-aggressive",
+        body:
+          "Short replies can feel cold when paired with certain emojis. A lone thumbs up, slight smile, or eye roll may look dismissive if the conversation is tense or professional.",
+      },
+      {
+        heading: "How to make the tone clearer",
+        body:
+          "Add a few words before the emoji when the message matters. 'Sounds good, thanks' feels clearer than a standalone thumbs up in many work and group chat situations.",
+      },
+    ],
+  },
+  {
+    slug: "emoji-meanings-from-a-girl",
+    title: "Emoji Meanings From a Girl: How to Read Tone, Interest, and Context",
+    shortTitle: "Emoji Meanings From a Girl",
+    description:
+      "Understand what emojis might mean when a girl sends them, including hearts, wink, smirk, pleading face, eyes, kiss, and laughing emojis.",
+    keywords:
+      "emoji meaning from a girl, what does emoji mean from a girl, heart emoji from a girl, wink emoji from a girl, skull emoji from a girl",
+    emojiSlugs: [
+      "red-heart",
+      "pink-heart",
+      "winking-face",
+      "smirking-face",
+      "face-blowing-a-kiss",
+      "smiling-face-with-heart-eyes",
+      "pleading-face",
+      "flushed-face",
+      "eyes",
+      "face-with-tears-of-joy",
+      "skull",
+      "sparkles",
+    ],
+    blogSlugs: ["emoji-meaning-texting-guide", "hidden-emoji-meanings-secrets"],
+    sections: [
+      {
+        heading: "Do not read one emoji in isolation",
+        body:
+          "An emoji from a girl can be friendly, flirty, ironic, or simply expressive. The strongest clues are the words around it, the relationship, and whether the same tone repeats over time.",
+      },
+      {
+        heading: "Common signs of playful interest",
+        body:
+          "Hearts, winks, heart eyes, teasing faces, and quick replies can suggest interest when they appear with compliments, questions, or ongoing conversation.",
+      },
+    ],
+  },
+  {
+    slug: "emoji-meanings-from-a-guy",
+    title: "Emoji Meanings From a Guy: Flirty, Friendly, or Just Casual?",
+    shortTitle: "Emoji Meanings From a Guy",
+    description:
+      "Decode emojis from a guy in texting, dating, friendships, and social media replies, including hearts, fire, eyes, skull, wink, and thumbs up.",
+    keywords:
+      "emoji meaning from a guy, what does emoji mean from a guy, heart emoji from a guy, fire emoji from a guy, wink emoji from a guy",
+    emojiSlugs: [
+      "red-heart",
+      "fire",
+      "eyes",
+      "winking-face",
+      "smirking-face",
+      "face-blowing-a-kiss",
+      "smiling-face-with-heart-eyes",
+      "skull",
+      "face-with-tears-of-joy",
+      "thumbs-up",
+      "hundred-points",
+      "flexed-biceps",
+    ],
+    blogSlugs: ["emoji-meaning-texting-guide", "how-to-use-emojis-when-flirting"],
+    sections: [
+      {
+        heading: "Friendly vs flirty depends on the message",
+        body:
+          "A guy sending a heart, fire, or eyes emoji may be flirting, complimenting, joking, or reacting casually. Look for direct compliments, teasing, and whether he keeps the conversation going.",
+      },
+      {
+        heading: "Watch for effort, not just emojis",
+        body:
+          "Emojis are weak signals by themselves. Consistent questions, thoughtful replies, and clear plans matter more than a single symbol.",
+      },
+    ],
+  },
+  {
+    slug: "whatsapp-emoji-meanings",
+    title: "WhatsApp Emoji Meanings: Tone, Group Chats, Reactions, and What Not to Send",
+    shortTitle: "WhatsApp Emoji Meanings",
+    description:
+      "Understand emoji meanings on WhatsApp, including reactions, family chats, group messages, flirting, apologies, and emojis that can sound rude.",
+    keywords:
+      "WhatsApp emoji meanings, emoji meaning on WhatsApp, WhatsApp reactions, rude WhatsApp emojis, texting emoji guide",
+    emojiSlugs: [
+      "face-with-tears-of-joy",
+      "loudly-crying-face",
+      "thumbs-up",
+      "folded-hands",
+      "red-heart",
+      "winking-face",
+      "thinking-face",
+      "neutral-face",
+      "upside-down-face",
+      "face-with-rolling-eyes",
+      "check-mark",
+      "speech-balloon",
+    ],
+    blogSlugs: ["how-to-use-emojis-on-whatsapp-without-sounding-rude", "emoji-meaning-texting-guide"],
+    sections: [
+      {
+        heading: "WhatsApp emojis are relationship-driven",
+        body:
+          "The same emoji can feel warm in a family chat, funny in a friend group, and too casual in a work group. WhatsApp tone depends heavily on who is in the conversation.",
+      },
+      {
+        heading: "Use words with reactions when tone matters",
+        body:
+          "If the topic is sensitive, add a short sentence before the emoji. This avoids making a reaction look dismissive or sarcastic.",
+      },
+    ],
+  },
+  {
+    slug: "instagram-emoji-meanings",
+    title: "Instagram Emoji Meanings: Captions, Comments, DMs, and Reactions",
+    shortTitle: "Instagram Emoji Meanings",
+    description:
+      "Learn how emojis work on Instagram in captions, comments, DMs, stories, compliments, aesthetics, and engagement.",
+    keywords:
+      "Instagram emoji meanings, emojis for Instagram captions, Instagram comments emojis, emoji meaning in DMs, aesthetic emojis",
+    emojiSlugs: [
+      "fire",
+      "sparkles",
+      "red-heart",
+      "heart-hands",
+      "smiling-face-with-heart-eyes",
+      "eyes",
+      "camera",
+      "camera-with-flash",
+      "clapping-hands",
+      "party-popper",
+      "hundred-points",
+      "star-struck",
+      "selfie",
+    ],
+    blogSlugs: ["how-to-use-emojis-instagram-captions", "emoji-social-media-engagement-guide"],
+    sections: [
+      {
+        heading: "Instagram emojis often work as compliments",
+        body:
+          "Fire, heart eyes, red hearts, sparkles, and clapping hands often signal approval, attraction, style, or excitement in captions and comments.",
+      },
+      {
+        heading: "Aesthetic emojis shape the caption mood",
+        body:
+          "Sparkles, cameras, hearts, stars, and music notes can make a caption feel softer, stylish, nostalgic, or celebratory before anyone reads the full text.",
+      },
+    ],
+  },
+  {
+    slug: "tiktok-emoji-meanings",
+    title: "TikTok Emoji Meanings: Comments, Slang, Reactions, and Viral Tone",
+    shortTitle: "TikTok Emoji Meanings",
+    description:
+      "Decode TikTok emoji meanings in comments and captions, including skull, crying, clown, fire, eyes, sparkles, and viral reaction emojis.",
+    keywords:
+      "TikTok emoji meanings, TikTok emoji slang, skull emoji TikTok meaning, crying emoji TikTok, viral emoji meanings",
+    emojiSlugs: [
+      "skull",
+      "loudly-crying-face",
+      "face-with-tears-of-joy",
+      "clown-face",
+      "fire",
+      "eyes",
+      "sparkles",
+      "hundred-points",
+      "melting-face",
+      "pleading-face",
+      "see-no-evil-monkey",
+      "musical-notes",
+    ],
+    blogSlugs: ["gen-z-emoji-meanings-decoded", "emoji-social-media-engagement-guide"],
+    sections: [
+      {
+        heading: "TikTok emojis are often ironic",
+        body:
+          "TikTok comments use emojis for exaggeration, jokes, and shared slang. Skull, crying, clown, and melting face often signal humor or disbelief more than literal emotion.",
+      },
+      {
+        heading: "Caption context changes everything",
+        body:
+          "A fire emoji can mean attractive, impressive, or viral. A skull can mean hilarious or embarrassing. Read the caption and comment thread before assuming one fixed meaning.",
+      },
+    ],
+  },
 ];
 
 export const getEmojiIntentClusterBySlug = (slug: string): EmojiIntentCluster | undefined =>
