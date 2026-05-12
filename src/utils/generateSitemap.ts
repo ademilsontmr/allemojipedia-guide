@@ -2,6 +2,7 @@ import { emojis } from '@/data/emojis';
 import { categories, peopleSubcategories } from '@/data/categories';
 import { blogPosts } from '@/data/blogPosts';
 import { popularComparisons } from '@/data/emojiComparisons';
+import { emojiIntentClusters } from '@/data/emojiIntentClusters';
 import { shouldIndexEmoji } from './seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -15,6 +16,7 @@ export interface SitemapUrl {
 export const generateSitemapUrls = (): SitemapUrl[] => {
   const urls: SitemapUrl[] = [];
   const seen = new Set<string>();
+  const emojiSlugs = new Set(emojis.map((emoji) => emoji.slug));
 
   const addUrl = (url: SitemapUrl) => {
     if (seen.has(url.loc)) return;
@@ -28,6 +30,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   addUrl({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/emoji-meanings/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
   addUrl({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
@@ -56,7 +59,12 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7' });
   });
 
+  emojiIntentClusters.forEach(cluster => {
+    addUrl({ loc: `${BASE_URL}/emoji-meanings/${cluster.slug}/`, priority: '0.9' });
+  });
+
   popularComparisons.forEach(({ slug1, slug2 }) => {
+    if (!emojiSlugs.has(slug1) || !emojiSlugs.has(slug2)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
   });
 

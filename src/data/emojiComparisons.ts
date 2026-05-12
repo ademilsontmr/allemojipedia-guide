@@ -206,4 +206,45 @@ export const popularComparisons = [
   { slug1: 'face-holding-back-tears', slug2: 'pleading-face' },
   { slug1: 'face-in-clouds', slug2: 'dizzy-face' },
   { slug1: 'cowboy-hat-face', slug2: 'smiling-face-with-sunglasses' },
+
+  // High-intent texting and slang comparisons
+  { slug1: 'skull', slug2: 'face-with-tears-of-joy' },
+  { slug1: 'skull', slug2: 'loudly-crying-face' },
+  { slug1: 'face-with-tears-of-joy', slug2: 'loudly-crying-face' },
+  { slug1: 'pleading-face', slug2: 'face-holding-back-tears' },
+  { slug1: 'melting-face', slug2: 'pleading-face' },
+  { slug1: 'clown-face', slug2: 'skull' },
+  { slug1: 'thumbs-up', slug2: 'folded-hands' },
+  { slug1: 'eyes', slug2: 'thinking-face' },
+  { slug1: 'hundred-points', slug2: 'fire' },
+
+  // Heart color intent comparisons
+  { slug1: 'pink-heart', slug2: 'red-heart' },
+  { slug1: 'purple-heart', slug2: 'red-heart' },
+  { slug1: 'blue-heart', slug2: 'red-heart' },
+  { slug1: 'black-heart', slug2: 'red-heart' },
+  { slug1: 'yellow-heart', slug2: 'red-heart' },
+  { slug1: 'green-heart', slug2: 'red-heart' },
+  { slug1: 'broken-heart', slug2: 'red-heart' },
+  { slug1: 'mending-heart', slug2: 'broken-heart' },
+  { slug1: 'heart-hands', slug2: 'red-heart' },
+
+  // Workplace and professional tone comparisons
+  { slug1: 'thumbs-up', slug2: 'check-mark' },
+  { slug1: 'folded-hands', slug2: 'handshake' },
+  { slug1: 'memo', slug2: 'e-mail' },
+  { slug1: 'briefcase', slug2: 'laptop' },
+  { slug1: 'thinking-face', slug2: 'person-shrugging' },
+  { slug1: 'fire', slug2: 'hundred-points' },
+
+  // Flag comparisons with real search/event intent
+  { slug1: 'flag-united-states', slug2: 'flag-canada' },
+  { slug1: 'flag-united-states', slug2: 'flag-mexico' },
+  { slug1: 'flag-brazil', slug2: 'flag-argentina' },
+  { slug1: 'flag-portugal', slug2: 'flag-brazil' },
+  { slug1: 'flag-spain', slug2: 'flag-mexico' },
+  { slug1: 'flag-united-kingdom', slug2: 'flag-united-states' },
+  { slug1: 'flag-france', slug2: 'flag-germany' },
+  { slug1: 'flag-japan', slug2: 'flag-south-korea' },
+  { slug1: 'flag-china', slug2: 'flag-india' },
 ];

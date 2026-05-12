@@ -4,6 +4,7 @@
   <url><loc>https://allemojipedia.com/categories/</loc><priority>0.9</priority></url>
   <url><loc>https://allemojipedia.com/people/</loc><priority>0.9</priority></url>
   <url><loc>https://allemojipedia.com/blog/</loc><priority>0.9</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/</loc><priority>0.9</priority></url>
   <url><loc>https://allemojipedia.com/emoji-comparisons/</loc><priority>0.9</priority></url>
   <url><loc>https://allemojipedia.com/flag-quiz/</loc><priority>0.6</priority></url>
   <url><loc>https://allemojipedia.com/sitemap/</loc><priority>0.5</priority></url>
@@ -130,6 +131,11 @@
   <url><loc>https://allemojipedia.com/blog/why-countries-change-flags/</loc><priority>0.7</priority></url>
   <url><loc>https://allemojipedia.com/blog/how-flag-emojis-created-unicode/</loc><priority>0.7</priority></url>
   <url><loc>https://allemojipedia.com/blog/how-many-country-flag-emojis-exist/</loc><priority>0.7</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/heart-emoji-meanings/</loc><priority>0.9</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/gen-z-emoji-meanings/</loc><priority>0.9</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/emoji-meaning-in-texting/</loc><priority>0.9</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/flag-emojis/</loc><priority>0.9</priority></url>
+  <url><loc>https://allemojipedia.com/emoji-meanings/work-emojis/</loc><priority>0.9</priority></url>
   <url><loc>https://allemojipedia.com/emoji/grinning-face-vs-grinning-face-with-big-eyes/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/grinning-face-with-smiling-eyes-vs-beaming-face-with-smiling-eyes/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/face-with-tears-of-joy-vs-rolling-on-the-floor-laughing/</loc><priority>0.8</priority></url>
@@ -167,7 +173,6 @@
   <url><loc>https://allemojipedia.com/emoji/flushed-face-vs-hot-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/face-with-thermometer-vs-nauseated-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/sneezing-face-vs-face-with-medical-mask/</loc><priority>0.8</priority></url>
-  <url><loc>https://allemojipedia.com/emoji/dizzy-face-vs-woozy-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/smiling-face-with-sunglasses-vs-nerd-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/partying-face-vs-cowboy-hat-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/thumbs-up-vs-thumbs-down/</loc><priority>0.8</priority></url>
@@ -204,7 +209,6 @@
   <url><loc>https://allemojipedia.com/emoji/face-with-monocle-vs-thinking-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/nerd-face-vs-face-with-monocle/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/disguised-face-vs-smiling-face-with-sunglasses/</loc><priority>0.8</priority></url>
-  <url><loc>https://allemojipedia.com/emoji/exploding-head-vs-dizzy-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/face-vomiting-vs-nauseated-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/anxious-face-with-sweat-vs-fearful-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/sad-but-relieved-face-vs-crying-face/</loc><priority>0.8</priority></url>
@@ -277,8 +281,40 @@
   <url><loc>https://allemojipedia.com/emoji/dotted-line-face-vs-face-without-mouth/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/melting-face-vs-hot-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/face-holding-back-tears-vs-pleading-face/</loc><priority>0.8</priority></url>
-  <url><loc>https://allemojipedia.com/emoji/face-in-clouds-vs-dizzy-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/cowboy-hat-face-vs-smiling-face-with-sunglasses/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/skull-vs-face-with-tears-of-joy/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/skull-vs-loudly-crying-face/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/face-with-tears-of-joy-vs-loudly-crying-face/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/pleading-face-vs-face-holding-back-tears/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/melting-face-vs-pleading-face/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/clown-face-vs-skull/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/thumbs-up-vs-folded-hands/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/eyes-vs-thinking-face/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/hundred-points-vs-fire/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/pink-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/purple-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/blue-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/black-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/yellow-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/green-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/broken-heart-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/mending-heart-vs-broken-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/heart-hands-vs-red-heart/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/thumbs-up-vs-check-mark/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/folded-hands-vs-handshake/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/memo-vs-e-mail/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/briefcase-vs-laptop/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/thinking-face-vs-person-shrugging/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/fire-vs-hundred-points/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-united-states-vs-flag-canada/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-united-states-vs-flag-mexico/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-brazil-vs-flag-argentina/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-portugal-vs-flag-brazil/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-spain-vs-flag-mexico/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-united-kingdom-vs-flag-united-states/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-france-vs-flag-germany/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-japan-vs-flag-south-korea/</loc><priority>0.8</priority></url>
+  <url><loc>https://allemojipedia.com/emoji/flag-china-vs-flag-india/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/grinning-face/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/grinning-face-with-big-eyes/</loc><priority>0.8</priority></url>
   <url><loc>https://allemojipedia.com/emoji/grinning-face-with-smiling-eyes/</loc><priority>0.8</priority></url>

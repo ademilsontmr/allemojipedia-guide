@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { blogPosts } from "@/data/blogPosts";
+import { emojiIntentClusters } from "@/data/emojiIntentClusters";
 import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
@@ -67,11 +68,25 @@ const Sitemap = () => {
             <li><Link to="/categories/" className="text-primary hover:underline">Categories</Link></li>
             <li><Link to="/people/" className="text-primary hover:underline">People Hub</Link></li>
             <li><Link to="/blog/" className="text-primary hover:underline">Blog</Link></li>
+            <li><Link to="/emoji-meanings/" className="text-primary hover:underline">Emoji Meanings Hub</Link></li>
             <li><Link to="/emoji-comparisons/" className="text-primary hover:underline">Emoji Comparisons</Link></li>
             <li><Link to="/flag-quiz/" className="text-primary hover:underline">Flag Quiz</Link></li>
             <li><Link to="/about/" className="text-primary hover:underline">About</Link></li>
             <li><Link to="/privacy/" className="text-primary hover:underline">Privacy Policy</Link></li>
             <li><Link to="/contact/" className="text-primary hover:underline">Contact</Link></li>
+          </ul>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-4">Emoji Meaning Clusters</h2>
+          <ul className="space-y-2">
+            {emojiIntentClusters.map(cluster => (
+              <li key={cluster.slug}>
+                <Link to={`/emoji-meanings/${cluster.slug}/`} className="text-primary hover:underline">
+                  {cluster.shortTitle}
+                </Link>
+              </li>
+            ))}
           </ul>
         </section>
 

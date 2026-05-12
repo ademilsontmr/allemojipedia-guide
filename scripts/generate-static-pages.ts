@@ -4,6 +4,7 @@ import { emojis, type Emoji } from '../src/data/emojis';
 import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
+import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -136,18 +137,36 @@ const staticShell = (content: string) => `
   </main>
 `;
 
-const emojiBody = (emoji: Emoji) => staticShell(`
-  <article>
-    <nav><a href="/">Home</a> / <a href="/category/${escapeHtml(emoji.categorySlug)}/">Category</a></nav>
-    <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
-    <p><strong>${escapeHtml(emoji.shortMeaning)}</strong></p>
-    ${renderParagraphs(emoji.detailedMeaning)}
-    <h2>Common uses</h2>
-    <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join('')}</ul>
-    <h2>Examples</h2>
-    <ul>${emoji.examples.slice(0, 3).map((example) => `<li><strong>${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`).join('')}</ul>
-  </article>
-`);
+const emojiBody = (emoji: Emoji) => {
+  const clusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const relatedLinks = emoji.relatedEmojis.slice(0, 6).map((slug) => ({
+    href: `/emoji/${slug}/`,
+    label: slug.split('-').map((word) => word[0]?.toUpperCase() + word.slice(1)).join(' '),
+  }));
+
+  return staticShell(`
+    <article>
+      <nav><a href="/">Home</a> / <a href="/category/${escapeHtml(emoji.categorySlug)}/">Category</a></nav>
+      <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
+      <p><strong>${escapeHtml(emoji.shortMeaning)}</strong></p>
+      ${renderParagraphs(emoji.detailedMeaning)}
+      <h2>Common uses</h2>
+      <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join('')}</ul>
+      <h2>Examples</h2>
+      <ul>${emoji.examples.slice(0, 3).map((example) => `<li><strong>${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`).join('')}</ul>
+      <h2>Meaning by intent</h2>
+      <p>The ${escapeHtml(emoji.name)} emoji can shift meaning depending on tone, platform, and relationship. In texting it may clarify emotion, while on social media it often acts as a fast reaction or caption signal.</p>
+      <h2>Search terms people use for this emoji</h2>
+      <ul>${emoji.keywords.slice(0, 8).map((keyword) => `<li>${escapeHtml(keyword)} emoji meaning</li>`).join('')}</ul>
+      ${clusters.length ? `<h2>Related meaning guides</h2>${renderLinks(clusters.map((cluster) => ({
+        href: `/emoji-meanings/${cluster.slug}/`,
+        label: cluster.shortTitle,
+        description: cluster.description,
+      })))}` : ''}
+      ${relatedLinks.length ? `<h2>Often compared with</h2>${renderLinks(relatedLinks)}` : ''}
+    </article>
+  `);
+};
 
 const categoryBody = (
   category: (typeof categories)[number],
@@ -188,6 +207,45 @@ const mainBody = (title: string, description: string, links: LinkItem[]) => stat
     <h1>${escapeHtml(title)}</h1>
     <p>${escapeHtml(description)}</p>
     ${links.length ? renderLinks(links) : ''}
+  </article>
+`);
+
+const emojiMeaningsHubBody = () => staticShell(`
+  <article>
+    <h1>Emoji Meanings by Intent</h1>
+    <p>Explore emoji meanings by the situation behind the message: love, texting tone, Gen Z slang, flags, and workplace communication.</p>
+    ${renderLinks(emojiIntentClusters.map((cluster) => ({
+      href: `/emoji-meanings/${cluster.slug}/`,
+      label: cluster.shortTitle,
+      description: cluster.description,
+    })))}
+  </article>
+`);
+
+const emojiIntentClusterBody = (
+  cluster: EmojiIntentCluster,
+  clusterEmojis: Emoji[],
+  relatedPosts: typeof blogPosts
+) => staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / <a href="/emoji-meanings/">Emoji Meanings</a></nav>
+    <h1>${escapeHtml(cluster.title)}</h1>
+    <p>${escapeHtml(cluster.description)}</p>
+    <h2>Key emojis in this guide</h2>
+    ${renderLinks(clusterEmojis.map((emoji) => ({
+      href: `/emoji/${emoji.slug}/`,
+      label: `${emoji.unicode} ${emoji.name}`,
+      description: emoji.shortMeaning,
+    })))}
+    ${cluster.sections.map((section) => `
+      <h2>${escapeHtml(section.heading)}</h2>
+      <p>${escapeHtml(section.body)}</p>
+    `).join('\n')}
+    ${relatedPosts.length ? `<h2>Related guides</h2>${renderLinks(relatedPosts.map((post) => ({
+      href: `/blog/${post.slug}/`,
+      label: post.title,
+      description: post.excerpt,
+    })))}` : ''}
   </article>
 `);
 
@@ -330,6 +388,35 @@ const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredDat
   ]),
 ];
 
+const emojiIntentClusterStructuredData = (
+  cluster: EmojiIntentCluster,
+  clusterEmojis: Emoji[]
+): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: cluster.title,
+    description: cluster.description,
+    url: canonicalUrl(`/emoji-meanings/${cluster.slug}/`),
+    numberOfItems: clusterEmojis.length,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/`,
+    },
+    about: clusterEmojis.slice(0, 12).map((emoji) => ({
+      '@type': 'DefinedTerm',
+      name: `${emoji.unicode} ${emoji.name}`,
+      url: canonicalUrl(`/emoji/${emoji.slug}/`),
+    })),
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Emoji Meanings', url: canonicalUrl('/emoji-meanings/') },
+    { name: cluster.shortTitle },
+  ]),
+];
+
 // Ensure directory exists
 const ensureDir = (dir: string) => {
   if (!fs.existsSync(dir)) {
@@ -403,6 +490,7 @@ const generateStaticPages = () => {
       'Your complete emoji encyclopedia with meanings, examples, copy-paste pages, categories, and emoji usage guides.',
       [
         { href: '/categories/', label: 'Browse emoji categories', description: 'Find emojis by theme and category.' },
+        { href: '/emoji-meanings/', label: 'Explore emoji meanings by intent', description: 'Start with hearts, texting tone, Gen Z slang, flags, or work emojis.' },
         { href: '/blog/', label: 'Read emoji guides', description: 'Learn emoji meanings, etiquette, and trends.' },
         { href: '/emoji/face-with-tears-of-joy/', label: '😂 Face With Tears of Joy', description: 'One of the most popular emoji meanings.' },
         { href: '/emoji/red-heart/', label: '❤️ Red Heart', description: 'Meaning and usage examples for the red heart emoji.' },
@@ -479,6 +567,51 @@ const generateStaticPages = () => {
       'article',
       INDEX_FOLLOW_ROBOTS,
       blogPostStructuredData(post)
+    );
+    count++;
+  });
+
+  // Generate emoji meaning intent cluster pages
+  console.log('Generating emoji meaning cluster pages...');
+  writeStaticPage(
+    template,
+    '/emoji-meanings/',
+    'Emoji Meanings by Intent | Allemojipedia',
+    'Explore emoji meaning guides by intent, including heart emojis, Gen Z emoji slang, texting tone, flag emojis, and work emojis.',
+    'emoji meanings, emoji meaning guide, emoji slang, texting emojis, heart emoji meanings',
+    emojiMeaningsHubBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    [
+      webPageSchema(
+        'Emoji Meanings by Intent',
+        'Explore emoji meaning guides by intent, including heart emojis, Gen Z emoji slang, texting tone, flag emojis, and work emojis.',
+        canonicalUrl('/emoji-meanings/')
+      ),
+      breadcrumbSchema([
+        { name: 'Home', url: `${BASE_URL}/` },
+        { name: 'Emoji Meanings' },
+      ]),
+    ]
+  );
+  count++;
+
+  emojiIntentClusters.forEach((cluster) => {
+    const clusterEmojis = cluster.emojiSlugs
+      .map((emojiSlug) => emojiBySlug.get(emojiSlug))
+      .filter((emoji): emoji is Emoji => Boolean(emoji));
+    const relatedPosts = sortedBlogPosts.filter((post) => cluster.blogSlugs.includes(post.slug));
+
+    writeStaticPage(
+      template,
+      `/emoji-meanings/${cluster.slug}/`,
+      `${cluster.title} | Allemojipedia`,
+      cluster.description,
+      cluster.keywords,
+      emojiIntentClusterBody(cluster, clusterEmojis, relatedPosts),
+      'website',
+      INDEX_FOLLOW_ROBOTS,
+      emojiIntentClusterStructuredData(cluster, clusterEmojis)
     );
     count++;
   });
@@ -646,6 +779,7 @@ const generateStaticPages = () => {
       [
         { href: '/', label: 'Home' },
         { href: '/categories/', label: 'Emoji Categories' },
+        { href: '/emoji-meanings/', label: 'Emoji Meanings' },
         { href: '/people/', label: 'People Emojis' },
         { href: '/blog/', label: 'Emoji Blog' },
         { href: '/emoji-comparisons/', label: 'Emoji Comparisons' },

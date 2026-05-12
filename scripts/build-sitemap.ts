@@ -2,6 +2,7 @@ import { emojis } from '../src/data/emojis';
 import { categories, peopleSubcategories } from '../src/data/categories';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
+import { emojiIntentClusters } from '../src/data/emojiIntentClusters';
 import { shouldIndexEmoji } from '../src/utils/seoPolicy';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -22,6 +23,7 @@ const writeSitemap = (xml: string, outputPath: string) => {
 const generateSitemapUrls = (): SitemapUrl[] => {
   const urls: SitemapUrl[] = [];
   const seen = new Set<string>();
+  const emojiSlugs = new Set(emojis.map((emoji) => emoji.slug));
 
   const addUrl = (url: SitemapUrl) => {
     if (seen.has(url.loc)) {
@@ -37,6 +39,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   addUrl({ loc: `${BASE_URL}/categories/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9' });
+  addUrl({ loc: `${BASE_URL}/emoji-meanings/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9' });
   addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6' });
   addUrl({ loc: `${BASE_URL}/sitemap/`, priority: '0.5' });
@@ -67,8 +70,14 @@ const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7' });
   });
 
+  // Intent cluster pages
+  emojiIntentClusters.forEach(cluster => {
+    addUrl({ loc: `${BASE_URL}/emoji-meanings/${cluster.slug}/`, priority: '0.9' });
+  });
+
   // Emoji comparison pages (BEFORE individual emojis for better crawling)
   popularComparisons.forEach(({ slug1, slug2 }) => {
+    if (!emojiSlugs.has(slug1) || !emojiSlugs.has(slug2)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8' });
   });
 

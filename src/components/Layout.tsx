@@ -57,6 +57,7 @@ export const Header = () => {
 
         <nav className="hidden md:flex items-center gap-6 h-10">
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Categories</Link>
+          <Link to="/emoji-meanings" className="text-sm font-medium hover:text-primary transition-colors">Emoji Meanings</Link>
           <Link to="/people" className="text-sm font-medium hover:text-primary transition-colors">People</Link>
           <Link to="/emoji-comparisons" className="text-sm font-medium hover:text-primary transition-colors">Emoji Comparisons</Link>
           <Link to="/flag-quiz" className="text-sm font-medium hover:text-primary transition-colors">Flag Quiz</Link>
@@ -123,6 +124,13 @@ export const Header = () => {
                   Categories
                 </Link>
                 <Link
+                  to="/emoji-meanings"
+                  className="text-lg font-medium hover:text-primary transition-colors py-2"
+                  onClick={handleNavClick}
+                >
+                  Emoji Meanings
+                </Link>
+                <Link
                   to="/people"
                   className="text-lg font-medium hover:text-primary transition-colors py-2"
                   onClick={handleNavClick}
@@ -181,6 +189,7 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
           <div className="font-medium mb-3">Resources</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/categories" className="hover:text-foreground">All Categories</Link></li>
+            <li><Link to="/emoji-meanings" className="hover:text-foreground">Emoji Meanings</Link></li>
             <li><Link to="/people" className="hover:text-foreground">People Hub</Link></li>
             <li><Link to="/emoji-comparisons" className="hover:text-foreground">Emoji Comparisons</Link></li>
             <li><Link to="/flag-quiz" className="hover:text-foreground">Flag Quiz</Link></li>

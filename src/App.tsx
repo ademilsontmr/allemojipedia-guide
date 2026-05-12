@@ -17,6 +17,8 @@ const Categories = lazy(() => import("./pages/Categories"));
 const CategoryWrapper = lazy(() => import("./pages/CategoryWrapper"));
 const EmojiDetailOrComparisonWrapper = lazy(() => import("./pages/EmojiDetailOrComparisonWrapper"));
 const EmojiComparisons = lazy(() => import("./pages/EmojiComparisons"));
+const EmojiMeanings = lazy(() => import("./pages/EmojiMeanings"));
+const EmojiMeaningCluster = lazy(() => import("./pages/EmojiMeaningCluster"));
 const People = lazy(() => import("./pages/People"));
 const PeopleSubcategoryWrapper = lazy(() => import("./pages/PeopleSubcategoryWrapper"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
@@ -60,6 +62,8 @@ const App = () => {
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/category/:slug" element={<CategoryWrapper />} />
                 <Route path="/emoji-comparisons" element={<EmojiComparisons />} />
+                <Route path="/emoji-meanings" element={<EmojiMeanings />} />
+                <Route path="/emoji-meanings/:slug" element={<EmojiMeaningCluster />} />
                 <Route path="/emoji/:slug" element={<EmojiDetailOrComparisonWrapper />} />
                 <Route path="/people" element={<People />} />
                 <Route path="/people/:slug" element={<PeopleSubcategoryWrapper />} />

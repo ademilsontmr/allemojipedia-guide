@@ -9,6 +9,8 @@ import NotFound from "./NotFound";
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
 import { getEmojiRobots } from "@/utils/seoPolicy";
+import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
+import { popularComparisons } from "@/data/emojiComparisons";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -88,6 +90,13 @@ const EmojiDetail = () => {
   if (!emoji) return <NotFound />;
 
   const primaryRelated = relatedEmojis[0];
+  const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
+  const primaryComparison = primaryRelated
+    ? popularComparisons.find(({ slug1, slug2 }) =>
+      (slug1 === emoji.slug && slug2 === primaryRelated.slug) ||
+      (slug1 === primaryRelated.slug && slug2 === emoji.slug)
+    )
+    : null;
 
   const faqItems = [
     {
@@ -262,6 +271,28 @@ const EmojiDetail = () => {
             </ul>
           </section>
 
+          {/* H2 - Meaning by intent */}
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Meaning by intent</h2>
+            <p className="text-muted-foreground mb-4">
+              The <span className="emoji">{emoji.unicode}</span> {emoji.name} emoji can change tone depending on the message around it. In texting, it often helps clarify emotion; on social media, it can work as a fast reaction, caption signal, or community shorthand.
+            </p>
+            {intentClusters.length > 0 && (
+              <div className="grid gap-3 sm:grid-cols-2">
+                {intentClusters.map(cluster => (
+                  <Link
+                    key={cluster.slug}
+                    to={`/emoji-meanings/${cluster.slug}/`}
+                    className="rounded-lg border border-border bg-muted/30 p-4 hover:border-primary/40 transition-colors"
+                  >
+                    <h3 className="font-semibold mb-1">{cluster.shortTitle}</h3>
+                    <p className="text-sm text-muted-foreground">{cluster.description}</p>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </section>
+
           {/* H2 - When NOT to use the emoji */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">When NOT to use the <span className="emoji">{emoji.unicode}</span> emoji</h2>
@@ -335,8 +366,11 @@ const EmojiDetail = () => {
               </li>
               {primaryRelated && (
                 <li>
-                  <Link to={`/emoji/${primaryRelated.slug}/`} className="text-primary hover:underline font-medium">
-                    → Compare: <span className="emoji">{emoji.unicode}</span> vs <span className="emoji">{primaryRelated.unicode}</span> {primaryRelated.name}
+                  <Link
+                    to={primaryComparison ? `/emoji/${primaryComparison.slug1}-vs-${primaryComparison.slug2}/` : `/emoji/${primaryRelated.slug}/`}
+                    className="text-primary hover:underline font-medium"
+                  >
+                    → {primaryComparison ? 'Compare' : 'Related'}: <span className="emoji">{emoji.unicode}</span> and <span className="emoji">{primaryRelated.unicode}</span> {primaryRelated.name}
                   </Link>
                 </li>
               )}
