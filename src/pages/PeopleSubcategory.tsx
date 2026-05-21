@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
+import { getPeopleSubcategoryEditorial } from "@/data/peopleSubcategoryEditorial";
 import { getPeopleSubSeoMeta } from "@/data/seoMeta";
 import NotFound from "./NotFound";
 
@@ -45,6 +46,12 @@ const PeopleSubcategory = () => {
   if (!subcategory) return <NotFound />;
 
   const seo = getPeopleSubSeoMeta(subcategory, emojis.length || undefined);
+  const editorial = getPeopleSubcategoryEditorial(subcategory.slug);
+  const popularEmojis = editorial
+    ? editorial.popularEmojiSlugs
+        .map((emojiSlug) => emojis.find((e) => e.slug === emojiSlug))
+        .filter((emoji): emoji is Emoji => Boolean(emoji))
+    : [];
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -101,8 +108,30 @@ const PeopleSubcategory = () => {
             <span className="emoji text-5xl">{subcategory.icon}</span>
             <h1 className="text-3xl font-bold">{subcategory.name} Emojis</h1>
           </div>
-          <p className="text-muted-foreground">{subcategory.description}</p>
+          <p className="text-muted-foreground">{editorial?.lead ?? subcategory.description}</p>
         </header>
+
+        {editorial && (
+          <section className="mb-10 max-w-3xl space-y-6">
+            {editorial.sections.map((section) => (
+              <div key={section.heading}>
+                <h2 className="text-xl font-semibold mb-2">{section.heading}</h2>
+                <p className="text-muted-foreground leading-relaxed">{section.body}</p>
+              </div>
+            ))}
+          </section>
+        )}
+
+        {popularEmojis.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4">Popular {subcategory.name} emojis</h2>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {popularEmojis.map((emoji) => (
+                <EmojiCard key={emoji.slug} emoji={emoji} />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* H2 - All Emojis */}
         <section className="mb-8">
@@ -120,6 +149,12 @@ const PeopleSubcategory = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
           <div className="space-y-4 max-w-2xl">
+            {(editorial?.faqs ?? []).map((faq) => (
+              <div key={faq.question} className="p-4 rounded-lg bg-muted/30">
+                <h3 className="font-semibold mb-2">{faq.question}</h3>
+                <p className="text-muted-foreground">{faq.answer}</p>
+              </div>
+            ))}
             <div className="p-4 rounded-lg bg-muted/30">
               <h3 className="font-semibold mb-2">How many {subcategory.name.toLowerCase()} emojis are there?</h3>
               <p className="text-muted-foreground">There are {emojis.length} {subcategory.name.toLowerCase()} emojis available, including variations for skin tones and genders.</p>
@@ -130,6 +165,21 @@ const PeopleSubcategory = () => {
             </div>
           </div>
         </section>
+
+        {editorial && editorial.relatedLinks.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Related guides</h2>
+            <ul className="space-y-2 max-w-2xl">
+              {editorial.relatedLinks.map((link) => (
+                <li key={link.href}>
+                  <Link to={link.href} className="text-primary hover:underline font-medium">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </Layout>
   );

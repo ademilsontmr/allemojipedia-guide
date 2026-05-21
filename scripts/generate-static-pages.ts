@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { emojis, type Emoji } from '../src/data/emojis';
 import { categories, peopleSubcategories } from '../src/data/categories';
+import { getPeopleSubcategoryEditorial } from '../src/data/peopleSubcategoryEditorial';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
@@ -247,20 +248,66 @@ const categoryBody = (
 
 const peopleBody = (
   sub: (typeof peopleSubcategories)[number],
-  subEmojis: Emoji[]
-) => staticShell(`
+  subEmojis: Emoji[],
+  emojiBySlug: Map<string, Emoji>
+) => {
+  const editorial = getPeopleSubcategoryEditorial(sub.slug);
+  const lead = editorial?.lead ?? sub.description;
+  const popularEmojis = editorial
+    ? editorial.popularEmojiSlugs
+        .map((slug) => emojiBySlug.get(slug))
+        .filter((emoji): emoji is Emoji => Boolean(emoji))
+    : [];
+
+  return staticShell(`
   <article>
     <nav><a href="/">Home</a> / <a href="/people/">People</a></nav>
     <h1>${escapeHtml(`${sub.icon} ${sub.name} Emojis`)}</h1>
-    <p>${escapeHtml(sub.description)}</p>
+    <p>${escapeHtml(lead)}</p>
+    ${editorial
+      ? editorial.sections
+          .map(
+            (section) => `
+      <h2>${escapeHtml(section.heading)}</h2>
+      <p>${escapeHtml(section.body)}</p>`
+          )
+          .join('')
+      : ''}
+    ${popularEmojis.length
+      ? `<h2>Popular ${escapeHtml(sub.name)} emojis</h2>${renderLinks(
+          popularEmojis.map((emoji) => ({
+            href: `/emoji/${emoji.slug}/`,
+            label: `${emoji.unicode} ${emoji.name}`,
+            description: emoji.shortMeaning,
+          }))
+        )}`
+      : ''}
     <h2>All ${escapeHtml(sub.name)} emojis</h2>
     ${renderLinks(subEmojis.map((emoji) => ({
       href: `/emoji/${emoji.slug}/`,
       label: `${emoji.unicode} ${emoji.name}`,
       description: emoji.shortMeaning,
     })))}
+    ${editorial?.faqs.length
+      ? `<h2>Frequently asked questions</h2>${editorial.faqs
+          .map(
+            (faq) => `
+      <h3>${escapeHtml(faq.question)}</h3>
+      <p>${escapeHtml(faq.answer)}</p>`
+          )
+          .join('')}`
+      : ''}
+    ${editorial?.relatedLinks.length
+      ? `<h2>Related guides</h2>${renderLinks(
+          editorial.relatedLinks.map((link) => ({
+            href: link.href,
+            label: link.label,
+          }))
+        )}`
+      : ''}
   </article>
 `);
+};
 
 const mainBody = (title: string, description: string, links: LinkItem[]) => staticShell(`
   <article>
@@ -833,7 +880,7 @@ const generateStaticPages = () => {
     const subSeo = getPeopleSubSeoMeta(sub, subEmojis.length);
     const keywords = `${sub.name.toLowerCase()} emojis, ${sub.name.toLowerCase()} emoji list, copy ${sub.name.toLowerCase()} emojis`;
 
-    writeStaticPage(template, `/people/${sub.slug}/`, subSeo.title, subSeo.description, keywords, peopleBody(sub, subEmojis));
+    writeStaticPage(template, `/people/${sub.slug}/`, subSeo.title, subSeo.description, keywords, peopleBody(sub, subEmojis, emojiBySlug));
     count++;
   });
 

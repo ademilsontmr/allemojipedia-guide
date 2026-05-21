@@ -2,6 +2,7 @@ import type { Emoji } from "./emojis";
 import type { Category } from "./categories";
 import type { EmojiContextPage } from "./emojiContextPages";
 import type { EmojiIntentCluster } from "./emojiIntentClusters";
+import { getPeopleSubcategoryEditorial } from "./peopleSubcategoryEditorial";
 import { getTopEmojiEditorial } from "./topEmojiEditorial";
 
 const BRAND = "Allemojipedia";
@@ -256,9 +257,9 @@ export const priorityClusterSeo: Record<string, EmojiSeoMeta> = {
       "What do emojis mean in texts? Learn flirty, sarcastic, cold, and friendly signals—with examples for dating and group chats.",
   },
   "flag-emojis": {
-    metaTitle: "Flag Emojis: Country Flags, Meanings & Copy Guide",
+    metaTitle: "Flag Emojis: World Cup 2026, Countries & Copy Guide",
     metaDescription:
-      "Browse flag emoji meanings by country. Learn how flag emojis work on iPhone, Android, and WhatsApp—copy any flag instantly.",
+      "Country flag emojis for travel, heritage, and World Cup 2026. Copy 🇺🇸 🇧🇷 🇲🇽 flags and compare similar countries.",
   },
   "work-emojis": {
     metaTitle: "Work Emojis: Professional Tone for Slack & Email",
@@ -440,6 +441,52 @@ export const priorityComparisonSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "😐 vs 😑: blank vs unimpressed. Learn cold, awkward, and passive-aggressive texting tone.",
   },
+  // Lote 5 — flag comparisons
+  "flag-united-states-vs-flag-canada": {
+    metaTitle: "🇺🇸 vs 🇨🇦: US Flag vs Canada Flag Emoji",
+    metaDescription:
+      "Compare 🇺🇸 and 🇨🇦 flag emojis—meaning, copy tips, and when to use each for sports, travel, and identity.",
+  },
+  "flag-united-states-vs-flag-mexico": {
+    metaTitle: "🇺🇸 vs 🇲🇽: USA vs Mexico Flag — World Cup 2026",
+    metaDescription:
+      "🇺🇸 vs 🇲🇽 for World Cup 2026 hosts and rivalry chats. Copy flags and see when each fits your message.",
+  },
+  "flag-brazil-vs-flag-argentina": {
+    metaTitle: "🇧🇷 vs 🇦🇷: Brazil vs Argentina Flag Emoji",
+    metaDescription:
+      "Football's biggest flag rivalry: 🇧🇷 vs 🇦🇷 meanings, copy guide, and match-day texting examples.",
+  },
+  "flag-portugal-vs-flag-brazil": {
+    metaTitle: "🇵🇹 vs 🇧🇷: Portugal vs Brazil Flag Meaning",
+    metaDescription:
+      "Language, culture, and football ties—when to use 🇵🇹 vs 🇧🇷 in bios, chats, and World Cup posts.",
+  },
+  "flag-spain-vs-flag-mexico": {
+    metaTitle: "🇪🇸 vs 🇲🇽: Spain vs Mexico Flag Emoji",
+    metaDescription:
+      "Shared language, different flags—🇪🇸 vs 🇲🇽 for travel, heritage, and international event posts.",
+  },
+  "flag-united-kingdom-vs-flag-united-states": {
+    metaTitle: "🇬🇧 vs 🇺🇸: UK vs US Flag Emoji Compared",
+    metaDescription:
+      "🇬🇧 vs 🇺🇸: British vs American flag use in texting, social bios, and event reactions—copy both instantly.",
+  },
+  "flag-france-vs-flag-germany": {
+    metaTitle: "🇫🇷 vs 🇩🇪: France vs Germany Flag Emoji",
+    metaDescription:
+      "EU neighbors, football rivals—🇫🇷 vs 🇩🇪 flag meanings for matches, travel, and national pride posts.",
+  },
+  "flag-japan-vs-flag-south-korea": {
+    metaTitle: "🇯🇵 vs 🇰🇷: Japan vs South Korea Flag Emoji",
+    metaDescription:
+      "Compare 🇯🇵 and 🇰🇷 for culture, sports, and travel captions—with copy-paste and tone tips.",
+  },
+  "flag-china-vs-flag-india": {
+    metaTitle: "🇨🇳 vs 🇮🇳: China vs India Flag Emoji",
+    metaDescription:
+      "🇨🇳 vs 🇮🇳 flag emoji guide—population, events, and when each flag fits bios and group chats.",
+  },
 };
 
 /** Lote 2 — strategic blog posts */
@@ -573,6 +620,57 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaTitle: "Instagram Caption Emojis: Boost Engagement (2026)",
     metaDescription:
       "Best emojis for Instagram captions and stories—tone, aesthetics, and engagement tips with examples.",
+  },
+  // Lote 5 — World Cup 2026
+  "world-cup-2026-emojis-guide": {
+    metaTitle: "World Cup 2026 Emojis: Flags, Goals & Fan Reactions",
+    metaDescription:
+      "Best emojis for World Cup 2026—flags, ⚽, 🏆, and goal reactions for group chats and social posts.",
+  },
+  "world-cup-2026-emoji-guide": {
+    metaTitle: "FIFA World Cup 2026 Emoji Guide — Hosts & Fans",
+    metaDescription:
+      "Complete World Cup 2026 emoji guide: USA, Mexico, Canada hosts, country flags, and celebration symbols.",
+  },
+  "world-cup-2026-goal-reactions-emojis": {
+    metaTitle: "Goal Reaction Emojis for World Cup 2026 Chats",
+    metaDescription:
+      "Score a message that lands: 🔥 ⚽ 🎉 emojis for goals, upsets, and penalty drama in 2026.",
+  },
+  "world-cup-2026-predictions-country-emojis": {
+    metaTitle: "World Cup 2026 Predictions — Country Flag Emojis",
+    metaDescription:
+      "Use flag emojis for bracket picks and predictions—🇧🇷 🇦🇷 🇫🇷 🇩🇪 with fan-chat examples.",
+  },
+  "usa-world-cup-2026-emojis-host-cities": {
+    metaTitle: "USA World Cup 2026 Emojis — Host Cities & 🇺🇸",
+    metaDescription:
+      "American host cities and 🇺🇸 flag emoji use for World Cup 2026 posts, travel, and watch parties.",
+  },
+  "mexico-world-cup-2026-emojis-azteca": {
+    metaTitle: "Mexico World Cup 2026 Emojis — 🇲🇽 & Azteca",
+    metaDescription:
+      "🇲🇽 flag, ⚽, and celebration emojis for Mexico as 2026 host—fan guides and copy tips.",
+  },
+  "canada-world-cup-2026-emojis-first-time": {
+    metaTitle: "Canada World Cup 2026 Emojis — First-Time Host 🇨🇦",
+    metaDescription:
+      "🇨🇦 host nation pride: flag emoji, hockey-to-soccer fan tone, and World Cup 2026 message ideas.",
+  },
+  "world-cup-2026-host-cities-emojis": {
+    metaTitle: "World Cup 2026 Host Cities — Emoji Travel Guide",
+    metaDescription:
+      "Emoji guide to 2026 host cities across USA, Mexico, and Canada—flags, travel, and watch-party posts.",
+  },
+  "world-cup-group-chat-emoji-etiquette": {
+    metaTitle: "World Cup Group Chat Emoji Etiquette (2026)",
+    metaDescription:
+      "Avoid spam and rivalry fights in World Cup chats—flag, goal, and banter emoji rules with examples.",
+  },
+  "world-cup-2026-emoji-predictions": {
+    metaTitle: "World Cup 2026 Emoji Predictions & Bracket Picks",
+    metaDescription:
+      "Predict winners with flag emojis—bracket culture, fan tone, and country flag copy guide for 2026.",
   },
 };
 
@@ -900,12 +998,14 @@ export const getPeopleSubSeoMeta = (
   emojiCount?: number
 ): PageSeoMeta => {
   const priority = priorityPeopleSubSeo[sub.slug];
+  const editorial = getPeopleSubcategoryEditorial(sub.slug);
   const countLine = emojiCount ? ` Browse ${emojiCount.toLocaleString()} emojis to copy.` : "";
+  const descriptionBase = editorial?.lead ?? priority?.metaDescription ?? sub.description;
 
   if (priority) {
     return {
       title: withBrand(priority.metaTitle),
-      description: truncate(`${priority.metaDescription}${countLine}`, 160),
+      description: truncate(`${descriptionBase}${countLine}`, 160),
       ogTitle: priority.metaTitle,
     };
   }
