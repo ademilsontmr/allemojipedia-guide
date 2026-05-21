@@ -7,6 +7,7 @@ import { getEmojiIntentClusterBySlug } from "@/data/emojiIntentClusters";
 import { getEmojiCache } from "@/data/emojisCache";
 import type { Emoji } from "@/data/emojis";
 import NotFound from "./NotFound";
+import { getClusterSeoMeta } from "@/data/seoMeta";
 
 const EmojiMeaningCluster = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -41,15 +42,19 @@ const EmojiMeaningCluster = () => {
   if (!cluster) return <NotFound />;
 
   const relatedPosts = blogPosts.filter((post) => cluster.blogSlugs.includes(post.slug));
+  const seo = getClusterSeoMeta(cluster);
 
   return (
     <Layout>
       <Helmet>
-        <title>{cluster.title} | Allemojipedia</title>
-        <meta name="description" content={cluster.description} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content={cluster.keywords} />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/emoji-meanings/${cluster.slug}/`} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={`https://allemojipedia.com/emoji-meanings/${cluster.slug}/`} />
       </Helmet>
 
       <div className="container-page section-spacing">

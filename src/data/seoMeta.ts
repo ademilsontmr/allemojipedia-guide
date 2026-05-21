@@ -1,4 +1,5 @@
 import type { Emoji } from "./emojis";
+import type { EmojiIntentCluster } from "./emojiIntentClusters";
 import { getTopEmojiEditorial } from "./topEmojiEditorial";
 
 const BRAND = "Allemojipedia";
@@ -228,3 +229,242 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
 };
 
 export const isPriorityEmojiSeo = (slug: string): boolean => slug in priorityEmojiSeo;
+
+/** Lote 2 — intent cluster hubs */
+export const priorityClusterSeo: Record<string, EmojiSeoMeta> = {
+  "heart-emoji-meanings": {
+    metaTitle: "Heart Emoji Colors: ❤️ 💜 💙 💗 Meaning & When to Use",
+    metaDescription:
+      "What does each heart emoji mean? Compare ❤️ 💜 💙 💗 🖤 and more—romantic vs friendly tone with real texting examples.",
+  },
+  "gen-z-emoji-meanings": {
+    metaTitle: "Gen Z Emoji Meanings: 💀 😭 🤡 Slang Explained (2026)",
+    metaDescription:
+      "Decode Gen Z emoji slang: 💀 for laughter, ironic 😭, clown energy, and more. See TikTok and texting examples.",
+  },
+  "emoji-meaning-in-texting": {
+    metaTitle: "Emoji Meaning in Texting: Tone, Flirting & Misreads",
+    metaDescription:
+      "What do emojis mean in texts? Learn flirty, sarcastic, cold, and friendly signals—with examples for dating and group chats.",
+  },
+  "flag-emojis": {
+    metaTitle: "Flag Emojis: Country Flags, Meanings & Copy Guide",
+    metaDescription:
+      "Browse flag emoji meanings by country. Learn how flag emojis work on iPhone, Android, and WhatsApp—copy any flag instantly.",
+  },
+  "work-emojis": {
+    metaTitle: "Work Emojis: Professional Tone for Slack & Email",
+    metaDescription:
+      "Which emojis are safe at work? See 👍 ✅ 😊 tone tips for Slack, Teams, and email—without sounding unprofessional.",
+  },
+  "flirty-emoji-meanings": {
+    metaTitle: "Flirty Emoji Meanings: Romantic vs Friendly Signals",
+    metaDescription:
+      "Is that emoji flirting or just friendly? Learn 😘 😉 😏 tone with real DM examples and when to reply carefully.",
+  },
+  "passive-aggressive-emojis": {
+    metaTitle: "Passive-Aggressive Emojis: 👍 🙃 😐 Tone Warning",
+    metaDescription:
+      "Emojis that can sound cold or sarcastic in texts—including 👍 and 🙃. See examples and safer alternatives.",
+  },
+  "emoji-meanings-from-a-girl": {
+    metaTitle: "Emoji Meanings From a Girl: ❤️ 😊 🥺 Decoded",
+    metaDescription:
+      "What does her emoji mean? Read ❤️ 😊 🥺 and more with texting examples—romantic, friendly, or just polite.",
+  },
+  "emoji-meanings-from-a-guy": {
+    metaTitle: "Emoji Meanings From a Guy: Flirty, Chill or Serious?",
+    metaDescription:
+      "What does his emoji mean? Decode guy texting tone with examples—when ❤️ is serious vs casual.",
+  },
+  "whatsapp-emoji-meanings": {
+    metaTitle: "WhatsApp Emoji Meanings: Hearts, 👍 & Group Chat Tone",
+    metaDescription:
+      "How emojis read on WhatsApp—private chats vs groups. Learn heart, thumbs up, and laughing emoji tone with examples.",
+  },
+  "instagram-emoji-meanings": {
+    metaTitle: "Instagram Emoji Meanings: Comments, DMs & Reels (2026)",
+    metaDescription:
+      "What do 🔥 😍 💀 ✨ mean on Instagram? Decode comments, story reactions, reels, and DM tone with examples.",
+  },
+  "tiktok-emoji-meanings": {
+    metaTitle: "TikTok Emoji Meanings: 💀 😭 Gen Z Comments Decoded",
+    metaDescription:
+      "TikTok emoji slang explained: 💀 😭 😂 ✨ 🔥 in comments and captions. See Gen Z tone with real examples.",
+  },
+};
+
+/** Lote 2 — high-search comparison pages (slug1-vs-slug2) */
+export const priorityComparisonSeo: Record<string, EmojiSeoMeta> = {
+  "face-with-tears-of-joy-vs-rolling-on-the-floor-laughing": {
+    metaTitle: "😂 vs 🤣: Which Laughing Emoji Should You Send?",
+    metaDescription:
+      "😂 or 🤣? Compare meanings, intensity, and Gen Z preference—with texting examples so you pick the right laugh emoji.",
+  },
+  "skull-vs-face-with-tears-of-joy": {
+    metaTitle: "💀 vs 😂: Gen Z Laugh Emoji — Which One Fits?",
+    metaDescription:
+      "💀 vs 😂 in 2026: when skull means 'I'm dead' from laughter and when 😂 still wins. Examples for TikTok and texts.",
+  },
+  "red-heart-vs-purple-heart": {
+    metaTitle: "❤️ vs 💜: Red Heart or Purple Heart — Which to Send?",
+    metaDescription:
+      "❤️ vs 💜: romantic love vs supportive affection. See when each heart feels right in texting and Instagram DMs.",
+  },
+  "red-heart-vs-blue-heart": {
+    metaTitle: "❤️ vs 💙: Red Heart vs Blue Heart Meaning",
+    metaDescription:
+      "❤️ vs 💙: love vs trust and calm loyalty. Learn romantic vs platonic signals with real message examples.",
+  },
+  "red-heart-vs-pink-heart": {
+    metaTitle: "❤️ vs 💗: Red Heart vs Pink Heart — What's the Difference?",
+    metaDescription:
+      "❤️ vs 💗: intense love vs softer affection. See when pink feels safer than red in texts and comments.",
+  },
+  "red-heart-vs-black-heart": {
+    metaTitle: "❤️ vs 🖤: Red Heart vs Black Heart Meaning",
+    metaDescription:
+      "❤️ vs 🖤: classic love vs edgy, grief, or dark humor. Learn tone with texting and social media examples.",
+  },
+  "thumbs-up-vs-thumbs-down": {
+    metaTitle: "👍 vs 👎: Thumbs Up vs Down — Tone in Texting",
+    metaDescription:
+      "👍 vs 👎: approval, dismissal, or passive-aggressive? Compare work-chat and WhatsApp tone with examples.",
+  },
+  "crying-face-vs-loudly-crying-face": {
+    metaTitle: "😢 vs 😭: Crying Emoji — Sad or Funny?",
+    metaDescription:
+      "😢 vs 😭: subtle sadness vs dramatic tears—or ironic Gen Z tone. See when each crying emoji fits your message.",
+  },
+  "pleading-face-vs-crying-face": {
+    metaTitle: "🥺 vs 😢: Pleading Face vs Crying Face Meaning",
+    metaDescription:
+      "🥺 vs 😢: cute begging vs sadness. Learn flirty, apology, and emotional tone with real texting examples.",
+  },
+  "smiling-face-with-hearts-vs-smiling-face-with-heart-eyes": {
+    metaTitle: "🥰 vs 😍: Hearts Face vs Heart Eyes — Which to Use?",
+    metaDescription:
+      "🥰 vs 😍: warm affection vs crush energy. Compare romantic and friendly tone with copy-paste examples.",
+  },
+  "face-blowing-a-kiss-vs-kissing-face": {
+    metaTitle: "😘 vs 😗: Kiss Emoji — Flirty or Friendly?",
+    metaDescription:
+      "😘 vs 😗: blown kiss vs simple kiss. See flirting, goodbye, and platonic tone with message examples.",
+  },
+  "winking-face-vs-smirking-face": {
+    metaTitle: "😉 vs 😏: Wink vs Smirk — Flirty or Rude?",
+    metaDescription:
+      "😉 vs 😏: playful wink vs confident smirk. Learn when each feels flirty, teasing, or passive-aggressive.",
+  },
+  "broken-heart-vs-mending-heart": {
+    metaTitle: "💔 vs ❤️‍🩹: Broken Heart vs Mending Heart Meaning",
+    metaDescription:
+      "💔 vs ❤️‍🩹: heartbreak vs healing. See breakup, disappointment, and recovery tone in texting examples.",
+  },
+  "thinking-face-vs-face-with-raised-eyebrow": {
+    metaTitle: "🤔 vs 🤨: Thinking vs Raised Eyebrow Emoji",
+    metaDescription:
+      "🤔 vs 🤨: curiosity vs skepticism. Learn sarcasm and doubt tone with real chat examples.",
+  },
+  "upside-down-face-vs-slightly-smiling-face": {
+    metaTitle: "🙃 vs 🙂: Upside-Down vs Slight Smile — Sarcasm?",
+    metaDescription:
+      "🙃 vs 🙂: sarcasm vs polite warmth. See passive-aggressive and friendly tone with texting examples.",
+  },
+};
+
+/** Lote 2 — strategic blog posts */
+export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
+  "flirty-emoji-meanings-romantic-or-friendly": {
+    metaTitle: "Flirty Emoji Meanings: Romantic or Just Friendly? (2026)",
+    metaDescription:
+      "Which emojis feel flirty vs friendly? Read 😘 😉 🥺 tone with DM examples—stop overthinking one emoji.",
+  },
+  "emoji-meanings-from-a-girl-or-guy": {
+    metaTitle: "Emoji From a Girl or Guy: How to Read Sender Intent",
+    metaDescription:
+      "What does their emoji mean? Practical guide for reading a girl's or guy's texting tone without guessing wrong.",
+  },
+  "whatsapp-emoji-meanings-tone-guide": {
+    metaTitle: "WhatsApp Emoji Meanings: Hearts, 👍 & Group Tone",
+    metaDescription:
+      "How emojis change tone on WhatsApp—private chats, family groups, and work threads. Real examples included.",
+  },
+  "instagram-emoji-meanings-comments-dms": {
+    metaTitle: "Instagram Emoji Meanings: Comments, Stories & DMs",
+    metaDescription:
+      "Decode 🔥 😍 💀 ✨ on Instagram—comments, reels, story reactions, and DMs with 2026 examples.",
+  },
+  "tiktok-emoji-meanings-gen-z-slang": {
+    metaTitle: "TikTok Emoji Meanings: 💀 😭 Gen Z Slang (2026)",
+    metaDescription:
+      "TikTok emoji slang decoded: 💀 😭 😂 ✨ in comments and captions. Gen Z tone with real examples.",
+  },
+  "trending-emojis-2026-meanings": {
+    metaTitle: "Trending Emojis 2026: What They Really Mean",
+    metaDescription:
+      "Top trending emojis in 2026—from 😭 overtaking 😂 to 💀 as laughter. Meanings, slang, and copy tips.",
+  },
+};
+
+export const comparisonSeoKey = (slug1: string, slug2: string) => `${slug1}-vs-${slug2}`;
+
+export const getClusterSeoMeta = (cluster: EmojiIntentCluster): PageSeoMeta => {
+  const priority = priorityClusterSeo[cluster.slug];
+  if (priority) {
+    return {
+      title: withBrand(priority.metaTitle),
+      description: truncate(priority.metaDescription, 160),
+      ogTitle: priority.metaTitle,
+    };
+  }
+
+  return {
+    title: withBrand(cluster.title),
+    description: truncate(cluster.description, 160),
+    ogTitle: cluster.shortTitle,
+  };
+};
+
+export const getComparisonSeoMeta = (left: Emoji, right: Emoji): PageSeoMeta => {
+  const key = comparisonSeoKey(left.slug, right.slug);
+  const priority = priorityComparisonSeo[key];
+  if (priority) {
+    return {
+      title: withBrand(priority.metaTitle),
+      description: truncate(priority.metaDescription, 160),
+      ogTitle: priority.metaTitle,
+    };
+  }
+
+  const title = `${left.unicode} ${left.name} vs ${right.unicode} ${right.name}`;
+  return {
+    title: withBrand(`${title} — Differences & When to Use`),
+    description: truncate(
+      `Compare ${left.name} and ${right.name}: meanings, tone, and when to use ${left.unicode} vs ${right.unicode}.`,
+      160
+    ),
+    ogTitle: title,
+  };
+};
+
+export const getBlogPostSeoMeta = (post: {
+  slug: string;
+  title: string;
+  excerpt: string;
+}): PageSeoMeta => {
+  const priority = priorityBlogSeo[post.slug];
+  if (priority) {
+    return {
+      title: withBrand(priority.metaTitle),
+      description: truncate(priority.metaDescription, 160),
+      ogTitle: priority.metaTitle,
+    };
+  }
+
+  return {
+    title: withBrand(post.title),
+    description: truncate(post.excerpt, 160),
+    ogTitle: post.title,
+  };
+};

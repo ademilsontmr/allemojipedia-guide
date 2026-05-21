@@ -3,6 +3,7 @@ import { Link, useParams, Navigate } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
+import { getBlogPostSeoMeta } from "@/data/seoMeta";
 
 // Helper function to render inline markdown (bold, italic, links)
 const renderInlineMarkdown = (text: string): React.ReactNode => {
@@ -129,6 +130,8 @@ const BlogPost = () => {
     return <Navigate to="/blog/" replace />;
   }
 
+  const seo = getBlogPostSeoMeta(post);
+
   // Get suggested posts
   const definedRelated = post.relatedPosts
     ? blogPosts.filter(p => post.relatedPosts?.includes(p.slug))
@@ -248,12 +251,16 @@ const BlogPost = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{post.title} | Allemojipedia Blog</title>
-        <meta name="description" content={post.excerpt} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         {post.keywords && <meta name="keywords" content={post.keywords} />}
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/blog/${post.slug}/`} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={`https://allemojipedia.com/blog/${post.slug}/`} />
+        <meta property="og:type" content="article" />
       </Helmet>
 
       <article className="container-page py-8 max-w-3xl mx-auto">

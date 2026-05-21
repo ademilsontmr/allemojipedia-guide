@@ -6,7 +6,7 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
-import { getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
+import { getBlogPostSeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
@@ -841,11 +841,12 @@ const generateStaticPages = () => {
   // Generate blog post pages
   console.log('Generating blog post pages...');
   sortedBlogPosts.forEach((post) => {
+    const postSeo = getBlogPostSeoMeta(post);
     writeStaticPage(
       template,
       `/blog/${post.slug}/`,
-      `${post.title} | Allemojipedia`,
-      post.excerpt,
+      postSeo.title,
+      postSeo.description,
       post.keywords,
       blogPostBody(post),
       'article',
@@ -888,11 +889,12 @@ const generateStaticPages = () => {
       .filter((emoji): emoji is Emoji => Boolean(emoji));
     const relatedPosts = sortedBlogPosts.filter((post) => cluster.blogSlugs.includes(post.slug));
 
+    const clusterSeo = getClusterSeoMeta(cluster);
     writeStaticPage(
       template,
       `/emoji-meanings/${cluster.slug}/`,
-      `${cluster.title} | Allemojipedia`,
-      cluster.description,
+      clusterSeo.title,
+      clusterSeo.description,
       cluster.keywords,
       emojiIntentClusterBody(cluster, clusterEmojis, relatedPosts),
       'website',
@@ -934,14 +936,13 @@ const generateStaticPages = () => {
     const right = emojiBySlug.get(slug2);
     if (!left || !right) return;
 
-    const title = `${left.unicode} ${left.name} vs ${right.unicode} ${right.name} | Allemojipedia`;
-    const description = `Compare ${left.name} and ${right.name}: meanings, tone, examples, and when to use each emoji.`;
+    const comparisonSeo = getComparisonSeoMeta(left, right);
 
     writeStaticPage(
       template,
       `/emoji/${slug1}-vs-${slug2}/`,
-      title,
-      description,
+      comparisonSeo.title,
+      comparisonSeo.description,
       `${left.name} vs ${right.name}, ${left.unicode} vs ${right.unicode}, emoji comparison`,
       comparisonBody(left, right),
       'article',
