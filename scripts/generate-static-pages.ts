@@ -8,6 +8,7 @@ import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
+import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
@@ -359,6 +360,11 @@ const emojiIntentClusterBody = (
 const blogPostBody = (post: (typeof blogPosts)[number]) => {
   const blocks = post.content.split('\n\n').map((block) => block.trim()).filter(Boolean);
   const content = blocks.map((block) => {
+    const tableRows = parseMarkdownTable(block);
+    if (tableRows) {
+      return renderMarkdownTableHtml(tableRows, renderInlineMarkdownHtml);
+    }
+
     if (block.startsWith('## ')) return `<h2>${escapeHtml(block.replace(/^## /, ''))}</h2>`;
     if (block.startsWith('### ')) return `<h3>${escapeHtml(block.replace(/^### /, ''))}</h3>`;
     if (block.startsWith('- ')) {
@@ -368,6 +374,13 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
         .map((line) => `<li>${renderInlineMarkdownHtml(line.replace(/^- /, ''))}</li>`)
         .join('');
       return `<ul>${items}</ul>`;
+    }
+
+    if (block.startsWith('[COMPARE]')) {
+      const parts = block.replace('[COMPARE]', '').split('|').map((p) => p.trim());
+      if (parts.length >= 3) {
+        return `<p><strong>Rude:</strong> ${renderInlineMarkdownHtml(parts[0])}</p><p><strong>Polite:</strong> ${renderInlineMarkdownHtml(parts[1])}</p><p><em>Why:</em> ${renderInlineMarkdownHtml(parts[2])}</p>`;
+      }
     }
 
     return `<p>${renderInlineMarkdownHtml(block)}</p>`;

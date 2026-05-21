@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { getBlogPostSeoMeta } from "@/data/seoMeta";
+import { parseMarkdownTable } from "@/utils/blogMarkdownTables";
 
 // Helper function to render inline markdown (bold, italic, links)
 const renderInlineMarkdown = (text: string): React.ReactNode => {
@@ -97,6 +98,66 @@ const HighlightBox = ({ children, icon = "💡", type = "default" }: { children:
   );
 };
 
+const MarkdownTable = ({
+  rows,
+  highlight = false,
+}: {
+  rows: string[][];
+  highlight?: boolean;
+}) => {
+  const [header, ...body] = rows;
+
+  return (
+    <div
+      className={
+        highlight
+          ? "my-10 rounded-2xl border-2 border-primary/20 bg-gradient-to-br from-primary/5 via-background to-background p-1 shadow-sm"
+          : "my-10"
+      }
+    >
+      <div className="overflow-x-auto rounded-xl border border-border bg-card shadow-md">
+        <table className="w-full min-w-[300px] border-collapse text-left">
+          <thead>
+            <tr className="border-b border-border bg-muted/60">
+              {header.map((cell, index) => (
+                <th
+                  key={index}
+                  className="px-5 py-4 text-xs font-bold uppercase tracking-wider text-foreground"
+                >
+                  {renderInlineMarkdown(cell)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {body.map((row, rowIndex) => (
+              <tr
+                key={rowIndex}
+                className={`border-b border-border/50 last:border-0 ${
+                  rowIndex % 2 === 0 ? "bg-background" : "bg-muted/15"
+                }`}
+              >
+                {row.map((cell, colIndex) => (
+                  <td
+                    key={colIndex}
+                    className={`px-5 py-4 align-top ${
+                      colIndex === 0
+                        ? "text-xl font-medium text-foreground whitespace-nowrap"
+                        : "text-base text-muted-foreground leading-relaxed"
+                    }`}
+                  >
+                    {renderInlineMarkdown(cell)}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
 // Comparison component for Rude vs Polite
 const ComparisonBox = ({ rude, polite, why }: { rude: string; polite: string; why: string }) => (
   <div className="my-12 overflow-hidden rounded-3xl border-2 border-border bg-card shadow-lg">
@@ -147,16 +208,20 @@ const BlogPost = () => {
   const renderContent = () => {
     const blocks = post.content.split("\n\n");
     const result: React.ReactNode[] = [];
+    let highlightNextTable = false;
 
     for (let i = 0; i < blocks.length; i++) {
       const paragraph = blocks[i];
+      const tableRows = parseMarkdownTable(paragraph);
 
       // H2 Headers
       if (paragraph.startsWith("## ")) {
+        const heading = paragraph.replace("## ", "");
+        highlightNextTable = heading.toLowerCase().includes("quick answer");
         result.push(
           <h2 key={i} className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-foreground flex items-center gap-3 scroll-mt-24">
             <span className="w-1.5 h-10 bg-gradient-to-b from-primary to-primary/50 rounded-full flex-shrink-0" />
-            <span className="leading-tight">{renderInlineMarkdown(paragraph.replace("## ", ""))}</span>
+            <span className="leading-tight">{renderInlineMarkdown(heading)}</span>
           </h2>
         );
         continue;
@@ -220,6 +285,15 @@ const BlogPost = () => {
           );
           continue;
         }
+      }
+
+      // Markdown tables
+      if (tableRows) {
+        result.push(
+          <MarkdownTable key={i} rows={tableRows} highlight={highlightNextTable} />
+        );
+        highlightNextTable = false;
+        continue;
       }
 
       // Blockquotes
