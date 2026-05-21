@@ -7,6 +7,7 @@ import type { Emoji } from "@/data/emojis";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPage, getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getEmojiRobots } from "@/utils/seoPolicy";
+import { getContextSeoMeta } from "@/data/seoMeta";
 import NotFound from "./NotFound";
 
 const BASE_URL = "https://allemojipedia.com";
@@ -55,12 +56,13 @@ const EmojiContextPage = () => {
     (relatedPage) => relatedPage.context !== page.context
   );
   const url = `${BASE_URL}/emoji/${emoji.slug}/${page.context}/`;
+  const seo = getContextSeoMeta(emoji, page);
 
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: `${emoji.unicode} ${page.title}`,
-    description: page.description,
+    headline: seo.ogTitle ?? `${emoji.unicode} ${page.title}`,
+    description: seo.description,
     url,
     datePublished: editorialMeta.lastUpdatedIso,
     dateModified: editorialMeta.lastUpdatedIso,
@@ -80,14 +82,16 @@ const EmojiContextPage = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{`${emoji.unicode} ${page.title} | Allemojipedia`}</title>
-        <meta name="description" content={page.description} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="robots" content={getEmojiRobots(emoji)} />
         <link rel="canonical" href={url} />
-        <meta property="og:title" content={`${emoji.unicode} ${page.title}`} />
-        <meta property="og:description" content={page.description} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={url} />
+        <meta name="twitter:title" content={seo.ogTitle ?? seo.title} />
+        <meta name="twitter:description" content={seo.description} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 

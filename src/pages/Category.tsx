@@ -8,6 +8,7 @@ import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
+import { getCategorySeoMeta } from "@/data/seoMeta";
 
 const Category = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -37,6 +38,8 @@ const Category = () => {
   }, [slug]);
 
   if (!category) return <NotFound />;
+
+  const seo = getCategorySeoMeta(category, emojis.length || undefined);
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -83,12 +86,15 @@ const Category = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{`${category.name} Emojis — Copy & Paste All ${emojis.length} | Allemojipedia`}</title>
-        <meta name="description" content={`${category.description} Copy and paste ${emojis.length} ${category.name.toLowerCase()} emojis instantly.`} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, copy ${category.name.toLowerCase()} emojis`} />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://allemojipedia.com/category/${slug}/`} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={`https://allemojipedia.com/category/${slug}/`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />

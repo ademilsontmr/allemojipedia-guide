@@ -6,7 +6,7 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
-import { getBlogPostSeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
+import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
@@ -790,11 +790,12 @@ const generateStaticPages = () => {
     const emoji = emojiBySlug.get(page.emojiSlug);
     if (!emoji) return;
 
+    const contextSeo = getContextSeoMeta(emoji, page);
     writeStaticPage(
       template,
       `/emoji/${emoji.slug}/${page.context}/`,
-      `${emoji.unicode} ${page.title} | Allemojipedia`,
-      page.description,
+      contextSeo.title,
+      contextSeo.description,
       `${emoji.name} emoji ${page.shortTitle.toLowerCase()}, ${emoji.unicode} meaning ${page.shortTitle.toLowerCase()}, ${page.title.toLowerCase()}`,
       emojiContextPageBody(emoji, page),
       'article',
@@ -808,15 +809,14 @@ const generateStaticPages = () => {
   console.log('Generating category pages...');
   categories.forEach((category) => {
     const categoryEmojis = emojis.filter(e => e.categorySlug === category.slug);
-    const title = `${category.name} Emojis — Copy & Paste All ${categoryEmojis.length} | Allemojipedia`;
-    const description = `${category.description} Copy and paste ${categoryEmojis.length} ${category.name.toLowerCase()} emojis instantly.`;
+    const categorySeo = getCategorySeoMeta(category, categoryEmojis.length);
     const keywords = `${category.name.toLowerCase()} emojis, ${category.name.toLowerCase()} emoji list, copy ${category.name.toLowerCase()} emojis`;
 
     writeStaticPage(
       template,
       `/category/${category.slug}/`,
-      title,
-      description,
+      categorySeo.title,
+      categorySeo.description,
       keywords,
       categoryBody(category, categoryEmojis),
       'website',
