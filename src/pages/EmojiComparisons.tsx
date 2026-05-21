@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { emojis } from "@/data/emojis";
 import { popularComparisons } from "@/data/emojiComparisons";
+import { getMainPageSeo } from "@/data/seoMeta";
 
 const EmojiComparisons = () => {
+  const seo = getMainPageSeo("/emoji-comparisons/");
   const comparisons = popularComparisons
     .map(({ slug1, slug2 }) => {
       const emoji1 = emojis.find(e => e.slug === slug1);
@@ -17,18 +19,18 @@ const EmojiComparisons = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Emoji Comparisons: Side-by-Side Differences | Allemojipedia</title>
-        <meta
-          name="description"
-          content="Compare similar emojis side-by-side. Learn the differences, when to use each one, and their emotional tones. Complete emoji comparison guide."
-        />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta
           name="keywords"
           content="emoji comparison, emoji differences, emoji vs emoji, similar emojis, emoji guide"
         />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/emoji-comparisons/" />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/emoji-comparisons/" />
       </Helmet>
 
       <div className="container-page py-8">

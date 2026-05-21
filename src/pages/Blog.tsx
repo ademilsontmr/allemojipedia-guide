@@ -4,10 +4,12 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock } from "lucide-react";
 import BlogPagination from "@/components/BlogPagination";
+import { getMainPageSeo } from "@/data/seoMeta";
 
 const POSTS_PER_PAGE = 9;
 
 const Blog = () => {
+  const seo = getMainPageSeo("/blog/");
   // Sort posts by date (most recent first)
   const sortedPosts = [...blogPosts].sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
@@ -19,15 +21,15 @@ const Blog = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Emoji Blog - Tips, Guides & Insights | Allemojipedia</title>
-        <meta
-          name="description"
-          content="Explore our emoji blog for tips, guides, and fascinating insights about emojis, their meanings, and how to use them effectively."
-        />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content="emoji blog, emoji tips, emoji guides, emoji insights, how to use emojis, emoji meanings blog, emoji articles" />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/blog/" />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/blog/" />
       </Helmet>
 
       <div className="container-page py-8">

@@ -2,18 +2,21 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { emojiIntentClusters } from "@/data/emojiIntentClusters";
+import { getMainPageSeo } from "@/data/seoMeta";
 
 const EmojiMeanings = () => {
+  const seo = getMainPageSeo("/emoji-meanings/");
+
   return (
     <Layout>
       <Helmet>
-        <title>Emoji Meanings by Intent | Allemojipedia</title>
-        <meta
-          name="description"
-          content="Explore emoji meaning guides by intent, including heart emojis, Gen Z emoji slang, texting tone, flag emojis, and work emojis."
-        />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/emoji-meanings/" />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/emoji-meanings/" />
       </Helmet>
 
       <div className="container-page section-spacing">

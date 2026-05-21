@@ -6,6 +6,7 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
+import { getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
@@ -484,9 +485,10 @@ const webPageSchema = (name: string, description: string, url: string): Structur
 
 const emojiStructuredData = (emoji: Emoji): StructuredData[] => {
   const editorial = getTopEmojiEditorial(emoji);
+  const seo = getEmojiSeoMeta(emoji);
 
   return [
-    webPageSchema(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`, editorial?.snippetAnswer ?? emoji.shortMeaning, canonicalUrl(`/emoji/${emoji.slug}/`)),
+    webPageSchema(seo.ogTitle ?? `${emoji.unicode} ${emoji.name} Emoji Meaning`, seo.description, canonicalUrl(`/emoji/${emoji.slug}/`)),
     {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
@@ -739,12 +741,14 @@ const generateStaticPages = () => {
   const sortedBlogPosts = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   let count = 0;
 
+  const homeSeo = getMainPageSeo('/');
+
   // Home page
   writeStaticPage(
     template,
     '/',
-    'Allemojipedia — Emoji Meanings, Names & Copy',
-    'Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them.',
+    homeSeo.title,
+    homeSeo.description,
     'emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, emoji guide',
     mainBody(
       'Allemojipedia — Emoji Meanings, Names & Copy',
@@ -763,20 +767,14 @@ const generateStaticPages = () => {
   // Generate emoji pages
   console.log('Generating emoji pages...');
   emojis.forEach((emoji) => {
-    const editorial = getTopEmojiEditorial(emoji);
-    const title = editorial
-      ? `${emoji.unicode} ${editorial.searchTitle} | Allemojipedia`
-      : `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`;
-    const description = editorial
-      ? editorial.snippetAnswer
-      : `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`;
+    const seo = getEmojiSeoMeta(emoji);
     const keywords = `${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`;
 
     writeStaticPage(
       template,
       `/emoji/${emoji.slug}/`,
-      title,
-      description,
+      seo.title,
+      seo.description,
       keywords,
       emojiBody(emoji),
       'article',
@@ -859,11 +857,13 @@ const generateStaticPages = () => {
 
   // Generate emoji meaning intent cluster pages
   console.log('Generating emoji meaning cluster pages...');
+  const emojiMeaningsSeo = getMainPageSeo('/emoji-meanings/');
+
   writeStaticPage(
     template,
     '/emoji-meanings/',
-    'Emoji Meanings by Intent | Allemojipedia',
-    'Explore emoji meaning guides by intent, including heart emojis, Gen Z emoji slang, texting tone, flag emojis, and work emojis.',
+    emojiMeaningsSeo.title,
+    emojiMeaningsSeo.description,
     'emoji meanings, emoji meaning guide, emoji slang, texting emojis, heart emoji meanings',
     emojiMeaningsHubBody(),
     'website',
@@ -954,12 +954,16 @@ const generateStaticPages = () => {
   // Generate main pages
   console.log('Generating main pages...');
   
+  const categoriesSeo = getMainPageSeo('/categories/');
+  const blogSeo = getMainPageSeo('/blog/');
+  const comparisonsHubSeo = getMainPageSeo('/emoji-comparisons/');
+
   // Categories page
   writeStaticPage(
     template,
     '/categories/',
-    'Emoji Categories | Allemojipedia',
-    'Browse all emoji categories including smileys, people, animals, food, travel, activities, objects, symbols, and flags. Find the perfect emoji.',
+    categoriesSeo.title,
+    categoriesSeo.description,
     'emoji categories, emoji groups, smileys emojis, people emojis, animals emojis',
     mainBody(
       'Emoji Categories',
@@ -996,8 +1000,8 @@ const generateStaticPages = () => {
   writeStaticPage(
     template,
     '/blog/',
-    'Emoji Blog — Tips, Guides & News | Allemojipedia',
-    'Read the latest emoji tips, guides, and news. Learn how to use emojis effectively in your communication.',
+    blogSeo.title,
+    blogSeo.description,
     'emoji blog, emoji tips, emoji guides, emoji news',
     mainBody(
       'Emoji Blog',
@@ -1015,8 +1019,8 @@ const generateStaticPages = () => {
   writeStaticPage(
     template,
     '/emoji-comparisons/',
-    'Emoji Comparisons | Allemojipedia',
-    'Compare similar emojis and learn which one fits your message best.',
+    comparisonsHubSeo.title,
+    comparisonsHubSeo.description,
     'emoji comparisons, emoji vs emoji, emoji meanings',
     mainBody(
       'Emoji Comparisons',

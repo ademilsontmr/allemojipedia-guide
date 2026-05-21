@@ -12,6 +12,7 @@ import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
+import { getEmojiSeoMeta } from "@/data/seoMeta";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 
@@ -96,6 +97,7 @@ const EmojiDetail = () => {
   const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
   const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
   const editorial = getTopEmojiEditorial(emoji);
+  const seo = getEmojiSeoMeta(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(({ slug1, slug2 }) =>
       (slug1 === emoji.slug && slug2 === primaryRelated.slug) ||
@@ -180,19 +182,19 @@ const EmojiDetail = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{editorial ? `${emoji.unicode} ${editorial.searchTitle} | Allemojipedia` : `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use | Allemojipedia`}</title>
-        <meta name="description" content={editorial ? editorial.snippetAnswer : `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`} />
         <meta name="author" content={editorialMeta.teamName} />
         <meta name="robots" content={getEmojiRobots(emoji)} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
-        <meta property="og:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
-        <meta property="og:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode} for texting, social media, and work.`} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`} />
-        <meta name="twitter:description" content={`${emoji.shortMeaning} Copy and paste ${emoji.unicode}.`} />
+        <meta name="twitter:title" content={seo.ogTitle ?? seo.title} />
+        <meta name="twitter:description" content={seo.description} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />

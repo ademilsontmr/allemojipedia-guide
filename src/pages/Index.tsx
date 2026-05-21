@@ -11,6 +11,7 @@ import { Copy, Check } from "lucide-react";
 import type { Emoji } from "@/data/emojis";
 import type { EmojiCardData } from "@/components/EmojiCard";
 import { getEmojiCache } from "@/data/emojisCache";
+import { getMainPageSeo } from "@/data/seoMeta";
 import { popularEmojiCombos, trendingEmojiCards, type EmojiCombo } from "@/data/featuredEmojis";
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
@@ -124,15 +125,22 @@ const Index = () => {
     ]
   };
 
+  const homeSeo = getMainPageSeo("/");
+
   return (
     <Layout>
       <Helmet>
-        <title>Allemojipedia — Emoji Meanings, Names & Copy</title>
-        <meta name="description" content="Discover what emojis mean with Allemojipedia. Find emoji meanings, copy and paste emojis, and learn how to use them. Your complete emoji encyclopedia with 3,700+ emojis." />
+        <title>{homeSeo.title}</title>
+        <meta name="description" content={homeSeo.description} />
         <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis" />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/" />
+        <meta property="og:title" content={homeSeo.ogTitle ?? homeSeo.title} />
+        <meta property="og:description" content={homeSeo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/" />
+        <meta name="twitter:title" content={homeSeo.ogTitle ?? homeSeo.title} />
+        <meta name="twitter:description" content={homeSeo.description} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />

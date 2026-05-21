@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
+import { getMainPageSeo } from "@/data/seoMeta";
 
 const Categories = () => {
+  const seo = getMainPageSeo("/categories/");
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -24,12 +26,15 @@ const Categories = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Emoji Categories | Allemojipedia</title>
-        <meta name="description" content="Browse all emoji categories including smileys, people, animals, food, travel, activities, objects, symbols, and flags. Find the perfect emoji." />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content="emoji categories, emoji groups, smileys emojis, people emojis, animals emojis, food emojis, travel emojis" />
-        <meta name="author" content="Emoji Pedia" />
+        <meta name="author" content="Allemojipedia Editorial Team" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href="https://allemojipedia.com/categories/" />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/categories/" />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
