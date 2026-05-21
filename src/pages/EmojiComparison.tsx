@@ -83,7 +83,7 @@ const EmojiComparison = () => {
           </h1>
 
           <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            {pageDescription}
+            {seo.description}
           </p>
 
           <div className="mt-8 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
