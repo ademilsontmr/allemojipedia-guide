@@ -672,6 +672,57 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "Predict winners with flag emojis—bracket culture, fan tone, and country flag copy guide for 2026.",
   },
+  // Inspired high-volume keyword articles
+  "fire-emoji-meaning": {
+    metaTitle: "Fire Emoji Meaning: Hot, Compliment & Texting (2026)",
+    metaDescription:
+      "What does 🔥 mean? Attractive, impressive, or trending—with texting and Instagram examples. Copy fire emoji free.",
+  },
+  "smile-emoji-meaning": {
+    metaTitle: "Smile Emoji Meaning: 😀 🙂 😊 Differences",
+    metaDescription:
+      "Not every smile emoji means the same. Compare grinning, slight, and warm smiles—with copy links.",
+  },
+  "laughing-emoji-meaning": {
+    metaTitle: "Laughing Emoji: 😂 🤣 💀 Which to Use in 2026?",
+    metaDescription:
+      "Laughing emoji guide—😂 vs 🤣 vs 💀 for texts, memes, and TikTok. Gen Z slang explained.",
+  },
+  "cat-emoji-meaning": {
+    metaTitle: "Cat Emoji Meaning: 🐱 😺 😹 Explained",
+    metaDescription:
+      "Cat emoji and cat face meanings for pets and meme reactions. Copy 🐱 😺 😹 instantly.",
+  },
+  "crying-emoji-meaning": {
+    metaTitle: "Crying Emoji: 😢 vs 😭 — Sad or Funny?",
+    metaDescription:
+      "When crying emoji means sadness vs laughter. Guide to 😢 and 😭 in 2026 texts.",
+  },
+  "nerd-emoji-meaning": {
+    metaTitle: "Nerd Emoji 🤓 Meaning: Smart, Proud, or Teasing?",
+    metaDescription:
+      "What does the nerd emoji mean in texting? Playful smart vs sarcasm—with examples.",
+  },
+  "thumbs-up-emoji-meaning": {
+    metaTitle: "Thumbs Up Emoji 👍: OK or Passive-Aggressive?",
+    metaDescription:
+      "Thumbs up emoji on WhatsApp and texts—approval vs cold tone. When 👍 helps or hurts.",
+  },
+  "hand-emoji-meaning": {
+    metaTitle: "Hand Emoji Meanings: 👋 👍 ✋ Gestures",
+    metaDescription:
+      "Wave, thumbs up, clap, and hand gesture emoji meanings. Copy hand emojis for chats.",
+  },
+  "sob-emoji-meaning": {
+    metaTitle: "Sob Emoji 😭 Meaning: Crying from Laughter?",
+    metaDescription:
+      "Why sob emoji usually means 😭 online—not sadness. Gen Z examples and copy link.",
+  },
+  "sad-emoji-meaning": {
+    metaTitle: "Sad Emoji Meanings: 😢 😞 😔 Guide",
+    metaDescription:
+      "Pick the right sad emoji for disappointment, regret, or sympathy—with sincere texting tips.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */

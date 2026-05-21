@@ -1,3 +1,5 @@
+import { inspiredEmojiBlogPosts } from "./inspiredEmojiBlogPosts";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -12,6 +14,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  ...inspiredEmojiBlogPosts,
   {
     id: "flirty-emoji-meanings-2026",
     title: "Flirty Emoji Meanings: How to Tell If an Emoji Is Romantic or Just Friendly",
