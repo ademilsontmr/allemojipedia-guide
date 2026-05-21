@@ -5,7 +5,6 @@ import { popularComparisons } from '@/data/emojiComparisons';
 import { emojiIntentClusters } from '@/data/emojiIntentClusters';
 import { emojiContextPages } from '@/data/emojiContextPages';
 import { editorialMeta } from '@/data/editorialMeta';
-import { shouldIndexEmoji } from './seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
 const POSTS_PER_PAGE = 9;
@@ -73,8 +72,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   });
 
   emojiContextPages.forEach(({ emojiSlug, context }) => {
-    const emoji = emojis.find((item) => item.slug === emojiSlug);
-    if (!emoji || !shouldIndexEmoji(emoji)) return;
+    if (!emojiSlugs.has(emojiSlug)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
@@ -84,7 +82,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   });
 
   // All emoji pages
-  emojis.filter(shouldIndexEmoji).forEach(emoji => {
+  emojis.forEach(emoji => {
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
@@ -117,5 +115,5 @@ export const downloadSitemap = () => {
 };
 
 export const getEmojiCount = (): number => emojis.length;
-export const getIndexableEmojiCount = (): number => emojis.filter(shouldIndexEmoji).length;
+export const getIndexableEmojiCount = (): number => emojis.length;
 export const getBlogPostCount = (): number => blogPosts.length;

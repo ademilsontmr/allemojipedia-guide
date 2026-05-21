@@ -5,7 +5,6 @@ import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters } from '../src/data/emojiIntentClusters';
 import { emojiContextPages } from '../src/data/emojiContextPages';
 import { editorialMeta } from '../src/data/editorialMeta';
-import { shouldIndexEmoji } from '../src/utils/seoPolicy';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -86,8 +85,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
 
   // High-intent context pages for specific emojis
   emojiContextPages.forEach(({ emojiSlug, context }) => {
-    const emoji = emojis.find((item) => item.slug === emojiSlug);
-    if (!emoji || !shouldIndexEmoji(emoji)) return;
+    if (!emojiSlugs.has(emojiSlug)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
@@ -98,7 +96,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   });
 
   // All emoji pages
-  emojis.filter(shouldIndexEmoji).forEach(emoji => {
+  emojis.forEach(emoji => {
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 

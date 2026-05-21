@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import { shouldIndexEmoji } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -25,7 +24,7 @@ const Sitemap = () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setEmojis((emojisModule.emojis as Emoji[]).filter(shouldIndexEmoji));
+      setEmojis(emojisModule.emojis as Emoji[]);
       setIsEmojiDataLoaded(true);
     };
 
