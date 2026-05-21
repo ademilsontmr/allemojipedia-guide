@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
+import { getMainPageSeo } from "@/data/seoMeta";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -50,13 +51,18 @@ const People = () => {
     ]
   };
 
+  const seo = getMainPageSeo("/people/");
+
   return (
     <Layout>
       <Helmet>
-        <title>People Emojis and Their Meanings | Allemojipedia</title>
-        <meta name="description" content="Explore people emojis including gestures, emotions, professions, and family. Learn about skin tone variations and gender representations." />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content="people emojis, human emojis, gesture emojis, profession emojis, family emojis, skin tone emojis" />
         <link rel="canonical" href="https://allemojipedia.com/people/" />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content="https://allemojipedia.com/people/" />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 

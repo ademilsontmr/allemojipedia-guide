@@ -6,7 +6,7 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
-import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo } from '../src/data/seoMeta';
+import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
@@ -830,11 +830,10 @@ const generateStaticPages = () => {
   console.log('Generating people subcategory pages...');
   peopleSubcategories.forEach((sub) => {
     const subEmojis = emojis.filter((emoji) => sub.subgroups.includes(emoji.subgroup));
-    const title = `${sub.name} Emojis — Copy & Paste | Allemojipedia`;
-    const description = `${sub.description} Copy and paste ${sub.name.toLowerCase()} emojis instantly.`;
+    const subSeo = getPeopleSubSeoMeta(sub, subEmojis.length);
     const keywords = `${sub.name.toLowerCase()} emojis, ${sub.name.toLowerCase()} emoji list, copy ${sub.name.toLowerCase()} emojis`;
 
-    writeStaticPage(template, `/people/${sub.slug}/`, title, description, keywords, peopleBody(sub, subEmojis));
+    writeStaticPage(template, `/people/${sub.slug}/`, subSeo.title, subSeo.description, keywords, peopleBody(sub, subEmojis));
     count++;
   });
 
@@ -978,12 +977,14 @@ const generateStaticPages = () => {
   );
   count++;
 
+  const peopleHubSeo = getMainPageSeo('/people/');
+
   // People page
   writeStaticPage(
     template,
     '/people/',
-    'People Emojis and Their Meanings | Allemojipedia',
-    'Explore people emojis including gestures, emotions, professions, and family. Learn about skin tone variations and gender representations.',
+    peopleHubSeo.title,
+    peopleHubSeo.description,
     'people emojis, human emojis, gesture emojis, profession emojis, family emojis',
     mainBody(
       'People Emojis and Their Meanings',

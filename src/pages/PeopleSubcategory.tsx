@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
+import { getPeopleSubSeoMeta } from "@/data/seoMeta";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
@@ -43,6 +44,8 @@ const PeopleSubcategory = () => {
 
   if (!subcategory) return <NotFound />;
 
+  const seo = getPeopleSubSeoMeta(subcategory, emojis.length || undefined);
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -73,10 +76,13 @@ const PeopleSubcategory = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{subcategory.name} Emojis — Copy & Paste | Allemojipedia</title>
-        <meta name="description" content={`${subcategory.description} Copy and paste ${emojis.length} ${subcategory.name.toLowerCase()} emojis instantly.`} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${subcategory.name.toLowerCase()} emojis, ${subcategory.name.toLowerCase()} emoji list, copy ${subcategory.name.toLowerCase()} emojis`} />
         <link rel="canonical" href={`https://allemojipedia.com/people/${slug}/`} />
+        <meta property="og:title" content={seo.ogTitle ?? seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={`https://allemojipedia.com/people/${slug}/`} />
       </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />

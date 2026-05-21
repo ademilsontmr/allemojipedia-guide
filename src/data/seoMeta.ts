@@ -177,6 +177,12 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Compare similar emojis side by side: 😂 vs 🤣, ❤️ vs 💜, 👍 tone, and more. Pick the right emoji for your message.",
     ogTitle: "Emoji Comparisons — Which Emoji Should You Use?",
   },
+  "/people/": {
+    title: `People Emojis — Gestures, Family & Body Copy | ${BRAND}`,
+    description:
+      "Browse people and body emojis: hand gestures, professions, family, skin tones. Copy any human emoji with meanings.",
+    ogTitle: "People Emojis — Gestures, Family & Body Copy",
+  },
 };
 
 const withBrand = (title: string) =>
@@ -468,6 +474,106 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "Top trending emojis in 2026—from 😭 overtaking 😂 to 💀 as laughter. Meanings, slang, and copy tips.",
   },
+  "college-student-emojis-decoded": {
+    metaTitle: "College Student Emojis Decoded: 💀 😭 Campus Slang",
+    metaDescription:
+      "What university students really mean with 💀, 😭, and campus emoji slang. Real texting examples for 2026.",
+  },
+  "most-searched-emoji-questions-google": {
+    metaTitle: "Most Googled Emoji Questions — Answers With Data",
+    metaDescription:
+      "Top emoji questions people search daily: 💀, ❤️, 👍, and more. Data-backed answers and real usage examples.",
+  },
+  "how-to-use-emojis-on-whatsapp-without-sounding-rude": {
+    metaTitle: "WhatsApp Emojis Without Sounding Rude (2026)",
+    metaDescription:
+      "Stop accidental cold tone on WhatsApp. Learn 👍, hearts, and laugh emojis with real message examples.",
+  },
+  "how-to-use-emojis-in-professional-communication": {
+    metaTitle: "Professional Emojis: Slack, Email & Teams Guide",
+    metaDescription:
+      "When workplace emojis help vs hurt. Rules for Slack, Teams, and email—with tone examples.",
+  },
+  "top-10-popular-emojis": {
+    metaTitle: "Top 10 Most Popular Emojis & Hidden Meanings",
+    metaDescription:
+      "The world's most-used emojis and what they really signal in texts and social media. Copy any emoji free.",
+  },
+  "heart-emoji-meanings-guide": {
+    metaTitle: "Heart Emoji Guide: Every Color Explained",
+    metaDescription:
+      "❤️ 💜 💙 💗 🖤 meanings by color—romantic, friendly, or ironic. Pick the right heart for your message.",
+  },
+  "copy-paste-emojis-guide": {
+    metaTitle: "Copy & Paste Emojis: Fast Guide for Any Device",
+    metaDescription:
+      "Copy emojis on iPhone, Android, Windows, and Mac. One-click copy for texts, WhatsApp, and Instagram.",
+  },
+  "flag-emojis-complete-guide": {
+    metaTitle: "Flag Emojis Guide: Every Country Flag Explained",
+    metaDescription:
+      "How flag emojis work, regional codes, and copy tips for WhatsApp, Instagram, and world events.",
+  },
+  "emoji-meanings-complete-dictionary": {
+    metaTitle: "Emoji Meanings Dictionary — Search 3,700+ Emojis",
+    metaDescription:
+      "Full emoji dictionary with meanings, slang, and copy-paste. Find any emoji by name or intent fast.",
+  },
+  "gen-z-emoji-meanings-decoded": {
+    metaTitle: "Gen Z Emoji Meanings Decoded: 💀 😭 🤡 Slang",
+    metaDescription:
+      "Gen Z emoji slang explained with irony, TikTok tone, and texting examples. Stop misreading 💀 and 😭.",
+  },
+  "emoji-meaning-texting-guide": {
+    metaTitle: "Emoji Meaning in Texting: Tone & Misreads (2026)",
+    metaDescription:
+      "Decode texting emoji tone—flirting, sarcasm, cold replies. Practical guide with real chat examples.",
+  },
+  "emoji-meaning-at-work-professional-guide": {
+    metaTitle: "Work Emoji Meanings: Professional Texting Guide",
+    metaDescription:
+      "Which emojis are safe at work and which feel passive-aggressive. Slack and email tone tips.",
+  },
+  "hidden-emoji-meanings-secrets": {
+    metaTitle: "Hidden Emoji Meanings Most People Miss",
+    metaDescription:
+      "Secret, ironic, and double meanings behind popular emojis. Examples for texting and social media.",
+  },
+  "iphone-emoji-complete-guide": {
+    metaTitle: "iPhone Emoji Guide: Keyboard, Meanings & Tips",
+    metaDescription:
+      "Master iPhone emojis—keyboard shortcuts, meanings, and copy tips for iMessage and social apps.",
+  },
+  "how-to-use-emojis-when-flirting": {
+    metaTitle: "Flirting With Emojis: Subtle Signals That Work",
+    metaDescription:
+      "Best flirting emojis and tone tips for DMs and texts. Romantic vs too-strong—with message examples.",
+  },
+  "how-to-use-emojis-in-apologies": {
+    metaTitle: "Sorry Emojis: How to Apologize in Texts (2026)",
+    metaDescription:
+      "Which emojis sound sincere vs dismissive in apologies. Digital sorry guide with real examples.",
+  },
+  "how-to-use-emojis-on-tiktok": {
+    metaTitle: "TikTok Emojis: Comments, Captions & Gen Z Tone",
+    metaDescription:
+      "Use emojis on TikTok like Gen Z—💀 😭 ✨ 🔥 in comments and captions with tone examples.",
+  },
+  "how-to-use-emojis-on-iphone": {
+    metaTitle: "How to Use Emojis on iPhone — Quick Setup Guide",
+    metaDescription:
+      "Enable and use the iPhone emoji keyboard fast. Copy, search, and recent emoji tips for 2026.",
+  },
+  "how-to-use-emoji-combos-like-gen-z": {
+    metaTitle: "Gen Z Emoji Combos: Sequences That Hit",
+    metaDescription:
+      "Learn emoji combos and sequences Gen Z uses for humor, hype, and irony—with copy examples.",
+  },
+  "how-to-use-emojis-instagram-captions": {
+    metaTitle: "Instagram Caption Emojis: Boost Engagement (2026)",
+    metaDescription:
+      "Best emojis for Instagram captions and stories—tone, aesthetics, and engagement tips with examples.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */
@@ -541,6 +647,85 @@ export const priorityContextSeo: Record<string, EmojiSeoMeta> = {
     metaTitle: "😂 on TikTok: Laugh Emoji vs 💀 in Gen Z Comments",
     metaDescription:
       "What does 😂 mean on TikTok—and when do people use 💀 instead? See Gen Z comment tone with examples.",
+  },
+  "loudly-crying-face/from-a-girl": {
+    metaTitle: "😭 From a Girl: Crying Emoji — Sad, Funny or Drama?",
+    metaDescription:
+      "What does 😭 mean from a girl? Laughing, overwhelmed, or emotional—see signals and message examples.",
+  },
+  "loudly-crying-face/tiktok": {
+    metaTitle: "😭 on TikTok: Loudly Crying Emoji in Gen Z Comments",
+    metaDescription:
+      "What does 😭 mean on TikTok? Extreme reactions, laughter, or chaos—with comment examples.",
+  },
+  "loudly-crying-face/whatsapp": {
+    metaTitle: "😭 on WhatsApp: Crying Emoji in Chats & Groups",
+    metaDescription:
+      "What does 😭 mean on WhatsApp? Laughing, sympathy, or drama—family and friend chat examples.",
+  },
+  "winking-face/from-a-girl": {
+    metaTitle: "😉 From a Girl: Wink Emoji — Flirty or Joke?",
+    metaDescription:
+      "What does 😉 mean from a girl? Playful flirting, teasing, or inside jokes—with texting examples.",
+  },
+  "winking-face/from-a-guy": {
+    metaTitle: "😉 From a Guy: Wink Emoji Meaning in Texts",
+    metaDescription:
+      "What does 😉 mean from a guy? Flirting, confidence, or humor—see when it feels romantic.",
+  },
+  "smirking-face/from-a-girl": {
+    metaTitle: "😏 From a Girl: Smirk Emoji — Flirty or Teasing?",
+    metaDescription:
+      "What does 😏 mean from a girl? Bold flirting, confidence, or sarcasm—with DM examples.",
+  },
+  "smirking-face/from-a-guy": {
+    metaTitle: "😏 From a Guy: Smirk Emoji in Texting & DMs",
+    metaDescription:
+      "What does 😏 mean from a guy? Teasing, flirting, or challenge tone—with real examples.",
+  },
+  "folded-hands/whatsapp": {
+    metaTitle: "🙏 on WhatsApp: Thanks, Please or Prayer?",
+    metaDescription:
+      "What does 🙏 mean on WhatsApp? Gratitude, hope, and cultural tone—with chat examples.",
+  },
+  "eyes/from-a-girl": {
+    metaTitle: "👀 From a Girl: Eyes Emoji — Flirty or Curious?",
+    metaDescription:
+      "What does 👀 mean from a girl? She noticed something—flirty, gossip, or curiosity with examples.",
+  },
+  "eyes/instagram": {
+    metaTitle: "👀 on Instagram: Eyes Emoji in Comments & DMs",
+    metaDescription:
+      "What does 👀 mean on Instagram? 'I see you', hype, or gossip—story and comment examples.",
+  },
+  "melting-face/tiktok": {
+    metaTitle: "🫠 on TikTok: Melting Face Emoji Meaning (2026)",
+    metaDescription:
+      "What does 🫠 mean on TikTok? Embarrassment, heat, awkwardness—Gen Z comment examples.",
+  },
+};
+
+/** Lote 4 — people subcategory hubs */
+export const priorityPeopleSubSeo: Record<string, EmojiSeoMeta> = {
+  gestures: {
+    metaTitle: "👋 Gesture Emojis — Hands & Body Language Copy",
+    metaDescription:
+      "Wave, thumbs up, clap, and hand gesture emojis with meanings. Copy for WhatsApp, texts, and reactions.",
+  },
+  emotions: {
+    metaTitle: "🤗 People Emotion Emojis — Faces & Feelings",
+    metaDescription:
+      "People showing emotions and expressions. Browse meanings and copy human emotion emojis instantly.",
+  },
+  professions: {
+    metaTitle: "👨‍⚕️ Profession Emojis — Jobs & Careers Copy List",
+    metaDescription:
+      "Doctor, teacher, tech, and job emojis with meanings. Copy profession symbols for work chats and posts.",
+  },
+  family: {
+    metaTitle: "👨‍👩‍👧 Family Emojis — Parents, Kids & Groups",
+    metaDescription:
+      "Family member emojis and group symbols. Copy for messages, announcements, and inclusive posts.",
   },
 };
 
@@ -680,6 +865,59 @@ export const getCategorySeoMeta = (category: Category, emojiCount?: number): Pag
   };
 };
 
+const cleanBlogTitle = (title: string) =>
+  title
+    .replace(/^The\s+/i, "")
+    .replace(/:\s*A Comprehensive Guide$/i, "")
+    .replace(/:\s*A Complete Guide$/i, "")
+    .replace(/:\s*Complete Guide$/i, "")
+    .trim();
+
+const buildBlogFallbackSeo = (post: {
+  slug: string;
+  title: string;
+  excerpt: string;
+}): PageSeoMeta => {
+  let ogTitle = cleanBlogTitle(post.title);
+  if (ogTitle.length > 58) ogTitle = truncate(ogTitle, 58);
+
+  const needsYear =
+    !ogTitle.includes("?") &&
+    !/202[4-9]/.test(ogTitle) &&
+    (post.slug.includes("guide") || post.slug.includes("how-to") || post.slug.includes("meanings"));
+
+  const metaTitle = needsYear ? `${ogTitle} (2026)` : ogTitle;
+
+  return {
+    title: withBrand(metaTitle),
+    description: truncate(post.excerpt, 160),
+    ogTitle: metaTitle,
+  };
+};
+
+export const getPeopleSubSeoMeta = (
+  sub: { slug: string; name: string; description: string },
+  emojiCount?: number
+): PageSeoMeta => {
+  const priority = priorityPeopleSubSeo[sub.slug];
+  const countLine = emojiCount ? ` Browse ${emojiCount.toLocaleString()} emojis to copy.` : "";
+
+  if (priority) {
+    return {
+      title: withBrand(priority.metaTitle),
+      description: truncate(`${priority.metaDescription}${countLine}`, 160),
+      ogTitle: priority.metaTitle,
+    };
+  }
+
+  const title = `${sub.name} Emojis — Copy & Meanings`;
+  return {
+    title: withBrand(title),
+    description: truncate(`${sub.description}${countLine || " Copy instantly."}`, 160),
+    ogTitle: title,
+  };
+};
+
 export const getBlogPostSeoMeta = (post: {
   slug: string;
   title: string;
@@ -694,9 +932,5 @@ export const getBlogPostSeoMeta = (post: {
     };
   }
 
-  return {
-    title: withBrand(post.title),
-    description: truncate(post.excerpt, 160),
-    ogTitle: post.title,
-  };
+  return buildBlogFallbackSeo(post);
 };
