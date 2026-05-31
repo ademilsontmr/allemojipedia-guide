@@ -1,40 +1,29 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { createCanvas } from "@napi-rs/canvas";
 import sharp from "sharp";
 import toIco from "to-ico";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(__dirname, "..", "public");
-const sourcePath = path.join(publicDir, "favicon-source.png");
 const canvasSize = 512;
-const emojiScale = 0.78;
 
-const trimmed = await sharp(sourcePath).trim({ threshold: 24 }).png().toBuffer();
-const { width = 1, height = 1 } = await sharp(trimmed).metadata();
-const emojiSize = Math.round(canvasSize * emojiScale);
-const resizedEmoji = await sharp(trimmed)
-  .resize(emojiSize, emojiSize, {
-    fit: "contain",
-    background: { r: 0, g: 0, b: 0, alpha: 0 },
-  })
-  .png()
-  .toBuffer();
+const renderEmojiIcon = () => {
+  const canvas = createCanvas(canvasSize, canvasSize);
+  const ctx = canvas.getContext("2d");
 
-const left = Math.round((canvasSize - emojiSize) / 2);
-const top = Math.round((canvasSize - emojiSize) / 2);
+  ctx.clearRect(0, 0, canvasSize, canvasSize);
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.font =
+    '380px "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "EmojiOne Color", sans-serif';
+  ctx.fillText("\u{1F4DA}", canvasSize / 2, canvasSize / 2 + 18);
 
-const baseIcon = await sharp({
-  create: {
-    width: canvasSize,
-    height: canvasSize,
-    channels: 4,
-    background: { r: 0, g: 0, b: 0, alpha: 0 },
-  },
-})
-  .composite([{ input: resizedEmoji, left, top }])
-  .png()
-  .toBuffer();
+  return canvas.toBuffer("image/png");
+};
+
+const baseIcon = renderEmojiIcon();
 
 const sizes = [
   { name: "favicon-48x48.png", size: 48 },
@@ -45,18 +34,19 @@ const sizes = [
 
 for (const { name, size } of sizes) {
   await sharp(baseIcon)
-    .resize(size, size)
-    .png({ compressionLevel: 9, palette: size <= 48 })
+    .resize(size, size, { kernel: sharp.kernel.lanczos3 })
+    .png({ compressionLevel: 9 })
     .toFile(path.join(publicDir, name));
   console.log(`Wrote ${name}`);
 }
 
 const png48 = await sharp(baseIcon)
-  .resize(48, 48)
-  .png({ compressionLevel: 9, palette: true })
+  .resize(48, 48, { kernel: sharp.kernel.lanczos3 })
+  .png()
   .toBuffer();
 fs.writeFileSync(path.join(publicDir, "favicon-48x48.png"), png48);
 
-const ico = await toIco([png48]);
+const png32 = await sharp(baseIcon).resize(32, 32, { kernel: sharp.kernel.lanczos3 }).png().toBuffer();
+const ico = await toIco([png48, png32]);
 fs.writeFileSync(path.join(publicDir, "favicon.ico"), ico);
 console.log("Wrote favicon.ico");
