@@ -7,6 +7,7 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
+import { buildEmojiStructuredData } from '../src/utils/emojiPageSchema';
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
@@ -543,44 +544,6 @@ const webPageSchema = (name: string, description: string, url: string): Structur
   },
 });
 
-const emojiStructuredData = (emoji: Emoji): StructuredData[] => {
-  const editorial = getTopEmojiEditorial(emoji);
-  const seo = getEmojiSeoMeta(emoji);
-
-  return [
-    webPageSchema(seo.ogTitle ?? `${emoji.unicode} ${emoji.name} Emoji Meaning`, seo.description, canonicalUrl(`/emoji/${emoji.slug}/`)),
-    {
-    '@context': 'https://schema.org',
-    '@type': 'DefinedTerm',
-    name: `${emoji.unicode} ${emoji.name}`,
-    description: compactText(editorial?.snippetAnswer ?? emoji.shortMeaning),
-    url: canonicalUrl(`/emoji/${emoji.slug}/`),
-    inDefinedTermSet: {
-      '@type': 'DefinedTermSet',
-      name: 'Unicode Emoji',
-      url: 'https://unicode.org/emoji/',
-    },
-    },
-    ...(editorial ? [{
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: editorial.faqs.map((faq) => ({
-        '@type': 'Question',
-        name: faq.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: faq.answer,
-        },
-      })),
-    }] : []),
-    breadcrumbSchema([
-    { name: 'Home', url: `${BASE_URL}/` },
-    { name: 'Category', url: canonicalUrl(`/category/${emoji.categorySlug}/`) },
-    { name: `${emoji.unicode} ${emoji.name}` },
-    ]),
-  ];
-};
-
 const categoryStructuredData = (
   category: (typeof categories)[number],
   categoryEmojis: Emoji[]
@@ -829,6 +792,8 @@ const generateStaticPages = () => {
   emojis.forEach((emoji) => {
     const seo = getEmojiSeoMeta(emoji);
     const keywords = `${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`;
+    const primaryRelatedSlug = emoji.relatedEmojis[0];
+    const primaryRelated = primaryRelatedSlug ? emojiBySlug.get(primaryRelatedSlug) : undefined;
 
     writeStaticPage(
       template,
@@ -839,7 +804,7 @@ const generateStaticPages = () => {
       emojiBody(emoji),
       'article',
       getEmojiRobots(emoji),
-      emojiStructuredData(emoji)
+      buildEmojiStructuredData(emoji, primaryRelated) as StructuredData[]
     );
     count++;
   });

@@ -13,6 +13,7 @@ import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
+import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 
@@ -105,79 +106,7 @@ const EmojiDetail = () => {
     )
     : null;
 
-  const faqItems = [
-    ...(editorial?.faqs ?? []),
-    {
-      question: `Is the ${emoji.unicode} emoji informal?`,
-      answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('casual') || ctx.toLowerCase().includes('friend'))
-        ? `Yes, the ${emoji.name} emoji is generally considered informal and works best in casual conversations with friends and family.`
-        : `The ${emoji.name} emoji can be used in both casual and semi-formal contexts, depending on your relationship with the recipient.`
-    },
-    {
-      question: `Can I use the ${emoji.unicode} emoji at work?`,
-      answer: emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional') || ctx.toLowerCase().includes('work'))
-        ? `Yes, ${emoji.unicode} is generally appropriate for workplace communication when used in casual team chats or friendly emails with colleagues you know well.`
-        : `Use ${emoji.unicode} cautiously at work. It's acceptable in informal team chats but avoid it in formal emails or communication with clients and executives.`
-    },
-    {
-      question: primaryRelated ? `What is the difference between ${emoji.unicode} and ${primaryRelated.unicode}?` : `How do I copy the ${emoji.name} emoji?`,
-      answer: primaryRelated
-        ? `While both emojis may seem similar, ${emoji.unicode} ${emoji.name} is typically used to ${emoji.usageContexts[0]?.toLowerCase() || 'express a specific feeling'}, whereas ${primaryRelated.unicode} ${primaryRelated.name} conveys ${primaryRelated.keywords?.[0] || 'a different nuance'}. Choose based on the exact tone you want to communicate.`
-        : `Simply click on the ${emoji.unicode} emoji in the Copy section above to instantly copy it to your clipboard. Then paste it anywhere you need.`
-    }
-  ];
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqItems.map(item => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": { "@type": "Answer", "text": item.answer }
-    }))
-  };
-
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`,
-    "description": emoji.shortMeaning,
-    "url": `https://allemojipedia.com/emoji/${slug}/`,
-    "inLanguage": "en-US",
-    "dateModified": editorialMeta.lastUpdatedIso,
-    "author": { "@type": "Organization", "name": editorialMeta.teamName, "url": "https://allemojipedia.com/about/" },
-    "publisher": { "@type": "Organization", "name": editorialMeta.siteName, "url": "https://allemojipedia.com/" },
-    "isPartOf": { "@type": "WebSite", "name": "Allemojipedia", "url": "https://allemojipedia.com/" },
-    "about": { "@type": "Thing", "name": emoji.name, "description": emoji.shortMeaning },
-    "mainEntity": {
-      "@type": "DefinedTerm",
-      "name": `${emoji.unicode} ${emoji.name}`,
-      "description": emoji.detailedMeaning.split('\n')[0],
-      "inDefinedTermSet": { "@type": "DefinedTermSet", "name": "Unicode Emoji", "url": "https://unicode.org/emoji/" }
-    }
-  };
-
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allemojipedia.com/" },
-      { "@type": "ListItem", "position": 2, "name": category?.name || "Category", "item": `https://allemojipedia.com/category/${emoji.categorySlug}/` },
-      { "@type": "ListItem", "position": 3, "name": `${emoji.unicode} ${emoji.name}` }
-    ]
-  };
-
-  const howToSchema = {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    "name": `How to Copy and Use ${emoji.unicode} ${emoji.name} Emoji`,
-    "description": `Learn how to copy the ${emoji.name} emoji and use it in your messages, social media, and more.`,
-    "step": [
-      { "@type": "HowToStep", "name": "Click to Copy", "text": `Click on the ${emoji.unicode} emoji above to copy it instantly.` },
-      { "@type": "HowToStep", "name": "Paste Anywhere", "text": "Paste the emoji in any app - WhatsApp, Instagram, Twitter, Facebook, or any text field." },
-      { "@type": "HowToStep", "name": "Use in Context", "text": `Use ${emoji.unicode} when ${emoji.usageContexts[0]?.toLowerCase() || 'expressing this emotion'}.` }
-    ]
-  };
+  const faqItems = buildEmojiFaqItems(emoji, primaryRelated);
 
   return (
     <Layout>
@@ -196,10 +125,6 @@ const EmojiDetail = () => {
         <meta name="twitter:title" content={seo.ogTitle ?? seo.title} />
         <meta name="twitter:description" content={seo.description} />
       </Helmet>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
 
       <div className="container-page section-spacing">
         <Breadcrumbs items={[
