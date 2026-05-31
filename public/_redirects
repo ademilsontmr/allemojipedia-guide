@@ -1,3 +1,6 @@
+# Serve fresh emoji favicon (bypasses stale CDN cache on /favicon.ico)
+/favicon.ico /favicon-48x48.png 200
+
 # Force HTTPS and non-www
 http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
 http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
