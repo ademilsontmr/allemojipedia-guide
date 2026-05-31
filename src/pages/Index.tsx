@@ -100,7 +100,7 @@ const Index = () => {
     "@type": "Organization",
     "name": "Allemojipedia",
     "url": "https://allemojipedia.com/",
-    "logo": "https://allemojipedia.com/favicon.ico"
+    "logo": "https://allemojipedia.com/icon-512.png"
   };
 
   const faqSchema = {

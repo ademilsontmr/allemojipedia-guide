@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Allemojipedia">
+  <rect width="512" height="512" rx="108" fill="#296df3"/>
+  <g fill="#ffffff">
+    <path d="M148 136c0-18 14-32 32-32h72v352h-72c-18 0-32-14-32-32V136z"/>
+    <path d="M260 104h72c18 0 32 14 32 32v288c0 18-14 32-32 32h-72V104z" opacity="0.92"/>
+    <path d="M256 120v272" stroke="#296df3" stroke-width="10"/>
+    <path d="M188 176h56M188 224h56M188 272h56" stroke="#296df3" stroke-width="14" stroke-linecap="round"/>
+    <path d="M268 176h56M268 224h56M268 272h56" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  </g>
+</svg>
