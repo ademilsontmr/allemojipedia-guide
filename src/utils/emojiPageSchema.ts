@@ -1,4 +1,5 @@
 import type { Emoji } from "@/data/emojis";
+import { getCategoryBySlug } from "@/data/categories";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
@@ -45,6 +46,7 @@ export const buildEmojiStructuredData = (
 ): SchemaObject[] => {
   const editorial = getTopEmojiEditorial(emoji);
   const seo = getEmojiSeoMeta(emoji);
+  const category = getCategoryBySlug(emoji.categorySlug);
   const pageUrl = `${BASE_URL}/emoji/${emoji.slug}/`;
   const faqItems = buildEmojiFaqItems(emoji, primaryRelated);
 
@@ -104,7 +106,7 @@ export const buildEmojiStructuredData = (
         {
           "@type": "ListItem",
           position: 2,
-          name: "Category",
+          name: category?.name ?? "Category",
           item: `${BASE_URL}/category/${emoji.categorySlug}/`,
         },
         { "@type": "ListItem", position: 3, name: `${emoji.unicode} ${emoji.name}` },

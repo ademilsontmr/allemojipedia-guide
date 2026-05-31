@@ -5,13 +5,13 @@ import { categories, peopleSubcategories } from '../src/data/categories';
 import { getPeopleSubcategoryEditorial } from '../src/data/peopleSubcategoryEditorial';
 import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
-import { emojiIntentClusters, getEmojiIntentClustersForEmoji, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
-import { getTopEmojiEditorial } from '../src/data/topEmojiEditorial';
+import { emojiIntentClusters, type EmojiIntentCluster } from '../src/data/emojiIntentClusters';
 import { buildEmojiStructuredData } from '../src/utils/emojiPageSchema';
+import { buildEmojiStaticArticleHtml, getDeterministicCategoryEmojis } from '../src/utils/emojiPageStaticHtml';
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
-import { emojiContextPages, getEmojiContextPagesForEmoji, type EmojiContextPage } from '../src/data/emojiContextPages';
+import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -147,65 +147,36 @@ const renderInlineMarkdownHtml = (value: string) => {
 };
 
 const staticShell = (content: string) => `
+  <header style="max-width: 960px; margin: 0 auto; padding: 20px 20px 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+    <p><a href="/"><strong>Allemojipedia</strong></a> — emoji meanings, copy &amp; paste, and usage guides</p>
+    <nav aria-label="Site">
+      <a href="/categories/">Categories</a> ·
+      <a href="/emoji-meanings/">Emoji Meanings</a> ·
+      <a href="/emoji-comparisons/">Comparisons</a> ·
+      <a href="/blog/">Blog</a>
+    </nav>
+  </header>
   <main class="static-seo-fallback" style="max-width: 960px; margin: 0 auto; padding: 32px 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6;">
     ${content}
   </main>
+  <footer style="max-width: 960px; margin: 0 auto; padding: 0 20px 32px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #555;">
+    <p>© ${new Date().getFullYear()} Allemojipedia · <a href="/about/">About</a> · <a href="/sitemap/">Sitemap</a></p>
+  </footer>
 `;
 
-const emojiBody = (emoji: Emoji) => {
-  const clusters = getEmojiIntentClustersForEmoji(emoji.slug);
-  const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
-  const editorial = getTopEmojiEditorial(emoji);
-  const relatedLinks = emoji.relatedEmojis.slice(0, 6).map((slug) => ({
-    href: `/emoji/${slug}/`,
-    label: slug.split('-').map((word) => word[0]?.toUpperCase() + word.slice(1)).join(' '),
-  }));
+const emojiBody = (emoji: Emoji, emojiBySlug: Map<string, Emoji>, allEmojis: Emoji[]) => {
+  const relatedEmojis = emoji.relatedEmojis
+    .map((slug) => emojiBySlug.get(slug))
+    .filter((item): item is Emoji => Boolean(item))
+    .slice(0, 6);
 
-  return staticShell(`
-    <article>
-      <nav><a href="/">Home</a> / <a href="/category/${escapeHtml(emoji.categorySlug)}/">Category</a></nav>
-      <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
-      <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
-      <p><strong>${escapeHtml(emoji.shortMeaning)}</strong></p>
-      ${editorial ? `
-        <h2>Quick answer</h2>
-        <p>${escapeHtml(editorial.snippetAnswer)}</p>
-        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
-        <h3>In texting</h3>
-        <p>${escapeHtml(editorial.textingMeaning)}</p>
-        <h3>On social media</h3>
-        <p>${escapeHtml(editorial.socialMeaning)}</p>
-        <h3>Tone warning</h3>
-        <p>${escapeHtml(editorial.caution)}</p>
-      ` : ''}
-      ${renderParagraphs(emoji.detailedMeaning)}
-      <h2>Common uses</h2>
-      <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join('')}</ul>
-      <h2>Examples</h2>
-      <ul>${emoji.examples.slice(0, 3).map((example) => `<li><strong>${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`).join('')}</ul>
-      <h2>Meaning by intent</h2>
-      <p>The ${escapeHtml(emoji.name)} emoji can shift meaning depending on tone, platform, and relationship. In texting it may clarify emotion, while on social media it often acts as a fast reaction or caption signal.</p>
-      <h2>Search terms people use for this emoji</h2>
-      <ul>${(editorial?.searchIntents ?? emoji.keywords.slice(0, 8).map((keyword) => `${keyword} emoji meaning`)).map((intent) => `<li>${escapeHtml(intent)}</li>`).join('')}</ul>
-      ${clusters.length ? `<h2>Related meaning guides</h2>${renderLinks(clusters.map((cluster) => ({
-        href: `/emoji-meanings/${cluster.slug}/`,
-        label: cluster.shortTitle,
-        description: cluster.description,
-      })))}` : ''}
-      ${contextPages.length ? `<h2>Meaning by sender and platform</h2>${renderLinks(contextPages.map((page) => ({
-        href: `/emoji/${emoji.slug}/${page.context}/`,
-        label: page.shortTitle,
-        description: page.description,
-      })))}` : ''}
-      <h2>Editorial review and sources</h2>
-      <p>This emoji guide is reviewed by ${escapeHtml(editorialMeta.teamName)}. We combine Unicode naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
-      ${renderLinks(editorialMeta.sources.map((source) => ({
-        href: source.url,
-        label: source.name,
-      })))}
-      ${relatedLinks.length ? `<h2>Often compared with</h2>${renderLinks(relatedLinks)}` : ''}
-    </article>
-  `);
+  return staticShell(
+    buildEmojiStaticArticleHtml({
+      emoji,
+      relatedEmojis,
+      categoryEmojis: getDeterministicCategoryEmojis(emoji, allEmojis),
+    })
+  );
 };
 
 const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => staticShell(`
@@ -801,7 +772,7 @@ const generateStaticPages = () => {
       seo.title,
       seo.description,
       keywords,
-      emojiBody(emoji),
+      emojiBody(emoji, emojiBySlug, emojis),
       'article',
       getEmojiRobots(emoji),
       buildEmojiStructuredData(emoji, primaryRelated) as StructuredData[]
