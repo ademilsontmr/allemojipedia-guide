@@ -28,6 +28,8 @@ import { batch31PeopleBodyBase100 } from "./batch31-people-body-base-100";
 import { batch32PeopleBodyBaseComplete } from "./batch32-people-body-base-complete";
 import { batch33PeopleBodyRichGestures } from "./batch33-people-body-rich-gestures";
 import { batch34PeopleBodyRichComplete } from "./batch34-people-body-rich-complete";
+import { batch35SymbolsComplete } from "./batch35-symbols-complete";
+import { batch36FlagsComplete } from "./batch36-flags-complete";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
@@ -60,6 +62,8 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch32PeopleBodyBaseComplete,
   ...batch33PeopleBodyRichGestures,
   ...batch34PeopleBodyRichComplete,
+  ...batch35SymbolsComplete,
+  ...batch36FlagsComplete,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
@@ -70,7 +74,7 @@ export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry"
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–13, 14–34), skin-tone inherit, plus premium for remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–36), skin-tone inherit, plus premium for remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;
