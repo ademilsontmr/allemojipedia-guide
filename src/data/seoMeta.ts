@@ -214,23 +214,11 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
   }
 
   const editorial = getTopEmojiEditorial(emoji);
-  if (editorial) {
-    const title = `${emoji.unicode} ${editorial.searchTitle}`;
-    return {
-      title: withBrand(title),
-      description: truncate(
-        `${editorial.snippetAnswer} Copy ${emoji.unicode} for texting, WhatsApp, Instagram, and TikTok.`,
-        160
-      ),
-      ogTitle: title,
-    };
-  }
-
-  const title = `${emoji.unicode} ${emoji.name} Emoji Meaning — Copy & Use`;
+  const title = `${emoji.unicode} ${editorial.searchTitle}`;
   return {
     title: withBrand(title),
     description: truncate(
-      `What does ${emoji.unicode} mean? ${emoji.shortMeaning} See examples for texting and social media. Copy ${emoji.unicode} instantly.`,
+      `${editorial.snippetAnswer} Copy ${emoji.unicode} for texting, WhatsApp, Instagram, and TikTok.`,
       160
     ),
     ogTitle: title,

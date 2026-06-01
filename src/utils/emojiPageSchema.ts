@@ -3,6 +3,7 @@ import { getCategoryBySlug } from "@/data/categories";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
+import { getEnrichedExamples } from "@/utils/emojiUniqueContent";
 
 const BASE_URL = "https://allemojipedia.com";
 
@@ -10,34 +11,23 @@ export type SchemaObject = Record<string, unknown>;
 
 export const buildEmojiFaqItems = (emoji: Emoji, primaryRelated?: Emoji | null) => {
   const editorial = getTopEmojiEditorial(emoji);
+  const faqs = [...editorial.faqs];
 
-  return [
-    ...(editorial?.faqs ?? []),
-    {
-      question: `Is the ${emoji.unicode} emoji informal?`,
-      answer: emoji.usageContexts.some(
-        (ctx) => ctx.toLowerCase().includes("casual") || ctx.toLowerCase().includes("friend")
-      )
-        ? `Yes, the ${emoji.name} emoji is generally considered informal and works best in casual conversations with friends and family.`
-        : `The ${emoji.name} emoji can be used in both casual and semi-formal contexts, depending on your relationship with the recipient.`,
-    },
-    {
-      question: `Can I use the ${emoji.unicode} emoji at work?`,
-      answer: emoji.usageContexts.some(
-        (ctx) => ctx.toLowerCase().includes("professional") || ctx.toLowerCase().includes("work")
-      )
-        ? `Yes, ${emoji.unicode} is generally appropriate for workplace communication when used in casual team chats or friendly emails with colleagues you know well.`
-        : `Use ${emoji.unicode} cautiously at work. It's acceptable in informal team chats but avoid it in formal emails or communication with clients and executives.`,
-    },
-    {
-      question: primaryRelated
-        ? `What is the difference between ${emoji.unicode} and ${primaryRelated.unicode}?`
-        : `How do I copy the ${emoji.name} emoji?`,
-      answer: primaryRelated
-        ? `While both emojis may seem similar, ${emoji.unicode} ${emoji.name} is typically used to ${emoji.usageContexts[0]?.toLowerCase() || "express a specific feeling"}, whereas ${primaryRelated.unicode} ${primaryRelated.name} conveys ${primaryRelated.keywords?.[0] || "a different nuance"}. Choose based on the exact tone you want to communicate.`
-        : `Simply click on the ${emoji.unicode} emoji on the emoji page to instantly copy it to your clipboard. Then paste it anywhere you need.`,
-    },
-  ];
+  if (primaryRelated && !faqs.some((item) => item.question.includes("difference"))) {
+    faqs.push({
+      question: `What is the difference between ${emoji.unicode} and ${primaryRelated.unicode}?`,
+      answer: `${emoji.unicode} ${emoji.name} fits messages about ${emoji.usageContexts[0]?.toLowerCase() || "this topic"}, while ${primaryRelated.unicode} ${primaryRelated.name} leans toward ${primaryRelated.usageContexts[0]?.toLowerCase() || "a different tone"}. Compare both in context before choosing.`,
+    });
+  }
+
+  if (!faqs.some((item) => item.question.toLowerCase().includes("copy"))) {
+    faqs.push({
+      question: `How do I copy ${emoji.unicode}?`,
+      answer: `Tap or click the ${emoji.unicode} emoji at the top of this page to copy it, then paste into WhatsApp, iMessage, Instagram, TikTok, or any text field.`,
+    });
+  }
+
+  return faqs.slice(0, 6);
 };
 
 export const buildEmojiStructuredData = (
@@ -78,7 +68,7 @@ export const buildEmojiStructuredData = (
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       name: `${emoji.unicode} ${emoji.name}`,
-      description: editorial?.snippetAnswer ?? emoji.shortMeaning,
+      description: editorial.snippetAnswer,
       url: pageUrl,
       inDefinedTermSet: {
         "@type": "DefinedTermSet",
@@ -131,7 +121,7 @@ export const buildEmojiStructuredData = (
         {
           "@type": "HowToStep",
           name: "Use in Context",
-          text: `Use ${emoji.unicode} when ${emoji.usageContexts[0]?.toLowerCase() || "expressing this emotion"}.`,
+          text: `Use ${emoji.unicode} when ${emoji.usageContexts[0]?.toLowerCase() || "expressing this emotion"}. Example: "${getEnrichedExamples(emoji)[0]?.text ?? emoji.shortMeaning}".`,
         },
       ],
     },

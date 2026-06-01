@@ -1,18 +1,10 @@
 import type { Emoji } from "./emojis";
+import {
+  buildUniqueEditorial,
+  type EmojiEditorialContent,
+} from "@/utils/emojiUniqueContent";
 
-export type TopEmojiEditorial = {
-  slug: string;
-  searchTitle: string;
-  snippetAnswer: string;
-  textingMeaning: string;
-  socialMeaning: string;
-  caution: string;
-  searchIntents: string[];
-  faqs: Array<{
-    question: string;
-    answer: string;
-  }>;
-};
+export type TopEmojiEditorial = EmojiEditorialContent;
 
 export const topEmojiSlugs = [
   "face-with-tears-of-joy",
@@ -230,45 +222,18 @@ const editorialOverrides: Record<string, Partial<TopEmojiEditorial>> = {
   },
 };
 
-const defaultIntent = (emoji: Emoji, label: string) => [
-  `${label} emoji meaning`,
-  `${emoji.unicode} meaning in texting`,
-  `${label} emoji on Instagram`,
-  `${label} emoji from someone`,
-];
-
-const defaultEditorial = (emoji: Emoji): TopEmojiEditorial => {
-  const label = emoji.name.toLowerCase();
-
-  return {
-    slug: emoji.slug,
-    searchTitle: `${emoji.name} Emoji Meaning in Texting, Social Media, and Real Conversations`,
-    snippetAnswer: `${emoji.unicode} ${emoji.name} usually means ${emoji.shortMeaning.replace(/\.$/, "").toLowerCase()}. The exact tone depends on the relationship, platform, and surrounding message.`,
-    textingMeaning: `In texting, ${emoji.unicode} helps add emotional tone to short messages. It can make a reply feel warmer, funnier, softer, more excited, or more sarcastic depending on the words around it.`,
-    socialMeaning: `On Instagram, TikTok, X, and group chats, ${emoji.unicode} often works as a quick reaction. People use it in captions, comments, and replies when they want the feeling to be understood instantly.`,
-    caution: `Avoid using ${emoji.unicode} in serious, formal, or sensitive messages unless the relationship is casual enough. The same emoji can feel friendly to one person and dismissive to another.`,
-    searchIntents: defaultIntent(emoji, label),
-    faqs: [
-      {
-        question: `What does ${emoji.unicode} mean in texting?`,
-        answer: `${emoji.unicode} usually reflects ${emoji.keywords.slice(0, 3).join(", ")} or a related emotional tone. Read it with the full sentence, not as a standalone symbol.`,
-      },
-      {
-        question: `Is ${emoji.unicode} flirty?`,
-        answer: `It can be flirty if the conversation is already romantic or playful, but it can also be friendly, ironic, or casual depending on who sends it.`,
-      },
-    ],
-  };
-};
-
 export const isTopEmoji = (slug: string): boolean => topEmojiSlugs.includes(slug as (typeof topEmojiSlugs)[number]);
 
-export const getTopEmojiEditorial = (emoji: Emoji): TopEmojiEditorial | null => {
-  if (!isTopEmoji(emoji.slug)) return null;
+export const getTopEmojiEditorial = (emoji: Emoji): TopEmojiEditorial => {
+  const base = buildUniqueEditorial(emoji);
+  const override = editorialOverrides[emoji.slug];
+  if (!override) return base;
 
   return {
-    ...defaultEditorial(emoji),
-    ...editorialOverrides[emoji.slug],
+    ...base,
+    ...override,
     slug: emoji.slug,
+    faqs: override.faqs ?? base.faqs,
+    searchIntents: override.searchIntents ?? base.searchIntents,
   };
 };

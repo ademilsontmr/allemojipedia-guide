@@ -14,6 +14,12 @@ import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
 import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
+import {
+  getEnrichedDetailedParagraphs,
+  getEnrichedExamples,
+  getUniqueContextBlocks,
+  getUniqueWhenNotToUse,
+} from "@/utils/emojiUniqueContent";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 
@@ -107,6 +113,10 @@ const EmojiDetail = () => {
     : null;
 
   const faqItems = buildEmojiFaqItems(emoji, primaryRelated);
+  const detailedParagraphs = getEnrichedDetailedParagraphs(emoji);
+  const enrichedExamples = getEnrichedExamples(emoji);
+  const contextBlocks = getUniqueContextBlocks(emoji);
+  const whenNotToUse = getUniqueWhenNotToUse(emoji);
 
   return (
     <Layout>
@@ -153,14 +163,6 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          {/* H2 - Quick summary */}
-          <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
-            <h2 className="text-xl font-semibold mb-2">Quick summary</h2>
-            <p className="text-foreground">
-              {emoji.shortMeaning} People commonly use <span className="emoji">{emoji.unicode}</span> {emoji.usageContexts[0]?.toLowerCase().startsWith('to ') ? '' : 'to '}{emoji.usageContexts[0]?.toLowerCase() || 'express this feeling'}.
-            </p>
-          </section>
-
           {contextPages.length > 0 && (
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Meaning by sender and platform</h2>
@@ -202,60 +204,48 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          {/* H2 - What does the emoji mean? */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">What does the <span className="emoji">{emoji.unicode}</span> emoji mean?</h2>
-            <p className="mb-3 text-muted-foreground leading-relaxed">{emoji.shortMeaning}</p>
-            {emoji.detailedMeaning.split('\n\n').map((p, i) => (
+            {detailedParagraphs.map((p, i) => (
               <p key={i} className="mb-3 text-muted-foreground leading-relaxed">{p}</p>
             ))}
           </section>
 
-          {/* H2 - Meaning in different contexts */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Meaning in different contexts</h2>
-
             <div className="space-y-5">
-              {/* H3 - In conversations */}
-              <div className="p-4 rounded-lg bg-muted/30">
-                <h3 className="text-lg font-medium mb-2">In conversations</h3>
-                <p className="text-muted-foreground">
-                  When chatting with friends or family, <span className="emoji">{emoji.unicode}</span> is perfect for {emoji.usageContexts[0]?.toLowerCase() || 'expressing your feelings'}.
-                  It adds warmth and personality to your messages without being over the top.
-                </p>
-              </div>
-
-              {/* H3 - On social media */}
-              <div className="p-4 rounded-lg bg-muted/30">
-                <h3 className="text-lg font-medium mb-2">On social media</h3>
-                <p className="text-muted-foreground">
-                  On platforms like Instagram, Twitter, and WhatsApp, <span className="emoji">{emoji.unicode}</span> helps convey {emoji.keywords[0] || 'emotion'} in captions and comments.
-                  It's widely recognized and adds emotional context to your posts.
-                </p>
-              </div>
-
-              {/* H3 - At work */}
-              <div className="p-4 rounded-lg bg-muted/30">
-                <h3 className="text-lg font-medium mb-2">At work</h3>
-                <p className="text-muted-foreground">
-                  {emoji.usageContexts.some(ctx => ctx.toLowerCase().includes('professional'))
-                    ? `The ${emoji.name} emoji can work well in casual workplace communication like Slack or Teams messages with colleagues you know well.`
-                    : `Use ${emoji.unicode} sparingly at work. It's best for informal team chats rather than emails to clients or executives.`
-                  }
-                </p>
-              </div>
+              {contextBlocks.map((block) => (
+                <div key={block.title} className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="text-lg font-medium mb-2">{block.title}</h3>
+                  <p className="text-muted-foreground">{block.body}</p>
+                </div>
+              ))}
             </div>
           </section>
 
-          {/* H2 - How to use the emoji correctly */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">How to use the <span className="emoji">{emoji.unicode}</span> emoji correctly</h2>
             <p className="text-muted-foreground mb-4">
-              The {emoji.name} emoji works best when you want to {emoji.usageContexts[0]?.toLowerCase() || 'express a specific feeling'}. Here are the best practices:
+              The {emoji.name} emoji works best in these situations:
             </p>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               {emoji.usageContexts.map((ctx, i) => <li key={i}>{ctx}</li>)}
             </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Real message examples</h2>
+            <p className="text-muted-foreground mb-4">
+              These sample messages show how people actually use <span className="emoji">{emoji.unicode}</span> {emoji.name}:
+            </p>
+            <div className="space-y-4">
+              {enrichedExamples.map((example, i) => (
+                <div key={i} className="p-4 rounded-lg bg-muted/30">
+                  <h3 className="font-semibold mb-2">{example.context}</h3>
+                  <p className="text-muted-foreground">{example.text}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           {/* H2 - Meaning by intent */}
@@ -291,19 +281,12 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          {/* H2 - When NOT to use the emoji */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">When NOT to use the <span className="emoji">{emoji.unicode}</span> emoji</h2>
-            <p className="text-muted-foreground mb-4">
-              While <span className="emoji">{emoji.unicode}</span> is versatile, there are situations where it may be misunderstood or inappropriate:
-            </p>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li>Avoid using <span className="emoji">{emoji.unicode}</span> in formal emails or professional documents where emojis may seem unprofessional.</li>
-              <li>Skip it when delivering serious or sensitive news — the tone may come across as dismissive.</li>
-              {emoji.misunderstandings.map((m, i) => (
-                <li key={i}>Be careful: {m.toLowerCase()}</li>
+              {whenNotToUse.map((item, i) => (
+                <li key={i}>{item}</li>
               ))}
-              <li>Consider your audience — older recipients or different cultures may interpret it differently.</li>
             </ul>
           </section>
 

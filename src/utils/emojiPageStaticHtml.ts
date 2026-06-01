@@ -6,6 +6,12 @@ import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { editorialMeta } from "@/data/editorialMeta";
 import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
+import {
+  getEnrichedDetailedParagraphs,
+  getEnrichedExamples,
+  getUniqueContextBlocks,
+  getUniqueWhenNotToUse,
+} from "@/utils/emojiUniqueContent";
 
 const escapeHtml = (value: string) =>
   value
@@ -42,6 +48,10 @@ export const buildEmojiStaticArticleHtml = ({
   const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
   const primaryRelated = relatedEmojis[0];
   const faqItems = buildEmojiFaqItems(emoji, primaryRelated);
+  const detailedParagraphs = getEnrichedDetailedParagraphs(emoji);
+  const examples = getEnrichedExamples(emoji);
+  const contextBlocks = getUniqueContextBlocks(emoji);
+  const whenNotToUse = getUniqueWhenNotToUse(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(
         ({ slug1, slug2 }) =>
@@ -49,16 +59,6 @@ export const buildEmojiStaticArticleHtml = ({
           (slug1 === primaryRelated.slug && slug2 === emoji.slug)
       )
     : null;
-
-  const usagePhrase = emoji.usageContexts[0]?.toLowerCase().startsWith("to ")
-    ? emoji.usageContexts[0]?.toLowerCase()
-    : `to ${emoji.usageContexts[0]?.toLowerCase() || "express this feeling"}`;
-
-  const workAdvice = emoji.usageContexts.some((ctx) =>
-    ctx.toLowerCase().includes("professional")
-  )
-    ? `The ${emoji.name} emoji can work well in casual workplace communication like Slack or Teams messages with colleagues you know well.`
-    : `Use ${emoji.unicode} sparingly at work. It's best for informal team chats rather than emails to clients or executives.`;
 
   const linkList = (items: { href: string; label: string; description?: string }[]) =>
     `<ul>${items
@@ -86,20 +86,19 @@ export const buildEmojiStaticArticleHtml = ({
         <p><strong>Copy ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)}</strong> — tap or click the emoji on the live page to copy it to your clipboard for WhatsApp, iMessage, Instagram, and other apps.</p>
       </section>
 
-      ${
-        editorial
-          ? `
       <section>
         <h2>Quick answer</h2>
         <p>${escapeHtml(editorial.snippetAnswer)}</p>
       </section>
-      `
-          : ""
-      }
 
       <section>
-        <h2>Quick summary</h2>
-        <p>${escapeHtml(emoji.shortMeaning)} People commonly use ${escapeHtml(emoji.unicode)} ${escapeHtml(usagePhrase)}.</p>
+        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
+        <h3>In texting</h3>
+        <p>${escapeHtml(editorial.textingMeaning)}</p>
+        <h3>On social media</h3>
+        <p>${escapeHtml(editorial.socialMeaning)}</p>
+        <h3>Tone warning</h3>
+        <p>${escapeHtml(editorial.caution)}</p>
       </section>
 
       ${
@@ -120,51 +119,33 @@ export const buildEmojiStaticArticleHtml = ({
           : ""
       }
 
-      ${
-        editorial
-          ? `
-      <section>
-        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
-        <h3>In texting</h3>
-        <p>${escapeHtml(editorial.textingMeaning)}</p>
-        <h3>On social media</h3>
-        <p>${escapeHtml(editorial.socialMeaning)}</p>
-        <h3>Tone warning</h3>
-        <p>${escapeHtml(editorial.caution)}</p>
-      </section>
-      `
-          : ""
-      }
-
       <section>
         <h2>What does the ${escapeHtml(emoji.unicode)} emoji mean?</h2>
-        <p>${escapeHtml(emoji.shortMeaning)}</p>
-        ${emoji.detailedMeaning
-          .split("\n\n")
-          .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
-          .join("")}
+        ${detailedParagraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
       </section>
 
       <section>
         <h2>Meaning in different contexts</h2>
-        <h3>In conversations</h3>
-        <p>When chatting with friends or family, ${escapeHtml(emoji.unicode)} is perfect for ${escapeHtml(emoji.usageContexts[0]?.toLowerCase() || "expressing your feelings")}. It adds warmth and personality to your messages without being over the top.</p>
-        <h3>On social media</h3>
-        <p>On platforms like Instagram, Twitter, and WhatsApp, ${escapeHtml(emoji.unicode)} helps convey ${escapeHtml(emoji.keywords[0] || "emotion")} in captions and comments. It's widely recognized and adds emotional context to your posts.</p>
-        <h3>At work</h3>
-        <p>${escapeHtml(workAdvice)}</p>
+        ${contextBlocks
+          .map(
+            (block) => `
+          <h3>${escapeHtml(block.title)}</h3>
+          <p>${escapeHtml(block.body)}</p>
+        `
+          )
+          .join("")}
       </section>
 
       <section>
         <h2>How to use the ${escapeHtml(emoji.unicode)} emoji correctly</h2>
-        <p>The ${escapeHtml(emoji.name)} emoji works best when you want to ${escapeHtml(emoji.usageContexts[0]?.toLowerCase() || "express a specific feeling")}. Here are the best practices:</p>
+        <p>The ${escapeHtml(emoji.name)} emoji works best in these situations:</p>
         <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join("")}</ul>
       </section>
 
       <section>
-        <h2>Examples</h2>
-        <ul>${emoji.examples
-          .slice(0, 5)
+        <h2>Real message examples</h2>
+        <p>These sample messages show how people actually use ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)}:</p>
+        <ul>${examples
           .map(
             (example) =>
               `<li><strong>${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`
@@ -174,7 +155,7 @@ export const buildEmojiStaticArticleHtml = ({
 
       <section>
         <h2>Meaning by intent</h2>
-        <p>The ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)} emoji can change tone depending on the message around it. In texting, it often helps clarify emotion; on social media, it can work as a fast reaction, caption signal, or community shorthand.</p>
+        <p>The ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)} emoji can change tone depending on the message around it. Browse these intent guides for related meanings:</p>
         ${
           intentClusters.length
             ? linkList(
@@ -184,30 +165,18 @@ export const buildEmojiStaticArticleHtml = ({
                   description: cluster.description,
                 }))
               )
-            : ""
+            : `<p>Explore the <a href="/emoji-meanings/">emoji meanings hub</a> for guides on hearts, texting tone, Gen Z slang, and platform-specific usage.</p>`
         }
       </section>
 
-      ${
-        editorial
-          ? `
       <section>
         <h2>Popular searches for ${escapeHtml(emoji.unicode)}</h2>
         <ul>${editorial.searchIntents.map((intent) => `<li>${escapeHtml(intent)}</li>`).join("")}</ul>
       </section>
-      `
-          : ""
-      }
 
       <section>
         <h2>When NOT to use the ${escapeHtml(emoji.unicode)} emoji</h2>
-        <p>While ${escapeHtml(emoji.unicode)} is versatile, there are situations where it may be misunderstood or inappropriate:</p>
-        <ul>
-          <li>Avoid using ${escapeHtml(emoji.unicode)} in formal emails or professional documents where emojis may seem unprofessional.</li>
-          <li>Skip it when delivering serious or sensitive news — the tone may come across as dismissive.</li>
-          ${emoji.misunderstandings.map((item) => `<li>Be careful: ${escapeHtml(item.toLowerCase())}</li>`).join("")}
-          <li>Consider your audience — older recipients or different cultures may interpret it differently.</li>
-        </ul>
+        <ul>${whenNotToUse.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
       </section>
 
       <section>
@@ -222,6 +191,11 @@ export const buildEmojiStaticArticleHtml = ({
         `
           )
           .join("")}
+      </section>
+
+      <section>
+        <h2>Unicode category</h2>
+        <p>${escapeHtml(emoji.name)} is listed under ${escapeHtml(category?.name ?? emoji.categorySlug)} (${escapeHtml(emoji.subgroup.replace(/-/g, " "))}) in the Unicode emoji catalog.</p>
       </section>
 
       <section>
