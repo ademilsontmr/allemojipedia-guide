@@ -2,7 +2,7 @@ import type { EmojiBatchEnrichment } from "./types";
 
 const BATCH_ID = "13-top-travel-objects";
 
-/** Batch 13 P0 + P1 — priority travel & objects pages (see batch13-priority.ts). */
+/** Batch 13 P0 + P1 + P2 — full priority travel & objects queue (batch13-priority.ts). */
 export const batch13TopTravelObjects: Record<string, EmojiBatchEnrichment> = {
   "bullet-train": {
     batchId: BATCH_ID,
@@ -1337,6 +1337,346 @@ export const batch13TopTravelObjects: Record<string, EmojiBatchEnrichment> = {
     faqs: [
       { question: "What does 🔎 mean?", answer: "Search, investigate, fact-check, or examine closely." },
       { question: "🔎 vs 🔍?", answer: "Same meaning — different tilt direction per Unicode design." },
+    ],
+  },
+
+  "oncoming-police-car": {
+    batchId: BATCH_ID,
+    searchTitle: "Oncoming Police Car Emoji (🚔) Meaning: Cops, Emergency, and Traffic Stops",
+    snippetAnswer:
+      "🚔 Oncoming Police Car marks police presence — traffic stops, emergency response, chase memes, and 'cops ahead' warnings in group chats.",
+    detailedParagraphs: [
+      "Oncoming Police Car (🚔) shows a police vehicle from the front — Unicode's symbol for law enforcement on the road, distinct from sideways 🚓 police car.",
+      "Drivers text 🚔 to warn friends about speed traps or DUI checkpoints ahead. Waze culture borrowed this emoji long before official apps existed.",
+      "Meme threads use 🚔 ironically when someone gets caught lying — 'the 🚔 arrived' — playful, not literal emergency.",
+      "During real police violence or tragedy in the news, casual 🚔 jokes can feel disrespectful — read the room.",
+    ],
+    textingMeaning: "'🚔 on the highway', 'Slow down 🚔 ahead', 'They got pulled 🚔'.",
+    socialMeaning: "Driving meme pages, dashcam clips, and urban commute rants tag 🚔.",
+    caution: "Never use 🚔 to mock victims of police harm. Avoid glorifying dangerous chases.",
+    examples: [
+      { context: "Warning", text: "Trap on I-95 🚔" },
+      { context: "Pulled over", text: "Got the 🚔 treatment" },
+      { context: "Meme", text: "Lies detected 🚔" },
+      { context: "Commute", text: "Every corner 🚔 today" },
+      { context: "Slow down", text: "🚔 ahead — brake" },
+    ],
+    contextBlocks: [
+      { title: "Road warnings", body: "🚔 in group chats often means police ahead — community speed-trap alerts." },
+      { title: "Vs 🚓", body: "🚓 shows side view. 🚔 is oncoming/front angle — same police car theme." },
+      { title: "Meme usage", body: "Non-driving 🚔 means 'caught' or 'authorities arrived' in joke threads." },
+    ],
+    searchIntents: ["police car emoji", "🚔 meaning", "oncoming police car emoji", "🚔 copy paste"],
+    whenNotToUse: ["Avoid 🚔 humor during police brutality news.", "Do not encourage evading law enforcement."],
+    faqs: [
+      { question: "What does 🚔 mean?", answer: "Police car, traffic stop, checkpoint warning, or 'caught' meme energy." },
+      { question: "🚔 vs 🚓?", answer: "Both are police cars — oncoming vs side view depending on platform." },
+    ],
+  },
+
+  "motor-boat": {
+    batchId: BATCH_ID,
+    searchTitle: "Motor Boat Emoji (🛥️) Meaning: Lake Days, Marina, and Summer Boating",
+    snippetAnswer:
+      "🛥️ Motor Boat means recreational boating — lake weekends, marina trips, summer rentals, and 'on the water' vacation updates.",
+    detailedParagraphs: [
+      "Motor Boat (🛥️) depicts a small powerboat — Unicode's leisure boating symbol for lakes, rivers, and coastal day trips.",
+      "Friend groups text 🛥️ when booking pontoon rentals or lake houses. It reads vacation-leisure, not commercial ferry 🛥️ vs ⛴️.",
+      "Fishing and wake-sport creators tag 🛥️ in summer reels — dock shots, sunset cruises, and 'boat day' culture.",
+      "Compared to 🚤 speedboat, 🛥️ often feels calmer — cruiser and marina aesthetic vs racing vibe.",
+    ],
+    textingMeaning: "'Boat day 🛥️', 'At the marina 🛥️', 'Lake weekend 🛥️'.",
+    socialMeaning: "Summer travel Instagram, lake life TikTok, and fishing content use 🛥️.",
+    caution: "During boating accidents in local news, party 🛥️ posts need sensitivity.",
+    examples: [
+      { context: "Lake trip", text: "Pontoon at noon 🛥️" },
+      { context: "Vacation", text: "First boat day 🛥️" },
+      { context: "Marina", text: "Dock B 🛥️" },
+      { context: "Fishing", text: "Sunrise on the water 🛥️" },
+      { context: "Summer", text: "Weekend forecast: 🛥️" },
+    ],
+    contextBlocks: [
+      { title: "Lake culture", body: "🛥️ signals Midwest and coastal summer rituals — rentals, docks, cold drinks." },
+      { title: "Vs ⛴️", body: "⛴️ is passenger ferry transit. 🛥️ is recreational motorboat." },
+      { title: "Vs 🚤", body: "🚤 is speedboat/racing. 🛥️ is cruiser/marina leisure." },
+    ],
+    searchIntents: ["motor boat emoji", "🛥️ meaning", "boat emoji lake", "🛥️ copy paste"],
+    whenNotToUse: ["Avoid 🚤 confusion when you mean high-speed boat.", "Do not glam unsafe boating without life jackets."],
+    faqs: [
+      { question: "What does 🛥️ mean?", answer: "Recreational motorboat — lake days, marina trips, summer boating." },
+      { question: "🛥️ vs ferry?", answer: "Motor boat is leisure craft; ferry is scheduled passenger transit." },
+    ],
+  },
+
+  "love-hotel": {
+    batchId: BATCH_ID,
+    searchTitle: "Love Hotel Emoji (🏩) Meaning: Japan Hotels, Romance, and Travel Context",
+    snippetAnswer:
+      "🏩 Love Hotel marks Japan's short-stay hotels — travel explainer context, adult humor, and anime/manga references; tone varies from educational to cheeky.",
+    detailedParagraphs: [
+      "Love Hotel (🏩) shows a building with a heart — Unicode names it for Japan's love hotel industry, where couples book short private stays.",
+      "Japan travelers encounter 🏩 in explainer content about lodging types — distinct from business hotels or ryokan ♨️ culture.",
+      "Anime and meme communities use 🏩 ironically without always meaning literal bookings — context decides seriousness.",
+      "Because of adult connotations, 🏩 in professional or family chats can embarrass — know your audience.",
+    ],
+    textingMeaning: "'That's giving 🏩 energy', 'Japan lodging types 🏩', 'Date night joke 🏩'.",
+    socialMeaning: "Japan travel guides, culture explainers, and ironic meme posts reference 🏩.",
+    caution: "Do not use 🏩 to harass or sexualize someone. Avoid in work Slack and family group chats.",
+    examples: [
+      { context: "Japan travel", text: "Lodging types explained 🏩" },
+      { context: "Meme", text: "Bold itinerary 🏩" },
+      { context: "Culture", text: "Short-stay hotels 🏩 in Tokyo guides" },
+      { context: "Anime", text: "That scene energy 🏩" },
+      { context: "Joke", text: "No comments 🏩" },
+    ],
+    contextBlocks: [
+      { title: "Japan context", body: "🏩 is primarily understood through Japanese hospitality culture — educational travel posts explain it neutrally." },
+      { title: "Vs 🏨", body: "🏨 is generic hotel. 🏩 specifically signals love hotel building design." },
+      { title: "Tone control", body: "Same emoji spans travel education and adult humor — words around it set the tone." },
+    ],
+    searchIntents: ["love hotel emoji", "🏩 meaning japan", "love hotel emoji meaning", "🏩 copy paste"],
+    whenNotToUse: ["Avoid 🏩 toward strangers or coworkers.", "Do not use in content for minors."],
+    faqs: [
+      { question: "What does 🏩 mean?", answer: "Love hotel — mainly Japan short-stay lodging; also used in memes and culture explainers." },
+      { question: "Is 🏩 appropriate in travel guides?", answer: "Yes when explaining lodging types factually — not as punchline-only content." },
+    ],
+  },
+
+  "satellite-antenna": {
+    batchId: BATCH_ID,
+    searchTitle: "Satellite Antenna Emoji (📡) Meaning: Signal, Tech, Space, and Connectivity",
+    snippetAnswer:
+      "📡 Satellite Antenna means signal and connectivity — Wi‑Fi jokes, space tech, broadcasting, and 'picking up the signal' meme tone.",
+    detailedParagraphs: [
+      "Satellite Antenna (📡) shows a dish pointing skyward — Unicode's symbol for satellite communication and broadcast reception.",
+      "Tech workers text 📡 when VPN connects abroad or livestream gear works. Space enthusiasts pair 📡 with 🛰️ for mission posts.",
+      "Meme usage: '📡 receiving drama' — pretending to tune into gossip like a radio dish.",
+      "Old-school TV and rural internet content uses 📡 literally — dish install day and signal strength struggles.",
+    ],
+    textingMeaning: "'Signal locked 📡', 'Live from 📡', 'VPN connected 📡'.",
+    socialMeaning: "Space Twitter, ham radio communities, and streaming setup posts tag 📡.",
+    caution: "During satellite outages or space tragedies, playful 📡 may feel off.",
+    examples: [
+      { context: "Stream", text: "Mic and 📡 ready" },
+      { context: "VPN", text: "Tunnel up 📡" },
+      { context: "Space", text: "Downlink 📡" },
+      { context: "Meme", text: "Gossip 📡 on" },
+      { context: "Install", text: "Dish mounted 📡" },
+    ],
+    contextBlocks: [
+      { title: "Connectivity", body: "📡 shorthand for link-up — streams, VPNs, and remote broadcast." },
+      { title: "Vs 📶", body: "📶 is mobile signal bars. 📡 is satellite dish hardware." },
+      { title: "Space niche", body: "Amateur radio and space fans use 📡 for downlink and tracking posts." },
+    ],
+    searchIntents: ["satellite emoji", "📡 meaning", "satellite antenna emoji", "📡 copy paste"],
+    whenNotToUse: ["Avoid 📡 jokes during active satellite failures affecting safety.", "Do not confuse with TV 📺 alone."],
+    faqs: [
+      { question: "What does 📡 mean?", answer: "Satellite signal, broadcasting, connectivity, or tuning-in metaphor." },
+      { question: "📡 vs wifi emoji?", answer: "Satellite dish is hardware/space signal; wifi is local wireless." },
+    ],
+  },
+
+  telescope: {
+    batchId: BATCH_ID,
+    searchTitle: "Telescope Emoji (🔭) Meaning: Stargazing, Astronomy, and Looking Closer",
+    snippetAnswer:
+      "🔭 Telescope marks astronomy and stargazing — meteor showers, planet viewing, science curiosity, and 'looking closer' metaphors.",
+    detailedParagraphs: [
+      "Telescope (🔭) shows an optical tube on a tripod — Unicode's symbol for sky observation and scientific looking.",
+      "Stargazers text 🔭 for Perseids plans, eclipse trips, and dark-sky park weekends. Science educators lead STEM posts with 🔭.",
+      "Metaphorically, 🔭 means scrutinizing details — 'putting the 🔭 on that claim' in debate threads.",
+      "Pairs with 🌌 and 🪐 in space aesthetic content — hobby astronomy, not professional observatory only.",
+    ],
+    textingMeaning: "'Meteor shower tonight 🔭', 'Planet watch 🔭', 'Zoom in 🔭'.",
+    socialMeaning: "Astrophotography Instagram, science TikTok, and travel to dark-sky sites tag 🔭.",
+    caution: "Do not use 🔭 to stalk or surveil people — creepy connotation if aimed at someone.",
+    examples: [
+      { context: "Stargazing", text: "Clear skies 🔭" },
+      { context: "Eclipse", text: "Road trip for 🔭" },
+      { context: "Science", text: "Lab day 🔭" },
+      { context: "Metaphor", text: "Examining that take 🔭" },
+      { context: "Travel", text: "Dark sky park 🔭" },
+    ],
+    contextBlocks: [
+      { title: "Astronomy hobby", body: "🔭 anchors amateur stargazing plans — dates, gear, and weather checks." },
+      { title: "Vs 🔎", body: "🔎 is detective search. 🔭 is sky/science observation." },
+      { title: "Travel niche", body: "Astrotourism posts combine 🔭 with national park dark-sky tags." },
+    ],
+    searchIntents: ["telescope emoji meaning", "🔭 astronomy emoji", "🔭 stargazing", "🔭 copy paste"],
+    whenNotToUse: ["Avoid 🔭 for invading someone's privacy.", "Do not imply professional discovery from hobby 🔭 alone."],
+    faqs: [
+      { question: "What does 🔭 mean?", answer: "Stargazing, astronomy, science curiosity, or looking closely at something." },
+      { question: "🔭 vs magnifying glass?", answer: "Telescope is sky/science; magnifying glass is search/investigate." },
+    ],
+  },
+
+  "adhesive-bandage": {
+    batchId: BATCH_ID,
+    searchTitle: "Adhesive Bandage Emoji (🩹) Meaning: Injury, Self-Care, and 'Bandaid Fix'",
+    snippetAnswer:
+      "🩹 Adhesive Bandage means minor injury, self-care, and quick fixes — scraped knees, emotional 'bandaid' solutions, and healthcare memes.",
+    detailedParagraphs: [
+      "Adhesive Bandage (🩹) shows a band-aid strip — Unicode's symbol for small wounds, first aid, and patch-up care.",
+      "Parents text 🩹 when kids return from playground scrapes. Athletes post 🩹 after turf burns and blisters.",
+      "Metaphorically, 🩹 labels temporary fixes — 'bandaid solution' for problems that need deeper work.",
+      "Mental-health posts use 🩹 carefully for self-care — rest, boundaries — not to minimize serious conditions.",
+    ],
+    textingMeaning: "'Need a 🩹', 'Bandaid fix 🩹', 'Knee scrape 🩹'.",
+    socialMeaning: "Sports injury updates, mom TikTok, and wellness content tag 🩹.",
+    caution: "Serious injuries need medical words, not only 🩹. Don't mock chronic illness with bandaid jokes.",
+    examples: [
+      { context: "Injury", text: "Minor scrape 🩹" },
+      { context: "Kids", text: "Playground survived 🩹" },
+      { context: "Sports", text: "Turf burn 🩹" },
+      { context: "Metaphor", text: "Temporary patch 🩹" },
+      { context: "Self-care", text: "Rest day 🩹" },
+    ],
+    contextBlocks: [
+      { title: "First aid lite", body: "🩹 signals small physical hurts — not ER emergencies." },
+      { title: "Bandaid fix meme", body: "Workplaces call quick patches 🩹 when root cause stays unfixed." },
+      { title: "Vs 🤕", body: "🤕 is face with bandage. 🩹 is the bandage product itself." },
+    ],
+    searchIntents: ["bandaid emoji", "🩹 meaning", "adhesive bandage emoji", "🩹 copy paste"],
+    whenNotToUse: ["Avoid 🩹 alone for serious bleeding or fractures.", "Do not minimize mental-health crises with bandaid jokes."],
+    faqs: [
+      { question: "What does 🩹 mean?", answer: "Minor injury, bandage, self-care, or temporary fix metaphor." },
+      { question: "🩹 vs injured face emoji?", answer: "Bandage is the product; injured face shows person hurt." },
+    ],
+  },
+
+  "hiking-boot": {
+    batchId: BATCH_ID,
+    searchTitle: "Hiking Boot Emoji (🥾) Meaning: Trails, Gear, and Outdoor Adventures",
+    snippetAnswer:
+      "🥾 Hiking Boot marks trail gear — hiking trips, broken-in boots, national park plans, and outdoor adventure prep.",
+    detailedParagraphs: [
+      "Hiking Boot (🥾) shows a sturdy outdoor boot — Unicode's footwear symbol for trails, backpacking, and mountain treks.",
+      "Hikers text 🥾 with trail conditions, blister jokes, and 'new boots need breaking in' updates.",
+      "Pairs naturally with ⛰️ 🏞️ and 🌄 in adventure content — gear flex before summit photos.",
+      "Metaphorically, 🥾 means ready for a hard path — new job, tough project — hiking metaphor in LinkedIn posts.",
+    ],
+    textingMeaning: "'Trail Saturday 🥾', 'Blisters incoming 🥾', 'Boots finally broken in 🥾'.",
+    socialMeaning: "Hiking Instagram, thru-hiker TikTok, and outdoor brand posts lead with 🥾.",
+    caution: "Indoor-only contexts with 🥾 feel performative — match emoji to actual outdoor plans.",
+    examples: [
+      { context: "Hike", text: "5am trailhead 🥾" },
+      { context: "Gear", text: "New Salomons 🥾" },
+      { context: "Trip", text: "Yosemite week 🥾" },
+      { context: "Blisters", text: "Feet hate me 🥾" },
+      { context: "Prep", text: "Lacing up 🥾" },
+    ],
+    contextBlocks: [
+      { title: "Trail culture", body: "🥾 signals serious walking — not fashion sneakers on pavement." },
+      { title: "Vs 👟", body: "👟 is sneaker/athletic shoe. 🥾 is hiking boot for rough terrain." },
+      { title: "Pairs with parks", body: "National park threads combine 🥾 with 🏞️ for trip planning." },
+    ],
+    searchIntents: ["hiking boot emoji", "🥾 meaning", "hiking emoji", "🥾 copy paste"],
+    whenNotToUse: ["Avoid 🥾 for city nightlife outfits.", "Do not glam unsafe trails without preparation context."],
+    faqs: [
+      { question: "What does 🥾 mean?", answer: "Hiking, trail gear, outdoor adventures, or 'tough path ahead' metaphor." },
+      { question: "🥾 vs running shoe?", answer: "Hiking boot is for trails and backpacking; sneakers are for pavement/gym." },
+    ],
+  },
+
+  "studio-microphone": {
+    batchId: BATCH_ID,
+    searchTitle: "Studio Microphone Emoji (🎙️) Meaning: Podcast, Streaming, and Recording",
+    snippetAnswer:
+      "🎙️ Studio Microphone means podcasting, streaming, voice recording, and creator-studio content — mic check energy.",
+    detailedParagraphs: [
+      "Studio Microphone (🎙️) shows a broadcast mic — Unicode's symbol for professional recording, podcasts, and live streams.",
+      "Creators announce 🎙️ when launching episodes, going live on Twitch, or upgrading audio gear.",
+      "Corporate webinars borrowed 🎙️ for virtual events during remote-work era — still reads creator-first.",
+      "Vs 🎤 handheld mic: 🎙️ feels studio/broadcast; 🎤 feels stage karaoke and live performance.",
+    ],
+    textingMeaning: "'Podcast drop 🎙️', 'Live in 5 🎙️', 'Mic check 🎙️'.",
+    socialMeaning: "Podcast promos, YouTube setup tours, and voice-actor bios tag 🎙️.",
+    caution: "Hot mic mistakes make 🎙️ ironic — context for embarrassing audio leaks.",
+    examples: [
+      { context: "Podcast", text: "Episode 50 🎙️" },
+      { context: "Stream", text: "Going live 🎙️" },
+      { context: "Setup", text: "New interface 🎙️" },
+      { context: "Recording", text: "Session tonight 🎙️" },
+      { context: "Guest", text: "On the show 🎙️" },
+    ],
+    contextBlocks: [
+      { title: "Creator economy", body: "🎙️ is default podcast/stream shorthand in bios and announcements." },
+      { title: "Vs 🎤", body: "🎤 is handheld stage mic. 🎙️ is studio broadcast mic." },
+      { title: "Audio quality flex", body: "Gear posts stack 🎙️ with headphones and interface photos." },
+    ],
+    searchIntents: ["studio microphone emoji", "🎙️ podcast emoji", "🎙️ meaning", "🎙️ copy paste"],
+    whenNotToUse: ["Avoid 🎙️ for muted/no-audio situations without irony.", "Do not imply professional broadcast without disclosure."],
+    faqs: [
+      { question: "What does 🎙️ mean?", answer: "Podcasting, streaming, recording, or studio audio content." },
+      { question: "🎙️ vs 🎤?", answer: "Studio mic is broadcast/podcast; handheld mic is stage/karaoke." },
+    ],
+  },
+
+  coffin: {
+    batchId: BATCH_ID,
+    searchTitle: "Coffin Emoji (⚰️) Meaning: Halloween, Dark Humor, and Mortality Memes",
+    snippetAnswer:
+      "⚰️ Coffin marks mortality humor — Halloween, goth aesthetic, 'I'm dead' exaggeration, and dark meme tone (use carefully around grief).",
+    detailedParagraphs: [
+      "Coffin (⚰️) shows a burial casket — Unicode's symbol for death, Halloween decor, and morbid humor when context is clearly playful.",
+      "Gen Z uses ⚰️ adjacent to 💀 for 'I'm dead' laughter — overlapping but ⚰️ feels darker and more Halloween.",
+      "Goth and horror creators use ⚰️ in October content year-round sparingly — aesthetic, not literal obituaries.",
+      "Never send ⚰️ to someone actively grieving — can cause real harm regardless of meme intent.",
+    ],
+    textingMeaning: "'Halloween mood ⚰️', 'Bury me ⚰️ (joke)', 'Spooky season ⚰️'.",
+    socialMeaning: "Horror TikTok, Halloween Instagram, and dark aesthetic boards tag ⚰️.",
+    caution: "Avoid ⚰️ with bereaved friends, death announcements, or real tragedy threads.",
+    examples: [
+      { context: "Halloween", text: "Decor up ⚰️" },
+      { context: "Meme", text: "Schedule packed ⚰️" },
+      { context: "Horror", text: "Movie night ⚰️" },
+      { context: "Goth", text: "Aesthetic ⚰️🖤" },
+      { context: "Exaggeration", text: "Monday got me ⚰️" },
+    ],
+    contextBlocks: [
+      { title: "Halloween peak", body: "⚰️ usage spikes October — horror parties and costume planning." },
+      { title: "Vs 💀", body: "💀 is laugh/'I'm dead'. ⚰️ is darker mortality and spooky decor." },
+      { title: "Grief boundary", body: "Playful ⚰️ requires audience who shares meme context — never default." },
+    ],
+    searchIntents: ["coffin emoji meaning", "⚰️ halloween emoji", "⚰️ copy paste", "coffin emoji"],
+    whenNotToUse: ["Never toward grieving people.", "Avoid on obituary or memorial posts."],
+    faqs: [
+      { question: "What does ⚰️ mean?", answer: "Often Halloween, dark humor, or exaggerated 'I'm done' — rarely literal death news." },
+      { question: "⚰️ vs skull emoji?", answer: "Skull is Gen Z laughter; coffin is spookier Halloween/mortality tone." },
+    ],
+  },
+
+  shield: {
+    batchId: BATCH_ID,
+    searchTitle: "Shield Emoji (🛡️) Meaning: Protection, Gaming, Security, and Defense",
+    snippetAnswer:
+      "🛡️ Shield means protection — cybersecurity, gaming defense, emotional boundaries, and 'I've got your back' support.",
+    detailedParagraphs: [
+      "Shield (🛡️) shows a medieval-style shield — Unicode's symbol for defense, security products, and blocking harm.",
+      "Gamers text 🛡️ for tank roles, armor upgrades, and blocking attacks in MMO and MOBA chats.",
+      "Cybersecurity marketing loves 🛡️ — VPN ads, antivirus threads, and infosec Twitter avatars.",
+      "Supportive friends send 🛡️ metaphorically — 'I'll shield you from drama' — protective not violent.",
+    ],
+    textingMeaning: "'VPN on 🛡️', 'Tank main 🛡️', 'Boundary up 🛡️'.",
+    socialMeaning: "Gaming clips, security product promos, and boundary-setting posts use 🛡️.",
+    caution: "🛡️ in political fights can read militaristic — clarify protective vs aggressive intent.",
+    examples: [
+      { context: "Gaming", text: "Build armor 🛡️" },
+      { context: "Security", text: "2FA enabled 🛡️" },
+      { context: "Support", text: "I got you 🛡️" },
+      { context: "Privacy", text: "Lock down 🛡️" },
+      { context: "Defense", text: "Block spam 🛡️" },
+    ],
+    contextBlocks: [
+      { title: "Gaming tanks", body: "🛡️ identifies protector roles — shields, armor, absorb damage." },
+      { title: "Cybersecurity", body: "Infosec content uses 🛡️ for firewalls, MFA, and safe browsing." },
+      { title: "Vs ⚔️", body: "⚔️ is attack/combat. 🛡️ is defense/protection." },
+    ],
+    searchIntents: ["shield emoji meaning", "🛡️ protection emoji", "🛡️ gaming", "🛡️ copy paste"],
+    whenNotToUse: ["Avoid 🛡️ in real-world violence contexts.", "Do not mock trauma survivors' boundaries."],
+    faqs: [
+      { question: "What does 🛡️ mean?", answer: "Protection, security, gaming defense, or emotional backup." },
+      { question: "🛡️ in games?", answer: "Often tank role, armor, or blocking damage — standard gaming shorthand." },
     ],
   },
 };
