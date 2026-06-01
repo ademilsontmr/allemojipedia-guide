@@ -119,6 +119,46 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes: "Full batch13-priority queue: P0 (15) + P1 (25) + P2 (10) — travel transit, weather, money, creator, and niche Japan pages.",
   },
   {
+    id: "29-people-body-couples-family",
+    name: "People & Body — couples, family & gestures P1 (hand-written)",
+    category: "people-and-body",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 29 P1 — LGBTQ+ couples, family ZWJ, facepalm/shrug/bow, parenting.",
+  },
+  {
+    id: "28-people-body-accessibility-roles",
+    name: "People & Body — accessibility, hair & family symbols P1 (hand-written)",
+    category: "people-and-body",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 28 P1 — mobility aids, hair variants, cultural roles, family ZWJ.",
+  },
+  {
+    id: "27-people-body-activity-sport",
+    name: "People & Body — activity, sport & fantasy P1 (hand-written)",
+    category: "people-and-body",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 27 P1 — neutral person-activity/sport, fantasy roles, symbols.",
+  },
+  {
+    id: "26-people-body-parts-roles",
+    name: "People & Body — body parts & professions P1 (hand-written)",
+    category: "people-and-body",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 26 P1 — anatomy, prosthetics, ZWJ professions, fantasy.",
+  },
+  {
+    id: "25-people-body-roles-gestures",
+    name: "People & Body — roles & gestures P0 (hand-written)",
+    category: "people-and-body",
+    emojiCount: 26,
+    status: "complete",
+    notes: "Batch 25 P0 — neutral person-*, body, fantasy, professions; skin-tone inherit TBD.",
+  },
+  {
     id: "24-objects-weapons-science-misc",
     name: "Objects — category complete (hand-written P2)",
     category: "objects",
@@ -212,7 +252,7 @@ export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24") || b.id.startsWith("25") || b.id.startsWith("26") || b.id.startsWith("27") || b.id.startsWith("28") || b.id.startsWith("29"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 

@@ -26,9 +26,10 @@ export const categoryEditorialRoadmap: CategoryEditorialStatus[] = [
     slug: "people-and-body",
     name: "People & Body",
     order: 2,
-    thinRemaining: 2134,
-    status: "pending",
-    notes: "Next: base gestures (~80) then skin-tone variants inherit.",
+    thinRemaining: 2008,
+    status: "in-progress",
+    batchFile: "batch25–29-people-body",
+    notes: "127 manual people pages; 1875 skin-tone + 133 base thin remain.",
   },
   {
     slug: "animals-and-nature",

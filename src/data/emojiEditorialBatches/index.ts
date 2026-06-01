@@ -18,6 +18,11 @@ import { batch21ObjectsFashionClothing } from "./batch21-objects-fashion-clothin
 import { batch22ObjectsMusicMediaBooks } from "./batch22-objects-music-media-books";
 import { batch23ObjectsOfficeHousehold } from "./batch23-objects-office-household";
 import { batch24ObjectsWeaponsScienceMisc } from "./batch24-objects-weapons-science-misc";
+import { batch25PeopleBodyRolesGestures } from "./batch25-people-body-roles-gestures";
+import { batch26PeopleBodyPartsRoles } from "./batch26-people-body-parts-roles";
+import { batch27PeopleBodyActivitySport } from "./batch27-people-body-activity-sport";
+import { batch28PeopleBodyAccessibilityRoles } from "./batch28-people-body-accessibility-roles";
+import { batch29PeopleBodyCouplesFamilyGestures } from "./batch29-people-body-couples-family-gestures";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
@@ -39,6 +44,11 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch22ObjectsMusicMediaBooks,
   ...batch23ObjectsOfficeHousehold,
   ...batch24ObjectsWeaponsScienceMisc,
+  ...batch25PeopleBodyRolesGestures,
+  ...batch26PeopleBodyPartsRoles,
+  ...batch27PeopleBodyActivitySport,
+  ...batch28PeopleBodyAccessibilityRoles,
+  ...batch29PeopleBodyCouplesFamilyGestures,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
@@ -48,7 +58,7 @@ export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry"
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–13, 14–24) plus premium enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–29) plus premium enrichment for all remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;
