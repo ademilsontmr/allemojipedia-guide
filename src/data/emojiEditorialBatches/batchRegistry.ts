@@ -119,6 +119,46 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes: "Full batch13-priority queue: P0 (15) + P1 (25) + P2 (10) — travel transit, weather, money, creator, and niche Japan pages.",
   },
   {
+    id: "24-objects-weapons-science-misc",
+    name: "Objects — category complete (hand-written P2)",
+    category: "objects",
+    emojiCount: 16,
+    status: "complete",
+    notes: "Final objects batch — weapons/tools, science, memorial, protest placard.",
+  },
+  {
+    id: "23-objects-office-household",
+    name: "Objects — office & household (hand-written P2)",
+    category: "objects",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 23 P2 — filing, calendars, mail variants, door, cleaning tools.",
+  },
+  {
+    id: "22-objects-music-media-books",
+    name: "Objects — music, media & books (hand-written P1)",
+    category: "objects",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 22 P1 — instruments, AV controls, retro media, book color variants.",
+  },
+  {
+    id: "21-objects-fashion-clothing",
+    name: "Objects — fashion & clothing (hand-written P1)",
+    category: "objects",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 21 P1 — bags, cultural dress, footwear, outerwear, PPE.",
+  },
+  {
+    id: "20-objects-mail-office-media",
+    name: "Objects — mail, office, media (hand-written P0)",
+    category: "objects",
+    emojiCount: 25,
+    status: "complete",
+    notes: "Batch 20 P0 — email, inbox, charts, folders, books, civic pin.",
+  },
+  {
     id: "19-travel-places-buildings",
     name: "Travel & Places — buildings, access, weather (hand-written)",
     category: "travel-and-places",
@@ -172,7 +212,7 @@ export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 

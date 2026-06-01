@@ -13,6 +13,11 @@ import { batch16FoodAndDrinkComplete } from "./batch16-food-and-drink-complete";
 import { batch17ActivitiesComplete } from "./batch17-activities-complete";
 import { batch18TravelPlacesTransit } from "./batch18-travel-places-transit";
 import { batch19TravelPlacesBuildings } from "./batch19-travel-places-buildings";
+import { batch20ObjectsMailOfficeMedia } from "./batch20-objects-mail-office-media";
+import { batch21ObjectsFashionClothing } from "./batch21-objects-fashion-clothing";
+import { batch22ObjectsMusicMediaBooks } from "./batch22-objects-music-media-books";
+import { batch23ObjectsOfficeHousehold } from "./batch23-objects-office-household";
+import { batch24ObjectsWeaponsScienceMisc } from "./batch24-objects-weapons-science-misc";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
@@ -29,6 +34,11 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch17ActivitiesComplete,
   ...batch18TravelPlacesTransit,
   ...batch19TravelPlacesBuildings,
+  ...batch20ObjectsMailOfficeMedia,
+  ...batch21ObjectsFashionClothing,
+  ...batch22ObjectsMusicMediaBooks,
+  ...batch23ObjectsOfficeHousehold,
+  ...batch24ObjectsWeaponsScienceMisc,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
@@ -38,7 +48,7 @@ export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry"
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–13, 14–19) plus premium enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–24) plus premium enrichment for all remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;
