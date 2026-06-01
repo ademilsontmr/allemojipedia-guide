@@ -119,6 +119,14 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes: "Full batch13-priority queue: P0 (15) + P1 (25) + P2 (10) — travel transit, weather, money, creator, and niche Japan pages.",
   },
   {
+    id: "37-travel-clocks-moon-astro",
+    name: "Travel & Places — clocks, moon & sky (hand-written)",
+    category: "travel-and-places",
+    emojiCount: 37,
+    status: "complete",
+    notes: "Batch 37 — final deferred travel thin pages; category complete.",
+  },
+  {
     id: "36-flags-complete",
     name: "Flags — category complete (hand-written)",
     category: "flags",
@@ -308,7 +316,7 @@ export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24") || b.id.startsWith("25") || b.id.startsWith("26") || b.id.startsWith("27") || b.id.startsWith("28") || b.id.startsWith("29") || b.id.startsWith("30") || b.id.startsWith("31") || b.id.startsWith("32") || b.id.startsWith("33") || b.id.startsWith("34") || b.id.startsWith("35") || b.id.startsWith("36"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24") || b.id.startsWith("25") || b.id.startsWith("26") || b.id.startsWith("27") || b.id.startsWith("28") || b.id.startsWith("29") || b.id.startsWith("30") || b.id.startsWith("31") || b.id.startsWith("32") || b.id.startsWith("33") || b.id.startsWith("34") || b.id.startsWith("35") || b.id.startsWith("36") || b.id.startsWith("37"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 
