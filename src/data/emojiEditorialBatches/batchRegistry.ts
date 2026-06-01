@@ -112,11 +112,11 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "13-top-travel-objects",
-    name: "Top travel & objects — hand-written (P0)",
+    name: "Top travel & objects — hand-written (P0 + P1)",
     category: "mixed",
-    emojiCount: 15,
+    emojiCount: 40,
     status: "complete",
-    notes: "Batch 13 P0 priority: bullet train, flights, parks, onsen, ferry, wedding, shrine, money, work, calendar, grad, beauty.",
+    notes: "Batch 13 priority P0 (15) + P1 (25): travel transit, weather, skylines, money, office, and search emojis.",
   },
   {
     id: "14-smileys-and-emotion-complete",
