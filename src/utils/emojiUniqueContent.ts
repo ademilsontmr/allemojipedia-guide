@@ -1,5 +1,6 @@
 import type { Emoji } from "@/data/emojis";
 import { getCategoryBySlug } from "@/data/categories";
+import { getEmojiBatchEnrichment } from "@/data/emojiEditorialBatches";
 
 export type EmojiEditorialContent = {
   slug: string;
@@ -61,6 +62,11 @@ const usagePhrase = (emoji: Emoji) => {
 };
 
 export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.detailedParagraphs?.length) {
+    return batch.detailedParagraphs;
+  }
+
   const existing = emoji.detailedMeaning
     .split("\n\n")
     .map((paragraph) => paragraph.trim())
@@ -137,6 +143,11 @@ export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] => {
 };
 
 export const getEnrichedExamples = (emoji: Emoji) => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.examples?.length) {
+    return batch.examples;
+  }
+
   if (!isThinEmojiContent(emoji) && emoji.examples.length >= 3) {
     return emoji.examples;
   }
@@ -206,6 +217,11 @@ export const getEnrichedExamples = (emoji: Emoji) => {
 };
 
 export const getUniqueContextBlocks = (emoji: Emoji): EmojiContextBlock[] => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.contextBlocks?.length) {
+    return batch.contextBlocks;
+  }
+
   const examples = getEnrichedExamples(emoji);
   const exampleHint = examples[0]?.text ?? `${emoji.unicode} in context`;
   const country = countryFromFlagSlug(emoji.slug);
@@ -309,6 +325,11 @@ export const getUniqueContextBlocks = (emoji: Emoji): EmojiContextBlock[] => {
 };
 
 export const getUniqueSearchIntents = (emoji: Emoji): string[] => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.searchIntents?.length) {
+    return batch.searchIntents;
+  }
+
   const country = countryFromFlagSlug(emoji.slug);
   const base = [
     `${emoji.name.toLowerCase()} emoji meaning`,
@@ -336,6 +357,11 @@ export const getUniqueSearchIntents = (emoji: Emoji): string[] => {
 };
 
 export const getUniqueWhenNotToUse = (emoji: Emoji): string[] => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.whenNotToUse?.length) {
+    return batch.whenNotToUse;
+  }
+
   const items = emoji.misunderstandings
     .filter((item) => !item.toLowerCase().includes("context matters"))
     .map((item) => item.replace(/\.$/, ""));
@@ -360,6 +386,11 @@ export const getUniqueWhenNotToUse = (emoji: Emoji): string[] => {
 };
 
 export const buildUniqueFaqs = (emoji: Emoji) => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
+  if (batch?.faqs?.length) {
+    return batch.faqs.slice(0, 5);
+  }
+
   const country = countryFromFlagSlug(emoji.slug);
   const examples = getEnrichedExamples(emoji);
 
@@ -402,12 +433,13 @@ export const buildUniqueFaqs = (emoji: Emoji) => {
 };
 
 export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
+  const batch = getEmojiBatchEnrichment(emoji.slug);
   const paragraphs = getEnrichedDetailedParagraphs(emoji);
   const primaryKeyword = emoji.keywords.find(
     (k) => !["unicode", "copy paste", "emoji"].some((skip) => k.includes(skip))
   );
 
-  return {
+  const base: EmojiEditorialContent = {
     slug: emoji.slug,
     searchTitle: `${emoji.name} Emoji Meaning in Texting, Social Media, and Real Conversations`,
     snippetAnswer: paragraphs[0] ?? `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning}`,
@@ -428,6 +460,19 @@ export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
     ], 3),
     searchIntents: getUniqueSearchIntents(emoji),
     faqs: buildUniqueFaqs(emoji),
+  };
+
+  if (!batch) return base;
+
+  return {
+    ...base,
+    searchTitle: batch.searchTitle ?? base.searchTitle,
+    snippetAnswer: batch.snippetAnswer ?? base.snippetAnswer,
+    textingMeaning: batch.textingMeaning ?? base.textingMeaning,
+    socialMeaning: batch.socialMeaning ?? base.socialMeaning,
+    caution: batch.caution ?? base.caution,
+    searchIntents: batch.searchIntents ?? base.searchIntents,
+    faqs: batch.faqs ?? base.faqs,
   };
 };
 
