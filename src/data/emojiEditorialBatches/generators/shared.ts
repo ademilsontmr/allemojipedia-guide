@@ -58,10 +58,10 @@ export const countryFromFlagSlug = (slug: string): string | null => {
 };
 
 const SKIN_TONE_SUFFIXES = [
-  "light-skin-tone",
   "medium-light-skin-tone",
-  "medium-skin-tone",
   "medium-dark-skin-tone",
+  "light-skin-tone",
+  "medium-skin-tone",
   "dark-skin-tone",
 ] as const;
 

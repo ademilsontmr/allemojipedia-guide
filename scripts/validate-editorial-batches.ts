@@ -8,13 +8,16 @@ const covered = thin.filter((e) => getEmojiBatchEnrichment(e));
 const missing = thin.filter((e) => !getEmojiBatchEnrichment(e));
 
 const byBatch = new Map<string, number>();
+let skinToneInherited = 0;
 for (const emoji of covered) {
   const batch = getEmojiBatchEnrichment(emoji)!;
   byBatch.set(batch.batchId, (byBatch.get(batch.batchId) ?? 0) + 1);
+  if (batch.batchId.endsWith("+skin-tone")) skinToneInherited++;
 }
 
 console.log("Thin emojis:", thin.length);
 console.log("Hand-written slugs:", handWritten.size);
+console.log("Skin-tone inherited:", skinToneInherited);
 console.log("Batch-covered thin:", covered.length);
 console.log("Missing:", missing.length);
 console.log("\nBy batch:");

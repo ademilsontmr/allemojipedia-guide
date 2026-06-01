@@ -23,7 +23,13 @@ import { batch26PeopleBodyPartsRoles } from "./batch26-people-body-parts-roles";
 import { batch27PeopleBodyActivitySport } from "./batch27-people-body-activity-sport";
 import { batch28PeopleBodyAccessibilityRoles } from "./batch28-people-body-accessibility-roles";
 import { batch29PeopleBodyCouplesFamilyGestures } from "./batch29-people-body-couples-family-gestures";
+import { batch30PeopleBodyFamilyGestures } from "./batch30-people-body-family-gestures";
+import { batch31PeopleBodyBase100 } from "./batch31-people-body-base-100";
+import { batch32PeopleBodyBaseComplete } from "./batch32-people-body-base-complete";
+import { batch33PeopleBodyRichGestures } from "./batch33-people-body-rich-gestures";
+import { batch34PeopleBodyRichComplete } from "./batch34-people-body-rich-complete";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
+import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch00TopLaugh,
@@ -49,22 +55,45 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch27PeopleBodyActivitySport,
   ...batch28PeopleBodyAccessibilityRoles,
   ...batch29PeopleBodyCouplesFamilyGestures,
+  ...batch30PeopleBodyFamilyGestures,
+  ...batch31PeopleBodyBase100,
+  ...batch32PeopleBodyBaseComplete,
+  ...batch33PeopleBodyRichGestures,
+  ...batch34PeopleBodyRichComplete,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
+const skinToneInheritedCache = new Map<string, EmojiBatchEnrichment>();
 
 export type { EmojiBatchEnrichment, EditorialBatchMeta } from "./types";
 export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry";
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–13, 14–29) plus premium enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–34), skin-tone inherit, plus premium for remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;
 
+  const inherited = skinToneInheritedCache.get(emoji.slug);
+  if (inherited) return inherited;
+
   const cached = generatedCache.get(emoji.slug);
   if (cached) return cached;
+
+  if (emoji.categorySlug === "people-and-body") {
+    const resolved = resolveManualBaseForEmoji(emoji, handWrittenBatches);
+    if (resolved) {
+      const derived = inheritSkinToneEnrichment(
+        emoji,
+        handWrittenBatches[resolved.resolvedSlug],
+        resolved.resolvedSlug,
+        { skinTone: resolved.skinTone ?? undefined },
+      );
+      skinToneInheritedCache.set(emoji.slug, derived);
+      return derived;
+    }
+  }
 
   const generated = generateBatchEnrichment(emoji);
   if (generated) {
@@ -74,11 +103,14 @@ export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | un
 };
 
 export const isBatchEnrichedEmoji = (slug: string): boolean =>
-  slug in handWrittenBatches || generatedCache.has(slug);
+  slug in handWrittenBatches || skinToneInheritedCache.has(slug) || generatedCache.has(slug);
 
 export const getHandWrittenBatchSlugs = (): string[] => Object.keys(handWrittenBatches);
 
+export const getSkinToneInheritedSlugs = (): string[] => [...skinToneInheritedCache.keys()];
+
 export const getBatchEnrichedSlugs = (): string[] => [
   ...Object.keys(handWrittenBatches),
+  ...skinToneInheritedCache.keys(),
   ...generatedCache.keys(),
 ];

@@ -1,7 +1,7 @@
 /**
  * People & Body editorial priority — batches 25+.
- * Base hand gestures (waving-hand, thumbs-up) already RICH — not thin.
- * Strategy: manual neutral/person-* forms + high-intent roles; skin-tone variants inherit later.
+ * Strategy: manual bases (batches 25–34) + skin-tone inherit via inheritSkinToneFromManual.ts.
+ * Batch size: 25 (25–30), 100 (31–33), remainder (32, 34). Category complete after batch 34.
  */
 
 export type PeoplePriorityEntry = {
@@ -147,9 +147,68 @@ export const peoplePriorityList: PeoplePriorityEntry[] = [
   { slug: "woman-with-headscarf", tier: "P1", batch: 29, rationale: "Hijab representation" },
   { slug: "woman-feeding-baby", tier: "P1", batch: 29, rationale: "Nursing mother" },
   { slug: "man-feeding-baby", tier: "P1", batch: 29, rationale: "Involved dad feeding" },
+
+  // Batch 30 — family complete + gestures, guard, deaf, yoga (P2)
+  { slug: "family-man-man-girl-girl", tier: "P2", batch: 30, rationale: "Two dads two daughters" },
+  { slug: "family-woman-woman-boy-boy", tier: "P2", batch: 30, rationale: "Two moms two sons" },
+  { slug: "family-woman-woman-girl-girl", tier: "P2", batch: 30, rationale: "Two moms two daughters" },
+  { slug: "family-man-boy-boy", tier: "P2", batch: 30, rationale: "Dad two sons" },
+  { slug: "family-man-girl", tier: "P2", batch: 30, rationale: "Father daughter" },
+  { slug: "family-man-girl-boy", tier: "P2", batch: 30, rationale: "Dad mixed kids" },
+  { slug: "family-man-girl-girl", tier: "P2", batch: 30, rationale: "Dad two daughters" },
+  { slug: "family-woman-boy", tier: "P2", batch: 30, rationale: "Mother son" },
+  { slug: "family-woman-boy-boy", tier: "P2", batch: 30, rationale: "Mom two sons" },
+  { slug: "family-woman-girl-boy", tier: "P2", batch: 30, rationale: "Mom mixed kids" },
+  { slug: "family-woman-girl-girl", tier: "P2", batch: 30, rationale: "Mom two daughters" },
+  { slug: "deaf-man", tier: "P2", batch: 30, rationale: "Deaf man ASL" },
+  { slug: "deaf-woman", tier: "P2", batch: 30, rationale: "Deaf woman ASL" },
+  { slug: "man-guard", tier: "P2", batch: 30, rationale: "Royal guard" },
+  { slug: "woman-guard", tier: "P2", batch: 30, rationale: "Female guard" },
+  { slug: "man-in-lotus-position", tier: "P2", batch: 30, rationale: "Meditation yoga" },
+  { slug: "woman-in-lotus-position", tier: "P2", batch: 30, rationale: "Yoga self-care" },
+  { slug: "man-gesturing-no", tier: "P2", batch: 30, rationale: "No gesture boundary" },
+  { slug: "woman-gesturing-no", tier: "P2", batch: 30, rationale: "No gesture boundary" },
+  { slug: "man-gesturing-ok", tier: "P2", batch: 30, rationale: "OK maru gesture" },
+  { slug: "woman-gesturing-ok", tier: "P2", batch: 30, rationale: "OK maru gesture" },
+  { slug: "man-raising-hand", tier: "P2", batch: 30, rationale: "Volunteer pick me" },
+  { slug: "woman-raising-hand", tier: "P2", batch: 30, rationale: "Question volunteer" },
+  { slug: "man-tipping-hand", tier: "P2", batch: 30, rationale: "Sass you're welcome" },
+  { slug: "woman-tipping-hand", tier: "P2", batch: 30, rationale: "Sass hair flip" },
 ];
 
 export const peopleBatch25Slugs = peoplePriorityList.filter((e) => e.batch === 25).map((e) => e.slug);
 export const peopleBatch27Slugs = peoplePriorityList.filter((e) => e.batch === 27).map((e) => e.slug);
 export const peopleBatch28Slugs = peoplePriorityList.filter((e) => e.batch === 28).map((e) => e.slug);
 export const peopleBatch29Slugs = peoplePriorityList.filter((e) => e.batch === 29).map((e) => e.slug);
+export const peopleBatch30Slugs = peoplePriorityList.filter((e) => e.batch === 30).map((e) => e.slug);
+
+/** Batch 31 — 100 base variants (generated via scripts/generate-people-batch-31-32.ts) */
+export const peopleBatch31Slugs = [
+  "man-beard", "woman-beard", "man-red-hair", "man-curly-hair", "man-white-hair", "man-bald",
+  "woman-red-hair", "woman-curly-hair", "woman-white-hair", "woman-bald", "woman-blond-hair", "man-blond-hair",
+  "man-frowning", "woman-frowning", "man-pouting", "woman-pouting",
+  "man-wearing-turban", "woman-wearing-turban", "man-in-tuxedo", "woman-in-tuxedo", "man-with-veil", "woman-with-veil",
+  "man-superhero", "woman-superhero", "man-supervillain", "woman-supervillain", "man-mage", "woman-mage",
+  "man-fairy", "woman-fairy", "man-vampire", "woman-vampire", "man-elf", "woman-elf", "man-genie", "woman-genie",
+  "man-zombie", "woman-zombie",
+  "man-getting-massage", "woman-getting-massage", "man-getting-haircut", "woman-getting-haircut",
+  "man-walking", "woman-walking", "person-walking-facing-right", "woman-walking-facing-right", "man-walking-facing-right",
+  "man-standing", "woman-standing",
+  "man-kneeling", "woman-kneeling", "person-kneeling-facing-right", "woman-kneeling-facing-right", "man-kneeling-facing-right",
+  "person-with-white-cane-facing-right", "man-with-white-cane", "man-with-white-cane-facing-right", "woman-with-white-cane", "woman-with-white-cane-facing-right",
+  "person-in-motorized-wheelchair-facing-right", "man-in-motorized-wheelchair", "man-in-motorized-wheelchair-facing-right", "woman-in-motorized-wheelchair", "woman-in-motorized-wheelchair-facing-right",
+  "person-in-manual-wheelchair-facing-right", "man-in-manual-wheelchair", "man-in-manual-wheelchair-facing-right", "woman-in-manual-wheelchair", "woman-in-manual-wheelchair-facing-right",
+  "man-running", "woman-running", "person-running-facing-right", "woman-running-facing-right", "man-running-facing-right",
+  "woman-dancing", "man-dancing", "men-with-bunny-ears", "women-with-bunny-ears",
+  "man-in-steamy-room", "woman-in-steamy-room", "man-climbing", "woman-climbing",
+  "man-golfing", "woman-golfing", "man-surfing", "woman-surfing", "man-rowing-boat", "woman-rowing-boat",
+  "man-swimming", "woman-swimming", "man-bouncing-ball", "woman-bouncing-ball",
+  "man-lifting-weights", "woman-lifting-weights", "man-biking", "woman-biking",
+  "man-mountain-biking", "woman-mountain-biking", "man-cartwheeling", "woman-cartwheeling",
+] as const;
+
+/** Batch 32 — final 8 base slugs */
+export const peopleBatch32Slugs = [
+  "men-wrestling", "women-wrestling", "man-playing-water-polo", "woman-playing-water-polo",
+  "man-playing-handball", "woman-playing-handball", "man-juggling", "woman-juggling",
+] as const;
