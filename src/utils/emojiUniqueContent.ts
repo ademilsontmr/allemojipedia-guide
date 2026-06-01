@@ -62,7 +62,7 @@ const usagePhrase = (emoji: Emoji) => {
 };
 
 export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.detailedParagraphs?.length) {
     return batch.detailedParagraphs;
   }
@@ -143,7 +143,7 @@ export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] => {
 };
 
 export const getEnrichedExamples = (emoji: Emoji) => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.examples?.length) {
     return batch.examples;
   }
@@ -217,7 +217,7 @@ export const getEnrichedExamples = (emoji: Emoji) => {
 };
 
 export const getUniqueContextBlocks = (emoji: Emoji): EmojiContextBlock[] => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.contextBlocks?.length) {
     return batch.contextBlocks;
   }
@@ -325,7 +325,7 @@ export const getUniqueContextBlocks = (emoji: Emoji): EmojiContextBlock[] => {
 };
 
 export const getUniqueSearchIntents = (emoji: Emoji): string[] => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.searchIntents?.length) {
     return batch.searchIntents;
   }
@@ -357,7 +357,7 @@ export const getUniqueSearchIntents = (emoji: Emoji): string[] => {
 };
 
 export const getUniqueWhenNotToUse = (emoji: Emoji): string[] => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.whenNotToUse?.length) {
     return batch.whenNotToUse;
   }
@@ -386,7 +386,7 @@ export const getUniqueWhenNotToUse = (emoji: Emoji): string[] => {
 };
 
 export const buildUniqueFaqs = (emoji: Emoji) => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.faqs?.length) {
     return batch.faqs.slice(0, 5);
   }
@@ -433,7 +433,7 @@ export const buildUniqueFaqs = (emoji: Emoji) => {
 };
 
 export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
-  const batch = getEmojiBatchEnrichment(emoji.slug);
+  const batch = getEmojiBatchEnrichment(emoji);
   const paragraphs = getEnrichedDetailedParagraphs(emoji);
   const primaryKeyword = emoji.keywords.find(
     (k) => !["unicode", "copy paste", "emoji"].some((skip) => k.includes(skip))
