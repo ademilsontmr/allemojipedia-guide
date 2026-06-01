@@ -6,6 +6,7 @@ import { batch02AnimalsNature } from "./batch02-animals-nature";
 import { batch10TopSmileysTravel } from "./batch10-top-smileys-travel";
 import { batch11TopSmileysEmotion } from "./batch11-top-smileys-emotion";
 import { batch12TopSmileysEmotion } from "./batch12-top-smileys-emotion";
+import { batch13TopTravelObjects } from "./batch13-top-travel-objects";
 import { batch14SmileysAndEmotionComplete } from "./batch14-smileys-and-emotion-complete";
 import { batch15AnimalsAndNatureComplete } from "./batch15-animals-and-nature-complete";
 import { batch16FoodAndDrinkComplete } from "./batch16-food-and-drink-complete";
@@ -18,6 +19,7 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch10TopSmileysTravel,
   ...batch11TopSmileysEmotion,
   ...batch12TopSmileysEmotion,
+  ...batch13TopTravelObjects,
   ...batch14SmileysAndEmotionComplete,
   ...batch15AnimalsAndNatureComplete,
   ...batch16FoodAndDrinkComplete,
@@ -30,7 +32,7 @@ export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry"
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–12, 14–16) plus premium enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–16) plus premium enrichment for all remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;

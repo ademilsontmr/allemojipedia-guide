@@ -111,6 +111,14 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes: "Completes all remaining thin topEmojiSlugs — tired, angry, seasonal, and symbol faces.",
   },
   {
+    id: "13-top-travel-objects",
+    name: "Top travel & objects — hand-written (P0)",
+    category: "mixed",
+    emojiCount: 15,
+    status: "complete",
+    notes: "Batch 13 P0 priority: bullet train, flights, parks, onsen, ferry, wedding, shrine, money, work, calendar, grad, beauty.",
+  },
+  {
     id: "14-smileys-and-emotion-complete",
     name: "Smileys & Emotion — category complete",
     category: "smileys-and-emotion",
@@ -140,7 +148,7 @@ export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 
