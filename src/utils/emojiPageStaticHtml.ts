@@ -2,8 +2,10 @@ import type { Emoji } from "@/data/emojis";
 import { getCategoryBySlug } from "@/data/categories";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
+import { getEmojiSeoMeta, getEmojiPageH1 } from "@/data/seoMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
+import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 import { editorialMeta } from "@/data/editorialMeta";
 import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
 import {
@@ -25,6 +27,7 @@ export type EmojiStaticHtmlOptions = {
   emoji: Emoji;
   relatedEmojis?: Emoji[];
   categoryEmojis?: Emoji[];
+  getEmojiBySlug?: (slug: string) => Emoji | undefined;
 };
 
 export const getDeterministicCategoryEmojis = (
@@ -41,6 +44,7 @@ export const buildEmojiStaticArticleHtml = ({
   emoji,
   relatedEmojis = [],
   categoryEmojis = [],
+  getEmojiBySlug,
 }: EmojiStaticHtmlOptions): string => {
   const category = getCategoryBySlug(emoji.categorySlug);
   const editorial = getTopEmojiEditorial(emoji);
@@ -52,6 +56,9 @@ export const buildEmojiStaticArticleHtml = ({
   const examples = getEnrichedExamples(emoji);
   const contextBlocks = getUniqueContextBlocks(emoji);
   const whenNotToUse = getUniqueWhenNotToUse(emoji);
+  const resolveEmoji = (slug: string) =>
+    getEmojiBySlug?.(slug) ?? relatedEmojis.find((item) => item.slug === slug);
+  const comparisonLinks = getComparisonLinksForEmoji(emoji.slug, resolveEmoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(
         ({ slug1, slug2 }) =>
@@ -79,7 +86,7 @@ export const buildEmojiStaticArticleHtml = ({
       </nav>
       <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
 
-      <h1>${escapeHtml(`${emoji.unicode} ${emoji.name} Emoji: Meaning and How to Use`)}</h1>
+      <h1>${escapeHtml(getEmojiPageH1(emoji))}</h1>
       <p>${escapeHtml(emoji.shortMeaning)}</p>
 
       <section>
@@ -89,16 +96,6 @@ export const buildEmojiStaticArticleHtml = ({
       <section>
         <h2>Quick answer</h2>
         <p>${escapeHtml(editorial.snippetAnswer)}</p>
-      </section>
-
-      <section>
-        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
-        <h3>In texting</h3>
-        <p>${escapeHtml(editorial.textingMeaning)}</p>
-        <h3>On social media</h3>
-        <p>${escapeHtml(editorial.socialMeaning)}</p>
-        <h3>Tone warning</h3>
-        <p>${escapeHtml(editorial.caution)}</p>
       </section>
 
       ${
@@ -114,6 +111,28 @@ export const buildEmojiStaticArticleHtml = ({
             description: page.description,
           }))
         )}
+      </section>
+      `
+          : ""
+      }
+
+      <section>
+        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
+        <h3>In texting</h3>
+        <p>${escapeHtml(editorial.textingMeaning)}</p>
+        <h3>On social media</h3>
+        <p>${escapeHtml(editorial.socialMeaning)}</p>
+        <h3>Tone warning</h3>
+        <p>${escapeHtml(editorial.caution)}</p>
+      </section>
+
+      ${
+        comparisonLinks.length
+          ? `
+      <section>
+        <h2>Compare with similar emojis</h2>
+        <p>Not sure which emoji fits your message? These side-by-side guides explain tone differences.</p>
+        ${linkList(comparisonLinks.map((link) => ({ href: link.href, label: link.label })))}
       </section>
       `
           : ""

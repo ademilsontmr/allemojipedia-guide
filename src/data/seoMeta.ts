@@ -21,9 +21,9 @@ export type EmojiSeoMeta = {
 /** Lote 1 — highest search volume / CTR priority */
 export const priorityEmojiSeo: Record<string, EmojiSeoMeta> = {
   "face-with-tears-of-joy": {
-    metaTitle: "😂 Meaning in Texting: Funny, Memes & 😂 vs 💀",
+    metaTitle: "😂 Face With Tears of Joy Meaning in Texting, Memes & WhatsApp",
     metaDescription:
-      "What does 😂 mean in 2026? See texting, meme, and TikTok usage—plus when people use 💀 instead. Copy 😂 instantly with examples.",
+      "What does 😂 mean? The classic laugh emoji for jokes, memes, and group chats. See real texting examples and copy 😂 instantly.",
   },
   "red-heart": {
     metaTitle: "❤️ Red Heart Meaning: Love, Texting & From a Girl",
@@ -31,9 +31,9 @@ export const priorityEmojiSeo: Record<string, EmojiSeoMeta> = {
       "What does ❤️ mean in texting? Learn love vs friendship signals, examples, and when it feels romantic. Copy ❤️ in one click.",
   },
   skull: {
-    metaTitle: "💀 Emoji Meaning: Gen Z Slang, Texting & 💀 vs 😂",
+    metaTitle: "💀 Skull Emoji Meaning in Gen Z Texting, TikTok & Instagram",
     metaDescription:
-      "What does 💀 mean? Usually 'I'm dead' from laughter—not danger. See Gen Z texting examples and copy 💀 instantly.",
+      "What does 💀 mean? Usually 'I'm dead' from laughter or shock—not danger. See Gen Z texting examples and copy 💀 instantly.",
   },
   "loudly-crying-face": {
     metaTitle: "😭 Emoji Meaning: Sad, Funny, or Overwhelmed?",
@@ -223,6 +223,12 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
     ),
     ogTitle: title,
   };
+};
+
+/** Visible H1 — matches the page title (without site brand suffix). */
+export const getEmojiPageH1 = (emoji: Emoji): string => {
+  const seo = getEmojiSeoMeta(emoji);
+  return seo.ogTitle ?? seo.title.replace(new RegExp(`\\s*\\|\\s*${BRAND}$`), "");
 };
 
 export const isPriorityEmojiSeo = (slug: string): boolean => slug in priorityEmojiSeo;

@@ -12,7 +12,7 @@ import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
-import { getEmojiSeoMeta } from "@/data/seoMeta";
+import { getEmojiSeoMeta, getEmojiPageH1 } from "@/data/seoMeta";
 import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
 import {
   getEnrichedDetailedParagraphs,
@@ -22,12 +22,14 @@ import {
 } from "@/utils/emojiUniqueContent";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
+import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const [emoji, setEmoji] = useState<Emoji | null>(null);
   const [relatedEmojis, setRelatedEmojis] = useState<Emoji[]>([]);
   const [categoryEmojis, setCategoryEmojis] = useState<Emoji[]>([]);
+  const [comparisonLinks, setComparisonLinks] = useState<{ href: string; label: string }[]>([]);
   const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
 
   useEffect(() => {
@@ -43,6 +45,7 @@ const EmojiDetail = () => {
         setEmoji(null);
         setRelatedEmojis([]);
         setCategoryEmojis([]);
+        setComparisonLinks([]);
         setIsEmojiDataLoaded(true);
         return;
       }
@@ -71,6 +74,11 @@ const EmojiDetail = () => {
       setEmoji(found);
       setRelatedEmojis(related);
       setCategoryEmojis(sameCategory);
+      setComparisonLinks(
+        getComparisonLinksForEmoji(found.slug, (s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined).map(
+          ({ href, label }) => ({ href, label })
+        )
+      );
       setIsEmojiDataLoaded(true);
     };
 
@@ -105,6 +113,7 @@ const EmojiDetail = () => {
   const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
   const editorial = getTopEmojiEditorial(emoji);
   const seo = getEmojiSeoMeta(emoji);
+  const pageH1 = getEmojiPageH1(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(({ slug1, slug2 }) =>
       (slug1 === emoji.slug && slug2 === primaryRelated.slug) ||
@@ -150,7 +159,7 @@ const EmojiDetail = () => {
           </p>
           {/* H1 */}
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="emoji">{emoji.unicode}</span> {emoji.name} Emoji: Meaning and How to Use
+            {pageH1}
           </h1>
           <p className="text-lg text-muted-foreground mb-8">{emoji.shortMeaning}</p>
 
@@ -200,6 +209,26 @@ const EmojiDetail = () => {
                   <h3 className="text-lg font-medium mb-2">Tone warning</h3>
                   <p className="text-muted-foreground">{editorial.caution}</p>
                 </div>
+              </div>
+            </section>
+          )}
+
+          {comparisonLinks.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">Compare with similar emojis</h2>
+              <p className="text-muted-foreground mb-4">
+                Not sure which emoji fits your message? These side-by-side guides explain tone differences.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {comparisonLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    className="rounded-lg border border-border bg-muted/30 p-4 hover:border-primary/40 transition-colors"
+                  >
+                    <h3 className="font-semibold">{link.label}</h3>
+                  </Link>
+                ))}
               </div>
             </section>
           )}

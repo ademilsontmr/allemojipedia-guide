@@ -1,12 +1,20 @@
 import type { Emoji } from "@/data/emojis";
 import type { EmojiBatchEnrichment } from "./types";
+import { batch00TopLaugh } from "./batch00-top-laugh";
 import { batch01FoodAndDrink } from "./batch01-food-and-drink";
 import { batch02AnimalsNature } from "./batch02-animals-nature";
+import { batch10TopSmileysTravel } from "./batch10-top-smileys-travel";
+import { batch11TopSmileysEmotion } from "./batch11-top-smileys-emotion";
+import { batch12TopSmileysEmotion } from "./batch12-top-smileys-emotion";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
+  ...batch00TopLaugh,
   ...batch01FoodAndDrink,
   ...batch02AnimalsNature,
+  ...batch10TopSmileysTravel,
+  ...batch11TopSmileysEmotion,
+  ...batch12TopSmileysEmotion,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
@@ -15,7 +23,7 @@ export type { EmojiBatchEnrichment, EditorialBatchMeta } from "./types";
 export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (lots 01–02) plus generated enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–12) plus premium enrichment for all remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;

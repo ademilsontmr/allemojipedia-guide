@@ -107,3 +107,18 @@ export const buildBatch = (
   batchId,
   ...fields,
 });
+
+export const getBatchIdForCategory = (categorySlug: string): string | undefined => {
+  const map: Record<string, string> = {
+    "food-and-drink": "03-food-remaining",
+    "animals-and-nature": "02-animals-remaining",
+    activities: "03-activities",
+    "travel-and-places": "04-travel-places",
+    objects: "05-objects",
+    symbols: "06-symbols",
+    "smileys-and-emotion": "07-smileys-emotion",
+    flags: "08-flags",
+    "people-and-body": "09-people-body",
+  };
+  return map[categorySlug];
+};

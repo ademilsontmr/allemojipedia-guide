@@ -160,23 +160,11 @@ export const topEmojiSlugs = [
 ] as const;
 
 const editorialOverrides: Record<string, Partial<TopEmojiEditorial>> = {
-  "face-with-tears-of-joy": {
-    searchTitle: "Face With Tears of Joy Emoji Meaning in Texting, Memes, and Social Media",
-    snippetAnswer:
-      "The face with tears of joy emoji means something is very funny, amusing, or playfully ridiculous. In texting it usually signals laughter, but younger users may sometimes prefer the skull emoji for the same idea.",
-    searchIntents: ["what does 😂 mean", "😂 meaning in texting", "😂 vs 💀", "laughing emoji meaning"],
-  },
   "red-heart": {
     searchTitle: "Red Heart Emoji Meaning: Love, Friendship, Texting, and When to Use It",
     snippetAnswer:
       "The red heart emoji usually means love, affection, warmth, or strong appreciation. It can be romantic, but in close friendships and family chats it can simply show care.",
     searchIntents: ["red heart emoji meaning", "❤️ meaning from a girl", "red heart vs pink heart", "heart emoji meaning in texting"],
-  },
-  skull: {
-    searchTitle: "Skull Emoji Meaning in Texting, Gen Z Slang, and Social Media",
-    snippetAnswer:
-      "The skull emoji usually means 'I'm dead' from laughter, shock, embarrassment, or disbelief. In Gen Z texting, it often replaces the crying laughing emoji to show that something is extremely funny.",
-    searchIntents: ["skull emoji meaning", "💀 meaning in texting", "skull emoji Gen Z meaning", "💀 vs 😂"],
   },
   "loudly-crying-face": {
     searchTitle: "Loudly Crying Face Emoji Meaning: Sad, Funny, or Overwhelmed?",

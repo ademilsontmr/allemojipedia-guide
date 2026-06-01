@@ -175,6 +175,7 @@ const emojiBody = (emoji: Emoji, emojiBySlug: Map<string, Emoji>, allEmojis: Emo
       emoji,
       relatedEmojis,
       categoryEmojis: getDeterministicCategoryEmojis(emoji, allEmojis),
+      getEmojiBySlug: (slug) => emojiBySlug.get(slug),
     })
   );
 };
