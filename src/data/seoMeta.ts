@@ -192,6 +192,20 @@ const withBrand = (title: string) =>
 const truncate = (text: string, max: number) =>
   text.length <= max ? text : `${text.slice(0, max - 1).trim()}…`;
 
+/** Removes inline emoji copies so the page title can lead with a single unicode. */
+const stripRedundantEmojiFromSearchTitle = (searchTitle: string, unicode: string): string => {
+  const parenthetical = ` (${unicode})`;
+  let cleaned = searchTitle.includes(parenthetical)
+    ? searchTitle.replaceAll(parenthetical, "")
+    : searchTitle;
+
+  if (cleaned.startsWith(`${unicode} `)) {
+    cleaned = cleaned.slice(unicode.length + 1);
+  }
+
+  return cleaned.trim();
+};
+
 export const getMainPageSeo = (path: string): PageSeoMeta => {
   const normalized = path.endsWith("/") ? path : `${path}/`;
   const seo = mainPagesSeo[normalized];
@@ -214,7 +228,8 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
   }
 
   const editorial = getTopEmojiEditorial(emoji);
-  const title = `${emoji.unicode} ${editorial.searchTitle}`;
+  const searchTitle = stripRedundantEmojiFromSearchTitle(editorial.searchTitle, emoji.unicode);
+  const title = `${emoji.unicode} ${searchTitle}`;
   return {
     title: withBrand(title),
     description: truncate(

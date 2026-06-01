@@ -110,13 +110,37 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     status: "complete",
     notes: "Completes all remaining thin topEmojiSlugs — tired, angry, seasonal, and symbol faces.",
   },
+  {
+    id: "14-smileys-and-emotion-complete",
+    name: "Smileys & Emotion — category complete",
+    category: "smileys-and-emotion",
+    emojiCount: 32,
+    status: "complete",
+    notes: "Final 32 thin smileys — cats, monkeys, speech bubbles, distressed faces. Category 1 fully manual.",
+  },
+  {
+    id: "15-animals-and-nature-complete",
+    name: "Animals & Nature — category complete",
+    category: "animals-and-nature",
+    emojiCount: 7,
+    status: "complete",
+    notes: "Final thin animals: badger, dove, wing, t-rex, coral, beetle, microbe. Category 3 fully manual.",
+  },
+  {
+    id: "16-food-and-drink-complete",
+    name: "Food & Drink — category complete",
+    category: "food-and-drink",
+    emojiCount: 1,
+    status: "complete",
+    notes: "Ear of corn — final thin food page. Category 4 fully manual.",
+  },
 ];
 
 export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 
