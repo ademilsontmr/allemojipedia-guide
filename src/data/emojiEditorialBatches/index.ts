@@ -10,6 +10,9 @@ import { batch13TopTravelObjects } from "./batch13-top-travel-objects";
 import { batch14SmileysAndEmotionComplete } from "./batch14-smileys-and-emotion-complete";
 import { batch15AnimalsAndNatureComplete } from "./batch15-animals-and-nature-complete";
 import { batch16FoodAndDrinkComplete } from "./batch16-food-and-drink-complete";
+import { batch17ActivitiesComplete } from "./batch17-activities-complete";
+import { batch18TravelPlacesTransit } from "./batch18-travel-places-transit";
+import { batch19TravelPlacesBuildings } from "./batch19-travel-places-buildings";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
@@ -23,6 +26,9 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch14SmileysAndEmotionComplete,
   ...batch15AnimalsAndNatureComplete,
   ...batch16FoodAndDrinkComplete,
+  ...batch17ActivitiesComplete,
+  ...batch18TravelPlacesTransit,
+  ...batch19TravelPlacesBuildings,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
@@ -32,7 +38,7 @@ export { editorialBatchRegistry, getEditorialBatchStats } from "./batchRegistry"
 export { categoryEditorialRoadmap, getNextCategoryToComplete } from "./batchCategoryRoadmap";
 export { isThinContentEmoji } from "./generators/shared";
 
-/** Hand-written overrides (00–02, 10–13, 14–16) plus premium enrichment for all remaining thin pages. */
+/** Hand-written overrides (00–02, 10–13, 14–19) plus premium enrichment for all remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
   if (manual) return manual;

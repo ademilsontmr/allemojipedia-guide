@@ -119,6 +119,30 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes: "Full batch13-priority queue: P0 (15) + P1 (25) + P2 (10) — travel transit, weather, money, creator, and niche Japan pages.",
   },
   {
+    id: "19-travel-places-buildings",
+    name: "Travel & Places — buildings, access, weather (hand-written)",
+    category: "travel-and-places",
+    emojiCount: 23,
+    status: "complete",
+    notes: "Final non-deferred travel thin pages — clocks/moon phases remain premium.",
+  },
+  {
+    id: "18-travel-places-transit",
+    name: "Travel & Places — transit & scenic (hand-written)",
+    category: "travel-and-places",
+    emojiCount: 20,
+    status: "complete",
+    notes: "Trams, buses, trucks, cable cars, tuk-tuks, emergency lights, astro weather — batch 18 of category completion.",
+  },
+  {
+    id: "17-activities-complete",
+    name: "Activities — category complete",
+    category: "activities",
+    emojiCount: 34,
+    status: "complete",
+    notes: "All thin activities manual — sports, games, holidays, crafts (jack-o-lantern in batch 12).",
+  },
+  {
     id: "14-smileys-and-emotion-complete",
     name: "Smileys & Emotion — category complete",
     category: "smileys-and-emotion",
@@ -148,7 +172,7 @@ export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 
