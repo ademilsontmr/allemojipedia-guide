@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { emojiPlatforms } from "@/data/emojiPlatforms";
+import { editorialMeta } from "@/data/editorialMeta";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const PlatformsIndex = () => (
   <Layout>
@@ -11,6 +13,9 @@ const PlatformsIndex = () => (
         name="description"
         content="Copy emojis by platform: iPhone (Apple), Android (Google), and Samsung Galaxy—with meanings for each device style."
       />
+      <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+      <meta name="author" content={editorialMeta.author} />
+      <meta name="publisher" content={editorialMeta.publisher} />
       <link rel="canonical" href="https://allemojipedia.com/platforms/apple/" />
     </Helmet>
 

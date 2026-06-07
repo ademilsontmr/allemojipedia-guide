@@ -1,6 +1,10 @@
 export const editorialMeta = {
   siteName: "Allemojipedia",
   teamName: "Allemojipedia Editorial Team",
+  /** HTML meta author — matches emoji detail pages */
+  author: "Allemojipedia Editorial Team",
+  /** HTML meta publisher */
+  publisher: "Allemojipedia",
   lastUpdated: "May 12, 2026",
   lastUpdatedIso: "2026-05-12",
   methodologyUrl: "https://allemojipedia.com/about/",

@@ -14,6 +14,7 @@ import {
   type PlatformHubVariant,
 } from "@/data/emojiPlatforms";
 import { editorialMeta } from "@/data/editorialMeta";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 import NotFound from "./NotFound";
 
 const BRAND = "Allemojipedia";
@@ -76,6 +77,9 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={platform.keywords} />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+        <meta name="author" content={editorialMeta.author} />
+        <meta name="publisher" content={editorialMeta.publisher} />
         <link rel="canonical" href={`https://allemojipedia.com${canonicalPath}`} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />

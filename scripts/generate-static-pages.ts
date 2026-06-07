@@ -78,6 +78,8 @@ const generateMetaTags = (
     <meta name="description" content="${safeDescription}" />
     ${safeKeywords ? `<meta name="keywords" content="${safeKeywords}" />` : ''}
     <meta name="robots" content="${escapeHtml(robots)}" />
+    <meta name="author" content="${escapeHtml(editorialMeta.author)}" />
+    <meta name="publisher" content="${escapeHtml(editorialMeta.publisher)}" />
     <link rel="canonical" href="${safeUrl}" />
     <meta property="og:title" content="${safeTitle}" />
     <meta property="og:description" content="${safeDescription}" />
@@ -98,6 +100,8 @@ const injectMetaTags = (template: string, metaTags: string) => {
     .replace(/<meta name="description"[^>]*>/g, '')
     .replace(/<meta name="keywords"[^>]*>/g, '')
     .replace(/<meta name="robots"[^>]*>/g, '')
+    .replace(/<meta name="author"[^>]*>/g, '')
+    .replace(/<meta name="publisher"[^>]*>/g, '')
     .replace(/<link rel="canonical"[^>]*>/g, '')
     .replace(/<meta property="og:[^>]*>/g, '')
     .replace(/<meta name="twitter:[^>]*>/g, '');

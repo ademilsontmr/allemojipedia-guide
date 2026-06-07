@@ -133,7 +133,8 @@ const EmojiDetail = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${emoji.name} emoji, ${emoji.unicode} meaning, ${emoji.keywords.slice(0, 5).join(', ')}, copy ${emoji.name} emoji`} />
-        <meta name="author" content={editorialMeta.teamName} />
+        <meta name="author" content={editorialMeta.author} />
+        <meta name="publisher" content={editorialMeta.publisher} />
         <meta name="robots" content={getEmojiRobots(emoji)} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
