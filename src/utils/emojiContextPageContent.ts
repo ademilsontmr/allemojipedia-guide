@@ -16,7 +16,7 @@ const lowerFirst = (value: string) =>
 const stripPeriod = (value: string) => value.replace(/\.$/, "");
 
 /** Semantic slice of shortMeaning — prefers concise intent over literal pictograph descriptions. */
-const cleanMeaning = (emoji: Emoji) => {
+export const getContextMeaningHint = (emoji: Emoji) => {
   const usage = emoji.usageContexts[0]?.trim();
   if (usage && usage.length < 60) {
     const normalized = usage.startsWith("to ") ? usage.slice(3) : usage;
@@ -38,7 +38,7 @@ const cleanMeaning = (emoji: Emoji) => {
 
 const pageKey = (slug: string, context: EmojiContextType) => `${slug}/${context}`;
 
-type Archetype =
+export type EmojiContextArchetype =
   | "heart"
   | "laughter"
   | "crying"
@@ -49,6 +49,8 @@ type Archetype =
   | "primate"
   | "clown"
   | "face";
+
+type Archetype = EmojiContextArchetype;
 
 const HEART_SLUGS = new Set([
   "red-heart",
@@ -126,7 +128,7 @@ const SKEPTIC_SLUGS = new Set([
   "grimacing-face",
 ]);
 
-const getArchetype = (emoji: Emoji): Archetype => {
+export const getEmojiContextArchetype = (emoji: Emoji): EmojiContextArchetype => {
   if (HEART_SLUGS.has(emoji.slug) || emoji.subgroup === "heart") return "heart";
   if (LAUGHTER_SLUGS.has(emoji.slug)) return "laughter";
   if (CRYING_SLUGS.has(emoji.slug)) return "crying";
@@ -205,7 +207,7 @@ const buildDescription = (emoji: Emoji, context: EmojiContextType): string => {
 const buildAnswer = (emoji: Emoji, context: EmojiContextType, archetype: Archetype): string => {
   const u = emoji.unicode;
   const name = emoji.name;
-  const meaning = cleanMeaning(emoji);
+  const meaning = getContextMeaningHint(emoji);
   const usage = usageHint(emoji);
   const usage2 = usageHint(emoji, 1);
   const key = pageKey(emoji.slug, context);
@@ -508,7 +510,7 @@ const buildSignals = (emoji: Emoji, context: EmojiContextType, archetype: Archet
   const keyword = emoji.keywords[0] ?? usage;
   const key = pageKey(emoji.slug, context);
   const ex = exampleTexts(emoji);
-  const meaning = cleanMeaning(emoji);
+  const meaning = getContextMeaningHint(emoji);
 
   const contextSignals: Record<EmojiContextType, string[]> = {
     "from-a-girl": [
@@ -786,7 +788,7 @@ export const buildUniqueContextPage = (
   context: EmojiContextType
 ): EmojiContextPage => {
   const meta = contextMeta[context];
-  const archetype = getArchetype(emoji);
+  const archetype = getEmojiContextArchetype(emoji);
   const otherContexts = CONTEXTS.filter((c) => c !== context);
 
   return {

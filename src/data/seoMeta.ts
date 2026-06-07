@@ -4,6 +4,7 @@ import type { EmojiContextPage } from "./emojiContextPages";
 import type { EmojiIntentCluster } from "./emojiIntentClusters";
 import { getPeopleSubcategoryEditorial } from "./peopleSubcategoryEditorial";
 import { getTopEmojiEditorial } from "./topEmojiEditorial";
+import { buildContextSeoMeta } from "@/utils/emojiContextSeoMeta";
 
 const BRAND = "Allemojipedia";
 
@@ -1068,11 +1069,11 @@ export const getContextSeoMeta = (emoji: Emoji, page: EmojiContextPage): PageSeo
     };
   }
 
-  const title = `${emoji.unicode} ${page.title}`;
+  const generated = buildContextSeoMeta(emoji, page);
   return {
-    title: withBrand(title),
-    description: truncate(page.description, 160),
-    ogTitle: title,
+    title: withBrand(generated.metaTitle),
+    description: truncate(generated.metaDescription, 160),
+    ogTitle: generated.metaTitle,
   };
 };
 
