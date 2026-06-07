@@ -220,6 +220,36 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Copy iPhone emojis instantly. Tap any Apple emoji to paste into iMessage, WhatsApp, Instagram, or TikTok.",
     ogTitle: "Copy iPhone Emojis — One Click",
   },
+  "/google-emojis/": {
+    title: `Google Emoji — Android & Gboard Copy List | ${BRAND}`,
+    description:
+      "Browse Google Noto emojis for Android. Copy any Gboard emoji in one click with meanings for texting.",
+    ogTitle: "Google Emoji — Android & Gboard",
+  },
+  "/android-emojis/": {
+    title: `Android Emojis — Full List & Meanings (2026) | ${BRAND}`,
+    description:
+      "Complete Android emoji list with copy-paste and meanings for Gboard, WhatsApp, and social apps.",
+    ogTitle: "Android Emojis — Full List (2026)",
+  },
+  "/copy-android-emojis/": {
+    title: `Copy Android Emojis — One-Click Google Emoji Copy | ${BRAND}`,
+    description:
+      "Copy Android emojis instantly. Tap any Google/Gboard emoji to paste into Messages, WhatsApp, or Instagram.",
+    ogTitle: "Copy Android Emojis — One Click",
+  },
+  "/samsung-emojis/": {
+    title: `Samsung Emojis — Galaxy Full List (2026) | ${BRAND}`,
+    description:
+      "Complete Samsung Galaxy emoji list with copy-paste and meanings for One UI texting.",
+    ogTitle: "Samsung Emojis — Galaxy List (2026)",
+  },
+  "/copy-samsung-emojis/": {
+    title: `Copy Samsung Emojis — One-Click Galaxy Emoji Copy | ${BRAND}`,
+    description:
+      "Copy Samsung Galaxy emojis instantly for Messages, WhatsApp, and social media.",
+    ogTitle: "Copy Samsung Emojis — One Click",
+  },
   "/emoji-kitchen/": {
     title: `Emoji Kitchen — Gboard Guide & Popular Combos (2026) | ${BRAND}`,
     description:

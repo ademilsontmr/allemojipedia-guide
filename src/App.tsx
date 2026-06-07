@@ -73,6 +73,11 @@ const App = () => {
                 <Route path="/apple" element={<PlatformHubPage forcedSlug="apple" variant="apple" />} />
                 <Route path="/iphone-emojis" element={<PlatformHubPage forcedSlug="apple" variant="iphone-emojis" />} />
                 <Route path="/copy-iphone-emojis" element={<PlatformHubPage forcedSlug="apple" variant="copy-iphone-emojis" />} />
+                <Route path="/google-emojis" element={<PlatformHubPage forcedSlug="google" variant="google" />} />
+                <Route path="/android-emojis" element={<PlatformHubPage forcedSlug="google" variant="android-emojis" />} />
+                <Route path="/copy-android-emojis" element={<PlatformHubPage forcedSlug="google" variant="copy-android-emojis" />} />
+                <Route path="/samsung-emojis" element={<PlatformHubPage forcedSlug="samsung" variant="samsung-emojis" />} />
+                <Route path="/copy-samsung-emojis" element={<PlatformHubPage forcedSlug="samsung" variant="copy-samsung-emojis" />} />
                 <Route path="/emoji-kitchen" element={<EmojiKitchenPage />} />
                 <Route path="/emoji-combos/:slug" element={<EmojiComboDetail />} />
                 <Route path="/emoji-combos" element={<EmojiCombosHub />} />

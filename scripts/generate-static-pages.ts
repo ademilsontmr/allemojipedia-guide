@@ -12,7 +12,7 @@ import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getCompariso
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
-import { emojiPlatforms, platformAliasRoutes, getPlatformVariantSeo, type EmojiPlatform } from '../src/data/emojiPlatforms';
+import { emojiPlatforms, platformAliasRoutes, getPlatformAliasH1, getPlatformVariantSeo, type EmojiPlatform } from '../src/data/emojiPlatforms';
 import type { EmojiCombo } from '../src/data/emojiCombos';
 import { emojiCombos } from '../src/data/emojiCombos';
 import { emojiKitchenGuide, emojiKitchenCombos } from '../src/data/emojiKitchen';
@@ -1353,25 +1353,13 @@ const generateStaticPages = () => {
   platformAliasRoutes.forEach(({ path: aliasPath, platform, variant }) => {
     const p = emojiPlatforms.find((pl) => pl.slug === platform);
     if (!p) return;
-    const seoPath =
-      variant === 'iphone-emojis'
-        ? '/iphone-emojis/'
-        : variant === 'copy-iphone-emojis'
-          ? '/copy-iphone-emojis/'
-          : '/apple/';
+    const seoPath = `${aliasPath}/`;
     const aliasSeo = getMainPageSeo(seoPath);
     const variantSeo = getPlatformVariantSeo(variant);
     const featured = p.featuredEmojiSlugs
       .map((s) => emojiBySlug.get(s))
       .filter((e): e is Emoji => Boolean(e));
-    const h1 =
-      variant === 'iphone-emojis'
-        ? 'iPhone Emojis — Full List (2026)'
-        : variant === 'copy-iphone-emojis'
-          ? 'Copy iPhone Emojis — One Click'
-          : variant === 'apple'
-            ? 'Apple Emoji — iPhone & iOS'
-            : p.name;
+    const h1 = getPlatformAliasH1(variant, p);
 
     writeStaticPage(
       template,

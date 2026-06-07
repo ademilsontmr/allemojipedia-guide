@@ -8,6 +8,8 @@ import type { Emoji } from "@/data/emojis";
 import {
   emojiPlatforms,
   getEmojiPlatform,
+  getPlatformAliasH1,
+  getPlatformAliasPath,
   getPlatformVariantSeo,
   type PlatformHubVariant,
 } from "@/data/emojiPlatforms";
@@ -53,13 +55,7 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
 
   const isAlias = variant !== "default";
   const canonicalPath = `/platforms/${platform.slug}/`;
-  const pagePath = isAlias
-    ? variant === "apple"
-      ? "/apple/"
-      : variant === "iphone-emojis"
-        ? "/iphone-emojis/"
-        : "/copy-iphone-emojis/"
-    : canonicalPath;
+  const pagePath = isAlias ? getPlatformAliasPath(variant) ?? canonicalPath : canonicalPath;
 
   const variantSeo = getPlatformVariantSeo(isAlias ? variant : "default");
   const title =
@@ -70,14 +66,7 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
         : `${platform.icon} ${platform.name} Emojis — Copy & Meanings | ${BRAND}`;
 
   const description = isAlias ? variantSeo.description : platform.description;
-  const h1 =
-    variant === "iphone-emojis"
-      ? "iPhone Emojis — Full List (2026)"
-      : variant === "copy-iphone-emojis"
-        ? "Copy iPhone Emojis — One Click"
-        : variant === "apple"
-          ? "Apple Emoji — iPhone & iOS"
-          : `${platform.icon} ${platform.name} Emojis`;
+  const h1 = isAlias ? getPlatformAliasH1(variant, platform) : `${platform.icon} ${platform.name} Emojis`;
 
   const url = `https://allemojipedia.com${pagePath}`;
 

@@ -1,6 +1,16 @@
 export type EmojiPlatformSlug = "apple" | "google" | "samsung";
 
-export type PlatformHubVariant = "default" | "apple" | "iphone-emojis" | "copy-iphone-emojis";
+export type PlatformHubVariant =
+  | "default"
+  | "apple"
+  | "iphone-emojis"
+  | "copy-iphone-emojis"
+  | "google"
+  | "android-emojis"
+  | "copy-android-emojis"
+  | "samsung"
+  | "samsung-emojis"
+  | "copy-samsung-emojis";
 
 export type EmojiPlatform = {
   slug: EmojiPlatformSlug;
@@ -155,7 +165,42 @@ export const platformAliasRoutes: Array<{ path: string; platform: EmojiPlatformS
   { path: "/apple", platform: "apple", variant: "apple" },
   { path: "/iphone-emojis", platform: "apple", variant: "iphone-emojis" },
   { path: "/copy-iphone-emojis", platform: "apple", variant: "copy-iphone-emojis" },
+  { path: "/google-emojis", platform: "google", variant: "google" },
+  { path: "/android-emojis", platform: "google", variant: "android-emojis" },
+  { path: "/copy-android-emojis", platform: "google", variant: "copy-android-emojis" },
+  { path: "/samsung-emojis", platform: "samsung", variant: "samsung-emojis" },
+  { path: "/copy-samsung-emojis", platform: "samsung", variant: "copy-samsung-emojis" },
 ];
+
+const variantH1: Partial<Record<PlatformHubVariant, string>> = {
+  apple: "Apple Emoji — iPhone & iOS",
+  "iphone-emojis": "iPhone Emojis — Full List (2026)",
+  "copy-iphone-emojis": "Copy iPhone Emojis — One Click",
+  google: "Google Emoji — Android & Gboard",
+  "android-emojis": "Android Emojis — Full List (2026)",
+  "copy-android-emojis": "Copy Android Emojis — One Click",
+  samsung: "Samsung Galaxy Emoji — One UI",
+  "samsung-emojis": "Samsung Emojis — Galaxy List (2026)",
+  "copy-samsung-emojis": "Copy Samsung Emojis — One Click",
+};
+
+export const getPlatformAliasH1 = (variant: PlatformHubVariant, platform: EmojiPlatform) =>
+  variantH1[variant] ?? `${platform.icon} ${platform.name} Emojis`;
+
+export const getPlatformAliasPath = (variant: PlatformHubVariant): string | null => {
+  const paths: Partial<Record<PlatformHubVariant, string>> = {
+    apple: "/apple/",
+    "iphone-emojis": "/iphone-emojis/",
+    "copy-iphone-emojis": "/copy-iphone-emojis/",
+    google: "/google-emojis/",
+    "android-emojis": "/android-emojis/",
+    "copy-android-emojis": "/copy-android-emojis/",
+    "samsung-emojis": "/samsung-emojis/",
+    "copy-samsung-emojis": "/copy-samsung-emojis/",
+    samsung: "/samsung-emojis/",
+  };
+  return paths[variant] ?? null;
+};
 
 export const getEmojiPlatform = (slug: string) => emojiPlatforms.find((p) => p.slug === slug);
 
@@ -176,6 +221,30 @@ export const getPlatformVariantSeo = (variant: PlatformHubVariant) => {
     "copy-iphone-emojis": {
       title: "Copy iPhone Emojis — One-Click Apple Emoji Copy Paste",
       description: "Copy iPhone emojis instantly. Tap any Apple emoji to paste into iMessage, WhatsApp, Instagram, or TikTok.",
+    },
+    google: {
+      title: "Google Emoji — Android & Gboard Copy List",
+      description: "Browse Google Noto emojis for Android. Copy any Gboard emoji in one click with meanings.",
+    },
+    "android-emojis": {
+      title: "Android Emojis — Full List & Meanings (2026)",
+      description: "Complete Android emoji list with copy-paste and meanings for Gboard, WhatsApp, and social apps.",
+    },
+    "copy-android-emojis": {
+      title: "Copy Android Emojis — One-Click Google Emoji Copy Paste",
+      description: "Copy Android emojis instantly. Tap any Google/Gboard emoji to paste into Messages, WhatsApp, or Instagram.",
+    },
+    samsung: {
+      title: "Samsung Galaxy Emoji — One UI Copy List",
+      description: "Browse Samsung Galaxy emojis in One UI style. Copy and learn meanings for Galaxy texting.",
+    },
+    "samsung-emojis": {
+      title: "Samsung Emojis — Galaxy Full List (2026)",
+      description: "Complete Samsung emoji list with copy-paste and meanings for Galaxy phones.",
+    },
+    "copy-samsung-emojis": {
+      title: "Copy Samsung Emojis — One-Click Galaxy Emoji Copy",
+      description: "Copy Samsung Galaxy emojis instantly for Messages, WhatsApp, and social media.",
     },
   };
   return defaults[variant];

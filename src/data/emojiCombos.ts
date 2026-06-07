@@ -1,3 +1,5 @@
+import { emojiCombosLote2 } from "./emojiCombos-lote2";
+
 export type EmojiCombo = {
   slug: string;
   title: string;
@@ -125,6 +127,7 @@ export const emojiCombos: EmojiCombo[] = [
     examples: ["Thank you so much 🙏❤️✨", "Means the world 🙏❤️✨", "Grateful for you 🙏❤️✨"],
     relatedComboSlugs: ["love-emoji-combo"],
   },
+  ...emojiCombosLote2,
 ];
 
 export const getEmojiComboBySlug = (slug: string) => emojiCombos.find((c) => c.slug === slug);
