@@ -1,4 +1,4 @@
-// AUTO-GENERATED — do not edit. Run: npx tsx scripts/generate-context-pages.ts
+// AUTO-GENERATED — do not edit. Run: npm run generate:context-pages
 import type { EmojiContextPage } from "./emojiContextPages";
 
 export const emojiContextPagesGenerated: EmojiContextPage[] = [
@@ -7,19 +7,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Face with Tears of Joy Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😂 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😂, it often signals laughing so hard that tears are streaming down your face. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 😂 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl drops 😂 after your message, she likely thinks the moment is laughing—not that she is upset.",
     "signals": [
-      "She pairs 😂 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 😂 with wording about laughing, not just logistics",
+      "She sends 😂 when the topic involves laughing or finding something funny",
+      "Her face with tears of joy emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 😂",
-      "Miss you 😂",
-      "You did amazing 😂"
+      "You're impossible 😂😂",
+      "Literally dad please stop 😂",
+      "Still thinking about laughing 😂"
     ],
-    "caution": "Do not read 😂 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "😂 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -31,19 +31,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Face with Tears of Joy Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the face with tears of joy emoji when a guy sends 😂 in texting or social media.",
-    "answer": "When a guy sends 😂, it usually reflects laughing so hard that tears are streaming down your face. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😂 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 😂, it commonly signals laughing—a joke landed, a meme hit, or a moment felt absurd in a good way.",
     "signals": [
-      "He uses 😂 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 😂 when reacting to laughing or something visual in your chat",
+      "Private face with tears of joy emoji use carries more weight than a public comment",
+      "Tone aligns with \"Your story made my day 😂\""
     ],
     "examples": [
-      "You killed it 😂",
-      "Proud of you 😂",
-      "Had to tell you 😂"
+      "Lowkey the way he turned around 😂",
+      "That meme is too good 😂",
+      "No cap 😂"
     ],
-    "caution": "A single 😂 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 😂 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -55,19 +55,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Face with Tears of Joy Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😂 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😂 commonly means laughing so hard that tears are streaming down your face. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 😂 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp groups, 😂 often follows laughing. It keeps banter friendly when the topic is clearly humorous.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 😂 reads shorter than 😂 plus a full sentence",
+      "Matches how your chat already uses face with tears of joy reactions",
+      "Shows up mid-conversation when the topic is laughing"
     ],
     "examples": [
-      "Thanks so much 😂",
-      "See you tomorrow 😂",
-      "Got it 😂"
+      "You're impossible 😂😂",
+      "Dad please stop 😂",
+      "About that laughing thing 😂"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: some consider it overused or 'uncool'.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -79,19 +79,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Face with Tears of Joy Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😂 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😂 is often used for laughing so hard that tears are streaming down your face. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😂 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram commenters use 😂 when a caption, edit, or fail clip feels laughing. It signals amused disbelief more than sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 😂 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Why did I just snort 😂\"",
+      "Used when a visual post makes laughing the instant reaction"
     ],
     "examples": [
-      "This is everything 😂",
-      "Need this 😂",
-      "So good 😂"
+      "Why did I just snort 😂",
+      "This post — i can't believe you sent that 😂",
+      "The finding something funny vibe 😂"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Do not use 😂 when someone shares bad news — it reads as laughing at their pain.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -103,19 +103,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Face with Tears of Joy Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😂 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😂 frequently appears in comments and captions for laughing so hard that tears are streaming down your face. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 😂 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "😂 in TikTok comments signals laughing, usually with phrases like \"not me\", \"help\", or \"I can't\".",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"That meme is too good 😂\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 😂 on clips about laughing or finding something funny"
     ],
     "examples": [
-      "The ending 😂",
-      "Not me watching this 10 times 😂",
-      "Why is this so real 😂"
+      "Not me your story made my day 😂",
+      "Why is why did I just snort 😂",
+      "Not me relating 😂"
     ],
-    "caution": "😂 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: some consider it overused or 'uncool'.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -127,19 +127,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Red Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What ❤️ means when a girl sends it—with real examples.",
-    "answer": "When a girl sends ❤️, it often signals the classic symbol of love, affection, and romance. Tone depends on your relationship and the words around the emoji.",
+    "description": "What ❤️ usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "❤️ from a girl commonly expresses romantic love. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs ❤️ with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated ❤️ in your thread signals more than a polite one-off",
+      "She pairs ❤️ with wording about love, not just logistics",
+      "She sends ❤️ when the topic involves romantic love or deep affection"
     ],
     "examples": [
-      "That's so sweet ❤️",
-      "Miss you ❤️",
-      "You did amazing ❤️"
+      "I love you ❤️",
+      "Literally miss you, mom ❤️",
+      "Still thinking about love ❤️"
     ],
-    "caution": "Do not read ❤️ as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read ❤️ as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -151,19 +151,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Red Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the red heart emoji when a guy sends ❤️ in texting or social media.",
-    "answer": "When a guy sends ❤️, it usually reflects the classic symbol of love, affection, and romance. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the red heart emoji when a guy sends ❤️ in texting or social media.",
+    "answer": "If a guy sends ❤️ after something personal, it commonly signals romantic love. ",
     "signals": [
-      "He uses ❤️ with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses ❤️ when reacting to romantic love or something visual in your chat",
+      "Private red heart emoji use carries more weight than a public comment",
+      "Tone aligns with \"Miss you, mom ❤️\""
     ],
     "examples": [
-      "You killed it ❤️",
-      "Proud of you ❤️",
-      "Had to tell you ❤️"
+      "Miss you, mom ❤️",
+      "Had to say — you're my best friend ❤️",
+      "This love moment ❤️"
     ],
-    "caution": "A single ❤️ after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Color and fandom context change how ❤️ lands—red heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -175,19 +175,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Red Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What ❤️ means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, ❤️ commonly means the classic symbol of love, affection, and romance. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the red heart emoji ❤️ in everyday conversations.",
+    "answer": "WhatsApp users drop ❤️ after thanks, encouragement, good news, or emotional updates. ",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses red heart reactions",
+      "Shows up mid-conversation when the topic is romantic love",
+      "WhatsApp groups treat ❤️ differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much ❤️",
-      "See you tomorrow ❤️",
-      "Got it ❤️"
+      "I love you ❤️",
+      "Quick one — miss you, mom ❤️",
+      "Quick update ❤️"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, ❤️ without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -199,19 +199,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Red Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How ❤️ means on Instagram—with real examples.",
-    "answer": "On Instagram, ❤️ is often used for the classic symbol of love, affection, and romance. Comments, story replies, and DMs can change the tone.",
+    "description": "What ❤️ means on Instagram — compliments, reactions, and hype language.",
+    "answer": "❤️ on Instagram often means romantic love—especially under visual content where a quick reaction beats a long comment.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public ❤️ is often casual; DMs may feel more personal",
+      "Similar comment energy to \"You're my best friend ❤️\"",
+      "Used when a visual post makes romantic love the instant reaction"
     ],
     "examples": [
-      "This is everything ❤️",
-      "Need this ❤️",
-      "So good ❤️"
+      "This post — i love you ❤️",
+      "Need this — miss you, mom ❤️",
+      "This love post ❤️"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "❤️ under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -223,19 +223,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Red Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What ❤️ means on TikTok—with real examples.",
-    "answer": "On TikTok, ❤️ frequently appears in comments and captions for the classic symbol of love, affection, and romance. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How ❤️ shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, ❤️ shows up in captions and comments when creators or fans react to romantic love. Fandom and aesthetic communities give it extra subtext.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for red heart",
+      "Comment energy like \"I love you ❤️\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending ❤️",
-      "Not me watching this 10 times ❤️",
-      "Why is this so real ❤️"
+      "The way miss you, mom ❤️",
+      "Not me you're my best friend ❤️",
+      "The romantic love part ❤️"
     ],
-    "caution": "❤️ on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—❤️ here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -247,19 +247,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Skull Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💀 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💀, it often signals a skull often meaning 'i'm dead' from laughter or shock. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 💀 — with signals and real examples.",
+    "answer": "When a girl sends 💀, she is usually laughing at something funny, ridiculous, or playfully embarrassing. It softens teasing so the joke lands warmly.",
     "signals": [
-      "She pairs 💀 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"That joke killed me 💀\"",
+      "Repeated 💀 in your thread signals more than a polite one-off",
+      "She pairs 💀 with wording about dead, not just logistics"
     ],
     "examples": [
-      "That's so sweet 💀",
-      "Miss you 💀",
-      "You did amazing 💀"
+      "Literally she really said that 💀",
+      "This exam is going to be 💀",
+      "Still thinking about dead 💀"
     ],
-    "caution": "Do not read 💀 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "💀 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -271,19 +271,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Skull Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the skull emoji when a guy sends 💀 in texting or social media.",
-    "answer": "When a guy sends 💀, it usually reflects a skull often meaning 'i'm dead' from laughter or shock. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 💀 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 💀 after a voice note, screenshot, or story usually means he is reacting with dying laughing.",
     "signals": [
-      "He uses 💀 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private skull emoji use carries more weight than a public comment",
+      "Tone aligns with \"She really said that 💀\"",
+      "He does not only drop 💀 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 💀",
-      "Proud of you 💀",
+      "Lowkey this exam is going to be 💀",
+      "Had to say — the ending 💀",
       "Had to tell you 💀"
     ],
-    "caution": "A single 💀 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 💀 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -295,19 +295,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Skull Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💀 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💀 commonly means a skull often meaning 'i'm dead' from laughter or shock. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the skull emoji 💀 in everyday conversations.",
+    "answer": "On WhatsApp, 💀 still means something is funny or playfully ridiculous. It is common after jokes, teasing, and funny photos in family and friend groups.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 💀 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about extreme reaction",
+      "Standalone 💀 reads shorter than 💀 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 💀",
-      "See you tomorrow 💀",
-      "Got it 💀"
+      "She really said that 💀",
+      "This exam is going to be 💀",
+      "About that dying laughing thing 💀"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: older users may take literally.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -319,19 +319,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Skull Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💀 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💀 is often used for a skull often meaning 'i'm dead' from laughter or shock. Comments, story replies, and DMs can change the tone.",
+    "description": "How 💀 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram commenters use 💀 when a caption, edit, or fail clip feels dying laughing. It signals amused disbelief more than sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes dying laughing the instant reaction",
+      "Comment or story reply under content about dying laughing",
+      "Paired with short praise tied to dead"
     ],
     "examples": [
-      "This is everything 💀",
-      "Need this 💀",
-      "So good 💀"
+      "This exam is going to be 💀",
+      "This post — the ending 💀",
+      "The extreme reaction vibe 💀"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Never use 💀 when someone shares death, diagnosis, or trauma.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -343,19 +343,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Skull Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💀 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💀 frequently appears in comments and captions for a skull often meaning 'i'm dead' from laughter or shock. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the skull emoji 💀 in comment sections.",
+    "answer": "On TikTok, 💀 often means \"I'm dead\" from laughing—especially under chaotic, cringe, or unexpectedly funny clips. It is core Gen Z comment slang.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 💀 on clips about dying laughing or extreme reaction",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for skull"
     ],
     "examples": [
-      "The ending 💀",
-      "Not me watching this 10 times 💀",
-      "Why is this so real 💀"
+      "Why is this caption 💀",
+      "Not me my presentation is gonna be 💀",
+      "Not me relating 💀"
     ],
-    "caution": "💀 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: older users may take literally.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -367,19 +367,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Loudly Crying Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😭 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😭, it often signals sobbing uncontrollably with tears streaming down. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 😭 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl stacks 😭, she is usually emphasizing intensity around deep sadness, not reporting literal tears.",
     "signals": [
-      "She pairs 😭 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 😭 when the topic involves deep sadness or overwhelming emotion",
+      "Her loudly crying face emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"My favorite show just ended 😭\""
     ],
     "examples": [
-      "That's so sweet 😭",
-      "Miss you 😭",
-      "You did amazing 😭"
+      "I can't with this video 😭",
+      "Literally this proposal is so beautiful 😭",
+      "Still thinking about crying 😭"
     ],
-    "caution": "Do not read 😭 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "😭 caveat: dual meaning (sad vs. laughing) can confuse.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -391,19 +391,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Loudly Crying Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the loudly crying face emoji when a guy sends 😭 in texting or social media.",
-    "answer": "When a guy sends 😭, it usually reflects sobbing uncontrollably with tears streaming down. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😭 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 😭, it may show intense reaction—humor, embarrassment, or genuine feeling. Modern texting uses it for more than sadness.",
     "signals": [
-      "He uses 😭 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 😭 when reacting to deep sadness or something visual in your chat",
+      "Private loudly crying face emoji use carries more weight than a public comment",
+      "Tone aligns with \"I can't with this video 😭\""
     ],
     "examples": [
-      "You killed it 😭",
-      "Proud of you 😭",
-      "Had to tell you 😭"
+      "Lowkey i can't with this video 😭",
+      "This proposal is so beautiful 😭",
+      "No cap 😭"
     ],
-    "caution": "A single 😭 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😭 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -415,19 +415,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Loudly Crying Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😭 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😭 commonly means sobbing uncontrollably with tears streaming down. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 😭 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 😭 can mean laughing, sympathy, overwhelm, or dramatic emphasis. Voice-note reactions and family chats use it constantly.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about overwhelming emotion",
+      "Standalone 😭 reads shorter than 😭 plus a full sentence",
+      "Matches how your chat already uses loudly crying face reactions"
     ],
     "examples": [
-      "Thanks so much 😭",
-      "See you tomorrow 😭",
-      "Got it 😭"
+      "Quick one — i can't with this video 😭",
+      "This proposal is so beautiful 😭",
+      "FYI 😭"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 😭 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -439,19 +439,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Loudly Crying Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😭 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😭 is often used for sobbing uncontrollably with tears streaming down. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😭 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "😭 on Instagram usually shows exaggerated feeling around overwhelming emotion, not a formal announcement of sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about deep sadness",
+      "Paired with short praise tied to crying",
+      "Public 😭 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 😭",
-      "Need this 😭",
-      "So good 😭"
+      "I can't with this video 😭",
+      "Need this — this proposal is so beautiful 😭",
+      "Needed on my feed 😭"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😭 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -463,19 +463,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Loudly Crying Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😭 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😭 frequently appears in comments and captions for sobbing uncontrollably with tears streaming down. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 😭 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 😭 frequently means extreme reaction—hilarious, embarrassing, wholesome, or overwhelming. It often sits beside 💀 in comment threads.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for loudly crying face",
+      "Comment energy like \"My favorite show just ended 😭\""
     ],
     "examples": [
-      "The ending 😭",
-      "Not me watching this 10 times 😭",
-      "Why is this so real 😭"
+      "The way my favorite show just ended 😭",
+      "Not me i can't with this video 😭",
+      "The deep sadness part 😭"
     ],
-    "caution": "😭 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "😭 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -487,19 +487,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Fire Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🔥 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🔥, it often signals hot, exciting, impressive, or trending - something is lit!. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🔥 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🔥 from a girl can hype your outfit, achievement, or idea when the topic is compliments. Private DMs may feel more personal than public comments.",
     "signals": [
-      "She pairs 🔥 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🔥 in your thread signals more than a polite one-off",
+      "She pairs 🔥 with wording about fire, not just logistics",
+      "She sends 🔥 when the topic involves compliments or something impressive"
     ],
     "examples": [
-      "That's so sweet 🔥",
-      "Miss you 🔥",
-      "You did amazing 🔥"
+      "Your new track is 🔥",
+      "Okay but that outfit is 🔥",
+      "Had to send this 🔥"
     ],
-    "caution": "Do not read 🔥 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🔥 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -511,19 +511,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Fire Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the fire emoji when a guy sends 🔥 in texting or social media.",
-    "answer": "When a guy sends 🔥, it usually reflects hot, exciting, impressive, or trending - something is lit!. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🔥 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🔥 from a guy commonly signals compliments. In DMs it can read flirty; in group chats it is often pure hype.",
     "signals": [
-      "He uses 🔥 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"That outfit is 🔥\"",
+      "He does not only drop 🔥 in large stranger-heavy group chats",
+      "🔥 follows personal topics—something impressive—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🔥",
-      "Proud of you 🔥",
+      "Had to say — your new track is 🔥",
+      "Lowkey that outfit is 🔥",
       "Had to tell you 🔥"
     ],
-    "caution": "A single 🔥 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🔥 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -535,19 +535,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Fire Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🔥 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🔥 commonly means hot, exciting, impressive, or trending - something is lit!. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🔥 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp, 🔥 is a visual exclamation for something impressive, especially when nobody wants to type a paragraph.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 🔥 reads shorter than 🔥 plus a full sentence",
+      "Matches how your chat already uses fire reactions",
+      "Shows up mid-conversation when the topic is compliments"
     ],
     "examples": [
-      "Thanks so much 🔥",
-      "See you tomorrow 🔥",
-      "Got it 🔥"
+      "Your new track is 🔥",
+      "That outfit is 🔥",
+      "About that compliments thing 🔥"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: very clear positive meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -559,19 +559,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Fire Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🔥 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🔥 is often used for hot, exciting, impressive, or trending - something is lit!. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🔥 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🔥 on Instagram marks something impressive content as impressive or trending without needing a long reply.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🔥 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"This meme is straight 🔥\"",
+      "Used when a visual post makes compliments the instant reaction"
     ],
     "examples": [
-      "This is everything 🔥",
-      "Need this 🔥",
-      "So good 🔥"
+      "This post — that outfit is 🔥",
+      "Need this — this meme is straight 🔥",
+      "This fire post 🔥"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🔥 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -583,19 +583,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Fire Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🔥 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🔥 frequently appears in comments and captions for hot, exciting, impressive, or trending - something is lit!. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 🔥 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 🔥 hypes transitions, fits, edits, and viral moments—compliments. Comment sections treat it as default praise.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Your new track is 🔥\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🔥 on clips about compliments or something impressive"
     ],
     "examples": [
-      "The ending 🔥",
-      "Not me watching this 10 times 🔥",
-      "Why is this so real 🔥"
+      "The way this meme is straight 🔥",
+      "Not me your new track is 🔥",
+      "The compliments part 🔥"
     ],
-    "caution": "🔥 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: very clear positive meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -607,19 +607,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Pleading Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🥺 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🥺, it often signals big puppy-dog eyes begging, pleading, or showing vulnerability. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 🥺 — with signals and real examples.",
+    "answer": "🥺 from a girl can make a request, compliment, or tease feel cuter and less direct—begging.",
     "signals": [
-      "She pairs 🥺 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 🥺 when the topic involves begging or asking sweetly",
+      "Her pleading face emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Please can we get ice cream 🥺\""
     ],
     "examples": [
-      "That's so sweet 🥺",
-      "Miss you 🥺",
-      "You did amazing 🥺"
+      "Literally please can we get ice cream 🥺",
+      "Okay but look at this puppy 🥺",
+      "You would love this 🥺"
     ],
-    "caution": "Do not read 🥺 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 🥺 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -631,19 +631,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Pleading Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the pleading face emoji when a guy sends 🥺 in texting or social media.",
-    "answer": "When a guy sends 🥺, it usually reflects big puppy-dog eyes begging, pleading, or showing vulnerability. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🥺 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🥺 from a guy can soften a bold line and make the tone feel begging. Look for consistency across your thread.",
     "signals": [
-      "He uses 🥺 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Look at this puppy 🥺\"",
+      "He does not only drop 🥺 in large stranger-heavy group chats",
+      "🥺 follows personal topics—asking sweetly—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🥺",
-      "Proud of you 🥺",
+      "Had to say — i really miss you 🥺",
+      "Lowkey please can we get ice cream 🥺",
       "Had to tell you 🥺"
     ],
-    "caution": "A single 🥺 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Overuse has diluted impact somewhat",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -655,19 +655,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Pleading Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🥺 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🥺 commonly means big puppy-dog eyes begging, pleading, or showing vulnerability. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🥺 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 🥺 spices up private chats with begging energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🥺 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about asking sweetly",
+      "Standalone 🥺 reads shorter than 🥺 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🥺",
-      "See you tomorrow 🥺",
-      "Got it 🥺"
+      "Quick one — look at this puppy 🥺",
+      "I really miss you 🥺",
+      "FYI 🥺"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: overuse has diluted impact somewhat.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -679,19 +679,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Pleading Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🥺 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🥺 is often used for big puppy-dog eyes begging, pleading, or showing vulnerability. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🥺 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🥺 on Instagram can be public hype or private flirtation depending on whether it is a comment or DM.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about begging",
+      "Paired with short praise tied to pleading",
+      "Public 🥺 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 🥺",
-      "Need this 🥺",
-      "So good 🥺"
+      "This post — i really miss you 🥺",
+      "Need this — please can we get ice cream 🥺",
+      "This pleading post 🥺"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🥺 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -703,19 +703,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Pleading Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🥺 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🥺 frequently appears in comments and captions for big puppy-dog eyes begging, pleading, or showing vulnerability. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the pleading face emoji 🥺 in comment sections.",
+    "answer": "Creators and viewers use 🥺 under clips about begging with internet-native captions—often ironic but still flirty.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for pleading face",
+      "Comment energy like \"Please can we get ice cream 🥺\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 🥺",
-      "Not me watching this 10 times 🥺",
-      "Why is this so real 🥺"
+      "Why is please can we get ice cream 🥺",
+      "The way look at this puppy 🥺",
+      "This pleading clip 🥺"
     ],
-    "caution": "🥺 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: overuse has diluted impact somewhat.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -727,19 +727,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Smiling Face with Heart-Eyes Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😍 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😍, it often signals heart-shaped eyes showing intense love or attraction. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the smiling face with heart-eyes emoji when a girl uses 😍 in a private message.",
+    "answer": "If a girl uses 😍 privately after something about you, it commonly signals attraction with warm or shy energy.",
     "signals": [
-      "She pairs 😍 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Just saw your new profile pic 😍\"",
+      "Repeated 😍 in your thread signals more than a polite one-off",
+      "She pairs 😍 with wording about love, not just logistics"
     ],
     "examples": [
-      "That's so sweet 😍",
-      "Miss you 😍",
-      "You did amazing 😍"
+      "Okay but new phone case arrived 😍",
+      "Literally just saw your new profile pic 😍",
+      "You would love this 😍"
     ],
-    "caution": "Do not read 😍 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "😍 caveat: can seem too forward in casual contexts.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -751,19 +751,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Smiling Face with Heart-Eyes Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the smiling face with heart-eyes emoji when a guy sends 😍 in texting or social media.",
-    "answer": "When a guy sends 😍, it usually reflects heart-shaped eyes showing intense love or attraction. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😍 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 😍, it often means flirting, confidence, or teasing tied to attraction. Private messages carry more intent than group replies.",
     "signals": [
-      "He uses 😍 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 😍 when reacting to attraction or something visual in your chat",
+      "Private smiling face with heart-eyes emoji use carries more weight than a public comment",
+      "Tone aligns with \"That sunset is incredible 😍\""
     ],
     "examples": [
-      "You killed it 😍",
-      "Proud of you 😍",
-      "Had to tell you 😍"
+      "Lowkey new phone case arrived 😍",
+      "Just saw your new profile pic 😍",
+      "No cap 😍"
     ],
-    "caution": "A single 😍 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😍 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -775,19 +775,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Smiling Face with Heart-Eyes Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😍 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😍 commonly means heart-shaped eyes showing intense love or attraction. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 😍 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 😍 spices up private chats with attraction energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses smiling face with heart-eyes reactions",
+      "Shows up mid-conversation when the topic is attraction",
+      "WhatsApp groups treat 😍 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 😍",
-      "See you tomorrow 😍",
-      "Got it 😍"
+      "Quick one — just saw your new profile pic 😍",
+      "That sunset is incredible 😍",
+      "FYI 😍"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 😍 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -799,19 +799,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Smiling Face with Heart-Eyes Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😍 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😍 is often used for heart-shaped eyes showing intense love or attraction. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😍 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users pair 😍 with praise like \"cute\", \"stunning\", or \"need this\" when the content fits attraction.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to love",
+      "Public 😍 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"New phone case arrived 😍\""
     ],
     "examples": [
-      "This is everything 😍",
-      "Need this 😍",
-      "So good 😍"
+      "That sunset is incredible 😍",
+      "This post — new phone case arrived 😍",
+      "The love at first sight vibe 😍"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😍 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -823,17 +823,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Smiling Face with Heart-Eyes Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😍 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😍 frequently appears in comments and captions for heart-shaped eyes showing intense love or attraction. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 😍 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 😍 lands in thirst traps, crush edits, and playful comment threads where tone is attraction.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for smiling face with heart-eyes",
+      "Comment energy like \"Just saw your new profile pic 😍\""
     ],
     "examples": [
-      "The ending 😍",
-      "Not me watching this 10 times 😍",
-      "Why is this so real 😍"
+      "The way new phone case arrived 😍",
+      "Not me just saw your new profile pic 😍",
+      "The attraction part 😍"
     ],
     "caution": "😍 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -847,19 +847,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Thinking Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤔 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤔, it often signals deep in thought, pondering, or skeptical about something. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🤔 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl uses 🤔 after a bold claim, it often signals pondering rather than full agreement.",
     "signals": [
-      "She pairs 🤔 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her thinking face emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Hmm, what should we have for dinner 🤔\"",
+      "Repeated 🤔 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 🤔",
-      "Miss you 🤔",
-      "You did amazing 🤔"
+      "Are you sure about that 🤔",
+      "Literally i wonder what that means 🤔",
+      "Still thinking about thinking 🤔"
     ],
-    "caution": "Do not read 🤔 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 🤔 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -871,19 +871,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Thinking Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the thinking face emoji when a guy sends 🤔 in texting or social media.",
-    "answer": "When a guy sends 🤔, it usually reflects deep in thought, pondering, or skeptical about something. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🤔 from a guy — intent, tone, and conversation patterns.",
+    "answer": "When a guy sends 🤔, it often means skepticism, irony, or \"let me think about that\"—pondering.",
     "signals": [
-      "He uses 🤔 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 🤔 in large stranger-heavy group chats",
+      "🤔 follows personal topics—skepticism—rather than scheduling-only texts",
+      "He uses 🤔 when reacting to pondering or something visual in your chat"
     ],
     "examples": [
-      "You killed it 🤔",
-      "Proud of you 🤔",
-      "Had to tell you 🤔"
+      "Had to say — hmm, what should we have for dinner 🤔",
+      "Are you sure about that 🤔",
+      "This thinking moment 🤔"
     ],
-    "caution": "A single 🤔 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🤔 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -895,19 +895,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Thinking Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤔 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤔 commonly means deep in thought, pondering, or skeptical about something. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🤔 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "On WhatsApp, 🤔 often punctuates a skeptical reply instead of writing a full disagreement.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses thinking face reactions",
+      "Shows up mid-conversation when the topic is pondering",
+      "WhatsApp groups treat 🤔 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🤔",
-      "See you tomorrow 🤔",
-      "Got it 🤔"
+      "Hmm, what should we have for dinner 🤔",
+      "Are you sure about that 🤔",
+      "About that pondering thing 🤔"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "🤔 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -919,19 +919,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Thinking Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤔 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤔 is often used for deep in thought, pondering, or skeptical about something. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🤔 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "🤔 on Instagram is often a low-effort skeptical reaction in meme and commentary threads.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to thinking",
+      "Public 🤔 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"I wonder what that means 🤔\""
     ],
     "examples": [
-      "This is everything 🤔",
-      "Need this 🤔",
-      "So good 🤔"
+      "I wonder what that means 🤔",
+      "Need this — hmm, what should we have for dinner 🤔",
+      "Needed on my feed 🤔"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🤔 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -943,19 +943,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Thinking Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤔 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤔 frequently appears in comments and captions for deep in thought, pondering, or skeptical about something. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the thinking face emoji 🤔 in comment sections.",
+    "answer": "On TikTok, 🤔 fits reaction videos, call-outs, and \"wait what\" moments—pondering.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Hmm, what should we have for dinner 🤔\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🤔 on clips about pondering or skepticism"
     ],
     "examples": [
-      "The ending 🤔",
-      "Not me watching this 10 times 🤔",
-      "Why is this so real 🤔"
+      "Why is are you sure about that 🤔",
+      "Not me i wonder what that means 🤔",
+      "Not me relating 🤔"
     ],
-    "caution": "🤔 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "🤔 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -967,19 +967,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Thumbs Up Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 👍 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 👍, it often signals approval, agreement, or 'sounds good!' a classic positive gesture. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the thumbs up emoji when a girl uses 👍 in a private message.",
+    "answer": "If a girl uses 👍 after plans or favors, it often confirms approval with efficient, friendly tone.",
     "signals": [
-      "She pairs 👍 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 👍 when the topic involves approval or agreement",
+      "Her thumbs up emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Great job 👍\""
     ],
     "examples": [
-      "That's so sweet 👍",
-      "Miss you 👍",
-      "You did amazing 👍"
+      "Okay but sounds good 👍",
+      "Literally got it 👍",
+      "You would love this 👍"
     ],
-    "caution": "Do not read 👍 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A lone 👍 after a long emotional message can feel blunt. Add a few words when tone matters.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -991,19 +991,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Thumbs Up Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the thumbs up emoji when a guy sends 👍 in texting or social media.",
-    "answer": "When a guy sends 👍, it usually reflects approval, agreement, or 'sounds good!' a classic positive gesture. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 👍 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 👍 after instructions or good news usually means approval, not a deep emotional statement.",
     "signals": [
-      "He uses 👍 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 👍 in large stranger-heavy group chats",
+      "👍 follows personal topics—agreement—rather than scheduling-only texts",
+      "He uses 👍 when reacting to approval or something visual in your chat"
     ],
     "examples": [
-      "You killed it 👍",
-      "Proud of you 👍",
+      "Lowkey lGTM 👍",
+      "Had to say — thanks for sharing — I'll read tonight 👍",
       "Had to tell you 👍"
     ],
-    "caution": "A single 👍 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "After bad news without supportive words.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1015,19 +1015,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Thumbs Up Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 👍 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 👍 commonly means approval, agreement, or 'sounds good!' a classic positive gesture. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the thumbs up emoji 👍 in everyday conversations.",
+    "answer": "WhatsApp users send 👍 after plans, favors, and updates. A standalone 👍 can feel blunt after long emotional messages.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 👍 reads shorter than 👍 plus a full sentence",
+      "Matches how your chat already uses thumbs up reactions",
+      "Shows up mid-conversation when the topic is approval"
     ],
     "examples": [
-      "Thanks so much 👍",
-      "See you tomorrow 👍",
-      "Got it 👍"
+      "LGTM 👍",
+      "Quick one — thanks for sharing — I'll read tonight 👍",
+      "Quick update 👍"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 👍 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1039,19 +1039,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Thumbs Up Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 👍 means on Instagram—with real examples.",
-    "answer": "On Instagram, 👍 is often used for approval, agreement, or 'sounds good!' a classic positive gesture. Comments, story replies, and DMs can change the tone.",
+    "description": "What 👍 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 👍 works as a quick reaction on posts about approval. It is shorter than typing a full compliment.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 👍 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Got it 👍\"",
+      "Used when a visual post makes approval the instant reaction"
     ],
     "examples": [
-      "This is everything 👍",
-      "Need this 👍",
-      "So good 👍"
+      "This post — lGTM 👍",
+      "Thanks for sharing — I'll read tonight 👍",
+      "The agreement vibe 👍"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 👍 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1063,17 +1063,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Thumbs Up Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 👍 means on TikTok—with real examples.",
-    "answer": "On TikTok, 👍 frequently appears in comments and captions for approval, agreement, or 'sounds good!' a classic positive gesture. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the thumbs up emoji 👍 in comment sections.",
+    "answer": "Viewers drop 👍 to agree with a creator's point or celebrate agreement in a clip—usually casual hype.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 👍 on clips about approval or agreement",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for thumbs up"
     ],
     "examples": [
-      "The ending 👍",
-      "Not me watching this 10 times 👍",
-      "Why is this so real 👍"
+      "Why is got it 👍",
+      "The way see you at 7 👍",
+      "This thumbs up clip 👍"
     ],
     "caution": "👍 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -1087,19 +1087,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Folded Hands Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🙏 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🙏, it often signals prayer, thanks, or 'please' - hands pressed together. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🙏 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🙏 from a girl commonly means prayer. Watch whether she adds words or sends it alone—that changes how direct it feels.",
     "signals": [
-      "She pairs 🙏 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 🙏 when the topic involves prayer or please",
+      "Her folded hands emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Please help 🙏\""
     ],
     "examples": [
-      "That's so sweet 🙏",
-      "Miss you 🙏",
-      "You did amazing 🙏"
+      "Thinking of you 🙏",
+      "Okay but blessed 🙏",
+      "Had to send this 🙏"
     ],
-    "caution": "Do not read 🙏 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 🙏 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1111,19 +1111,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Folded Hands Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the folded hands emoji when a guy sends 🙏 in texting or social media.",
-    "answer": "When a guy sends 🙏, it usually reflects prayer, thanks, or 'please' - hands pressed together. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🙏 from a guy — intent, tone, and conversation patterns.",
+    "answer": "When a guy sends 🙏, it typically signals prayer—a quick agreement, thanks, or celebration without extra wording.",
     "signals": [
-      "He uses 🙏 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Thank you so much 🙏\"",
+      "He does not only drop 🙏 in large stranger-heavy group chats",
+      "🙏 follows personal topics—please—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🙏",
-      "Proud of you 🙏",
-      "Had to tell you 🙏"
+      "Had to say — one more favor 🙏",
+      "Thinking of you 🙏",
+      "This pray moment 🙏"
     ],
-    "caution": "A single 🙏 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🙏 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1135,19 +1135,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Folded Hands Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🙏 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🙏 commonly means prayer, thanks, or 'please' - hands pressed together. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🙏 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "In WhatsApp groups, 🙏 commonly means prayer—fast, visible, and easy to scan in busy threads.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🙏 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about please",
+      "Standalone 🙏 reads shorter than 🙏 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🙏",
-      "See you tomorrow 🙏",
-      "Got it 🙏"
+      "Quick one — blessed 🙏",
+      "Pls review 🙏",
+      "Quick update 🙏"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🙏 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1159,19 +1159,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Folded Hands Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🙏 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🙏 is often used for prayer, thanks, or 'please' - hands pressed together. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🙏 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🙏 works as a quick reaction on posts about prayer. It is shorter than typing a full compliment.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes prayer the instant reaction",
+      "Comment or story reply under content about prayer",
+      "Paired with short praise tied to pray"
     ],
     "examples": [
-      "This is everything 🙏",
-      "Need this 🙏",
-      "So good 🙏"
+      "This post — hoping for good news 🙏",
+      "Really appreciate it 🙏",
+      "The please vibe 🙏"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🙏 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1183,19 +1183,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Folded Hands Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🙏 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🙏 frequently appears in comments and captions for prayer, thanks, or 'please' - hands pressed together. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🙏 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🙏 on TikTok means prayer in fast-moving comment feeds where brevity wins.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Please help 🙏\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🙏 on clips about prayer or please"
     ],
     "examples": [
-      "The ending 🙏",
-      "Not me watching this 10 times 🙏",
-      "Why is this so real 🙏"
+      "Not me blessed 🙏",
+      "Why is pls review 🙏",
+      "Not me relating 🙏"
     ],
-    "caution": "🙏 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🙏 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1207,19 +1207,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Winking Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😉 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😉, it often signals a playful wink suggesting humor, flirtation, or inside jokes. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 😉 — with signals and real examples.",
+    "answer": "😉 from a girl can make a request, compliment, or tease feel cuter and less direct—jokes and humor.",
     "signals": [
-      "She pairs 😉 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 😉 with wording about wink, not just logistics",
+      "She sends 😉 when the topic involves jokes and humor or light flirting",
+      "Her winking face emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 😉",
-      "Miss you 😉",
-      "You did amazing 😉"
+      "Literally nice outfit 😉",
+      "Okay but remember that thing we talked about? 😉",
+      "You would love this 😉"
     ],
-    "caution": "Do not read 😉 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 😉 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1231,19 +1231,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Winking Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the winking face emoji when a guy sends 😉 in texting or social media.",
-    "answer": "When a guy sends 😉, it usually reflects a playful wink suggesting humor, flirtation, or inside jokes. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the winking face emoji when a guy sends 😉 in texting or social media.",
+    "answer": "😉 from a guy can soften a bold line and make the tone feel jokes and humor. Look for consistency across your thread.",
     "signals": [
-      "He uses 😉 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "😉 follows personal topics—light flirting—rather than scheduling-only texts",
+      "He uses 😉 when reacting to jokes and humor or something visual in your chat",
+      "Private winking face emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 😉",
-      "Proud of you 😉",
-      "Had to tell you 😉"
+      "Remember that thing we talked about? 😉",
+      "Lowkey i might have eaten the last cookie 😉",
+      "No cap 😉"
     ],
-    "caution": "A single 😉 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Can be seen as creepy if overused",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1255,19 +1255,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Winking Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😉 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😉 commonly means a playful wink suggesting humor, flirtation, or inside jokes. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 😉 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 😉 spices up private chats with jokes and humor energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 😉 reads shorter than 😉 plus a full sentence",
+      "Matches how your chat already uses winking face reactions",
+      "Shows up mid-conversation when the topic is jokes and humor"
     ],
     "examples": [
-      "Thanks so much 😉",
-      "See you tomorrow 😉",
-      "Got it 😉"
+      "Quick one — i might have eaten the last cookie 😉",
+      "Nice outfit 😉",
+      "FYI 😉"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 😉 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1279,19 +1279,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Winking Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😉 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😉 is often used for a playful wink suggesting humor, flirtation, or inside jokes. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😉 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "😉 on Instagram can be public hype or private flirtation depending on whether it is a comment or DM.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to wink",
+      "Public 😉 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Remember that thing we talked about? 😉\""
     ],
     "examples": [
-      "This is everything 😉",
-      "Need this 😉",
-      "So good 😉"
+      "Nice outfit 😉",
+      "Need this — remember that thing we talked about? 😉",
+      "Needed on my feed 😉"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Can be seen as creepy if overused",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1303,19 +1303,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Winking Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😉 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😉 frequently appears in comments and captions for a playful wink suggesting humor, flirtation, or inside jokes. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 😉 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 😉 lands in thirst traps, crush edits, and playful comment threads where tone is jokes and humor.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 😉 on clips about jokes and humor or light flirting",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for winking face"
     ],
     "examples": [
-      "The ending 😉",
-      "Not me watching this 10 times 😉",
-      "Why is this so real 😉"
+      "The way i might have eaten the last cookie 😉",
+      "Not me nice outfit 😉",
+      "The jokes and humor part 😉"
     ],
-    "caution": "😉 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: can be seen as creepy if overused.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1327,19 +1327,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Rolling on the Floor Laughing Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤣 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤣, it often signals laughing so hard you're literally rolling on the floor. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 🤣 — with signals and real examples.",
+    "answer": "When a girl sends 🤣, she is usually laughing at something funny, ridiculous, or playfully embarrassing. It softens teasing so the joke lands warmly.",
     "signals": [
-      "She pairs 🤣 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"I can't breathe 🤣\"",
+      "Repeated 🤣 in your thread signals more than a polite one-off",
+      "She pairs 🤣 with wording about ROFL, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🤣",
-      "Miss you 🤣",
-      "You did amazing 🤣"
+      "Literally you really said that to your boss? 🤣",
+      "I can't breathe 🤣",
+      "Still thinking about ROFL 🤣"
     ],
-    "caution": "Do not read 🤣 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🤣 caveat: overuse has diluted its intensity.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1351,19 +1351,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Rolling on the Floor Laughing Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the rolling on the floor laughing emoji when a guy sends 🤣 in texting or social media.",
-    "answer": "When a guy sends 🤣, it usually reflects laughing so hard you're literally rolling on the floor. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🤣 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 🤣, it commonly signals extreme laughter—a joke landed, a meme hit, or a moment felt absurd in a good way.",
     "signals": [
-      "He uses 🤣 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private rolling on the floor laughing emoji use carries more weight than a public comment",
+      "Tone aligns with \"That video is too much 🤣\"",
+      "He does not only drop 🤣 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 🤣",
-      "Proud of you 🤣",
-      "Had to tell you 🤣"
+      "Lowkey that video is too much 🤣",
+      "You really said that to your boss? 🤣",
+      "No cap 🤣"
     ],
-    "caution": "A single 🤣 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🤣 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1375,19 +1375,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Rolling on the Floor Laughing Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤣 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤣 commonly means laughing so hard you're literally rolling on the floor. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🤣 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp chats use 🤣 to show extreme laughter without typing a full reply—especially after voice notes or long stories.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 🤣 reads shorter than 🤣 plus a full sentence",
+      "Matches how your chat already uses rolling on the floor laughing reactions",
+      "Shows up mid-conversation when the topic is extreme laughter"
     ],
     "examples": [
-      "Thanks so much 🤣",
-      "See you tomorrow 🤣",
-      "Got it 🤣"
+      "I can't breathe 🤣",
+      "Quick one — that video is too much 🤣",
+      "FYI 🤣"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 🤣 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1399,19 +1399,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Rolling on the Floor Laughing Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤣 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤣 is often used for laughing so hard you're literally rolling on the floor. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🤣 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🤣 appears under reels, memes, and chaotic posts when something is extreme laughter. It is a fast deadpan laugh reaction.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"You really said that to your boss? 🤣\"",
+      "Used when a visual post makes extreme laughter the instant reaction",
+      "Comment or story reply under content about extreme laughter"
     ],
     "examples": [
-      "This is everything 🤣",
-      "Need this 🤣",
-      "So good 🤣"
+      "This post — you really said that to your boss? 🤣",
+      "I can't breathe 🤣",
+      "The hilarious moments vibe 🤣"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🤣 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1423,19 +1423,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Rolling on the Floor Laughing Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤣 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤣 frequently appears in comments and captions for laughing so hard you're literally rolling on the floor. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the rolling on the floor laughing emoji 🤣 in comment sections.",
+    "answer": "On TikTok, 🤣 often means \"I'm dead\" from laughing—especially under chaotic, cringe, or unexpectedly funny clips. Some communities prefer 💀 for the same deadpan tone.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"I can't breathe 🤣\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🤣 on clips about extreme laughter or hilarious moments"
     ],
     "examples": [
-      "The ending 🤣",
-      "Not me watching this 10 times 🤣",
-      "Why is this so real 🤣"
+      "Why is i can't breathe 🤣",
+      "Not me that video is too much 🤣",
+      "Not me relating 🤣"
     ],
-    "caution": "🤣 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "🤣 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1447,19 +1447,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Purple Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💜 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💜, it often signals bts love, creativity, mystery, or sensitive understanding. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 💜 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "A girl using 💜 often adds warmth around BTS fandom. It can be romantic, supportive, or fandom-coded depending on your relationship and the words nearby.",
     "signals": [
-      "She pairs 💜 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 💜 with wording about purple, not just logistics",
+      "She sends 💜 when the topic involves BTS fandom or creativity",
+      "Her purple heart emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 💜",
-      "Miss you 💜",
-      "You did amazing 💜"
+      "Love your art 💜",
+      "Okay but i understand 💜",
+      "Had to send this 💜"
     ],
-    "caution": "Do not read 💜 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 💜 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1471,19 +1471,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Purple Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the purple heart emoji when a guy sends 💜 in texting or social media.",
-    "answer": "When a guy sends 💜, it usually reflects bts love, creativity, mystery, or sensitive understanding. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 💜 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "If a guy sends 💜 after something personal, it commonly signals BTS fandom. BTS fans and creative communities also use it as a signature warmth marker.",
     "signals": [
-      "He uses 💜 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 💜 when reacting to BTS fandom or something visual in your chat",
+      "Private purple heart emoji use carries more weight than a public comment",
+      "Tone aligns with \"Love your art 💜\""
     ],
     "examples": [
-      "You killed it 💜",
-      "Proud of you 💜",
+      "Lowkey borahae 💜",
+      "Had to say — love your art 💜",
       "Had to tell you 💜"
     ],
-    "caution": "A single 💜 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 💜 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1495,19 +1495,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Purple Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💜 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💜 commonly means bts love, creativity, mystery, or sensitive understanding. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 💜 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp users drop 💜 after thanks, encouragement, good news, or emotional updates. BTS fans and creative communities also use it as a signature warmth marker.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about creativity",
+      "Standalone 💜 reads shorter than 💜 plus a full sentence",
+      "Matches how your chat already uses purple heart reactions"
     ],
     "examples": [
-      "Thanks so much 💜",
-      "See you tomorrow 💜",
-      "Got it 💜"
+      "Love your art 💜",
+      "Quick one — i understand 💜",
+      "FYI 💜"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: strong BTS association may overshadow other meanings.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1519,19 +1519,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Purple Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💜 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💜 is often used for bts love, creativity, mystery, or sensitive understanding. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the purple heart emoji 💜 in comments and story replies.",
+    "answer": "On Instagram, 💜 tags admiration, support, or aesthetic appreciation around BTS fandom. Comments, story replies, and DMs each shift the tone.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"I understand 💜\"",
+      "Used when a visual post makes BTS fandom the instant reaction",
+      "Comment or story reply under content about BTS fandom"
     ],
     "examples": [
-      "This is everything 💜",
-      "Need this 💜",
-      "So good 💜"
+      "Need this — borahae 💜",
+      "Love your art 💜",
+      "Needed on my feed 💜"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Strong BTS association may overshadow other meanings",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1543,19 +1543,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Purple Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💜 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💜 frequently appears in comments and captions for bts love, creativity, mystery, or sensitive understanding. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 💜 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "TikTok comment sections use 💜 for wholesome hype, ship culture, or exaggerated affection around creativity. BTS fans and creative communities also use it as a signature warmth marker.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 💜 on clips about BTS fandom or creativity",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for purple heart"
     ],
     "examples": [
-      "The ending 💜",
-      "Not me watching this 10 times 💜",
-      "Why is this so real 💜"
+      "Not me love your art 💜",
+      "The way i understand 💜",
+      "The BTS fandom part 💜"
     ],
-    "caution": "💜 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: strong BTS association may overshadow other meanings.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1567,19 +1567,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Blue Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💙 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💙, it often signals trust, loyalty, peace, and awareness causes. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 💙 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "💙 from a girl commonly expresses trust. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs 💙 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 💙 when the topic involves trust or loyalty",
+      "Her blue heart emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"You can count on me 💙\""
     ],
     "examples": [
-      "That's so sweet 💙",
-      "Miss you 💙",
-      "You did amazing 💙"
+      "You can count on me 💙",
+      "Literally world Autism Day 💙",
+      "Still thinking about blue 💙"
     ],
-    "caution": "Do not read 💙 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 💙 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1591,19 +1591,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Blue Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the blue heart emoji when a guy sends 💙 in texting or social media.",
-    "answer": "When a guy sends 💙, it usually reflects trust, loyalty, peace, and awareness causes. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 💙 from a guy — intent, tone, and conversation patterns.",
+    "answer": "💙 from a guy can mean affection, appreciation, or sincere support tied to trust. The surrounding message usually clarifies whether it is romantic or friendly.",
     "signals": [
-      "He uses 💙 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 💙 in large stranger-heavy group chats",
+      "💙 follows personal topics—loyalty—rather than scheduling-only texts",
+      "He uses 💙 when reacting to trust or something visual in your chat"
     ],
     "examples": [
-      "You killed it 💙",
-      "Proud of you 💙",
+      "Had to say — forever and always 💙",
+      "Lowkey you can count on me 💙",
       "Had to tell you 💙"
     ],
-    "caution": "A single 💙 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Generally positive and understood",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1615,19 +1615,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Blue Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💙 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💙 commonly means trust, loyalty, peace, and awareness causes. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 💙 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 💙 is a broad warmth signal for trust and loyalty. Family groups, close friends, and partners all use it differently.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 💙 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about loyalty",
+      "Standalone 💙 reads shorter than 💙 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 💙",
-      "See you tomorrow 💙",
-      "Got it 💙"
+      "Quick one — forever and always 💙",
+      "You can count on me 💙",
+      "FYI 💙"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 💙 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1639,19 +1639,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Blue Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💙 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💙 is often used for trust, loyalty, peace, and awareness causes. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the blue heart emoji 💙 in comments and story replies.",
+    "answer": "Instagram users add 💙 under photos, reels, outfits, and milestone posts when something feels trust. It often reads as steady trust or calm affection rather than fiery romance.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes trust the instant reaction",
+      "Comment or story reply under content about trust",
+      "Paired with short praise tied to blue"
     ],
     "examples": [
-      "This is everything 💙",
-      "Need this 💙",
-      "So good 💙"
+      "Need this — you can count on me 💙",
+      "This post — world Autism Day 💙",
+      "This blue post 💙"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 💙 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1663,17 +1663,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Blue Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💙 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💙 frequently appears in comments and captions for trust, loyalty, peace, and awareness causes. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 💙 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "💙 on TikTok frequently marks trust, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for blue heart",
+      "Comment energy like \"You can count on me 💙\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 💙",
-      "Not me watching this 10 times 💙",
-      "Why is this so real 💙"
+      "Not me forever and always 💙",
+      "Why is you can count on me 💙",
+      "Not me relating 💙"
     ],
     "caution": "💙 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -1687,19 +1687,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Black Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🖤 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🖤, it often signals dark humor, sorrow, emo aesthetics, or unconventional love. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the black heart emoji when a girl uses 🖤 in a private message.",
+    "answer": "When a girl sends 🖤, it usually signals dark humor. It can signal dark humor, grief, or alternative aesthetics depending on the chat. Private chats and repeated use carry more weight than a one-off group reply.",
     "signals": [
-      "She pairs 🖤 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her black heart emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Embracing the void 🖤\"",
+      "Repeated 🖤 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 🖤",
-      "Miss you 🖤",
-      "You did amazing 🖤"
+      "Okay but you're my darkness 🖤",
+      "Embracing the void 🖤",
+      "Had to send this 🖤"
     ],
-    "caution": "Do not read 🖤 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🖤 caveat: can seem negative or edgy to some.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1711,19 +1711,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Black Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the black heart emoji when a guy sends 🖤 in texting or social media.",
-    "answer": "When a guy sends 🖤, it usually reflects dark humor, sorrow, emo aesthetics, or unconventional love. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🖤 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🖤 from a guy can mean affection, appreciation, or sincere support tied to dark humor. The surrounding message usually clarifies whether it is romantic or friendly.",
     "signals": [
-      "He uses 🖤 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🖤 follows personal topics—alternative aesthetics—rather than scheduling-only texts",
+      "He uses 🖤 when reacting to dark humor or something visual in your chat",
+      "Private black heart emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🖤",
-      "Proud of you 🖤",
+      "Had to say — embracing the void 🖤",
+      "Lowkey all black everything 🖤",
       "Had to tell you 🖤"
     ],
-    "caution": "A single 🖤 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🖤 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1735,19 +1735,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Black Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🖤 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🖤 commonly means dark humor, sorrow, emo aesthetics, or unconventional love. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🖤 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp users drop 🖤 after thanks, encouragement, good news, or emotional updates. It can signal dark humor, grief, or alternative aesthetics depending on the chat.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🖤 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about alternative aesthetics",
+      "Standalone 🖤 reads shorter than 🖤 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🖤",
-      "See you tomorrow 🖤",
-      "Got it 🖤"
+      "You're my darkness 🖤",
+      "Quick one — embracing the void 🖤",
+      "FYI 🖤"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 🖤 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1759,19 +1759,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Black Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🖤 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🖤 is often used for dark humor, sorrow, emo aesthetics, or unconventional love. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🖤 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users add 🖤 under photos, reels, outfits, and milestone posts when something feels dark humor. It can signal dark humor, grief, or alternative aesthetics depending on the chat.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"You're my darkness 🖤\"",
+      "Used when a visual post makes dark humor the instant reaction",
+      "Comment or story reply under content about dark humor"
     ],
     "examples": [
-      "This is everything 🖤",
-      "Need this 🖤",
-      "So good 🖤"
+      "Embracing the void 🖤",
+      "This post — all black everything 🖤",
+      "The alternative aesthetics vibe 🖤"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Color and fandom context change how 🖤 lands—black heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1783,19 +1783,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Black Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🖤 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🖤 frequently appears in comments and captions for dark humor, sorrow, emo aesthetics, or unconventional love. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🖤 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🖤 on TikTok frequently marks dark humor, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for black heart",
+      "Comment energy like \"Embracing the void 🖤\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 🖤",
-      "Not me watching this 10 times 🖤",
-      "Why is this so real 🖤"
+      "Not me you're my darkness 🖤",
+      "Why is embracing the void 🖤",
+      "Not me relating 🖤"
     ],
-    "caution": "🖤 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🖤 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1807,19 +1807,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "White Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤍 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤍, it often signals a white heart - purity, peace, and support. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🤍 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🤍 from a girl commonly expresses purity. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs 🤍 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 🤍 when the topic involves purity or peace",
+      "Her white heart emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Pure love 🤍\""
     ],
     "examples": [
-      "That's so sweet 🤍",
-      "Miss you 🤍",
-      "You did amazing 🤍"
+      "Clean aesthetic 🤍",
+      "Literally pure love 🤍",
+      "Still thinking about white 🤍"
     ],
-    "caution": "Do not read 🤍 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 🤍 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1831,19 +1831,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "White Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the white heart emoji when a guy sends 🤍 in texting or social media.",
-    "answer": "When a guy sends 🤍, it usually reflects a white heart - purity, peace, and support. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the white heart emoji when a guy sends 🤍 in texting or social media.",
+    "answer": "🤍 from a guy can mean affection, appreciation, or sincere support tied to purity. The surrounding message usually clarifies whether it is romantic or friendly.",
     "signals": [
-      "He uses 🤍 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🤍 follows personal topics—peace—rather than scheduling-only texts",
+      "He uses 🤍 when reacting to purity or something visual in your chat",
+      "Private white heart emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🤍",
-      "Proud of you 🤍",
-      "Had to tell you 🤍"
+      "Pure love 🤍",
+      "Lowkey sending peace 🤍",
+      "No cap 🤍"
     ],
-    "caution": "A single 🤍 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Color and fandom context change how 🤍 lands—white heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1855,19 +1855,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "White Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤍 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤍 commonly means a white heart - purity, peace, and support. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🤍 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "In WhatsApp threads, 🤍 usually means purity. Relationship history and chat culture matter more than the emoji alone.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 🤍 reads shorter than 🤍 plus a full sentence",
+      "Matches how your chat already uses white heart reactions",
+      "Shows up mid-conversation when the topic is purity"
     ],
     "examples": [
-      "Thanks so much 🤍",
-      "See you tomorrow 🤍",
-      "Got it 🤍"
+      "Quick one — sending peace 🤍",
+      "Clean aesthetic 🤍",
+      "Quick update 🤍"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 🤍 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1879,19 +1879,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "White Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤍 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤍 is often used for a white heart - purity, peace, and support. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🤍 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users add 🤍 under photos, reels, outfits, and milestone posts when something feels purity. ",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about purity",
+      "Paired with short praise tied to white",
+      "Public 🤍 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 🤍",
-      "Need this 🤍",
-      "So good 🤍"
+      "Clean aesthetic 🤍",
+      "This post — pure love 🤍",
+      "The peace vibe 🤍"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🤍 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1903,19 +1903,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "White Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤍 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤍 frequently appears in comments and captions for a white heart - purity, peace, and support. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the white heart emoji 🤍 in comment sections.",
+    "answer": "TikTok comment sections use 🤍 for wholesome hype, ship culture, or exaggerated affection around peace. ",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 🤍 on clips about purity or peace",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for white heart"
     ],
     "examples": [
-      "The ending 🤍",
-      "Not me watching this 10 times 🤍",
-      "Why is this so real 🤍"
+      "Why is clean aesthetic 🤍",
+      "The way pure love 🤍",
+      "This white clip 🤍"
     ],
-    "caution": "🤍 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Color and fandom context change how 🤍 lands—white heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1927,19 +1927,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Broken Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💔 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💔, it often signals heartbreak, sadness over loss, or emotional pain. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 💔 — with signals and real examples.",
+    "answer": "A girl using 💔 often adds warmth around breakups. It can be romantic, supportive, or fandom-coded depending on your relationship and the words nearby.",
     "signals": [
-      "She pairs 💔 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 💔 with wording about broken, not just logistics",
+      "She sends 💔 when the topic involves breakups or loss",
+      "Her broken heart emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 💔",
-      "Miss you 💔",
-      "You did amazing 💔"
+      "Literally we're done 💔",
+      "Okay but miss you every day 💔",
+      "You would love this 💔"
     ],
-    "caution": "Do not read 💔 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 💔 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -1951,19 +1951,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Broken Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the broken heart emoji when a guy sends 💔 in texting or social media.",
-    "answer": "When a guy sends 💔, it usually reflects heartbreak, sadness over loss, or emotional pain. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the broken heart emoji when a guy sends 💔 in texting or social media.",
+    "answer": "💔 from a guy can mean affection, appreciation, or sincere support tied to breakups. The surrounding message usually clarifies whether it is romantic or friendly.",
     "signals": [
-      "He uses 💔 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Miss you every day 💔\"",
+      "He does not only drop 💔 in large stranger-heavy group chats",
+      "💔 follows personal topics—loss—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 💔",
-      "Proud of you 💔",
-      "Had to tell you 💔"
+      "That really stung 💔",
+      "Lowkey we're done 💔",
+      "No cap 💔"
     ],
-    "caution": "A single 💔 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Color and fandom context change how 💔 lands—broken heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -1975,19 +1975,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Broken Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💔 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💔 commonly means heartbreak, sadness over loss, or emotional pain. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 💔 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 💔 is a broad warmth signal for breakups and loss. Family groups, close friends, and partners all use it differently.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 💔 reads shorter than 💔 plus a full sentence",
+      "Matches how your chat already uses broken heart reactions",
+      "Shows up mid-conversation when the topic is breakups"
     ],
     "examples": [
-      "Thanks so much 💔",
-      "See you tomorrow 💔",
-      "Got it 💔"
+      "Quick one — we're done 💔",
+      "Miss you every day 💔",
+      "FYI 💔"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "Color and fandom context change how 💔 lands—broken heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -1999,19 +1999,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Broken Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💔 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💔 is often used for heartbreak, sadness over loss, or emotional pain. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the broken heart emoji 💔 in comments and story replies.",
+    "answer": "Instagram users add 💔 under photos, reels, outfits, and milestone posts when something feels breakups. It usually marks heartbreak, disappointment, or dramatic emphasis—not always literal sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to broken",
+      "Public 💔 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"That really stung 💔\""
     ],
     "examples": [
-      "This is everything 💔",
-      "Need this 💔",
-      "So good 💔"
+      "Need this — we're done 💔",
+      "This post — miss you every day 💔",
+      "This broken post 💔"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Color and fandom context change how 💔 lands—broken heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2023,19 +2023,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Broken Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💔 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💔 frequently appears in comments and captions for heartbreak, sadness over loss, or emotional pain. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the broken heart emoji 💔 in comment sections.",
+    "answer": "On TikTok, 💔 shows up in captions and comments when creators or fans react to breakups. Fandom and aesthetic communities give it extra subtext.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for broken heart",
+      "Comment energy like \"We're done 💔\""
     ],
     "examples": [
-      "The ending 💔",
-      "Not me watching this 10 times 💔",
-      "Why is this so real 💔"
+      "Why is we're done 💔",
+      "Not me miss you every day 💔",
+      "Not me relating 💔"
     ],
-    "caution": "💔 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—💔 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2047,19 +2047,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Hundred Points Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💯 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💯, it often signals perfect, 100%, keeping it real, or absolute agreement. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 💯 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "💯 from a girl can hype your outfit, achievement, or idea when the topic is perfect score. Private DMs may feel more personal than public comments.",
     "signals": [
-      "She pairs 💯 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 💯 when the topic involves perfect score or full agreement",
+      "Her hundred points emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"This is facts 💯\""
     ],
     "examples": [
-      "That's so sweet 💯",
-      "Miss you 💯",
-      "You did amazing 💯"
+      "I'm keeping it 💯 with you",
+      "Okay but this is facts 💯",
+      "Had to send this 💯"
     ],
-    "caution": "Do not read 💯 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "💯 caveat: clear meaning - universally positive.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2071,19 +2071,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Hundred Points Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the hundred points emoji when a guy sends 💯 in texting or social media.",
-    "answer": "When a guy sends 💯, it usually reflects perfect, 100%, keeping it real, or absolute agreement. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the hundred points emoji when a guy sends 💯 in texting or social media.",
+    "answer": "💯 from a guy commonly signals perfect score. In DMs it can read flirty; in group chats it is often pure hype.",
     "signals": [
-      "He uses 💯 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private hundred points emoji use carries more weight than a public comment",
+      "Tone aligns with \"Nailed the presentation 💯\"",
+      "He does not only drop 💯 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 💯",
-      "Proud of you 💯",
-      "Had to tell you 💯"
+      "This is facts 💯",
+      "Lowkey nailed the presentation 💯",
+      "No cap 💯"
     ],
-    "caution": "A single 💯 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 💯 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2095,19 +2095,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Hundred Points Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💯 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💯 commonly means perfect, 100%, keeping it real, or absolute agreement. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 💯 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp, 💯 is a visual exclamation for full agreement, especially when nobody wants to type a paragraph.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Shows up mid-conversation when the topic is perfect score",
+      "WhatsApp groups treat 💯 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about full agreement"
     ],
     "examples": [
-      "Thanks so much 💯",
-      "See you tomorrow 💯",
-      "Got it 💯"
+      "I'm keeping it 💯 with you",
+      "This is facts 💯",
+      "About that perfect score thing 💯"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 💯 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2119,19 +2119,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Hundred Points Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💯 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💯 is often used for perfect, 100%, keeping it real, or absolute agreement. Comments, story replies, and DMs can change the tone.",
+    "description": "How 💯 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Creators expect 💯 under high-energy content about perfect score. It is one of the fastest approval signals in comments.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about perfect score",
+      "Paired with short praise tied to hundred",
+      "Public 💯 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 💯",
-      "Need this 💯",
-      "So good 💯"
+      "This is facts 💯",
+      "This post — nailed the presentation 💯",
+      "The full agreement vibe 💯"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Clear meaning - universally positive",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2143,19 +2143,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Hundred Points Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💯 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💯 frequently appears in comments and captions for perfect, 100%, keeping it real, or absolute agreement. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 💯 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "💯 on TikTok signals perfect score, often beside \"insane\", \"clean\", or \"need this\" energy.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 💯 on clips about perfect score or full agreement",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 💯",
-      "Not me watching this 10 times 💯",
-      "Why is this so real 💯"
+      "The way this is facts 💯",
+      "Why is nailed the presentation 💯",
+      "This hundred clip 💯"
     ],
-    "caution": "💯 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—💯 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2167,19 +2167,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Sparkles Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What ✨ means when a girl sends it—with real examples.",
-    "answer": "When a girl sends ✨, it often signals magic, excitement, or adding emphasis and flair. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends ✨ — with signals and real examples.",
+    "answer": "✨ from a girl can hype your outfit, achievement, or idea when the topic is emphasis. Private DMs may feel more personal than public comments.",
     "signals": [
-      "She pairs ✨ with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends ✨ when the topic involves emphasis or magic/fantasy",
+      "Her sparkles emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Finally finished ✨\""
     ],
     "examples": [
-      "That's so sweet ✨",
-      "Miss you ✨",
-      "You did amazing ✨"
+      "Literally new car ✨",
+      "Okay but adulting ✨",
+      "You would love this ✨"
     ],
-    "caution": "Do not read ✨ as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Her tone varies by relationship—friends, family, and partners all use ✨ differently.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2191,19 +2191,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Sparkles Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the sparkles emoji when a guy sends ✨ in texting or social media.",
-    "answer": "When a guy sends ✨, it usually reflects magic, excitement, or adding emphasis and flair. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read ✨ from a guy — intent, tone, and conversation patterns.",
+    "answer": "When a guy sends ✨, it usually means he thinks something is emphasis—a compliment, not a neutral reply.",
     "signals": [
-      "He uses ✨ with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop ✨ in large stranger-heavy group chats",
+      "✨ follows personal topics—magic/fantasy—rather than scheduling-only texts",
+      "He uses ✨ when reacting to emphasis or something visual in your chat"
     ],
     "examples": [
-      "You killed it ✨",
-      "Proud of you ✨",
-      "Had to tell you ✨"
+      "Had to say — finally finished ✨",
+      "New car ✨",
+      "This sparkle moment ✨"
     ],
-    "caution": "A single ✨ after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Avoid ✨ when someone shares grief, medical results, or job loss — the tone may feel dismissive.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2215,19 +2215,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Sparkles Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What ✨ means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, ✨ commonly means magic, excitement, or adding emphasis and flair. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What ✨ means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp chats fire ✨ after wins, recipes, workouts, or hot takes—emphasis.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone ✨ reads shorter than ✨ plus a full sentence",
+      "Matches how your chat already uses sparkles reactions",
+      "Shows up mid-conversation when the topic is emphasis"
     ],
     "examples": [
-      "Thanks so much ✨",
-      "See you tomorrow ✨",
-      "Got it ✨"
+      "Adulting ✨",
+      "Quick one — finally finished ✨",
+      "FYI ✨"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, ✨ without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2239,19 +2239,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Sparkles Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How ✨ means on Instagram—with real examples.",
-    "answer": "On Instagram, ✨ is often used for magic, excitement, or adding emphasis and flair. Comments, story replies, and DMs can change the tone.",
+    "description": "How ✨ is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "✨ on Instagram marks magic/fantasy content as impressive or trending without needing a long reply.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about emphasis",
+      "Paired with short praise tied to sparkle",
+      "Public ✨ is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything ✨",
-      "Need this ✨",
-      "So good ✨"
+      "Finally finished ✨",
+      "Need this — new car ✨",
+      "Needed on my feed ✨"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with ✨ are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2263,19 +2263,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Sparkles Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What ✨ means on TikTok—with real examples.",
-    "answer": "On TikTok, ✨ frequently appears in comments and captions for magic, excitement, or adding emphasis and flair. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What ✨ means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "✨ on TikTok signals emphasis, often beside \"insane\", \"clean\", or \"need this\" energy.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop ✨ on clips about emphasis or magic/fantasy",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending ✨",
-      "Not me watching this 10 times ✨",
-      "Why is this so real ✨"
+      "Not me adulting ✨",
+      "Why is finally finished ✨",
+      "Not me relating ✨"
     ],
-    "caution": "✨ on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—✨ here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2287,19 +2287,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Clown Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤡 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤡, it often signals add fun vibes to your chats with the clown face emoji 🤡. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🤡 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🤡 from a girl can be self-deprecating humor around halloween rather than a direct insult.",
     "signals": [
-      "She pairs 🤡 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🤡 in your thread signals more than a polite one-off",
+      "She pairs 🤡 with wording about clown, not just logistics",
+      "She sends 🤡 when the topic involves halloween or social media posts"
     ],
     "examples": [
-      "That's so sweet 🤡",
-      "Miss you 🤡",
-      "You did amazing 🤡"
+      "Can't wait to see you 🤡",
+      "Okay but that's amazing 🤡",
+      "Had to send this 🤡"
     ],
-    "caution": "Do not read 🤡 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Her tone varies by relationship—friends, family, and partners all use 🤡 differently.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2311,19 +2311,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Clown Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the clown face emoji when a guy sends 🤡 in texting or social media.",
-    "answer": "When a guy sends 🤡, it usually reflects add fun vibes to your chats with the clown face emoji 🤡. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🤡 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🤡 from a guy can roast a take, a fail, or his own mistake with halloween humor.",
     "signals": [
-      "He uses 🤡 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private clown face emoji use carries more weight than a public comment",
+      "Tone aligns with \"Can't wait to see you 🤡\"",
+      "He does not only drop 🤡 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 🤡",
-      "Proud of you 🤡",
+      "Had to say — that's amazing 🤡",
+      "Lowkey i believed him again 🤡",
       "Had to tell you 🤡"
     ],
-    "caution": "A single 🤡 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🤡 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2335,19 +2335,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Clown Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤡 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤡 commonly means add fun vibes to your chats with the clown face emoji 🤡. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🤡 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "Chats use 🤡 to label ridiculous moments around halloween without writing a full roast.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🤡 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone 🤡 reads shorter than 🤡 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🤡",
-      "See you tomorrow 🤡",
-      "Got it 🤡"
+      "That take 🤡",
+      "Quick one — forgot my wallet 🤡",
+      "FYI 🤡"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🤡 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2359,19 +2359,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Clown Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤡 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤡 is often used for add fun vibes to your chats with the clown face emoji 🤡. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🤡 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Users reply with 🤡 when a caption or stunt is clearly halloween for comedic effect.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"That's amazing 🤡\"",
+      "Used when a visual post makes halloween the instant reaction",
+      "Comment or story reply under content about halloween"
     ],
     "examples": [
-      "This is everything 🤡",
-      "Need this 🤡",
-      "So good 🤡"
+      "Just posted my new photo 🤡",
+      "This post — can't wait to see you 🤡",
+      "The social media posts vibe 🤡"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🤡 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2383,19 +2383,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Clown Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤡 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤡 frequently appears in comments and captions for add fun vibes to your chats with the clown face emoji 🤡. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🤡 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Comment sections use 🤡 when someone becomes the joke in a halloween clip.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 🤡 on clips about halloween or social media posts",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for clown face"
     ],
     "examples": [
-      "The ending 🤡",
-      "Not me watching this 10 times 🤡",
-      "Why is this so real 🤡"
+      "Not me that take 🤡",
+      "The way forgot my wallet 🤡",
+      "The halloween part 🤡"
     ],
-    "caution": "🤡 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🤡 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2407,19 +2407,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Eyes Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 👀 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 👀, it often signals looking, watching, or 'i see what's going on here.'. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the eyes emoji when a girl uses 👀 in a private message.",
+    "answer": "When a girl sends 👀, it usually reflects watching. Tone depends on whether the chat is casual, supportive, or flirty.",
     "signals": [
-      "She pairs 👀 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her eyes emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Did you see that? 👀\"",
+      "Repeated 👀 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 👀",
-      "Miss you 👀",
-      "You did amazing 👀"
+      "Okay but new announcement 👀",
+      "Did you see that? 👀",
+      "Had to send this 👀"
     ],
-    "caution": "Do not read 👀 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "👀 caveat: can seem like you're prying or being nosy.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2431,19 +2431,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Eyes Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the eyes emoji when a guy sends 👀 in texting or social media.",
-    "answer": "When a guy sends 👀, it usually reflects looking, watching, or 'i see what's going on here.'. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the eyes emoji when a guy sends 👀 in texting or social media.",
+    "answer": "👀 from a guy is often a quick emotional shorthand for watching. Private use feels more intentional than a group reaction.",
     "signals": [
-      "He uses 👀 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private eyes emoji use carries more weight than a public comment",
+      "Tone aligns with \"Something's happening 👀\"",
+      "He does not only drop 👀 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 👀",
-      "Proud of you 👀",
-      "Had to tell you 👀"
+      "Something's happening 👀",
+      "Lowkey new announcement 👀",
+      "No cap 👀"
     ],
-    "caution": "A single 👀 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "👀 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2455,19 +2455,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Eyes Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 👀 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 👀 commonly means looking, watching, or 'i see what's going on here.'. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 👀 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "In WhatsApp, 👀 commonly means watching, whether the chat is logistical, emotional, or full of memes.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Shows up mid-conversation when the topic is watching",
+      "WhatsApp groups treat 👀 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about noticing"
     ],
     "examples": [
-      "Thanks so much 👀",
-      "See you tomorrow 👀",
-      "Got it 👀"
+      "Quick one — something's happening 👀",
+      "New announcement 👀",
+      "Quick update 👀"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 👀 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2479,19 +2479,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Eyes Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 👀 means on Instagram—with real examples.",
-    "answer": "On Instagram, 👀 is often used for looking, watching, or 'i see what's going on here.'. Comments, story replies, and DMs can change the tone.",
+    "description": "What 👀 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 👀 works in comments, story replies, and captions tied to watching. It is a visual tone marker for public posts.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about watching",
+      "Paired with short praise tied to looking",
+      "Public 👀 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 👀",
-      "Need this 👀",
-      "So good 👀"
+      "This post — something's happening 👀",
+      "New announcement 👀",
+      "The noticing vibe 👀"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Formal legal, medical, or HR threads without clarifying words.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2503,19 +2503,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Eyes Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 👀 means on TikTok—with real examples.",
-    "answer": "On TikTok, 👀 frequently appears in comments and captions for looking, watching, or 'i see what's going on here.'. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the eyes emoji 👀 in comment sections.",
+    "answer": "Commenters use 👀 with short slang phrases when a clip feels watching in a Gen Z feed.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 👀 on clips about watching or noticing",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for eyes"
     ],
     "examples": [
-      "The ending 👀",
-      "Not me watching this 10 times 👀",
-      "Why is this so real 👀"
+      "Why is new announcement 👀",
+      "The way did you see that? 👀",
+      "This looking clip 👀"
     ],
-    "caution": "👀 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: can seem like you're prying or being nosy.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2527,19 +2527,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Melting Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🫠 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🫠, it often signals a face melting down from heat, embarrassment, or exhaustion. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the melting face emoji when a girl uses 🫠 in a private message.",
+    "answer": "If a girl stacks 🫠, she is usually emphasizing intensity around exhausted, not reporting literal tears.",
     "signals": [
-      "She pairs 🫠 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"It's so hot outside 🫠\"",
+      "Repeated 🫠 in your thread signals more than a polite one-off",
+      "She pairs 🫠 with wording about melting, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🫠",
-      "Miss you 🫠",
-      "You did amazing 🫠"
+      "Okay but it's so hot outside 🫠",
+      "Literally monday energy 🫠",
+      "You would love this 🫠"
     ],
-    "caution": "Do not read 🫠 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🫠 caveat: may be confused with being hot vs emotionally melting.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2551,19 +2551,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Melting Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the melting face emoji when a guy sends 🫠 in texting or social media.",
-    "answer": "When a guy sends 🫠, it usually reflects a face melting down from heat, embarrassment, or exhaustion. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🫠 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 🫠 after something exhausted is usually amplifying emotion for effect, not asking for comfort.",
     "signals": [
-      "He uses 🫠 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private melting face emoji use carries more weight than a public comment",
+      "Tone aligns with \"Monday energy 🫠\"",
+      "He does not only drop 🫠 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 🫠",
-      "Proud of you 🫠",
+      "Lowkey monday energy 🫠",
+      "Had to say — can't believe I said that 🫠",
       "Had to tell you 🫠"
     ],
-    "caution": "A single 🫠 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🫠 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2575,19 +2575,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Melting Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🫠 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🫠 commonly means a face melting down from heat, embarrassment, or exhaustion. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the melting face emoji 🫠 in everyday conversations.",
+    "answer": "WhatsApp users send 🫠 after long stories, cute updates, or absurd jokes. Meaning tracks exhausted in the same message.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses melting face reactions",
+      "Shows up mid-conversation when the topic is exhausted",
+      "WhatsApp groups treat 🫠 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🫠",
-      "See you tomorrow 🫠",
-      "Got it 🫠"
+      "Monday energy 🫠",
+      "Quick one — can't believe I said that 🫠",
+      "Quick update 🫠"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "🫠 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2599,19 +2599,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Melting Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🫠 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🫠 is often used for a face melting down from heat, embarrassment, or exhaustion. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the melting face emoji 🫠 in comments and story replies.",
+    "answer": "Creators and followers use 🫠 under emotional reels, transformations, and chaotic humor when something hits exhausted.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about exhausted",
+      "Paired with short praise tied to melting",
+      "Public 🫠 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 🫠",
-      "Need this 🫠",
-      "So good 🫠"
+      "Need this — it's so hot outside 🫠",
+      "This post — monday energy 🫠",
+      "This melting post 🫠"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🫠 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2623,19 +2623,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Melting Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🫠 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🫠 frequently appears in comments and captions for a face melting down from heat, embarrassment, or exhaustion. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🫠 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "TikTok commenters use 🫠 when a clip is too real, too funny, or too chaotic. Tone is meme-exaggerated.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🫠 on clips about exhausted or embarrassed",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 🫠",
-      "Not me watching this 10 times 🫠",
-      "Why is this so real 🫠"
+      "Not me can't believe I said that 🫠",
+      "The way it's so hot outside 🫠",
+      "The exhausted part 🫠"
     ],
-    "caution": "🫠 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "🫠 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2647,19 +2647,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Upside-Down Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🙃 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🙃, it often signals a sarcastic or ironic smile, often indicating things aren't fine. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the upside-down face emoji when a girl uses 🙃 in a private message.",
+    "answer": "When a girl sends 🙃, she may be doubting, teasing, or thinking out loud—sarcasm. Sarcasm is common.",
     "signals": [
-      "She pairs 🙃 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Love it when my code breaks right before the deadline 🙃\"",
+      "Repeated 🙃 in your thread signals more than a polite one-off",
+      "She pairs 🙃 with wording about sarcasm, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🙃",
-      "Miss you 🙃",
-      "You did amazing 🙃"
+      "Okay but love it when my code breaks right before the deadline 🙃",
+      "Third coffee and still not functional 🙃",
+      "Had to send this 🙃"
     ],
-    "caution": "Do not read 🙃 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🙃 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2671,19 +2671,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Upside-Down Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the upside-down face emoji when a guy sends 🙃 in texting or social media.",
-    "answer": "When a guy sends 🙃, it usually reflects a sarcastic or ironic smile, often indicating things aren't fine. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🙃 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 🙃, it often means skepticism, irony, or \"let me think about that\"—sarcasm.",
     "signals": [
-      "He uses 🙃 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 🙃 in large stranger-heavy group chats",
+      "🙃 follows personal topics—irony—rather than scheduling-only texts",
+      "He uses 🙃 when reacting to sarcasm or something visual in your chat"
     ],
     "examples": [
-      "You killed it 🙃",
-      "Proud of you 🙃",
-      "Had to tell you 🙃"
+      "Lowkey of course it's raining on my day off 🙃",
+      "Love it when my code breaks right before the deadline 🙃",
+      "No cap 🙃"
     ],
-    "caution": "A single 🙃 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🙃 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2695,19 +2695,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Upside-Down Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🙃 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🙃 commonly means a sarcastic or ironic smile, often indicating things aren't fine. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the upside-down face emoji 🙃 in everyday conversations.",
+    "answer": "On WhatsApp, 🙃 shows up when someone side-eyes a plan, joke, or excuse—sarcasm.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses upside-down face reactions",
+      "Shows up mid-conversation when the topic is sarcasm",
+      "WhatsApp groups treat 🙃 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🙃",
-      "See you tomorrow 🙃",
-      "Got it 🙃"
+      "Love it when my code breaks right before the deadline 🙃",
+      "Third coffee and still not functional 🙃",
+      "About that sarcasm thing 🙃"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: not everyone understands the sarcastic undertone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2719,19 +2719,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Upside-Down Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🙃 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🙃 is often used for a sarcastic or ironic smile, often indicating things aren't fine. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the upside-down face emoji 🙃 in comments and story replies.",
+    "answer": "On Instagram, 🙃 reacts to bold claims, staged photos, or chaotic captions with sarcasm.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🙃 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Of course it's raining on my day off 🙃\"",
+      "Used when a visual post makes sarcasm the instant reaction"
     ],
     "examples": [
-      "This is everything 🙃",
-      "Need this 🙃",
-      "So good 🙃"
+      "Need this — of course it's raining on my day off 🙃",
+      "Love it when my code breaks right before the deadline 🙃",
+      "Needed on my feed 🙃"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Not everyone understands the sarcastic undertone",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2743,19 +2743,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Upside-Down Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🙃 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🙃 frequently appears in comments and captions for a sarcastic or ironic smile, often indicating things aren't fine. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the upside-down face emoji 🙃 in comment sections.",
+    "answer": "On TikTok, 🙃 fits reaction videos, call-outs, and \"wait what\" moments—sarcasm.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for upside-down face",
+      "Comment energy like \"Love it when my code breaks right before the deadline 🙃\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 🙃",
-      "Not me watching this 10 times 🙃",
-      "Why is this so real 🙃"
+      "Why is third coffee and still not functional 🙃",
+      "Not me of course it's raining on my day off 🙃",
+      "Not me relating 🙃"
     ],
-    "caution": "🙃 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: not everyone understands the sarcastic undertone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2767,19 +2767,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Smirking Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😏 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😏, it often signals a sly, suggestive smirk with mischievous undertones. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 😏 — with signals and real examples.",
+    "answer": "When a girl sends 😏, it often adds playfulness, softness, or flirty subtext around flirting. The chat usually already feels personal.",
     "signals": [
-      "She pairs 😏 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 😏 in your thread signals more than a polite one-off",
+      "She pairs 😏 with wording about smirk, not just logistics",
+      "She sends 😏 when the topic involves flirting or suggestive comments"
     ],
     "examples": [
-      "That's so sweet 😏",
-      "Miss you 😏",
-      "You did amazing 😏"
+      "Literally we could do other things instead 😏",
+      "Your place or mine 😏",
+      "Still thinking about smirk 😏"
     ],
-    "caution": "Do not read 😏 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 😏 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2791,19 +2791,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Smirking Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the smirking face emoji when a guy sends 😏 in texting or social media.",
-    "answer": "When a guy sends 😏, it usually reflects a sly, suggestive smirk with mischievous undertones. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😏 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy dropping 😏 after a compliment or inside joke usually signals playful interest—not a neutral acknowledgment.",
     "signals": [
-      "He uses 😏 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 😏 when reacting to flirting or something visual in your chat",
+      "Private smirking face emoji use carries more weight than a public comment",
+      "Tone aligns with \"Told you so 😏\""
     ],
     "examples": [
-      "You killed it 😏",
-      "Proud of you 😏",
+      "Lowkey we could do other things instead 😏",
+      "Had to say — your place or mine 😏",
       "Had to tell you 😏"
     ],
-    "caution": "A single 😏 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Often seen as too forward or suggestive",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2815,19 +2815,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Smirking Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😏 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😏 commonly means a sly, suggestive smirk with mischievous undertones. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the smirking face emoji 😏 in everyday conversations.",
+    "answer": "On WhatsApp, 😏 spices up private chats with flirting energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 😏 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about suggestive comments",
+      "Standalone 😏 reads shorter than 😏 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 😏",
-      "See you tomorrow 😏",
-      "Got it 😏"
+      "We could do other things instead 😏",
+      "Your place or mine 😏",
+      "About that flirting thing 😏"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 😏 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2839,19 +2839,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Smirking Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😏 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😏 is often used for a sly, suggestive smirk with mischievous undertones. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😏 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users pair 😏 with praise like \"cute\", \"stunning\", or \"need this\" when the content fits flirting.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes flirting the instant reaction",
+      "Comment or story reply under content about flirting",
+      "Paired with short praise tied to smirk"
     ],
     "examples": [
-      "This is everything 😏",
-      "Need this 😏",
-      "So good 😏"
+      "We could do other things instead 😏",
+      "This post — your place or mine 😏",
+      "The suggestive comments vibe 😏"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 😏 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2863,19 +2863,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Smirking Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😏 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😏 frequently appears in comments and captions for a sly, suggestive smirk with mischievous undertones. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 😏 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Creators and viewers use 😏 under clips about flirting with internet-native captions—often ironic but still flirty.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for smirking face",
+      "Comment energy like \"Your place or mine 😏\""
     ],
     "examples": [
-      "The ending 😏",
-      "Not me watching this 10 times 😏",
-      "Why is this so real 😏"
+      "Not me your place or mine 😏",
+      "The way told you so 😏",
+      "The flirting part 😏"
     ],
-    "caution": "😏 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—😏 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2887,19 +2887,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Face Blowing a Kiss Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😘 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😘, it often signals blowing a kiss to show affection or say goodbye fondly. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 😘 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "😘 from a girl can make a request, compliment, or tease feel cuter and less direct—sending love.",
     "signals": [
-      "She pairs 😘 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her face blowing a kiss emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Goodnight, sleep well 😘\"",
+      "Repeated 😘 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 😘",
-      "Miss you 😘",
-      "You did amazing 😘"
+      "Thanks for everything, you're amazing 😘",
+      "Okay but see you tonight 😘",
+      "Had to send this 😘"
     ],
-    "caution": "Do not read 😘 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 😘 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -2911,19 +2911,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Face Blowing a Kiss Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the face blowing a kiss emoji when a guy sends 😘 in texting or social media.",
-    "answer": "When a guy sends 😘, it usually reflects blowing a kiss to show affection or say goodbye fondly. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😘 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 😘, it often means flirting, confidence, or teasing tied to sending love. Private messages carry more intent than group replies.",
     "signals": [
-      "He uses 😘 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 😘 in large stranger-heavy group chats",
+      "😘 follows personal topics—affectionate goodbyes—rather than scheduling-only texts",
+      "He uses 😘 when reacting to sending love or something visual in your chat"
     ],
     "examples": [
-      "You killed it 😘",
-      "Proud of you 😘",
-      "Had to tell you 😘"
+      "Lowkey see you tonight 😘",
+      "Goodnight, sleep well 😘",
+      "No cap 😘"
     ],
-    "caution": "A single 😘 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 😘 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -2935,19 +2935,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Face Blowing a Kiss Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😘 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😘 commonly means blowing a kiss to show affection or say goodbye fondly. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 😘 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 😘 spices up private chats with sending love energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 😘 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about affectionate goodbyes",
+      "Standalone 😘 reads shorter than 😘 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 😘",
-      "See you tomorrow 😘",
-      "Got it 😘"
+      "Quick one — thanks for everything, you're amazing 😘",
+      "See you tonight 😘",
+      "FYI 😘"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 😘 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2959,19 +2959,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Face Blowing a Kiss Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😘 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😘 is often used for blowing a kiss to show affection or say goodbye fondly. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the face blowing a kiss emoji 😘 in comments and story replies.",
+    "answer": "On Instagram, 😘 shows up in story replies, photo comments, and DMs when someone reacts with sending love.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"See you tonight 😘\"",
+      "Used when a visual post makes sending love the instant reaction",
+      "Comment or story reply under content about sending love"
     ],
     "examples": [
-      "This is everything 😘",
-      "Need this 😘",
-      "So good 😘"
+      "Need this — thanks for everything, you're amazing 😘",
+      "See you tonight 😘",
+      "Needed on my feed 😘"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😘 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -2983,17 +2983,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Face Blowing a Kiss Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😘 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😘 frequently appears in comments and captions for blowing a kiss to show affection or say goodbye fondly. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the face blowing a kiss emoji 😘 in comment sections.",
+    "answer": "Creators and viewers use 😘 under clips about sending love with internet-native captions—often ironic but still flirty.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for face blowing a kiss",
+      "Comment energy like \"Goodnight, sleep well 😘\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 😘",
-      "Not me watching this 10 times 😘",
-      "Why is this so real 😘"
+      "Why is goodnight, sleep well 😘",
+      "The way thanks for everything, you're amazing 😘",
+      "This kiss clip 😘"
     ],
     "caution": "😘 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -3007,19 +3007,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Pink Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🩷 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🩷, it often signals a pink heart - gentle love and affection. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🩷 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "A girl using 🩷 often adds warmth around love. It can be romantic, supportive, or fandom-coded depending on your relationship and the words nearby.",
     "signals": [
-      "She pairs 🩷 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 🩷 with wording about pink, not just logistics",
+      "She sends 🩷 when the topic involves love or sweet",
+      "Her pink heart emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 🩷",
-      "Miss you 🩷",
-      "You did amazing 🩷"
+      "Love you 🩷",
+      "Okay but you're so sweet 🩷",
+      "Had to send this 🩷"
     ],
-    "caution": "Do not read 🩷 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Color and fandom context change how 🩷 lands—pink heart has its own subtext.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3031,19 +3031,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Pink Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the pink heart emoji when a guy sends 🩷 in texting or social media.",
-    "answer": "When a guy sends 🩷, it usually reflects a pink heart - gentle love and affection. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the pink heart emoji when a guy sends 🩷 in texting or social media.",
+    "answer": "🩷 from a guy can mean affection, appreciation, or sincere support tied to love. The surrounding message usually clarifies whether it is romantic or friendly.",
     "signals": [
-      "He uses 🩷 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 🩷 in large stranger-heavy group chats",
+      "🩷 follows personal topics—sweet—rather than scheduling-only texts",
+      "He uses 🩷 when reacting to love or something visual in your chat"
     ],
     "examples": [
-      "You killed it 🩷",
-      "Proud of you 🩷",
-      "Had to tell you 🩷"
+      "Love you 🩷",
+      "Lowkey you're so sweet 🩷",
+      "No cap 🩷"
     ],
-    "caution": "A single 🩷 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Softer than red heart",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3055,19 +3055,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Pink Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🩷 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🩷 commonly means a pink heart - gentle love and affection. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🩷 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 🩷 is a broad warmth signal for love and sweet. Family groups, close friends, and partners all use it differently.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about sweet",
+      "Standalone 🩷 reads shorter than 🩷 plus a full sentence",
+      "Matches how your chat already uses pink heart reactions"
     ],
     "examples": [
-      "Thanks so much 🩷",
-      "See you tomorrow 🩷",
-      "Got it 🩷"
+      "Quick one — love you 🩷",
+      "You're so sweet 🩷",
+      "FYI 🩷"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🩷 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3079,19 +3079,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Pink Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🩷 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🩷 is often used for a pink heart - gentle love and affection. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🩷 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users add 🩷 under photos, reels, outfits, and milestone posts when something feels love. ",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🩷 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Love you 🩷\"",
+      "Used when a visual post makes love the instant reaction"
     ],
     "examples": [
-      "This is everything 🩷",
-      "Need this 🩷",
-      "So good 🩷"
+      "Love you 🩷",
+      "This post — you're so sweet 🩷",
+      "The sweet vibe 🩷"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🩷 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3103,17 +3103,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Pink Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🩷 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🩷 frequently appears in comments and captions for a pink heart - gentle love and affection. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🩷 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🩷 on TikTok frequently marks love, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🩷 on clips about love or sweet",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 🩷",
-      "Not me watching this 10 times 🩷",
-      "Why is this so real 🩷"
+      "Not me you're so sweet 🩷",
+      "Why is that's adorable 🩷",
+      "Not me relating 🩷"
     ],
     "caution": "🩷 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -3127,19 +3127,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Green Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💚 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💚, it often signals nature, health, jealousy, or irish/environmental themes. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the green heart emoji when a girl uses 💚 in a private message.",
+    "answer": "When a girl sends 💚, it usually signals nature.  Private chats and repeated use carry more weight than a one-off group reply.",
     "signals": [
-      "She pairs 💚 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 💚 in your thread signals more than a polite one-off",
+      "She pairs 💚 with wording about green, not just logistics",
+      "She sends 💚 when the topic involves nature or environment"
     ],
     "examples": [
-      "That's so sweet 💚",
-      "Miss you 💚",
-      "You did amazing 💚"
+      "Okay but gym life 💚",
+      "Plant a tree today 💚",
+      "Had to send this 💚"
     ],
-    "caution": "Do not read 💚 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "💚 caveat: jealousy meaning varies by culture.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3151,19 +3151,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Green Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the green heart emoji when a guy sends 💚 in texting or social media.",
-    "answer": "When a guy sends 💚, it usually reflects nature, health, jealousy, or irish/environmental themes. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the green heart emoji when a guy sends 💚 in texting or social media.",
+    "answer": "If a guy sends 💚 after something personal, it commonly signals nature. ",
     "signals": [
-      "He uses 💚 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private green heart emoji use carries more weight than a public comment",
+      "Tone aligns with \"Happy St. Patrick's Day 💚☘️\"",
+      "He does not only drop 💚 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 💚",
-      "Proud of you 💚",
-      "Had to tell you 💚"
+      "Gym life 💚",
+      "Had to say — plant a tree today 💚",
+      "This green moment 💚"
     ],
-    "caution": "A single 💚 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "💚 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3175,19 +3175,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Green Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💚 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💚 commonly means nature, health, jealousy, or irish/environmental themes. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the green heart emoji 💚 in everyday conversations.",
+    "answer": "WhatsApp users drop 💚 after thanks, encouragement, good news, or emotional updates. ",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about environment",
+      "Standalone 💚 reads shorter than 💚 plus a full sentence",
+      "Matches how your chat already uses green heart reactions"
     ],
     "examples": [
-      "Thanks so much 💚",
-      "See you tomorrow 💚",
-      "Got it 💚"
+      "Gym life 💚",
+      "Quick one — plant a tree today 💚",
+      "Quick update 💚"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 💚 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3199,19 +3199,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Green Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💚 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💚 is often used for nature, health, jealousy, or irish/environmental themes. Comments, story replies, and DMs can change the tone.",
+    "description": "How 💚 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram users add 💚 under photos, reels, outfits, and milestone posts when something feels nature. ",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to green",
+      "Public 💚 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Gym life 💚\""
     ],
     "examples": [
-      "This is everything 💚",
-      "Need this 💚",
-      "So good 💚"
+      "Gym life 💚",
+      "This post — plant a tree today 💚",
+      "The environment vibe 💚"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "💚 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3223,19 +3223,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Green Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💚 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💚 frequently appears in comments and captions for nature, health, jealousy, or irish/environmental themes. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 💚 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "💚 on TikTok frequently marks nature, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 💚 on clips about nature or environment",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for green heart"
     ],
     "examples": [
-      "The ending 💚",
-      "Not me watching this 10 times 💚",
-      "Why is this so real 💚"
+      "The way gym life 💚",
+      "Why is plant a tree today 💚",
+      "This green clip 💚"
     ],
-    "caution": "💚 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Color and fandom context change how 💚 lands—green heart has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3247,19 +3247,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Yellow Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💛 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💛, it often signals happiness, friendship, and platonic love. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 💛 — with signals and real examples.",
+    "answer": "When a girl sends 💛, it usually signals best friends.  Private chats and repeated use carry more weight than a one-off group reply.",
     "signals": [
-      "She pairs 💛 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 💛 when the topic involves best friends or happiness",
+      "Her yellow heart emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"BFFs forever 💛\""
     ],
     "examples": [
-      "That's so sweet 💛",
-      "Miss you 💛",
-      "You did amazing 💛"
+      "Literally bFFs forever 💛",
+      "You brighten my day 💛",
+      "Still thinking about yellow 💛"
     ],
-    "caution": "Do not read 💛 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 💛 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3271,19 +3271,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Yellow Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the yellow heart emoji when a guy sends 💛 in texting or social media.",
-    "answer": "When a guy sends 💛, it usually reflects happiness, friendship, and platonic love. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 💛 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 💛, it often reflects best friends. Consistent private use matters more than a single reaction in a busy group chat.",
     "signals": [
-      "He uses 💛 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 💛 in large stranger-heavy group chats",
+      "💛 follows personal topics—happiness—rather than scheduling-only texts",
+      "He uses 💛 when reacting to best friends or something visual in your chat"
     ],
     "examples": [
-      "You killed it 💛",
-      "Proud of you 💛",
-      "Had to tell you 💛"
+      "Lowkey bFFs forever 💛",
+      "You brighten my day 💛",
+      "No cap 💛"
     ],
-    "caution": "A single 💛 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 💛 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3295,19 +3295,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Yellow Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💛 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💛 commonly means happiness, friendship, and platonic love. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 💛 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp threads, 💛 usually means best friends. Relationship history and chat culture matter more than the emoji alone.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses yellow heart reactions",
+      "Shows up mid-conversation when the topic is best friends",
+      "WhatsApp groups treat 💛 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 💛",
-      "See you tomorrow 💛",
-      "Got it 💛"
+      "BFFs forever 💛",
+      "You brighten my day 💛",
+      "About that best friends thing 💛"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: some associate specifically with K-pop fandoms.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3319,19 +3319,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Yellow Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💛 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💛 is often used for happiness, friendship, and platonic love. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the yellow heart emoji 💛 in comments and story replies.",
+    "answer": "On Instagram, 💛 tags admiration, support, or aesthetic appreciation around best friends. Comments, story replies, and DMs each shift the tone.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"Love you, bestie 💛\"",
+      "Used when a visual post makes best friends the instant reaction",
+      "Comment or story reply under content about best friends"
     ],
     "examples": [
-      "This is everything 💛",
-      "Need this 💛",
-      "So good 💛"
+      "Need this — bFFs forever 💛",
+      "You brighten my day 💛",
+      "Needed on my feed 💛"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Some associate specifically with K-pop fandoms",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3343,19 +3343,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Yellow Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💛 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💛 frequently appears in comments and captions for happiness, friendship, and platonic love. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the yellow heart emoji 💛 in comment sections.",
+    "answer": "On TikTok, 💛 shows up in captions and comments when creators or fans react to best friends. Fandom and aesthetic communities give it extra subtext.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"BFFs forever 💛\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 💛 on clips about best friends or happiness"
     ],
     "examples": [
-      "The ending 💛",
-      "Not me watching this 10 times 💛",
-      "Why is this so real 💛"
+      "Why is love you, bestie 💛",
+      "Not me bFFs forever 💛",
+      "Not me relating 💛"
     ],
-    "caution": "💛 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: some associate specifically with K-pop fandoms.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3367,19 +3367,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Orange Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🧡 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🧡, it often signals friendship, support, and care - less romantic than red. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🧡 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🧡 from a girl commonly expresses friendship. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs 🧡 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🧡 in your thread signals more than a polite one-off",
+      "She pairs 🧡 with wording about orange, not just logistics",
+      "She sends 🧡 when the topic involves friendship or caring"
     ],
     "examples": [
-      "That's so sweet 🧡",
-      "Miss you 🧡",
-      "You did amazing 🧡"
+      "You've got this 🧡",
+      "Literally fall is here 🍂 🧡",
+      "Still thinking about orange 🧡"
     ],
-    "caution": "Do not read 🧡 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🧡 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3391,19 +3391,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Orange Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the orange heart emoji when a guy sends 🧡 in texting or social media.",
-    "answer": "When a guy sends 🧡, it usually reflects friendship, support, and care - less romantic than red. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🧡 from a guy — intent, tone, and conversation patterns.",
+    "answer": "When a guy sends 🧡, it often reflects friendship. Consistent private use matters more than a single reaction in a busy group chat.",
     "signals": [
-      "He uses 🧡 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"You've got this 🧡\"",
+      "He does not only drop 🧡 in large stranger-heavy group chats",
+      "🧡 follows personal topics—caring—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🧡",
-      "Proud of you 🧡",
-      "Had to tell you 🧡"
+      "Had to say — you've got this 🧡",
+      "Fall is here 🧡🍂",
+      "This orange moment 🧡"
     ],
-    "caution": "A single 🧡 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Less universal meaning than red heart",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3415,19 +3415,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Orange Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🧡 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🧡 commonly means friendship, support, and care - less romantic than red. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🧡 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp users drop 🧡 after thanks, encouragement, good news, or emotional updates. ",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🧡 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about caring",
+      "Standalone 🧡 reads shorter than 🧡 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🧡",
-      "See you tomorrow 🧡",
-      "Got it 🧡"
+      "You've got this 🧡",
+      "Quick one — fall is here 🍂 🧡",
+      "FYI 🧡"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🧡 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3439,19 +3439,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Orange Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🧡 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🧡 is often used for friendship, support, and care - less romantic than red. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🧡 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🧡 tags admiration, support, or aesthetic appreciation around friendship. Comments, story replies, and DMs each shift the tone.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to orange",
+      "Public 🧡 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Fall is here 🧡🍂\""
     ],
     "examples": [
-      "This is everything 🧡",
-      "Need this 🧡",
-      "So good 🧡"
+      "This post — thanks for being there 🧡",
+      "You've got this 🧡",
+      "The caring vibe 🧡"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🧡 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3463,17 +3463,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Orange Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🧡 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🧡 frequently appears in comments and captions for friendship, support, and care - less romantic than red. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the orange heart emoji 🧡 in comment sections.",
+    "answer": "TikTok comment sections use 🧡 for wholesome hype, ship culture, or exaggerated affection around caring. ",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for orange heart",
+      "Comment energy like \"Thanks for being there 🧡\""
     ],
     "examples": [
-      "The ending 🧡",
-      "Not me watching this 10 times 🧡",
-      "Why is this so real 🧡"
+      "Why is thanks for being there 🧡",
+      "The way you've got this 🧡",
+      "This orange clip 🧡"
     ],
     "caution": "🧡 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -3487,19 +3487,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Two Hearts Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 💕 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 💕, it often signals two hearts - love is in the air. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the two hearts emoji when a girl uses 💕 in a private message.",
+    "answer": "💕 from a girl commonly expresses love. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs 💕 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Us together 💕\"",
+      "Repeated 💕 in your thread signals more than a polite one-off",
+      "She pairs 💕 with wording about two, not just logistics"
     ],
     "examples": [
-      "That's so sweet 💕",
-      "Miss you 💕",
-      "You did amazing 💕"
+      "Okay but us together 💕",
+      "Literally love you so much 💕",
+      "You would love this 💕"
     ],
-    "caution": "Do not read 💕 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 💕 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3511,19 +3511,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Two Hearts Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the two hearts emoji when a guy sends 💕 in texting or social media.",
-    "answer": "When a guy sends 💕, it usually reflects two hearts - love is in the air. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 💕 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "If a guy sends 💕 after something personal, it commonly signals love. ",
     "signals": [
-      "He uses 💕 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "💕 follows personal topics—romance—rather than scheduling-only texts",
+      "He uses 💕 when reacting to love or something visual in your chat",
+      "Private two hearts emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 💕",
-      "Proud of you 💕",
+      "Lowkey you two are adorable 💕",
+      "Had to say — us together 💕",
       "Had to tell you 💕"
     ],
-    "caution": "A single 💕 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "💕 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3535,19 +3535,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Two Hearts Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 💕 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 💕 commonly means two hearts - love is in the air. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the two hearts emoji 💕 in everyday conversations.",
+    "answer": "On WhatsApp, 💕 is a broad warmth signal for love and romance. Family groups, close friends, and partners all use it differently.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 💕 reads shorter than 💕 plus a full sentence",
+      "Matches how your chat already uses two hearts reactions",
+      "Shows up mid-conversation when the topic is love"
     ],
     "examples": [
-      "Thanks so much 💕",
-      "See you tomorrow 💕",
-      "Got it 💕"
+      "You two are adorable 💕",
+      "Us together 💕",
+      "About that love thing 💕"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 💕 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3559,19 +3559,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Two Hearts Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 💕 means on Instagram—with real examples.",
-    "answer": "On Instagram, 💕 is often used for two hearts - love is in the air. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the two hearts emoji 💕 in comments and story replies.",
+    "answer": "Instagram users add 💕 under photos, reels, outfits, and milestone posts when something feels love. ",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about love",
+      "Paired with short praise tied to two",
+      "Public 💕 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 💕",
-      "Need this 💕",
-      "So good 💕"
+      "Need this — you two are adorable 💕",
+      "This post — us together 💕",
+      "This two post 💕"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Color and fandom context change how 💕 lands—two hearts has its own subtext.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3583,19 +3583,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Two Hearts Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 💕 means on TikTok—with real examples.",
-    "answer": "On TikTok, 💕 frequently appears in comments and captions for two hearts - love is in the air. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 💕 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "💕 on TikTok frequently marks love, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Us together 💕\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 💕 on clips about love or romance"
     ],
     "examples": [
-      "The ending 💕",
-      "Not me watching this 10 times 💕",
-      "Why is this so real 💕"
+      "Not me you two are adorable 💕",
+      "Why is us together 💕",
+      "Not me relating 💕"
     ],
-    "caution": "💕 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—💕 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3607,19 +3607,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Kissing Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😗 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😗, it often signals 😗 kissing face expresses a specific facial emotion, perfect for adding personality to your messages. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 😗 — with signals and real examples.",
+    "answer": "😗 from a girl can make a request, compliment, or tease feel cuter and less direct—showing love.",
     "signals": [
-      "She pairs 😗 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Just posted my new photo 😗\"",
+      "Repeated 😗 in your thread signals more than a polite one-off",
+      "She pairs 😗 with wording about kissing, not just logistics"
     ],
     "examples": [
-      "That's so sweet 😗",
-      "Miss you 😗",
-      "You did amazing 😗"
+      "Literally that was so kind 😗",
+      "Okay but love you mum 😗",
+      "You would love this 😗"
     ],
-    "caution": "Do not read 😗 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Her tone varies by relationship—friends, family, and partners all use 😗 differently.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3631,19 +3631,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Kissing Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the kissing face emoji when a guy sends 😗 in texting or social media.",
-    "answer": "When a guy sends 😗, it usually reflects 😗 kissing face expresses a specific facial emotion, perfect for adding personality to your messages. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 😗 from a guy — intent, tone, and conversation patterns.",
+    "answer": "😗 from a guy can soften a bold line and make the tone feel showing love. Look for consistency across your thread.",
     "signals": [
-      "He uses 😗 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private kissing face emoji use carries more weight than a public comment",
+      "Tone aligns with \"Can't wait to see you 😗\"",
+      "He does not only drop 😗 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 😗",
-      "Proud of you 😗",
+      "Had to say — see you soon 😗",
+      "Lowkey that was so kind 😗",
       "Had to tell you 😗"
     ],
-    "caution": "A single 😗 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Avoid 😗 with coworkers you do not know well.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3655,19 +3655,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Kissing Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😗 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😗 commonly means 😗 kissing face expresses a specific facial emotion, perfect for adding personality to your messages. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the kissing face emoji 😗 in everyday conversations.",
+    "answer": "WhatsApp users add 😗 to apologies, compliments, and late-night messages when the tone is showing love.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 😗 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone 😗 reads shorter than 😗 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 😗",
-      "See you tomorrow 😗",
-      "Got it 😗"
+      "Night night 😗",
+      "Quick one — you're the best 😗",
+      "Quick update 😗"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 😗 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3679,19 +3679,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Kissing Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😗 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😗 is often used for 😗 kissing face expresses a specific facial emotion, perfect for adding personality to your messages. Comments, story replies, and DMs can change the tone.",
+    "description": "What 😗 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 😗 shows up in story replies, photo comments, and DMs when someone reacts with showing love.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about showing love",
+      "Paired with short praise tied to kissing",
+      "Public 😗 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 😗",
-      "Need this 😗",
-      "So good 😗"
+      "This post — love you mum 😗",
+      "Just posted my new photo 😗",
+      "The social media posts vibe 😗"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 😗 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3703,19 +3703,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Kissing Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😗 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😗 frequently appears in comments and captions for 😗 kissing face expresses a specific facial emotion, perfect for adding personality to your messages. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the kissing face emoji 😗 in comment sections.",
+    "answer": "On TikTok, 😗 lands in thirst traps, crush edits, and playful comment threads where tone is showing love.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Just posted my new photo 😗\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 😗 on clips about showing love or social media posts"
     ],
     "examples": [
-      "The ending 😗",
-      "Not me watching this 10 times 😗",
-      "Why is this so real 😗"
+      "Why is night night 😗",
+      "Not me you're the best 😗",
+      "Not me relating 😗"
     ],
-    "caution": "😗 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Sarcasm is common in TikTok replies; do not take every 😗 literally.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3727,19 +3727,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Grinning Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😀 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😀, it often signals a classic happy face showing genuine joy and positive vibes. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the grinning face emoji when a girl uses 😀 in a private message.",
+    "answer": "When a girl sends 😀, it usually reflects greeting friends. Tone depends on whether the chat is casual, supportive, or flirty.",
     "signals": [
-      "She pairs 😀 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her grinning face emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Hey! Great to hear from you 😀\"",
+      "Repeated 😀 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 😀",
-      "Miss you 😀",
-      "You did amazing 😀"
+      "Okay but beautiful day at the park 😀",
+      "Hey! Great to hear from you 😀",
+      "Had to send this 😀"
     ],
-    "caution": "Do not read 😀 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "😀 caveat: sometimes confused with 😃 (Grinning Face with Big Eyes), but this one is more subtle.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3751,19 +3751,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Grinning Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the grinning face emoji when a guy sends 😀 in texting or social media.",
-    "answer": "When a guy sends 😀, it usually reflects a classic happy face showing genuine joy and positive vibes. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😀 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 😀, it typically maps to greeting friends in the current conversation—not a fixed rule for every guy.",
     "signals": [
-      "He uses 😀 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"I got the job 😀\"",
+      "He does not only drop 😀 in large stranger-heavy group chats",
+      "😀 follows personal topics—expressing happiness—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 😀",
-      "Proud of you 😀",
-      "Had to tell you 😀"
+      "Lowkey hey! Great to hear from you 😀",
+      "I got the job 😀",
+      "No cap 😀"
     ],
-    "caution": "A single 😀 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😀 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3775,19 +3775,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Grinning Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😀 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😀 commonly means a classic happy face showing genuine joy and positive vibes. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 😀 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "In WhatsApp, 😀 commonly means greeting friends, whether the chat is logistical, emotional, or full of memes.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 😀 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about expressing happiness",
+      "Standalone 😀 reads shorter than 😀 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 😀",
-      "See you tomorrow 😀",
-      "Got it 😀"
+      "Quick one — beautiful day at the park 😀",
+      "Hey! Great to hear from you 😀",
+      "Quick update 😀"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 😀 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3799,19 +3799,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Grinning Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😀 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😀 is often used for a classic happy face showing genuine joy and positive vibes. Comments, story replies, and DMs can change the tone.",
+    "description": "How 😀 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "😀 on Instagram signals quick approval when a post is clearly about expressing happiness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"Beautiful day at the park 😀\"",
+      "Used when a visual post makes greeting friends the instant reaction",
+      "Comment or story reply under content about greeting friends"
     ],
     "examples": [
-      "This is everything 😀",
-      "Need this 😀",
-      "So good 😀"
+      "Beautiful day at the park 😀",
+      "Need this — hey! Great to hear from you 😀",
+      "Needed on my feed 😀"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😀 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3823,19 +3823,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Grinning Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😀 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😀 frequently appears in comments and captions for a classic happy face showing genuine joy and positive vibes. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 😀 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "😀 on TikTok is usually an exaggerated reaction, not a formal statement about grinning face.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for grinning face",
+      "Comment energy like \"Hey! Great to hear from you 😀\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 😀",
-      "Not me watching this 10 times 😀",
-      "Why is this so real 😀"
+      "The way i got the job 😀",
+      "Why is beautiful day at the park 😀",
+      "This happy clip 😀"
     ],
-    "caution": "😀 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—😀 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3847,19 +3847,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Smiling Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What ☺️ means when a girl sends it—with real examples.",
-    "answer": "When a girl sends ☺️, it often signals ☺️ smiling face - express loving feelings in your digital conversations. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the smiling face emoji when a girl uses ☺️ in a private message.",
+    "answer": "If a girl uses ☺️ repeatedly in your private thread, it commonly signals showing love with familiar, relaxed energy.",
     "signals": [
-      "She pairs ☺️ with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Just posted my new photo ☺️\"",
+      "Repeated ☺️ in your thread signals more than a polite one-off",
+      "She pairs ☺️ with wording about smiling, not just logistics"
     ],
     "examples": [
-      "That's so sweet ☺️",
-      "Miss you ☺️",
-      "You did amazing ☺️"
+      "Okay but can't wait to see you ☺️",
+      "Literally that's amazing ☺️",
+      "You would love this ☺️"
     ],
-    "caution": "Do not read ☺️ as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single ☺️ after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3871,19 +3871,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Smiling Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the smiling face emoji when a guy sends ☺️ in texting or social media.",
-    "answer": "When a guy sends ☺️, it usually reflects ☺️ smiling face - express loving feelings in your digital conversations. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What ☺️ usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy dropping ☺️ after a personal update usually aligns with showing love, especially when the message already sounds warm or playful.",
     "signals": [
-      "He uses ☺️ with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop ☺️ in large stranger-heavy group chats",
+      "☺️ follows personal topics—social media posts—rather than scheduling-only texts",
+      "He uses ☺️ when reacting to showing love or something visual in your chat"
     ],
     "examples": [
-      "You killed it ☺️",
-      "Proud of you ☺️",
+      "Lowkey that's amazing ☺️",
+      "Had to say — really appreciate you ☺️",
       "Had to tell you ☺️"
     ],
-    "caution": "A single ☺️ after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "☺️ from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -3895,19 +3895,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Smiling Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What ☺️ means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, ☺️ commonly means ☺️ smiling face - express loving feelings in your digital conversations. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the smiling face emoji ☺️ in everyday conversations.",
+    "answer": "On WhatsApp, ☺️ helps friends and family express showing love without typing more. Group norms shape how strong it reads.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone ☺️ reads shorter than ☺️ plus a full sentence",
+      "Matches how your chat already uses smiling face reactions"
     ],
     "examples": [
-      "Thanks so much ☺️",
-      "See you tomorrow ☺️",
-      "Got it ☺️"
+      "Sleep well ☺️",
+      "That works for me ☺️",
+      "About that showing love thing ☺️"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than ☺️ alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3919,19 +3919,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Smiling Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How ☺️ means on Instagram—with real examples.",
-    "answer": "On Instagram, ☺️ is often used for ☺️ smiling face - express loving feelings in your digital conversations. Comments, story replies, and DMs can change the tone.",
+    "description": "How ☺️ is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Followers use ☺️ when content matches showing love—especially on reels and photo dumps.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes showing love the instant reaction",
+      "Comment or story reply under content about showing love",
+      "Paired with short praise tied to smiling"
     ],
     "examples": [
-      "This is everything ☺️",
-      "Need this ☺️",
-      "So good ☺️"
+      "Just posted my new photo ☺️",
+      "This post — can't wait to see you ☺️",
+      "The social media posts vibe ☺️"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "☺️ under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -3943,17 +3943,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Smiling Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What ☺️ means on TikTok—with real examples.",
-    "answer": "On TikTok, ☺️ frequently appears in comments and captions for ☺️ smiling face - express loving feelings in your digital conversations. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What ☺️ means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Commenters use ☺️ with short slang phrases when a clip feels showing love in a Gen Z feed.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for smiling face",
+      "Comment energy like \"Just posted my new photo ☺️\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending ☺️",
-      "Not me watching this 10 times ☺️",
-      "Why is this so real ☺️"
+      "Not me sleep well ☺️",
+      "The way that works for me ☺️",
+      "The showing love part ☺️"
     ],
     "caution": "☺️ on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -3967,19 +3967,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Smiling Face with Hearts Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🥰 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🥰, it often signals a loving face surrounded by hearts, showing deep affection. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🥰 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "🥰 from a girl can make a request, compliment, or tease feel cuter and less direct—romantic love.",
     "signals": [
-      "She pairs 🥰 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🥰 in your thread signals more than a polite one-off",
+      "She pairs 🥰 with wording about love, not just logistics",
+      "She sends 🥰 when the topic involves romantic love or deep affection"
     ],
     "examples": [
-      "That's so sweet 🥰",
-      "Miss you 🥰",
-      "You did amazing 🥰"
+      "Can't stop thinking about you 🥰",
+      "Okay but my dog is the cutest thing ever 🥰",
+      "Had to send this 🥰"
     ],
-    "caution": "Do not read 🥰 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🥰 caveat: may be too romantic for casual contexts.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -3991,19 +3991,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Smiling Face with Hearts Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the smiling face with hearts emoji when a guy sends 🥰 in texting or social media.",
-    "answer": "When a guy sends 🥰, it usually reflects a loving face surrounded by hearts, showing deep affection. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🥰 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy dropping 🥰 after a compliment or inside joke usually signals playful interest—not a neutral acknowledgment.",
     "signals": [
-      "He uses 🥰 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"My dog is the cutest thing ever 🥰\"",
+      "He does not only drop 🥰 in large stranger-heavy group chats",
+      "🥰 follows personal topics—deep affection—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🥰",
-      "Proud of you 🥰",
+      "Lowkey you guys are the best friends 🥰",
+      "Had to say — can't stop thinking about you 🥰",
       "Had to tell you 🥰"
     ],
-    "caution": "A single 🥰 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🥰 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4015,19 +4015,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Smiling Face with Hearts Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🥰 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🥰 commonly means a loving face surrounded by hearts, showing deep affection. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the smiling face with hearts emoji 🥰 in everyday conversations.",
+    "answer": "On WhatsApp, 🥰 spices up private chats with romantic love energy. It is more common between people who already banter freely.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Shows up mid-conversation when the topic is romantic love",
+      "WhatsApp groups treat 🥰 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about deep affection"
     ],
     "examples": [
-      "Thanks so much 🥰",
-      "See you tomorrow 🥰",
-      "Got it 🥰"
+      "My dog is the cutest thing ever 🥰",
+      "You guys are the best friends 🥰",
+      "About that romantic love thing 🥰"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: may be too romantic for casual contexts.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4039,19 +4039,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Smiling Face with Hearts Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🥰 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🥰 is often used for a loving face surrounded by hearts, showing deep affection. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the smiling face with hearts emoji 🥰 in comments and story replies.",
+    "answer": "Instagram users pair 🥰 with praise like \"cute\", \"stunning\", or \"need this\" when the content fits romantic love.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"You guys are the best friends 🥰\"",
+      "Used when a visual post makes romantic love the instant reaction",
+      "Comment or story reply under content about romantic love"
     ],
     "examples": [
-      "This is everything 🥰",
-      "Need this 🥰",
-      "So good 🥰"
+      "Need this — can't stop thinking about you 🥰",
+      "This post — my dog is the cutest thing ever 🥰",
+      "This love post 🥰"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🥰 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4063,19 +4063,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Smiling Face with Hearts Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🥰 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🥰 frequently appears in comments and captions for a loving face surrounded by hearts, showing deep affection. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🥰 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Creators and viewers use 🥰 under clips about romantic love with internet-native captions—often ironic but still flirty.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for smiling face with hearts",
+      "Comment energy like \"Can't stop thinking about you 🥰\""
     ],
     "examples": [
-      "The ending 🥰",
-      "Not me watching this 10 times 🥰",
-      "Why is this so real 🥰"
+      "Not me my dog is the cutest thing ever 🥰",
+      "The way you guys are the best friends 🥰",
+      "The romantic love part 🥰"
     ],
-    "caution": "🥰 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🥰 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4087,19 +4087,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Hot Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🥵 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🥵, it often signals use 🥵 hot face to convey unwell emotions in texts and social media. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the hot face emoji when a girl uses 🥵 in a private message.",
+    "answer": "When a girl sends 🥵, it often adds playfulness, softness, or flirty subtext around feeling sick. The chat usually already feels personal.",
     "signals": [
-      "She pairs 🥵 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🥵 in your thread signals more than a polite one-off",
+      "She pairs 🥵 with wording about hot, not just logistics",
+      "She sends 🥵 when the topic involves feeling sick or social media posts"
     ],
     "examples": [
-      "That's so sweet 🥵",
-      "Miss you 🥵",
-      "You did amazing 🥵"
+      "Okay but midday jog mistake 🥵",
+      "Just posted my new photo 🥵",
+      "Had to send this 🥵"
     ],
-    "caution": "Do not read 🥵 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🥵 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4111,19 +4111,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Hot Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the hot face emoji when a guy sends 🥵 in texting or social media.",
-    "answer": "When a guy sends 🥵, it usually reflects use 🥵 hot face to convey unwell emotions in texts and social media. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the hot face emoji when a guy sends 🥵 in texting or social media.",
+    "answer": "A guy dropping 🥵 after a compliment or inside joke usually signals playful interest—not a neutral acknowledgment.",
     "signals": [
-      "He uses 🥵 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 🥵 when reacting to feeling sick or something visual in your chat",
+      "Private hot face emoji use carries more weight than a public comment",
+      "Tone aligns with \"Can't wait to see you 🥵\""
     ],
     "examples": [
-      "You killed it 🥵",
-      "Proud of you 🥵",
-      "Had to tell you 🥵"
+      "That outfit 🥵",
+      "Had to say — midday jog mistake 🥵",
+      "This hot moment 🥵"
     ],
-    "caution": "A single 🥵 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🥵 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4135,19 +4135,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Hot Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🥵 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🥵 commonly means use 🥵 hot face to convey unwell emotions in texts and social media. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🥵 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp, 🥵 often appears with short affectionate lines rather than logistics—social media posts context helps clarify intent.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🥵 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone 🥵 reads shorter than 🥵 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🥵",
-      "See you tomorrow 🥵",
-      "Got it 🥵"
+      "Sauna after leg day 🥵",
+      "Ghost pepper 🥵",
+      "About that feeling sick thing 🥵"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🥵 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4159,19 +4159,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Hot Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🥵 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🥵 is often used for use 🥵 hot face to convey unwell emotions in texts and social media. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🥵 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🥵 shows up in story replies, photo comments, and DMs when someone reacts with feeling sick.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to hot",
+      "Public 🥵 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"That's amazing 🥵\""
     ],
     "examples": [
-      "This is everything 🥵",
-      "Need this 🥵",
-      "So good 🥵"
+      "This post — just posted my new photo 🥵",
+      "Can't wait to see you 🥵",
+      "The social media posts vibe 🥵"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Never unsolicited on strangers.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4183,17 +4183,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Hot Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🥵 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🥵 frequently appears in comments and captions for use 🥵 hot face to convey unwell emotions in texts and social media. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the hot face emoji 🥵 in comment sections.",
+    "answer": "Creators and viewers use 🥵 under clips about feeling sick with internet-native captions—often ironic but still flirty.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for hot face",
+      "Comment energy like \"Just posted my new photo 🥵\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 🥵",
-      "Not me watching this 10 times 🥵",
-      "Why is this so real 🥵"
+      "Why is sauna after leg day 🥵",
+      "The way ghost pepper 🥵",
+      "This hot clip 🥵"
     ],
     "caution": "🥵 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -4207,19 +4207,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Grinning Face with Sweat Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😅 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😅, it often signals a nervous or relieved smile, often after an awkward situation. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 😅 — with signals and real examples.",
+    "answer": "😅 from a girl often means nervous situations. Multiple reactions in a row usually mean she found it genuinely hilarious.",
     "signals": [
-      "She pairs 😅 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 😅 with wording about nervous, not just logistics",
+      "She sends 😅 when the topic involves nervous situations or relief after stress",
+      "Her grinning face with sweat emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 😅",
-      "Miss you 😅",
-      "You did amazing 😅"
+      "Literally made it to the meeting just in time 😅",
+      "Okay but accidentally liked their old photo 😅",
+      "You would love this 😅"
     ],
-    "caution": "Do not read 😅 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "😅 caveat: sometimes confused with hot/sweaty meanings.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4231,19 +4231,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Grinning Face with Sweat Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the grinning face with sweat emoji when a guy sends 😅 in texting or social media.",
-    "answer": "When a guy sends 😅, it usually reflects a nervous or relieved smile, often after an awkward situation. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😅 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 😅 after a voice note, screenshot, or story usually means he is reacting with nervous situations.",
     "signals": [
-      "He uses 😅 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private grinning face with sweat emoji use carries more weight than a public comment",
+      "Tone aligns with \"Accidentally liked their old photo 😅\"",
+      "He does not only drop 😅 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it 😅",
-      "Proud of you 😅",
+      "Lowkey accidentally liked their old photo 😅",
+      "Had to say — hope I pass this exam 😅",
       "Had to tell you 😅"
     ],
-    "caution": "A single 😅 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😅 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4255,19 +4255,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Grinning Face with Sweat Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😅 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😅 commonly means a nervous or relieved smile, often after an awkward situation. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 😅 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp chats use 😅 to show nervous situations without typing a full reply—especially after voice notes or long stories.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 😅 reads shorter than 😅 plus a full sentence",
+      "Matches how your chat already uses grinning face with sweat reactions",
+      "Shows up mid-conversation when the topic is nervous situations"
     ],
     "examples": [
-      "Thanks so much 😅",
-      "See you tomorrow 😅",
-      "Got it 😅"
+      "Made it to the meeting just in time 😅",
+      "Quick one — accidentally liked their old photo 😅",
+      "FYI 😅"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "😅 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4279,19 +4279,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Grinning Face with Sweat Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😅 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😅 is often used for a nervous or relieved smile, often after an awkward situation. Comments, story replies, and DMs can change the tone.",
+    "description": "What 😅 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "😅 on Instagram usually reacts to humor tied to relief after stress—especially in meme-heavy comment threads.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 😅 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Hope I pass this exam 😅\"",
+      "Used when a visual post makes nervous situations the instant reaction"
     ],
     "examples": [
-      "This is everything 😅",
-      "Need this 😅",
-      "So good 😅"
+      "This post — hope I pass this exam 😅",
+      "Need this — made it to the meeting just in time 😅",
+      "This nervous post 😅"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😅 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4303,19 +4303,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Grinning Face with Sweat Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😅 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😅 frequently appears in comments and captions for a nervous or relieved smile, often after an awkward situation. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 😅 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 😅 often means \"I'm dead\" from laughing—especially under chaotic, cringe, or unexpectedly funny clips. Some communities prefer 💀 for the same deadpan tone.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 😅 on clips about nervous situations or relief after stress",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for grinning face with sweat"
     ],
     "examples": [
-      "The ending 😅",
-      "Not me watching this 10 times 😅",
-      "Why is this so real 😅"
+      "The way hope I pass this exam 😅",
+      "Not me made it to the meeting just in time 😅",
+      "The nervous situations part 😅"
     ],
-    "caution": "😅 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "😅 can feel dismissive in serious conversations. Skip it when someone shares bad news.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4327,19 +4327,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Crying Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😢 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😢, it often signals a single tear falling, showing sadness or disappointment. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 😢 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl stacks 😢, she is usually emphasizing intensity around sadness, not reporting literal tears.",
     "signals": [
-      "She pairs 😢 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her crying face emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Had to say goodbye today 😢\"",
+      "Repeated 😢 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet 😢",
-      "Miss you 😢",
-      "You did amazing 😢"
+      "Had to say goodbye today 😢",
+      "Literally the concert got cancelled 😢",
+      "Still thinking about tear 😢"
     ],
-    "caution": "Do not read 😢 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 😢 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4351,19 +4351,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Crying Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the crying face emoji when a guy sends 😢 in texting or social media.",
-    "answer": "When a guy sends 😢, it usually reflects a single tear falling, showing sadness or disappointment. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😢 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 😢 after something sadness is usually amplifying emotion for effect, not asking for comfort.",
     "signals": [
-      "He uses 😢 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "😢 follows personal topics—disappointment—rather than scheduling-only texts",
+      "He uses 😢 when reacting to sadness or something visual in your chat",
+      "Private crying face emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 😢",
-      "Proud of you 😢",
+      "Lowkey the concert got cancelled 😢",
+      "Had to say — this story got me 😢",
       "Had to tell you 😢"
     ],
-    "caution": "A single 😢 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😢 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4375,19 +4375,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Crying Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😢 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😢 commonly means a single tear falling, showing sadness or disappointment. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the crying face emoji 😢 in everyday conversations.",
+    "answer": "WhatsApp users send 😢 after long stories, cute updates, or absurd jokes. Meaning tracks sadness in the same message.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about disappointment",
+      "Standalone 😢 reads shorter than 😢 plus a full sentence",
+      "Matches how your chat already uses crying face reactions"
     ],
     "examples": [
-      "Thanks so much 😢",
-      "See you tomorrow 😢",
-      "Got it 😢"
+      "The concert got cancelled 😢",
+      "Quick one — this story got me 😢",
+      "Quick update 😢"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "😢 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4399,19 +4399,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Crying Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😢 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😢 is often used for a single tear falling, showing sadness or disappointment. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the crying face emoji 😢 in comments and story replies.",
+    "answer": "On Instagram, 😢 reacts to wholesome, shocking, or painfully relatable content. It signals sadness in comments and DMs.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about sadness",
+      "Paired with short praise tied to tear",
+      "Public 😢 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 😢",
-      "Need this 😢",
-      "So good 😢"
+      "Need this — this story got me 😢",
+      "Had to say goodbye today 😢",
+      "Needed on my feed 😢"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😢 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4423,19 +4423,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Crying Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😢 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😢 frequently appears in comments and captions for a single tear falling, showing sadness or disappointment. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the crying face emoji 😢 in comment sections.",
+    "answer": "TikTok commenters use 😢 when a clip is too real, too funny, or too chaotic. Tone is meme-exaggerated.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Had to say goodbye today 😢\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 😢 on clips about sadness or disappointment"
     ],
     "examples": [
-      "The ending 😢",
-      "Not me watching this 10 times 😢",
-      "Why is this so real 😢"
+      "Why is this story got me 😢",
+      "The way had to say goodbye today 😢",
+      "This tear clip 😢"
     ],
-    "caution": "😢 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—😢 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4447,19 +4447,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Pensive Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😔 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😔, it often signals add tired vibes to your chats with the pensive face emoji 😔. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the pensive face emoji when a girl uses 😔 in a private message.",
+    "answer": "When a girl sends 😔, it often means strong emotion—laughing hard, feeling overwhelmed, or playful drama. It is flexible and context-heavy.",
     "signals": [
-      "She pairs 😔 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 😔 in your thread signals more than a polite one-off",
+      "She pairs 😔 with wording about pensive, not just logistics",
+      "She sends 😔 when the topic involves expressing tiredness or social media posts"
     ],
     "examples": [
-      "That's so sweet 😔",
-      "Miss you 😔",
-      "You did amazing 😔"
+      "Okay but just posted my new photo 😔",
+      "Can't wait to see you 😔",
+      "Had to send this 😔"
     ],
-    "caution": "Do not read 😔 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Her tone varies by relationship—friends, family, and partners all use 😔 differently.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4471,19 +4471,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Pensive Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the pensive face emoji when a guy sends 😔 in texting or social media.",
-    "answer": "When a guy sends 😔, it usually reflects add tired vibes to your chats with the pensive face emoji 😔. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the pensive face emoji when a guy sends 😔 in texting or social media.",
+    "answer": "A guy using 😔 after something expressing tiredness is usually amplifying emotion for effect, not asking for comfort.",
     "signals": [
-      "He uses 😔 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Can't wait to see you 😔\"",
+      "He does not only drop 😔 in large stranger-heavy group chats",
+      "😔 follows personal topics—social media posts—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 😔",
-      "Proud of you 😔",
-      "Had to tell you 😔"
+      "Can't wait to see you 😔",
+      "Had to say — that's amazing 😔",
+      "This pensive moment 😔"
     ],
-    "caution": "A single 😔 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😔 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4495,19 +4495,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Pensive Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😔 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😔 commonly means add tired vibes to your chats with the pensive face emoji 😔. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the pensive face emoji 😔 in everyday conversations.",
+    "answer": "On WhatsApp, 😔 can mean laughing, sympathy, overwhelm, or dramatic emphasis. Voice-note reactions and family chats use it constantly.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone 😔 reads shorter than 😔 plus a full sentence",
+      "Matches how your chat already uses pensive face reactions"
     ],
     "examples": [
-      "Thanks so much 😔",
-      "See you tomorrow 😔",
-      "Got it 😔"
+      "Should've said something 😔",
+      "Quiet night 😔",
+      "About that expressing tiredness thing 😔"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 😔 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4519,19 +4519,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Pensive Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😔 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😔 is often used for add tired vibes to your chats with the pensive face emoji 😔. Comments, story replies, and DMs can change the tone.",
+    "description": "What 😔 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 😔 reacts to wholesome, shocking, or painfully relatable content. It signals expressing tiredness in comments and DMs.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"That's amazing 😔\"",
+      "Used when a visual post makes expressing tiredness the instant reaction",
+      "Comment or story reply under content about expressing tiredness"
     ],
     "examples": [
-      "This is everything 😔",
-      "Need this 😔",
-      "So good 😔"
+      "This post — just one of those days 😔",
+      "Just posted my new photo 😔",
+      "The social media posts vibe 😔"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😔 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4543,19 +4543,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Pensive Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😔 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😔 frequently appears in comments and captions for add tired vibes to your chats with the pensive face emoji 😔. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 😔 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "TikTok commenters use 😔 when a clip is too real, too funny, or too chaotic. Tone is meme-exaggerated.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 😔 on clips about expressing tiredness or social media posts",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 😔",
-      "Not me watching this 10 times 😔",
-      "Why is this so real 😔"
+      "Not me lot on my mind 😔",
+      "The way those summers 😔",
+      "The expressing tiredness part 😔"
     ],
-    "caution": "😔 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "😔 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4567,19 +4567,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Unamused Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 😒 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 😒, it often signals add neutral vibes to your chats with the unamused face emoji 😒. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 😒 — with signals and real examples.",
+    "answer": "😒 from a girl can add side-eye, curiosity, or playful suspicion around showing indifference. Read the sentence it follows.",
     "signals": [
-      "She pairs 😒 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 😒 in your thread signals more than a polite one-off",
+      "She pairs 😒 with wording about unamused, not just logistics",
+      "She sends 😒 when the topic involves showing indifference or social media posts"
     ],
     "examples": [
-      "That's so sweet 😒",
-      "Miss you 😒",
-      "You did amazing 😒"
+      "Literally again? 😒",
+      "Okay but we get it 😒",
+      "You would love this 😒"
     ],
-    "caution": "Do not read 😒 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Her tone varies by relationship—friends, family, and partners all use 😒 differently.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4591,19 +4591,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Unamused Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the unamused face emoji when a guy sends 😒 in texting or social media.",
-    "answer": "When a guy sends 😒, it usually reflects add neutral vibes to your chats with the unamused face emoji 😒. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 😒 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 😒 after a hot take usually signals showing indifference, not enthusiastic support.",
     "signals": [
-      "He uses 😒 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "😒 follows personal topics—social media posts—rather than scheduling-only texts",
+      "He uses 😒 when reacting to showing indifference or something visual in your chat",
+      "Private unamused face emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 😒",
-      "Proud of you 😒",
+      "Lowkey we get it 😒",
+      "Had to say — ha. 😒",
       "Had to tell you 😒"
     ],
-    "caution": "A single 😒 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "😒 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4615,19 +4615,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Unamused Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 😒 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 😒 commonly means add neutral vibes to your chats with the unamused face emoji 😒. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the unamused face emoji 😒 in everyday conversations.",
+    "answer": "On WhatsApp, 😒 shows up when someone side-eyes a plan, joke, or excuse—showing indifference.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about social media posts",
+      "Standalone 😒 reads shorter than 😒 plus a full sentence",
+      "Matches how your chat already uses unamused face reactions"
     ],
     "examples": [
-      "Thanks so much 😒",
-      "See you tomorrow 😒",
-      "Got it 😒"
+      "Doubt it 😒",
+      "Just posted my new photo 😒",
+      "About that showing indifference thing 😒"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "😒 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4639,19 +4639,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Unamused Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 😒 means on Instagram—with real examples.",
-    "answer": "On Instagram, 😒 is often used for add neutral vibes to your chats with the unamused face emoji 😒. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the unamused face emoji 😒 in comments and story replies.",
+    "answer": "On Instagram, 😒 reacts to bold claims, staged photos, or chaotic captions with showing indifference.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about showing indifference",
+      "Paired with short praise tied to unamused",
+      "Public 😒 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 😒",
-      "Need this 😒",
-      "So good 😒"
+      "Need this — wow groundbreaking 😒",
+      "Again? 😒",
+      "Needed on my feed 😒"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "😒 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4663,19 +4663,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Unamused Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 😒 means on TikTok—with real examples.",
-    "answer": "On TikTok, 😒 frequently appears in comments and captions for add neutral vibes to your chats with the unamused face emoji 😒. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 😒 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "😒 on TikTok frequently marks disbelief or second-guessing in fast comment culture.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 😒 on clips about showing indifference or social media posts",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 😒",
-      "Not me watching this 10 times 😒",
-      "Why is this so real 😒"
+      "Not me doubt it 😒",
+      "Why is just posted my new photo 😒",
+      "Not me relating 😒"
     ],
-    "caution": "😒 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "😒 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4687,19 +4687,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Face with Rolling Eyes Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🙄 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🙄, it often signals an eye roll expressing annoyance, disbelief, or frustration. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the face with rolling eyes emoji when a girl uses 🙄 in a private message.",
+    "answer": "When a girl sends 🙄, she may be doubting, teasing, or thinking out loud—annoyance. Sarcasm is common.",
     "signals": [
-      "She pairs 🙄 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"He's mansplaining again 🙄\"",
+      "Repeated 🙄 in your thread signals more than a polite one-off",
+      "She pairs 🙄 with wording about eye roll, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🙄",
-      "Miss you 🙄",
-      "You did amazing 🙄"
+      "Okay but sure, that happened 🙄",
+      "He's mansplaining again 🙄",
+      "Had to send this 🙄"
     ],
-    "caution": "Do not read 🙄 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🙄 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4711,19 +4711,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Face with Rolling Eyes Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the face with rolling eyes emoji when a guy sends 🙄 in texting or social media.",
-    "answer": "When a guy sends 🙄, it usually reflects an eye roll expressing annoyance, disbelief, or frustration. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🙄 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "When a guy sends 🙄, it often means skepticism, irony, or \"let me think about that\"—annoyance.",
     "signals": [
-      "He uses 🙄 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🙄 follows personal topics—exasperation—rather than scheduling-only texts",
+      "He uses 🙄 when reacting to annoyance or something visual in your chat",
+      "Private face with rolling eyes emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🙄",
-      "Proud of you 🙄",
-      "Had to tell you 🙄"
+      "Lowkey he's mansplaining again 🙄",
+      "Another Monday meeting 🙄",
+      "No cap 🙄"
     ],
-    "caution": "A single 🙄 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🙄 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4735,19 +4735,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Face with Rolling Eyes Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🙄 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🙄 commonly means an eye roll expressing annoyance, disbelief, or frustration. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🙄 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "On WhatsApp, 🙄 often punctuates a skeptical reply instead of writing a full disagreement.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about exasperation",
+      "Standalone 🙄 reads shorter than 🙄 plus a full sentence",
+      "Matches how your chat already uses face with rolling eyes reactions"
     ],
     "examples": [
-      "Thanks so much 🙄",
-      "See you tomorrow 🙄",
-      "Got it 🙄"
+      "Another Monday meeting 🙄",
+      "Sure, that happened 🙄",
+      "About that annoyance thing 🙄"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: very sassy - can offend easily.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4759,19 +4759,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Face with Rolling Eyes Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🙄 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🙄 is often used for an eye roll expressing annoyance, disbelief, or frustration. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🙄 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🙄 reacts to bold claims, staged photos, or chaotic captions with annoyance.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Similar comment energy to \"Sure, that happened 🙄\"",
+      "Used when a visual post makes annoyance the instant reaction",
+      "Comment or story reply under content about annoyance"
     ],
     "examples": [
-      "This is everything 🙄",
-      "Need this 🙄",
-      "So good 🙄"
+      "This post — another Monday meeting 🙄",
+      "Sure, that happened 🙄",
+      "The exasperation vibe 🙄"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Very sassy - can offend easily",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4783,19 +4783,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Face with Rolling Eyes Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🙄 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🙄 frequently appears in comments and captions for an eye roll expressing annoyance, disbelief, or frustration. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🙄 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Users comment 🙄 when a plot twist, rant, or tutorial feels annoyance. Tone can be sincere or sarcastic.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 🙄 on clips about annoyance or exasperation",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for face with rolling eyes"
     ],
     "examples": [
-      "The ending 🙄",
-      "Not me watching this 10 times 🙄",
-      "Why is this so real 🙄"
+      "Not me another Monday meeting 🙄",
+      "The way sure, that happened 🙄",
+      "The annoyance part 🙄"
     ],
-    "caution": "🙄 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: very sassy - can offend easily.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4807,19 +4807,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Raising Hands Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🙌 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🙌, it often signals celebration! hands raised in joy, praise, or excitement. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🙌 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl uses 🙌 after plans or favors, it often confirms celebration with efficient, friendly tone.",
     "signals": [
-      "She pairs 🙌 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Repeated 🙌 in your thread signals more than a polite one-off",
+      "She pairs 🙌 with wording about celebration, not just logistics",
+      "She sends 🙌 when the topic involves celebration or excitement"
     ],
     "examples": [
-      "That's so sweet 🙌",
-      "Miss you 🙌",
-      "You did amazing 🙌"
+      "Passed the exam 🙌",
+      "Literally weekend 🙌",
+      "Still thinking about celebration 🙌"
     ],
-    "caution": "Do not read 🙌 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Do not read 🙌 as automatically romantic or serious. One emoji rarely defines intent without the full conversation.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4831,19 +4831,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Raising Hands Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the raising hands emoji when a guy sends 🙌 in texting or social media.",
-    "answer": "When a guy sends 🙌, it usually reflects celebration! hands raised in joy, praise, or excitement. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🙌 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 🙌 after instructions or good news usually means celebration, not a deep emotional statement.",
     "signals": [
-      "He uses 🙌 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🙌 follows personal topics—excitement—rather than scheduling-only texts",
+      "He uses 🙌 when reacting to celebration or something visual in your chat",
+      "Private raising hands emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🙌",
-      "Proud of you 🙌",
+      "Lowkey weekend 🙌",
+      "Had to say — so grateful 🙌",
       "Had to tell you 🙌"
     ],
-    "caution": "A single 🙌 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🙌 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4855,19 +4855,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Raising Hands Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🙌 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🙌 commonly means celebration! hands raised in joy, praise, or excitement. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🙌 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp users send 🙌 after plans, favors, and updates. Tone still depends on relationship norms.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 🙌 reads shorter than 🙌 plus a full sentence",
+      "Matches how your chat already uses raising hands reactions",
+      "Shows up mid-conversation when the topic is celebration"
     ],
     "examples": [
-      "Thanks so much 🙌",
-      "See you tomorrow 🙌",
-      "Got it 🙌"
+      "Ship day 🙌",
+      "Quick one — friday finally 🙌",
+      "FYI 🙌"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: clear celebratory meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4879,19 +4879,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Raising Hands Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🙌 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🙌 is often used for celebration! hands raised in joy, praise, or excitement. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🙌 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🙌 on Instagram often signals approval around excitement without starting a longer conversation.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🙌 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Tickets secured 🙌\"",
+      "Used when a visual post makes celebration the instant reaction"
     ],
     "examples": [
-      "This is everything 🙌",
-      "Need this 🙌",
-      "So good 🙌"
+      "This post — champions 🙌",
+      "Need this — passed the exam 🙌",
+      "This celebration post 🙌"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🙌 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4903,19 +4903,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Raising Hands Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🙌 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🙌 frequently appears in comments and captions for celebration! hands raised in joy, praise, or excitement. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How 🙌 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "On TikTok, 🙌 appears in tutorial comments, challenge replies, and \"we did it\" moments tied to celebration.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 🙌 on clips about celebration or excitement",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for raising hands"
     ],
     "examples": [
-      "The ending 🙌",
-      "Not me watching this 10 times 🙌",
-      "Why is this so real 🙌"
+      "The way we won 🙌",
+      "Not me tickets secured 🙌",
+      "The celebration part 🙌"
     ],
-    "caution": "🙌 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: clear celebratory meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4927,19 +4927,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Party Popper Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🎉 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🎉, it often signals party popper exploding with confetti - celebration time!. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 🎉 — with signals and real examples.",
+    "answer": "When a girl sends 🎉, she often thinks something is impressive, attractive, or tied to celebrations.",
     "signals": [
-      "She pairs 🎉 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends 🎉 when the topic involves celebrations or parties",
+      "Her party popper emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Happy birthday 🎉\""
     ],
     "examples": [
-      "That's so sweet 🎉",
-      "Miss you 🎉",
-      "You did amazing 🎉"
+      "Literally we did it 🎉",
+      "Congratulations 🎉",
+      "Still thinking about party 🎉"
     ],
-    "caution": "Do not read 🎉 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🎉 caveat: clear celebratory meaning.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -4951,19 +4951,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Party Popper Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the party popper emoji when a guy sends 🎉 in texting or social media.",
-    "answer": "When a guy sends 🎉, it usually reflects party popper exploding with confetti - celebration time!. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🎉 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy dropping 🎉 on a photo, track, or win usually means celebrations with enthusiastic tone.",
     "signals": [
-      "He uses 🎉 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🎉 follows personal topics—parties—rather than scheduling-only texts",
+      "He uses 🎉 when reacting to celebrations or something visual in your chat",
+      "Private party popper emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🎉",
-      "Proud of you 🎉",
+      "Lowkey happy birthday 🎉",
+      "Had to say — we did it 🎉",
       "Had to tell you 🎉"
     ],
-    "caution": "A single 🎉 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Clear celebratory meaning",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -4975,19 +4975,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Party Popper Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🎉 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🎉 commonly means party popper exploding with confetti - celebration time!. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🎉 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp, 🎉 is a visual exclamation for parties, especially when nobody wants to type a paragraph.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses party popper reactions",
+      "Shows up mid-conversation when the topic is celebrations",
+      "WhatsApp groups treat 🎉 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🎉",
-      "See you tomorrow 🎉",
-      "Got it 🎉"
+      "We did it 🎉",
+      "Congratulations 🎉",
+      "About that celebrations thing 🎉"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 🎉 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -4999,19 +4999,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Party Popper Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🎉 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🎉 is often used for party popper exploding with confetti - celebration time!. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🎉 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "🎉 on Instagram marks parties content as impressive or trending without needing a long reply.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🎉 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Congratulations 🎉\"",
+      "Used when a visual post makes celebrations the instant reaction"
     ],
     "examples": [
-      "This is everything 🎉",
-      "Need this 🎉",
-      "So good 🎉"
+      "Happy birthday 🎉",
+      "Need this — we did it 🎉",
+      "Needed on my feed 🎉"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🎉 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5023,19 +5023,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Party Popper Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🎉 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🎉 frequently appears in comments and captions for party popper exploding with confetti - celebration time!. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the party popper emoji 🎉 in comment sections.",
+    "answer": "TikTok users spam 🎉 when a clip is celebrations or unexpectedly clean. Tone is loud, casual, and meme-friendly.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Happy birthday 🎉\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🎉 on clips about celebrations or parties"
     ],
     "examples": [
-      "The ending 🎉",
-      "Not me watching this 10 times 🎉",
-      "Why is this so real 🎉"
+      "Why is happy birthday 🎉",
+      "The way we did it 🎉",
+      "This party clip 🎉"
     ],
-    "caution": "🎉 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🎉 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5047,19 +5047,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Star-Struck Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤩 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤩, it often signals star eyes showing amazement, excitement, or being starstruck. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the star-struck emoji when a girl uses 🤩 in a private message.",
+    "answer": "If a girl reacts with 🤩, she is usually amplifying meeting celebrities around something visual or exciting.",
     "signals": [
-      "She pairs 🤩 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 🤩 with wording about stars, not just logistics",
+      "She sends 🤩 when the topic involves meeting celebrities or amazing experiences",
+      "Her star-struck emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 🤩",
-      "Miss you 🤩",
-      "You did amazing 🤩"
+      "Okay but i got VIP tickets 🤩",
+      "Literally just met my favorite author 🤩",
+      "You would love this 🤩"
     ],
-    "caution": "Do not read 🤩 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🤩 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5071,19 +5071,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Star-Struck Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the star-struck emoji when a guy sends 🤩 in texting or social media.",
-    "answer": "When a guy sends 🤩, it usually reflects star eyes showing amazement, excitement, or being starstruck. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🤩 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🤩 from a guy commonly signals meeting celebrities. In DMs it can read flirty; in group chats it is often pure hype.",
     "signals": [
-      "He uses 🤩 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He uses 🤩 when reacting to meeting celebrities or something visual in your chat",
+      "Private star-struck emoji use carries more weight than a public comment",
+      "Tone aligns with \"This concert is everything 🤩\""
     ],
     "examples": [
-      "You killed it 🤩",
-      "Proud of you 🤩",
+      "Had to say — i got VIP tickets 🤩",
+      "Lowkey just met my favorite author 🤩",
       "Had to tell you 🤩"
     ],
-    "caution": "A single 🤩 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🤩 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5095,19 +5095,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Star-Struck Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤩 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤩 commonly means star eyes showing amazement, excitement, or being starstruck. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the star-struck emoji 🤩 in everyday conversations.",
+    "answer": "On WhatsApp, 🤩 celebrates good news, impressive photos, and meeting celebrities. Family and friend groups use it as shared hype language.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat 🤩 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about amazing experiences",
+      "Standalone 🤩 reads shorter than 🤩 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much 🤩",
-      "See you tomorrow 🤩",
-      "Got it 🤩"
+      "This concert is everything 🤩",
+      "I got VIP tickets 🤩",
+      "About that meeting celebrities thing 🤩"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than 🤩 alone.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5119,19 +5119,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Star-Struck Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤩 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤩 is often used for star eyes showing amazement, excitement, or being starstruck. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🤩 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, 🤩 is classic compliment language for photos, reels, outfits, and edits—meeting celebrities.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about meeting celebrities",
+      "Paired with short praise tied to stars",
+      "Public 🤩 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 🤩",
-      "Need this 🤩",
-      "So good 🤩"
+      "This post — i got VIP tickets 🤩",
+      "Just met my favorite author 🤩",
+      "The amazing experiences vibe 🤩"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🤩 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5143,17 +5143,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Star-Struck Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤩 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤩 frequently appears in comments and captions for star eyes showing amazement, excitement, or being starstruck. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🤩 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "TikTok users spam 🤩 when a clip is meeting celebrities or unexpectedly clean. Tone is loud, casual, and meme-friendly.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🤩 on clips about meeting celebrities or amazing experiences",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 🤩",
-      "Not me watching this 10 times 🤩",
-      "Why is this so real 🤩"
+      "Not me i got VIP tickets 🤩",
+      "The way just met my favorite author 🤩",
+      "The meeting celebrities part 🤩"
     ],
     "caution": "🤩 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -5167,19 +5167,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Zany Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤪 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤪, it often signals a wild, crazy face for unhinged or silly moments. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🤪 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl drops 🤪 after your message, she likely thinks the moment is being crazy/wild—not that she is upset.",
     "signals": [
-      "She pairs 🤪 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Third coffee and feeling dangerous 🤪\"",
+      "Repeated 🤪 in your thread signals more than a polite one-off",
+      "She pairs 🤪 with wording about crazy, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🤪",
-      "Miss you 🤪",
-      "You did amazing 🤪"
+      "Who needs sleep anyway 🤪",
+      "Literally third coffee and feeling dangerous 🤪",
+      "Still thinking about crazy 🤪"
     ],
-    "caution": "Do not read 🤪 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🤪 caveat: can seem too chaotic for some.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5191,19 +5191,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Zany Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the zany face emoji when a guy sends 🤪 in texting or social media.",
-    "answer": "When a guy sends 🤪, it usually reflects a wild, crazy face for unhinged or silly moments. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🤪 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 🤪 after a voice note, screenshot, or story usually means he is reacting with being crazy/wild.",
     "signals": [
-      "He uses 🤪 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Dancing in the rain at midnight 🤪\"",
+      "He does not only drop 🤪 in large stranger-heavy group chats",
+      "🤪 follows personal topics—silly moments—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🤪",
-      "Proud of you 🤪",
+      "Lowkey dancing in the rain at midnight 🤪",
+      "Had to say — who needs sleep anyway 🤪",
       "Had to tell you 🤪"
     ],
-    "caution": "A single 🤪 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "🤪 from a guy is not a confession by itself. Read the words around it and how often it appears.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5215,19 +5215,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Zany Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤪 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤪 commonly means a wild, crazy face for unhinged or silly moments. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🤪 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "WhatsApp chats use 🤪 to show being crazy/wild without typing a full reply—especially after voice notes or long stories.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Shows up mid-conversation when the topic is being crazy/wild",
+      "WhatsApp groups treat 🤪 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about silly moments"
     ],
     "examples": [
-      "Thanks so much 🤪",
-      "See you tomorrow 🤪",
-      "Got it 🤪"
+      "Who needs sleep anyway 🤪",
+      "Quick one — third coffee and feeling dangerous 🤪",
+      "FYI 🤪"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "In emotional threads, 🤪 without words may feel too short. Add a line when stakes are high.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5239,19 +5239,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Zany Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤪 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤪 is often used for a wild, crazy face for unhinged or silly moments. Comments, story replies, and DMs can change the tone.",
+    "description": "How 🤪 is used in Instagram captions, comments, stories, and DMs.",
+    "answer": "Instagram commenters use 🤪 when a caption, edit, or fail clip feels being crazy/wild. It signals amused disbelief more than sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Paired with short praise tied to crazy",
+      "Public 🤪 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Who needs sleep anyway 🤪\""
     ],
     "examples": [
-      "This is everything 🤪",
-      "Need this 🤪",
-      "So good 🤪"
+      "Third coffee and feeling dangerous 🤪",
+      "This post — dancing in the rain at midnight 🤪",
+      "The silly moments vibe 🤪"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "🤪 under a viral post is low-commitment praise—not always a deep statement.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5263,19 +5263,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Zany Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤪 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤪 frequently appears in comments and captions for a wild, crazy face for unhinged or silly moments. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🤪 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🤪 in TikTok comments signals being crazy/wild, usually with phrases like \"not me\", \"help\", or \"I can't\".",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🤪 on clips about being crazy/wild or silly moments",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 🤪",
-      "Not me watching this 10 times 🤪",
-      "Why is this so real 🤪"
+      "Not me third coffee and feeling dangerous 🤪",
+      "Why is dancing in the rain at midnight 🤪",
+      "Not me relating 🤪"
     ],
-    "caution": "🤪 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Gen Z comment culture shifts fast—🤪 here may not match how older relatives use it on WhatsApp.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5287,19 +5287,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "See-no-evil Monkey Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🙈 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🙈, it often signals use 🙈 see-no-evil monkey to convey playful emotions in texts and social media. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 🙈 — with signals and real examples.",
+    "answer": "🙈 from a girl can add mischievous humor around see no evil without a long explanation.",
     "signals": [
-      "She pairs 🙈 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Just posted my new photo 🙈\"",
+      "Repeated 🙈 in your thread signals more than a polite one-off",
+      "She pairs 🙈 with wording about see-no-evil, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🙈",
-      "Miss you 🙈",
-      "You did amazing 🙈"
+      "Literally checking my account 🙈",
+      "Okay but too cute 🙈",
+      "You would love this 🙈"
     ],
-    "caution": "Do not read 🙈 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🙈 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5311,19 +5311,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "See-no-evil Monkey Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the see-no-evil monkey emoji when a guy sends 🙈 in texting or social media.",
-    "answer": "When a guy sends 🙈, it usually reflects use 🙈 see-no-evil monkey to convey playful emotions in texts and social media. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🙈 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🙈 from a guy is usually meme humor tied to see no evil, not a serious statement.",
     "signals": [
-      "He uses 🙈 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Tone aligns with \"Can't wait to see you 🙈\"",
+      "He does not only drop 🙈 in large stranger-heavy group chats",
+      "🙈 follows personal topics—social media posts—rather than scheduling-only texts"
     ],
     "examples": [
-      "You killed it 🙈",
-      "Proud of you 🙈",
+      "Had to say — can't wait to see you 🙈",
+      "Lowkey that's amazing 🙈",
       "Had to tell you 🙈"
     ],
-    "caution": "A single 🙈 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "Avoid when someone needs serious support.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5335,19 +5335,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "See-no-evil Monkey Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🙈 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🙈 commonly means use 🙈 see-no-evil monkey to convey playful emotions in texts and social media. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the see-no-evil monkey emoji 🙈 in everyday conversations.",
+    "answer": "Family and friend groups use 🙈 when someone shares drama and others pretend not to watch—see no evil.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses see-no-evil monkey reactions",
+      "Shows up mid-conversation when the topic is see no evil",
+      "WhatsApp groups treat 🙈 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🙈",
-      "See you tomorrow 🙈",
-      "Got it 🙈"
+      "Can't wait to see you 🙈",
+      "Quick one — that's amazing 🙈",
+      "Quick update 🙈"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "Group chats and private chats use 🙈 with very different levels of intimacy.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5359,19 +5359,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "See-no-evil Monkey Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🙈 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🙈 is often used for use 🙈 see-no-evil monkey to convey playful emotions in texts and social media. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🙈 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🙈 on Instagram signals see no evil in gossip-heavy comment threads.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about see no evil",
+      "Paired with short praise tied to see-no-evil",
+      "Public 🙈 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything 🙈",
-      "Need this 🙈",
-      "So good 🙈"
+      "This post — why did I say that 🙈",
+      "Need this — checking my account 🙈",
+      "This see-no-evil post 🙈"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Public comments with 🙈 are often casual hype. Private DMs may carry more personal intent.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5383,17 +5383,17 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "See-no-evil Monkey Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🙈 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🙈 frequently appears in comments and captions for use 🙈 see-no-evil monkey to convey playful emotions in texts and social media. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🙈 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🙈 on TikTok fits ironic distance—laughing while pretending not to engage.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Comment energy like \"Just posted my new photo 🙈\"",
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🙈 on clips about see no evil or social media posts"
     ],
     "examples": [
-      "The ending 🙈",
-      "Not me watching this 10 times 🙈",
-      "Why is this so real 🙈"
+      "Not me can't wait to see you 🙈",
+      "Why is that's amazing 🙈",
+      "Not me relating 🙈"
     ],
     "caution": "🙈 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
     "relatedContexts": [
@@ -5407,19 +5407,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Heart on Fire Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What ❤️‍🔥 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends ❤️‍🔥, it often signals a heart on fire - burning passion and desire. Tone depends on your relationship and the words around the emoji.",
+    "description": "What ❤️‍🔥 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "❤️‍🔥 from a girl commonly expresses passion. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs ❤️‍🔥 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She sends ❤️‍🔥 when the topic involves passion or desire",
+      "Her heart on fire emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"My heart is on fire for you ❤️‍🔥\""
     ],
     "examples": [
-      "That's so sweet ❤️‍🔥",
-      "Miss you ❤️‍🔥",
-      "You did amazing ❤️‍🔥"
+      "Burning love ❤️‍🔥",
+      "Literally my heart is on fire for you ❤️‍🔥",
+      "Still thinking about heart ❤️‍🔥"
     ],
-    "caution": "Do not read ❤️‍🔥 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single ❤️‍🔥 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5431,19 +5431,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Heart on Fire Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the heart on fire emoji when a guy sends ❤️‍🔥 in texting or social media.",
-    "answer": "When a guy sends ❤️‍🔥, it usually reflects a heart on fire - burning passion and desire. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the heart on fire emoji when a guy sends ❤️‍🔥 in texting or social media.",
+    "answer": "If a guy sends ❤️‍🔥 after something personal, it commonly signals passion. It amplifies passion, obsession, or intense approval beyond a plain heart.",
     "signals": [
-      "He uses ❤️‍🔥 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "Private heart on fire emoji use carries more weight than a public comment",
+      "Tone aligns with \"Can't stop thinking about you ❤️‍🔥\"",
+      "He does not only drop ❤️‍🔥 in large stranger-heavy group chats"
     ],
     "examples": [
-      "You killed it ❤️‍🔥",
-      "Proud of you ❤️‍🔥",
-      "Had to tell you ❤️‍🔥"
+      "Can't stop thinking about you ❤️‍🔥",
+      "Had to say — burning love ❤️‍🔥",
+      "This heart moment ❤️‍🔥"
     ],
-    "caution": "A single ❤️‍🔥 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone ❤️‍🔥 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5455,19 +5455,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Heart on Fire Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What ❤️‍🔥 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, ❤️‍🔥 commonly means a heart on fire - burning passion and desire. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "WhatsApp meaning of the heart on fire emoji ❤️‍🔥 in everyday conversations.",
+    "answer": "WhatsApp users drop ❤️‍🔥 after thanks, encouragement, good news, or emotional updates. It amplifies passion, obsession, or intense approval beyond a plain heart.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "WhatsApp groups treat ❤️‍🔥 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about desire",
+      "Standalone ❤️‍🔥 reads shorter than ❤️‍🔥 plus a full sentence"
     ],
     "examples": [
-      "Thanks so much ❤️‍🔥",
-      "See you tomorrow ❤️‍🔥",
-      "Got it ❤️‍🔥"
+      "Can't stop thinking about you ❤️‍🔥",
+      "Quick one — burning love ❤️‍🔥",
+      "Quick update ❤️‍🔥"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: very intense emotion.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5479,19 +5479,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Heart on Fire Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How ❤️‍🔥 means on Instagram—with real examples.",
-    "answer": "On Instagram, ❤️‍🔥 is often used for a heart on fire - burning passion and desire. Comments, story replies, and DMs can change the tone.",
+    "description": "What ❤️‍🔥 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "On Instagram, ❤️‍🔥 tags admiration, support, or aesthetic appreciation around passion. Comments, story replies, and DMs each shift the tone.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about passion",
+      "Paired with short praise tied to heart",
+      "Public ❤️‍🔥 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything ❤️‍🔥",
-      "Need this ❤️‍🔥",
-      "So good ❤️‍🔥"
+      "This post — my heart is on fire for you ❤️‍🔥",
+      "Can't stop thinking about you ❤️‍🔥",
+      "The desire vibe ❤️‍🔥"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Very intense emotion",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5503,19 +5503,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Heart on Fire Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What ❤️‍🔥 means on TikTok—with real examples.",
-    "answer": "On TikTok, ❤️‍🔥 frequently appears in comments and captions for a heart on fire - burning passion and desire. Gen Z slang and meme culture often amplify the tone.",
+    "description": "TikTok meaning of the heart on fire emoji ❤️‍🔥 in comment sections.",
+    "answer": "TikTok comment sections use ❤️‍🔥 for wholesome hype, ship culture, or exaggerated affection around desire. It amplifies passion, obsession, or intense approval beyond a plain heart.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for heart on fire",
+      "Comment energy like \"My heart is on fire for you ❤️‍🔥\""
     ],
     "examples": [
-      "The ending ❤️‍🔥",
-      "Not me watching this 10 times ❤️‍🔥",
-      "Why is this so real ❤️‍🔥"
+      "Why is burning love ❤️‍🔥",
+      "The way my heart is on fire for you ❤️‍🔥",
+      "This heart clip ❤️‍🔥"
     ],
-    "caution": "❤️‍🔥 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: very intense emotion.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5527,19 +5527,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Mending Heart Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What ❤️‍🩹 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends ❤️‍🩹, it often signals a heart with bandage - healing and recovery. Tone depends on your relationship and the words around the emoji.",
+    "description": "How to read the mending heart emoji when a girl uses ❤️‍🩹 in a private message.",
+    "answer": "❤️‍🩹 from a girl commonly expresses healing. Look at whether she sends it after compliments, goodnight texts, or personal updates—not just polite acknowledgments.",
     "signals": [
-      "She pairs ❤️‍🩹 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Her mending heart emoji appears in private chats more than cold group replies",
+      "Message rhythm matches examples like \"Slowly healing ❤️‍🩹\"",
+      "Repeated ❤️‍🩹 in your thread signals more than a polite one-off"
     ],
     "examples": [
-      "That's so sweet ❤️‍🩹",
-      "Miss you ❤️‍🩹",
-      "You did amazing ❤️‍🩹"
+      "Okay but getting better every day ❤️‍🩹",
+      "Literally here for you ❤️‍🩹",
+      "You would love this ❤️‍🩹"
     ],
-    "caution": "Do not read ❤️‍🩹 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "Color and fandom context change how ❤️‍🩹 lands—mending heart has its own subtext.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5551,19 +5551,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Mending Heart Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the mending heart emoji when a guy sends ❤️‍🩹 in texting or social media.",
-    "answer": "When a guy sends ❤️‍🩹, it usually reflects a heart with bandage - healing and recovery. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read ❤️‍🩹 from a guy — intent, tone, and conversation patterns.",
+    "answer": "When a guy sends ❤️‍🩹, it often reflects healing. Consistent private use matters more than a single reaction in a busy group chat.",
     "signals": [
-      "He uses ❤️‍🩹 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop ❤️‍🩹 in large stranger-heavy group chats",
+      "❤️‍🩹 follows personal topics—recovery—rather than scheduling-only texts",
+      "He uses ❤️‍🩹 when reacting to healing or something visual in your chat"
     ],
     "examples": [
-      "You killed it ❤️‍🩹",
-      "Proud of you ❤️‍🩹",
-      "Had to tell you ❤️‍🩹"
+      "Had to say — slowly healing ❤️‍🩹",
+      "Getting better every day ❤️‍🩹",
+      "This mending moment ❤️‍🩹"
     ],
-    "caution": "A single ❤️‍🩹 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone ❤️‍🩹 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5575,19 +5575,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Mending Heart Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What ❤️‍🩹 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, ❤️‍🩹 commonly means a heart with bandage - healing and recovery. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What ❤️‍🩹 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "In WhatsApp threads, ❤️‍🩹 usually means healing. Relationship history and chat culture matter more than the emoji alone.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Shows up mid-conversation when the topic is healing",
+      "WhatsApp groups treat ❤️‍🩹 differently—family vs friends changes the read",
+      "Often follows voice notes, photos, or long updates about recovery"
     ],
     "examples": [
-      "Thanks so much ❤️‍🩹",
-      "See you tomorrow ❤️‍🩹",
-      "Got it ❤️‍🩹"
+      "Here for you ❤️‍🩹",
+      "Slowly healing ❤️‍🩹",
+      "About that healing thing ❤️‍🩹"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: clear healing meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5599,19 +5599,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Mending Heart Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How ❤️‍🩹 means on Instagram—with real examples.",
-    "answer": "On Instagram, ❤️‍🩹 is often used for a heart with bandage - healing and recovery. Comments, story replies, and DMs can change the tone.",
+    "description": "What ❤️‍🩹 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "❤️‍🩹 on Instagram often means healing—especially under visual content where a quick reaction beats a long comment.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Comment or story reply under content about healing",
+      "Paired with short praise tied to mending",
+      "Public ❤️‍🩹 is often casual; DMs may feel more personal"
     ],
     "examples": [
-      "This is everything ❤️‍🩹",
-      "Need this ❤️‍🩹",
-      "So good ❤️‍🩹"
+      "This post — here for you ❤️‍🩹",
+      "Need this — slowly healing ❤️‍🩹",
+      "This mending post ❤️‍🩹"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Clear healing meaning",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5623,19 +5623,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Mending Heart Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What ❤️‍🩹 means on TikTok—with real examples.",
-    "answer": "On TikTok, ❤️‍🩹 frequently appears in comments and captions for a heart with bandage - healing and recovery. Gen Z slang and meme culture often amplify the tone.",
+    "description": "How ❤️‍🩹 shows up on TikTok — meme reactions, irony, and exaggerated tone.",
+    "answer": "❤️‍🩹 on TikTok frequently marks healing, often paired with short internet-native phrases rather than full sentences.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop ❤️‍🩹 on clips about healing or recovery",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for mending heart"
     ],
     "examples": [
-      "The ending ❤️‍🩹",
-      "Not me watching this 10 times ❤️‍🩹",
-      "Why is this so real ❤️‍🩹"
+      "The way here for you ❤️‍🩹",
+      "Why is slowly healing ❤️‍🩹",
+      "This mending clip ❤️‍🩹"
     ],
-    "caution": "❤️‍🩹 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: clear healing meaning.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5647,19 +5647,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Smiling Face with Tear Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🥲 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🥲, it often signals a smile with a single tear showing bittersweet emotions. Tone depends on your relationship and the words around the emoji.",
+    "description": "What a girl might mean when she sends 🥲 — with signals and real examples.",
+    "answer": "When a girl sends 🥲, it often means strong emotion—laughing hard, feeling overwhelmed, or playful drama. It is flexible and context-heavy.",
     "signals": [
-      "She pairs 🥲 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "Message rhythm matches examples like \"Last day of vacation 🥲\"",
+      "Repeated 🥲 in your thread signals more than a polite one-off",
+      "She pairs 🥲 with wording about tear, not just logistics"
     ],
     "examples": [
-      "That's so sweet 🥲",
-      "Miss you 🥲",
-      "You did amazing 🥲"
+      "Literally last day of vacation 🥲",
+      "That was beautiful 🥲",
+      "Still thinking about tear 🥲"
     ],
-    "caution": "Do not read 🥲 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🥲 does not always mean sadness in modern texting. Read the surrounding words first.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5671,19 +5671,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Smiling Face with Tear Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the smiling face with tear emoji when a guy sends 🥲 in texting or social media.",
-    "answer": "When a guy sends 🥲, it usually reflects a smile with a single tear showing bittersweet emotions. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to understand the smiling face with tear emoji when a guy sends 🥲 in texting or social media.",
+    "answer": "🥲 from a guy commonly signals bittersweet. Private chats make the tone feel more personal than public comments.",
     "signals": [
-      "He uses 🥲 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🥲 follows personal topics—touched—rather than scheduling-only texts",
+      "He uses 🥲 when reacting to bittersweet or something visual in your chat",
+      "Private smiling face with tear emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🥲",
-      "Proud of you 🥲",
-      "Had to tell you 🥲"
+      "Thank you so much 🥲",
+      "Lowkey last day of vacation 🥲",
+      "No cap 🥲"
     ],
-    "caution": "A single 🥲 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🥲 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5695,19 +5695,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Smiling Face with Tear Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🥲 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🥲 commonly means a smile with a single tear showing bittersweet emotions. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🥲 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 🥲 can mean laughing, sympathy, overwhelm, or dramatic emphasis. Voice-note reactions and family chats use it constantly.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Matches how your chat already uses smiling face with tear reactions",
+      "Shows up mid-conversation when the topic is bittersweet",
+      "WhatsApp groups treat 🥲 differently—family vs friends changes the read"
     ],
     "examples": [
-      "Thanks so much 🥲",
-      "See you tomorrow 🥲",
-      "Got it 🥲"
+      "Quick one — thank you so much 🥲",
+      "Last day of vacation 🥲",
+      "FYI 🥲"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: can mean genuinely touched or sarcastically 'fine'.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5719,19 +5719,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Smiling Face with Tear Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🥲 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🥲 is often used for a smile with a single tear showing bittersweet emotions. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🥲 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🥲 on Instagram usually shows exaggerated feeling around touched, not a formal announcement of sadness.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Used when a visual post makes bittersweet the instant reaction",
+      "Comment or story reply under content about bittersweet",
+      "Paired with short praise tied to tear"
     ],
     "examples": [
-      "This is everything 🥲",
-      "Need this 🥲",
-      "So good 🥲"
+      "This post — that was beautiful 🥲",
+      "Need this — thank you so much 🥲",
+      "This tear post 🥲"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Can mean genuinely touched or sarcastically 'fine'",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5743,19 +5743,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Smiling Face with Tear Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🥲 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🥲 frequently appears in comments and captions for a smile with a single tear showing bittersweet emotions. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🥲 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "🥲 on TikTok signals bittersweet, especially under second-hand embarrassment or emotional plot twists.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Commenters drop 🥲 on clips about bittersweet or touched",
+      "Shows up with meme phrases—not formal sentences",
+      "Tone is exaggerated; irony is common for smiling face with tear"
     ],
     "examples": [
-      "The ending 🥲",
-      "Not me watching this 10 times 🥲",
-      "Why is this so real 🥲"
+      "Not me that was beautiful 🥲",
+      "Why is thank you so much 🥲",
+      "Not me relating 🥲"
     ],
-    "caution": "🥲 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: can mean genuinely touched or sarcastically 'fine'.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5767,19 +5767,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Face Holding Back Tears Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🥹 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🥹, it often signals a face trying not to cry from overwhelming emotion. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🥹 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl stacks 🥹, she is usually emphasizing intensity around moved, not reporting literal tears.",
     "signals": [
-      "She pairs 🥹 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 🥹 with wording about emotional, not just logistics",
+      "She sends 🥹 when the topic involves moved or emotional",
+      "Her face holding back tears emoji appears in private chats more than cold group replies"
     ],
     "examples": [
       "That's so sweet 🥹",
-      "Miss you 🥹",
-      "You did amazing 🥹"
+      "Literally i can't handle this 🥹",
+      "Still thinking about emotional 🥹"
     ],
-    "caution": "Do not read 🥹 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "A single 🥹 after a polite thank-you can still be friendly. Look for patterns across messages, not one bubble.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5791,19 +5791,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Face Holding Back Tears Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the face holding back tears emoji when a guy sends 🥹 in texting or social media.",
-    "answer": "When a guy sends 🥹, it usually reflects a face trying not to cry from overwhelming emotion. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "What 🥹 usually signals when a guy sends it in a DM or private chat.",
+    "answer": "A guy using 🥹 after something moved is usually amplifying emotion for effect, not asking for comfort.",
     "signals": [
-      "He uses 🥹 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "🥹 follows personal topics—emotional—rather than scheduling-only texts",
+      "He uses 🥹 when reacting to moved or something visual in your chat",
+      "Private face holding back tears emoji use carries more weight than a public comment"
     ],
     "examples": [
-      "You killed it 🥹",
-      "Proud of you 🥹",
+      "Lowkey too adorable 🥹",
+      "Had to say — that's so sweet 🥹",
       "Had to tell you 🥹"
     ],
-    "caution": "A single 🥹 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🥹 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5815,19 +5815,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Face Holding Back Tears Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🥹 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🥹 commonly means a face trying not to cry from overwhelming emotion. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "How 🥹 reads on WhatsApp — confirmations, warmth, jokes, and reactions.",
+    "answer": "On WhatsApp, 🥹 can mean laughing, sympathy, overwhelm, or dramatic emphasis. Voice-note reactions and family chats use it constantly.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Often follows voice notes, photos, or long updates about emotional",
+      "Standalone 🥹 reads shorter than 🥹 plus a full sentence",
+      "Matches how your chat already uses face holding back tears reactions"
     ],
     "examples": [
-      "Thanks so much 🥹",
-      "See you tomorrow 🥹",
-      "Got it 🥹"
+      "Quick one — too adorable 🥹",
+      "That's so sweet 🥹",
+      "FYI 🥹"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "On WhatsApp, remember: shows positive overwhelming emotion, not sadness.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5839,19 +5839,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Face Holding Back Tears Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🥹 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🥹 is often used for a face trying not to cry from overwhelming emotion. Comments, story replies, and DMs can change the tone.",
+    "description": "Instagram use of the face holding back tears emoji 🥹 in comments and story replies.",
+    "answer": "Creators and followers use 🥹 under emotional reels, transformations, and chaotic humor when something hits moved.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🥹 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"Too adorable 🥹\"",
+      "Used when a visual post makes moved the instant reaction"
     ],
     "examples": [
-      "This is everything 🥹",
-      "Need this 🥹",
-      "So good 🥹"
+      "Need this — that's so sweet 🥹",
+      "This post — i can't handle this 🥹",
+      "This emotional post 🥹"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Shows positive overwhelming emotion, not sadness",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5863,19 +5863,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Face Holding Back Tears Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🥹 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🥹 frequently appears in comments and captions for a face trying not to cry from overwhelming emotion. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🥹 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "TikTok commenters use 🥹 when a clip is too real, too funny, or too chaotic. Tone is meme-exaggerated.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "Tone is exaggerated; irony is common for face holding back tears",
+      "Comment energy like \"That's so sweet 🥹\"",
+      "May read differently to viewers outside TikTok-native slang"
     ],
     "examples": [
-      "The ending 🥹",
-      "Not me watching this 10 times 🥹",
-      "Why is this so real 🥹"
+      "Not me i can't handle this 🥹",
+      "The way too adorable 🥹",
+      "The moved part 🥹"
     ],
-    "caution": "🥹 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "TikTok users should note: shows positive overwhelming emotion, not sadness.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5887,19 +5887,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-girl",
     "title": "Shushing Face Emoji Meaning From a Girl",
     "shortTitle": "From a girl",
-    "description": "What 🤫 means when a girl sends it—with real examples.",
-    "answer": "When a girl sends 🤫, it often signals add thoughtful vibes to your chats with the shushing face emoji 🤫. Tone depends on your relationship and the words around the emoji.",
+    "description": "What 🤫 usually means when a girl sends it in texting, DMs, or reactions.",
+    "answer": "If a girl uses 🤫 after a bold claim, it often signals thinking rather than full agreement.",
     "signals": [
-      "She pairs 🤫 with personal compliments or emotional wording",
-      "It appears in private chats more than cold group replies",
-      "The message already feels warm, playful, or supportive"
+      "She pairs 🤫 with wording about shushing, not just logistics",
+      "She sends 🤫 when the topic involves thinking or social media posts",
+      "Her shushing face emoji appears in private chats more than cold group replies"
     ],
     "examples": [
-      "That's so sweet 🤫",
-      "Miss you 🤫",
-      "You did amazing 🤫"
+      "Can't wait to see you 🤫",
+      "Literally that's amazing 🤫",
+      "Still thinking about shushing 🤫"
     ],
-    "caution": "Do not read 🤫 as automatically romantic or serious. One emoji rarely defines intent without context.",
+    "caution": "🤫 can sound rude if the topic is sincere. Use words to soften disagreement.",
     "relatedContexts": [
       "from-a-guy",
       "whatsapp",
@@ -5911,19 +5911,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "from-a-guy",
     "title": "Shushing Face Emoji Meaning From a Guy",
     "shortTitle": "From a guy",
-    "description": "How to read the shushing face emoji when a guy sends 🤫 in texting or social media.",
-    "answer": "When a guy sends 🤫, it usually reflects add thoughtful vibes to your chats with the shushing face emoji 🤫. Private, consistent use carries more weight than a one-off group-chat reaction.",
+    "description": "How to read 🤫 from a guy — intent, tone, and conversation patterns.",
+    "answer": "🤫 from a guy can soften a challenge or add dry humor when the topic is thinking.",
     "signals": [
-      "He uses 🤫 with direct compliments or caring language",
-      "It shows up consistently in your private thread",
-      "The surrounding tone is personal rather than purely logistical"
+      "He does not only drop 🤫 in large stranger-heavy group chats",
+      "🤫 follows personal topics—social media posts—rather than scheduling-only texts",
+      "He uses 🤫 when reacting to thinking or something visual in your chat"
     ],
     "examples": [
-      "You killed it 🤫",
-      "Proud of you 🤫",
+      "Had to say — that's amazing 🤫",
+      "Lowkey surprise party Saturday 🤫",
       "Had to tell you 🤫"
     ],
-    "caution": "A single 🤫 after a polite thank-you can still be friendly. Look for patterns, not one message.",
+    "caution": "A standalone 🤫 after logistics can be neutral. Consistency and privacy matter more than one message.",
     "relatedContexts": [
       "from-a-girl",
       "whatsapp",
@@ -5935,19 +5935,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "whatsapp",
     "title": "Shushing Face Emoji Meaning on WhatsApp",
     "shortTitle": "On WhatsApp",
-    "description": "What 🤫 means in WhatsApp chats—with real examples.",
-    "answer": "On WhatsApp, 🤫 commonly means add thoughtful vibes to your chats with the shushing face emoji 🤫. Family groups, friend chats, and private messages all shape how it reads.",
+    "description": "What 🤫 means in WhatsApp chats, family groups, and private messages.",
+    "answer": "Group chats use 🤫 to react to unbelievable stories or mild drama around thinking.",
     "signals": [
-      "Used after thanks, plans, jokes, or emotional updates",
-      "Appears in the flow of an active chat—not as a random spam reaction",
-      "Matches the group's usual emoji style and relationship norms"
+      "Standalone 🤫 reads shorter than 🤫 plus a full sentence",
+      "Matches how your chat already uses shushing face reactions",
+      "Shows up mid-conversation when the topic is thinking"
     ],
     "examples": [
-      "Thanks so much 🤫",
-      "See you tomorrow 🤫",
-      "Got it 🤫"
+      "Don't read yet 🤫",
+      "Quick one — you didn't hear this from me 🤫",
+      "FYI 🤫"
     ],
-    "caution": "WhatsApp tone varies by culture and family. Relationship history matters more than the emoji alone.",
+    "caution": "Group chats and private chats use 🤫 with very different levels of intimacy.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5959,19 +5959,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "instagram",
     "title": "Shushing Face Emoji Meaning on Instagram",
     "shortTitle": "On Instagram",
-    "description": "How 🤫 means on Instagram—with real examples.",
-    "answer": "On Instagram, 🤫 is often used for add thoughtful vibes to your chats with the shushing face emoji 🤫. Comments, story replies, and DMs can change the tone.",
+    "description": "What 🤫 means on Instagram — compliments, reactions, and hype language.",
+    "answer": "🤫 on Instagram is often a low-effort skeptical reaction in meme and commentary threads.",
     "signals": [
-      "Posted as a comment, story reply, or DM reaction",
-      "Paired with short hype words like \"love this\", \"insane\", or \"need\"",
-      "Fits the visual content (photo, reel, outfit, achievement)"
+      "Public 🤫 is often casual; DMs may feel more personal",
+      "Similar comment energy to \"That's amazing 🤫\"",
+      "Used when a visual post makes thinking the instant reaction"
     ],
     "examples": [
-      "This is everything 🤫",
-      "Need this 🤫",
-      "So good 🤫"
+      "This post — just posted my new photo 🤫",
+      "Need this — can't wait to see you 🤫",
+      "This shushing post 🤫"
     ],
-    "caution": "Public comments are often casual hype. Private DMs may carry more personal intent.",
+    "caution": "Never to silence abuse reporting.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
@@ -5983,19 +5983,19 @@ export const emojiContextPagesGenerated: EmojiContextPage[] = [
     "context": "tiktok",
     "title": "Shushing Face Emoji Meaning on TikTok",
     "shortTitle": "On TikTok",
-    "description": "What 🤫 means on TikTok—with real examples.",
-    "answer": "On TikTok, 🤫 frequently appears in comments and captions for add thoughtful vibes to your chats with the shushing face emoji 🤫. Gen Z slang and meme culture often amplify the tone.",
+    "description": "What 🤫 means on TikTok comments, captions, and Gen Z slang.",
+    "answer": "Users comment 🤫 when a plot twist, rant, or tutorial feels thinking. Tone can be sincere or sarcastic.",
     "signals": [
-      "Shows up under funny, chaotic, wholesome, or relatable clips",
-      "Used with internet-native phrases (\"not me\", \"help\", \"I can't\")",
-      "Signals exaggerated reaction rather than a formal statement"
+      "May read differently to viewers outside TikTok-native slang",
+      "Commenters drop 🤫 on clips about thinking or social media posts",
+      "Shows up with meme phrases—not formal sentences"
     ],
     "examples": [
-      "The ending 🤫",
-      "Not me watching this 10 times 🤫",
-      "Why is this so real 🤫"
+      "Not me don't read yet 🤫",
+      "The way you didn't hear this from me 🤫",
+      "The thinking part 🤫"
     ],
-    "caution": "🤫 on TikTok is often ironic or exaggerated. It may confuse audiences outside meme-native spaces.",
+    "caution": "Sarcasm is common in TikTok replies; do not take every 🤫 literally.",
     "relatedContexts": [
       "from-a-girl",
       "from-a-guy",
