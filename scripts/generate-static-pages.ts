@@ -12,6 +12,10 @@ import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getCompariso
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
+import { emojiPlatforms, platformAliasRoutes, getPlatformVariantSeo, type EmojiPlatform } from '../src/data/emojiPlatforms';
+import type { EmojiCombo } from '../src/data/emojiCombos';
+import { emojiCombos } from '../src/data/emojiCombos';
+import { emojiKitchenGuide, emojiKitchenCombos } from '../src/data/emojiKitchen';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -101,6 +105,11 @@ const injectMetaTags = (template: string, metaTags: string) => {
 };
 
 const injectStaticBody = (template: string, bodyHtml: string) => {
+  const withContent = template.replace(
+    /<div id="root">[\s\S]*?<\/div>/,
+    `<div id="root">${bodyHtml}</div>`
+  );
+  if (withContent !== template) return withContent;
   return template.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
 };
 
@@ -480,6 +489,282 @@ const comparisonBody = (left: Emoji, right: Emoji) => {
     </article>
   `);
 };
+
+const renderSections = (sections: Array<{ heading: string; body: string }>) =>
+  sections
+    .map(
+      (section) => `
+    <h2>${escapeHtml(section.heading)}</h2>
+    <p>${escapeHtml(section.body)}</p>`
+    )
+    .join('\n');
+
+const renderFaqs = (faqs: Array<{ question: string; answer: string }>) => `
+  <h2>Frequently asked questions</h2>
+  ${faqs
+    .map(
+      (faq) => `
+    <h3>${escapeHtml(faq.question)}</h3>
+    <p>${escapeHtml(faq.answer)}</p>`
+    )
+    .join('\n')}`;
+
+const faqPageSchema = (faqs: Array<{ question: string; answer: string }>): StructuredData => ({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+});
+
+const platformHubBody = (
+  platform: EmojiPlatform,
+  featured: Emoji[],
+  options: { h1: string; lead: string; breadcrumbLabel?: string; hubPath?: string }
+) => {
+  const hubPath = options.hubPath ?? `/platforms/${platform.slug}/`;
+  const breadcrumbLabel = options.breadcrumbLabel ?? platform.name;
+
+  return staticShell(`
+  <article>
+    <nav><a href="/">Home</a>${options.hubPath !== hubPath ? ` / <a href="${escapeHtml(hubPath)}">${escapeHtml(platform.name)}</a>` : ''} / ${escapeHtml(breadcrumbLabel)}</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(options.h1)}</h1>
+    <p>${escapeHtml(options.lead)}</p>
+    <p>${escapeHtml(platform.copyGuide)}</p>
+
+    <h2>Browse by platform</h2>
+    ${renderLinks(
+      emojiPlatforms.map((p) => ({
+        href: `/platforms/${p.slug}/`,
+        label: `${p.icon} ${p.name}`,
+        description: p.description.slice(0, 140),
+      }))
+    )}
+
+    <h2>Popular ${escapeHtml(platform.brandLabel)} emojis — copy &amp; meanings</h2>
+    <p>Click any emoji to open its full meaning page. Each entry uses the same Unicode character your device keyboard inserts.</p>
+    ${renderLinks(
+      featured.map((emoji) => ({
+        href: `/emoji/${emoji.slug}/`,
+        label: `${emoji.unicode} ${emoji.name}`,
+        description: emoji.shortMeaning,
+      }))
+    )}
+
+    ${renderSections(platform.sections)}
+    ${renderFaqs(platform.faqs)}
+
+    <h2>Related guides</h2>
+    ${renderLinks([
+      { href: '/emoji-kitchen/', label: 'Emoji Kitchen Guide', description: 'Gboard mashups and copy-ready combo alternatives.' },
+      { href: '/emoji-combos/', label: 'Emoji Combos', description: 'ZWJ sequences for couples, families, and celebrations.' },
+      { href: '/blog/iphone-emoji-list-copy-every-apple-emoji-2026/', label: 'iPhone Emoji List (2026)', description: 'Complete Apple emoji copy guide with top searches.' },
+      { href: '/categories/', label: 'All Emoji Categories', description: 'Browse 3,700+ emoji meanings and copy pages.' },
+    ])}
+  </article>
+`);
+};
+
+const platformHubStructuredData = (platform: EmojiPlatform, itemCount: number, pagePath: string): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${platform.name} Emojis`,
+    description: platform.description,
+    url: canonicalUrl(pagePath),
+    numberOfItems: itemCount,
+    dateModified: editorialMeta.lastUpdatedIso,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/`,
+    },
+  },
+  faqPageSchema(platform.faqs),
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: platform.name },
+  ]),
+];
+
+const emojiKitchenBody = () =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Emoji Kitchen</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(emojiKitchenGuide.title)}</h1>
+    <p>${escapeHtml(emojiKitchenGuide.description)}</p>
+
+    ${renderSections(emojiKitchenGuide.sections)}
+
+    <h2>Popular combos to copy</h2>
+    <p>Unicode chains that work across apps—alternatives to Kitchen image stickers. Copy the sequence, then explore each base emoji.</p>
+    ${renderLinks(
+      emojiKitchenCombos.map((combo) => ({
+        href: '/emoji-kitchen/',
+        label: `${combo.unicode} ${combo.label}`,
+        description: combo.description,
+      }))
+    )}
+
+    <h2>Base emojis in Kitchen-style combos</h2>
+    ${renderLinks(
+      [...new Set(emojiKitchenCombos.flatMap((c) => c.baseEmojiSlugs))].map((slug) => ({
+        href: `/emoji/${slug}/`,
+        label: slug.replace(/-/g, ' '),
+      }))
+    )}
+
+    ${renderFaqs(emojiKitchenGuide.faqs)}
+
+    <h2>Related</h2>
+    ${renderLinks([
+      { href: '/emoji-combos/', label: 'Emoji Combos hub', description: 'ZWJ couple, family, and celebration sequences.' },
+      { href: '/platforms/google/', label: 'Google / Gboard emojis', description: 'Android emoji copy list.' },
+      { href: '/platforms/apple/', label: 'iPhone emojis', description: 'Apple emoji copy hub.' },
+    ])}
+  </article>
+`);
+
+const emojiKitchenStructuredData = (): StructuredData[] => [
+  webPageSchema(emojiKitchenGuide.title, emojiKitchenGuide.description, canonicalUrl('/emoji-kitchen/')),
+  faqPageSchema(emojiKitchenGuide.faqs),
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Emoji Kitchen' },
+  ]),
+];
+
+const emojiCombosHubBody = () =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Emoji Combos</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>Emoji Combos — Copy &amp; Meaning</h1>
+    <p>Pre-made emoji combinations and ZWJ sequences for couples, families, birthdays, and flirty texts. One click to copy the full sequence.</p>
+
+    <h2>What are emoji combos?</h2>
+    <p>Emoji combos chain multiple Unicode characters—sometimes joined by zero-width joiners (ZWJ) to render as a single glyph. Use them when you want a ready-made visual phrase without opening a keyboard sticker tool.</p>
+
+    <h2>All copy-ready combos</h2>
+    ${renderLinks(
+      emojiCombos.map((combo) => ({
+        href: `/emoji-combos/${combo.slug}/`,
+        label: `${combo.unicode} ${combo.shortTitle}`,
+        description: combo.description,
+      }))
+    )}
+
+    <h2>Related</h2>
+    ${renderLinks([
+      { href: '/emoji-kitchen/', label: 'Emoji Kitchen guide', description: 'Gboard mashups and Android combo tips.' },
+      { href: '/emoji-meanings/heart-emoji-meanings/', label: 'Heart emoji meanings', description: 'Color hearts and when to use each.' },
+      { href: '/platforms/apple/', label: 'iPhone emojis', description: 'Copy Apple emoji list.' },
+    ])}
+  </article>
+`);
+
+const emojiCombosHubStructuredData = (): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Emoji Combos',
+    description: 'Copy emoji combinations and ZWJ sequences with meanings.',
+    url: canonicalUrl('/emoji-combos/'),
+    numberOfItems: emojiCombos.length,
+    dateModified: editorialMeta.lastUpdatedIso,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Allemojipedia',
+      url: `${BASE_URL}/`,
+    },
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Emoji Combos' },
+  ]),
+];
+
+const emojiComboDetailBody = (combo: EmojiCombo, emojiBySlug: Map<string, Emoji>) =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / <a href="/emoji-combos/">Emoji Combos</a> / ${escapeHtml(combo.shortTitle)}</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(combo.title)}</h1>
+    <p>${escapeHtml(combo.description)}</p>
+
+    <h2>Copy this combo</h2>
+    <p><strong>${escapeHtml(combo.unicode)}</strong> — select and copy the sequence above, or use the interactive copy button on the live page.</p>
+
+    <h2>What this combo means</h2>
+    <p>${escapeHtml(combo.meaning)}</p>
+
+    <h2>ZWJ / technical note</h2>
+    <p>${escapeHtml(combo.zwjNote)}</p>
+
+    <h2>Example messages</h2>
+    <ul>${combo.examples.map((ex) => `<li>${escapeHtml(ex)}</li>`).join('')}</ul>
+
+    <h2>Base emojis in this combo</h2>
+    ${renderLinks(
+      combo.componentSlugs.map((slug) => {
+        const emoji = emojiBySlug.get(slug);
+        return emoji
+          ? { href: `/emoji/${slug}/`, label: `${emoji.unicode} ${emoji.name}`, description: emoji.shortMeaning }
+          : { href: `/emoji/${slug}/`, label: slug.replace(/-/g, ' ') };
+      })
+    )}
+
+    ${
+      combo.relatedComboSlugs.length
+        ? `<h2>Related combos</h2>${renderLinks(
+            combo.relatedComboSlugs
+              .map((slug) => emojiCombos.find((c) => c.slug === slug))
+              .filter((c): c is EmojiCombo => Boolean(c))
+              .map((related) => ({
+                href: `/emoji-combos/${related.slug}/`,
+                label: `${related.unicode} ${related.shortTitle}`,
+                description: related.description,
+              }))
+          )}`
+        : ''
+    }
+  </article>
+`);
+
+const emojiComboDetailStructuredData = (combo: EmojiCombo): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: combo.title,
+    description: combo.description,
+    url: canonicalUrl(`/emoji-combos/${combo.slug}/`),
+    datePublished: editorialMeta.lastUpdatedIso,
+    dateModified: editorialMeta.lastUpdatedIso,
+    author: {
+      '@type': 'Organization',
+      name: editorialMeta.teamName,
+      url: `${BASE_URL}/about/`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: editorialMeta.siteName,
+      url: `${BASE_URL}/`,
+    },
+    mainEntityOfPage: canonicalUrl(`/emoji-combos/${combo.slug}/`),
+  },
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Emoji Combos', url: canonicalUrl('/emoji-combos/') },
+    { name: combo.shortTitle },
+  ]),
+];
 
 const breadcrumbSchema = (items: Array<{ name: string; url?: string }>): StructuredData => ({
   '@context': 'https://schema.org',
@@ -1039,6 +1324,121 @@ const generateStaticPages = () => {
   );
   count++;
 
+  // Platform hub pages
+  console.log('Generating platform hub pages...');
+  emojiPlatforms.forEach((platform) => {
+    const platformSeo = getMainPageSeo(`/platforms/${platform.slug}/`);
+    const featured = platform.featuredEmojiSlugs
+      .map((s) => emojiBySlug.get(s))
+      .filter((e): e is Emoji => Boolean(e));
+    const pagePath = `/platforms/${platform.slug}/`;
+
+    writeStaticPage(
+      template,
+      pagePath,
+      platformSeo.title,
+      platformSeo.description,
+      platform.keywords,
+      platformHubBody(platform, featured, {
+        h1: `${platform.icon} ${platform.name} Emojis`,
+        lead: platform.description,
+      }),
+      'website',
+      INDEX_FOLLOW_ROBOTS,
+      platformHubStructuredData(platform, featured.length, pagePath)
+    );
+    count++;
+  });
+
+  platformAliasRoutes.forEach(({ path: aliasPath, platform, variant }) => {
+    const p = emojiPlatforms.find((pl) => pl.slug === platform);
+    if (!p) return;
+    const seoPath =
+      variant === 'iphone-emojis'
+        ? '/iphone-emojis/'
+        : variant === 'copy-iphone-emojis'
+          ? '/copy-iphone-emojis/'
+          : '/apple/';
+    const aliasSeo = getMainPageSeo(seoPath);
+    const variantSeo = getPlatformVariantSeo(variant);
+    const featured = p.featuredEmojiSlugs
+      .map((s) => emojiBySlug.get(s))
+      .filter((e): e is Emoji => Boolean(e));
+    const h1 =
+      variant === 'iphone-emojis'
+        ? 'iPhone Emojis — Full List (2026)'
+        : variant === 'copy-iphone-emojis'
+          ? 'Copy iPhone Emojis — One Click'
+          : variant === 'apple'
+            ? 'Apple Emoji — iPhone & iOS'
+            : p.name;
+
+    writeStaticPage(
+      template,
+      `${aliasPath}/`,
+      aliasSeo.title,
+      aliasSeo.description,
+      p.keywords,
+      platformHubBody(p, featured, {
+        h1,
+        lead: variantSeo.description,
+        breadcrumbLabel: h1,
+        hubPath: `/platforms/${platform}/`,
+      }),
+      'website',
+      INDEX_FOLLOW_ROBOTS,
+      platformHubStructuredData(p, featured.length, `${aliasPath}/`)
+    );
+    count++;
+  });
+
+  // Emoji Kitchen
+  console.log('Generating emoji kitchen page...');
+  const kitchenSeo = getMainPageSeo('/emoji-kitchen/');
+  writeStaticPage(
+    template,
+    '/emoji-kitchen/',
+    kitchenSeo.title,
+    kitchenSeo.description,
+    emojiKitchenGuide.keywords,
+    emojiKitchenBody(),
+    'article',
+    INDEX_FOLLOW_ROBOTS,
+    emojiKitchenStructuredData()
+  );
+  count++;
+
+  // Emoji combos hub + detail pages
+  console.log('Generating emoji combo pages...');
+  const combosSeo = getMainPageSeo('/emoji-combos/');
+  writeStaticPage(
+    template,
+    '/emoji-combos/',
+    combosSeo.title,
+    combosSeo.description,
+    'emoji combos, emoji combinations, zwj emoji, couple emoji combo',
+    emojiCombosHubBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    emojiCombosHubStructuredData()
+  );
+  count++;
+
+  emojiCombos.forEach((combo) => {
+    writeStaticPage(
+      template,
+      `/emoji-combos/${combo.slug}/`,
+      `${combo.title} | Allemojipedia`,
+      combo.description,
+      combo.keywords,
+      emojiComboDetailBody(combo, emojiBySlug),
+      'article',
+      INDEX_FOLLOW_ROBOTS,
+      emojiComboDetailStructuredData(combo)
+    );
+    count++;
+  });
+
   // Flag quiz page
   writeStaticPage(
     template,
@@ -1074,6 +1474,9 @@ const generateStaticPages = () => {
         { href: '/people/', label: 'People Emojis' },
         { href: '/blog/', label: 'Emoji Blog' },
         { href: '/emoji-comparisons/', label: 'Emoji Comparisons' },
+        { href: '/platforms/apple/', label: 'Apple / iPhone Emojis' },
+        { href: '/emoji-kitchen/', label: 'Emoji Kitchen' },
+        { href: '/emoji-combos/', label: 'Emoji Combos' },
       ]
     )
   );

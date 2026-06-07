@@ -4,6 +4,8 @@ import { blogPosts } from '../src/data/blogPosts';
 import { popularComparisons } from '../src/data/emojiComparisons';
 import { emojiIntentClusters } from '../src/data/emojiIntentClusters';
 import { emojiContextPages } from '../src/data/emojiContextPages';
+import { emojiPlatforms, platformAliasRoutes } from '../src/data/emojiPlatforms';
+import { emojiCombos } from '../src/data/emojiCombos';
 import { editorialMeta } from '../src/data/editorialMeta';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -48,6 +50,17 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9', lastmod: latestBlogDate() });
   addUrl({ loc: `${BASE_URL}/emoji-meanings/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/emoji-kitchen/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/emoji-combos/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  emojiPlatforms.forEach((platform) => {
+    addUrl({ loc: `${BASE_URL}/platforms/${platform.slug}/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  });
+  platformAliasRoutes.forEach(({ path: aliasPath }) => {
+    addUrl({ loc: `${BASE_URL}${aliasPath}/`, priority: '0.85', lastmod: editorialMeta.lastUpdatedIso });
+  });
+  emojiCombos.forEach((combo) => {
+    addUrl({ loc: `${BASE_URL}/emoji-combos/${combo.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
+  });
   addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/sitemap/`, priority: '0.5', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/about/`, priority: '0.4', lastmod: editorialMeta.lastUpdatedIso });

@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-pages": "tsx scripts/generate-static-pages.ts",
+    "generate:context-pages": "tsx scripts/generate-context-pages.ts",
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name=allemojipedia --branch=main"
   },
   "dependencies": {

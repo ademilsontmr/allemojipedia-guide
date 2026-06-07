@@ -1,5 +1,6 @@
 import { inspiredEmojiBlogPosts } from "./inspiredEmojiBlogPosts";
 import { june2026BlogPosts } from "./blogBatch-june2026";
+import { serpJune2026BlogPosts } from "./blogBatch-serp-june2026";
 
 export interface BlogPost {
   id: string;
@@ -15,6 +16,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  ...serpJune2026BlogPosts,
   ...june2026BlogPosts,
   ...inspiredEmojiBlogPosts,
   {

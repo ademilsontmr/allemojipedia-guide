@@ -27,6 +27,11 @@ const Blog = lazy(() => import("./pages/Blog"));
 const BlogPost = lazy(() => import("./pages/BlogPost"));
 const FlagQuizPage = lazy(() => import("./pages/FlagQuizPage"));
 const BlogPage = lazy(() => import("./pages/BlogPage"));
+const PlatformHubPage = lazy(() => import("./pages/PlatformHubPage"));
+const PlatformsIndex = lazy(() => import("./pages/PlatformsIndex"));
+const EmojiKitchenPage = lazy(() => import("./pages/EmojiKitchenPage"));
+const EmojiCombosHub = lazy(() => import("./pages/EmojiCombosHub"));
+const EmojiComboDetail = lazy(() => import("./pages/EmojiComboDetail"));
 const About = lazy(() => import("./pages/About"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -63,6 +68,14 @@ const App = () => {
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/category/:slug" element={<CategoryWrapper />} />
                 <Route path="/emoji-comparisons" element={<EmojiComparisons />} />
+                <Route path="/platforms/:slug" element={<PlatformHubPage />} />
+                <Route path="/platforms" element={<PlatformsIndex />} />
+                <Route path="/apple" element={<PlatformHubPage forcedSlug="apple" variant="apple" />} />
+                <Route path="/iphone-emojis" element={<PlatformHubPage forcedSlug="apple" variant="iphone-emojis" />} />
+                <Route path="/copy-iphone-emojis" element={<PlatformHubPage forcedSlug="apple" variant="copy-iphone-emojis" />} />
+                <Route path="/emoji-kitchen" element={<EmojiKitchenPage />} />
+                <Route path="/emoji-combos/:slug" element={<EmojiComboDetail />} />
+                <Route path="/emoji-combos" element={<EmojiCombosHub />} />
                 <Route path="/emoji-meanings" element={<EmojiMeanings />} />
                 <Route path="/emoji-meanings/:slug" element={<EmojiMeaningCluster />} />
                 <Route path="/emoji/:slug/:context" element={<EmojiContextPage />} />

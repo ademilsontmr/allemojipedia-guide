@@ -184,6 +184,54 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Browse people and body emojis: hand gestures, professions, family, skin tones. Copy any human emoji with meanings.",
     ogTitle: "People Emojis — Gestures, Family & Body Copy",
   },
+  "/platforms/apple/": {
+    title: `Apple Emoji — iPhone & iOS Emoji List, Copy & Meanings | ${BRAND}`,
+    description:
+      "Copy every iPhone emoji in one click. Full Apple emoji list with meanings for iMessage, WhatsApp, Instagram, and TikTok.",
+    ogTitle: "Apple Emoji — iPhone & iOS Copy Hub",
+  },
+  "/platforms/google/": {
+    title: `Google Emoji — Android & Gboard Copy List | ${BRAND}`,
+    description:
+      "Copy Android emojis in Google Noto style. Gboard-friendly list with meanings for texting and social apps.",
+    ogTitle: "Google / Android Emoji Copy Hub",
+  },
+  "/platforms/samsung/": {
+    title: `Samsung Emoji — Galaxy One UI Copy List | ${BRAND}`,
+    description:
+      "Copy Samsung Galaxy emojis with meanings. One UI style characters for Messages, WhatsApp, and social media.",
+    ogTitle: "Samsung Galaxy Emoji Copy Hub",
+  },
+  "/apple/": {
+    title: `Apple Emoji — iPhone & iOS Emoji List | Copy Instantly | ${BRAND}`,
+    description:
+      "Browse Apple emoji for iPhone and iPad. Copy any iOS emoji in one click with meanings for texting and social media.",
+    ogTitle: "Apple Emoji — iPhone & iOS",
+  },
+  "/iphone-emojis/": {
+    title: `iPhone Emojis — Full List & Meanings (2026) | ${BRAND}`,
+    description:
+      "Complete iPhone emoji list with copy-paste and meanings. Every emoji your iOS keyboard uses—one click to copy.",
+    ogTitle: "iPhone Emojis — Full List (2026)",
+  },
+  "/copy-iphone-emojis/": {
+    title: `Copy iPhone Emojis — One-Click Apple Emoji Copy Paste | ${BRAND}`,
+    description:
+      "Copy iPhone emojis instantly. Tap any Apple emoji to paste into iMessage, WhatsApp, Instagram, or TikTok.",
+    ogTitle: "Copy iPhone Emojis — One Click",
+  },
+  "/emoji-kitchen/": {
+    title: `Emoji Kitchen — Gboard Guide & Popular Combos (2026) | ${BRAND}`,
+    description:
+      "What is Emoji Kitchen? How to use it on Gboard Android, plus copy-ready combo alternatives and base emoji links.",
+    ogTitle: "Emoji Kitchen — Gboard Guide & Combos",
+  },
+  "/emoji-combos/": {
+    title: `Emoji Combos — Copy ZWJ Sequences & Combinations | ${BRAND}`,
+    description:
+      "Copy emoji combos: couple, family, heart eyes kiss, birthday, and ZWJ sequences with meanings.",
+    ogTitle: "Emoji Combos — Copy & Meaning",
+  },
 };
 
 const withBrand = (title: string) =>

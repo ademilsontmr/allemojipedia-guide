@@ -21,7 +21,11 @@ const contextLabels: Record<EmojiContextType, string> = {
   tiktok: "On TikTok",
 };
 
-export const emojiContextPages: EmojiContextPage[] = [
+import { emojiContextPagesGenerated } from "./emojiContextPages.generated";
+
+const contextKey = (emojiSlug: string, context: string) => `${emojiSlug}/${context}`;
+
+export const manualEmojiContextPages: EmojiContextPage[] = [
   {
     emojiSlug: "red-heart",
     context: "from-a-girl",
@@ -322,6 +326,14 @@ export const emojiContextPages: EmojiContextPage[] = [
     caution: "🫠 is newer slang—some audiences may not recognize it outside Gen Z spaces.",
     relatedContexts: ["instagram"],
   },
+];
+
+const manualKeys = new Set(manualEmojiContextPages.map((p) => contextKey(p.emojiSlug, p.context)));
+
+/** Manual entries win over generated when the same emoji + context exists. */
+export const emojiContextPages: EmojiContextPage[] = [
+  ...manualEmojiContextPages,
+  ...emojiContextPagesGenerated.filter((p) => !manualKeys.has(contextKey(p.emojiSlug, p.context))),
 ];
 
 export const getEmojiContextPage = (emojiSlug: string, context: string) =>
