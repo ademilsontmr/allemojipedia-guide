@@ -176,7 +176,11 @@ const EmojiDetail = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Meaning by sender and platform</h2>
               <p className="text-muted-foreground mb-4">
-                These guides explain how <span className="emoji">{emoji.unicode}</span> can change meaning depending on who sends it and where it appears.
+                These guides explain how <span className="emoji">{emoji.unicode}</span> can change meaning depending on who sends it and where it appears.{" "}
+                <Link to="/emoji-meanings-in-texting/" className="text-primary hover:underline">
+                  Browse all texting context guides
+                </Link>
+                .
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
                 {contextPages.map(page => (

@@ -49,6 +49,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9', lastmod: latestBlogDate() });
   addUrl({ loc: `${BASE_URL}/emoji-meanings/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/emoji-meanings-in-texting/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-kitchen/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-combos/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });

@@ -24,10 +24,16 @@ const EmojiMeanings = () => {
 
         <header className="mb-10 max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Emoji Meanings by Intent</h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground mb-4">
             Start with the situation behind the emoji: love, texting, Gen Z slang, flags, or workplace communication.
             These guides group related emojis so you can understand tone faster.
           </p>
+          <Link
+            to="/emoji-meanings-in-texting/"
+            className="inline-flex items-center text-primary font-medium hover:underline"
+          >
+            Browse all 250 texting context guides (from a girl, guy, WhatsApp, Instagram, TikTok) →
+          </Link>
         </header>
 
         <div className="grid gap-5 md:grid-cols-2">

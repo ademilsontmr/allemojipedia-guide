@@ -12,6 +12,13 @@ import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getCompariso
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { editorialMeta } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
+import {
+  emojiContextHubMeta,
+  emojiContextHubPath,
+  getContextHubPageCount,
+  getContextHubSections,
+} from '../src/data/emojiContextHub';
+import { buildContextPageFaqs, buildContextPageStructuredData } from '../src/utils/emojiContextFaqSchema';
 import { emojiPlatforms, platformAliasRoutes, getPlatformAliasH1, getPlatformVariantSeo, type EmojiPlatform } from '../src/data/emojiPlatforms';
 import type { EmojiCombo } from '../src/data/emojiCombos';
 import { emojiCombos } from '../src/data/emojiCombos';
@@ -189,9 +196,12 @@ const emojiBody = (emoji: Emoji, emojiBySlug: Map<string, Emoji>, allEmojis: Emo
   );
 };
 
-const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => staticShell(`
+const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => {
+  const faqs = buildContextPageFaqs(emoji, page);
+
+  return staticShell(`
   <article>
-    <nav><a href="/">Home</a> / <a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></nav>
+    <nav><a href="/">Home</a> / <a href="${escapeHtml(emojiContextHubPath)}">Emoji Meanings in Texting</a> / <a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></nav>
     <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
     <h1>${escapeHtml(`${emoji.unicode} ${page.title}`)}</h1>
     <p>${escapeHtml(page.description)}</p>
@@ -203,6 +213,14 @@ const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => staticShe
     <ul>${page.examples.map((example) => `<li>${escapeHtml(example)}</li>`).join('')}</ul>
     <h2>Tone warning</h2>
     <p>${escapeHtml(page.caution)}</p>
+    <h2>Frequently asked questions</h2>
+    ${faqs
+      .map(
+        (item) => `
+      <h3>${escapeHtml(item.question)}</h3>
+      <p>${escapeHtml(item.answer)}</p>`
+      )
+      .join('')}
     <h2>Editorial review and sources</h2>
     <p>This guide combines Unicode emoji naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
     ${renderLinks(editorialMeta.sources.map((source) => ({
@@ -211,6 +229,51 @@ const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => staticShe
     })))}
   </article>
 `);
+};
+
+const emojiContextHubBody = (emojiBySlug: Map<string, Emoji>) => {
+  const sections = getContextHubSections();
+
+  return staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / <a href="/emoji-meanings/">Emoji Meanings</a></nav>
+    <h1>${escapeHtml(emojiContextHubMeta.title)}</h1>
+    <p>${escapeHtml(emojiContextHubMeta.description)}</p>
+    <p>${getContextHubPageCount()} guides across the top searched emojis — organized by sender and platform.</p>
+    <nav aria-label="Context sections">
+      <ul>
+        ${sections
+          .map(
+            (section) =>
+              `<li><a href="#${escapeHtml(section.anchor)}">${escapeHtml(section.title)} (${section.pages.length})</a></li>`
+          )
+          .join('')}
+      </ul>
+    </nav>
+    ${sections
+      .map((section) => {
+        const links = section.pages
+          .map((page) => {
+            const emoji = emojiBySlug.get(page.emojiSlug);
+            const label = emoji
+              ? `${emoji.unicode} ${emoji.name}`
+              : page.title.replace(/ Emoji Meaning.*/i, '');
+            return `<li><a href="/emoji/${escapeHtml(page.emojiSlug)}/${escapeHtml(page.context)}/">${escapeHtml(label)} — ${escapeHtml(page.shortTitle)}</a></li>`;
+          })
+          .join('');
+
+        return `
+      <section id="${escapeHtml(section.anchor)}">
+        <h2>${escapeHtml(section.title)}</h2>
+        <p>${escapeHtml(section.description)}</p>
+        <ul>${links}</ul>
+      </section>`;
+      })
+      .join('')}
+    <p><a href="/emoji-meanings/">Browse all emoji meaning clusters</a></p>
+  </article>
+`);
+};
 
 const categoryBody = (
   category: (typeof categories)[number],
@@ -304,6 +367,7 @@ const emojiMeaningsHubBody = () => staticShell(`
   <article>
     <h1>Emoji Meanings by Intent</h1>
     <p>Explore emoji meanings by the situation behind the message: love, texting tone, Gen Z slang, flags, and workplace communication.</p>
+    <p><a href="${escapeHtml(emojiContextHubPath)}">Browse all ${getContextHubPageCount()} texting context guides</a> — from a girl, from a guy, WhatsApp, Instagram, and TikTok.</p>
     ${renderLinks(emojiIntentClusters.map((cluster) => ({
       href: `/emoji-meanings/${cluster.slug}/`,
       label: cluster.shortTitle,
@@ -927,39 +991,6 @@ const emojiIntentClusterStructuredData = (
   ]),
 ];
 
-const emojiContextPageStructuredData = (emoji: Emoji, page: EmojiContextPage): StructuredData[] => [
-  {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: `${emoji.unicode} ${page.title}`,
-    description: page.description,
-    url: canonicalUrl(`/emoji/${emoji.slug}/${page.context}/`),
-    datePublished: editorialMeta.lastUpdatedIso,
-    dateModified: editorialMeta.lastUpdatedIso,
-    author: {
-      '@type': 'Organization',
-      name: editorialMeta.teamName,
-      url: `${BASE_URL}/about/`,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: editorialMeta.siteName,
-      url: `${BASE_URL}/`,
-    },
-    mainEntityOfPage: canonicalUrl(`/emoji/${emoji.slug}/${page.context}/`),
-    about: {
-      '@type': 'DefinedTerm',
-      name: `${emoji.unicode} ${emoji.name}`,
-      url: canonicalUrl(`/emoji/${emoji.slug}/`),
-    },
-  },
-  breadcrumbSchema([
-    { name: 'Home', url: `${BASE_URL}/` },
-    { name: `${emoji.unicode} ${emoji.name}`, url: canonicalUrl(`/emoji/${emoji.slug}/`) },
-    { name: page.shortTitle },
-  ]),
-];
-
 // Ensure directory exists
 const ensureDir = (dir: string) => {
   if (!fs.existsSync(dir)) {
@@ -1082,10 +1113,48 @@ const generateStaticPages = () => {
       emojiContextPageBody(emoji, page),
       'article',
       getEmojiRobots(emoji),
-      emojiContextPageStructuredData(emoji, page)
+      buildContextPageStructuredData(emoji, page) as StructuredData[]
     );
     count++;
   });
+
+  // Texting context hub — internal linking for all context pages
+  console.log('Generating emoji context hub page...');
+  const contextHubSeo = getMainPageSeo(emojiContextHubPath);
+  const hubSections = getContextHubSections();
+  writeStaticPage(
+    template,
+    emojiContextHubPath,
+    contextHubSeo.title,
+    contextHubSeo.description,
+    emojiContextHubMeta.keywords,
+    emojiContextHubBody(emojiBySlug),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: contextHubSeo.ogTitle ?? emojiContextHubMeta.title,
+        description: contextHubSeo.description,
+        url: canonicalUrl(emojiContextHubPath),
+        numberOfItems: getContextHubPageCount(),
+        hasPart: hubSections.flatMap((section) =>
+          section.pages.map((page) => ({
+            '@type': 'Article',
+            name: page.title,
+            url: canonicalUrl(`/emoji/${page.emojiSlug}/${page.context}/`),
+          }))
+        ),
+      },
+      breadcrumbSchema([
+        { name: 'Home', url: `${BASE_URL}/` },
+        { name: 'Emoji Meanings', url: canonicalUrl('/emoji-meanings/') },
+        { name: emojiContextHubMeta.shortTitle },
+      ]),
+    ]
+  );
+  count++;
 
   // Generate category pages
   console.log('Generating category pages...');

@@ -161,6 +161,12 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Find the right emoji meaning fast: love, flirting, Gen Z slang, WhatsApp tone, flags, and work chats. Browse intent guides with real examples.",
     ogTitle: "Emoji Meanings by Intent — Hearts, Texting, Gen Z & More",
   },
+  "/emoji-meanings-in-texting/": {
+    title: `Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok | ${BRAND}`,
+    description:
+      "Browse 250 emoji guides for texting: what emojis mean from a girl, from a guy, on WhatsApp, Instagram, and TikTok. Real examples and tone signals.",
+    ogTitle: "Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok",
+  },
   "/categories/": {
     title: `Emoji Categories — Browse & Copy 3,700+ Emojis | ${BRAND}`,
     description:

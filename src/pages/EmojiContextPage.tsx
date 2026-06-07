@@ -8,6 +8,11 @@ import { editorialMeta } from "@/data/editorialMeta";
 import { getEmojiContextPage, getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getContextSeoMeta } from "@/data/seoMeta";
+import { emojiContextHubPath } from "@/data/emojiContextHub";
+import {
+  buildContextPageFaqs,
+  buildContextPageStructuredData,
+} from "@/utils/emojiContextFaqSchema";
 import NotFound from "./NotFound";
 
 const BASE_URL = "https://allemojipedia.com";
@@ -57,27 +62,8 @@ const EmojiContextPage = () => {
   );
   const url = `${BASE_URL}/emoji/${emoji.slug}/${page.context}/`;
   const seo = getContextSeoMeta(emoji, page);
-
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: seo.ogTitle ?? `${emoji.unicode} ${page.title}`,
-    description: seo.description,
-    url,
-    datePublished: editorialMeta.lastUpdatedIso,
-    dateModified: editorialMeta.lastUpdatedIso,
-    author: {
-      "@type": "Organization",
-      name: editorialMeta.teamName,
-      url: `${BASE_URL}/about/`,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: editorialMeta.siteName,
-      url: `${BASE_URL}/`,
-    },
-    mainEntityOfPage: url,
-  };
+  const faqItems = buildContextPageFaqs(emoji, page);
+  const structuredData = buildContextPageStructuredData(emoji, page);
 
   return (
     <Layout>
@@ -93,12 +79,19 @@ const EmojiContextPage = () => {
         <meta name="twitter:title" content={seo.ogTitle ?? seo.title} />
         <meta name="twitter:description" content={seo.description} />
       </Helmet>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {structuredData.map((schema) => (
+        <script
+          key={schema["@type"] as string}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
       <div className="container-page section-spacing">
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
+            { label: "Emoji Meanings in Texting", href: emojiContextHubPath },
             { label: `${emoji.unicode} ${emoji.name}`, href: `/emoji/${emoji.slug}/` },
             { label: page.shortTitle },
           ]}
@@ -141,6 +134,18 @@ const EmojiContextPage = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Tone warning</h2>
             <p className="text-muted-foreground">{page.caution}</p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Frequently asked questions</h2>
+            <div className="space-y-5">
+              {faqItems.map((item) => (
+                <div key={item.question}>
+                  <h3 className="text-lg font-medium mb-2">{item.question}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{item.answer}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
