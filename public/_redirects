@@ -6,5 +6,8 @@ http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
 http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 https://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 
-# Trailing slash is enforced by functions/_middleware.js (301) on Cloudflare Pages.
+# Do NOT add Pages Functions middleware for trailing slash — it can take
+# the project offline (ERR_CONNECTION_TIMED_OUT). Cloudflare Pages already
+# 308s directory URLs to trailing slash; React TrailingSlashRedirect covers SPA.
+# Optional: zone Redirect Rule in the Cloudflare dashboard (see cloudflare-pages.md).
 # Do NOT add a catch-all SPA fallback (/* /index.html 200) — invalid URLs must 404.

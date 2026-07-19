@@ -118,7 +118,7 @@ Vá em: **Cloudflare Dashboard > Seu domínio > Rules > Redirect Rules**
   - Type: `301 Permanent Redirect`
   - Expression: `concat("https://allemojipedia.com", http.request.uri.path)`
 
-**Regra 3: Force trailing slash (301)**
+**Regra 3 (opcional): Force trailing slash (301)**
 - Nome: "Force trailing slash"
 - If (Expression):
   `(http.request.uri.path ne "/" and not ends_with(http.request.uri.path, "/") and not http.request.uri.path contains ".")`
@@ -127,7 +127,7 @@ Vá em: **Cloudflare Dashboard > Seu domínio > Rules > Redirect Rules**
   - Expression:
     `concat("https://", http.host, http.request.uri.path, "/", if(http.request.uri.query ne "", concat("?", http.request.uri.query), ""))`
 
-No código, o mesmo comportamento já está em `functions/_middleware.js` (deploy do Pages). A regra do dashboard é reforço opcional na borda.
+**Não use** `functions/_middleware.js` no Pages para isso — em jul/2026 isso tirou `allemojipedia.com` do ar (`ERR_CONNECTION_TIMED_OUT`). Prefira a Redirect Rule da zona ou o 308 nativo do Pages.
 
 #### 3. Verificar Sitemap
 

@@ -5,7 +5,8 @@ const hasFileExtension = (pathname: string) => /\.[a-z0-9]+$/i.test(pathname);
 
 /**
  * Client fallback for local Vite / SPA navigations without a trailing slash.
- * Production 301s are handled by Cloudflare Pages `functions/_middleware.js`.
+ * Production: Cloudflare Pages natively 308s directory URLs to trailing slash.
+ * Do not reintroduce Pages Functions middleware for this — it can take the site offline.
  */
 const TrailingSlashRedirect = () => {
   const location = useLocation();
