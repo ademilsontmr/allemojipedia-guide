@@ -14,6 +14,7 @@ import {
   type PlatformHubVariant,
 } from "@/data/emojiPlatforms";
 import { editorialMeta } from "@/data/editorialMeta";
+import { EditorialSources } from "@/components/EditorialSources";
 import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 import NotFound from "./NotFound";
 
@@ -71,6 +72,19 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
 
   const url = `https://allemojipedia.com${pagePath}`;
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: platform.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <Layout>
       <Helmet>
@@ -85,6 +99,7 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
       </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="container-page section-spacing">
         <Breadcrumbs
@@ -163,6 +178,13 @@ const PlatformHubPage = ({ forcedSlug, variant = "default" }: PlatformHubPagePro
             ))}
           </div>
         </section>
+
+        <div className="max-w-3xl">
+          <EditorialSources
+            sources={editorialMeta.sources}
+            intro={`${platform.name} emoji designs follow the Unicode standard. Vendor artwork differs, but code points stay the same across Apple, Google Noto, and Samsung.`}
+          />
+        </div>
 
         <section className="max-w-3xl">
           <h2 className="text-xl font-semibold mb-4">Related guides</h2>

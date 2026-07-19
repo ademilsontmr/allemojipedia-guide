@@ -6,7 +6,8 @@ import { getEmojiSeoMeta, getEmojiPageH1 } from "@/data/seoMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
-import { editorialMeta } from "@/data/editorialMeta";
+import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
+import { renderEditorialSourcesHtml } from "@/utils/editorialSourcesHtml";
 import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
 import {
   getEnrichedDetailedParagraphs,
@@ -217,16 +218,9 @@ export const buildEmojiStaticArticleHtml = ({
         <p>${escapeHtml(emoji.name)} is listed under ${escapeHtml(category?.name ?? emoji.categorySlug)} (${escapeHtml(emoji.subgroup.replace(/-/g, " "))}) in the Unicode emoji catalog.</p>
       </section>
 
-      <section>
-        <h2>Editorial review and sources</h2>
-        <p>This emoji guide is reviewed by ${escapeHtml(editorialMeta.teamName)}. We combine Unicode naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
-        <ul>${editorialMeta.sources
-          .map(
-            (source) =>
-              `<li><a href="${escapeHtml(source.url)}" rel="nofollow">${escapeHtml(source.name)}</a></li>`
-          )
-          .join("")}</ul>
-      </section>
+      ${renderEditorialSourcesHtml(getEmojiEditorialSources(emoji), escapeHtml, {
+        intro: `This emoji guide is reviewed by ${editorialMeta.teamName}. Meanings combine Unicode naming, CLDR annotations, platform designs, and common texting usage. Last updated ${editorialMeta.lastUpdated}.`,
+      })}
 
       ${
         relatedEmojis.length

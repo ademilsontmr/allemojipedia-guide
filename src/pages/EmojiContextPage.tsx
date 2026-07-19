@@ -4,7 +4,8 @@ import { Link, useParams } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { getEmojiCache } from "@/data/emojisCache";
 import type { Emoji } from "@/data/emojis";
-import { editorialMeta } from "@/data/editorialMeta";
+import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
+import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPage, getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getEmojiRobots } from "@/utils/seoPolicy";
 import { getContextSeoMeta } from "@/data/seoMeta";
@@ -148,21 +149,11 @@ const EmojiContextPage = () => {
             </div>
           </section>
 
-          <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
-            <h2 className="text-xl font-semibold mb-3">Editorial review</h2>
-            <p className="text-muted-foreground mb-3">
-              This guide combines Unicode emoji naming, CLDR annotations, and common usage patterns from texting and social platforms.
-            </p>
-            <ul className="space-y-2 text-sm">
-              {editorialMeta.sources.map((source) => (
-                <li key={source.name}>
-                  <a href={source.url} className="text-primary hover:underline" rel="nofollow">
-                    {source.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
+          <EditorialSources
+            sources={getEmojiEditorialSources(emoji)}
+            title="Editorial review and sources"
+            intro={`This context guide for ${emoji.unicode} is reviewed by ${editorialMeta.teamName}. We ground tone advice in Unicode naming, CLDR annotations, and how people actually use the emoji in chats and feeds.`}
+          />
 
           {relatedPages.length > 0 && (
             <section className="mb-8">

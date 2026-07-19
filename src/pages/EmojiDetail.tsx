@@ -13,14 +13,15 @@ import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta, getEmojiPageH1 } from "@/data/seoMeta";
-import { buildEmojiFaqItems } from "@/utils/emojiPageSchema";
+import { buildEmojiFaqItems, buildEmojiStructuredData } from "@/utils/emojiPageSchema";
 import {
   getEnrichedDetailedParagraphs,
   getEnrichedExamples,
   getUniqueContextBlocks,
   getUniqueWhenNotToUse,
 } from "@/utils/emojiUniqueContent";
-import { editorialMeta } from "@/data/editorialMeta";
+import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
+import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 
@@ -126,6 +127,8 @@ const EmojiDetail = () => {
   const enrichedExamples = getEnrichedExamples(emoji);
   const contextBlocks = getUniqueContextBlocks(emoji);
   const whenNotToUse = getUniqueWhenNotToUse(emoji);
+  const sources = getEmojiEditorialSources(emoji);
+  const structuredData = buildEmojiStructuredData(emoji, primaryRelated);
 
   return (
     <Layout>
@@ -145,6 +148,13 @@ const EmojiDetail = () => {
         <meta name="twitter:title" content={seo.ogTitle ?? seo.title} />
         <meta name="twitter:description" content={seo.description} />
       </Helmet>
+      {structuredData.map((schema) => (
+        <script
+          key={String(schema["@type"])}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
       <div className="container-page section-spacing">
         <Breadcrumbs items={[
@@ -337,21 +347,10 @@ const EmojiDetail = () => {
             </div>
           </section>
 
-          <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
-            <h2 className="text-xl font-semibold mb-3">Editorial review and sources</h2>
-            <p className="text-muted-foreground mb-3">
-              This emoji guide is reviewed by {editorialMeta.teamName}. We combine Unicode naming, CLDR annotations, and common usage patterns from texting and social platforms.
-            </p>
-            <ul className="space-y-2 text-sm">
-              {editorialMeta.sources.map(source => (
-                <li key={source.name}>
-                  <a href={source.url} className="text-primary hover:underline" rel="nofollow">
-                    {source.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
+          <EditorialSources
+            sources={sources}
+            intro={`This ${emoji.name} guide is reviewed by ${editorialMeta.teamName}. Meanings combine Unicode naming, CLDR annotations, platform designs (Apple / Google Noto), and common texting usage. Last updated ${editorialMeta.lastUpdated}.`}
+          />
 
           {/* H2 - Related emojis */}
           {relatedEmojis.length > 0 && (

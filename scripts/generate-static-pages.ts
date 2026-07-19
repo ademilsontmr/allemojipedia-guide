@@ -10,7 +10,7 @@ import { buildEmojiStructuredData } from '../src/utils/emojiPageSchema';
 import { buildEmojiStaticArticleHtml, getDeterministicCategoryEmojis } from '../src/utils/emojiPageStaticHtml';
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
-import { editorialMeta } from '../src/data/editorialMeta';
+import { editorialMeta, getEmojiEditorialSources } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
 import {
   emojiContextHubMeta,
@@ -19,6 +19,7 @@ import {
   getContextHubSections,
 } from '../src/data/emojiContextHub';
 import { buildContextPageFaqs, buildContextPageStructuredData } from '../src/utils/emojiContextFaqSchema';
+import { renderEditorialSourcesHtml } from '../src/utils/editorialSourcesHtml';
 import { emojiPlatforms, platformAliasRoutes, getPlatformAliasH1, getPlatformVariantSeo, type EmojiPlatform } from '../src/data/emojiPlatforms';
 import type { EmojiCombo } from '../src/data/emojiCombos';
 import { emojiCombos } from '../src/data/emojiCombos';
@@ -225,12 +226,10 @@ const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => {
       <p>${escapeHtml(item.answer)}</p>`
       )
       .join('')}
-    <h2>Editorial review and sources</h2>
-    <p>This guide combines Unicode emoji naming, CLDR annotations, and common usage patterns from texting and social platforms.</p>
-    ${renderLinks(editorialMeta.sources.map((source) => ({
-      href: source.url,
-      label: source.name,
-    })))}
+    ${renderEditorialSourcesHtml(getEmojiEditorialSources(emoji), escapeHtml, {
+      intro:
+        'This guide combines Unicode emoji naming, CLDR annotations, and common usage patterns from texting and social platforms.',
+    })}
   </article>
 `);
 };
@@ -627,6 +626,10 @@ const platformHubBody = (
 
     ${renderSections(platform.sections)}
     ${renderFaqs(platform.faqs)}
+
+    ${renderEditorialSourcesHtml(editorialMeta.sources, escapeHtml, {
+      intro: `${platform.name} emoji designs follow the Unicode standard. Vendor artwork differs, but code points stay the same across Apple, Google Noto, and Samsung.`,
+    })}
 
     <h2>Related guides</h2>
     ${renderLinks([
@@ -1547,14 +1550,27 @@ const generateStaticPages = () => {
   writeStaticPage(
     template,
     '/about/',
-    'About Us | Allemojipedia',
-    'Learn about Allemojipedia, your complete emoji encyclopedia with meanings, examples, and copy-paste functionality.',
-    'about allemojipedia, emoji encyclopedia',
-    mainBody(
-      'About Allemojipedia',
-      'Allemojipedia is an emoji encyclopedia for meanings, examples, Unicode information, and copy-paste emoji pages.',
-      []
-    )
+    'About Allemojipedia — Editorial Process & Emoji Sources | Allemojipedia',
+    'How Allemojipedia reviews emoji meanings using Unicode, CLDR, platform designs, and real-world texting. Meet our sources and editorial process.',
+    'about allemojipedia, emoji encyclopedia, unicode emoji sources',
+    staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / About</nav>
+    <h1>About Allemojipedia</h1>
+    <p>Allemojipedia is a free emoji encyclopedia for meanings, copy-and-paste, texting tone, and platform differences — grounded in Unicode standards.</p>
+    <h2>Editorial process</h2>
+    <p>Meanings are reviewed by the ${escapeHtml(editorialMeta.teamName)}. We start with the official Unicode name and code point, cross-check CLDR annotations, then document real-world usage in chats and social feeds.</p>
+    <p>Last editorial update: ${escapeHtml(editorialMeta.lastUpdated)}.</p>
+    ${renderEditorialSourcesHtml(editorialMeta.sources, escapeHtml, {
+      title: 'Sources we cite',
+      intro:
+        'These are the organizations that create or document emoji standards. We link them so readers and search engines can verify our references.',
+    })}
+    <h2>Who creates emojis?</h2>
+    <p>New emoji are proposed to and encoded by the <a href="https://unicode.org/emoji/proposals.html" target="_blank">Unicode Consortium</a>. Vendors such as Apple, Google (Noto Color Emoji), Samsung, and Microsoft design how each character looks. For vendor artwork history, see also <a href="https://emojipedia.org/" target="_blank" rel="noopener">Emojipedia</a>.</p>
+    <p><a href="/emoji-meanings-in-texting/">Browse 250 texting context guides</a> · <a href="/contact/">Contact</a></p>
+  </article>
+`)
   );
   count++;
 

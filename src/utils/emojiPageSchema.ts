@@ -1,6 +1,6 @@
 import type { Emoji } from "@/data/emojis";
 import { getCategoryBySlug } from "@/data/categories";
-import { editorialMeta } from "@/data/editorialMeta";
+import { editorialMeta, formatUnicodeCodepoint, getUnicodeCodepointHex } from "@/data/editorialMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
 import { getEnrichedExamples } from "@/utils/emojiUniqueContent";
@@ -70,6 +70,18 @@ export const buildEmojiStructuredData = (
       name: `${emoji.unicode} ${emoji.name}`,
       description: editorial.snippetAnswer,
       url: pageUrl,
+      ...(formatUnicodeCodepoint(emoji.unicode)
+        ? { termCode: formatUnicodeCodepoint(emoji.unicode) }
+        : {}),
+      sameAs: [
+        ...(getUnicodeCodepointHex(emoji.unicode)
+          ? [
+              `https://util.unicode.org/UnicodeJsps/character.jsp?a=${getUnicodeCodepointHex(emoji.unicode)}`,
+              `https://unicode.org/emoji/charts/full-emoji-list.html#${getUnicodeCodepointHex(emoji.unicode)}`,
+            ]
+          : []),
+        `https://emojipedia.org/${emoji.slug}/`,
+      ],
       inDefinedTermSet: {
         "@type": "DefinedTermSet",
         name: "Unicode Emoji",
