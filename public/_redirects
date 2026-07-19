@@ -5,3 +5,6 @@
 http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
 http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 https://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
+
+# Trailing slash is enforced by functions/_middleware.js (301) on Cloudflare Pages.
+# Do NOT add a catch-all SPA fallback (/* /index.html 200) — invalid URLs must 404.
