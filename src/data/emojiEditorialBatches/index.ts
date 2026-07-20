@@ -38,6 +38,7 @@ import { batch41P1Wave1TopExtend } from "./batch41-p1-wave1-top-extend";
 import { batch42P1Wave2FacesExtend } from "./batch42-p1-wave2-faces-extend";
 import { batch43P1Wave3FacesExtend } from "./batch43-p1-wave3-faces-extend";
 import { batch44P1Wave4FacesExtend } from "./batch44-p1-wave4-faces-extend";
+import { batch45P1Wave5FacesExtend } from "./batch45-p1-wave5-faces-extend";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
@@ -81,6 +82,7 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch42P1Wave2FacesExtend,
   ...batch43P1Wave3FacesExtend,
   ...batch44P1Wave4FacesExtend,
+  ...batch45P1Wave5FacesExtend,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
