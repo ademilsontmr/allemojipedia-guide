@@ -182,7 +182,7 @@ export const peopleBatch28Slugs = peoplePriorityList.filter((e) => e.batch === 2
 export const peopleBatch29Slugs = peoplePriorityList.filter((e) => e.batch === 29).map((e) => e.slug);
 export const peopleBatch30Slugs = peoplePriorityList.filter((e) => e.batch === 30).map((e) => e.slug);
 
-/** Batch 31 — 100 base variants (generated via scripts/generate-people-batch-31-32.ts) */
+/** Batch 31 — 100 base variants (hand-written / generated enrichment). */
 export const peopleBatch31Slugs = [
   "man-beard", "woman-beard", "man-red-hair", "man-curly-hair", "man-white-hair", "man-bald",
   "woman-red-hair", "woman-curly-hair", "woman-white-hair", "woman-bald", "woman-blond-hair", "man-blond-hair",
