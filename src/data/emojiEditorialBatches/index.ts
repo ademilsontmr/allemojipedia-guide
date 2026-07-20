@@ -34,6 +34,7 @@ import { batch37TravelClocksMoonAstro } from "./batch37-travel-clocks-moon-astro
 import { batch38P0Wave1TopSearch } from "./batch38-p0-wave1-top-search";
 import { batch39P0Wave2HeartsReactions } from "./batch39-p0-wave2-hearts-reactions";
 import { batch40P0Wave3Top50Close } from "./batch40-p0-wave3-top50-close";
+import { batch41P1Wave1TopExtend } from "./batch41-p1-wave1-top-extend";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
@@ -69,10 +70,11 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch35SymbolsComplete,
   ...batch36FlagsComplete,
   ...batch37TravelClocksMoonAstro,
-  // P0 overrides must spread last so Wave exclusivity wins over earlier batches.
+  // P0/P1 overrides must spread last so Wave exclusivity wins over earlier batches.
   ...batch38P0Wave1TopSearch,
   ...batch39P0Wave2HeartsReactions,
   ...batch40P0Wave3Top50Close,
+  ...batch41P1Wave1TopExtend,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
