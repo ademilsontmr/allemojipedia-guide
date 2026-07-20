@@ -217,6 +217,9 @@ export const popularComparisons = [
   { slug1: 'thumbs-up', slug2: 'folded-hands' },
   { slug1: 'eyes', slug2: 'thinking-face' },
   { slug1: 'hundred-points', slug2: 'fire' },
+  { slug1: 'sparkles', slug2: 'party-popper' },
+  { slug1: 'party-popper', slug2: 'confetti-ball' },
+  { slug1: 'sparkles', slug2: 'fire' },
 
   // Heart color intent comparisons
   { slug1: 'pink-heart', slug2: 'red-heart' },
