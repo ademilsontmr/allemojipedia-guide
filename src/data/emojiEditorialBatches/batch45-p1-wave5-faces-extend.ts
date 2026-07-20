@@ -688,7 +688,7 @@ export const batch45P1Wave5FacesExtend: Record<string, EmojiBatchEnrichment> = {
     ],
   },
 
-  ogre: {
+  "ogre": {
     batchId: BATCH_ID,
     searchTitle: "Ogre Emoji Meaning: Monster, Rage, or Japanese Oni?",
     snippetAnswer:
@@ -773,7 +773,7 @@ export const batch45P1Wave5FacesExtend: Record<string, EmojiBatchEnrichment> = {
     ],
   },
 
-  goblin: {
+  "goblin": {
     batchId: BATCH_ID,
     searchTitle: "Goblin Emoji Meaning: Tengu Mask, Anger, or Japanese Folklore?",
     snippetAnswer:
@@ -858,7 +858,7 @@ export const batch45P1Wave5FacesExtend: Record<string, EmojiBatchEnrichment> = {
     ],
   },
 
-  robot: {
+  "robot": {
     batchId: BATCH_ID,
     searchTitle: "Robot Emoji Meaning: AI, Bot, or Automated?",
     snippetAnswer:
@@ -1198,7 +1198,7 @@ export const batch45P1Wave5FacesExtend: Record<string, EmojiBatchEnrichment> = {
     ],
   },
 
-  mouth: {
+  "mouth": {
     batchId: BATCH_ID,
     searchTitle: "Mouth Emoji Meaning: Lips, Kissy, or Beauty?",
     snippetAnswer:
