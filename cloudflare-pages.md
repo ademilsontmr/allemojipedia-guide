@@ -1,17 +1,29 @@
 # Configuração do Cloudflare Pages
 
-Para que o projeto funcione corretamente no Cloudflare Pages, certifique-se de que as seguintes configurações estejam definidas no dashboard:
+## Deploy automático (padrão)
+
+Produção sobe **sozinha** a cada push em `main` no GitHub (`ademilsontmr/allemojipedia-guide`).
+
+Não é preciso rodar `wrangler` no dia a dia: `git push origin main` → Cloudflare Pages build → `allemojipedia.com`.
+
+Confirme no dashboard (Workers & Pages → projeto → Settings → Builds):
+
+- **Production branch:** `main`
+- **Deployments:** conectado ao repositório GitHub acima
 
 ## Build Settings
 
 - **Build command:** `npm run build`
 - **Build output directory:** `dist`
 - **Root directory:** `/` (raiz do projeto)
-- **Node.js version:** 20 (ou superior)
+- **Node.js version:** `20` (variável `NODE_VERSION` = `20`, campos name/value separados)
+- **Framework preset:** None (ou Vite)
 
 ## Variáveis de Ambiente
 
-Nenhuma variável de ambiente é necessária para este projeto.
+- `NODE_VERSION` = `20` (se o build pedir Node)
+
+Nenhuma outra variável é necessária para este projeto.
 
 ## Notas
 

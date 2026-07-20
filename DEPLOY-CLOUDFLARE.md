@@ -1,62 +1,37 @@
-# Deploy no Cloudflare Pages via Wrangler
+# Deploy no Cloudflare Pages
 
-## Passo 1: Instalar Wrangler (apenas uma vez)
+## Fluxo padrão: automático (Git)
 
-Abra o terminal e execute:
+1. Commit e push em `main`
+2. Cloudflare Pages faz o build (`npm run build` → `dist`)
+3. `https://allemojipedia.com` atualiza sozinho
 
-```bash
-npm install -g wrangler
-```
+Isso já está ativo (produção refletiu os commits de editorial sem `wrangler` local).
 
-## Passo 2: Fazer login no Cloudflare
+Dashboard: [Workers & Pages](https://dash.cloudflare.com) → projeto do site → **Deployments** para ver cada push.
 
-```bash
-wrangler login
-```
+## Deploy manual via Wrangler (opcional / emergência)
 
-Isso vai abrir o navegador para você autorizar. Faça login com a conta que tem o domínio allemojipedia.com.
-
-## Passo 3: Fazer o build do projeto
+Só use se o deploy automático do Git estiver parado.
 
 ```bash
-npm run build
+npm install -g wrangler   # uma vez
+wrangler login            # uma vez — abre o navegador
+npm run deploy            # build + wrangler pages deploy
 ```
 
-Isso vai criar a pasta `dist` com todos os arquivos prontos para deploy.
-
-## Passo 4: Fazer o deploy
-
-```bash
-npx wrangler pages deploy dist --project-name=allemojipedia --branch=main
-```
-
-## Passo 5: Configurar o domínio customizado
-
-Depois do primeiro deploy:
-
-1. Vá em https://dash.cloudflare.com
-2. Clique em **Workers e Pages**
-3. Clique no projeto **allemojipedia**
-4. Vá em **Custom domains**
-5. Clique em **Set up a custom domain**
-6. Digite: `allemojipedia.com`
-7. Clique em **Continue**
-8. O Cloudflare vai configurar automaticamente
-
-## Próximos deploys
-
-Depois da primeira vez, é só executar:
+Equivalente:
 
 ```bash
 npm run build
 npx wrangler pages deploy dist --project-name=allemojipedia --branch=main
 ```
 
-Ou use o script que criei:
+## Domínio customizado
 
-```bash
-npm run deploy
-```
+1. https://dash.cloudflare.com → **Workers e Pages**
+2. Projeto **allemojipedia** (ou o nome atual do Pages)
+3. **Custom domains** → `allemojipedia.com` (e `www` se precisar)
 
 ## Troubleshooting
 
