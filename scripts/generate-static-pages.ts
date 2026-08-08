@@ -366,6 +366,298 @@ const mainBody = (title: string, description: string, links: LinkItem[]) => stat
   </article>
 `);
 
+const privacyBody = () => staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Privacy Policy</nav>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: January 2025</p>
+    <h2>1. Introduction</h2>
+    <p>Welcome to Allemojipedia. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website.</p>
+    <h2>2. Information We Collect</h2>
+    <p>We may collect and process the following types of information:</p>
+    <ul>
+      <li>Usage data: information about how you use our website</li>
+      <li>Technical data: IP address, browser type, device information</li>
+      <li>Cookies: small files stored on your device for functionality and analytics</li>
+    </ul>
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected information to:</p>
+    <ul>
+      <li>Provide and maintain our service</li>
+      <li>Improve user experience</li>
+      <li>Analyze website traffic and usage patterns</li>
+      <li>Display relevant advertisements through Google AdSense</li>
+    </ul>
+    <h2>4. Google AdSense</h2>
+    <p>We use Google AdSense to display advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>.</p>
+    <h2>5. Cookies</h2>
+    <p>Our website uses cookies to enhance your browsing experience. You can set your browser to refuse cookies, but this may affect the functionality of some parts of our website.</p>
+    <h2>6. Third-Party Links</h2>
+    <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites.</p>
+    <h2>7. Children's Privacy</h2>
+    <p>Our website is not intended for children under 13 years of age. We do not knowingly collect personal information from children.</p>
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this privacy policy, please visit our <a href="/contact/">Contact page</a>.</p>
+  </article>
+`);
+
+const contactBody = () => staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Contact</nav>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Whether you have questions, feedback, or suggestions about Allemojipedia, feel free to reach out to us.</p>
+    <h2>Email</h2>
+    <p>For general inquiries and support: <a href="mailto:contact@allemojipedia.com">contact@allemojipedia.com</a></p>
+    <h2>Feedback</h2>
+    <p>Help us improve by sharing your thoughts: <a href="mailto:feedback@allemojipedia.com">feedback@allemojipedia.com</a></p>
+    <h2>Common Inquiries</h2>
+    <ul>
+      <li><strong>Missing emoji:</strong> If you notice an emoji is missing from our database, let us know!</li>
+      <li><strong>Incorrect information:</strong> Found an error? Please report it so we can fix it.</li>
+      <li><strong>Feature requests:</strong> Have an idea to make Allemojipedia better? We'd love to hear it!</li>
+      <li><strong>Partnership inquiries:</strong> Interested in collaborating? Reach out to discuss opportunities.</li>
+    </ul>
+    <h2>Response Time</h2>
+    <p>We aim to respond to all inquiries within 24–48 hours during business days. Thank you for your patience!</p>
+  </article>
+`);
+
+const flagQuizBody = () => staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Flag Quiz</nav>
+    <h1>Guess the Flag Emoji - World Flags Quiz Online 🌍</h1>
+    <p>Play the ultimate country flag emoji quiz! Test your geography knowledge with our interactive emoji flag game featuring 50 world flags.</p>
+    <p><strong>Interactive quiz:</strong> Use the live page to play 30 randomized questions per round. No registration required.</p>
+    <h2>About This Country Flag Emoji Game</h2>
+    <p>Welcome to the most engaging world flags quiz online! Our country flag emoji quiz is an educational game that challenges you to identify nations based on their flag emojis. This emoji flag game features 50 different flags from around the world with 30 questions per round.</p>
+    <p>Whether you're a geography enthusiast, a student studying for a test, or someone who loves a good geography emoji quiz, this interactive game is perfect for all skill levels.</p>
+    <h2>How to Play</h2>
+    <ol>
+      <li><strong>View the Flag</strong> — Each question shows you a flag emoji from one of 50 countries.</li>
+      <li><strong>Choose Answer</strong> — Select from four country options to identify the flag.</li>
+      <li><strong>Get Feedback</strong> — See instantly if you're correct with visual confirmation.</li>
+      <li><strong>Track Score</strong> — Monitor your progress through all 30 questions.</li>
+    </ol>
+    <h2>World Flag Recognition Quiz Features</h2>
+    <ul>
+      <li><strong>30 Questions Per Round</strong> — Randomly selected questions for a comprehensive test.</li>
+      <li><strong>50 World Flags</strong> — Country flag emojis from Americas, Europe, Asia, Africa, and Oceania.</li>
+      <li><strong>Instant Feedback</strong> — Immediate visual confirmation for each answer.</li>
+      <li><strong>Randomized Options</strong> — Every playthrough shuffles questions and answers.</li>
+    </ul>
+    <h2>Frequently Asked Questions</h2>
+    <h3>How many questions are in this world flags quiz online?</h3>
+    <p>Each round contains 30 randomly selected questions from a pool of 50 different country flag emojis.</p>
+    <h3>Can I play this emoji flag game multiple times?</h3>
+    <p>Yes! Questions and answer options are randomized each time, so every round is different.</p>
+    <h3>What countries are included?</h3>
+    <p>50 flags from all continents: Americas (USA, Brazil, Canada, Mexico), Europe (UK, France, Germany, Italy), Asia (Japan, China, India, South Korea), Africa (South Africa, Egypt, Nigeria), and Oceania (Australia, New Zealand).</p>
+    <h3>Is this quiz free to play?</h3>
+    <p>Yes! No registration, download, or payment required.</p>
+    <h2>More Emoji Content</h2>
+    <ul>
+      <li><a href="/category/flags/">Browse all flag emojis</a></li>
+      <li><a href="/emoji-comparisons/">Emoji Comparisons</a></li>
+      <li><a href="/blog/guess-the-flag-emoji-quiz/">Read the complete quiz guide</a></li>
+    </ul>
+  </article>
+`);
+
+const flagQuizStructuredData = (): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Guess the Flag Emoji - World Flags Quiz Online',
+    description:
+      'Play our country flag emoji quiz online! Interactive emoji flag game with 50 world flags. Free world flag recognition quiz and online geography challenge.',
+    url: canonicalUrl('/flag-quiz/'),
+    isPartOf: { '@type': 'WebSite', name: 'Allemojipedia', url: `${BASE_URL}/` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Game',
+    name: 'Guess the Flag Emoji - Country Flag Emoji Quiz',
+    description:
+      'Interactive world flags quiz online where players identify countries by their flag emojis. 50 country flag emojis and 30 questions per round.',
+    genre: 'Educational Geography Quiz Game',
+    numberOfPlayers: '1',
+    gamePlatform: 'Web Browser',
+    playMode: 'SinglePlayer',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How many questions are in this world flags quiz online?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Each round contains 30 randomly selected questions from a pool of 50 different country flag emojis.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I play this emoji flag game multiple times?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes! Questions and answer options are randomized each time, so every round is different.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is this world flags quiz online free to play?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes! No registration, download, or payment required.',
+        },
+      },
+    ],
+  },
+];
+
+const peopleHubBody = (allEmojis: Emoji[]) => {
+  const popularPeople = allEmojis.filter((emoji) => emoji.categorySlug === 'people-and-body').slice(0, 12);
+
+  return staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / People Hub</nav>
+    <h1>People Emojis and Their Meanings</h1>
+    <p>Discover human emojis representing gestures, emotions, professions, and families. These emojis include skin tone modifiers and gender variations for inclusive, representative communication.</p>
+    <h2>Browse by Type</h2>
+    ${renderLinks(
+      peopleSubcategories.map((sub) => ({
+        href: `/people/${sub.slug}/`,
+        label: `${sub.icon} ${sub.name}`,
+        description: sub.description,
+      }))
+    )}
+    <h2>Popular People Emojis</h2>
+    <ul>
+      ${popularPeople
+        .map(
+          (emoji) =>
+            `<li><a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <p><a href="/category/people-and-body/">View all People &amp; Body emojis</a></p>
+    <h2>Frequently Asked Questions</h2>
+    <h3>What are people emojis?</h3>
+    <p>People emojis represent human figures, gestures, emotions, professions, and families. They include skin tone modifiers and gender variations for inclusive communication.</p>
+    <h3>How do I use skin tone variations?</h3>
+    <p>Many people emojis support skin tone modifiers. Click on any emoji to see all available skin tone variations and copy the one you prefer.</p>
+  </article>
+`);
+};
+
+const peopleHubStructuredData = (): StructuredData[] => [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What are people emojis?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'People emojis represent human figures, gestures, emotions, professions, and families. They include skin tone modifiers and gender variations for inclusive communication.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I use skin tone variations?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Many people emojis support skin tone modifiers. Click on any emoji to see all available skin tone variations and copy the one you prefer.',
+        },
+      },
+    ],
+  },
+];
+
+const sitemapBody = (allEmojis: Emoji[]) => {
+  const sortedEmojis = [...allEmojis].sort((a, b) => a.name.localeCompare(b.name));
+
+  return staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Sitemap</nav>
+    <h1>Sitemap</h1>
+    <p>${allEmojis.length} emoji pages and ${blogPosts.length} articles in the XML sitemap.</p>
+    <p><a href="/sitemap.xml">Download sitemap.xml</a></p>
+    <h2>Main Pages</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/categories/">Categories</a></li>
+      <li><a href="/people/">People Hub</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/emoji-meanings/">Emoji Meanings Hub</a></li>
+      <li><a href="/emoji-comparisons/">Emoji Comparisons</a></li>
+      <li><a href="/flag-quiz/">Flag Quiz</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/privacy/">Privacy Policy</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+    <h2>Emoji Meaning Clusters</h2>
+    <ul>
+      ${emojiIntentClusters
+        .map(
+          (cluster) =>
+            `<li><a href="/emoji-meanings/${escapeHtml(cluster.slug)}/">${escapeHtml(cluster.shortTitle)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <h2>Emoji Context Guides</h2>
+    <ul>
+      ${emojiContextPages
+        .map(
+          (page) =>
+            `<li><a href="/emoji/${escapeHtml(page.emojiSlug)}/${escapeHtml(page.context)}/">${escapeHtml(page.title)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <h2>Categories</h2>
+    <ul>
+      ${categories
+        .map(
+          (category) =>
+            `<li><a href="/category/${escapeHtml(category.slug)}/">${escapeHtml(`${category.icon} ${category.name}`)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <h2>People &amp; Body Hub Pages</h2>
+    <ul>
+      ${peopleSubcategories
+        .map(
+          (sub) =>
+            `<li><a href="/people/${escapeHtml(sub.slug)}/">${escapeHtml(`${sub.icon} ${sub.name}`)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <h2>Blog Articles</h2>
+    <ul>
+      ${blogPosts
+        .map(
+          (post) =>
+            `<li><a href="/blog/${escapeHtml(post.slug)}/">${escapeHtml(`${post.image} ${post.title}`)}</a></li>`
+        )
+        .join('')}
+    </ul>
+    <h2>Emoji Pages (A–Z)</h2>
+    <ul>
+      ${sortedEmojis
+        .map(
+          (emoji) =>
+            `<li><a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></li>`
+        )
+        .join('')}
+    </ul>
+  </article>
+`);
+};
+
 const emojiMeaningsHubBody = () => staticShell(`
   <article>
     <h1>Emoji Meanings by Intent</h1>
@@ -1344,15 +1636,10 @@ const generateStaticPages = () => {
     peopleHubSeo.title,
     peopleHubSeo.description,
     'people emojis, human emojis, gesture emojis, profession emojis, family emojis',
-    mainBody(
-      'People Emojis and Their Meanings',
-      'Explore gesture, profession, emotion, and family emojis.',
-      peopleSubcategories.map((sub) => ({
-        href: `/people/${sub.slug}/`,
-        label: `${sub.icon} ${sub.name}`,
-        description: sub.description,
-      }))
-    )
+    peopleHubBody(emojis),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    peopleHubStructuredData()
   );
   count++;
 
@@ -1507,17 +1794,13 @@ const generateStaticPages = () => {
   writeStaticPage(
     template,
     '/flag-quiz/',
-    'Flag Emoji Quiz | Allemojipedia',
-    'Test your knowledge of country flag emojis with the Allemojipedia flag quiz.',
-    'flag emoji quiz, country flags quiz, flag emojis',
-    mainBody(
-      'Flag Emoji Quiz',
-      'Test your knowledge of country flag emojis and learn more about flags from around the world.',
-      [
-        { href: '/category/flags/', label: 'Browse all flag emojis' },
-        { href: '/blog/flag-emojis-complete-guide/', label: 'Read the flag emoji guide' },
-      ]
-    )
+    'Guess the Flag Emoji Quiz - World Flags Quiz Online | Allemojipedia',
+    'Play our country flag emoji quiz online! Test your geography knowledge with 50 world flags in this interactive emoji flag game. Free world flag recognition quiz with 30 questions.',
+    'guess the flag emoji, country flag emoji quiz, world flags quiz online, emoji flag game, geography emoji quiz',
+    flagQuizBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    flagQuizStructuredData()
   );
   count++;
 
@@ -1528,21 +1811,7 @@ const generateStaticPages = () => {
     'Sitemap | Allemojipedia',
     'Browse all pages on Allemojipedia. Find emojis by category, meaning, or name.',
     'allemojipedia sitemap, emoji sitemap',
-    mainBody(
-      'Sitemap',
-      'Browse the main sections of Allemojipedia.',
-      [
-        { href: '/', label: 'Home' },
-        { href: '/categories/', label: 'Emoji Categories' },
-        { href: '/emoji-meanings/', label: 'Emoji Meanings' },
-        { href: '/people/', label: 'People Emojis' },
-        { href: '/blog/', label: 'Emoji Blog' },
-        { href: '/emoji-comparisons/', label: 'Emoji Comparisons' },
-        { href: '/platforms/apple/', label: 'Apple / iPhone Emojis' },
-        { href: '/emoji-kitchen/', label: 'Emoji Kitchen' },
-        { href: '/emoji-combos/', label: 'Emoji Combos' },
-      ]
-    )
+    sitemapBody(emojis)
   );
   count++;
 
@@ -1581,11 +1850,7 @@ const generateStaticPages = () => {
     'Privacy Policy | Allemojipedia',
     'Read our privacy policy to understand how we collect, use, and protect your information.',
     'privacy policy, allemojipedia privacy',
-    mainBody(
-      'Privacy Policy',
-      'Read how Allemojipedia handles privacy, analytics, ads, and user information.',
-      []
-    )
+    privacyBody()
   );
   count++;
 
@@ -1596,11 +1861,7 @@ const generateStaticPages = () => {
     'Contact Us | Allemojipedia',
     'Get in touch with the Allemojipedia team. We\'d love to hear from you!',
     'contact allemojipedia, emoji help',
-    mainBody(
-      'Contact Allemojipedia',
-      'Get in touch with the Allemojipedia team for feedback, questions, and support.',
-      []
-    )
+    contactBody()
   );
   count++;
 

@@ -5,6 +5,10 @@ import type { EmojiIntentCluster } from "./emojiIntentClusters";
 import { getPeopleSubcategoryEditorial } from "./peopleSubcategoryEditorial";
 import { getTopEmojiEditorial } from "./topEmojiEditorial";
 import { buildContextSeoMeta } from "@/utils/emojiContextSeoMeta";
+import {
+  buildEmojiDetailSeoMeta,
+  isGenericEmojiSearchTitle,
+} from "@/utils/emojiDetailSeoMeta";
 
 const BRAND = "Allemojipedia";
 
@@ -146,14 +150,139 @@ export const priorityEmojiSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "What does 😘 mean? Affection, flirting, or goodbye love. See examples from texting and DMs. Copy 😘 in one click.",
   },
+  "pink-heart": {
+    metaTitle: "💗 Pink Heart Meaning: Sweet Love & Texting",
+    metaDescription:
+      "What does 💗 mean? Soft romance, sweet affection, or playful love. See when it feels flirty vs friendly. Copy 💗 now.",
+  },
+  "green-heart": {
+    metaTitle: "💚 Green Heart Meaning: Nature, Jealousy & Texting",
+    metaDescription:
+      "What does 💚 mean? Nature vibes, health, jealousy, or loyal friendship. See texting examples. Copy 💚 instantly.",
+  },
+  "yellow-heart": {
+    metaTitle: "💛 Yellow Heart Meaning: Friendship & Sunshine Love",
+    metaDescription:
+      "What does 💛 mean? Best-friend energy, joy, and warm platonic love. See when to use it vs ❤️. Copy 💛 now.",
+  },
+  "orange-heart": {
+    metaTitle: "🧡 Orange Heart Meaning: Warm Friendship & Texting",
+    metaDescription:
+      "What does 🧡 mean? Warm affection, autumn energy, or close friendship. See texting tone tips. Copy 🧡 instantly.",
+  },
+  "two-hearts": {
+    metaTitle: "💕 Two Hearts Meaning: Love, Couples & Besties",
+    metaDescription:
+      "What does 💕 mean? Mutual love, cute couples, or close friendship. See romantic vs platonic signals. Copy 💕 now.",
+  },
+  "kissing-face": {
+    metaTitle: "😗 Kissing Face Meaning: Flirty, Sweet or Friendly?",
+    metaDescription:
+      "What does 😗 mean in texting? A quick kiss, flirting, or affectionate goodbye. See real message examples. Copy 😗 now.",
+  },
+  "grinning-face": {
+    metaTitle: "😀 Grinning Face Meaning: Happy, Friendly or Sarcastic?",
+    metaDescription:
+      "What does 😀 mean? Big smile energy—genuine happiness or awkward cheer. See texting examples. Copy 😀 instantly.",
+  },
+  "smiling-face": {
+    metaTitle: "🙂 Smiling Face Meaning: Polite, Awkward or Cold?",
+    metaDescription:
+      "What does 🙂 mean in texting? Polite OK—or passive-aggressive depending on context. See tone tips. Copy 🙂 now.",
+  },
+  "smiling-face-with-hearts": {
+    metaTitle: "🥰 Smiling Face with Hearts Meaning: Love & Crush",
+    metaDescription:
+      "What does 🥰 mean? Adoring, crush energy, or wholesome warmth. See flirty vs friendly examples. Copy 🥰 instantly.",
+  },
+  "hot-face": {
+    metaTitle: "🥵 Hot Face Meaning: Attractive, Hot or Embarrassed?",
+    metaDescription:
+      "What does 🥵 mean? Attraction, heat, thirst, or embarrassment. See Gen Z and texting examples. Copy 🥵 now.",
+  },
+  "grinning-face-with-sweat": {
+    metaTitle: "😅 Grinning Sweat Meaning: Nervous Laugh or Relief?",
+    metaDescription:
+      "What does 😅 mean? Awkward laugh, close call, or 'that was stressful.' See texting examples. Copy 😅 instantly.",
+  },
+  "crying-face": {
+    metaTitle: "😢 Crying Face Meaning: Sad, Soft or Disappointed?",
+    metaDescription:
+      "What does 😢 mean in texting? Sadness, disappointment, or gentle upset—not always dramatic. Copy 😢 now.",
+  },
+  "pensive-face": {
+    metaTitle: "😔 Pensive Face Meaning: Sad, Thoughtful or Quiet?",
+    metaDescription:
+      "What does 😔 mean? Quiet sadness, regret, or thoughtful mood. See when it feels serious vs casual. Copy 😔 instantly.",
+  },
+  "unamused-face": {
+    metaTitle: "😒 Unamused Face Meaning: Annoyed, Bored or Judging?",
+    metaDescription:
+      "What does 😒 mean in texting? Bored, unimpressed, or side-eye energy. See sarcastic examples. Copy 😒 now.",
+  },
+  "face-with-rolling-eyes": {
+    metaTitle: "🙄 Eye Roll Emoji Meaning: Sarcasm & Texting",
+    metaDescription:
+      "What does 🙄 mean? Classic eye-roll—annoyance, sarcasm, or 'seriously?' See chat examples. Copy 🙄 instantly.",
+  },
+  "raising-hands": {
+    metaTitle: "🙌 Raising Hands Meaning: Praise, Hype or Celebration",
+    metaDescription:
+      "What does 🙌 mean? Praise, hype, gratitude, or 'we did it.' See texting and comment examples. Copy 🙌 now.",
+  },
+  "party-popper": {
+    metaTitle: "🎉 Party Popper Meaning: Celebration & Birthday Hype",
+    metaDescription:
+      "What does 🎉 mean? Wins, birthdays, announcements, and good news. See caption and chat examples. Copy 🎉 instantly.",
+  },
+  "star-struck": {
+    metaTitle: "🤩 Star-Struck Meaning: Amazed, Crush or Hype",
+    metaDescription:
+      "What does 🤩 mean? Amazement, celebrity crush, or glowing praise. See Instagram and texting tone. Copy 🤩 now.",
+  },
+  "zany-face": {
+    metaTitle: "🤪 Zany Face Meaning: Goofy, Crazy or Excited?",
+    metaDescription:
+      "What does 🤪 mean? Silly energy, wild mood, or playful chaos. See Gen Z and group chat examples. Copy 🤪 instantly.",
+  },
+  "see-no-evil-monkey": {
+    metaTitle: "🙈 See-No-Evil Monkey Meaning: Denial & Memes",
+    metaDescription:
+      "What does 🙈 mean? Playful denial, embarrassment, or 'I didn't see that.' See meme and texting examples. Copy 🙈 now.",
+  },
+  "heart-on-fire": {
+    metaTitle: "❤️‍🔥 Heart on Fire Meaning: Passion, Obsession & Hype",
+    metaDescription:
+      "What does ❤️‍🔥 mean? Intense love, obsession, or strong approval. See flirty vs hype examples. Copy ❤️‍🔥 instantly.",
+  },
+  "mending-heart": {
+    metaTitle: "❤️‍🩹 Mending Heart Meaning: Healing & Moving On",
+    metaDescription:
+      "What does ❤️‍🩹 mean? Recovery, healing, or getting better after hurt. See supportive texting examples. Copy ❤️‍🩹 now.",
+  },
+  "smiling-face-with-tear": {
+    metaTitle: "🥲 Smiling with Tear Meaning: Grateful or Bittersweet?",
+    metaDescription:
+      "What does 🥲 mean? Touched, proud, bittersweet, or smiling through it. See emotional texting examples. Copy 🥲 instantly.",
+  },
+  "face-holding-back-tears": {
+    metaTitle: "🥹 Holding Back Tears Meaning: Moved or Overwhelmed?",
+    metaDescription:
+      "What does 🥹 mean? Touched, grateful, sad, or overwhelmed—in a soft way. See message examples. Copy 🥹 now.",
+  },
+  "shushing-face": {
+    metaTitle: "🤫 Shushing Face Meaning: Secret, Quiet or Flirty?",
+    metaDescription:
+      "What does 🤫 mean? Keep quiet, secret gossip, or playful shush. See texting and DM tone tips. Copy 🤫 instantly.",
+  },
 };
 
 export const mainPagesSeo: Record<string, PageSeoMeta> = {
   "/": {
-    title: `Emoji Meanings & Names — Copy Any Emoji Instantly | ${BRAND}`,
+    title: `What Does That Emoji Mean? Copy 3,700+ Emojis Free | ${BRAND}`,
     description:
-      "What does that emoji mean? Search 3,700+ emoji meanings, slang, texting tone, and copy-paste pages. Free guides for ❤️ 😂 💀 🥺 and more.",
-    ogTitle: "Emoji Meanings & Names — Copy Any Emoji Instantly",
+      "Search any emoji meaning in seconds. ❤️ 😂 💀 🥺 texting guides, Gen Z slang, copy-paste pages & WhatsApp tone tips. Free — no signup.",
+    ogTitle: "What Does That Emoji Mean? Copy 3,700+ Emojis Free",
   },
   "/emoji-meanings/": {
     title: `Emoji Meanings by Intent — Hearts, Texting, Gen Z & More | ${BRAND}`,
@@ -313,15 +442,25 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
   }
 
   const editorial = getTopEmojiEditorial(emoji);
-  const searchTitle = stripRedundantEmojiFromSearchTitle(editorial.searchTitle, emoji.unicode);
-  const title = `${emoji.unicode} ${searchTitle}`;
+
+  if (!isGenericEmojiSearchTitle(editorial.searchTitle, emoji.name)) {
+    const searchTitle = stripRedundantEmojiFromSearchTitle(editorial.searchTitle, emoji.unicode);
+    const title = `${emoji.unicode} ${searchTitle}`;
+    return {
+      title: withBrand(title),
+      description: truncate(
+        `What does ${emoji.unicode} mean? ${editorial.snippetAnswer} Copy ${emoji.unicode} for WhatsApp, Instagram & TikTok.`,
+        160
+      ),
+      ogTitle: title,
+    };
+  }
+
+  const generated = buildEmojiDetailSeoMeta(emoji, editorial);
   return {
-    title: withBrand(title),
-    description: truncate(
-      `${editorial.snippetAnswer} Copy ${emoji.unicode} for texting, WhatsApp, Instagram, and TikTok.`,
-      160
-    ),
-    ogTitle: title,
+    title: withBrand(generated.metaTitle),
+    description: truncate(generated.metaDescription, 160),
+    ogTitle: generated.metaTitle,
   };
 };
 
@@ -1053,14 +1192,14 @@ export const getComparisonSeoMeta = (left: Emoji, right: Emoji): PageSeoMeta => 
     };
   }
 
-  const title = `${left.unicode} ${left.name} vs ${right.unicode} ${right.name}`;
+  const title = `${left.unicode} vs ${right.unicode}: ${left.name} vs ${right.name}`;
   return {
-    title: withBrand(`${title} — Differences & When to Use`),
+    title: withBrand(`${title} — Which Should You Use?`),
     description: truncate(
-      `Compare ${left.name} and ${right.name}: meanings, tone, and when to use ${left.unicode} vs ${right.unicode}.`,
+      `What's the difference between ${left.unicode} and ${right.unicode}? Compare meanings, tone, and when to use each in texting.`,
       160
     ),
-    ogTitle: title,
+    ogTitle: `${left.name} vs ${right.name}`,
   };
 };
 
