@@ -983,6 +983,11 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "What does 🔴 mean? Red circle for status dots, live markers, and bullets—plus copy tips for Discord and Slack.",
   },
+  "moai-emoji-meaning": {
+    metaTitle: "Moai Emoji Meaning: 🗿 Deadpan Gen Z Slang (2026)",
+    metaDescription:
+      "What does 🗿 mean? Moai emoji for deadpan, unfazed, stone-face vibes on TikTok and texts—with examples and copy.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */
