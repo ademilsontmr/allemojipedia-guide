@@ -44,6 +44,8 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   addUrl({ loc: `${BASE_URL}/emoji-comparisons/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-kitchen/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-combos/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/tiktok-emojis/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/emoji-copy-and-paste/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   emojiPlatforms.forEach((platform) => {
     addUrl({ loc: `${BASE_URL}/platforms/${platform.slug}/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   });

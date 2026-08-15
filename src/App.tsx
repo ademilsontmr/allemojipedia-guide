@@ -33,6 +33,8 @@ const PlatformsIndex = lazy(() => import("./pages/PlatformsIndex"));
 const EmojiKitchenPage = lazy(() => import("./pages/EmojiKitchenPage"));
 const EmojiCombosHub = lazy(() => import("./pages/EmojiCombosHub"));
 const EmojiComboDetail = lazy(() => import("./pages/EmojiComboDetail"));
+const TikTokEmojisPage = lazy(() => import("./pages/TikTokEmojisPage"));
+const EmojiCopyAndPastePage = lazy(() => import("./pages/EmojiCopyAndPastePage"));
 const About = lazy(() => import("./pages/About"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -82,6 +84,8 @@ const App = () => {
                 <Route path="/emoji-kitchen" element={<EmojiKitchenPage />} />
                 <Route path="/emoji-combos/:slug" element={<EmojiComboDetail />} />
                 <Route path="/emoji-combos" element={<EmojiCombosHub />} />
+                <Route path="/tiktok-emojis" element={<TikTokEmojisPage />} />
+                <Route path="/emoji-copy-and-paste" element={<EmojiCopyAndPastePage />} />
                 <Route path="/emoji-meanings" element={<EmojiMeanings />} />
                 <Route path="/emoji-meanings-in-texting" element={<EmojiContextHub />} />
                 <Route path="/emoji-meanings/:slug" element={<EmojiMeaningCluster />} />

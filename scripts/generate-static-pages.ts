@@ -24,6 +24,12 @@ import { emojiPlatforms, platformAliasRoutes, getPlatformAliasH1, getPlatformVar
 import type { EmojiCombo } from '../src/data/emojiCombos';
 import { emojiCombos } from '../src/data/emojiCombos';
 import { emojiKitchenGuide, emojiKitchenCombos } from '../src/data/emojiKitchen';
+import { tiktokEmojisHub, tiktokFeaturedEmojis } from '../src/data/tiktokEmojisHub';
+import {
+  copyPastePopularEmojis,
+  copyPasteQuickLinks,
+  emojiCopyPasteHub,
+} from '../src/data/emojiCopyPasteHub';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -1004,6 +1010,121 @@ const emojiKitchenStructuredData = (): StructuredData[] => [
   ]),
 ];
 
+const tiktokEmojisBody = () =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / TikTok Emojis</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(tiktokEmojisHub.h1)}</h1>
+    <p>${escapeHtml(tiktokEmojisHub.lead)}</p>
+
+    <h2>Popular TikTok reaction emojis</h2>
+    <p>Copy each emoji, then open the TikTok meaning guide for comment tone.</p>
+    ${renderLinks(
+      tiktokFeaturedEmojis.map((item) => ({
+        href: `/emoji/${item.slug}/tiktok/`,
+        label: `${item.unicode} ${item.label}`,
+        description: item.tiktokMeaning,
+      }))
+    )}
+
+    ${renderSections(tiktokEmojisHub.sections)}
+    ${renderFaqs(tiktokEmojisHub.faqs)}
+
+    <h2>Related</h2>
+    ${renderLinks([
+      {
+        href: '/emoji-meanings/tiktok-emoji-meanings/',
+        label: 'TikTok emoji meanings cluster',
+        description: 'Slang, viral tone, and reaction guides.',
+      },
+      {
+        href: '/emoji-meanings-in-texting/',
+        label: 'Emoji meanings in texting',
+        description: 'Girl, guy, WhatsApp, Instagram, and TikTok contexts.',
+      },
+      {
+        href: '/emoji-copy-and-paste/',
+        label: 'Emoji copy and paste',
+        description: 'Free web emoji keyboard.',
+      },
+      {
+        href: '/blog/tiktok-emoji-meanings-gen-z-slang/',
+        label: 'Gen Z TikTok slang guide',
+        description: 'Long-form blog on TikTok emoji culture.',
+      },
+    ])}
+  </article>
+`);
+
+const tiktokEmojisStructuredData = (): StructuredData[] => [
+  webPageSchema(tiktokEmojisHub.title, tiktokEmojisHub.description, canonicalUrl('/tiktok-emojis/')),
+  faqPageSchema(tiktokEmojisHub.faqs),
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'TikTok Emojis' },
+  ]),
+];
+
+const emojiCopyPasteBody = () =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Emoji Copy and Paste</nav>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h1>${escapeHtml(emojiCopyPasteHub.h1)}</h1>
+    <p>${escapeHtml(emojiCopyPasteHub.lead)}</p>
+
+    <h2>Popular emojis — copy &amp; meaning</h2>
+    ${renderLinks(
+      copyPastePopularEmojis.map((emoji) => ({
+        href: `/emoji/${emoji.slug}/`,
+        label: `${emoji.unicode} ${emoji.name}`,
+        description: `Copy ${emoji.unicode} and learn the meaning.`,
+      }))
+    )}
+
+    <h2>Copy by platform &amp; combo</h2>
+    ${renderLinks(
+      copyPasteQuickLinks.map((item) => ({
+        href: item.href,
+        label: `${item.unicode} ${item.label}`,
+        description: item.blurb,
+      }))
+    )}
+
+    ${renderSections(emojiCopyPasteHub.sections)}
+    ${renderFaqs(emojiCopyPasteHub.faqs)}
+
+    <h2>Related guides</h2>
+    ${renderLinks([
+      {
+        href: '/blog/how-to-copy-and-paste-emojis/',
+        label: 'How to copy and paste emojis',
+        description: 'Step-by-step for phone and desktop.',
+      },
+      {
+        href: '/blog/copy-paste-emojis-guide/',
+        label: 'Copy-paste emoji guide',
+        description: 'Tips for WhatsApp, Instagram, and more.',
+      },
+      {
+        href: '/categories/',
+        label: 'All emoji categories',
+        description: 'Browse 3,700+ emojis to copy.',
+      },
+    ])}
+  </article>
+`);
+
+const emojiCopyPasteStructuredData = (): StructuredData[] => [
+  webPageSchema(emojiCopyPasteHub.title, emojiCopyPasteHub.description, canonicalUrl('/emoji-copy-and-paste/')),
+  faqPageSchema(emojiCopyPasteHub.faqs),
+  breadcrumbSchema([
+    { name: 'Home', url: `${BASE_URL}/` },
+    { name: 'Emoji Copy and Paste' },
+  ]),
+];
+
 const emojiCombosHubBody = () =>
   staticShell(`
   <article>
@@ -1756,6 +1877,38 @@ const generateStaticPages = () => {
     'article',
     INDEX_FOLLOW_ROBOTS,
     emojiKitchenStructuredData()
+  );
+  count++;
+
+  // TikTok emojis hub
+  console.log('Generating TikTok emojis hub...');
+  const tiktokSeo = getMainPageSeo('/tiktok-emojis/');
+  writeStaticPage(
+    template,
+    '/tiktok-emojis/',
+    tiktokSeo.title,
+    tiktokSeo.description,
+    tiktokEmojisHub.keywords,
+    tiktokEmojisBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    tiktokEmojisStructuredData()
+  );
+  count++;
+
+  // Emoji copy and paste landing
+  console.log('Generating emoji copy and paste page...');
+  const copyPasteSeo = getMainPageSeo('/emoji-copy-and-paste/');
+  writeStaticPage(
+    template,
+    '/emoji-copy-and-paste/',
+    copyPasteSeo.title,
+    copyPasteSeo.description,
+    emojiCopyPasteHub.keywords,
+    emojiCopyPasteBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    emojiCopyPasteStructuredData()
   );
   count++;
 

@@ -398,6 +398,18 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Copy emoji combos: couple, family, heart eyes kiss, birthday, and ZWJ sequences with meanings.",
     ogTitle: "Emoji Combos — Copy & Meaning",
   },
+  "/tiktok-emojis/": {
+    title: `TikTok Emojis — Meanings, Slang & Copy (2026) | ${BRAND}`,
+    description:
+      "What do TikTok emojis mean? Decode 💀 😭 🤡 🔥 👀 in comments, copy viral reactions, and learn Gen Z slang tone.",
+    ogTitle: "TikTok Emojis — Meanings, Slang & Copy",
+  },
+  "/emoji-copy-and-paste/": {
+    title: `Emoji Copy and Paste — Free Emoji Keyboard (2026) | ${BRAND}`,
+    description:
+      "Copy and paste emojis instantly. Free web emoji keyboard for WhatsApp, Instagram, TikTok & iMessage—tap any emoji to copy.",
+    ogTitle: "Emoji Copy and Paste — Free Emoji Keyboard",
+  },
 };
 
 const withBrand = (title: string) =>
