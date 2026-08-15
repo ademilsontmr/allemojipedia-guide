@@ -988,6 +988,11 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "What does 🗿 mean? Moai emoji for deadpan, unfazed, stone-face vibes on TikTok and texts—with examples and copy.",
   },
+  "nail-polish-emoji-meaning": {
+    metaTitle: "Nail Polish Emoji Meaning: 💅 Unbothered (2026)",
+    metaDescription:
+      "What does 💅 mean? Nail polish emoji for unbothered, sassy Gen Z vibes on TikTok and texts—with examples and copy.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */
