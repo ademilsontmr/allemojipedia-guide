@@ -2,6 +2,7 @@ import type { BlogPost } from "@/data/blogPosts";
 import { blogFaqsLote1 } from "@/data/blogFaqsLote1";
 import { blogFaqsLote2 } from "@/data/blogFaqsLote2";
 import { blogFaqsLote3 } from "@/data/blogFaqsLote3";
+import { blogFaqsLote4 } from "@/data/blogFaqsLote4";
 
 export type BlogFaq = { question: string; answer: string };
 
@@ -69,7 +70,10 @@ const pick = <T>(items: T[], slug: string, salt: number): T =>
 export function resolveBlogFaqs(post: BlogPost): BlogFaq[] {
   if (post.faqs && post.faqs.length > 0) return post.faqs;
   const loteFaqs =
-    blogFaqsLote1[post.slug] ?? blogFaqsLote2[post.slug] ?? blogFaqsLote3[post.slug];
+    blogFaqsLote1[post.slug] ??
+    blogFaqsLote2[post.slug] ??
+    blogFaqsLote3[post.slug] ??
+    blogFaqsLote4[post.slug];
   if (loteFaqs?.length) return loteFaqs;
 
   const topic = topicLabel(post);
