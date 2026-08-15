@@ -25,6 +25,7 @@ import type { EmojiCombo } from '../src/data/emojiCombos';
 import { emojiCombos } from '../src/data/emojiCombos';
 import { emojiKitchenGuide, emojiKitchenCombos } from '../src/data/emojiKitchen';
 import { tiktokEmojisHub, tiktokFeaturedEmojis } from '../src/data/tiktokEmojisHub';
+import { trendingEmojiCards } from '../src/data/featuredEmojis';
 import {
   copyPastePopularEmojis,
   copyPasteQuickLinks,
@@ -370,6 +371,73 @@ const mainBody = (title: string, description: string, links: LinkItem[]) => stat
     <h1>${escapeHtml(title)}</h1>
     <p>${escapeHtml(description)}</p>
     ${links.length ? renderLinks(links) : ''}
+  </article>
+`);
+
+/** Home static HTML must expose crawlable <a href> to priority emoji + blog URLs (React trending is not enough for Googlebot). */
+const homeBody = () =>
+  staticShell(`
+  <article>
+    <h1>Allemojipedia — Emoji Meanings, Names &amp; Copy</h1>
+    <p>Your complete emoji encyclopedia with meanings, examples, copy-paste pages, categories, and emoji usage guides.</p>
+
+    <h2>Start here</h2>
+    ${renderLinks([
+      { href: '/categories/', label: 'Browse emoji categories', description: 'Find emojis by theme and category.' },
+      { href: '/emoji-copy-and-paste/', label: 'Emoji copy and paste', description: 'Free web emoji keyboard — tap to copy.' },
+      { href: '/tiktok-emojis/', label: 'TikTok emojis hub', description: 'Gen Z reaction meanings and copy links.' },
+      { href: '/emoji-meanings/', label: 'Emoji meanings by intent', description: 'Hearts, texting tone, Gen Z slang, flags, work.' },
+      { href: '/blog/', label: 'Emoji blog guides', description: 'Meanings, etiquette, shortcuts, and trends.' },
+    ])}
+
+    <h2>Trending emoji meanings</h2>
+    <p>Popular faces Google and readers look up most — each links to a full meaning page.</p>
+    ${renderLinks(
+      trendingEmojiCards.map((emoji) => ({
+        href: `/emoji/${emoji.slug}/`,
+        label: `${emoji.unicode} ${emoji.name}`,
+        description: emoji.shortMeaning,
+      }))
+    )}
+
+    <h2>High-demand guides</h2>
+    ${renderLinks([
+      {
+        href: '/blog/skull-emoji-meaning/',
+        label: '💀 Skull emoji meaning',
+        description: 'Gen Z “I’m dead” laughing explained.',
+      },
+      {
+        href: '/blog/moai-emoji-meaning/',
+        label: '🗿 Moai emoji meaning',
+        description: 'Deadpan stone-face slang for TikTok and texts.',
+      },
+      {
+        href: '/blog/nail-polish-emoji-meaning/',
+        label: '💅 Nail polish emoji meaning',
+        description: 'Unbothered, sassy Gen Z attitude.',
+      },
+      {
+        href: '/blog/sparkles-emoji-meaning/',
+        label: '✨ Sparkles emoji meaning',
+        description: 'Aesthetic shine vs sarcastic glitter.',
+      },
+      {
+        href: '/blog/face-holding-back-tears-emoji-meaning/',
+        label: '🥹 Face holding back tears meaning',
+        description: 'Touched, proud, soft emotion.',
+      },
+      {
+        href: '/blog/tired-emoji-meaning/',
+        label: 'Tired emoji meaning',
+        description: '😫 😩 🥱 😴 exhaustion faces compared.',
+      },
+      {
+        href: '/blog/emoji-keyboard-shortcut/',
+        label: 'Emoji keyboard shortcut',
+        description: 'Windows, Mac, iPhone, and Android.',
+      },
+    ])}
   </article>
 `);
 
@@ -1055,6 +1123,26 @@ const tiktokEmojisBody = () =>
         description: 'Slang, viral tone, and reaction guides.',
       },
       {
+        href: '/emoji/skull/',
+        label: '💀 Skull emoji meaning page',
+        description: 'Core “I’m dead” laughing meaning and copy.',
+      },
+      {
+        href: '/blog/skull-emoji-meaning/',
+        label: '💀 Skull emoji blog guide',
+        description: 'Long-form Gen Z skull slang.',
+      },
+      {
+        href: '/blog/moai-emoji-meaning/',
+        label: '🗿 Moai emoji meaning',
+        description: 'Deadpan TikTok stone-face slang.',
+      },
+      {
+        href: '/blog/nail-polish-emoji-meaning/',
+        label: '💅 Nail polish emoji meaning',
+        description: 'Unbothered attitude in comments.',
+      },
+      {
         href: '/emoji-meanings-in-texting/',
         label: 'Emoji meanings in texting',
         description: 'Girl, guy, WhatsApp, Instagram, and TikTok contexts.',
@@ -1499,24 +1587,14 @@ const generateStaticPages = () => {
 
   const homeSeo = getMainPageSeo('/');
 
-  // Home page
+  // Home page — rich static links so Googlebot finds priority emoji/blog URLs from the (likely) indexed homepage
   writeStaticPage(
     template,
     '/',
     homeSeo.title,
     homeSeo.description,
     'emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, emoji guide',
-    mainBody(
-      'Allemojipedia — Emoji Meanings, Names & Copy',
-      'Your complete emoji encyclopedia with meanings, examples, copy-paste pages, categories, and emoji usage guides.',
-      [
-        { href: '/categories/', label: 'Browse emoji categories', description: 'Find emojis by theme and category.' },
-        { href: '/emoji-meanings/', label: 'Explore emoji meanings by intent', description: 'Start with hearts, texting tone, Gen Z slang, flags, or work emojis.' },
-        { href: '/blog/', label: 'Read emoji guides', description: 'Learn emoji meanings, etiquette, and trends.' },
-        { href: '/emoji/face-with-tears-of-joy/', label: '😂 Face With Tears of Joy', description: 'One of the most popular emoji meanings.' },
-        { href: '/emoji/red-heart/', label: '❤️ Red Heart', description: 'Meaning and usage examples for the red heart emoji.' },
-      ]
-    )
+    homeBody()
   );
   count++;
 

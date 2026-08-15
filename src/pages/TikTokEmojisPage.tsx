@@ -140,6 +140,18 @@ const TikTokEmojisPage = () => {
               <Link to="/blog/tiktok-emoji-meanings-gen-z-slang/" className="text-primary hover:underline">
                 Gen Z TikTok slang guide →
               </Link>
+              <Link to="/emoji/skull/" className="text-primary hover:underline">
+                💀 Skull emoji page →
+              </Link>
+              <Link to="/blog/skull-emoji-meaning/" className="text-primary hover:underline">
+                💀 Skull blog guide →
+              </Link>
+              <Link to="/blog/moai-emoji-meaning/" className="text-primary hover:underline">
+                🗿 Moai meaning →
+              </Link>
+              <Link to="/blog/nail-polish-emoji-meaning/" className="text-primary hover:underline">
+                💅 Nail polish meaning →
+              </Link>
             </div>
           </section>
         </article>

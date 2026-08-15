@@ -225,6 +225,28 @@ const Index = () => {
               )}
             </section>
 
+            <section className="section-spacing">
+              <h2 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">High-demand emoji guides</h2>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  { to: "/blog/skull-emoji-meaning/", label: "💀 Skull emoji meaning" },
+                  { to: "/blog/moai-emoji-meaning/", label: "🗿 Moai emoji meaning" },
+                  { to: "/blog/nail-polish-emoji-meaning/", label: "💅 Nail polish emoji meaning" },
+                  { to: "/blog/sparkles-emoji-meaning/", label: "✨ Sparkles emoji meaning" },
+                  { to: "/blog/face-holding-back-tears-emoji-meaning/", label: "🥹 Holding back tears meaning" },
+                  { to: "/blog/tired-emoji-meaning/", label: "Tired emoji meaning" },
+                ].map((item) => (
+                  <Link
+                    key={item.to}
+                    to={item.to}
+                    className="p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 transition-all font-medium text-sm md:text-base"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </section>
+
             {/* H2 - Emoji Comparisons */}
             <section className="section-spacing">
               <div className="flex items-center justify-between mb-4 md:mb-6">
