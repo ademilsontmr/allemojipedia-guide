@@ -3,6 +3,7 @@ import { blogFaqsLote1 } from "@/data/blogFaqsLote1";
 import { blogFaqsLote2 } from "@/data/blogFaqsLote2";
 import { blogFaqsLote3 } from "@/data/blogFaqsLote3";
 import { blogFaqsLote4 } from "@/data/blogFaqsLote4";
+import { blogFaqsLote5 } from "@/data/blogFaqsLote5";
 
 export type BlogFaq = { question: string; answer: string };
 
@@ -73,7 +74,8 @@ export function resolveBlogFaqs(post: BlogPost): BlogFaq[] {
     blogFaqsLote1[post.slug] ??
     blogFaqsLote2[post.slug] ??
     blogFaqsLote3[post.slug] ??
-    blogFaqsLote4[post.slug];
+    blogFaqsLote4[post.slug] ??
+    blogFaqsLote5[post.slug];
   if (loteFaqs?.length) return loteFaqs;
 
   const topic = topicLabel(post);
