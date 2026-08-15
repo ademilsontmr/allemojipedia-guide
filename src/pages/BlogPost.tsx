@@ -5,6 +5,7 @@ import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { getBlogPostSeoMeta } from "@/data/seoMeta";
 import { parseMarkdownTable } from "@/utils/blogMarkdownTables";
+import { resolveBlogFaqs } from "@/utils/resolveBlogFaqs";
 
 // Helper function to render inline markdown (bold, italic, links)
 const renderInlineMarkdown = (text: string): React.ReactNode => {
@@ -192,6 +193,7 @@ const BlogPost = () => {
   }
 
   const seo = getBlogPostSeoMeta(post);
+  const faqs = resolveBlogFaqs(post);
 
   // Get suggested posts
   const definedRelated = post.relatedPosts
@@ -335,14 +337,14 @@ const BlogPost = () => {
         <meta property="og:description" content={seo.description} />
         <meta property="og:url" content={`https://allemojipedia.com/blog/${post.slug}/`} />
         <meta property="og:type" content="article" />
-        {post.faqs && post.faqs.length > 0 && (
+        {faqs.length > 0 && (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "FAQPage",
-                mainEntity: post.faqs.map((faq) => ({
+                mainEntity: faqs.map((faq) => ({
                   "@type": "Question",
                   name: faq.question,
                   acceptedAnswer: {
@@ -413,13 +415,13 @@ const BlogPost = () => {
           {renderContent()}
         </div>
 
-        {post.faqs && post.faqs.length > 0 && (
+        {faqs.length > 0 && (
           <section className="mt-16" aria-labelledby="blog-faq-heading">
             <h2 id="blog-faq-heading" className="text-2xl md:text-3xl font-bold mb-8">
               Frequently asked questions
             </h2>
             <div className="space-y-4">
-              {post.faqs.map((faq) => (
+              {faqs.map((faq) => (
                 <div key={faq.question} className="rounded-xl border border-border bg-muted/20 p-5">
                   <h3 className="font-semibold mb-2 text-lg">{faq.question}</h3>
                   <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>

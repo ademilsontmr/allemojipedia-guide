@@ -31,6 +31,7 @@ import {
   emojiCopyPasteHub,
 } from '../src/data/emojiCopyPasteHub';
 import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
+import { resolveBlogFaqs } from '../src/utils/resolveBlogFaqs';
 
 const BASE_URL = 'https://allemojipedia.com';
 const DIST_DIR = 'dist';
@@ -733,11 +734,12 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
     return `<p>${renderInlineMarkdownHtml(block)}</p>`;
   }).join('\n');
 
+  const blogFaqs = resolveBlogFaqs(post);
   const faqHtml =
-    post.faqs && post.faqs.length
+    blogFaqs.length
       ? `
       <h2>Frequently asked questions</h2>
-      ${post.faqs
+      ${blogFaqs
         .map(
           (faq) => `
       <h3>${escapeHtml(faq.question)}</h3>
@@ -1352,8 +1354,9 @@ const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredDat
     ]),
   ];
 
-  if (post.faqs?.length) {
-    data.push(faqPageSchema(post.faqs));
+  const blogFaqs = resolveBlogFaqs(post);
+  if (blogFaqs.length) {
+    data.push(faqPageSchema(blogFaqs));
   }
 
   return data;
