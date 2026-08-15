@@ -998,6 +998,11 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "What does ✨ mean? Sparkles for aesthetic shine—or sarcastic glitter in texts and TikTok—with examples and copy.",
   },
+  "face-holding-back-tears-emoji-meaning": {
+    metaTitle: "🥹 Meaning: Face Holding Back Tears Explained",
+    metaDescription:
+      "What does 🥹 mean? Face holding back tears for touched, proud, soft emotion—with examples and one-click copy.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */

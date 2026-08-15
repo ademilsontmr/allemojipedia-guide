@@ -6,6 +6,7 @@ import { serpAug2026BlogPosts } from "./blogBatch-serp-aug2026";
 import { serpMoaiAug2026BlogPosts } from "./blogBatch-serp-moai-aug2026";
 import { serpNailPolishAug2026BlogPosts } from "./blogBatch-serp-nail-polish-aug2026";
 import { serpSparklesAug2026BlogPosts } from "./blogBatch-serp-sparkles-aug2026";
+import { serpHoldingBackTearsAug2026BlogPosts } from "./blogBatch-serp-holding-back-tears-aug2026";
 
 export interface BlogPost {
   id: string;
@@ -23,6 +24,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  ...serpHoldingBackTearsAug2026BlogPosts,
   ...serpSparklesAug2026BlogPosts,
   ...serpNailPolishAug2026BlogPosts,
   ...serpMoaiAug2026BlogPosts,
