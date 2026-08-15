@@ -335,6 +335,25 @@ const BlogPost = () => {
         <meta property="og:description" content={seo.description} />
         <meta property="og:url" content={`https://allemojipedia.com/blog/${post.slug}/`} />
         <meta property="og:type" content="article" />
+        {post.faqs && post.faqs.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: post.faqs.map((faq) => ({
+                  "@type": "Question",
+                  name: faq.question,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: faq.answer,
+                  },
+                })),
+              }),
+            }}
+          />
+        )}
       </Helmet>
 
       <article className="container-page py-8 max-w-3xl mx-auto">
@@ -393,6 +412,22 @@ const BlogPost = () => {
         <div className="prose-custom max-w-none">
           {renderContent()}
         </div>
+
+        {post.faqs && post.faqs.length > 0 && (
+          <section className="mt-16" aria-labelledby="blog-faq-heading">
+            <h2 id="blog-faq-heading" className="text-2xl md:text-3xl font-bold mb-8">
+              Frequently asked questions
+            </h2>
+            <div className="space-y-4">
+              {post.faqs.map((faq) => (
+                <div key={faq.question} className="rounded-xl border border-border bg-muted/20 p-5">
+                  <h3 className="font-semibold mb-2 text-lg">{faq.question}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Continue Reading */}
         <div className="mt-20 pt-12 border-t border-border">

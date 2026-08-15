@@ -15,6 +15,8 @@ export interface BlogPost {
   image: string;
   keywords?: string;
   relatedPosts?: string[]; // slugs of related posts
+  /** Unique FAQ for visible Q&A + FAQPage schema (Google rich results). */
+  faqs?: Array<{ question: string; answer: string }>;
 }
 
 export const blogPosts: BlogPost[] = [

@@ -733,6 +733,19 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
     return `<p>${renderInlineMarkdownHtml(block)}</p>`;
   }).join('\n');
 
+  const faqHtml =
+    post.faqs && post.faqs.length
+      ? `
+      <h2>Frequently asked questions</h2>
+      ${post.faqs
+        .map(
+          (faq) => `
+      <h3>${escapeHtml(faq.question)}</h3>
+      <p>${escapeHtml(faq.answer)}</p>`
+        )
+        .join('')}`
+      : '';
+
   return staticShell(`
     <article>
       <nav><a href="/">Home</a> / <a href="/blog/">Blog</a></nav>
@@ -740,6 +753,7 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
       <p><strong>${escapeHtml(post.excerpt)}</strong></p>
       <p>${escapeHtml(post.date)} • ${escapeHtml(post.readTime)}</p>
       ${content}
+      ${faqHtml}
     </article>
   `);
 };
@@ -1309,33 +1323,41 @@ const categoryStructuredData = (
   ]),
 ];
 
-const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredData[] => [
-  {
-    '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    headline: post.title,
-    description: compactText(post.excerpt),
-    url: canonicalUrl(`/blog/${post.slug}/`),
-    datePublished: post.date,
-    dateModified: post.date,
-    author: {
-      '@type': 'Organization',
-      name: 'Allemojipedia',
-      url: `${BASE_URL}/about/`,
+const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredData[] => {
+  const data: StructuredData[] = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: post.title,
+      description: compactText(post.excerpt),
+      url: canonicalUrl(`/blog/${post.slug}/`),
+      datePublished: post.date,
+      dateModified: post.date,
+      author: {
+        '@type': 'Organization',
+        name: 'Allemojipedia',
+        url: `${BASE_URL}/about/`,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Allemojipedia',
+        url: `${BASE_URL}/`,
+      },
+      mainEntityOfPage: canonicalUrl(`/blog/${post.slug}/`),
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Allemojipedia',
-      url: `${BASE_URL}/`,
-    },
-    mainEntityOfPage: canonicalUrl(`/blog/${post.slug}/`),
-  },
-  breadcrumbSchema([
-    { name: 'Home', url: `${BASE_URL}/` },
-    { name: 'Blog', url: canonicalUrl('/blog/') },
-    { name: post.title },
-  ]),
-];
+    breadcrumbSchema([
+      { name: 'Home', url: `${BASE_URL}/` },
+      { name: 'Blog', url: canonicalUrl('/blog/') },
+      { name: post.title },
+    ]),
+  ];
+
+  if (post.faqs?.length) {
+    data.push(faqPageSchema(post.faqs));
+  }
+
+  return data;
+};
 
 const emojiComparisonStructuredData = (left: Emoji, right: Emoji): StructuredData[] => {
   const faqItems = comparisonFaqItems(left, right);
