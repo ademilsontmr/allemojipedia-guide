@@ -2,6 +2,7 @@ import { inspiredEmojiBlogPosts } from "./inspiredEmojiBlogPosts";
 import { june2026BlogPosts } from "./blogBatch-june2026";
 import { serpJune2026BlogPosts } from "./blogBatch-serp-june2026";
 import { serpLote2June2026BlogPosts } from "./blogBatch-serp-lote2-june2026";
+import { serpAug2026BlogPosts } from "./blogBatch-serp-aug2026";
 
 export interface BlogPost {
   id: string;
@@ -17,6 +18,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  ...serpAug2026BlogPosts,
   ...serpLote2June2026BlogPosts,
   ...serpJune2026BlogPosts,
   ...june2026BlogPosts,

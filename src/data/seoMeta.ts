@@ -968,6 +968,21 @@ export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
     metaDescription:
       "Pick the right sad emoji for disappointment, regret, or sympathy—with sincere texting tips.",
   },
+  "tired-emoji-meaning": {
+    metaTitle: "Tired Emoji Meaning: 😫 😩 🥱 😴 Explained (2026)",
+    metaDescription:
+      "What does the tired emoji mean? Compare 😫 😩 🥱 😴 for exhaustion, boredom, and sleep—with examples and copy links.",
+  },
+  "emoji-keyboard-shortcut": {
+    metaTitle: "Emoji Keyboard Shortcut: Win, Mac, iPhone, Android",
+    metaDescription:
+      "Open the emoji keyboard fast: Win+., Ctrl+Cmd+Space, iPhone & Gboard keys—plus a free web copy-paste keyboard.",
+  },
+  "red-circle-emoji-meaning": {
+    metaTitle: "Red Circle Emoji Meaning: 🔴 Status, Lists & Copy",
+    metaDescription:
+      "What does 🔴 mean? Red circle for status dots, live markers, and bullets—plus copy tips for Discord and Slack.",
+  },
 };
 
 /** Lote 3 — emoji context pages (emojiSlug/context) */
