@@ -438,7 +438,7 @@ export const blogFaqsLote4: Record<string, BlogFaq[]> = {
   ],
   "how-to-use-emojis-on-iphone": [
     {
-      question: "How do I open the emoji keyboard on iPhone?",
+      question: "How do I switch to the emoji keyboard on an iPhone?",
       answer:
         "In a text field, tap the globe 🌐 or emoji key, browse or search, then tap a face to insert.",
     },
