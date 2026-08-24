@@ -4,13 +4,11 @@ import { blogPosts } from '@/data/blogPosts';
 import { popularComparisons } from '@/data/emojiComparisons';
 import { emojiIntentClusters } from '@/data/emojiIntentClusters';
 import { emojiContextPages } from '@/data/emojiContextPages';
-import { emojiPlatforms, platformAliasRoutes } from '@/data/emojiPlatforms';
+import { emojiPlatforms } from '@/data/emojiPlatforms';
 import { emojiCombos } from '@/data/emojiCombos';
 import { editorialMeta } from '@/data/editorialMeta';
 
 const BASE_URL = 'https://allemojipedia.com';
-const POSTS_PER_PAGE = 9;
-
 export interface SitemapUrl {
   loc: string;
   priority: string;
@@ -49,24 +47,13 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   emojiPlatforms.forEach((platform) => {
     addUrl({ loc: `${BASE_URL}/platforms/${platform.slug}/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   });
-  platformAliasRoutes.forEach(({ path: aliasPath }) => {
-    addUrl({ loc: `${BASE_URL}${aliasPath}/`, priority: '0.85', lastmod: editorialMeta.lastUpdatedIso });
-  });
   emojiCombos.forEach((combo) => {
     addUrl({ loc: `${BASE_URL}/emoji-combos/${combo.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
   addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6', lastmod: editorialMeta.lastUpdatedIso });
-  addUrl({ loc: `${BASE_URL}/sitemap/`, priority: '0.5', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/about/`, priority: '0.4', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/privacy/`, priority: '0.3', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/contact/`, priority: '0.3', lastmod: editorialMeta.lastUpdatedIso });
-
-  const totalBlogPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
-  for (let i = 2; i <= totalBlogPages; i++) {
-    const pageNum = i.toString().padStart(2, '0');
-    const pagePosts = blogPosts.slice((i - 1) * POSTS_PER_PAGE, i * POSTS_PER_PAGE);
-    addUrl({ loc: `${BASE_URL}/blog/page/${pageNum}/`, priority: '0.7', lastmod: latestDate(pagePosts.map((post) => post.date)) });
-  }
 
   // Category pages
   categories.forEach(category => {

@@ -2002,6 +2002,7 @@ const generateStaticPages = () => {
     const p = emojiPlatforms.find((pl) => pl.slug === platform);
     if (!p) return;
     const seoPath = `${aliasPath}/`;
+    const canonicalPlatformPath = `/platforms/${platform}/`;
     const aliasSeo = getMainPageSeo(seoPath);
     const variantSeo = getPlatformVariantSeo(variant);
     const featured = p.featuredEmojiSlugs
@@ -2019,11 +2020,12 @@ const generateStaticPages = () => {
         h1,
         lead: variantSeo.description,
         breadcrumbLabel: h1,
-        hubPath: `/platforms/${platform}/`,
+        hubPath: canonicalPlatformPath,
       }),
       'website',
       INDEX_FOLLOW_ROBOTS,
-      platformHubStructuredData(p, featured.length, `${aliasPath}/`)
+      platformHubStructuredData(p, featured.length, canonicalPlatformPath),
+      canonicalPlatformPath
     );
     count++;
   });

@@ -134,7 +134,14 @@ const Index = () => {
         <meta name="description" content={homeSeo.description} />
         <meta name="keywords" content="emoji meanings, emoji dictionary, emoji encyclopedia, copy paste emoji, what does emoji mean, emoji guide, emoji list, unicode emojis" />
         <meta name="author" content="Allemojipedia Editorial Team" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta
+          name="robots"
+          content={
+            query
+              ? "noindex, follow"
+              : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+          }
+        />
         <link rel="canonical" href="https://allemojipedia.com/" />
         <meta property="og:title" content={homeSeo.ogTitle ?? homeSeo.title} />
         <meta property="og:description" content={homeSeo.description} />
