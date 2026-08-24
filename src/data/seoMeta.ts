@@ -320,6 +320,12 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
       "Browse people and body emojis: hand gestures, professions, family, skin tones. Copy any human emoji with meanings.",
     ogTitle: "People Emojis — Gestures, Family & Body Copy",
   },
+  "/platforms/": {
+    title: `Emoji Platforms — Apple, Google & Samsung | ${BRAND}`,
+    description:
+      "Copy emojis by platform: iPhone (Apple), Android (Google), and Samsung Galaxy—with meanings for each device style.",
+    ogTitle: "Emoji Platforms — Apple, Google & Samsung",
+  },
   "/platforms/apple/": {
     title: `Apple Emoji — iPhone & iOS Emoji List, Copy & Meanings | ${BRAND}`,
     description:

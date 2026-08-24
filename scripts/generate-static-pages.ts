@@ -971,6 +971,39 @@ const faqPageSchema = (faqs: Array<{ question: string; answer: string }>): Struc
   })),
 });
 
+const platformsIndexBody = () =>
+  staticShell(`
+  <article>
+    <nav><a href="/">Home</a> / Platforms</nav>
+    <h1>Emoji by Platform</h1>
+    <p>Unicode emojis look different on iPhone, Android, and Samsung. Copy and learn meanings for each platform style—Apple iOS, Google Noto (Gboard), and Samsung One UI.</p>
+    <p>Reviewed by ${escapeHtml(editorialMeta.teamName)} • Last updated ${escapeHtml(editorialMeta.lastUpdated)}</p>
+    <h2>Browse by platform</h2>
+    ${renderLinks(
+      emojiPlatforms.map((platform) => ({
+        href: `/platforms/${platform.slug}/`,
+        label: `${platform.icon} ${platform.name}`,
+        description: platform.description.slice(0, 160),
+      }))
+    )}
+    <h2>Popular platform landing pages</h2>
+    ${renderLinks([
+      { href: '/iphone-emojis/', label: 'iPhone Emojis — Full List (2026)', description: 'Complete Apple emoji list with copy-paste and meanings.' },
+      { href: '/android-emojis/', label: 'Android Emojis — Full List (2026)', description: 'Complete Google/Gboard emoji list with meanings.' },
+      { href: '/samsung-emojis/', label: 'Samsung Emojis — Galaxy List (2026)', description: 'Complete Samsung Galaxy emoji list with meanings.' },
+      { href: '/copy-iphone-emojis/', label: 'Copy iPhone Emojis', description: 'One-click Apple emoji copy for iMessage and social apps.' },
+      { href: '/copy-android-emojis/', label: 'Copy Android Emojis', description: 'One-click Google emoji copy for Messages and WhatsApp.' },
+      { href: '/copy-samsung-emojis/', label: 'Copy Samsung Emojis', description: 'One-click Galaxy emoji copy for Samsung Messages.' },
+    ])}
+    <h2>Related guides</h2>
+    ${renderLinks([
+      { href: '/emoji-kitchen/', label: 'Emoji Kitchen Guide', description: 'Gboard mashups and copy-ready combo alternatives.' },
+      { href: '/emoji-copy-and-paste/', label: 'Emoji Copy and Paste', description: 'Copy any emoji for texting, WhatsApp, Instagram, and TikTok.' },
+      { href: '/categories/', label: 'All Emoji Categories', description: 'Browse 3,700+ emoji meanings and copy pages.' },
+    ])}
+  </article>
+`);
+
 const platformHubBody = (
   platform: EmojiPlatform,
   featured: Emoji[],
@@ -1540,10 +1573,18 @@ const writeStaticPage = (
   bodyHtml: string,
   ogType = 'website',
   robots = INDEX_FOLLOW_ROBOTS,
-  structuredData: StructuredData[] = []
+  structuredData: StructuredData[] = [],
+  canonicalOverride?: string
 ) => {
   const route = canonicalPath(routePath);
-  const metaTags = generateMetaTags(title, description, canonicalUrl(route), keywords, ogType, robots);
+  const metaTags = generateMetaTags(
+    title,
+    description,
+    canonicalUrl(canonicalOverride ? canonicalPath(canonicalOverride) : route),
+    keywords,
+    ogType,
+    robots
+  );
   const html = injectStaticBody(injectStructuredData(injectMetaTags(template, metaTags), structuredData), bodyHtml);
   const dir = route === '/' ? DIST_DIR : path.join(DIST_DIR, route.replace(/^\/|\/$/g, ''));
 
@@ -1908,6 +1949,26 @@ const generateStaticPages = () => {
         }];
       })
     )
+  );
+  count++;
+
+  // Platform index hub (/platforms/ — canonical to Apple hub, matches PlatformsIndex.tsx)
+  console.log('Generating platforms index page...');
+  const platformsIndexSeo = getMainPageSeo('/platforms/');
+  writeStaticPage(
+    template,
+    '/platforms/',
+    platformsIndexSeo.title,
+    platformsIndexSeo.description,
+    'emoji platforms, apple emoji, android emoji, samsung emoji, iphone emojis',
+    platformsIndexBody(),
+    'website',
+    INDEX_FOLLOW_ROBOTS,
+    breadcrumbSchema([
+      { name: 'Home', url: `${BASE_URL}/` },
+      { name: 'Platforms' },
+    ]),
+    '/platforms/apple/'
   );
   count++;
 
