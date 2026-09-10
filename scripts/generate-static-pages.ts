@@ -414,6 +414,7 @@ const homeBody = () =>
       { href: '/emoji/thinking-face/', label: '🤔 Thinking face meaning', description: 'Doubt, curiosity, side-eye.' },
       { href: '/emoji/thumbs-up/', label: '👍 Thumbs up meaning', description: 'OK, approval — or passive-aggressive.' },
       { href: '/emoji/folded-hands/', label: '🙏 Folded hands meaning', description: 'Thanks, prayer, or high-five.' },
+      { href: '/emoji/hundred-points/', label: '💯 Hundred points meaning', description: 'Keep it 100, facts, perfect score.' },
       { href: '/emoji/christmas-tree/', label: '🎄 Christmas tree meaning', description: 'Holiday season and December vibes.' },
       { href: '/emoji/santa-claus/', label: '🎅 Santa emoji meaning', description: 'Christmas gifts and Secret Santa.' },
       { href: '/emoji/wrapped-gift/', label: '🎁 Gift emoji meaning', description: 'Presents, birthdays, holiday hauls.' },

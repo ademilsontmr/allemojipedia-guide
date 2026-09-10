@@ -250,6 +250,7 @@ const Index = () => {
                   { to: "/emoji/thinking-face/", label: "🤔 Thinking face meaning" },
                   { to: "/emoji/thumbs-up/", label: "👍 Thumbs up meaning" },
                   { to: "/emoji/folded-hands/", label: "🙏 Folded hands meaning" },
+                  { to: "/emoji/hundred-points/", label: "💯 Hundred points meaning" },
                   { to: "/emoji/christmas-tree/", label: "🎄 Christmas tree meaning" },
                   { to: "/emoji/santa-claus/", label: "🎅 Santa emoji meaning" },
                   { to: "/emoji/wrapped-gift/", label: "🎁 Gift emoji meaning" },
