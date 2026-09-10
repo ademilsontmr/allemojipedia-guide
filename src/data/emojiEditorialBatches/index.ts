@@ -41,6 +41,7 @@ import { batch44P1Wave4FacesExtend } from "./batch44-p1-wave4-faces-extend";
 import { batch45P1Wave5FacesExtend } from "./batch45-p1-wave5-faces-extend";
 import { batch46P1Wave6TopClose } from "./batch46-p1-wave6-top-close";
 import { batch47IndexingStierGsc } from "./batch47-indexing-stier-gsc";
+import { batch48IndexingStierWave2 } from "./batch48-indexing-stier-wave2";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
@@ -87,6 +88,7 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch45P1Wave5FacesExtend,
   ...batch46P1Wave6TopClose,
   ...batch47IndexingStierGsc,
+  ...batch48IndexingStierWave2,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();

@@ -400,13 +400,21 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
     notes:
       "Hand rewrite for ❤️ 💀 🥺 — pages listed in Search Console as crawled but not indexed.",
   },
+  {
+    id: "48-indexing-stier-wave2",
+    name: "Indexing S-tier wave 2 — laugh, fire, cry, sparkles",
+    category: "smileys-and-emotion",
+    emojiCount: 4,
+    status: "complete",
+    notes: "Hand rewrite for 😂 🔥 😭 ✨ — next home-hub priorities after wave 1.",
+  },
 ];
 
 export const getEditorialBatchStats = () => {
   const enriched = editorialBatchRegistry.reduce((sum, batch) => sum + batch.emojiCount, 0);
   const complete = editorialBatchRegistry.filter((b) => b.status === "complete").length;
   const handWritten = editorialBatchRegistry
-    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24") || b.id.startsWith("25") || b.id.startsWith("26") || b.id.startsWith("27") || b.id.startsWith("28") || b.id.startsWith("29") || b.id.startsWith("30") || b.id.startsWith("31") || b.id.startsWith("32") || b.id.startsWith("33") || b.id.startsWith("34") || b.id.startsWith("35") || b.id.startsWith("36") || b.id.startsWith("37") || b.id.startsWith("38") || b.id.startsWith("39") || b.id.startsWith("40") || b.id.startsWith("41") || b.id.startsWith("42") || b.id.startsWith("43") || b.id.startsWith("44") || b.id.startsWith("45") || b.id.startsWith("46") || b.id.startsWith("47"))
+    .filter((b) => b.id.startsWith("00") || b.id.startsWith("01") || b.id.startsWith("02") || b.id.startsWith("10") || b.id.startsWith("11") || b.id.startsWith("12") || b.id.startsWith("13") || b.id.startsWith("14") || b.id.startsWith("15") || b.id.startsWith("16") || b.id.startsWith("17") || b.id.startsWith("18") || b.id.startsWith("19") || b.id.startsWith("20") || b.id.startsWith("21") || b.id.startsWith("22") || b.id.startsWith("23") || b.id.startsWith("24") || b.id.startsWith("25") || b.id.startsWith("26") || b.id.startsWith("27") || b.id.startsWith("28") || b.id.startsWith("29") || b.id.startsWith("30") || b.id.startsWith("31") || b.id.startsWith("32") || b.id.startsWith("33") || b.id.startsWith("34") || b.id.startsWith("35") || b.id.startsWith("36") || b.id.startsWith("37") || b.id.startsWith("38") || b.id.startsWith("39") || b.id.startsWith("40") || b.id.startsWith("41") || b.id.startsWith("42") || b.id.startsWith("43") || b.id.startsWith("44") || b.id.startsWith("45") || b.id.startsWith("46") || b.id.startsWith("47") || b.id.startsWith("48"))
     .reduce((sum, b) => sum + b.emojiCount, 0);
   const generated = enriched - handWritten;
 
