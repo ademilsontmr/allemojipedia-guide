@@ -400,8 +400,43 @@ const homeBody = () =>
       }))
     )}
 
+    <h2>Most searched emoji meanings</h2>
+    <p>Priority pages for Google and readers — clear context, examples, and copy.</p>
+    ${renderLinks([
+      { href: '/emoji/red-heart/', label: '❤️ Red heart meaning', description: 'Love, friendship, and texting tone.' },
+      { href: '/emoji/skull/', label: '💀 Skull emoji meaning', description: 'Gen Z “I’m dead” laughing and shock.' },
+      { href: '/emoji/pleading-face/', label: '🥺 Pleading face meaning', description: 'Cute asks, flirting, soft emotion.' },
+      { href: '/emoji/face-with-tears-of-joy/', label: '😂 Tears of joy meaning', description: 'Classic laugh reaction.' },
+      { href: '/emoji/fire/', label: '🔥 Fire emoji meaning', description: 'Hot, impressive, attractive, trending.' },
+      { href: '/emoji/loudly-crying-face/', label: '😭 Loudly crying meaning', description: 'Sad, overwhelmed, or laughing tears.' },
+      { href: '/emoji/sparkles/', label: '✨ Sparkles emoji meaning', description: 'Aesthetic shine or sarcastic glitter.' },
+      { href: '/emoji/smiling-face-with-heart-eyes/', label: '😍 Heart eyes meaning', description: 'Admiration, crushes, compliments.' },
+      { href: '/emoji/thinking-face/', label: '🤔 Thinking face meaning', description: 'Doubt, curiosity, side-eye.' },
+      { href: '/emoji/thumbs-up/', label: '👍 Thumbs up meaning', description: 'OK, approval — or passive-aggressive.' },
+      { href: '/emoji/folded-hands/', label: '🙏 Folded hands meaning', description: 'Thanks, prayer, or high-five.' },
+      { href: '/emoji/christmas-tree/', label: '🎄 Christmas tree meaning', description: 'Holiday season and December vibes.' },
+      { href: '/emoji/santa-claus/', label: '🎅 Santa emoji meaning', description: 'Christmas gifts and Secret Santa.' },
+      { href: '/emoji/wrapped-gift/', label: '🎁 Gift emoji meaning', description: 'Presents, birthdays, holiday hauls.' },
+      { href: '/emoji/fireworks/', label: '🎆 Fireworks emoji meaning', description: 'New Year, finales, big celebrations.' },
+    ])}
+
     <h2>High-demand guides</h2>
     ${renderLinks([
+      {
+        href: '/blog/christmas-emojis-meaning/',
+        label: 'Christmas emojis meaning',
+        description: 'Full holiday list, combos, and copy paste.',
+      },
+      {
+        href: '/blog/new-year-emoji-meanings/',
+        label: 'New Year emoji meanings',
+        description: '🥂🎆🎉 Happy New Year stacks.',
+      },
+      {
+        href: '/blog/thanksgiving-emoji-meaning/',
+        label: 'Thanksgiving emoji meaning',
+        description: '🦃🍁 gratitude and Friendsgiving.',
+      },
       {
         href: '/blog/skull-emoji-meaning/',
         label: '💀 Skull emoji meaning',

@@ -233,6 +233,43 @@ const Index = () => {
             </section>
 
             <section className="section-spacing">
+              <h2 className="text-xl md:text-2xl font-semibold mb-2">Most searched emoji meanings</h2>
+              <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6">
+                Priority guides Google already crawls — start here for clear, context-first meanings.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  { to: "/emoji/red-heart/", label: "❤️ Red heart meaning" },
+                  { to: "/emoji/skull/", label: "💀 Skull emoji meaning" },
+                  { to: "/emoji/pleading-face/", label: "🥺 Pleading face meaning" },
+                  { to: "/emoji/face-with-tears-of-joy/", label: "😂 Tears of joy meaning" },
+                  { to: "/emoji/fire/", label: "🔥 Fire emoji meaning" },
+                  { to: "/emoji/loudly-crying-face/", label: "😭 Loudly crying meaning" },
+                  { to: "/emoji/sparkles/", label: "✨ Sparkles emoji meaning" },
+                  { to: "/emoji/smiling-face-with-heart-eyes/", label: "😍 Heart eyes meaning" },
+                  { to: "/emoji/thinking-face/", label: "🤔 Thinking face meaning" },
+                  { to: "/emoji/thumbs-up/", label: "👍 Thumbs up meaning" },
+                  { to: "/emoji/folded-hands/", label: "🙏 Folded hands meaning" },
+                  { to: "/emoji/christmas-tree/", label: "🎄 Christmas tree meaning" },
+                  { to: "/emoji/santa-claus/", label: "🎅 Santa emoji meaning" },
+                  { to: "/emoji/wrapped-gift/", label: "🎁 Gift emoji meaning" },
+                  { to: "/emoji/fireworks/", label: "🎆 Fireworks emoji meaning" },
+                  { to: "/blog/christmas-emojis-meaning/", label: "Christmas emojis guide" },
+                  { to: "/blog/new-year-emoji-meanings/", label: "New Year emoji meanings" },
+                  { to: "/blog/thanksgiving-emoji-meaning/", label: "Thanksgiving emoji meaning" },
+                ].map((item) => (
+                  <Link
+                    key={item.to}
+                    to={item.to}
+                    className="p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 transition-all font-medium text-sm md:text-base"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </section>
+
+            <section className="section-spacing">
               <h2 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">High-demand emoji guides</h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {[

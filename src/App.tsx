@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import ScrollToTop from "./components/ScrollToTop";
 import TrailingSlashRedirect from "./components/TrailingSlashRedirect";
+import { ContentReadySignal } from "./components/ContentReadySignal";
 
 // Eager load critical pages
 import Index from "./pages/Index";
@@ -65,6 +66,7 @@ const App = () => {
           <BrowserRouter>
             <ScrollToTop />
             <TrailingSlashRedirect />
+            <ContentReadySignal />
             <Suspense fallback={<PageLoader />}>
               <Routes>
                 <Route path="/" element={<Index />} />

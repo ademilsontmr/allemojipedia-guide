@@ -24,6 +24,8 @@ import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
 import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
+import { signalContentReady } from "@/utils/seoStaticPreserve";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -32,11 +34,13 @@ const EmojiDetail = () => {
   const [categoryEmojis, setCategoryEmojis] = useState<Emoji[]>([]);
   const [comparisonLinks, setComparisonLinks] = useState<{ href: string; label: string }[]>([]);
   const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
 
     const load = async () => {
+      setLoadFailed(false);
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
@@ -85,7 +89,10 @@ const EmojiDetail = () => {
 
     setIsEmojiDataLoaded(false);
     load().catch(() => {
-      if (!cancelled) setIsEmojiDataLoaded(true);
+      if (!cancelled) {
+        setLoadFailed(true);
+        setIsEmojiDataLoaded(true);
+      }
     });
 
     return () => {
@@ -93,15 +100,51 @@ const EmojiDetail = () => {
     };
   }, [slug]);
 
+  useEffect(() => {
+    if (isEmojiDataLoaded) {
+      signalContentReady();
+    }
+  }, [isEmojiDataLoaded, slug]);
+
   const category = useMemo(() => {
     return emoji ? getCategoryBySlug(emoji.categorySlug) : null;
   }, [emoji]);
 
+  const canonicalDuringLoad = slug
+    ? `https://allemojipedia.com/emoji/${slug}/`
+    : "https://allemojipedia.com/";
+
   if (!isEmojiDataLoaded) {
     return (
       <Layout>
-        <div className="container-page section-spacing">
+        <Helmet>
+          <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+          <link rel="canonical" href={canonicalDuringLoad} />
+        </Helmet>
+        <div className="container-page section-spacing" aria-busy="true">
           <p className="text-muted-foreground">Loading emoji…</p>
+        </div>
+      </Layout>
+    );
+  }
+
+  // Network/cache failure: keep indexable shell — never emit NotFound noindex by accident.
+  if (loadFailed && !emoji) {
+    return (
+      <Layout>
+        <Helmet>
+          <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+          <link rel="canonical" href={canonicalDuringLoad} />
+          <title>Emoji meaning | Allemojipedia</title>
+        </Helmet>
+        <div className="container-page section-spacing">
+          <h1 className="text-2xl font-semibold mb-3">Couldn’t load this emoji</h1>
+          <p className="text-muted-foreground mb-4">
+            Refresh the page to try again. The meaning guide is still available in the static version of this URL.
+          </p>
+          <Link to="/" className="text-primary hover:underline">
+            Back to home
+          </Link>
         </div>
       </Layout>
     );
