@@ -7,6 +7,11 @@ import { emojiContextPages } from '../src/data/emojiContextPages';
 import { emojiPlatforms } from '../src/data/emojiPlatforms';
 import { emojiCombos } from '../src/data/emojiCombos';
 import { editorialMeta } from '../src/data/editorialMeta';
+import {
+  shouldIndexEmoji,
+  shouldIndexEmojiComparison,
+  shouldIndexEmojiContext,
+} from '../src/utils/seoPolicy';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -88,20 +93,23 @@ const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/emoji-meanings/${cluster.slug}/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // High-intent context pages for specific emojis
+  // High-intent context pages for priority emojis only
   emojiContextPages.forEach(({ emojiSlug, context }) => {
     if (!emojiSlugs.has(emojiSlug)) return;
+    if (!shouldIndexEmojiContext(emojiSlug)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // Emoji comparison pages (BEFORE individual emojis for better crawling)
+  // Emoji comparison pages (both sides must be priority)
   popularComparisons.forEach(({ slug1, slug2 }) => {
     if (!emojiSlugs.has(slug1) || !emojiSlugs.has(slug2)) return;
+    if (!shouldIndexEmojiComparison(slug1, slug2)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // All emoji pages
+  // Priority emoji pages only
   emojis.forEach(emoji => {
+    if (!shouldIndexEmoji(emoji)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 

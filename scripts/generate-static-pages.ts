@@ -31,7 +31,7 @@ import {
   copyPasteQuickLinks,
   emojiCopyPasteHub,
 } from '../src/data/emojiCopyPasteHub';
-import { getEmojiRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
+import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
 import { resolveBlogFaqs } from '../src/utils/resolveBlogFaqs';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -1712,7 +1712,7 @@ const generateStaticPages = () => {
       `${emoji.name} emoji ${page.shortTitle.toLowerCase()}, ${emoji.unicode} meaning ${page.shortTitle.toLowerCase()}, ${page.title.toLowerCase()}`,
       emojiContextPageBody(emoji, page),
       'article',
-      getEmojiRobots(emoji),
+      getEmojiContextRobots(emoji.slug),
       buildContextPageStructuredData(emoji, page) as StructuredData[]
     );
     count++;
@@ -1896,7 +1896,7 @@ const generateStaticPages = () => {
       `${left.name} vs ${right.name}, ${left.unicode} vs ${right.unicode}, emoji comparison`,
       comparisonBody(left, right),
       'article',
-      INDEX_FOLLOW_ROBOTS,
+      getEmojiComparisonRobots(slug1, slug2),
       emojiComparisonStructuredData(left, right)
     );
     count++;

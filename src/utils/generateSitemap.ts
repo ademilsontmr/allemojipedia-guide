@@ -7,6 +7,11 @@ import { emojiContextPages } from '@/data/emojiContextPages';
 import { emojiPlatforms } from '@/data/emojiPlatforms';
 import { emojiCombos } from '@/data/emojiCombos';
 import { editorialMeta } from '@/data/editorialMeta';
+import {
+  shouldIndexEmoji,
+  shouldIndexEmojiComparison,
+  shouldIndexEmojiContext,
+} from '@/utils/seoPolicy';
 
 const BASE_URL = 'https://allemojipedia.com';
 export interface SitemapUrl {
@@ -76,16 +81,19 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
 
   emojiContextPages.forEach(({ emojiSlug, context }) => {
     if (!emojiSlugs.has(emojiSlug)) return;
+    if (!shouldIndexEmojiContext(emojiSlug)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
   popularComparisons.forEach(({ slug1, slug2 }) => {
     if (!emojiSlugs.has(slug1) || !emojiSlugs.has(slug2)) return;
+    if (!shouldIndexEmojiComparison(slug1, slug2)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // All emoji pages
+  // Priority emoji pages only (long-tail stays noindex / out of sitemap)
   emojis.forEach(emoji => {
+    if (!shouldIndexEmoji(emoji)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
@@ -118,5 +126,5 @@ export const downloadSitemap = () => {
 };
 
 export const getEmojiCount = (): number => emojis.length;
-export const getIndexableEmojiCount = (): number => emojis.length;
+export const getIndexableEmojiCount = (): number => emojis.filter(shouldIndexEmoji).length;
 export const getBlogPostCount = (): number => blogPosts.length;

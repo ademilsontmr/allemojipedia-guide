@@ -8,7 +8,7 @@ import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
-import { getEmojiRobots } from "@/utils/seoPolicy";
+import { getEmojiRobots, getEmojiSlugRobots } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
@@ -24,7 +24,6 @@ import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
 import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
-import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 import { signalContentReady } from "@/utils/seoStaticPreserve";
 
 const EmojiDetail = () => {
@@ -118,7 +117,7 @@ const EmojiDetail = () => {
     return (
       <Layout>
         <Helmet>
-          <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+          <meta name="robots" content={getEmojiSlugRobots(slug)} />
           <link rel="canonical" href={canonicalDuringLoad} />
         </Helmet>
         <div className="container-page section-spacing" aria-busy="true">
@@ -128,12 +127,12 @@ const EmojiDetail = () => {
     );
   }
 
-  // Network/cache failure: keep indexable shell — never emit NotFound noindex by accident.
+  // Network/cache failure: keep slug-accurate robots — never emit NotFound noindex by accident.
   if (loadFailed && !emoji) {
     return (
       <Layout>
         <Helmet>
-          <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
+          <meta name="robots" content={getEmojiSlugRobots(slug)} />
           <link rel="canonical" href={canonicalDuringLoad} />
           <title>Emoji meaning | Allemojipedia</title>
         </Helmet>

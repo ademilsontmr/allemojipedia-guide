@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { emojis } from "@/data/emojis";
 import { ArrowLeft, Check, X } from "lucide-react";
 import { getComparisonSeoMeta } from "@/data/seoMeta";
+import { getEmojiComparisonRobots } from "@/utils/seoPolicy";
 
 const EmojiComparison = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -32,7 +33,7 @@ const EmojiComparison = () => {
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${emoji1.name} vs ${emoji2.name}, emoji comparison, ${emoji1.name}, ${emoji2.name}, emoji differences`} />
         <meta name="author" content="Allemojipedia Editorial Team" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="robots" content={getEmojiComparisonRobots(slug1, slug2)} />
         <link rel="canonical" href={`https://allemojipedia.com/emoji/${slug}/`} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />

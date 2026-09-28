@@ -7,7 +7,7 @@ import type { Emoji } from "@/data/emojis";
 import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
 import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPage, getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
-import { getEmojiRobots } from "@/utils/seoPolicy";
+import { getEmojiContextRobots } from "@/utils/seoPolicy";
 import { getContextSeoMeta } from "@/data/seoMeta";
 import { emojiContextHubPath } from "@/data/emojiContextHub";
 import {
@@ -71,7 +71,7 @@ const EmojiContextPage = () => {
       <Helmet>
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
-        <meta name="robots" content={getEmojiRobots(emoji)} />
+        <meta name="robots" content={getEmojiContextRobots(emoji.slug)} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />

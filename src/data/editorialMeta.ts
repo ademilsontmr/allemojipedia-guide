@@ -14,8 +14,8 @@ export const editorialMeta = {
   author: "Allemojipedia Editorial Team",
   /** HTML meta publisher */
   publisher: "Allemojipedia",
-  lastUpdated: "September 10, 2026",
-  lastUpdatedIso: "2026-09-10",
+  lastUpdated: "September 28, 2026",
+  lastUpdatedIso: "2026-09-28",
   methodologyUrl: "https://allemojipedia.com/about/",
   /**
    * Sitewide authoritative sources. Primary links are dofollow so Google
