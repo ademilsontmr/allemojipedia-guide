@@ -88,11 +88,6 @@ const Index = () => {
     "alternateName": "All Emoji Pedia",
     "url": "https://allemojipedia.com/",
     "description": "Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis, and learn how to use them.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": { "@type": "EntryPoint", "urlTemplate": "https://allemojipedia.com/?search={search_term_string}" },
-      "query-input": "required name=search_term_string"
-    }
   };
 
   const organizationSchema = {

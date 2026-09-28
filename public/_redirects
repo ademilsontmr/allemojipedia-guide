@@ -6,6 +6,10 @@ http://allemojipedia.com/* https://allemojipedia.com/:splat 301!
 http://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 https://www.allemojipedia.com/* https://allemojipedia.com/:splat 301!
 
+# Kill literal SearchAction template crawl (soft 404 in GSC)
+/?search=%7Bsearch_term_string%7D / 301
+/?search={search_term_string} / 301
+
 # Do NOT add Pages Functions middleware for trailing slash — it can take
 # the project offline (ERR_CONNECTION_TIMED_OUT). Cloudflare Pages already
 # 308s directory URLs to trailing slash; React TrailingSlashRedirect covers SPA.
