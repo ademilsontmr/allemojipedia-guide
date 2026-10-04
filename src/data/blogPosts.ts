@@ -8,6 +8,7 @@ import { serpNailPolishAug2026BlogPosts } from "./blogBatch-serp-nail-polish-aug
 import { serpSparklesAug2026BlogPosts } from "./blogBatch-serp-sparkles-aug2026";
 import { serpHoldingBackTearsAug2026BlogPosts } from "./blogBatch-serp-holding-back-tears-aug2026";
 import { serpHolidayQ42026BlogPosts } from "./blogBatch-serp-holiday-q4-2026";
+import { catholicChristmasSymbolsOct2026BlogPosts } from "./blogBatch-catholic-christmas-symbols-oct2026";
 import { catholicFeastsOct2026BlogPosts } from "./blogBatch-catholic-feasts-oct2026";
 
 export interface BlogPost {
@@ -26,6 +27,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  ...catholicChristmasSymbolsOct2026BlogPosts,
   ...catholicFeastsOct2026BlogPosts,
   ...serpHolidayQ42026BlogPosts,
   ...serpHoldingBackTearsAug2026BlogPosts,
