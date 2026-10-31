@@ -15,6 +15,8 @@ import {
   getUniqueContextBlocks,
   getUniqueWhenNotToUse,
 } from "@/utils/emojiUniqueContent";
+import { renderInlineLinksHtml } from "@/utils/inlineMarkdown";
+import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
 
 const escapeHtml = (value: string) =>
   value
@@ -24,6 +26,8 @@ const escapeHtml = (value: string) =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 
+const rich = (value: string) => renderInlineLinksHtml(value, escapeHtml);
+
 export type EmojiStaticHtmlOptions = {
   emoji: Emoji;
   relatedEmojis?: Emoji[];
@@ -31,15 +35,27 @@ export type EmojiStaticHtmlOptions = {
   getEmojiBySlug?: (slug: string) => Emoji | undefined;
 };
 
+/** Indexable emojis from the same category, same subgroup first, excluding ones already linked as related. */
 export const getDeterministicCategoryEmojis = (
   emoji: Emoji,
   allEmojis: Emoji[],
-  count = 3
-): Emoji[] =>
-  allEmojis
-    .filter((item) => item.categorySlug === emoji.categorySlug && item.slug !== emoji.slug)
-    .sort((a, b) => a.slug.localeCompare(b.slug))
+  count = 6
+): Emoji[] => {
+  const alreadyLinked = new Set([emoji.slug, ...emoji.relatedEmojis]);
+  return allEmojis
+    .filter(
+      (item) =>
+        item.categorySlug === emoji.categorySlug &&
+        !alreadyLinked.has(item.slug) &&
+        isPriorityEmojiSlug(item.slug)
+    )
+    .sort(
+      (a, b) =>
+        Number(b.subgroup === emoji.subgroup) - Number(a.subgroup === emoji.subgroup) ||
+        a.slug.localeCompare(b.slug)
+    )
     .slice(0, count);
+};
 
 export const buildEmojiStaticArticleHtml = ({
   emoji,
@@ -96,7 +112,7 @@ export const buildEmojiStaticArticleHtml = ({
 
       <section>
         <h2>Quick answer</h2>
-        <p>${escapeHtml(editorial.snippetAnswer)}</p>
+        <p>${rich(editorial.snippetAnswer)}</p>
       </section>
 
       ${
@@ -120,11 +136,11 @@ export const buildEmojiStaticArticleHtml = ({
       <section>
         <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
         <h3>In texting</h3>
-        <p>${escapeHtml(editorial.textingMeaning)}</p>
+        <p>${rich(editorial.textingMeaning)}</p>
         <h3>On social media</h3>
-        <p>${escapeHtml(editorial.socialMeaning)}</p>
+        <p>${rich(editorial.socialMeaning)}</p>
         <h3>Tone warning</h3>
-        <p>${escapeHtml(editorial.caution)}</p>
+        <p>${rich(editorial.caution)}</p>
       </section>
 
       ${
@@ -141,7 +157,7 @@ export const buildEmojiStaticArticleHtml = ({
 
       <section>
         <h2>What does the ${escapeHtml(emoji.unicode)} emoji mean?</h2>
-        ${detailedParagraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+        ${detailedParagraphs.map((paragraph) => `<p>${rich(paragraph)}</p>`).join("")}
       </section>
 
       <section>
@@ -150,7 +166,7 @@ export const buildEmojiStaticArticleHtml = ({
           .map(
             (block) => `
           <h3>${escapeHtml(block.title)}</h3>
-          <p>${escapeHtml(block.body)}</p>
+          <p>${rich(block.body)}</p>
         `
           )
           .join("")}
@@ -168,7 +184,7 @@ export const buildEmojiStaticArticleHtml = ({
         <ul>${examples
           .map(
             (example) =>
-              `<li><strong>${escapeHtml(example.context)}:</strong> ${escapeHtml(example.text)}</li>`
+              `<li><strong>${escapeHtml(example.context)}:</strong> ${rich(example.text)}</li>`
           )
           .join("")}</ul>
       </section>
@@ -196,7 +212,7 @@ export const buildEmojiStaticArticleHtml = ({
 
       <section>
         <h2>When NOT to use the ${escapeHtml(emoji.unicode)} emoji</h2>
-        <ul>${whenNotToUse.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+        <ul>${whenNotToUse.map((item) => `<li>${rich(item)}</li>`).join("")}</ul>
       </section>
 
       <section>
@@ -206,7 +222,7 @@ export const buildEmojiStaticArticleHtml = ({
             (item) => `
           <div>
             <h3>${escapeHtml(item.question)}</h3>
-            <p>${escapeHtml(item.answer)}</p>
+            <p>${rich(item.answer)}</p>
           </div>
         `
           )

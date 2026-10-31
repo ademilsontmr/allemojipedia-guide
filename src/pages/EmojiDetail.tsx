@@ -25,6 +25,8 @@ import { EditorialSources } from "@/components/EditorialSources";
 import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 import { signalContentReady } from "@/utils/seoStaticPreserve";
+import { InlineMarkdown } from "@/components/InlineMarkdown";
+import { getDeterministicCategoryEmojis } from "@/utils/emojiPageStaticHtml";
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -58,22 +60,10 @@ const EmojiDetail = () => {
         .map((s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined)
         .filter(Boolean) as Emoji[]).slice(0, 6);
 
-      const pool = emojisModule
-        .getEmojisByCategory(found.categorySlug)
-        .filter((e: Emoji) => e.slug !== found.slug);
-
-      const sameCategory = (() => {
-        if (pool.length <= 3) return pool;
-        const copy = pool.slice();
-        for (let i = copy.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          const tmp = copy[i];
-          copy[i] = copy[j];
-          copy[j] = tmp;
-          if (copy.length - i >= 3) break;
-        }
-        return copy.slice(0, 3);
-      })();
+      const sameCategory = getDeterministicCategoryEmojis(
+        found,
+        emojisModule.getEmojisByCategory(found.categorySlug) as Emoji[]
+      );
 
       setEmoji(found);
       setRelatedEmojis(related);
@@ -221,7 +211,7 @@ const EmojiDetail = () => {
           {editorial && (
             <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
               <h2 className="text-xl font-semibold mb-2">Quick answer</h2>
-              <p className="text-foreground leading-relaxed">{editorial.snippetAnswer}</p>
+              <p className="text-foreground leading-relaxed"><InlineMarkdown text={editorial.snippetAnswer} /></p>
             </section>
           )}
 
@@ -256,15 +246,15 @@ const EmojiDetail = () => {
               <div className="space-y-4">
                 <div className="p-4 rounded-lg bg-muted/30">
                   <h3 className="text-lg font-medium mb-2">In texting</h3>
-                  <p className="text-muted-foreground">{editorial.textingMeaning}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={editorial.textingMeaning} /></p>
                 </div>
                 <div className="p-4 rounded-lg bg-muted/30">
                   <h3 className="text-lg font-medium mb-2">On social media</h3>
-                  <p className="text-muted-foreground">{editorial.socialMeaning}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={editorial.socialMeaning} /></p>
                 </div>
                 <div className="p-4 rounded-lg bg-muted/30">
                   <h3 className="text-lg font-medium mb-2">Tone warning</h3>
-                  <p className="text-muted-foreground">{editorial.caution}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={editorial.caution} /></p>
                 </div>
               </div>
             </section>
@@ -293,7 +283,7 @@ const EmojiDetail = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">What does the <span className="emoji">{emoji.unicode}</span> emoji mean?</h2>
             {detailedParagraphs.map((p, i) => (
-              <p key={i} className="mb-3 text-muted-foreground leading-relaxed">{p}</p>
+              <p key={i} className="mb-3 text-muted-foreground leading-relaxed"><InlineMarkdown text={p} /></p>
             ))}
           </section>
 
@@ -303,7 +293,7 @@ const EmojiDetail = () => {
               {contextBlocks.map((block) => (
                 <div key={block.title} className="p-4 rounded-lg bg-muted/30">
                   <h3 className="text-lg font-medium mb-2">{block.title}</h3>
-                  <p className="text-muted-foreground">{block.body}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={block.body} /></p>
                 </div>
               ))}
             </div>
@@ -328,7 +318,7 @@ const EmojiDetail = () => {
               {enrichedExamples.map((example, i) => (
                 <div key={i} className="p-4 rounded-lg bg-muted/30">
                   <h3 className="font-semibold mb-2">{example.context}</h3>
-                  <p className="text-muted-foreground">{example.text}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={example.text} /></p>
                 </div>
               ))}
             </div>
@@ -371,7 +361,7 @@ const EmojiDetail = () => {
             <h2 className="text-2xl font-semibold mb-4">When NOT to use the <span className="emoji">{emoji.unicode}</span> emoji</h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               {whenNotToUse.map((item, i) => (
-                <li key={i}>{item}</li>
+                <li key={i}><InlineMarkdown text={item} /></li>
               ))}
             </ul>
           </section>
@@ -383,7 +373,7 @@ const EmojiDetail = () => {
               {faqItems.map((item, i) => (
                 <div key={i} className="p-4 rounded-lg bg-muted/30">
                   <h3 className="font-semibold mb-2">{item.question}</h3>
-                  <p className="text-muted-foreground">{item.answer}</p>
+                  <p className="text-muted-foreground"><InlineMarkdown text={item.answer} /></p>
                 </div>
               ))}
             </div>

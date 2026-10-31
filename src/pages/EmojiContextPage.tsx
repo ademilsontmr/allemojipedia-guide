@@ -71,7 +71,7 @@ const EmojiContextPage = () => {
       <Helmet>
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
-        <meta name="robots" content={getEmojiContextRobots(emoji.slug)} />
+        <meta name="robots" content={getEmojiContextRobots(emoji.slug, page.context)} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />

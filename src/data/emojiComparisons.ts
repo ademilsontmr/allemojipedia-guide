@@ -11,9 +11,7 @@ export const popularComparisons = [
   // Love & Hearts
   { slug1: 'smiling-face-with-hearts', slug2: 'smiling-face-with-heart-eyes' },
   { slug1: 'face-blowing-a-kiss', slug2: 'kissing-face' },
-  { slug1: 'red-heart', slug2: 'pink-heart' },
   { slug1: 'red-heart', slug2: 'orange-heart' },
-  { slug1: 'red-heart', slug2: 'yellow-heart' },
   { slug1: 'red-heart', slug2: 'purple-heart' },
   { slug1: 'red-heart', slug2: 'blue-heart' },
   { slug1: 'red-heart', slug2: 'black-heart' },
@@ -203,7 +201,6 @@ export const popularComparisons = [
   { slug1: 'saluting-face', slug2: 'waving-hand' },
   { slug1: 'dotted-line-face', slug2: 'face-without-mouth' },
   { slug1: 'melting-face', slug2: 'hot-face' },
-  { slug1: 'face-holding-back-tears', slug2: 'pleading-face' },
   { slug1: 'face-in-clouds', slug2: 'dizzy-face' },
   { slug1: 'cowboy-hat-face', slug2: 'smiling-face-with-sunglasses' },
 
@@ -223,23 +220,16 @@ export const popularComparisons = [
 
   // Heart color intent comparisons
   { slug1: 'pink-heart', slug2: 'red-heart' },
-  { slug1: 'purple-heart', slug2: 'red-heart' },
-  { slug1: 'blue-heart', slug2: 'red-heart' },
-  { slug1: 'black-heart', slug2: 'red-heart' },
   { slug1: 'yellow-heart', slug2: 'red-heart' },
   { slug1: 'green-heart', slug2: 'red-heart' },
   { slug1: 'broken-heart', slug2: 'red-heart' },
-  { slug1: 'mending-heart', slug2: 'broken-heart' },
   { slug1: 'heart-hands', slug2: 'red-heart' },
 
   // Workplace and professional tone comparisons
   { slug1: 'thumbs-up', slug2: 'check-mark' },
-  { slug1: 'folded-hands', slug2: 'handshake' },
   { slug1: 'memo', slug2: 'e-mail' },
   { slug1: 'briefcase', slug2: 'laptop' },
   { slug1: 'thinking-face', slug2: 'person-shrugging' },
-  { slug1: 'fire', slug2: 'hundred-points' },
-
   // Flag comparisons with real search/event intent
   { slug1: 'flag-united-states', slug2: 'flag-canada' },
   { slug1: 'flag-united-states', slug2: 'flag-mexico' },

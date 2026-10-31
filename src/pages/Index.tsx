@@ -12,6 +12,7 @@ import type { Emoji } from "@/data/emojis";
 import type { EmojiCardData } from "@/components/EmojiCard";
 import { getEmojiCache } from "@/data/emojisCache";
 import { getMainPageSeo } from "@/data/seoMeta";
+import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
 import { popularEmojiCombos, trendingEmojiCards, type EmojiCombo } from "@/data/featuredEmojis";
 
 const ComboCard = ({ emojis, meaning }: { emojis: string; meaning: string }) => {
@@ -51,6 +52,19 @@ const Index = () => {
   const [trending, setTrending] = useState<EmojiCardData[]>(trendingEmojiCards);
   const [combos, setCombos] = useState<EmojiCombo[]>(popularEmojiCombos);
   const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(true);
+  const [popularEmojis, setPopularEmojis] = useState<Emoji[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    getEmojiCache()
+      .then((cache) => {
+        if (!cancelled) setPopularEmojis(cache.emojis.filter((emoji) => isPriorityEmojiSlug(emoji.slug)));
+      })
+      .catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -80,23 +94,6 @@ const Index = () => {
       cancelled = true;
     };
   }, [query]);
-
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Allemojipedia",
-    "alternateName": "All Emoji Pedia",
-    "url": "https://allemojipedia.com/",
-    "description": "Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis, and learn how to use them.",
-  };
-
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Allemojipedia",
-    "url": "https://allemojipedia.com/",
-    "logo": "https://allemojipedia.com/icon-512.png"
-  };
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -144,8 +141,6 @@ const Index = () => {
         <meta name="twitter:title" content={homeSeo.ogTitle ?? homeSeo.title} />
         <meta name="twitter:description" content={homeSeo.description} />
       </Helmet>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="container-page">
@@ -286,6 +281,24 @@ const Index = () => {
                 ))}
               </div>
             </section>
+
+            {popularEmojis.length > 0 && (
+              <section className="section-spacing">
+                <h2 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">All popular emoji meanings</h2>
+                <ul className="flex flex-wrap gap-2">
+                  {popularEmojis.map((emoji) => (
+                    <li key={emoji.slug}>
+                      <Link
+                        to={`/emoji/${emoji.slug}/`}
+                        className="inline-block px-3 py-1.5 rounded-full border border-border hover:border-primary/50 hover:bg-muted/50 text-sm"
+                      >
+                        <span className="emoji">{emoji.unicode}</span> {emoji.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* H2 - Emoji Comparisons */}
             <section className="section-spacing">

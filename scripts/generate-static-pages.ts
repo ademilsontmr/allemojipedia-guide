@@ -31,7 +31,7 @@ import {
   copyPasteQuickLinks,
   emojiCopyPasteHub,
 } from '../src/data/emojiCopyPasteHub';
-import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, INDEX_FOLLOW_ROBOTS } from '../src/utils/seoPolicy';
+import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, INDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from '../src/utils/seoPolicy';
 import { resolveBlogFaqs } from '../src/utils/resolveBlogFaqs';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -137,7 +137,7 @@ const renderStructuredData = (items: StructuredData[]) =>
   items
     .map((item) => {
       const json = JSON.stringify(item).replace(/</g, '\\u003c');
-      return `<script type="application/ld+json">${json}</script>`;
+      return `<script type="application/ld+json" data-static-seo>${json}</script>`;
     })
     .join('\n');
 
@@ -366,13 +366,28 @@ const peopleBody = (
 `);
 };
 
-const mainBody = (title: string, description: string, links: LinkItem[]) => staticShell(`
+const mainBody = (title: string, description: string, links: LinkItem[], extraHtml = '') => staticShell(`
   <article>
     <h1>${escapeHtml(title)}</h1>
     <p>${escapeHtml(description)}</p>
     ${links.length ? renderLinks(links) : ''}
+    ${extraHtml}
   </article>
 `);
+
+const blogPagePath = (page: number) => (page === 1 ? '/blog/' : `/blog/page/${page.toString().padStart(2, '0')}/`);
+
+const blogPaginationHtml = (current: number, total: number) => `
+  <nav aria-label="Blog pages">
+    <p>${Array.from({ length: total }, (_, i) => i + 1)
+      .map((page) =>
+        page === current
+          ? `<strong>${page}</strong>`
+          : `<a href="${blogPagePath(page)}">${page}</a>`
+      )
+      .join(' · ')}</p>
+  </nav>
+`;
 
 /** Home static HTML must expose crawlable <a href> to priority emoji + blog URLs (React trending is not enough for Googlebot). */
 const homeBody = () =>
@@ -474,6 +489,14 @@ const homeBody = () =>
         description: 'Windows, Mac, iPhone, and Android.',
       },
     ])}
+
+    <h2>All popular emoji meanings</h2>
+    <ul>
+      ${emojis
+        .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
+        .map((emoji) => `<li><a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></li>`)
+        .join('')}
+    </ul>
   </article>
 `);
 
@@ -1712,7 +1735,7 @@ const generateStaticPages = () => {
       `${emoji.name} emoji ${page.shortTitle.toLowerCase()}, ${emoji.unicode} meaning ${page.shortTitle.toLowerCase()}, ${page.title.toLowerCase()}`,
       emojiContextPageBody(emoji, page),
       'article',
-      getEmojiContextRobots(emoji.slug),
+      getEmojiContextRobots(emoji.slug, page.context),
       buildContextPageStructuredData(emoji, page) as StructuredData[]
     );
     count++;
@@ -1873,7 +1896,8 @@ const generateStaticPages = () => {
           href: `/blog/${post.slug}/`,
           label: post.title,
           description: post.excerpt,
-        }))
+        })),
+        blogPaginationHtml(page, totalBlogPages)
       )
     );
     count++;
@@ -1958,7 +1982,8 @@ const generateStaticPages = () => {
         href: `/blog/${post.slug}/`,
         label: post.title,
         description: post.excerpt,
-      }))
+      })),
+      blogPaginationHtml(1, Math.ceil(sortedBlogPosts.length / POSTS_PER_PAGE))
     )
   );
   count++;

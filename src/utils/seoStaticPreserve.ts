@@ -8,6 +8,31 @@ export const signalContentReady = () => {
   window.dispatchEvent(new Event(CONTENT_READY_EVENT));
 };
 
+const schemaTypes = (script: Element): string[] => {
+  try {
+    return ([] as Record<string, unknown>[])
+      .concat(JSON.parse(script.textContent || "null"))
+      .map((item) => String(item?.["@type"] ?? ""))
+      .filter(Boolean);
+  } catch {
+    return [];
+  }
+};
+
+/** Drop SSG JSON-LD once React has rendered the same schema types, so crawlers see each type once. */
+const dedupeStaticStructuredData = () => {
+  const scripts = [...document.querySelectorAll('script[type="application/ld+json"]')];
+  const liveTypes = new Set(
+    scripts.filter((s) => !s.hasAttribute("data-static-seo")).flatMap(schemaTypes)
+  );
+  scripts
+    .filter((s) => s.hasAttribute("data-static-seo"))
+    .forEach((s) => {
+      const types = schemaTypes(s);
+      if (types.length && types.every((type) => liveTypes.has(type))) s.remove();
+    });
+};
+
 /**
  * Clone `.static-seo-fallback` out of `#root` before React mounts, hide `#root`
  * until content is ready, then swap. Crawlers that execute JS still see article HTML.
@@ -28,6 +53,9 @@ export const preserveStaticSeoBeforeReact = (rootElement: HTMLElement): void => 
     preserved.remove();
     rootElement.style.display = "";
     rootElement.removeAttribute("data-seo-waiting");
+    dedupeStaticStructuredData();
+    // Helmet writes <head> asynchronously.
+    window.setTimeout(dedupeStaticStructuredData, 1000);
   };
 
   window.addEventListener(CONTENT_READY_EVENT, reveal, { once: true });

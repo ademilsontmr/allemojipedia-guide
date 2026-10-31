@@ -3,7 +3,7 @@ import { getCategoryBySlug } from "@/data/categories";
 import { editorialMeta, formatUnicodeCodepoint, getUnicodeCodepointHex } from "@/data/editorialMeta";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
 import { getEmojiSeoMeta } from "@/data/seoMeta";
-import { getEnrichedExamples } from "@/utils/emojiUniqueContent";
+import { stripInlineLinks } from "@/utils/inlineMarkdown";
 
 const BASE_URL = "https://allemojipedia.com";
 
@@ -68,7 +68,7 @@ export const buildEmojiStructuredData = (
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       name: `${emoji.unicode} ${emoji.name}`,
-      description: editorial.snippetAnswer,
+      description: stripInlineLinks(editorial.snippetAnswer),
       url: pageUrl,
       ...(formatUnicodeCodepoint(emoji.unicode)
         ? { termCode: formatUnicodeCodepoint(emoji.unicode) }
@@ -80,7 +80,6 @@ export const buildEmojiStructuredData = (
               `https://unicode.org/emoji/charts/full-emoji-list.html#${getUnicodeCodepointHex(emoji.unicode)}`,
             ]
           : []),
-        `https://emojipedia.org/${emoji.slug}/`,
       ],
       inDefinedTermSet: {
         "@type": "DefinedTermSet",
@@ -96,7 +95,7 @@ export const buildEmojiStructuredData = (
         name: item.question,
         acceptedAnswer: {
           "@type": "Answer",
-          text: item.answer,
+          text: stripInlineLinks(item.answer),
         },
       })),
     },
@@ -112,29 +111,6 @@ export const buildEmojiStructuredData = (
           item: `${BASE_URL}/category/${emoji.categorySlug}/`,
         },
         { "@type": "ListItem", position: 3, name: `${emoji.unicode} ${emoji.name}` },
-      ],
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      name: `How to Copy and Use ${emoji.unicode} ${emoji.name} Emoji`,
-      description: `Learn how to copy the ${emoji.name} emoji and use it in your messages, social media, and more.`,
-      step: [
-        {
-          "@type": "HowToStep",
-          name: "Click to Copy",
-          text: `Click on the ${emoji.unicode} emoji on the page to copy it instantly.`,
-        },
-        {
-          "@type": "HowToStep",
-          name: "Paste Anywhere",
-          text: "Paste the emoji in any app - WhatsApp, Instagram, Twitter, Facebook, or any text field.",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Use in Context",
-          text: `Use ${emoji.unicode} when ${emoji.usageContexts[0]?.toLowerCase() || "expressing this emotion"}. Example: "${getEnrichedExamples(emoji)[0]?.text ?? emoji.shortMeaning}".`,
-        },
       ],
     },
   ];

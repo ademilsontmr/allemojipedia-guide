@@ -54,13 +54,20 @@ export const shouldIndexEmoji = (emoji: Emoji): boolean => isPriorityEmojiSlug(e
 export const shouldIndexEmojiSlug = (slug: string | undefined | null): boolean =>
   isPriorityEmojiSlug(slug);
 
-/** Context pages (/emoji/x/from-a-girl/) only when the parent emoji is priority. */
-export const shouldIndexEmojiContext = (emojiSlug: string): boolean =>
-  isPriorityEmojiSlug(emojiSlug);
+/**
+ * Context pages (/emoji/x/from-a-girl/) and comparisons are templated, so they stay
+ * noindex until the core emoji pages earn trust. Re-open per page once rewritten by hand.
+ */
+const INDEXABLE_CONTEXT_PAGES = new Set<string>();
+const INDEXABLE_COMPARISONS = new Set<string>();
 
-/** Comparison pages only when both sides are priority. */
+export const shouldIndexEmojiContext = (emojiSlug: string, context?: string): boolean =>
+  isPriorityEmojiSlug(emojiSlug) && INDEXABLE_CONTEXT_PAGES.has(`${emojiSlug}/${context ?? ""}`);
+
 export const shouldIndexEmojiComparison = (slug1: string, slug2: string): boolean =>
-  isPriorityEmojiSlug(slug1) && isPriorityEmojiSlug(slug2);
+  isPriorityEmojiSlug(slug1) &&
+  isPriorityEmojiSlug(slug2) &&
+  INDEXABLE_COMPARISONS.has(`${slug1}-vs-${slug2}`);
 
 export const getEmojiRobots = (emoji: Emoji): string =>
   shouldIndexEmoji(emoji) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;
@@ -68,8 +75,8 @@ export const getEmojiRobots = (emoji: Emoji): string =>
 export const getEmojiSlugRobots = (slug: string | undefined | null): string =>
   shouldIndexEmojiSlug(slug) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;
 
-export const getEmojiContextRobots = (emojiSlug: string): string =>
-  shouldIndexEmojiContext(emojiSlug) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;
+export const getEmojiContextRobots = (emojiSlug: string, context?: string): string =>
+  shouldIndexEmojiContext(emojiSlug, context) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;
 
 export const getEmojiComparisonRobots = (slug1: string, slug2: string): string =>
   shouldIndexEmojiComparison(slug1, slug2) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;

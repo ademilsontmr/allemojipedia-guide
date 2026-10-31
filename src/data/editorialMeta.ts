@@ -116,11 +116,6 @@ export const getEmojiEditorialSources = (emoji: {
 
   const further: EditorialSource[] = [
     {
-      name: `${emoji.name} on Emojipedia`,
-      url: `https://emojipedia.org/${emoji.slug}/`,
-      kind: "further-reading",
-    },
-    {
       name: "Google Noto Color Emoji (Android / Gboard)",
       url: "https://fonts.google.com/noto/specimen/Noto+Color+Emoji",
       kind: "further-reading",

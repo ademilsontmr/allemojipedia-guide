@@ -87,6 +87,9 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   blogPosts.forEach(post => {
     addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7', lastmod: post.date });
   });
+  for (let page = 2; page <= Math.ceil(blogPosts.length / 9); page++) {
+    addUrl({ loc: `${BASE_URL}/blog/page/${page.toString().padStart(2, '0')}/`, priority: '0.5', lastmod: latestBlogDate() });
+  }
 
   // Intent cluster pages
   emojiIntentClusters.forEach(cluster => {
@@ -96,7 +99,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
   // High-intent context pages for priority emojis only
   emojiContextPages.forEach(({ emojiSlug, context }) => {
     if (!emojiSlugs.has(emojiSlug)) return;
-    if (!shouldIndexEmojiContext(emojiSlug)) return;
+    if (!shouldIndexEmojiContext(emojiSlug, context)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emojiSlug}/${context}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 

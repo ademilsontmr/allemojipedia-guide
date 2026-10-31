@@ -43,6 +43,7 @@ import { batch46P1Wave6TopClose } from "./batch46-p1-wave6-top-close";
 import { batch47IndexingStierGsc } from "./batch47-indexing-stier-gsc";
 import { batch48IndexingStierWave2 } from "./batch48-indexing-stier-wave2";
 import { batch49IndexingStierWave3 } from "./batch49-indexing-stier-wave3";
+import { batch50HolidaySeasonStier } from "./batch50-holiday-season-stier";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
 
@@ -91,6 +92,7 @@ const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch47IndexingStierGsc,
   ...batch48IndexingStierWave2,
   ...batch49IndexingStierWave3,
+  ...batch50HolidaySeasonStier,
 };
 
 const generatedCache = new Map<string, EmojiBatchEnrichment>();
