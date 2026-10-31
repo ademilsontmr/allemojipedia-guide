@@ -1,5 +1,5 @@
 import type { Emoji } from "../data/emojis";
-import { topEmojiSlugs } from "../data/topEmojiEditorial";
+import { topEmojiSlugs } from "../data/topEmojiSlugs";
 import { trendingEmojiCards } from "../data/featuredEmojis";
 
 export const INDEX_FOLLOW_ROBOTS =
@@ -60,6 +60,14 @@ export const shouldIndexEmojiSlug = (slug: string | undefined | null): boolean =
  */
 const INDEXABLE_CONTEXT_PAGES = new Set<string>();
 const INDEXABLE_COMPARISONS = new Set<string>();
+
+/** /emoji-combos/{slug}/ pages are short; re-open per page once rewritten by hand. */
+const INDEXABLE_EMOJI_COMBOS = new Set<string>();
+
+export const shouldIndexEmojiCombo = (slug: string): boolean => INDEXABLE_EMOJI_COMBOS.has(slug);
+
+export const getEmojiComboRobots = (slug: string): string =>
+  shouldIndexEmojiCombo(slug) ? INDEX_FOLLOW_ROBOTS : NOINDEX_FOLLOW_ROBOTS;
 
 export const shouldIndexEmojiContext = (emojiSlug: string, context?: string): boolean =>
   isPriorityEmojiSlug(emojiSlug) && INDEXABLE_CONTEXT_PAGES.has(`${emojiSlug}/${context ?? ""}`);

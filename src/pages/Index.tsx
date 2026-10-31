@@ -11,7 +11,7 @@ import { Copy, Check } from "lucide-react";
 import type { Emoji } from "@/data/emojis";
 import type { EmojiCardData } from "@/components/EmojiCard";
 import { getEmojiCache } from "@/data/emojisCache";
-import { getMainPageSeo } from "@/data/seoMeta";
+import { getMainPageSeo } from "@/data/mainPagesSeo";
 import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
 import { popularEmojiCombos, trendingEmojiCards, type EmojiCombo } from "@/data/featuredEmojis";
 
@@ -352,7 +352,7 @@ const Index = () => {
                 </Link>
 
                 <Link
-                  to="/emoji/red-heart-vs-pink-heart/"
+                  to="/emoji/pink-heart-vs-red-heart/"
                   className="group block p-4 md:p-6 rounded-2xl border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
                 >
 

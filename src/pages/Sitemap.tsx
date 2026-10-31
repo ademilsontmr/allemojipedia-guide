@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { NOINDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -43,6 +44,7 @@ const Sitemap = () => {
       <Helmet>
         <title>Sitemap | Allemojipedia</title>
         <meta name="description" content="Complete sitemap of Allemojipedia - find all emoji pages, categories, and resources." />
+        <meta name="robots" content={NOINDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href="https://allemojipedia.com/sitemap/" />
       </Helmet>
 

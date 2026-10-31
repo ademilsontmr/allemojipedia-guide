@@ -7,6 +7,7 @@ import { getEmojiComboBySlug } from "@/data/emojiCombos";
 import { getEmojiCache } from "@/data/emojisCache";
 import type { Emoji } from "@/data/emojis";
 import { editorialMeta } from "@/data/editorialMeta";
+import { getEmojiComboRobots } from "@/utils/seoPolicy";
 import NotFound from "./NotFound";
 
 const EmojiComboDetail = () => {
@@ -46,6 +47,7 @@ const EmojiComboDetail = () => {
         <title>{combo.title} | Allemojipedia</title>
         <meta name="description" content={combo.description} />
         <meta name="keywords" content={combo.keywords} />
+        <meta name="robots" content={getEmojiComboRobots(combo.slug)} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={combo.title} />
         <meta property="og:description" content={combo.description} />

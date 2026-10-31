@@ -12,11 +12,8 @@ import {
 
 const BRAND = "Allemojipedia";
 
-export type PageSeoMeta = {
-  title: string;
-  description: string;
-  ogTitle?: string;
-};
+export { mainPagesSeo, getMainPageSeo, type PageSeoMeta } from "./mainPagesSeo";
+import type { PageSeoMeta } from "./mainPagesSeo";
 
 export type EmojiSeoMeta = {
   metaTitle: string;
@@ -277,152 +274,48 @@ export const priorityEmojiSeo: Record<string, EmojiSeoMeta> = {
   },
 };
 
-export const mainPagesSeo: Record<string, PageSeoMeta> = {
-  "/": {
-    title: `What Does That Emoji Mean? Copy 3,700+ Emojis Free | ${BRAND}`,
-    description:
-      "Search any emoji meaning in seconds. ❤️ 😂 💀 🥺 texting guides, Gen Z slang, copy-paste pages & WhatsApp tone tips. Free — no signup.",
-    ogTitle: "What Does That Emoji Mean? Copy 3,700+ Emojis Free",
-  },
-  "/emoji-meanings/": {
-    title: `Emoji Meanings by Intent — Hearts, Texting, Gen Z & More | ${BRAND}`,
-    description:
-      "Find the right emoji meaning fast: love, flirting, Gen Z slang, WhatsApp tone, flags, and work chats. Browse intent guides with real examples.",
-    ogTitle: "Emoji Meanings by Intent — Hearts, Texting, Gen Z & More",
-  },
-  "/emoji-meanings-in-texting/": {
-    title: `Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok | ${BRAND}`,
-    description:
-      "Browse 250 emoji guides for texting: what emojis mean from a girl, from a guy, on WhatsApp, Instagram, and TikTok. Real examples and tone signals.",
-    ogTitle: "Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok",
-  },
-  "/categories/": {
-    title: `Emoji Categories — Browse & Copy 3,700+ Emojis | ${BRAND}`,
-    description:
-      "Browse emoji by category: smileys, hearts, people, animals, food, flags, and more. Find meanings and copy any emoji instantly.",
-    ogTitle: "Emoji Categories — Browse & Copy 3,700+ Emojis",
-  },
-  "/blog/": {
-    title: `Emoji Blog — Texting, Gen Z Slang & Meanings | ${BRAND}`,
-    description:
-      "Expert emoji guides for texting, Instagram, TikTok, WhatsApp, and work. Learn what emojis really mean in 2026.",
-    ogTitle: "Emoji Blog — Texting, Gen Z Slang & Meanings",
-  },
-  "/emoji-comparisons/": {
-    title: `Emoji Comparisons — Which Emoji Should You Use? | ${BRAND}`,
-    description:
-      "Compare similar emojis side by side: 😂 vs 🤣, ❤️ vs 💜, 👍 tone, and more. Pick the right emoji for your message.",
-    ogTitle: "Emoji Comparisons — Which Emoji Should You Use?",
-  },
-  "/people/": {
-    title: `People Emojis — Gestures, Family & Body Copy | ${BRAND}`,
-    description:
-      "Browse people and body emojis: hand gestures, professions, family, skin tones. Copy any human emoji with meanings.",
-    ogTitle: "People Emojis — Gestures, Family & Body Copy",
-  },
-  "/platforms/": {
-    title: `Emoji Platforms — Apple, Google & Samsung | ${BRAND}`,
-    description:
-      "Copy emojis by platform: iPhone (Apple), Android (Google), and Samsung Galaxy—with meanings for each device style.",
-    ogTitle: "Emoji Platforms — Apple, Google & Samsung",
-  },
-  "/platforms/apple/": {
-    title: `Apple Emoji — iPhone & iOS Emoji List, Copy & Meanings | ${BRAND}`,
-    description:
-      "Copy every iPhone emoji in one click. Full Apple emoji list with meanings for iMessage, WhatsApp, Instagram, and TikTok.",
-    ogTitle: "Apple Emoji — iPhone & iOS Copy Hub",
-  },
-  "/platforms/google/": {
-    title: `Google Emoji — Android & Gboard Copy List | ${BRAND}`,
-    description:
-      "Copy Android emojis in Google Noto style. Gboard-friendly list with meanings for texting and social apps.",
-    ogTitle: "Google / Android Emoji Copy Hub",
-  },
-  "/platforms/samsung/": {
-    title: `Samsung Emoji — Galaxy One UI Copy List | ${BRAND}`,
-    description:
-      "Copy Samsung Galaxy emojis with meanings. One UI style characters for Messages, WhatsApp, and social media.",
-    ogTitle: "Samsung Galaxy Emoji Copy Hub",
-  },
-  "/apple/": {
-    title: `Apple Emoji — iPhone & iOS Emoji List | Copy Instantly | ${BRAND}`,
-    description:
-      "Browse Apple emoji for iPhone and iPad. Copy any iOS emoji in one click with meanings for texting and social media.",
-    ogTitle: "Apple Emoji — iPhone & iOS",
-  },
-  "/iphone-emojis/": {
-    title: `iPhone Emojis — Full List & Meanings (2026) | ${BRAND}`,
-    description:
-      "Complete iPhone emoji list with copy-paste and meanings. Every emoji your iOS keyboard uses—one click to copy.",
-    ogTitle: "iPhone Emojis — Full List (2026)",
-  },
-  "/copy-iphone-emojis/": {
-    title: `Copy iPhone Emojis — One-Click Apple Emoji Copy Paste | ${BRAND}`,
-    description:
-      "Copy iPhone emojis instantly. Tap any Apple emoji to paste into iMessage, WhatsApp, Instagram, or TikTok.",
-    ogTitle: "Copy iPhone Emojis — One Click",
-  },
-  "/google-emojis/": {
-    title: `Google Emoji — Android & Gboard Copy List | ${BRAND}`,
-    description:
-      "Browse Google Noto emojis for Android. Copy any Gboard emoji in one click with meanings for texting.",
-    ogTitle: "Google Emoji — Android & Gboard",
-  },
-  "/android-emojis/": {
-    title: `Android Emojis — Full List & Meanings (2026) | ${BRAND}`,
-    description:
-      "Complete Android emoji list with copy-paste and meanings for Gboard, WhatsApp, and social apps.",
-    ogTitle: "Android Emojis — Full List (2026)",
-  },
-  "/copy-android-emojis/": {
-    title: `Copy Android Emojis — One-Click Google Emoji Copy | ${BRAND}`,
-    description:
-      "Copy Android emojis instantly. Tap any Google/Gboard emoji to paste into Messages, WhatsApp, or Instagram.",
-    ogTitle: "Copy Android Emojis — One Click",
-  },
-  "/samsung-emojis/": {
-    title: `Samsung Emojis — Galaxy Full List (2026) | ${BRAND}`,
-    description:
-      "Complete Samsung Galaxy emoji list with copy-paste and meanings for One UI texting.",
-    ogTitle: "Samsung Emojis — Galaxy List (2026)",
-  },
-  "/copy-samsung-emojis/": {
-    title: `Copy Samsung Emojis — One-Click Galaxy Emoji Copy | ${BRAND}`,
-    description:
-      "Copy Samsung Galaxy emojis instantly for Messages, WhatsApp, and social media.",
-    ogTitle: "Copy Samsung Emojis — One Click",
-  },
-  "/emoji-kitchen/": {
-    title: `Emoji Kitchen — Gboard Guide & Popular Combos (2026) | ${BRAND}`,
-    description:
-      "What is Emoji Kitchen? How to use it on Gboard Android, plus copy-ready combo alternatives and base emoji links.",
-    ogTitle: "Emoji Kitchen — Gboard Guide & Combos",
-  },
-  "/emoji-combos/": {
-    title: `Emoji Combos — Copy ZWJ Sequences & Combinations | ${BRAND}`,
-    description:
-      "Copy emoji combos: couple, family, heart eyes kiss, birthday, and ZWJ sequences with meanings.",
-    ogTitle: "Emoji Combos — Copy & Meaning",
-  },
-  "/tiktok-emojis/": {
-    title: `TikTok Emojis — Meanings, Slang & Copy (2026) | ${BRAND}`,
-    description:
-      "What do TikTok emojis mean? Decode 💀 😭 🤡 🔥 👀 in comments, copy viral reactions, and learn Gen Z slang tone.",
-    ogTitle: "TikTok Emojis — Meanings, Slang & Copy",
-  },
-  "/emoji-copy-and-paste/": {
-    title: `Emoji Copy and Paste — Free Emoji Keyboard (2026) | ${BRAND}`,
-    description:
-      "Copy and paste emojis instantly. Free web emoji keyboard for WhatsApp, Instagram, TikTok & iMessage—tap any emoji to copy.",
-    ogTitle: "Emoji Copy and Paste — Free Emoji Keyboard",
-  },
-};
-
 const withBrand = (title: string) =>
   title.includes(BRAND) ? title : `${title} | ${BRAND}`;
 
 const truncate = (text: string, max: number) =>
   text.length <= max ? text : `${text.slice(0, max - 1).trim()}…`;
+
+/** Google cuts titles around 60 characters; the full wording stays in the H1 and og:title. */
+const TITLE_MAX = 60;
+
+/** ZWJ sequences like 🧑‍🎄 are several UTF-16 units but display as one glyph about two characters wide. */
+const EMOJI_SEQUENCE = /\p{Extended_Pictographic}(?:\uFE0F|\p{Emoji_Modifier}|\u200D\p{Extended_Pictographic})*/gu;
+
+const visibleLength = (text: string) => text.replace(EMOJI_SEQUENCE, "xx").length;
+
+const joinPhrases = (parts: string[]) =>
+  parts.length < 2 ? parts.join("") : `${parts.slice(0, -1).join(", ")} & ${parts[parts.length - 1]}`;
+
+const fitTitle = (title: string): string => {
+  const branded = withBrand(title);
+  if (visibleLength(branded) <= TITLE_MAX) return branded;
+  if (visibleLength(title) <= TITLE_MAX) return title;
+
+  const [head, ...rest] = title.split(": ");
+  const phrases = rest
+    .join(": ")
+    .replace(/[?.!]+$/, "")
+    .split(/,\s*(?:or\s+|and\s+)?|\s+(?:&|or|and)\s+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  const withBrandIfFits = (text: string) => (visibleLength(withBrand(text)) <= TITLE_MAX ? withBrand(text) : text);
+
+  for (let count = phrases.length; count > 0; count--) {
+    const candidate = `${head}: ${joinPhrases(phrases.slice(0, count))}`;
+    if (visibleLength(candidate) <= TITLE_MAX) return withBrandIfFits(candidate);
+  }
+  if (visibleLength(head) <= TITLE_MAX) return withBrandIfFits(head);
+
+  const words = head.split(" ");
+  while (words.length > 1 && visibleLength(words.join(" ")) > TITLE_MAX) words.pop();
+  return words.join(" ");
+};
 
 /** Removes inline emoji copies so the page title can lead with a single unicode. */
 const stripRedundantEmojiFromSearchTitle = (searchTitle: string, unicode: string): string => {
@@ -438,22 +331,11 @@ const stripRedundantEmojiFromSearchTitle = (searchTitle: string, unicode: string
   return cleaned.trim();
 };
 
-export const getMainPageSeo = (path: string): PageSeoMeta => {
-  const normalized = path.endsWith("/") ? path : `${path}/`;
-  const seo = mainPagesSeo[normalized];
-  if (seo) return seo;
-
-  return {
-    title: `${BRAND} — Emoji Meanings, Names & Copy`,
-    description: "Discover emoji meanings, copy and paste emojis, and learn how to use them in texting and social media.",
-  };
-};
-
 export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
   const priority = priorityEmojiSeo[emoji.slug];
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(priority.metaDescription, 160),
       ogTitle: priority.metaTitle,
     };
@@ -465,7 +347,7 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
     const searchTitle = stripRedundantEmojiFromSearchTitle(editorial.searchTitle, emoji.unicode);
     const title = `${emoji.unicode} ${searchTitle}`;
     return {
-      title: withBrand(title),
+      title: fitTitle(title),
       description: truncate(
         `What does ${emoji.unicode} mean? ${editorial.snippetAnswer} Copy ${emoji.unicode} for WhatsApp, Instagram & TikTok.`,
         160
@@ -476,7 +358,7 @@ export const getEmojiSeoMeta = (emoji: Emoji): PageSeoMeta => {
 
   const generated = buildEmojiDetailSeoMeta(emoji, editorial);
   return {
-    title: withBrand(generated.metaTitle),
+    title: fitTitle(generated.metaTitle),
     description: truncate(generated.metaDescription, 160),
     ogTitle: generated.metaTitle,
   };
@@ -1221,7 +1103,7 @@ export const getClusterSeoMeta = (cluster: EmojiIntentCluster): PageSeoMeta => {
   const priority = priorityClusterSeo[cluster.slug];
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(priority.metaDescription, 160),
       ogTitle: priority.metaTitle,
     };
@@ -1239,7 +1121,7 @@ export const getComparisonSeoMeta = (left: Emoji, right: Emoji): PageSeoMeta => 
   const priority = priorityComparisonSeo[key];
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(priority.metaDescription, 160),
       ogTitle: priority.metaTitle,
     };
@@ -1261,7 +1143,7 @@ export const getContextSeoMeta = (emoji: Emoji, page: EmojiContextPage): PageSeo
   const priority = priorityContextSeo[key];
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(priority.metaDescription, 160),
       ogTitle: priority.metaTitle,
     };
@@ -1269,7 +1151,7 @@ export const getContextSeoMeta = (emoji: Emoji, page: EmojiContextPage): PageSeo
 
   const generated = buildContextSeoMeta(emoji, page);
   return {
-    title: withBrand(generated.metaTitle),
+    title: fitTitle(generated.metaTitle),
     description: truncate(generated.metaDescription, 160),
     ogTitle: generated.metaTitle,
   };
@@ -1283,7 +1165,7 @@ export const getCategorySeoMeta = (category: Category, emojiCount?: number): Pag
 
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(`${priority.metaDescription}${countLine}`, 160),
       ogTitle: priority.metaTitle,
     };
@@ -1313,8 +1195,7 @@ const buildBlogFallbackSeo = (post: {
   title: string;
   excerpt: string;
 }): PageSeoMeta => {
-  let ogTitle = cleanBlogTitle(post.title);
-  if (ogTitle.length > 58) ogTitle = truncate(ogTitle, 58);
+  const ogTitle = cleanBlogTitle(post.title);
 
   const needsYear =
     !ogTitle.includes("?") &&
@@ -1324,7 +1205,7 @@ const buildBlogFallbackSeo = (post: {
   const metaTitle = needsYear ? `${ogTitle} (2026)` : ogTitle;
 
   return {
-    title: withBrand(metaTitle),
+    title: fitTitle(metaTitle),
     description: truncate(post.excerpt, 160),
     ogTitle: metaTitle,
   };
@@ -1341,7 +1222,7 @@ export const getPeopleSubSeoMeta = (
 
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(`${descriptionBase}${countLine}`, 160),
       ogTitle: priority.metaTitle,
     };
@@ -1363,7 +1244,7 @@ export const getBlogPostSeoMeta = (post: {
   const priority = priorityBlogSeo[post.slug];
   if (priority) {
     return {
-      title: withBrand(priority.metaTitle),
+      title: fitTitle(priority.metaTitle),
       description: truncate(priority.metaDescription, 160),
       ogTitle: priority.metaTitle,
     };

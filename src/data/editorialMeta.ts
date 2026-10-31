@@ -16,6 +16,10 @@ export const editorialMeta = {
   publisher: "Allemojipedia",
   lastUpdated: "September 28, 2026",
   lastUpdatedIso: "2026-09-28",
+  /** Last change to the shared emoji page template (links, related emojis, schema). */
+  emojiTemplateUpdatedIso: "2026-10-31",
+  /** Last change to home, category and people hub listings. */
+  browseHubsUpdatedIso: "2026-10-31",
   methodologyUrl: "https://allemojipedia.com/about/",
   /**
    * Sitewide authoritative sources. Primary links are dofollow so Google

@@ -10,8 +10,10 @@ import { editorialMeta } from '@/data/editorialMeta';
 import {
   shouldIndexEmoji,
   shouldIndexEmojiComparison,
+  shouldIndexEmojiCombo,
   shouldIndexEmojiContext,
 } from '@/utils/seoPolicy';
+import { getEmojiLastmod } from '@/utils/sitemapLastmod';
 
 const BASE_URL = 'https://allemojipedia.com';
 export interface SitemapUrl {
@@ -38,9 +40,9 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   };
 
   // Main pages
-  addUrl({ loc: `${BASE_URL}/`, priority: '1.0', lastmod: editorialMeta.lastUpdatedIso });
-  addUrl({ loc: `${BASE_URL}/categories/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
-  addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/`, priority: '1.0', lastmod: editorialMeta.browseHubsUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/categories/`, priority: '0.9', lastmod: editorialMeta.browseHubsUpdatedIso });
+  addUrl({ loc: `${BASE_URL}/people/`, priority: '0.9', lastmod: editorialMeta.browseHubsUpdatedIso });
   addUrl({ loc: `${BASE_URL}/blog/`, priority: '0.9', lastmod: latestBlogDate() });
   addUrl({ loc: `${BASE_URL}/emoji-meanings/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   addUrl({ loc: `${BASE_URL}/emoji-meanings-in-texting/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
@@ -53,6 +55,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/platforms/${platform.slug}/`, priority: '0.9', lastmod: editorialMeta.lastUpdatedIso });
   });
   emojiCombos.forEach((combo) => {
+    if (!shouldIndexEmojiCombo(combo.slug)) return;
     addUrl({ loc: `${BASE_URL}/emoji-combos/${combo.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
   addUrl({ loc: `${BASE_URL}/flag-quiz/`, priority: '0.6', lastmod: editorialMeta.lastUpdatedIso });
@@ -62,12 +65,12 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
 
   // Category pages
   categories.forEach(category => {
-    addUrl({ loc: `${BASE_URL}/category/${category.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
+    addUrl({ loc: `${BASE_URL}/category/${category.slug}/`, priority: '0.8', lastmod: editorialMeta.browseHubsUpdatedIso });
   });
 
   // People subcategory pages
   peopleSubcategories.forEach(sub => {
-    addUrl({ loc: `${BASE_URL}/people/${sub.slug}/`, priority: '0.7', lastmod: editorialMeta.lastUpdatedIso });
+    addUrl({ loc: `${BASE_URL}/people/${sub.slug}/`, priority: '0.7', lastmod: editorialMeta.browseHubsUpdatedIso });
   });
 
   // Blog post pages (automatically includes all posts)
@@ -97,7 +100,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
   // Priority emoji pages only (long-tail stays noindex / out of sitemap)
   emojis.forEach(emoji => {
     if (!shouldIndexEmoji(emoji)) return;
-    addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
+    addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: getEmojiLastmod(emoji) });
   });
 
 

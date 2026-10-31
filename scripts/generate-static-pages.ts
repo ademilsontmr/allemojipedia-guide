@@ -10,6 +10,7 @@ import { buildEmojiStructuredData } from '../src/utils/emojiPageSchema';
 import { buildEmojiStaticArticleHtml, getDeterministicCategoryEmojis } from '../src/utils/emojiPageStaticHtml';
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
+import { getRelatedBlogPosts } from '../src/utils/relatedBlogPosts';
 import { editorialMeta, getEmojiEditorialSources } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
 import {
@@ -31,7 +32,7 @@ import {
   copyPasteQuickLinks,
   emojiCopyPasteHub,
 } from '../src/data/emojiCopyPasteHub';
-import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, INDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from '../src/utils/seoPolicy';
+import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, getEmojiComboRobots, INDEX_FOLLOW_ROBOTS, NOINDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from '../src/utils/seoPolicy';
 import { resolveBlogFaqs } from '../src/utils/resolveBlogFaqs';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -95,7 +96,12 @@ const generateMetaTags = (
     <meta property="og:url" content="${safeUrl}" />
     <meta property="og:type" content="${escapeHtml(ogType)}" />
     <meta property="og:site_name" content="Allemojipedia" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="${BASE_URL}/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Allemojipedia — emoji meanings, names and copy-paste guides" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="${BASE_URL}/og-image.png" />
     <meta name="twitter:title" content="${safeTitle}" />
     <meta name="twitter:description" content="${safeDescription}" />
   `;
@@ -189,7 +195,7 @@ const staticShell = (content: string) => `
     ${content}
   </main>
   <footer style="max-width: 960px; margin: 0 auto; padding: 0 20px 32px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #555;">
-    <p>© ${new Date().getFullYear()} Allemojipedia · <a href="/about/">About</a> · <a href="/sitemap/">Sitemap</a></p>
+    <p>© ${new Date().getFullYear()} Allemojipedia · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap/">Sitemap</a></p>
   </footer>
 `;
 
@@ -286,6 +292,23 @@ const emojiContextHubBody = (emojiBySlug: Map<string, Emoji>) => {
 `);
 };
 
+const priorityEmojiSection = (name: string, emojis: Emoji[], excludeSlugs: string[] = []) => {
+  const excluded = new Set(excludeSlugs);
+  const priority = emojis.filter((emoji) => isPriorityEmojiSlug(emoji.slug) && !excluded.has(emoji.slug));
+  return `
+    ${priority.length
+      ? `<h2>Most searched ${escapeHtml(name)} emoji meanings</h2>${renderLinks(
+          priority.map((emoji) => ({
+            href: `/emoji/${emoji.slug}/`,
+            label: `${emoji.unicode} ${emoji.name}`,
+            description: emoji.shortMeaning,
+          }))
+        )}`
+      : ''}
+    <h2>All ${escapeHtml(name)} emojis (${emojis.length})</h2>
+    <p>This group has ${emojis.length} emojis, including skin tone and gender variants. Open the full list on this page to copy any of them.</p>`;
+};
+
 const categoryBody = (
   category: (typeof categories)[number],
   categoryEmojis: Emoji[]
@@ -294,12 +317,7 @@ const categoryBody = (
     <nav><a href="/">Home</a> / <a href="/categories/">Categories</a></nav>
     <h1>${escapeHtml(`${category.icon} ${category.name} Emojis`)}</h1>
     <p>${escapeHtml(category.description)}</p>
-    <h2>All ${escapeHtml(category.name)} emojis</h2>
-    ${renderLinks(categoryEmojis.map((emoji) => ({
-      href: `/emoji/${emoji.slug}/`,
-      label: `${emoji.unicode} ${emoji.name}`,
-      description: emoji.shortMeaning,
-    })))}
+    ${priorityEmojiSection(category.name, categoryEmojis)}
   </article>
 `);
 
@@ -339,12 +357,7 @@ const peopleBody = (
           }))
         )}`
       : ''}
-    <h2>All ${escapeHtml(sub.name)} emojis</h2>
-    ${renderLinks(subEmojis.map((emoji) => ({
-      href: `/emoji/${emoji.slug}/`,
-      label: `${emoji.unicode} ${emoji.name}`,
-      description: emoji.shortMeaning,
-    })))}
+    ${priorityEmojiSection(sub.name, subEmojis, popularEmojis.map((emoji) => emoji.slug))}
     ${editorial?.faqs.length
       ? `<h2>Frequently asked questions</h2>${editorial.faqs
           .map(
@@ -543,9 +556,9 @@ const contactBody = () => staticShell(`
     <h1>Contact Us</h1>
     <p>We'd love to hear from you! Whether you have questions, feedback, or suggestions about Allemojipedia, feel free to reach out to us.</p>
     <h2>Email</h2>
-    <p>For general inquiries and support: <a href="mailto:contact@allemojipedia.com">contact@allemojipedia.com</a></p>
+    <p>For general inquiries and support: <!--email_off--><a href="mailto:contact@allemojipedia.com">contact@allemojipedia.com</a><!--/email_off--></p>
     <h2>Feedback</h2>
-    <p>Help us improve by sharing your thoughts: <a href="mailto:feedback@allemojipedia.com">feedback@allemojipedia.com</a></p>
+    <p>Help us improve by sharing your thoughts: <!--email_off--><a href="mailto:feedback@allemojipedia.com">feedback@allemojipedia.com</a><!--/email_off--></p>
     <h2>Common Inquiries</h2>
     <ul>
       <li><strong>Missing emoji:</strong> If you notice an emoji is missing from our database, let us know!</li>
@@ -653,7 +666,7 @@ const flagQuizStructuredData = (): StructuredData[] => [
 ];
 
 const peopleHubBody = (allEmojis: Emoji[]) => {
-  const popularPeople = allEmojis.filter((emoji) => emoji.categorySlug === 'people-and-body').slice(0, 12);
+  const popularPeople = allEmojis.filter((emoji) => emoji.categorySlug === 'people-and-body' && isPriorityEmojiSlug(emoji.slug)).slice(0, 12);
 
   return staticShell(`
   <article>
@@ -832,9 +845,7 @@ const emojiIntentClusterBody = (
   </article>
 `);
 
-const blogPostBody = (post: (typeof blogPosts)[number]) => {
-  const blocks = post.content.split('\n\n').map((block) => block.trim()).filter(Boolean);
-  const content = blocks.map((block) => {
+const renderBlogBlock = (block: string) => {
     const tableRows = parseMarkdownTable(block);
     if (tableRows) {
       return renderMarkdownTableHtml(tableRows, renderInlineMarkdownHtml);
@@ -859,7 +870,27 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
     }
 
     return `<p>${renderInlineMarkdownHtml(block)}</p>`;
-  }).join('\n');
+};
+
+/** Code fences hold sample bios with fake e-mails; email_off stops Cloudflare from rewriting them into /cdn-cgi/ links. */
+const renderBlogContent = (markdown: string) =>
+  markdown
+    .split('```')
+    .map((segment, index) =>
+      index % 2
+        ? `<!--email_off--><pre>${escapeHtml(segment.replace(/^\n+|\n+$/g, ''))}</pre><!--/email_off-->`
+        : segment
+            .split('\n\n')
+            .map((block) => block.trim())
+            .filter(Boolean)
+            .map(renderBlogBlock)
+            .join('\n')
+    )
+    .join('\n');
+
+const blogPostBody = (post: (typeof blogPosts)[number]) => {
+  const content = renderBlogContent(post.content);
+  const relatedPosts = getRelatedBlogPosts(post, blogPosts);
 
   const blogFaqs = resolveBlogFaqs(post);
   const faqHtml =
@@ -883,6 +914,8 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
       <p>${escapeHtml(post.date)} • ${escapeHtml(post.readTime)}</p>
       ${content}
       ${faqHtml}
+      <h2>Related emoji guides</h2>
+      ${renderLinks(relatedPosts.map((related) => ({ href: `/blog/${related.slug}/`, label: related.title })))}
     </article>
   `);
 };
@@ -2164,7 +2197,7 @@ const generateStaticPages = () => {
       combo.keywords,
       emojiComboDetailBody(combo, emojiBySlug),
       'article',
-      INDEX_FOLLOW_ROBOTS,
+      getEmojiComboRobots(combo.slug),
       emojiComboDetailStructuredData(combo)
     );
     count++;
@@ -2191,7 +2224,9 @@ const generateStaticPages = () => {
     'Sitemap | Allemojipedia',
     'Browse all pages on Allemojipedia. Find emojis by category, meaning, or name.',
     'allemojipedia sitemap, emoji sitemap',
-    sitemapBody(emojis)
+    sitemapBody(emojis),
+    'website',
+    NOINDEX_FOLLOW_ROBOTS
   );
   count++;
 

@@ -41,3 +41,6 @@
 
 /ads.txt
   Cache-Control: public, max-age=86400
+
+/og-image.png
+  Cache-Control: public, max-age=86400, must-revalidate

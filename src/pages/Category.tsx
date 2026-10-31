@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
-import { EmojiCard } from "@/components/EmojiCard";
+import { CategoryEmojiSections } from "@/components/CategoryEmojiSections";
 import { getCategoryBySlug } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
@@ -113,19 +113,7 @@ const Category = () => {
           <p className="text-muted-foreground">{category.description}</p>
         </header>
 
-        {/* H2 - All Emojis */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-6">All {category.name} Emojis ({emojis.length})</h2>
-          {!isEmojiDataLoaded ? (
-            <p className="text-muted-foreground">Loading emojis…</p>
-          ) : emojis.length > 0 ? (
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {emojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
-            </div>
-          ) : (
-            <p className="text-muted-foreground">No emojis found in this category yet.</p>
-          )}
-        </section>
+        <CategoryEmojiSections name={category.name} emojis={emojis} isLoaded={isEmojiDataLoaded} />
 
         {/* H2 - FAQ */}
         <section className="mb-8">

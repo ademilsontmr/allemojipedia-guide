@@ -1,7 +1,8 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { EmojiCard } from "@/components/EmojiCard";
+import { CategoryEmojiSections } from "@/components/CategoryEmojiSections";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import { getPeopleSubcategoryEditorial } from "@/data/peopleSubcategoryEditorial";
@@ -133,17 +134,12 @@ const PeopleSubcategory = () => {
           </section>
         )}
 
-        {/* H2 - All Emojis */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-6">All {subcategory.name} Emojis ({emojis.length})</h2>
-          {!isEmojiDataLoaded ? (
-            <p className="text-muted-foreground">Loading emojis…</p>
-          ) : (
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {emojis.map(emoji => <EmojiCard key={emoji.slug} emoji={emoji} />)}
-            </div>
-          )}
-        </section>
+        <CategoryEmojiSections
+          name={subcategory.name}
+          emojis={emojis}
+          isLoaded={isEmojiDataLoaded}
+          excludeSlugs={popularEmojis.map((emoji) => emoji.slug)}
+        />
 
         {/* H2 - FAQ */}
         <section className="mb-8">

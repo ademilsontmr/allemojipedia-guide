@@ -22,6 +22,8 @@ export type EmojiBatchEnrichment = {
 
 export type EditorialBatchMeta = {
   id: string;
+  /** Date the batch copy last changed; drives sitemap lastmod for its emojis. */
+  updatedIso: string;
   name: string;
   category: string;
   emojiCount: number;

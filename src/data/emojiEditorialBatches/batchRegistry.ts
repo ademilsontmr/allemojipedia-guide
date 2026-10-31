@@ -8,6 +8,7 @@ import type { EditorialBatchMeta } from "./types";
 export const editorialBatchRegistry: EditorialBatchMeta[] = [
   {
     id: "00-top-priority",
+    updatedIso: "2026-05-31",
     name: "Top priority emojis — hand-written",
     category: "smileys-and-emotion",
     emojiCount: 2,
@@ -16,6 +17,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "01-food-and-drink",
+    updatedIso: "2026-05-31",
     name: "Food & Drink — hand-written",
     category: "food-and-drink",
     emojiCount: 16,
@@ -24,6 +26,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "02-animals-nature",
+    updatedIso: "2026-05-31",
     name: "Animals & Nature — hand-written",
     category: "animals-and-nature",
     emojiCount: 37,
@@ -32,6 +35,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "03-activities",
+    updatedIso: "2026-06-01",
     name: "Activities — premium generated",
     category: "activities",
     emojiCount: 35,
@@ -40,6 +44,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "04-travel-places",
+    updatedIso: "2026-06-01",
     name: "Travel & Places — premium generated",
     category: "travel-and-places",
     emojiCount: 114,
@@ -48,6 +53,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "05-objects",
+    updatedIso: "2026-06-01",
     name: "Objects — premium generated",
     category: "objects",
     emojiCount: 140,
@@ -56,6 +62,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "06-symbols",
+    updatedIso: "2026-06-01",
     name: "Symbols — premium generated",
     category: "symbols",
     emojiCount: 132,
@@ -64,6 +71,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "07-smileys-emotion",
+    updatedIso: "2026-06-01",
     name: "Smileys & Emotion — premium generated",
     category: "smileys-and-emotion",
     emojiCount: 84,
@@ -72,6 +80,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "08-flags",
+    updatedIso: "2026-06-01",
     name: "Flags — premium generated",
     category: "flags",
     emojiCount: 126,
@@ -80,6 +89,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "09-people-body",
+    updatedIso: "2026-06-01",
     name: "People & Body — premium generated",
     category: "people-and-body",
     emojiCount: 2135,
@@ -88,6 +98,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "10-top-smileys-travel",
+    updatedIso: "2026-05-31",
     name: "Top smileys & travel — hand-written",
     category: "mixed",
     emojiCount: 17,
@@ -96,6 +107,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "11-top-smileys-emotion",
+    updatedIso: "2026-05-31",
     name: "Top smileys & emotion — hand-written",
     category: "smileys-and-emotion",
     emojiCount: 20,
@@ -104,6 +116,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "12-top-smileys-emotion",
+    updatedIso: "2026-05-31",
     name: "Top smileys & emotion (final) — hand-written",
     category: "smileys-and-emotion",
     emojiCount: 24,
@@ -112,6 +125,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "13-top-travel-objects",
+    updatedIso: "2026-06-01",
     name: "Top travel & objects — hand-written (priority complete)",
     category: "mixed",
     emojiCount: 50,
@@ -120,6 +134,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "37-travel-clocks-moon-astro",
+    updatedIso: "2026-06-01",
     name: "Travel & Places — clocks, moon & sky (hand-written)",
     category: "travel-and-places",
     emojiCount: 37,
@@ -128,6 +143,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "36-flags-complete",
+    updatedIso: "2026-06-01",
     name: "Flags — category complete (hand-written)",
     category: "flags",
     emojiCount: 126,
@@ -136,6 +152,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "35-symbols-complete",
+    updatedIso: "2026-06-01",
     name: "Symbols — category complete (hand-written)",
     category: "symbols",
     emojiCount: 132,
@@ -144,6 +161,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "34-people-body-rich-complete",
+    updatedIso: "2026-06-01",
     name: "People & Body — RICH bases complete (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -152,6 +170,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "33-people-body-rich-gestures",
+    updatedIso: "2026-06-01",
     name: "People & Body — RICH gestures 100-slug batch (hand-written)",
     category: "people-and-body",
     emojiCount: 100,
@@ -160,6 +179,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "32-people-body-base-complete",
+    updatedIso: "2026-06-01",
     name: "People & Body — base thin complete (hand-written)",
     category: "people-and-body",
     emojiCount: 8,
@@ -168,6 +188,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "31-people-body-base-100",
+    updatedIso: "2026-06-01",
     name: "People & Body — base variants 100-slug batch (hand-written)",
     category: "people-and-body",
     emojiCount: 100,
@@ -176,6 +197,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "30-people-body-family-gestures",
+    updatedIso: "2026-06-01",
     name: "People & Body — family complete & gestures P2 (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -184,6 +206,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "29-people-body-couples-family",
+    updatedIso: "2026-06-01",
     name: "People & Body — couples, family & gestures P1 (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -192,6 +215,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "28-people-body-accessibility-roles",
+    updatedIso: "2026-06-01",
     name: "People & Body — accessibility, hair & family symbols P1 (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -200,6 +224,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "27-people-body-activity-sport",
+    updatedIso: "2026-06-01",
     name: "People & Body — activity, sport & fantasy P1 (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -208,6 +233,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "26-people-body-parts-roles",
+    updatedIso: "2026-06-01",
     name: "People & Body — body parts & professions P1 (hand-written)",
     category: "people-and-body",
     emojiCount: 25,
@@ -216,6 +242,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "25-people-body-roles-gestures",
+    updatedIso: "2026-06-01",
     name: "People & Body — roles & gestures P0 (hand-written)",
     category: "people-and-body",
     emojiCount: 26,
@@ -224,6 +251,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "24-objects-weapons-science-misc",
+    updatedIso: "2026-06-01",
     name: "Objects — category complete (hand-written P2)",
     category: "objects",
     emojiCount: 16,
@@ -232,6 +260,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "23-objects-office-household",
+    updatedIso: "2026-06-01",
     name: "Objects — office & household (hand-written P2)",
     category: "objects",
     emojiCount: 25,
@@ -240,6 +269,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "22-objects-music-media-books",
+    updatedIso: "2026-06-01",
     name: "Objects — music, media & books (hand-written P1)",
     category: "objects",
     emojiCount: 25,
@@ -248,6 +278,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "21-objects-fashion-clothing",
+    updatedIso: "2026-06-01",
     name: "Objects — fashion & clothing (hand-written P1)",
     category: "objects",
     emojiCount: 25,
@@ -256,6 +287,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "20-objects-mail-office-media",
+    updatedIso: "2026-06-01",
     name: "Objects — mail, office, media (hand-written P0)",
     category: "objects",
     emojiCount: 25,
@@ -264,6 +296,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "19-travel-places-buildings",
+    updatedIso: "2026-06-01",
     name: "Travel & Places — buildings, access, weather (hand-written)",
     category: "travel-and-places",
     emojiCount: 23,
@@ -272,6 +305,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "18-travel-places-transit",
+    updatedIso: "2026-06-01",
     name: "Travel & Places — transit & scenic (hand-written)",
     category: "travel-and-places",
     emojiCount: 20,
@@ -280,6 +314,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "17-activities-complete",
+    updatedIso: "2026-06-01",
     name: "Activities — category complete",
     category: "activities",
     emojiCount: 34,
@@ -288,6 +323,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "14-smileys-and-emotion-complete",
+    updatedIso: "2026-05-31",
     name: "Smileys & Emotion — category complete",
     category: "smileys-and-emotion",
     emojiCount: 32,
@@ -296,6 +332,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "15-animals-and-nature-complete",
+    updatedIso: "2026-05-31",
     name: "Animals & Nature — category complete",
     category: "animals-and-nature",
     emojiCount: 7,
@@ -304,6 +341,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "16-food-and-drink-complete",
+    updatedIso: "2026-05-31",
     name: "Food & Drink — category complete",
     category: "food-and-drink",
     emojiCount: 1,
@@ -312,6 +350,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "38-p0-wave1-top-search",
+    updatedIso: "2026-07-20",
     name: "P0 Wave 1 — top-search exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 8,
@@ -321,6 +360,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "39-p0-wave2-hearts-reactions",
+    updatedIso: "2026-07-20",
     name: "P0 Wave 2 — hearts & reactions exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 15,
@@ -330,6 +370,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "40-p0-wave3-top50-close",
+    updatedIso: "2026-07-20",
     name: "P0 Wave 3 — top-50 close exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 25,
@@ -339,6 +380,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "41-p1-wave1-top-extend",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 1 — top-extend exclusivity",
     category: "mixed",
     emojiCount: 15,
@@ -348,6 +390,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "42-p1-wave2-faces-extend",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 2 — faces-extend exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 15,
@@ -357,6 +400,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "43-p1-wave3-faces-extend",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 3 — faces-extend exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 15,
@@ -366,6 +410,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "44-p1-wave4-faces-extend",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 4 — faces-extend exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 15,
@@ -375,6 +420,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "45-p1-wave5-faces-extend",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 5 — faces-extend exclusivity",
     category: "smileys-and-emotion",
     emojiCount: 15,
@@ -384,6 +430,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "46-p1-wave6-top-close",
+    updatedIso: "2026-07-20",
     name: "P1 Wave 6 — close remaining topEmojiSlugs",
     category: "smileys-and-emotion",
     emojiCount: 28,
@@ -393,6 +440,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "47-indexing-stier-gsc",
+    updatedIso: "2026-09-10",
     name: "Indexing S-tier — GSC crawled-not-indexed priorities",
     category: "smileys-and-emotion",
     emojiCount: 3,
@@ -402,6 +450,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "48-indexing-stier-wave2",
+    updatedIso: "2026-09-10",
     name: "Indexing S-tier wave 2 — laugh, fire, cry, sparkles",
     category: "smileys-and-emotion",
     emojiCount: 4,
@@ -410,6 +459,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "49-indexing-stier-wave3",
+    updatedIso: "2026-09-10",
     name: "Indexing S-tier wave 3 — heart eyes, thinking, thumbs, prayer, 100",
     category: "smileys-and-emotion",
     emojiCount: 5,
@@ -418,6 +468,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "50-holiday-season-stier",
+    updatedIso: "2026-10-31",
     name: "Holiday season S-tier — tree, Claus family, snowman, menorah, gift, fireworks",
     category: "seasonal",
     emojiCount: 8,

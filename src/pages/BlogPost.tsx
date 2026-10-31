@@ -6,6 +6,7 @@ import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { getBlogPostSeoMeta } from "@/data/seoMeta";
 import { parseMarkdownTable } from "@/utils/blogMarkdownTables";
 import { resolveBlogFaqs } from "@/utils/resolveBlogFaqs";
+import { getRelatedBlogPosts } from "@/utils/relatedBlogPosts";
 
 // Helper function to render inline markdown (bold, italic, links)
 const renderInlineMarkdown = (text: string): React.ReactNode => {
@@ -196,130 +197,134 @@ const BlogPost = () => {
   const faqs = resolveBlogFaqs(post);
 
   // Get suggested posts
-  const definedRelated = post.relatedPosts
-    ? blogPosts.filter(p => post.relatedPosts?.includes(p.slug))
-    : [];
-
-  const otherPosts = blogPosts
-    .filter(p => p.id !== post.id && !post.relatedPosts?.includes(p.slug))
-    .sort(() => Math.random() - 0.5);
-
-  const suggestedPosts = [...definedRelated, ...otherPosts].slice(0, 6);
+  const suggestedPosts = getRelatedBlogPosts(post, blogPosts);
 
   // Process content into blocks
   const renderContent = () => {
-    const blocks = post.content.split("\n\n");
     const result: React.ReactNode[] = [];
     let highlightNextTable = false;
 
-    for (let i = 0; i < blocks.length; i++) {
-      const paragraph = blocks[i];
-      const tableRows = parseMarkdownTable(paragraph);
-
-      // H2 Headers
-      if (paragraph.startsWith("## ")) {
-        const heading = paragraph.replace("## ", "");
-        highlightNextTable = heading.toLowerCase().includes("quick answer");
+    post.content.split("```").forEach((segment, s) => {
+      if (s % 2 === 1) {
         result.push(
-          <h2 key={i} className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-foreground flex items-center gap-3 scroll-mt-24">
-            <span className="w-1.5 h-10 bg-gradient-to-b from-primary to-primary/50 rounded-full flex-shrink-0" />
-            <span className="leading-tight">{renderInlineMarkdown(heading)}</span>
-          </h2>
+          <pre key={`code-${s}`} className="my-6 p-5 rounded-xl bg-muted/50 overflow-x-auto whitespace-pre-wrap text-base leading-relaxed">
+            {segment.replace(/^\n+|\n+$/g, "")}
+          </pre>
         );
-        continue;
+        return;
       }
+      const blocks = segment.split("\n\n").map((block) => block.trim()).filter(Boolean);
 
-      // H3 Headers
-      if (paragraph.startsWith("### ")) {
-        result.push(
-          <h3 key={i} className="text-xl md:text-2xl font-semibold mt-12 mb-6 text-foreground leading-snug">
-            {renderInlineMarkdown(paragraph.replace("### ", ""))}
-          </h3>
-        );
-        continue;
-      }
+      for (let b = 0; b < blocks.length; b++) {
+        const i = `${s}-${b}`;
+        const paragraph = blocks[b];
+        const tableRows = parseMarkdownTable(paragraph);
 
-      // Bullet lists
-      if (paragraph.startsWith("- ")) {
-        const lines = paragraph.split("\n").filter((line) => line.startsWith("- "));
-        result.push(
-          <ul key={i} className="my-8 space-y-4 pl-2">
-            {lines.map((item, j) => (
-              <li key={j} className="flex items-start gap-4 text-muted-foreground group">
-                <span className="w-2.5 h-2.5 rounded-full bg-primary mt-2.5 flex-shrink-0 group-hover:scale-125 transition-transform" />
-                <span className="leading-relaxed text-lg flex-1">{renderInlineMarkdown(item.replace("- ", ""))}</span>
-              </li>
-            ))}
-          </ul>
-        );
-        continue;
-      }
-
-      // Numbered lists
-      if (paragraph.startsWith("1. ")) {
-        const items = paragraph.split("\n").filter((line) => /^\d+\./.test(line));
-        result.push(
-          <ol key={i} className="my-10 space-y-6">
-            {items.map((item, j) => (
-              <li key={j} className="flex items-start gap-5 group">
-                <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/70 text-primary-foreground font-bold flex items-center justify-center text-base shadow-sm group-hover:scale-110 transition-transform">
-                  {j + 1}
-                </span>
-                <span className="pt-2 text-muted-foreground leading-relaxed text-lg flex-1">{renderInlineMarkdown(item.replace(/^\d+\.\s*/, ""))}</span>
-              </li>
-            ))}
-          </ol>
-        );
-        continue;
-      }
-
-      // Comparison Box (Custom syntax: [COMPARE] Rude | Polite | Why)
-      if (paragraph.startsWith("[COMPARE]")) {
-        const parts = paragraph.replace("[COMPARE]", "").split("|").map(p => p.trim());
-        if (parts.length >= 3) {
+        // H2 Headers
+        if (paragraph.startsWith("## ")) {
+          const heading = paragraph.replace("## ", "");
+          highlightNextTable = heading.toLowerCase().includes("quick answer");
           result.push(
-            <ComparisonBox
-              key={i}
-              rude={parts[0]}
-              polite={parts[1]}
-              why={parts[2]}
-            />
+            <h2 key={i} className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-foreground flex items-center gap-3 scroll-mt-24">
+              <span className="w-1.5 h-10 bg-gradient-to-b from-primary to-primary/50 rounded-full flex-shrink-0" />
+              <span className="leading-tight">{renderInlineMarkdown(heading)}</span>
+            </h2>
           );
           continue;
         }
-      }
 
-      // Markdown tables
-      if (tableRows) {
+        // H3 Headers
+        if (paragraph.startsWith("### ")) {
+          result.push(
+            <h3 key={i} className="text-xl md:text-2xl font-semibold mt-12 mb-6 text-foreground leading-snug">
+              {renderInlineMarkdown(paragraph.replace("### ", ""))}
+            </h3>
+          );
+          continue;
+        }
+
+        // Bullet lists
+        if (paragraph.startsWith("- ")) {
+          const lines = paragraph.split("\n").filter((line) => line.startsWith("- "));
+          result.push(
+            <ul key={i} className="my-8 space-y-4 pl-2">
+              {lines.map((item, j) => (
+                <li key={j} className="flex items-start gap-4 text-muted-foreground group">
+                  <span className="w-2.5 h-2.5 rounded-full bg-primary mt-2.5 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <span className="leading-relaxed text-lg flex-1">{renderInlineMarkdown(item.replace("- ", ""))}</span>
+                </li>
+              ))}
+            </ul>
+          );
+          continue;
+        }
+
+        // Numbered lists
+        if (paragraph.startsWith("1. ")) {
+          const items = paragraph.split("\n").filter((line) => /^\d+\./.test(line));
+          result.push(
+            <ol key={i} className="my-10 space-y-6">
+              {items.map((item, j) => (
+                <li key={j} className="flex items-start gap-5 group">
+                  <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/70 text-primary-foreground font-bold flex items-center justify-center text-base shadow-sm group-hover:scale-110 transition-transform">
+                    {j + 1}
+                  </span>
+                  <span className="pt-2 text-muted-foreground leading-relaxed text-lg flex-1">{renderInlineMarkdown(item.replace(/^\d+\.\s*/, ""))}</span>
+                </li>
+              ))}
+            </ol>
+          );
+          continue;
+        }
+
+        // Comparison Box (Custom syntax: [COMPARE] Rude | Polite | Why)
+        if (paragraph.startsWith("[COMPARE]")) {
+          const parts = paragraph.replace("[COMPARE]", "").split("|").map(p => p.trim());
+          if (parts.length >= 3) {
+            result.push(
+              <ComparisonBox
+                key={i}
+                rude={parts[0]}
+                polite={parts[1]}
+                why={parts[2]}
+              />
+            );
+            continue;
+          }
+        }
+
+        // Markdown tables
+        if (tableRows) {
+          result.push(
+            <MarkdownTable key={i} rows={tableRows} highlight={highlightNextTable} />
+          );
+          highlightNextTable = false;
+          continue;
+        }
+
+        // Blockquotes
+        if (paragraph.startsWith(">")) {
+          const lines = paragraph.split("\n").map(line => line.replace(/^>\s*/, ""));
+          result.push(
+            <HighlightBox key={i}>
+              {lines.map((line, idx) => (
+                <p key={idx} className="text-muted-foreground leading-[1.8] text-lg">
+                  {renderInlineMarkdown(line)}
+                </p>
+              ))}
+            </HighlightBox>
+          );
+          continue;
+        }
+
+        // Regular paragraph
         result.push(
-          <MarkdownTable key={i} rows={tableRows} highlight={highlightNextTable} />
+          <p key={i} className="text-muted-foreground leading-[1.8] mb-7 text-lg max-w-none">
+            {renderInlineMarkdown(paragraph)}
+          </p>
         );
-        highlightNextTable = false;
-        continue;
       }
-
-      // Blockquotes
-      if (paragraph.startsWith(">")) {
-        const lines = paragraph.split("\n").map(line => line.replace(/^>\s*/, ""));
-        result.push(
-          <HighlightBox key={i}>
-            {lines.map((line, idx) => (
-              <p key={idx} className="text-muted-foreground leading-[1.8] text-lg">
-                {renderInlineMarkdown(line)}
-              </p>
-            ))}
-          </HighlightBox>
-        );
-        continue;
-      }
-
-      // Regular paragraph
-      result.push(
-        <p key={i} className="text-muted-foreground leading-[1.8] mb-7 text-lg max-w-none">
-          {renderInlineMarkdown(paragraph)}
-        </p>
-      );
-    }
+    });
 
     return result;
   };

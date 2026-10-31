@@ -80,7 +80,7 @@ Caption + photos decide. In text-only drama threads, slang wins.
 
 ## Skin-tone variants
 
-💅 supports [skin-tone modifiers](/category/people-body/). The slang meaning stays the same; pick the tone that fits you. Copy from the nail polish page after choosing a variant on your keyboard if needed.
+💅 supports [skin-tone modifiers](/category/people-and-body/). The slang meaning stays the same; pick the tone that fits you. Copy from the nail polish page after choosing a variant on your keyboard if needed.
 
 ## When 💅 feels wrong
 
