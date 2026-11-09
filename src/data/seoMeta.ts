@@ -624,6 +624,11 @@ export const priorityComparisonSeo: Record<string, EmojiSeoMeta> = {
 
 /** Lote 2 — strategic blog posts */
 export const priorityBlogSeo: Record<string, EmojiSeoMeta> = {
+  "advent-wreath-meaning": {
+    metaTitle: "Advent Wreath Meaning: Circle, Evergreen & 4 Candles",
+    metaDescription:
+      "What does an Advent wreath mean? Circle, evergreen, and four candles for the Sundays until Christmas—2026 dates, colors, and emoji.",
+  },
   "flirty-emoji-meanings-romantic-or-friendly": {
     metaTitle: "Flirty Emoji Meanings: Romantic or Just Friendly? (2026)",
     metaDescription:

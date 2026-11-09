@@ -460,6 +460,11 @@ const homeBody = () =>
     <h2>High-demand guides</h2>
     ${renderLinks([
       {
+        href: '/blog/advent-wreath-meaning/',
+        label: 'Advent wreath meaning',
+        description: 'Circle, evergreen, and the four candles until Christmas.',
+      },
+      {
         href: '/blog/christmas-emojis-meaning/',
         label: 'Christmas emojis meaning',
         description: 'Full holiday list, combos, and copy paste.',

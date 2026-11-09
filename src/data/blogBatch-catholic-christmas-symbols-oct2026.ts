@@ -439,11 +439,11 @@ Pair with the [nativity meaning](/blog/nativity-scene-meaning/) so light has a p
     keywords:
       "advent candle meaning, christmas candle meaning, advent wreath candles meaning, candle light faith christmas, gaudete candle meaning, candle emoji advent",
     relatedPosts: [
+      "advent-wreath-meaning",
       "catholic-christmas-advent-emojis",
       "nativity-scene-meaning",
       "star-of-bethlehem-meaning",
       "christmas-tree-christian-meaning",
-      "christmas-angel-meaning",
     ],
     faqs: [
       {

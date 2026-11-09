@@ -245,6 +245,7 @@ const Index = () => {
                   { to: "/emoji/santa-claus/", label: "🎅 Santa emoji meaning" },
                   { to: "/emoji/wrapped-gift/", label: "🎁 Gift emoji meaning" },
                   { to: "/emoji/fireworks/", label: "🎆 Fireworks emoji meaning" },
+                  { to: "/blog/advent-wreath-meaning/", label: "Advent wreath meaning" },
                   { to: "/blog/christmas-emojis-meaning/", label: "Christmas emojis guide" },
                   { to: "/blog/new-year-emoji-meanings/", label: "New Year emoji meanings" },
                   { to: "/blog/thanksgiving-emoji-meaning/", label: "Thanksgiving emoji meaning" },
