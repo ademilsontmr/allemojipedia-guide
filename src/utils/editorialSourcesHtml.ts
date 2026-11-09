@@ -3,9 +3,10 @@ import { sourceLinkRel, type EditorialSource } from "@/data/editorialMeta";
 export const renderEditorialSourcesHtml = (
   sources: EditorialSource[],
   escapeHtml: (value: string) => string,
-  options?: { title?: string; intro?: string }
+  options?: { title?: string; intro?: string; id?: string }
 ) => {
   const title = options?.title ?? "Editorial review and sources";
+  const idAttr = options?.id ? ` id="${escapeHtml(options.id)}"` : "";
   const intro =
     options?.intro ??
     "We cite primary emoji standards and reference encyclopedias so meanings stay grounded in Unicode and real-world usage.";
@@ -22,7 +23,7 @@ export const renderEditorialSourcesHtml = (
       .join("");
 
   return `
-      <section>
+      <section${idAttr}>
         <h2>${escapeHtml(title)}</h2>
         <p>${escapeHtml(intro)}</p>
         ${primary.length ? `<h3>Primary standards</h3><ul>${renderList(primary)}</ul>` : ""}

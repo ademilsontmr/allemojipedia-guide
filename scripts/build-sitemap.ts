@@ -14,6 +14,7 @@ import {
   shouldIndexEmojiContext,
 } from '../src/utils/seoPolicy';
 import { getEmojiLastmod } from '../src/utils/sitemapLastmod';
+import { getBlogDateModified } from '../src/utils/blogEat';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -22,7 +23,7 @@ const BASE_URL = 'https://allemojipedia.com';
 const latestDate = (dates: string[]) =>
   dates.length ? dates.reduce((latest, date) => (date > latest ? date : latest), dates[0]) : editorialMeta.lastUpdatedIso;
 
-const latestBlogDate = () => latestDate(blogPosts.map((post) => post.date));
+const latestBlogDate = () => latestDate(blogPosts.map((post) => getBlogDateModified(post)));
 
 interface SitemapUrl {
   loc: string;
@@ -88,7 +89,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
 
   // Blog post pages
   blogPosts.forEach(post => {
-    addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7', lastmod: post.date });
+    addUrl({ loc: `${BASE_URL}/blog/${post.slug}/`, priority: '0.7', lastmod: getBlogDateModified(post) });
   });
   for (let page = 2; page <= Math.ceil(blogPosts.length / 9); page++) {
     addUrl({ loc: `${BASE_URL}/blog/page/${page.toString().padStart(2, '0')}/`, priority: '0.5', lastmod: latestBlogDate() });

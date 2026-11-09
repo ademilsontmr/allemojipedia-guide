@@ -2,11 +2,15 @@ import { Helmet } from "react-helmet-async";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
-import { Calendar, Clock, ArrowLeft } from "lucide-react";
+import { Clock, ArrowLeft } from "lucide-react";
 import { getBlogPostSeoMeta } from "@/data/seoMeta";
 import { parseMarkdownTable } from "@/utils/blogMarkdownTables";
 import { resolveBlogFaqs } from "@/utils/resolveBlogFaqs";
 import { getRelatedBlogPosts } from "@/utils/relatedBlogPosts";
+import { EditorialSources } from "@/components/EditorialSources";
+import { BlogEditorialByline } from "@/components/BlogEditorialByline";
+import { editorialMeta } from "@/data/editorialMeta";
+import { getBlogDateModified, getBlogHeadings, getBlogToc, getBlogTopicLabel } from "@/utils/blogEat";
 
 // Helper function to render inline markdown (bold, italic, links)
 const renderInlineMarkdown = (text: string): React.ReactNode => {
@@ -198,11 +202,48 @@ const BlogPost = () => {
 
   // Get suggested posts
   const suggestedPosts = getRelatedBlogPosts(post, blogPosts);
+  const headings = getBlogHeadings(post.content);
+  const toc = getBlogToc({ ...post, faqs });
+  const dateModified = getBlogDateModified(post);
+  const canonical = `https://allemojipedia.com/blog/${post.slug}/`;
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    url: canonical,
+    datePublished: post.date,
+    dateModified,
+    image: "https://allemojipedia.com/og-image.png",
+    author: {
+      "@type": "Organization",
+      name: editorialMeta.teamName,
+      url: editorialMeta.teamUrl,
+      description: editorialMeta.teamBio,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: editorialMeta.siteName,
+      url: "https://allemojipedia.com/",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://allemojipedia.com/icon-512.png",
+      },
+    },
+    mainEntityOfPage: canonical,
+    citation: editorialMeta.sources.map((source) => ({
+      "@type": "CreativeWork",
+      name: source.name,
+      url: source.url,
+    })),
+  };
 
   // Process content into blocks
   const renderContent = () => {
     const result: React.ReactNode[] = [];
     let highlightNextTable = false;
+    let h2Index = 0;
 
     post.content.split("```").forEach((segment, s) => {
       if (s % 2 === 1) {
@@ -221,11 +262,17 @@ const BlogPost = () => {
         const tableRows = parseMarkdownTable(paragraph);
 
         // H2 Headers
-        if (paragraph.startsWith("## ")) {
+        if (paragraph.startsWith("## ") && !paragraph.startsWith("### ")) {
           const heading = paragraph.replace("## ", "");
           highlightNextTable = heading.toLowerCase().includes("quick answer");
+          const headingId = headings[h2Index]?.id;
+          h2Index += 1;
           result.push(
-            <h2 key={i} className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-foreground flex items-center gap-3 scroll-mt-24">
+            <h2
+              key={i}
+              id={headingId}
+              className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-foreground flex items-center gap-3 scroll-mt-24"
+            >
               <span className="w-1.5 h-10 bg-gradient-to-b from-primary to-primary/50 rounded-full flex-shrink-0" />
               <span className="leading-tight">{renderInlineMarkdown(heading)}</span>
             </h2>
@@ -335,35 +382,38 @@ const BlogPost = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         {post.keywords && <meta name="keywords" content={post.keywords} />}
-        <meta name="author" content="Allemojipedia Editorial Team" />
+        <meta name="author" content={editorialMeta.author} />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <link rel="canonical" href={`https://allemojipedia.com/blog/${post.slug}/`} />
+        <link rel="canonical" href={canonical} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />
-        <meta property="og:url" content={`https://allemojipedia.com/blog/${post.slug}/`} />
+        <meta property="og:url" content={canonical} />
         <meta property="og:type" content="article" />
-        {faqs.length > 0 && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                mainEntity: faqs.map((faq) => ({
-                  "@type": "Question",
-                  name: faq.question,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: faq.answer,
-                  },
-                })),
-              }),
-            }}
-          />
-        )}
+        <meta property="article:published_time" content={post.date} />
+        <meta property="article:modified_time" content={dateModified} />
       </Helmet>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
 
-      <article className="container-page py-8 max-w-3xl mx-auto">
+      <div className="container-page py-8 max-w-5xl mx-auto">
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
@@ -380,49 +430,48 @@ const BlogPost = () => {
           Back to Blog
         </Link>
 
-        {/* Hero Header */}
-        <header className="mb-16">
-          <div className="flex items-center gap-5 mb-8">
-            <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-primary/20 via-primary/10 to-primary/5 flex items-center justify-center text-6xl shadow-lg border border-primary/10">
-              {post.image}
-            </div>
-            <div className="flex flex-col gap-3">
-              <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                <span className="flex items-center gap-2 bg-muted/50 px-3 py-1.5 rounded-full">
-                  <Calendar className="h-4 w-4" />
-                  {new Date(post.date).toLocaleDateString("en-US", {
-                    month: "long",
-                    day: "numeric",
-                    year: "numeric",
-                  })}
-                </span>
-                <span className="flex items-center gap-2 bg-muted/50 px-3 py-1.5 rounded-full">
-                  <Clock className="h-4 w-4" />
-                  {post.readTime}
-                </span>
-              </div>
-            </div>
-          </div>
+        <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_16rem] lg:gap-12 lg:items-start">
+      <article>
+        <header className="mb-10">
+          <p className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-4">
+            <span>{getBlogTopicLabel(post)}</span>
+            <span className="flex items-center gap-1.5">
+              <Clock className="h-4 w-4" />
+              {post.readTime}
+            </span>
+          </p>
 
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-[1.2] tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-bold mb-8 leading-[1.2] tracking-tight">
             {post.title}
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground leading-[1.6] font-light">
+          <BlogEditorialByline post={post} />
+
+          <p className="mt-8 text-lg md:text-xl text-muted-foreground leading-[1.6]">
             {post.excerpt}
           </p>
-
-          <div className="mt-10 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         </header>
 
-        {/* Content */}
+        <nav aria-label="On this page" className="mb-10 rounded-xl border border-border p-4 lg:hidden">
+          <p className="font-semibold mb-3">On this page</p>
+          <ol className="space-y-2 text-sm">
+            {toc.map((item) => (
+              <li key={item.id}>
+                <a href={`#${item.id}`} className="text-muted-foreground hover:text-primary hover:underline">
+                  {item.text}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+
         <div className="prose-custom max-w-none">
           {renderContent()}
         </div>
 
         {faqs.length > 0 && (
-          <section className="mt-16" aria-labelledby="blog-faq-heading">
-            <h2 id="blog-faq-heading" className="text-2xl md:text-3xl font-bold mb-8">
+          <section className="mt-16" aria-labelledby="frequently-asked-questions">
+            <h2 id="frequently-asked-questions" className="text-2xl md:text-3xl font-bold mb-8 scroll-mt-24">
               Frequently asked questions
             </h2>
             <div className="space-y-4">
@@ -436,20 +485,24 @@ const BlogPost = () => {
           </section>
         )}
 
-        {/* Continue Reading */}
+        <div className="mt-16">
+          <EditorialSources
+            title="Sources"
+            intro="This guide is checked against Unicode emoji charts and CLDR annotations, then compared with how people use the symbols in texting and social apps. See our editorial process on the About page."
+            sources={editorialMeta.sources}
+          />
+        </div>
+
         <div className="mt-20 pt-12 border-t border-border">
-          <h2 className="text-2xl font-bold mb-8 flex items-center gap-3">
-            <span className="text-3xl">📚</span>
-            Continue Reading
-          </h2>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <h2 className="text-2xl font-bold mb-8">Continue Reading</h2>
+          <div className="grid gap-6 sm:grid-cols-2">
             {suggestedPosts.map((suggestedPost) => (
               <Link
                 key={suggestedPost.id}
                 to={`/blog/${suggestedPost.slug}/`}
                 className="group block rounded-2xl border border-border p-5 hover:border-primary/50 hover:shadow-xl transition-all duration-300 bg-card"
               >
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-14 h-14 rounded-xl bg-muted flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform duration-300">
                   {suggestedPost.image}
                 </div>
                 <h3 className="font-semibold line-clamp-2 mb-2 group-hover:text-primary transition-colors">
@@ -466,6 +519,28 @@ const BlogPost = () => {
           </div>
         </div>
       </article>
+
+        <aside className="hidden lg:block">
+          <nav aria-label="On this page" className="sticky top-24 rounded-xl border border-border bg-card p-5">
+            <p className="font-semibold mb-3">On this page</p>
+            <ol className="space-y-2 text-sm">
+              {toc.map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`} className="text-muted-foreground hover:text-primary hover:underline">
+                    {item.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-5 pt-4 border-t border-border text-sm">
+              <Link to="/about/" className="text-primary hover:underline">
+                Editorial process
+              </Link>
+            </p>
+          </nav>
+        </aside>
+        </div>
+      </div>
     </Layout>
   );
 };

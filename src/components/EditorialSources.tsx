@@ -16,7 +16,7 @@ export const EditorialSources = ({
   const further = sources.filter((s) => s.kind === "further-reading");
 
   return (
-    <section className="mb-8 p-5 rounded-xl bg-muted/30 border border-border">
+    <section id="sources" className="mb-8 p-5 rounded-xl bg-muted/30 border border-border scroll-mt-24">
       <h2 className="text-xl font-semibold mb-3">{title}</h2>
       <p className="text-muted-foreground mb-4">{intro}</p>
 

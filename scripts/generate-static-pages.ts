@@ -11,6 +11,14 @@ import { buildEmojiStaticArticleHtml, getDeterministicCategoryEmojis } from '../
 import { getBlogPostSeoMeta, getCategorySeoMeta, getClusterSeoMeta, getComparisonSeoMeta, getContextSeoMeta, getEmojiSeoMeta, getMainPageSeo, getPeopleSubSeoMeta } from '../src/data/seoMeta';
 import { parseMarkdownTable, renderMarkdownTableHtml } from '../src/utils/blogMarkdownTables';
 import { getRelatedBlogPosts } from '../src/utils/relatedBlogPosts';
+import {
+  formatBlogDate,
+  getBlogDateModified,
+  getBlogHeadings,
+  getBlogToc,
+  getBlogTopicLabel,
+  getBlogUpdateNote,
+} from '../src/utils/blogEat';
 import { editorialMeta, getEmojiEditorialSources } from '../src/data/editorialMeta';
 import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiContextPages';
 import {
@@ -845,13 +853,20 @@ const emojiIntentClusterBody = (
   </article>
 `);
 
-const renderBlogBlock = (block: string) => {
+const createBlogBlockRenderer = (headingIds: string[]) => {
+  let h2Index = 0;
+  return (block: string) => {
     const tableRows = parseMarkdownTable(block);
     if (tableRows) {
       return renderMarkdownTableHtml(tableRows, renderInlineMarkdownHtml);
     }
 
-    if (block.startsWith('## ')) return `<h2>${escapeHtml(block.replace(/^## /, ''))}</h2>`;
+    if (block.startsWith('## ') && !block.startsWith('### ')) {
+      const heading = block.replace(/^## /, '');
+      const headingId = headingIds[h2Index++];
+      const idAttr = headingId ? ` id="${escapeHtml(headingId)}"` : '';
+      return `<h2${idAttr}>${escapeHtml(heading.replace(/\*\*/g, ''))}</h2>`;
+    }
     if (block.startsWith('### ')) return `<h3>${escapeHtml(block.replace(/^### /, ''))}</h3>`;
     if (block.startsWith('- ')) {
       const items = block
@@ -870,11 +885,13 @@ const renderBlogBlock = (block: string) => {
     }
 
     return `<p>${renderInlineMarkdownHtml(block)}</p>`;
+  };
 };
 
 /** Code fences hold sample bios with fake e-mails; email_off stops Cloudflare from rewriting them into /cdn-cgi/ links. */
-const renderBlogContent = (markdown: string) =>
-  markdown
+const renderBlogContent = (markdown: string) => {
+  const renderBlogBlock = createBlogBlockRenderer(getBlogHeadings(markdown).map((heading) => heading.id));
+  return markdown
     .split('```')
     .map((segment, index) =>
       index % 2
@@ -887,6 +904,34 @@ const renderBlogContent = (markdown: string) =>
             .join('\n')
     )
     .join('\n');
+};
+
+const blogEatHtml = (
+  post: (typeof blogPosts)[number],
+  faqs: Array<{ question: string; answer: string }>
+) => {
+  const published = formatBlogDate(post.date);
+  const modified = getBlogDateModified(post);
+  const updated = formatBlogDate(modified);
+  const toc = getBlogToc({ ...post, faqs });
+  const showUpdated = modified !== post.date;
+
+  return `
+      <p>${escapeHtml(getBlogTopicLabel(post))} · ${escapeHtml(post.readTime)}</p>
+      <aside>
+        <p><a href="/about/"><strong>${escapeHtml(editorialMeta.teamName)}</strong></a></p>
+        <p>Published ${escapeHtml(published)}${showUpdated ? ` · Updated ${escapeHtml(updated)}` : ''}</p>
+        <p>${escapeHtml(editorialMeta.teamRole)}</p>
+        <p>${escapeHtml(editorialMeta.teamBio)}</p>
+      </aside>
+      ${showUpdated ? `<p><strong>${escapeHtml(getBlogUpdateNote(post))}</strong></p>` : ''}
+      <nav aria-label="On this page">
+        <h2>On this page</h2>
+        <ol>
+          ${toc.map((item) => `<li><a href="#${escapeHtml(item.id)}">${escapeHtml(item.text)}</a></li>`).join('')}
+        </ol>
+      </nav>`;
+};
 
 const blogPostBody = (post: (typeof blogPosts)[number]) => {
   const content = renderBlogContent(post.content);
@@ -896,7 +941,7 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
   const faqHtml =
     blogFaqs.length
       ? `
-      <h2>Frequently asked questions</h2>
+      <h2 id="frequently-asked-questions">Frequently asked questions</h2>
       ${blogFaqs
         .map(
           (faq) => `
@@ -910,10 +955,16 @@ const blogPostBody = (post: (typeof blogPosts)[number]) => {
     <article>
       <nav><a href="/">Home</a> / <a href="/blog/">Blog</a></nav>
       <h1>${escapeHtml(post.title)}</h1>
+      ${blogEatHtml(post, blogFaqs)}
       <p><strong>${escapeHtml(post.excerpt)}</strong></p>
-      <p>${escapeHtml(post.date)} • ${escapeHtml(post.readTime)}</p>
       ${content}
       ${faqHtml}
+      ${renderEditorialSourcesHtml(editorialMeta.sources, escapeHtml, {
+        id: 'sources',
+        title: 'Sources',
+        intro:
+          'This guide is checked against Unicode emoji charts and CLDR annotations, then compared with how people use the symbols in texting and social apps. See our editorial process on the About page.',
+      })}
       <h2>Related emoji guides</h2>
       ${renderLinks(relatedPosts.map((related) => ({ href: `/blog/${related.slug}/`, label: related.title })))}
     </article>
@@ -1547,18 +1598,29 @@ const blogPostStructuredData = (post: (typeof blogPosts)[number]): StructuredDat
       description: compactText(post.excerpt),
       url: canonicalUrl(`/blog/${post.slug}/`),
       datePublished: post.date,
-      dateModified: post.date,
+      dateModified: getBlogDateModified(post),
+      image: `${BASE_URL}/og-image.png`,
       author: {
         '@type': 'Organization',
-        name: 'Allemojipedia',
-        url: `${BASE_URL}/about/`,
+        name: editorialMeta.teamName,
+        url: editorialMeta.teamUrl,
+        description: editorialMeta.teamBio,
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Allemojipedia',
+        name: editorialMeta.siteName,
         url: `${BASE_URL}/`,
+        logo: {
+          '@type': 'ImageObject',
+          url: `${BASE_URL}/icon-512.png`,
+        },
       },
       mainEntityOfPage: canonicalUrl(`/blog/${post.slug}/`),
+      citation: editorialMeta.sources.map((source) => ({
+        '@type': 'CreativeWork',
+        name: source.name,
+        url: source.url,
+      })),
     },
     breadcrumbSchema([
       { name: 'Home', url: `${BASE_URL}/` },

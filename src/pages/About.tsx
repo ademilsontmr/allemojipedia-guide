@@ -46,10 +46,11 @@ const About = () => {
 
           <section className="space-y-4">
             <h2 className="text-xl font-semibold">Editorial Process</h2>
+            <p className="text-muted-foreground">{editorialMeta.teamBio}</p>
             <p className="text-muted-foreground">
-              Meanings are reviewed by the {editorialMeta.teamName}. For each emoji we start with the official Unicode
-              name and code point, cross-check CLDR short names and annotations, then document how people actually use the
-              symbol in texting, dating chats, workplaces, and social feeds.
+              For each emoji we start with the official Unicode name and code point, cross-check CLDR short names and
+              annotations, then document how people actually use the symbol in texting, dating chats, workplaces, and
+              social feeds.
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
               <li>Primary source: Unicode emoji charts and character data</li>

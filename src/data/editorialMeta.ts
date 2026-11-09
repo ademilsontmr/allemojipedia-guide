@@ -10,12 +10,19 @@ export type EditorialSource = {
 export const editorialMeta = {
   siteName: "Allemojipedia",
   teamName: "Allemojipedia Editorial Team",
+  teamInitials: "AE",
+  teamRole: "Editorial Team",
+  teamUrl: "https://allemojipedia.com/about/",
+  teamBio:
+    "The Allemojipedia editorial team researches emoji meanings, Unicode names, CLDR annotations, and how people actually use symbols in texting, WhatsApp, Instagram, and TikTok. Guides are checked against Unicode and CLDR, then verified against current usage before publication.",
   /** HTML meta author — matches emoji detail pages */
   author: "Allemojipedia Editorial Team",
   /** HTML meta publisher */
   publisher: "Allemojipedia",
   lastUpdated: "September 28, 2026",
   lastUpdatedIso: "2026-09-28",
+  /** Date the blog template gained visible E-E-A-T bylines, sources, and review notes. */
+  blogReviewedIso: "2026-11-09",
   /** Last change to the shared emoji page template (links, related emojis, schema). */
   emojiTemplateUpdatedIso: "2026-10-31",
   /** Last change to home, category and people hub listings. */
