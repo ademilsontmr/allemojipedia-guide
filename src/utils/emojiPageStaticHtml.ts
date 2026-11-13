@@ -120,14 +120,7 @@ export const buildEmojiStaticArticleHtml = ({
           ? `
       <section>
         <h2>Meaning by sender and platform</h2>
-        <p>These guides explain how ${escapeHtml(emoji.unicode)} can change meaning depending on who sends it and where it appears.</p>
-        ${linkList(
-          contextPages.map((page) => ({
-            href: `/emoji/${emoji.slug}/${page.context}/`,
-            label: page.shortTitle,
-            description: page.description,
-          }))
-        )}
+        <p>These guides explain how ${escapeHtml(emoji.unicode)} can change meaning depending on who sends it and where it appears — from a girl, from a guy, on WhatsApp, Instagram, and TikTok. Open the live page to browse sender and platform tone for this emoji.</p>
       </section>
       `
           : ""

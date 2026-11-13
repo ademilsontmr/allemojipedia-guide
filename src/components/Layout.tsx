@@ -194,7 +194,6 @@ export const Footer = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
             <li><Link to="/emoji-comparisons" className="hover:text-foreground">Emoji Comparisons</Link></li>
             <li><Link to="/flag-quiz" className="hover:text-foreground">Flag Quiz</Link></li>
             <li><Link to="/blog" className="hover:text-foreground">Blog</Link></li>
-            <li><Link to="/sitemap" className="hover:text-foreground">Sitemap</Link></li>
             <li><Link to="/about" className="hover:text-foreground">About Us</Link></li>
             <li><Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>
             <li><Link to="/contact" className="hover:text-foreground">Contact</Link></li>

@@ -8,7 +8,7 @@ import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
-import { getEmojiRobots, getEmojiSlugRobots } from "@/utils/seoPolicy";
+import { getEmojiRobots, getEmojiSlugRobots, shouldIndexEmojiContext } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
 import { getTopEmojiEditorial } from "@/data/topEmojiEditorial";
@@ -22,11 +22,58 @@ import {
 } from "@/utils/emojiUniqueContent";
 import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
 import { EditorialSources } from "@/components/EditorialSources";
-import { getEmojiContextPagesForEmoji } from "@/data/emojiContextPages";
+import { getEmojiContextPagesForEmoji, type EmojiContextPage } from "@/data/emojiContextPages";
 import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 import { signalContentReady } from "@/utils/seoStaticPreserve";
 import { InlineMarkdown } from "@/components/InlineMarkdown";
 import { getDeterministicCategoryEmojis } from "@/utils/emojiPageStaticHtml";
+
+const SenderPlatformGuides = ({
+  emoji,
+  contextPages,
+}: {
+  emoji: Emoji;
+  contextPages: EmojiContextPage[];
+}) => {
+  const [showGuides, setShowGuides] = useState(false);
+  const crawlablePages = contextPages.filter((page) => shouldIndexEmojiContext(emoji.slug, page.context));
+  const visiblePages = crawlablePages.length > 0 || showGuides ? (crawlablePages.length > 0 ? crawlablePages : contextPages) : [];
+
+  return (
+    <section className="mb-8">
+      <h2 className="text-2xl font-semibold mb-4">Meaning by sender and platform</h2>
+      <p className="text-muted-foreground mb-4">
+        These guides explain how <span className="emoji">{emoji.unicode}</span> can change meaning depending on who sends it and where it appears.{" "}
+        <Link to="/emoji-meanings-in-texting/" className="text-primary hover:underline">
+          Browse emoji meanings in texting
+        </Link>
+        .
+      </p>
+      {visiblePages.length > 0 ? (
+        <div className="grid gap-3 sm:grid-cols-2">
+          {visiblePages.map((page) => (
+            <Link
+              key={page.context}
+              to={`/emoji/${emoji.slug}/${page.context}/`}
+              className="rounded-lg border border-border bg-muted/30 p-4 hover:border-primary/40 transition-colors"
+            >
+              <h3 className="font-semibold mb-1">{page.shortTitle}</h3>
+              <p className="text-sm text-muted-foreground">{page.description}</p>
+            </Link>
+          ))}
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setShowGuides(true)}
+          className="px-5 py-2.5 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 font-medium"
+        >
+          Show sender and platform guides
+        </button>
+      )}
+    </section>
+  );
+};
 
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -216,28 +263,7 @@ const EmojiDetail = () => {
           )}
 
           {contextPages.length > 0 && (
-            <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Meaning by sender and platform</h2>
-              <p className="text-muted-foreground mb-4">
-                These guides explain how <span className="emoji">{emoji.unicode}</span> can change meaning depending on who sends it and where it appears.{" "}
-                <Link to="/emoji-meanings-in-texting/" className="text-primary hover:underline">
-                  Browse all texting context guides
-                </Link>
-                .
-              </p>
-              <div className="grid gap-3 sm:grid-cols-2">
-                {contextPages.map(page => (
-                  <Link
-                    key={page.context}
-                    to={`/emoji/${emoji.slug}/${page.context}/`}
-                    className="rounded-lg border border-border bg-muted/30 p-4 hover:border-primary/40 transition-colors"
-                  >
-                    <h3 className="font-semibold mb-1">{page.shortTitle}</h3>
-                    <p className="text-sm text-muted-foreground">{page.description}</p>
-                  </Link>
-                ))}
-              </div>
-            </section>
+            <SenderPlatformGuides emoji={emoji} contextPages={contextPages} />
           )}
 
           {editorial && (

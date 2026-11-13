@@ -92,10 +92,10 @@ const TikTokEmojisPage = () => {
                     <p className="font-semibold truncate">{item.label}</p>
                     <p className="text-sm text-muted-foreground line-clamp-2">{item.tiktokMeaning}</p>
                     <Link
-                      to={`/emoji/${item.slug}/tiktok/`}
+                      to={`/emoji/${item.slug}/`}
                       className="text-xs text-primary hover:underline mt-1 inline-block"
                     >
-                      TikTok meaning →
+                      Emoji meaning →
                     </Link>
                   </div>
                   <CopyEmojiButton unicode={item.unicode} label={item.label} />

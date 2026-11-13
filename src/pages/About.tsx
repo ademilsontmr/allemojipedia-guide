@@ -96,7 +96,7 @@ const About = () => {
             <p className="text-muted-foreground">
               Browse 3,700+ emoji pages with meanings and examples,{" "}
               <Link to="/emoji-meanings-in-texting/" className="text-primary hover:underline">
-                250 texting context guides
+                emoji meanings in texting
               </Link>
               , platform hubs for iPhone / Android / Samsung, emoji combos, and comparisons.
             </p>

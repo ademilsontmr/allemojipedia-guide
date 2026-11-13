@@ -4,12 +4,11 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { categories, peopleSubcategories } from "@/data/categories";
 import { blogPosts } from "@/data/blogPosts";
 import { emojiIntentClusters } from "@/data/emojiIntentClusters";
-import { emojiContextPages } from "@/data/emojiContextPages";
 import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import { NOINDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
+import { isPriorityEmojiSlug, NOINDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -93,19 +92,6 @@ const Sitemap = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-4">Emoji Context Guides</h2>
-          <ul className="space-y-2">
-            {emojiContextPages.map(page => (
-              <li key={`${page.emojiSlug}-${page.context}`}>
-                <Link to={`/emoji/${page.emojiSlug}/${page.context}/`} className="text-primary hover:underline">
-                  {page.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mb-10">
           <h2 className="text-xl font-semibold mb-4">Categories</h2>
           <ul className="space-y-2">
             {categories.map(cat => (
@@ -151,7 +137,9 @@ const Sitemap = () => {
             <p className="text-muted-foreground">Loading emojis…</p>
           ) : (
             <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
-              {[...emojis].sort((a, b) => a.name.localeCompare(b.name)).map(e => (
+              {[...emojis]
+                .filter((e) => isPriorityEmojiSlug(e.slug))
+                .sort((a, b) => a.name.localeCompare(b.name)).map(e => (
                 <Link key={e.slug} to={`/emoji/${e.slug}/`} className="text-sm text-primary hover:underline py-1">
                   {e.unicode} {e.name}
                 </Link>

@@ -32,7 +32,7 @@ const EmojiMeanings = () => {
             to="/emoji-meanings-in-texting/"
             className="inline-flex items-center text-primary font-medium hover:underline"
           >
-            Browse all 250 texting context guides (from a girl, guy, WhatsApp, Instagram, TikTok) →
+            Browse emoji meanings in texting (from a girl, guy, WhatsApp, Instagram, TikTok) →
           </Link>
         </header>
 

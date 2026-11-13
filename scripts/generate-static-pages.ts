@@ -24,7 +24,7 @@ import { emojiContextPages, type EmojiContextPage } from '../src/data/emojiConte
 import {
   emojiContextHubMeta,
   emojiContextHubPath,
-  getContextHubPageCount,
+  getContextHubPrioritySlugs,
   getContextHubSections,
 } from '../src/data/emojiContextHub';
 import { buildContextPageFaqs, buildContextPageStructuredData } from '../src/utils/emojiContextFaqSchema';
@@ -203,7 +203,7 @@ const staticShell = (content: string) => `
     ${content}
   </main>
   <footer style="max-width: 960px; margin: 0 auto; padding: 0 20px 32px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #555;">
-    <p>© ${new Date().getFullYear()} Allemojipedia · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap/">Sitemap</a></p>
+    <p>© ${new Date().getFullYear()} Allemojipedia · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a></p>
   </footer>
 `;
 
@@ -258,42 +258,31 @@ const emojiContextPageBody = (emoji: Emoji, page: EmojiContextPage) => {
 
 const emojiContextHubBody = (emojiBySlug: Map<string, Emoji>) => {
   const sections = getContextHubSections();
+  const priorityLinks = getContextHubPrioritySlugs()
+    .map((slug) => emojiBySlug.get(slug))
+    .filter((emoji): emoji is Emoji => Boolean(emoji))
+    .map((emoji) => ({
+      href: `/emoji/${emoji.slug}/`,
+      label: `${emoji.unicode} ${emoji.name}`,
+      description: emoji.shortMeaning,
+    }));
 
   return staticShell(`
   <article>
     <nav><a href="/">Home</a> / <a href="/emoji-meanings/">Emoji Meanings</a></nav>
     <h1>${escapeHtml(emojiContextHubMeta.title)}</h1>
     <p>${escapeHtml(emojiContextHubMeta.description)}</p>
-    <p>${getContextHubPageCount()} guides across the top searched emojis — organized by sender and platform.</p>
-    <nav aria-label="Context sections">
-      <ul>
-        ${sections
-          .map(
-            (section) =>
-              `<li><a href="#${escapeHtml(section.anchor)}">${escapeHtml(section.title)} (${section.pages.length})</a></li>`
-          )
-          .join('')}
-      </ul>
-    </nav>
+    <p>Start with the full meaning page for each popular emoji. Sender and platform tone is explained there and in the sections below.</p>
+    <h2>Most searched emoji meanings</h2>
+    ${renderLinks(priorityLinks)}
     ${sections
-      .map((section) => {
-        const links = section.pages
-          .map((page) => {
-            const emoji = emojiBySlug.get(page.emojiSlug);
-            const label = emoji
-              ? `${emoji.unicode} ${emoji.name}`
-              : page.title.replace(/ Emoji Meaning.*/i, '');
-            return `<li><a href="/emoji/${escapeHtml(page.emojiSlug)}/${escapeHtml(page.context)}/">${escapeHtml(label)} — ${escapeHtml(page.shortTitle)}</a></li>`;
-          })
-          .join('');
-
-        return `
+      .map(
+        (section) => `
       <section id="${escapeHtml(section.anchor)}">
         <h2>${escapeHtml(section.title)}</h2>
         <p>${escapeHtml(section.description)}</p>
-        <ul>${links}</ul>
-      </section>`;
-      })
+      </section>`
+      )
       .join('')}
     <p><a href="/emoji-meanings/">Browse all emoji meaning clusters</a></p>
   </article>
@@ -739,13 +728,15 @@ const peopleHubStructuredData = (): StructuredData[] => [
 ];
 
 const sitemapBody = (allEmojis: Emoji[]) => {
-  const sortedEmojis = [...allEmojis].sort((a, b) => a.name.localeCompare(b.name));
+  const indexableEmojis = [...allEmojis]
+    .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   return staticShell(`
   <article>
     <nav><a href="/">Home</a> / Sitemap</nav>
     <h1>Sitemap</h1>
-    <p>${allEmojis.length} emoji pages and ${blogPosts.length} articles in the XML sitemap.</p>
+    <p>${indexableEmojis.length} emoji pages and ${blogPosts.length} articles in the XML sitemap.</p>
     <p><a href="/sitemap.xml">Download sitemap.xml</a></p>
     <h2>Main Pages</h2>
     <ul>
@@ -754,7 +745,11 @@ const sitemapBody = (allEmojis: Emoji[]) => {
       <li><a href="/people/">People Hub</a></li>
       <li><a href="/blog/">Blog</a></li>
       <li><a href="/emoji-meanings/">Emoji Meanings Hub</a></li>
+      <li><a href="/emoji-meanings-in-texting/">Emoji Meanings in Texting</a></li>
       <li><a href="/emoji-comparisons/">Emoji Comparisons</a></li>
+      <li><a href="/emoji-combos/">Emoji Combos</a></li>
+      <li><a href="/tiktok-emojis/">TikTok Emojis</a></li>
+      <li><a href="/emoji-copy-and-paste/">Emoji Copy and Paste</a></li>
       <li><a href="/flag-quiz/">Flag Quiz</a></li>
       <li><a href="/about/">About</a></li>
       <li><a href="/privacy/">Privacy Policy</a></li>
@@ -766,15 +761,6 @@ const sitemapBody = (allEmojis: Emoji[]) => {
         .map(
           (cluster) =>
             `<li><a href="/emoji-meanings/${escapeHtml(cluster.slug)}/">${escapeHtml(cluster.shortTitle)}</a></li>`
-        )
-        .join('')}
-    </ul>
-    <h2>Emoji Context Guides</h2>
-    <ul>
-      ${emojiContextPages
-        .map(
-          (page) =>
-            `<li><a href="/emoji/${escapeHtml(page.emojiSlug)}/${escapeHtml(page.context)}/">${escapeHtml(page.title)}</a></li>`
         )
         .join('')}
     </ul>
@@ -807,7 +793,7 @@ const sitemapBody = (allEmojis: Emoji[]) => {
     </ul>
     <h2>Emoji Pages (A–Z)</h2>
     <ul>
-      ${sortedEmojis
+      ${indexableEmojis
         .map(
           (emoji) =>
             `<li><a href="/emoji/${escapeHtml(emoji.slug)}/">${escapeHtml(`${emoji.unicode} ${emoji.name}`)}</a></li>`
@@ -822,7 +808,7 @@ const emojiMeaningsHubBody = () => staticShell(`
   <article>
     <h1>Emoji Meanings by Intent</h1>
     <p>Explore emoji meanings by the situation behind the message: love, texting tone, Gen Z slang, flags, and workplace communication.</p>
-    <p><a href="${escapeHtml(emojiContextHubPath)}">Browse all ${getContextHubPageCount()} texting context guides</a> — from a girl, from a guy, WhatsApp, Instagram, and TikTok.</p>
+    <p><a href="${escapeHtml(emojiContextHubPath)}">Browse emoji meanings in texting</a> — from a girl, from a guy, WhatsApp, Instagram, and TikTok.</p>
     ${renderLinks(emojiIntentClusters.map((cluster) => ({
       href: `/emoji-meanings/${cluster.slug}/`,
       label: cluster.shortTitle,
@@ -1287,7 +1273,7 @@ const tiktokEmojisBody = () =>
     <p>Copy each emoji, then open the TikTok meaning guide for comment tone.</p>
     ${renderLinks(
       tiktokFeaturedEmojis.map((item) => ({
-        href: `/emoji/${item.slug}/tiktok/`,
+        href: `/emoji/${item.slug}/`,
         label: `${item.unicode} ${item.label}`,
         description: item.tiktokMeaning,
       }))
@@ -1844,7 +1830,6 @@ const generateStaticPages = () => {
   // Texting context hub — internal linking for all context pages
   console.log('Generating emoji context hub page...');
   const contextHubSeo = getMainPageSeo(emojiContextHubPath);
-  const hubSections = getContextHubSections();
   writeStaticPage(
     template,
     emojiContextHubPath,
@@ -1861,14 +1846,7 @@ const generateStaticPages = () => {
         name: contextHubSeo.ogTitle ?? emojiContextHubMeta.title,
         description: contextHubSeo.description,
         url: canonicalUrl(emojiContextHubPath),
-        numberOfItems: getContextHubPageCount(),
-        hasPart: hubSections.flatMap((section) =>
-          section.pages.map((page) => ({
-            '@type': 'Article',
-            name: page.title,
-            url: canonicalUrl(`/emoji/${page.emojiSlug}/${page.context}/`),
-          }))
-        ),
+        numberOfItems: getContextHubPrioritySlugs().length,
       },
       breadcrumbSchema([
         { name: 'Home', url: `${BASE_URL}/` },
@@ -1998,7 +1976,9 @@ const generateStaticPages = () => {
           description: post.excerpt,
         })),
         blogPaginationHtml(page, totalBlogPages)
-      )
+      ),
+      'website',
+      NOINDEX_FOLLOW_ROBOTS
     );
     count++;
   }
@@ -2319,7 +2299,7 @@ const generateStaticPages = () => {
     })}
     <h2>Who creates emojis?</h2>
     <p>New emoji are proposed to and encoded by the <a href="https://unicode.org/emoji/proposals.html" target="_blank">Unicode Consortium</a>. Vendors such as Apple, Google (Noto Color Emoji), Samsung, and Microsoft design how each character looks. For vendor artwork history, see also <a href="https://emojipedia.org/" target="_blank" rel="noopener">Emojipedia</a>.</p>
-    <p><a href="/emoji-meanings-in-texting/">Browse 250 texting context guides</a> · <a href="/contact/">Contact</a></p>
+    <p><a href="/emoji-meanings-in-texting/">Browse emoji meanings in texting</a> · <a href="/contact/">Contact</a></p>
   </article>
 `)
   );

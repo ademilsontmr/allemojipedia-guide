@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import { Calendar, Clock } from "lucide-react";
 import BlogPagination from "@/components/BlogPagination";
+import { NOINDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const POSTS_PER_PAGE = 9;
 
@@ -46,6 +47,7 @@ const BlogPage = () => {
           name="description"
           content={`Browse emoji articles, tips, and guides - Page ${pageNumber} of ${totalPages}`}
         />
+        <meta name="robots" content={NOINDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href={`https://allemojipedia.com/blog/page/${formatPageNumber(pageNumber)}/`} />
       </Helmet>
 

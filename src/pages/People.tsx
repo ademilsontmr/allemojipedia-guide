@@ -5,6 +5,7 @@ import { EmojiCard } from "@/components/EmojiCard";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import { getMainPageSeo } from "@/data/seoMeta";
+import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -20,7 +21,12 @@ const People = () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setPeopleEmojis(emojisModule.getEmojisByCategory("people-and-body").slice(0, 12));
+      setPeopleEmojis(
+        emojisModule
+          .getEmojisByCategory("people-and-body")
+          .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
+          .slice(0, 12)
+      );
       setIsEmojiDataLoaded(true);
     };
 

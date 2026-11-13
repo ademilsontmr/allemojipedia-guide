@@ -22,7 +22,7 @@ export const mainPagesSeo: Record<string, PageSeoMeta> = {
   "/emoji-meanings-in-texting/": {
     title: `Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok | ${BRAND}`,
     description:
-      "Browse 250 emoji guides for texting: what emojis mean from a girl, from a guy, on WhatsApp, Instagram, and TikTok. Real examples and tone signals.",
+      "How top-searched emoji meanings change in texting: from a girl, from a guy, on WhatsApp, Instagram, and TikTok. Real examples and tone signals.",
     ogTitle: "Emoji Meanings in Texting — Girl, Guy, WhatsApp, Instagram & TikTok",
   },
   "/categories/": {

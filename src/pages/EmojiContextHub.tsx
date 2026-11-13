@@ -7,17 +7,20 @@ import type { Emoji } from "@/data/emojis";
 import {
   emojiContextHubMeta,
   emojiContextHubPath,
-  getContextHubPageCount,
+  getContextHubPrioritySlugs,
   getContextHubSections,
 } from "@/data/emojiContextHub";
 import { getMainPageSeo } from "@/data/seoMeta";
+import { shouldIndexEmojiContext } from "@/utils/seoPolicy";
 
 const BASE_URL = "https://allemojipedia.com";
 
 const EmojiContextHub = () => {
   const seo = getMainPageSeo(emojiContextHubPath);
   const sections = useMemo(() => getContextHubSections(), []);
+  const prioritySlugs = useMemo(() => getContextHubPrioritySlugs(), []);
   const [emojiBySlug, setEmojiBySlug] = useState<Record<string, Emoji>>({});
+  const [openContext, setOpenContext] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -26,6 +29,10 @@ const EmojiContextHub = () => {
       .then((cache) => {
         if (cancelled) return;
         const map: Record<string, Emoji> = {};
+        for (const slug of prioritySlugs) {
+          const emoji = cache.getEmojiBySlug(slug);
+          if (emoji) map[slug] = emoji as Emoji;
+        }
         for (const section of sections) {
           for (const page of section.pages) {
             if (!map[page.emojiSlug]) {
@@ -43,7 +50,7 @@ const EmojiContextHub = () => {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [prioritySlugs, sections]);
 
   const collectionSchema = {
     "@context": "https://schema.org",
@@ -51,14 +58,7 @@ const EmojiContextHub = () => {
     name: seo.ogTitle ?? emojiContextHubMeta.title,
     description: seo.description,
     url: `${BASE_URL}${emojiContextHubPath}`,
-    numberOfItems: getContextHubPageCount(),
-    hasPart: sections.flatMap((section) =>
-      section.pages.map((page) => ({
-        "@type": "Article",
-        name: page.title,
-        url: `${BASE_URL}/emoji/${page.emojiSlug}/${page.context}/`,
-      }))
-    ),
+    numberOfItems: prioritySlugs.length,
   };
 
   return (
@@ -88,9 +88,33 @@ const EmojiContextHub = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">{emojiContextHubMeta.title}</h1>
           <p className="text-lg text-muted-foreground mb-4">{emojiContextHubMeta.description}</p>
           <p className="text-sm text-muted-foreground">
-            {getContextHubPageCount()} guides across the top searched emojis — organized by sender and platform.
+            Start with the full meaning page. Sender and platform tone is explained in the sections below.
           </p>
         </header>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-5">Most searched emoji meanings</h2>
+          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {prioritySlugs.map((slug) => {
+              const emoji = emojiBySlug[slug];
+              const label = emoji ? `${emoji.unicode} ${emoji.name}` : slug;
+
+              return (
+                <li key={slug}>
+                  <Link
+                    to={`/emoji/${slug}/`}
+                    className="block rounded-lg border border-border bg-card px-4 py-3 text-sm hover:border-primary/40 transition-colors"
+                  >
+                    <span className="font-medium">{label}</span>
+                    {emoji?.shortMeaning ? (
+                      <span className="text-muted-foreground"> — {emoji.shortMeaning}</span>
+                    ) : null}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
 
         <nav className="mb-10 flex flex-wrap gap-2" aria-label="Context sections">
           {sections.map((section) => (
@@ -99,37 +123,75 @@ const EmojiContextHub = () => {
               href={`#${section.anchor}`}
               className="rounded-full border border-border bg-muted/30 px-4 py-2 text-sm font-medium hover:border-primary/40 transition-colors"
             >
-              {section.title} ({section.pages.length})
+              {section.title}
             </a>
           ))}
         </nav>
 
-        {sections.map((section) => (
-          <section key={section.context} id={section.anchor} className="mb-12 scroll-mt-24">
-            <h2 className="text-2xl font-semibold mb-2">{section.title}</h2>
-            <p className="text-muted-foreground mb-5 max-w-3xl">{section.description}</p>
-            <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {section.pages.map((page) => {
-                const emoji = emojiBySlug[page.emojiSlug];
-                const label = emoji
-                  ? `${emoji.unicode} ${emoji.name}`
-                  : page.title.replace(/ Emoji Meaning.*/i, "");
+        {sections.map((section) => {
+          const crawlablePages = section.pages.filter((page) =>
+            shouldIndexEmojiContext(page.emojiSlug, page.context)
+          );
+          const isOpen = openContext === section.context;
 
-                return (
-                  <li key={`${page.emojiSlug}-${page.context}`}>
-                    <Link
-                      to={`/emoji/${page.emojiSlug}/${page.context}/`}
-                      className="block rounded-lg border border-border bg-card px-4 py-3 text-sm hover:border-primary/40 transition-colors"
-                    >
-                      <span className="font-medium">{label}</span>
-                      <span className="text-muted-foreground"> — {page.shortTitle}</span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
-        ))}
+          return (
+            <section key={section.context} id={section.anchor} className="mb-12 scroll-mt-24">
+              <h2 className="text-2xl font-semibold mb-2">{section.title}</h2>
+              <p className="text-muted-foreground mb-5 max-w-3xl">{section.description}</p>
+              {crawlablePages.length > 0 ? (
+                <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                  {crawlablePages.map((page) => {
+                    const emoji = emojiBySlug[page.emojiSlug];
+                    const label = emoji
+                      ? `${emoji.unicode} ${emoji.name}`
+                      : page.title.replace(/ Emoji Meaning.*/i, "");
+
+                    return (
+                      <li key={`${page.emojiSlug}-${page.context}`}>
+                        <Link
+                          to={`/emoji/${page.emojiSlug}/${page.context}/`}
+                          className="block rounded-lg border border-border bg-card px-4 py-3 text-sm hover:border-primary/40 transition-colors"
+                        >
+                          <span className="font-medium">{label}</span>
+                          <span className="text-muted-foreground"> — {page.shortTitle}</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              ) : isOpen ? (
+                <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                  {section.pages.map((page) => {
+                    const emoji = emojiBySlug[page.emojiSlug];
+                    const label = emoji
+                      ? `${emoji.unicode} ${emoji.name}`
+                      : page.title.replace(/ Emoji Meaning.*/i, "");
+
+                    return (
+                      <li key={`${page.emojiSlug}-${page.context}`}>
+                        <Link
+                          to={`/emoji/${page.emojiSlug}/${page.context}/`}
+                          className="block rounded-lg border border-border bg-card px-4 py-3 text-sm hover:border-primary/40 transition-colors"
+                        >
+                          <span className="font-medium">{label}</span>
+                          <span className="text-muted-foreground"> — {page.shortTitle}</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setOpenContext(section.context)}
+                  className="px-5 py-2.5 rounded-lg border border-border hover:border-primary/50 hover:bg-muted/50 font-medium"
+                >
+                  Show {section.title.toLowerCase()} tone for {section.pages.length} emojis
+                </button>
+              )}
+            </section>
+          );
+        })}
 
         <section className="mt-8 rounded-xl border border-border bg-muted/20 p-5 max-w-3xl">
           <h2 className="text-lg font-semibold mb-2">More emoji meaning guides</h2>

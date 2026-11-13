@@ -1,6 +1,7 @@
 import type { EmojiContextPage, EmojiContextType } from "./emojiContextPages";
 import { emojiContextPages, getContextLabel } from "./emojiContextPages";
 import { topSearchEmojiSlugs } from "./topSearchEmojiSlugs";
+import { isPriorityEmojiSlug } from "../utils/seoPolicy";
 
 export const emojiContextHubPath = "/emoji-meanings-in-texting/";
 
@@ -8,7 +9,7 @@ export const emojiContextHubMeta = {
   title: "Emoji Meanings in Texting — From a Girl, Guy, WhatsApp, Instagram & TikTok",
   shortTitle: "Emoji Meanings in Texting",
   description:
-    "Browse 250 emoji meaning guides for texting and social media. See what emojis mean from a girl, from a guy, on WhatsApp, Instagram, and TikTok—with real examples.",
+    "See how top-searched emoji meanings change in texting: from a girl, from a guy, on WhatsApp, Instagram, and TikTok—with real examples.",
   keywords:
     "emoji meanings in texting, what does emoji mean from a girl, emoji meaning from a guy, whatsapp emoji meanings, instagram emoji meanings, tiktok emoji meanings",
 };
@@ -61,3 +62,15 @@ export const getContextHubSections = (): ContextHubSection[] =>
   }));
 
 export const getContextHubPageCount = () => emojiContextPages.length;
+
+/** Unique priority emoji slugs on the hub — crawlable links go here, not to noindex context URLs. */
+export const getContextHubPrioritySlugs = (): string[] => {
+  const seen = new Set<string>();
+  const slugs: string[] = [];
+  for (const page of emojiContextPages) {
+    if (seen.has(page.emojiSlug) || !isPriorityEmojiSlug(page.emojiSlug)) continue;
+    seen.add(page.emojiSlug);
+    slugs.push(page.emojiSlug);
+  }
+  return slugs;
+};
