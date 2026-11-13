@@ -174,7 +174,7 @@ const inferCoreMeaning = (emoji: Emoji, subject: string, profile: Partial<Semant
     case "objects":
       return `${subject} refers to the real-world object in shopping, work, hobby, and review conversations.`;
     case "symbols":
-      return `${subject} works as a visual sign for emphasis, direction, warnings, or shorthand inside a community.`;
+      return `${subject} is the Unicode sign named "${emoji.name}" — send ${emoji.unicode} when that exact label matches the message, not as generic decoration.`;
     case "smileys-and-emotion":
       return `${subject} adds facial expression and emotional tone to short messages.`;
     case "food-and-drink":

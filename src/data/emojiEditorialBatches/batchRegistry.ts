@@ -62,7 +62,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "06-symbols",
-    updatedIso: "2026-06-01",
+    updatedIso: "2026-11-13",
     name: "Symbols — premium generated",
     category: "symbols",
     emojiCount: 132,
@@ -80,7 +80,7 @@ export const editorialBatchRegistry: EditorialBatchMeta[] = [
   },
   {
     id: "08-flags",
-    updatedIso: "2026-06-01",
+    updatedIso: "2026-11-13",
     name: "Flags — premium generated",
     category: "flags",
     emojiCount: 126,

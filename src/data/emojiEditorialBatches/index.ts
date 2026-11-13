@@ -46,6 +46,7 @@ import { batch49IndexingStierWave3 } from "./batch49-indexing-stier-wave3";
 import { batch50HolidaySeasonStier } from "./batch50-holiday-season-stier";
 import { generateBatchEnrichment } from "./generators/generateForEmoji";
 import { inheritSkinToneEnrichment, resolveManualBaseForEmoji } from "./inheritSkinToneFromManual";
+import { isCloneEnrichment } from "@/utils/cloneEnrichment";
 
 const handWrittenBatches: Record<string, EmojiBatchEnrichment> = {
   ...batch00TopLaugh,
@@ -106,7 +107,7 @@ export { isThinContentEmoji } from "./generators/shared";
 /** Hand-written overrides (00–02, 10–13, 14–37), skin-tone inherit, plus premium for remaining thin pages. */
 export const getEmojiBatchEnrichment = (emoji: Emoji): EmojiBatchEnrichment | undefined => {
   const manual = handWrittenBatches[emoji.slug];
-  if (manual) return manual;
+  if (manual && !isCloneEnrichment(manual)) return manual;
 
   const inherited = skinToneInheritedCache.get(emoji.slug);
   if (inherited) return inherited;

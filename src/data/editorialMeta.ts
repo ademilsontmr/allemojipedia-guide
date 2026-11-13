@@ -19,12 +19,12 @@ export const editorialMeta = {
   author: "Allemojipedia Editorial Team",
   /** HTML meta publisher */
   publisher: "Allemojipedia",
-  lastUpdated: "September 28, 2026",
-  lastUpdatedIso: "2026-09-28",
+  lastUpdated: "November 13, 2026",
+  lastUpdatedIso: "2026-11-13",
   /** Date the blog template gained visible E-E-A-T bylines, sources, and review notes. */
   blogReviewedIso: "2026-11-09",
   /** Last change to the shared emoji page template (links, related emojis, schema). */
-  emojiTemplateUpdatedIso: "2026-10-31",
+  emojiTemplateUpdatedIso: "2026-11-13",
   /** Last change to home, category and people hub listings. */
   browseHubsUpdatedIso: "2026-10-31",
   methodologyUrl: "https://allemojipedia.com/about/",

@@ -27,6 +27,8 @@ import { getComparisonLinksForEmoji } from "@/utils/emojiComparisonsForPage";
 import { signalContentReady } from "@/utils/seoStaticPreserve";
 import { InlineMarkdown } from "@/components/InlineMarkdown";
 import { getDeterministicCategoryEmojis } from "@/utils/emojiPageStaticHtml";
+import { getEmojiPageHeadings } from "@/utils/emojiPageHeadings";
+import { getEmojiFactRows } from "@/utils/composeUniqueEmojiCopy";
 
 const SenderPlatformGuides = ({
   emoji,
@@ -206,6 +208,8 @@ const EmojiDetail = () => {
   const enrichedExamples = getEnrichedExamples(emoji);
   const contextBlocks = getUniqueContextBlocks(emoji);
   const whenNotToUse = getUniqueWhenNotToUse(emoji);
+  const headings = getEmojiPageHeadings(emoji);
+  const factRows = getEmojiFactRows(emoji);
   const sources = getEmojiEditorialSources(emoji);
   const structuredData = buildEmojiStructuredData(emoji, primaryRelated);
 
@@ -257,7 +261,7 @@ const EmojiDetail = () => {
 
           {editorial && (
             <section className="mb-8 p-5 rounded-xl bg-primary/5 border border-primary/20">
-              <h2 className="text-xl font-semibold mb-2">Quick answer</h2>
+              <h2 className="text-xl font-semibold mb-2">{headings.quick}</h2>
               <p className="text-foreground leading-relaxed"><InlineMarkdown text={editorial.snippetAnswer} /></p>
             </section>
           )}
@@ -268,7 +272,7 @@ const EmojiDetail = () => {
 
           {editorial && (
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">{emoji.unicode} meaning in texting and social media</h2>
+              <h2 className="text-2xl font-semibold mb-4">{headings.texting}</h2>
               <div className="space-y-4">
                 <div className="p-4 rounded-lg bg-muted/30">
                   <h3 className="text-lg font-medium mb-2">In texting</h3>
@@ -307,14 +311,14 @@ const EmojiDetail = () => {
           )}
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">What does the <span className="emoji">{emoji.unicode}</span> emoji mean?</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.meaning}</h2>
             {detailedParagraphs.map((p, i) => (
               <p key={i} className="mb-3 text-muted-foreground leading-relaxed"><InlineMarkdown text={p} /></p>
             ))}
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Meaning in different contexts</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.contexts}</h2>
             <div className="space-y-5">
               {contextBlocks.map((block) => (
                 <div key={block.title} className="p-4 rounded-lg bg-muted/30">
@@ -326,7 +330,7 @@ const EmojiDetail = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">How to use the <span className="emoji">{emoji.unicode}</span> emoji correctly</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.howTo}</h2>
             <p className="text-muted-foreground mb-4">
               The {emoji.name} emoji works best in these situations:
             </p>
@@ -336,7 +340,7 @@ const EmojiDetail = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Real message examples</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.examples}</h2>
             <p className="text-muted-foreground mb-4">
               These sample messages show how people actually use <span className="emoji">{emoji.unicode}</span> {emoji.name}:
             </p>
@@ -352,7 +356,7 @@ const EmojiDetail = () => {
 
           {/* H2 - Meaning by intent */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Meaning by intent</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.intent}</h2>
             <p className="text-muted-foreground mb-4">
               The <span className="emoji">{emoji.unicode}</span> {emoji.name} emoji can change tone depending on the message around it. In texting, it often helps clarify emotion; on social media, it can work as a fast reaction, caption signal, or community shorthand.
             </p>
@@ -374,7 +378,7 @@ const EmojiDetail = () => {
 
           {editorial && (
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Popular searches for {emoji.unicode}</h2>
+              <h2 className="text-2xl font-semibold mb-4">{headings.searches}</h2>
               <ul className="grid gap-2 sm:grid-cols-2 text-muted-foreground">
                 {editorial.searchIntents.map(intent => (
                   <li key={intent} className="rounded-lg bg-muted/30 p-3">{intent}</li>
@@ -384,7 +388,7 @@ const EmojiDetail = () => {
           )}
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">When NOT to use the <span className="emoji">{emoji.unicode}</span> emoji</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.whenNot}</h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               {whenNotToUse.map((item, i) => (
                 <li key={i}><InlineMarkdown text={item} /></li>
@@ -394,7 +398,7 @@ const EmojiDetail = () => {
 
           {/* H2 - Frequently asked questions */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Frequently asked questions</h2>
+            <h2 className="text-2xl font-semibold mb-4">{headings.faqs}</h2>
             <div className="space-y-4">
               {faqItems.map((item, i) => (
                 <div key={i} className="p-4 rounded-lg bg-muted/30">
@@ -405,6 +409,18 @@ const EmojiDetail = () => {
             </div>
           </section>
 
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">{headings.facts}</h2>
+            <dl className="grid gap-3 sm:grid-cols-2 text-muted-foreground">
+              {factRows.map((row) => (
+                <div key={row.label} className="rounded-lg bg-muted/30 p-3">
+                  <dt className="text-sm font-medium text-foreground">{row.label}</dt>
+                  <dd>{row.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+
           <EditorialSources
             sources={sources}
             intro={`This ${emoji.name} guide is reviewed by ${editorialMeta.teamName}. Meanings combine Unicode naming, CLDR annotations, platform designs (Apple / Google Noto), and common texting usage. Last updated ${editorialMeta.lastUpdated}.`}
@@ -413,7 +429,7 @@ const EmojiDetail = () => {
           {/* H2 - Related emojis */}
           {relatedEmojis.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Related emojis</h2>
+              <h2 className="text-2xl font-semibold mb-4">{headings.related}</h2>
               <p className="text-muted-foreground mb-4">
                 Here are some emojis that are similar or related to <span className="emoji">{emoji.unicode}</span> {emoji.name}:
               </p>

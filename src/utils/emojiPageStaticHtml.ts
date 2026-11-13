@@ -17,6 +17,8 @@ import {
 } from "@/utils/emojiUniqueContent";
 import { renderInlineLinksHtml } from "@/utils/inlineMarkdown";
 import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
+import { getEmojiPageHeadings } from "@/utils/emojiPageHeadings";
+import { getEmojiFactRows } from "@/utils/composeUniqueEmojiCopy";
 
 const escapeHtml = (value: string) =>
   value
@@ -76,6 +78,8 @@ export const buildEmojiStaticArticleHtml = ({
   const resolveEmoji = (slug: string) =>
     getEmojiBySlug?.(slug) ?? relatedEmojis.find((item) => item.slug === slug);
   const comparisonLinks = getComparisonLinksForEmoji(emoji.slug, resolveEmoji);
+  const headings = getEmojiPageHeadings(emoji);
+  const factRows = getEmojiFactRows(emoji);
   const primaryComparison = primaryRelated
     ? popularComparisons.find(
         ({ slug1, slug2 }) =>
@@ -111,7 +115,7 @@ export const buildEmojiStaticArticleHtml = ({
       </section>
 
       <section>
-        <h2>Quick answer</h2>
+        <h2>${escapeHtml(headings.quick)}</h2>
         <p>${rich(editorial.snippetAnswer)}</p>
       </section>
 
@@ -127,7 +131,7 @@ export const buildEmojiStaticArticleHtml = ({
       }
 
       <section>
-        <h2>${escapeHtml(`${emoji.unicode} meaning in texting and social media`)}</h2>
+        <h2>${escapeHtml(headings.texting)}</h2>
         <h3>In texting</h3>
         <p>${rich(editorial.textingMeaning)}</p>
         <h3>On social media</h3>
@@ -149,12 +153,12 @@ export const buildEmojiStaticArticleHtml = ({
       }
 
       <section>
-        <h2>What does the ${escapeHtml(emoji.unicode)} emoji mean?</h2>
+        <h2>${escapeHtml(headings.meaning)}</h2>
         ${detailedParagraphs.map((paragraph) => `<p>${rich(paragraph)}</p>`).join("")}
       </section>
 
       <section>
-        <h2>Meaning in different contexts</h2>
+        <h2>${escapeHtml(headings.contexts)}</h2>
         ${contextBlocks
           .map(
             (block) => `
@@ -166,13 +170,13 @@ export const buildEmojiStaticArticleHtml = ({
       </section>
 
       <section>
-        <h2>How to use the ${escapeHtml(emoji.unicode)} emoji correctly</h2>
+        <h2>${escapeHtml(headings.howTo)}</h2>
         <p>The ${escapeHtml(emoji.name)} emoji works best in these situations:</p>
         <ul>${emoji.usageContexts.map((context) => `<li>${escapeHtml(context)}</li>`).join("")}</ul>
       </section>
 
       <section>
-        <h2>Real message examples</h2>
+        <h2>${escapeHtml(headings.examples)}</h2>
         <p>These sample messages show how people actually use ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)}:</p>
         <ul>${examples
           .map(
@@ -183,7 +187,7 @@ export const buildEmojiStaticArticleHtml = ({
       </section>
 
       <section>
-        <h2>Meaning by intent</h2>
+        <h2>${escapeHtml(headings.intent)}</h2>
         <p>The ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)} emoji can change tone depending on the message around it. Browse these intent guides for related meanings:</p>
         ${
           intentClusters.length
@@ -199,17 +203,17 @@ export const buildEmojiStaticArticleHtml = ({
       </section>
 
       <section>
-        <h2>Popular searches for ${escapeHtml(emoji.unicode)}</h2>
+        <h2>${escapeHtml(headings.searches)}</h2>
         <ul>${editorial.searchIntents.map((intent) => `<li>${escapeHtml(intent)}</li>`).join("")}</ul>
       </section>
 
       <section>
-        <h2>When NOT to use the ${escapeHtml(emoji.unicode)} emoji</h2>
+        <h2>${escapeHtml(headings.whenNot)}</h2>
         <ul>${whenNotToUse.map((item) => `<li>${rich(item)}</li>`).join("")}</ul>
       </section>
 
       <section>
-        <h2>Frequently asked questions</h2>
+        <h2>${escapeHtml(headings.faqs)}</h2>
         ${faqItems
           .map(
             (item) => `
@@ -223,7 +227,15 @@ export const buildEmojiStaticArticleHtml = ({
       </section>
 
       <section>
-        <h2>Unicode category</h2>
+        <h2>${escapeHtml(headings.facts)}</h2>
+        <dl>
+          ${factRows
+            .map(
+              (row) =>
+                `<div><dt>${escapeHtml(row.label)}</dt><dd>${escapeHtml(row.value)}</dd></div>`
+            )
+            .join("")}
+        </dl>
         <p>${escapeHtml(emoji.name)} is listed under ${escapeHtml(category?.name ?? emoji.categorySlug)} (${escapeHtml(emoji.subgroup.replace(/-/g, " "))}) in the Unicode emoji catalog.</p>
       </section>
 
@@ -235,7 +247,7 @@ export const buildEmojiStaticArticleHtml = ({
         relatedEmojis.length
           ? `
       <section>
-        <h2>Related emojis</h2>
+        <h2>${escapeHtml(headings.related)}</h2>
         <p>Here are some emojis that are similar or related to ${escapeHtml(emoji.unicode)} ${escapeHtml(emoji.name)}:</p>
         <ul>${relatedEmojis
           .map(

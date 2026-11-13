@@ -20,6 +20,8 @@ import {
   titleCaseContexts,
   type SemanticProfile,
 } from "./semanticProfile";
+import { getFlagCountryFact } from "@/data/flagCountryFacts";
+import { unicodeCodepoints } from "@/utils/composeUniqueEmojiCopy";
 
 const withUnicode = (emoji: Emoji, text: string) => text.replaceAll("{u}", emoji.unicode);
 
@@ -64,37 +66,49 @@ const buildFlagsPremium = (emoji: Emoji, profile: SemanticProfile, batchId: stri
   const country = countryFromFlagSlug(emoji.slug)!;
   const u = emoji.unicode;
   const kw = profile.keywords[0] ?? country;
+  const fact = getFlagCountryFact(emoji.slug, u);
+  const cps = unicodeCodepoints(u);
+  const iso = fact?.iso ?? country;
+  const uniqueNote = fact?.note ?? `${u} is the flag people use when the message is about ${country}.`;
 
   return buildBatch(emoji, batchId, {
     searchTitle: `${country} Flag Emoji (${u}): Meaning, Copy, Sports, and Travel Use`,
-    snippetAnswer: `${u} is the official flag of ${country}. People add it when discussing travel to ${country}, cheering national teams, celebrating heritage, or marking location in family chats — always write "${country}" in text when clarity matters.`,
+    snippetAnswer: `${u} is the flag of ${country}${fact ? ` (ISO ${fact.iso})` : ""}. ${uniqueNote} Write "${country}" in text when older phones show letter codes instead of the graphic.`,
     detailedParagraphs: [
-      `The ${emoji.name} (${u}) encodes ${country} using Unicode regional indicators. During World Cups, Olympics, and national holidays, ${u} floods live comment feeds because it communicates loyalty faster than typing the full country name.`,
-      `Diaspora communities use ${u} in WhatsApp threads when sharing visa approvals, wedding streams from home, or recipes tied to ${country}. It signals belonging and pride — not just decoration.`,
-      `Autocorrect and emoji search cause wrong-flag mistakes often. Before posting about sensitive news involving ${country}, verify you selected ${u}. Older Android phones may show letter codes instead of a colored flag — naming the country avoids confusion.`,
+      `The ${emoji.name} (${u}) encodes ${country} as Unicode ${cps}${fact ? `, ISO region ${fact.iso}` : ""}. ${uniqueNote}`,
+      fact
+        ? `Diaspora and travel chats use ${u} next to ${fact.capital} and ${fact.languages}. ${fact.demonym} identity posts are about ${country} specifically — not a neighboring flag that looks similar at emoji size.`
+        : `Diaspora communities use ${u} in WhatsApp threads when sharing visa approvals, wedding streams from home, or recipes tied to ${country}.`,
+      `Autocorrect and emoji search cause wrong-flag mistakes often. Before posting about sensitive news involving ${country}, verify you selected ${u} (${cps}). Older Android phones may show ${iso} letter codes instead of a colored flag.`,
     ],
     textingMeaning: `In texting, ${u} usually anchors a message about ${country}: landing announcements, cheering a match, or telling friends where your family is from. Example: "Landing in ${country} tomorrow ${u}".`,
     socialMeaning: `Creators tag ${country}-themed food, music, and travel content with ${u} in captions and bios. Followers expect ${kw}-related themes when the flag leads the post.`,
     caution: `Do not use ${u} to mock ${country} during crises. Wrong flags misidentify nationality — double-check before posting.`,
     examples: injectExamples(emoji, [
       { context: "Sports", text: `Rooting for ${country} tonight {u}` },
-      { context: "Travel", text: `Just landed in ${country} {u}` },
-      { context: "Heritage", text: `Proud ${country} roots {u}` },
+      { context: "Travel", text: fact ? `Landing near ${fact.capital} {u}` : `Just landed in ${country} {u}` },
+      { context: "Heritage", text: fact ? `${fact.demonym} family chat {u}` : `Proud ${country} roots {u}` },
       { context: "Holiday", text: `Happy national day ${country} {u}` },
-      { context: "Food", text: `Best meal in ${country} {u}` },
+      { context: "Language", text: fact ? `Practicing ${fact.languages.split(" and ")[0]} {u}` : `Best meal in ${country} {u}` },
     ]),
     contextBlocks: [
       {
-        title: `Sports and ${country}`,
-        body: `${u} spikes during international tournaments when ${country} competes. Fans use it in live threads where speed beats long sentences.`,
+        title: fact ? `${fact.iso} in live chats` : `Sports and ${country}`,
+        body: fact
+          ? `${uniqueNote} Fans and diaspora threads use ${u} when ${country} is on a pitch or in the news.`
+          : `${u} spikes during international tournaments when ${country} competes. Fans use it in live threads where speed beats long sentences.`,
       },
       {
         title: "Travel and relocation",
-        body: `Travelers post ${u} with boarding passes and landmark photos so friends know the trip is in ${country}. Relocation updates often pair the flag with city names.`,
+        body: fact
+          ? `Travelers post ${u} with ${fact.capital} and ${fact.languages} cues so friends know the trip is in ${country} (${cps}).`
+          : `Travelers post ${u} with boarding passes and landmark photos so friends know the trip is in ${country}. Relocation updates often pair the flag with city names.`,
       },
       {
         title: "Cultural identity online",
-        body: `Language learners and creators in the diaspora use ${u} when discussing heritage, holidays, and music from ${country}. It is a lightweight pride marker.`,
+        body: fact
+          ? `${fact.demonym} identity posts use ${u} for ${country} specifically. Confirm ISO ${fact.iso} before sharing election or disaster news.`
+          : `Language learners and creators in the diaspora use ${u} when discussing heritage, holidays, and music from ${country}. It is a lightweight pride marker.`,
       },
     ],
     searchIntents: buildSearchIntents(emoji, profile, [`${country} flag in texting`, `${country} flag emoji copy paste`]),
@@ -255,7 +269,7 @@ const buildCategoryPremium = (emoji: Emoji, profile: SemanticProfile, batchId: s
   })();
 
   const detailedParagraphs = (() => {
-    const p1 = `${profile.subject} (${u}) sits in the ${profile.subgroupLabel} Unicode subgroup. ${profile.coreMeaning.charAt(0).toUpperCase()}${profile.coreMeaning.slice(1)}.`;
+    const p1 = `${profile.subject} (${u}) is Unicode ${unicodeCodepoints(u)} in the ${profile.subgroupLabel} subgroup. ${profile.coreMeaning.charAt(0).toUpperCase()}${profile.coreMeaning.slice(1)}.`;
     const p2 = pick(emoji.slug, [
       `On WhatsApp and iMessage, ${u} saves typing when the topic is already ${profile.subjectLower}. Group chats combine it with dates, names, and short updates so nobody misreads the subject.`,
       `Creators on TikTok and Instagram place ${u} early in captions about ${kwLine} so followers know the reel or photo theme before swiping.`,
