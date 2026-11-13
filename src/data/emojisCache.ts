@@ -11,6 +11,10 @@ type EmojiCache = {
 };
 
 let cachePromise: Promise<EmojiCache> | null = null;
+let resolvedCache: EmojiCache | null = null;
+
+/** Sync read after the first getEmojiCache() resolve — avoids a loading flash on in-app clicks. */
+export const peekEmojiCache = (): EmojiCache | null => resolvedCache;
 
 const trendingSlugs = [
   "face-with-tears-of-joy",
@@ -83,7 +87,7 @@ export const getEmojiCache = async (): Promise<EmojiCache> => {
 
     const getPopularCombos = (): EmojiCombo[] => popularEmojiCombos;
 
-    return {
+    const cache: EmojiCache = {
       emojis,
       getEmojiBySlug,
       getEmojisByCategory,
@@ -91,6 +95,8 @@ export const getEmojiCache = async (): Promise<EmojiCache> => {
       getTrendingEmojis,
       getPopularCombos,
     };
+    resolvedCache = cache;
+    return cache;
   })();
 
   return cachePromise;

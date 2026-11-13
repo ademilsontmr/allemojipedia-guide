@@ -8,25 +8,34 @@ import { getMainPageSeo } from "@/data/seoMeta";
 import { INDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
-import { getEmojiCache } from "@/data/emojisCache";
+import { getEmojiCache, peekEmojiCache } from "@/data/emojisCache";
+
+const popularPeopleFromCache = (emojisModule: NonNullable<ReturnType<typeof peekEmojiCache>>) =>
+  emojisModule
+    .getEmojisByCategory("people-and-body")
+    .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
+    .slice(0, 12);
 
 const People = () => {
-  const [peopleEmojis, setPeopleEmojis] = useState<Emoji[]>([]);
-  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const cache = peekEmojiCache();
+  const cachedPeople = cache ? popularPeopleFromCache(cache) : null;
+  const [asyncPeople, setAsyncPeople] = useState<Emoji[]>(cachedPeople ?? []);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(() => cachedPeople !== null);
 
   useEffect(() => {
     let cancelled = false;
+    const readyCache = peekEmojiCache();
+    if (readyCache) {
+      setAsyncPeople(popularPeopleFromCache(readyCache));
+      setIsEmojiDataLoaded(true);
+      return;
+    }
 
     const load = async () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setPeopleEmojis(
-        emojisModule
-          .getEmojisByCategory("people-and-body")
-          .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
-          .slice(0, 12)
-      );
+      setAsyncPeople(popularPeopleFromCache(emojisModule));
       setIsEmojiDataLoaded(true);
     };
 
@@ -39,6 +48,8 @@ const People = () => {
       cancelled = true;
     };
   }, []);
+
+  const peopleEmojis = cachedPeople ?? asyncPeople;
 
   const faqSchema = {
     "@context": "https://schema.org",

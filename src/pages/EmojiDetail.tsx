@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
-import { getEmojiCache } from "@/data/emojisCache";
+import { getEmojiCache, peekEmojiCache } from "@/data/emojisCache";
 import { getEmojiRobots, getEmojiSlugRobots, shouldIndexEmojiContext } from "@/utils/seoPolicy";
 import { getEmojiIntentClustersForEmoji } from "@/data/emojiIntentClusters";
 import { popularComparisons } from "@/data/emojiComparisons";
@@ -77,51 +77,59 @@ const SenderPlatformGuides = ({
   );
 };
 
+const detailsFromCache = (emojisModule: NonNullable<ReturnType<typeof peekEmojiCache>>, nextSlug: string) => {
+  const found = emojisModule.getEmojiBySlug(nextSlug) as Emoji | undefined;
+  if (!found) {
+    return { emoji: null as Emoji | null, related: [] as Emoji[], category: [] as Emoji[], comparisons: [] as { href: string; label: string }[] };
+  }
+  const related = (found.relatedEmojis
+    .map((s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined)
+    .filter(Boolean) as Emoji[]).slice(0, 6);
+  return {
+    emoji: found,
+    related,
+    category: getDeterministicCategoryEmojis(found, emojisModule.getEmojisByCategory(found.categorySlug) as Emoji[]),
+    comparisons: getComparisonLinksForEmoji(found.slug, (s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined).map(
+      ({ href, label }) => ({ href, label })
+    ),
+  };
+};
+
 const EmojiDetail = () => {
   const { slug } = useParams<{ slug: string }>();
-  const [emoji, setEmoji] = useState<Emoji | null>(null);
+  const cache = peekEmojiCache();
+  const cachedDetails = cache && slug ? detailsFromCache(cache, slug) : null;
+
+  const [asyncEmoji, setAsyncEmoji] = useState<Emoji | null>(null);
   const [relatedEmojis, setRelatedEmojis] = useState<Emoji[]>([]);
   const [categoryEmojis, setCategoryEmojis] = useState<Emoji[]>([]);
   const [comparisonLinks, setComparisonLinks] = useState<{ href: string; label: string }[]>([]);
-  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(() => Boolean(cachedDetails));
   const [loadFailed, setLoadFailed] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
+    const readyCache = peekEmojiCache();
+    if (readyCache) {
+      const details = detailsFromCache(readyCache, slug || "");
+      setAsyncEmoji(details.emoji);
+      setRelatedEmojis(details.related);
+      setCategoryEmojis(details.category);
+      setComparisonLinks(details.comparisons);
+      setLoadFailed(false);
+      setIsEmojiDataLoaded(true);
+      return;
+    }
 
     const load = async () => {
       setLoadFailed(false);
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
-
-      const found = emojisModule.getEmojiBySlug(slug || "") as Emoji | undefined;
-
-      if (!found) {
-        setEmoji(null);
-        setRelatedEmojis([]);
-        setCategoryEmojis([]);
-        setComparisonLinks([]);
-        setIsEmojiDataLoaded(true);
-        return;
-      }
-
-      const related = (found.relatedEmojis
-        .map((s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined)
-        .filter(Boolean) as Emoji[]).slice(0, 6);
-
-      const sameCategory = getDeterministicCategoryEmojis(
-        found,
-        emojisModule.getEmojisByCategory(found.categorySlug) as Emoji[]
-      );
-
-      setEmoji(found);
-      setRelatedEmojis(related);
-      setCategoryEmojis(sameCategory);
-      setComparisonLinks(
-        getComparisonLinksForEmoji(found.slug, (s) => emojisModule.getEmojiBySlug(s) as Emoji | undefined).map(
-          ({ href, label }) => ({ href, label })
-        )
-      );
+      const details = detailsFromCache(emojisModule, slug || "");
+      setAsyncEmoji(details.emoji);
+      setRelatedEmojis(details.related);
+      setCategoryEmojis(details.category);
+      setComparisonLinks(details.comparisons);
       setIsEmojiDataLoaded(true);
     };
 
@@ -138,6 +146,11 @@ const EmojiDetail = () => {
     };
   }, [slug]);
 
+  const emoji = cachedDetails ? cachedDetails.emoji : asyncEmoji;
+  const related = cachedDetails ? cachedDetails.related : relatedEmojis;
+  const categoryList = cachedDetails ? cachedDetails.category : categoryEmojis;
+  const comparisons = cachedDetails ? cachedDetails.comparisons : comparisonLinks;
+
   useEffect(() => {
     if (isEmojiDataLoaded) {
       signalContentReady();
@@ -152,16 +165,14 @@ const EmojiDetail = () => {
     ? `https://allemojipedia.com/emoji/${slug}/`
     : "https://allemojipedia.com/";
 
-  if (!isEmojiDataLoaded) {
+  if (!cachedDetails && !isEmojiDataLoaded) {
     return (
       <Layout>
         <Helmet>
           <meta name="robots" content={getEmojiSlugRobots(slug)} />
           <link rel="canonical" href={canonicalDuringLoad} />
         </Helmet>
-        <div className="container-page section-spacing" aria-busy="true">
-          <p className="text-muted-foreground">Loading emoji…</p>
-        </div>
+        <div className="container-page section-spacing min-h-[40vh]" aria-busy="true" />
       </Layout>
     );
   }
@@ -190,7 +201,7 @@ const EmojiDetail = () => {
 
   if (!emoji) return <NotFound />;
 
-  const primaryRelated = relatedEmojis[0];
+  const primaryRelated = related[0];
   const intentClusters = getEmojiIntentClustersForEmoji(emoji.slug);
   const contextPages = getEmojiContextPagesForEmoji(emoji.slug);
   const editorial = getTopEmojiEditorial(emoji);
@@ -290,14 +301,14 @@ const EmojiDetail = () => {
             </section>
           )}
 
-          {comparisonLinks.length > 0 && (
+          {comparisons.length > 0 && (
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Compare with similar emojis</h2>
               <p className="text-muted-foreground mb-4">
                 Not sure which emoji fits your message? These side-by-side guides explain tone differences.
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
-                {comparisonLinks.map((link) => (
+                {comparisons.map((link) => (
                   <Link
                     key={link.href}
                     to={link.href}
@@ -427,14 +438,14 @@ const EmojiDetail = () => {
           />
 
           {/* H2 - Related emojis */}
-          {relatedEmojis.length > 0 && (
+          {related.length > 0 && (
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">{headings.related}</h2>
               <p className="text-muted-foreground mb-4">
                 Here are some emojis that are similar or related to <span className="emoji">{emoji.unicode}</span> {emoji.name}:
               </p>
               <div className="flex flex-wrap gap-3">
-                {relatedEmojis.map(e => e && (
+                {related.map(e => e && (
                   <Link key={e.slug} to={`/emoji/${e.slug}/`} className="flex items-center gap-2 p-3 rounded-lg bg-muted/50 border border-border/50 hover:border-primary/30 hover:bg-muted transition-all">
                     <span className="emoji text-2xl">{e.unicode}</span>
                     <span className="text-sm font-medium">{e.name}</span>
@@ -482,11 +493,11 @@ const EmojiDetail = () => {
           </section>
 
           {/* You Might Also Like */}
-          {categoryEmojis.length > 0 && (
+          {categoryList.length > 0 && (
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">You Might Also Like</h2>
               <div className="grid grid-cols-3 gap-3">
-                {categoryEmojis.map(e => (
+                {categoryList.map(e => (
                   <Link
                     key={e.slug}
                     to={`/emoji/${e.slug}/`}

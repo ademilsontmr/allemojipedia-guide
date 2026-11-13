@@ -30,10 +30,18 @@
   <meta name="twitter:description"
     content="Your complete emoji encyclopedia. Find emoji meanings, copy and paste emojis." />
 
-  <!-- Critical CSS for initial render -->
+  <!-- Hide SSG article from the first paint so humans don't see a second page. Crawlers still read the HTML. -->
+  <script>document.documentElement.classList.add("js");</script>
   <style>
     #root {
       min-height: 100vh
+    }
+
+    html.js #root > header,
+    html.js #root > footer,
+    html.js #root > .static-seo-fallback,
+    html.js #seo-static-preserve {
+      display: none !important
     }
 
     .loading-skeleton {

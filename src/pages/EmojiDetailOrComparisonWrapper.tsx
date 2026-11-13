@@ -1,13 +1,14 @@
 import { lazy, Suspense } from "react";
 import { useParams } from "react-router-dom";
+import { Layout } from "@/components/Layout";
 import EmojiDetail from "./EmojiDetail";
 
 const EmojiComparison = lazy(() => import("./EmojiComparison"));
 
 const ComparisonLoader = () => (
-  <div className="min-h-screen flex items-center justify-center">
-    <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-  </div>
+  <Layout>
+    <div className="container-page section-spacing min-h-[40vh]" aria-busy="true" />
+  </Layout>
 );
 
 const EmojiDetailOrComparisonWrapper = () => {

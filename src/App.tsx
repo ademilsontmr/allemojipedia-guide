@@ -1,4 +1,5 @@
 import { Suspense, lazy } from "react";
+import { Layout } from "@/components/Layout";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,14 +10,12 @@ import ScrollToTop from "./components/ScrollToTop";
 import TrailingSlashRedirect from "./components/TrailingSlashRedirect";
 import { ContentReadySignal } from "./components/ContentReadySignal";
 
-// Eager load critical pages
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import CategoryWrapper from "./pages/CategoryWrapper";
+import EmojiDetailOrComparisonWrapper from "./pages/EmojiDetailOrComparisonWrapper";
 
-// Lazy load non-critical pages
 const Categories = lazy(() => import("./pages/Categories"));
-const CategoryWrapper = lazy(() => import("./pages/CategoryWrapper"));
-const EmojiDetailOrComparisonWrapper = lazy(() => import("./pages/EmojiDetailOrComparisonWrapper"));
 const EmojiComparisons = lazy(() => import("./pages/EmojiComparisons"));
 const EmojiMeanings = lazy(() => import("./pages/EmojiMeanings"));
 const EmojiMeaningCluster = lazy(() => import("./pages/EmojiMeaningCluster"));
@@ -40,11 +39,10 @@ const About = lazy(() => import("./pages/About"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Contact = lazy(() => import("./pages/Contact"));
 
-// Loading fallback
 const PageLoader = () => (
-  <div className="min-h-screen flex items-center justify-center">
-    <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-  </div>
+  <Layout>
+    <div className="container-page section-spacing min-h-[40vh]" aria-busy="true" />
+  </Layout>
 );
 
 const queryClient = new QueryClient({

@@ -7,23 +7,31 @@ import { Helmet } from "react-helmet-async";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
-import { getEmojiCache } from "@/data/emojisCache";
+import { getEmojiCache, peekEmojiCache } from "@/data/emojisCache";
 import { getCategorySeoMeta } from "@/data/seoMeta";
 
 const Category = () => {
   const { slug } = useParams<{ slug: string }>();
   const category = getCategoryBySlug(slug || "");
-  const [emojis, setEmojis] = useState<Emoji[]>([]);
-  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const cache = peekEmojiCache();
+  const cachedEmojis = cache ? cache.getEmojisByCategory(slug || "") : null;
+  const [asyncEmojis, setAsyncEmojis] = useState<Emoji[]>(cachedEmojis ?? []);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(() => cachedEmojis !== null);
 
   useEffect(() => {
     let cancelled = false;
+    const readyCache = peekEmojiCache();
+    if (readyCache) {
+      setAsyncEmojis(readyCache.getEmojisByCategory(slug || ""));
+      setIsEmojiDataLoaded(true);
+      return;
+    }
 
     const load = async () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      setEmojis(emojisModule.getEmojisByCategory(slug || ""));
+      setAsyncEmojis(emojisModule.getEmojisByCategory(slug || ""));
       setIsEmojiDataLoaded(true);
     };
 
@@ -36,6 +44,8 @@ const Category = () => {
       cancelled = true;
     };
   }, [slug]);
+
+  const emojis = cachedEmojis ?? asyncEmojis;
 
   if (!category) return <NotFound />;
 

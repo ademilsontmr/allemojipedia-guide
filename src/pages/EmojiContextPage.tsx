@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
-import { getEmojiCache } from "@/data/emojisCache";
+import { getEmojiCache, peekEmojiCache } from "@/data/emojisCache";
 import type { Emoji } from "@/data/emojis";
 import { editorialMeta, getEmojiEditorialSources } from "@/data/editorialMeta";
 import { EditorialSources } from "@/components/EditorialSources";
@@ -20,18 +20,26 @@ const BASE_URL = "https://allemojipedia.com";
 
 const EmojiContextPage = () => {
   const { slug = "", context = "" } = useParams<{ slug: string; context: string }>();
-  const [emoji, setEmoji] = useState<Emoji | null>(null);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const cache = peekEmojiCache();
+  const cachedEmoji = cache ? (cache.getEmojiBySlug(slug) as Emoji | undefined) ?? null : undefined;
+  const [asyncEmoji, setAsyncEmoji] = useState<Emoji | null>(cachedEmoji ?? null);
+  const [isLoaded, setIsLoaded] = useState(cachedEmoji !== undefined);
   const page = getEmojiContextPage(slug, context);
 
   useEffect(() => {
     let cancelled = false;
+    const readyCache = peekEmojiCache();
+    if (readyCache) {
+      setAsyncEmoji((readyCache.getEmojiBySlug(slug) as Emoji | undefined) ?? null);
+      setIsLoaded(true);
+      return;
+    }
 
     const load = async () => {
       const emojisModule = await getEmojiCache();
       const found = emojisModule.getEmojiBySlug(slug) as Emoji | undefined;
       if (!cancelled) {
-        setEmoji(found ?? null);
+        setAsyncEmoji(found ?? null);
         setIsLoaded(true);
       }
     };
@@ -46,12 +54,12 @@ const EmojiContextPage = () => {
     };
   }, [slug]);
 
-  if (!isLoaded) {
+  const emoji = cachedEmoji !== undefined ? cachedEmoji : asyncEmoji;
+
+  if (cachedEmoji === undefined && !isLoaded) {
     return (
       <Layout>
-        <div className="container-page section-spacing">
-          <p className="text-muted-foreground">Loading guide…</p>
-        </div>
+        <div className="container-page section-spacing min-h-[40vh]" aria-busy="true" />
       </Layout>
     );
   }

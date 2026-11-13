@@ -1,7 +1,12 @@
 import type { Emoji } from "@/data/emojis";
 import { getEmojiBySlug } from "@/data/emojis";
 import { getFlagCountryFact, isoFromFlagEmoji } from "@/data/flagCountryFacts";
-import { isThinPhrase } from "@/data/emojiEditorialBatches/premium/semanticProfile";
+import {
+  buildSemanticProfile,
+  isThinPhrase,
+  meaningfulContexts,
+  primaryKeywords,
+} from "@/data/emojiEditorialBatches/premium/semanticProfile";
 
 export type EmojiFactRow = { label: string; value: string };
 
@@ -215,6 +220,54 @@ export const composeUniqueExamples = (
     { context: "Question", text: `Did you mean ${name}? ${u}` },
     { context: "Note", text: `${emoji.name} copy: ${u}` },
   ];
+};
+
+/** Extra narrative blocks so thin catalog copy still clears quality word-count floors for indexing. */
+export const composeUniqueDepthParagraphs = (emoji: Emoji): string[] => {
+  const u = emoji.unicode;
+  const profile = buildSemanticProfile(emoji);
+  const kw = primaryKeywords(emoji);
+  const kwLine = kw.slice(0, 3).join(", ") || profile.subjectLower;
+  const contexts = meaningfulContexts(emoji);
+  const contextLine = contexts.length ? contexts.join(", ") : profile.coreMeaning;
+  const related = relatedLabels(emoji);
+  const cps = unicodeCodepoints(u);
+  const flag = getFlagCountryFact(emoji.slug, u);
+
+  const platform = pick(emoji.slug, [
+    `On WhatsApp and iMessage, ${u} saves typing when the thread is already about ${profile.subjectLower}. Pair it with one concrete noun — a place, name, or date — so autocorrect does not swap a look-alike symbol mid-sentence.`,
+    `Creators on TikTok and Instagram lead captions with ${u} when the hook is ${kwLine}. Short-form algorithms reward clear visual identity in the first line, and ${profile.subject} gives that scan signal before the viewer reads the rest.`,
+    `Discord and Slack teammates drop ${u} in channel titles and status lines when the vibe matches ${contextLine.toLowerCase()}. It is faster than spelling out the object or mood, but still needs words nearby for anyone outside the channel.`,
+  ], 11);
+
+  const searchBehavior = pick(emoji.slug, [
+    `Search engines and emoji pickers list this glyph as "${emoji.name}" (Unicode ${cps}). Readers who land from "meaning" or "copy and paste" queries usually want that exact character, not a sticker with a similar look.`,
+    `People who Google "${profile.subjectLower} emoji meaning" often type ${kwLine} in the same session. Matching the picker label to the real ${u} character prevents wrong-symbol mistakes in professional or public posts.`,
+    `Allemojipedia indexes ${u} under ${emoji.categorySlug.replace(/-/g, " ")} / ${emoji.subgroup.replace(/-/g, " ")} so humans and crawlers see how ${profile.subject} differs from nearby symbols in the same keyboard drawer.`,
+  ], 12);
+
+  const threadTone = pick(emoji.slug, [
+    `Threads that open with ${u} and no words can confuse older relatives or coworkers — add whether you mean ${contextLine.toLowerCase()} literally or as a joke. One short sentence removes most crossed wires.`,
+    `When the chat is heated, ${u} alone may look dismissive. Combine the emoji with plain-language reassurance if you care about how the other person reads tone, especially in family or work groups.`,
+    `${profile.subject} reads informal by default. In customer support, billing, or medical updates, type the full thought in words and use ${u} only if your audience already chats with emojis every day.`,
+  ], 13);
+
+  const comparison =
+    related.length > 0
+      ? pick(emoji.slug, [
+          `If tone feels wrong, compare ${u} with ${related.join(", ")}. Each symbol has a different Unicode name — choosing the closest match keeps your message aligned with what pickers label "${emoji.name}".`,
+          `Keyboard search might suggest symbols beside ${u} in the ${emoji.subgroup.replace(/-/g, " ")} row. Open the related guides on this page before mass-posting to followers who expect a specific metaphor.`,
+        ], 14)
+      : pick(emoji.slug, [
+          `Scroll the related emoji row for other ${emoji.categorySlug.replace(/-/g, " ")} options when ${u} feels too strong or too vague for the sentence you are drafting tonight.`,
+          `Emoji keyboards group ${u} with similar ${emoji.subgroup.replace(/-/g, " ")} entries. Pick ${profile.subject} only when that drawer label matches your intent.`,
+        ], 15);
+
+  const flagExtra = flag
+    ? `${flag.demonym} diaspora channels sometimes pair ${u} with ${flag.capital} or ${flag.languages} in the same bubble so letter-code fallback phones still know the country reference.`
+  : null;
+
+  return [platform, searchBehavior, threadTone, comparison, ...(flagExtra ? [flagExtra] : [])];
 };
 
 export const composeUniqueContextBlocks = (

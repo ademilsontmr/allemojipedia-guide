@@ -3,10 +3,14 @@ import { getEmojiBatchEnrichment } from "@/data/emojiEditorialBatches";
 import { isCloneEnrichment } from "@/utils/cloneEnrichment";
 import {
   composeUniqueContextBlocks,
+  composeUniqueDepthParagraphs,
   composeUniqueDetailedParagraphs,
   composeUniqueExamples,
   composeUniqueFactParagraphs,
 } from "@/utils/composeUniqueEmojiCopy";
+
+export const MIN_INDEXABLE_EDITORIAL_WORDS = 180;
+const MIN_SNIPPET_WORDS = 20;
 
 export type EmojiEditorialContent = {
   slug: string;
@@ -76,32 +80,110 @@ const mergeFactParagraphs = (base: string[], extras: string[]): string[] => {
     if (extra.length > 48 && merged.some((paragraph) => paragraph.includes(extra.slice(0, 48)))) continue;
     merged.push(extra);
   }
-  return merged.slice(0, 8);
+  return merged.slice(0, 12);
 };
 
-export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] => {
-  const batch = getEmojiBatchEnrichment(emoji);
-  const extras = composeUniqueFactParagraphs(emoji);
+const editorialWordCount = (
+  snippet: string,
+  paragraphs: string[],
+  examples: Array<{ text: string }>
+) =>
+  [snippet, ...paragraphs, ...examples.map((example) => example.text)]
+    .join(" ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length;
 
-  if (batch?.detailedParagraphs?.length && !isCloneEnrichment(batch)) {
-    return mergeFactParagraphs(batch.detailedParagraphs, extras);
-  }
-
-  return composeUniqueDetailedParagraphs(emoji);
+const paragraphAlreadyPresent = (paragraphs: string[], candidate: string): boolean => {
+  const lower = candidate.toLowerCase();
+  if (paragraphs.some((paragraph) => paragraph.toLowerCase() === lower)) return true;
+  const prefix = candidate.slice(0, 52).toLowerCase();
+  return paragraphs.some((paragraph) => paragraph.toLowerCase().includes(prefix));
 };
 
-export const getEnrichedExamples = (emoji: Emoji) => {
+const resolveExamplesForDepth = (emoji: Emoji) => {
   const batch = getEmojiBatchEnrichment(emoji);
   if (batch?.examples?.length && !isCloneEnrichment(batch)) {
     return batch.examples;
   }
-
   if (!isThinEmojiContent(emoji) && emoji.examples.length >= 3) {
     return emoji.examples;
   }
-
   return composeUniqueExamples(emoji);
 };
+
+const resolveSnippetForDepth = (emoji: Emoji, paragraphs: string[]) => {
+  const batch = getEmojiBatchEnrichment(emoji);
+  if (batch?.snippetAnswer && !isCloneEnrichment(batch)) {
+    return batch.snippetAnswer;
+  }
+  return paragraphs[0] ?? `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning}`;
+};
+
+const pickSubstantiveSnippet = (emoji: Emoji, paragraphs: string[], fallback: string) => {
+  const rich =
+    paragraphs.find((paragraph) => editorialWordCount(paragraph, [], []) >= MIN_SNIPPET_WORDS) ??
+    fallback;
+  if (editorialWordCount(rich, [], []) >= MIN_SNIPPET_WORDS) return rich;
+  return pick(emoji.slug, [
+    `${emoji.unicode} ${emoji.name} is the Unicode glyph searchers mean when they type "${emoji.name.toLowerCase()}" — use it when the visual topic matches that catalog label, not as random decoration in serious threads.`,
+    `${emoji.unicode} marks ${emoji.name.toLowerCase()} in texting and social posts. The meaning stays informal; pair the emoji with a plain-language noun so friends, family, and coworkers read the same intent.`,
+    `When people copy ${emoji.unicode}, they usually want the exact "${emoji.name}" character from the picker. Context from the message — not the icon alone — decides whether it reads playful, supportive, or purely literal.`,
+  ], 19);
+};
+
+const padDetailedParagraphsForDepth = (
+  emoji: Emoji,
+  paragraphs: string[],
+  snippet: string,
+  examples: Array<{ text: string }>
+) => {
+  const merged = [...paragraphs];
+  if (editorialWordCount(snippet, merged, examples) >= MIN_INDEXABLE_EDITORIAL_WORDS) {
+    return merged;
+  }
+
+  for (const extra of composeUniqueDepthParagraphs(emoji)) {
+    if (editorialWordCount(snippet, merged, examples) >= MIN_INDEXABLE_EDITORIAL_WORDS) break;
+    if (paragraphAlreadyPresent(merged, extra)) continue;
+    merged.push(extra);
+  }
+  return merged;
+};
+
+const buildEnrichedEditorialBody = (emoji: Emoji) => {
+  const batch = getEmojiBatchEnrichment(emoji);
+  const extras = composeUniqueFactParagraphs(emoji);
+
+  let paragraphs: string[];
+  if (batch?.detailedParagraphs?.length && !isCloneEnrichment(batch)) {
+    paragraphs = mergeFactParagraphs(batch.detailedParagraphs, extras);
+  } else {
+    paragraphs = composeUniqueDetailedParagraphs(emoji);
+  }
+
+  let examples = resolveExamplesForDepth(emoji);
+  if (examples.length < 5) {
+    const composed = composeUniqueExamples(emoji);
+    if (composed.length >= examples.length) examples = composed;
+  }
+
+  let snippet = resolveSnippetForDepth(emoji, paragraphs);
+  if (editorialWordCount(snippet, [], []) < MIN_SNIPPET_WORDS) {
+    snippet = pickSubstantiveSnippet(emoji, paragraphs, snippet);
+  }
+
+  paragraphs = padDetailedParagraphsForDepth(emoji, paragraphs, snippet, examples);
+  return { paragraphs, examples, snippet };
+};
+
+export const getEnrichedDetailedParagraphs = (emoji: Emoji): string[] =>
+  buildEnrichedEditorialBody(emoji).paragraphs;
+
+export const getEnrichedExamples = (emoji: Emoji) => buildEnrichedEditorialBody(emoji).examples;
+
+export const getAuditedEditorialSnippet = (emoji: Emoji): string =>
+  buildEnrichedEditorialBody(emoji).snippet;
 
 export const getUniqueContextBlocks = (emoji: Emoji): EmojiContextBlock[] => {
   const batch = getEmojiBatchEnrichment(emoji);
@@ -222,7 +304,7 @@ export const buildUniqueFaqs = (emoji: Emoji) => {
 
 export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
   const batch = getEmojiBatchEnrichment(emoji);
-  const paragraphs = getEnrichedDetailedParagraphs(emoji);
+  const body = buildEnrichedEditorialBody(emoji);
   const primaryKeyword = emoji.keywords.find(
     (k) => !["unicode", "copy paste", "emoji"].some((skip) => k.includes(skip))
   );
@@ -230,9 +312,9 @@ export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
   const base: EmojiEditorialContent = {
     slug: emoji.slug,
     searchTitle: `${emoji.name} Emoji Meaning in Texting, Social Media, and Real Conversations`,
-    snippetAnswer: paragraphs[0] ?? `${emoji.unicode} ${emoji.name}: ${emoji.shortMeaning}`,
+    snippetAnswer: body.snippet,
     textingMeaning: pick(emoji.slug, [
-      `In one-on-one texting, ${emoji.unicode} clarifies tone when messages are short. It can soften a reply, underline excitement, or show you are joking — especially alongside "${getEnrichedExamples(emoji)[0]?.text ?? emoji.shortMeaning}".`,
+      `In one-on-one texting, ${emoji.unicode} clarifies tone when messages are short. It can soften a reply, underline excitement, or show you are joking — especially alongside "${body.examples[0]?.text ?? emoji.shortMeaning}".`,
       `${emoji.unicode} often appears mid-sentence in SMS and WhatsApp when users want emotion without writing more words. Pair it with clear wording so sarcasm does not misfire.`,
       `Friends use ${emoji.unicode} as a reaction to voice notes, memes, and screenshots. The emoji tells the sender how the message landed before the conversation moves on.`,
     ], 1),
@@ -252,10 +334,16 @@ export const buildUniqueEditorial = (emoji: Emoji): EmojiEditorialContent => {
 
   if (!batch || isCloneEnrichment(batch)) return base;
 
+  const batchSnippet =
+    batch.snippetAnswer &&
+    editorialWordCount(batch.snippetAnswer, [], []) >= MIN_SNIPPET_WORDS
+      ? batch.snippetAnswer
+      : base.snippetAnswer;
+
   return {
     ...base,
     searchTitle: batch.searchTitle ?? base.searchTitle,
-    snippetAnswer: batch.snippetAnswer ?? base.snippetAnswer,
+    snippetAnswer: batchSnippet,
     textingMeaning: batch.textingMeaning ?? base.textingMeaning,
     socialMeaning: batch.socialMeaning ?? base.socialMeaning,
     caution: batch.caution ?? base.caution,

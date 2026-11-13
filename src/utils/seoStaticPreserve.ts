@@ -35,7 +35,8 @@ const dedupeStaticStructuredData = () => {
 
 /**
  * Clone `.static-seo-fallback` out of `#root` before React mounts, hide `#root`
- * until content is ready, then swap. Crawlers that execute JS still see article HTML.
+ * until content is ready, then swap. Crawlers still read the SSG HTML in the
+ * source; `index.html` hides the unstyled shell from the first paint for humans.
  */
 export const preserveStaticSeoBeforeReact = (rootElement: HTMLElement): void => {
   const staticFallback = rootElement.querySelector(".static-seo-fallback");

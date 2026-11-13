@@ -11,27 +11,38 @@ import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
-import { getEmojiCache } from "@/data/emojisCache";
+import { getEmojiCache, peekEmojiCache } from "@/data/emojisCache";
+
+const peopleEmojisFromCache = (
+  emojisModule: NonNullable<ReturnType<typeof peekEmojiCache>>,
+  subgroups: string[] | undefined
+) => {
+  const allPeopleEmojis = emojisModule.getEmojisByCategory("people-and-body");
+  return subgroups ? allPeopleEmojis.filter((e) => subgroups.includes(e.subgroup)) : [];
+};
 
 const PeopleSubcategory = () => {
   const { slug } = useParams<{ slug: string }>();
   const subcategory = peopleSubcategories.find(s => s.slug === slug);
-  const [emojis, setEmojis] = useState<Emoji[]>([]);
-  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(false);
+  const cache = peekEmojiCache();
+  const cachedEmojis = cache ? peopleEmojisFromCache(cache, subcategory?.subgroups) : null;
+  const [asyncEmojis, setAsyncEmojis] = useState<Emoji[]>(cachedEmojis ?? []);
+  const [isEmojiDataLoaded, setIsEmojiDataLoaded] = useState(() => cachedEmojis !== null);
 
   useEffect(() => {
     let cancelled = false;
+    const readyCache = peekEmojiCache();
+    if (readyCache) {
+      setAsyncEmojis(peopleEmojisFromCache(readyCache, subcategory?.subgroups));
+      setIsEmojiDataLoaded(true);
+      return;
+    }
 
     const load = async () => {
       const emojisModule = await getEmojiCache();
       if (cancelled) return;
 
-      const allPeopleEmojis = emojisModule.getEmojisByCategory("people-and-body");
-      const filtered = subcategory
-        ? allPeopleEmojis.filter(e => subcategory.subgroups.includes(e.subgroup))
-        : [];
-
-      setEmojis(filtered);
+      setAsyncEmojis(peopleEmojisFromCache(emojisModule, subcategory?.subgroups));
       setIsEmojiDataLoaded(true);
     };
 
@@ -44,6 +55,8 @@ const PeopleSubcategory = () => {
       cancelled = true;
     };
   }, [slug, subcategory]);
+
+  const emojis = cachedEmojis ?? asyncEmojis;
 
   if (!subcategory) return <NotFound />;
 
