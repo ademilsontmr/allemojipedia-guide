@@ -111,7 +111,7 @@ const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // Priority emoji pages only
+  // Emoji meaning pages (skin-tone variants stay out)
   emojis.forEach(emoji => {
     if (!shouldIndexEmoji(emoji)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: getEmojiLastmod(emoji) });

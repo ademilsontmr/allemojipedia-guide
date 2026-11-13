@@ -7,6 +7,7 @@ import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import { getPeopleSubcategoryEditorial } from "@/data/peopleSubcategoryEditorial";
 import { getPeopleSubSeoMeta } from "@/data/seoMeta";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 import NotFound from "./NotFound";
 
 import type { Emoji } from "@/data/emojis";
@@ -87,6 +88,7 @@ const PeopleSubcategory = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={`${subcategory.name.toLowerCase()} emojis, ${subcategory.name.toLowerCase()} emoji list, copy ${subcategory.name.toLowerCase()} emojis`} />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href={`https://allemojipedia.com/people/${slug}/`} />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />

@@ -5,7 +5,7 @@ import { EmojiCard } from "@/components/EmojiCard";
 import { peopleSubcategories } from "@/data/categories";
 import { Helmet } from "react-helmet-async";
 import { getMainPageSeo } from "@/data/seoMeta";
-import { isPriorityEmojiSlug } from "@/utils/seoPolicy";
+import { INDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -65,6 +65,7 @@ const People = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <meta name="keywords" content="people emojis, human emojis, gesture emojis, profession emojis, family emojis, skin tone emojis" />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href="https://allemojipedia.com/people/" />
         <meta property="og:title" content={seo.ogTitle ?? seo.title} />
         <meta property="og:description" content={seo.description} />

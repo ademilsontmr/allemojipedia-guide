@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet-async";
 import { downloadSitemap, getIndexableEmojiCount, getBlogPostCount } from "@/utils/generateSitemap";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import { isPriorityEmojiSlug, NOINDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
+import { NOINDEX_FOLLOW_ROBOTS, shouldIndexEmoji } from "@/utils/seoPolicy";
 
 import type { Emoji } from "@/data/emojis";
 import { getEmojiCache } from "@/data/emojisCache";
@@ -138,7 +138,7 @@ const Sitemap = () => {
           ) : (
             <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
               {[...emojis]
-                .filter((e) => isPriorityEmojiSlug(e.slug))
+                .filter((e) => shouldIndexEmoji(e))
                 .sort((a, b) => a.name.localeCompare(b.name)).map(e => (
                 <Link key={e.slug} to={`/emoji/${e.slug}/`} className="text-sm text-primary hover:underline py-1">
                   {e.unicode} {e.name}

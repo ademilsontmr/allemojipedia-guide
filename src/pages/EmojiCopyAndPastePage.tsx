@@ -11,6 +11,7 @@ import {
   copyPasteQuickLinks,
   emojiCopyPasteHub,
 } from "@/data/emojiCopyPasteHub";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const CopyEmojiButton = ({ unicode, label }: { unicode: string; label: string }) => {
   const [copied, setCopied] = useState(false);
@@ -59,6 +60,7 @@ const EmojiCopyAndPastePage = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={emojiCopyPasteHub.keywords} />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={seo.ogTitle ?? emojiCopyPasteHub.title} />
         <meta property="og:description" content={seo.description} />

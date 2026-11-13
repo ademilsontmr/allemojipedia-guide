@@ -40,7 +40,7 @@ import {
   copyPasteQuickLinks,
   emojiCopyPasteHub,
 } from '../src/data/emojiCopyPasteHub';
-import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, getEmojiComboRobots, INDEX_FOLLOW_ROBOTS, NOINDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug } from '../src/utils/seoPolicy';
+import { getEmojiRobots, getEmojiContextRobots, getEmojiComparisonRobots, getEmojiComboRobots, INDEX_FOLLOW_ROBOTS, NOINDEX_FOLLOW_ROBOTS, isPriorityEmojiSlug, shouldIndexEmoji } from '../src/utils/seoPolicy';
 import { resolveBlogFaqs } from '../src/utils/resolveBlogFaqs';
 
 const BASE_URL = 'https://allemojipedia.com';
@@ -291,7 +291,10 @@ const emojiContextHubBody = (emojiBySlug: Map<string, Emoji>) => {
 
 const priorityEmojiSection = (name: string, emojis: Emoji[], excludeSlugs: string[] = []) => {
   const excluded = new Set(excludeSlugs);
-  const priority = emojis.filter((emoji) => isPriorityEmojiSlug(emoji.slug) && !excluded.has(emoji.slug));
+  const indexable = emojis.filter((emoji) => shouldIndexEmoji(emoji) && !excluded.has(emoji.slug));
+  const priority = indexable.filter((emoji) => isPriorityEmojiSlug(emoji.slug));
+  const moreMeanings = indexable.filter((emoji) => !isPriorityEmojiSlug(emoji.slug));
+  const variants = emojis.filter((emoji) => !shouldIndexEmoji(emoji));
   return `
     ${priority.length
       ? `<h2>Most searched ${escapeHtml(name)} emoji meanings</h2>${renderLinks(
@@ -302,8 +305,19 @@ const priorityEmojiSection = (name: string, emojis: Emoji[], excludeSlugs: strin
           }))
         )}`
       : ''}
-    <h2>All ${escapeHtml(name)} emojis (${emojis.length})</h2>
-    <p>This group has ${emojis.length} emojis, including skin tone and gender variants. Open the full list on this page to copy any of them.</p>`;
+    ${moreMeanings.length
+      ? `<h2>More ${escapeHtml(name)} emoji meanings</h2>${renderLinks(
+          moreMeanings.map((emoji) => ({
+            href: `/emoji/${emoji.slug}/`,
+            label: `${emoji.unicode} ${emoji.name}`,
+            description: emoji.shortMeaning,
+          }))
+        )}`
+      : ''}
+    ${variants.length
+      ? `<h2>All ${escapeHtml(name)} emojis (${emojis.length})</h2>
+    <p>This group also includes skin-tone variants. Open the live page to browse and copy them.</p>`
+      : ''}`;
 };
 
 const categoryBody = (
@@ -729,7 +743,7 @@ const peopleHubStructuredData = (): StructuredData[] => [
 
 const sitemapBody = (allEmojis: Emoji[]) => {
   const indexableEmojis = [...allEmojis]
-    .filter((emoji) => isPriorityEmojiSlug(emoji.slug))
+    .filter((emoji) => shouldIndexEmoji(emoji))
     .sort((a, b) => a.name.localeCompare(b.name));
 
   return staticShell(`

@@ -7,6 +7,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { editorialMeta } from "@/data/editorialMeta";
 import { getMainPageSeo } from "@/data/seoMeta";
 import { tiktokEmojisHub, tiktokFeaturedEmojis } from "@/data/tiktokEmojisHub";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const CopyEmojiButton = ({ unicode, label }: { unicode: string; label: string }) => {
   const [copied, setCopied] = useState(false);
@@ -55,6 +56,7 @@ const TikTokEmojisPage = () => {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={tiktokEmojisHub.keywords} />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={seo.ogTitle ?? tiktokEmojisHub.title} />
         <meta property="og:description" content={seo.description} />

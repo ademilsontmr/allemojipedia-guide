@@ -4,6 +4,7 @@ import { Layout, Breadcrumbs } from "@/components/Layout";
 import { ComboCopyCard } from "@/components/ComboCopyCard";
 import { emojiKitchenCombos, emojiKitchenGuide } from "@/data/emojiKitchen";
 import { editorialMeta } from "@/data/editorialMeta";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const EmojiKitchenPage = () => {
   const url = "https://allemojipedia.com/emoji-kitchen/";
@@ -14,6 +15,7 @@ const EmojiKitchenPage = () => {
         <title>{emojiKitchenGuide.title} | Allemojipedia</title>
         <meta name="description" content={emojiKitchenGuide.description} />
         <meta name="keywords" content={emojiKitchenGuide.keywords} />
+        <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={emojiKitchenGuide.title} />
         <meta property="og:description" content={emojiKitchenGuide.description} />

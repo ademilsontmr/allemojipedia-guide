@@ -95,7 +95,7 @@ export const generateSitemapUrls = (): SitemapUrl[] => {
     addUrl({ loc: `${BASE_URL}/emoji/${slug1}-vs-${slug2}/`, priority: '0.8', lastmod: editorialMeta.lastUpdatedIso });
   });
 
-  // Priority emoji pages only (long-tail stays noindex / out of sitemap)
+  // Emoji meaning pages (skin-tone variants stay noindex / out of sitemap)
   emojis.forEach(emoji => {
     if (!shouldIndexEmoji(emoji)) return;
     addUrl({ loc: `${BASE_URL}/emoji/${emoji.slug}/`, priority: '0.8', lastmod: getEmojiLastmod(emoji) });

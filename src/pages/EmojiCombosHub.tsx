@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Layout, Breadcrumbs } from "@/components/Layout";
 import { emojiCombos } from "@/data/emojiCombos";
+import { INDEX_FOLLOW_ROBOTS } from "@/utils/seoPolicy";
 
 const EmojiCombosHub = () => (
   <Layout>
@@ -15,6 +16,7 @@ const EmojiCombosHub = () => (
         name="keywords"
         content="emoji combos, emoji combinations, zwj emoji, couple emoji combo, family emoji combo, copy emoji combo"
       />
+      <meta name="robots" content={INDEX_FOLLOW_ROBOTS} />
       <link rel="canonical" href="https://allemojipedia.com/emoji-combos/" />
     </Helmet>
 

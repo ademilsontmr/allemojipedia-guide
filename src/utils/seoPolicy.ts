@@ -7,10 +7,7 @@ export const INDEX_FOLLOW_ROBOTS =
 
 export const NOINDEX_FOLLOW_ROBOTS = "noindex, follow";
 
-/**
- * Seasonal + hub emojis kept indexable beyond the evergreen top list.
- * Reversible: remove from this set (or expand) when domain trust recovers.
- */
+/** Seasonal + hub emojis featured in “most searched” modules beyond the evergreen top list. */
 const SEASONAL_AND_HUB_EMOJI_SLUGS = [
   "christmas-tree",
   "santa-claus",
@@ -30,7 +27,7 @@ const SEASONAL_AND_HUB_EMOJI_SLUGS = [
   "confetti-ball",
 ] as const;
 
-/** Priority allowlist (~160–170). Everything else gets noindex until trust recovers. */
+/** Most-searched set for hubs and “start here” modules — not the robots allowlist. */
 const priorityEmojiSlugSet: Set<string> = new Set([
   ...topEmojiSlugs,
   ...SEASONAL_AND_HUB_EMOJI_SLUGS,
@@ -44,15 +41,18 @@ export const isPriorityEmojiSlug = (slug: string | undefined | null): boolean =>
   return priorityEmojiSlugSet.has(slug);
 };
 
+/** Skin-tone modifier pages duplicate the base meaning (e.g. kiss-medium-skin-tone). */
+export const isSkinToneVariantSlug = (slug: string | undefined | null): boolean =>
+  Boolean(slug && slug.includes("skin-tone"));
+
 /**
- * Selective indexing: only priority emoji pages are indexable.
- * Long-tail (skin tones, rare roles, thin flags, etc.) stays crawlable with noindex
- * so equity can flow later when we re-open batches.
+ * Index every emoji meaning page except skin-tone variants.
+ * Context, comparison, and combo-detail URLs stay noindex until rewritten.
  */
-export const shouldIndexEmoji = (emoji: Emoji): boolean => isPriorityEmojiSlug(emoji.slug);
+export const shouldIndexEmoji = (emoji: Emoji): boolean => shouldIndexEmojiSlug(emoji.slug);
 
 export const shouldIndexEmojiSlug = (slug: string | undefined | null): boolean =>
-  isPriorityEmojiSlug(slug);
+  Boolean(slug) && !isSkinToneVariantSlug(slug);
 
 /**
  * Context pages (/emoji/x/from-a-girl/) and comparisons are templated, so they stay
