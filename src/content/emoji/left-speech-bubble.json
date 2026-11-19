@@ -1,0 +1,51 @@
+{
+  "slug": "left-speech-bubble",
+  "title": "Left Speech Bubble Emoji 🗨️ Meaning and How It's Used",
+  "description": "🗨️ is a plain speech bubble with its tail on the left. It marks comments, quotes and dialogue, and it is a building block of 👁️‍🗨️. Here is how it differs from 💬.",
+  "summary": "The 🗨️ left speech bubble emoji is a simple outlined bubble whose tail points to the lower left. It means speech, a comment or a conversation, much like 💬, and is used to label quotes and discussion. It has no slang meaning and is one of the less common emojis.",
+  "meaning": [
+    "There is not much mystery to 🗨️. It represents someone speaking. People place it before a quotation, beside a prompt asking for opinions, or next to contact details to mean “get in touch.” In every one of those roles it overlaps with the older and far more popular speech balloon, 💬, and most users pick whichever appears first in their keyboard search.",
+    "The word “left” in its name refers to the tail, which sits at the bottom left as though the speaker were standing on that side. The name makes more sense in the wider Unicode set, which also includes a right speech bubble, a left anger bubble and left and right thought bubbles as plain text symbols. Only two members of that family were promoted to emoji: this one and the right anger bubble, 🗯️.",
+    "Its origin explains its plain look. It entered Unicode in a group of pictographs carried over from older symbol fonts, and it was designed as a document icon, not as an expressive character. By default many systems treat it as a text symbol, and it needs an invisible variation selector to appear in color. That is why it sometimes shows up as a thin black-and-white outline.",
+    "Its most significant role is as a component. Joined to an eye, it forms 👁️‍🗨️, the anti-bullying “I am a witness” emoji. Used alone, it tends to be chosen for design reasons. The outline style is lighter than the filled 💬, so it suits minimalist layouts, bullet points in a bio, or a pair of bubbles meant to look like a back-and-forth dialogue."
+  ],
+  "contexts": [
+    { "label": "In captions and bios", "body": "It works as a tidy label: “🗨️ DMs open,” “🗨️ English / Español,” “🗨️ ask me about sourdough.” Because it is an outline, it blends with other line-style symbols in a profile. Creators also drop it at the end of a post to invite comments, in exactly the way they use 💬." },
+    { "label": "For quotes and dialogue", "body": "Writers, quote pages and teachers use it to introduce spoken lines. Alternating 🗨️ and 💬, or 🗨️ and 🗯️, gives a quick visual of two voices in a conversation or an argument. Language learners use it to mark speaking practice, as distinct from reading or writing tasks." },
+    { "label": "At work", "body": "In documents, agendas and chat tools it flags discussion points, feedback requests and comment threads. It is neutral and easy to read as an icon, which makes it safe in professional settings. Some teams adopt it as the tag for “needs conversation” in task lists and project boards." },
+    { "label": "In texting", "body": "It is rare in personal messages. When it does appear it means “let's talk” or “your turn to speak.” Because some phones show it as a faint monochrome glyph, the recipient may not notice it, which is one reason everyday texters prefer the bolder speech balloon." }
+  ],
+  "examples": [
+    { "text": "🗨️ “The best time to plant a tree was 20 years ago.”", "meaning": "The bubble introduces a quotation." },
+    { "text": "🗨️ Comments open, be nice", "meaning": "Inviting followers to join the discussion." },
+    { "text": "Agenda: 🗨️ budget, 🗨️ hiring, 🗨️ offsite", "meaning": "Each bubble marks a topic for conversation." },
+    { "text": "🗨️ Hola, ¿cómo estás? 💬 Bien, ¿y tú?", "meaning": "Two different bubbles show two speakers in a practice dialogue." },
+    { "text": "Call me when you can 🗨️", "meaning": "A request to talk." },
+    { "text": "🗨️ English, Français, Deutsch", "meaning": "Listing the languages someone speaks." }
+  ],
+  "combos": [
+    { "combo": "🗨️💬", "meaning": "A back-and-forth conversation between two people." },
+    { "combo": "🗨️🗯️", "meaning": "A calm remark answered by an angry outburst; an argument." },
+    { "combo": "👁️🗨️", "meaning": "The parts of the witness emoji, shown separately when the combined version is unsupported." },
+    { "combo": "🗨️✍️", "meaning": "Speaking and writing, or leaving a written comment." }
+  ],
+  "confusedWith": [
+    { "slug": "speech-balloon", "difference": "💬 is the mainstream speech bubble, usually filled and sometimes drawn with three typing dots. 🗨️ is an outline with a left-side tail and no dots. Their meanings are the same; the difference is style and popularity." },
+    { "slug": "eye-in-speech-bubble", "difference": "👁️‍🗨️ contains this bubble with an eye inside and carries a specific anti-bullying meaning. The empty 🗨️ has no such message. Seeing the two halves side by side usually means a display problem, not a new symbol." },
+    { "slug": "thought-balloon", "difference": "💭 is a cloud shape with trailing circles for silent thoughts and daydreams. 🗨️ has a straight pointed tail and stands for words actually spoken or posted." }
+  ],
+  "avoid": [
+    "Do not rely on it where visibility matters, since it can render as a faint black outline.",
+    "Avoid treating it as different in meaning from 💬; readers will not pick up a distinction.",
+    "Skip it when you want to show emotion, because it conveys none."
+  ],
+  "design": "A rectangular or rounded speech bubble drawn mostly as an outline, with a small tail at the lower left. Apple shows it in grey and white; other vendors use dark outlines or a flat fill. Without the emoji variation selector it can fall back to a monochrome text glyph. Its unadorned style reflects its origin as a symbol-font icon.",
+  "faqs": [
+    { "q": "What is the difference between 🗨️ and 💬?", "a": "Functionally nothing: both mean speech, messages or comments. 💬 is older as an emoji, more colorful and far more widely used. 🗨️ is a simpler outline with its tail on the left, and it is also a component of the eye-in-speech-bubble emoji." },
+    { "q": "Why is it called the left speech bubble?", "a": "Because the tail points to the left, indicating a speaker on that side. Unicode also defines a right speech bubble and other directional bubbles as text symbols, though those were not made into emojis." },
+    { "q": "Why does 🗨️ look black and white on my device?", "a": "The character defaults to text style on many systems. It needs an extra, invisible code to request the colorful emoji version. If an app leaves that out or does not honor it, you see a plain outline glyph." },
+    { "q": "Does 🗨️ have a hidden or slang meaning?", "a": "No. It is one of the most literal emojis and simply indicates talking or commenting. Any deeper meaning comes from pairing it with other symbols, most notably the eye in 👁️‍🗨️." },
+    { "q": "When was the left speech bubble added?", "a": "It was recognized as an emoji in 2015. The underlying symbol had been encoded a little earlier with a large set of pictographs from legacy fonts, which is why it resembles an office icon." }
+  ],
+  "related": ["speech-balloon", "eye-in-speech-bubble", "right-anger-bubble", "thought-balloon", "speaking-head", "memo"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "syringe",
+  "title": "Syringe Emoji 💉 Meaning: Vaccines, Blood Tests, Tattoos",
+  "description": "The 💉 syringe emoji means a shot, vaccine or blood test, and is also used for tattoos, fillers and drug references. Learn each meaning and the redesign story.",
+  "summary": "The 💉 syringe emoji shows a medical needle. It means an injection of any kind: vaccines, flu shots, blood draws, insulin, IV treatment. Tattoo fans use it for new ink, cosmetic clinics for fillers, and it can refer to injected drugs. During the pandemic it became the symbol of getting vaccinated.",
+  "meaning": [
+    "Medical use comes first. People post 💉 before a blood test, after a flu shot, while managing diabetes or when a child faces school vaccinations. Nurses, phlebotomists and lab workers use it as a job badge. Blood donation drives rely on it together with the drop of blood emoji, and a nervous face beside it tells you the sender dislikes needles.",
+    "The COVID-19 vaccine rollout changed how the emoji was seen. In 2021 people around the world announced their appointments with 💉 and a flexed arm or a bandage. Apple redesigned its syringe that year, removing the red blood that used to fill the barrel and drip from the tip so that the image would suit vaccination better; other vendors made similar changes. The older, bloodier look survives in screenshots.",
+    "Tattoo culture adopted the syringe long before a dedicated symbol was available, and there still is no tattoo machine emoji. “Booked 💉” or “fresh ink 💉” on an artist's page means a tattoo, not a medical visit. Cosmetic injectors use it in the same shorthand way for Botox and lip filler, usually alongside lips or sparkles.",
+    "It can also point to drugs. In discussions of addiction it stands for injected substances such as heroin, and in bodybuilding circles it hints at steroids or other performance enhancers, often in accusations that a physique is not “natty.” Fans sometimes say a show, song or snack should be “injected straight into my veins 💉,” an exaggerated way of saying they want more of it immediately."
+  ],
+  "contexts": [
+    { "label": "In health posts", "body": "Clinics announce vaccine availability with it, and patients share milestones in treatment: the last round of fertility injections, a monthly biologic, a booster. Chronic illness communities use it matter-of-factly. Public health campaigns pair it with a shield or flexed bicep to frame vaccination as protection and strength." },
+    { "label": "On TikTok and Instagram", "body": "Tattoo artists and collectors use 💉 in captions and booking notices. Aesthetic nurses advertise injectables with it. In fan communities, the “inject it” joke shows up under trailers and album teasers. Fitness commentary uses it as a wink about steroid use." },
+    { "label": "In texting", "body": "It reports appointments and dread: “blood work at 8 💉😖.” Parents use it when scheduling kids' shots. Friends ask “did it hurt? 💉” after someone gets a tattoo. Most text uses are literal and need no interpretation beyond knowing whether the person is at a clinic or a tattoo studio." },
+    { "label": "At work", "body": "Healthcare staff use it in shift chat for vaccination clinics, blood rounds and medication schedules. Workplaces organizing flu shot days put it on reminders. In other industries it is uncommon, and the “inject this into my veins” joke belongs in casual channels only." }
+  ],
+  "examples": [
+    { "text": "Flu shot done 💉💪", "meaning": "Announcing a completed vaccination." },
+    { "text": "Fasting blood test tomorrow 💉 no coffee for me", "meaning": "Mentioning an upcoming blood draw." },
+    { "text": "Sleeve session number three on Saturday 💉🖤", "meaning": "Looking forward to a tattoo appointment." },
+    { "text": "New season trailer?? Inject it into my veins 💉", "meaning": "Expressing intense eagerness for something." },
+    { "text": "No way that's natural 💉", "meaning": "Implying someone's muscles come from steroids." },
+    { "text": "I hate needles so much 💉😰", "meaning": "Admitting fear of an injection." }
+  ],
+  "combos": [
+    { "combo": "💉💪", "meaning": "Vaccinated, or a shot in the arm; in fitness talk, a steroid hint." },
+    { "combo": "💉🩸", "meaning": "A blood test or blood donation." },
+    { "combo": "💉🩹", "meaning": "A shot followed by a bandage: the standard vaccination pair." },
+    { "combo": "💉🖤", "meaning": "A new tattoo." }
+  ],
+  "confusedWith": [
+    { "slug": "pill", "difference": "The 💊 pill covers medicine that is swallowed, along with slang like “chill pill.” 💉 is for anything delivered or drawn by needle, and for tattoos." },
+    { "slug": "drop-of-blood", "difference": "The 🩸 drop of blood refers to blood itself: donation, injury or menstruation. The syringe refers to the procedure, and since its redesign it no longer shows blood on most platforms." },
+    { "slug": "adhesive-bandage", "difference": "The 🩹 adhesive bandage marks the aftermath, a small wound or recovery. It often follows 💉 in vaccine posts but can't stand in for the injection." }
+  ],
+  "avoid": [
+    "Don't send 💉 as a joke to someone with a needle phobia or a history of addiction.",
+    "Avoid implying steroid use with 💉 about a named person unless you are prepared to be called out for the accusation."
+  ],
+  "design": "The emoji is a hypodermic syringe drawn diagonally with the needle pointing down or up, a clear barrel with measurement marks and a plunger. Since 2021 Apple's barrel holds a colorless or pale liquid instead of blood, and most other platforms likewise show a neutral or light blue fill. Earlier versions were red with a drop at the tip.",
+  "faqs": [
+    { "q": "What does 💉 mean in a text?", "a": "Usually a medical injection: a vaccine, blood test or treatment. Depending on the sender it may also mean a tattoo appointment or a cosmetic procedure. Context makes the difference clear." },
+    { "q": "Why did the syringe emoji change?", "a": "Apple updated it in 2021 to remove the blood so it would work for vaccination as well as blood draws. Other platforms adopted similar neutral designs around that time." },
+    { "q": "Does 💉 mean tattoo?", "a": "Often, yes. With no tattoo machine in the emoji set, the syringe became the community's stand-in. On an artist's profile or next to words like “ink” and “session,” that is the meaning." },
+    { "q": "Does the syringe emoji refer to drugs?", "a": "It can refer to injected drugs or to steroids in fitness talk. These are minority uses, and the emoji appears far more often in ordinary medical and tattoo conversations." },
+    { "q": "What does “inject it into my veins 💉” mean?", "a": "It is a hyperbolic expression of craving, used when someone loves a piece of news, music or entertainment so much that they want it instantly and directly. No literal injection is implied." }
+  ],
+  "related": ["pill", "drop-of-blood", "adhesive-bandage", "stethoscope", "face-with-medical-mask", "flexed-biceps"]
+}

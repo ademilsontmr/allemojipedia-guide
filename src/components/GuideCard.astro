@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from "astro:content";
+interface Props { guide: CollectionEntry<"guides"> }
+const { guide } = Astro.props;
+---
+<a class="linkcard" href={`/guides/${guide.id}/`}>
+  <span class="em" aria-hidden="true">{guide.data.heroEmoji}</span>
+  <strong>{guide.data.title}</strong>
+  <span class="desc">{guide.data.excerpt}</span>
+  <span class="meta">{guide.data.category} guide</span>
+</a>

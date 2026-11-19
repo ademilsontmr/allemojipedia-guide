@@ -1,0 +1,56 @@
+{
+  "slug": "fearful-face",
+  "title": "Fearful Face Emoji 😨 Meaning: Why Is Its Forehead Blue?",
+  "description": "The 😨 fearful face emoji means scared, shocked or dreading what comes next. Learn why its forehead is blue and how it differs from 😰 and 😱 in everyday texts.",
+  "summary": "The 😨 fearful face has wide eyes, raised brows, an open frown and a forehead shaded blue. It means fear or dread: being spooked by a noise, horrified by news, or nervous about something coming up. The blue tint is a comic-book way of showing the blood draining from someone's face.",
+  "meaning": [
+    "Fear in emoji form comes in three strengths. 😨 is the baseline: scared and showing it. 😰 adds a sweat drop for prolonged anxiety, and 😱 clutches its cheeks and screams. Choosing 😨 says the sender is frightened or deeply uneasy but still holding together, which suits horror movies, strange sounds at night and creepy stories.",
+    "The blue forehead comes from Japanese manga and anime, where a face turning blue or developing dark vertical lines shows a character going pale with shock. That convention carried over when emoji from Japanese phone carriers were standardized in 2010. English speakers sometimes misread the color as cold or sickness, but the intended meaning is “the color drained from my face.”",
+    "Day to day, the fear is usually mild or exaggerated. People attach 😨 to dentist appointments, exam results, spiders in the bathtub and the phrase “my mom just called me by my full name.” It also registers shock at disturbing information, close to a wide-eyed “that's terrifying.” Sarcastic use exists, as in pretending to be afraid of an empty threat, but sincerity is more common."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It marks things the sender is dreading or was startled by. “Results come out tomorrow 😨” is nervous anticipation; “something just moved in the attic 😨” is closer to real fright. As a reply to someone else's story, it shows you find it scary or alarming on their behalf."
+    },
+    {
+      "label": "On social media",
+      "body": "Expect it under ghost videos, near-miss dashcam clips, deep-sea creatures and unsettling facts. Around Halloween it joins 👻 and 🎃 in captions for haunted houses and horror-film marathons. Gamers use it for jump scares and for the moment a difficult boss appears."
+    },
+    {
+      "label": "At work",
+      "body": "Light use is fine among colleagues, such as dreading a presentation or an overflowing inbox after vacation. It is better not to send it about a project's status to anyone who depends on you, because visible fear without explanation makes people assume the worst."
+    }
+  ],
+  "examples": [
+    { "text": "Did you hear that noise downstairs? 😨", "meaning": "The sender is spooked and wants company or reassurance." },
+    { "text": "My boss wants to “have a quick chat” at 4 😨", "meaning": "Dread about a meeting that might be bad news." },
+    { "text": "Just watched the trailer alone at midnight. Mistake 😨", "meaning": "Scared by a horror film, and half joking about it." },
+    { "text": "There are HOW many bacteria on a phone screen 😨", "meaning": "Horrified by an unsettling fact." },
+    { "text": "Ooh I'm so scared 😨", "meaning": "Sarcasm: mocking a threat the sender does not take seriously." },
+    { "text": "Turbulence the entire flight 😨 never again", "meaning": "Describing a frightening experience that just ended." }
+  ],
+  "combos": [
+    { "combo": "😨👻", "meaning": "Spooked by something ghostly, or setting a Halloween mood." },
+    { "combo": "😨🕷️", "meaning": "A spider has been sighted and the sender is not handling it well." },
+    { "combo": "😨😰😱", "meaning": "Fear escalating step by step from nervous to full panic." }
+  ],
+  "confusedWith": [
+    { "slug": "anxious-face-with-sweat", "difference": "😰 has the same blue forehead plus a bead of sweat, pointing to ongoing stress and nerves. 😨 has no sweat and fits a sudden scare or a feeling of dread." },
+    { "slug": "face-screaming-in-fear", "difference": "😱 holds its face and screams, and is used for dramatic shock of any kind, including excitement. 😨 is quieter and more specifically about being afraid." },
+    { "slug": "cold-face", "difference": "🥶 is blue all over with icicles and gritted teeth, and means freezing. Only the forehead of 😨 is blue, and it signals fright, not temperature." }
+  ],
+  "avoid": [
+    "Do not use it to say you are cold or sick; readers familiar with the emoji will think you are frightened.",
+    "Avoid it when someone tells you about their own serious situation, where your fear can add to theirs.",
+    "Leave it out of formal status updates and messages to clients."
+  ],
+  "design": "A yellow face with wide eyes, high raised eyebrows and an open, frowning mouth. The upper part of the head fades to blue, a shorthand from Japanese comics for turning pale with fright. All major vendors keep the blue gradient; they differ slightly in how far down the face it extends and how large the eyes are drawn.",
+  "faqs": [
+    { "q": "Why is the fearful face emoji blue on top?", "a": "The blue shading represents the blood draining from a frightened person's face. It is a visual convention from Japanese manga and anime, where characters turn blue or gray when they are shocked, horrified or filled with dread." },
+    { "q": "What is the difference between 😨 and 😰?", "a": "The sweat drop. 😰 looks anxious and under pressure, like someone waiting on results or running late. 😨 is plain fear or shock without the sweat. They overlap, and many people use them interchangeably." },
+    { "q": "Does 😨 mean cold?", "a": "No. Some people assume so because of the blue color, but the emoji was designed to show fear. If you want to say you are freezing, 🥶 is the one to use." },
+    { "q": "Is 😨 stronger than 😱?", "a": "No, it is milder. 😱 is a full scream and is often used playfully for big surprises. 😨 is the more restrained and more literal expression of being scared or deeply uneasy." }
+  ],
+  "related": ["anxious-face-with-sweat", "face-screaming-in-fear", "anguished-face", "worried-face", "ghost", "grimacing-face"]
+}

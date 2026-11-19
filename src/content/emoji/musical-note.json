@@ -1,0 +1,49 @@
+{
+  "slug": "musical-note",
+  "title": "Musical Note Emoji 🎵 Meaning: Songs, Sounds and Lyrics",
+  "description": "The 🎵 musical note emoji marks a song, a sound or a sung line. See how it differs from 🎶, why TikTok made it familiar, and how to use it in texts and posts.",
+  "summary": "The 🎵 musical note emoji is a single eighth note. It signals music: a song being shared, lyrics being quoted, a tune stuck in someone's head, or a sing-song tone of voice. It also labels audio tracks and sounds in apps, most visibly on TikTok.",
+  "meaning": [
+    "Put a 🎵 on each side of a sentence and readers hear it sung. That convention is the emoji's core use: it turns text into a lyric, real or invented. People quote choruses this way, and they also use it for made-up jingles, as in “🎵 it's Friday and I'm leaving early 🎵.” Subtitles and captions for deaf and hard-of-hearing viewers use a similar note symbol to show that music is playing or that a line is sung.",
+    "It also names a track. “🎵 Dreams, Fleetwood Mac” in a story or caption credits the song in the background. Streaming screenshots, playlists and “now playing” posts lean on it. On TikTok and Instagram Reels, the audio attached to a video is shown with a small note icon, so 🎵 has come to mean “the sound” itself, and creators write “use this 🎵” to push a track.",
+    "A single note can set a tone of voice. Added to a sentence, it suggests a lilting, teasing delivery: “someone's in trouble 🎵.” Compared with the multi-note emoji it is slightly calmer and more label-like. Many people treat the two as the same thing and pick whichever they see first.",
+    "Musicians, teachers and students use it literally for notation, practice and lessons. It is one of the oldest emojis in the set and has no slang or suggestive meaning at all, which makes it safe in any setting where music itself is welcome, from a kindergarten newsletter to a concert hall program."
+  ],
+  "contexts": [
+    { "label": "In captions", "body": "Song credits are the standard job: the note, then title and artist. Concert photos, dance videos and playlists take it as a category marker. Artists announcing a single use it with a release date, and fans use it when sharing what they have on repeat." },
+    { "label": "On TikTok and Instagram", "body": "The note is tied to the audio feature. “Original sound 🎵,” “this 🎵 is everywhere” and “who made this 🎵?” all refer to the clip's soundtrack. Trend roundups list popular sounds with it. Music promoters place it in comments to steer viewers toward the track link." },
+    { "label": "In texting", "body": "Wrapping words in notes makes them sung, which friends use for jokes, birthday wishes and mock taunts. “🎵 happy birthday to you 🎵” is the classic. A single trailing note can soften a message, giving it a breezy, humming quality." },
+    { "label": "In school and lessons", "body": "Music teachers put it on practice reminders, recital notices and theory worksheets. Choirs and bands use it in group chats for rehearsal schedules. Parents use it when posting a child's first piano performance. Here it simply means “music class” and nothing more." }
+  ],
+  "examples": [
+    { "text": "🎵 Don't stop believin' 🎵", "meaning": "Quoting a song lyric as if singing it." },
+    { "text": "🎵 Espresso, Sabrina Carpenter", "meaning": "Crediting the song used in a post." },
+    { "text": "This 🎵 has been stuck in my head for three days", "meaning": "A tune the sender can't stop replaying mentally." },
+    { "text": "🎵 somebody forgot to do the dishes 🎵", "meaning": "A teasing, sing-song complaint." },
+    { "text": "Recital Sunday at 3 🎵", "meaning": "A reminder about a music performance." },
+    { "text": "Use this 🎵 for your next video", "meaning": "Recommending an audio track to other creators." }
+  ],
+  "combos": [
+    { "combo": "🎧🎵", "meaning": "Listening to music through headphones." },
+    { "combo": "🎵❤️", "meaning": "Loving a song, or a track that reminds the sender of someone." },
+    { "combo": "🎤🎵", "meaning": "Singing or karaoke." },
+    { "combo": "🎵💃", "meaning": "Music that makes you dance." }
+  ],
+  "confusedWith": [
+    { "slug": "musical-notes", "difference": "The 🎶 musical notes emoji shows several notes together and suggests a melody in full flow, singing or livelier music. 🎵 is one note, a touch more neutral, and is the closer match to app audio icons." },
+    { "slug": "musical-score", "difference": "The 🎼 musical score shows a staff with a treble clef. It points to written music, composition and classical training, where 🎵 is casual and general." },
+    { "slug": "headphone", "difference": "The 🎧 headphone is about the act of listening. The note is about the music itself, so the two are frequently paired but mean different parts of the experience." }
+  ],
+  "avoid": [
+    "Don't wrap a serious or sad message in 🎵; the sing-song effect makes it sound mocking.",
+    "Avoid posting long song lyrics between notes on public pages where copyright rules apply."
+  ],
+  "design": "The glyph is a single eighth note, a filled oval head with a stem and a flag. Platforms differ in color: black or dark gray on some, blue, purple or pink on others, and Microsoft has used its own tints. A few vendors have at times shown a beamed pair instead. No staff lines are included.",
+  "faqs": [
+    { "q": "What is the difference between 🎵 and 🎶?", "a": "🎵 is one note and 🎶 is a group. In practice they are interchangeable. Some people reserve the single note for naming a track and the multiple notes for singing or a festive, musical atmosphere." },
+    { "q": "What does 🎵 mean on TikTok?", "a": "It refers to a video's sound. TikTok displays audio with a note icon, so users write 🎵 when discussing, crediting or recommending the song or clip playing in the background." },
+    { "q": "What does it mean when text is between two 🎵 emojis?", "a": "The words are meant to be read as sung. They may be actual lyrics or a line the sender invented and wants you to imagine set to a tune." },
+    { "q": "What does 🎵 mean from a guy or girl?", "a": "They are sharing a song, quoting one or being playful. If they send a specific track with it, the song may say something they want you to hear, so the title is worth a look." }
+  ],
+  "related": ["musical-notes", "musical-score", "headphone", "microphone", "guitar", "woman-dancing"]
+}

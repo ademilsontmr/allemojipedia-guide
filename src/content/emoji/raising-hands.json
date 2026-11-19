@@ -1,0 +1,58 @@
+{
+  "slug": "raising-hands",
+  "title": "Raising Hands Emoji 🙌 Meaning: Celebration and Praise",
+  "description": "🙌 means hooray, yes! or praise: two hands thrown up in celebration. Find out how it differs from clapping and praying hands and where it fits best.",
+  "summary": "The 🙌 raising hands emoji means celebration, joy or praise. It is the gesture of throwing both hands in the air: hooray, finally, we did it. People also use it to show enthusiastic support for someone, to say “hallelujah,” and occasionally as a stand-in for a high five.",
+  "meaning": [
+    "Think of the moment a crowd's arms go up when the home team scores. That is what 🙌 captures. It marks victories and relief: the exam is over, the offer came through, Friday arrived. The feeling is shared excitement, and the sender is usually celebrating with you rather than evaluating you from a distance.",
+    "A second strand is praise in the religious and near-religious sense. The pose matches hands lifted in worship, so it accompanies “thank God,” “blessed” and “hallelujah” in sincere posts. The nickname “praise hands” carries that meaning over to secular things as well. People praise good coffee, a perfect parking spot or a favorite singer's return with the same raised palms.",
+    "Like 🙏, this emoji has roots in Japanese emoji sets, where the gesture represents banzai, the arms-up cheer shouted at celebrations. Outside Japan few people know that, and the Western readings of hooray and praise took over completely. It also gets used as agreement in comment threads, a wordless “yes, this” under a statement someone strongly supports."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It answers good news fast. A friend texts that the lease was approved or the test came back clear, and 🙌 says everything needed. It also expresses relief at small mercies: a canceled meeting, a refund, an early finish. Used after someone agrees to a plan, it shows the sender is genuinely pleased, not just confirming."
+    },
+    {
+      "label": "On social media",
+      "body": "Captions use it to punctuate achievements and gratitude, often alongside “blessed” or a milestone number. In comments it supports the poster: a way to cheer for a friend's announcement or back an opinion. Faith-based accounts use it literally as worship, and fitness and motivation accounts use it for personal bests."
+    },
+    {
+      "label": "At work",
+      "body": "A reliable choice in team channels for shipped projects, closed deals and welcome messages. It feels more energetic than a thumbs up and less formal than applause. Since it expresses shared excitement, it works well when the win belongs to the group, and it rarely risks being misread as sarcasm."
+    }
+  ],
+  "examples": [
+    { "text": "Last final is DONE 🙌", "meaning": "Relief and celebration at finishing something difficult." },
+    { "text": "Rent's covered and I still have grocery money 🙌", "meaning": "A small financial win treated as worth cheering." },
+    { "text": "She said yes 🙌🙌", "meaning": "Big, happy news shared with excitement." },
+    { "text": "Tacos tonight? 🙌", "meaning": "Enthusiastic approval of a plan the sender is looking forward to." },
+    { "text": "Scans came back clear. God is good 🙌", "meaning": "Thankful praise in a religious sense after a worrying wait." },
+    { "text": "This. All of this 🙌", "meaning": "Strong agreement with what someone just posted or said." }
+  ],
+  "combos": [
+    { "combo": "🙌🎉", "meaning": "Full celebration mode for a milestone, announcement or party." },
+    { "combo": "🙌🙏", "meaning": "Praise and gratitude together, common in faith-related or deeply thankful posts." },
+    { "combo": "🙌🔥", "meaning": "Hyping something impressive: a performance, a result or a look." },
+    { "combo": "😭🙌", "meaning": "So happy or relieved it is overwhelming; tears-of-joy celebration." }
+  ],
+  "confusedWith": [
+    { "slug": "clapping-hands", "difference": "👏 is applause for someone else's accomplishment. 🙌 is a cheer the sender takes part in, or praise lifted upward. Both congratulate, but clapping watches from the audience and raising hands joins the celebration." },
+    { "slug": "folded-hands", "difference": "🙏 is palms pressed together for thanks, prayer or pleading. 🙌 is palms open and raised in joy. Both can be religious: folded hands ask or give thanks quietly, raised hands rejoice out loud." },
+    { "slug": "open-hands", "difference": "👐 shows two open palms side by side at chest height, read as openness, a hug or jazz hands. 🙌 has the hands lifted overhead with marks suggesting motion, and its meaning is specifically celebration." }
+  ],
+  "avoid": [
+    "Do not send it in reply to bad news or a serious apology, where a cheer looks like you are glad about the problem.",
+    "Avoid it when someone's good news comes at another person's expense in the same conversation.",
+    "Do not rely on it as a high five with people who may not read it that way; ✋ is clearer."
+  ],
+  "design": "Two hands raised with palms facing outward, usually with short lines above or between them to suggest motion or a shout. Apple, Google, Samsung and Microsoft all draw just the hands, though the tilt and the style of the motion marks vary. It defaults to yellow and takes skin tone modifiers.",
+  "faqs": [
+    { "q": "Does 🙌 mean high five?", "a": "Not officially. It shows one person raising both hands in celebration. Some people do use it for a high five or double high five, and context usually makes that understandable, but ✋ is the more accurate choice." },
+    { "q": "What does 🙌 mean from a guy or a girl?", "a": "It means they are happy or excited about what you said, or agreeing wholeheartedly. It is friendly and supportive, not romantic by itself. After you share good news, it is a sign they are cheering for you." },
+    { "q": "Is 🙌 a religious emoji?", "a": "It can be. Many Christians use it as hands lifted in worship, alongside phrases such as “praise God.” It is equally common in everyday celebration with no religious meaning at all, so the surrounding words tell you which is intended." },
+    { "q": "What is the difference between 🙌 and 👏?", "a": "🙌 celebrates, often something you share in or feel personally. 👏 applauds another person's effort. For your friend's promotion either works; for your own long-awaited vacation, raised hands is the natural pick." },
+    { "q": "Where does the raising hands emoji come from?", "a": "It was carried over from Japanese mobile emoji, where the gesture stands for banzai, a traditional cheer with both arms raised. It became part of Unicode's first emoji release in 2010 and quickly took on the hooray and praise meanings used worldwide." }
+  ],
+  "related": ["clapping-hands", "folded-hands", "party-popper", "partying-face", "flexed-biceps", "sparkles"]
+}

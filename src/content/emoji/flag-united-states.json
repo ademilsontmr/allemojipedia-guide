@@ -1,0 +1,107 @@
+{
+  "slug": "flag-united-states",
+  "title": "🇺🇸 US Flag Emoji Meaning: Stars, Stripes and Memes",
+  "description": "The US flag emoji 🇺🇸 stands for the United States: July 4, Team USA, hometown pride and ironic patriotism memes. See its design, uses and look-alikes.",
+  "summary": "The 🇺🇸 emoji is the flag of the United States, the Stars and Stripes. It marks American identity, national holidays like the Fourth of July, Team USA at the Olympics and World Cup, and anything made in or shipped from America. Online it is also the centerpiece of loud, self-aware patriotism jokes.",
+  "meaning": [
+    "On any given day 🇺🇸 does several unrelated jobs. It is a location tag for travelers landing at JFK, a nationality marker in bios, a label for US editions and prices, and a cheer for American athletes. Around Memorial Day, Flag Day, the Fourth of July, and Veterans Day it turns ceremonial, attached to photos of cookouts, parades, fireworks, and tributes to service members.",
+    "There is a heavily ironic strain as well. Meme culture pairs 🇺🇸 with a bald eagle and all-caps bravado to parody American excess: giant portions, monster trucks, refusing the metric system. Americans post these jokes about themselves as often as foreigners post them about Americans, and the humor depends on the exaggeration. A bare 🇺🇸 under a video of a deep-fried stick of butter is commentary, not a civics lesson.",
+    "The flag is also political shorthand. In the United States, people across the spectrum put 🇺🇸 in display names and bios to signal patriotism, and the emoji appears thickly around elections, military news, and debates about national identity. Because Americans of opposing views all claim the flag, it does not reliably identify a party or position on its own; surrounding words and other symbols do that work.",
+    "The real flag has thirteen alternating red and white stripes for the original colonies and a blue canton with fifty white stars, one per state. The fifty-star version has flown since 1960, after Hawaii's admission. Americans call it the Stars and Stripes or Old Glory, and a federal Flag Code lays out customs for displaying the cloth version, though the emoji is used far more casually."
+  ],
+  "contexts": [
+    {
+      "label": "On national holidays",
+      "body": "July 4 is the emoji's biggest day, usually alongside fireworks, hot dogs, and red-white-and-blue outfits. Memorial Day and Veterans Day posts use it more solemnly to honor military service. Thanksgiving, though thoroughly American, tends to get turkeys and leaves instead of the flag."
+    },
+    {
+      "label": "In sports",
+      "body": "Team USA coverage at the Olympics, the Women's World Cup, the Ryder Cup, and the World Baseball Classic runs on 🇺🇸. Fans use it for medal counts and “U-S-A” chants, and broadcasters use it as a compact country label in scores and lineups next to other nations' flags."
+    },
+    {
+      "label": "In bios and travel",
+      "body": "Expats, immigrants, and dual citizens often show 🇺🇸 beside a second flag to describe a split identity, such as 🇲🇽🇺🇸 or 🇺🇸🇵🇭. Travelers use it for trip announcements, and online sellers use it to indicate US shipping, sizing, or dollar pricing."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Burgers on the grill, fireworks at 9 🇺🇸🎆",
+      "meaning": "A Fourth of July celebration invitation."
+    },
+    {
+      "text": "GOLD in the 4x100!! 🇺🇸🇺🇸🇺🇸",
+      "meaning": "Celebrating an American Olympic relay victory."
+    },
+    {
+      "text": "Landed in Chicago, where's the deep dish 🇺🇸",
+      "meaning": "A visitor announcing arrival in the United States."
+    },
+    {
+      "text": "Gas station sells a 64 oz soda and I respect it 🇺🇸🦅",
+      "meaning": "Ironic pride in a stereotypically American excess."
+    },
+    {
+      "text": "Born in Manila, raised in Jersey 🇵🇭🇺🇸",
+      "meaning": "Describing a Filipino American background."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇺🇸🎆",
+      "meaning": "Independence Day festivities."
+    },
+    {
+      "combo": "🇺🇸🦅",
+      "meaning": "Over-the-top patriotism, sincere or, more often online, parodied."
+    },
+    {
+      "combo": "🇺🇸🥇",
+      "meaning": "An American gold medal or first-place finish."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-liberia",
+      "difference": "🇱🇷 Liberia's flag was modeled on the American one and looks very similar at small sizes, but it has eleven stripes and a single white star in its blue canton."
+    },
+    {
+      "slug": "flag-malaysia",
+      "difference": "🇲🇾 Malaysia also has red and white stripes with a blue canton. Its canton holds a yellow crescent and a fourteen-point star, and there are fourteen stripes."
+    },
+    {
+      "slug": "flag-us-outlying-islands",
+      "difference": "🇺🇲 is the emoji for the US Outlying Islands, remote territories with no flag of their own, so platforms draw it as the same Stars and Stripes. It is easy to pick by mistake from a keyboard."
+    }
+  ],
+  "avoid": [
+    "Do not use it as a generic “English language” icon when your audience includes British, Australian, or other English speakers who may find it exclusionary.",
+    "Avoid the eagle-and-flag meme tone in posts about real military casualties or national tragedies."
+  ],
+  "design": "Every vendor draws the same elements: thirteen red and white stripes and a blue rectangle of white stars in the upper hoist corner, though at emoji size the fifty stars are simplified to dots or a reduced grid. Apple and Google render a waving flag; some other sets use a flat rectangle. Windows does not draw country flags at all and displays the letters US.",
+  "faqs": [
+    {
+      "q": "How is the US flag emoji made?",
+      "a": "It is a pair of regional indicator letters, U and S, matching the country code US. Phones and most apps recognize the pair and replace it with a flag. Delete once and you may see a single boxed letter left behind."
+    },
+    {
+      "q": "Why does the American flag emoji show as “US” on my computer?",
+      "a": "Windows does not include pictures for country flags in its emoji font, so it falls back to the two letters. Some browsers and apps, such as those that ship their own emoji images, show the flag anyway."
+    },
+    {
+      "q": "What does 🇺🇸 mean in a bio?",
+      "a": "Usually that the person is American, lives in the United States, or wants to express patriotism. Next to another country's flag it typically describes heritage or dual nationality. Any political meaning has to be read from the rest of the profile."
+    },
+    {
+      "q": "When was the US flag emoji added?",
+      "a": "It was one of the small group of country flags in the first standard emoji set of 2010, carried over from Japanese mobile phones. Most other national flags did not arrive until several years later."
+    }
+  ],
+  "related": [
+    "flag-canada",
+    "flag-mexico",
+    "flag-puerto-rico",
+    "fireworks",
+    "statue-of-liberty",
+    "eagle"
+  ]
+}

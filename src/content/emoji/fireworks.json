@@ -1,0 +1,56 @@
+{
+  "slug": "fireworks",
+  "title": "Fireworks Emoji 🎆 Meaning: New Year, July 4th & Sparks",
+  "description": "The 🎆 fireworks emoji marks big celebrations: New Year’s Eve, the Fourth of July, Diwali and Bonfire Night. It can also mean chemistry between two people.",
+  "summary": "The 🎆 fireworks emoji shows a burst of fireworks in a night sky. It stands for large public celebrations such as New Year’s Eve, Independence Day, Diwali and festivals. Figuratively it describes a spectacular success, or strong romantic chemistry, as in “there were fireworks.”",
+  "meaning": [
+    "Fireworks belong to nights when whole cities celebrate, and the emoji follows the calendar accordingly. Its use spikes at midnight on December 31, again on the Fourth of July in the United States, and around Diwali, Bonfire Night in Britain, Bastille Day in France and Lunar New Year. People attach it to greetings, countdowns and photos of the display itself.",
+    "As a metaphor it means something dazzling. A product launch, a winning goal or a triumphant performance can be described with 🎆, suggesting a bigger and more public success than confetti would. It can also promise drama: “expect fireworks at that meeting” warns that tempers will flare, with the same explosive imagery used in a less cheerful sense.",
+    "Romance has its own version. “Fireworks” has long described the spark of a first kiss or instant attraction, and the emoji illustrates it in date recaps and anniversary posts. That use is suggestive only in the mildest way. It has no slang meaning beyond these, and its night-sky background makes it feel like an occasion, not something for daily chatter."
+  ],
+  "contexts": [
+    {
+      "label": "On holidays",
+      "body": "New Year’s Eve is the peak, with 🎆 in midnight texts worldwide. Americans use it with the flag on July 4, and it accompanies lamp and sparkler emojis for Diwali. It suits any national day or festival that ends with a display, and photographers use it to caption their long-exposure shots."
+    },
+    {
+      "label": "In texting",
+      "body": "Outside holidays it celebrates something grand: “we did it 🎆” after a major result. Friends use it to describe a show, concert finale or theme-park night. It may also preview conflict, as in “those two in the same room? 🎆.” The surrounding words tell you whether to expect joy or an argument."
+    },
+    {
+      "label": "From a crush",
+      "body": "After a date, 🎆 is a strong, happy signal. It says the chemistry was obvious and the evening felt special. “That kiss 🎆” leaves little doubt. Because the image is celebratory and not explicit, it is a comfortable way to express attraction without overstating things."
+    }
+  ],
+  "examples": [
+    { "text": "Happy New Year!! 🎆🥂", "meaning": "A midnight greeting welcoming the new year." },
+    { "text": "Rooftop for the 4th, best view of the show 🎆🇺🇸", "meaning": "Planning to watch Independence Day fireworks." },
+    { "text": "Last night was… 🎆", "meaning": "The date went wonderfully and there was real chemistry." },
+    { "text": "Happy Diwali to you and yours 🪔🎆", "meaning": "A festival greeting for the celebration of lights." },
+    { "text": "If he brings that up at dinner there will be 🎆", "meaning": "Predicting a heated argument." },
+    { "text": "Sold out in ten minutes 🎆", "meaning": "Celebrating a spectacular success." }
+  ],
+  "combos": [
+    { "combo": "🎆🥂", "meaning": "Toasting at midnight; New Year’s Eve celebrations." },
+    { "combo": "🎆🇺🇸", "meaning": "Fourth of July fireworks and American Independence Day." },
+    { "combo": "🎆🎇", "meaning": "A full display with sparklers; any festival of lights or fire." },
+    { "combo": "💋🎆", "meaning": "A kiss with sparks; intense romantic chemistry." }
+  ],
+  "confusedWith": [
+    { "slug": "sparkler", "difference": "🎇 is a handheld sparkler, or a smaller spray of sparks, depending on the platform. 🎆 is a large aerial burst. Many people use both together and do not separate their meanings." },
+    { "slug": "sparkles", "difference": "✨ is everyday glitter for emphasis, glow and sarcasm. Fireworks are tied to real events and big moments, and are not used to decorate words in a caption." },
+    { "slug": "collision", "difference": "💥 is a comic-book impact burst meaning a crash, a bang or a shock. It is abrupt and sometimes violent, while 🎆 is a celebration in the sky." }
+  ],
+  "avoid": [
+    "Do not send celebratory 🎆 to someone you know is distressed by fireworks, including people with trauma or anxious pets.",
+    "Avoid it for minor good news, where it feels out of proportion; a party popper fits better."
+  ],
+  "design": "The glyph shows one or more radiating bursts of colored light against a dark blue or black sky. Some platforms include a city skyline at the bottom, and colors range across red, gold, purple and blue. The dark background is constant, which distinguishes it from the lighter, objects-only celebration emojis.",
+  "faqs": [
+    { "q": "What does 🎆 mean after a date?", "a": "It means there was chemistry. The phrase “fireworks” describes a strong spark between two people, so sending the emoji says the evening, or a kiss, felt electric. It is enthusiastic without being crude." },
+    { "q": "What is the difference between 🎆 and 🎇?", "a": "🎆 is officially Fireworks and shows a big burst overhead. 🎇 is officially Sparkler. In practice they are used for the same celebrations, and the differences in artwork between platforms blur the line further." },
+    { "q": "Which holidays use the fireworks emoji?", "a": "New Year’s Eve everywhere, the Fourth of July in the United States, Diwali, Lunar New Year, Bonfire Night in the United Kingdom, Bastille Day in France, Canada Day and many other national days and festivals." },
+    { "q": "Can 🎆 mean an argument?", "a": "Yes, in the idiom “there will be fireworks,” meaning an explosive confrontation is expected. This is less common than the celebratory sense and is always clear from the sentence it appears in." }
+  ],
+  "related": ["sparkler", "sparkles", "party-popper", "clinking-glasses", "flag-united-states", "bottle-with-popping-cork"]
+}

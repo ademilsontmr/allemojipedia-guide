@@ -1,0 +1,101 @@
+{
+  "slug": "hollow-red-circle",
+  "title": "Hollow Red Circle Emoji ⭕ Meaning: Japan's Mark for Correct",
+  "description": "The ⭕ hollow red circle emoji means \"correct\" in Japan, plays the O in tic-tac-toe, and highlights things worth noticing. Here is how to read and use it.",
+  "summary": "The ⭕ hollow red circle emoji is a thick red ring. In Japan it is the maru, the mark for correct, yes, or approved, the opposite of ❌. Elsewhere it mostly serves as the O in tic-tac-toe, the letter O, a zero, or a ring drawn around something.",
+  "meaning": [
+    "⭕ makes the most sense once you know its Japanese background. In Japanese schools and on Japanese television, a circle called maru marks a right answer and an X called batsu marks a wrong one, the reverse of the Western habit of ticking correct work. Because emoji originated on Japanese phones, the set includes this pair, and in Japan ⭕ still means yes, correct, or okay.",
+    "Outside East Asia, few people know that convention, so ⭕ gets used for its shape. Its best-known role is as the noughts in noughts and crosses, also called tic-tac-toe, opposite ❌. People build little game boards out of emoji in group chats, and the phrase \"Xs and Os\" for kisses and hugs sometimes gets rendered as ❌⭕.",
+    "It also works as a letter or digit. Stylized usernames swap the letter O for ⭕, and countdown or score posts use it as a zero. Sports fans use rows of them for a scoreless stretch. Its official shortcode on many platforms is simply :o:, reflecting that reading. None of this carries emotional weight; the ring is borrowed for its outline and nothing more.",
+    "A further use is as a highlight ring. Just as someone might circle an item in red pen, ⭕ draws attention to a word or date. This can cause confusion across cultures: a red circle around something can look like a warning to Western eyes, while a Japanese reader sees approval. If the meaning matters, add words."
+  ],
+  "contexts": [
+    {
+      "label": "Around the world",
+      "body": "In Japan, and to a degree in Korea and China, a circle signals correct or acceptable, and people make the same sign with their arms above their head. Japanese quiz shows hold up ⭕ and ❌ paddles. Most Western users have no such association and read the emoji as a letter, a game piece, or a plain shape."
+    },
+    {
+      "label": "In gaming",
+      "body": "Tic-tac-toe is the obvious use. The symbol also evokes controller buttons: on PlayStation controllers the circle button has traditionally meant confirm in Japan, following the maru convention, while Western releases long used the cross button to confirm. Players discussing inputs sometimes type ⭕ for the circle button."
+    },
+    {
+      "label": "In texting",
+      "body": "Day-to-day appearances are light: a zero in \"⭕ days until vacation\" after a countdown ends, a decorative O in a name, or a ring to mark the important part of a message. Among people familiar with Japanese culture it may be sent as a simple \"correct\" or \"approved.\""
+    }
+  ],
+  "examples": [
+    {
+      "text": "❌⭕❌ ⭕⭕❌ ❌❌⭕ draw again",
+      "meaning": "A tic-tac-toe board typed in emoji, ending in a tie."
+    },
+    {
+      "text": "Your answer was ⭕ nice work",
+      "meaning": "In the Japanese sense, the answer was correct."
+    },
+    {
+      "text": "Love you ❌⭕❌⭕",
+      "meaning": "Kisses and hugs, spelled with emoji instead of the letters XOXO."
+    },
+    {
+      "text": "⭕ mistakes on the driving test!!",
+      "meaning": "The circle stands in for zero; the sender passed cleanly."
+    },
+    {
+      "text": "Deadline is ⭕ Friday ⭕ not Monday",
+      "meaning": "The rings act like red-pen circles to stress the key detail."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "⭕❌",
+      "meaning": "Right and wrong in Japanese marking, or the two tic-tac-toe pieces."
+    },
+    {
+      "combo": "❌⭕❌⭕",
+      "meaning": "XOXO: kisses and hugs."
+    },
+    {
+      "combo": "🙆⭕",
+      "meaning": "\"OK\" or \"correct,\" with the arms-overhead gesture that makes the same circle."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "red-circle",
+      "difference": "🔴 is a filled red dot and suggests recording, live broadcasts, or a red status light. ⭕ is only an outline and suggests the letter O or a mark of approval. One is a light; the other is a ring."
+    },
+    {
+      "slug": "o-button-blood-type",
+      "difference": "🅾️ is a white letter O on a red square and refers to blood type O. It is occasionally used as a decorative letter, but its purpose is medical labeling, not marking answers or playing games."
+    },
+    {
+      "slug": "prohibited",
+      "difference": "🚫 is a red circle with a diagonal slash and means not allowed. ⭕ has no slash and, in its original Japanese sense, means nearly the opposite: yes, this is right."
+    }
+  ],
+  "avoid": [
+    "Do not use ⭕ alone to mean \"correct\" with people unfamiliar with Japanese conventions, since they may not understand it.",
+    "Avoid circling a word with ⭕ when it could be read as a warning or an error marker.",
+    "Do not confuse it with 🔴 in \"live\" or \"recording\" labels, where the filled dot is the recognized symbol."
+  ],
+  "design": "A thick red ring with an empty center and no background. Platforms draw it nearly identically, varying the shade of red and the width of the band. Unicode originally named it \"heavy large circle,\" and it is sometimes labeled \"red O\" or \"large red circle\" in keyboards, which adds to the mix-ups with the filled 🔴.",
+  "faqs": [
+    {
+      "q": "What does ⭕ mean in Japan?",
+      "a": "It is the maru, meaning correct, yes, good, or approved. Teachers draw it on right answers, and it is paired with the batsu, ❌, for wrong. People also form a circle with their arms to say something is fine."
+    },
+    {
+      "q": "What does ❌⭕ mean?",
+      "a": "Either tic-tac-toe pieces or XO, as in hugs and kisses. In Japanese contexts the pair means wrong and right. The surrounding conversation usually makes it obvious which one is intended."
+    },
+    {
+      "q": "Is ⭕ the same as the letter O?",
+      "a": "It is a separate symbol, but people use it as a decorative O or a zero. Screen readers announce it as a circle, not a letter, so words spelled with it may not be read correctly."
+    },
+    {
+      "q": "What is the difference between ⭕ and 🔴?",
+      "a": "⭕ is hollow; 🔴 is solid. The hollow ring works as a mark or letter, while the solid dot is used for live indicators, recording, and color coding."
+    }
+  ],
+  "related": ["cross-mark", "red-circle", "check-mark-button", "ok-hand", "video-game", "bullseye"]
+}

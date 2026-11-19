@@ -1,0 +1,44 @@
+---
+import Base from "@/layouts/Base.astro";
+import EmojiTile from "@/components/EmojiTile.astro";
+import { abs } from "@/lib/site";
+import { emojiPages, emojis, categories, categoryUrl, emojiUrl, subgroupLabel, type Category } from "@/lib/emoji";
+
+export function getStaticPaths() {
+  return categories.map((cat) => ({ params: { slug: cat.slug }, props: { cat } }));
+}
+const { cat } = Astro.props as { cat: Category };
+const pages = await emojiPages();
+const items = emojis.filter((e) => e.category === cat.slug);
+const subgroups = [...new Set(items.map((e) => e.subgroup))].map((id) => ({ id, label: subgroupLabel(id), items: items.filter((e) => e.subgroup === id) }));
+const explained = items.filter((e) => pages.has(e.slug));
+const path = categoryUrl(cat.slug);
+const noun = cat.slug === "flags" ? "Flag" : cat.name;
+const title = `${noun} Emojis: Meanings and Copy & Paste List`;
+const others = categories.filter((c) => c.slug !== cat.slug);
+const schema = [{ "@type": "CollectionPage", name: title, description: cat.description, url: abs(path),
+  mainEntity: { "@type": "ItemList", numberOfItems: explained.length, itemListElement: explained.slice(0, 100).map((e, i) => ({ "@type": "ListItem", position: i + 1, url: abs(emojiUrl(e.slug)), name: `${e.emoji} ${e.name}` })) } }];
+---
+<Base title={title} description={cat.description} path={path} section="categories" schema={schema}
+  crumbs={[{ name: "Categories", href: "/categories/" }, { name: cat.name }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <span class="em" aria-hidden="true">{cat.icon}</span>
+      <h1>{noun} emojis</h1>
+      <p class="lead">{items.length} emojis in {subgroups.length} subgroups. Tap any emoji to copy it; underlined names open a full meaning page ({explained.length} in this category).</p>
+      {cat.intro.map((p) => <p>{p}</p>)}
+      {cat.slug === "flags" && <p><a class="btn" href="/flag-emoji-quiz/">Play the flag emoji quiz</a></p>}
+      <ul class="chips">{subgroups.map((s) => <li><a class="chip" href={`#${s.id}`}>{s.label}</a></li>)}</ul>
+    </header>
+    {subgroups.map((s) => (
+      <section aria-labelledby={s.id}>
+        <h2 id={s.id}>{s.label} <span class="muted" style="font-weight:500;font-size:.7em">({s.items.length})</span></h2>
+        <ul class="grid cols-tiles">{s.items.map((e) => <li><EmojiTile emoji={e} hasPage={pages.has(e.slug)} /></li>)}</ul>
+      </section>
+    ))}
+    <section aria-labelledby="more-cats">
+      <h2 id="more-cats">Other emoji categories</h2>
+      <ul class="chips">{others.map((c) => <li><a class="chip" href={categoryUrl(c.slug)}><span class="em" aria-hidden="true">{c.icon}</span>{c.name}</a></li>)}</ul>
+    </section>
+  </div>
+</Base>

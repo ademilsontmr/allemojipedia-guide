@@ -1,0 +1,56 @@
+{
+  "slug": "downcast-face-with-sweat",
+  "title": "Downcast Face with Sweat Emoji 😓: Worn Out or Sorry",
+  "description": "😓 shows closed eyes, a frown and a sweat drop. It means drained by hard work, stressed, or sheepish after a mistake. Compare it with 😥, 😰 and 😅 here.",
+  "summary": "The 😓 downcast face with sweat lowers its closed eyes and frowns while a drop of sweat runs from its brow. It means the sender is worn down: tired from hard work, stressed by a difficult situation, or sheepish about a mistake. The drop is sweat, not a tear.",
+  "meaning": [
+    "Imagine finishing a double shift, carrying a couch up three flights, or sitting through a meeting where everything you did was picked apart. 😓 is the look afterward: eyes down, shoulders dropped, sweat still on the forehead. It mixes fatigue with discouragement, which is why it often accompanies the words “long day.”",
+    "Its previous Unicode name was “face with cold sweat,” and in East Asian messaging culture, where a sweat drop on a cartoon face signals awkwardness or exasperation, it is commonly used for embarrassment and apology. “Sorry, I forgot to reply 😓” is a typical example. English-speaking users have picked up that sense too, treating it as a sheepish “my bad.”",
+    "A third use is literal heat and exertion. After a run, in a heat wave or on a packed train, 😓 simply means sweaty and uncomfortable. It differs from 🥵 in mood: the hot face is flushed and panting, while 😓 is deflated. Whatever the cause, the emoji describes someone who has been through something draining and has no energy left to dramatize it."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It commonly ends messages about hard days and heavy workloads: “just got home, twelve-hour shift 😓.” It also softens apologies for being late, forgetting something or sending a clumsy text. As a reply, it can mean “that sounds exhausting” or “yikes, awkward,” depending on what it answers."
+    },
+    {
+      "label": "At work",
+      "body": "Among colleagues it is a mild, relatable way to admit strain or own a slip: “sent the wrong attachment 😓.” It reads as humble, not panicked, so it is safer than 😰. If it appears in most of your messages, though, people may conclude you are struggling."
+    },
+    {
+      "label": "Around the world",
+      "body": "The sweat drop has a specific history in Japanese manga and anime, where it marks a character who is embarrassed, exasperated or lost for words. Users across East Asia tend to send 😓 in that spirit, as a speechless or awkward reaction, whereas Western users lean toward the tired and stressed reading."
+    }
+  ],
+  "examples": [
+    { "text": "Finally done moving. Never again 😓", "meaning": "Physically exhausted after hard labor." },
+    { "text": "Sorry for the late reply, today got away from me 😓", "meaning": "A sheepish apology." },
+    { "text": "Failed my driving test for the second time 😓", "meaning": "Discouraged and a bit embarrassed." },
+    { "text": "34 degrees and the AC is broken 😓", "meaning": "Hot, sweaty and miserable." },
+    { "text": "My mom just told that story to my date 😓", "meaning": "Awkward embarrassment, with nothing to say." },
+    { "text": "Still at the office 😓", "meaning": "Tired of working late and wishing it were over." }
+  ],
+  "combos": [
+    { "combo": "😓🙏", "meaning": "Apologizing humbly, or hoping a tough stretch ends soon." },
+    { "combo": "😓💦", "meaning": "Sweating heavily from heat or exercise." },
+    { "combo": "😓📚", "meaning": "Ground down by studying or coursework." }
+  ],
+  "confusedWith": [
+    { "slug": "sad-but-relieved-face", "difference": "😥 keeps its eyes open and looks worried or relieved after a close call. 😓 has its eyes shut and head down, showing fatigue, defeat or embarrassment with no relief involved." },
+    { "slug": "anxious-face-with-sweat", "difference": "😰 is wide-eyed with a blue forehead, panicking about something still unfolding. 😓 is past panic; the energy is gone and what remains is tired resignation." },
+    { "slug": "grinning-face-with-sweat", "difference": "😅 laughs nervously through its sweat and makes light of an awkward moment. 😓 frowns, so the same situation is being felt as draining or regrettable." }
+  ],
+  "avoid": [
+    "Do not use it when you mean you are crying; the drop is on the forehead and readers will see sweat.",
+    "Avoid it as a response to a request, where it implies the task is a burden.",
+    "A serious apology needs words; 😓 alone looks like you are brushing the mistake off."
+  ],
+  "design": "A yellow face with closed, downturned eyes, a frown and a blue sweat drop on one side of the forehead. Most vendors tilt the features slightly downward to suggest a hanging head. The drop is placed high on the brow on every platform, although it switches sides between designs. It has been encoded in Unicode since 2010.",
+  "faqs": [
+    { "q": "Is 😓 sad or tired?", "a": "Mostly tired, stressed or embarrassed. The frown gives it a discouraged tone, but it does not mean grief. The sweat drop points to effort or awkwardness, so think “drained” before “sad.”" },
+    { "q": "What does 😓 mean from a guy or girl?", "a": "It has no romantic meaning. The person is saying they are worn out, under pressure, or feeling sheepish about something, often something they are apologizing for. Sympathy or reassurance is the natural reply." },
+    { "q": "What is the difference between 😓 and 😥?", "a": "Both have a sweat drop. 😥 has open eyes and suggests worry or relief after a tense moment. 😓 has closed eyes and suggests exhaustion, defeat or embarrassment." },
+    { "q": "Does 😓 mean hot?", "a": "It can describe being sweaty and uncomfortable in the heat, particularly when the message mentions weather or exercise. For being overheated in general, or for calling someone attractive, 🥵 is the usual choice." }
+  ],
+  "related": ["sad-but-relieved-face", "anxious-face-with-sweat", "grinning-face-with-sweat", "weary-face", "tired-face", "face-exhaling"]
+}

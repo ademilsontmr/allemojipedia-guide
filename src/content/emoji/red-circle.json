@@ -1,0 +1,109 @@
+{
+  "slug": "red-circle",
+  "title": "Red Circle Emoji 🔴 Meaning: Live, Recording, and Alerts",
+  "description": "The 🔴 red circle emoji usually means live or recording. It also marks breaking news, busy status, red teams, and stop. See how each use reads in context.",
+  "summary": "The 🔴 red circle emoji is a solid red dot. Its strongest association is the recording light, so it commonly means \"live now\" or \"recording.\" It also flags breaking news and urgent notices, signals stop, busy, or a problem in status systems, and represents red in team colors.",
+  "meaning": [
+    "🔴 looks like the small red light on a camera, and that resemblance drives most of its use. Streamers, radio hosts, and news outlets put \"🔴 LIVE\" at the start of titles and posts to show that a broadcast is happening right now. On video platforms it has become so conventional that a red dot in a title is read as live before any words are.",
+    "By extension the dot marks anything current and pressing. News accounts lead breaking stories with 🔴, and organizations use it for urgent service notices. It behaves like a headline bullet with built-in urgency, less dramatic than 🚨 but clearly more insistent than plain text. Because the dot is small, it fits at the front of a headline without crowding the words that follow it.",
+    "In color-coded systems, red means stop or trouble. A 🔴 beside a service name signals an outage, beside a person's name it can mean busy or unavailable, and in trading chats it marks a falling price or a losing day, with 🟢 as its opposite. People describing their mood or energy with traffic-light dots use red for \"do not approach.\"",
+    "Then there are the purely visual uses: a red team in a game, a club that plays in red, a clown nose, a laser pointer dot, or a stand-in for the Japanese flag's sun disc. These carry no extra meaning. The emoji has little slang beyond the \"live\" convention, so when it appears without words it is usually decorative or color-themed."
+  ],
+  "contexts": [
+    {
+      "label": "On streaming and social media",
+      "body": "\"🔴 LIVE\" announces a stream in progress on YouTube, Twitch, TikTok, and X, and is often left in titles to attract clicks. News organizations open posts with it for developing stories. Podcasters and musicians use it for \"recording today\" studio updates."
+    },
+    {
+      "label": "At work",
+      "body": "Status dashboards and reports use 🔴 for critical: a project off track, a system down, a risk rated high. It pairs with 🟡 and 🟢 in the familiar red-amber-green scheme. In a personal status it tells colleagues not to interrupt, often accompanied by \"in a meeting\" or \"focus time.\""
+    },
+    {
+      "label": "In sports",
+      "body": "Supporters use 🔴 for clubs and national teams that wear red, usually combined with a second circle for the other kit color, such as 🔴⚪ or 🔴⚫. Scores and lineup posts add the dots as a quick team badge when no club emoji exists."
+    }
+  ],
+  "examples": [
+    {
+      "text": "🔴 LIVE in 10 minutes, come hang out",
+      "meaning": "A streamer is announcing that a broadcast is about to begin."
+    },
+    {
+      "text": "🔴 BREAKING: verdict expected within the hour",
+      "meaning": "A news post flagged as urgent and still developing."
+    },
+    {
+      "text": "Payments API 🔴 engineers investigating",
+      "meaning": "A status update reporting that a service is down."
+    },
+    {
+      "text": "Portfolio is all 🔴 today, not looking",
+      "meaning": "The sender's investments are down for the day."
+    },
+    {
+      "text": "🔴⚪ Matchday! Let's go",
+      "meaning": "A fan showing their team's red and white colors before a game."
+    },
+    {
+      "text": "Recording the podcast 🔴 back in an hour",
+      "meaning": "The sender is busy recording and cannot be reached."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🔴🟡🟢",
+      "meaning": "Traffic-light status: stop, caution, go; or critical, at risk, on track."
+    },
+    {
+      "combo": "🔴🎥",
+      "meaning": "Filming or streaming right now."
+    },
+    {
+      "combo": "🔴⚪",
+      "meaning": "Red and white team colors, used by fans of many clubs."
+    },
+    {
+      "combo": "🔴📉",
+      "meaning": "Markets or numbers are falling; a red day."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "hollow-red-circle",
+      "difference": "⭕ is an empty ring, used as the letter O, a tic-tac-toe piece, or the Japanese mark for correct. 🔴 is filled in and reads as a light or status dot. For \"live,\" only the solid one is understood."
+    },
+    {
+      "slug": "record-button",
+      "difference": "⏺️ is the actual record control from media players, a circle on a button tile. It means record literally. 🔴 is more popular for live and recording labels because the bright red dot is easier to spot."
+    },
+    {
+      "slug": "no-entry",
+      "difference": "⛔ is a red disc with a white bar across it and means do not enter. 🔴 has no bar and no prohibition built in, although in status systems it can still mean stop."
+    }
+  ],
+  "avoid": [
+    "Do not label a post \"🔴 LIVE\" when it is a replay, because viewers treat the dot as a promise of a real-time broadcast.",
+    "Avoid relying on 🔴 versus 🟢 alone to convey status, since people with red-green color blindness may not tell them apart.",
+    "Do not use it as a Japanese flag substitute in formal contexts; the flag has its own emoji."
+  ],
+  "design": "A plain, solid red circle with no outline details, sometimes with subtle shading or gloss depending on the platform. All major vendors show essentially the same thing. Unicode named it \"large red circle,\" and it was one of only a handful of colored circles available until the wider set of colors arrived in 2019.",
+  "faqs": [
+    {
+      "q": "What does 🔴 mean on TikTok, YouTube, or Twitch?",
+      "a": "That someone is live or about to go live. Creators add it to titles, captions, and usernames during a stream. It imitates the red recording light and the red \"LIVE\" badges the platforms themselves display."
+    },
+    {
+      "q": "What does 🔴 mean in a text from someone?",
+      "a": "Often nothing coded: it may be a color, a team, or a \"stop\" in a traffic-light joke. If they use it about themselves, it can mean busy, unavailable, or not in a good mood. Ask if it is unclear."
+    },
+    {
+      "q": "What does 🔴 mean in stocks and crypto?",
+      "a": "A loss or price drop, following the convention in many markets of showing declines in red and gains in green. Note that some East Asian markets reverse those colors, so the association is not universal."
+    },
+    {
+      "q": "Is 🔴 the same as a red flag?",
+      "a": "No. Warning signs about a person or situation are expressed with the triangular flag, 🚩. The red circle is occasionally used for \"stop\" but does not carry the red-flag meaning by itself."
+    }
+  ],
+  "related": ["green-circle", "blue-circle", "black-circle", "hollow-red-circle", "triangular-flag", "camera-with-flash"]
+}

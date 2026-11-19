@@ -1,0 +1,106 @@
+{
+  "slug": "flag-france",
+  "title": "🇫🇷 France Flag Emoji Meaning: Tricolore in Texts",
+  "description": "The France flag emoji 🇫🇷 is the blue, white and red Tricolore. Find out what it means in texts, when the French use it, and how to tell it from 🇳🇱 and 🇷🇺.",
+  "summary": "The 🇫🇷 emoji is the French Tricolore, three vertical stripes of blue, white, and red. It stands for France and French identity, and it labels the French language, Paris trips, food and wine, fashion, Bastille Day on July 14, and the national football team, Les Bleus.",
+  "meaning": [
+    "Few flags are attached to as many lifestyle clichés. A croissant on a café table, a view of the Eiffel Tower, a cheese board, a striped shirt: each gets 🇫🇷. The emoji makes a caption feel a little more chic, and people use it half-jokingly when they order in halting French or say “oui” to dessert. For travelers it tags Paris, Provence, the Riviera, and ski weeks in the Alps.",
+    "French users deploy it with more purpose. It marks Bastille Day fireworks, election nights, and above all sport: Les Bleus in football, the rugby team in the Six Nations, the Tour de France, and Olympic medals. It also appeared across the world in profile pictures and messages of solidarity after the November 2015 attacks in Paris, a moment that showed how a flag emoji can carry grief as well as celebration.",
+    "The Tricolore was born in the French Revolution. Blue and red are the traditional colors of Paris, and white was the color of the monarchy; combining them became the symbol of the new nation, and the vertical tricolor inspired many later flags. As an emoji it is also the usual icon for the French language, which irks some speakers in Quebec, Belgium, Switzerland, and across Africa, where French is spoken under other flags."
+  ],
+  "contexts": [
+    {
+      "label": "In travel and food posts",
+      "body": "This is where non-French users meet 🇫🇷 most. It decorates bakery hauls, wine tastings, and museum queues. Restaurants use it to indicate a French menu or chef. The flag is often paired with 🥐 or 🥖 to complete the picture."
+    },
+    {
+      "label": "In sports",
+      "body": "World Cup runs produce the biggest spikes, with Kylian Mbappé goals answered by rows of 🇫🇷. Rugby fans use it for “Allez les Bleus,” cycling fans for July stage wins by home riders, and everyone for medal counts during the Olympics."
+    },
+    {
+      "label": "On July 14 and in civic life",
+      "body": "Bastille Day brings parade and fireworks posts. Around elections and strikes, 🇫🇷 punctuates political opinion from every direction. It is also used in solemn tributes on Armistice Day and after national tragedies. In those moments it is typically posted alone or with a single line of text."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Paris in the spring, croissant in hand 🇫🇷🥐",
+      "meaning": "A happy travel caption from France."
+    },
+    {
+      "text": "Allez les Bleus!! Finale ce soir 🇫🇷",
+      "meaning": "Supporting the French national team before a final."
+    },
+    {
+      "text": "Bonne fête nationale 🇫🇷🎆",
+      "meaning": "A Bastille Day greeting."
+    },
+    {
+      "text": "Ordered entirely in French and they answered in English 🇫🇷😅",
+      "meaning": "A self-deprecating joke about language skills."
+    },
+    {
+      "text": "Moving to Lyon in September 🇫🇷",
+      "meaning": "Announcing a relocation to France."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇫🇷🥖",
+      "meaning": "French food stereotypes, lovingly applied."
+    },
+    {
+      "combo": "🇫🇷🗼",
+      "meaning": "Paris specifically; the tower here is technically Tokyo Tower, since there is no Eiffel Tower emoji."
+    },
+    {
+      "combo": "🇫🇷🍷",
+      "meaning": "French wine, or an evening that involves a lot of it."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-netherlands",
+      "difference": "🇳🇱 The Netherlands has the same three colors arranged horizontally: red, white, blue from the top. France's stripes are vertical with blue next to the pole."
+    },
+    {
+      "slug": "flag-russia",
+      "difference": "🇷🇺 Russia's flag is horizontal too, in the order white, blue, red. Any horizontal red-white-blue tricolor is not France."
+    },
+    {
+      "slug": "flag-italy",
+      "difference": "🇮🇹 Italy shares the vertical layout and swaps blue for green. On a small or dim screen the green and blue can be mistaken."
+    }
+  ],
+  "avoid": [
+    "Do not assume every French speaker is French; use it for the country, not for Québécois, Belgian, Swiss, or Senegalese people.",
+    "Avoid leaning on it for tired stereotypes about rudeness or surrender, which French readers have heard too often."
+  ],
+  "design": "Three vertical bands of equal width: blue at the hoist, white, then red. With no emblem, the emoji is uniform across platforms apart from slight differences in the shade of blue. The emojis for Saint Martin and Clipperton Island are drawn with the same French flag. Windows shows FR in place of the image.",
+  "faqs": [
+    {
+      "q": "What do the colors of the French flag mean?",
+      "a": "Blue and red are the colors of Paris and white was associated with the French monarchy. They were combined during the Revolution of 1789. The popular link to liberty, equality, and fraternity is a later association, not an official definition."
+    },
+    {
+      "q": "How do I tell the France emoji from the Netherlands emoji?",
+      "a": "Check the direction of the stripes. France is vertical: blue, white, red from left to right. The Netherlands is horizontal: red on top, white, blue at the bottom."
+    },
+    {
+      "q": "Why does 🇫🇷 show as FR on Windows?",
+      "a": "A flag emoji is really two letter-like characters, here F and R, that phones turn into a picture. Microsoft's emoji font has no country flag pictures, so the letters remain visible."
+    },
+    {
+      "q": "When did the French flag emoji appear?",
+      "a": "In 2010, with the first standardized emoji set. France was one of the small initial group of countries with a flag emoji, years before most nations received one."
+    }
+  ],
+  "related": [
+    "flag-italy",
+    "flag-netherlands",
+    "flag-germany",
+    "croissant",
+    "baguette-bread",
+    "wine-glass"
+  ]
+}

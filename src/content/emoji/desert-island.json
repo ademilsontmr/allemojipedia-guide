@@ -1,0 +1,56 @@
+{
+  "slug": "desert-island",
+  "title": "Desert Island Emoji 🏝️ Meaning: Vacation and Escape",
+  "description": "🏝️ shows a tiny island with palm trees. It means tropical vacations, time off and the urge to get away from everything, and it stars in “desert island” picks.",
+  "summary": "🏝️ depicts a small sandy island with a palm tree, surrounded by sea. It stands for tropical vacations, out-of-office time and paradise in general, and for the daydream of escaping to somewhere remote. It also illustrates “desert island” questions and jokes about being stranded.",
+  "meaning": [
+    "Vacation is the headline meaning. People post 🏝️ when a beach trip is booked, when they land somewhere warm, and when they are counting down from a cold office. It promises sun, sea and no obligations. Unlike the beach umbrella, which looks like a resort, the island is empty, so it leans toward getting away from people as much as getting to the coast.",
+    "That emptiness gives it a second use: escape and isolation. “I need a 🏝️” means the sender is overwhelmed and wants out. Introverts use it to describe ideal weekends, and remote workers use it, half joking, for logging off entirely. Turned around, the same image can mean being cut off or stranded, as in castaway jokes with a volleyball or a message in a bottle.",
+    "The word “desert” here means deserted, not dry, which confuses a lot of people who expect cactus and dunes. The phrase survives in the “desert island” game: which five albums, books or foods would you take if you were marooned? Lists and polls built on that question use the emoji as their icon. Fans of the dating show Love Island also use it when discussing new seasons."
+  ],
+  "contexts": [
+    {
+      "label": "In captions",
+      "body": "Clear water, overwater bungalows and hammock photos get the island, often with a sun or a tropical drink. Honeymoon posts use it heavily. For destinations like the Maldives, the Caribbean, Hawaii or the Philippines, it sits beside a flag to say both where and what kind of trip."
+    },
+    {
+      "label": "At work",
+      "body": "As a status emoji in Slack or Teams, 🏝️ means on vacation and not checking messages. In out-of-office notes it softens the news that a reply will be slow. Colleagues respond with it to wish someone a good break, and it is understood even when the actual trip involves no beach at all."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends send it to fantasize about quitting everything, to plan a group getaway, or to describe wanting to be alone for a while. In entertainment chats it marks desert-island lists and reality shows set on beaches, where the meaning is about the format, not travel."
+    }
+  ],
+  "examples": [
+    { "text": "OOO until the 14th 🏝️ do not perceive me", "meaning": "A playful out-of-office message saying the sender is on vacation and unavailable." },
+    { "text": "After this week I need a 🏝️ and zero notifications", "meaning": "Expressing burnout and a wish to get away from everything." },
+    { "text": "Desert island albums, go 🏝️ you only get three", "meaning": "Starting a game about which records a person could not live without." },
+    { "text": "Maldives booked!! 🏝️🥂", "meaning": "Announcing a tropical trip, likely a celebration." },
+    { "text": "Day 3 with no wifi, send help 🏝️🆘", "meaning": "A castaway joke about being cut off while traveling." }
+  ],
+  "combos": [
+    { "combo": "🏝️🍹", "meaning": "Relaxing on a tropical vacation with a cocktail in hand." },
+    { "combo": "✈️🏝️", "meaning": "Flying off to an island or beach destination." },
+    { "combo": "🏝️🏐", "meaning": "A stranded-castaway joke referencing the volleyball companion from the film Cast Away." },
+    { "combo": "🏝️🆘", "meaning": "Marooned and calling for rescue; used humorously for being stuck somewhere." }
+  ],
+  "confusedWith": [
+    { "slug": "beach-with-umbrella", "difference": "🏖️ shows sand with a parasol at the water's edge. It is a mainland beach day or resort. 🏝️ is a whole island surrounded by water, suggesting remoteness, paradise and being far from everyone." },
+    { "slug": "palm-tree", "difference": "🌴 is just the tree and works for any warm place, from Los Angeles to Dubai. 🏝️ adds the sand and sea, turning the idea into a destination or an escape." },
+    { "slug": "national-park", "difference": "🏞️ is a landscape with a river or lake and mountains, used for hiking and nature inland. At small sizes the two scenic emojis look alike, but only 🏝️ is tropical." }
+  ],
+  "avoid": [
+    "Do not use it for sandy deserts; despite the name it shows an island, and a cactus or camel makes that point better.",
+    "Avoid posting it in work channels while colleagues are covering your load during a crunch, where it can feel like gloating.",
+    "Skip it on news about island communities hit by storms or rising seas."
+  ],
+  "design": "A small mound of golden sand rises from blue water, topped with one or two palm trees. That is the whole scene on every platform; differences are limited to the number of palms, the angle, and whether waves or a rim of surf are drawn around the shore. It is among the most uniform of the scenic emojis, and it reads as a cartoon castaway island.",
+  "faqs": [
+    { "q": "Why is it called a desert island if there is no desert?", "a": "“Desert” is an old adjective meaning deserted or uninhabited. A desert island is one with no people on it. The emoji follows that meaning, which is why it shows palms and sea instead of dunes." },
+    { "q": "What does 🏝️ mean in a Slack status?", "a": "It means the person is on vacation or taking time off. Expect delayed replies. Many workplaces treat it as the standard holiday marker, alongside the palm tree." },
+    { "q": "What is the difference between 🏝️ and 🏖️?", "a": "🏖️ is a beach with an umbrella, suggesting a day by the sea at a resort or coastline. 🏝️ is an isolated island, with a stronger sense of escape, paradise or being stranded." },
+    { "q": "When was the desert island emoji added?", "a": "It joined the emoji standard in 2014, in the same batch as several other landscape and travel scenes such as the beach with umbrella and the national park." }
+  ],
+  "related": ["beach-with-umbrella", "palm-tree", "tropical-drink", "airplane", "sun", "water-wave"]
+}

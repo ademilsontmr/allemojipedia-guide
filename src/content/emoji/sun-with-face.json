@@ -1,0 +1,55 @@
+{
+  "slug": "sun-with-face",
+  "title": "Sun With Face Emoji 🌞 Meaning: Cheerful or Cheeky?",
+  "description": "The 🌞 smiling sun means good mornings, summer and a bright mood. Find out how it differs from the plain ☀️ and why it sometimes reads as a little smug.",
+  "summary": "🌞 is a yellow sun with rays and a smiling face. It means sunshine with personality: happy mornings, summer days, optimism and warmth. It is friendlier and more playful than the plain sun, and now and then it is used with a slightly smug or teasing edge.",
+  "meaning": [
+    "Giving the sun a face turns a weather report into a greeting. 🌞 is the emoji of “good morning!” messages, the first warm weekend, and people who wake up in a good mood and want you to know it. It conveys the feeling of sunshine as much as the fact of it. Summer captions, beach countdowns and garden photos use it where the plain sun would seem too neutral.",
+    "The smiling sun stands for a sunny disposition generally. Encouraging notes, thank-yous and birthday wishes borrow it for warmth, and a cheerful person may be called a 🌞 by friends. Children's content loves it: it looks like the sun in a kindergarten drawing or a picture book. Wellness posts use it for morning routines, vitamin D and getting outside, with a tone of gentle positivity.",
+    "Its expression gives it a mischievous streak. The face was designed in the same family as the two moon faces, and on several platforms it shares their knowing little smile. So 🌞 can be used the way they are, for cheeky comments and smugness, though this is much less common. Paired with the dark moon face it sets up day-versus-night jokes about contrasting personalities."
+  ],
+  "contexts": [
+    {
+      "label": "In good-morning messages",
+      "body": "This is the emoji's natural habitat. Partners, parents and group-chat early risers open the day with 🌞, often next to coffee. It suggests energy and good humor. To someone who is not a morning person, an enthusiastic 🌞 at 6 a.m. can be affectionate teasing in itself."
+    },
+    {
+      "label": "In summer captions",
+      "body": "Pool days, picnics, festivals and vacations get the smiling sun. It pairs with sunglasses, waves and ice cream. Compared with ☀️ it gives a caption more personality, which is why lifestyle posts favor it while forecasts stick to the plain symbol. Sunburn confessions use it too, with a hot face."
+    },
+    {
+      "label": "For encouragement",
+      "body": "Sent to someone having a rough time, 🌞 offers brightness without many words: thinking of you, better days ahead. Teachers and coaches use it in upbeat feedback. It is wholesome enough for any audience, though it can feel too chirpy in reply to serious bad news."
+    }
+  ],
+  "examples": [
+    { "text": "Good morning sunshine 🌞☕", "meaning": "A cheerful, affectionate start to the day." },
+    { "text": "First day over 70 and I am thriving 🌞", "meaning": "Delight at the arrival of warm weather." },
+    { "text": "You're such a 🌞, thanks for cheering me up", "meaning": "Telling a friend they have a bright, uplifting presence." },
+    { "text": "Pool, book, zero plans 🌞", "meaning": "A relaxed summer-day caption." },
+    { "text": "Already did my workout before you woke up 🌞", "meaning": "A slightly smug boast from an early riser." }
+  ],
+  "combos": [
+    { "combo": "🌞☕", "meaning": "Good morning; a happy start with coffee." },
+    { "combo": "🌞🌊", "meaning": "A sunny beach day." },
+    { "combo": "🌞🌻", "meaning": "Warmth, growth and a cheerful summer mood." },
+    { "combo": "🌞🌚", "meaning": "Day and night personalities; bright cheer next to sly awkwardness." }
+  ],
+  "confusedWith": [
+    { "slug": "sun", "difference": "☀️ has no face and works as a neutral symbol for weather, heat and forecasts. 🌞 adds emotion and playfulness. Use the plain one for information and the smiling one for mood." },
+    { "slug": "full-moon-face", "difference": "🌝 is a yellow moon with a sly smile and no rays. It is mostly ironic or suggestive. 🌞 has rays and reads as sincerely cheerful in most messages." },
+    { "slug": "sunflower", "difference": "🌻 is a flower with a similar yellow-rayed shape. It shares the sunny, happy feeling but refers to nature, gardens and loyalty, not weather or mornings." }
+  ],
+  "avoid": [
+    "Avoid it in replies to sad or serious news, where a beaming sun seems tone-deaf.",
+    "Do not use it in heat-emergency or sun-safety warnings that need a serious tone; the plain sun or a warning sign fits better."
+  ],
+  "design": "A golden-yellow disc with a face, surrounded by triangular or flame-shaped rays. Most platforms draw open eyes and a gentle closed smile; some make the expression broader and friendlier, others give it the same subtle, knowing look as the moon faces. It became part of the emoji standard in 2015 together with those two moons.",
+  "faqs": [
+    { "q": "What does 🌞 mean from a guy or a girl?", "a": "It means they are in a bright mood or wishing you a good day. Called a 🌞 yourself, you are being told you make things happier. It is warm and friendly, sometimes sweetly flirtatious, never crude." },
+    { "q": "What is the difference between 🌞 and ☀️?", "a": "The face. ☀️ is a symbol for sunny weather. 🌞 is a character that smiles, so it carries cheerfulness and personality. Both fit summer posts, but 🌞 is warmer in greetings." },
+    { "q": "Is the sun with face emoji sarcastic?", "a": "Usually not. It is one of the more sincere emojis. Because its face resembles the moon faces, some people do use it for smug or teasing humor, so consider who is sending it." },
+    { "q": "What does 🌞 mean in a bio?", "a": "It typically signals an optimistic personality, a love of summer and the outdoors, or an astrological sun sign listed next to it. Some people use it simply as a happy decoration." }
+  ],
+  "related": ["sun", "full-moon-face", "new-moon-face", "sunflower", "sunrise", "sunglasses"]
+}

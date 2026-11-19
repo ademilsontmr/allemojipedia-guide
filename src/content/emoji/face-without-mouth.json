@@ -1,0 +1,58 @@
+{
+  "slug": "face-without-mouth",
+  "title": "Face Without Mouth Emoji 😶 Meaning: Lost for Words",
+  "description": "😶 is silence you can see: speechless, awkward, shy, or staying out of it. Learn what it means when someone sends it, with examples and common mix-ups.",
+  "summary": "😶 is a face with two eyes and no mouth. It means the sender is speechless or choosing to say nothing. It covers stunned silence, awkward moments, shyness, and deliberately staying out of a conversation that is none of their business.",
+  "meaning": [
+    "With no mouth, the face literally cannot speak, and that is how people use it. The first meaning is being lost for words. Someone says something shocking, rude or bizarre, and 😶 comes back as the reaction of a person staring with nothing to offer. It is quieter than 😳 or 😱. There is no visible alarm, only a blank where the reply should be.",
+    "The second meaning is tactful silence. When two friends argue in the group chat, when someone asks an opinion on a touchy subject, or when gossip gets close to home, 😶 says “I'm not getting involved.” It can also be an admission. Asked “who finished the ice cream?”, a reply of 😶 is a guilty non-answer that everybody understands.",
+    "Shyness and awkwardness are the third. A message like “I waved back at someone who wasn't waving at me 😶” uses the face for that frozen, wish-I-could-vanish feeling. People who are nervous about speaking up, in class or with someone they like, use it to say they went quiet. It is a softer way to describe embarrassment than a red-faced emoji.",
+    "Because it shows no emotion, 😶 depends heavily on context, and readers sometimes find it cold. A sincere message answered only with a mouthless face can feel like being stonewalled. It reads best when the reason for the silence is obvious, or when a few words accompany it to show whether the sender is shocked, shy or biting their tongue."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It responds to things that leave the sender without a reply: an overshare, an awkward confession, a comment that crossed a line. It also plays innocent after being caught. In an argument, sending 😶 means “I'd better not say what I'm thinking,” which the other person may hear as a criticism in itself."
+    },
+    {
+      "label": "From a crush",
+      "body": "It often means they are flustered and do not know what to say, especially after a compliment or a direct question about feelings. That is shyness, not rejection. It can equally mean your message made things awkward. If nothing follows it, ease off and change the subject before reading it either way."
+    },
+    {
+      "label": "On social media",
+      "body": "People use it to stay conspicuously quiet about drama: “everyone's fighting in the comments and I'm just here 😶.” It also labels content about introversion, social anxiety and having no response to a wild story. As a reaction to bad takes, it conveys silent judgment without engaging."
+    }
+  ],
+  "examples": [
+    { "text": "He proposed at someone else's wedding 😶", "meaning": "Stunned into silence by behavior the sender cannot find words for." },
+    { "text": "“Who left the freezer open all night?” 😶", "meaning": "A guilty non-answer that amounts to a confession." },
+    { "text": "They're arguing about politics at dinner and I'm just 😶", "meaning": "Staying silent and out of a tense conversation." },
+    { "text": "The teacher called on me and my mind went 😶", "meaning": "Freezing up and going blank under pressure." },
+    { "text": "I said “you too” when the waiter said enjoy your meal 😶", "meaning": "Quiet, frozen embarrassment after an awkward slip." },
+    { "text": "Not saying anything about her new tattoo 😶", "meaning": "Withholding an opinion that is probably unflattering." }
+  ],
+  "combos": [
+    { "combo": "😶👀", "meaning": "Saying nothing but watching closely as drama unfolds." },
+    { "combo": "😶😳", "meaning": "Speechless and embarrassed, often after seeing or hearing something unexpected." },
+    { "combo": "😶🚶", "meaning": "Quietly leaving an awkward situation without comment." },
+    { "combo": "😶🤐", "meaning": "Not a word will be said; the sender is staying completely silent on the matter." }
+  ],
+  "confusedWith": [
+    { "slug": "zipper-mouth-face", "difference": "🤐 has a mouth that is zipped shut on purpose, signaling a secret kept or an opinion held in. 😶 has no mouth at all and suggests the words are not there. One chooses silence; the other has been struck silent." },
+    { "slug": "neutral-face", "difference": "😐 has a flat mouth and reads as unimpressed or mildly annoyed. 😶 removes the mouth and with it most of the attitude, leaving plain speechlessness or awkwardness. 😐 judges; 😶 goes quiet." },
+    { "slug": "face-in-clouds", "difference": "😶‍🌫️ is this same face surrounded by fog, and it is built from 😶 plus a fog emoji. The clouds change the meaning to being dazed, confused, absent-minded or hiding, where plain 😶 is simply silent." }
+  ],
+  "avoid": [
+    "Do not use it as your whole reply when someone opens up to you, because silence can feel like rejection.",
+    "Avoid it in arguments if you want to calm things down; refusing to speak usually frustrates the other person.",
+    "Skip it in professional messages, where a non-response should be replaced by an actual answer or a clear “no comment.”"
+  ],
+  "design": "A plain yellow face with two open eyes and nothing below them. On most platforms there are no eyebrows, so the expression is entirely blank. Vendor versions are close to identical. On systems that do not support the newer face-in-clouds sequence, that emoji falls back to showing this face followed by a separate fog symbol.",
+  "faqs": [
+    { "q": "What does 😶 mean from a girl or a guy?", "a": "They do not know what to say or have decided not to say it. After a compliment it usually means shy or flustered. After a blunt or odd message, it means you caught them off guard. The surrounding conversation tells you which." },
+    { "q": "Is 😶 a negative emoji?", "a": "It leans slightly negative because silence often follows awkward or uncomfortable moments. It is not hostile, though. It lacks the annoyance of 😑 or 😒 and mainly reports that the sender is at a loss." },
+    { "q": "What is the difference between 😶 and 🤐?", "a": "🤐 is deliberate: “my lips are sealed” or “I'm keeping this secret.” 😶 is reactive: “I'm speechless” or “I'm staying quiet because this is awkward.” If you are promising confidentiality, use 🤐." },
+    { "q": "Does 😶 mean someone is ignoring me?", "a": "No. Ignoring you would mean sending nothing. 😶 is a reply that says “I saw this and have no words.” It keeps the conversation open, although it does hand the next move back to you." }
+  ],
+  "related": ["zipper-mouth-face", "neutral-face", "face-in-clouds", "dotted-line-face", "expressionless-face", "flushed-face"]
+}

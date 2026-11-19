@@ -1,0 +1,61 @@
+{
+  "slug": "snowflake",
+  "title": "Snowflake Emoji ❄️ Meaning: Winter, Insults and Slang",
+  "description": "❄️ means snow and cold weather, but it is also a political insult, a tag for icy-cool style and, in drug slang, cocaine. Here is how to tell which is meant.",
+  "summary": "❄️ is a six-armed snow crystal. It means snow, winter and freezing temperatures. Beyond weather it can describe a cold personality, call someone an overly sensitive “snowflake,” show off icy style or diamonds, and in drug slang stand for cocaine.",
+  "meaning": [
+    "From the first frost to the last, ❄️ is the seasonal stamp for winter. It announces snow days, ski trips and falling temperatures, decorates December greetings, and works as a neutral holiday symbol where a tree or a religious emoji would be too specific. Stores use it for winter sales, and food packaging has long used a snowflake to mean frozen, a sense the emoji carries into grocery lists and meal-prep posts.",
+    "Coldness as a personality trait follows naturally. A blunt reply or an unbothered attitude gets ❄️ for being ice cold, and that can be admiring as often as critical. Athletes with steady nerves have it applied to them as praise. In fashion and hip-hop, ice means diamonds, so snowflakes sit under photos of jewelry and sharp outfits. Fans of the film Frozen and of winter-themed characters use it as a fandom marker.",
+    "Two meanings need care. “Snowflake” is a political insult for someone considered fragile, entitled or too easily offended, thrown mostly from right to left in English-speaking countries; the emoji alone under a post can be that jab. And snow is long-standing slang for cocaine. Sellers and buyers have used ❄️ as a coded reference on social apps, usually with other signals such as a nose, a plug or a snowman."
+  ],
+  "contexts": [
+    {
+      "label": "In weather and holiday posts",
+      "body": "First snowfall photos, school closure news, ski lift selfies and cozy indoor scenes with hot chocolate collect snowflakes. In the Southern Hemisphere it appears in June and July instead. It is a staple of Christmas and New Year messages in cold countries, and of “winter is coming” jokes everywhere."
+    },
+    {
+      "label": "In arguments online",
+      "body": "Dropped in a reply to someone complaining or objecting, ❄️ says “you are being oversensitive.” It is dismissive by design and tends to end useful conversation. Some people have reclaimed the label with humor, but from a stranger in a political thread it should be read as an insult."
+    },
+    {
+      "label": "In style and sports talk",
+      "body": "A cold-blooded game winner, a savage comeback or a diamond watch can all earn ❄️. Here cold is a compliment, alongside the cold face and ice cube. Sneaker and jewelry accounts use it for icy white or blue color schemes, and for anything described as frosty or frozen."
+    },
+    {
+      "label": "As drug slang",
+      "body": "In party talk or sales posts, a snowflake can mean cocaine. Clues include talk of prices, delivery, nights out or pairings with a nose, pills or a skiing figure. Parents and moderators are right to know the code, but most snowflakes in December are simply about weather."
+    }
+  ],
+  "examples": [
+    { "text": "First snow of the year ❄️ everything's white", "meaning": "Literal use celebrating a snowfall." },
+    { "text": "Left him on read for three days ❄️", "meaning": "Boasting, or admitting, to being cold toward someone." },
+    { "text": "Imagine being this upset over a commercial ❄️", "meaning": "Mocking another person as too easily offended." },
+    { "text": "Game winner at the buzzer, ice in his veins ❄️", "meaning": "Praising an athlete's calm under pressure." },
+    { "text": "AC is broken at the office, it's ❄️ in here", "meaning": "Complaining that a room is freezing." },
+    { "text": "New chain ❄️❄️", "meaning": "Showing off diamond jewelry." }
+  ],
+  "combos": [
+    { "combo": "❄️⛄", "meaning": "Snowy weather and building snowmen; a general winter scene." },
+    { "combo": "❄️🥶", "meaning": "Bitterly cold, or a stone-cold move." },
+    { "combo": "❄️☕", "meaning": "A cold day spent warming up indoors." },
+    { "combo": "❄️👃", "meaning": "A coded reference to cocaine use." }
+  ],
+  "confusedWith": [
+    { "slug": "cold-face", "difference": "🥶 is a blue, frozen face showing that a person feels cold or that something was ruthlessly cool. ❄️ names the cold itself: the weather, the season, the temperature." },
+    { "slug": "ice", "difference": "🧊 is an ice cube, used for drinks, for “ice” as diamonds and for keeping things chilled. The snowflake leans toward weather and winter, though the two overlap in style slang." },
+    { "slug": "snowman-without-snow", "difference": "⛄ is a friendly snowman figure for play and holidays. It is warmer in tone than the bare crystal, which can turn icy or insulting." }
+  ],
+  "avoid": [
+    "Do not reply with a lone ❄️ to someone expressing hurt unless you intend to call them oversensitive.",
+    "Be careful using it in party-related posts on public accounts, where it may be read as a drug reference.",
+    "Avoid it as a cheerful decoration in warnings about dangerous blizzards or extreme cold."
+  ],
+  "design": "A symmetrical six-pointed ice crystal with branching arms, drawn in white, pale blue or mid blue depending on the platform. Some versions are intricate and lacy, others simple like a printed asterisk. The character began as a text dingbat, so it may appear as a plain outline where emoji color is not applied.",
+  "faqs": [
+    { "q": "What does ❄️ mean from a guy or a girl?", "a": "Usually cold weather or a wintry mood. Used about a person, it means someone is acting cold or distant, or coolly impressive. Read the sentence to tell complaint from compliment." },
+    { "q": "Why is snowflake an insult?", "a": "The slur mocks the idea that everyone is unique and delicate like a snowflake. It became common in political arguments in the 2010s for people seen as fragile or easily offended, and the emoji is used to deliver it." },
+    { "q": "Does ❄️ mean drugs?", "a": "It can. Snow is slang for cocaine and the emoji is used as code for it in some online sales and party talk. Context matters a great deal; the vast majority of uses are about winter." },
+    { "q": "Which emoji is best for a non-religious holiday greeting?", "a": "The snowflake is a good choice. It evokes the season without pointing to a particular faith or tradition, which is why offices and brands use it in year-end messages." }
+  ],
+  "related": ["snowman-without-snow", "cold-face", "ice", "cloud-with-snow", "snowman", "christmas-tree"]
+}

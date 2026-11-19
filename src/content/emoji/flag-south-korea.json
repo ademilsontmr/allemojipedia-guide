@@ -1,0 +1,102 @@
+{
+  "slug": "flag-south-korea",
+  "title": "🇰🇷 South Korea Flag Emoji: K-Pop Tag and Taegukgi",
+  "description": "The South Korea flag emoji 🇰🇷 shows the Taegukgi: a red-blue circle and four trigrams on white. See what it means and how K-pop and K-drama fans use it.",
+  "summary": "The 🇰🇷 emoji is the flag of South Korea, the Taegukgi. A red and blue circle sits in the middle of a white field with a set of black bars in each corner. It stands for Korean nationality and, worldwide, for K-pop, K-dramas, Korean food and beauty, esports, and trips to Seoul.",
+  "meaning": [
+    "The global rise of Korean pop culture has made 🇰🇷 one of the busiest flags on fan platforms. It tags idol comebacks, concert tours, drama releases, skincare routines, and mukbang videos. International fans add it to bios to show they follow Korean content or are learning the language, and they use it to signal a Seoul trip built around fan sites, cafés, and filming locations.",
+    "For Koreans, the flag is tied closely to national moments. Football is the prime example: the Red Devils supporters' street cheering has been a tradition since the 2002 World Cup, and the Taeguk Warriors' matches still draw 🇰🇷 in force. Esports victories, Olympic archery and short-track speed skating, and international awards for Korean films and series bring similar bursts. Liberation Day on August 15 and the March 1 Movement anniversary are the main patriotic dates.",
+    "The design is rich in symbolism. White is a traditional Korean color associated with peace and purity. The central taegeuk, red above and blue below, expresses the balance of opposing forces, the Korean form of yin and yang. The four black trigrams in the corners come from classical East Asian philosophy and represent heaven, earth, water, and fire. At emoji size the trigrams are reduced to tiny bars, yet the swirl in the center keeps the flag recognizable."
+  ],
+  "contexts": [
+    {
+      "label": "In K-pop and K-drama fandom",
+      "body": "Fans use 🇰🇷 when a group charts abroad, when tour stops are announced, and when translating posts from Korean. It also separates Korean releases from Japanese or English versions of a song. Among fans the flag carries affection for the culture more than any statement about nationality."
+    },
+    {
+      "label": "In sports and esports",
+      "body": "World Cup nights, Son Heung-min highlights, and Olympic archery finals are reliable triggers. In League of Legends and other titles, where Korean teams have been dominant for years, 🇰🇷 is a mark of respect or resignation from rival fans as much as pride from Korean ones."
+    },
+    {
+      "label": "Food and travel",
+      "body": "Korean barbecue dinners, tteokbokki cravings, convenience-store ramyeon, and Seoul itineraries all carry the flag. Beauty content uses it for products bought in Korea. Travelers often pair it with a location like Jeju or Busan to show they went beyond the capital."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Comeback at midnight KST, nobody talk to me 🇰🇷",
+      "meaning": "A K-pop fan waiting for a new release."
+    },
+    {
+      "text": "Seoul in October, already planning the café list 🇰🇷☕",
+      "meaning": "Announcing a trip to South Korea."
+    },
+    {
+      "text": "Sonny from distance!!! 🇰🇷⚽",
+      "meaning": "Celebrating a goal by Son Heung-min."
+    },
+    {
+      "text": "Three months of Korean on the app and I can read the menu 🇰🇷",
+      "meaning": "A learner proud of their progress."
+    },
+    {
+      "text": "Another archery gold, obviously 🇰🇷🏹",
+      "meaning": "Remarking on South Korea's Olympic archery dominance."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇰🇷🎤",
+      "meaning": "K-pop: a comeback, concert, or favorite group."
+    },
+    {
+      "combo": "🇰🇷🍜",
+      "meaning": "Korean food, especially noodles and ramyeon."
+    },
+    {
+      "combo": "🇰🇷🫰",
+      "meaning": "Korean pop culture with the finger heart gesture it popularized."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-north-korea",
+      "difference": "🇰🇵 North Korea's flag is entirely different: blue and red horizontal bands with a red star in a white circle. The mix-up happens through the similar country codes, KR and KP, and adjacent keyboard positions."
+    },
+    {
+      "slug": "flag-japan",
+      "difference": "🇯🇵 Japan's flag also has a circle on white, but it is a single solid red disc with no blue half and no trigrams."
+    }
+  ],
+  "avoid": [
+    "Do not confuse it with North Korea's flag; the two states are distinct and the error is noticed immediately.",
+    "Avoid using it for Japanese or Chinese content, or as a generic sign for “Asian” culture."
+  ],
+  "design": "On a white background, a circle is divided by an S-shaped curve into red on top and blue beneath, with a group of black bars near each corner. Emoji artists simplify the trigrams heavily, and a faint outline keeps the white flag visible. Windows shows the letters KR.",
+  "faqs": [
+    {
+      "q": "What do the symbols on the South Korean flag mean?",
+      "a": "The red and blue circle represents balance between complementary forces. The four sets of black bars are trigrams standing for heaven, earth, water, and fire. The white background signifies peace and purity."
+    },
+    {
+      "q": "What is the Korean flag called?",
+      "a": "Taegukgi, sometimes romanized Taegeukgi. The name refers to the taegeuk, the red and blue symbol at its center. South Koreans also refer to the flag when cheering the national team as the Taeguk Warriors."
+    },
+    {
+      "q": "Why is the Korea flag emoji “KR”?",
+      "a": "KR is South Korea's two-letter country code, and the emoji is made from the regional indicator letters K and R. That code is also what Windows displays in place of the flag image."
+    },
+    {
+      "q": "How long has there been a South Korea flag emoji?",
+      "a": "Since 2010. It was one of the few national flags included in the original emoji set, well before the full range of country flags was added."
+    }
+  ],
+  "related": [
+    "flag-north-korea",
+    "flag-japan",
+    "flag-china",
+    "microphone",
+    "steaming-bowl",
+    "heart-hands"
+  ]
+}

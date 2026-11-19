@@ -1,0 +1,45 @@
+{
+  "slug": "heart-exclamation",
+  "title": "Heart Exclamation Emoji ❣️ Meaning: Love With Emphasis",
+  "description": "The ❣️ heart exclamation emoji is an exclamation mark with a heart on top. It adds loving emphasis to a sentence. See when to use it instead of ❤️ or ❗.",
+  "summary": "The ❣️ heart exclamation emoji is an exclamation mark whose upper stroke is a red heart. It works as punctuation with affection built in, used at the end of a sentence to show enthusiastic love, heartfelt agreement, or warm emphasis, as in 'thank you so much❣️'.",
+  "meaning": [
+    "This one is punctuation first and a heart second. ❣️ goes where an exclamation mark would go and tells the reader that the excitement is fond: 'Happy birthday❣️' or 'I love this idea❣️'. It can replace the final mark of a sentence or follow one. Compared with a plain ❤️ tacked on the end, it feels more integrated, as though the sentence itself were smiling.",
+    "The symbol is older than emoji keyboards. It comes from a set of ornamental typographic characters, and its formal Unicode name is Heart Exclamation Mark Ornament. It became an official emoji in 2015. That printing heritage shows in its use: it is popular with people who like their messages to look composed, such as in invitations, greeting-card style notes, bios, and decorated captions.",
+    "Emotionally it sits on the cheerful, polite side. It is frequent in messages of thanks and congratulations, and in East Asian messaging styles where decorative punctuation is common. It is not especially romantic, though a partner can certainly use it. Some people also use it as a small upright heart for decoration, without intending the 'exclamation' at all."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Place it at the end of happy statements: 'See you tomorrow❣️' or 'You're the best❣️'. It is a good fit when ❤️ feels too intimate and '!' too plain. Friends, relatives, and friendly acquaintances can all receive it without confusion about your intentions." },
+    { "label": "In captions and bios", "body": "Because it is slim and symmetrical, ❣️ makes a neat divider or accent. People use it to close a caption, to separate words in a display name, or to mark an announcement. It matches red and pink themes and looks tidier than a row of full-size hearts." },
+    { "label": "In greetings and invitations", "body": "Birthday wishes, wedding congratulations, and holiday greetings use it for a festive, card-like tone. Small businesses add it to thank-you notes and promotional lines to sound warm and upbeat. It suggests care was taken with the wording, much like choosing a nice card instead of a sticky note." }
+  ],
+  "examples": [
+    { "text": "Congratulations to you both❣️", "meaning": "A warm, emphatic congratulation, as on an engagement." },
+    { "text": "Thank you for the flowers, I love them❣️", "meaning": "Heartfelt, enthusiastic gratitude." },
+    { "text": "Yes yes yes, count me in❣️", "meaning": "Eager agreement with affection." },
+    { "text": "Happy Valentine's Day❣️", "meaning": "A festive greeting that suits friends or partners." },
+    { "text": "Don't forget, I'm proud of you❣️", "meaning": "Encouragement with loving emphasis." }
+  ],
+  "combos": [
+    { "combo": "❣️❣️", "meaning": "Double emphasis, like two exclamation marks with love." },
+    { "combo": "❤️❣️", "meaning": "A heart followed by a loving exclamation, for strong sentiment." },
+    { "combo": "🎉❣️", "meaning": "Celebration and warm congratulations." }
+  ],
+  "confusedWith": [
+    { "slug": "red-heart", "difference": "❤️ is a full heart that states love directly. ❣️ is a heart-shaped exclamation mark that adds affectionate emphasis to whatever came before. One is a statement, the other is punctuation." },
+    { "slug": "red-exclamation-mark", "difference": "❗ is a plain red exclamation mark used for urgency, warnings, and strong emphasis. ❣️ swaps the stroke for a heart, so the emphasis feels loving instead of alarming." },
+    { "slug": "heart-decoration", "difference": "💟 is a white heart on a purple square used as an ornament. ❣️ is also decorative in origin, but it has a clear job in a sentence as a warm exclamation mark." }
+  ],
+  "avoid": [
+    "Do not use it for warnings or urgent notices, where the heart undercuts the seriousness and ❗ is clearer.",
+    "Avoid it in sad or sympathetic messages, since it signals cheerful enthusiasm."
+  ],
+  "design": "A red heart sits above a red dot, together forming an exclamation mark. The heart may be glossy or flat depending on the vendor, and is drawn the same red as that platform's ❤️. The shape is taller and narrower than other heart emojis, and designs are highly consistent across platforms.",
+  "faqs": [
+    { "q": "What does ❣️ mean from a girl or a guy?", "a": "They are adding warmth and enthusiasm to their message. It is friendly and affectionate but not a specific sign of romantic interest. Think of it as an exclamation mark that likes you." },
+    { "q": "Is ❣️ romantic?", "a": "It can be used between partners, but it is one of the less romantic hearts. Its main purpose is emphasis, so it is common in thanks, greetings, and congratulations to anyone." },
+    { "q": "How do you use the heart exclamation emoji?", "a": "Put it at the end of a sentence in place of, or after, an exclamation mark. It works best on positive statements such as compliments, good wishes, and excited agreement." },
+    { "q": "What is the difference between ❣️ and ❤️?", "a": "❤️ expresses love as a standalone symbol. ❣️ modifies a sentence, giving it a loving, emphatic ending. Many people use ❣️ when a full red heart would feel like too strong a statement." }
+  ],
+  "related": ["red-heart", "red-exclamation-mark", "heart-decoration", "double-exclamation-mark", "sparkling-heart", "two-hearts"]
+}

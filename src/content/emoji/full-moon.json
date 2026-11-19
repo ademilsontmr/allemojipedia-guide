@@ -1,0 +1,60 @@
+{
+  "slug": "full-moon",
+  "title": "Full Moon Emoji 🌕 Meaning: Lunar Nights to Crypto",
+  "description": "🌕 is the full moon without a face. It marks real full moons, astrology and festivals, explains strange moods, and is the “moon” in crypto's 🚀🌕.",
+  "summary": "🌕 is a round, fully lit moon with craters and no face. It marks an actual full moon, lunar festivals and astrology, jokes that odd behavior is the moon's fault, and serves as the destination in “to the moon” posts about rising stock or crypto prices.",
+  "meaning": [
+    "Skywatchers use 🌕 literally. On the night of a full moon, especially a supermoon, a harvest moon or an eclipse, timelines fill with photos tagged with it. It is one of eight phase emojis that together chart the lunar cycle, so calendars, gardening guides and tide tables use it as a date marker. For that purpose it is precise in a way the decorative crescent is not.",
+    "A full moon has always been blamed for strange nights, and the emoji keeps that folklore going. Nurses, teachers and bartenders half-joke that people act wild when it is full. Astrology posts treat each one as a moment for release, intentions or heightened emotion, named for the zodiac sign it falls in. Werewolf jokes are never far away, and Halloween posts use 🌕 for a spooky sky.",
+    "Its newest meaning is financial. In crypto and meme-stock communities, “to the moon” predicts a dramatic price rise, written as a rocket followed by 🌕. The moon is the target; “mooning” means the price is already soaring. Separately, the full moon is central to several festivals, among them the Mid-Autumn Festival in East Asia, when families gather, share mooncakes and admire it."
+  ],
+  "contexts": [
+    {
+      "label": "In astrology and wellness",
+      "body": "Monthly full-moon posts tell followers what to let go of, how to charge crystals or when to journal. Captions name the event, such as a full moon in Scorpio, and add 🌕. People also use it to explain a restless night or a tearful day: the moon did it."
+    },
+    {
+      "label": "In crypto and investing",
+      "body": "Here 🌕 almost never refers to the sky. It expresses a belief that a coin or share is going far higher, usually beside rockets. As with all such posts, the emoji conveys enthusiasm, not evidence, and promoters of risky schemes use the same imagery to create excitement."
+    },
+    {
+      "label": "On holidays and festivals",
+      "body": "Mid-Autumn Festival greetings use the full moon with mooncakes, lanterns and rabbits. Many Buddhist observances fall on full-moon days, and Hindu festivals such as Holi and Guru Purnima are tied to it as well, so the emoji appears in those greetings. Around Halloween it supplies atmosphere with bats, ghosts and wolves."
+    },
+    {
+      "label": "In texting",
+      "body": "“Look outside 🌕” is a small invitation to share a moment, often between partners or family in different places looking at the same moon. It also captions late-night walks and beach bonfires. Because the plain moon has no expression, it does not carry the smirk of the moon-face emojis."
+    }
+  ],
+  "examples": [
+    { "text": "Go look at the moon right now 🌕 it's huge", "meaning": "Urging someone to see an impressive full moon." },
+    { "text": "ER was chaos tonight, must be a 🌕", "meaning": "Joking that the full moon is making people behave strangely." },
+    { "text": "HODL 🚀🌕", "meaning": "Crypto slang: keep holding because the price will soar." },
+    { "text": "Happy Mid-Autumn Festival 🌕🥮", "meaning": "A holiday greeting for the moon festival." },
+    { "text": "Full moon in Aries tonight 🌕 release what isn't serving you", "meaning": "An astrology post offering guidance for the lunar event." },
+    { "text": "Miss you. Same 🌕 though", "meaning": "A tender note that two people far apart share the same sky." }
+  ],
+  "combos": [
+    { "combo": "🚀🌕", "meaning": "“To the moon”: a price expected to rise dramatically." },
+    { "combo": "🌕🐺", "meaning": "Howling at the moon; werewolf jokes or feeling wild." },
+    { "combo": "🌕🥮", "meaning": "Mid-Autumn Festival and mooncakes." },
+    { "combo": "🌑🌓🌕", "meaning": "The moon's phases; change, cycles and growth over time." }
+  ],
+  "confusedWith": [
+    { "slug": "full-moon-face", "difference": "🌝 is a full moon with a smiling face, used for cheeky, awkward or suggestive humor. 🌕 has no face and no attitude; it is the astronomical moon." },
+    { "slug": "new-moon", "difference": "🌑 is the dark, unlit phase. It is the opposite point in the cycle and is used for new beginnings in astrology or for darkness, not for bright moonlit nights." },
+    { "slug": "crescent-moon", "difference": "🌙 is a stylized golden crescent meaning night, sleep and Ramadan. 🌕 is a realistic full disc tied to specific dates and to crypto slang." }
+  ],
+  "avoid": [
+    "Do not take 🚀🌕 posts as investment guidance; they are hype by convention.",
+    "Avoid substituting a moon-face emoji for 🌕 in festival or religious greetings, where the smirking face is out of place."
+  ],
+  "design": "A complete lunar disc in pale yellow, cream or light gray, marked with darker patches or craters to suggest the moon's surface. Platforms differ mainly in color: some are distinctly golden, others silver. It has no face, which separates it from 🌝, and it belongs to a matching series showing each phase of the moon.",
+  "faqs": [
+    { "q": "What does 🌕 mean in crypto?", "a": "It is the moon in “to the moon,” the hope that a coin's price will climb steeply. A rocket usually comes first. It signals optimism within the community and nothing more." },
+    { "q": "What does 🌕 mean from a guy or a girl?", "a": "Most likely they are pointing out the moon, sharing a romantic or reflective moment, or blaming it for a strange mood. It is sincere. For teasing or innuendo, people choose the moon faces instead." },
+    { "q": "Why do people post 🌕 every month?", "a": "A full moon occurs about every 29.5 days. Astrology followers, photographers and people who track cycles for gardening, fishing or ritual mark each one, and the emoji is the simplest way to do so." },
+    { "q": "What is the difference between 🌕 and 🌝?", "a": "🌕 is a realistic full moon. 🌝 adds a face with a sly smile and is a reaction emoji for awkward or flirty jokes. They are not interchangeable in tone." }
+  ],
+  "related": ["full-moon-face", "new-moon", "crescent-moon", "rocket", "new-moon-face", "wolf"]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mending-heart",
+  "title": "Mending Heart Emoji ❤️‍🩹 Meaning: Healing After Hurt",
+  "description": "What does ❤️‍🩹 mean? The mending heart emoji stands for healing from heartbreak, grief or illness, and for gentle sympathy when someone else is hurting.",
+  "summary": "The ❤️‍🩹 mending heart emoji means recovery: a heart that was hurt and is getting better. People use it for healing after a breakup, grief, burnout or illness, and they send it to others as a gentle “I'm sorry you're going through this, take care of yourself.”",
+  "meaning": [
+    "❤️‍🩹 fills the gap between the broken heart and the whole one. A person who posts it is saying the worst has passed but they are not fine yet. That makes it the emoji of the middle chapter: the weeks after a breakup when you have stopped crying daily, the first good day following a depressive stretch, the return to the gym after an injury. It admits damage and points toward repair in the same breath.",
+    "It works in two directions. Sent about yourself, it reports on your own recovery. Sent to someone else, it is sympathy with a caring tone, softer than 💔 and less formal than 🙏. Replying ❤️‍🩹 to a friend's bad news says “that hurts, and I want you to heal,” which is why it has become a standard response to posts about loss, hospital stays and mental health struggles.",
+    "The bandage also gives it a literal, medical side. Nurses, patients and caregivers attach it to surgery updates and recovery milestones, and heart-health campaigns use it for cardiac topics. Parents post it under photos of scraped knees and childhood vaccinations. In these cases there is no metaphor at all: something physical is being patched up.",
+    "A fourth use is the apology. Because the image suggests fixing what was damaged, people add it when they want to repair a friendship or relationship: “I shouldn't have said that ❤️‍🩹.” It can also be a request, a way of asking to be handled gently. What it almost never carries is sarcasm, which sets it apart from many other hearts."
+  ],
+  "contexts": [
+    { "label": "After a breakup", "body": "This is its home territory. On a story or in a bio, ❤️‍🩹 announces that someone is single, bruised and working on themselves. It often accompanies therapy jokes, gym selfies and song lyrics about moving on. Sent directly to an ex, it is more loaded and can mean “I'm still hurting” or “I want to fix this,” so the words around it matter." },
+    { "label": "Supporting someone", "body": "As a reply to hard news, it is one of the kindest single-emoji responses available. It acknowledges pain without making the moment about you, and it avoids the finality that 💔 can suggest. Many people add it to condolence messages, get-well texts and replies to friends who have opened up about anxiety or depression." },
+    { "label": "In health and recovery posts", "body": "Hospital discharge photos, sobriety milestones, chronic illness updates and postpartum posts all draw on ❤️‍🩹. The bandage makes it a natural fit for physical healing, and recovery communities use it to mark progress that is real but unfinished. Charities and clinics place it in awareness posts for the same reason." },
+    { "label": "From a partner", "body": "After an argument, ❤️‍🩹 works as a small peace offering. It says the sender knows something was hurt and wants to mend it. It lands best alongside an actual apology; alone, it can look like an attempt to skip the conversation." }
+  ],
+  "examples": [
+    { "text": "Day 30 without texting him ❤️‍🩹", "meaning": "The sender is proud of their progress in getting over an ex, though it still stings." },
+    { "text": "So sorry about your grandma. Thinking of you ❤️‍🩹", "meaning": "A condolence message expressing sympathy and a wish for the person to heal." },
+    { "text": "Surgery went well, home tomorrow ❤️‍🩹", "meaning": "A literal recovery update after a medical procedure." },
+    { "text": "I was out of line last night. Can we talk? ❤️‍🩹", "meaning": "An apology and an offer to repair the relationship." },
+    { "text": "Healing era ❤️‍🩹", "meaning": "A caption declaring a period of self-care and emotional recovery." },
+    { "text": "Be gentle with me this week ❤️‍🩹", "meaning": "The sender is fragile right now and is asking for patience." }
+  ],
+  "combos": [
+    { "combo": "💔➡️❤️‍🩹", "meaning": "From broken to mending; a compact way to say things are improving." },
+    { "combo": "❤️‍🩹🫂", "meaning": "Comfort plus a hug, sent to someone who is having a rough time." },
+    { "combo": "❤️‍🩹🌱", "meaning": "Healing and personal growth, common in self-care and therapy posts." },
+    { "combo": "❤️‍🩹🙏", "meaning": "Prayers or good wishes for someone's recovery." }
+  ],
+  "confusedWith": [
+    { "slug": "broken-heart", "difference": "💔 is the injury itself: fresh heartbreak, disappointment or grief with no hint of improvement. ❤️‍🩹 comes later and adds hope. Sending the broken heart says “this hurts”; sending the mending one says “this hurt, and it is getting better.”" },
+    { "slug": "face-with-head-bandage", "difference": "🤕 is about physical injury or a headache and is often played for laughs. ❤️‍🩹 leans emotional, and when it is medical it carries tenderness, not slapstick." },
+    { "slug": "heart-on-fire", "difference": "The two share a release and a similar silhouette at small sizes. ❤️‍🔥 is passion at full heat. ❤️‍🩹 is the quiet repair work afterward, so mixing them up can flip the tone of a message entirely." }
+  ],
+  "avoid": [
+    "Do not use it to wave away someone's pain before they are ready; “you'll be fine ❤️‍🩹” can sound dismissive.",
+    "Avoid sending it to an ex unless you intend to open a conversation about what happened.",
+    "Leave it out of lighthearted complaints, where its sincerity can make a small problem sound serious."
+  ],
+  "design": "A red heart with an adhesive bandage across it. Apple and Google place a tan plaster diagonally over the upper part of the heart, while some other vendors wrap a white gauze-style bandage around it. In every version the heart is intact underneath. The emoji is a sequence: ❤️ joined to 🩹, the adhesive bandage. Software that lacks support shows those two emojis next to each other.",
+  "faqs": [
+    { "q": "What does ❤️‍🩹 mean in a text from a girl or a guy?", "a": "Gender does not change it. If the conversation is about their life, they are telling you they are recovering from something painful. If it is a reply to your news, they are offering sympathy. After a fight between the two of you, it signals a wish to make up." },
+    { "q": "Does the mending heart mean someone is over their ex?", "a": "Not quite. It means they are in the process. People who feel fully recovered tend to drop the bandage and post something brighter. ❤️‍🩹 says the wound is closing but still tender." },
+    { "q": "Is ❤️‍🩹 appropriate for condolences?", "a": "Yes, and many people prefer it to the broken heart for that purpose because it expresses care and a hope for healing. For a formal message to someone you do not know well, pair it with words, or leave emojis out." },
+    { "q": "Can ❤️‍🩹 be used for physical illness?", "a": "It can. The bandage makes it suitable for surgery, injury and get-well messages, and it is widely used by patients sharing recovery updates. It does not need to refer to the heart as an organ, though cardiac patients use it that way too." },
+    { "q": "When did the mending heart emoji come out?", "a": "It was approved in 2020 as part of Emoji 13.1, a small release that also introduced the heart on fire. It was made by combining the red heart with the adhesive bandage emoji." }
+  ],
+  "related": ["broken-heart", "red-heart", "heart-on-fire", "face-with-head-bandage", "people-hugging", "seedling"]
+}

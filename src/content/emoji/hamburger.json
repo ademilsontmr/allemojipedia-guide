@@ -1,0 +1,56 @@
+{
+  "slug": "hamburger",
+  "title": "Hamburger Emoji 🍔 Meaning and the Great Cheese Debate",
+  "description": "🍔 means burgers, fast food, cookouts and cravings. Learn how the hamburger emoji is used and why Google once had to move its slice of cheese.",
+  "summary": "The 🍔 hamburger emoji means a burger and, more loosely, fast food, cookouts, cravings and cheat meals. It is a literal, good-natured emoji with no real slang. It is also known for a 2017 controversy over where Google's version placed the cheese.",
+  "meaning": [
+    "Hunger is the message. 🍔 is what people send when they want something greasy and satisfying right now, whether that is a drive-through run at midnight or a backyard grill on Memorial Day. It stands for fast food in general, often alongside fries and a soda, and for American-style eating in particular. Tourists use it for their first meal in the United States; Americans use it for the Fourth of July.",
+    "Dieters and gym-goers treat it as the symbol of the cheat meal. A burger emoji after a week of salads announces a planned lapse, typically with pride. It also marks hangover food and road-trip stops. Because burgers are casual, the emoji sets a relaxed tone when making plans. Nobody proposes a tense conversation over 🍔.",
+    "Its strangest moment came in 2017, when a writer pointed out that Google's burger put the cheese beneath the patty, unlike Apple's and most others. The post spread widely, Google's chief executive joked that he would drop everything to address it, and the company moved the cheese on top in its next update. The episode is a favorite example of how closely people examine emoji designs, and of how seriously they take burger construction."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "A burger is a plan, a craving or a report. “🍔?” is a full lunch invitation between coworkers or friends. Late at night it means someone is headed for a drive-through. With 🤤 it is a longing; with 😩 it may be regret at having eaten too much. It contains no innuendo to worry about."
+    },
+    {
+      "label": "In captions",
+      "body": "Food bloggers, burger joints and barbecue hosts use it constantly. It anchors posts for National Hamburger Day in late May and for summer holidays built around grilling. Fitness accounts use it to frame balance, showing an indulgent meal after training with a caption about earning it."
+    },
+    {
+      "label": "Around the world",
+      "body": "Outside the United States the emoji often signals American culture itself, sometimes fondly and sometimes as a jab about diet and portion sizes. Paired with 🇺🇸 it can be a lighthearted stereotype. Global fast-food chains use it in local marketing everywhere, so the picture is understood across languages."
+    }
+  ],
+  "examples": [
+    { "text": "Lunch? I'm thinking 🍔🍟", "meaning": "A casual proposal to grab burgers and fries." },
+    { "text": "Cheat day has arrived 🍔🙌", "meaning": "The sender is happily breaking their diet." },
+    { "text": "Grill's on, come hungry 🍔🌭", "meaning": "An invitation to a backyard cookout." },
+    { "text": "2am drive-thru was a mistake 🍔😩", "meaning": "Regret after a late-night fast-food run." },
+    { "text": "First meal in America had to be a 🍔", "meaning": "A traveler ticking off a stereotypical American experience." }
+  ],
+  "combos": [
+    { "combo": "🍔🍟", "meaning": "A burger and fries; the classic fast-food order." },
+    { "combo": "🍔🍟🥤", "meaning": "A full combo meal, usually from a drive-through." },
+    { "combo": "🍔🇺🇸", "meaning": "American food or culture, often for the Fourth of July." },
+    { "combo": "🍔🔥", "meaning": "Grilling burgers, or praise for an excellent one." }
+  ],
+  "confusedWith": [
+    { "slug": "sandwich", "difference": "🥪 is sliced bread with fillings, the lunchbox kind. It suggests a packed or deli lunch, while 🍔 means a hot patty in a bun and the fast-food world around it." },
+    { "slug": "hot-dog", "difference": "🌭 shares the cookout and ballpark setting. It is linked more to baseball games and street carts, and it draws occasional innuendo that the burger does not." },
+    { "slug": "bagel", "difference": "🥯 is another round bread item and can look similar when tiny. It means breakfast and cream cheese, not grilling or fast food." }
+  ],
+  "avoid": [
+    "Don't use it to mock someone's weight or eating habits; as a taunt it is a form of body shaming.",
+    "Go easy on burger-and-flag jokes about Americans with people you don't know well, since stereotypes wear thin quickly."
+  ],
+  "design": "Every vendor draws a sesame-seed bun around a beef patty with cheese, lettuce and tomato, but the stacking order differs. Google's early design famously put the cheese under the patty and was corrected after public teasing in 2017. Other platforms still disagree about where the lettuce goes, a detail burger purists continue to debate.",
+  "faqs": [
+    { "q": "What was the burger emoji controversy?", "a": "In 2017 a widely shared post noted that Google's hamburger emoji placed the cheese underneath the patty. Google's CEO responded jokingly that he would look into it immediately, and the next Android release moved the cheese to sit on top of the meat." },
+    { "q": "What does 🍔 mean from a guy or girl?", "a": "They are hungry or suggesting a casual bite. A burger invitation can be a relaxed date idea, but the emoji has no flirtatious or coded meaning. Take it at face value." },
+    { "q": "Is the hamburger emoji a cheeseburger?", "a": "Its official name is Hamburger, but nearly every platform's design includes a slice of cheese. People use it for both, and there is no separate cheeseburger emoji." },
+    { "q": "Does 🍔 have any slang meaning?", "a": "Nothing established. It may be used to represent America, fast food or a cheat meal, all of which follow directly from the picture. It is among the most literal emojis on the keyboard." },
+    { "q": "When was the hamburger emoji added?", "a": "It came with the first standardized emoji set in 2010 and has been available on all major platforms since emoji keyboards became widespread." }
+  ],
+  "related": ["french-fries", "pizza", "hot-dog", "taco", "cup-with-straw", "sandwich"]
+}

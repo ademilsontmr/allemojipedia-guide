@@ -1,0 +1,63 @@
+{
+  "slug": "face-with-raised-eyebrow",
+  "title": "Raised Eyebrow Emoji 🤨 Meaning: Sus, Doubt, Side-Eye",
+  "description": "🤨 is the “excuse me, what?” face: suspicion, disbelief or silent judgment. Learn how it is used in texts and memes, including 🤨📸, and how to respond to it.",
+  "summary": "🤨 has one eyebrow cocked high above a flat mouth. It means suspicion, disbelief or disapproval: “that sounds off,” “are you serious?” or “why would you say that?” Online it is the standard reaction to anything strange, suggestive or sus.",
+  "meaning": [
+    "A single raised eyebrow is a question without words, and 🤨 asks it bluntly. Sent in response to an excuse, a too-good offer or a story with holes in it, it means “I don't believe you.” Unlike 🤔, there is no pretense of weighing the matter. The sender has heard enough to be doubtful and wants you to know.",
+    "It is also the go-to reaction for things that are weird. When someone posts an odd confession, phrases something in a way that sounds accidentally sexual, or shares an opinion nobody expected, replies fill with 🤨. Here it means “what did you just say?” and it is often funnier than any written answer. This use is closely tied to “sus,” the slang for suspicious that spread widely through gaming culture.",
+    "Memes sharpened that reaction. The raised eyebrow of Dwayne “The Rock” Johnson, long famous from his wrestling persona, became a hugely popular reaction clip, and 🤨 is its text equivalent. The combo 🤨📸 adds a camera flash, meaning “caught in 4K”: the sender has noticed something questionable and is saving the evidence. Both are jokes first and accusations second.",
+    "In quieter settings, 🤨 simply shows disapproval. A parent replying to “I'll do my homework later” or a friend reacting to news that you texted your ex might send it as a silent “really?” It carries judgment but not anger, which makes it useful for registering an objection while keeping things light."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It questions what was just said. After a flimsy excuse it asks for the truth; after a strange comment it asks for an explanation. A lone 🤨 is a complete message, and the usual response is to clarify. Friends also use it to tease, pretending to be scandalized by something harmless."
+    },
+    {
+      "label": "On TikTok and Discord",
+      "body": "It marks content as sus or as having an unintended double meaning. Comment sections use 🤨📸 as a running joke whenever a creator says something that could be taken the wrong way. In gaming chats it accuses a player of acting shady, lying about their role or getting improbably lucky."
+    },
+    {
+      "label": "From a crush",
+      "body": "🤨 is not romantic, but it shows up in flirty banter as mock suspicion: “you ‘just happened’ to be at my gym? 🤨.” That is teasing, and it invites a clever comeback. If it follows something you said sincerely, though, they may really be puzzled or put off, so explain what you meant."
+    },
+    {
+      "label": "At work",
+      "body": "Use caution. As a reaction to a colleague's proposal it signals doubt in a way that can feel like public eye-rolling. Among teammates who joke freely it is fine for obviously silly things. When you have a real concern about someone's idea, write it out so the objection is clear and fair."
+    }
+  ],
+  "examples": [
+    { "text": "You “forgot” your wallet again? 🤨", "meaning": "Doubting an excuse that has been used too many times." },
+    { "text": "Why do you know so much about how to disappear 🤨", "meaning": "Joking that a friend's knowledge is suspicious." },
+    { "text": "🤨📸", "meaning": "“Caught in 4K”; reacting to a message that sounds questionable out of context." },
+    { "text": "He said he's “not really a dog person” 🤨", "meaning": "Disapproving of someone's opinion or seeing it as a red flag." },
+    { "text": "Free cruise, just need your card details 🤨", "meaning": "Recognizing an offer as a probable scam." },
+    { "text": "You got up at 5am to go running? Voluntarily? 🤨", "meaning": "Playful disbelief at behavior the sender finds unthinkable." }
+  ],
+  "combos": [
+    { "combo": "🤨📸", "meaning": "Caught in 4K: something suspicious or embarrassing was said and has been noted." },
+    { "combo": "🤨❓", "meaning": "Open confusion and doubt, asking the other person to explain themselves." },
+    { "combo": "🤨🚩", "meaning": "The sender has spotted a red flag in someone's behavior." },
+    { "combo": "🤨🤔", "meaning": "Suspicious and still trying to work out what is really going on." }
+  ],
+  "confusedWith": [
+    { "slug": "thinking-face", "difference": "🤔 props a hand on its chin and leaves room for real consideration. 🤨 has no hand and no hesitation; it is straightforward doubt or disapproval. 🤔 says “hmm, let me think,” while 🤨 says “I don't buy it.”" },
+    { "slug": "face-with-monocle", "difference": "🧐 inspects something closely and often reads as curious or mock-scholarly. 🤨 is not investigating, it is reacting. One leans in for a better look; the other pulls back in suspicion." },
+    { "slug": "unamused-face", "difference": "😒 looks away with a frown and expresses annoyance or boredom. 🤨 looks straight at you and questions what you said. 😒 is “I'm irritated”; 🤨 is “explain yourself.”" }
+  ],
+  "avoid": [
+    "Do not send it when someone shares something personal about their identity, health or feelings, since it reads as judgment.",
+    "Avoid it as your only reply to a sincere work proposal, where it dismisses the idea without giving a reason.",
+    "Skip it with people who do not know internet humor, because they may take the suspicion literally."
+  ],
+  "design": "A yellow face with one eyebrow arched high, the other lowered or level, wide eyes looking straight ahead, and a short, flat or slightly frowning mouth. Its formal Unicode name is simply a face with one eyebrow raised. Vendors disagree on which brow goes up and how stern the mouth looks, yet the skeptical expression comes through on every platform.",
+  "faqs": [
+    { "q": "What does 🤨📸 mean?", "a": "It is shorthand for “caught in 4K.” The raised eyebrow notices something suspicious, embarrassing or suggestive, and the camera flash pretends to capture proof. It is almost always a joke, used when a message sounds wrong out of context." },
+    { "q": "Is 🤨 rude?", "a": "It is blunt. Between friends it is teasing. Sent to someone who was being sincere, it can feel like being judged or called a liar. Because it gives no reason for the doubt, add words when you do not want to seem dismissive." },
+    { "q": "What does 🤨 mean from a girl or a guy?", "a": "They are questioning something: your story, your phrasing or your choices. In banter it is mock suspicion and a prompt to keep joking. If the conversation was serious, they may have misread you or disagree, and a short clarification helps." },
+    { "q": "Is 🤨 the same as “sus”?", "a": "Very nearly. “Sus” means suspicious or shady, and 🤨 is the face people attach to it. The emoji is broader, covering disbelief and disapproval as well, but when someone replies 🤨 to odd behavior, “that's sus” is what they mean." },
+    { "q": "When was the raised eyebrow emoji added?", "a": "🤨 joined the emoji set in 2017, alongside 🤫, 🤭, 🤪 and 🧐. Before then, people typically used 😒 or 🤔 to express doubt." }
+  ],
+  "related": ["thinking-face", "face-with-monocle", "unamused-face", "face-with-rolling-eyes", "eyes", "neutral-face"]
+}

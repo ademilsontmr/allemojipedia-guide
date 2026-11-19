@@ -1,0 +1,49 @@
+{
+  "slug": "laptop",
+  "title": "Laptop Emoji 💻 Meaning: Work Mode, Coding and Study",
+  "description": "The 💻 laptop emoji means work, coding, studying or being online. See how it's used in bios, remote-work posts and texts, plus combos and common mix-ups.",
+  "summary": "The 💻 laptop emoji represents a portable computer and, by extension, whatever happens on one: a job, coding, schoolwork, streaming or online life generally. It often means “I'm working” or “working remotely,” and in bios it marks someone as a developer, designer, student or freelancer.",
+  "meaning": [
+    "When someone sends 💻 with no other explanation, the safest reading is “I'm at work.” It has become shorthand for the workday itself, especially for people whose jobs happen entirely on a screen. “Back to 💻,” “long day at the 💻” and “💻 until 6” all describe being busy without naming the job.",
+    "The rise of remote work gave it a second specialty. A laptop next to a coffee cup, a house or a palm tree is the standard way to say “working from home” or “working from somewhere nicer than an office.” Digital nomads and freelancers lean on it heavily, because the laptop is the one tool their whole livelihood fits inside.",
+    "In profiles it acts as a job title. Developers, web designers, writers, IT staff, students and online sellers put 💻 in a bio to say what they do in a single character. Tech companies use it in hiring posts, and coding communities pair it with the technologist emojis. It can also just mean “computer” in a literal sense: a new purchase, a broken one, or a request to switch from phone to a bigger screen.",
+    "It has no notable slang or ironic life. The closest thing to a joke use is self-deprecating overwork humor, such as posting 💻 at midnight on a Saturday, or the contrast of 💻 beside 🏖️ to show that the vacation did not go quite as planned and the inbox came along."
+  ],
+  "contexts": [
+    { "label": "At work", "body": "Colleagues use 💻 in status lines and chat to show they are heads-down or online: “💻 focusing till noon,” “on 💻, ping me.” It is safe in any professional setting. In job listings it tags remote or tech roles, and on LinkedIn it decorates posts about new positions, certifications and product launches." },
+    { "label": "In bios", "body": "A lone 💻 in an Instagram, X or TikTok bio nearly always describes an occupation or a field of study: software, design, marketing, computer science. Followed by a language or tool name it is more specific, as in “💻 Python and coffee.” Gamers on PC sometimes use it too, though the game controller is more common." },
+    { "label": "In texting", "body": "Between friends it explains absence. “Can't talk, 💻” means buried in work or homework. “Movie on the 💻 tonight?” is a low-key invitation to stream something. Students send it during finals with books and crying faces to describe an essay deadline." },
+    { "label": "In captions", "body": "Desk setup photos, café working sessions and study-with-me videos use it as a scene label. It also appears in announcements for anything launched online: a new website, a blog post, a virtual event, a newsletter or an online shop opening its doors." }
+  ],
+  "examples": [
+    { "text": "WFH today 💻☕", "meaning": "Working from home, coffee in hand." },
+    { "text": "Can't make lunch, glued to my 💻 until this deck is done", "meaning": "Too busy with computer work to step away." },
+    { "text": "Frontend dev 💻 | dog dad | Denver", "meaning": "A bio line where the laptop signals a tech job." },
+    { "text": "New site is live! Go check it out 💻✨", "meaning": "Announcing a website launch." },
+    { "text": "Spilled water on my 💻 and I have a paper due at midnight", "meaning": "A literal laptop disaster at the worst moment." },
+    { "text": "Office for the week 💻🌴", "meaning": "Working remotely from a vacation spot." }
+  ],
+  "combos": [
+    { "combo": "💻☕", "meaning": "A work or study session fueled by coffee, often from home or a café." },
+    { "combo": "👩‍💻💻", "meaning": "Coding or tech work; someone identifying as a developer." },
+    { "combo": "💻📚", "meaning": "Studying, online classes or writing a paper." },
+    { "combo": "💻🏠", "meaning": "Remote work: the home office setup." }
+  ],
+  "confusedWith": [
+    { "slug": "desktop-computer", "difference": "The 🖥️ desktop computer is a monitor on a stand and suggests a fixed office workstation or gaming PC. 💻 is the portable machine and the default choice for “work” or “computer” in casual use." },
+    { "slug": "technologist", "difference": "The 🧑‍💻 technologist shows a person behind a laptop and describes the worker, usually a programmer. 💻 shows only the device, so it fits any computer task, not just tech jobs." },
+    { "slug": "mobile-phone", "difference": "The 📱 mobile phone covers calls, texts and apps on the go. People pick 💻 when they mean sit-down work, typing or a bigger screen." }
+  ],
+  "avoid": [
+    "Don't answer a serious request from your boss with only 💻; a few words confirming what you are doing are clearer.",
+    "Avoid it as a stand-in for “hacker” in a threatening context, where it can read as a boast about breaking into accounts."
+  ],
+  "design": "All platforms show an open laptop viewed from the front or at a slight angle, with a silver or gray body. Apple's resembles a MacBook, and its screen artwork has changed across releases. Google, Samsung and Microsoft draw generic notebooks with a blue or dark screen. None of the designs show a brand logo.",
+  "faqs": [
+    { "q": "What does 💻 mean in a text?", "a": "Usually that the sender is working, studying or otherwise busy on a computer. It can also suggest moving a conversation or activity to a laptop, such as a video call or watching a show together." },
+    { "q": "What does 💻 mean on Instagram or TikTok bios?", "a": "It points to what the person does: programming, design, IT, online business or computer science studies. It is an occupation marker, not slang." },
+    { "q": "Is there a difference between 💻 and 🖥️?", "a": "Yes. 💻 is a laptop and 🖥️ is a desktop monitor. Most people use 💻 for general work talk, and save 🖥️ for desk setups, gaming rigs and office hardware." },
+    { "q": "Is the laptop emoji okay to use in professional emails?", "a": "In informal workplace chat and social posts, yes; it is one of the most neutral emojis there is. In formal email to clients or senior staff, leave emojis out unless they use them first." }
+  ],
+  "related": ["desktop-computer", "technologist", "mobile-phone", "hot-beverage", "books", "memo"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "flag-china",
+  "title": "🇨🇳 China Flag Emoji: Meaning and the Five Stars",
+  "description": "The China flag emoji 🇨🇳 shows five yellow stars on red. Learn what the stars stand for, how the emoji is used in travel, sport and tech talk, and its look-alikes.",
+  "summary": "The 🇨🇳 emoji is the flag of the People's Republic of China: a red field with one large yellow star and four smaller ones in the upper corner. People use it for Chinese nationality and heritage, travel, Lunar New Year greetings, Olympic sport, manufacturing and tech news, and Mandarin language content.",
+  "meaning": [
+    "In everyday posts, 🇨🇳 is a straightforward country marker. It tags trips to Beijing, Shanghai, or Chengdu, labels products and shipping from China, and identifies Mandarin lessons and Chinese-language accounts. Chinese athletes' results in diving, table tennis, badminton, and gymnastics are reported with it, and the emoji is a fixture of Olympic medal tables.",
+    "Use by Chinese people themselves depends on platform. Services popular inside mainland China, such as WeChat and Weibo, have their own sticker and emoji cultures, and the flag appears there mainly around National Day on October 1 and during major sporting events. On global platforms it is used by overseas Chinese, students abroad, and state media accounts, and by commentators discussing trade, technology, and geopolitics. Because of that last group, 🇨🇳 often shows up in arguments, and its tone can only be judged from context.",
+    "The flag is officially called the Five-star Red Flag and was adopted in 1949. Red stands for the communist revolution. In the official interpretation the large star represents the leadership of the Communist Party and the four smaller stars the Chinese people united around it. Hong Kong, Macao, and Taiwan each have a separate flag emoji; which one a person chooses can itself be a sensitive statement, so it is wise to follow how the people concerned describe themselves."
+  ],
+  "contexts": [
+    {
+      "label": "On holidays",
+      "body": "National Day on October 1 and the following week-long holiday bring the most patriotic use. Lunar New Year greetings sometimes include 🇨🇳, though the festival is celebrated across many countries and communities, and most people prefer neutral symbols like 🧧, 🏮, or the year's zodiac animal."
+    },
+    {
+      "label": "In sports",
+      "body": "Table tennis sweeps, diving golds, and volleyball finals fill replies with 🇨🇳. Fans of Chinese esports teams use it during international tournaments, where rivalries with South Korean squads are intense. In these threads the flag is ordinary fan enthusiasm. Snooker and Formula 1 have added newer Chinese fan bases that use it too."
+    },
+    {
+      "label": "In news and business",
+      "body": "Supply chains, electric vehicles, phone makers, and trade policy are all discussed with 🇨🇳 as shorthand for China as an economic actor. Headlines and analysts use it next to 🇺🇸 or the EU flag to signal a bilateral story. It is descriptive, not celebratory, in this setting."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Chengdu next month, I'm going for the pandas and the hotpot 🇨🇳🐼",
+      "meaning": "Sharing travel plans in China."
+    },
+    {
+      "text": "Another diving gold, they make it look easy 🇨🇳🥇",
+      "meaning": "Admiring a Chinese Olympic performance."
+    },
+    {
+      "text": "国庆节快乐 🇨🇳",
+      "meaning": "A National Day greeting in Chinese."
+    },
+    {
+      "text": "Ordered direct from Shenzhen 🇨🇳 two-week shipping",
+      "meaning": "Noting that a product is shipping from China."
+    },
+    {
+      "text": "Week 6 of learning Mandarin, tones are humbling 🇨🇳",
+      "meaning": "A language learner tagging their progress."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇨🇳🐼",
+      "meaning": "China through its best-loved animal, often for Sichuan travel."
+    },
+    {
+      "combo": "🇨🇳🥇",
+      "meaning": "Chinese gold medals."
+    },
+    {
+      "combo": "🇨🇳🇺🇸",
+      "meaning": "US–China relations or comparisons between the two."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-vietnam",
+      "difference": "🇻🇳 Vietnam's flag is also red with yellow, but it has a single large star in the center. China's stars are clustered in the top corner next to the pole."
+    },
+    {
+      "slug": "flag-taiwan",
+      "difference": "🇹🇼 is a different flag: red with a blue canton holding a white sun. The two emojis are not interchangeable, and choosing between them is politically sensitive."
+    },
+    {
+      "slug": "flag-hong-kong-sar-china",
+      "difference": "🇭🇰 Hong Kong's flag is red with a white five-petal bauhinia flower in the middle. It shares the red field, which can cause confusion at a glance."
+    }
+  ],
+  "avoid": [
+    "Do not use it as a catch-all for Chinese-speaking people or for Lunar New Year generally; many who celebrate are from other countries.",
+    "Avoid dropping it into posts about Taiwan, Hong Kong, or Tibet without care, since flag choice in those contexts is read as taking a side."
+  ],
+  "design": "A red rectangle with five golden-yellow stars in the upper hoist corner: one large, with four small ones arranged in an arc to its right. On most platforms the small stars shrink to dots. Rendering is uniform across Apple, Google, and Samsung; Windows users see the letters CN.",
+  "faqs": [
+    {
+      "q": "What do the five stars on China's flag mean?",
+      "a": "Under the official explanation, the large star stands for the leadership of the Communist Party of China and the four smaller stars for the people united around it. Each small star has a point aimed toward the large one."
+    },
+    {
+      "q": "How is the China flag emoji typed?",
+      "a": "It is composed of the regional indicator letters C and N. On phones you pick it from the flags section; on Windows the same character displays as “CN” because flag pictures are not included in the system font."
+    },
+    {
+      "q": "Was the Chinese flag always an emoji?",
+      "a": "It was in the first standardized emoji set of 2010, one of roughly ten country flags inherited from Japanese mobile carriers. The rest of the world's flags arrived later."
+    },
+    {
+      "q": "Is it okay to use 🇨🇳 for Chinese New Year?",
+      "a": "You can, but it narrows the meaning. The festival is observed in Vietnam, Korea, Malaysia, Singapore, and by diaspora communities worldwide. Lanterns, red envelopes, and zodiac animals are more inclusive choices."
+    }
+  ],
+  "related": [
+    "flag-hong-kong-sar-china",
+    "flag-taiwan",
+    "flag-japan",
+    "flag-south-korea",
+    "panda",
+    "red-envelope"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cloud-with-rain",
+  "title": "Rain Cloud Emoji 🌧️ Meaning: Rainy Days, Low Moods",
+  "description": "🌧️ is a cloud with falling rain. It reports wet weather and expresses gloom, bad luck or a cozy day indoors. Examples, combos and how it differs from ☔.",
+  "summary": "🌧️ shows a cloud shedding raindrops. It is the standard emoji for rainy weather and for the moods rain brings: sadness, disappointment, a run of bad luck, or the cozy pleasure of staying in while it pours outside.",
+  "meaning": [
+    "Rain is the literal message. People send 🌧️ to cancel a picnic, warn about the drive, or just report what the window shows. Local news and weather accounts use it in forecasts, and in dry regions it can be genuinely good news for gardens and reservoirs. Among the weather emojis it is the clearest way to say “raining,” since it shows the rain itself and nothing else.",
+    "Emotionally, the rain cloud is a small personal storm. Cartoons draw one hovering over a character who is miserable or unlucky, and the emoji keeps that sense. A message ending in 🌧️ suggests the sender is down, things went wrong, or the day matched their mood. It is quieter than a crying face: less about tears, more about a gray stretch. People also use it to describe someone who dampens the fun.",
+    "Not everyone dislikes rain, and a large share of posts use 🌧️ fondly. Rainy-day reading, the sound on a roof, a slow morning with tea, a lo-fi playlist: for self-described pluviophiles the cloud is a comfort symbol. This cozy reading is especially common in autumn content, where rain goes with candles, sweaters and soup."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Plans change around this emoji. “🌧️ so maybe indoors?” is enough to reroute an afternoon. It also answers “how are you” honestly but lightly, signaling a low day without starting a long conversation. Friends who know each other well may send it alone and be understood."
+    },
+    {
+      "label": "In captions",
+      "body": "Wet streets at night, raindrops on glass and umbrellas in a crowd are popular rainy-photo subjects, and the emoji tags them. Cozy posts pair it with a book or a hot drink. Travelers use it ruefully when a trip coincides with a week of showers, often with a shrug."
+    },
+    {
+      "label": "For moods and setbacks",
+      "body": "After a rejection, a canceled event or a string of small disasters, 🌧️ expresses “of course this happened.” It is frequently followed by a rainbow or sun to add that things will improve. In supportive replies, pairing rain with an umbrella tells someone you will help them through it."
+    }
+  ],
+  "examples": [
+    { "text": "🌧️ all afternoon, moving the party inside", "meaning": "A practical update: rain has changed the plan." },
+    { "text": "Didn't get the apartment 🌧️", "meaning": "Sharing disappointing news in a subdued way." },
+    { "text": "Tea, blanket, book, 🌧️ on the window. Perfect.", "meaning": "Enjoying a cozy rainy day at home." },
+    { "text": "Finally some 🌧️ after six dry weeks 🙌", "meaning": "Welcoming rain that was badly needed." },
+    { "text": "Sorry I've been such a 🌧️ lately", "meaning": "Apologizing for being gloomy company." }
+  ],
+  "combos": [
+    { "combo": "🌧️🌈", "meaning": "Bad times followed by something good; hope after difficulty." },
+    { "combo": "🌧️☕", "meaning": "A rainy day spent warm indoors." },
+    { "combo": "🌧️📖", "meaning": "Reading weather; a quiet, cozy afternoon." },
+    { "combo": "🌧️☔", "meaning": "It is pouring, so come prepared." }
+  ],
+  "confusedWith": [
+    { "slug": "umbrella-with-rain-drops", "difference": "☔ shows an umbrella under falling rain. It emphasizes protection and being prepared, and looks more cheerful. 🌧️ is the rain cloud itself, better for forecasts and for gloomy moods." },
+    { "slug": "cloud-with-lightning-and-rain", "difference": "⛈️ adds a lightning bolt and means a thunderstorm or real turmoil. 🌧️ is ordinary steady rain and a milder kind of sadness." },
+    { "slug": "sun-behind-rain-cloud", "difference": "🌦️ has the sun peeking out behind the rain cloud, for passing showers or mixed feelings. Plain 🌧️ has no bright side showing." }
+  ],
+  "avoid": [
+    "Avoid it for serious flooding or storm emergencies, where it understates the danger.",
+    "Do not answer someone's good news with it unless a joke about raining on their parade is clearly welcome."
+  ],
+  "design": "A white or gray cloud with a row of blue drops or slanted lines falling from its base. Some platforms draw teardrop shapes and others simple streaks, and the cloud ranges from bright white to storm gray. There is no sun, lightning or umbrella. It was added in 2014 alongside several other detailed weather symbols.",
+  "faqs": [
+    { "q": "What does 🌧️ mean from a guy or a girl?", "a": "Either that it is raining or that they feel low. If it follows a comment about their day, treat it as a sign they are a bit down and might appreciate a kind word." },
+    { "q": "What is the difference between 🌧️ and ☔?", "a": "🌧️ depicts the rain cloud and suits forecasts and gloomy feelings. ☔ depicts an umbrella in the rain and suggests coping with it. The umbrella has been on phones longer and is often suggested first by keyboards." },
+    { "q": "Does the rain cloud emoji mean depression?", "a": "It can express sadness or a low period, drawing on the cartoon image of a cloud over someone's head. It is not a clinical signal, but repeated use in a worrying context is worth a gentle check-in." },
+    { "q": "Is 🌧️ always negative?", "a": "No. Many people love rain and use the emoji for cozy days, calming sounds and relief from heat or drought. Tone words around it, like “finally” or “ugh,” show which way it leans." }
+  ],
+  "related": ["umbrella-with-rain-drops", "cloud", "cloud-with-lightning-and-rain", "sun-behind-rain-cloud", "rainbow", "droplet"]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "beating-heart",
+  "title": "Beating Heart Emoji 💓 Meaning: Pulse-Racing Feelings",
+  "description": "The 💓 beating heart emoji is a pink heart with vibration lines. It means a heart pounding from love, excitement or nerves. See examples and comparisons.",
+  "summary": "The 💓 beating heart emoji is a pink heart with small lines showing it thumping. It means a racing or fluttering heart: butterflies around a crush, excitement, anticipation, or love you can physically feel. It also turns up in literal talk about heartbeats, pulse, and cardio.",
+  "meaning": [
+    "Most heart emojis describe a feeling. 💓 describes a sensation, the thud in your chest when someone you like walks in or their name lights up your phone. People use it for butterflies, for anticipation before a date or a concert, and for moments of sudden tenderness. It makes affection sound alive and immediate, as if the sender is reporting what their body is doing.",
+    "The same pounding can come from nerves or adrenaline, and the emoji stretches to cover that. Waiting for exam results, watching the final minute of a close game, or stepping on stage can all earn a 💓. In fan communities it is used for an idol or character who makes the poster's heart race. Used between established partners, it says the spark has not faded.",
+    "It also has a literal side that the other pink hearts lack. A first ultrasound, a baby's heartbeat, a fitness tracker reading, or a post about heart health may use it to mean an actual pulse. For medical realism people now have 🫀, but 💓 remains the friendlier choice when the heartbeat in question is good news."
+  ],
+  "contexts": [
+    { "label": "From a crush", "body": "It is an encouraging sign. 💓 suggests you make their heart race, which is a physical, romantic kind of interest. People send it after a flirty exchange, a first kiss, or a photo they like. It is more specific about attraction than 💕 and softer than a red heart." },
+    { "label": "In texting", "body": "Use it for excitement you can feel: 'two days until I see you 💓.' Friends use it for thrilling news and for nervous anticipation. It adds energy to a message, so it fits upbeat moments better than calm, settled affection." },
+    { "label": "In fitness and health posts", "body": "Runners and gym-goers put it in captions about cardio sessions and heart-rate zones. Expectant parents use it when sharing that they heard a heartbeat at a scan. Health campaigns about blood pressure or heart disease use it to keep the tone approachable." }
+  ],
+  "examples": [
+    { "text": "He held my hand the whole movie 💓", "meaning": "A fluttery reaction to a romantic moment." },
+    { "text": "Boarding now, see you in three hours 💓", "meaning": "Excited anticipation about a reunion." },
+    { "text": "We heard the heartbeat today 💓", "meaning": "A literal reference to a baby's heartbeat at a prenatal visit." },
+    { "text": "Results come out at noon and my heart is going 💓💓", "meaning": "Nervous, pounding suspense." },
+    { "text": "5K done, heart rate through the roof 💓", "meaning": "Literal use after a workout." },
+    { "text": "Your voice notes do something to me 💓", "meaning": "Flirtatious admission of being affected by someone." }
+  ],
+  "combos": [
+    { "combo": "💓🦋", "meaning": "Butterflies in the stomach over a crush." },
+    { "combo": "😳💓", "meaning": "Flustered with a pounding heart." },
+    { "combo": "🏃‍♀️💓", "meaning": "Cardio exercise and an elevated heart rate." },
+    { "combo": "👶💓", "meaning": "A baby's heartbeat or love for a newborn." }
+  ],
+  "confusedWith": [
+    { "slug": "growing-heart", "difference": "💗 is ringed by complete outlines and suggests feelings expanding. 💓 has a few arcs above it for a thumping beat. Choose beating for excitement and nerves, growing for being touched or growing fonder." },
+    { "slug": "anatomical-heart", "difference": "🫀 is a realistic organ with vessels, used for medicine, biology, and sometimes raw, literal emotion. 💓 is a stylized pink heart that keeps heartbeat references cute and romantic." },
+    { "slug": "revolving-hearts", "difference": "💞 shows two hearts circling each other and is about a mutual bond. 💓 is a single heart reacting, so it describes how one person feels in the moment." }
+  ],
+  "avoid": [
+    "Do not use it when describing worrying symptoms like palpitations, because it makes a medical concern look cute.",
+    "Avoid sending it to someone you are not interested in, as it suggests they make your heart race."
+  ],
+  "design": "A pink heart with curved lines near its upper edges indicating vibration or a pulse. Some vendors place arcs on both sides and others on one. The heart is usually a mid to bright pink. At small sizes it resembles the growing heart, and the short motion lines are the distinguishing feature.",
+  "faqs": [
+    { "q": "What does 💓 mean from a guy?", "a": "He is saying you, or something you did, made his heart beat faster. It is a romantic and somewhat vulnerable choice. From a boyfriend it expresses ongoing excitement about you." },
+    { "q": "What does 💓 mean from a girl?", "a": "It usually signals butterflies, excitement, or strong affection. If it follows something you said, you had an effect on her. With friends she may use it for thrilling news of any kind." },
+    { "q": "Does 💓 mean heartbeat?", "a": "Yes. It is the emoji most often used for a heartbeat in a positive sense, both figuratively for love and literally for things like prenatal scans and workouts. Its common shortcode is 'heartbeat.'" },
+    { "q": "Is 💓 more romantic than 💕?", "a": "Slightly. 💕 is a relaxed sign of affection used widely among friends. 💓 implies a physical reaction, which points more toward attraction, though both can be friendly." }
+  ],
+  "related": ["growing-heart", "revolving-hearts", "anatomical-heart", "two-hearts", "sparkling-heart", "flushed-face"]
+}

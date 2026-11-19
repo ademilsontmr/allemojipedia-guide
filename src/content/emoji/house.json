@@ -1,0 +1,56 @@
+{
+  "slug": "house",
+  "title": "House Emoji 🏠 Meaning: Home, Staying In and Moving",
+  "description": "What the 🏠 house emoji means in texts: being home, heading home, working from home, buying a place. Includes examples, combos and how it differs from 🏡.",
+  "summary": "🏠 is a small single-family house and it almost always means home. It tells someone where you are (“just got 🏠”), announces a move or a purchase, labels working from home, and carries the cozy, private feeling of a night spent in rather than out.",
+  "meaning": [
+    "In everyday texting 🏠 is a location stamp. “🏠?” asks whether someone has made it back; “🏠 in 10” promises arrival. It is quicker than typing the word and softer than sharing a live location, which is why parents, partners and roommates use it constantly. The emoji says nothing about what kind of building you actually live in. An apartment, a dorm or a parent's place all count, because the picture stands for the idea of home, not the architecture.",
+    "The second meaning is the life milestone. Closing on a first house, signing a lease, moving in together and finishing a renovation all get announced with 🏠, usually alongside a key or a bottle of something sparkling. Real estate agents and listing sites use it as a plain category marker for the same reason: it is the most neutral dwelling in the set, with no garden, no neighbors and no office tower attached.",
+    "There is also a mood attached. Since remote work became common, 🏠 next to a laptop means a day working from home, and in status lines it tells colleagues you are not in the office. Among friends it can signal a homebody streak, as in declining plans with “staying 🏠 tonight.” The tone there is content rather than sad; for loneliness people tend to pick a different emoji entirely."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Short logistics are the house emoji's home turf: letting someone know you arrived safely, asking when they will be back, or inviting them over (“my 🏠 at 7?”). It often replaces the word mid-sentence. Families use it so routinely that a lone 🏠 after a night out is understood as “I'm in, you can go to sleep.”"
+    },
+    {
+      "label": "At work",
+      "body": "In Slack or Teams statuses, 🏠 is the widely understood badge for working remotely, sometimes with the days listed. Calendar entries marked with it mean a home day, not a day off. In property, mortgage and insurance marketing it is simply an icon for residential, used in headlines, bullet points and listing titles to help people scan."
+    },
+    {
+      "label": "In captions",
+      "body": "Moving-day photos, new-key selfies and before-and-after renovation reels all lean on 🏠. “Home sweet home” captions use it after a long trip, and holiday posts use it for going back to a family house. Decor accounts add it to hashtags about interiors, while house-hunting diaries use it as a running chapter marker."
+    }
+  ],
+  "examples": [
+    { "text": "Text me when you're 🏠", "meaning": "A request to confirm the other person got back safely." },
+    { "text": "WE GOT THE KEYS 🏠🔑", "meaning": "An excited announcement that a home purchase or rental has gone through." },
+    { "text": "WFH tomorrow 🏠💻 ping me on chat", "meaning": "A colleague flagging that they will be working remotely and reachable online." },
+    { "text": "Honestly just want to stay 🏠 and order pizza", "meaning": "Turning down a night out in favor of a quiet evening in." },
+    { "text": "Flying 🏠 for Thanksgiving ✈️", "meaning": "Traveling back to a family home for the holiday." },
+    { "text": "Open 🏠 Sunday 1-3, three bed two bath", "meaning": "A real estate listing using the emoji in place of the word house." }
+  ],
+  "combos": [
+    { "combo": "🏠🔑", "meaning": "New home or new lease; the standard pairing for closing-day and move-in announcements." },
+    { "combo": "🏠💻", "meaning": "Working from home, used in statuses and out-of-office style messages." },
+    { "combo": "🏠❤️", "meaning": "Home is where the heart is: affection for a place, a family, or the person waiting there." },
+    { "combo": "🚗🏠", "meaning": "Driving home now; a common “on my way” update." }
+  ],
+  "confusedWith": [
+    { "slug": "house-with-garden", "difference": "🏡 adds a tree or lawn beside the house. It suggests suburbs, a family place with a yard, or domestic comfort, while 🏠 is the bare building and the more neutral choice for “home” as a location." },
+    { "slug": "houses", "difference": "🏘️ shows several houses together and stands for a neighborhood, a housing development or the property market, not one person's home." },
+    { "slug": "derelict-house", "difference": "🏚️ is a run-down, abandoned house used for fixer-uppers, haunted-house jokes and neglect. Sending it by mistake turns a housewarming message into an insult." }
+  ],
+  "avoid": [
+    "Do not rely on a bare 🏠 for important logistics with someone who might read it as “come to my house” rather than “I'm home.”",
+    "Avoid it in messages to someone who has just lost housing or been through a difficult move, where cheerful home imagery can sting."
+  ],
+  "design": "The glyph is a simple detached house seen from the front or at a slight angle: pitched roof, a door, one or two windows and often a chimney. Roof color is the main variation, red or brown on most platforms, with cream or yellow walls. Some older designs gave it a patch of grass at the base. None of the differences change how it reads.",
+  "faqs": [
+    { "q": "What is the difference between 🏠 and 🏡?", "a": "Both mean home. 🏡 includes a tree or garden and leans toward family life, suburbs and outdoor space. 🏠 is just the house, so it is the usual pick for quick location texts, work statuses and listings." },
+    { "q": "What does 🏠 mean from a guy or a girl?", "a": "It has no flirtatious meaning of its own. It tells you they are home or heading there. An invitation only exists if the words around it make one, such as asking you to come over." },
+    { "q": "Does 🏠 mean working from home?", "a": "In workplace chat, yes. As a status or next to a laptop it is the common shorthand for a remote day. Outside work it simply refers to home in general." },
+    { "q": "Can I use 🏠 if I live in an apartment?", "a": "Yes. People use it for wherever they live. Building-specific emojis exist, but the office building and apartment-style icons read as workplaces or cities, so 🏠 remains the natural symbol for your own place." }
+  ],
+  "related": ["house-with-garden", "houses", "key", "door", "couch-and-lamp", "automobile"]
+}

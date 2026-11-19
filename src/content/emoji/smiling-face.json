@@ -1,0 +1,57 @@
+{
+  "slug": "smiling-face",
+  "title": "Smiling Face Emoji ☺️ Meaning: The Original Shy Smile",
+  "description": "☺️ is the classic blushing smiley, older than emoji keyboards. It means contentment, shyness, or quiet thanks. Learn how it differs from 😊 and 🙂.",
+  "summary": "The ☺️ smiling face is a gentle, blushing smile with closed eyes. It means quiet happiness, contentment, or bashful appreciation. It began as a simple text symbol long before color emoji, which is why it sometimes appears as a black-and-white outline. Its tone is soft, sincere, and a little shy.",
+  "meaning": [
+    "This is the ancestor of every yellow smiley on your phone. The character ☺ existed in computer text as a plain outlined face before emoji keyboards, and it was later given color and a blush. That lineage explains its bare official name, “smiling face,” and its understated look: a small smile, eyes closed, cheeks pink.",
+    "In use it conveys calm, modest pleasure. It fits “thank you ☺️,” “that's so kind ☺️,” and “I had a lovely time ☺️.” The feeling is less exuberant than a grin and more private. It often reads as bashful, the face of someone who has been complimented and does not quite know where to look.",
+    "Compared with its near twin 😊, ☺️ usually has a smaller mouth and comes across as slightly more demure. Many people do not distinguish them at all and choose whichever appears first. Those who do tend to save ☺️ for quieter moments: contentment, relief, gentle affection. It carries a faintly old-fashioned sweetness.",
+    "It is almost never sarcastic. The closed eyes and blush look sincere, so it avoids the trouble that 🙂 runs into. In early dating conversations it can signal shy interest, and among friends it is simply kind. Its one real drawback is technical, not social: on some systems it may not show up as the colorful face the sender picked."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "A soft way to end a warm message. It suits gratitude, reassurance, and pleasant small talk. People who find 😊 a bit bright sometimes prefer it. It works well alone as a reply to a compliment, where it says “thank you, I'm flattered” without fuss."
+    },
+    {
+      "label": "From a crush",
+      "body": "Gentle and encouraging. After a compliment or a nice evening it suggests they are pleased and perhaps a little shy. It is not bold, so it tends to come from people who express interest quietly. Read it together with how engaged they are in the conversation."
+    },
+    {
+      "label": "At work",
+      "body": "Safe and polite. It softens brief replies and thank-yous without seeming overfamiliar. The only caution is display: in certain email programs and older software it may appear as a small monochrome symbol, which looks odd though not offensive. 😊 avoids that issue."
+    }
+  ],
+  "examples": [
+    { "text": "That's really sweet of you to say ☺️", "meaning": "Bashful appreciation of a compliment." },
+    { "text": "Tea, blanket, rain outside ☺️", "meaning": "Quiet contentment." },
+    { "text": "I'd like that ☺️", "meaning": "Shy, pleased acceptance of an invitation." },
+    { "text": "Thank you for thinking of me ☺️", "meaning": "Sincere, modest gratitude." },
+    { "text": "All settled in at the new place ☺️", "meaning": "Calm happiness that things have worked out." }
+  ],
+  "combos": [
+    { "combo": "☺️🌷", "meaning": "Gentle, springlike sweetness; a kind wish or thank-you." },
+    { "combo": "☺️💕", "meaning": "Soft affection for someone dear." },
+    { "combo": "☺️☕", "meaning": "A cozy, contented moment with a warm drink." },
+    { "combo": "☺️🙏", "meaning": "Humble thanks." }
+  ],
+  "confusedWith": [
+    { "slug": "smiling-face-with-smiling-eyes", "difference": "😊 is the newer, purpose-built emoji with a similar blush and curved eyes. It tends to have a wider smile and always displays in color. ☺️ is the older character, a touch more reserved, and can fall back to a text-style outline." },
+    { "slug": "slightly-smiling-face", "difference": "🙂 has open eyes and no blush, and its thin smile is often read as cold or sarcastic. ☺️ closes its eyes and blushes, so it looks sincere. Their names are similar; their reputations are not." },
+    { "slug": "relieved-face", "difference": "😌 has closed eyes that slope downward and a calm smile, with no blush. It expresses relief or serene satisfaction. ☺️ is happier and shyer, with eyes curved upward and pink cheeks." }
+  ],
+  "avoid": [
+    "Don't rely on it where formatting is unpredictable, such as plain-text email, since it may display as a small black-and-white symbol.",
+    "Avoid it for big, exciting news, where its quiet tone can seem underwhelmed."
+  ],
+  "design": "A yellow face with closed eyes curved upward, a small closed smile, and rosy cheeks. Unlike most emojis, it is built from an older text character plus an invisible code that requests the color version. Without that code, or on software that ignores it, the same character appears as a simple black outline of a smiling face.",
+  "faqs": [
+    { "q": "Why does ☺️ sometimes look black and white?", "a": "The underlying character predates color emoji and has a text-style form. A hidden variation selector tells devices to show the color version. If it is missing or unsupported, you see the plain outlined face instead." },
+    { "q": "What is the difference between ☺️ and 😊?", "a": "They mean nearly the same thing. 😊 usually has a broader smile and is the more common choice. ☺️ is the older symbol and looks slightly more modest. Most readers will not notice which one you used." },
+    { "q": "What does ☺️ mean from a guy or a girl?", "a": "Contentment, kindness, or shyness. From someone you are flirting with, it often means they are pleased and a bit bashful. From a friend or relative it is plain warmth. It is not specific to any gender." },
+    { "q": "Is ☺️ flirty?", "a": "Mildly, at most. It suggests someone is charmed or blushing, which can accompany attraction. It does not push the way a wink or kiss emoji does, so it is equally at home in platonic conversations." },
+    { "q": "Is ☺️ sarcastic like 🙂?", "a": "No. The blush and closed eyes make it look earnest, and it is very rarely used with irony. If you are worried a smile will be taken the wrong way, ☺️ or 😊 is a much safer pick than 🙂." }
+  ],
+  "related": ["smiling-face-with-smiling-eyes", "slightly-smiling-face", "relieved-face", "smiling-face-with-hearts", "flushed-face", "kissing-face-with-closed-eyes"]
+}

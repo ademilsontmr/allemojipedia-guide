@@ -1,0 +1,56 @@
+{
+  "slug": "lemon",
+  "title": "Lemon Emoji 🍋 Meaning: Sour Moods and Fresh Starts",
+  "description": "The 🍋 lemon emoji means citrus and freshness, a sour mood, or a dud purchase. It also nods to lemonade and to making the best of a bad situation.",
+  "summary": "The 🍋 lemon emoji represents the fruit and its qualities: sour, sharp, fresh and bright yellow. People use it for drinks and cooking, for a sour mood or bitter remark, for a defective purchase (a “lemon”), and for the saying about turning life's lemons into lemonade.",
+  "meaning": [
+    "Lemons rarely get eaten alone, and the emoji likewise tends to flavor a message instead of being its subject. Literally it goes with iced tea, cocktails, lemon bars, fish, cleaning products and anything described as zesty. Summer posts use it for lemonade stands and Mediterranean trips, especially the Amalfi Coast, where lemon groves are the signature image. Paired with honey and tea it signals a sore throat.",
+    "Sourness is the main figurative use. A person can be 🍋 when sulking, a comment can be 🍋 when cutting, and a face that looks like it just bit a lemon is easy to picture. The emoji is a mild way to say someone is bitter about a result, as in sports rivalries or a breakup. English also calls a faulty car or gadget a lemon, so the emoji can mark a regrettable purchase.",
+    "Against that, lemons stand for resilience through the proverb “when life gives you lemons, make lemonade.” People post 🍋 after setbacks to say they are making the best of it. Beyoncé's 2016 album Lemonade tied the image to surviving betrayal, and her fans still use the emoji in that spirit. In older fan-fiction slang, a “lemon” is a sexually explicit story, a meaning that survives mostly among long-time fandom members."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Usually practical: a grocery reminder, a drink order, a recipe swap. As commentary it teases someone for being sour, like a friend still annoyed about losing a game. It can also soften a complaint about a bad buy. There is no common flirtatious meaning, so a lemon from a crush is probably about lunch."
+    },
+    {
+      "label": "In captions",
+      "body": "The bright yellow suits summer and travel aesthetics. Italian holiday photos, citrus-print dresses, spritz glasses and kitchen scenes all pick it up. It is also common in “clean girl” and wellness content, attached to lemon water routines and fresh, minimal styling. In these posts the emoji is as much a color accent as a fruit."
+    },
+    {
+      "label": "After a setback",
+      "body": "Someone announcing a layoff, a rained-out event or a canceled flight may add 🍋 to signal they are making lemonade. Used this way it is quietly optimistic. Friends answer with 🍋 or a drink emoji to say they are behind the effort."
+    }
+  ],
+  "examples": [
+    { "text": "Life gave me lemons so I started a side business 🍋", "meaning": "The sender turned a setback into an opportunity." },
+    { "text": "Someone's still 🍋 about last night's score", "meaning": "Teasing a friend for being sour over a loss." },
+    { "text": "This laptop is a total 🍋. Third repair this year", "meaning": "The product is defective and the buyer regrets it." },
+    { "text": "Hot water, honey and 🍋 until this cold goes away", "meaning": "A literal home remedy for a sore throat." },
+    { "text": "Positano views 🍋🌊", "meaning": "A travel caption evoking the lemon-covered Amalfi Coast." }
+  ],
+  "combos": [
+    { "combo": "🍋🥤", "meaning": "Lemonade, either the drink or making the best of things." },
+    { "combo": "🍋🍯", "meaning": "Honey and lemon, typically for a cold or sore throat." },
+    { "combo": "🍋🧂", "meaning": "Tequila shots with salt, or adding insult to injury." },
+    { "combo": "🍋😖", "meaning": "Something is intensely sour, in taste or in mood." }
+  ],
+  "confusedWith": [
+    { "slug": "lime", "difference": "🍋‍🟩 is the green counterpart and a much newer emoji. Before it existed people used the lemon for margaritas and tacos; now the lime covers those, while the lemon keeps the sour-mood and lemonade meanings." },
+    { "slug": "tangerine", "difference": "🍊 is sweet citrus and stands in for oranges and orange juice. It suggests breakfast and sunshine without the sharpness or bitterness a lemon implies." },
+    { "slug": "banana", "difference": "🍌 is the other bright yellow fruit, but it signals silliness and innuendo. The lemon's personality is tart, not goofy." }
+  ],
+  "avoid": [
+    "Don't call a person a lemon in a professional setting; it implies they are defective or useless.",
+    "Avoid answering someone's sincere grief with a breezy lemons-to-lemonade message, which can minimize what they are feeling."
+  ],
+  "design": "A single whole lemon, bright yellow and oval with pointed ends, is the standard design. Most vendors, Apple among them, include a small green leaf at the stem, and the surface may be lightly dimpled. No platform shows it sliced. The designs are close enough that the emoji looks essentially identical from one device to the next.",
+  "faqs": [
+    { "q": "What does 🍋 mean in slang?", "a": "Most often “sour,” describing a bitter mood or a sharp remark. It can also mean a defective product. In long-established fan-fiction communities a lemon is an explicit story, though that term is used less now than it once was." },
+    { "q": "Does the lemon emoji refer to Beyoncé?", "a": "Frequently, yes. After her album Lemonade came out in 2016, fans adopted 🍋 to reference the record and its themes of infidelity and strength. It appears in posts about her music and in the wider sense of rising above being wronged." },
+    { "q": "What does 🍋 mean from a girl or guy?", "a": "There is no special romantic code. It could mean they are feeling sour, they are making the best of something, or they like the summery look. Consider the conversation topic before reading anything into it." },
+    { "q": "What does 🍋 mean on Snapchat?", "a": "In the unofficial fruit game that used emojis for relationship status, a lemon meant the person wanted to be single. Only people familiar with that game will intend it; otherwise it has its usual meanings." },
+    { "q": "Why is a bad car called a lemon?", "a": "The slang dates back more than a century in English, where “lemon” came to mean something disappointing or worthless. In the United States, consumer protection statutes for defective vehicles are known as lemon laws, which keeps the term in everyday use." }
+  ],
+  "related": ["lime", "tangerine", "tropical-drink", "honey-pot", "sun", "yellow-heart"]
+}

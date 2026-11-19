@@ -1,0 +1,50 @@
+{
+  "slug": "woozy-face",
+  "title": "Woozy Face Emoji 🥴 Meaning: Tipsy, Dazed or Smitten",
+  "description": "🥴 has lopsided eyes and a wavy mouth. It means drunk, dizzy, exhausted, infatuated or cringing at something awkward. See how each use reads in real messages.",
+  "summary": "The 🥴 woozy face means the sender is not quite steady. Its mismatched eyes and crumpled mouth suggest being tipsy, dizzy, overtired or dazed. It is also used for being smitten with someone and, quite often, as a reaction to something awkward, dumb or uncomfortable.",
+  "meaning": [
+    "The designers gave this face one eye larger than the other and a mouth like a wavy line, and people have read that expression in several ways. The original idea is intoxication. 🥴 goes with messages about a third glass of wine, strong cocktails or a night that has gotten away from the sender. It shows the loose, lopsided look of someone who should probably switch to water.",
+    "It also covers states that feel like being drunk without any alcohol. Sleep deprivation, dental anesthesia, a head rush from standing too fast, a long flight, cold medicine: anything that leaves a person foggy can be described with 🥴. Students use it after exams and parents after a week of broken sleep.",
+    "A romantic reading sits next to these. On several platforms the face is flushed, and its dopey half-smile suggests being lovestruck. Replying 🥴 to a photo of a crush means they have you weak in the knees. It is goofier and less polished than heart eyes, which makes it feel sincere.",
+    "Then there is the reaction use, which may now be the most common. 🥴 appears after a secondhand-embarrassing story, a questionable decision or a statement that makes no sense. It says yikes, or that is a choice, with a grimace. In this sense it often comments on the sender's own bad judgment as much as anyone else's."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Late at night it nearly always means tipsy. Earlier in the day it is likely tiredness or a reaction to something awkward that was just said. People also use it to soften an embarrassing admission, such as texting an ex, because the face looks like it knows it messed up." },
+    { "label": "On X and TikTok", "body": "It is a commentary emoji. Quote posts add 🥴 to takes they find foolish, and storytime videos collect it when the plot turns uncomfortable. It carries a tone of bemused judgment, less cruel than a clown face and less angry than an eye roll." },
+    { "label": "From a crush", "body": "Sent about you, it means you have them flustered. Something like you in that jacket 🥴 is a compliment delivered with a little self-mockery. The sender is admitting attraction and making fun of their own reaction to it at once, which keeps it light." },
+    { "label": "At work", "body": "It is fine among teammates for brain fog after back-to-back meetings or a confusing email thread. Be cautious about using it on someone's idea, because it implies the idea is silly. Keep references to being drunk out of professional channels altogether." }
+  ],
+  "examples": [
+    { "text": "Two margaritas in and I'm already 🥴", "meaning": "The sender is feeling the alcohol." },
+    { "text": "Got my wisdom teeth out, still 🥴 from the meds", "meaning": "Groggy and loopy after anesthesia." },
+    { "text": "He smiled at me and I forgot my own name 🥴", "meaning": "Flustered and infatuated with someone." },
+    { "text": "I waved back at someone who wasn't waving at me 🥴", "meaning": "Cringing at their own awkward moment." },
+    { "text": "So he quit without another job lined up 🥴", "meaning": "A bemused reaction to a questionable decision." },
+    { "text": "Four hours of sleep and a 9am presentation 🥴", "meaning": "Too tired to think straight." }
+  ],
+  "combos": [
+    { "combo": "🍷🥴", "meaning": "Tipsy on wine, or planning to be shortly." },
+    { "combo": "🥴😵‍💫", "meaning": "Thoroughly dizzy or overwhelmed, with the room spinning." },
+    { "combo": "🥴❤️", "meaning": "Lovestruck and a bit silly about it." },
+    { "combo": "🥴💀", "meaning": "Something was so awkward or ridiculous that the sender is done." }
+  ],
+  "confusedWith": [
+    { "slug": "face-with-spiral-eyes", "difference": "😵‍💫 has swirling eyes and means dizzy, disoriented or mentally overloaded. 🥴 is looser and sillier, with a suggestion of alcohol or infatuation that the spiral face does not carry." },
+    { "slug": "zany-face", "difference": "🤪 is wild and energetic, tongue out, acting crazy on purpose. 🥴 has low energy and no control; it is the face of someone things are happening to." },
+    { "slug": "nauseated-face", "difference": "🤢 is green and about to be sick. 🥴 is merely off balance and may even be enjoying it. A night out can travel from one to the other." }
+  ],
+  "avoid": [
+    "Do not use it to describe someone else as drunk in a chat their employer or family can see.",
+    "Avoid it as a reaction to a sincere idea unless you mean to call it foolish.",
+    "Skip it when reporting worrying symptoms like real dizziness or confusion, which need plain words."
+  ],
+  "design": "A yellow face with uneven eyes, one wider or higher than the other, a raised brow, and a crinkled, wavy mouth. Several vendors add flushed cheeks, which strengthens the drunk or lovestruck impression. Others leave the cheeks plain, so the face looks more dazed or queasy. These differences partly explain why people interpret it so many ways.",
+  "faqs": [
+    { "q": "What does 🥴 mean from a guy or girl?", "a": "If they are talking about you or your photo, they are saying you make them weak or flustered. If they are describing their evening, they are tipsy or tired. If it follows a story, they are cringing. The subject of the sentence decides it." },
+    { "q": "Does 🥴 mean drunk?", "a": "That is its best-known meaning and the one suggested by its Unicode keywords, which include tipsy and intoxicated. It is also widely used for sober kinds of dizziness, exhaustion and embarrassment, so do not assume alcohol without other clues." },
+    { "q": "Is 🥴 a flirty emoji?", "a": "It can be. Used about a person it means they have a strong, slightly ridiculous effect on you. It is less intense than 🥵 and more playful than 😍, and suits people who flirt by joking about themselves." },
+    { "q": "What does 🥴 mean on TikTok?", "a": "Mostly that something is awkward, questionable or hard to watch. Commenters use it to react to cringe content and bad decisions. It also appears on posts about nights out and on videos of attractive people, where the older meanings apply." }
+  ],
+  "related": ["face-with-spiral-eyes", "zany-face", "face-with-crossed-out-eyes", "nauseated-face", "wine-glass", "grimacing-face"]
+}

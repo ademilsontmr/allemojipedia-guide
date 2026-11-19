@@ -1,0 +1,49 @@
+{
+  "slug": "bell",
+  "title": "Bell Emoji 🔔 Meaning: Notifications, Alerts and Reminders",
+  "description": "The 🔔 bell emoji means notifications, alerts and reminders, as in “turn on the bell.” Also used for school, church and Christmas bells. Examples and FAQs.",
+  "summary": "The 🔔 bell emoji shows a golden bell. Online it mostly means notifications: an alert, a reminder, or a creator asking followers to “hit the bell” so they are told about new posts. It also stands for real bells at schools, churches, weddings and Christmas.",
+  "meaning": [
+    "App design fixed this emoji's modern meaning. Phones, social networks and websites use a bell icon for the notifications menu, and YouTube's subscribe-and-ring-the-bell routine made the image a household reference. When creators write “🔔 on” or “turn on post notifications 🔔,” they are asking you to opt in to alerts so you never miss an upload, a livestream or a product restock.",
+    "By extension, 🔔 flags anything that needs attention. Brands open announcements with it, as in “🔔 New drop Friday,” teachers use it for reminders, and community admins for rule changes. It is softer than a siren or a red exclamation mark: important, not urgent. In chat apps, reacting with a bell can mean “remind me about this” or “noted, I'm following.”",
+    "Real bells still ring through it. The school bell means class is starting or the day is done. Church bells accompany posts about services, weddings and funerals. Christmas content uses it for sleigh bells and carols, usually in multiples. Boxing fans use it for the start and end of rounds, and stock market accounts for the opening and closing bell on trading floors.",
+    "Several idioms attach to it as well. “Does that ring a 🔔?” asks whether something sounds familiar. “Saved by the 🔔” describes a last-second escape. “Ding ding ding 🔔” announces that someone guessed correctly, and “shame 🔔” references a much-memed scene from Game of Thrones. Taco Bell fans, inevitably, use it for the restaurant."
+  ],
+  "contexts": [
+    { "label": "On social media", "body": "Calls to enable notifications dominate. Musicians, streamers, sports clubs and sneaker shops all want followers to switch alerts on before a release. The emoji also labels reminder posts for events and deadlines. On X, “🔔” in a reply sometimes means the user has turned on alerts for that account." },
+    { "label": "At work", "body": "It marks reminders and heads-up messages in team channels: “🔔 Timesheets due today.” Product teams use it when discussing alert features. It is entirely workplace-safe. Used on every message it loses force, so most teams reserve it for items that have a deadline." },
+    { "label": "On holidays", "body": "December brings jingle bells, Salvation Army kettles and New Year's Eve countdowns. Wedding posts pair it with a ring or church for “wedding bells.” In the United States it can appear on Independence Day in reference to the Liberty Bell, though that use is minor." },
+    { "label": "In texting", "body": "People use it to nudge: “🔔 don't forget Mom's birthday.” It confirms a correct guess with “ding ding 🔔.” Students announce freedom with it at the end of the school day, and a quick “ring a 🔔?” checks whether a name or story is familiar." }
+  ],
+  "examples": [
+    { "text": "New video every Tuesday, turn on the 🔔", "meaning": "Asking followers to enable notifications." },
+    { "text": "🔔 Reminder: forms are due tomorrow", "meaning": "Drawing attention to a deadline." },
+    { "text": "Ding ding ding 🔔 you guessed it", "meaning": "Confirming someone got the right answer." },
+    { "text": "Does the name Marcus ring a 🔔?", "meaning": "Asking whether a name sounds familiar." },
+    { "text": "Final 🔔 of the school year!!", "meaning": "Celebrating the last day of classes." },
+    { "text": "Hearing wedding 🔔🔔 for those two", "meaning": "Predicting that a couple will get married." }
+  ],
+  "combos": [
+    { "combo": "🔔✅", "meaning": "Notifications turned on; alert set." },
+    { "combo": "🔔🎄", "meaning": "Christmas bells and holiday cheer." },
+    { "combo": "🔔💍", "meaning": "Wedding bells: marriage is coming." },
+    { "combo": "🥊🔔", "meaning": "The opening or closing bell of a fight." }
+  ],
+  "confusedWith": [
+    { "slug": "bell-with-slash", "difference": "The 🔕 bell with slash is the same bell crossed out. It means muted, do not disturb or notifications off, the direct opposite of 🔔." },
+    { "slug": "bellhop-bell", "difference": "The 🛎️ bellhop bell is the small silver counter bell found at hotel reception. It is used for service, hospitality and “order up,” not for alerts." },
+    { "slug": "loudspeaker", "difference": "The 📢 loudspeaker broadcasts an announcement to a crowd and is louder in tone. 🔔 is a personal alert or reminder that something has arrived." }
+  ],
+  "avoid": [
+    "Don't begin every post with 🔔; followers start ignoring an alert that is always ringing.",
+    "Avoid the “shame 🔔” meme toward someone who is already being piled on, where it adds to harassment."
+  ],
+  "design": "Every major platform shows a yellow or gold handbell-shaped bell with a flared rim and a clapper visible at the bottom. Some tilt it slightly as if ringing; others hang it straight. A few designs add a loop or handle on top. Color and shape are consistent enough that it matches the notification icons used in apps.",
+  "faqs": [
+    { "q": "What does 🔔 mean on YouTube, Instagram or TikTok?", "a": "It refers to notifications. Tapping the bell on a channel or profile tells the app to alert you when that account posts. Creators use the emoji to remind viewers to switch it on." },
+    { "q": "What does 🔔 mean in a text message?", "a": "A reminder or alert in most cases. It can also illustrate an idiom, such as “ring a bell” for familiarity or “ding ding” for a right answer." },
+    { "q": "What is the difference between 🔔 and 🔕?", "a": "🔔 means sound and alerts are on. 🔕, with the diagonal slash, means silenced. People use the crossed-out bell for do-not-disturb hours, muted chats and focus time." },
+    { "q": "What does 🔔 mean next to someone's name on X?", "a": "When users reply with a bell or mention it, they are usually saying they enabled notifications for that account. It signals close interest in whatever the account posts next." }
+  ],
+  "related": ["bell-with-slash", "bellhop-bell", "loudspeaker", "megaphone", "alarm-clock", "red-exclamation-mark"]
+}

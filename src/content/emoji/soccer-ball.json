@@ -1,0 +1,56 @@
+{
+  "slug": "soccer-ball",
+  "title": "Soccer Ball Emoji ⚽ Meaning: Football, Goals & Match Day",
+  "description": "The ⚽ soccer ball emoji stands for football everywhere outside the US: match days, goals, World Cups and five-a-side plans. Here is how fans really use it.",
+  "summary": "The ⚽ soccer ball emoji means the sport itself, called football in most of the world. People use it for match-day plans, goal celebrations, club loyalty, kids’ practice and tournament talk. It has almost no slang meaning; it is one of the most literal emojis on the keyboard.",
+  "meaning": [
+    "A soccer ball in a message nearly always means exactly that: the game. Fans drop it into score updates, group chats before kickoff and replies to a great goal. Parents use it for weekend league logistics, and players use it for training and five-a-side invitations. During a World Cup, the Euros or Copa América, its use climbs sharply because it is the simplest way to say “I am watching.”",
+    "What the emoji is called depends on who is typing. Unicode named it Soccer Ball, following American English, but most of the world calls the sport football, fútbol or futebol and treats ⚽ as the football emoji. Americans looking for their own football should reach for 🏈 instead. This naming split is the main source of confusion around an otherwise uncomplicated symbol.",
+    "Figurative uses exist but stay close to the pitch. People borrow ⚽ for phrases like “own goal” when someone sabotages themselves, “moving the goalposts,” or “back of the net” after a success. A row of ⚽⚽⚽ under a post typically counts goals, most often a hat-trick. It does not carry romantic, sexual or coded meanings in mainstream use."
+  ],
+  "contexts": [
+    {
+      "label": "In sports talk",
+      "body": "Score lines are where ⚽ lives. Supporters write “⚽ 67’ Salah” style updates, mark each goal with a ball, and pair it with club-colored hearts or a national flag. Fantasy football managers use it when discussing who to captain. Official club and league accounts use it as a goal icon so often that it works as punctuation."
+    },
+    {
+      "label": "In texting",
+      "body": "Between friends it is mostly a planning tool: “⚽ at 6?” needs no other words. It also flags availability, as in “can’t, the kids have ⚽,” or signals what someone is doing when they go quiet for ninety minutes on a Saturday. In a dating profile, it tells you the person plays or follows the sport."
+    },
+    {
+      "label": "Around the world",
+      "body": "In Brazil, Argentina, Spain, England, Nigeria and nearly everywhere else, this is simply the football emoji and sits beside flags all tournament long. In the United States, Canada and Australia it means soccer specifically, and the word football points to a different code. The picture is the same; only the vocabulary around it changes."
+    }
+  ],
+  "examples": [
+    { "text": "Kickoff in 10, where are you?? ⚽", "meaning": "The match is about to start and the sender wants their friend there." },
+    { "text": "⚽⚽⚽ what a night for her", "meaning": "A player scored three goals, a hat-trick, and the sender is impressed." },
+    { "text": "Anyone up for 5-a-side Thursday? ⚽", "meaning": "An invitation to a casual small-sided game." },
+    { "text": "Texted my ex at 2am. Own goal ⚽", "meaning": "They admit they caused their own problem, using a football metaphor." },
+    { "text": "World Cup summer 🇧🇷⚽", "meaning": "They are excited for the tournament and backing Brazil." }
+  ],
+  "combos": [
+    { "combo": "⚽🥅", "meaning": "A goal has been scored, or someone wants one badly." },
+    { "combo": "⚽🏆", "meaning": "Winning a cup, league or tournament, or dreaming about it." },
+    { "combo": "⚽🍻", "meaning": "Watching the match at a pub or with drinks at a friend’s place." },
+    { "combo": "🧤⚽", "meaning": "Goalkeeping: a great save, a keeper’s clean sheet or a new pair of gloves." }
+  ],
+  "confusedWith": [
+    { "slug": "american-football", "difference": "🏈 is the brown, pointed ball of the NFL and college football. If an American says football they usually mean that one; if almost anyone else says football they mean ⚽." },
+    { "slug": "volleyball", "difference": "🏐 is a white ball with curved panel lines and no black patches. At small sizes the two can look alike, but volleyball posts tend to mention beaches, nets or indoor courts." },
+    { "slug": "rugby-football", "difference": "🏉 is an oval rugby ball, usually pale with stripes. It belongs to rugby union and league, which share the word football in some countries but are different sports from ⚽." }
+  ],
+  "avoid": [
+    "Do not use ⚽ for American football news; fans will read it as the wrong sport.",
+    "Avoid spamming goal emojis at a friend whose team is the one conceding unless you are sure the teasing is welcome."
+  ],
+  "design": "Every major platform draws the classic ball made of white hexagons and black pentagons, the pattern made famous by 1970s match balls and still the universal cartoon of the sport. Angles and shading vary slightly between Apple, Google, Samsung and Microsoft, but no vendor uses a modern multicolored match-ball design, so it looks the same to everyone.",
+  "faqs": [
+    { "q": "Is ⚽ the football emoji or the soccer emoji?", "a": "Both. Its official Unicode name is Soccer Ball, but the sport it shows is called football in most countries. In the United States and a few other places, football means the game played with 🏈." },
+    { "q": "Does the soccer ball emoji have a hidden or flirty meaning?", "a": "No widely recognized one. From a crush it usually means they play, they are watching a match or they are inviting you to one. Any flirtation comes from the words around it, not the ball." },
+    { "q": "What does ⚽ mean on Snapchat or Instagram?", "a": "The same as anywhere: football content. In a bio it marks a player or fan, on a story it tags a match, and in comments it celebrates a goal. Neither app assigns it a special function." },
+    { "q": "Why is the emoji ball black and white when real balls are not?", "a": "The black-and-white paneled ball became the standard image of the sport when it was introduced for television visibility decades ago. Match balls have changed many times since, but the old pattern remains the most instantly recognizable." },
+    { "q": "When did the soccer ball emoji come out?", "a": "It was included when Unicode first standardized emoji in 2010, and the underlying character existed in the standard even earlier, which is why it works on virtually every device." }
+  ],
+  "related": ["trophy", "basketball", "american-football", "1st-place-medal", "flag-brazil", "chequered-flag"]
+}

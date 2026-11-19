@@ -1,0 +1,105 @@
+{
+  "slug": "right-arrow",
+  "title": "Right Arrow Emoji ➡️ Meaning: Next, Swipe, Leads To",
+  "description": "The ➡️ right arrow emoji points readers onward: next step, swipe, link, or result. See how it works in captions, before-and-after posts, and directions.",
+  "summary": "The ➡️ right arrow emoji points to the right and means next, forward, or \"this leads to that.\" It directs attention to a link or the following slide, connects a cause to its result, shows a before-and-after change, and gives literal directions.",
+  "meaning": [
+    "➡️ is a working emoji with a clear job: steer the eye. In languages read left to right, a rightward arrow naturally means onward, so it marks the next step in instructions, the next photo in a carousel, or the continuation of a thread. \"Swipe ➡️\" is probably its single most familiar use on Instagram.",
+    "It is equally common as a connector between two things. \"Flour + eggs ➡️ pasta\" shows a result, \"2019 ➡️ 2024\" shows a transformation, and \"New York ➡️ Lisbon\" shows a journey. In this role it stands for words like becomes, leads to, or to, and it lets people express a change in a compact line that reads at a glance.",
+    "Marketers and creators use ➡️ as a pointer toward whatever they want clicked: a link, a handle, a discount code. Lists use it as a bullet with a sense of momentum. In notes and work chat it marks action items and consequences, as in \"client approved ➡️ start build Monday.\"",
+    "Slang has barely touched it. The arrow does not flirt, mock, or carry hidden meaning; its tone comes entirely from the words around it. The one thing to keep in mind is direction. In right-to-left languages such as Arabic and Hebrew, \"forward\" in text runs the other way, so the same arrow can point back toward what was already read."
+  ],
+  "contexts": [
+    {
+      "label": "On TikTok and Instagram",
+      "body": "Carousel posts lean on ➡️ to tell viewers there are more slides, and before-and-after content uses it between the two states. It also points at on-screen elements in videos. Travel creators string city names together with arrows to lay out an itinerary in the caption."
+    },
+    {
+      "label": "At work",
+      "body": "In meeting notes and status messages, ➡️ separates a decision from its follow-up or shows a handoff: \"Design ➡️ Engineering.\" It is tidy, neutral, and widely accepted in professional writing. Step-by-step guides use it for menu paths, such as Settings ➡️ Privacy ➡️ Location."
+    },
+    {
+      "label": "In texting",
+      "body": "People send it for directions (\"turn at the gas station ➡️\"), to refer to the next message or attachment, or to shorten a chain of events when telling a story. On its own after a photo it usually means \"keep looking, there is more.\""
+    }
+  ],
+  "examples": [
+    {
+      "text": "Swipe ➡️ to see how it turned out",
+      "meaning": "A prompt to view the next image in a multi-photo post."
+    },
+    {
+      "text": "Couch potato ➡️ half marathon finisher 🏅",
+      "meaning": "A before-and-after transformation the sender is proud of."
+    },
+    {
+      "text": "Full recipe ➡️ link in bio",
+      "meaning": "The arrow directs followers to where they can find more."
+    },
+    {
+      "text": "Skipped lunch ➡️ headache ➡️ bad mood, sorry",
+      "meaning": "A cause-and-effect chain explaining why the sender was irritable."
+    },
+    {
+      "text": "Go past the bakery, then second door ➡️",
+      "meaning": "Literal directions: the entrance is on the right."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "⬅️➡️",
+      "meaning": "Back and forth, left or right, or a choice between two directions."
+    },
+    {
+      "combo": "➡️🔗",
+      "meaning": "Follow the link; a call to click through for details."
+    },
+    {
+      "combo": "😴➡️☕➡️😃",
+      "meaning": "A mini story of transformation, here from sleepy to awake via coffee."
+    },
+    {
+      "combo": "➡️➡️➡️",
+      "meaning": "Keep going or hurry onward; also a strong visual pointer to what follows."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "backhand-index-pointing-right",
+      "difference": "👉 is a hand pointing right. It is more personal and playful, often used to tease, flirt (👉👈), or point at a person. ➡️ is impersonal and reads as navigation or logic."
+    },
+    {
+      "slug": "play-button",
+      "difference": "▶️ is a right-pointing triangle meaning play. It signals video or audio, not direction. Use ▶️ to say \"watch this\" and ➡️ to say \"go here\" or \"this leads to.\""
+    },
+    {
+      "slug": "fast-forward-button",
+      "difference": "⏩ is the double-triangle fast-forward control. It suggests skipping ahead in time. ➡️ simply moves to the next thing without implying speed."
+    }
+  ],
+  "avoid": [
+    "Do not rely on ➡️ alone for important directions, since the arrow can be flipped or misread in right-to-left layouts.",
+    "Avoid chaining many arrows in a formal document where a numbered list would be clearer.",
+    "Do not use it as your only link indicator for accessibility; screen readers announce it as \"right arrow\" with no destination."
+  ],
+  "design": "A bold arrow pointing right. Most platforms place a white arrow on a square tile, typically blue or gray, so it resembles a button; a few show the arrow alone. The underlying character is the text symbol \"black rightwards arrow,\" which becomes the colored emoji when emoji styling is applied. Its siblings point in the other seven compass directions.",
+  "faqs": [
+    {
+      "q": "What does ➡️ mean in a text message?",
+      "a": "It points to something: the next message, a direction to turn, or the outcome of what was just described. It has no emotional or hidden meaning, so read it as \"next,\" \"to,\" or \"leads to\" depending on the sentence."
+    },
+    {
+      "q": "What does ➡️ mean on Instagram?",
+      "a": "Most often \"swipe for more\" on a carousel, or \"go to the link in my bio.\" In transformation posts it separates the before from the after."
+    },
+    {
+      "q": "How do I type a right arrow emoji?",
+      "a": "Search \"arrow\" in your phone's emoji keyboard and pick the right-pointing one in the symbols section. On Slack, Discord, and GitHub the shortcode is :arrow_right:. On a computer, the system emoji picker lists it under symbols."
+    },
+    {
+      "q": "What is the difference between ➡️ and 👉?",
+      "a": "➡️ is a neutral navigation symbol. 👉 is a human hand and carries more personality, so it shows up in jokes, flirting, and call-outs. For instructions and professional writing, the arrow is the safer choice."
+    }
+  ],
+  "related": ["backhand-index-pointing-right", "counterclockwise-arrows-button", "link", "backhand-index-pointing-down", "check-mark-button", "chart-increasing"]
+}

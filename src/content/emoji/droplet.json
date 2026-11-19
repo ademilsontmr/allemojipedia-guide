@@ -1,0 +1,56 @@
+{
+  "slug": "droplet",
+  "title": "Droplet Emoji 💧 Meaning: Water, a Tear or Sweat?",
+  "description": "One blue drop, several meanings: 💧 can be water, a tear, a bead of sweat or a reminder to hydrate. Learn how to read it and how it differs from 💦.",
+  "summary": "💧 is a single blue drop of liquid. Most often it means water: drinking it, saving it, rain or a leak. It can also be one tear or one bead of sweat. It is calmer and cleaner than the splashing 💦 and is rarely used suggestively.",
+  "meaning": [
+    "Water is the plain reading, and hydration is its biggest topic. Reminders to drink, tracker screenshots, giant-bottle photos and skincare posts about moisture all use the drop. Plant owners use it for watering day. Utilities, plumbers and conservation campaigns use it as an icon for supply, leaks and saving water, and in weather chatter one 💧 can mean the first spots of rain or high humidity.",
+    "The drop also borrows from comics, where a single bead beside a head shows sweat, nerves or exasperation, and one under an eye shows a tear. So 💧 after a sad sentence is a quiet cry, smaller than the full crying faces, and after an awkward one it is a nervous bead of sweat. These uses are less common than the water sense but are understood, especially by people familiar with manga and anime conventions.",
+    "In style slang, “drip” means an impressive outfit or jewelry, and 💧 is one of the emojis used to say someone has it. Sexual uses exist but are much rarer than with the sweat droplets emoji, which carries most of that meaning. A single neat drop mostly reads as innocent, which is why brands and health apps are comfortable using it."
+  ],
+  "contexts": [
+    {
+      "label": "In health and wellness posts",
+      "body": "“Drink your water 💧” is the signature line. Fitness coaches, nurses and friends who nag lovingly all use it. Skincare routines use the drop for hydrating serums and dewy finishes, and period-tracking and medical apps use it as a symbol for fluids. The tone is caring and practical."
+    },
+    {
+      "label": "In texting",
+      "body": "A drop after bad news can stand for a single tear, often with a hint of self-mockery. After an awkward admission, it works like a nervous sweat bead. It also answers practical questions: is it raining, is the tap fixed, did you water the plants. Readers rely on the sentence to tell which."
+    },
+    {
+      "label": "In fashion and music",
+      "body": "Posts showing off sneakers, chains or a full look may carry 💧 to mean drip, sometimes repeated. The usage comes from hip-hop and is close in spirit to the fire emoji. The splashing droplets and the ice cube are used the same way, with ice pointing at diamonds in particular."
+    }
+  ],
+  "examples": [
+    { "text": "Reminder: you haven't had water since noon 💧", "meaning": "A friendly nudge to drink something." },
+    { "text": "They cancelled the tour date 💧", "meaning": "A single tear: the sender is sad, in an understated way." },
+    { "text": "Watered all the ferns 💧🌿", "meaning": "Literal use about caring for houseplants." },
+    { "text": "That jacket?? The 💧 is crazy", "meaning": "Complimenting a stylish outfit, using the drop for drip." },
+    { "text": "Is the ceiling still leaking 💧", "meaning": "Asking about a water leak at home." },
+    { "text": "Every 💧 counts, shorter showers this month", "meaning": "A water-saving message during a shortage." }
+  ],
+  "combos": [
+    { "combo": "💧🥤", "meaning": "Stay hydrated; time to drink water." },
+    { "combo": "🌱💧", "meaning": "Watering plants, or nurturing growth more generally." },
+    { "combo": "🥲💧", "meaning": "Holding it together while one tear escapes." },
+    { "combo": "💧🧴", "meaning": "Moisturizing skincare or a hydrating product." }
+  ],
+  "confusedWith": [
+    { "slug": "sweat-droplets", "difference": "💦 shows several drops flying, meaning splashing, heavy sweat or, very commonly, sexual fluids. 💧 is one tidy drop and reads as water or a tear. Swapping them can change a wholesome message into a suggestive one." },
+    { "slug": "crying-face", "difference": "😢 is a face with a tear and clearly expresses sadness. 💧 alone may or may not be a tear, so use the face when you want the emotion understood." },
+    { "slug": "water-wave", "difference": "🌊 is a large ocean wave for the sea, surfing and being overwhelmed. 💧 is water at its smallest scale: a sip, a drip, a tear." }
+  ],
+  "avoid": [
+    "Do not use 💦 when you mean plain water in a professional or family message; choose 💧 instead.",
+    "Avoid relying on it alone to express grief, since many readers will see water, not a tear."
+  ],
+  "design": "A single teardrop-shaped drop in light to medium blue, pointed at the top and round at the bottom, with a white highlight to suggest shine. The design is nearly identical across platforms, with small differences in shade and gloss. It is the same drop that appears on the sweating and crying smileys, isolated as its own character.",
+  "faqs": [
+    { "q": "What is the difference between 💧 and 💦?", "a": "💧 is one drop and usually means water, a tear or hydration. 💦 is a spray of drops meaning sweat, splashing or sexual innuendo. For anything innocent, the single droplet is the safer choice." },
+    { "q": "What does 💧 mean from a guy or a girl?", "a": "Usually nothing romantic: a reminder to drink water, a small tear, or a comment on rain. If they are complimenting your outfit, it means drip. Suggestive use is uncommon with this emoji." },
+    { "q": "Does 💧 mean crying?", "a": "It can represent a single tear, particularly after a sad or disappointing statement. Because it has no face, the meaning depends on context. The crying faces are clearer for expressing sadness." },
+    { "q": "What does 💧 mean on TikTok?", "a": "Common uses are hydration and skincare content, “drip” in fashion videos, and a lone tear in emotional or ironic captions. As always on TikTok, the sound and the caption determine which." }
+  ],
+  "related": ["sweat-droplets", "water-wave", "crying-face", "potable-water", "cloud-with-rain", "ice"]
+}

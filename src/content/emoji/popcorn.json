@@ -1,0 +1,58 @@
+{
+  "slug": "popcorn",
+  "title": "Popcorn Emoji 🍿 Meaning: Here for the Drama",
+  "description": "The 🍿 popcorn emoji means movies and snacks, but online it mostly says “I'm watching this drama unfold.” See how to use it in comments and group chats.",
+  "summary": "The 🍿 popcorn emoji means movie night, cinemas and snacking. Online, its main job is to say the sender is settling in to watch drama, an argument or gossip play out, as an entertained spectator who has no intention of getting involved.",
+  "meaning": [
+    "Popcorn is what you eat while watching something, and that single fact drives both of the emoji's meanings. The literal one covers cinema trips, streaming nights, film reviews and premieres. Friends send 🍿 to propose a movie, entertainment accounts use it to announce trailers, and it marks awards season. In those cases it is as plain as a ticket stub.",
+    "The figurative meaning is bigger. When two people start arguing in a comment thread, a celebrity feud breaks out, or a group chat erupts, onlookers post 🍿 to say “I'm just here to watch.” The gesture descends from an older internet habit of posting a GIF of someone eating popcorn, and the emoji, added in 2015, compressed it into a single character. It signals amusement and detachment at once: this is not my fight, but I am not leaving.",
+    "Because it treats conflict as a show, the tone can range from harmless to a little cruel. Among friends watching reality-TV-level squabbles it is pure fun. Posted under someone's real distress it says their pain is your entertainment. People also use it in anticipation, before anything has happened: a company announces a risky decision, a friend says “we need to talk about what Jess did,” and the popcorn comes out in advance."
+  ],
+  "contexts": [
+    {
+      "label": "In group chats",
+      "body": "This is its natural habitat. One person begins a story with “you will not believe this,” and everyone else replies 🍿. It tells the storyteller to continue and the combatants that they have an audience. As a reaction on a heated message, it is a way of taking part without taking a side."
+    },
+    {
+      "label": "On X, Reddit and TikTok",
+      "body": "Public feuds, callout threads and messy comment sections collect rows of popcorn. Users write “grabbing my 🍿” or “reading the replies 🍿” to flag that a post has become a spectacle. On Reddit the word “popcorn” has long been slang for drama worth watching, so the emoji arrived with a ready-made meaning."
+    },
+    {
+      "label": "For movies and TV",
+      "body": "Literal use is steady: date-night plans, a new season dropping, a rainy Sunday on the couch. Cinemas and streaming services use it in marketing. Paired with 🎬 or 📺 there is no drama implied beyond what is on the screen."
+    }
+  ],
+  "examples": [
+    { "text": "Movie night at mine, I've got the 🍿", "meaning": "A literal invitation to watch a film with snacks." },
+    { "text": "They're arguing in the comments again 🍿", "meaning": "The sender is entertained by watching a public fight." },
+    { "text": "Wait, start from the beginning 🍿👀", "meaning": "Eager to hear the full gossip in detail." },
+    { "text": "Season finale tonight, nobody text me 🍿📺", "meaning": "Announcing plans to watch a show uninterrupted." },
+    { "text": "He just replied-all to the whole company 🍿", "meaning": "Anticipating awkward fallout at work and planning to enjoy it." },
+    { "text": "Not getting involved, just here with my 🍿", "meaning": "Declaring neutrality while openly spectating." }
+  ],
+  "combos": [
+    { "combo": "🍿👀", "meaning": "Watching closely as drama develops; the standard spectator pairing." },
+    { "combo": "🍿🎬", "meaning": "Going to the movies or starting a film." },
+    { "combo": "🍿☕", "meaning": "Settling in for gossip, combining the show with the tea." },
+    { "combo": "🍿🥤", "meaning": "Cinema snacks, a literal trip to the concession stand." }
+  ],
+  "confusedWith": [
+    { "slug": "eyes", "difference": "👀 says “I see this” or “tell me more” and can imply suspicion or interest. 🍿 adds that you are comfortable and enjoying it. Eyes notice; popcorn settles in." },
+    { "slug": "hot-beverage", "difference": "☕ refers to “tea,” the gossip itself, or to sipping while staying out of it. 🍿 is about watching events unfold live. One is the information, the other the audience." },
+    { "slug": "ear-of-corn", "difference": "🌽 is corn on the cob and, on TikTok, a stand-in for the word porn. It is not used for spectating drama, and the two should not be swapped." }
+  ],
+  "avoid": [
+    "Don't post it under news of real harm, grief or a personal crisis, where it reads as enjoying someone's suffering.",
+    "Avoid it in workplace disputes you may later be asked about; being seen as an amused bystander can backfire.",
+    "Skip it when a friend is confiding something painful and needs support, not an audience."
+  ],
+  "design": "The emoji shows a container overflowing with fluffy white and yellow popped kernels. Most platforms use a red-and-white striped box or bucket in classic cinema style, and a few print the word “popcorn” or a simple emblem on the front. The striped tub is consistent enough that the image is unmistakable everywhere.",
+  "faqs": [
+    { "q": "What does 🍿 mean in a comment?", "a": "That the commenter is watching a conflict or controversy as entertainment. It typically appears where people are arguing or where a post is expected to cause a stir. It is spectating, not agreement or disagreement." },
+    { "q": "What does 🍿 mean from a guy or girl?", "a": "Either a movie suggestion or a sign they want the full story. If you just mentioned gossip, they are asking you to go on. If you were making plans, they are proposing a film. It has no romantic code beyond the idea of a movie date." },
+    { "q": "Is the popcorn emoji rude?", "a": "It can be. Using it for celebrity feuds and silly disputes is ordinary internet humor. Aiming it at people who are truly upset is dismissive, because it turns their situation into a show for your benefit." },
+    { "q": "What is the difference between 🍿 and 👀?", "a": "The eyes emoji expresses attention or curiosity, sometimes with a hint of judgment. Popcorn says you have made yourself comfortable for a long, enjoyable watch. Many people use both together." },
+    { "q": "When was the popcorn emoji added?", "a": "It arrived in 2015 with Emoji 1.0. Before that, people expressed the same idea with reaction GIFs of someone eating popcorn, which is where the meaning comes from." }
+  ],
+  "related": ["eyes", "hot-beverage", "clapper-board", "movie-camera", "ear-of-corn", "cup-with-straw"]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "angry-face",
+  "title": "Angry Face Emoji 😠 Meaning: Mad, Annoyed or Just Grumpy",
+  "description": "What does 😠 mean? The yellow angry face emoji shows annoyance and displeasure without full rage. See how it compares to 😡 and how to respond to one.",
+  "summary": "The 😠 angry face is a yellow face with lowered eyebrows, a hard stare and a frown. It means the sender is mad, annoyed or displeased. It is the moderate setting on the anger scale: more serious than an eye-roll, less explosive than the red enraged face.",
+  "meaning": [
+    "Everyone recognizes this scowl. It is the face of a person whose patience has run out but whose voice has not yet risen: a teacher waiting for silence, a driver who was just cut off. In messages, 😠 flags that something is not okay. “Who used all the hot water 😠” is a complaint, and the reader is expected to notice.",
+    "Because it stays yellow, it has more range than 😡. It can be stern, grumpy or only mildly cross, and it is frequently used for a mock scolding. Parents and partners send it the way they might wag a finger. Children and teenagers get it from relatives who would never use a harsher emoji.",
+    "It also expresses disapproval of events: unfair news, a bad call in a game, a price increase. Compared with the red face it comes across as controlled, which can make it feel colder. Someone who sends a single 😠 and nothing else is often more upset than someone sending a row of 😡, because the restraint suggests they mean it."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It usually accompanies a specific grievance, such as lateness, a broken promise or an inconsiderate roommate. As a one-emoji reply, it tells you the other person did not like what you said. In banter it is a pretend glare, common after being teased or beaten at a game."
+    },
+    {
+      "label": "From a crush or partner",
+      "body": "Much of the time it is flirtatious sulking: “you didn't text me back 😠” asks for attention more than an apology. The same emoji after a real disagreement means there is something to resolve. Short, punctuated messages around it are the sign that the annoyance is not an act."
+    },
+    {
+      "label": "On social media",
+      "body": "People use it to register disapproval under posts about injustice, corporate behavior or unpopular changes to an app. It is slightly more measured than 😡 and tends to appear in comments that also explain the objection. Sports fans use it for frustrating losses."
+    },
+    {
+      "label": "At work",
+      "body": "It is rarely appropriate. Even as a joke, an angry face from a manager or teammate creates unease, and in writing nobody can hear the humor. Reserve it for shared, impersonal irritations, like the office coffee machine breaking again, among colleagues you know well."
+    }
+  ],
+  "examples": [
+    { "text": "You said five minutes an hour ago 😠", "meaning": "Annoyed at being kept waiting." },
+    { "text": "Stop tagging me in those photos 😠", "meaning": "A half-serious demand from someone who is irritated." },
+    { "text": "They raised the rent again 😠", "meaning": "Displeased with an unfair-feeling change." },
+    { "text": "😠 I told you not to tell anyone", "meaning": "Upset that a confidence was broken." },
+    { "text": "You beat my high score?? 😠", "meaning": "Playful, competitive mock anger." },
+    { "text": "The dog chewed my headphones 😠", "meaning": "Frustrated, with no one really to blame." }
+  ],
+  "combos": [
+    { "combo": "😠👉", "meaning": "An accusing glare: “you, I'm talking to you.”" },
+    { "combo": "😠💢", "meaning": "Visibly irritated, with the comic anger vein for emphasis." },
+    { "combo": "😠➡️😡", "meaning": "Annoyance building into outright fury." }
+  ],
+  "confusedWith": [
+    { "slug": "enraged-face", "difference": "😡 is the same expression in red and signals rage. 😠 is yellow and covers the lower and middle range of anger, from grumpy to properly mad." },
+    { "slug": "face-with-steam-from-nose", "difference": "😤 shuts its eyes and snorts steam, suggesting a huff, pride or determination. 😠 looks straight at you with open eyes and is unambiguously displeased." },
+    { "slug": "unamused-face", "difference": "😒 glances sideways with a flat mouth: unimpressed, skeptical, mildly irritated. 😠 is direct, active anger with furrowed brows." }
+  ],
+  "avoid": [
+    "Do not use it jokingly with people who do not know your sense of humor.",
+    "Avoid sending it with no explanation; the reader is left guessing what they did.",
+    "Keep it out of work feedback, where it reads as a reprimand."
+  ],
+  "design": "A yellow face with eyebrows angled sharply down toward the nose, open eyes fixed forward and a downturned mouth. It shares its expression with the enraged face and differs mainly in color. Platform designs are closely aligned, varying in how severe the brow angle is. It has been part of Unicode since 2010.",
+  "faqs": [
+    { "q": "Is 😠 or 😡 angrier?", "a": "😡 is angrier. The red color indicates rage, while the yellow 😠 expresses ordinary anger or annoyance. If you are mildly to moderately upset, 😠 is the proportionate choice." },
+    { "q": "What does 😠 mean from a girl?", "a": "She is annoyed, or pretending to be. If it follows teasing, it is probably a playful glare. If it follows you canceling, forgetting or saying something careless, she is letting you know it bothered her." },
+    { "q": "What does 😠 mean from a guy?", "a": "He is irritated about something, or joking that he is. Look at the topic: complaints about traffic or a game are venting, while a 😠 aimed at something you did calls for a response." },
+    { "q": "How do you respond to 😠?", "a": "If you know what caused it, acknowledge it and apologize if warranted. If you do not, ask plainly what is wrong. Replying with a joke works only when the anger was clearly playful." }
+  ],
+  "related": ["enraged-face", "face-with-steam-from-nose", "face-with-symbols-on-mouth", "unamused-face", "anger-symbol", "pouting-cat"]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "alarm-clock",
+  "title": "Alarm Clock Emoji ⏰ Meaning: Wake Up, Time's Ticking",
+  "description": "⏰ means an early start, a reminder or a deadline closing in. It is also a blunt “wake up” call. See how it is used in texts, marketing and motivation.",
+  "summary": "⏰ is a twin-bell alarm clock. It means waking up early, setting a reminder, or a deadline that is getting close. Marketers use it for last-chance offers, and it works as a figurative wake-up call telling someone to pay attention or act now.",
+  "meaning": [
+    "Mornings come first. ⏰ complains about a 5 a.m. alarm, confirms that one is set, or marks the start of a long day. It appears with yawns and coffee in the messages of commuters, students and new parents. Because the old-fashioned ringing clock is such a familiar image, the emoji also evokes the sound: something loud is about to demand attention.",
+    "That sense of urgency makes it the reminder emoji. People put ⏰ in front of times, due dates and event starts so they stand out in a busy chat. Calendar notes, class announcements and community posts use it as a label for “when.” In advertising it is a staple of scarcity messaging: sale ends tonight, last few spots, doors close at midnight. Readers have learned to see it as pressure to hurry.",
+    "Figuratively, an alarm is a call to wake up. Activists use ⏰ for issues they consider overdue for attention, coaches for people coasting, and friends for someone ignoring an obvious red flag. “It's time” posts announcing a comeback or a decision use it for anticipation. It also turns up in talk about body clocks, whether sleep schedules or the feeling that time is running out to reach a life goal."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "“⏰ 6:30 tomorrow” tells a travel partner when to be up. “Set your ⏰” is a friendly order before an early flight or exam. People send it with a groan after oversleeping, and use it to nudge someone who is running late. It is among the more literal emojis in everyday conversation."
+    },
+    {
+      "label": "At work and school",
+      "body": "Team leads flag deadlines with it, and teachers use it for due dates and schedule changes. In meeting chat it signals that time is nearly up. The emoji helps deadlines catch the eye, but several in one message can feel like nagging, so most people use one and let the date do the rest."
+    },
+    {
+      "label": "In marketing",
+      "body": "Email subject lines and story stickers use ⏰ to create urgency around offers ending soon, ticket releases and countdowns. It is effective because it is instantly understood. Overuse has a cost: audiences associate it with promotional pressure, and a message full of alarm clocks may be ignored as spam."
+    },
+    {
+      "label": "For motivation and causes",
+      "body": "Fitness accounts post it with early workouts and “no snooze” slogans. Campaigners pair it with a call to act before it is too late, for example on voting deadlines or climate targets. Used toward an individual, “wake up ⏰” is a challenge and can sound harsh if not softened."
+    }
+  ],
+  "examples": [
+    { "text": "⏰ set for 4:45, airport by 6", "meaning": "Confirming an early wake-up for a flight." },
+    { "text": "Slept through three ⏰⏰⏰ I'm so sorry", "meaning": "Apologizing for oversleeping despite multiple alarms." },
+    { "text": "⏰ Reminder: forms due Friday at noon", "meaning": "Flagging an upcoming deadline." },
+    { "text": "Last chance ⏰ 30% off ends at midnight", "meaning": "A promotion pushing shoppers to buy before an offer expires." },
+    { "text": "He's still texting his ex. Wake up ⏰", "meaning": "Urging a friend to recognize an obvious problem." },
+    { "text": "Two hours until doors ⏰🎤", "meaning": "Counting down to a concert or event." }
+  ],
+  "combos": [
+    { "combo": "⏰☕", "meaning": "An early morning made possible by coffee." },
+    { "combo": "⏰😴", "meaning": "Struggling to wake up, or hitting snooze." },
+    { "combo": "⏰🏃", "meaning": "Running late or rushing against a deadline." },
+    { "combo": "⏰‼️", "meaning": "Urgent: time is nearly up." }
+  ],
+  "confusedWith": [
+    { "slug": "hourglass-not-done", "difference": "⏳ shows sand still falling and means waiting or time running down gradually. ⏰ is about a set moment: the alarm goes off, the deadline hits, wake up now." },
+    { "slug": "stopwatch", "difference": "⏱️ measures elapsed time and suits races, speed and timed tasks. It answers “how long,” where ⏰ answers “when” and adds a sense of alert." },
+    { "slug": "watch", "difference": "⌚ is a wristwatch, used for telling time, punctuality or the accessory itself. It has no ringing or urgency, so it is neutral where ⏰ is insistent." }
+  ],
+  "avoid": [
+    "Do not stack several in a message to colleagues about a deadline; it reads as pressure or panic.",
+    "Avoid “wake up ⏰” in disagreements unless you intend to sound confrontational."
+  ],
+  "design": "A round analog clock with two bells and a hammer on top and short feet below, the classic wind-up bedside alarm. The casing is red on most platforms, with others using blue, yellow or metallic tones, and the hands point to various times depending on the design. No major version shows a digital clock.",
+  "faqs": [
+    { "q": "What does ⏰ mean from a guy or a girl?", "a": "Almost always something about time: waking up, a reminder, or running late. Occasionally it is a pointed “wake up” about a situation. It has no romantic or hidden slang meaning." },
+    { "q": "What does ⏰ mean on TikTok or Instagram?", "a": "In captions it often signals “it's time” for an announcement or drop, or a countdown. Sellers use it for limited offers. In comments, “wake up ⏰” tells others to notice what the commenter thinks is obvious." },
+    { "q": "What is the difference between ⏰ and ⏳?", "a": "⏰ points to a specific time or sudden alert. ⏳ shows time passing and patience wearing thin. A deadline tomorrow at nine gets the alarm clock; a long wait for results gets the hourglass." },
+    { "q": "Why do marketing emails use the alarm clock emoji?", "a": "It communicates urgency at a glance, encouraging people to open and act before an offer ends. It is a deliberate pressure cue, so treat the deadline, not the emoji, as the information." }
+  ],
+  "related": ["hourglass-not-done", "stopwatch", "timer-clock", "watch", "zzz", "bell"]
+}

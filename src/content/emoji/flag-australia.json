@@ -1,0 +1,106 @@
+{
+  "slug": "flag-australia",
+  "title": "🇦🇺 Australia Flag Emoji: Meaning, Stars and Mix-Ups",
+  "description": "The Australia flag emoji 🇦🇺 shows the Union Jack, Commonwealth Star and Southern Cross. See how Aussies use it and how to tell it from New Zealand's flag.",
+  "summary": "The 🇦🇺 emoji is the national flag of Australia: a blue field with the Union Jack in the corner, a large seven-pointed Commonwealth Star below it, and the five stars of the Southern Cross. It is used for Australian identity, travel down under, cricket and football, and national days.",
+  "meaning": [
+    "Australians use 🇦🇺 to mark where they are from, particularly abroad or in international comment sections where an Aussie accent cannot be heard. It tags travel content from Sydney Harbour to Uluru, announces working-holiday visas and moves overseas, and labels Australian dollars, time zones, and release dates. Friends in other hemispheres use it for “my mate in Australia,” often with a kangaroo or koala.",
+    "Sport drives much of the volume. The Ashes cricket series against England, the Matildas and Socceroos in football, the Wallabies in rugby, and swimmers at the Olympics all bring out the flag. It also rides along with internet jokes about Australia: everything being upside down, spiders the size of dinner plates, and abbreviating every possible word.",
+    "On national days the picture is more layered. Anzac Day on April 25 uses 🇦🇺 in remembrance of military service. Australia Day on January 26 marks the 1788 arrival of the First Fleet, and the date is debated within Australia, with many Indigenous Australians and others regarding it as a day of mourning. The Aboriginal and Torres Strait Islander flags are official flags of Australia too, but neither has an emoji, so some users pair 🇦🇺 with ❤️💛🖤 to represent the Aboriginal flag's colors."
+  ],
+  "contexts": [
+    {
+      "label": "In sports",
+      "body": "Cricket is the flag's natural habitat: Test wins, Boxing Day at the MCG, and Ashes banter with English fans. The Matildas' World Cup runs brought a newer wave of use. For domestic leagues such as the AFL and NRL, fans mostly use club colors, saving 🇦🇺 for international fixtures. Swimmers and other Olympians get the flag every four years, usually with a medal emoji."
+    },
+    {
+      "label": "Travel and moving abroad",
+      "body": "Backpackers and students post 🇦🇺 with visa approvals, one-way flights, and first beach days. Australians living in London or elsewhere use it to find each other and to mark homesick moments, like Tim Tams arriving in a care package. Working-holiday makers heading the other way, to Australia, are just as fond of it."
+    },
+    {
+      "label": "On national days",
+      "body": "Anzac Day posts are solemn, with dawn services and poppies or rosemary. Australia Day posts range from barbecues to reflection and protest, so the same emoji appears in quite different moods on January 26. Reading the caption before replying with something cheerful is a sensible habit on that date."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Visa approved!! Melbourne in March 🇦🇺✈️",
+      "meaning": "Excited announcement of a move or long trip to Australia."
+    },
+    {
+      "text": "Ashes are coming home 🇦🇺🏏",
+      "meaning": "An Australian cricket fan celebrating a series win over England."
+    },
+    {
+      "text": "Found a huntsman in the shower, just another Tuesday 🇦🇺🕷️",
+      "meaning": "Joking about Australia's reputation for large spiders."
+    },
+    {
+      "text": "Lest we forget 🇦🇺",
+      "meaning": "A remembrance message on Anzac Day."
+    },
+    {
+      "text": "It's already tomorrow here 🇦🇺 happy birthday from the future",
+      "meaning": "Playing on the time difference with friends overseas."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇦🇺🦘",
+      "meaning": "Australia in tourist-postcard mode."
+    },
+    {
+      "combo": "🇦🇺🏏",
+      "meaning": "Australian cricket."
+    },
+    {
+      "combo": "🇦🇺🇳🇿",
+      "meaning": "Trans-Tasman matters: rivalry, travel, or the two countries considered together."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-new-zealand",
+      "difference": "🇳🇿 New Zealand's flag is the closest look-alike: blue with a Union Jack and Southern Cross. Its four stars are red with white edges, and it lacks the big Commonwealth Star under the Union Jack. Australia's stars are all white."
+    },
+    {
+      "slug": "flag-austria",
+      "difference": "🇦🇹 Austria is confused by name, not appearance. Its flag is three plain stripes of red, white, and red. Keyboard searches for “Aus” surface both, which is how the wrong one gets sent."
+    },
+    {
+      "slug": "flag-heard-island-and-mcdonald-islands",
+      "difference": "🇭🇲 belongs to Heard Island and McDonald Islands, an uninhabited Australian territory. Platforms draw it with the Australian flag, so the two emojis look the same."
+    }
+  ],
+  "avoid": [
+    "Do not use it for New Zealand; the flags differ and the mix-up reliably annoys people on both sides of the Tasman.",
+    "Be mindful around January 26, when celebratory flag posts can read as dismissive to those who mourn the date."
+  ],
+  "design": "The emoji compresses a detailed flag: Union Jack top left, a seven-pointed white star beneath it, and five white stars on the right forming the Southern Cross, one of them smaller with five points. At small sizes the star points blur into dots. Windows shows the letters AU in place of the picture.",
+  "faqs": [
+    {
+      "q": "How can I tell the Australian flag emoji from New Zealand's?",
+      "a": "Look at the stars. Australia has six white stars, including a large one directly under the Union Jack. New Zealand has four red stars outlined in white and nothing beneath the Union Jack."
+    },
+    {
+      "q": "What do the stars on the Australian flag mean?",
+      "a": "The large Commonwealth Star has seven points, six for the states and one for the territories. The other five stars depict the Southern Cross, a constellation visible from the Southern Hemisphere."
+    },
+    {
+      "q": "Why does 🇦🇺 look like the letters AU?",
+      "a": "The emoji is made of two regional indicator letters, A and U. Systems without flag artwork, most notably Windows, show the letters themselves. Phones, Macs, and many apps display the flag."
+    },
+    {
+      "q": "Is there an Aboriginal flag emoji?",
+      "a": "Not at present. The Aboriginal flag and the Torres Strait Islander flag have official status in Australia, but neither is in the emoji set. People often use black, yellow, and red hearts as a substitute."
+    }
+  ],
+  "related": [
+    "flag-new-zealand",
+    "flag-united-kingdom",
+    "kangaroo",
+    "koala",
+    "person-surfing",
+    "cricket-game"
+  ]
+}

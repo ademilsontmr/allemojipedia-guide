@@ -1,0 +1,50 @@
+{
+  "slug": "musical-notes",
+  "title": "Musical Notes Emoji 🎶 Meaning: Singing and Good Vibes",
+  "description": "The 🎶 musical notes emoji means music is playing, someone is singing or the mood is upbeat. See lyric examples, pairings and how it compares with 🎵.",
+  "summary": "The 🎶 musical notes emoji shows a cluster of notes, as if a melody were drifting through the air. People use it for singing, quoting lyrics, sharing songs and describing a place or mood filled with music. It is the livelier, more atmospheric partner of the single 🎵 note.",
+  "meaning": [
+    "Cartoons draw floating notes around a radio or a whistling character to show sound, and this emoji does the same for text. It tells readers that music is present: at a party, in the car, in the shower, in someone's head. “Kitchen dance party 🎶” does not name a song; it describes the atmosphere.",
+    "Singing is its other main duty. Lyrics framed by 🎶 are understood to be sung, often badly and joyfully. Fans post a favorite line this way when a song comes on, and friends serenade each other by text. Because there are several notes, the effect is fuller than with the single-note emoji, closer to belting a chorus than humming a bar.",
+    "Mood is where it differs most from its sibling. 🎶 often means “I'm in a good mood” even when no music is involved, in the way a person might whistle while walking. A trailing 🎶 after “off to the beach” adds a carefree bounce. It can also convey the opposite in context, as when sad lyrics are quoted, but the default is cheerful.",
+    "Performers and venues use it as a general music label for gigs, festivals, choirs, open mics and playlists. Like the single note, it is free of slang and safe everywhere. The choice between them is a matter of taste, though this one tends to feel more festive and fills a line with a little more sound."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Lyric quoting leads, followed by mood-setting. A message such as “🎶 we're going on vacation 🎶” is meant to be heard in a made-up tune. Sending just 🎶 with a song link says “listen to this.” Partners trade lyrics with it as a low-key way of saying something heartfelt." },
+    { "label": "In captions", "body": "Concert clips, festival photos, road trip videos and wedding dance floors all take it. It also accompanies quiet moments with a record player or a guitar. When the audio is the point of the post, the notes tell viewers to turn the sound on." },
+    { "label": "On holidays", "body": "Carols, birthday songs and national anthems bring it out. December posts pair it with bells and trees for Christmas music, and birthday messages wrap the familiar song in it. New Year's Eve countdown playlists and Fourth of July concerts use it too." },
+    { "label": "On TikTok and Instagram", "body": "Dance challenges, lip-syncs and cover performances use 🎶 to signal that the music drives the clip. Musicians tease new releases with it. In comment sections, viewers quote the lyric that stuck with them between two sets of notes, as a way of singing along." }
+  ],
+  "examples": [
+    { "text": "🎶 Sweet Caroline 🎶", "meaning": "Singing a well-known line, likely inviting others to join in." },
+    { "text": "Windows down, volume up 🎶", "meaning": "Enjoying music on a drive." },
+    { "text": "🎶 It's the weekend, no alarms tomorrow 🎶", "meaning": "An invented jingle celebrating free time." },
+    { "text": "Live band at the brewery tonight 🎶🍻", "meaning": "Announcing an outing with live music." },
+    { "text": "This one made me think of you 🎶", "meaning": "Sharing a song with personal meaning." },
+    { "text": "Choir rehearsal moved to 7 🎶", "meaning": "A practical note about a music practice." }
+  ],
+  "combos": [
+    { "combo": "🎶💃", "meaning": "Dancing to the music." },
+    { "combo": "🎤🎶", "meaning": "Singing, karaoke or a live vocal performance." },
+    { "combo": "🎶🚗", "meaning": "Car singalong or road trip playlist." },
+    { "combo": "🎶🎄", "meaning": "Christmas carols and holiday music." }
+  ],
+  "confusedWith": [
+    { "slug": "musical-note", "difference": "The 🎵 musical note is a single note, slightly plainer and closer to the audio icon apps use. 🎶 shows multiple notes and implies a tune in progress or a festive mood. Either works for lyrics." },
+    { "slug": "musical-score", "difference": "The 🎼 musical score is formal sheet music with a clef and staff. Use it for composing, orchestras and theory; use 🎶 for the sound and feeling of music." },
+    { "slug": "speaker-high-volume", "difference": "The 🔊 speaker with high volume is about loudness and audio settings, including “sound on.” 🎶 says the sound is specifically music." }
+  ],
+  "avoid": [
+    "Don't frame an angry or sarcastic message in 🎶 unless you want it to read as taunting.",
+    "Avoid it on posts about a death or tragedy unless the music is part of a tribute, since its default tone is cheerful."
+  ],
+  "design": "Most platforms show three notes: commonly a beamed pair of eighth notes with a single note beside it, arranged at slightly different heights as though floating. Colors vary by vendor, including black, blue, purple and pink. Some designs tilt the notes for a sense of movement. There is no staff or clef.",
+  "faqs": [
+    { "q": "What does 🎶 mean in a text?", "a": "That the sender is singing, sharing music or feeling upbeat. Words placed between two 🎶 are lyrics or a line meant to be imagined as sung." },
+    { "q": "Is 🎶 different from 🎵?", "a": "Only in nuance. 🎶 has several notes and feels more like a melody or a cheerful mood. 🎵 is a single note and is used more as a label for a track. Most people use them interchangeably." },
+    { "q": "What does 🎶 mean from a guy or girl?", "a": "Usually nothing hidden: they are in a good mood or quoting a song. If the lyric is romantic, the song may be doing the talking for them, so the choice of words matters more than the notes." },
+    { "q": "What does 🎶 mean on Instagram?", "a": "It marks music-related content such as a reel set to a song, a concert story or a quoted lyric in a caption. It often serves as a prompt to watch with sound on." },
+    { "q": "Can 🎶 be sarcastic?", "a": "Yes, when wrapped around a taunt or complaint. Turning a grievance into a little song with 🎶 makes it sound mocking, which can be funny between friends and irritating in an argument." }
+  ],
+  "related": ["musical-note", "musical-score", "microphone", "headphone", "woman-dancing", "guitar"]
+}

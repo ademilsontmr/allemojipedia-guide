@@ -1,0 +1,50 @@
+{
+  "slug": "confused-face",
+  "title": "Confused Face Emoji 😕 Meaning: Puzzled or Let Down",
+  "description": "😕 has a lopsided frown. It means confusion, uncertainty or mild disappointment. Find out what it signals in a text and how it differs from 🫤 and 🙁.",
+  "summary": "The 😕 confused face means something is not sitting right. Its crooked frown covers not understanding what was said, being unsure how to feel and being quietly disappointed. In practice people use it for mild unhappiness at least as often as for confusion, which makes it a soft, low-drama way to express a letdown.",
+  "meaning": [
+    "The name says confused, and the emoji does get used that way. When directions contradict each other, a message makes no sense or plans change without explanation, 😕 says I do not follow. It is a quiet request for clarification, less sharp than a row of question marks and less dramatic than the spiral-eyed face.",
+    "Look at the mouth, though, and it is basically a small frown tipped to one side. Many people read it as slightly sad, and that has shaped its use. Oh, you can't come 😕 is not confusion; it is disappointment expressed politely. The emoji shows the sender is affected without making the other person feel guilty.",
+    "It also carries uncertainty and unease. Someone unsure whether a decision was right, or uncomfortable about a situation they cannot name, might use it. I don't know how I feel about this 😕 is typical. The face admits to mixed feelings that have not resolved into anger or sadness yet.",
+    "Because it is so mild, it suits moments when a stronger emoji would be too much. It is common in customer complaints, in replies to cancellations and in messages where the sender wants to register a problem while staying civil. That restraint is its main strength, and also why it can be overlooked."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It often follows news that is a bit of a letdown: a rain check, a sold-out show, a short reply. It tells the other person you noticed and minded, gently. When it follows something they explained, it means you are lost and would like them to try again." },
+    { "label": "From a partner or crush", "body": "Pay attention to it. A 😕 after you cancel or say something offhand usually means their feelings are slightly hurt or they are unsure where they stand. It is an opening to check in. Ignoring it tends to make the next message cooler." },
+    { "label": "At work", "body": "It can flag that instructions are unclear or that a result was not what you expected, without sounding hostile. Pair it with a concrete question. Sent alone to a colleague, it leaves them guessing whether you are confused or unhappy with them." },
+    { "label": "On social media", "body": "It appears under announcements people have mixed feelings about, such as a redesign, a price change or a casting choice. It registers mild disapproval. It is too subdued for outrage, so it tends to be used by commenters who are disappointed rather than angry." }
+  ],
+  "examples": [
+    { "text": "Wait, I thought we said Saturday? 😕", "meaning": "Confused about a mix-up in plans." },
+    { "text": "Oh okay, maybe next time then 😕", "meaning": "Disappointed but accepting it politely." },
+    { "text": "I read it twice and still don't get it 😕", "meaning": "Unable to understand something." },
+    { "text": "Not sure how I feel about the new logo 😕", "meaning": "Unsettled and leaning toward dislike." },
+    { "text": "He hasn't replied since yesterday 😕", "meaning": "Uneasy and a little hurt." },
+    { "text": "They changed the recipe 😕", "meaning": "Mildly let down by a change." }
+  ],
+  "combos": [
+    { "combo": "😕❓", "meaning": "Confused and asking for an explanation." },
+    { "combo": "🤷😕", "meaning": "No idea what is going on, and not happy about it." },
+    { "combo": "😕💭", "meaning": "Turning something over, unsure what to make of it." },
+    { "combo": "😕👎", "meaning": "Unimpressed; gentle but clear disapproval." }
+  ],
+  "confusedWith": [
+    { "slug": "face-with-diagonal-mouth", "difference": "🫤 has a straight slanted line for a mouth and looks skeptical, unimpressed or meh. 😕 has a curved, lopsided frown and feels more hurt or puzzled. The diagonal mouth shrugs; the confused face minds." },
+    { "slug": "slightly-frowning-face", "difference": "🙁 has a small, even frown and is simply a little sad. 😕 tilts its mouth, adding uncertainty. If you know you are disappointed, 🙁 fits; if you are also unsure why or what happened, choose 😕." },
+    { "slug": "thinking-face", "difference": "🤔 actively works on a question and can be skeptical or playful. 😕 is passive and slightly troubled. Thinking is curiosity; confused is discomfort at not understanding." }
+  ],
+  "avoid": [
+    "Do not send it alone when you need an answer; state what is unclear.",
+    "Avoid it as a response to someone's good news, where it reads as disapproval.",
+    "If you are seriously upset, say so, because this emoji is easy to underestimate."
+  ],
+  "design": "A yellow face with plain open eyes and a short mouth curved downward and skewed to one side. There are no eyebrows on most versions. Designs are very consistent across platforms. The only notable variation is how far the mouth tilts, which makes some versions look more puzzled and others more plainly unhappy.",
+  "faqs": [
+    { "q": "What does 😕 mean from a guy or girl?", "a": "Usually that they are a little disappointed, unsure or thrown by something you said. It is a subdued signal, not an angry one. Asking what is wrong or clarifying your last message is generally the right move." },
+    { "q": "Is 😕 sad or confused?", "a": "Both, depending on the message. Its official name is Confused Face, but the downturned mouth means people regularly use it for mild sadness and disappointment. If there is nothing confusing in the conversation, read it as let down." },
+    { "q": "What is the difference between 😕 and 🫤?", "a": "They are close. 😕 has a curved frown and leans toward hurt or puzzlement. 🫤, added later, has a flat diagonal mouth and leans toward skepticism and indifference. The newer one is closer to saying meh." },
+    { "q": "How should I respond to 😕?", "a": "Treat it as a quiet prompt. If you canceled or delivered unwelcome news, acknowledge it and perhaps offer an alternative. If you explained something, ask which part was unclear. A short, direct reply usually resolves it." }
+  ],
+  "related": ["face-with-diagonal-mouth", "slightly-frowning-face", "worried-face", "thinking-face", "person-shrugging", "red-question-mark"]
+}

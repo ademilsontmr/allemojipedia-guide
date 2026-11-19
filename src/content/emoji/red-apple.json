@@ -1,0 +1,56 @@
+{
+  "slug": "red-apple",
+  "title": "Red Apple Emoji 🍎 Meaning: Teachers, Health and More",
+  "description": "What the 🍎 red apple emoji means: healthy eating, teachers and back-to-school season, New York, temptation, and how it differs from the green apple.",
+  "summary": "The 🍎 red apple emoji stands for the fruit itself and, by extension, healthy eating, school and teachers, and autumn. It also nods to New York City (the Big Apple) and to the forbidden-fruit idea of temptation. It carries almost no slang, which makes it one of the safest food emojis to send.",
+  "meaning": [
+    "Most of the time 🍎 is just an apple: a snack in a lunchbox, an ingredient in a pie, a bag picked at an orchard in October. Because apples are the default “good for you” food in English (an apple a day keeps the doctor away), the emoji doubles as shorthand for eating well. People drop it into posts about meal prep, diets, dentist visits and new-year resolutions, often next to a salad or a flexed arm.",
+    "The second big meaning is school. The custom of bringing an apple for the teacher made the fruit a symbol of the profession in the United States, and 🍎 now shows up in teachers' bios, classroom announcements and back-to-school captions every August and September. Parents use it for first-day photos; teachers use it to mark themselves as teachers. Paired with a pencil or books it reads as education in general rather than fruit.",
+    "Older symbolism rides along too. The apple is the popular image of the forbidden fruit in the Garden of Eden and the poisoned gift in Snow White, so 🍎 with a snake or a smirk can hint at temptation or something too good to be trusted. It also points at New York City through the Big Apple nickname. Some people use it for Apple the company, though the red, leaf-topped fruit looks nothing like the logo."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Between friends and family it is nearly always literal: a grocery list, a snack check-in, a plan to go apple picking. It can soften a health nudge (“did you eat today? 🍎”) because it feels caring rather than preachy. There is no hidden romantic or sexual reading, so it rarely needs a second look."
+    },
+    {
+      "label": "In education",
+      "body": "Teachers put 🍎 in usernames, email signatures on school apps, and Teacher Appreciation Week posts. A parent thanking a teacher will often end the note with it. In this setting it works almost like a job badge, the way a stethoscope marks a nurse, and it reads as warm and a little old-fashioned."
+    },
+    {
+      "label": "In captions",
+      "body": "Fall content leans on it heavily: orchard trips, cider, caramel apples, pie baking. It also appears in wellness posts and in New York travel photos, where it stands in for the city's nickname. Rosh Hashanah posts pair it with honey, since dipping apples in honey is the holiday's best-known custom."
+    }
+  ],
+  "examples": [
+    { "text": "First day of third grade! 🍎✏️", "meaning": "A parent or teacher marking the start of the school year." },
+    { "text": "Trying to snack better this week 🍎", "meaning": "The sender is making an effort to eat healthier and saying so lightly." },
+    { "text": "Apple picking Saturday? 🍎🍂", "meaning": "An invitation to a fall orchard outing." },
+    { "text": "Landed in NYC 🍎🗽", "meaning": "The apple stands for the Big Apple, announcing arrival in New York." },
+    { "text": "Thank you Mrs. Alvarez for an amazing year 🍎❤️", "meaning": "Gratitude to a teacher, using the apple as the symbol of the job." },
+    { "text": "He offered to do my homework for me 🍎🐍", "meaning": "A joke about being tempted, borrowing the Garden of Eden image." }
+  ],
+  "combos": [
+    { "combo": "🍎📚", "meaning": "School, teaching or studying; common in back-to-school posts and teacher bios." },
+    { "combo": "🍎🍯", "meaning": "Apples and honey, the traditional Rosh Hashanah wish for a sweet new year." },
+    { "combo": "🍎🐍", "meaning": "Temptation or forbidden fruit, usually said as a joke about a bad idea that sounds good." },
+    { "combo": "🍎🥧", "meaning": "Apple pie, baking season, or something described as classically American." }
+  ],
+  "confusedWith": [
+    { "slug": "green-apple", "difference": "🍏 is the tart Granny Smith type. It gets used for sour flavors, freshness and green-themed aesthetics, while 🍎 carries the teacher, health and temptation symbolism. For a plain “apple,” most people reach for the red one." },
+    { "slug": "peach", "difference": "🍑 is also a round fruit with a leaf, but it is widely read as a butt. Swapping it in for an apple by accident changes an innocent snack message into a flirtatious one." },
+    { "slug": "cherries", "difference": "🍒 shows two small red fruits on joined stems and has suggestive uses of its own. 🍎 is a single large fruit and stays wholesome." }
+  ],
+  "avoid": [
+    "Don't use it to mean Apple the company in anything official; it is a fruit drawing, not the brand's logo, and can look careless.",
+    "Skip it when commenting on someone else's weight or eating unless they raised the subject, since an unprompted “eat healthier” apple can sting."
+  ],
+  "design": "Every major platform draws a shiny red apple standing upright with a short brown stem and a single green leaf. Shades run from bright cherry red to a deeper crimson, and some versions add a white highlight or a faint yellow blush near the base. The designs are consistent enough that the emoji reads the same everywhere.",
+  "faqs": [
+    { "q": "Why is the apple emoji linked to teachers?", "a": "In the United States, giving a teacher an apple is a long-standing gesture of thanks, and the fruit became a visual shorthand for the profession on mugs, cards and classroom decor. The emoji inherited that role, which is why it fills teacher bios and school-year posts." },
+    { "q": "What does 🍎 mean from a guy or a girl?", "a": "Almost always what it looks like: food, health or school. Unlike the peach or cherries, the red apple has no established flirty meaning. If it arrives with a snake or a wink, the sender may be joking about temptation, but that is a stretch rather than common code." },
+    { "q": "Does the red apple emoji mean New York?", "a": "It can. New York City has been called the Big Apple for about a century, and travelers and locals use 🍎 next to the Statue of Liberty or a taxi to signal the city. On its own, without that context, readers will assume fruit." },
+    { "q": "When was the red apple emoji added?", "a": "It was part of the first large batch of emojis standardized in 2010 and has been on phone keyboards ever since. The green apple arrived in the same set, so the two have always sat side by side." }
+  ],
+  "related": ["green-apple", "pear", "cherries", "strawberry", "books", "honey-pot"]
+}

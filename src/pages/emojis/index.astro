@@ -1,0 +1,32 @@
+---
+import Base from "@/layouts/Base.astro";
+import EmojiTile from "@/components/EmojiTile.astro";
+import { abs } from "@/lib/site";
+import { emojiPages, emojis, categories, categoryUrl, emojiUrl } from "@/lib/emoji";
+const pages = await emojiPages();
+const groups = categories.map((c) => ({ cat: c, items: emojis.filter((e) => e.category === c.slug && pages.has(e.slug)) })).filter((g) => g.items.length);
+const total = pages.size;
+const title = "Emoji Meanings: What Every Popular Emoji Means";
+const description = `In-depth meanings for ${total} of the most used emojis, with real message examples, look-alike comparisons and one-tap copy. Browse by category.`;
+const schema = [{ "@type": "CollectionPage", name: title, description, url: abs("/emojis/"),
+  mainEntity: { "@type": "ItemList", numberOfItems: total, itemListElement: groups.flatMap((g) => g.items).slice(0, 100).map((e, i) => ({ "@type": "ListItem", position: i + 1, url: abs(emojiUrl(e.slug)), name: `${e.emoji} ${e.name}` })) } }];
+---
+<Base title={title} description={description} path="/emojis/" section="emojis" schema={schema} crumbs={[{ name: "Emojis" }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <h1>Emoji meanings</h1>
+      <p class="lead">{total} emojis explained in depth: what each one means, how the meaning changes by context, examples from real messages, the emojis it gets confused with, and when not to send it.</p>
+      <p>These are the emojis people look up most. Each page is written and reviewed by our editors rather than generated from a template, and is checked against the Unicode and CLDR data for names, code points and release dates. Looking for an emoji that is not listed here? Every emoji, including the ones without a full page, can be copied from the <a href="/categories/">category pages</a>, or use <a href="/search/">search</a>.</p>
+      <ul class="chips">{groups.map((g) => <li><a class="chip" href={`#${g.cat.slug}`}><span class="em" aria-hidden="true">{g.cat.icon}</span>{g.cat.name} ({g.items.length})</a></li>)}</ul>
+    </header>
+    {groups.map((g) => (
+      <section aria-labelledby={g.cat.slug}>
+        <div class="section-head">
+          <h2 id={g.cat.slug}><span class="em" aria-hidden="true">{g.cat.icon}</span> {g.cat.name} emoji meanings</h2>
+          <a href={categoryUrl(g.cat.slug)}>All {g.cat.name.toLowerCase()} emojis →</a>
+        </div>
+        <ul class="grid cols-tiles">{g.items.map((e) => <li><EmojiTile emoji={e} hasPage={true} /></li>)}</ul>
+      </section>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,182 @@
+---
+import Base from "@/layouts/Base.astro";
+import EmojiTile from "@/components/EmojiTile.astro";
+import Faq from "@/components/Faq.astro";
+import GuideCard from "@/components/GuideCard.astro";
+import { getCollection } from "astro:content";
+import { SITE, abs, fmtDate } from "@/lib/site";
+import { emojiPages, emojis, getEmoji, getCategory, categoryUrl, emojiUrl, subgroupLabel, codepoints, htmlEntity, cssEscape, jsEscape, emojiVersion, addedLabel, SKIN_TONES } from "@/lib/emoji";
+
+export async function getStaticPaths() {
+  const pages = await emojiPages();
+  return [...pages.values()].map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const d = entry.data;
+const e = getEmoji(d.slug)!;
+const pages = await emojiPages();
+const cat = getCategory(e.category);
+const char = e.emoji;
+const shortName = e.name.replace(/^Flag: /, "") + (e.category === "flags" && e.name.startsWith("Flag: ") ? " Flag" : "");
+const updated = d.updated ?? SITE.launched;
+const path = emojiUrl(e.slug);
+
+const confused = d.confusedWith.map((c) => ({ ...c, emoji: getEmoji(c.slug) })).filter((c) => c.emoji);
+const related = d.related.map((s) => getEmoji(s)).filter((x): x is NonNullable<typeof x> => !!x && x.slug !== e.slug);
+const shown = new Set([e.slug, ...related.map((r) => r.slug)]);
+const siblings = emojis.filter((x) => x.subgroup === e.subgroup && pages.has(x.slug) && !shown.has(x.slug)).slice(0, 10);
+const guides = (await getCollection("guides")).filter((g) => (g.body ?? "").includes(`(${path})`)).slice(0, 3);
+
+const shortcodes = [...new Set(Object.values(e.shortcodes as Record<string, string>))].map((s) => `:${s}:`);
+const tech = [
+  ["Unicode name", e.name],
+  ["Code point" + (e.hex.includes("-") ? "s" : ""), codepoints(e.hex)],
+  ["Introduced", `${emojiVersion(e.version)} (${addedLabel(e.version, e.year)})`],
+  ["Category", `${cat.name} › ${subgroupLabel(e.subgroup)}`],
+  ["HTML entity", htmlEntity(e.hex)],
+  ["CSS", cssEscape(e.hex)],
+  ["JavaScript", jsEscape(e.hex)],
+  ...(shortcodes.length ? [["Shortcodes", shortcodes.join("  ")]] : []),
+  ...(e.tags.length ? [["CLDR keywords", e.tags.join(", ")]] : []),
+];
+const toc = [
+  ["meaning", `What ${char} means`],
+  ["contexts", "Meaning by context"],
+  ["examples", "Examples"],
+  ["combos", "Emoji combos"],
+  ...(confused.length ? [["versus", "Similar emojis"]] : []),
+  ["avoid", "When not to use it"],
+  ["design", "Design and platforms"],
+  ["copy", "Copy, codes and skin tones"],
+  ["faq", "FAQ"],
+];
+const schema = [
+  { "@type": "Article", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
+    datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
+    about: { "@type": "DefinedTerm", name: `${e.name} emoji`, termCode: codepoints(e.hex), description: d.summary, inDefinedTermSet: abs("/emojis/") } },
+  { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={d.title} description={d.description} path={path} ogType="article" section="emojis" schema={schema}
+  crumbs={[{ name: "Emojis", href: "/emojis/" }, { name: cat.name, href: categoryUrl(cat.slug) }, { name: shortName }]}>
+  <article class="wrap">
+    <header class="emoji-hero">
+      <div class="glyph em" role="img" aria-label={`${e.name} emoji`}>{char}</div>
+      <div>
+        <h1>{shortName} Emoji Meaning</h1>
+        <p class="lead">{e.name} · {codepoints(e.hex)} · {cat.name}</p>
+        <div class="actions">
+          <button class="btn" type="button" data-copy={char}><span class="em" aria-hidden="true">{char}</span><span data-copy-label>Copy emoji</span></button>
+          <a class="btn ghost" href={categoryUrl(cat.slug)}>More {cat.name.toLowerCase()}</a>
+        </div>
+        <p class="byline"><span>By the <a href="/about/">{SITE.team}</a></span><span>Last reviewed <time datetime={updated}>{fmtDate(updated)}</time></span></p>
+      </div>
+    </header>
+
+    <div class="layout">
+      <div class="prose">
+        <div class="answer"><strong class="k">Quick answer</strong><p>{d.summary}</p></div>
+
+        <h2 id="meaning">What does the {char} {shortName.toLowerCase()} emoji mean?</h2>
+        {d.meaning.map((p) => <p>{p}</p>)}
+
+        <h2 id="contexts">{char} meaning by context</h2>
+        {d.contexts.map((c) => (<><h3>{c.label}</h3><p>{c.body}</p></>))}
+
+        <h2 id="examples">Examples of {char} in real messages</h2>
+        <ul class="examples">
+          {d.examples.map((x) => <li><span class="bubble">{x.text}</span><span class="why">{x.meaning}</span></li>)}
+        </ul>
+
+        <h2 id="combos">Common {char} emoji combos</h2>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Combo</th><th scope="col">What it means</th><th scope="col"><span class="sr-only">Copy</span></th></tr></thead>
+            <tbody>
+              {d.combos.map((c) => <tr><td class="combo">{c.combo}</td><td>{c.meaning}</td><td><button class="chip" type="button" data-copy={c.combo}><span data-copy-label>Copy</span></button></td></tr>)}
+            </tbody>
+          </table>
+        </div>
+
+        {confused.length > 0 && (
+          <>
+            <h2 id="versus">{char} vs similar emojis</h2>
+            <ul class="versus">
+              {confused.map((c) => (
+                <li>
+                  <span class="pair" aria-hidden="true">{char} vs {c.emoji!.emoji}</span>
+                  <p><strong>{pages.has(c.slug) ? <a href={emojiUrl(c.slug)}>{c.emoji!.name}</a> : c.emoji!.name}:</strong> {c.difference}</p>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        <h2 id="avoid">When not to use {char}</h2>
+        <ul class="avoid">{d.avoid.map((a) => <li>{a}</li>)}</ul>
+
+        <h2 id="design">How {char} looks across platforms</h2>
+        <p>{d.design}</p>
+        <p class="note">The {char} on this page is drawn by your own device's emoji font, so it may look slightly different on an iPhone, an Android phone, a Samsung Galaxy or a Windows PC. The meaning is the same everywhere.</p>
+
+        <h2 id="copy">Copy and paste {char}, codes and shortcodes</h2>
+        <p>Tap the button to copy {char} to your clipboard, then paste it into any app. Developers can use the code points and escapes below.</p>
+        <p><button class="btn" type="button" data-copy={char}><span class="em" aria-hidden="true">{char}</span><span data-copy-label>Copy {shortName.toLowerCase()} emoji</span></button></p>
+        {e.skins.length > 0 && (
+          <>
+            <h3>Skin tone{e.skins.length > 5 ? " and other" : ""} variants</h3>
+            <div class="skins">
+              {e.skins.slice(0, 25).map((s) => (
+                <button class="tile" type="button" data-copy={s.emoji} title={`Copy ${s.emoji}`}>
+                  <span class="em" aria-hidden="true">{s.emoji}</span>
+                  <span class="label">{typeof s.tone === "number" ? SKIN_TONES[s.tone] : "Mixed tones"}</span>
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+        <div class="table-scroll">
+          <table>
+            <tbody>{tech.map(([k, v]) => <tr><th scope="row">{k}</th><td>{k === "Unicode name" || k === "Category" || k === "Introduced" || k === "CLDR keywords" ? v : <code>{v}</code>}</td></tr>)}</tbody>
+          </table>
+        </div>
+
+        <h2 id="faq">{shortName} emoji FAQ</h2>
+        <Faq faqs={d.faqs} />
+      </div>
+
+      <aside class="aside">
+        <nav class="card toc" aria-label="On this page">
+          <h2>On this page</h2>
+          <ol>{toc.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}</ol>
+        </nav>
+        <div class="card facts">
+          <h2>Quick facts</h2>
+          <dl>
+            <dt>Emoji</dt><dd class="em">{char}</dd>
+            <dt>Name</dt><dd>{e.name}</dd>
+            <dt>Code</dt><dd>{codepoints(e.hex)}</dd>
+            <dt>Added</dt><dd>{addedLabel(e.version, e.year)}</dd>
+            <dt>Group</dt><dd><a href={categoryUrl(cat.slug)}>{cat.name}</a></dd>
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    <section aria-labelledby="related-h">
+      <h2 id="related-h">Related emojis</h2>
+      <ul class="grid cols-tiles">
+        {related.map((r) => <li><EmojiTile emoji={r} hasPage={pages.has(r.slug)} /></li>)}
+        {siblings.map((r) => <li><EmojiTile emoji={r} hasPage={true} /></li>)}
+      </ul>
+    </section>
+
+    {guides.length > 0 && (
+      <section aria-labelledby="guides-h">
+        <h2 id="guides-h">Guides that mention {char}</h2>
+        <ul class="grid cols-wide">{guides.map((g) => <li><GuideCard guide={g} /></li>)}</ul>
+      </section>
+    )}
+  </article>
+</Base>

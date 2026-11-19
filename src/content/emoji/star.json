@@ -1,0 +1,59 @@
+{
+  "slug": "star",
+  "title": "Star Emoji ⭐ Meaning: Ratings, Praise and Favorites",
+  "description": "The ⭐ star emoji means excellence: a gold star for good work, a five-star review, a favorite or a famous person. How to use it, with examples and combos.",
+  "summary": "⭐ is a solid yellow five-pointed star. It means quality and approval, from the teacher's gold star to five-star reviews, and it marks favorites, standout performers and celebrities. It also represents stars in the night sky, though the keyboard has fancier options for that.",
+  "meaning": [
+    "The star is the internet's unit of rating. Hotels, restaurants, apps and drivers are all scored in stars, so a row of ⭐⭐⭐⭐⭐ is a complete review needing no words, and ⭐ alone can be a pointed one-star verdict. Sellers ask for stars in follow-up messages, and customers use them in screenshots and captions to recommend or to warn.",
+    "Before ratings there was the gold star on schoolwork. That is the feeling behind sending ⭐ to praise someone: well done, top marks, you earned it. Managers use it in shout-outs, parents on chore charts, and friends when someone finally does the sensible thing. Because gold stars are associated with children, it can be gently sarcastic too, as in awarding a grown adult a star for washing one dish.",
+    "A star is also a person. “She's a ⭐” means talent and charisma, and entertainment coverage uses it for leads, MVPs and rising names. In software, starring is how people save things: a starred message or a starred repository on GitHub. The emoji carries that bookmark sense into chats, where ⭐ beside an item on a list means the important one."
+  ],
+  "contexts": [
+    {
+      "label": "In reviews",
+      "body": "Stars in a row are read as a score out of five. Businesses repost customer comments with the stars up front, and people rate films, meals and exes the same way for comic effect. Fractional scores get improvised with words, since there is no half-star emoji on the keyboard."
+    },
+    {
+      "label": "At work and school",
+      "body": "In team channels, ⭐ reactions flag a great contribution or mark something worth saving. Teachers and tutors use it in feedback to younger students. In notes and task lists it is a priority marker, more positive than an exclamation point and less alarming than a red flag."
+    },
+    {
+      "label": "In sports and entertainment",
+      "body": "Fans put a star on the player of the match or the breakout actor. In soccer, stars above a crest stand for titles won, and supporters reproduce that in emoji when celebrating a new championship. Texans use it for the Lone Star and Dallas fans for their team's logo."
+    },
+    {
+      "label": "In bios and decor",
+      "body": "Used ornamentally, ⭐ frames names, separates lines and adds a bright note to a profile. It shows up at Christmas for the star on the tree and in children's reward systems. Its look is bolder and flatter than sparkles, so it suits lists and labels better than dreamy captions."
+    }
+  ],
+  "examples": [
+    { "text": "⭐⭐⭐⭐⭐ best tacos in Austin, no notes", "meaning": "A five-star recommendation for a restaurant." },
+    { "text": "You remembered to cancel the trial, gold ⭐ for you", "meaning": "Light, teasing praise for handling a small responsibility." },
+    { "text": "⭐ = must finish today", "meaning": "A key explaining that starred tasks on a list are top priority." },
+    { "text": "Our little ⭐ in the school play tonight", "meaning": "A proud parent describing their child's performance." },
+    { "text": "1 ⭐. Cold fries, forty minute wait.", "meaning": "A blunt negative review using a single star as the score." }
+  ],
+  "combos": [
+    { "combo": "⭐⭐⭐⭐⭐", "meaning": "A perfect five-star rating, sincere or humorous." },
+    { "combo": "🥇⭐", "meaning": "A top performer; first place and standout quality together." },
+    { "combo": "🌙⭐", "meaning": "The night sky, bedtime, or a lullaby-style goodnight." },
+    { "combo": "🎄⭐", "meaning": "The star on top of the Christmas tree." }
+  ],
+  "confusedWith": [
+    { "slug": "glowing-star", "difference": "🌟 has lines or a glow radiating from it and feels more excited and magical. ⭐ is the flat, standard star used for ratings and bookmarks, where counting matters and extra sparkle would be distracting." },
+    { "slug": "sparkles", "difference": "✨ is a cluster of twinkles used for emphasis, newness and a glamorous tone. It decorates words; ⭐ evaluates or labels them." },
+    { "slug": "dizzy", "difference": "💫 is a star with a looping trail that means dizziness or being dazed. People sometimes use it as a shooting star, but it does not carry the rating or praise meaning of ⭐." }
+  ],
+  "avoid": [
+    "Do not post a single ⭐ about a business or person unless you mean it as a harsh rating; that is how many readers will take it.",
+    "Avoid gold-star jokes with someone who may hear them as condescending."
+  ],
+  "design": "A five-pointed star in solid yellow or gold, sometimes with a darker outline or slight gradient. Its original Unicode name was “white medium star,” reflecting the outlined text symbol it came from, but every emoji font colors it yellow. Platform differences are minor: rounder points on some, sharper on others.",
+  "faqs": [
+    { "q": "What is the difference between ⭐ and 🌟?", "a": "⭐ is the basic star for ratings, favorites and straightforward praise. 🌟 glows, so it adds enthusiasm and a sense of something special. Use the plain one when you are counting and the glowing one when you are gushing." },
+    { "q": "What does ⭐ mean from a guy or a girl?", "a": "It is a compliment or a marker of approval: you did well, you are a star, this is a favorite. It is friendly and not inherently romantic, so do not read too much into it alone." },
+    { "q": "What does a star mean on a message or email?", "a": "In many apps starring saves or flags an item so you can find it later. That is an interface feature. When someone types ⭐ in a message, they are praising or highlighting something." },
+    { "q": "Is the star emoji a religious symbol?", "a": "Not this one. The plain five-pointed star is secular. The six-pointed Star of David and the star and crescent are separate emojis with religious meanings and should be used for those contexts." }
+  ],
+  "related": ["glowing-star", "sparkles", "dizzy", "shooting-star", "1st-place-medal", "trophy"]
+}

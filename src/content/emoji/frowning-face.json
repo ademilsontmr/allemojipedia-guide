@@ -1,0 +1,50 @@
+{
+  "slug": "frowning-face",
+  "title": "Frowning Face Emoji ☹️ Meaning: Plainly, Simply Unhappy",
+  "description": "☹️ is the classic frown: sad, disappointed, unhappy with how things went. See how it compares with 🙁 and why it sometimes shows up in black and white.",
+  "summary": "The ☹️ frowning face means unhappy. Its deep, wide frown expresses sadness, disappointment or displeasure more firmly than the slight frown 🙁 but without tears or anger. It is the opposite of the classic smiley and is used for bad news, hurt feelings and things that did not go the sender's way.",
+  "meaning": [
+    "This is the frown reduced to essentials, the mirror image of the classic smiley face. ☹️ tells the reader that the sender is sad or unhappy and leaves it at that. People attach it to failed plans, poor results, bad service and personal disappointments, in the same spots where they would once have typed :( at the end of a sentence.",
+    "The frown is deeper than on 🙁, and users treat the two as steps on a scale. A slight frown is a pity; the full frown is real disappointment. Someone who writes I didn't get the job ☹️ is more affected than the smaller face would suggest, though still composed. When feelings run higher, crying or pleading faces take over.",
+    "It also expresses disapproval. In reviews, complaints and replies to announcements, ☹️ registers that the writer is not happy with a decision or a product. Teachers and parents have long drawn the same symbol by hand for the same purpose, which gives it a slightly stern, report-card quality compared with newer, more expressive emojis.",
+    "The character itself is far older than emoji keyboards. It existed as a black-and-white text symbol in fonts long before phones displayed it in yellow, and it needs an extra invisible code to request the color form. That is why it occasionally appears as a thin outlined face in documents, email subject lines and older software."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It follows disappointing news about yourself or responds to someone else's. Flight got canceled ☹️ is typical. It is straightforward and sincere, with little irony attached. Since many keyboards surface 🙁 or 😞 first, people who choose ☹️ often want a clearly sad face without theatrics." },
+    { "label": "From a partner or friend", "body": "It signals that something landed hard enough to matter. If it follows a decision of yours, they are unhappy with it and are telling you plainly. It invites comfort or a conversation. It is not a silent treatment, and a caring answer generally goes a long way." },
+    { "label": "In feedback and reviews", "body": "Surveys, comment cards and customer messages use frowning faces to mark dissatisfaction, and ☹️ carries that meaning into chat. Writing the delivery was two weeks late ☹️ labels the experience as bad. In professional feedback to a colleague it can feel scolding, so words are safer." },
+    { "label": "In documents and email", "body": "Because it can fall back to a monochrome symbol, it is one of the few faces that might render in plain text settings. It looks sparse there, like a typewritten frown. If the color version matters, check how it displays before sending it to a wide audience." }
+  ],
+  "examples": [
+    { "text": "Didn't make the team ☹️", "meaning": "Real disappointment at a result." },
+    { "text": "Our trip is canceled ☹️", "meaning": "Unhappy about plans falling through." },
+    { "text": "You forgot ☹️", "meaning": "Hurt that something important was overlooked." },
+    { "text": "The store discontinued my favorite tea ☹️", "meaning": "Sad about a small but personal loss." },
+    { "text": "That's really sad to hear ☹️", "meaning": "Sympathy for someone's bad news." },
+    { "text": "Waited an hour and nobody showed up ☹️", "meaning": "Displeased and let down by someone's behavior." }
+  ],
+  "combos": [
+    { "combo": "☹️💔", "meaning": "Sad and heartbroken, often about a relationship." },
+    { "combo": "☹️👎", "meaning": "Unhappy with something; a negative review." },
+    { "combo": "☹️🌧️", "meaning": "A gloomy day, in weather or in mood." },
+    { "combo": "☺️☹️", "meaning": "Mixed feelings, or a contrast between good news and bad." }
+  ],
+  "confusedWith": [
+    { "slug": "slightly-frowning-face", "difference": "🙁 has a small, shallow frown for minor letdowns and always displays in color. ☹️ frowns more deeply, signals stronger unhappiness and may appear as a black-and-white symbol on some systems." },
+    { "slug": "disappointed-face", "difference": "😞 closes its eyes and droops, showing dejection, regret or shame. ☹️ keeps its eyes open and simply frowns. It states unhappiness without the sense of being crushed." },
+    { "slug": "pensive-face", "difference": "😔 is quiet and reflective, with lowered eyes, and often expresses remorse or wistfulness. ☹️ is more direct and outward, a clear statement that the sender is not pleased." }
+  ],
+  "avoid": [
+    "Do not use it as the sole response to tragic news, where it looks too thin.",
+    "Avoid it in feedback to employees or students if it could feel like a bad grade stamped on their work.",
+    "Do not assume it will appear in color everywhere, especially in email subject lines."
+  ],
+  "design": "A yellow face with open oval eyes and a broad, deeply curved frown, with no eyebrows on most versions. Color designs are consistent across vendors. Without the color-requesting code, some systems instead show a simple black outline of a frowning face, the character's original text form.",
+  "faqs": [
+    { "q": "Why does ☹️ sometimes look black and white?", "a": "The underlying character is an old text symbol. A hidden variation selector tells software to show it as a color emoji. When that selector is missing or unsupported, the plain outlined glyph from a regular font appears instead." },
+    { "q": "What does ☹️ mean from a guy or girl?", "a": "They are unhappy or hurt about something, and they are being fairly direct about it. It is not usually anger. Ask what is wrong, or acknowledge whatever you said or did just before it arrived." },
+    { "q": "Which is sadder, 🙁 or ☹️?", "a": "☹️. Its frown is wider and deeper, and the official names reflect the difference: one is Slightly Frowning Face and the other is Frowning Face. Neither is as intense as the crying faces." },
+    { "q": "Is ☹️ the opposite of ☺️?", "a": "Effectively, yes. Both are old symbols that predate modern emoji sets, one smiling and one frowning, and both can fall back to black-and-white text forms. In modern color designs ☺️ gained blushing cheeks, so they no longer look like a perfect pair." }
+  ],
+  "related": ["slightly-frowning-face", "disappointed-face", "pensive-face", "crying-face", "smiling-face", "broken-heart"]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "goblin",
+  "title": "Goblin Emoji 👺 Meaning: Tengu, Trolls and Long Noses",
+  "description": "What does the 👺 goblin emoji mean? It is a tengu from Japanese folklore, used for grumpiness, arrogance, trolling and goblin-mode chaos. Examples inside.",
+  "summary": "The 👺 goblin emoji is a red mask with a very long nose, based on the tengu of Japanese folklore. People send it for a sour or menacing mood, for creepy or trollish behavior, and for chaotic 'goblin' energy. Its nose also makes it a stand-in for lying or sticking your nose in.",
+  "meaning": [
+    "Ask ten people what 👺 means and you will get several answers, because the face is odd enough to be reused freely. The most common reading is a scowling villain: someone irritated, plotting, or being deliberately unpleasant online. Posters also drop it for 'goblin mode,' the slang for giving up on being presentable and embracing mess, snacks, and bad habits. And because the mask stares so hard, some use it as a 'creep' label for unwelcome attention.",
+    "The emoji actually shows a tengu, a mountain spirit from Japanese legend. Tengu were described first as bird-like beings and later as red-faced figures with enormous noses, skilled in martial arts and quick to punish the vain. In Japanese, saying someone has 'become a tengu' means success has gone to their head. That link between the long nose and conceit is the emoji's original sense, and Japanese users still deploy it for bragging.",
+    "In English-language chats the nose invites other jokes. It can hint at lying, borrowing from Pinocchio, or at being nosy. It is also used, bluntly, as phallic innuendo. None of these are fixed meanings, so the surrounding words carry the message. Sent alone, 👺 mostly communicates 'something is off here,' which is exactly why meme accounts love it."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Between friends 👺 marks a grudge or a petty mood: 'she got the last croissant 👺.' It is funnier than an angry face because it looks like a theatrical villain rather than a real person losing their temper. It can also answer a brag, the way you might say 'okay, calm down' to someone getting full of themselves." },
+    { "label": "On TikTok and Instagram", "body": "Comment sections use 👺 for absurdist humor, often repeated in rows under a strange video. It appears with goblin-mode content about staying in, eating badly, and ignoring notifications. In anime and folklore communities it is used literally, tagging tengu characters, masks sold at shrines, and festival photos." },
+    { "label": "In gaming", "body": "Players use 👺 for trolling, griefing, or playing an annoying character on purpose. It also labels actual goblins in fantasy games and tabletop campaigns, since no other emoji carries the word in its name. A teammate who steals loot or kills can expect to see it." }
+  ],
+  "examples": [
+    { "text": "Someone took my parking spot again 👺", "meaning": "The sender is fuming, but in a cartoonish way meant to amuse." },
+    { "text": "Day three of not leaving the apartment 👺🍕", "meaning": "Goblin mode: happily living in mess and comfort food." },
+    { "text": "He got one promotion and now he's like this 👺", "meaning": "Someone has become arrogant, echoing the Japanese idea of turning into a tengu." },
+    { "text": "'I only had one drink' 👺", "meaning": "The long nose suggests the quoted claim is a lie." },
+    { "text": "My rogue stole from the party chest again 👺", "meaning": "A tabletop player admitting to goblin-like, mischievous play." }
+  ],
+  "combos": [
+    { "combo": "👺👹", "meaning": "Tengu and oni together: Japanese folklore, masks, or a duo of menaces." },
+    { "combo": "👺🤥", "meaning": "Doubling down on an accusation of lying with two long noses." },
+    { "combo": "👺👺👺", "meaning": "Absurdist comment spam with no meaning beyond the unsettling face." }
+  ],
+  "confusedWith": [
+    { "slug": "ogre", "difference": "👹 is an oni with horns and fangs and no long nose. It signals monstrous rage or wildness. 👺 has a human-like face, a long nose, and heavy brows, and fits pride, sulking, and scheming better than brute anger." },
+    { "slug": "lying-face", "difference": "🤥 is a yellow smiley with a growing nose made specifically for lying. 👺 only borrows that meaning as a joke, and without context most readers will see anger or weirdness instead." },
+    { "slug": "enraged-face", "difference": "😡 is plain, readable anger from the sender. 👺 turns the anger into a character, which makes it more ironic and less suitable when you want to be taken seriously." }
+  ],
+  "avoid": [
+    "Do not use it to comment on a real person's nose or looks, which lands as an insult.",
+    "Avoid it in messages to people who do not share your meme vocabulary, since its meaning is unclear without that background.",
+    "Keep it out of sincere apologies or serious conflicts, where a villain mask undercuts what you are saying."
+  ],
+  "design": "The glyph is a deep red mask with a long protruding nose, thick dark eyebrows, a downturned mouth, and often a mustache or beard. It represents a tengu mask of the kind worn at Japanese festivals and hung at shrines. Vendors agree on the essentials; differences are limited to the angle of the nose, eyebrow color, and how angry the frown looks.",
+  "faqs": [
+    { "q": "What is a tengu?", "a": "A tengu is a supernatural being from Japanese folklore associated with mountains and forests. Later depictions give it a red face and long nose. Tengu are both feared tricksters and respected guardians, and their masks are common at festivals and shrines." },
+    { "q": "Does 👺 have a dirty meaning?", "a": "It can. Some people use the long nose as a crude visual joke, and others use the face to call out leering or creepy behavior. Neither is the default, but in a flirtatious or sexual conversation that reading is likely." },
+    { "q": "What does 👺 mean in goblin mode posts?", "a": "It stands for the goblin itself: someone lounging, snacking, and ignoring social expectations without shame. The emoji fits because of its name, even though the creature it depicts is a tengu and not a Western goblin." },
+    { "q": "Why did Unicode call it Japanese Goblin?", "a": "When the emoji was standardized in 2010, 'goblin' was chosen as a rough English equivalent for tengu. There is no close Western counterpart, so the label is approximate, and the name was later shortened to Goblin." }
+  ],
+  "related": ["ogre", "lying-face", "clown-face", "angry-face-with-horns", "ghost", "alien-monster"]
+}

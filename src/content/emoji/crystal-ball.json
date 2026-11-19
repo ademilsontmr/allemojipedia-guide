@@ -1,0 +1,56 @@
+{
+  "slug": "crystal-ball",
+  "title": "Crystal Ball Emoji 🔮 Meaning: Predictions & Witchy Vibes",
+  "description": "The 🔮 crystal ball emoji means predicting the future, intuition and mystical vibes: tarot, astrology, manifesting. See how it is used in texts and online.",
+  "summary": "The 🔮 crystal ball emoji represents fortune-telling and seeing the future. People use it for predictions, gut feelings and “I called it” moments, and for the wider world of tarot, astrology, witchcraft and manifesting. In forecasts and trend pieces it signals an educated guess.",
+  "meaning": [
+    "A fortune teller’s glass orb is the stock image of knowing what happens next, and 🔮 is used accordingly. “I see a nap in my future 🔮” jokes about an easy prediction, while “called it 🔮” claims credit after the fact. It also flags intuition: a sense about a person or outcome that the sender cannot prove but trusts anyway.",
+    "A large community uses it sincerely. Tarot readers, astrologers, crystal collectors and people who practice modern witchcraft treat 🔮 as a badge for their interests, alongside moons, stars and candles. Manifesting content, in which people state hopes as though they are already on the way, uses it to mark an intention. In these spaces the emoji is spiritual, not ironic.",
+    "Journalists and analysts adopted it for forecasts. Predictions for an election, an awards show, next year’s technology or a team’s season often carry 🔮 in the headline, acknowledging that nobody really knows. In the negative, “I don’t have a 🔮” is a polite way to say a question about the future cannot be answered."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Friends use it to predict each other’s lives: “he’s going to text you by Friday 🔮.” It adds playful confidence to a guess and lets the sender gloat if it comes true. It can also carry suspicion, as in “I have a feeling about her 🔮,” where the feeling is not a good one."
+    },
+    {
+      "label": "On TikTok and Instagram",
+      "body": "Tarot pick-a-card videos, horoscope roundups and “this found you for a reason” posts are full of 🔮. Witchy and spiritual creators use it in bios with moon phases and zodiac signs. Purple aesthetic posts borrow it for color. Comments such as “claiming this 🔮” mean the viewer hopes the prediction applies to them."
+    },
+    {
+      "label": "At work",
+      "body": "Forecast slides, trend reports and planning discussions use it to label assumptions about the future. “Putting on my 🔮 hat” introduces speculation. Managers use the negative form to set expectations when asked for certainty about timelines or markets. It keeps guesswork honest without sounding evasive."
+    }
+  ],
+  "examples": [
+    { "text": "I predict you’ll love this show 🔮", "meaning": "A confident, playful recommendation." },
+    { "text": "Told you they’d get back together 🔮", "meaning": "Claiming credit for a prediction that came true." },
+    { "text": "Pulled three cards for the week ahead 🔮🌙", "meaning": "Sharing a tarot reading." },
+    { "text": "No idea when it ships, I don’t have a 🔮", "meaning": "Saying they cannot know the future, with mild impatience." },
+    { "text": "New apartment by spring 🔮 claiming it", "meaning": "Manifesting a goal by stating it as destined." },
+    { "text": "Our 2027 predictions 🔮", "meaning": "Introducing forecasts for the coming year." }
+  ],
+  "combos": [
+    { "combo": "🔮✨", "meaning": "Manifesting, magic and good things on the way." },
+    { "combo": "🔮🌙", "meaning": "Witchy, lunar and mystical interests such as astrology and moon rituals." },
+    { "combo": "🔮🃏", "meaning": "Card reading and divination, or an unpredictable outcome." },
+    { "combo": "🔮👀", "meaning": "I see what is coming; watching a situation unfold as predicted." }
+  ],
+  "confusedWith": [
+    { "slug": "magic-wand", "difference": "🪄 makes things happen instantly and suits tricks and transformations. 🔮 only looks ahead. One is about power to change, the other about knowledge of what is coming." },
+    { "slug": "nazar-amulet", "difference": "🧿 is a blue eye-shaped charm that protects against the evil eye and envy. Both are mystical glass objects, but the amulet wards off harm and predicts nothing." },
+    { "slug": "purple-circle", "difference": "🟣 is a plain colored dot. The crystal ball sits on a stand and has a glassy shine, and carries fortune-telling meaning that the circle lacks." }
+  ],
+  "avoid": [
+    "Do not use 🔮 to deliver predictions about someone’s health, pregnancy or relationship that they did not ask for.",
+    "Avoid it in formal financial or legal forecasts, where it can make analysis look like guesswork."
+  ],
+  "design": "The emoji depicts a glass sphere resting on a small stand. Apple and most other vendors color the orb purple or violet with a highlight or swirl of light inside, and the base is typically gold or dark. The purple tint is why it doubles as a color accent in aesthetic posts.",
+  "faqs": [
+    { "q": "What does 🔮 mean from a girl or a guy?", "a": "They are making a prediction, trusting a hunch, or showing an interest in tarot and astrology. “I see a second date 🔮” is a flirty way to suggest meeting again. It has no hidden meaning beyond that." },
+    { "q": "What does 🔮 mean on TikTok?", "a": "It tags tarot readings, astrology, manifestation and witchy content. In comments, people use it to claim a positive prediction for themselves or to say they sensed something before it happened." },
+    { "q": "What does 🔮 mean spiritually?", "a": "It represents divination, intuition and the unseen. Crystal gazing, or scrying, is an old fortune-telling practice, and the emoji has become a general symbol for psychic insight and spiritual curiosity." },
+    { "q": "Why is the crystal ball emoji purple?", "a": "Designers chose purple because the color is associated with mystery and magic, and it helps the ball stand out from clear or white objects. Real crystal balls are usually transparent." }
+  ],
+  "related": ["magic-wand", "nazar-amulet", "sparkles", "crescent-moon", "eyes", "joker"]
+}

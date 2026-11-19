@@ -1,0 +1,109 @@
+{
+  "slug": "check-mark-button",
+  "title": "Check Mark Button Emoji ✅ Meaning: Done, Yes, Approved",
+  "description": "The ✅ check mark button means done, correct, or approved. See how it works in to-do lists, work chat, and replies, and how it differs from ✔️ and ☑️.",
+  "summary": "The ✅ check mark button emoji means something is finished, correct, confirmed, or approved. People drop it into to-do lists, status updates, and quick replies as a one-tap \"done\" or \"yes.\" It is the green, boxed member of the check mark family and by far the most used of them.",
+  "meaning": [
+    "✅ is the emoji equivalent of ticking a box. Its core job is to report completion: the task is finished, the payment went through, the form is filled in. A single ✅ sent in reply to a request usually reads as \"done\" or \"got it, handled,\" which is why it has become a staple of group chats where chores, errands, and plans get divided up.",
+    "A second meaning is correctness or approval. Teachers, quiz accounts, and fact-checkers pair it with ❌ to sort right from wrong, and \"do this ✅ / not this ❌\" is one of the most recognizable post formats on Instagram and LinkedIn. In that role the green tile works like a tiny traffic light, signaling yes before a single word has been read.",
+    "The emoji also gets used as a stand-in for verification. Because it loosely resembles the badges social platforms give to confirmed accounts, people put ✅ next to a name to joke that something is \"officially\" true, and impersonators have used it to look legitimate. A ✅ in a display name is typed by the account owner and proves nothing about who they are.",
+    "Tone-wise, ✅ is efficient rather than warm. It closes a loop without chatter, which suits logistics and work but can feel clipped in an emotional conversation. Lists of several in a row (\"passport ✅ tickets ✅ charger ✅\") have a satisfied, slightly smug rhythm that people use when packing, prepping, or showing off a productive day."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Between friends and family, ✅ mostly answers a question that needs no elaboration: Did you lock the door? Did you book the table? It also confirms plans, as in \"7pm ✅.\" Sent alone, it reads as cooperative and brisk. If someone has written you a long, heartfelt message, though, a lone check mark can land like a receipt stamp."
+    },
+    {
+      "label": "At work",
+      "body": "This is where ✅ does the heaviest lifting. In Slack and Teams it is a common reaction for \"I have seen this and taken care of it,\" and many teams adopt it as an informal ticket-closing signal. Project updates use it as a status marker beside finished items, often next to 🔄 for in progress and ❌ for blocked. Developers also see it constantly as the passing-tests icon in build tools."
+    },
+    {
+      "label": "On social media",
+      "body": "Creators use ✅ as a bullet point to list benefits, steps, or requirements, since the green squares pull the eye down a caption. Giveaway posts rely on it for entry rules (\"✅ follow ✅ like ✅ tag a friend\"). It also shows up in myth-versus-fact carousels, where ✅ marks the true statement and ❌ the false one."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Dentist appointment moved to Thursday ✅",
+      "meaning": "The rescheduling has been taken care of and no further action is needed."
+    },
+    {
+      "text": "Groceries ✅ laundry ✅ gym ✅ I am unstoppable today",
+      "meaning": "The sender is proudly ticking off a productive day, item by item."
+    },
+    {
+      "text": "Can you send the invoice before noon? — ✅",
+      "meaning": "A one-character reply meaning yes, it will be done, or it already has been."
+    },
+    {
+      "text": "Drink water ✅ Skip breakfast ❌",
+      "meaning": "A do-and-don't format: the first habit is recommended, the second is not."
+    },
+    {
+      "text": "Deployed to production, all checks passing ✅",
+      "meaning": "A work update confirming a release went out and nothing failed."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "✅❌",
+      "meaning": "Right versus wrong, do versus don't, or a yes/no poll asking people to pick a side."
+    },
+    {
+      "combo": "✅✅✅",
+      "meaning": "Everything on the list is finished; often used with a note of triumph or relief."
+    },
+    {
+      "combo": "📝✅",
+      "meaning": "A to-do list completed, or paperwork and homework signed off."
+    },
+    {
+      "combo": "✅👍",
+      "meaning": "Confirmed and approved; a slightly friendlier version of the bare check."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "check-mark",
+      "difference": "✔️ is a bare tick with no background, originally a text symbol. It reads as more formal and typographic, while ✅ is green, boxed, and far more visible in a chat. Most people reach for ✅; ✔️ shows up in documents and tidy lists."
+    },
+    {
+      "slug": "check-box-with-check",
+      "difference": "☑️ draws a ballot-style box with a tick inside and suggests a form field, vote, or selected option. ✅ is about a result (done, correct) rather than a choice that has been selected."
+    },
+    {
+      "slug": "cross-mark-button",
+      "difference": "❎ shares the green square but contains an X. It is frequently mistaken for a positive sign because of the color, yet most readers interpret the X as \"no\" or \"close.\" Use ✅ whenever you mean yes."
+    }
+  ],
+  "avoid": [
+    "Do not put ✅ beside your name or brand to imply an official verified status; it misleads people and platforms may treat it as impersonation.",
+    "Avoid answering a vulnerable or emotional message with only ✅, because it reads as processing the message rather than responding to the person.",
+    "Skip it when a task is only partly finished, since readers take the green check as a firm \"complete.\""
+  ],
+  "design": "A thick white check mark sits on a green square with rounded corners. The emoji's formal Unicode name is \"white heavy check mark,\" a reference to the color of the tick itself, which explains shortcodes like :white_check_mark: in Slack and GitHub. Major platforms agree closely on the design, differing only in the shade of green and how glossy or flat the tile looks.",
+  "faqs": [
+    {
+      "q": "What does ✅ mean from a guy or girl?",
+      "a": "Nothing romantic. It means yes, done, or agreed, the same as it would from anyone else. If a crush answers your plan with ✅, they are confirming the plan; read their enthusiasm from the rest of the conversation, not from the check mark."
+    },
+    {
+      "q": "Is ✅ the same as being verified?",
+      "a": "No. Verification badges are applied by the platform and cannot be typed. Anyone can add ✅ to a username or bio, so treat it as decoration. A real badge appears in the platform's own style next to the handle and usually opens details when tapped."
+    },
+    {
+      "q": "Why is it called \"white\" check mark when it is green?",
+      "a": "The original Unicode name describes the tick, not the tile. In older symbol naming, \"white\" meant an outlined or light-colored shape, and the check itself is white on every major platform. The green box is the background vendors chose to make it stand out."
+    },
+    {
+      "q": "When was the ✅ emoji added?",
+      "a": "It was part of the first widely supported emoji set, standardized in Unicode in 2010 and listed under Emoji 0.6. It came from Japanese mobile carrier sets, where a check mark was already a standard symbol."
+    },
+    {
+      "q": "Is it rude to reply with just ✅?",
+      "a": "In logistics and work chat, no; it is often preferred because it confirms without adding noise. It can feel curt when the other person expected a real answer, an opinion, or some warmth. Add a few words if the message deserved them."
+    }
+  ],
+  "related": ["check-mark", "cross-mark", "thumbs-up", "hundred-points", "memo", "ok-hand"]
+}

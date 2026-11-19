@@ -1,0 +1,123 @@
+{
+  "slug": "skull-and-crossbones",
+  "title": "Skull and Crossbones Emoji ☠️: Poison, Pirates, Danger",
+  "description": "The ☠️ skull and crossbones emoji means danger, poison, death or pirates. See how it differs from the 💀 skull and why it sometimes shows in black and white.",
+  "summary": "The ☠️ skull and crossbones shows a skull above two crossed bones, the long-established warning sign for poison and mortal danger and the emblem of pirate flags. People use it for things that are deadly, toxic or hazardous, literally or as exaggeration. It is more literal and less jokey than the plain 💀 skull.",
+  "meaning": [
+    "This symbol had a full career before emoji existed. It appeared on gravestones as a reminder of mortality, on the Jolly Roger flown by pirates, and on bottles and chemical labels as the mark for poison. The emoji inherits all three associations, which is why it feels heavier than 💀. It says “this can kill you,” not “this is funny.”",
+    "In messages, the danger is usually overstated for effect. A dish with too much chili, a gym class that was brutal, a hangover, a room that smells terrible: each can earn a ☠️. The sense is “lethal” or “toxic.” People also apply it to relationships and workplaces they consider poisonous, and to food they suspect has gone bad.",
+    "It crosses over with the slang skull to some extent. Some users send ☠️ for “I'm dead” laughter, either for variety or because it feels more emphatic. That use is understood but secondary. Elsewhere it stands for pirates and pirate-themed events, for kills in video games, and for punk, metal and biker aesthetics, where the image has decorated jackets and album covers for decades."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It flags something as dangerous or awful: “do not eat the leftover sushi ☠️.” It can describe how the sender feels after illness, exhaustion or a rough night. As a joke reaction it is an intensified 💀. Because it is tied to real hazard, it can also serve as a blunt warning to stay away from a person or place."
+    },
+    {
+      "label": "In gaming",
+      "body": "Kill feeds, death counters and difficulty markers have used a skull and crossbones for years, so players use the emoji for eliminations, wipes and deadly zones. “Got ☠️ by the first boss” needs no translation. Pirate games and their communities use it as a badge."
+    },
+    {
+      "label": "On holidays and themed events",
+      "body": "Halloween decorations, pirate parties, and International Talk Like a Pirate Day posts all draw on it, usually alongside 🏴‍☠️. It also appears in posts about haunted attractions and horror releases, where it adds a note of mock menace. Nobody mistakes it for a real warning there."
+    },
+    {
+      "label": "At work",
+      "body": "It has a legitimate role in safety contexts as shorthand for toxic or hazardous material, though official labels and wording should always take priority. In ordinary office chat it can seem aggressive, particularly if attached to a person, project or deadline."
+    }
+  ],
+  "examples": [
+    {
+      "text": "That gas station sushi was a mistake ☠️",
+      "meaning": "Suffering the consequences of bad food."
+    },
+    {
+      "text": "Don't mix bleach and ammonia ☠️",
+      "meaning": "A literal warning that something is poisonous."
+    },
+    {
+      "text": "Pirate night at the bar, costumes required ☠️",
+      "meaning": "Signaling a pirate theme."
+    },
+    {
+      "text": "Spin class destroyed me ☠️",
+      "meaning": "Exaggerating exhaustion after a hard workout."
+    },
+    {
+      "text": "Squad wiped in under a minute ☠️",
+      "meaning": "Gaming: the whole team was eliminated."
+    },
+    {
+      "text": "Her ex is toxic ☠️ stay away",
+      "meaning": "Calling a person harmful to be around."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🏴‍☠️☠️",
+      "meaning": "Pirates: the flag and its emblem together."
+    },
+    {
+      "combo": "☠️⚠️",
+      "meaning": "Serious hazard warning; something dangerous or toxic."
+    },
+    {
+      "combo": "☠️🧪",
+      "meaning": "Poisonous chemicals, or a suspicious drink or recipe."
+    },
+    {
+      "combo": "🍺☠️",
+      "meaning": "A deadly hangover, or drinks strong enough to cause one."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "skull",
+      "difference": "💀 is a lone skull and the standard slang for “I'm dead” from laughing or cringing. ☠️ has crossed bones beneath it and keeps the traditional meanings of poison, danger and piracy."
+    },
+    {
+      "slug": "pirate-flag",
+      "difference": "🏴‍☠️ is a black flag bearing the skull and crossbones and refers specifically to pirates and piracy. ☠️ is the bare symbol, with the wider meanings of danger and death."
+    },
+    {
+      "slug": "warning",
+      "difference": "⚠️ is a general caution sign for any risk. ☠️ is specific and severe: it indicates something poisonous or potentially fatal."
+    }
+  ],
+  "avoid": [
+    "Do not send it to or about a person in a way that could be read as a threat.",
+    "Avoid it in conversations about real deaths or medical emergencies.",
+    "Do not rely on an emoji for actual safety warnings; use clear words and official labels."
+  ],
+  "design": "A white skull, facing forward, set over two long bones crossed in an X. Vendors draw it more starkly than the standalone skull, closer to a warning label or pirate flag. The character began as a plain text symbol and joined the first official emoji list, Emoji 1.0, in 2015, so without its emoji presentation selector some systems display a small black-and-white glyph instead of the color image.",
+  "faqs": [
+    {
+      "q": "What is the difference between ☠️ and 💀?",
+      "a": "💀 is the casual, funny one, used for “I'm dead.” ☠️ is the hazard symbol, used for poison, danger, pirates and things described as deadly. They overlap sometimes, but ☠️ reads as more literal."
+    },
+    {
+      "q": "What does ☠️ mean in texting?",
+      "a": "Usually that something is dangerous, toxic, disgusting or exhausting, often as exaggeration. Occasionally it means the sender is “dead” from laughing. It can also simply refer to pirates."
+    },
+    {
+      "q": "Is ☠️ a threat?",
+      "a": "Not in normal use. People mostly use it humorously or as a warning about a thing, not a person. Sent with hostile words or with no context to someone the sender is in conflict with, it could be taken as threatening."
+    },
+    {
+      "q": "Why does ☠️ sometimes appear in black and white?",
+      "a": "The underlying character is an old text symbol. It needs an invisible emoji-style marker after it to show in color. If that marker is missing, or the app or font does not support it, a monochrome version appears."
+    },
+    {
+      "q": "Does ☠️ mean poison?",
+      "a": "Yes, that is one of its principal meanings. The skull and crossbones has long been used on labels for toxic substances, and the emoji is used the same way, both literally and for anything jokingly called “poison.”"
+    }
+  ],
+  "related": [
+    "skull",
+    "pirate-flag",
+    "warning",
+    "coffin",
+    "bomb",
+    "crossed-swords"
+  ]
+}

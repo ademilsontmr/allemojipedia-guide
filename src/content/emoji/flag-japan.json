@@ -1,0 +1,106 @@
+{
+  "slug": "flag-japan",
+  "title": "🇯🇵 Japan Flag Emoji Meaning: The Red Sun Circle",
+  "description": "The Japan flag emoji 🇯🇵 shows a red disc on white, the Hinomaru. Learn what it means, how anime fans and travelers use it, and which flags look similar.",
+  "summary": "The 🇯🇵 emoji is the flag of Japan: a crimson disc centered on a white field, called the Hinomaru, or “circle of the sun.” It is used for Japanese nationality, trips to Tokyo and Kyoto, anime, manga and games, Japanese food, and national teams such as the Samurai Blue.",
+  "meaning": [
+    "Outside Japan, 🇯🇵 is above all a culture tag. Anime and manga fans use it for new seasons and favorite studios, gamers for Nintendo and other Japanese publishers, food lovers for sushi, ramen, and matcha. Travel content is a huge category: cherry blossom forecasts, rail passes, convenience-store hauls, and “Japan is living in the future” clips all carry the flag. It also labels Japanese-language posts and imported products.",
+    "Inside Japan and among Japanese people abroad, the emoji is used more sparingly and mostly for sport. The men's football team, the Samurai Blue, the women's team, Nadeshiko Japan, and the baseball side, Samurai Japan, bring it out, as do Olympic medals and the international success of players such as Shohei Ohtani. Everyday Japanese messaging relies far more on kaomoji and stickers than on waving the national flag.",
+    "The design is about as simple as flags get, and its name describes it exactly: the sun disc reflects Japan's long identification as the land of the rising sun. Emoji themselves originated on Japanese mobile phones, which is why 🇯🇵 was among the first few country flags in the standard set and why a separate emoji, 🎌, shows two crossed Japanese flags used for holidays. The plain disc flag should not be mixed up with the rayed Rising Sun flag, which is a different design with a contested history in East Asia and has no emoji."
+  ],
+  "contexts": [
+    {
+      "label": "In travel posts",
+      "body": "Flight confirmations, itinerary threads, and first-meal photos are all tagged 🇯🇵. Spring and autumn are the busiest seasons, tied to cherry blossoms and fall leaves. Travelers often combine the flag with 🗼, ⛩️, or 🍣 to hint at the city or activity without naming it."
+    },
+    {
+      "label": "In anime and gaming",
+      "body": "Fans use 🇯🇵 to credit origin: a Japanese voice cast, a Japan-only release, a creator's hometown. It appears in debates over subtitled versus dubbed versions and in announcements from Japanese studios. Here it works as a marker of authenticity more than nationality."
+    },
+    {
+      "label": "In sports",
+      "body": "World Cups, the World Baseball Classic, and the Olympics generate most domestic use. Japanese supporters are well known for cleaning stadium stands after matches, and posts praising the habit usually come with 🇯🇵. Sumo, figure skating, and judo coverage use the flag as a simple country label."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Two weeks in Tokyo and Osaka, leaving Friday 🇯🇵🌸",
+      "meaning": "Announcing a spring trip to Japan."
+    },
+    {
+      "text": "Season 3 is finally out in Japan 🇯🇵 subs tomorrow",
+      "meaning": "An anime fan noting a Japanese release."
+    },
+    {
+      "text": "Ohtani with ANOTHER one 🇯🇵⚾",
+      "meaning": "Celebrating a home run by the Japanese baseball star."
+    },
+    {
+      "text": "Konbini egg sandwich for breakfast again 🇯🇵",
+      "meaning": "A traveler enjoying Japanese convenience-store food."
+    },
+    {
+      "text": "Samurai Blue beat a giant today 🇯🇵🇯🇵",
+      "meaning": "Pride after a Japanese football upset."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇯🇵🌸",
+      "meaning": "Cherry blossom season in Japan."
+    },
+    {
+      "combo": "🇯🇵🍣",
+      "meaning": "Japanese food, especially sushi."
+    },
+    {
+      "combo": "🇯🇵✈️",
+      "meaning": "A trip to Japan, planned or underway."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-bangladesh",
+      "difference": "🇧🇩 Bangladesh also has a red disc, but on a dark green field, and the disc sits slightly toward the hoist. Japan's background is white and its disc is centered."
+    },
+    {
+      "slug": "flag-palau",
+      "difference": "🇵🇼 Palau's flag is a yellow disc on light blue, a similar layout in different colors. The disc represents the moon, not the sun."
+    },
+    {
+      "slug": "crossed-flags",
+      "difference": "🎌 depicts two Japanese flags crossed on poles and is associated with Japanese holidays and celebrations. Use the single flag for the country itself."
+    }
+  ],
+  "avoid": [
+    "Do not use it for other East Asian countries or as a generic “Asia” symbol; China and South Korea have distinct flags and identities.",
+    "Avoid pairing it with wartime imagery or the Rising Sun design in casual posts, which can offend readers in neighboring countries."
+  ],
+  "design": "A white rectangle with a solid red circle in the center, nothing else. Because the design is so sparse, vendors add a thin gray outline or shading so the white field stays visible against light backgrounds. The emoji looks nearly identical everywhere it is supported; on Windows it appears as the letters JP.",
+  "faqs": [
+    {
+      "q": "What does the red circle on Japan's flag mean?",
+      "a": "It represents the sun. The flag's common name, Hinomaru, means “circle of the sun,” and Japan's own name is written with characters meaning “origin of the sun.”"
+    },
+    {
+      "q": "Why was Japan's flag one of the first flag emojis?",
+      "a": "Emoji were developed by Japanese mobile carriers, and their early sets included a handful of flags, Japan's among them. When Unicode standardized emoji in 2010, those few flags came along first; most others followed in 2015."
+    },
+    {
+      "q": "How do I type the Japan flag emoji on a PC?",
+      "a": "The emoji is the regional indicator pair J and P. Windows' emoji panel can insert it, but the built-in font shows the letters JP because Microsoft does not supply country flag images. Browsers or apps with their own emoji artwork will show the flag."
+    },
+    {
+      "q": "Is 🇯🇵 the same as the rising sun flag?",
+      "a": "No. The emoji is the national flag, a plain red disc on white. The Rising Sun flag has rays spreading from the disc and is not available as an emoji."
+    }
+  ],
+  "related": [
+    "crossed-flags",
+    "cherry-blossom",
+    "sushi",
+    "mount-fuji",
+    "tokyo-tower",
+    "flag-south-korea"
+  ]
+}

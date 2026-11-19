@@ -1,0 +1,61 @@
+{
+  "slug": "smiling-face-with-open-hands",
+  "title": "Hugging Face Emoji 🤗: A Hug, Jazz Hands, or Both?",
+  "description": "🤗 was designed as a hug, but many people read it as jazz hands or excited waving. Find out what it means in texts, at work, and from someone you like.",
+  "summary": "🤗 is a smiling face with two open hands, meant to show a hug. It is used to send warmth, thanks, comfort and excitement. Because the hands can look like jazz hands or a push, some people read it as “yay!” or even as mildly sarcastic.",
+  "meaning": [
+    "The intended meaning is a hug. Long known as the “hugging face,” 🤗 is what people send when they would put their arms around someone if they were in the room: after good news, during a hard week, or at the end of a thank-you. It is softer and less romantic than a heart, which makes it a favorite for relatives, coworkers and friends who want to be warm without being intense.",
+    "The drawing does not quite deliver on the idea, though. There are no arms, only a face with two hands floating in front of it. A lot of people see jazz hands, a “ta-da,” or someone about to grab you. That has given the emoji a second life as an expression of perky excitement: “can't wait to see you 🤗” reads as much like happy flapping as like an embrace.",
+    "The mismatch also makes it easy to use ironically. Younger users sometimes attach 🤗 to passive-aggressive or mock-cheerful lines, such as “love being left on read 🤗,” where the wholesome face is the joke. Older users almost always mean it sincerely. If a parent or manager sends it, take it at face value; if a sarcastic friend does, read the sentence again.",
+    "In tech circles the emoji has one more association: it is the logo and namesake of Hugging Face, a company and online hub for sharing machine learning models. Developers often use 🤗 as shorthand for that platform, with no emotional meaning at all. If the emoji appears next to a model name or a code snippet, that is the reference being made."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It closes messages of support and gratitude: “thinking of you 🤗,” “thank you so much 🤗.” It is also a common greeting or goodbye among people who are fond of each other but not flirting. When someone shares good news, a reply of 🤗 means “I'm so happy for you, come here.”"
+    },
+    {
+      "label": "From a crush",
+      "body": "🤗 is affectionate but safe. It shows the person likes you and wants to be warm, yet it sits firmly in friendly territory, closer to a pat on the back than a kiss. If someone you are interested in sends only 🤗 where a heart would fit, they may be keeping things platonic, or simply shy."
+    },
+    {
+      "label": "At work",
+      "body": "This is one of the few affectionate emojis that works in an office. It suits welcoming a new hire, thanking a colleague who covered for you, or responding to a personal announcement like a wedding or a baby. In some workplaces any hug reference feels too familiar, so follow the tone your team already uses."
+    },
+    {
+      "label": "Around the world",
+      "body": "The hug reading is strongest where the emoji's local name says “hug.” Elsewhere, people describe it by what they see, which is why “jazz hands” is such a common label in English. Since the glyph is ambiguous, pairing it with words like “hugs” or “so excited” removes any doubt about which you mean."
+    }
+  ],
+  "examples": [
+    { "text": "Heard about the interview, you've got this 🤗", "meaning": "Sending encouragement and a supportive virtual hug." },
+    { "text": "Thank you for the soup, you're the best 🤗", "meaning": "Warm gratitude toward someone who did something kind." },
+    { "text": "Only two more sleeps until I see you 🤗", "meaning": "Excited anticipation; the hands read as happy waving." },
+    { "text": "Welcome to the team, Priya! 🤗", "meaning": "A friendly, slightly informal welcome to a new coworker." },
+    { "text": "So we're just not doing the dishes this week, cool 🤗", "meaning": "Sarcastic; the cheerful face masks obvious annoyance at a roommate." },
+    { "text": "Sorry you're sick. Rest up 🤗", "meaning": "Comfort from a distance, without making a big emotional scene." }
+  ],
+  "combos": [
+    { "combo": "🤗❤️", "meaning": "A hug with love behind it; common between family members and close friends." },
+    { "combo": "🤗🤗🤗", "meaning": "A big, enthusiastic hug or a burst of excitement about seeing someone." },
+    { "combo": "🥹🤗", "meaning": "Touched and grateful; the sender is moved and wants to hug the person responsible." }
+  ],
+  "confusedWith": [
+    { "slug": "people-hugging", "difference": "🫂 shows two figures actually embracing and is used for comfort, grief and solidarity. 🤗 is a cheerful face with open hands, so it carries more happiness and less gravity. For a serious loss, 🫂 fits better." },
+    { "slug": "face-with-hand-over-mouth", "difference": "🤭 holds one hand over its mouth and means a giggle or “oops.” 🤗 holds two hands open and means a hug or excitement. At small sizes the hands can make them look related, but the meanings do not overlap." },
+    { "slug": "smiling-face-with-smiling-eyes", "difference": "😊 is a blushing smile that shows quiet happiness or thanks. 🤗 adds hands and an offer of physical affection. 😊 says “that's nice”; 🤗 says “come here.”" }
+  ],
+  "avoid": [
+    "Do not send it to someone who has made clear they dislike physical affection or overfamiliar messages.",
+    "Skip it for deep grief, where a cheerful smiling face can feel too light.",
+    "Avoid the sarcastic use with people who will read it literally, such as older relatives or new coworkers."
+  ],
+  "design": "A yellow face with a closed, smiling mouth, rosy or smiling eyes, and two open hands held up in front of it, palms toward the viewer. Vendors place the hands differently: some set them wide like jazz hands, others bring them closer to the body so they look more like an embrace. The differing hand positions are the main reason people disagree about what it shows.",
+  "faqs": [
+    { "q": "Is 🤗 a hug or jazz hands?", "a": "Officially a hug. It was introduced as the hugging face and its current formal name is smiling face with open hands. Many people see jazz hands because no arms are drawn, and both readings are common enough that neither will confuse most recipients." },
+    { "q": "Is 🤗 flirty?", "a": "Rarely. It expresses affection, but the friendly, wholesome kind. People use it with family and colleagues, which they would not do with a flirtatious emoji. If someone is flirting with you, they will usually add hearts, winks or kisses instead." },
+    { "q": "Can 🤗 be sarcastic?", "a": "Yes, mostly among younger users. Attached to a complaint or an insult, the overly sweet face signals fake cheer, as in “thanks for the feedback 🤗.” If the sentence is negative and the emoji is sunny, assume sarcasm." },
+    { "q": "Why is 🤗 used for AI?", "a": "Hugging Face, a well-known platform for sharing machine learning models and datasets, uses this emoji as its name and logo. In programming and AI discussions, 🤗 frequently just refers to that company or its software libraries." }
+  ],
+  "related": ["people-hugging", "smiling-face-with-smiling-eyes", "smiling-face-with-hearts", "heart-hands", "face-holding-back-tears", "red-heart"]
+}

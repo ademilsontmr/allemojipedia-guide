@@ -1,0 +1,61 @@
+{
+  "slug": "puzzle-piece",
+  "title": "Puzzle Piece Emoji 🧩 Meaning: Missing Piece & More",
+  "description": "The 🧩 puzzle piece emoji means solving something, a perfect fit or “my missing piece.” Also covers its debated link to autism awareness and jigsaw hobby use.",
+  "summary": "The 🧩 puzzle piece emoji represents figuring something out, things fitting together, or a person who completes you. It is used literally for jigsaws and brain teasers, in work talk about “pieces of the puzzle,” and in autism awareness posts, where the symbol is contested.",
+  "meaning": [
+    "A single jigsaw piece suggests both a problem and its answer, and people use 🧩 for each. “Trying to piece this together 🧩” describes confusion being worked through, while “the last piece 🧩” announces that something finally makes sense. Detectives of everyday drama use it when comparing notes on gossip, and students use it for hard concepts clicking into place.",
+    "Romance borrowed the image long before emoji existed. Calling a partner “my missing piece” says they fit you exactly, and 🧩 is the natural illustration. Couples post it on anniversaries, and friends use it for people who complement each other. The same idea applies to teams, where a new hire or signing is described as the piece that completes the group.",
+    "The puzzle piece also has a history as a symbol for autism, used by some charities and awareness campaigns for decades. Many autistic people object to it, arguing that it implies they are incomplete or a mystery to be solved, and prefer the infinity symbol to represent neurodiversity. Some families and organizations continue to use 🧩, so you will see it both embraced and criticized. The emoji itself was added in 2018."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Friends send it when a story has gaps: “wait, so who told her? 🧩” It marks the moment of realization as well, often with a 🤯 or a light bulb. In romantic messages it says “we fit.” And on a rainy weekend it may simply mean someone has a thousand-piece jigsaw spread across the table."
+    },
+    {
+      "label": "At work",
+      "body": "Business writing uses 🧩 for components of a larger plan: integrations, strategy pillars, steps in a process. It is common in slide decks and product announcements, especially for features that connect tools together. It reads as constructive and analytical, making it a low-risk choice for professional messages about problem-solving."
+    },
+    {
+      "label": "In awareness posts",
+      "body": "Around autism awareness and acceptance campaigns, particularly in April, 🧩 appears in posts from parents, schools and some charities. Autistic-led groups frequently ask that ♾️ be used instead. If you are posting in support, it is worth knowing the puzzle piece may not be welcomed by the people it is meant to represent."
+    },
+    {
+      "label": "In hobbies and games",
+      "body": "Jigsaw enthusiasts, escape-room fans and puzzle-game players use the emoji literally. It tags finished-puzzle photos, daily word and logic games, and brain-teaser content. Streamers of puzzle video games use it in titles, and it is often chosen as the icon for extensions and add-ons in software."
+    }
+  ],
+  "examples": [
+    { "text": "Ohhh so THAT’S why she left early 🧩", "meaning": "A detail just explained something that had been confusing them." },
+    { "text": "Four years with my missing piece 🧩❤️", "meaning": "An anniversary message calling their partner the person who completes them." },
+    { "text": "1,000 pieces done, only took all weekend 🧩", "meaning": "Proudly sharing a completed jigsaw puzzle." },
+    { "text": "Still missing a few pieces before I can decide 🧩", "meaning": "They need more information before making a choice." },
+    { "text": "She’s exactly the 🧩 this team needed", "meaning": "A new person fills a gap and makes the group work." }
+  ],
+  "combos": [
+    { "combo": "🧩❤️", "meaning": "You complete me; a partner or friend who fits perfectly." },
+    { "combo": "🧩🧠", "meaning": "Working through a tough problem, riddle or brain teaser." },
+    { "combo": "🧩💡", "meaning": "The moment everything clicks and the answer becomes clear." },
+    { "combo": "🧩🔍", "meaning": "Investigating a mystery and gathering the missing details." }
+  ],
+  "confusedWith": [
+    { "slug": "infinity", "difference": "♾️ is the symbol many autistic people and neurodiversity advocates prefer, often shown in rainbow or gold. 🧩 is the older awareness symbol that a large part of that community rejects." },
+    { "slug": "link", "difference": "🔗 means a connection or a URL. The puzzle piece is about things fitting into a bigger picture or a problem being solved, not about linking two items directly." },
+    { "slug": "magnifying-glass-tilted-left", "difference": "🔍 is searching and investigating. 🧩 is what you are assembling from the clues. One is the hunt, the other is the solution taking shape." }
+  ],
+  "avoid": [
+    "Avoid using 🧩 as a label for an autistic person unless you know they are comfortable with the symbol.",
+    "Do not call a human being a “puzzle” with this emoji in a way that suggests they are a problem to fix.",
+    "Skip the “missing piece” line early in dating, where it can come across as too intense."
+  ],
+  "design": "The glyph is one interlocking jigsaw piece with tabs and blanks. Color is the main difference between platforms: Apple’s piece is green, while other vendors have chosen different colors. The color carries no meaning in itself. All designs show a single piece, never a completed puzzle.",
+  "faqs": [
+    { "q": "What does 🧩 mean from a guy or girl?", "a": "In a romantic message it usually means “we fit together” or “you’re my missing piece.” Without affectionate wording it probably means they are trying to figure something out or are doing a puzzle." },
+    { "q": "Is the puzzle piece emoji a symbol for autism?", "a": "It is used that way by some organizations and families. However, many autistic people dislike the puzzle symbol and favor the infinity sign instead. The emoji was designed as a jigsaw piece, with no official connection to autism." },
+    { "q": "What does 🧩 mean on TikTok?", "a": "Common uses include “missing piece” relationship videos, storytime posts where details come together, puzzle hobby content and autism-related videos. In comments, it often means “now it makes sense.”" },
+    { "q": "Why is the puzzle piece a different color on my friend’s phone?", "a": "Each platform draws its own version, and vendors chose different colors. Apple shows green, and other platforms may not. Nothing about the meaning changes with the color." },
+    { "q": "What does 🧩 mean in a work message?", "a": "It refers to one part of a larger project or solution. “This is the final 🧩” means the last requirement is in place. It can also label integrations or plug-ins in product updates." }
+  ],
+  "related": ["infinity", "light-bulb", "brain", "magnifying-glass-tilted-left", "game-die", "link"]
+}

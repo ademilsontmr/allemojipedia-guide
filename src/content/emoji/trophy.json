@@ -1,0 +1,61 @@
+{
+  "slug": "trophy",
+  "title": "Trophy Emoji 🏆 Meaning: Wins, Champions and Sarcasm",
+  "description": "The 🏆 trophy emoji celebrates a win, from championships to finishing your taxes. It can also be a sarcastic “congrats.” See examples, combos and when to skip it.",
+  "summary": "The 🏆 trophy emoji means victory or top achievement. People use it for real championships, personal milestones and mock awards between friends, as in “worst parker of the year 🏆.” Used dryly, it becomes a sarcastic prize for someone who thinks they deserve applause for doing very little.",
+  "meaning": [
+    "A gold cup is one of the oldest symbols of winning, and the emoji keeps that meaning intact. It follows final scores, title celebrations, tournament results and award announcements. Sports accounts use it to count championships, sometimes typing one 🏆 for each title a team or player holds, which turns the emoji into a kind of tally mark for greatness.",
+    "Everyday wins get the trophy too. Finishing a degree, hitting a sales target, running a first 5K or simply getting a toddler to sleep can all earn a 🏆. Here it is a way of saying “you deserve a prize,” and people award it to others as often as to themselves. It is warmer and more specific than a thumbs up because it names the person a winner.",
+    "Then there is the ironic trophy. “Do you want a 🏆?” or “congrats 🏆” after someone brags about a basic task is a put-down, equivalent to a slow clap. Friends also hand out joke awards, such as “🏆 for most dramatic exit,” which tease without real malice. The words around it nearly always make clear which version you are getting."
+  ],
+  "contexts": [
+    {
+      "label": "In sports",
+      "body": "This is the emoji of finals and parades. Clubs post it the moment a title is secured, fans add it to their names during a winning season, and debates about legacy are argued in rows of trophies. It represents team honors best; individual podium finishes more often get a medal instead."
+    },
+    {
+      "label": "At work",
+      "body": "In workplace chat the trophy recognizes a clear result: a closed deal, a shipped project, an employee-of-the-month shout-out. It is a popular reaction emoji on announcement posts. Because it implies ranking, use it for genuine standouts; handing it to one teammate on a group effort can feel like overlooking the rest."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends use 🏆 to crown each other for small things: best playlist, fastest reply, surviving a family dinner. Self-awarded trophies are common and usually playful, as in “made it to the gym twice this week 🏆.” A bare trophy sent after an argument can mean “fine, you win,” sometimes sincerely and sometimes through gritted teeth."
+    },
+    {
+      "label": "In gaming",
+      "body": "Many games call their achievements trophies, and players post 🏆 after unlocking a hard one or completing every challenge in a title. It also marks ranked-mode wins, tournament results and victory screens in battle royale games, where the single winner gets the kind of bragging rights the emoji was made for."
+    }
+  ],
+  "examples": [
+    { "text": "CHAMPIONS 🏆🏆🏆 three in a row!!", "meaning": "Their team has won a third straight title and they are thrilled." },
+    { "text": "You cooked one meal. Want a 🏆?", "meaning": "Sarcasm: the sender thinks the achievement does not merit praise." },
+    { "text": "Passed the bar exam 🏆", "meaning": "Announcing a major personal achievement with well-earned pride." },
+    { "text": "Best maid of honor speech ever 🏆", "meaning": "Awarding a friend a symbolic prize for doing something brilliantly." },
+    { "text": "Ok ok, you were right 🏆", "meaning": "Conceding an argument and handing over the win." },
+    { "text": "Platinum on the first playthrough 🏆", "meaning": "They earned the top achievement in a video game." }
+  ],
+  "combos": [
+    { "combo": "🏆🥇", "meaning": "First place and the title; total victory with nothing left to win." },
+    { "combo": "🏆🍾", "meaning": "Celebrating a championship or big success with champagne." },
+    { "combo": "👑🏆", "meaning": "Calling someone the undisputed best in their field." },
+    { "combo": "👏🏆", "meaning": "Applause and an award; sincere congratulations, or a slow clap if the tone is dry." }
+  ],
+  "confusedWith": [
+    { "slug": "1st-place-medal", "difference": "🥇 is a gold medal worn around the neck and suits individual results and rankings. 🏆 is a cup lifted by a champion and suits titles, team wins and “best of” awards." },
+    { "slug": "sports-medal", "difference": "🏅 is a generic medal with no placing shown. It recognizes participation or achievement in sport, while the trophy specifically means winning the whole thing." },
+    { "slug": "wine-glass", "difference": "At small sizes a gold cup can resemble a goblet, but 🍷 is a drink. Trophies have two handles and a base and are never about beverages." }
+  ],
+  "avoid": [
+    "Do not send a sarcastic 🏆 to someone who is sincerely proud of a small step; it can sting more than intended.",
+    "Avoid it in messages about another person’s loss or setback, where victory imagery looks like gloating.",
+    "Skip awarding yourself the trophy in formal announcements, where it can read as boastful."
+  ],
+  "design": "The emoji shows a gold cup with two handles standing on a base. Apple and several other vendors add a small plaque on the stand, and shading ranges from flat yellow to polished gold. No platform ties it to a specific real-world trophy, so it reads as a generic prize in every design.",
+  "faqs": [
+    { "q": "Is the trophy emoji ever sarcastic?", "a": "Yes. After boasting or stating the obvious, “here’s your 🏆” means the opposite of admiration. Look for a flat tone, a question like “want a trophy?” or praise that seems far too large for the deed." },
+    { "q": "What does 🏆 mean from a guy or girl?", "a": "If they send it about you, they are saying you won or did something impressive; flirtatiously, it can mean “you’re a prize.” About themselves, it is a brag. Context decides whether it is sweet or smug." },
+    { "q": "What is the difference between 🏆 and 🥇?", "a": "Both mean first, but the cup celebrates being champion overall, and the medal marks finishing first in a specific event or ranking. Olympic results use medals; league titles and awards use the trophy." },
+    { "q": "What does 🏆 mean in a username or bio?", "a": "It usually signals competitive pride: an athlete, a gamer listing wins, a fan of a title-winning team or a business highlighting an award. Some people use it as a simple “winner’s mindset” badge." }
+  ],
+  "related": ["1st-place-medal", "crown", "clapping-hands", "party-popper", "flexed-biceps", "goat"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "flag-spain",
+  "title": "🇪🇸 Spain Flag Emoji Meaning: La Roja and Beyond",
+  "description": "The Spain flag emoji 🇪🇸 shows red and yellow bands with a coat of arms. Learn what it means, how it's used for travel, football and the Spanish language.",
+  "summary": "The 🇪🇸 emoji is the flag of Spain: a wide yellow band between two red ones, with the national coat of arms set toward the pole. It marks Spanish nationality, holidays in Barcelona, Madrid, or the islands, the football team known as La Roja, Spanish food, and frequently the Spanish language.",
+  "meaning": [
+    "Tourism accounts for a large share of use. Spain is one of the most visited countries on earth, and 🇪🇸 labels beach weeks in Mallorca and the Costa del Sol, city breaks in Seville and Valencia, the Camino de Santiago, and festival trips to Ibiza. Food posts follow: paella, tapas, jamón, churros, a late dinner at ten at night.",
+    "Sport is the other pillar. The men's national team won the World Cup in 2010 and has collected European titles, and the women's team won the World Cup in 2023, so 🇪🇸 appears in celebrations for both. Tennis fans attach it to Rafael Nadal and Carlos Alcaraz, MotoGP and Formula 1 fans to Spanish riders and drivers. Club rivalries such as Real Madrid against Barcelona tend to use club crests and colors instead.",
+    "As a language icon, 🇪🇸 is common in apps and course titles, though most Spanish speakers live in the Americas and many prefer their own flags. Inside Spain the national flag can carry political weight. In Catalonia and the Basque Country, where regional identity is strong, some people favor regional flags, none of which has a widely supported emoji. Elsewhere in Spain the flag in a bio may hint at political leanings. Visitors' holiday posts are not read that way."
+  ],
+  "contexts": [
+    {
+      "label": "In travel",
+      "body": "From Easter to October, 🇪🇸 is everywhere in vacation content: sangria on a terrace, Gaudí architecture, Canary Islands winter sun. British and German tourists are especially heavy users. It often comes with ☀️ or 🏖️ and little other explanation. Pilgrims walking the Camino use it to mark each stage."
+    },
+    {
+      "label": "In sports",
+      "body": "Tournament wins for La Roja bring rows of 🇪🇸 and shouts of “Vamos.” Grand Slam finals featuring a Spaniard, cycling's Vuelta a España, and basketball championships add to it. The flag here is uncomplicated national cheering. Spanish fans also use it for Olympic medals and handball titles."
+    },
+    {
+      "label": "Language and culture",
+      "body": "Teachers, students, and apps use 🇪🇸 for Spanish classes and bilingual bios. Flamenco, Spanish cinema, and series set in Madrid are tagged with it. Latin American users sometimes object when their own content is labeled with Spain's flag. Asking which variety of Spanish is being taught avoids the issue."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Ten days in Andalusia, tapas budget unlimited 🇪🇸",
+      "meaning": "Excited about a trip to southern Spain."
+    },
+    {
+      "text": "CAMPEONAS DEL MUNDO 🇪🇸🇪🇸",
+      "meaning": "Celebrating Spain's Women's World Cup victory."
+    },
+    {
+      "text": "Dinner at 10pm like a local 🇪🇸🍷",
+      "meaning": "Enjoying Spanish mealtimes on holiday."
+    },
+    {
+      "text": "Vamos Carlitos!! 🇪🇸🎾",
+      "meaning": "Cheering for Carlos Alcaraz."
+    },
+    {
+      "text": "Bilingual 🇬🇧🇪🇸 | DM for tutoring",
+      "meaning": "A bio offering English and Spanish lessons."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇪🇸☀️",
+      "meaning": "A sunny Spanish holiday."
+    },
+    {
+      "combo": "🇪🇸⚽",
+      "meaning": "Spanish football, national team or La Liga."
+    },
+    {
+      "combo": "🇪🇸🥘",
+      "meaning": "Paella and Spanish cooking."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-mexico",
+      "difference": "🇲🇽 Mexico is often the country people really mean when they reach for a “Spanish” flag. Its green, white, and red tricolor looks nothing like Spain's red and yellow."
+    },
+    {
+      "slug": "flag-ceuta-and-melilla",
+      "difference": "🇪🇦 represents Ceuta and Melilla, two Spanish cities on the North African coast. Platforms display it with the Spanish flag, making it indistinguishable from the Spain emoji."
+    },
+    {
+      "slug": "flag-colombia",
+      "difference": "🇨🇴 Colombia also has a broad yellow band with red, plus blue in between, in horizontal stripes. At tiny sizes the dominant yellow can cause a second look."
+    }
+  ],
+  "avoid": [
+    "Do not use it for Latin American people or countries; they are not Spanish, and the distinction matters to them.",
+    "Tread carefully using it in discussions of Catalan or Basque independence, where the flag is not a neutral symbol."
+  ],
+  "design": "Horizontal bands of red, yellow, and red, the yellow twice as tall as each red. A small coat of arms sits left of center in the yellow, with a crown and the Pillars of Hercules; at emoji size it is a reddish blot. Windows displays the letters ES.",
+  "faqs": [
+    {
+      "q": "Why is Spain's flag emoji ES?",
+      "a": "ES comes from España, the country's name in Spanish, and is its two-letter international code. The emoji is the regional indicator letters E and S joined into a flag by the device."
+    },
+    {
+      "q": "What is on the Spanish flag?",
+      "a": "The coat of arms combines symbols of the historic kingdoms of Castile, León, Aragon, and Navarre, with Granada at the base. It is topped by a crown and flanked by the Pillars of Hercules bearing the motto “Plus Ultra.”"
+    },
+    {
+      "q": "Should I use 🇪🇸 for the Spanish language?",
+      "a": "It is widely understood, and apps do it. For an audience in Latin America or the United States, the country's own flag, or simply the word Español, may be received better."
+    },
+    {
+      "q": "Is there a Catalan flag emoji?",
+      "a": "Not one that works across platforms. Regional flags of Spain are not in the commonly supported emoji set, so users often write the name or use red and yellow symbols instead."
+    }
+  ],
+  "related": [
+    "flag-mexico",
+    "flag-portugal",
+    "flag-italy",
+    "flag-france",
+    "soccer-ball",
+    "shallow-pan-of-food"
+  ]
+}

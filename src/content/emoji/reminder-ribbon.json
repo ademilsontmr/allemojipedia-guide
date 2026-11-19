@@ -1,0 +1,58 @@
+{
+  "slug": "reminder-ribbon",
+  "title": "Reminder Ribbon Emoji 🎗️ Meaning: Awareness & Support",
+  "description": "The 🎗️ reminder ribbon emoji is an awareness ribbon, yellow on most phones. It shows support for causes, illness awareness, troops, hostages and remembrance.",
+  "summary": "The 🎗️ reminder ribbon emoji is a looped awareness ribbon. People use it to show support or solidarity for a cause: cancer awareness, suicide prevention, military families, missing or captive people, and remembrance of those who have died. Most platforms draw it yellow, which shapes how it is read.",
+  "meaning": [
+    "A folded loop of ribbon pinned to a lapel is a widely recognized way to say “I support this cause,” and 🎗️ brings that gesture to text. It appears in posts for awareness months, fundraising walks, survivor anniversaries and tributes. The emoji does not specify a cause. Meaning comes from the words, hashtags or colored hearts placed next to it.",
+    "Color complicates matters. Real awareness ribbons are color-coded, with pink for breast cancer, red for HIV and AIDS, and many more. The emoji, however, is yellow or gold on nearly every platform. Yellow ribbons have their own traditions: hoping for the safe return of soldiers and of people held captive or missing, and supporting suicide prevention. Gold is used for childhood cancer awareness.",
+    "Because of those associations, the yellow ribbon became prominent in posts calling for the release of hostages taken from Israel in October 2023, and many users now read it that way first. Others continue to use it for unrelated health and remembrance causes. If your meaning could be mistaken, name the cause in words. The emoji is not used jokingly or as slang."
+  ],
+  "contexts": [
+    {
+      "label": "In awareness campaigns",
+      "body": "Charities, hospitals and individuals use 🎗️ during awareness months and on days such as World Cancer Day. Since the emoji’s color is fixed, people add a colored heart to specify: pink for breast cancer, red for HIV, purple for pancreatic cancer or domestic violence. Fundraiser pages and survivor stories use it as a header."
+    },
+    {
+      "label": "In remembrance and solidarity",
+      "body": "The ribbon appears in tributes to people who have died of illness, on memorial anniversaries and in messages of support to families. Military communities use it for deployed service members. In display names and bios it signals ongoing commitment to a cause, including campaigns for people held hostage or missing."
+    },
+    {
+      "label": "In texting",
+      "body": "Personal messages use it sparingly and sincerely: telling a friend you are thinking of them during treatment, marking a “cancer-free” milestone, or acknowledging a hard anniversary. It is a quiet emoji. People rarely send it without words, because on its own it does not say which cause or person is meant."
+    }
+  ],
+  "examples": [
+    { "text": "Five years cancer-free today 🎗️", "meaning": "Celebrating a survivorship milestone." },
+    { "text": "Walking 10k on Saturday for Mom 🎗️ link to donate in bio", "meaning": "Fundraising for a cause in honor of a family member." },
+    { "text": "September is Childhood Cancer Awareness Month 🎗️", "meaning": "Drawing attention to an awareness campaign associated with a gold ribbon." },
+    { "text": "Bring them home 🎗️", "meaning": "Calling for the return of people held hostage or missing." },
+    { "text": "Thinking of you through every round of chemo 🎗️💛", "meaning": "Offering support to someone in cancer treatment." },
+    { "text": "You are not alone. Reach out 🎗️", "meaning": "A suicide prevention or mental health support message." }
+  ],
+  "combos": [
+    { "combo": "🎗️🩷", "meaning": "Breast cancer awareness, with the pink heart supplying the cause’s color." },
+    { "combo": "🎗️💛", "meaning": "Yellow or gold ribbon causes: hope for someone’s return, suicide prevention or childhood cancer." },
+    { "combo": "🎗️🕯️", "meaning": "Remembering someone who died, often of an illness the ribbon represents." },
+    { "combo": "🎗️🙏", "meaning": "Prayers and support for a person or group facing hardship." }
+  ],
+  "confusedWith": [
+    { "slug": "ribbon", "difference": "🎀 is a pink decorative bow tied to fashion, cuteness and gifts. 🎗️ is a single crossed loop worn for causes. They are not interchangeable; the bow trivializes a serious message." },
+    { "slug": "yellow-heart", "difference": "💛 expresses friendship, warmth and happiness and is sometimes added to cause-related posts. Without the ribbon it does not signal awareness or solidarity." },
+    { "slug": "rosette", "difference": "🏵️ is a flower-shaped decoration and is easily mistaken for an award ribbon. It has no connection to awareness campaigns." }
+  ],
+  "avoid": [
+    "Do not use 🎗️ as a generic decoration or gift ribbon; people will assume you are referencing a cause.",
+    "Avoid posting it without context where the yellow ribbon could be read as a political statement you do not intend.",
+    "Do not add it to promotional content unless the campaign actually supports the cause."
+  ],
+  "design": "The emoji shows a short length of ribbon folded into a loop with crossed ends, the standard awareness ribbon shape. Apple, Google, Samsung and Microsoft render it in yellow or gold. Unicode does not define the color, and there are no color variants, so users cannot switch it to pink, red or any other cause color.",
+  "faqs": [
+    { "q": "What does the yellow ribbon emoji mean?", "a": "Yellow ribbons traditionally express hope for the safe return of someone absent, such as soldiers, hostages or missing people. They are also used for suicide prevention, and gold ribbons for childhood cancer. The surrounding text tells you which applies." },
+    { "q": "Is there a pink ribbon emoji for breast cancer?", "a": "Not a dedicated one. The 🎗️ reminder ribbon is the correct shape but appears yellow on most devices. People usually pair it with a pink heart, or use the pink bow 🎀 informally, to indicate breast cancer awareness." },
+    { "q": "Why do people have 🎗️ in their name or bio?", "a": "It shows lasting support for a cause that matters to them. Since late 2023, many have used it for hostages held in Gaza. Others display it as cancer survivors, caregivers or supporters of military families." },
+    { "q": "Can I change the color of the 🎗️ emoji?", "a": "No. Emoji colors are chosen by each platform, and this one has no alternate versions. To represent a specific cause, add a heart or circle in the matching color and state the cause in words." },
+    { "q": "When was the reminder ribbon emoji added?", "a": "It was introduced in 2014. Its official name, Reminder Ribbon, reflects the idea of a ribbon worn to keep a cause or a person in mind." }
+  ],
+  "related": ["ribbon", "yellow-heart", "candle", "folded-hands", "dove", "pink-heart"]
+}

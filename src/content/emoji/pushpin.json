@@ -1,0 +1,49 @@
+{
+  "slug": "pushpin",
+  "title": "Pushpin Emoji 📌 Meaning: Pinned Posts and Reminders",
+  "description": "The 📌 pushpin emoji marks something pinned: a key post, a reminder, a saved idea or a place. See how it differs from the round pin 📍 and how to use it.",
+  "summary": "The 📌 pushpin emoji is a red thumbtack. It marks something as pinned or important: an announcement, a reminder, a rule, a saved idea. Apps use a similar icon for pinned posts and messages, and many people also use it loosely to mark a location.",
+  "meaning": [
+    "A thumbtack holds a note to a corkboard so it won't be lost, and the emoji does that for text. Put 📌 at the start of a line and you are telling readers “keep this in view.” Community managers use it for rules and schedules, teachers for deadlines, and group chat organizers for the one message everyone keeps asking about.",
+    "Software reinforced the meaning. X, Telegram, Discord, Slack, WhatsApp and many other apps let users pin a post or message to the top, and most of them label the feature with a pushpin-style icon. As a result, “📌 pinned” in a caption or bio reads instantly, and people write “pin this 📌” in comments when they want the creator to keep a reply at the top.",
+    "The pin also belongs to Pinterest culture and to mood boards generally. Saving an outfit, a recipe or a home decor idea for later is “pinning” it, and 📌 turns up in captions for inspiration collections. In planning chats, “let's put a 📌 in that” means postponing a topic without dropping it, a play on the phrase “put a pin in it.”",
+    "Location is the last and most debated use. Strictly, map markers correspond to the round pushpin 📍, but plenty of people use the angled 📌 for the same job, in front of a city name, a venue or an address. Either is understood, and on travel accounts the choice usually comes down to which one the writer finds first on the keyboard."
+  ],
+  "contexts": [
+    { "label": "On social media", "body": "Creators mark their pinned post with it, such as an introduction, a FAQ or a link to their shop. Fan accounts and news threads open with 📌 to label a master post that collects updates. In comment sections, asking to be pinned with this emoji is a common running joke among early viewers." },
+    { "label": "At work", "body": "It highlights key messages in busy channels: “📌 Deadline moved to the 14th.” Reacting to a message with 📌 can tell colleagues you are saving it or suggest the channel admin pin it. It is a clear, professional choice for anything people will need to find again." },
+    { "label": "In group chats", "body": "Whoever organizes the trip, the party or the fantasy league uses 📌 for the address, the time and the payment details, the facts that otherwise get buried under memes. “See 📌” is shorthand for “scroll up, the answer is in the pinned message.”" },
+    { "label": "In captions", "body": "Travel and food posts use it as a location tag: “📌 Lisbon, Portugal.” Inspiration accounts use it for ideas worth saving. Bullet-journal and study creators use rows of it as decorative bullets, since the red tack stands out against text." }
+  ],
+  "examples": [
+    { "text": "📌 Rehearsal is at 6 on Thursday, not 7", "meaning": "Flagging a correction everyone needs to see." },
+    { "text": "Pin this 📌 I was here before it blew up", "meaning": "A commenter asking the creator to pin their reply." },
+    { "text": "Let's put a 📌 in the budget talk until Friday", "meaning": "Postponing a topic to come back to later." },
+    { "text": "📌 Kyoto, Japan", "meaning": "Tagging the place where a photo was taken." },
+    { "text": "Address and door code are in the 📌", "meaning": "Pointing people to the pinned message in a chat." },
+    { "text": "Saving this for the kitchen remodel 📌", "meaning": "Bookmarking an idea for future reference." }
+  ],
+  "combos": [
+    { "combo": "📌📅", "meaning": "A date to remember: save it to your calendar." },
+    { "combo": "📌❗", "meaning": "An important notice that should not be missed." },
+    { "combo": "📌🗺️", "meaning": "Marking a spot on the map or planning a route." },
+    { "combo": "📌💡", "meaning": "An idea worth saving for later." }
+  ],
+  "confusedWith": [
+    { "slug": "round-pushpin", "difference": "The 📍 round pushpin stands upright with a ball head and looks like a map marker, so it is the standard choice for locations. The angled 📌 thumbtack is better for pinned notes and reminders, though people do swap them." },
+    { "slug": "paperclip", "difference": "The 📎 paperclip signals an attachment, such as a file added to an email. 📌 signals importance or permanence, not that something is attached." },
+    { "slug": "triangular-flag", "difference": "The 🚩 triangular flag also marks a spot but is now mostly slang for a warning sign in someone's behavior. Use 📌 for neutral emphasis and reminders." }
+  ],
+  "avoid": [
+    "Don't pin every line of a long message; when everything has a 📌 nothing stands out.",
+    "Avoid it in front of a home address on a public post, where it draws attention to information you may not want widely seen."
+  ],
+  "design": "The glyph is a red pushpin with a flat, wide head and a silver needle, shown tilted at roughly 45 degrees as if about to be pressed into a board. All major platforms use red and a similar angle; the main variation is the shape of the head, from a flat disc to a taller plastic grip.",
+  "faqs": [
+    { "q": "What does 📌 mean on X, Instagram or TikTok?", "a": "It indicates pinned content: a post, comment or video fixed to the top of a profile or thread. In a caption it means “important, keep this,” and in a comment it is often a request to be pinned." },
+    { "q": "What is the difference between 📌 and 📍?", "a": "📌 is a tilted thumbtack for notes and reminders. 📍 is an upright round-headed pin that resembles a map marker and is preferred for locations. In casual use both can mark a place." },
+    { "q": "Does 📌 mean location?", "a": "It can. Many users place it before a city or venue name. If you want the conventional map-pin look, 📍 is the closer match, but readers will understand either one." },
+    { "q": "What does “put a pin in it 📌” mean?", "a": "It means pausing a discussion with the intention of returning to it. The emoji illustrates the idiom, suggesting the topic is tacked to the board and will not be forgotten." }
+  ],
+  "related": ["round-pushpin", "paperclip", "memo", "clipboard", "red-exclamation-mark", "link"]
+}

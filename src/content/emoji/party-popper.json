@@ -1,0 +1,58 @@
+{
+  "slug": "party-popper",
+  "title": "Party Popper Emoji 🎉 Meaning: Congrats, Explained",
+  "description": "The 🎉 party popper emoji means congratulations and celebration: birthdays, new jobs, launches, Friday. Learn its sarcastic side and how it differs from 🎊.",
+  "summary": "The 🎉 party popper emoji is the standard way to say congratulations or “let’s celebrate.” It follows birthdays, engagements, promotions, launches and any good news. Used after something minor or disappointing, it turns into dry sarcasm, a tiny burst of confetti for nothing much.",
+  "meaning": [
+    "When good news lands in a chat, 🎉 is usually the first reply. It shows a cone firing confetti and streamers, the handheld popper pulled at parties, and it has become the default emoji for congratulations. Birthdays, weddings, graduations, new babies, passed exams and signed leases all get it, and it carries the same cheerful weight no matter who sends it.",
+    "The emoji is equally at home in announcements. Companies attach it to product launches and milestones, developers to new releases, and newsletter writers to subject lines they hope people will open. Its common shortcode on chat platforms is “tada,” reflecting the reveal-and-applaud feeling it conveys. One popper says “nice”; a row of them says the sender is truly excited.",
+    "Deadpan use is widespread. “Another Monday 🎉” or “my flight’s delayed again 🎉” celebrates something that deserves no celebration, and the mismatch is the joke. People also send a single flat 🎉 to underwhelming news from others, which can come across as passive-aggressive. Enthusiastic punctuation and extra emojis around it are the usual signs that the cheer is real."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It answers good news of every size, from “I got the job” to “found my keys.” Birthday messages nearly always include it, usually with cake and balloons. Friends also use it to hype plans, as in “it’s finally Friday 🎉.” If you receive one as a full reply, the sender is happy for you and short on time."
+    },
+    {
+      "label": "At work",
+      "body": "The party popper is one of the most used reactions in workplace chat. Teams add it to promotion posts, work anniversaries, closed deals and shipped features. It is friendly without being personal, which suits colleagues. For everyday acknowledgment a thumbs up is enough; save 🎉 for news worth marking."
+    },
+    {
+      "label": "On holidays and occasions",
+      "body": "New Year’s Eve belongs to this emoji, along with birthdays, retirement parties and surprise gatherings. Invitations use it to set a festive tone before any details appear. For occasions with their own symbols, such as Christmas or Halloween, it plays a supporting role next to the tree or pumpkin."
+    }
+  ],
+  "examples": [
+    { "text": "WE’RE ENGAGED 🎉🎉🎉", "meaning": "Sharing huge personal news with maximum excitement." },
+    { "text": "Happy birthday!! Hope it’s the best one yet 🎉", "meaning": "A warm birthday greeting with a festive flourish." },
+    { "text": "v2.0 is live 🎉", "meaning": "A team announcing the release of something they built." },
+    { "text": "Car needs a new transmission 🎉", "meaning": "Sarcasm: the news is expensive and unwelcome." },
+    { "text": "Last exam done 🎉 I’m free", "meaning": "Relief and joy at finishing a stressful stretch." },
+    { "text": "Congrats on five years with us 🎉", "meaning": "Recognizing a colleague’s work anniversary." }
+  ],
+  "combos": [
+    { "combo": "🎉🥳", "meaning": "Full party mode; celebrating and feeling great about it." },
+    { "combo": "🎂🎉", "meaning": "Happy birthday, with cake and festivities implied." },
+    { "combo": "🎉🍾", "meaning": "A milestone big enough to open champagne." },
+    { "combo": "🎉🎓", "meaning": "Congratulations on graduating." }
+  ],
+  "confusedWith": [
+    { "slug": "confetti-ball", "difference": "🎊 is a round ball that splits open to drop confetti, a decoration from Japanese celebrations. It means much the same, but 🎉 is far more common and reads more clearly as “congrats.”" },
+    { "slug": "partying-face", "difference": "🥳 is a face in a party hat blowing a horn and expresses how the sender feels. 🎉 is an object and congratulates someone else just as easily as it celebrates yourself." },
+    { "slug": "fireworks", "difference": "🎆 is a night-sky display tied to holidays like New Year’s Eve and Independence Day. The popper is small, indoor and personal, suited to individual good news." }
+  ],
+  "avoid": [
+    "Do not send 🎉 when someone shares news that is mixed or painful for them, such as leaving a job under pressure.",
+    "Avoid the sarcastic popper with people who might take it as real joy at their misfortune.",
+    "Skip it in formal correspondence like legal or medical messages, where it looks unserious."
+  ],
+  "design": "The emoji shows a cone-shaped popper, typically gold or brightly striped, angled upward with confetti and streamers bursting out. Colors of the cone and the confetti differ between Apple, Google, Samsung and Microsoft, but the composition is the same everywhere, so it is never mistaken for anything else.",
+  "faqs": [
+    { "q": "What is the difference between 🎉 and 🎊?", "a": "🎉 is a handheld party popper and the usual choice for congratulations. 🎊 is a hanging confetti ball. Their meanings overlap almost completely, and many people use both together simply for more confetti." },
+    { "q": "Can 🎉 be sarcastic?", "a": "Yes, often. Placed after bad or boring news, such as “overtime again 🎉”, it means the opposite of celebration. If the sentence describes something unpleasant, assume irony." },
+    { "q": "What does 🎉 mean from a guy or a girl?", "a": "They are happy about something, usually for you. It is friendly, not romantic. A crush who replies with several poppers to your good news is showing real enthusiasm, which is a nice sign but nothing more specific." },
+    { "q": "Why is it called “tada”?", "a": "Many chat apps let you type a short name between colons to insert an emoji, and the one assigned to the party popper is “tada,” the sound of a triumphant reveal. The official Unicode name is Party Popper." },
+    { "q": "Is 🎉 appropriate in work emails?", "a": "In internal, informal messages celebrating a win, yes. In first-contact emails, complaints, or anything to clients with a formal relationship, leave it out and let the words carry the congratulations." }
+  ],
+  "related": ["confetti-ball", "partying-face", "balloon", "birthday-cake", "bottle-with-popping-cork", "clinking-glasses"]
+}

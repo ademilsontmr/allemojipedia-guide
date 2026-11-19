@@ -1,0 +1,106 @@
+{
+  "slug": "flag-canada",
+  "title": "🇨🇦 Canada Flag Emoji Meaning and the Maple Leaf",
+  "description": "The Canada flag emoji 🇨🇦 shows the red maple leaf. Learn what it means in bios and posts, when Canadians use it, and why it appears as “CA” on Windows PCs.",
+  "summary": "The 🇨🇦 emoji is the national flag of Canada, the Maple Leaf: a red eleven-pointed maple leaf on a white square between two red bars. It marks Canadian identity, Canada Day on July 1, hockey and Olympic pride, travel to Canada, and jokes about politeness and cold weather.",
+  "meaning": [
+    "Canadians use 🇨🇦 roughly the way they use the leaf itself: as a modest but unmistakable badge. It sits in bios to state nationality, on backpacks in travel photos, and beside prices to show Canadian dollars. Abroad it often serves to say “not American,” a distinction many Canadians care about. Businesses use it to flag Canadian-made goods and shipping within Canada.",
+    "The emoji surges on July 1 for Canada Day and during international hockey. Olympic finals, the World Juniors over the winter holidays, and any best-on-best tournament produce walls of 🇨🇦. It also follows Canadian celebrities, bands, and television wherever they go. On the lighter side, it punctuates stereotypes Canadians happily perform: saying sorry, loving maple syrup and Tim Hortons, shrugging at minus thirty.",
+    "The flag is younger than many people assume. It was adopted in 1965, replacing the Canadian Red Ensign, which had carried a Union Jack. Red and white are Canada's national colors, and the stylized leaf has eleven points. Its clean, symmetrical layout makes it one of the most legible flags at emoji size, which helps explain how readily it is recognized even on a small screen."
+  ],
+  "contexts": [
+    {
+      "label": "On Canada Day and holidays",
+      "body": "July 1 posts pair 🇨🇦 with fireworks, lake cottages, and red-and-white outfits. Remembrance Day on November 11 uses it more quietly with poppies. Canadian Thanksgiving falls in October, and the flag sometimes appears then to distinguish it from the American holiday in November."
+    },
+    {
+      "label": "In hockey and other sports",
+      "body": "Nothing triggers 🇨🇦 like a gold-medal hockey game. Fans also use it for the national soccer teams, Olympic athletes, and Canadian franchises playing in American-dominated leagues, as when the Toronto Raptors or Blue Jays make a deep playoff run and the whole country adopts them."
+    },
+    {
+      "label": "In travel and identity",
+      "body": "Newcomers celebrate citizenship ceremonies and permanent residency with 🇨🇦. Diaspora Canadians and dual citizens place it beside a second flag. Tourists use it for Banff, Niagara Falls, and Montréal trips, frequently next to a maple leaf or a snowflake. For recent arrivals it often accompanies a first-winter photo."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Happy Canada Day from the dock 🇨🇦🎆",
+      "meaning": "Celebrating July 1 at a lakeside cottage."
+    },
+    {
+      "text": "OVERTIME WINNER. GOLD. 🇨🇦🇨🇦",
+      "meaning": "Elation after Canada wins a hockey final."
+    },
+    {
+      "text": "Officially a citizen as of this morning 🇨🇦🥹",
+      "meaning": "Announcing a completed citizenship ceremony."
+    },
+    {
+      "text": "It's -28 and I'm still getting an iced coffee 🇨🇦",
+      "meaning": "A joke about Canadian indifference to cold."
+    },
+    {
+      "text": "Prices are in CAD 🇨🇦 shipping from Vancouver",
+      "meaning": "A seller clarifying currency and origin."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇨🇦🍁",
+      "meaning": "Canada, emphatically; the leaf doubles the point."
+    },
+    {
+      "combo": "🇨🇦🏒",
+      "meaning": "Canadian hockey, from the national team to a backyard rink."
+    },
+    {
+      "combo": "🇨🇦🇺🇸",
+      "meaning": "Cross-border matters: trade, travel, rivalry, or dual citizenship."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-peru",
+      "difference": "🇵🇪 Peru's flag has the same red-white-red vertical layout but its three bands are equal in width and the emoji version has no leaf. Canada's white center is wider and holds the maple leaf."
+    },
+    {
+      "slug": "flag-lebanon",
+      "difference": "🇱🇧 Lebanon's flag is also red and white with a tree emblem in the middle, a green cedar. Its stripes are horizontal, and the green makes it easy to tell apart once enlarged."
+    },
+    {
+      "slug": "maple-leaf",
+      "difference": "🍁 is a single leaf, used mostly for autumn. Canadians use it as a national symbol too, but only the flag clearly says “Canada” to an international audience."
+    }
+  ],
+  "avoid": [
+    "Do not swap in 🍁 for the flag in contexts where nationality needs to be unambiguous; many readers will see only fall foliage.",
+    "Avoid lumping Canada under 🇺🇸 when you mean North America generally."
+  ],
+  "design": "A red maple leaf with eleven points sits on a white field flanked by red vertical bars. All major emoji sets reproduce this faithfully; they differ only in whether the flag waves and how finely the leaf is drawn. Microsoft Windows does not render the flag and shows the letters CA.",
+  "faqs": [
+    {
+      "q": "What does 🇨🇦 mean in someone's bio?",
+      "a": "That they are Canadian, live in Canada, or have Canadian roots. Beside another flag it usually signals immigration history or dual citizenship. It has no slang meaning beyond national identity."
+    },
+    {
+      "q": "How does the Canada flag emoji work?",
+      "a": "It is two regional indicator characters, C and A, that software combines into a flag. CA is Canada's international country code. Where flags are unsupported, such as in Windows' built-in emoji font, you see the two letters."
+    },
+    {
+      "q": "How many points does the maple leaf on the flag have?",
+      "a": "Eleven. The count has no official symbolic meaning; it does not stand for provinces or territories. The stylized shape was chosen as part of the flag's 1965 design."
+    },
+    {
+      "q": "When was the Canadian flag emoji added?",
+      "a": "It became part of the emoji standard in 2015, when support expanded from a handful of country flags to the full set of national flags."
+    }
+  ],
+  "related": [
+    "maple-leaf",
+    "flag-united-states",
+    "flag-united-kingdom",
+    "flag-france",
+    "ice-hockey",
+    "snowflake"
+  ]
+}

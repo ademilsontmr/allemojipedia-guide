@@ -1,0 +1,105 @@
+{
+  "slug": "sos-button",
+  "title": "SOS Button Emoji 🆘 Meaning: Real Emergencies and Jokes",
+  "description": "The 🆘 SOS button emoji is a red distress sign meaning help. Find out how it is used for real emergencies, protest hashtags, and everyday \"save me\" jokes.",
+  "summary": "The 🆘 SOS button emoji is a red square with the letters SOS, the international distress signal. It means \"help, urgently.\" People use it for real emergencies and humanitarian appeals, and far more often as comic exaggeration when they are overwhelmed, embarrassed, or stuck.",
+  "meaning": [
+    "SOS is the best-known distress call in the world. It began as a Morse code signal, three dots, three dashes, three dots, chosen in the early 1900s because the pattern was simple to send and hard to mistake. The letters do not officially stand for anything; phrases like \"save our souls\" were attached afterward. The emoji puts those letters in white on a red tile.",
+    "In daily texting, 🆘 is almost always hyperbole. It means \"rescue me\" from a dull meeting, a bad date, a mountain of homework, or a zipper that will not close. The humor lies in using an emergency signal for a minor crisis. It is also a quick way to ask friends for advice: \"🆘 what do I reply to this?\"",
+    "The emoji has a serious public role too. During natural disasters, wars, and political crackdowns, people add 🆘 to posts and hashtags that plead for international attention; campaigns such as #SOSCuba and #SOSVenezuela spread this way. Charities and rescue organizations use it in urgent appeals. In those posts the emoji is literal.",
+    "That double use is the reason to handle it with some care. Friends who see 🆘 with no explanation may not know whether to laugh or call you. If you are in real danger, an emoji is not a substitute for contacting emergency services, and a message asking for help should say plainly what is wrong and where you are."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "The standard use is a dramatic plea: \"🆘 my card got declined on a first date.\" Friends also agree on it as a bail-out code, a prearranged signal to call with a fake emergency so someone can leave an uncomfortable situation. In that case it calls for a quick response."
+    },
+    {
+      "label": "On social media",
+      "body": "Activists and residents in crisis zones use 🆘 in captions and hashtags to draw outside attention. Animal shelters use it for urgent adoption or foster pleas. On the lighter side, creators caption fails, hangovers, and exam week with it for comic effect."
+    },
+    {
+      "label": "At work",
+      "body": "Colleagues use it informally to ask for backup: \"🆘 anyone know the projector password?\" It fits friendly team channels. For real incidents, organizations rely on defined escalation channels and wording, and an emoji alone would be too ambiguous. Say what broke, when, and who is affected."
+    }
+  ],
+  "examples": [
+    {
+      "text": "🆘 he just said he doesn't like dogs, call me in five",
+      "meaning": "A request for a friend to help end a bad date."
+    },
+    {
+      "text": "Three finals in two days 🆘",
+      "meaning": "Exaggerated distress about a heavy exam schedule."
+    },
+    {
+      "text": "🆘 Flooding in the east side, families need boats and blankets",
+      "meaning": "A literal emergency appeal for assistance."
+    },
+    {
+      "text": "Which one do I wear 🆘 leaving in ten",
+      "meaning": "An urgent but lighthearted call for advice."
+    },
+    {
+      "text": "🆘 12 kittens need foster homes by Friday",
+      "meaning": "A shelter flagging a time-critical need."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🆘😭",
+      "meaning": "Melodramatic despair over something small."
+    },
+    {
+      "combo": "🆘🚨",
+      "meaning": "A real or mock emergency demanding immediate attention."
+    },
+    {
+      "combo": "🆘🙏",
+      "meaning": "A sincere plea for help or prayers in a crisis."
+    },
+    {
+      "combo": "🆘📞",
+      "meaning": "\"Call me now,\" often as an escape plan from an awkward situation."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "police-car-light",
+      "difference": "🚨 is a flashing siren used for alerts, breaking news, and hype. It announces that something is happening. 🆘 asks for help. One is a broadcast; the other is a plea."
+    },
+    {
+      "slug": "warning",
+      "difference": "⚠️ cautions others about a hazard or sensitive content. 🆘 is about the sender's own need for rescue. Use ⚠️ to protect readers and 🆘 when you are the one in trouble."
+    },
+    {
+      "slug": "ring-buoy",
+      "difference": "🛟 is a life preserver, used for water safety and figuratively for support or a lifeline. It represents the help being offered, while 🆘 is the call that asks for it."
+    }
+  ],
+  "avoid": [
+    "Do not rely on 🆘 in a real emergency; call local emergency services and state clearly what is happening.",
+    "Avoid sending it with no context to people who would worry, such as parents, unless you follow up immediately.",
+    "Do not use it jokingly under posts about real disasters, where others are using it to ask for aid."
+  ],
+  "design": "White capital letters S, O, S on a red square with rounded corners. It belongs to a family of lettered button emoji that came from Japanese phone sets, such as 🆗 and 🆕. Designs are nearly identical across platforms, differing only in typeface and the shade of red.",
+  "faqs": [
+    {
+      "q": "What does SOS stand for?",
+      "a": "Officially, nothing. It was picked as a Morse code distress signal because its rhythm is easy to recognize. \"Save our souls\" and \"save our ship\" are popular explanations invented later."
+    },
+    {
+      "q": "What does 🆘 mean from a girl or guy?",
+      "a": "Usually that they are jokingly overwhelmed or want your advice quickly. If you two have an understanding about rescue calls, it may mean \"get me out of here.\" When in doubt, ask whether they are okay."
+    },
+    {
+      "q": "Does sending 🆘 contact emergency services?",
+      "a": "No. It is an ordinary emoji. Phones have separate Emergency SOS features, activated through buttons or settings, that call for help. Typing the emoji in a chat only sends a picture."
+    },
+    {
+      "q": "Why is 🆘 in so many hashtags?",
+      "a": "Communities facing disasters or political crises pair \"SOS\" with a place name to appeal for international attention. The emoji makes these posts stand out and signals urgency across language barriers."
+    }
+  ],
+  "related": ["warning", "red-exclamation-mark", "loudly-crying-face", "folded-hands", "face-screaming-in-fear", "white-flag"]
+}

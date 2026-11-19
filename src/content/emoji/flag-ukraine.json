@@ -1,0 +1,102 @@
+{
+  "slug": "flag-ukraine",
+  "title": "🇺🇦 Ukraine Flag Emoji: Meaning of Blue and Yellow",
+  "description": "The Ukraine flag emoji 🇺🇦 is blue over yellow. Learn what the colors represent, why it appears in so many names and bios, and how Ukrainians use it today.",
+  "summary": "The 🇺🇦 emoji is the flag of Ukraine, two horizontal bands with blue above yellow. Ukrainians use it for national identity and pride. Since Russia's full-scale invasion in February 2022, people around the world have also added it to names, bios, and posts as a sign of solidarity with Ukraine.",
+  "meaning": [
+    "Before 2022, 🇺🇦 behaved like most national flags: Independence Day greetings on August 24, football and boxing results, Eurovision, travel to Kyiv and Lviv. The invasion changed its reach. Within days the emoji spread across display names and profile pictures far beyond Ukraine, used by individuals, politicians, companies, and institutions to express support. It became one of the most visible examples of a flag emoji working as a political statement.",
+    "For Ukrainians the flag now carries resilience and mourning along with pride. It accompanies news from the front, fundraising appeals, tributes to the dead, and the greeting “Slava Ukraini,” meaning “Glory to Ukraine.” The diaspora and refugees abroad use it to stay connected and to organize aid. Cultural pride has grown alongside: posts about the Ukrainian language, embroidered vyshyvanka shirts, and national dishes often include 🇺🇦.",
+    "The design is commonly read as a landscape, a blue sky over golden fields of wheat, reflecting Ukraine's role as a major grain producer. The colors have represented Ukrainian lands for centuries, and the flag was restored as the state flag after independence from the Soviet Union. Because the emoji has become a marker of position on the war, it draws both supportive and hostile replies. A 🇺🇦 in a non-Ukrainian's bio is best understood as support for Ukraine and not as a claim of nationality."
+  ],
+  "contexts": [
+    {
+      "label": "In bios and display names",
+      "body": "A 🇺🇦 beside a username generally signals solidarity. Many users pair it with their own country's flag. Its presence or absence is sometimes over-interpreted; people add and remove emojis for many reasons, so it is unwise to read much into a profile that lacks one."
+    },
+    {
+      "label": "In news and fundraising",
+      "body": "Journalists, charities, and volunteers use 🇺🇦 to label updates, donation drives, and appeals for equipment or medical aid. The yellow and blue hearts often replace it where a softer tone is wanted. Posts on anniversaries of the invasion, each February 24, concentrate this use."
+    },
+    {
+      "label": "In culture and sport",
+      "body": "Ukrainian wins at Eurovision, heavyweight title fights, and football matches bring celebratory flags. Athletes competing during wartime draw particular attention. Independence Day posts combine 🇺🇦 with sunflowers, the national flower, and traditional dress. Ukrainian musicians touring abroad are greeted with it by audiences."
+    }
+  ],
+  "examples": [
+    {
+      "text": "З Днем Незалежності! 🇺🇦💙💛",
+      "meaning": "A greeting for Ukrainian Independence Day."
+    },
+    {
+      "text": "Collected 40 boxes of winter clothes this week, thank you all 🇺🇦",
+      "meaning": "A volunteer reporting on aid gathered for Ukraine."
+    },
+    {
+      "text": "Slava Ukraini 🇺🇦",
+      "meaning": "A widely used expression of support and national pride."
+    },
+    {
+      "text": "Usyk is undisputed!! 🇺🇦🥊",
+      "meaning": "Celebrating a Ukrainian boxer's title win."
+    },
+    {
+      "text": "My grandmother's borscht recipe, the real one 🇺🇦",
+      "meaning": "Sharing a family dish with pride in its Ukrainian origin."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇺🇦💙💛",
+      "meaning": "Solidarity with Ukraine, reinforced with hearts in the flag's colors."
+    },
+    {
+      "combo": "🇺🇦🌻",
+      "meaning": "Ukraine and its national flower, a symbol of hope and remembrance."
+    },
+    {
+      "combo": "🇺🇦🙏",
+      "meaning": "Prayers or hopes for Ukraine and its people."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-sweden",
+      "difference": "🇸🇪 Sweden uses a similar blue and yellow, arranged as a yellow Nordic cross on blue. The shared palette, especially in heart form, occasionally causes confusion."
+    },
+    {
+      "slug": "blue-heart",
+      "difference": "💙 with 💛 is a common substitute for the flag. The hearts convey sympathy and affection; the flag itself is the more direct statement of national identity or political support."
+    }
+  ],
+  "avoid": [
+    "Do not use it as casual decoration or for engagement; it is strongly associated with an ongoing war and real loss.",
+    "Avoid assuming someone's views or nationality solely from whether this flag appears in their profile."
+  ],
+  "design": "Two equal horizontal stripes, blue on top and yellow below, with no emblem. The simplicity means every platform's version is effectively the same, differing slightly in the shade of blue. Windows does not display the flag and shows the letters UA.",
+  "faqs": [
+    {
+      "q": "What does 🇺🇦 mean in someone's name or bio?",
+      "a": "Either that the person is Ukrainian or, very commonly since 2022, that they support Ukraine in the war with Russia. The rest of the profile usually clarifies which."
+    },
+    {
+      "q": "What do the blue and yellow on Ukraine's flag stand for?",
+      "a": "The usual interpretation is a blue sky above yellow wheat fields. The colors have long historical ties to Ukrainian territories and were adopted again as the national flag when Ukraine became independent."
+    },
+    {
+      "q": "How is the Ukraine flag emoji formed?",
+      "a": "From two regional indicator letters, U and A, for the country code UA. Phones and most apps convert the pair to the flag. It was added to emoji keyboards in 2015. On Windows you will normally see the two letters."
+    },
+    {
+      "q": "Why do people use sunflowers with the Ukraine flag?",
+      "a": "The sunflower is Ukraine's national flower and a major crop. Since 2022 it has also become an international emblem of solidarity and remembrance, so 🌻 frequently appears next to the flag."
+    }
+  ],
+  "related": [
+    "blue-heart",
+    "yellow-heart",
+    "sunflower",
+    "dove",
+    "flag-european-union",
+    "folded-hands"
+  ]
+}

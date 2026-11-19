@@ -1,0 +1,59 @@
+{
+  "slug": "handshake",
+  "title": "Handshake Emoji 🤝 Meaning: Deals, Respect and the Meme",
+  "description": "🤝 means agreement: deal, respect, we're on the same page. It is also a meme format for two unlikely groups sharing one trait. Here is how both uses work.",
+  "summary": "The 🤝 handshake emoji means agreement or mutual respect. It seals a deal, confirms a plan, thanks a collaborator or signals that two people see eye to eye. Online it also anchors a popular joke format in which two very different groups “shake hands” over something they have in common.",
+  "meaning": [
+    "Literal use comes first. A handshake closes a negotiation, so 🤝 follows messages such as “you bring drinks, I'll bring food” or “pleasure doing business.” It says the terms are accepted and both sides are satisfied. In business posts it stands for partnerships, signed contracts, new clients and networking in general.",
+    "Among friends the tone is more casual. It works as “respect,” “bet,” or “we understand each other.” Two people discover they both hate the same song or both skipped the same lecture, and one sends 🤝 to acknowledge the bond. It also settles disputes: after a disagreement, the emoji can mean truce, no hard feelings.",
+    "The meme format places the handshake between two labels: “people who overthink 🤝 people who never think” followed by a shared trait such as “making bad decisions.” It descends from a well-known image of two muscular arms clasping hands, and it works because the handshake implies solidarity between parties you would not expect to agree. Sports fans, fandoms and brand accounts use the structure constantly.",
+    "There is a quieter, sincere register too. In support communities and replies to someone admitting a struggle, 🤝 means “same here, you're not alone.” It carries less sentiment than a heart, which makes it a comfortable way to offer solidarity, particularly between people who would not usually send each other affectionate emojis."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It usually confirms an arrangement or marks agreement. “Split the bill? 🤝” proposes a deal, and replying with the same emoji accepts it. Friends also send it after discovering a shared opinion or habit. Compared with a thumbs up it feels mutual, since a handshake takes two people, so it suits situations where both sides are committing to something."
+    },
+    {
+      "label": "On X, TikTok and Instagram",
+      "body": "Expect the meme. Posts set two groups on either side of the emoji and name what unites them underneath, often something embarrassing or oddly specific. Comment sections also use it for respect between rivals, such as fans of opposing teams acknowledging a good game, and for “real recognizes real” moments between strangers who relate to each other."
+    },
+    {
+      "label": "At work",
+      "body": "This is one of the few emojis that reads as professional almost everywhere. It appears in LinkedIn announcements of partnerships and hires, in emails confirming an agreement, and in chat when two teams align on a plan. It signals commitment, so reserve it for things actually agreed rather than still under discussion."
+    }
+  ],
+  "examples": [
+    { "text": "You drive there, I drive back 🤝", "meaning": "Proposing or confirming a fair arrangement between two people." },
+    { "text": "Me 🤝 my sister: forgetting mom's birthday", "meaning": "The meme format: two parties united by one shared failing." },
+    { "text": "Great meeting you today. Looking forward to working together 🤝", "meaning": "A professional sign-off that marks the start of a collaboration." },
+    { "text": "You also cry at dog commercials? 🤝", "meaning": "Recognizing a shared trait; a friendly “same here.”" },
+    { "text": "Good game, you guys earned that one 🤝", "meaning": "Sportsmanlike respect for an opponent after a contest." },
+    { "text": "Ok I'm sorry too. We good? 🤝", "meaning": "Offering a truce after an argument." }
+  ],
+  "combos": [
+    { "combo": "🤝💼", "meaning": "A business deal, partnership or successful negotiation." },
+    { "combo": "🫡🤝", "meaning": "Respect and agreement together: understood, and count me in." },
+    { "combo": "🤝💰", "meaning": "A deal involving money, such as a sale, a bet or a payment arrangement." },
+    { "combo": "🤝❤️", "meaning": "Solidarity with warmth; support between people going through the same thing." }
+  ],
+  "confusedWith": [
+    { "slug": "folded-hands", "difference": "🙏 is one person's palms pressed together to thank, pray or plead. 🤝 is two people's hands clasped in agreement. Use folded hands to ask for or appreciate a favor, and the handshake once something is mutually settled." },
+    { "slug": "thumbs-up", "difference": "👍 is one person's approval and can be passive. 🤝 implies both sides are committing. Answering “deal?” with a thumb works, but the handshake carries the sense of a pact." },
+    { "slug": "oncoming-fist", "difference": "👊 is a fist bump, a casual greeting or show of support between friends. 🤝 is more formal and specifically about agreement, respect or a completed deal." }
+  ],
+  "avoid": [
+    "Do not send it to confirm something you are not ready to commit to, since it reads as a done deal.",
+    "Avoid dropping the meme format into serious discussions where a joke about shared flaws would trivialize the topic.",
+    "Skip it as a reply to emotional news from someone close, where it can feel oddly businesslike."
+  ],
+  "design": "Two right hands clasped in a handshake, shown from the side. The emoji joined the standard in 2016, and for several years it was yellow only, because the skin tone system could not handle two hands at once. Support for skin tones, including a different tone for each hand, came with a later emoji update. Major platforms draw the clasp almost identically.",
+  "faqs": [
+    { "q": "What does 🤝 mean in slang?", "a": "It means “deal,” “respect” or “same.” People send it to accept an arrangement, to acknowledge a shared opinion, or to show solidarity. In memes it links two groups that unexpectedly have something in common." },
+    { "q": "What does 🤝 mean from a guy?", "a": "Usually respect or agreement, the text version of a firm handshake or a nod. Between male friends it often replaces more emotional emojis as a way to say “I've got you” or “we're good.” It is not typically flirtatious." },
+    { "q": "How does the handshake meme work?", "a": "Write one group, the 🤝 emoji, then a second group, and add what they share. For example, “night owls 🤝 early birds: being tired at 3 p.m.” The humor comes from an unexpected common ground between opposites." },
+    { "q": "Can the handshake emoji have different skin tones?", "a": "Yes. It launched in 2016 without skin tone options, which were added in a later update. Current keyboards let you choose one tone for both hands or mix two different tones." },
+    { "q": "Is 🤝 appropriate for professional emails?", "a": "In most modern workplaces, yes, particularly for confirming agreements or welcoming a partner. In very formal correspondence, such as legal or first-contact messages, words alone remain the safer choice." }
+  ],
+  "related": ["thumbs-up", "oncoming-fist", "folded-hands", "saluting-face", "flexed-biceps", "money-bag"]
+}

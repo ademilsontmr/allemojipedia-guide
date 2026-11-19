@@ -1,0 +1,51 @@
+{
+  "slug": "thought-balloon",
+  "title": "Thought Balloon Emoji 💭 Meaning: Thinking and Daydreams",
+  "description": "💭 is the cloud-shaped comic bubble for unspoken thoughts. It means thinking, daydreaming, an idea forming or “thinking of you.” See examples and common mix-ups.",
+  "summary": "The 💭 thought balloon emoji is the cloud-shaped bubble comics use for what a character is thinking. It means thoughts, daydreams, wondering or an idea taking shape. People use it to share inner monologue, to say “thinking of you,” and to label reflections, dreams and wishes.",
+  "meaning": [
+    "In a comic strip, speech goes in a smooth bubble with a pointed tail, and thoughts go in a cloud connected to the character by a trail of small circles. 💭 is that cloud. The distinction carries over to messaging: this emoji marks something as internal, the part you are thinking but not necessarily saying. It turns a sentence into an aside, a musing or a confession.",
+    "People most often use it to announce reflection. “Just a thought 💭,” “wondering if I should move 💭” and “brain won't shut off 💭” all frame what follows as pondering, not a firm statement. It softens opinions and invites others to think along. Journaling, mental health and self-improvement accounts use it constantly, for prompts, reminders and “things I've been thinking about.”",
+    "Daydreaming is the second big use. The cloud suggests a mind drifting to somewhere pleasant: a vacation, a crush, a future home. Put an emoji after it, as in 💭🏝️ or 💭🍕, and you have a tiny picture of what someone has on their mind. Romantic messages use it for longing, since “thinking of you 💭” is gentler than saying “I miss you.”",
+    "It can also mean dreams during sleep, memories and imagination. Parents caption sleeping babies with it, and writers use it for a character's unspoken reaction. Unlike 🤔, which shows a face in the act of puzzling something out and often implies skepticism, the thought balloon is neutral about content. It only says a thought exists; the words around it supply the mood."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It marks inner monologue. Someone might write what they said, then add what they were actually thinking after 💭. It is also a low-pressure way to raise a topic: “been thinking 💭” opens a conversation without the weight of “we need to talk,” though a vague version can still make the recipient curious or nervous." },
+    { "label": "From a crush", "body": "Receiving “you've been on my mind 💭” is a soft, clear sign of interest. The emoji implies the person thinks about you when you are not around. It is sweet instead of bold, and it fits early romance well. If it arrives with no explanation, asking “about what?” is a perfectly good reply." },
+    { "label": "In captions", "body": "Reflective posts use it for late-night thoughts, lessons learned and questions to followers. Paired with a sunset or a window seat, it signals a contemplative mood. Quote pages use it for “food for thought,” and travel accounts for wishful planning about the next destination." },
+    { "label": "At work", "body": "It is useful for brainstorming and tentative ideas. Starting a message with 💭 tells colleagues the suggestion is not fully formed and feedback is welcome. Teams use it to tag musings in chat channels, separate from decisions or action items. It is neutral enough for most workplaces." }
+  ],
+  "examples": [
+    { "text": "Thinking about you today 💭", "meaning": "The sender has the recipient on their mind, affectionately." },
+    { "text": "Me in the meeting: 💭 tacos", "meaning": "Their mind was wandering to lunch instead of the discussion." },
+    { "text": "💭 what if we just moved to the coast?", "meaning": "Floating a daydream or half-serious idea." },
+    { "text": "Can't sleep, too many thoughts 💭", "meaning": "Overthinking is keeping them awake." },
+    { "text": "Said “no worries!” 💭 many worries", "meaning": "Contrasting what was spoken with what was really felt." },
+    { "text": "Sweet dreams 💭🌙", "meaning": "A goodnight wish referring to dreams." }
+  ],
+  "combos": [
+    { "combo": "💭❤️", "meaning": "Thinking of someone with love." },
+    { "combo": "💭🌙", "meaning": "Dreams or late-night thoughts." },
+    { "combo": "🤔💭", "meaning": "Deep in thought, working something out." },
+    { "combo": "💬💭", "meaning": "What is said out loud versus what is kept inside." }
+  ],
+  "confusedWith": [
+    { "slug": "speech-balloon", "difference": "💬 has a pointed tail and means spoken or sent words: chat, comments, messages. 💭 has bubbles trailing from a cloud and means unspoken thought. Using the wrong one changes “I said” into “I thought.”" },
+    { "slug": "thinking-face", "difference": "🤔 is a face with a hand on its chin and often expresses doubt, curiosity or playful suspicion. 💭 has no expression and simply indicates that thinking or dreaming is going on." },
+    { "slug": "cloud", "difference": "☁️ is a weather cloud. The thought balloon is drawn with a similar puffy outline but always includes smaller circles leading away from it. On tiny screens they can be mistaken, though their uses do not overlap." }
+  ],
+  "avoid": [
+    "Do not send a lone 💭 to an anxious person without saying what you are thinking about.",
+    "Avoid it when you are stating a firm decision, since it makes the message sound tentative.",
+    "Skip it when you mean skepticism or sarcasm; the thinking face communicates that better."
+  ],
+  "design": "A puffy, cloud-like balloon with two or three small circles trailing from its lower corner toward an unseen thinker. It is white or pale grey on nearly every platform, with slight differences in outline and in which side the circles fall. The balloon is always empty. The shape comes directly from comic-strip convention and is drawn consistently across vendors.",
+  "faqs": [
+    { "q": "What does 💭 mean in a text?", "a": "That the sender is thinking, wondering or daydreaming about something. It often frames a comment as a private thought or a tentative idea. With a heart or a name, it usually means they are thinking of that person." },
+    { "q": "What does 💭 mean from a guy or a girl?", "a": "From either, it signals that something, possibly you, is on their mind. In a flirtatious chat it is a gentle way to show interest. In ordinary conversation it only marks reflection, so check what the thought is about before assuming romance." },
+    { "q": "What is the difference between 💭 and 💬?", "a": "The thought balloon is for things kept in the head; the speech balloon is for things said or typed. Comics use the cloud shape and trailing dots to show the words are silent, and the emoji keeps that meaning." },
+    { "q": "Does 💭 mean dreaming?", "a": "It can. People use it for dreams during sleep, especially with a moon or a sleeping face, and for daydreams about goals and wishes. The comic convention covers any picture or words inside someone's mind." },
+    { "q": "Is 💭 the same as 🤔?", "a": "No. The thinking face shows a person actively considering, often with doubt. The thought balloon is an empty container for a thought and has no attitude. They are frequently used together to show deep concentration." }
+  ],
+  "related": ["speech-balloon", "thinking-face", "face-in-clouds", "cloud", "zzz", "light-bulb"]
+}

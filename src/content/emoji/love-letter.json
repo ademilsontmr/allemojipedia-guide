@@ -1,0 +1,47 @@
+{
+  "slug": "love-letter",
+  "title": "Love Letter Emoji 💌 Meaning: Notes, Invites and DMs",
+  "description": "The 💌 love letter emoji is an envelope sealed with a heart. It marks romantic notes, Valentine's cards, invitations, fan mail and affectionate messages.",
+  "summary": "The 💌 love letter emoji is an envelope marked with a heart. It stands for a romantic note or any message sent with affection. People use it on Valentine's Day, for invitations and thank-you notes, for fan mail, and to say 'I wrote this for you' or 'check your inbox.'",
+  "meaning": [
+    "Handwritten love letters are rare now, which is part of why 💌 feels charming. It frames a text, an email, or a caption as something composed with care instead of dashed off. Partners use it to introduce a long heartfelt message, to accompany an anniversary note, or simply to say 'thinking of you.' The envelope is closed, so it also carries a hint of anticipation: there is something inside for you to open.",
+    "The emoji is not limited to romance. Wedding and party invitations, save-the-dates, birthday cards, and thank-you messages all use it, because it is the only mail emoji that looks warm instead of administrative. Creators sign off posts to their audience with it. Fans attach it to messages for artists they admire. Newsletters, especially personal or lifestyle ones, use it in subject lines and sign-up prompts to make an email list feel like correspondence.",
+    "On social apps it has a practical meaning too: a private message. 'Sent you a 💌' or '💌 me' points to the inbox, and on dating apps or in flirty comments it suggests moving the conversation somewhere more private. Around February 14 it turns literal, standing for valentines exchanged between partners, friends, and classmates."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It often opens or closes a message meant to be kept: a paragraph before a big day, a note of appreciation, an apology written with thought. Used alone as a reply, it means 'message received with love.' Between friends it is affectionate without being romantic, like sealing a card with a sticker." },
+    { "label": "On holidays", "body": "Valentine's Day is its peak, alongside hearts, roses, and chocolates. It also appears on Mother's Day and Father's Day posts written as open letters, on anniversaries, and in holiday card season. Schools and offices use it for valentine exchanges and anonymous appreciation notes." },
+    { "label": "On Instagram and TikTok", "body": "Captions written as 'a letter to my younger self' or 'to my best friend' start with 💌. Small businesses use it for order confirmations, packaging videos, and mailing list sign-ups. In comments and bios it is an invitation to send a direct message, sometimes for business inquiries." },
+    { "label": "From a crush", "body": "A 💌 from someone you like suggests their message is meant warmly, possibly romantically. It is sweeter and more old-fashioned than a kiss face. If they say they 'sent you a 💌,' look for a direct message; if it ends a text, they are adding tenderness to what they wrote." }
+  ],
+  "examples": [
+    { "text": "Wrote you something for our anniversary 💌", "meaning": "A heartfelt message or letter is on its way." },
+    { "text": "Invitations go out Monday! 💌", "meaning": "Wedding or party invitations are about to be mailed." },
+    { "text": "A little note for everyone who came to the show last night 💌", "meaning": "An artist addressing fans with gratitude." },
+    { "text": "Check your DMs 💌", "meaning": "The sender has sent a private message." },
+    { "text": "Happy Valentine's Day, Grandma 💌", "meaning": "A warm, non-romantic valentine greeting." },
+    { "text": "New issue lands in your inbox Sunday 💌", "meaning": "A newsletter writer announcing the next email." }
+  ],
+  "combos": [
+    { "combo": "💌🌹", "meaning": "Classic romance: a love note and a rose, typical of Valentine's Day." },
+    { "combo": "💌📮", "meaning": "Something has been mailed, such as invitations or a card." },
+    { "combo": "✍️💌", "meaning": "Writing a letter or a heartfelt message." },
+    { "combo": "💌👀", "meaning": "A nudge to go and read a private message." }
+  ],
+  "confusedWith": [
+    { "slug": "envelope", "difference": "✉️ is a plain envelope for ordinary mail and email, with no emotional tone. 💌 adds a heart and means the message is affectionate or special. Use the plain one for invoices and the heart one for people you care about." },
+    { "slug": "heart-with-ribbon", "difference": "💝 is a heart tied with a bow and represents a gift. 💌 represents words: a note, a card, an invitation. Both suit Valentine's Day, one for presents and one for messages." }
+  ],
+  "avoid": [
+    "Do not use it on routine business email, where the heart suggests a personal relationship that is not there.",
+    "Avoid sending it to someone who has not shown interest if you only mean 'I emailed you,' since it can read as romantic."
+  ],
+  "design": "The glyph is a sealed envelope with a red or pink heart on it. Vendors place the heart differently: some center it on the flap like a seal, and others show it on the front or floating beside the envelope. The envelope itself is white or pale pink. All versions are plainly an affectionate letter.",
+  "faqs": [
+    { "q": "What does 💌 mean from a guy or a girl?", "a": "It means the message comes with affection. From a partner it is romantic. From a friend it is like a card signed 'with love.' From a crush it is a gentle signal, especially alongside a thoughtful message." },
+    { "q": "Does 💌 mean DM me?", "a": "Frequently. On Instagram, TikTok, and X, people use it to refer to direct messages, as in 'I 💌 you' or '💌 for collabs.' The wider context will tell you whether they mean an inbox or a literal letter." },
+    { "q": "Is the love letter emoji only romantic?", "a": "No. It is widely used for invitations, thank-you notes, newsletters, and messages to friends and family. The heart signals warmth, and romance is only one kind of warmth." },
+    { "q": "When was 💌 added to emoji keyboards?", "a": "It was part of the Unicode set standardized in 2010 and has been available on major platforms since emoji keyboards went mainstream." }
+  ],
+  "related": ["envelope", "heart-with-arrow", "heart-with-ribbon", "red-heart", "rose", "kiss-mark"]
+}

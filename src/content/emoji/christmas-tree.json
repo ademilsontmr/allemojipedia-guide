@@ -1,0 +1,57 @@
+{
+  "slug": "christmas-tree",
+  "title": "Christmas Tree Emoji 🎄 Meaning: Holiday Season Guide",
+  "description": "The 🎄 Christmas tree emoji signals Christmas and the whole festive season: decorating, countdowns, greetings and cozy plans. See when people start using it.",
+  "summary": "The 🎄 Christmas tree emoji means Christmas and the holiday season around it. People use it for decorating day, countdowns, greetings, gift plans and winter coziness. It starts appearing in November, peaks on December 25 and returns in jokes whenever someone plays carols too early.",
+  "meaning": [
+    "No other emoji says Christmas as quickly. A decorated evergreen with a star on top stands for the holiday itself and for the weeks of preparation before it: buying a tree, hanging ornaments, wrapping presents, planning dinners. “Merry Christmas 🎄” is its most frequent sentence, but it also marks the first decorations going up, which many people treat as an event in itself.",
+    "Because the tree is a cultural symbol as much as a religious one, the emoji is used widely by people who celebrate Christmas as a family or seasonal occasion. It reads as festive rather than devotional. Those who want to stress the nativity tend to add a star, an angel or a church. In mixed company, the tree is specific to Christmas, so broader seasonal greetings often use a snowflake instead.",
+    "Timing jokes are part of its life. Each year a debate restarts over how early is too early, and 🎄 gets posted defiantly on November 1, the day after Halloween, or teasingly in July. “Is it too soon? 🎄” needs no explanation. It has no slang meaning beyond the season, though “lit up like a 🎄” can describe anything covered in lights or notifications."
+  ],
+  "contexts": [
+    {
+      "label": "On holidays",
+      "body": "From late November onward it fills greetings, party invitations, advent countdowns and travel plans. Families use it in chats about who hosts and who brings what. On Christmas Eve and Christmas Day it accompanies photos of trees, stockings and gifts. By early January it appears with jokes about taking the decorations down."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends send it to share excitement: “tree’s up 🎄,” “first Christmas in the new place 🎄,” “home for the holidays 🎄.” It softens logistics about gifts and schedules. A partner texting “our first 🎄 together” is marking a relationship milestone. A row of trees usually means someone is very much in the spirit."
+    },
+    {
+      "label": "In marketing and at work",
+      "body": "Retailers lead holiday campaigns with 🎄 for gift guides, shipping deadlines and seasonal sales. Offices use it for party announcements and closure dates. Because it names one holiday, companies addressing a diverse audience often combine it with other seasonal symbols or choose neutral winter emojis."
+    }
+  ],
+  "examples": [
+    { "text": "Tree is UP and I’m not sorry 🎄", "meaning": "They decorated early and are happily ignoring anyone who objects." },
+    { "text": "Merry Christmas to you and the family 🎄❤️", "meaning": "A warm holiday greeting." },
+    { "text": "12 sleeps to go 🎄", "meaning": "Counting down the days until Christmas." },
+    { "text": "Flying home on the 22nd 🎄✈️", "meaning": "Sharing travel plans for the holidays." },
+    { "text": "Last order date for delivery before the 25th is Friday 🎄", "meaning": "A shop reminding customers of the Christmas shipping deadline." },
+    { "text": "It’s November 1st. You know what that means 🎄", "meaning": "Jokingly declaring the Christmas season open right after Halloween." }
+  ],
+  "combos": [
+    { "combo": "🎄🎁", "meaning": "Presents under the tree; Christmas morning or gift shopping." },
+    { "combo": "🎅🎄", "meaning": "Santa and the tree; classic Christmas greeting, popular with families." },
+    { "combo": "🎄✨", "meaning": "The lights are on and everything feels magical." },
+    { "combo": "🎄❄️", "meaning": "A snowy, wintry Christmas or a general cozy-season mood." }
+  ],
+  "confusedWith": [
+    { "slug": "evergreen-tree", "difference": "🌲 is an undecorated conifer used for forests, hiking and nature. 🎄 has ornaments and a star, so it only means Christmas. Sending the plain tree in December looks like a camping trip." },
+    { "slug": "tanabata-tree", "difference": "🎋 is bamboo hung with paper wishes for Tanabata, a Japanese summer festival. The strips of paper can resemble decorations, but it has nothing to do with Christmas." },
+    { "slug": "pine-decoration", "difference": "🎍 is kadomatsu, a Japanese New Year arrangement of pine and bamboo placed at doorways. It marks New Year in Japan, not Christmas." }
+  ],
+  "avoid": [
+    "Do not assume everyone celebrates; in a broad audience, “happy holidays” with a neutral winter emoji includes more people.",
+    "Avoid festive trees in messages about serious matters sent during December, where they clash with the tone."
+  ],
+  "design": "The emoji is a green conifer in tiers, trimmed with colored baubles and topped with a yellow star. Apple, Google, Samsung and Microsoft differ in ornament colors and whether lights or garlands are drawn, and some show a visible trunk or pot. All versions are unmistakably a decorated Christmas tree.",
+  "faqs": [
+    { "q": "What does 🎄 mean from a guy or a girl?", "a": "They are feeling festive or talking about Christmas plans. If they mention spending it together, that is the meaningful part. The emoji alone carries holiday cheer, not a romantic message." },
+    { "q": "When do people start using the Christmas tree emoji?", "a": "Usage begins rising in November, especially after Halloween and Thanksgiving, and peaks on Christmas Eve and Christmas Day. Enthusiasts post it far earlier, mostly to tease those who think it is too soon." },
+    { "q": "Is 🎄 a religious emoji?", "a": "It represents a Christian holiday, but the decorated tree is widely treated as a seasonal tradition. Many nonreligious people use it. It is still specific to Christmas, so it is not a universal winter greeting." },
+    { "q": "What is the difference between 🎄 and 🌲?", "a": "🎄 has ornaments and a star and means Christmas. 🌲 is a bare evergreen for outdoors, forests and nature. Use the plain tree for a mountain hike and the decorated one for the holiday." },
+    { "q": "What does 🎄 mean in a username or bio?", "a": "During December it is seasonal decoration, like hanging lights on a profile. Year-round, it may mark a December birthday or someone who simply loves Christmas." }
+  ],
+  "related": ["wrapped-gift", "snowflake", "snowman-without-snow", "santa-claus", "star", "bell"]
+}

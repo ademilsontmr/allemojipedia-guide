@@ -1,0 +1,58 @@
+{
+  "slug": "backhand-index-pointing-left",
+  "title": "Pointing Left Emoji 👈 Meaning: “This One” and “This Guy”",
+  "description": "👈 points left, back at what was just said: this, him, me. It finishes the shy 👉👈 pose too. Learn how the pointing left emoji is used in texts and captions.",
+  "summary": "The 👈 backhand index pointing left emoji points back at the words or image before it. It says “this one,” “that person” or “me,” adding emphasis after a statement. It also completes the shy 👉👈 gesture and marks the way back or to the previous item in instructions.",
+  "meaning": [
+    "Position decides its meaning. In left-to-right text, a hand pointing left aims at whatever was just written, so 👈 works like an underline: “the best decision I ever made 👈.” Where 👉 introduces, 👈 confirms. Writers use it to stamp a phrase as the takeaway or to tag the previous line as the one that matters.",
+    "A favorite construction is self-reference. “Guess who's getting promoted 👈” or “this guy 👈” points back at the speaker, who is implied or named just before, with a note of cheerful bragging. With two thumbs it recalls the old “who has two thumbs and…” joke. Aimed at someone else's name, it can credit or blame them just as easily.",
+    "It is half of the bashful 👉👈 pair, in which the two index fingers meet in a nervous tap. Without its partner, the shy meaning disappears. People do occasionally send 👈 alone after a pleading face as a shortened version, but the gesture only really registers when both hands are present.",
+    "In practical writing it means left, back or previous. Tutorials use it for “swipe left” and “go back,” and photo captions use it to identify the person on the left of the frame. Dating-app talk borrows it for rejection, since a left swipe means no. Arabic and Hebrew writers, whose text runs right to left, use it as their forward pointer."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It emphasizes or claims. Someone lists options and adds 👈 after their choice. Someone shares a win and points at themselves. It also answers “which one?” when sent beside an item. In banter it works as a small accusation, as in “the person who ate the last slice 👈 [name],” delivered with a smirk more than real blame."
+    },
+    {
+      "label": "In captions",
+      "body": "Group photos and side-by-side images use 👈 to mark who or what is on the left: “me 👈 vs. my sister.” Creators point it at on-screen text or at a product placed beside the caption. In story overlays it frequently sits next to a sticker or poll, telling viewers where to tap."
+    },
+    {
+      "label": "In instructions and marketing",
+      "body": "Less common than its right-pointing twin, it still appears wherever the layout puts the target on the left, such as a button, a profile picture or the previous slide. “👈 swipe back for part one” is typical. Some posts bracket a line with both hands, 👉 like this 👈, to frame a call to action from two sides."
+    }
+  ],
+  "examples": [
+    { "text": "Finished the marathon in under four hours 👈 this girl", "meaning": "Proudly pointing back at oneself." },
+    { "text": "Option B 👈 that's the one", "meaning": "Marking a choice." },
+    { "text": "I have a tiny favor to ask 👉👈", "meaning": "The shy fingers-touching gesture." },
+    { "text": "Me on the right, my twin 👈", "meaning": "Identifying someone on the left side of a photo." },
+    { "text": "Swipe 👈 if you missed the first part", "meaning": "A direction to go back." },
+    { "text": "👉 Free shipping this weekend only 👈", "meaning": "Framing an announcement from both sides for emphasis." }
+  ],
+  "combos": [
+    { "combo": "👉👈", "meaning": "Shyness or hesitation about asking or confessing something." },
+    { "combo": "👉😎👈", "meaning": "Pointing at oneself with swagger: “this guy.”" },
+    { "combo": "👈👀", "meaning": "Look back at that; drawing attention to what was just shown." },
+    { "combo": "👍👈", "meaning": "Approval of the option just mentioned." }
+  ],
+  "confusedWith": [
+    { "slug": "backhand-index-pointing-right", "difference": "👉 points forward to what comes next in the sentence and dominates calls to action. 👈 points backward to what was already said. Choosing between them is a matter of where the target sits relative to the emoji." },
+    { "slug": "left-arrow", "difference": "⬅️ is a plain directional arrow for navigation, maps and “back” buttons. 👈 is a hand, which adds personality and lets it point at people, not just directions." },
+    { "slug": "leftwards-hand", "difference": "🫲 is an open hand reaching left, designed for handshakes and offering. 👈 has a single extended index finger and is purely a pointer." }
+  ],
+  "avoid": [
+    "Do not use it to single out and shame a specific person in a group chat.",
+    "Avoid it where the thing you are pointing at will not actually appear to the left on the reader's screen.",
+    "Do not expect it to convey shyness without the matching 👉."
+  ],
+  "design": "The back of a hand with the index finger extended to the left and the remaining fingers folded. It is the exact mirror of the pointing right emoji on every major platform. The default color is yellow, and skin tones are supported.",
+  "faqs": [
+    { "q": "What does 👈 mean in texting?", "a": "It points back at the previous word, name or image to stress it: “this one” or “that person.” It is often used to refer to oneself after a boast, or to mark a selection." },
+    { "q": "What does 👈 mean from a guy or girl?", "a": "They are usually emphasizing something or pointing at themselves or you in a joking way. If it arrives as 👉👈, they are being shy and probably working up to a question or a compliment." },
+    { "q": "What is the difference between 👈 and 👉?", "a": "Direction only. 👉 leads the reader to the next thing, and 👈 refers back to the last thing. Together and facing each other they form a gesture of shyness, a meaning neither has separately." },
+    { "q": "Does 👈 mean swipe left?", "a": "It can. In instructions it tells people to swipe or move left or go back to a previous slide. In dating-app slang, “swipe left” means rejecting a profile, and the emoji is sometimes used to reference that." }
+  ],
+  "related": ["backhand-index-pointing-right", "backhand-index-pointing-up", "backhand-index-pointing-down", "index-pointing-at-the-viewer", "left-arrow", "eyes"]
+}

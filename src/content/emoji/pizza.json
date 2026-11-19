@@ -1,0 +1,57 @@
+{
+  "slug": "pizza",
+  "title": "Pizza Emoji 🍕 Meaning: The Universal “Let’s Eat”",
+  "description": "The 🍕 pizza emoji means pizza, takeout nights and easy good times. See how it is used in plans, bios, dating profiles and celebrations, with examples.",
+  "summary": "The 🍕 pizza emoji means pizza and, by extension, casual food, cozy nights in and low-effort fun. People send it to suggest dinner, celebrate, reward themselves or declare pizza a personality trait. It is among the friendliest food emojis and has no widely used hidden meaning.",
+  "meaning": [
+    "Pizza is the food nearly everyone agrees on, and 🍕 inherits that easygoing status. Its core use is logistical: “🍕 tonight?” is a complete dinner proposal. From there it stretches to mean comfort and reward. People send it after a hard week, a finished exam or a move, when the plan is to sit on the floor with a box and do nothing else.",
+    "It also operates as shorthand for a certain relaxed personality. Dating profiles and bios list 🍕 next to dogs and travel to say “I'm low-maintenance and fun.” Office culture has the pizza party, which workers increasingly cite with irony when a company offers slices instead of raises. So the emoji can be sincere celebration or a dry comment on being underappreciated, and tone of voice does the sorting.",
+    "As a cultural marker it points to Italy, where Neapolitan pizza began, and to cities with fierce pizza loyalties such as New York and Chicago. Teenage Mutant Ninja Turtles fans claim it. Students use it to describe their budget. It appears in debates over toppings, with pineapple the eternal flashpoint. Through all of this the emoji stays positive: a slice of pizza almost never delivers bad news."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It replaces whole sentences about food. A single 🍕 can ask what's for dinner, answer it, or announce that delivery has arrived. Friends use it to propose a no-pressure hangout, and parents use it to bribe children. Followed by 🎬 or 🎮 it lays out the entire evening."
+    },
+    {
+      "label": "From a crush",
+      "body": "Suggesting pizza is one of the gentlest ways to ask someone out, because it promises something casual. “We should get 🍕 sometime” leaves room for a date or a friendly meal. Declaring love for someone “more than pizza” is a standing joke compliment. The emoji is warm but not inherently romantic."
+    },
+    {
+      "label": "At work",
+      "body": "Team chats use it for lunch orders and Friday celebrations. It also carries sarcasm: replying 🍕 to news of record profits implies staff will get a pizza party in place of a bonus. Used sincerely, it is one of the safer emojis for a professional setting."
+    }
+  ],
+  "examples": [
+    { "text": "Pizza and a movie tonight? 🍕🎬", "meaning": "A casual invitation to stay in together." },
+    { "text": "Finals are DONE 🍕🍕🍕", "meaning": "Celebrating with a well-earned pizza binge." },
+    { "text": "Record quarter! Our reward: 🍕", "meaning": "Sarcasm about a company offering a pizza party instead of real compensation." },
+    { "text": "Moved the last box. Paying everyone in 🍕 and beer", "meaning": "Thanking friends for help with the traditional reward." },
+    { "text": "I love you more than 🍕 and you know that's serious", "meaning": "A playful declaration of affection." },
+    { "text": "Naples. I may never leave 🍕🇮🇹", "meaning": "A travel post about eating pizza in its birthplace." }
+  ],
+  "combos": [
+    { "combo": "🍕🍺", "meaning": "Pizza and beer, the default casual night with friends." },
+    { "combo": "🍕🎉", "meaning": "A pizza party or a small celebration." },
+    { "combo": "🍍🍕", "meaning": "Hawaiian pizza, or the argument over whether it should exist." },
+    { "combo": "🍕❤️", "meaning": "Love of pizza, or affection expressed through a shared favorite food." }
+  ],
+  "confusedWith": [
+    { "slug": "hamburger", "difference": "🍔 covers the same fast, comforting ground but leans toward drive-throughs and cookouts. Pizza implies sharing and delivery; a burger is more of an individual meal." },
+    { "slug": "pie", "difference": "🥧 is a baked dessert or savory pie. In parts of the United States a whole pizza is called a pie, but the emoji for that is still 🍕." },
+    { "slug": "cheese-wedge", "difference": "🧀 is a triangular yellow wedge that can resemble a slice at a glance. It means cheese, or something cheesy, and shows no crust or toppings." }
+  ],
+  "avoid": [
+    "Avoid it when someone has shared a struggle with food or dieting and may not welcome a tempting nudge.",
+    "Don't rely on it for a formal dinner invitation, since it signals something far more casual."
+  ],
+  "design": "The emoji is a single triangular slice with a golden crust, melted cheese and red sauce. Pepperoni is the standard topping on most platforms, and some designs add extras such as olives or a stretch of dripping cheese. Details of the toppings differ, but every vendor shows one slice instead of a whole pie.",
+  "faqs": [
+    { "q": "What does 🍕 mean from a guy or girl?", "a": "Mostly that they are hungry, or proposing a casual meal together. As an invitation it is friendly and low-stakes, which can be a comfortable way to suggest a first date. It does not carry a hidden flirtatious code by itself." },
+    { "q": "Does the pizza emoji have a slang meaning?", "a": "No widely shared one. It occasionally stands for a “slice” of something or for a reward. Its ironic office use, mocking pizza parties as a substitute for pay, is the closest thing to slang it has." },
+    { "q": "What does 🍕 mean in a bio?", "a": "That the person loves pizza and wants to appear easygoing. It is a common personality signal on dating apps and social profiles, in the same family as listing coffee, dogs or naps." },
+    { "q": "Why does the pizza emoji show pepperoni?", "a": "Pepperoni is the most recognizable topping in the United States, where many emoji designs originate, and its red circles make a slice readable at tiny sizes. Some vendors vary the toppings slightly, but pepperoni remains the norm." },
+    { "q": "When did the pizza emoji come out?", "a": "It was included in the original batch of emojis standardized in 2010, so it has been on phones for as long as the emoji keyboard has." }
+  ],
+  "related": ["hamburger", "french-fries", "taco", "beer-mug", "popcorn", "pineapple"]
+}

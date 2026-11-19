@@ -1,0 +1,48 @@
+{
+  "slug": "ghost",
+  "title": "Ghost Emoji 👻 Meaning: Boo, Ghosting and Snapchat",
+  "description": "The 👻 ghost emoji is more goofy than scary. Learn how it is used for Halloween, playful 'boo' greetings, ghosting someone, and Snapchat usernames.",
+  "summary": "The 👻 ghost emoji is a silly cartoon ghost used for Halloween, playful scares, and anything spooky in a fun way. It also refers to ghosting, meaning cutting off contact without explanation, and it is widely used to signal Snapchat, whose logo is a ghost. It almost never expresses real fear.",
+  "meaning": [
+    "Nothing about 👻 is frightening. With its tongue out and arms raised, it looks like a kid in a bedsheet shouting 'boo,' and that is how it is used. People send it to be goofy, to pop into a quiet chat, or to decorate October plans for pumpkin patches, costume parties, and horror movie nights. Among the Halloween emojis it is the friendly one, where 💀 has drifted off into meaning laughter and 🎃 stays strictly seasonal.",
+    "The second meaning comes from dating slang. To ghost someone is to stop replying and vanish, and 👻 became the natural symbol for it. It can be a confession ('I kind of 👻 him'), a complaint ('got 👻 again'), or a joke about your own absence when you resurface after weeks of silence. In that last sense it works as a lighthearted apology for disappearing from the group chat.",
+    "There is also a brand association. Snapchat's logo is a white ghost on yellow, so 'add me 👻' followed by a username on a profile nearly always means Snapchat. This is one of the few cases where an emoji reliably stands for a specific app. Outside those uses, the ghost fills in for 'boo' as a pet name, for feeling pale or drained, and for general weird, playful energy."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "A lone 👻 often means 'boo, I'm here' or 'sorry I vanished.' Friends use it to restart a conversation that has gone cold without making it awkward. When the topic is dating, check the verb around it: ghost as something done to someone is about disappearing, not about Halloween." },
+    { "label": "On social media bios", "body": "In Instagram, TikTok, and dating app bios, 👻 next to a handle is an invitation to connect on Snapchat. Creators use it the same way in captions. People who want to list several accounts in one line rely on it because the ghost is recognized instantly and saves characters." },
+    { "label": "On Halloween", "body": "From late September through October the emoji turns literal: haunted houses, costume reveals, spooky playlists, and party invitations. It pairs with pumpkins, bats, and candy, and it signals the cute end of the holiday. Brands use it for seasonal promotions because it is festive without being gory." },
+    { "label": "From a crush", "body": "A flirty 'boo 👻' is a greeting, sometimes playing on 'boo' as a term of endearment. If someone you are seeing jokes about being a ghost, they may be acknowledging slow replies. A ghost sent after long silence is an attempt to reopen the door casually." }
+  ],
+  "examples": [
+    { "text": "Boo 👻 did you miss me?", "meaning": "A playful hello from someone who has been quiet for a while." },
+    { "text": "Three dates and then he just 👻", "meaning": "He stopped responding entirely with no explanation." },
+    { "text": "Add me 👻 jess.makes.art", "meaning": "The sender is sharing a Snapchat username." },
+    { "text": "Haunted hayride this Saturday, who's in? 👻🎃", "meaning": "A literal Halloween invitation with a festive tone." },
+    { "text": "Sorry for going 👻, finals week destroyed me", "meaning": "An apology for dropping out of contact during a busy stretch." },
+    { "text": "I haven't seen the sun in days, I'm basically 👻", "meaning": "The sender jokes that they are pale and barely present." }
+  ],
+  "combos": [
+    { "combo": "👻🎃", "meaning": "Halloween season, costumes, and spooky celebrations." },
+    { "combo": "👻💨", "meaning": "Vanishing fast, either leaving a party early or ghosting someone." },
+    { "combo": "👻📱", "meaning": "Being ghosted over text, or a nudge to move the chat to Snapchat." },
+    { "combo": "👻🤍", "meaning": "Soft, cute spooky aesthetic used in autumn captions." }
+  ],
+  "confusedWith": [
+    { "slug": "skull", "difference": "💀 now mostly means 'I'm dead' from laughter or embarrassment. 👻 does not carry that slang. It stays with literal spookiness, silliness, and the act of disappearing on someone." },
+    { "slug": "alien", "difference": "👽 covers feeling strange or like an outsider, plus space and UFO topics. 👻 is about being unseen or absent. Both are goofy creatures, but an alien is odd and present while a ghost is gone." }
+  ],
+  "avoid": [
+    "Do not use it when talking about an actual death or with someone who is grieving, where a cartoon ghost reads as flippant.",
+    "Avoid joking with it about ghosting a person who is still waiting on an honest answer from you.",
+    "Leave it out of work messages about missed deadlines, since making light of going silent rarely helps."
+  ],
+  "design": "The emoji shows a white, sheet-like ghost with a rounded head, stubby raised arms, and a tapering tail in place of legs. Most platforms give it a silly expression with the tongue sticking out, and Apple's has one eye larger than the other, which adds to the goofy look. No major vendor draws it as menacing.",
+  "faqs": [
+    { "q": "What does 👻 mean on Snapchat?", "a": "The ghost is Snapchat's logo, so outside the app it works as a label for a Snapchat username. Inside the app it has no special function in friend lists. People simply use it in snaps and chats as they would anywhere else." },
+    { "q": "What does 👻 mean from a girl or a guy?", "a": "Usually playfulness. It can be a 'boo' greeting, a joke about being hard to reach, or seasonal fun. It is not romantic by default, though a ghost with a username means they want you to add them on Snapchat." },
+    { "q": "Does the ghost emoji mean someone is ghosting me?", "a": "Only if the message says so. People rarely announce ghosting with an emoji; they just go quiet. When 👻 appears, the sender is more often joking about their own slow replies or telling a story about someone else." },
+    { "q": "Is 👻 only for Halloween?", "a": "No. It peaks in October, but ghosting slang and Snapchat references keep it in use all year. It was added to Unicode in 2010 and has been a staple of casual texting ever since." }
+  ],
+  "related": ["jack-o-lantern", "skull", "alien", "spider-web", "bat", "clown-face"]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "counterclockwise-arrows-button",
+  "title": "Counterclockwise Arrows Emoji 🔄 Meaning: Refresh or Swap",
+  "description": "The 🔄 counterclockwise arrows button emoji means refresh, reload, sync, or do it again. See how it marks updates, swaps, and reposts, and how it differs from 🔁.",
+  "summary": "The 🔄 counterclockwise arrows button emoji shows two arrows circling each other. Borrowed from the refresh and sync icons in software, it means reload, update, restart, or repeat. People also use it for swaps and exchanges, for work that is in progress, and for cycles that keep coming around.",
+  "meaning": [
+    "🔄 looks like the button you press to reload a web page or sync a device, and that is how most people read it. In messages it means try again, refresh, or update: \"🔄 the page and it should work.\" Tech support, app developers, and release notes use it constantly for anything being reloaded or brought up to date.",
+    "In status language, the circling arrows mean ongoing. Next to ✅ for done and ❌ for failed, 🔄 marks a task as in progress, a payment as processing, or an order as being exchanged. Many teams adopt this trio without ever agreeing on it formally, because the icons match what project tools already display.",
+    "The two arrows pointing opposite ways also suggest a trade. Sports accounts use 🔄 for substitutions and player swaps, collectors use it for trade offers, and shoppers use it for returns and exchanges. On social platforms it can stand for a repost or reshare, echoing the two-arrow share icons used by several apps.",
+    "Figuratively, 🔄 covers resets and loops. \"New week 🔄\" is a fresh start, while \"wake up, work, sleep 🔄\" is the grind repeating. The emoji is neutral, so the mood comes from the caption: hopeful when it means starting over, weary when it means the same thing happening yet again."
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "This is the natural home of 🔄. It labels items as in progress or under revision, announces that a document or dataset has been refreshed, and marks recurring meetings or tasks. In release notes it commonly introduces changed or updated features, set apart from additions and fixes."
+    },
+    {
+      "label": "In sports",
+      "body": "Match commentary accounts post 🔄 for substitutions, usually with one player's name coming on and another going off. It is also used for transfers, trades, and lineup changes. Fans reading a live thread treat it as a standard icon alongside ⚽ for goals and the yellow and red card squares."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends use it to ask for a do-over (\"can we 🔄 that conversation\"), to propose a swap (\"shift trade? 🔄\"), or to describe being stuck in a routine. It also follows troubleshooting advice, as in telling someone to restart the router."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Try 🔄 refreshing the app, the tickets just dropped",
+      "meaning": "Advice to reload so the new information appears."
+    },
+    {
+      "text": "🔄 In progress: Q3 report, draft due Friday",
+      "meaning": "A status update showing the task is underway but not finished."
+    },
+    {
+      "text": "67' 🔄 Silva on, Costa off",
+      "meaning": "Live sports commentary announcing a substitution."
+    },
+    {
+      "text": "Monday again 🔄",
+      "meaning": "A tired remark about the weekly cycle starting over."
+    },
+    {
+      "text": "Anyone want to swap Saturday for Sunday shift? 🔄",
+      "meaning": "The sender is offering an exchange."
+    },
+    {
+      "text": "New haircut, new job, new city 🔄",
+      "meaning": "A caption about hitting reset on life."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "✅🔄❌",
+      "meaning": "The three common status markers: done, in progress, and failed or blocked."
+    },
+    {
+      "combo": "🔄📲",
+      "meaning": "Update your app or sync your phone to get the latest version."
+    },
+    {
+      "combo": "😴💼🔄",
+      "meaning": "Sleep, work, repeat; life as a loop."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "clockwise-vertical-arrows",
+      "difference": "🔃 has two arrows running clockwise in a vertical loop. It also reads as reload or sort, and the two are used interchangeably by many people. 🔄 is far more common and is the one most apps resemble."
+    },
+    {
+      "slug": "repeat-button",
+      "difference": "🔁 is the loop control from music players, with arrows forming a flattened rectangle. It means play again or on repeat. 🔄 is about refreshing, syncing, or swapping rather than looping a track."
+    },
+    {
+      "slug": "recycling-symbol",
+      "difference": "♻️ has three arrows in a triangle and refers to recycling and reuse. 🔄 has two arrows and comes from software buttons. Sustainability posts want ♻️; update notices want 🔄."
+    }
+  ],
+  "avoid": [
+    "Do not use 🔄 to mark something as complete, because readers interpret circling arrows as still in progress.",
+    "Avoid it as a vague reply on its own, since without words it could mean redo, swap, or update.",
+    "Do not use it for recycling messages, where ♻️ is the recognized symbol."
+  ],
+  "design": "Two curved arrows chase each other in a counterclockwise circle, drawn in white on a square tile that is blue or gray on most platforms. Vendors agree on the overall design. Its long Unicode name describes \"anticlockwise downwards and upwards open circle arrows,\" and the usual shortcode is :arrows_counterclockwise:.",
+  "faqs": [
+    {
+      "q": "What does 🔄 mean in a text?",
+      "a": "Usually refresh, redo, or swap. Someone may be telling you to reload something, suggesting you start a conversation over, or offering an exchange. The surrounding words decide which, since the emoji has no fixed slang meaning."
+    },
+    {
+      "q": "What does 🔄 mean on social media?",
+      "a": "It often stands for a repost or reshare, or signals that content has been updated. Sports pages use it for substitutions and trades. On profiles and stories it can also mark a life reset or rebrand."
+    },
+    {
+      "q": "What is the difference between 🔄 and 🔁?",
+      "a": "🔄 is the refresh or sync icon, used for updating and exchanging. 🔁 is the media repeat button, used for playing something again. People mix them up, but the rounder two-arrow circle is the one tied to reloading."
+    },
+    {
+      "q": "Does the direction of the arrows matter?",
+      "a": "Not in practice. The emoji is officially counterclockwise and has a clockwise sibling, 🔃, but users treat both as generic \"refresh\" symbols. No one reads counterclockwise as meaning undo or rewind specifically."
+    }
+  ],
+  "related": ["recycling-symbol", "right-arrow", "check-mark-button", "hourglass-not-done", "infinity", "cyclone"]
+}

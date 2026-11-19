@@ -1,0 +1,105 @@
+{
+  "slug": "green-circle",
+  "title": "Green Circle Emoji 🟢 Meaning: Online, Go, All Good",
+  "description": "The 🟢 green circle emoji signals online, available, go, or all clear. Learn how it's used for status, market gains, green lights, and team colors.",
+  "summary": "The 🟢 green circle emoji is a solid green dot. Modeled on status lights and traffic signals, it means online, available, go ahead, or everything is working. It also marks gains in finance chats, approvals, and anything green-themed, from team colors to eco topics.",
+  "meaning": [
+    "A green dot beside a name is how many apps show that a person is online, and 🟢 has absorbed that meaning. People put it in a status line or message to say they are around and reachable: \"🟢 until 6.\" Freelancers and job seekers sometimes use it in profiles to show availability for work, similar to the \"open to work\" framing on professional networks.",
+    "Its other root is the traffic light. 🟢 means go, approved, or proceed, the opposite of 🔴. Giving a plan \"the 🟢\" is giving it the green light. In reports and dashboards it marks systems as operational and projects as on track, completing the red, yellow, green scale that managers and engineers both understand at a glance.",
+    "Finance communities use the dot for rising prices. A screenshot captioned \"🟢 day\" means the account is up, and a row of green circles stands for a winning streak. This follows the Western market convention of green for gains and red for losses, the same scheme used on most English-language charting apps and brokerage screens, which is why traders adopted the dot so readily.",
+    "The emoji arrived in 2019, years after the red and blue circles, when Unicode filled out the range of colored shapes. Since then it has also been used simply as a color: for clubs that play in green, for Irish or environmental themes, and in mood or energy check-ins where green means \"feeling good.\""
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "Teams use 🟢 in three main ways: personal availability in a chat status, healthy state on a service or project tracker, and approval of a request. \"🟢 from finance\" means sign-off has been given. It is clear and neutral, and appears routinely in stand-up notes and incident summaries when a problem has been resolved."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends use it to mean \"go for it\" or \"I'm free.\" In dating talk it sometimes replaces the phrase green flag, labeling a good sign in a person, though that idea has no flag emoji of its own in green. It can also mark a yes in an informal poll."
+    },
+    {
+      "label": "In trading and crypto",
+      "body": "Green dots celebrate profits, bullish calls, and buy signals. Chart-watchers post them with rocket and chart emoji when a price climbs. Outside those communities, this meaning is less familiar, and in some East Asian markets the color scheme is reversed, with red marking gains."
+    }
+  ],
+  "examples": [
+    {
+      "text": "🟢 Online and taking commissions this week",
+      "meaning": "The sender is available and open for new work."
+    },
+    {
+      "text": "All systems 🟢 after last night's fix",
+      "meaning": "Everything is running normally again."
+    },
+    {
+      "text": "Boss gave us the 🟢 on the budget",
+      "meaning": "The plan has been approved; they have the green light."
+    },
+    {
+      "text": "He remembered my coffee order 🟢🟢🟢",
+      "meaning": "Counting good signs in someone the sender is dating."
+    },
+    {
+      "text": "Finally a 🟢 day after a brutal week 📈",
+      "meaning": "The sender's investments ended the day higher."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🟢🔴",
+      "meaning": "Go versus stop, online versus busy, or gains versus losses."
+    },
+    {
+      "combo": "🔴🟡🟢",
+      "meaning": "Traffic-light scale used for status, risk, or mood."
+    },
+    {
+      "combo": "🟢📈",
+      "meaning": "Prices or metrics going up; a profitable day."
+    },
+    {
+      "combo": "🟢⚪",
+      "meaning": "Green and white team colors."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "check-mark-button",
+      "difference": "✅ is a green square with a tick and means a specific thing is done or correct. 🟢 is a state indicator: on, available, healthy. Finished tasks get ✅; a running system or free person gets 🟢."
+    },
+    {
+      "slug": "green-heart",
+      "difference": "💚 expresses affection, often with a nature, health, or jealousy angle. 🟢 carries no emotion and works as a signal or color tag. Sending 🟢 to a partner says \"go,\" not \"love.\""
+    },
+    {
+      "slug": "green-square",
+      "difference": "🟩 is the square counterpart, best known for the correct-letter tiles in shared Wordle results. 🟢 is the dot used for online status. They are interchangeable only when the point is just the color."
+    }
+  ],
+  "avoid": [
+    "Do not set a 🟢 status if you are not really reachable, since people will expect a quick reply.",
+    "Avoid using 🟢 and 🔴 as the only difference between two states in important messages, for the sake of color-blind readers.",
+    "Do not post 🟢 to imply investment advice or guaranteed gains."
+  ],
+  "design": "A flat, solid green circle. Vendors differ only in the exact shade, from a bright leaf green to a slightly deeper tone, and in whether there is faint shading. It belongs to a group of colored circles added in 2019 along with orange, yellow, purple, and brown, complementing the older red and blue ones.",
+  "faqs": [
+    {
+      "q": "What does 🟢 mean on WhatsApp, Instagram, or Messenger?",
+      "a": "A green dot shown by the app next to a profile picture means that person is currently active. That is an interface indicator. If someone types the 🟢 emoji in a status or bio, they are saying they are available or simply using the color."
+    },
+    {
+      "q": "What does 🟢 mean from a girl or guy?",
+      "a": "Usually \"yes,\" \"go ahead,\" or \"I'm free.\" In dating conversation it may be shorthand for a green flag, meaning you did something they liked. It is positive in almost every reading."
+    },
+    {
+      "q": "Why is there no green flag emoji?",
+      "a": "The emoji set includes a red triangular flag but no green one. People who want to say \"green flag\" improvise with 🟢, 💚, or ✅ instead. The green circle is a popular choice because it mirrors the red-versus-green contrast."
+    },
+    {
+      "q": "When was the green circle emoji added?",
+      "a": "In 2019, as part of Emoji 12.0. Before then only red, blue, black, and white circles existed, so older devices may show a blank box in its place."
+    }
+  ],
+  "related": ["red-circle", "blue-circle", "black-circle", "green-heart", "check-mark-button", "chart-increasing"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "flag-palestinian-territories",
+  "title": "🇵🇸 Palestine Flag Emoji: Meaning, Colors and Use",
+  "description": "The Palestinian flag emoji 🇵🇸 has black, white and green stripes with a red triangle. A neutral guide to what it shows, how it is used, and similar flags.",
+  "summary": "The 🇵🇸 emoji shows the Palestinian flag: three horizontal stripes of black, white, and green with a red triangle at the pole side. Unicode lists it as “Flag: Palestinian Territories.” Palestinians use it for national identity and heritage, and many others use it to express solidarity.",
+  "meaning": [
+    "For Palestinians in the West Bank, Gaza, and a diaspora spread across Jordan, Lebanon, the Gulf, Europe, and the Americas, 🇵🇸 is a statement of identity. It appears in bios, family and hometown posts, food and embroidery content, and coverage of Palestinian athletes and artists. The flag was adopted by the Palestinian national movement in the 1960s and is the flag of the State of Palestine, which most United Nations member states recognize.",
+    "Beyond that community, the emoji is used heavily as a sign of solidarity, especially during periods of war in Gaza and at protests and campaigns around the world. Volume rises and falls with the news. Because the Israeli–Palestinian conflict is deeply divisive, 🇵🇸 in a name or post is widely read as a political position, and it attracts strong reactions in both directions. Its meaning in any given message depends on the writer and context.",
+    "The flag's four colors are the Pan-Arab colors, drawn from the banner of the Arab Revolt of 1916, and several other Arab flags share them. That is why the watermelon emoji 🍉, with its red, green, black, and white, has become a common substitute. The fruit has served as a Palestinian symbol at times when displaying the flag was restricted, and online it is also used by people who believe posts with the flag are less widely shown."
+  ],
+  "contexts": [
+    {
+      "label": "In bios and names",
+      "body": "Palestinians use 🇵🇸 to mark origin, often alongside the flag of the country where they live. Others add it to show support. As with any political symbol in a profile, it invites both agreement and argument, and platforms' moderation of related content is itself a frequent topic."
+    },
+    {
+      "label": "In news and activism",
+      "body": "Protest announcements, humanitarian appeals, and updates from Gaza and the West Bank are tagged with 🇵🇸. Aid organizations and journalists also use it as a plain geographic label. Posts cluster around major events and annual dates such as Nakba Day on May 15."
+    },
+    {
+      "label": "In culture and sport",
+      "body": "The flag accompanies celebrations of Palestinian cuisine, tatreez embroidery, dabke dance, poetry, and film. The national football team competes in Asian competitions, and its matches draw supportive posts. At international sporting events, fans from other Arab countries often display it as well."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Teta's maqluba, flipped perfectly this time 🇵🇸",
+      "meaning": "Sharing a traditional Palestinian dish made from a grandmother's recipe."
+    },
+    {
+      "text": "Born in Chicago, roots in Ramallah 🇵🇸🇺🇸",
+      "meaning": "A bio describing Palestinian American identity."
+    },
+    {
+      "text": "Donation link for medical relief is in my profile 🇵🇸",
+      "meaning": "Directing followers to a humanitarian fundraiser."
+    },
+    {
+      "text": "What a result for the national team tonight 🇵🇸⚽",
+      "meaning": "Celebrating a Palestinian football match."
+    },
+    {
+      "text": "March starts at noon on Saturday 🇵🇸",
+      "meaning": "Announcing a solidarity demonstration."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇵🇸🍉",
+      "meaning": "The flag with the watermelon that shares its colors and often stands in for it."
+    },
+    {
+      "combo": "🇵🇸🕊️",
+      "meaning": "A wish for peace."
+    },
+    {
+      "combo": "🇵🇸❤️",
+      "meaning": "Love for Palestine or for Palestinian family and heritage."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-jordan",
+      "difference": "🇯🇴 Jordan's flag is nearly identical in layout and colors. The difference is a small white seven-pointed star inside the red triangle, which is hard to see at emoji size."
+    },
+    {
+      "slug": "flag-sudan",
+      "difference": "🇸🇩 Sudan uses the same four colors with the roles changed: stripes of red, white, and black, and a green triangle at the hoist."
+    },
+    {
+      "slug": "watermelon",
+      "difference": "🍉 is used as a symbol of Palestine because its colors match the flag. Without context, however, it still simply means the fruit or summer."
+    }
+  ],
+  "avoid": [
+    "Do not use it, or reply to it, in ways that target individuals for harassment; the topic is painful for many people.",
+    "Avoid mixing it up with Jordan's or Sudan's flag, and check before posting in formal or news contexts."
+  ],
+  "design": "Three equal horizontal bands of black, white, and green are overlapped at the hoist by a red triangle pointing toward the center. Vendors draw it consistently. Like other flags built from country codes, it is not rendered by Windows, which shows the letters PS.",
+  "faqs": [
+    {
+      "q": "Why is the emoji called “Palestinian Territories”?",
+      "a": "Emoji names for flags follow the region names in Unicode's locale data, where the code PS is labeled Palestinian Territories. The underlying ISO standard lists PS as “Palestine, State of.” Apps may show either wording; the image is the same."
+    },
+    {
+      "q": "What do the colors of the Palestinian flag represent?",
+      "a": "Black, white, green, and red are the Pan-Arab colors taken from the flag of the 1916 Arab Revolt. They are traditionally linked to historic Arab dynasties, and they appear on the flags of Jordan, Sudan, the United Arab Emirates, Kuwait, and others."
+    },
+    {
+      "q": "Why do people use the watermelon emoji for Palestine?",
+      "a": "A sliced watermelon shows the flag's colors. It has been used as a stand-in when the flag could not be displayed publicly, and it is used online both as a symbol in its own right and by users worried about posts being restricted."
+    },
+    {
+      "q": "How is the 🇵🇸 emoji encoded, and when was it added?",
+      "a": "It is made of the regional indicator letters P and S and has been part of the emoji set since 2015, when flags for all two-letter region codes were included."
+    }
+  ],
+  "related": [
+    "flag-jordan",
+    "watermelon",
+    "dove",
+    "flag-sudan",
+    "flag-lebanon",
+    "red-heart"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "bouquet",
+  "title": "Bouquet Emoji 💐 Meaning: Congrats, Thanks and Flowers",
+  "description": "The 💐 bouquet emoji is how you hand someone flowers by text: congratulations, thank you, happy birthday, get well. See when to send it and what it implies.",
+  "summary": "The 💐 bouquet emoji shows a bunch of mixed flowers and works like giving someone a real bouquet. It says congratulations, thank you, happy birthday or get well soon, and it is common on Mother’s Day, at weddings and graduations. It expresses appreciation more than romance.",
+  "meaning": [
+    "Think about when people actually buy flowers, and you have the emoji’s uses. A promotion, a new baby, a recital, a retirement, a hospital stay, an anniversary: 💐 fits each one. It is a gesture, the digital equivalent of turning up with something wrapped in paper. Because bouquets are given by friends, relatives, colleagues and partners alike, the emoji is unusually safe across relationships.",
+    "Its emotional register is generous and a little formal. It suits “congratulations on your engagement” better than “miss you,” and it is a staple of group replies when someone shares good news. On Mother’s Day and Teachers’ Day it stands in for the flowers the sender cannot deliver. At weddings it refers to the bridal bouquet, including the tradition of tossing it to see who marries next.",
+    "A popular phrase has added a layer. To “give someone their flowers” means to offer praise and recognition while the person is still around to appreciate it. Fans and friends use 💐 that way: posted under an athlete’s farewell, an underrated artist’s work or a friend’s achievement, it means “you deserve credit.” The emoji is also used for sympathy, since flowers are sent to funerals, though it is brighter than most condolence symbols."
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "It is among the most office-friendly celebratory emojis. Colleagues use it for promotions, work anniversaries, farewells and thank-yous after a big project. It feels warmer than a thumbs-up and more polished than party poppers. Because it carries no romantic meaning, it does not risk being misread."
+    },
+    {
+      "label": "On holidays",
+      "body": "Mother’s Day, International Women’s Day, Valentine’s Day and Teachers’ Day all bring a surge. Graduation season, weddings and baby showers add more. In many countries flowers are the default gift for these occasions, and the emoji lets people take part from a distance."
+    },
+    {
+      "label": "In texting",
+      "body": "It answers good news fast: “You passed!! 💐.” It thanks a host, cheers a sick friend and marks a birthday. Partners use it as a small romantic gesture, though it is less intense than a rose. Some people send it sarcastically, awarding flowers for a very minor accomplishment."
+    },
+    {
+      "label": "On Instagram and TikTok",
+      "body": "Under posts about achievements, comebacks and retirements, it means “giving you your flowers.” It is also literal content: florist accounts, flower-arranging videos and the trend of buying yourself a bouquet. Wedding creators use it for bridal bouquet reveals and toss videos."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Congratulations on the new job! So deserved 💐",
+      "meaning": "Celebrating someone’s achievement with virtual flowers."
+    },
+    {
+      "text": "Happy Mother’s Day to the best mom 💐",
+      "meaning": "A holiday greeting standing in for a real bouquet."
+    },
+    {
+      "text": "Twenty seasons and never complained once. Give him his 💐",
+      "meaning": "Calling for recognition of someone’s long contribution."
+    },
+    {
+      "text": "Thinking of you, feel better soon 💐",
+      "meaning": "Get-well wishes for someone who is ill."
+    },
+    {
+      "text": "She caught the 💐!! You’re next",
+      "meaning": "Refers to the bouquet toss at a wedding."
+    },
+    {
+      "text": "Wow, you loaded the dishwasher. 💐",
+      "meaning": "Sarcastic praise for doing the bare minimum."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "💐🎉",
+      "meaning": "Congratulations on a happy milestone."
+    },
+    {
+      "combo": "💐👰",
+      "meaning": "A wedding and the bridal bouquet."
+    },
+    {
+      "combo": "💐🎓",
+      "meaning": "Graduation congratulations."
+    },
+    {
+      "combo": "💐🙏",
+      "meaning": "Heartfelt thanks, or sympathy after a loss."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "rose",
+      "difference": "🌹 is one red rose and points to romance or solemn tribute. 💐 is a mixed bunch and points to celebration and gratitude. Sending a rose to a coworker could be awkward; a bouquet would not be."
+    },
+    {
+      "slug": "tulip",
+      "difference": "🌷 is a single spring flower used for gentle affection and seasonal cheer. It is a casual touch. The bouquet marks an occasion and feels like a proper gift."
+    },
+    {
+      "slug": "wrapped-gift",
+      "difference": "🎁 means a present of any kind and is tied to birthdays and Christmas. 💐 is specifically flowers and covers a wider range of feelings, including thanks, sympathy and recognition."
+    }
+  ],
+  "avoid": [
+    "Avoid making it your only reply to news of a death; add words, since its bright colors can look celebratory.",
+    "Do not use the sarcastic version with people who may take the praise literally.",
+    "Skip it if you want to express romantic desire specifically, where a rose or heart is clearer."
+  ],
+  "design": "The emoji shows several flowers gathered into a bunch with green stems or leaves, often tied or wrapped at the base. Apple’s contains pink, yellow and purple blooms; Google’s shows a similar mix in a simpler style; Samsung’s is wrapped in paper. The exact flowers and colors vary by vendor, but every design is clearly a mixed celebratory bouquet.",
+  "faqs": [
+    {
+      "q": "What does 💐 mean from a guy?",
+      "a": "He is congratulating, thanking or appreciating you, the way he would by bringing flowers. It can be romantic if you are dating, but it is commonly sent to friends, mothers and colleagues, so it is not proof of a crush."
+    },
+    {
+      "q": "What does “give them their flowers” mean?",
+      "a": "It means to show appreciation and give credit to someone while they can still enjoy it, instead of waiting until they are gone. The phrase is widely used in sports and music, and 💐 is its emoji form."
+    },
+    {
+      "q": "Is the bouquet emoji romantic?",
+      "a": "Only mildly. It can accompany a date or anniversary, but it lacks the specific romantic symbolism of a red rose. Its main meanings are congratulations and gratitude, which is why it is appropriate in professional settings."
+    },
+    {
+      "q": "Can I send 💐 for condolences?",
+      "a": "Yes, flowers are a traditional expression of sympathy. Combine it with a sincere written message so that it is not mistaken for celebration. Many people choose a dove, white heart or candle for a more subdued tone."
+    }
+  ],
+  "related": ["rose", "tulip", "wrapped-gift", "party-popper", "sunflower", "heart-with-ribbon"]
+}

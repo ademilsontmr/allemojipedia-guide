@@ -1,0 +1,57 @@
+{
+  "slug": "clinking-glasses",
+  "title": "Clinking Glasses Emoji 🥂 Meaning: A Toast to Good News",
+  "description": "The 🥂 clinking glasses emoji shows two champagne flutes in a toast. It marks engagements, weddings, New Year's Eve, promotions and other milestones.",
+  "summary": "The 🥂 clinking glasses emoji shows two champagne flutes touching in a toast. It means “cheers” or “congratulations” for significant or elegant occasions: engagements, weddings, anniversaries, promotions, graduations and New Year's Eve. It is the dressed-up counterpart of the clinking beer mugs.",
+  "meaning": [
+    "Champagne is poured when something is worth marking, and 🥂 does that job in text. It is the reflex reply to an engagement announcement, a new job, a closed deal or a house purchase. It says “here's to you” in a way that feels a notch grander than a party popper. Since its arrival in 2016, it has become the standard emoji for formal congratulations.",
+    "New Year's Eve is its annual peak. Midnight toasts, resolutions and “cheers to the new year” posts nearly all carry it, typically with fireworks or sparkles. Weddings and anniversaries are close behind. Couples use it for date nights and milestones, where two glasses neatly represent two people. Brunch culture claims it too, as the nearest thing to a mimosa emoji.",
+    "It also has an aspirational flavor. Captions about “cheers to new beginnings,” “to us” or “to the next chapter” lean on it, as do luxury travel and lifestyle posts. Businesses use it to celebrate launches and thank customers. Because the gesture matters more than the drink, it works for non-drinkers better than most alcohol emojis: it can stand for sparkling cider or simply for raising a glass in spirit."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It is mainly a response to big news. “We're engaged!” gets 🥂 before any words. It closes messages of thanks or shared success, as in “to many more.” Between partners it suggests a special evening. One 🥂 alone reads as warm congratulations with a touch of polish."
+    },
+    {
+      "label": "On holidays",
+      "body": "New Year's Eve owns it, followed by Christmas dinners, Valentine's Day and Mother's Day brunch. Wedding season fills feeds with it from late spring through fall. Graduation and retirement parties use it as the adult celebration marker, in place of or alongside balloons."
+    },
+    {
+      "label": "At work",
+      "body": "For promotions, work anniversaries, funding rounds and product launches, 🥂 is common on LinkedIn and in team channels. It is more polished than beer mugs and usually acceptable in professional settings. In strictly formal or alcohol-averse environments, 🎉 or 👏 avoids any issue."
+    }
+  ],
+  "examples": [
+    { "text": "She said yes!! 🥂💍", "meaning": "Announcing an engagement with a toast." },
+    { "text": "Happy New Year! Here's to a better one 🥂✨", "meaning": "A midnight toast with hopes for the year ahead." },
+    { "text": "Ten years married today 🥂", "meaning": "Celebrating a wedding anniversary." },
+    { "text": "Congrats on the promotion, well deserved 🥂", "meaning": "Formal but warm congratulations to a colleague or friend." },
+    { "text": "Bottomless brunch with the girls 🥂🥞", "meaning": "Mimosas at a weekend brunch." },
+    { "text": "Closed on the house this morning. To new beginnings 🥂", "meaning": "Toasting a major life milestone." }
+  ],
+  "combos": [
+    { "combo": "🥂💍", "meaning": "An engagement or wedding celebration." },
+    { "combo": "🥂🎆", "meaning": "New Year's Eve at midnight." },
+    { "combo": "🥂🍾", "meaning": "Popping champagne; a big celebration." },
+    { "combo": "🥂✨", "meaning": "An elegant toast or a glamorous evening." }
+  ],
+  "confusedWith": [
+    { "slug": "clinking-beer-mugs", "difference": "🍻 is the same toast with beer, suited to pubs, sports and casual good news. 🥂 is for occasions that call for dressing up or for sincere, formal congratulations." },
+    { "slug": "bottle-with-popping-cork", "difference": "🍾 captures the loud moment a bottle is opened and expresses excitement that a celebration is starting. 🥂 is the toast that follows, calmer and more gracious." },
+    { "slug": "wine-glass", "difference": "🍷 is a single glass of red wine for unwinding or dinner. It lacks the congratulatory meaning that the pair of flutes carries." }
+  ],
+  "avoid": [
+    "Don't send it in reply to news that is bittersweet or ambiguous, such as a layoff framed positively, until you know how the person feels.",
+    "Avoid using it with someone in recovery if a non-alcohol emoji would say the same thing."
+  ],
+  "design": "Two tall, narrow champagne flutes lean toward each other and touch near the rim, filled with pale gold sparkling wine. Most vendors add small sparks, stars or bubbles at the point of contact. Tilt angle and the shade of the wine differ a little, but the two-flute composition is the same across platforms.",
+  "faqs": [
+    { "q": "What does 🥂 mean from a guy or girl?", "a": "Usually “cheers” or “congratulations.” Between two people who are dating, it can mean “to us” or propose a special night out. It is celebratory and a little romantic in the right context, but not suggestive." },
+    { "q": "What is the difference between 🥂 and 🍻?", "a": "Occasion and tone. Champagne flutes fit weddings, milestones and elegant events. Beer mugs fit casual wins and nights at the bar. If you are congratulating a boss or a newly engaged couple, 🥂 is the natural choice." },
+    { "q": "Is 🥂 champagne?", "a": "The glasses are champagne flutes, and the drink is generally understood to be champagne or another sparkling wine. People also use it for prosecco, mimosas and non-alcoholic toasts, since the gesture is what counts." },
+    { "q": "Can I use 🥂 for New Year's?", "a": "Yes, it is the emoji most associated with New Year's Eve, representing the midnight toast. It is commonly combined with fireworks, sparkles, a clock or the bottle with popping cork." },
+    { "q": "When did the clinking glasses emoji come out?", "a": "It was added in 2016 as part of Emoji 3.0. Before that, people used the wine glass, the beer mugs or the champagne bottle for toasts." }
+  ],
+  "related": ["bottle-with-popping-cork", "clinking-beer-mugs", "wine-glass", "party-popper", "ring", "fireworks"]
+}

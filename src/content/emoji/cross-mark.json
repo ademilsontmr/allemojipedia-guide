@@ -1,0 +1,117 @@
+{
+  "slug": "cross-mark",
+  "title": "Cross Mark Emoji ❌ Meaning: No, Wrong, or Cancelled",
+  "description": "The ❌ cross mark emoji means no, wrong, or cancelled. Find out how it is used in replies, do-and-don't posts, and games, and why it rarely means a kiss.",
+  "summary": "The ❌ cross mark emoji is a bold red X that means no, wrong, cancelled, or not allowed. It is the natural opposite of ✅ and is used to reject ideas, mark incorrect answers, strike items off, and flag things to avoid. Occasionally it simply stands for the letter X.",
+  "meaning": [
+    "❌ says no with very little room for interpretation. A red X is what many people grew up seeing beside wrong answers on schoolwork, and the emoji keeps that authority: it marks something as incorrect, rejected, unavailable, or off the table. Replying to a suggestion with a lone ❌ is a flat veto, usually playful among friends and noticeably blunt anywhere else.",
+    "Its second life is as a formatting tool. Paired with ✅, it builds the do-and-don't lists that fill advice posts, product comparisons, and myth-busting threads. It also works as a strike-through for plans that fell apart (\"beach day ❌\") and as a status marker for failed checks, missing features, or sold-out items.",
+    "The emoji picks up extra meanings from the letter it resembles. People use ❌ as the X in tic-tac-toe with ⭕, as a stylized X in names and usernames, and sometimes as a treasure-map \"X marks the spot.\" In Japan the X is batsu, the standard mark for wrong or not okay, set against the maru circle for correct, and the emoji set inherited that pairing.",
+    "Online, ❌ is also attached to \"cancel\" language. Fans post it under an announcement they dislike, and people declare a food, an ex, or a bad habit \"cancelled ❌\" with mock seriousness. The joke depends on how absolute the symbol looks, which is also why it can sting when aimed sincerely at a person."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Friends use ❌ for quick refusals and updates: \"can't make it tonight ❌\" or a bare X in response to \"are you awake?\" It also answers either-or questions efficiently. Because it is so final, people often soften it with a second emoji such as 😅 or 😭 when turning down an invitation they would have liked to accept."
+    },
+    {
+      "label": "On social media",
+      "body": "The ✅/❌ pairing is a fixture of carousels and captions that compare right and wrong technique, real and fake products, or healthy and unhealthy habits. In comment sections, rows of ❌❌❌ signal collective disapproval. Accounts sharing misinformation corrections use it as a visual \"false\" stamp before the explanation."
+    },
+    {
+      "label": "At work",
+      "body": "In status reports ❌ marks a failed test, a rejected request, or a blocked item, usually alongside ✅ and ⚠️. As a reaction to a colleague's proposal it can come across as dismissive, since it offers a verdict with no reasoning. Most teams reserve it for objective states, such as a build failing, rather than opinions about someone's idea."
+    },
+    {
+      "label": "In gaming",
+      "body": "❌ and ⭕ are the default pieces for tic-tac-toe played in chat or built from emoji grids. Players also associate the X with controller buttons and with \"wrong answer\" buzzers in quiz and party games, so it appears in trivia streams and guessing games as an instant fail marker."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Dinner on Friday? ❌ I'm out of town, Saturday works",
+      "meaning": "A clear no to the proposed day, followed by an alternative."
+    },
+    {
+      "text": "Charging your phone overnight ❌ ruins the battery — this is a myth",
+      "meaning": "The X marks a common belief as false before the explanation."
+    },
+    {
+      "text": "Pineapple on pizza ❌❌❌",
+      "meaning": "Emphatic, joking rejection; repeating the X turns up the volume."
+    },
+    {
+      "text": "Concert got cancelled ❌😭",
+      "meaning": "The plan is off, and the sender is upset about it."
+    },
+    {
+      "text": "⭕❌⭕ your move",
+      "meaning": "A tic-tac-toe row typed in chat, with the X as a game piece."
+    },
+    {
+      "text": "Sleeping 8 hours ✅ Doomscrolling until 3am ❌",
+      "meaning": "A do-and-don't comparison: the first is endorsed, the second is not."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "❌⭕",
+      "meaning": "Tic-tac-toe, or wrong versus right in the Japanese maru-batsu marking system."
+    },
+    {
+      "combo": "❌🧢",
+      "meaning": "\"No cap\": the X negates the cap, meaning no lie, completely serious."
+    },
+    {
+      "combo": "🙅❌",
+      "meaning": "A doubled refusal, with the crossed-arms gesture reinforcing the X."
+    },
+    {
+      "combo": "❌➡️✅",
+      "meaning": "From wrong to right: a before-and-after correction or an improvement."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "cross-mark-button",
+      "difference": "❎ puts a white X inside a green square. The green makes some people read it as positive, but it generally means the same as ❌ or acts as a \"close\" button. For an unmistakable no, the plain red ❌ is clearer."
+    },
+    {
+      "slug": "multiply",
+      "difference": "✖️ is the multiplication sign: a thinner, usually dark X meant for math and \"times\" (2 ✖️ 3). It lacks the red warning color, so it does not carry the same force as a rejection."
+    },
+    {
+      "slug": "prohibited",
+      "difference": "🚫 is a red circle with a slash and means something is forbidden or banned. ❌ is broader: it can mean wrong, cancelled, or simply no, without implying there is a rule against it."
+    }
+  ],
+  "avoid": [
+    "Do not react with ❌ to a colleague's idea without explaining why, because it reads as a dismissal rather than feedback.",
+    "Avoid using ❌ to mean kisses in a sign-off; most readers will see a rejection, so type a plain \"x\" or use 😘 instead.",
+    "Skip it in accessibility-sensitive content as the only signal of right and wrong, since screen readers just announce \"cross mark.\""
+  ],
+  "design": "Two thick red strokes cross to form an X with no background. Platforms keep the design nearly identical, varying only in the shade of red and whether the stroke ends are squared or slightly rounded. Its Unicode name is simply \"cross mark,\" and the common shortcode on Slack, Discord, and GitHub is :x:.",
+  "faqs": [
+    {
+      "q": "Does ❌ mean a kiss?",
+      "a": "Rarely. The lowercase letter x is the usual way to sign off with a kiss, especially in the UK. The large red emoji looks like an error mark, so it is almost always read as no or wrong. Some people use it decoratively in names, but not affectionately."
+    },
+    {
+      "q": "What does ❌ mean on Snapchat or in a username?",
+      "a": "In usernames and display names it is usually decoration or a stylized letter X. In messages it keeps its ordinary meaning of no or cancelled. Emoji next to friends' names on Snapchat come from a separate fixed set, and ❌ is not one with a special assigned meaning."
+    },
+    {
+      "q": "Is sending ❌ rude?",
+      "a": "It depends on what it answers. As a response to \"are you free?\" it is just efficient. As a response to someone's opinion, work, or photo, it is harsh because it rejects without explanation. A few words alongside it usually fix the tone."
+    },
+    {
+      "q": "What is the difference between ❌ and ✖️?",
+      "a": "❌ is the red cross mark used for no and wrong. ✖️ is the multiplication sign, normally dark and thinner, used for math and dimensions. They look similar at small sizes, but only the red one reads as a rejection."
+    },
+    {
+      "q": "Why do ❌ and ⭕ go together?",
+      "a": "They are the two pieces in tic-tac-toe, and in Japan they are the standard marks for incorrect (batsu) and correct (maru). Since emoji began on Japanese phones, both symbols were included from the start."
+    }
+  ],
+  "related": ["check-mark-button", "prohibited", "no-entry", "hollow-red-circle", "person-gesturing-no", "thumbs-down"]
+}

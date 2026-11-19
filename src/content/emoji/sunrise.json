@@ -1,0 +1,55 @@
+{
+  "slug": "sunrise",
+  "title": "Sunrise Emoji 🌅 Meaning: New Days and Golden Hours",
+  "description": "🌅 shows the sun on the horizon over water. People use it for early mornings, fresh starts and, just as often, sunsets. Meaning, examples and lookalikes.",
+  "summary": "🌅 pictures the sun half-risen over the sea. It means sunrise, early mornings and new beginnings, and it is used with equal ease for sunsets, since nothing in the image shows which way the sun is moving. It also signals calm, gratitude and scenic views.",
+  "meaning": [
+    "The official subject is dawn, and morning people use 🌅 exactly that way: a 5 a.m. run, a first coffee on the porch, a “good morning” to someone in another time zone. It carries a slightly earnest energy. Posting a sunrise implies you were awake to see it, so the emoji often comes with a note of discipline or quiet pride, especially in fitness and wellness circles.",
+    "The larger meaning is renewal. A sun coming up is the oldest picture of a fresh start, and 🌅 gets attached to new jobs, sobriety milestones, recovery after illness and the first day of a year. Faith communities use it for Easter sunrise services and for verses about mercies being new each morning. In condolence messages it sometimes appears as a gentle image of peace.",
+    "In practice a great many uses are sunsets. The glyph is ambiguous, the keyboard's actual sunset emoji shows a city skyline, and beach sunsets are photographed far more than beach sunrises. So captions under evening photos routinely carry 🌅, and no one objects. If the time of day matters to your message, the words need to say it; the emoji will not."
+  ],
+  "contexts": [
+    {
+      "label": "In captions",
+      "body": "Horizon photos over an ocean or lake are the obvious match. Travelers use it for first mornings in a new place and last evenings before flying home. Golden-hour portraits, boat trips and beach yoga sessions pick it up too. It suggests a moment the poster stopped to appreciate, which is why short reflective captions suit it."
+    },
+    {
+      "label": "In good-morning messages",
+      "body": "Partners and family members exchange 🌅 with “rise and shine” or a simple greeting, and it is a staple of the cheerful morning images shared in family group chats. Compared with the plain sun, it feels more scenic and a little more sentimental, a wish for a good day and not just a weather report."
+    },
+    {
+      "label": "For fresh starts",
+      "body": "Announcements about beginning again use the sunrise to set an optimistic tone: day one of a new routine, moving to a new city, closing a hard chapter. Motivational accounts rely on it for quotes about each day being a second chance. The sincerity is the point, so it rarely appears in ironic posts."
+    }
+  ],
+  "examples": [
+    { "text": "Up before the alarm for once 🌅", "meaning": "The sender woke early enough to see dawn and is a little proud of it." },
+    { "text": "New city, new job, day one 🌅", "meaning": "Marking a fresh start with an image of a new day." },
+    { "text": "Last sunset in Santorini 🌅 not ready to leave", "meaning": "Used for an evening view, as people commonly do despite the emoji's name." },
+    { "text": "Good morning my love 🌅☕", "meaning": "An affectionate start-of-day greeting." },
+    { "text": "One year sober today 🌅", "meaning": "Celebrating a milestone with a symbol of renewal and hope." }
+  ],
+  "combos": [
+    { "combo": "🌅☕", "meaning": "An early start with coffee; a peaceful morning routine." },
+    { "combo": "🌅🏃", "meaning": "A dawn run or workout before the day begins." },
+    { "combo": "🌅🙏", "meaning": "Gratitude for a new day, common in faith and mindfulness posts." },
+    { "combo": "🌅🌊", "meaning": "A sunrise or sunset over the ocean, usually a beach photo caption." }
+  ],
+  "confusedWith": [
+    { "slug": "sunset", "difference": "🌇 shows the sun going down between city buildings. It is the urban evening scene. 🌅 is a natural horizon over water and gets used for both dawn and dusk at the coast." },
+    { "slug": "sunrise-over-mountains", "difference": "🌄 places the rising sun between mountain peaks. Hikers and campers prefer it; 🌅 is the seaside version with the same morning and fresh-start meaning." },
+    { "slug": "sun", "difference": "☀️ is the sun alone, high and bright, meaning sunny weather or warmth. It lacks the horizon that gives 🌅 its sense of time passing and days beginning." }
+  ],
+  "avoid": [
+    "Do not count on it to tell someone whether you mean morning or evening when scheduling; add the time.",
+    "Avoid it under bad news as a quick “tomorrow is another day” if the person needs acknowledgment more than optimism."
+  ],
+  "design": "A yellow or orange semicircle of sun sits on a straight horizon line above blue water, with a sky shading from orange to yellow and reflections on the waves. Some platforms draw rays fanning upward. Colors are warmer on some systems and paler on others, but all show the same composition, and none indicates whether the sun is coming up or going down.",
+  "faqs": [
+    { "q": "Is 🌅 a sunrise or a sunset?", "a": "Its official name is Sunrise, but the picture works for either and people use it for both. The dedicated Sunset emoji shows a city skyline, so beach and ocean sunsets usually get 🌅 instead." },
+    { "q": "What does 🌅 mean in a text?", "a": "Most often good morning, an early start, or appreciation for a beautiful sky. In more reflective messages it stands for a new beginning or hope after a difficult time." },
+    { "q": "What is the difference between 🌅 and 🌄?", "a": "The horizon. 🌅 is the sun over water, suited to beaches and lakes. 🌄 is the sun between mountains, suited to hikes and high places. Their meanings are otherwise the same." },
+    { "q": "Does the sunrise emoji have a romantic meaning?", "a": "Only by association. Couples use it for watching a sunrise or sunset together and in good-morning texts. On its own it is a scenic, hopeful image and not a flirtation." }
+  ],
+  "related": ["sunset", "sunrise-over-mountains", "sun", "sun-with-face", "water-wave", "desert-island"]
+}

@@ -1,0 +1,49 @@
+---
+import Base from "@/layouts/Base.astro";
+import { emojis } from "@/lib/emoji";
+---
+<Base title="Search Emojis by Name or Keyword" description="Search every emoji by name, keyword or by pasting the emoji itself. Copy any result or open its meaning page." path="/search/" section="search" noindex>
+  <div class="wrap">
+    <header class="hero" style="padding-bottom:8px">
+      <h1>Search emojis</h1>
+      <p class="lead">Type a name or keyword, or paste an emoji. Searching {emojis.length.toLocaleString("en-US")} emojis.</p>
+      <form class="searchbox" role="search" id="sf">
+        <label class="sr-only" for="q">Search emojis</label>
+        <input id="q" name="q" type="search" placeholder="skull, heart, party, 🙏 …" autocomplete="off" autofocus />
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </header>
+    <p id="status" class="muted" role="status" aria-live="polite" style="text-align:center"></p>
+    <ul id="results" class="grid cols-tiles"></ul>
+    <noscript><p class="note">Search needs JavaScript. You can still <a href="/categories/">browse every emoji by category</a>.</p></noscript>
+  </div>
+  <script is:inline>
+    (function () {
+      var input = document.getElementById("q"), out = document.getElementById("results"), status = document.getElementById("status"), data = null;
+      var strip = function (s) { return s.replace(/️/g, ""); };
+      function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+      function render() {
+        var q = input.value.trim().toLowerCase();
+        if (!data) return;
+        if (!q) { out.innerHTML = ""; status.textContent = "Start typing to search."; return; }
+        var words = q.split(/\s+/), qs = strip(q), hits = [];
+        for (var i = 0; i < data.length; i++) {
+          var r = data[i], name = r[1].toLowerCase(), hay = name + " " + r[3].toLowerCase(), score = 0;
+          if (strip(r[0]) === qs || qs.indexOf(strip(r[0])) > -1) score = 100;
+          else if (words.every(function (w) { return hay.indexOf(w) > -1; })) score = name === q ? 90 : name.indexOf(q) === 0 ? 70 : name.indexOf(q) > -1 ? 50 : 20;
+          if (score) hits.push([score + r[4] * 5, r]);
+        }
+        hits.sort(function (a, b) { return b[0] - a[0]; });
+        status.textContent = hits.length ? hits.length + " result" + (hits.length > 1 ? "s" : "") + (hits.length > 120 ? " (showing 120)" : "") : "No emoji matches “" + input.value + "”. Try a simpler word.";
+        out.innerHTML = hits.slice(0, 120).map(function (h) {
+          var r = h[1], inner = '<span class="em" aria-hidden="true">' + r[0] + '</span><span class="label">' + esc(r[1]) + "</span>";
+          return "<li>" + (r[4] ? '<a class="tile" href="/emojis/' + r[2] + '/">' + inner + "</a>" : '<button class="tile" type="button" data-copy="' + r[0] + '" title="Copy">' + inner + "</button>") + "</li>";
+        }).join("");
+      }
+      input.value = new URLSearchParams(location.search).get("q") || "";
+      document.getElementById("sf").addEventListener("submit", function (e) { e.preventDefault(); render(); });
+      input.addEventListener("input", render);
+      fetch("/search-index.json").then(function (r) { return r.json(); }).then(function (d) { data = d; render(); });
+    })();
+  </script>
+</Base>

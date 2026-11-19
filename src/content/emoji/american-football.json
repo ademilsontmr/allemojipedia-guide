@@ -1,0 +1,60 @@
+{
+  "slug": "american-football",
+  "title": "American Football Emoji 🏈 Meaning: NFL to Game Day",
+  "description": "The 🏈 emoji means American football: NFL Sundays, college Saturdays, fantasy leagues and the Super Bowl. Learn how it differs from ⚽ and 🏉 and when to use it.",
+  "summary": "The 🏈 American football emoji stands for the gridiron sport played in the NFL, college and high school. It appears in game-day plans, fantasy league chatter, tailgate photos and Super Bowl posts. Outside North America, people sometimes mistake it for a rugby ball, which has its own emoji.",
+  "meaning": [
+    "For American users, 🏈 simply means football, and its calendar is easy to trace. It appears in late summer when training camps open, takes over weekends from September through the winter, and peaks around the Super Bowl in February. People send it to announce they are watching, to celebrate a touchdown, to invite friends to a watch party or to complain about their team again.",
+    "Fantasy football gives the emoji a second, year-round audience. League group chats use it in draft reminders, trade offers and weekly trash talk, often from people who rarely watch a full game. Around Thanksgiving it sits next to the 🦃 because football on that holiday is a fixed American tradition, and in fall it signals the whole season of tailgates, marching bands and homecoming.",
+    "Idioms carry it beyond sport. A “Hail Mary” is a desperate last attempt, “punting” means postponing a decision, a “Monday morning quarterback” criticizes with hindsight, and “fumbling” has become popular slang for losing a good thing, especially a relationship, through your own carelessness. The emoji often accompanies those phrases, but it has no coded meaning apart from them."
+  ],
+  "contexts": [
+    {
+      "label": "In sports talk",
+      "body": "Fans use 🏈 as a headline marker: “🏈 Sunday,” kickoff times, score updates and playoff scenarios. College supporters pair it with school colors and mascots on Saturdays, while NFL fans combine it with team-colored hearts. On draft night and during free agency it tags roster news even though no games are being played."
+    },
+    {
+      "label": "In texting",
+      "body": "“Coming over for the game? 🏈” is the standard use. It also works as a do-not-disturb sign from someone parked on the couch. In family chats it shows up for youth league schedules and Friday night high school games. A lone 🏈 as a reply usually means “yes, I’m watching too.”"
+    },
+    {
+      "label": "On holidays",
+      "body": "Two dates own this emoji. Thanksgiving posts combine it with turkey and pie, and Super Bowl Sunday brings it out even among people who are there for the commercials, the halftime show and the snacks. Party invitations for that day often use only 🏈 and a time."
+    },
+    {
+      "label": "Around the world",
+      "body": "Outside the United States and Canada, football means the sport played with ⚽, so this emoji needs its full name. International users reach for it when discussing the NFL’s overseas games or American culture generally, and some mistakenly use it for rugby because both balls are pointed ovals."
+    }
+  ],
+  "examples": [
+    { "text": "Wings are ordered, kickoff at 1 🏈", "meaning": "They are hosting or joining a game-day gathering and it starts soon." },
+    { "text": "I fumbled that so badly 🏈", "meaning": "They ruined a good opportunity, often a romantic one, through their own mistake." },
+    { "text": "Draft is Sunday at 7, don’t be late 🏈", "meaning": "A fantasy league reminder to show up for player selection." },
+    { "text": "Sending the application anyway. Hail Mary 🏈", "meaning": "It is a long shot, but they are trying regardless." },
+    { "text": "Super Bowl party at ours 🏈🌮", "meaning": "An invitation to watch the championship game with food." }
+  ],
+  "combos": [
+    { "combo": "🏈🍗", "meaning": "Game-day food, especially wings, at a watch party or tailgate." },
+    { "combo": "🏈🦃", "meaning": "Thanksgiving Day football, a holiday tradition in the United States." },
+    { "combo": "🏈🏆", "meaning": "A championship win, from a fantasy league title to the Super Bowl." },
+    { "combo": "🏈📺", "meaning": "Staying in to watch the game rather than going anywhere." }
+  ],
+  "confusedWith": [
+    { "slug": "rugby-football", "difference": "🏉 is a rugby ball: rounder at the ends, usually white or cream with colored bands and no laces. 🏈 is brown, sharply pointed and shows white stitching along the top." },
+    { "slug": "soccer-ball", "difference": "⚽ is what most of the world means by football. If you are talking about the Premier League or a World Cup, use that one; 🏈 is only for the gridiron game." }
+  ],
+  "avoid": [
+    "Do not send 🏈 to international friends when you mean soccer; it names a different sport to them.",
+    "Avoid using it for rugby matches, since fans of that sport have 🏉 and notice the difference.",
+    "Think twice before telling someone they “fumbled 🏈” about a breakup that still hurts."
+  ],
+  "design": "The glyph is a brown leather ball shaped like a pointed oval, tilted diagonally, with white laces across the top. Most vendors, including Apple and Google, add the white stripes near each tip that appear on college balls. Designs agree closely across platforms, so the only real variation is the angle and the richness of the brown.",
+  "faqs": [
+    { "q": "What does “fumbled” with 🏈 mean?", "a": "In football, a fumble is dropping the ball. In slang, it means losing something valuable by mishandling it, most often a partner or a chance with someone. “He fumbled her 🏈” says he had a great thing and blew it." },
+    { "q": "Is 🏈 a rugby ball?", "a": "No. It is specifically an American football, recognizable by its laces and pointed ends. Rugby has a separate emoji, 🏉, which is plumper and has no stitching on show." },
+    { "q": "What does 🏈 mean from a guy or a girl?", "a": "Almost always that they are watching, playing or planning around a game. If it comes with an invitation, they want company for it. It does not have a flirtatious or hidden meaning by itself." },
+    { "q": "Which emoji should I use for the Super Bowl?", "a": "🏈 is the standard choice, often with 🏆 for the winner and food emojis for the party. Fans also add hearts in their team’s colors, because there are no official team emojis on the regular keyboard." },
+    { "q": "When was the American football emoji added?", "a": "It joined the first standardized emoji set in 2010, alongside the soccer ball, basketball and baseball, and is supported on every modern phone and computer." }
+  ],
+  "related": ["soccer-ball", "basketball", "trophy", "flag-united-states", "1st-place-medal", "clinking-beer-mugs"]
+}

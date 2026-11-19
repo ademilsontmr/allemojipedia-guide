@@ -1,0 +1,57 @@
+{
+  "slug": "thumbs-down",
+  "title": "Thumbs Down Emoji 👎 Meaning: Dislike, No and Boo",
+  "description": "The 👎 thumbs down emoji signals disapproval, a no vote or a bad review. See how it differs as a reaction versus a message, and when it comes off as harsh.",
+  "summary": "The 👎 thumbs down emoji means disapproval: no, bad idea, I don't like it, that was terrible. People use it to vote against a suggestion, pan a movie or meal, or boo a result. It is blunt by design, so it lands harder than a typed “not really.”",
+  "meaning": [
+    "A downturned thumb is rejection in its simplest form. In messages, 👎 answers “should we go?” with a no, grades a restaurant as not worth returning to, or registers displeasure at news such as a canceled show or a referee's call. Unlike its upward twin, it is rarely used as filler. People reach for it when they actually have a negative opinion to express.",
+    "Much of its everyday use is about things rather than people: weather, traffic, prices, a bad season finale. Aimed at an experience, it reads as honest and often funny. Aimed at something a person made or proposed, it stings, because the gesture offers a verdict with no explanation. A reply of 👎 to a friend's outfit photo or a colleague's draft says “I don't like this” and nothing about why.",
+    "The gesture's popular backstory comes from the Roman arena, where a turned thumb supposedly condemned a gladiator. Historians dispute which direction actually meant death, but the modern meaning was fixed long ago by film critics, review sites and the dislike buttons that followed them. That rating-system heritage is why the emoji still feels like a score being handed down.",
+    "Playful use exists too. Friends boo each other's puns with it, sports fans fire it at rival teams, and it shows up in mock outrage (“no dessert? 👎”). Tone depends heavily on the relationship: between close friends it is teasing, while from a manager or a stranger it reads as a flat refusal."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Most often it is a fast no or a small complaint. “Rain all weekend 👎” needs no further comment. As a response to a suggestion it can feel abrupt, so people commonly soften it with a reason or an alternative. When someone asks for honest feedback and gets only the emoji, they usually follow up asking what exactly was wrong."
+    },
+    {
+      "label": "As a reaction",
+      "body": "iMessage, Slack, Discord and other apps offer 👎 as a one-tap reaction. In polls and quick votes that is its natural home: thumbs up for yes, thumbs down for no. Dropped on a personal message outside of a vote, the reaction can feel like a public dislike, which is one reason some platforms hide or de-emphasize downvote counts."
+    },
+    {
+      "label": "At work",
+      "body": "Use it sparingly here. It is fine when someone explicitly asks the team to vote, or to flag that a proposed time does not work. As feedback on a person's work it comes across as dismissive, since it rejects without explaining. A sentence about what needs changing does the same job and leaves the working relationship intact."
+    }
+  ],
+  "examples": [
+    { "text": "Tried the new burger place. 👎 Dry and overpriced", "meaning": "A short negative review; the sender would not recommend it." },
+    { "text": "Meeting moved to 7am tomorrow 👎", "meaning": "Mild grumbling about unwelcome news rather than anger at anyone." },
+    { "text": "Pineapple on pizza? 👎👎", "meaning": "Emphatic, joking disagreement in a low-stakes debate." },
+    { "text": "👍 or 👎 on the blue paint?", "meaning": "A request for a quick yes-or-no opinion." },
+    { "text": "That penalty call 👎👎👎", "meaning": "Booing a decision in a game the sender is watching." }
+  ],
+  "combos": [
+    { "combo": "👍👎", "meaning": "A vote prompt, or a way of saying something was a mix of good and bad." },
+    { "combo": "👎😒", "meaning": "Unimpressed and a little irritated; the sender expected better." },
+    { "combo": "👎👎", "meaning": "Strong dislike, the emoji version of “absolutely not.”" },
+    { "combo": "🍅👎", "meaning": "Mock heckling, as if throwing tomatoes at a bad joke or performance." }
+  ],
+  "confusedWith": [
+    { "slug": "cross-mark", "difference": "❌ marks something as wrong, canceled or not allowed, in a factual way. 👎 is a personal opinion: the sender dislikes it. A wrong quiz answer gets a cross; a disappointing sequel gets a thumbs down." },
+    { "slug": "person-gesturing-no", "difference": "🙅 is a firm refusal or boundary, arms crossed to block something. 👎 judges quality. One says “I won't” or “not allowed”; the other says “that was bad.”" },
+    { "slug": "backhand-index-pointing-down", "difference": "👇 points at content below, such as a link or the next message, and carries no opinion. 👎 has the thumb extended from a closed fist and always expresses disapproval." }
+  ],
+  "avoid": [
+    "Do not use it as your only response to something a person created, cooked or wrote; say what you think instead.",
+    "Avoid it when someone shares bad news about themselves, where it can look like you are disapproving of them rather than the situation.",
+    "Leave it out of customer or client conversations, where it reads as curt."
+  ],
+  "design": "A closed fist with the thumb extended downward, usually shown from the back of the hand. It is drawn as the mirror image of the thumbs up on every major platform, in default yellow with optional skin tones. Apple, Google, Samsung and Microsoft differ only in shading and the angle of the hand, so the meaning never changes between devices.",
+  "faqs": [
+    { "q": "Is the thumbs down emoji rude?", "a": "It can be. It is acceptable for voting, reviewing things or joking with friends, but as a reply to someone's idea or work it is blunt and gives no reason. Adding a short explanation makes it far less harsh." },
+    { "q": "What does 👎 mean as a reaction on iMessage?", "a": "The dislike tapback means you disagree with or do not like the message. In a group planning thread it is a no vote. On a personal message it can feel cold, so many people avoid it outside of quick decisions." },
+    { "q": "Did thumbs down really mean death in ancient Rome?", "a": "That is the popular story, but the evidence is unclear. Roman sources mention a “turned thumb” without saying which way it pointed, and many historians doubt the modern version. The emoji's meaning comes from recent usage, not from the arena." },
+    { "q": "What is the difference between 👎 and 👍?", "a": "They are direct opposites: 👍 approves or agrees, 👎 disapproves or declines. One practical difference is that thumbs up is often used as a neutral “seen,” while thumbs down is almost never neutral. It always carries a negative judgment." }
+  ],
+  "related": ["thumbs-up", "cross-mark", "person-gesturing-no", "unamused-face", "disappointed-face", "prohibited"]
+}

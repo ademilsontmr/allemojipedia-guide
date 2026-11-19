@@ -1,0 +1,59 @@
+{
+  "slug": "raised-hand",
+  "title": "Raised Hand Emoji ✋ Meaning: Stop, High Five or “Me!”",
+  "description": "✋ can mean stop, hold on, high five, or “I volunteer.” See how context changes the raised hand emoji's meaning and how it differs from the wave 👋.",
+  "summary": "The ✋ raised hand emoji shows an open palm held up and has several meanings. It can say stop or wait, offer a high five, raise a hand to ask a question or volunteer, or stand for the number five. The words around it tell you which.",
+  "meaning": [
+    "An upright palm facing someone is the universal traffic-cop signal, so ✋ often means stop. “✋ no spoilers” or “hold up ✋” halts a conversation before it goes further. It can be playful, as when someone is being too funny or too flattering, or firm, as when a topic is off limits. A related meme pairs it with a laughing or crying face for “please stop, I can't take it.”",
+    "The high five is its cheerful side. No emoji is officially dedicated to one, so people use ✋ for it, sometimes mirrored with 🤚 to suggest two hands meeting. “We did it ✋” invites the slap. Because the same glyph also means stop, a high five usually needs an exclamation mark or celebratory context to land.",
+    "It is also the hand you put up in class. In group chats, “who wants pizza?” gets a column of ✋ replies. Video-meeting tools use the same symbol for their “raise hand” feature, which reinforced the meaning of “I have something to say.” In confessional jokes it says “guilty,” as in “who else forgot the meeting ✋.”",
+    "Other uses are scattered. It can be the number five, a pledge or oath (hand raised to swear), or the 1990s “talk to the hand” dismissal. In some belief systems an open hand is a protective symbol, and people sometimes use ✋ loosely for that, although the emoji is not a hamsa."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Stop and “me” are the common readings. “✋ wait, back up” asks for a pause. Answering “anyone hungry?” with ✋ volunteers. Paired with a face, it gains attitude: ✋😌 is a calm “no thanks,” and ✋😭 means something is too funny or too much. Friends also throw it out as a high five after shared wins."
+    },
+    {
+      "label": "At work",
+      "body": "Useful and well understood. It serves as a quick poll response, a way to claim a task (“I'll take that ✋”) and a polite signal that you want to speak in a meeting chat. Avoid using it as a bare “stop” toward colleagues, where an open palm can seem like you are shutting them down."
+    },
+    {
+      "label": "Around the world",
+      "body": "In Greece an open palm thrust toward a person is the moutza, a traditional and serious insult, and similar gestures are rude in parts of West Africa and South Asia. The emoji seldom causes offense by text, but directing a spread palm at someone in person can. Elsewhere the raised palm is simply a greeting or a sign of peaceful intent."
+    }
+  ],
+  "examples": [
+    { "text": "✋ don't tell me how it ends", "meaning": "Stop right there; the sender does not want to hear more." },
+    { "text": "Who's in for Friday? ✋", "meaning": "Volunteering: count me in." },
+    { "text": "We closed the deal!! ✋", "meaning": "Offering a celebratory high five." },
+    { "text": "Not me crying at a cereal ad ✋😭", "meaning": "Mock overwhelm; “stop, this is too much.”" },
+    { "text": "Give me ✋ minutes", "meaning": "The number five." },
+    { "text": "Who else has never seen Star Wars ✋", "meaning": "Admitting to something and asking who shares it." }
+  ],
+  "combos": [
+    { "combo": "✋😭", "meaning": "“Stop, I can't,” used when something is hilarious or painfully relatable." },
+    { "combo": "🤚✋", "meaning": "Two hands meeting: a high five." },
+    { "combo": "✋🛑", "meaning": "An emphatic stop; do not continue." },
+    { "combo": "✋😌", "meaning": "A serene refusal: no thank you, I'm above this." }
+  ],
+  "confusedWith": [
+    { "slug": "waving-hand", "difference": "👋 is tilted and has motion lines, meaning hello or goodbye. ✋ is upright and still, meaning stop, high five or a raised hand. Sending the wrong one can turn a greeting into a halt." },
+    { "slug": "raised-back-of-hand", "difference": "🤚 shows the back of the hand instead of the palm. The two are often paired as a high five. On its own, the back of the hand is used for volunteering or displaying nails and rings." },
+    { "slug": "person-raising-hand", "difference": "🙋 shows a whole person with an arm up, clearly meaning “me!” or “I have a question.” ✋ can mean that too, but it might also be stop or a high five, so the person emoji is less ambiguous." }
+  ],
+  "avoid": [
+    "Do not send a bare ✋ to cut someone off in a sensitive conversation, where it reads as “talk to the hand.”",
+    "Avoid relying on it alone for a high five if the context could suggest “stop.”",
+    "In person, do not push an open palm toward someone's face in Greece."
+  ],
+  "design": "A single open hand held upright, palm facing the viewer, with the fingers together or only slightly parted. Platform designs agree closely and differ mainly in how far the thumb sits from the fingers. Unlike the waving hand, it has no motion lines. It is yellow by default and supports skin tones.",
+  "faqs": [
+    { "q": "Does ✋ mean stop or high five?", "a": "It can mean either. With words such as “wait,” “no” or “hold on,” it means stop. After good news or with an exclamation mark, it is a high five. In a group question, it means “me.”" },
+    { "q": "What does ✋😭 mean?", "a": "It means “stop, I can't handle this,” usually because something is extremely funny, cute or embarrassing. The hand playfully tells the other person to stop while the crying face shows the sender is overwhelmed, in a good way." },
+    { "q": "Is there a high five emoji?", "a": "No emoji is officially named high five. People most often use ✋, the pair 🤚✋, or 🙌. The folded hands emoji 🙏 is sometimes claimed to be one, but it represents prayer or thanks." },
+    { "q": "What is the difference between ✋ and 🖐️?", "a": "✋ has the fingers held together, and 🖐️ has them spread wide apart. Both show a raised palm and overlap in meaning, but the splayed hand is used more for the number five and the closed one for stop." },
+    { "q": "What does the raised hand mean in Zoom or Teams?", "a": "The hand icon signals that a participant wants to speak or ask a question without interrupting. In chat, typing ✋ does the same job, or casts a vote when the host asks who agrees." }
+  ],
+  "related": ["waving-hand", "raised-back-of-hand", "hand-with-fingers-splayed", "person-raising-hand", "prohibited", "raising-hands"]
+}

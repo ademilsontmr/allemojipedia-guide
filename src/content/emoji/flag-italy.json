@@ -1,0 +1,106 @@
+{
+  "slug": "flag-italy",
+  "title": "🇮🇹 Italy Flag Emoji Meaning: Il Tricolore Online",
+  "description": "The Italy flag emoji 🇮🇹 has green, white and red stripes. Learn how it's used for food, football and heritage, and how to tell it from Mexico and Ireland.",
+  "summary": "The 🇮🇹 emoji is the flag of Italy, known as il Tricolore: three vertical stripes of green, white, and red. It signals Italian nationality and heritage, and it is the default tag for pasta and pizza, trips to Rome or the Amalfi Coast, fashion, fast cars, and the national football team.",
+  "meaning": [
+    "Food makes 🇮🇹 one of the most-used flags by people with no connection to the country. A plate of carbonara, a Neapolitan pizza, an espresso at the bar, a homemade tiramisu: the flag certifies them all as Italian, or at least Italian-inspired. Italians return the favor by posting 🇮🇹 in mock outrage under videos of broken spaghetti, cream in carbonara, or pineapple on pizza, a genre of comment that has become a joke everyone is in on.",
+    "Heritage is the second big theme. Italian Americans, Italian Australians, and Italian Argentines use 🇮🇹 in bios and family posts about Sunday dinners and grandparents' villages. In Italy itself the flag is linked to football more than anything else. The national team plays in blue, hence the nickname Azzurri, but supporters celebrate with green, white, and red. Ferrari wins at Monza, Olympic medals, and Eurovision entries bring it out as well.",
+    "The tricolor took shape in the 1790s, influenced by the French flag, and became the banner of Italian unification in the nineteenth century. The republic confirmed it after the Second World War, and it is honored on June 2, Republic Day. Popular tradition gives the colors poetic meanings such as hope, faith, and charity, or green plains and snowy Alps; none of these is official."
+  ],
+  "contexts": [
+    {
+      "label": "In food content",
+      "body": "Recipe creators add 🇮🇹 to signal authenticity, and commenters use it to approve or protest. Restaurants put it beside dishes or wine lists. It combines readily with 🍝, 🍕, and the pinched-fingers gesture 🤌, which the internet has adopted as shorthand for Italian expressiveness."
+    },
+    {
+      "label": "In travel",
+      "body": "Summer brings a flood of 🇮🇹 from Positano, Lake Como, Sicily, and Tuscany. Honeymoon announcements and “Euro summer” reels rely on it. Because Italy is a perennial favorite destination, the flag in a caption is often all the location tag a photo gets."
+    },
+    {
+      "label": "In sports",
+      "body": "The Azzurri at the Euros and World Cup, Serie A stars abroad, tennis champions, and Ferrari in Formula 1 all prompt the flag. Fans write “Forza Italia” or “Forza Azzurri” next to it. MotoGP and cycling's Giro d'Italia add steady use through the year."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Nonna's ragù, six hours, no shortcuts 🇮🇹🍝",
+      "meaning": "Pride in a traditional family recipe."
+    },
+    {
+      "text": "Amalfi Coast for our anniversary 🇮🇹🍋",
+      "meaning": "Sharing a romantic trip to Italy."
+    },
+    {
+      "text": "You put CREAM in the carbonara?? 🇮🇹😤",
+      "meaning": "Playful Italian outrage at a non-traditional recipe."
+    },
+    {
+      "text": "Campioni d'Europa!!! 🇮🇹🇮🇹🇮🇹",
+      "meaning": "Celebrating an Italian European Championship win."
+    },
+    {
+      "text": "Third-generation Italian American and I still can't roll my Rs 🇮🇹",
+      "meaning": "A lighthearted note about heritage."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇮🇹🍕",
+      "meaning": "Italian food, pizza first."
+    },
+    {
+      "combo": "🇮🇹🤌",
+      "meaning": "Italian expressiveness, often about food being done properly or improperly."
+    },
+    {
+      "combo": "🇮🇹🏎️",
+      "meaning": "Ferrari and Italian motorsport."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-mexico",
+      "difference": "🇲🇽 Mexico's flag has the same color sequence with a coat of arms, an eagle on a cactus, in the white stripe. Italy's white stripe is empty."
+    },
+    {
+      "slug": "flag-ireland",
+      "difference": "🇮🇪 Ireland's third stripe is orange, not red. The two are regularly swapped on St. Patrick's Day and during football tournaments."
+    },
+    {
+      "slug": "flag-hungary",
+      "difference": "🇭🇺 Hungary uses red, white, and green in horizontal bands with red on top. Rotate it and the colors match Italy's, which is how the mix-up happens."
+    }
+  ],
+  "avoid": [
+    "Do not pair it with mafia jokes; Italians and Italian diaspora communities widely resent the stereotype.",
+    "Avoid tagging clearly non-Italian inventions as 🇮🇹 unless you are ready for corrections in the comments."
+  ],
+  "design": "Three equal vertical stripes: green by the pole, white in the middle, red at the fly. The flag has no emblem, so emoji versions differ only in style and shade. Windows does not draw it and shows the letters IT, which occasionally leads people to think someone typed the word “it.”",
+  "faqs": [
+    {
+      "q": "What is the difference between the Italy and Mexico flag emojis?",
+      "a": "Mexico's has a brown emblem in the center and darker colors. Italy's is three plain stripes. When in doubt, zoom in on the white band."
+    },
+    {
+      "q": "What do Italy's flag colors mean?",
+      "a": "There is no official meaning. Common explanations link green to the countryside or hope, white to the Alps or faith, and red to the blood of those who fought for independence, but these are traditions, not law."
+    },
+    {
+      "q": "Why do Italian teams wear blue if the flag is green, white and red?",
+      "a": "Blue was the color of the House of Savoy, the royal family under which Italy was unified. National teams kept it after Italy became a republic, which is why they are called the Azzurri."
+    },
+    {
+      "q": "How is the Italian flag emoji built?",
+      "a": "It is the pair of regional indicator letters I and T. Compatible devices show the flag; Windows shows “IT.” The emoji has been part of the standard since 2010."
+    }
+  ],
+  "related": [
+    "flag-mexico",
+    "flag-ireland",
+    "flag-france",
+    "pizza",
+    "spaghetti",
+    "flag-spain"
+  ]
+}

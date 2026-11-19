@@ -1,0 +1,51 @@
+{
+  "slug": "speech-balloon",
+  "title": "Speech Balloon Emoji 💬 Meaning: Comments, Chat and DMs",
+  "description": "💬 is the comic speech bubble. It stands for talking, texting, comments and “message me,” and it marks quotes and discussion prompts. See how it is used.",
+  "summary": "The 💬 speech balloon emoji is a comic-style bubble that stands for speech and messages. People use it to mean chatting, texting, commenting or “let's talk,” and creators use it to ask followers to reply. It rarely carries emotion; it points to conversation itself.",
+  "meaning": [
+    "Comic strips put spoken words inside a rounded bubble with a tail pointing to the speaker, and 💬 borrows that shape. As an emoji it almost never contains anyone's actual words. It stands for the act of communicating: a conversation, a message, a comment. That makes it one of the keyboard's most functional symbols, closer to an icon than to an expression of feeling.",
+    "Its commonest job is as a call to action. “Tell me yours 💬,” “thoughts? 💬” and “comment below 💬” all use the bubble as a pointer to the reply box. Because many apps use a similar icon for their comment and message buttons, readers understand it instantly. Businesses use it in the same way for “chat with us,” customer support and contact details, usually beside 📞 and 📧.",
+    "Several vendors draw three dots inside the balloon, which links it to the typing indicator in chat apps. People play on that with messages like “💬...” to mean “I'm thinking about what to say,” or to tease someone who has been typing for a long time without sending. It can also signal that the sender has something to say and is waiting for a good moment.",
+    "It also labels quotations and dialogue. Writers put it before a quoted line, language learners use it to mark speaking practice, and meeting notes use it for discussion items. It can mean gossip or buzz, as in “people are talking 💬.” What it never does is tell you the tone of the conversation. A friendly chat and a serious “we need to talk” use the same bubble."
+  ],
+  "contexts": [
+    { "label": "On social media", "body": "Creators end captions with it to invite comments and boost engagement: a question followed by 💬. In stories and reels it sits next to prompts such as “ask me anything.” It also appears in bios for “DMs open” or to introduce a favorite quote. In all these cases it is a signpost, not a sentiment." },
+    { "label": "In texting", "body": "Between individuals it means “let's talk” or “message me.” “Free later? 💬” proposes a catch-up. Sent alone it can mean “say something” or “I have news.” Coming from a partner after a disagreement, “can we 💬” may feel weightier, though the emoji itself is neutral." },
+    { "label": "At work", "body": "This is one of the safest emojis for professional use. It marks discussion topics in agendas, labels feedback threads and signals that comments are welcome on a document. Support teams and chatbots use it for live chat. It carries no emotional risk, which is exactly why workplaces like it." },
+    { "label": "In learning and writing", "body": "Teachers and language apps use the bubble for speaking exercises and conversation practice. Authors and quote accounts use it to introduce dialogue or a memorable line. In newsletters it often heads the section where reader replies or community discussion are shared." }
+  ],
+  "examples": [
+    { "text": "What's the best advice you ever got? 💬👇", "meaning": "A creator asking followers to answer in the comments." },
+    { "text": "Got a minute to 💬 tonight?", "meaning": "A request for a conversation later." },
+    { "text": "💬 “Done is better than perfect.”", "meaning": "The bubble introduces a quotation." },
+    { "text": "You've been typing for ten minutes 💬...", "meaning": "Teasing someone about a long-delayed message." },
+    { "text": "Questions? Chat with our team 💬", "meaning": "A business pointing customers to live chat support." },
+    { "text": "Everyone's talking about the finale 💬🔥", "meaning": "The show is generating a lot of discussion." }
+  ],
+  "combos": [
+    { "combo": "💬👇", "meaning": "Leave your answer in the comments below." },
+    { "combo": "💬❤️", "meaning": "Loving messages, or thanks for kind comments." },
+    { "combo": "📱💬", "meaning": "Texting or a new message on the phone." },
+    { "combo": "💬💭", "meaning": "What is said versus what is thought; speaking and reflecting." }
+  ],
+  "confusedWith": [
+    { "slug": "thought-balloon", "difference": "💭 is a cloud-shaped bubble with small circles trailing from it, the comic sign for unspoken thoughts and daydreams. 💬 has a pointed tail and means words said or sent out loud." },
+    { "slug": "left-speech-bubble", "difference": "🗨️ is a plainer, usually outlined bubble with its tail on the left. It is rarely used alone and is best known as a part of the eye-in-speech-bubble emoji. 💬 is the standard choice for chat and comments." },
+    { "slug": "right-anger-bubble", "difference": "🗯️ has jagged edges to show shouting or rage. 💬 has smooth edges and no emotional charge. Choose the spiky one only when the words are meant to be yelled." }
+  ],
+  "avoid": [
+    "Do not send it alone to someone who is anxious about a serious talk, because a bare bubble can feel ominous.",
+    "Avoid overusing it in captions, where a comment prompt on every post starts to look like engagement bait.",
+    "Skip it when you mean thinking instead of speaking; that is the thought balloon's job."
+  ],
+  "design": "A rounded speech bubble with a small tail at the bottom, usually white or light grey. Several platforms put three dots in the middle, echoing a typing indicator, and others leave it empty. The tail's position and the outline color vary slightly. It has been in the standard set since 2010 and resembles the message icons used across many apps.",
+  "faqs": [
+    { "q": "What does 💬 mean in a text?", "a": "It refers to talking or messaging. Depending on the sentence it can mean “let's chat,” “message me,” “I have something to say,” or it can introduce a quote. It does not express a mood, so read the surrounding words for tone." },
+    { "q": "What does 💬 mean on Instagram or TikTok?", "a": "It is nearly always an invitation to comment or a reference to DMs. Creators add it after questions to encourage replies. It mirrors the comment icon in those apps, so viewers know where to respond." },
+    { "q": "What do the three dots in the speech balloon mean?", "a": "On platforms that include them, the dots imitate the “someone is typing” animation in chat apps. They suggest a message in progress. Not every vendor draws them, so the person you send it to may see an empty bubble." },
+    { "q": "What is the difference between 💬 and 🗨️?", "a": "Both are speech bubbles. 💬 is the original, widely used one, often filled and sometimes with dots. 🗨️ is a later, plainer symbol with a left-pointing tail that is seldom used by itself in everyday messaging." },
+    { "q": "Is 💬 okay in professional emails and chats?", "a": "Yes. It is neutral and functional, suitable for marking discussion points, inviting feedback or pointing to a chat channel. As with any emoji, use it sparingly in formal correspondence with people you do not know." }
+  ],
+  "related": ["thought-balloon", "left-speech-bubble", "right-anger-bubble", "speaking-head", "mobile-phone", "eye-in-speech-bubble"]
+}

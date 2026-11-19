@@ -1,0 +1,102 @@
+{
+  "slug": "flag-brazil",
+  "title": "🇧🇷 Brazil Flag Emoji Meaning: Why Fans Spam It",
+  "description": "The Brazil flag emoji 🇧🇷 stands for Brazil, its football, Carnival and famously loud fans. Learn the flag's symbols and the “come to Brazil” meme behind it.",
+  "summary": "The 🇧🇷 emoji is the flag of Brazil: a green field, a yellow diamond, and a blue globe of stars crossed by the motto “Ordem e Progresso.” It signals Brazilian identity, football, Carnival, and travel, and it is the calling card of Brazilian fans in comment sections worldwide.",
+  "meaning": [
+    "Brazilians are among the most active national communities online, and 🇧🇷 is how they announce themselves. Under a pop star's post, rows of flags accompany the plea “come to Brazil,” a request so persistent it became a meme in its own right. When a Brazilian creator, athlete, or film gets international attention, compatriots arrive in the comments with 🇧🇷 to claim them. Seeing the flag in bulk usually means a Brazilian audience has found the post.",
+    "Football is the other great engine. The national team, the Seleção, has won five men's World Cups, and the yellow shirt is as recognizable as the flag. Match days, transfer rumors about Brazilian players, and nostalgia for Pelé, Ronaldo, and Ronaldinho all draw the emoji. Beyond sport it marks Carnival, samba and funk, beaches, açaí, and Independence Day on September 7.",
+    "The flag's design rewards a close look. The banner across the globe reads “Order and Progress,” and the twenty-seven stars stand for the twenty-six states and the Federal District. They are arranged as constellations, including the Southern Cross. The design was adopted in 1889 when Brazil became a republic. Within Brazil the flag and the yellow jersey have also been prominent in political rallies in recent years, so domestic use can carry partisan overtones that outsiders may not notice."
+  ],
+  "contexts": [
+    {
+      "label": "In fan comment sections",
+      "body": "On Instagram, YouTube, and X, 🇧🇷 appears wherever Brazilians want a tour date, a subtitle track, or simple acknowledgment. Artists often answer by posting the flag back. The tone is enthusiastic and communal; a single flag from a celebrity can generate thousands of delighted replies."
+    },
+    {
+      "label": "In football",
+      "body": "World Cup and Copa América posts are saturated with 🇧🇷, usually alongside 💛💚. Club fans abroad use it to welcome or discuss Brazilian signings. In rivalry talk with Argentina, the two flags face off as a shorthand for South America's biggest football argument."
+    },
+    {
+      "label": "Travel and culture",
+      "body": "Trip announcements for Rio or Salvador, Carnival costumes, capoeira classes, and Brazilian steakhouse dinners all get the flag. It also tags Brazilian Portuguese specifically, distinguishing it from the European variety in language-learning content. Food accounts lean on it for brigadeiro, pão de queijo, and feijoada, and expats use it when hunting for those tastes abroad."
+    }
+  ],
+  "examples": [
+    {
+      "text": "COME TO BRAZIL 🇧🇷🇧🇷🇧🇷 we are begging",
+      "meaning": "A fan asking an artist to tour in Brazil."
+    },
+    {
+      "text": "Carnival tickets booked, Rio in February 🇧🇷🎉",
+      "meaning": "Announcing travel plans for Carnival."
+    },
+    {
+      "text": "Hexa is coming, I can feel it 🇧🇷⚽",
+      "meaning": "Hoping Brazil wins a sixth World Cup."
+    },
+    {
+      "text": "She's Brazilian!! one of ours 🇧🇷",
+      "meaning": "Proudly claiming a celebrity as a compatriot."
+    },
+    {
+      "text": "Learning Portuguese 🇧🇷 not the Portugal kind",
+      "meaning": "Specifying the Brazilian variety of the language."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇧🇷⚽",
+      "meaning": "Brazilian football and the national team."
+    },
+    {
+      "combo": "🇧🇷💛💚",
+      "meaning": "National pride in the flag's dominant colors."
+    },
+    {
+      "combo": "🇧🇷🎭",
+      "meaning": "Carnival season."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-portugal",
+      "difference": "🇵🇹 Portugal shares a language with Brazil, not a look. Its flag is green and red with a coat of arms. The two get swapped when people need a “Portuguese” language icon, and speakers on each side notice."
+    },
+    {
+      "slug": "green-heart",
+      "difference": "💚 with 💛 is a popular stand-in for Brazil's colors, especially where flags do not display. Hearts express affection for the country; only the flag states nationality clearly."
+    }
+  ],
+  "avoid": [
+    "Do not use it to represent Portuguese speakers in general or Latin America as a whole; Brazil's neighbors mostly speak Spanish.",
+    "Avoid assuming a row of Brazilian flags is spam; it is usually sincere fan enthusiasm."
+  ],
+  "design": "A green rectangle holds a yellow rhombus, and inside that sits a dark blue disc scattered with white stars and crossed by a curved white band. At emoji size the motto on the band is illegible and the stars become specks. Renderings are consistent across phones; Windows shows the letters BR.",
+  "faqs": [
+    {
+      "q": "Why do Brazilians comment 🇧🇷 on everything?",
+      "a": "It began with fans urging artists to perform in Brazil and grew into a general way of showing national presence and pride. Brazil has a very large, highly engaged social media population, so the flags add up quickly."
+    },
+    {
+      "q": "What does the writing on Brazil's flag say?",
+      "a": "“Ordem e Progresso,” Portuguese for “Order and Progress.” The motto is inspired by the positivist philosophy of Auguste Comte, which influenced the founders of the Brazilian republic."
+    },
+    {
+      "q": "What do the stars on the Brazilian flag represent?",
+      "a": "Each of the twenty-seven stars stands for a state or the Federal District. They are laid out to reflect the sky over Rio de Janeiro on November 15, 1889, the day the republic was proclaimed."
+    },
+    {
+      "q": "How is the Brazil flag emoji encoded?",
+      "a": "As two regional indicator letters, B and R, from the country code BR. Supporting systems fuse them into the flag, while Windows' default font leaves them as letters. The emoji has been available since 2015."
+    }
+  ],
+  "related": [
+    "flag-portugal",
+    "flag-argentina",
+    "soccer-ball",
+    "green-heart",
+    "yellow-heart",
+    "partying-face"
+  ]
+}

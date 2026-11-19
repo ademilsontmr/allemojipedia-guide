@@ -1,0 +1,50 @@
+{
+  "slug": "face-with-monocle",
+  "title": "Face with Monocle Emoji 🧐 Meaning: Let Me Inspect That",
+  "description": "🧐 peers through a monocle with a raised brow. It means scrutiny, curiosity or mock sophistication, and sometimes real suspicion. See how it reads in a text.",
+  "summary": "The 🧐 face with monocle means the sender is taking a closer look. It expresses curiosity, careful thought and skepticism, often with a comic air of sophistication. People use it to say interesting, tell me more, to question a suspicious claim and to play at being fancy or intellectual.",
+  "meaning": [
+    "A monocle belongs to cartoon aristocrats, detectives and professors, so an emoji wearing one is never entirely serious. 🧐 shows someone leaning in to examine evidence. Its most common use is a thoughtful hmm: the sender has noticed something and wants to consider it, whether that is a friend's vague post, a strange noise from the car or a clue in a mystery show.",
+    "The same look works for doubt. Replying 🧐 to an excuse or an unlikely story means I am not sure I believe you, and I am studying your answer. It is gentler than the raised eyebrow face because the monocle makes it theatrical. The person is playing detective rather than making an accusation.",
+    "Then there is the posh reading. People pair it with fine food, wine tasting, opera tickets or a deliberately formal sentence to act cultured. Indeed 🧐 and quite 🧐 are jokes in this style. It can mock snobbery or enjoy it, and it suits anyone pretending to be more refined than they feel.",
+    "Finally, it marks real analysis. Reviewers, researchers, proofreaders and people comparing prices use it to mean examining the details. On professional networks it often introduces a question or a closer look at a claim. In that role it has largely taken over from the magnifying glass when a face is wanted."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It invites more information. If you mention you have news and a friend sends 🧐, they are intrigued and waiting. If you offer a weak explanation for being late, the same emoji says they are weighing it. It keeps things light even when the sender is truly suspicious." },
+    { "label": "On social media", "body": "It reacts to claims that need checking, cryptic announcements and theories. Fans use it when they spot a hidden detail in a trailer or a celebrity's photo. Under gossip it means the plot thickens. It is also common in posts that pose a question to followers." },
+    { "label": "From a crush", "body": "It signals curiosity about you. A 🧐 after you mention weekend plans or a mystery person may mean they want to know more, possibly with a hint of jealousy played for laughs. It is an interested emoji, though not a clearly romantic one." },
+    { "label": "At work", "body": "It is useful for saying I am looking into this or that a number seems off, without sounding accusatory. Use it with care on someone's finished work, since it implies you found something questionable. Following it with a specific question avoids leaving them guessing." }
+  ],
+  "examples": [
+    { "text": "You were “just at the gym” for four hours? 🧐", "meaning": "Playful suspicion about an unlikely story." },
+    { "text": "Interesting... 🧐 go on", "meaning": "Curious and wanting to hear more." },
+    { "text": "Trying the tasting menu tonight 🧐🍷", "meaning": "Joking about being sophisticated." },
+    { "text": "Why did they both post from the same restaurant 🧐", "meaning": "Noticing a clue and drawing conclusions." },
+    { "text": "Let me take a closer look at those figures 🧐", "meaning": "Careful review of details at work." },
+    { "text": "Hmm 🧐 that's not what you said yesterday", "meaning": "Pointing out an inconsistency." }
+  ],
+  "combos": [
+    { "combo": "🧐🔍", "meaning": "Investigating thoroughly; looking for clues or errors." },
+    { "combo": "🤔🧐", "meaning": "Thinking it over, then examining it more closely." },
+    { "combo": "🧐🍷", "meaning": "Playing the connoisseur at dinner or a tasting." },
+    { "combo": "👀🧐", "meaning": "I saw that, and I am now paying close attention." }
+  ],
+  "confusedWith": [
+    { "slug": "thinking-face", "difference": "🤔 rests its chin on its hand and ponders, or doubts in a general way. 🧐 has moved on from wondering to inspecting. It is more pointed and more theatrical, as though evidence is on the table." },
+    { "slug": "face-with-raised-eyebrow", "difference": "🤨 is flat disbelief or disapproval, the look you give a claim you reject. 🧐 is still open to being convinced and softens its skepticism with humor." },
+    { "slug": "nerd-face", "difference": "🤓 is about being a nerd or a know-it-all. 🧐 is about examining something specific. The nerd face already has the answer; the monocle face is still collecting facts." }
+  ],
+  "avoid": [
+    "Do not send it alone in reply to someone's sincere explanation if you do not intend to question them.",
+    "Avoid it when a person shares something vulnerable, where scrutiny feels cold.",
+    "Skip the posh joke with people who might think you are calling them pretentious."
+  ],
+  "design": "A yellow face with one eyebrow raised and a monocle over one eye, usually with a slight frown or a neutral, pursed mouth. Some vendors draw a chain or cord on the monocle and others omit it. The mouth varies from flat to mildly disapproving, which shifts the mood between curious and stern.",
+  "faqs": [
+    { "q": "What does 🧐 mean from a guy or girl?", "a": "They are curious or a bit suspicious about what you said and want details. It is typically playful. If it follows a mention of someone you spent time with, they may be fishing for information in a joking way." },
+    { "q": "Is 🧐 a rude emoji?", "a": "Not normally. It can feel judgmental if sent as the only response to someone's work or story, because it implies doubt. The cartoonish monocle keeps it lighter than a raised eyebrow, and most people take it as humor." },
+    { "q": "What is the difference between 🧐 and 🤔?", "a": "🤔 means thinking or mildly doubting. 🧐 means inspecting closely, often with a pretend-serious or upper-class manner. Use 🤔 when you are unsure and 🧐 when you are investigating or acting the expert." },
+    { "q": "When was the monocle emoji added?", "a": "It was approved in Unicode 10.0 in 2017, the same year as the exploding head, the star-struck face and the face with raised eyebrow. All major platforms have supported it for years." }
+  ],
+  "related": ["thinking-face", "face-with-raised-eyebrow", "nerd-face", "magnifying-glass-tilted-left", "eyes", "disguised-face"]
+}

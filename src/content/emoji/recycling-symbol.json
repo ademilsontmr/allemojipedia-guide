@@ -1,0 +1,101 @@
+{
+  "slug": "recycling-symbol",
+  "title": "Recycling Symbol Emoji ♻️ Meaning: Reuse, Repost, Repeat",
+  "description": "The ♻️ recycling symbol emoji stands for recycling and sustainability, and online it also means repost or reuse. See where it came from and how it's used.",
+  "summary": "The ♻️ recycling symbol emoji shows three arrows chasing each other in a triangle. It stands for recycling, sustainability, and eco-friendly choices, and by extension for anything reused: a reposted article, a recycled joke, an outfit worn again, or an ex who keeps coming back.",
+  "meaning": [
+    "At face value ♻️ means what it means on a bin or a bottle: this can be recycled, or this was made from recycled material. Environmental groups, city services, and brands use it in posts about waste collection, packaging, thrift, and repair. Individuals add it to captions about secondhand finds, refill shops, and upcycling projects.",
+    "The symbol has a well-documented origin. It was designed in 1970 by Gary Anderson, then a student, for a contest sponsored by the Container Corporation of America around the time of the first Earth Day. The three folded arrows form a loop often compared to a Möbius strip, and the design was left in the public domain, which helped it spread worldwide.",
+    "On social media the arrows took on a second meaning: sharing something again. On LinkedIn, \"♻️ Repost if this was useful\" has become a formula at the end of advice posts. The association is natural, since the repost and retweet icons on many platforms are also arrows circling back on themselves.",
+    "From there the emoji extends to any kind of reuse. People post ♻️ when a comedian repeats old material, when a studio announces another remake, or when they wear the same outfit to a second wedding. Used about dating, it describes going back to a former partner or passing around the same small pool of people."
+  ],
+  "contexts": [
+    {
+      "label": "In captions",
+      "body": "Sustainability content uses ♻️ beside thrifted clothing hauls, DIY furniture rescues, and zero-waste tips. Sellers on resale apps add it to listings to stress that buying used is the greener option. Around Earth Day in April it appears in brand and school posts along with 🌍 and 🌱."
+    },
+    {
+      "label": "On LinkedIn and X",
+      "body": "Here it mostly asks for or announces a reshare. Ending a post with \"♻️ Repost to help your network\" is common enough on LinkedIn that people parody it. Accounts that periodically resurface their own older posts sometimes tag them ♻️ to be upfront that the content is not new."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends use it for jokes about repetition: the same argument again, the same lunch five days running, a text copied and pasted to several people. It can be teasing, as in accusing someone of recycling a pickup line. It also has plain household uses, like reminders that tomorrow is collection day."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Bins go out tonight ♻️ don't forget the glass",
+      "meaning": "A practical reminder about recycling pickup."
+    },
+    {
+      "text": "Found this jacket at the thrift store for $8 ♻️",
+      "meaning": "The sender is pleased about buying secondhand instead of new."
+    },
+    {
+      "text": "♻️ Repost if you think more people need to see this",
+      "meaning": "A request for readers to share the post with their own followers."
+    },
+    {
+      "text": "He sent me the same good morning text he sent her ♻️",
+      "meaning": "The message was reused, and the sender is calling it out."
+    },
+    {
+      "text": "Another superhero reboot ♻️ Hollywood is out of ideas",
+      "meaning": "A complaint that the film industry keeps reusing old material."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "♻️🌍",
+      "meaning": "Protecting the planet; recycling as part of environmental care."
+    },
+    {
+      "combo": "♻️👗",
+      "meaning": "Secondhand or rewearing clothes; sustainable fashion."
+    },
+    {
+      "combo": "♻️🌱",
+      "meaning": "Green living and eco-friendly habits, often in brand or campaign posts."
+    },
+    {
+      "combo": "♻️😂",
+      "meaning": "Laughing at a recycled joke, repeated story, or reposted meme."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "counterclockwise-arrows-button",
+      "difference": "🔄 has two arrows in a circle on a button and means refresh, reload, sync, or swap. ♻️ has three arrows in a triangle and is about recycling or reusing. Use 🔄 for updates and ♻️ for sustainability or reposts."
+    },
+    {
+      "slug": "repeat-button",
+      "difference": "🔁 is the media-player loop control, used for a song on repeat. ♻️ is not a playback symbol. Both can imply \"again,\" but 🔁 is about looping while ♻️ suggests giving something a second life."
+    }
+  ],
+  "avoid": [
+    "Do not use ♻️ on product claims unless the item is really recyclable or recycled, since it can amount to greenwashing.",
+    "Avoid calling a person \"recycled\" with ♻️ in dating gossip where they might see it; it is a put-down.",
+    "Do not assume ♻️ on packaging-related posts means an item is accepted by every local recycling program."
+  ],
+  "design": "Three bent arrows arranged in a triangular loop, each pointing to the next. Colors vary by platform: some, Apple among them, show white arrows on a green square, while others draw green arrows with no background. The underlying character is the black universal recycling symbol from Unicode's text symbols, so without emoji styling it can appear as a plain black outline.",
+  "faqs": [
+    {
+      "q": "What does ♻️ mean on LinkedIn?",
+      "a": "Repost. Authors add it to the end of a post to ask readers to share it, or to mark that they are resharing something. It borrows the idea of recycling content so more people see it."
+    },
+    {
+      "q": "What does ♻️ mean in dating or about an ex?",
+      "a": "It suggests someone is being \"recycled\": getting back with a former partner, or dating within the same circle repeatedly. It is usually a joke or light criticism, implying nothing new is happening."
+    },
+    {
+      "q": "Who created the recycling symbol?",
+      "a": "Gary Anderson designed it in 1970 as a university student, winning a design contest held by the Container Corporation of America. The company did not keep it as a trademark, so it became a free, universal mark."
+    },
+    {
+      "q": "Does ♻️ on a product mean it is recyclable?",
+      "a": "Not necessarily. The symbol is unregulated in many places and may indicate recyclable material, recycled content, or simply an environmental theme. Check local collection rules or the specific material code printed on the item."
+    }
+  ],
+  "related": ["seedling", "globe-showing-europe-africa", "counterclockwise-arrows-button", "green-heart", "wastebasket", "leaf-fluttering-in-wind"]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "airplane",
+  "title": "Airplane Emoji ✈️ Meaning: Travel, Flights, Leaving",
+  "description": "The ✈️ airplane emoji means flying, travel and trips away, and sometimes a quick exit. Learn how it is used in bios, captions and texts, with real examples.",
+  "summary": "✈️ is a passenger jet and it means air travel: booking a flight, being in transit, going on vacation or flying to see someone. Between two place names it works like an arrow showing a route, and in jokes it means leaving a situation as fast as possible.",
+  "meaning": [
+    "The airplane is the default emoji for a trip. One ✈️ in a message is enough to say you are flying somewhere, and a countdown caption with it needs no further explanation. It is equally at home in practical texts (“boarding now ✈️”) and in aspirational ones about wanderlust and catching flights. Because flying is how most people cross long distances, the emoji often stands for travel as a whole, even when part of the journey is by road or rail.",
+    "A specific convention has grown up around routes. Writing two cities or airport codes with the plane between them, such as JFK ✈️ LHR, shows origin and destination at a glance. The same pattern appears in bios to show where someone is from and where they live now, and in long-distance relationships to mark the gap two people keep crossing.",
+    "Figuratively, ✈️ is about departure. People attach it to moving abroad, to leaving a job, and to the popular line about catching flights, not feelings. In comment sections a plane can be a playful way of saying “I'm out” after an awkward moment. A second, older joke uses it for something going over a person's head, the plane sailing past above."
+  ],
+  "contexts": [
+    {
+      "label": "In travel captions",
+      "body": "Window-seat photos, passport flat lays and departure boards all get the plane. It usually sits beside a flag, a globe or a beach to say where the trip is headed. Travel creators use it as a recurring marker for flight reviews, deal alerts and packing videos, and airlines and booking apps use it in subject lines for fare sales."
+    },
+    {
+      "label": "In texting",
+      "body": "Family and friends use ✈️ for flight status: taking off, landed, delayed. It is a common first message from an airport gate and a common last one before a phone goes into airplane mode. Paired with a time, it tells a pickup driver when to expect you without a full sentence."
+    },
+    {
+      "label": "In bios",
+      "body": "A plane between two flags or cities signals a move, a dual identity or a life split between places. Flight attendants, pilots and aviation fans use it as a job or hobby badge. Next to a count of countries it reads as a travel resume, and in dating profiles it advertises that someone likes to get away often."
+    },
+    {
+      "label": "From a long-distance partner",
+      "body": "For couples living apart, ✈️ is loaded with meaning: the next visit, the miles between them, the ticket just booked. A message like “12 days ✈️❤️” is a countdown to seeing each other. The emoji becomes shorthand for the relationship itself, the way a ring or a heart might for couples in the same city."
+    }
+  ],
+  "examples": [
+    { "text": "LAX ✈️ HNL see you in six hours", "meaning": "Giving the route of a flight from Los Angeles to Honolulu just before departure." },
+    { "text": "Landed ✈️ grabbing bags now", "meaning": "A quick arrival update for whoever is picking the sender up." },
+    { "text": "Catch flights not feelings ✈️", "meaning": "A caption declaring a preference for travel and independence over romance." },
+    { "text": "Brazil 🇧🇷 ✈️ 🇨🇦 since 2019", "meaning": "A bio line saying the person moved from Brazil to Canada." },
+    { "text": "That joke went right ✈️ over my head", "meaning": "Admitting the sender did not understand what was just said." },
+    { "text": "Two more weeks ✈️❤️", "meaning": "Counting down to a flight to see a partner." }
+  ],
+  "combos": [
+    { "combo": "✈️🌍", "meaning": "International travel or a goal of seeing the world." },
+    { "combo": "🧳✈️", "meaning": "Packed and leaving; often posted on the way to the airport." },
+    { "combo": "✈️🏝️", "meaning": "Flying off to a beach vacation." },
+    { "combo": "✈️💸", "meaning": "Spending money on flights, or a trip that cost more than planned." }
+  ],
+  "confusedWith": [
+    { "slug": "airplane-departure", "difference": "🛫 shows a plane lifting off a runway and means departure specifically. Use it for takeoff times and leaving; ✈️ covers flying and travel in general with no direction implied." },
+    { "slug": "airplane-arrival", "difference": "🛬 is the landing counterpart, used for arrivals and touchdown updates. Paired with 🛫 it frames a full itinerary, something a single ✈️ cannot do." },
+    { "slug": "small-airplane", "difference": "🛩️ is a light propeller aircraft, suited to private flying, flight lessons or tiny regional hops. ✈️ is the commercial jet most people mean when they talk about a flight." }
+  ],
+  "avoid": [
+    "Avoid dropping it into conversations about air disasters or accidents, where a breezy travel icon looks careless.",
+    "Do not use it alone to announce a major move to people who need details; a lone plane leaves out where, when and for how long.",
+    "Skip joke combinations of planes with buildings or explosions, which read as references to terrorism."
+  ],
+  "design": "The emoji is a jet airliner seen from above or the side, usually pointing up and to the right. Most platforms draw it in white, gray or blue with swept wings and a tail fin. The character comes from an old printing symbol set, so without emoji styling some systems display it as a flat black silhouette instead of a colored picture. Either way it is recognizably a plane.",
+  "faqs": [
+    { "q": "What does ✈️ mean on Instagram and TikTok?", "a": "Mostly travel content: trips, flights, moving abroad. In comments it can also mean someone is making a quick exit from a conversation. On Instagram the app's own share button looks like a paper plane, which is a different symbol from this emoji." },
+    { "q": "Why does my airplane emoji look black and white?", "a": "The airplane began as a text symbol long before emoji. Apps that do not apply color emoji styling show the plain outline version. It is the same character, and most recipients will see the full-color jet." },
+    { "q": "What does a plane between two flags mean?", "a": "It shows movement from the first country to the second. People use it for emigration, study abroad, a long-distance relationship or a trip, with the plane acting as an arrow." },
+    { "q": "Is ✈️ the same as airplane mode?", "a": "The settings icon on phones is a similar plane silhouette, and people do send ✈️ to say they are about to go offline in the air. The emoji itself has no effect on your device; it is only a picture." }
+  ],
+  "related": ["airplane-departure", "airplane-arrival", "luggage", "globe-showing-europe-africa", "desert-island", "rocket"]
+}

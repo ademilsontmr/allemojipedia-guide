@@ -1,0 +1,97 @@
+{
+  "slug": "check-mark",
+  "title": "Check Mark Emoji ✔️ Meaning: The Plain Tick, Explained",
+  "description": "The ✔️ check mark emoji is a plain tick meaning yes, correct, or done. Learn how it differs from the green ✅, where it fits best, and what it means in chats.",
+  "summary": "The ✔️ check mark emoji is a simple tick with no box around it. It confirms that something is correct, complete, agreed, or approved. It reads as tidier and more understated than the green ✅, so it suits lists, documents, and low-key confirmations.",
+  "meaning": [
+    "✔️ is the tick a teacher puts beside a right answer or the mark you make next to a finished item on paper. As an emoji it means yes, correct, done, or confirmed. People use it to acknowledge a message, verify a detail (\"address ✔️\"), or run down a checklist without much fanfare.",
+    "What sets it apart from ✅ is restraint. The plain tick has no colored tile, so it blends into a line of text instead of jumping out. Writers who want a list to look clean, such as on a résumé, a product page, or a printed-style menu of features, often pick ✔️ for that reason. It feels closer to typography than to a sticker.",
+    "The character is older than emoji. It was part of the Dingbats symbol set long used in print and desktop publishing, and it was later given an emoji presentation. That history shows in how it behaves: on some systems it appears as a thin black text glyph unless emoji styling is applied, and its color differs between platforms.",
+    "It also has a quiet association with verification. Some people place ✔️ after a name to suggest authenticity, borrowing the look of account badges. As with any typed symbol, it is self-applied and confirms nothing. In everyday chat, though, a ✔️ after a statement simply means \"checked\" or \"I can vouch for that.\""
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "A ✔️ reply is a calm \"yes\" or \"done.\" It is common from people who favor minimal, precise messages, and from older texters used to the tick as a paper symbol. It carries less celebration than ✅ or 👍, which makes it a good fit for confirming logistics rather than cheering on news."
+    },
+    {
+      "label": "At work",
+      "body": "In documents, slides, and emails the plain tick marks completed requirements, included features, or approved items without clashing with a layout. Comparison tables often use ✔️ against a dash or ✖️. In chat tools the green ✅ is the more usual reaction, but ✔️ serves the same purpose."
+    },
+    {
+      "label": "In captions and listings",
+      "body": "Sellers and small businesses use ✔️ as a bullet for selling points: \"✔️ free shipping ✔️ handmade ✔️ gift wrapped.\" Dating profiles and bios use it in lists of traits or must-haves. The neutral color keeps the focus on the words."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Flights booked ✔️ hotel next",
+      "meaning": "One task is finished and the sender is moving on to another."
+    },
+    {
+      "text": "✔️ Vegan ✔️ Gluten free ✔️ Nut free",
+      "meaning": "A menu or product listing confirming each dietary feature applies."
+    },
+    {
+      "text": "Got your email ✔️",
+      "meaning": "A brief acknowledgment that the message was received."
+    },
+    {
+      "text": "Tall ✔️ funny ✔️ texts back ✔️",
+      "meaning": "The sender is listing qualities someone has, approvingly."
+    },
+    {
+      "text": "Is 3pm still good? ✔️",
+      "meaning": "A one-character confirmation of the time."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "✔️✖️",
+      "meaning": "Yes and no, included and not included, in a matching understated style."
+    },
+    {
+      "combo": "📋✔️",
+      "meaning": "A checklist worked through; requirements met."
+    },
+    {
+      "combo": "✔️✔️",
+      "meaning": "Double-checked; also a nod to the two ticks messaging apps show for delivered messages."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "check-mark-button",
+      "difference": "✅ is a white tick on a green square. It is brighter, more emphatic, and much more widely used in chat. ✔️ is the bare tick for when you want confirmation without the visual shout."
+    },
+    {
+      "slug": "check-box-with-check",
+      "difference": "☑️ encloses the tick in an outlined box, like a form field or ballot. It implies an option has been selected. ✔️ has no box and simply marks something as right or finished."
+    }
+  ],
+  "avoid": [
+    "Do not place ✔️ after your name to imply you are verified, as it can mislead people about who you are.",
+    "Avoid it on dark backgrounds or in dark mode designs where a black tick may be nearly invisible.",
+    "Do not use it when you want enthusiasm; for good news it can come across as flat."
+  ],
+  "design": "A single heavy tick stroke with no background. Its color is the main variable: some platforms draw it black or dark gray, and others use green or blue. Without emoji styling it may fall back to a thin monochrome text character. The Unicode name is \"heavy check mark,\" and the usual shortcode is :heavy_check_mark:.",
+  "faqs": [
+    {
+      "q": "What is the difference between ✔️ and ✅?",
+      "a": "They mean the same thing, but ✅ is green and boxed while ✔️ is a plain stroke. Choose ✅ for visibility in chat and status updates, and ✔️ for neat lists or a more formal look."
+    },
+    {
+      "q": "Do two check marks ✔️✔️ mean a message was read?",
+      "a": "That refers to app indicators, not the emoji. In WhatsApp, one tick means sent, two mean delivered, and two blue ticks mean read. People sometimes type ✔️✔️ as a joke about being left on read, but the emoji itself does not track anything."
+    },
+    {
+      "q": "Why does ✔️ look black on my phone and different elsewhere?",
+      "a": "Each platform chooses its own color for this emoji, and the base character can also display as plain text. That is normal. If consistent color matters, the green ✅ looks nearly the same everywhere."
+    },
+    {
+      "q": "Is ✔️ okay to use professionally?",
+      "a": "Yes. It is one of the least casual emoji and has been used in printed documents for a long time. It works well in feature lists, comparison tables, and short confirmations to colleagues or clients."
+    }
+  ],
+  "related": ["check-mark-button", "cross-mark", "thumbs-up", "memo", "ok-hand", "hundred-points"]
+}

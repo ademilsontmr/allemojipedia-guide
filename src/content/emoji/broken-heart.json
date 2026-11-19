@@ -1,0 +1,50 @@
+{
+  "slug": "broken-heart",
+  "title": "Broken Heart Emoji 💔 Meaning: From Heartbreak to “Bro 💔”",
+  "description": "The 💔 broken heart emoji means heartbreak, grief or disappointment. It is also Gen Z's ironic reaction to anything cringe or tragic. Usage and examples.",
+  "summary": "The 💔 broken heart emoji is a red heart split in two. It means heartbreak: the pain of a breakup, loss, rejection, or deep disappointment. It is also widely used in an exaggerated or ironic way, to mourn trivial letdowns or to react to something embarrassing with mock sorrow.",
+  "meaning": [
+    "The sincere meaning needs little explanation. 💔 is what people send when a relationship ends, when someone they love is hurting, when a pet dies, or when the news is terrible. It appears in condolence comments and in posts about tragedies as a compact way of saying 'this breaks my heart.' Sent to a person after an argument or rejection, it tells them plainly that they caused pain.",
+    "Alongside that, the emoji has a long career in hyperbole. A canceled show, a dropped ice cream, a favorite player traded: each can be 'heartbreaking' in the comic sense. Sports fans in particular use it after losses. This is everyday exaggeration, and nobody mistakes it for real grief, though it does mean the same symbol covers both a death in the family and a sold-out sandwich.",
+    "Younger users have pushed it further into irony. A short reply like 'bro 💔' or 'not like this 💔' reacts to something cringe, pathetic, or absurd, with the broken heart standing for theatrical disappointment in the person or situation. It is often paired with the wilted rose, 🥀, as a deliberately overdramatic sign-off. In this style the emoji is closer to a sigh or a head shake than to sadness."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Between people who are close, 💔 is taken seriously when the topic is serious. It can express hurt during a conflict or sympathy for a friend's bad news. With lighter subjects it is playful pouting. Because it is used both ways, pair it with words if you need someone to know you are truly upset." },
+    { "label": "On TikTok and X", "body": "The ironic sense is everywhere: 'he really said that 💔,' 'we lost the plot 💔🥀.' It caps jokes about bleak or embarrassing situations and works as a punchline. In comments it can gently mock a creator. Sincere uses still appear under sad videos, and tone depends on the post." },
+    { "label": "From a partner or ex", "body": "From someone you are or were involved with, 💔 usually means real hurt, or an attempt to make you feel it. It can be an honest signal of pain, a plea for reassurance, or a guilt trip. A reply that addresses the feeling directly works better than another emoji." },
+    { "label": "In sports", "body": "Fans post it after eliminations, injuries, and last-minute defeats. Clubs and players use it in official posts about losses or the departure of a teammate. Here it is sincere but bounded, expressing the particular ache of caring about a result you cannot control." }
+  ],
+  "examples": [
+    { "text": "We broke up last night 💔", "meaning": "Real heartbreak at the end of a relationship." },
+    { "text": "I'm so sorry about your dad 💔", "meaning": "Sincere sympathy for a loss." },
+    { "text": "They discontinued my favorite cereal 💔", "meaning": "Comic exaggeration over a small disappointment." },
+    { "text": "Bro tripped walking up to get his diploma 💔", "meaning": "Ironic mock sorrow at an embarrassing moment." },
+    { "text": "Out in the semifinals again 💔", "meaning": "A fan's pain after a team's defeat." },
+    { "text": "You forgot our anniversary 💔", "meaning": "Expressing hurt directly to a partner." }
+  ],
+  "combos": [
+    { "combo": "💔🥀", "meaning": "Melodramatic despair, usually ironic, popular in Gen Z humor." },
+    { "combo": "💔😭", "meaning": "Devastated, whether in earnest or as an exaggeration." },
+    { "combo": "💔🕊️", "meaning": "Mourning someone who has died." },
+    { "combo": "💔➡️❤️‍🩹", "meaning": "Moving from heartbreak toward healing." }
+  ],
+  "confusedWith": [
+    { "slug": "mending-heart", "difference": "❤️‍🩹 is a bandaged heart that means recovery, healing, or sympathy for someone who is hurting. 💔 is the injury itself. Use the broken heart for the pain and the mending heart for getting better." },
+    { "slug": "heart-with-arrow", "difference": "💘 is a whole heart pierced by Cupid's arrow and means falling in love. 💔 is a heart cracked apart and means the opposite outcome. The arrow is not a wound." },
+    { "slug": "wilted-flower", "difference": "🥀 is a drooping rose for fading love, sadness, or disappointment, and it is now a meme partner to 💔. Alone it is moodier and more poetic, while the broken heart is the direct symbol of heartbreak." }
+  ],
+  "avoid": [
+    "Do not use the ironic style with someone who is grieving or in real distress, where mock sorrow can wound.",
+    "Avoid sending it to a partner as a guilt tactic over minor things, since it loses force and breeds resentment.",
+    "Skip it in professional condolences, where written words are more respectful than an emoji."
+  ],
+  "design": "The glyph is a red heart divided by a jagged crack running down the middle. On some platforms the two halves remain touching with a zigzag line between them, and on others they are slightly separated. The red matches each vendor's standard heart. The design is simple and nearly identical everywhere.",
+  "faqs": [
+    { "q": "What does 💔 mean from a girl?", "a": "It depends on the subject. About your relationship or something you did, she is hurt or disappointed. About a show, a sale, or a meme, she is exaggerating for effect. If unsure, ask rather than guess." },
+    { "q": "What does 💔 mean from a guy?", "a": "Sincerely used, he is telling you he is hurt or sad. Among friends, guys often use it ironically, as in 'bro 💔,' to react to something unfortunate or embarrassing with fake solemnity." },
+    { "q": "What does 'bro 💔' mean?", "a": "It is an ironic reaction that mixes disappointment, pity, and amusement. The speaker is saying something like 'that's rough' or 'how could you' about a cringe or unlucky moment, without actually being heartbroken." },
+    { "q": "What does 💔🥀 mean?", "a": "The broken heart with a wilted rose is an intentionally overdramatic expression of sadness or defeat. It became a popular Gen Z punchline for bleak jokes, though some people use it sincerely for heartbreak." },
+    { "q": "Is it okay to use 💔 for condolences?", "a": "Yes, many people do, and it is understood as sincere in that setting. Adding a few personal words makes the message more meaningful than the emoji alone." }
+  ],
+  "related": ["mending-heart", "wilted-flower", "loudly-crying-face", "red-heart", "pensive-face", "heart-with-arrow"]
+}

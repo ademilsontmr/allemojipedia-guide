@@ -1,0 +1,101 @@
+{
+  "slug": "no-entry",
+  "title": "No Entry Emoji ⛔ Meaning: Do Not Enter, Stop, Blocked",
+  "description": "The ⛔ no entry emoji shows the red road sign with a white bar. It means do not enter, access denied, or stop right there. Compare it with 🚫 and 🛑 here.",
+  "summary": "The ⛔ no entry emoji is a red disc with a white horizontal bar, copied from the road sign that bars vehicles from a street. In messages it means do not enter, access denied, off-limits, or simply stop, and it marks blocked tasks and closed-off topics.",
+  "meaning": [
+    "⛔ comes straight from traffic signage. A red circle with a white bar is the sign posted at the wrong end of one-way streets and at restricted entrances in most of the world. The emoji keeps that sense of a barrier: this way is closed, you cannot come in, turn around.",
+    "Because the meaning is about access, people use it for anything gated. A locked room, a members-only event, a private account, a restricted folder, and a road closed for repairs all get ⛔. In software and workplace chat it has become a standard marker for \"blocked\": a task that cannot move forward until something else is resolved.",
+    "It also works as a conversational stop sign. Dropping ⛔ after someone raises a touchy subject tells them not to go there, and \"⛔ don't even start\" heads off teasing before it begins. The effect is firmer than 🚫 for many readers because the solid red disc looks heavier and more official than a hollow circle with a slash.",
+    "Outside those uses the emoji has little slang life. It has not picked up ironic or flirtatious meanings, and it is seldom used for emotional expression. Most appearances are practical: rules, closures, security notices, and status labels. When it does show up in a joke, the humor comes from treating a trivial matter, such as a sibling's bedroom, like a restricted zone."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Typical uses are refusing entry and shutting down topics: \"⛔ kitchen is closed, I just mopped\" or \"⛔ we are not discussing my haircut.\" It reads as firm but usually good-humored between people who know each other. As a one-emoji answer to a request, it is an unambiguous no."
+    },
+    {
+      "label": "At work",
+      "body": "Project boards and stand-up updates use ⛔ for blockers, as in \"⛔ waiting on legal review.\" IT and security teams use it for access-denied notices and restricted systems. It is well understood in these settings, and it distinguishes \"cannot proceed\" from ⚠️, which only signals a risk."
+    },
+    {
+      "label": "On signs and travel",
+      "body": "Travelers and local community groups use the emoji literally when reporting closures: a trailhead shut for the season, a flooded underpass, a one-way street that navigation apps get wrong. Driving-test study accounts and road-sign quizzes use it as the actual sign it depicts."
+    }
+  ],
+  "examples": [
+    {
+      "text": "⛔ Blocked: can't deploy until the database migration finishes",
+      "meaning": "A work status update naming what is stopping progress."
+    },
+    {
+      "text": "My room ⛔ until I finish wrapping presents",
+      "meaning": "A playful ban on entering, to protect a surprise."
+    },
+    {
+      "text": "Bridge on Elm St is closed ⛔ take the highway",
+      "meaning": "A literal road closure warning with an alternative route."
+    },
+    {
+      "text": "⛔ nope, we're not bringing up karaoke night again",
+      "meaning": "The sender is closing an embarrassing topic before it starts."
+    },
+    {
+      "text": "Staff only beyond this point ⛔",
+      "meaning": "A notice that an area is restricted to authorized people."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "⛔🚧",
+      "meaning": "Closed for construction or maintenance; the route or page is unavailable."
+    },
+    {
+      "combo": "⛔🔒",
+      "meaning": "Access denied; locked, private, or restricted to certain people."
+    },
+    {
+      "combo": "⛔✋",
+      "meaning": "Stop right there, a firm halt to an action or a line of conversation."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "prohibited",
+      "difference": "🚫 is a hollow red circle with a diagonal slash and bans an activity or object in general. ⛔ is a filled disc with a horizontal bar and is specifically about entry and access. Their official names add confusion, since 🚫 was originally called \"no entry sign.\""
+    },
+    {
+      "slug": "stop-sign",
+      "difference": "🛑 is the red octagonal stop sign. It tells you to halt, often temporarily, before continuing. ⛔ tells you that you may not go this way at all."
+    },
+    {
+      "slug": "red-circle",
+      "difference": "🔴 is a plain red dot with no bar, used for recording, live status, or color coding. At small sizes they look alike, but 🔴 carries no prohibition."
+    }
+  ],
+  "avoid": [
+    "Do not use ⛔ where you only mean caution, because readers will assume the path is completely closed.",
+    "Avoid sending it alone in reply to a sincere personal request, where a blunt barrier sign can feel cold.",
+    "Do not swap it for 🚫 in \"no cap\" style slang; that phrase conventionally uses the slashed circle."
+  ],
+  "design": "A solid red circle with a thick white horizontal bar across the middle, matching the no-entry sign defined in international road sign conventions. Vendors render it very consistently, with small differences in gloss and in how wide the bar is. It has no slash and no hollow center, which is the quickest way to tell it apart from 🚫.",
+  "faqs": [
+    {
+      "q": "What does ⛔ mean in a text from someone?",
+      "a": "They are telling you to stop or that something is off-limits: a subject they will not discuss, a place you should not go, or a request they are refusing. It is direct but usually not angry unless the surrounding words are."
+    },
+    {
+      "q": "What does ⛔ mean in project management?",
+      "a": "Blocked. The task cannot continue until a dependency is cleared, such as an approval, a fix, or missing information. Teams often list what the blocker is right after the emoji so others can help remove it."
+    },
+    {
+      "q": "Is ⛔ a stop sign?",
+      "a": "Not exactly. It is the no-entry sign, which forbids entering a road or area. The stop sign has its own emoji, 🛑, an octagon. People do use ⛔ loosely to mean stop, and it is generally understood that way."
+    },
+    {
+      "q": "When did ⛔ become an emoji?",
+      "a": "It was encoded in Unicode in 2010 and belongs to the earliest emoji set, listed as Emoji 0.6. It was included for compatibility with symbols already used on Japanese mobile phones."
+    }
+  ],
+  "related": ["prohibited", "warning", "cross-mark", "locked", "raised-hand", "no-one-under-eighteen"]
+}

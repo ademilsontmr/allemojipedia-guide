@@ -1,0 +1,57 @@
+{
+  "slug": "anxious-face-with-sweat",
+  "title": "Anxious Face with Sweat Emoji 😰: Stress, Nerves, Panic",
+  "description": "😰 means anxious, stressed or panicking. The blue forehead and sweat drop show cold-sweat nerves. See how people use it for deadlines, exams and close calls.",
+  "summary": "The 😰 anxious face with sweat combines a blue-tinged forehead, an open frown and a single drop of sweat. It means the sender is nervous, stressed or quietly panicking, often about something that has not happened yet: an exam, a deadline, a difficult conversation. It is the emoji version of breaking into a cold sweat.",
+  "meaning": [
+    "Where 😨 shows a fright, 😰 shows pressure. The sweat drop changes the story from “something scared me” to “I am not sure I can handle this.” It turns up when people are waiting on medical results, running late for a flight, about to speak in public or watching their team defend a one-point lead.",
+    "Its older Unicode name was “face with open mouth and cold sweat,” and that phrase still describes it well. The blue forehead is a manga convention for going pale, and the drop is the cold sweat that comes with dread. Together they suggest a body reacting to stress, which is why the emoji feels more physical than the plain worried face 😟.",
+    "People apply it to themselves far more than to others. It is a way of admitting nerves without writing a paragraph about them, and friends generally understand it as a request for encouragement. Among students and office workers it is nearly a seasonal emoji, peaking around finals, tax deadlines and performance reviews. Exaggerated use is common too, with small inconveniences presented as full-blown crises."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "“Interview in ten minutes 😰” is the classic use. It tells the reader you are nervous and would appreciate a “you've got this.” After the fact, it describes a close call: “almost sent that to the wrong chat 😰.” A string of them means the stress is high but the sender can still joke about it."
+    },
+    {
+      "label": "In sports and gaming",
+      "body": "Fans post it during penalty shootouts, tight final minutes and playoff elimination games, when watching becomes almost unbearable. Players use it when a match is slipping away or when they are the last one alive on their team. Here it expresses tension and suspense more than fear."
+    },
+    {
+      "label": "At work",
+      "body": "It is a common, mostly harmless way to flag pressure in casual channels, as in “three deadlines on Thursday 😰.” Used repeatedly, it can make you look overwhelmed, and it does not replace telling a manager plainly that the workload is too much."
+    }
+  ],
+  "examples": [
+    { "text": "Driving test in an hour 😰", "meaning": "Nervous anticipation; the sender is hoping for encouragement." },
+    { "text": "Card declined at the register with a line behind me 😰", "meaning": "Recalling a moment of public, sweaty panic." },
+    { "text": "Down by one with thirty seconds left 😰", "meaning": "Barely coping with the suspense of a close game." },
+    { "text": "I think I left the stove on 😰", "meaning": "A sudden worry that is growing by the minute." },
+    { "text": "She said “I saw your story” and nothing else 😰", "meaning": "Anxious about what an ambiguous message means." },
+    { "text": "Still haven't started the essay due at midnight 😰", "meaning": "Deadline stress, with self-inflicted guilt." }
+  ],
+  "combos": [
+    { "combo": "😰🙏", "meaning": "Nervous and hoping hard that things work out." },
+    { "combo": "😰⏰", "meaning": "Running out of time or racing a deadline." },
+    { "combo": "😰➡️😮‍💨", "meaning": "From panic to relief: the stressful thing is finally over." },
+    { "combo": "😰📚", "meaning": "Exam or study stress." }
+  ],
+  "confusedWith": [
+    { "slug": "fearful-face", "difference": "😨 has the blue forehead without any sweat and shows being scared or horrified. 😰 adds the drop, shifting the meaning toward nerves, stress and sustained worry." },
+    { "slug": "sad-but-relieved-face", "difference": "😥 is fully yellow with a closed mouth, and its drop suggests a mix of sadness and relief. 😰 has an open mouth and blue forehead and is anxious, with no relief in it." },
+    { "slug": "downcast-face-with-sweat", "difference": "😓 looks down with closed eyes, worn out or dejected by hard work or a failure. 😰 has wide-open eyes and is alert and panicking about something still unresolved." }
+  ],
+  "avoid": [
+    "Do not use it to mean you are hot or sweaty from exercise; 🥵 or 😅 fit that better.",
+    "Avoid answering someone's own anxious message with only 😰, which amplifies their worry instead of easing it.",
+    "Keep it out of updates to clients, where it suggests things are out of control."
+  ],
+  "design": "A yellow face with a blue gradient across the forehead, raised eyebrows, wide eyes, an open frowning mouth and one blue sweat drop near the temple. Vendors agree on these elements. The drop sits on different sides depending on the platform, and some designs make the blue shading reach farther down the face than others.",
+  "faqs": [
+    { "q": "What does 😰 mean in texting?", "a": "The sender is anxious or stressed, usually about something upcoming or a mistake they fear they made. It often works as a quiet request for reassurance, so a supportive reply is generally welcome." },
+    { "q": "Is the drop on 😰 a tear?", "a": "No, it is sweat. It sits on the forehead or temple, not under the eye, and represents a cold sweat from nerves. The emoji is about anxiety, not crying." },
+    { "q": "What is the difference between 😰 and 😅?", "a": "😅 grins through its sweat and means awkward relief or nervous laughter, typically after a close call. 😰 is not smiling at all; the worry is still happening and the sender is not yet able to laugh about it." },
+    { "q": "Can 😰 mean someone is sick?", "a": "Occasionally people use it for feeling clammy or unwell, but that is not its main meaning. 🤒, 🤢 or 🥴 make illness much clearer, while 😰 will usually be read as worry." }
+  ],
+  "related": ["fearful-face", "grinning-face-with-sweat", "worried-face", "downcast-face-with-sweat", "face-exhaling", "grimacing-face"]
+}

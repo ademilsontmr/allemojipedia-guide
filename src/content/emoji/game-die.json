@@ -1,0 +1,56 @@
+{
+  "slug": "game-die",
+  "title": "Game Die Emoji 🎲 Meaning: Luck, Risk & Roll the Dice",
+  "description": "The 🎲 game die emoji means chance, risk or game night. Learn how people use it for random picks, gambles, board games and tabletop RPGs, with real examples.",
+  "summary": "The 🎲 game die emoji stands for luck, randomness and taking a chance, as in “rolling the dice” on a decision. It also literally means board games, casino games and tabletop role-playing sessions. People use it when an outcome is out of their hands.",
+  "meaning": [
+    "One die, one roll, no control over what comes up: the emoji packages that idea neatly. Sending 🎲 with a decision means “let’s see what happens.” It fits job applications, spontaneous trips, a risky text to an ex or ordering something unfamiliar from a menu. The tone is usually breezy, admitting uncertainty without sounding worried about it.",
+    "Randomness is its second role. Giveaway posts, random-pick threads and “🎲 shuffle” buttons use the die to promise that no one is choosing on purpose. Friends who cannot decide where to eat may say “roll for it 🎲.” Apps and websites use a die icon for randomize features, which has made the association nearly automatic.",
+    "Literal uses are just as common. Board game cafes, family game nights, Monopoly photos and craps tables all take the emoji. Tabletop role-players use it for Dungeons & Dragons sessions even though that hobby’s signature die has twenty sides and this one has six, simply because it is the only die on the keyboard. In betting contexts it can refer to gambling generally."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "The die adds a shrug to a plan. “Booked it without reading reviews 🎲” tells the reader it might go badly and the sender has made peace with that. It also invites spontaneity: “pick a number 🎲” or “surprise me 🎲.” When replying to someone’s bold move, it can mean “risky, but I respect it.”"
+    },
+    {
+      "label": "In gaming",
+      "body": "Tabletop communities use 🎲 as their badge. It appears in session schedules, character-creation chatter and jokes about terrible rolls deciding a campaign’s fate. Video game players borrow it for loot drops and anything governed by random number generation, often to complain that the odds were unkind."
+    },
+    {
+      "label": "On social media",
+      "body": "Creators use the die for random challenges, prompts picked by chance and giveaway draws. Finance and crypto accounts use it, sometimes critically, to describe speculative bets as gambling. In captions it frames a choice as a leap of faith, close in spirit to “you only live once” but with more acknowledgment of risk."
+    }
+  ],
+  "examples": [
+    { "text": "Quit my job with no backup plan 🎲", "meaning": "They know it is a gamble and are embracing the uncertainty." },
+    { "text": "Game night Saturday, bring snacks 🎲", "meaning": "An invitation to play board games together." },
+    { "text": "Winner picked at random 🎲 good luck everyone", "meaning": "A giveaway host promising a fair, chance-based draw." },
+    { "text": "Rolled a 1 on the most important check of the night 🎲💀", "meaning": "A tabletop player lamenting the worst possible roll." },
+    { "text": "Gas station sushi. Rolling the dice 🎲", "meaning": "Joking that their meal choice is a real risk." },
+    { "text": "Vegas this weekend 🎲", "meaning": "Announcing a trip that will involve casinos." }
+  ],
+  "combos": [
+    { "combo": "🎲🎲", "meaning": "A pair of dice: craps, Monopoly, or doubling down on a gamble." },
+    { "combo": "🎲🍀", "meaning": "Hoping luck is on your side before a risky or random outcome." },
+    { "combo": "🎲🐉", "meaning": "Dungeons & Dragons or another fantasy tabletop role-playing session." },
+    { "combo": "🎰🎲", "meaning": "Casino night or gambling in general, slots and table games both." }
+  ],
+  "confusedWith": [
+    { "slug": "slot-machine", "difference": "🎰 is specifically casino gambling and jackpots. 🎲 is broader, covering board games, random choices and everyday risks that have nothing to do with money." },
+    { "slug": "joker", "difference": "🃏 is a playing card and suggests card games, wildcards and trickery. The die is about pure chance, with no implication that anyone is being unpredictable on purpose." },
+    { "slug": "video-game", "difference": "🎮 means playing on a console or computer. For tabletop games around a physical table, 🎲 is the clearer signal, even when the game uses cards or tiles." }
+  ],
+  "avoid": [
+    "Do not use 🎲 to make light of a decision that seriously affects someone else, since it implies you are gambling with their stakes.",
+    "Avoid it around people who have told you they struggle with gambling; the casual tone can land badly."
+  ],
+  "design": "The emoji shows a single six-sided die viewed from a corner so that three faces are visible. Most platforms draw it white with dark pips, though colors have varied between vendors and over the years. Which numbers face outward varies by vendor and has no significance.",
+  "faqs": [
+    { "q": "What does 🎲 mean in a text?", "a": "Usually that the sender is taking a chance or leaving something to luck. It can also mean board games or gambling. Read the sentence around it: plans with friends suggest game night, while a bold decision suggests risk." },
+    { "q": "Is the emoji called die or dice?", "a": "Its official name is Game Die, because die is the singular and dice the plural. Most people simply call it the dice emoji, and searching either word on your keyboard will find it." },
+    { "q": "What does 🎲 mean from a guy or girl?", "a": "There is no romantic code. If it follows an invitation, as in “want to grab a drink? 🎲”, they are saying they are taking a chance by asking. Otherwise it reflects spontaneity or a love of games." },
+    { "q": "Is there a D20 emoji for Dungeons & Dragons?", "a": "No. Unicode has only the six-sided die, so tabletop role-players use 🎲, often with 🐉, ⚔️ or 🧙 to make the reference clear. Some chat platforms offer custom twenty-sided die emotes, but they are not standard." }
+  ],
+  "related": ["slot-machine", "four-leaf-clover", "joker", "crossed-fingers", "video-game", "puzzle-piece"]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "automobile",
+  "title": "Car Emoji 🚗 Meaning: On My Way, Road Trips, Driving",
+  "description": "The 🚗 red car emoji means driving, being on the way, road trips and car talk. See how people use it in texts and captions, and how it differs from 🚘 and 🚙.",
+  "summary": "🚗 is a red car shown from the side, officially named Automobile. It means driving in all its forms: “on my way,” a commute, a road trip, a new car or a driving test passed. It is the generic car emoji, used when the type of vehicle does not matter.",
+  "meaning": [
+    "Texting made 🚗 into a status update. A lone car, or a car followed by dashes of wind, tells someone you have left and are headed their way. It is common in pickup arrangements, school runs and delivery chats, and its strength is brevity: nobody misreads it. The emoji says “car” without committing to a make, size or price, which is exactly why it gets chosen over the more specific vehicles next to it on the keyboard.",
+    "Beyond logistics, the car marks moments of independence. Passing a driving test, getting a first car and setting off on a road trip are the classic captions. In those posts it carries a little pride or freedom. For commuters it carries the opposite, standing for traffic and hours lost, usually next to an eye-roll or a clock. Same picture, very different mood depending on the sentence around it.",
+    "Car culture uses it loosely. Enthusiasts posting about meets, detailing or track days often prefer the racing car for speed, but 🚗 remains the catch-all tag for anything automotive: insurance reminders, parking notes, carpool sign-ups, rideshare codes. It has no real slang meaning. If someone sends you a car, they are talking about a car or a drive."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "“🚗💨” is one of the most recognizable two-emoji messages there is: leaving now, driving fast, be there soon. A question mark after the car asks who is driving or whether someone needs a lift. Parents and teenagers trade it all day for pickups, and couples use it to say they have left work."
+    },
+    {
+      "label": "In captions",
+      "body": "Road-trip albums, new-car photos with a bow on the hood, and license selfies all use the red car. It pairs naturally with a map, a highway or a playlist emoji. On long drives people add it to location tags along the route, turning a series of posts into a visible journey."
+    },
+    {
+      "label": "In business and services",
+      "body": "Dealerships, car washes, mechanics and insurers use 🚗 as a category icon in ads and reminders. Event organizers use it to flag parking information or carpool threads. In these cases it is simple signposting, helping readers find the part of a message that concerns their vehicle."
+    }
+  ],
+  "examples": [
+    { "text": "Leaving now 🚗💨 see you in 15", "meaning": "The sender has set off by car and is giving an arrival estimate." },
+    { "text": "PASSED FIRST TIME 🚗🎉", "meaning": "Celebrating a successful driving test." },
+    { "text": "Who's 🚗 tonight? I did last time", "meaning": "Asking who will be the designated driver for an evening out." },
+    { "text": "8 hours, 3 states, 1 playlist 🚗🎶", "meaning": "A road-trip caption summing up a long drive." },
+    { "text": "Stuck on the 405 again 🚗🚗🚗😩", "meaning": "Complaining about heavy traffic, with repeated cars standing for the jam." },
+    { "text": "Parking is behind the building 🚗", "meaning": "A practical note using the emoji as a label for driving directions." }
+  ],
+  "combos": [
+    { "combo": "🚗💨", "meaning": "On my way and moving quickly; also used for speeding off after an awkward moment." },
+    { "combo": "🚗🗺️", "meaning": "A road trip or a long drive with stops planned along the way." },
+    { "combo": "🚗🔑", "meaning": "A new car, or being handed the keys for the first time." },
+    { "combo": "🚗⛽", "meaning": "Stopping for gas, or complaining about what a fill-up costs." }
+  ],
+  "confusedWith": [
+    { "slug": "oncoming-automobile", "difference": "🚘 shows a car from the front, heading toward the viewer. It works for arrivals, headlights and traffic, but the side-view 🚗 is the standard pick for driving somewhere or cars in general." },
+    { "slug": "sport-utility-vehicle", "difference": "🚙 is a taller blue vehicle, an SUV or camper-style car. It suits family hauling, off-road trips and van life, while 🚗 is the everyday sedan or hatchback." },
+    { "slug": "taxi", "difference": "🚕 is a yellow cab with a roof light and means a paid ride. People sometimes send it for any car journey, but it implies you are a passenger, not the driver." }
+  ],
+  "avoid": [
+    "Avoid it in messages about a crash or accident, where a tidy red car looks flippant.",
+    "Do not text it, or anything else, while you are the one driving; send it before you pull away."
+  ],
+  "design": "Nearly every platform renders a compact red car in profile, facing left, with two visible wheels and blue-tinted windows. Body shapes range from a rounded hatchback to a small sedan. The red color is so consistent that many people simply call it the red car emoji, and it contrasts on the keyboard with the blue SUV and the yellow taxi.",
+  "faqs": [
+    { "q": "What does 🚗💨 mean?", "a": "It means driving off or being on the way in a hurry. The puff is the dash emoji showing speed. In jokes it can also mean fleeing a conversation or an embarrassing scene." },
+    { "q": "Why is the car emoji red?", "a": "The early Japanese phone sets drew it in red and later designers kept the convention so the emoji stays recognizable. Red also separates it clearly from the blue recreational vehicle and the yellow taxi beside it." },
+    { "q": "Does 🚗 have a slang meaning?", "a": "No widely used one. It is among the most literal emojis in the set, referring to cars, driving, rides and traffic. Any hidden meaning would have to come from an inside joke." },
+    { "q": "Which emoji should I use for a road trip?", "a": "🚗 is the usual choice, often with a map, mountains or a highway. Use 🚙 if you are in an SUV or camper, and 🚐 if the trip is in a van or minibus." }
+  ],
+  "related": ["oncoming-automobile", "sport-utility-vehicle", "taxi", "racing-car", "fuel-pump", "dashing-away"]
+}

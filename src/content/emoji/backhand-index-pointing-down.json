@@ -1,0 +1,59 @@
+{
+  "slug": "backhand-index-pointing-down",
+  "title": "Pointing Down Emoji 👇 Meaning: Read Below, Thread, Link",
+  "description": "👇 points down to what comes next: a thread, a link, the comments or the following message. Here is how creators and texters use the pointing down emoji.",
+  "summary": "The 👇 backhand index pointing down emoji tells the reader to look below. It introduces a thread, a link, a photo or the next message, and it invites people to answer in the comments or replies. Social media posts, newsletters and announcements use it heavily as an attention-getter.",
+  "meaning": [
+    "Content on a screen flows downward, so a finger pointing down aims at whatever follows. 👇 acts as a visual colon: “Here's what happened 👇” promises that the story continues underneath. It opens threads on X, sits above links in captions, and separates a headline from the body in posts that cannot use formatting.",
+    "It doubles as an invitation. “Tell me your favorite 👇” or “drop your questions below 👇” points at the comment section and asks the audience to fill it. Since platforms tend to reward posts that draw replies, creators and brands end posts this way constantly, and the emoji has become closely tied to engagement prompts.",
+    "In private chats it flags a follow-up. Someone sends “look at this 👇” and then a photo, a screenshot or a forwarded message. It prepares the recipient for an attachment and connects two separate messages. It is also used above pasted material such as an address or tracking number to mark where the important part begins.",
+    "Literal downward meanings exist as well: downstairs, at the bottom of the page, “down here.” It can indicate that something is falling or decreasing, though chart and arrow emojis handle that more often. Unlike a thumbs down, it carries no negative judgment. It is a signpost and nothing more, which is why it sits comfortably in cheerful announcements and serious notices alike."
+  ],
+  "contexts": [
+    {
+      "label": "On X, Instagram and LinkedIn",
+      "body": "This is its home. Thread openers end with 👇 or “a thread 👇.” Captions use it above a link or list, and carousel posts use it to send viewers to the comments for sources. On LinkedIn it follows a hook sentence, pointing at the “see more” break. Readers now identify the pattern at once as a sign of content marketing."
+    },
+    {
+      "label": "In texting",
+      "body": "It announces that something is coming in the next bubble: a picture, a voice note, a link or a long explanation. Group admins place it over rules or schedules. It can also answer “where?” when the thing in question is lower in the chat, although scrolling down to find something is less common than scrolling up."
+    },
+    {
+      "label": "At work",
+      "body": "Useful for structure in chat and email. “Agenda 👇” or “action items 👇” introduces a list, and it can point to an attached file or a pasted block of text. It is neutral and widely accepted. One per message is enough, since stacking several makes a routine update look like a promotional post."
+    }
+  ],
+  "examples": [
+    { "text": "I quit my job to travel for a year. Here's what I learned 👇", "meaning": "Introducing a thread or a longer story below." },
+    { "text": "What's the best concert you've ever been to? 👇", "meaning": "Inviting replies in the comments." },
+    { "text": "You have to see this 👇", "meaning": "Announcing that a photo or link follows in the next message." },
+    { "text": "Sign-up link 👇", "meaning": "Pointing to a link placed directly underneath." },
+    { "text": "Schedule for Saturday 👇", "meaning": "Heading a list of details." },
+    { "text": "Parking is on the lower level 👇 follow the blue signs", "meaning": "A literal direction: downward or downstairs." }
+  ],
+  "combos": [
+    { "combo": "👇👇👇", "meaning": "A strong push to look below; do not scroll past." },
+    { "combo": "🧵👇", "meaning": "A thread follows, in the convention used on X." },
+    { "combo": "🔗👇", "meaning": "The link is underneath." },
+    { "combo": "💬👇", "meaning": "Leave a comment below." }
+  ],
+  "confusedWith": [
+    { "slug": "thumbs-down", "difference": "👎 extends the thumb downward from a fist and expresses dislike or disapproval. 👇 extends the index finger and only points at content below. Mixing them up turns “see below” into “I hate this.”" },
+    { "slug": "down-arrow", "difference": "⬇️ is a geometric arrow, good for downloads, decreases and neutral direction. 👇 is a hand, which feels more conversational and is the usual choice for “read on” and “comment below.”" },
+    { "slug": "backhand-index-pointing-up", "difference": "👆 points to what has already been said or posted above. 👇 points ahead to what is about to appear. Use up for agreement and references, and down for introductions and prompts." }
+  ],
+  "avoid": [
+    "Do not use it if nothing actually follows; readers will go looking for content that is missing.",
+    "Avoid ending every post with “thoughts? 👇,” which audiences recognize as engagement bait.",
+    "Check that the layout places your link or reply below the emoji on the platform you are using."
+  ],
+  "design": "The back of a hand with the index finger pointing straight down and the other fingers folded in. It looks like the pointing up emoji rotated half a turn, and all major platforms draw it alike. Yellow is the default and skin tones are supported.",
+  "faqs": [
+    { "q": "What does 👇 mean in texting?", "a": "It means “look below.” The sender is about to share something in the next message or is pointing at text, a link or a picture underneath. It is purely directional and has no hidden meaning." },
+    { "q": "What does 👇 mean on Twitter or X?", "a": "It usually signals a thread: the first post sets up a topic and 👇 tells readers that more posts follow underneath. It is also used to ask followers to reply with their own answers." },
+    { "q": "Is 👇 the same as thumbs down?", "a": "No. Thumbs down 👎 shows disapproval. The pointing down emoji uses the index finger and just directs attention downward. It is neutral and is often used in positive, promotional posts." },
+    { "q": "What does 👇 mean from a guy or a girl?", "a": "Nothing romantic. They are pointing you to whatever they are sending next or to something lower on the page. If no message follows, they may have forgotten to attach it." },
+    { "q": "Why do so many posts end with 👇?", "a": "It prompts people to keep reading or to comment, and replies help a post reach more people on most platforms. The emoji became a standard part of thread openers and calls to action for that reason." }
+  ],
+  "related": ["backhand-index-pointing-up", "backhand-index-pointing-right", "backhand-index-pointing-left", "down-arrow", "link", "speech-balloon"]
+}

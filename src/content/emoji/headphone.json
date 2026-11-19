@@ -1,0 +1,50 @@
+{
+  "slug": "headphone",
+  "title": "Headphone Emoji 🎧 Meaning: Listening and Tuning Out",
+  "description": "The 🎧 headphone emoji means listening to music or podcasts, gaming with a headset, or tuning the world out. See examples, combos and similar emojis.",
+  "summary": "The 🎧 headphone emoji shows a pair of over-ear headphones. It means listening: music, podcasts, audiobooks, a voice chat. It also signals being in your own zone, focused or unavailable, and it is a job badge for DJs, producers, gamers, streamers and call-center staff.",
+  "meaning": [
+    "Listening is the plain meaning. “🎧 on” says the sender has music or a podcast playing. Posts sharing a new album, a playlist or an episode use the emoji as an invitation, and streaming services put it on nearly everything. “Best with 🎧” tells you a video has audio worth hearing properly, as with ASMR or spatial sound.",
+    "The second meaning is withdrawal, usually the pleasant kind. Putting headphones on in public tells people not to talk to you, and the emoji says the same in a status line or text. “🎧 mode” at work means concentrating. On a commute or at the gym it means tuned out and content. Some people use it to say they are ignoring drama or criticism entirely.",
+    "Then there are the professions and hobbies. DJs and music producers put 🎧 in bios the way photographers use a camera. Gamers and streamers use it for headsets and voice chat, along with the video game controller. Customer support, transcription and audio editing workers adopt it too. In classrooms and remote meetings it reminds participants to plug in so sound doesn't leak.",
+    "It has no romantic or coded sense. If a nuance exists, it is that 🎧 implies private listening while a speaker or musical notes imply shared sound. Sending someone a song with 🎧 can feel intimate for that reason: it says “listen to this by yourself, properly, with nothing else going on.”"
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It explains slow replies (“had my 🎧 in”), recommends a track, or announces a walk with a podcast. Friends swap “what's in your 🎧?” to trade music. When someone needs space, “🎧 and a long walk” communicates it without a heavy conversation." },
+    { "label": "At work", "body": "Status messages use it for focus time and for being on a call. Open-office etiquette treats headphones as a do-not-disturb sign, and the emoji carries that over to chat. Meeting invites sometimes include it to ask attendees to use headsets for better audio." },
+    { "label": "In gaming", "body": "Players use it when hopping into voice chat or praising a game's sound design. Competitive communities mention headphones for hearing footsteps and other audio cues. Streamers list their headset with it in gear rundowns, and “🎧 warning” alerts viewers to loud audio." },
+    { "label": "On TikTok and Instagram", "body": "Music discovery posts, playlist shares and “songs you need” lists feature it. ASMR and binaural audio creators ask viewers to wear headphones. Commuter and study vlogs use it as a mood marker, and DJs promote sets and mixes with it." }
+  ],
+  "examples": [
+    { "text": "New album is out, 🎧 on all day", "meaning": "Planning to listen to a release on repeat." },
+    { "text": "Sorry, had my 🎧 in and missed your call", "meaning": "Explaining why they didn't hear the phone." },
+    { "text": "Focus mode until 3 🎧", "meaning": "Signaling not to be interrupted at work." },
+    { "text": "Watch this one with 🎧, trust me", "meaning": "Recommending headphones for the best audio." },
+    { "text": "Hopping on voice chat 🎧🎮", "meaning": "Joining friends in a game with a headset." },
+    { "text": "DJ set this Saturday at Vinyl Room 🎧", "meaning": "Promoting a live DJ performance." }
+  ],
+  "combos": [
+    { "combo": "🎧🎶", "meaning": "Listening to music." },
+    { "combo": "🎧📚", "meaning": "Studying with music on, or listening to an audiobook." },
+    { "combo": "🎧🎮", "meaning": "Gaming with a headset and voice chat." },
+    { "combo": "🎧🚶", "meaning": "A walk with a podcast or playlist." }
+  ],
+  "confusedWith": [
+    { "slug": "musical-note", "difference": "The 🎵 musical note represents the song or sound itself. 🎧 represents the listener and the act of listening, often privately." },
+    { "slug": "microphone", "difference": "The 🎤 microphone is for the person producing sound: a singer, speaker or host. Headphones are for whoever is receiving it." },
+    { "slug": "speaker-high-volume", "difference": "The 🔊 speaker with high volume means audio played out loud or turned up. 🎧 means it stays in your ears, which is the considerate choice on a train." }
+  ],
+  "avoid": [
+    "Don't reply 🎧 to someone asking for your attention on something serious; it reads as “I'm not listening.”",
+    "Avoid using it to mean hearing aids or hearing accessibility, which have their own ear-with-hearing-aid emoji."
+  ],
+  "design": "The official name is singular, “headphone,” but every platform draws a full pair: a headband joining two cushioned ear cups, viewed from the front. Colors are mostly black or dark gray, with some vendors adding blue, red or silver accents. No cable or microphone boom is shown, so it works for both music headphones and gaming headsets.",
+  "faqs": [
+    { "q": "What does 🎧 mean in a text?", "a": "That the person is listening to something or wants you to. It can also explain why they were unreachable, or signal that they are concentrating and would prefer not to be disturbed." },
+    { "q": "What does 🎧 mean in a bio?", "a": "Usually a strong tie to music or audio: a DJ, producer, sound engineer, podcaster or devoted listener. On gaming profiles it can indicate that the player uses voice chat." },
+    { "q": "What does 🎧 mean from a guy or girl?", "a": "They are sharing what they are listening to or telling you they are in their own world for a while. A song sent with 🎧 is a small personal gesture, since they want you to hear it properly." },
+    { "q": "Is there an earbuds emoji?", "a": "No separate earbuds or wireless-buds emoji exists in the standard set. People use 🎧 for all personal audio gear, including in-ear models." },
+    { "q": "Why is it called “headphone” and not “headphones”?", "a": "The singular is simply the official Unicode name. The image and everyday usage both refer to a pair, and most keyboards find it when you type “headphones.”" }
+  ],
+  "related": ["musical-note", "musical-notes", "microphone", "video-game", "radio", "speaker-high-volume"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "black-flag",
+  "title": "🏴 Black Flag Emoji: Meaning, Uses and Odd Glitches",
+  "description": "The black flag emoji 🏴 signals defiance, mourning, anarchism or pirate energy. It also appears by mistake when England, Scotland or Wales flags fail to load.",
+  "summary": "The black flag emoji 🏴 is a plain black waving flag with no fixed meaning of its own. People use it for defiance and rebellion, mourning, anarchist politics, dark aesthetics, and pirate themes. It also appears by accident when a device cannot display the England, Scotland, Wales, or pirate flags.",
+  "meaning": [
+    "Unlike a national flag, 🏴 stands for no country, so its meaning comes entirely from context. The most common reading is defiance. A black flag is the traditional opposite of the white flag of surrender, and posting 🏴 can mean “no quarter, no backing down,” whether the subject is a protest, a rivalry game, or a stubborn refusal to do the dishes. It pairs naturally with skulls, swords, and other tough-looking symbols.",
+    "It has specific political and cultural histories too. Anarchist movements have flown plain black flags since the nineteenth century, and the emoji shows up in that context in bios and protest posts. Black flags and banners are also a sign of mourning in many cultures. In motorsport, a black flag orders a driver off the track, so racing fans use 🏴 when someone gets disqualified. Punk listeners know Black Flag as a band name. None of these senses dominates, which is why the emoji usually needs words around it.",
+    "Then there is the technical role. The flags of England, Scotland, and Wales are encoded as a black flag followed by invisible tag characters, and the pirate flag is a black flag joined to a skull and crossbones. On systems that do not support those sequences, the extra parts are dropped or shown separately, leaving a bare 🏴. Many black flags in the wild are really a Scottish saltire or a Welsh dragon that failed to render."
+  ],
+  "contexts": [
+    {
+      "label": "In bios and usernames",
+      "body": "A 🏴 in a profile is a mood marker more than a statement: goth, metal, punk, or simply a taste for an all-black look alongside 🖤. In explicitly political accounts it can indicate anarchist sympathies, often next to a circled A or the red-and-black color pair. Read the surrounding bio before assuming which."
+    },
+    {
+      "label": "In sports",
+      "body": "Racing fans use 🏴 for a black-flag penalty, the signal that sends a driver to the pits or out of the race. Supporters of teams with black kits or pirate branding add it to match-day posts. Football fans from England, Scotland, and Wales sometimes see it unintentionally when their nation's flag does not load."
+    },
+    {
+      "label": "In mourning and protest",
+      "body": "Some users post 🏴 after a death or a national tragedy, echoing the black flags and black ribbons hung in grief. It also marks protest and strike posts, where it signals anger or refusal. Because both readings are heavy, the emoji rarely appears in lighthearted company in these threads."
+    }
+  ],
+  "examples": [
+    {
+      "text": "No surrender this weekend 🏴⚔️",
+      "meaning": "A fan promising their team will fight hard in an upcoming game."
+    },
+    {
+      "text": "Black-flagged for ignoring the penalty 🏴 season over",
+      "meaning": "A driver has been disqualified from a race."
+    },
+    {
+      "text": "Come on 🏴 we need this win tonight",
+      "meaning": "Probably a Wales, Scotland, or England flag that the reader's device cannot display."
+    },
+    {
+      "text": "New album is all doom and distortion 🏴🖤",
+      "meaning": "The flag sets a dark, heavy aesthetic for a music post."
+    },
+    {
+      "text": "Rest easy, legend 🏴",
+      "meaning": "Used as a sign of mourning after someone's death."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🏴☠️",
+      "meaning": "A pirate flag shown in pieces, either typed by hand or left unjoined by an older device."
+    },
+    {
+      "combo": "🏴🖤",
+      "meaning": "Dark aesthetic: goth, metal, or an all-black wardrobe."
+    },
+    {
+      "combo": "🏴⚔️",
+      "meaning": "Fighting talk before a contest; no retreat."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "pirate-flag",
+      "difference": "🏴‍☠️ is the Jolly Roger: the same black flag with a white skull and crossbones on it. The plain black flag has no emblem and a much broader set of meanings."
+    },
+    {
+      "slug": "white-flag",
+      "difference": "🏳️ signals surrender or a truce. The black flag is traditionally its opposite, suggesting defiance or refusal to give in."
+    },
+    {
+      "slug": "flag-scotland",
+      "difference": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 and the England and Wales flags are built on the black flag character. If software ignores the hidden tags that identify the nation, only a black flag is left."
+    }
+  ],
+  "avoid": [
+    "Do not assume a black flag in someone's message is political or grim; first consider that a UK nation flag may have failed to display.",
+    "Avoid it in cheerful announcements, where its associations with mourning and menace clash with the mood."
+  ],
+  "design": "The emoji is a solid black rectangular flag rippling from a pole, the dark twin of the white flag emoji. Platforms draw it almost identically, varying only the pole color and the highlights that suggest folds in the cloth. It can lose contrast in dark mode, where the flag blends into the background and only the pole stays visible.",
+  "faqs": [
+    {
+      "q": "Why is there a black flag instead of the Scotland or Wales flag?",
+      "a": "Those flags are stored as a black flag plus invisible tag characters spelling a region code. Apps or systems that do not recognize the sequence fall back to the base character. The sender most likely chose a national flag, not a black one."
+    },
+    {
+      "q": "Does the black flag emoji mean anarchy?",
+      "a": "It can. The plain black flag is a long-standing anarchist symbol, and some people use the emoji that way. It is just as often aesthetic, sporting, or accidental, so the surrounding text matters more than the flag."
+    },
+    {
+      "q": "What does a black flag mean in racing?",
+      "a": "A black flag shown with a car number instructs that driver to return to the pits, typically for a rules breach, and can mean disqualification. Fans use 🏴 to report or joke about such penalties."
+    },
+    {
+      "q": "What is the difference between 🏴 and 🏳️?",
+      "a": "They share a shape and differ in color and meaning. The white flag concedes; the black flag resists or mourns. Technically, the white one underlies the rainbow and transgender flags, while the black one underlies the pirate flag and the England, Scotland, and Wales flags."
+    }
+  ],
+  "related": [
+    "pirate-flag",
+    "white-flag",
+    "black-heart",
+    "skull-and-crossbones",
+    "flag-wales",
+    "skull"
+  ]
+}

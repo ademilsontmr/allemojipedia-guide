@@ -1,0 +1,50 @@
+{
+  "slug": "envelope",
+  "title": "Envelope Emoji ✉️ Meaning: Mail, Email and “Check DMs”",
+  "description": "The ✉️ envelope emoji means mail, email or a message waiting for you. See how it's used for DMs, invitations and contact info, and how it differs from 📧.",
+  "summary": "The ✉️ envelope emoji shows a sealed white envelope. It stands for letters and postal mail, for email, and for messages in general. In bios it labels an email address, and in comments it often means “check your inbox” or “I sent you a DM.”",
+  "meaning": [
+    "The envelope is the universal icon for a message, on phones, websites and mailboxes alike, and the emoji is used in that broad sense. “✉️ sent” might mean an email, a direct message or an actual card in the post. Only the conversation tells you which, and for most purposes it doesn't matter: something written is on its way.",
+    "On social platforms it has a specific role in comment sections. Sellers reply “✉️” or “check your ✉️” to tell a buyer that price and details were sent privately. Giveaway winners are told to look for one. Recruiters and collaborators use it to move a public exchange to private messages. Because scammers imitate this format, it is wise to confirm the message really came from the account you expect.",
+    "Contact details are the other everyday use. Businesses, freelancers and creators put ✉️ before an email address in a bio, alongside a phone for a number and a pin for a location. Newsletters adopt it as their emblem, and “✉️ subscribe” is a familiar call to action at the bottom of blog posts and profiles.",
+    "Paper mail keeps a sentimental place. Wedding invitations, thank-you notes, pen-pal letters, postcards from a trip and the small thrill of real post all use it. For romance, though, the separate love letter emoji with a heart seal is the more pointed choice; a plain ✉️ is neutral and promises nothing more than a message."
+  ],
+  "contexts": [
+    { "label": "In bios and business profiles", "body": "It introduces an email address or simply the word “inquiries.” Freelancers write “✉️ for bookings,” brands “✉️ for collabs.” It is clean, professional and universally understood, which is why it survives even on platforms that have their own contact buttons." },
+    { "label": "In comments and replies", "body": "“Sent you a ✉️” moves the conversation to direct messages. Marketplace sellers and small shops do this constantly, sometimes to avoid posting prices publicly. Customer service accounts use it to request order details in private so that personal information is not exposed." },
+    { "label": "At work", "body": "Colleagues use it in chat to say “emailed you” or “see my email.” It heads newsletter announcements and mailing-list sign-ups. The emoji is as formal as emojis get, and in many offices it is one of the few considered acceptable in messages to clients." },
+    { "label": "In texting", "body": "Friends and family use it for real mail: a card to look out for, an invitation coming, a bill that arrived. “Check your ✉️” before a birthday is a happy spoiler. It also covers reminders to reply to an email that has been sitting too long." }
+  ],
+  "examples": [
+    { "text": "✉️ hello@brightsidebakery.example", "meaning": "Labeling a contact email address in a profile." },
+    { "text": "Sent you a ✉️ with the price", "meaning": "Telling a commenter to look at their direct messages." },
+    { "text": "Invitations go out Monday ✉️", "meaning": "Announcing that invites are about to be mailed." },
+    { "text": "Did you see my ✉️ about Friday?", "meaning": "Following up on an email." },
+    { "text": "Something's coming in the mail for you ✉️😊", "meaning": "Hinting at a card or gift on its way." },
+    { "text": "New issue lands tomorrow morning ✉️", "meaning": "Promoting a newsletter edition." }
+  ],
+  "combos": [
+    { "combo": "✉️📱", "meaning": "Contact options: email or phone." },
+    { "combo": "✉️👀", "meaning": "Check your messages; something is waiting." },
+    { "combo": "✉️✅", "meaning": "Message sent or email handled." },
+    { "combo": "✉️📮", "meaning": "A letter going in the post." }
+  ],
+  "confusedWith": [
+    { "slug": "e-mail", "difference": "The 📧 e-mail emoji shows an envelope marked with an “E” or @ sign and means electronic mail only. ✉️ is plain, so it covers paper letters, email and DMs alike." },
+    { "slug": "love-letter", "difference": "The 💌 love letter is an envelope sealed with a heart. It carries affection, romance or a warm invitation. The plain envelope has no emotional charge." },
+    { "slug": "incoming-envelope", "difference": "The 📨 incoming envelope has motion lines showing a message arriving, and 📩 has a down arrow for sending or receiving. ✉️ is the still, general-purpose version." }
+  ],
+  "avoid": [
+    "Don't follow instructions from a stranger's “check your ✉️” comment without verifying the account; impersonators use that line.",
+    "Avoid ✉️ when you mean something affectionate, where 💌 conveys the warmth better."
+  ],
+  "design": "The glyph is a closed rectangular envelope, white or pale gray, seen from the back with its triangular flap outlined. Platforms differ only in shading and outline weight; some give it a faint blue tint. Without its emoji variation selector the character can appear as a simple black-and-white symbol, since it dates from older text symbol sets.",
+  "faqs": [
+    { "q": "What does ✉️ mean in a comment?", "a": "Generally “I've sent you a private message” or “message me.” Sellers and brands use it to continue a conversation in DMs. Check that any message you receive is from the genuine account." },
+    { "q": "What is the difference between ✉️ and 📧?", "a": "✉️ is a plain envelope for any kind of mail or message. 📧 is specifically email, with a letter E or @ symbol on it. In bios, both are used in front of email addresses." },
+    { "q": "What does ✉️ mean from a guy or girl?", "a": "They have sent you something, such as an email, a DM or a letter, or they are asking you to message them. It is neutral. A romantic note would more likely come with 💌." },
+    { "q": "Does ✉️ mean email or regular mail?", "a": "Both. The emoji does not specify. People choose it for postal letters, invitations, email and direct messages, and rely on context to show which one they mean." },
+    { "q": "Why does the envelope emoji sometimes appear in black and white?", "a": "The character existed as a text symbol before emoji keyboards. If it is sent without the extra code that requests emoji style, some systems show the monochrome outline." }
+  ],
+  "related": ["e-mail", "love-letter", "incoming-envelope", "envelope-with-arrow", "postbox", "memo"]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "persevering-face",
+  "title": "Persevering Face Emoji 😣: Pushing Through the Struggle",
+  "description": "What does 😣 mean? The persevering face emoji shows someone gritting through pain, stress or effort. See real examples and how it differs from 😖 and 😫.",
+  "summary": "The 😣 persevering face squeezes its eyes shut and frowns, like someone bracing against pain or straining to finish a task. It means struggling but not giving up: enduring a headache, a hard workout, a frustrating problem or an awkward moment. People also use it as a general wince.",
+  "meaning": [
+    "The name is unusually precise. To persevere is to keep going when something is hard, and the face shows the cost of doing so. Runners on the last mile, students on the final page of an essay and anyone waiting out a migraine have all worn this expression. The emoji says “this hurts, and I'm still here.”",
+    "In everyday messages the heroic part often drops away, leaving a plain wince. 😣 gets attached to stomachaches, embarrassing memories, cold showers and long lines. It is close in meaning to “ugh,” but quieter than the wailing faces. The sender is uncomfortable and bearing it, not making a scene. That restraint is the difference between this face and its noisier neighbors.",
+    "The expression comes from Japanese emoticon tradition, where squeezed-shut eyes written as > and < show strain or strong feeling. That background explains why the emoji can also read as earnest effort, such as trying hard to remember something or concentrating, in addition to suffering. Western users mostly see pain or frustration, and both readings are understood."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It tends to follow reports of physical or mental strain: “day three of this cold 😣,” “still on hold with the bank 😣.” It invites a little sympathy without asking for help. Replying with it to someone's embarrassing story shows a sympathetic wince."
+    },
+    {
+      "label": "In fitness and study",
+      "body": "Gym posts, marathon training logs and exam-week updates are natural homes for it. Paired with 💪 it signals grit: the work is brutal and the person is doing it anyway. Students use it for all-nighters and for the stretch right before a deadline."
+    },
+    {
+      "label": "At work",
+      "body": "It is a low-risk way to show you are under strain but coping, as in “two more reports to go 😣.” Colleagues will read it as a grind, not a crisis. If you actually need help or an extension, say so directly, because this emoji implies you are managing."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Last set of squats 😣",
+      "meaning": "Straining through the hardest part of a workout."
+    },
+    {
+      "text": "This headache has lasted all day 😣",
+      "meaning": "In pain and putting up with it."
+    },
+    {
+      "text": "Trying so hard not to laugh in this meeting 😣",
+      "meaning": "Struggling to hold something in."
+    },
+    {
+      "text": "Two hours of traffic and still not home 😣",
+      "meaning": "Patience wearing thin during a tedious ordeal."
+    },
+    {
+      "text": "I called her by the wrong name 😣",
+      "meaning": "Wincing at a social mistake."
+    },
+    {
+      "text": "One more chapter and then I can sleep 😣",
+      "meaning": "Tired but determined to finish."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "😣💪",
+      "meaning": "It is hard, and the sender is pushing through anyway."
+    },
+    {
+      "combo": "😣🤕",
+      "meaning": "Hurting, usually a headache or an injury."
+    },
+    {
+      "combo": "😣📚",
+      "meaning": "Grinding through studying or homework."
+    },
+    {
+      "combo": "😣🙏",
+      "meaning": "Enduring something and hoping it ends soon."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "confounded-face",
+      "difference": "😖 has a crumpled, squiggly mouth and looks overwhelmed or disgusted. 😣 has a firm frown, which gives it a sense of effort and endurance."
+    },
+    {
+      "slug": "tired-face",
+      "difference": "😫 throws its mouth open in a groan and has had enough. 😣 keeps its mouth closed and carries on, so it suits strain that is being tolerated."
+    },
+    {
+      "slug": "squinting-face-with-tongue",
+      "difference": "😝 shares the scrunched > < eyes but sticks its tongue out and is playful. The frown on 😣 makes it a face of discomfort instead."
+    }
+  ],
+  "avoid": [
+    "Do not use it when you need real help, since it implies you are handling things.",
+    "Avoid sending it in response to someone's idea or request, where it looks like you find it painful.",
+    "It undersells severe pain or an emergency; use clear words for those."
+  ],
+  "design": "A yellow face with eyes clenched into angled lines pointing toward the nose, slanted eyebrows on some platforms, and a short downturned mouth. The design is stable across vendors. It differs from the confounded face only in the mouth, which here is a simple curve or flat frown instead of a zigzag, a detail that is easy to miss at small sizes.",
+  "faqs": [
+    {
+      "q": "What does 😣 mean from a girl or guy?",
+      "a": "There is no gendered or romantic meaning. The person is telling you they are uncomfortable, stressed or pushing through something difficult. A kind word or a “hang in there” is the usual fitting response."
+    },
+    {
+      "q": "Is 😣 sad or in pain?",
+      "a": "Closer to pain and strain than sadness. It shows someone bracing against discomfort, whether physical, like cramps, or mental, like frustration. For sadness, 😞 or 😢 are better choices."
+    },
+    {
+      "q": "What is the difference between 😣 and 😖?",
+      "a": "They share the same scrunched eyes. 😣 frowns and looks determined to endure; 😖 has a wavy mouth and looks defeated by the feeling. Many people treat them as interchangeable winces."
+    },
+    {
+      "q": "When was the persevering face added?",
+      "a": "It has been in the Unicode standard since 2010, among the faces carried over from Japanese mobile phone emoji sets, and is available on all major platforms."
+    }
+  ],
+  "related": [
+    "confounded-face",
+    "tired-face",
+    "weary-face",
+    "flexed-biceps",
+    "face-with-head-bandage",
+    "grimacing-face"
+  ]
+}

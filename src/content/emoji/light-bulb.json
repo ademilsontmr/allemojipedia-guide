@@ -1,0 +1,49 @@
+{
+  "slug": "light-bulb",
+  "title": "Light Bulb Emoji 💡 Meaning: Ideas, Tips and Aha Moments",
+  "description": "The 💡 light bulb emoji means an idea, a tip or a sudden realization. See how it's used at work, in posts and in texts, with examples and combos to copy.",
+  "summary": "The 💡 light bulb emoji stands for a bright idea. Borrowed from the cartoon convention of a bulb switching on above someone's head, it marks suggestions, tips, insights and “aha” moments, and it can also refer literally to lighting and electricity.",
+  "meaning": [
+    "Cartoonists have drawn a glowing bulb over a character's head to show inspiration for about a century, and the emoji inherits that meaning wholesale. Send 💡 before a sentence and you have announced a proposal: “💡 what if we carpool?” Send it as a reply and you are telling the other person their point just clicked for you.",
+    "On social media and in newsletters it has settled into a formatting role. “💡 Tip:” and “💡 Did you know?” introduce advice, fun facts and how-to pointers on LinkedIn, in product documentation and in classroom slides. Because it is so common there, it has picked up a mild association with corporate thought-leadership posts, and some people use it with a wink for exactly that reason.",
+    "Sarcasm is available too. Replying 💡 to someone who has finally grasped the obvious means “there it is, you got there.” It is gentler than an eye roll but the teasing is clear. In the same spirit, “💡 idea: we just don't go” proposes something lazy with mock seriousness, borrowing the tone of a meeting agenda for a plan to stay on the couch.",
+    "The literal meaning has not disappeared. Electricians, lighting shops, energy companies and smart-home enthusiasts use 💡 for actual bulbs, power bills and outages. “Power's back 💡” after a storm is a straightforward report with no metaphor involved, and listings for lamps, fixtures and LED replacements use it as a simple product icon."
+  ],
+  "contexts": [
+    { "label": "At work", "body": "Few emojis are more office-friendly. It flags suggestions in chat, labels brainstorming threads and serves as a reaction to a colleague's good proposal. In documentation and slide decks, a 💡 callout box means “helpful hint.” Overuse in every post can feel like a self-styled guru, so one per message is plenty." },
+    { "label": "In texting", "body": "Among friends, 💡 opens a plan: a restaurant suggestion, a gift idea, a way out of a boring obligation. As a one-character reply it says “oh, now I get it.” If the thing understood was simple, the same reply doubles as affectionate mockery of your own slowness." },
+    { "label": "On TikTok and Instagram", "body": "Hack and life-tip videos use it in titles and on-screen text to promise a clever trick. Educational creators mark key takeaways with it. In comment sections, “💡” under an explanation is a quick thank-you from someone who learned something new from the video." },
+    { "label": "In school", "body": "Teachers use 💡 on worksheets and class posts for hints, vocabulary notes and discussion prompts. Students drop it in group chats when someone cracks a homework problem. It pairs naturally with the brain and book emojis in study content and revision videos." }
+  ],
+  "examples": [
+    { "text": "💡 What if we do the party at the park instead?", "meaning": "Introducing a fresh suggestion." },
+    { "text": "Ohhh so that's why the door wouldn't lock 💡", "meaning": "A sudden realization after being confused." },
+    { "text": "💡 Pro tip: freeze leftover coffee in ice cube trays", "meaning": "Labeling a piece of practical advice." },
+    { "text": "He finally figured out she was flirting 💡", "meaning": "Teasing someone who took a long time to notice the obvious." },
+    { "text": "Power's back on 💡 thank goodness", "meaning": "A literal update that the electricity has returned." },
+    { "text": "Love this 💡 let's bring it up Monday", "meaning": "Praising a colleague's idea and agreeing to pursue it." }
+  ],
+  "combos": [
+    { "combo": "🤔💡", "meaning": "Thinking it over, then landing on the answer." },
+    { "combo": "🧠💡", "meaning": "A smart idea or a brainstorming session." },
+    { "combo": "💡✅", "meaning": "Problem solved; the idea worked." },
+    { "combo": "💡💰", "meaning": "A business idea or a money-making plan." }
+  ],
+  "confusedWith": [
+    { "slug": "flashlight", "difference": "The 🔦 flashlight is a handheld torch for searching, camping or power cuts. It has no “idea” meaning; choose 💡 for insight and 🔦 for looking for something in the dark." },
+    { "slug": "high-voltage", "difference": "The ⚡ high voltage bolt signals electricity, speed or energy. A flash of inspiration can be either, but 💡 is the established symbol for an idea, while ⚡ suggests power and excitement." },
+    { "slug": "brain", "difference": "The 🧠 brain refers to intelligence, thinking or mental effort in general. 💡 marks the specific moment a thought arrives or a tip is shared." }
+  ],
+  "avoid": [
+    "Don't reply with a lone 💡 to someone's sincere explanation if it could read as “took you long enough.”",
+    "Avoid stacking it at the top of every paragraph in professional posts, where it starts to look like formatting filler."
+  ],
+  "design": "The emoji shows a classic incandescent bulb, glowing yellow, with a screw base at the bottom. Most platforms point the base downward; some tilt the bulb slightly or add small rays around the glass. Filament detail varies, but the yellow lit bulb is consistent across Apple, Google, Samsung and Microsoft.",
+  "faqs": [
+    { "q": "What does 💡 mean in a text message?", "a": "Either “I have an idea” or “I just understood.” At the start of a message it introduces a suggestion. Sent alone in response, it shows the point landed." },
+    { "q": "What does 💡 mean on LinkedIn?", "a": "It usually marks an insight, tip or lesson in a post. LinkedIn also has an “Insightful” reaction that uses a light bulb icon, which members click when a post taught them something." },
+    { "q": "Is the light bulb emoji sarcastic?", "a": "It can be. Sent after someone states the obvious or catches on late, it gently mocks the delay. Without that setup it is sincere, so read the message it responds to." },
+    { "q": "Why does a light bulb mean an idea?", "a": "The image comes from early twentieth-century cartoons and comics, which showed a bulb lighting up over a character's head at the moment of inspiration. The emoji keeps the yellow glow to match that convention." }
+  ],
+  "related": ["brain", "thinking-face", "flashlight", "high-voltage", "sparkles", "memo"]
+}

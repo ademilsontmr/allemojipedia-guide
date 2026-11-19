@@ -1,0 +1,15 @@
+---
+import { emojiUrl, type Emoji } from "@/lib/emoji";
+interface Props { emoji: Emoji; hasPage: boolean; label?: string }
+const { emoji, hasPage, label } = Astro.props;
+const name = label ?? emoji.name.replace(/^Flag: /, "");
+---
+{hasPage ? (
+  <a class="tile" href={emojiUrl(emoji.slug)} title={`${emoji.name} emoji meaning`}>
+    <span class="em" aria-hidden="true">{emoji.emoji}</span><span class="label">{name}</span>
+  </a>
+) : (
+  <button class="tile" type="button" data-copy={emoji.emoji} title={`Copy ${emoji.name} emoji`}>
+    <span class="em" aria-hidden="true">{emoji.emoji}</span><span class="label">{name}</span>
+  </button>
+)}

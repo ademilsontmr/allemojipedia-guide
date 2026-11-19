@@ -1,0 +1,56 @@
+{
+  "slug": "bullseye",
+  "title": "Bullseye Emoji 🎯 Meaning: Nailed It, Goals & Targets",
+  "description": "The 🎯 bullseye emoji says “exactly right” or “goal hit.” See how it is used for accurate takes, targets at work, darts night and precise predictions online.",
+  "summary": "The 🎯 bullseye emoji means a direct hit: something was exactly right, perfectly aimed or achieved as planned. People send it to agree with a spot-on comment, to mark goals and targets in work or fitness, and occasionally for literal darts and archery.",
+  "meaning": [
+    "A dart in the center of a target is a picture of precision, and that is how the emoji is used. Replying 🎯 to someone’s observation means “you nailed it” or “that is exactly the point.” It is a compact way to agree without adding anything, similar to saying “bingo.” On social media it often stands alone under a sharp take or an accurate prediction.",
+    "The other major meaning is goals. Productivity posts, business slides, fitness trackers and New Year’s resolutions all use 🎯 as the icon for an objective, since “target” is already the everyday word for something you aim at. In this sense it looks forward rather than back: “Q3 🎯: 500 signups” states an aim, while “🎯 hit!” reports success.",
+    "Unicode originally named the character Direct Hit, which explains the dart; the bullseye name came into common use later. Literal sport uses remain, covering pub darts, archery and shooting ranges. Rarely, people use it to mean being singled out, as in “I feel like I have a 🎯 on my back,” where the target is on the person rather than something they are aiming at."
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "Slack channels and slide decks are full of this emoji. It labels objectives, key results and sales quotas, and it works as a reaction meaning “great point” in meetings and threads. Marketers use it for “target audience.” It is among the most office-friendly emojis because its meaning is clear and entirely about performance."
+    },
+    {
+      "label": "On social media",
+      "body": "Under a post, a lone 🎯 signals strong agreement, the same way “this” or “exactly” does. Quote-posts add it when someone has put a shared feeling into words. Commentators use it for predictions that came true. It leans analytical: you send 🎯 for accuracy, and 💯 or 🔥 for general enthusiasm."
+    },
+    {
+      "label": "In texting",
+      "body": "Friends use it when one of them guesses correctly, reads a situation perfectly or picks an ideal gift. “You described my ex in one sentence 🎯” is typical. It also appears in accountability chats where people share daily goals for studying, saving or workouts, and tick them off as they go."
+    }
+  ],
+  "examples": [
+    { "text": "“He’s not busy, he’s just not interested.” 🎯", "meaning": "The sender thinks that assessment is precisely correct." },
+    { "text": "This month’s 🎯: save $400", "meaning": "Stating a concrete goal they intend to reach." },
+    { "text": "Called the ending in the first ten minutes 🎯", "meaning": "Bragging about an accurate prediction of a plot twist." },
+    { "text": "Darts and drinks Friday? 🎯", "meaning": "A literal invitation to play darts at a bar." },
+    { "text": "Launch date hit, on budget 🎯", "meaning": "Reporting that a team delivered exactly what it planned." },
+    { "text": "That gift was so me 🎯", "meaning": "Telling someone their present was a perfect choice." }
+  ],
+  "combos": [
+    { "combo": "🎯💯", "meaning": "Completely accurate; total agreement with nothing to add." },
+    { "combo": "🎯✅", "meaning": "A goal has been set and achieved; target hit and checked off." },
+    { "combo": "🏹🎯", "meaning": "Archery, or more loosely taking careful aim at something you want." },
+    { "combo": "🎯📈", "meaning": "Hitting business or growth targets, common in sales and marketing updates." }
+  ],
+  "confusedWith": [
+    { "slug": "bow-and-arrow", "difference": "🏹 is the weapon and suggests aiming, hunting, Sagittarius or Cupid. 🎯 is the result: the shot has landed in the center. One is about trying, the other about hitting." },
+    { "slug": "hundred-points", "difference": "💯 expresses full agreement or perfection in a broad, hyped way. 🎯 is narrower and praises accuracy, as when a comment or guess is exactly right." },
+    { "slug": "red-circle", "difference": "🔴 is a plain filled dot used for status, recording or emphasis. The bullseye has rings and a dart, so it always carries the idea of a target." }
+  ],
+  "avoid": [
+    "Avoid using 🎯 about a person in a way that suggests they are being targeted; it can sound threatening.",
+    "Do not reply with it to someone’s painful self-criticism, where “exactly right” is the last thing they need to hear."
+  ],
+  "design": "The glyph shows a round target with concentric rings and a dart stuck in the middle. Apple, Google and most others use red and white rings, with the dart entering from the upper right. A few designs resemble a pub dartboard more closely, but the idea of a center hit is identical on every platform.",
+  "faqs": [
+    { "q": "What does 🎯 mean as a reply?", "a": "It means the other person got it exactly right. It is agreement focused on accuracy: their point, guess or description hit the mark. No further comment is implied, and it is not sarcastic in normal use." },
+    { "q": "Is 🎯 a dartboard or a target?", "a": "It is a generic target with a dart in it. Unicode first called it Direct Hit and describes it as a bullseye. People use it for darts, archery and shooting alike, and far more often as a metaphor for goals." },
+    { "q": "What does 🎯 mean in a bio?", "a": "Usually ambition or focus. Entrepreneurs, coaches, marketers and athletes add it to suggest they set goals and reach them. It can also indicate a darts or archery hobby, though that is less common." },
+    { "q": "Does the bullseye emoji have a negative meaning?", "a": "Not typically. The one cautionary use is “a target on my back,” describing feeling singled out. Aimed at another person with hostile words it could read as a threat, so keep it on ideas and goals." }
+  ],
+  "related": ["hundred-points", "check-mark-button", "chart-increasing", "trophy", "bow-and-arrow", "light-bulb"]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "saluting-face",
+  "title": "Saluting Face Emoji 🫡 Meaning: Respect or Sarcasm?",
+  "description": "The 🫡 saluting face means “yes, on it,” respect, or a mock-solemn farewell. See how it reads at work, in group chats, and when it turns sarcastic.",
+  "summary": "The 🫡 saluting face means “understood, I'm on it” or “respect.” People send it to accept a task, honor someone's effort, or sign off with mock-military seriousness. Online it is often half-joking: a dutiful salute to a doomed plan, a departing coworker, or a friend about to do something brave and unwise.",
+  "meaning": [
+    "At face value 🫡 is a salute: a yellow face with a hand raised to the brow. In messages it works as a compact “yes, sir” or “yes, ma'am.” Someone asks you to grab milk on the way home, you reply 🫡, and the job is acknowledged without another word. That use is sincere but playful; nobody thinks you have enlisted. It turns an ordinary errand into a mission, which is most of its charm.",
+    "The second meaning is tribute. People drop 🫡 under news of a retirement, a canceled show, a teammate's final game, or a stranger who did something selfless. It says “respect” with a hint of ceremony. In late 2022 the emoji became closely tied to layoffs after departing Twitter employees posted it as a farewell, and it has kept that going-down-with-the-ship flavor ever since. A lone 🫡 in a work channel can now mean someone is leaving.",
+    "Then there is the ironic salute, probably the most common use among younger users. Here 🫡 means “I will comply, and I have opinions about it.” It answers unreasonable deadlines, a friend's terrible idea, or any situation where resistance is pointless. The joke is in the stiffness: the expression is flat, the mouth a small straight line, so it reads as obedient and resigned at once.",
+    "Because it arrived in 2021, 🫡 has no long history of older meanings to untangle. Its tone depends almost entirely on what it replies to. Under good news it is admiration; under bad news it is solidarity; under an order it is compliance with a raised eyebrow. Read the message above it before deciding whether you have been thanked, honored, or gently mocked, and if you send one yourself, a word or two alongside it removes the guesswork."
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "In Slack and Teams 🫡 has become a standard acknowledgment, somewhere between a thumbs up and “will do.” It signals that you have taken ownership of a request rather than merely seen it. Most colleagues read it as upbeat. With a manager you don't know well, check the surrounding tone first, since a salute to a heavy workload can look like quiet protest."
+    },
+    {
+      "label": "In group chats",
+      "body": "Friends use it to honor small acts of sacrifice: the one who volunteers to be designated driver, who texts the ex back, who eats the gas station sushi. The salute treats them as a fallen hero in advance. It also closes out plans, as in “7pm, don't be late” followed by a row of salutes from everyone."
+    },
+    {
+      "label": "On social media",
+      "body": "Replies and quote posts use 🫡 as a one-character eulogy for discontinued products, relegated teams, retiring athletes, and accounts that got banned. Fan communities also salute creators who deliver something big. In comment sections it often appears alone, because adding words would spoil the deadpan."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Can you send me the deck before 3? — 🫡",
+      "meaning": "A quick, friendly confirmation that the task is accepted and will be handled."
+    },
+    {
+      "text": "He took the middle seat so we could sit together 🫡",
+      "meaning": "Mock-heroic respect for a friend's small sacrifice."
+    },
+    {
+      "text": "Today is my last day. It's been an honor 🫡",
+      "meaning": "A dignified farewell to colleagues, borrowing the ceremony of a final salute."
+    },
+    {
+      "text": "New policy: cameras on for every meeting. 🫡",
+      "meaning": "Reluctant compliance; the sender will obey but is not thrilled."
+    },
+    {
+      "text": "Going in to ask for a raise. If I don't come back 🫡",
+      "meaning": "Joking that a nerve-racking task is a dangerous mission."
+    },
+    {
+      "text": "20 seasons with one club 🫡",
+      "meaning": "Sincere admiration for a long career or loyal service."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🫡🫡🫡",
+      "meaning": "A whole squad reporting for duty, or a group paying tribute together."
+    },
+    {
+      "combo": "🫡🪦",
+      "meaning": "Rest in peace to a plan, product, or person's dignity; gone but honored."
+    },
+    {
+      "combo": "🫡❤️",
+      "meaning": "Warm, sincere respect, removing any hint that the salute is sarcastic."
+    },
+    {
+      "combo": "🫡😭",
+      "meaning": "Saluting through tears: accepting bad news or an emotional goodbye."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "face-with-peeking-eye",
+      "difference": "🫣 also shows a hand at the face, but it covers the eyes while one peeks out. It means embarrassed curiosity or dread, not respect. At small sizes the two can blur together, so check which side the hand sits on."
+    },
+    {
+      "slug": "thumbs-up",
+      "difference": "👍 confirms that a message was received and approved. 🫡 goes further and implies you are taking action on it, with a playful sense of duty. A thumbs up can feel curt; a salute rarely does."
+    },
+    {
+      "slug": "person-bowing",
+      "difference": "🙇 expresses apology, deep thanks, or a humble request, rooted in Japanese bowing etiquette. 🫡 is upright and dutiful rather than humble, and it suits accepting orders or honoring someone, not saying sorry."
+    }
+  ],
+  "avoid": [
+    "Skip it when replying to genuinely serious military news or a death in service unless you are certain it will be read as sincere.",
+    "Don't salute a boss's unpopular announcement in a public channel if you are not prepared for it to be read as sarcasm.",
+    "Avoid it as your only reply to a detailed request that needs real answers, since it confirms attitude rather than specifics."
+  ],
+  "design": "A yellow face with a neutral, slightly pressed mouth and a right hand raised to the forehead in a salute. Most vendors crop the hand so only the fingers and part of the palm show at the upper corner of the face. Expressions differ a little: some designs look earnest and wide-eyed, others more stoic. The emoji has no skin tone options because the hand is part of the face glyph.",
+  "faqs": [
+    {
+      "q": "Is the 🫡 emoji sarcastic?",
+      "a": "It can be. A salute in reply to good news or a friendly request is sincere. A salute in reply to an unfair demand, a bad decision, or a hopeless situation usually carries dry humor: “I'll do it, but noted.” The message it answers tells you which reading applies."
+    },
+    {
+      "q": "What does 🫡 mean from a guy or a girl?",
+      "a": "It has no romantic meaning for anyone. From a crush it most likely means “got it” or “see you then,” delivered with some humor. If anything it is a friendly, low-pressure reply, so don't read attraction or rejection into it."
+    },
+    {
+      "q": "Why did people post 🫡 during layoffs?",
+      "a": "When large numbers of Twitter employees left the company in late 2022, many announced it with a single saluting face. The gesture caught on as a way to say goodbye with dignity, and it spread to layoffs and shutdowns at other companies."
+    },
+    {
+      "q": "When was the saluting face emoji added?",
+      "a": "It was approved in 2021 as part of Emoji 14.0 and reached most phones over the following year. Before that, people who wanted a salute typed o7, an old gaming emoticon where the o is a head and the 7 is the raised arm."
+    },
+    {
+      "q": "Is 🫡 okay to send to my boss?",
+      "a": "Usually yes. In many workplaces it is a normal way to accept a task. If your workplace is formal, or the request you are answering was unwelcome, plain words like “will do” carry less risk of being misread."
+    }
+  ],
+  "related": [
+    "thumbs-up",
+    "handshake",
+    "person-bowing",
+    "flexed-biceps",
+    "face-with-peeking-eye",
+    "melting-face"
+  ]
+}

@@ -1,0 +1,18 @@
+# Emojis that get their own in-depth page. All of Smileys & Emotion is added automatically.
+# Add a character here, write its file in src/content/emoji/, and it gets a page.
+# people & body
+👍 👎 🙏 👏 🙌 🤝 💪 ✌️ 👌 🤞 🤟 🤘 🤙 👋 ✋ 🤲 🤌 🤏 ✍️ 🖕 👉 👈 👆 👇 ☝️ 🫶 🫡 🫵 🫰 👊 ✊ 💅 👀 👁️ 👄 🫦 🧠 👅 🤷 🤦 🙋 🙅 🙇 💁 💃 🕺 🏃 🧎 🗣️ 🫂
+# animals & nature
+🐶 🐱 🐰 🦊 🐻 🐼 🐸 🐵 🐧 🦋 🐝 🐢 🐍 🐙 🦈 🦄 🐺 🐐 🕷️ 🕊️ 🐈‍⬛ 🌹 🌸 🌺 🌻 🌷 🥀 💐 🌱 🍀 🍃 🍂 🍁 🍄 🪷
+# food & drink
+🍎 🍌 🍓 🍒 🍑 🍆 🍉 🍍 🥑 🌽 🌶️ 🍋 🍇 🍕 🍔 🍟 🌮 🍿 🎂 🧁 🍩 🍪 🍫 🍭 🍯 ☕ 🍵 🧋 🍺 🍻 🍷 🥂 🍾 🧊
+# travel & places
+🌍 🏠 ✈️ 🚀 🚗 🛸 ⚓ 🏝️ 🌅 🌈 ☀️ 🌙 ⭐ 🌟 ✨ ⚡ 🔥 💧 🌊 ❄️ ⛄ ☁️ 🌧️ ☔ 🌕 🌚 🌝 🌞 🪐 💫 ⏰ ⏳
+# activities
+⚽ 🏀 🏈 🏆 🥇 🎯 🎮 🎲 🧩 🎨 🎭 🎉 🎊 🎈 🎁 🎄 🎃 🎆 🎀 🎗️ 🪄 🔮 🧿 🪩 🃏 🧸
+# objects
+📱 💻 📸 💡 🕯️ 📚 📝 📌 🔒 🔑 👑 💰 💵 💸 💎 💍 🕶️ 💄 🎓 💊 💉 🔔 🎵 🎶 🎤 🎧 ✉️ 🗑️ ⚰️ 🪦 🗿 🔫 💣 🧲 🪞 📈 📉 🔍 🔗 ⛓️ ⚔️
+# symbols
+✅ ❌ ❓ ❗ ⚠️ 🚫 ⛔ 🔞 ♻️ ➡️ 🔄 ♾️ ✔️ ⭕ 🔴 🟢 🔵 ⚫ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ☮️ ✝️ ☯️ 🆘 ⚧️ 🌀 💤 🏁
+# flags
+🏳️ 🏴 🏳️‍🌈 🏳️‍⚧️ 🏴‍☠️ 🚩 🇺🇸 🇬🇧 🇨🇦 🇦🇺 🇧🇷 🇲🇽 🇮🇳 🇯🇵 🇨🇳 🇰🇷 🇩🇪 🇫🇷 🇮🇹 🇪🇸 🇮🇪 🇺🇦 🇵🇸 🇵🇭 🇳🇬 🇯🇲 🇵🇷

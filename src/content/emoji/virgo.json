@@ -1,0 +1,95 @@
+{
+  "slug": "virgo",
+  "title": "Virgo Emoji ♍ Meaning: The Maiden Sign and Its Reputation",
+  "description": "The ♍ Virgo emoji marks the zodiac sign of the Maiden, August 23 to September 22. Learn how it's used for perfectionism jokes and how to tell it from ♏.",
+  "summary": "The ♍ Virgo emoji is the symbol of Virgo, the Maiden, the zodiac sign for those born from about August 23 to September 22. People use it to share their sign and to joke about being organized, picky, and perfectionist, the traits Virgo is known for.",
+  "meaning": [
+    "♍ looks like a lowercase letter m whose last stroke curls inward and crosses itself. Explanations of the shape differ, and no single origin is agreed upon. What is certain is its role: it stands for Virgo, the sixth sign of the zodiac and the only one represented by a woman, traditionally pictured holding a sheaf of grain at harvest time.",
+    "Astrology files Virgo under earth and mutable and assigns it Mercury as ruler. The usual reading is an analytical, practical person who notices details and wants to be useful. Online that becomes the friend with the color-coded calendar, the one who proofreads your text before you send it and reorganizes the dishwasher after you load it.",
+    "Virgos wield the emoji with dry self-awareness. \"Made a spreadsheet for the vacation ♍\" is a boast disguised as a confession. Others use it to explain a critique: \"not to be a Virgo ♍ but there's a typo on slide four.\" Pop culture has helped the sign's image, notably through Beyoncé, a September-born Virgo who has referenced the sign in her music, and each year \"Virgo season\" posts lean on that association."
+  ],
+  "contexts": [
+    {
+      "label": "In bios and birthday posts",
+      "body": "Late August and September birthdays are tagged ♍, and it appears in chart rundowns next to moon and rising signs. Productivity creators, planners, and stationery brands also use the emoji around Virgo season, since the sign's tidy reputation suits back-to-school organizing content."
+    },
+    {
+      "label": "In texting",
+      "body": "It serves as a label for fussy or meticulous behavior, your own or a friend's. Typical triggers are correcting grammar, arriving early, or making an itinerary nobody asked for. It is usually self-deprecating, and other signs use it to thank the Virgo who handled the logistics."
+    },
+    {
+      "label": "At work",
+      "body": "In casual office chat, a colleague might add ♍ after catching an error or tidying a shared folder. It is friendly banter among coworkers who talk about astrology. In formal communication the emoji has no place, and not everyone will recognize the glyph."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Labeled every shelf in the pantry and I feel alive ♍",
+      "meaning": "A Virgo delighting in organization."
+    },
+    {
+      "text": "September 4 ♍ same birthday as Beyoncé, no big deal",
+      "meaning": "A birthday brag linking the sender to a famous Virgo."
+    },
+    {
+      "text": "Who made the packing list with weather backups? ♍ obviously",
+      "meaning": "Credit to the group's planner, identified by sign."
+    },
+    {
+      "text": "It's *you're ♍ sorry I can't help it",
+      "meaning": "A grammar correction excused as Virgo nature."
+    },
+    {
+      "text": "Virgo season ♍ time to clean out my inbox and my life",
+      "meaning": "A seasonal caption about getting organized."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "♍📋",
+      "meaning": "The list-making, plan-everything Virgo."
+    },
+    {
+      "combo": "♍🌾",
+      "meaning": "Virgo and the grain of the harvest maiden; an earth-sign pairing."
+    },
+    {
+      "combo": "♍🧼",
+      "meaning": "Cleaning and tidying, a favorite Virgo stereotype."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "scorpio",
+      "difference": "♏ is also an m-shaped glyph, but its final stroke ends in an arrow pointing outward, the scorpion's stinger. Virgo's last stroke loops back in and crosses itself. Check the tail before posting: loop for Virgo, arrow for Scorpio."
+    },
+    {
+      "slug": "capricorn",
+      "difference": "♑ is a fellow earth sign whose glyph also has a loop at the end, which causes occasional mix-ups in small text. Capricorn begins with a sharp V-shaped stroke instead of the rounded humps of Virgo's m."
+    }
+  ],
+  "avoid": [
+    "Do not use ♍ to criticize someone as nitpicky in a real conflict, where it trivializes the disagreement.",
+    "Avoid assuming the Maiden symbol says anything about a person's relationships or sexuality; it is simply the constellation's traditional figure."
+  ],
+  "design": "A white glyph like an m with a closed, crossed loop on its right leg, centered on a purple square. Platform designs match closely, with slight differences in how tight the loop is drawn. Because Virgo and Scorpio sit near each other on the keyboard and share the m shape, they are the pair most often tapped by mistake.",
+  "faqs": [
+    {
+      "q": "What dates are Virgo ♍?",
+      "a": "About August 23 to September 22. The sign follows Leo and precedes Libra, ending around the September equinox. Exact boundaries differ slightly by year."
+    },
+    {
+      "q": "How do I tell the Virgo and Scorpio emoji apart?",
+      "a": "Look at the end of the last stroke. Virgo, ♍, curls inward into a loop. Scorpio, ♏, extends outward and ends in a small arrowhead. Everything else about the two glyphs is nearly the same."
+    },
+    {
+      "q": "What does it mean to call someone a Virgo?",
+      "a": "Outside of literal birthdays, it is shorthand for being precise, tidy, critical, or a perfectionist. People say it about anyone showing those habits. It can be a compliment on competence or a tease about fussiness."
+    },
+    {
+      "q": "Why is Virgo called the Maiden?",
+      "a": "The constellation has been pictured since antiquity as a young woman, often associated with harvest and grain goddesses. Its brightest star, Spica, takes its name from the Latin for an ear of grain."
+    }
+  ],
+  "related": ["leo", "libra", "taurus", "capricorn", "scorpio", "memo"]
+}

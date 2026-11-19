@@ -1,0 +1,50 @@
+{
+  "slug": "magnifying-glass-tilted-left",
+  "title": "Magnifying Glass Emoji 🔍 Meaning: Search and Sleuthing",
+  "description": "The 🔍 magnifying glass tilted left emoji means search, look closer or investigate. See how it's used for online sleuthing, fine print and SEO, versus 🔎.",
+  "summary": "The 🔍 magnifying glass tilted left emoji shows a hand lens with its handle pointing to the lower right. It means searching, examining or investigating: looking something up, zooming in on details, digging for the truth. Apps use the same shape for their search buttons.",
+  "meaning": [
+    "Search bars made this image universal. A small magnifier sits beside nearly every search field on the web, so 🔍 naturally means “look it up” or “search for.” People use it when asking for recommendations (“🔍 good dentist near me”), when telling someone to check for themselves, and when describing a hunt for apartments, jobs or lost keys.",
+    "Detective work is the other half. Online sleuthing has become a pastime, with users piecing together a celebrity breakup from likes and unfollows or finding out who a friend's date really is, and the magnifier is its badge. “I did some digging 🔍” introduces findings. Fans analyzing a trailer frame by frame, or readers hunting clues in a mystery, use it to say they are examining the evidence.",
+    "A closer look can be skeptical too. Replying 🔍 to a claim suggests it needs checking, like a quiet request for a source. Fact-checkers and journalists use it for verification and investigations. In the same spirit, “read the fine print 🔍” warns about details hidden in contracts, terms of service or special offers.",
+    "Scientists, teachers and hobbyists use it literally for observation: insects, stamps, coins, lab work. Marketers attach it to search engine optimization and keyword research. And it is a staple of jokes about anything tiny, from a restaurant portion to someone's patience, where the punchline is needing a magnifying glass to find it."
+  ],
+  "contexts": [
+    { "label": "On social media", "body": "Threads that uncover a backstory open with it. “Zoom in 🔍” tells viewers a detail is hiding in the photo. Under suspicious posts, commenters use it to signal they are investigating. Gossip accounts and fandom theorists treat it as part of the uniform." },
+    { "label": "At work", "body": "It labels research, audits, quality checks and reviews: “🔍 looking into it” is a common, friendly acknowledgment of a bug report or customer issue. SEO and analytics professionals use it in bios. In recruitment it means searching for candidates, as in “🔍 hiring a designer.”" },
+    { "label": "In texting", "body": "Friends send it when they are about to look someone up before a date, when they need help finding something, or when they notice a small detail in a picture. “Sent you a photo, 🔍 the background” is an invitation to spot something funny." },
+    { "label": "In school", "body": "Science classes, reading comprehension tasks and research projects use it for close observation and finding evidence in a text. Teachers use it on scavenger hunts and “I spy” activities. For younger children it signals detective-style games and the habit of looking carefully." }
+  ],
+  "examples": [
+    { "text": "Did some digging on that landlord 🔍 not good", "meaning": "The sender researched someone and found problems." },
+    { "text": "Zoom in on the top left corner 🔍😂", "meaning": "Pointing out a funny hidden detail in an image." },
+    { "text": "🔍 Looking for a roommate starting June", "meaning": "Announcing a search." },
+    { "text": "Source? 🔍", "meaning": "Doubting a claim and asking for evidence." },
+    { "text": "Looking into the login bug now 🔍", "meaning": "Confirming that an issue is being investigated." },
+    { "text": "They call this a large fries? 🔍🍟", "meaning": "Joking that a portion is so small it needs magnification." }
+  ],
+  "combos": [
+    { "combo": "🕵️🔍", "meaning": "Detective mode: investigating someone or something." },
+    { "combo": "🔍👀", "meaning": "Looking very closely; nothing gets past the sender." },
+    { "combo": "🔍📄", "meaning": "Reviewing a document or reading the fine print." },
+    { "combo": "🔍💻", "meaning": "Searching online or doing research." }
+  ],
+  "confusedWith": [
+    { "slug": "magnifying-glass-tilted-right", "difference": "The 🔎 magnifying glass tilted right is the mirror image, with the handle at lower left. The meaning is identical; the two exist for historical compatibility, and people choose by habit or by which way they want the lens to face." },
+    { "slug": "detective", "difference": "The 🕵️ detective shows a person in a hat and coat and describes the investigator. 🔍 is the tool and the act of searching, and it also covers plain web searches." },
+    { "slug": "eyes", "difference": "The 👀 eyes emoji means watching, noticing or being nosy in the moment. The magnifier implies deliberate effort: researching, inspecting, verifying." }
+  ],
+  "avoid": [
+    "Don't post 🔍 with someone's private details; “sleuthing” that exposes personal information is doxxing.",
+    "Avoid replying 🔍 to a friend's personal story, where it can sound like you doubt them."
+  ],
+  "design": "The emoji is a round lens in a dark or metal rim with a straight handle extending toward the lower right, so the glass sits at upper left. The lens is usually tinted light blue with a white highlight. Handle color ranges from black to brown or gray among platforms. Nothing is shown beneath the lens.",
+  "faqs": [
+    { "q": "What is the difference between 🔍 and 🔎?", "a": "Only the tilt. 🔍 has the lens toward the left and the handle at lower right; 🔎 is reversed. Both mean search or examine. Two versions exist because early Japanese carrier sets included both." },
+    { "q": "What does 🔍 mean in a text?", "a": "The sender is looking for something, investigating, or asking you to look closely. It can also mean “search it” or express doubt about a claim." },
+    { "q": "What does 🔍 mean on TikTok?", "a": "It often points to the app's search feature, as in “🔍 this phrase to find the video.” It also marks deep-dive and investigation content, and comments asking viewers to zoom in." },
+    { "q": "What does 🔍 mean from a guy or girl?", "a": "Possibly that they looked you up, noticed a detail in your photo or are searching for something. It is curious, not romantic, though checking someone's profile closely can itself signal interest." },
+    { "q": "Is the magnifying glass emoji used for SEO?", "a": "Yes. Search marketers use it in bios, service listings and posts about keywords and rankings, because the magnifier is the standard icon for search engines." }
+  ],
+  "related": ["magnifying-glass-tilted-right", "detective", "eyes", "face-with-monocle", "thinking-face", "microscope"]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "snowman-without-snow",
+  "title": "Snowman Emoji ⛄ Meaning and Why There Are Two",
+  "description": "⛄ is the snowman with no snowflakes around it. It means snow days, winter fun and the holidays. See how it differs from ☃️ and when its slang use appears.",
+  "summary": "⛄ is a classic snowman: stacked snowballs, a hat, stick arms and a carrot nose. It means winter play, snow days and the December holidays. Its odd official name only distinguishes it from ☃️, a second snowman drawn with snowflakes falling around it.",
+  "meaning": [
+    "The snowman is winter at its friendliest. Where the snowflake can feel sharp or cold, ⛄ suggests mittens, a day off school and something built in the yard. People post it after the first decent snowfall, on photos of their own lopsided creations, and in greetings throughout December and January. It is seasonal without being religious, so it fits cards and messages for mixed audiences.",
+    "The name confuses nearly everyone. Unicode already had a snowman symbol showing falling snow, used in weather notation, when the Japanese carrier emoji set brought in a snowman of its own. To keep both, the newer one was labeled “without snow,” meaning no flakes in the air around it. The figure is still very much made of snow. In daily use the two are interchangeable and most people never notice there are two.",
+    "Pop culture supplies extra uses. Fans of Frozen send ⛄ for Olaf and for the song that asks about building a snowman, which has turned into a playful way to invite someone to hang out. Rapper Jeezy's snowman logo gave the emoji a place in hip-hop circles, where it can nod to him or, like the snowflake, to cocaine. Outside those settings it has no hidden meaning."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "After snow, ⛄ is an invitation: come outside, let's build something. Parents send it with photos from the yard. It also complains mildly about the cold, as in feeling like a snowman at a bus stop. Paired with a question mark it quotes the Frozen song as a jokey request for company."
+    },
+    {
+      "label": "On holidays",
+      "body": "Christmas and winter greetings use the snowman alongside trees, gifts and snowflakes. Shops and schools use it on closing notices and winter fair posters. Because it is a character with a face, it brings more warmth to a message than abstract winter symbols and is a favorite with children."
+    },
+    {
+      "label": "In captions",
+      "body": "Ski trips, snowball fights, sledding hills and the yearly first-snow photo are typical. People in hot climates use it ironically for a rare cold snap or for a sand “snowman” built on a beach at Christmas. In melting weather, it stars in jokes about not surviving the heat."
+    }
+  ],
+  "examples": [
+    { "text": "School's cancelled!! ⛄ meet at the hill in 20", "meaning": "Celebrating a snow day and planning to go sledding." },
+    { "text": "Do you want to build a ⛄?", "meaning": "Quoting Frozen to ask someone to spend time together." },
+    { "text": "Our guy lasted two days before the sun got him ⛄😢", "meaning": "Mourning, humorously, a snowman that melted." },
+    { "text": "Happy holidays from our family to yours ⛄🎄", "meaning": "A warm, non-denominational seasonal greeting." },
+    { "text": "It's 14 degrees and I'm waiting for the bus like ⛄", "meaning": "Joking that the sender is frozen solid." }
+  ],
+  "combos": [
+    { "combo": "⛄❄️", "meaning": "Snowy weather and winter fun." },
+    { "combo": "⛄🎄", "meaning": "Christmas season greetings." },
+    { "combo": "⛄🥕", "meaning": "Building a snowman, carrot nose and all." },
+    { "combo": "☀️⛄", "meaning": "A melting snowman; winter ending, or wilting in the heat." }
+  ],
+  "confusedWith": [
+    { "slug": "snowman", "difference": "☃️ is the same figure with snowflakes drawn around it, as if snow is falling. Use it when it is actively snowing; ⛄ is the plain snowman. In practice people treat them as one emoji." },
+    { "slug": "snowflake", "difference": "❄️ is a single ice crystal. It covers cold in the abstract and has slang and insult meanings. ⛄ is a cheerful character tied to play and holidays." },
+    { "slug": "cloud-with-snow", "difference": "🌨️ is the forecast symbol for snowfall. It reports the weather; the snowman shows what people do with it afterward." }
+  ],
+  "avoid": [
+    "Avoid using it in posts about severe winter storms where people are at risk.",
+    "Do not assume a recipient will know the slang sense; outside specific music and drug contexts it is read as a toy-like winter figure."
+  ],
+  "design": "Two or three stacked snowballs with dot eyes, a carrot nose and stick arms. Accessories vary by platform: a black top hat on some, a red knit cap or a bucket on others, and often a scarf and coal buttons. No snowflakes surround it, which is the only thing separating it from ☃️.",
+  "faqs": [
+    { "q": "Why is it called Snowman Without Snow?", "a": "Because another character, ☃️, shows a snowman with snowflakes falling around it. The name tells the two apart. It refers to the missing flakes in the air, not to the snowman's body." },
+    { "q": "Which snowman emoji should I use?", "a": "Either one. Most keyboards suggest ⛄ first, and it displays in color everywhere. Pick ☃️ if you want to suggest that snow is falling right now." },
+    { "q": "What does ⛄ mean from a guy or a girl?", "a": "Winter cheer, a snow day or holiday greetings. With the Frozen lyric it is a cute way of asking to hang out. It has no romantic or sexual meaning by default." },
+    { "q": "Does the snowman emoji have a slang meaning?", "a": "In hip-hop it can reference Jeezy, whose nickname is the Snowman, and by extension cocaine. That usage is specific to certain communities and is uncommon in everyday messages." }
+  ],
+  "related": ["snowman", "snowflake", "cloud-with-snow", "christmas-tree", "cold-face", "scarf"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "sneezing-face",
+  "title": "Sneezing Face Emoji 🤧 Meaning: Colds, Allergies, Tears",
+  "description": "🤧 covers sneezes, colds and pollen season, and doubles as a face sniffling into a tissue over something touching. Here is how to tell which one is meant.",
+  "summary": "The 🤧 sneezing face shows someone sneezing or blowing their nose into a tissue. It means a cold, the flu or allergies in most messages. Because it also looks like a person dabbing at tears, it is widely used for being moved, proud or weepy over something sweet or sad.",
+  "meaning": [
+    "The basic reading is physical. 🤧 announces a runny nose, a sneezing fit or the first day of a cold. It is the emoji of hay fever season, dusty attics and friends with cats, and it carries less alarm than the thermometer face. A person sending it is uncomfortable and probably going through a box of tissues, but not necessarily in bed.",
+    "The second reading comes from the tissue. With eyes squeezed shut and a white square pressed to the face, the emoji resembles someone crying into a handkerchief. People picked up on that and began using it for emotional sniffles: a proud parent at a graduation, a fan watching a farewell performance, a friend reading a kind message.",
+    "This emotional use is especially common in fan communities, where 🤧 follows statements like they worked so hard or look how far they have come. The feeling is tender and a little dramatic, sitting somewhere between touched and overwhelmed. It is softer than the loudly crying face and suggests the person is trying to hold it together.",
+    "A related use is the fake sob, as in I'm not crying, I just have allergies. Here the double meaning is the joke: the sender pretends the tissue is for pollen while everyone understands it is for tears. Some people also add 🤧 to say bless you after another person mentions sneezing."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It usually reports symptoms. Friends send it to explain a stuffy voice on a call, to warn that they might be contagious or to complain about pollen counts. If nothing about health has been mentioned and the topic is sentimental, read it as getting emotional instead." },
+    { "label": "On X, TikTok and fan spaces", "body": "Here the tearful sense dominates. Fans attach it to clips of a favorite artist, athlete or character at a meaningful moment. It conveys pride and affection more than sadness. A string of 🤧🤧🤧 under a video usually means this got to me in the best way." },
+    { "label": "At work", "body": "It works as a light way to say you have a cold and may sound rough in meetings, or that you are logging off to rest. It reads as honest and low-drama. The emotional meaning is less familiar in professional settings, so colleagues will assume you are ill." },
+    { "label": "During allergy season", "body": "Spring and early autumn bring it out in weather posts, gardening updates and complaints about freshly cut grass. Pet lovers use it to admit they are allergic to an animal they adore anyway, often with a heart to show the sneezing is worth it." }
+  ],
+  "examples": [
+    { "text": "Pollen count is insane today 🤧", "meaning": "The sender's allergies are acting up." },
+    { "text": "I think I caught your cold 🤧 thanks a lot", "meaning": "They are getting sick and playfully blaming the other person." },
+    { "text": "My baby brother just graduated 🤧 so proud", "meaning": "They are tearing up with pride." },
+    { "text": "That reunion scene 🤧🤧", "meaning": "A show or film moment made them emotional." },
+    { "text": "I'm not crying, it's just dusty in here 🤧", "meaning": "A joke that pretends tears are really allergies." },
+    { "text": "Sneezed 12 times in a row 🤧 new record", "meaning": "A literal sneezing fit, shared for laughs." }
+  ],
+  "combos": [
+    { "combo": "🤧🌸", "meaning": "Hay fever, or spring flowers causing misery." },
+    { "combo": "🤧🤒", "meaning": "A proper cold or flu with sneezing and a temperature." },
+    { "combo": "🥹🤧", "meaning": "Deeply touched and trying not to cry over something sweet." },
+    { "combo": "🤧🐱", "meaning": "Allergic to cats, usually while insisting on petting one anyway." }
+  ],
+  "confusedWith": [
+    { "slug": "sleepy-face", "difference": "😪 has a bubble at the nose that people mistake for a tear or mucus, so it is sometimes used for colds. It officially depicts dozing. 🤧 holds a tissue and is the true sneezing emoji." },
+    { "slug": "crying-face", "difference": "😢 sheds a single visible tear and is plainly sad. 🤧 hides its tears behind a tissue, so its emotional use feels warmer and is more often about being moved than being hurt." },
+    { "slug": "face-with-thermometer", "difference": "🤒 signals fever and being properly ill. 🤧 describes the lighter end of sickness, sneezes and sniffles, and is the right choice for allergies, which involve no fever at all." }
+  ],
+  "avoid": [
+    "Do not use the tearful sense with people who will assume you have a contagious cold before meeting them.",
+    "Avoid it as a response to serious bad news, where sniffling into a tissue can look like mockery.",
+    "Skip it when joking about spreading illness to someone who is vulnerable or anxious about getting sick."
+  ],
+  "design": "A yellow face with eyes clenched shut, holding a white tissue or handkerchief to its nose. Some vendors show the moment of the sneeze, with lines or a small burst suggesting force, while others show quiet nose-blowing. That difference is why the same emoji reads as an energetic achoo on one phone and gentle sniffling on another.",
+  "faqs": [
+    { "q": "Does 🤧 mean crying?", "a": "It can. The official subject is a sneeze, but many people use it for emotional sniffling, particularly pride and being touched. If the message is about a sweet moment rather than health, the sender is saying they are tearing up." },
+    { "q": "What does 🤧 mean from a guy or girl?", "a": "Usually that they are sick or dealing with allergies. If they send it after you say something kind or share good news, it means you made them emotional, in a slightly joking way. It has no romantic meaning by itself." },
+    { "q": "Is 🤧 used to say bless you?", "a": "Sometimes. People reply with it when someone mentions sneezing, as a visual gesundheit. More commonly they just type bless you. It can also be a way of saying same here when both of you are suffering from the same cold." },
+    { "q": "Why do K-pop and other fans use 🤧 so much?", "a": "In fan communities it became shorthand for being proud of and moved by an artist, like a parent dabbing their eyes at a recital. It expresses soft, affectionate emotion and is rarely about illness in that setting." }
+  ],
+  "related": ["face-with-thermometer", "face-with-medical-mask", "face-holding-back-tears", "crying-face", "sleepy-face", "cherry-blossom"]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "rocket",
+  "title": "Rocket Emoji 🚀 Meaning: Launches, Growth and Hype",
+  "description": "Why the 🚀 rocket emoji means launching, fast growth and “to the moon” in crypto and stocks, as well as space. Clear examples from work, texting and social.",
+  "summary": "🚀 shows a rocket in flight and means something is taking off: a product launch, rapid growth, a price expected to soar, or a burst of speed and ambition. It is also the literal emoji for spaceflight, used for launches, astronauts and anything bound for orbit.",
+  "meaning": [
+    "The rocket's main job today is metaphor. Tech companies and startups adopted it early as the symbol for shipping something new, to the point that “we just launched 🚀” is close to a cliche on LinkedIn and Product Hunt. It promises momentum: numbers going up, a team moving quickly, a project leaving the ground. Developers use it in release notes and commit messages for deployments and performance improvements, where it signals both “it's live” and “it's faster.”",
+    "Retail investors gave it a second life. On Reddit's WallStreetBets and across crypto communities, rows of rockets mean a stock or coin is expected to shoot upward, usually with the phrase “to the moon.” During the GameStop frenzy of 2021 the emoji became the visual chant of that crowd. The use is hopeful rather than factual, and a wall of 🚀🚀🚀 under a post is better read as cheerleading than as analysis.",
+    "Literal use is still healthy. Space agencies, launch providers and fans post the rocket on launch days, and it accompanies news about missions, astronauts and satellites. In ordinary texting it lends a sense of speed or energy to almost anything: a child's growth spurt, a career jump, a morning coffee kicking in. The tone is nearly always upbeat. Rockets that fail are a different conversation."
+  ],
+  "contexts": [
+    {
+      "label": "At work",
+      "body": "In Slack and email subject lines, 🚀 marks a release, a kickoff or a milestone hit. As a reaction it means “great, ship it” or congratulates a team on going live. Because it is so common in corporate cheer, some people find it hollow; a rocket on a routine status update can read as trying too hard."
+    },
+    {
+      "label": "In crypto and stock chatter",
+      "body": "Here the rocket is bullish slang. One means optimism, five means evangelism. It travels with the full moon, diamonds and raised hands, each part of the same vocabulary about holding an asset until its price climbs. Scam promotions imitate the style, so a post that is mostly rockets and promises deserves extra skepticism."
+    },
+    {
+      "label": "In space news",
+      "body": "Launch countdowns, liftoff clips and mission patches get the rocket in its plain sense. Science accounts pair it with planets and satellites, and parents use it for kids' space-themed birthdays and school projects. This is the one setting where the emoji is not exaggerating anything."
+    }
+  ],
+  "examples": [
+    { "text": "v2.0 is live 🚀 changelog in thread", "meaning": "A team announcing that a new software version has been released." },
+    { "text": "Holding till it hits $100 🚀🚀🚀", "meaning": "An investor expressing confidence that a price will rise sharply." },
+    { "text": "Liftoff at 6:42pm, watching from the beach 🚀", "meaning": "Literal use: the sender is going to see a rocket launch." },
+    { "text": "Your career is about to 🚀 after this", "meaning": "Encouragement that a friend's new role will lead to fast progress." },
+    { "text": "Three coffees deep 🚀 let's go", "meaning": "A joke about being highly energized and ready to work." }
+  ],
+  "combos": [
+    { "combo": "🚀🌕", "meaning": "“To the moon”: the hope that a stock or cryptocurrency price will climb dramatically." },
+    { "combo": "🚀📈", "meaning": "Rapid growth in sales, followers or any tracked number." },
+    { "combo": "💎🙌🚀", "meaning": "Diamond hands: holding an investment through swings in expectation of a big rise." },
+    { "combo": "👩‍🚀🚀", "meaning": "Astronauts and crewed spaceflight, or a child's dream of becoming one." }
+  ],
+  "confusedWith": [
+    { "slug": "flying-saucer", "difference": "🛸 is an alien craft and belongs to UFO jokes and weirdness. 🚀 is human-built and stands for ambition, launches and growth, so the two rarely swap even in space-themed posts." },
+    { "slug": "airplane", "difference": "✈️ is about travel between real places. 🚀 is about acceleration and going up, literally into space or figuratively in results. A trip gets the plane; a product release gets the rocket." },
+    { "slug": "satellite", "difference": "🛰️ is the thing a rocket carries. It fits topics like GPS, orbit and communications, without the takeoff energy that makes 🚀 a symbol of launching." }
+  ],
+  "avoid": [
+    "Do not treat rockets in financial posts as evidence; they express hope and hype, not likelihood.",
+    "Go easy on it in workplace messages about small updates, where it can come across as empty enthusiasm.",
+    "Leave it out of news about launch failures, missile strikes or military conflict, where its cheerful tone is inappropriate."
+  ],
+  "design": "The rocket is drawn at a diagonal, nose up and to the right, with flames at the base. The classic look is a white or silver body with red fins and nose cone and a round blue porthole, close to a storybook spaceship. Platforms vary the colors slightly, but the angle and the exhaust are constant, which is what gives the emoji its sense of upward motion.",
+  "faqs": [
+    { "q": "What does 🚀 mean in crypto?", "a": "It means the poster believes a coin's price is about to rise fast, often written as “to the moon.” It is community slang for optimism and should not be taken as financial information." },
+    { "q": "What does 🚀 mean in a text from a friend?", "a": "Usually excitement about something starting or going well: a new job, a plan coming together, lots of energy. It rarely has a hidden or romantic meaning." },
+    { "q": "Why do developers use the rocket emoji?", "a": "It became the conventional mark for deploying or launching software. You will see it in release announcements and commit messages, and some teams use it specifically to tag performance improvements." },
+    { "q": "Is there a sexual meaning to 🚀?", "a": "Not an established one. A rocket can be made suggestive by context like most objects, but people do not generally read it that way, and it is safe in professional messages." }
+  ],
+  "related": ["flying-saucer", "full-moon", "ringed-planet", "chart-increasing", "satellite", "fire"]
+}

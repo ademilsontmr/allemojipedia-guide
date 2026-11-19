@@ -1,0 +1,106 @@
+{
+  "slug": "flag-ireland",
+  "title": "🇮🇪 Ireland Flag Emoji: Meaning and a Common Mix-Up",
+  "description": "The Ireland flag emoji 🇮🇪 is green, white and orange. Learn what the colors mean, when it's used, and why so many people post Côte d'Ivoire's flag by mistake.",
+  "summary": "The 🇮🇪 emoji is the Irish tricolor: vertical stripes of green, white, and orange, with green beside the pole. It represents Ireland and Irish heritage, peaks every St. Patrick's Day on March 17, and is routinely confused with the flag of Côte d'Ivoire, which has the same colors in reverse order.",
+  "meaning": [
+    "St. Patrick's Day dominates this emoji's calendar. On March 17, 🇮🇪 appears with shamrocks, pints, and parade photos from Dublin to Boston, Chicago, and Sydney. Much of that use comes from the diaspora and from people with no Irish ancestry at all who are simply joining the party. The rest of the year it marks nationality, trips along the Wild Atlantic Way, Irish music and literature, and sport.",
+    "The mistake everyone makes is posting 🇨🇮 instead. Côte d'Ivoire's flag is orange, white, and green, the mirror image, and the two sit close together on emoji keyboards. Brands and celebrities get it wrong every March, and Irish users have turned correcting them into an annual tradition. The rule is simple: on the Irish flag, green comes first, next to the flagpole.",
+    "The colors tell a story about reconciliation. Green stands for the Gaelic and Catholic tradition, orange for the Protestant tradition associated with William of Orange, and white for lasting peace between them. The tricolor was first presented in 1848 and became the national flag of independent Ireland in the twentieth century. It is the flag of the Republic; in Northern Ireland, flags are tied to competing identities, so the emoji is not a neutral symbol for the whole island in every setting."
+  ],
+  "contexts": [
+    {
+      "label": "On St. Patrick's Day",
+      "body": "The flag is at its most festive on March 17, usually with ☘️ and green clothing. Irish people abroad use it to mark the day, often with some homesickness. Note the three-leaf shamrock is the Irish symbol; the four-leaf clover 🍀 means luck and is a frequent stand-in."
+    },
+    {
+      "label": "In sports",
+      "body": "Football internationals, Gaelic games finals at Croke Park, Olympic boxing and rowing medals, and golf majors bring out 🇮🇪. The Irish rugby team is a special case: it represents the whole island, north and south, and uses its own flag and anthem at matches, though fans still post the tricolor freely."
+    },
+    {
+      "label": "Among the diaspora",
+      "body": "Tens of millions of people worldwide claim Irish descent, particularly in the United States, Britain, Canada, and Australia. They use 🇮🇪 in bios, in genealogy and heritage-trip posts, and beside a second flag. Recent emigrants use it for GAA clubs abroad and care packages of Irish tea and crisps."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Happy St. Patrick's Day from Dublin 🇮🇪☘️",
+      "meaning": "A holiday greeting sent from Ireland."
+    },
+    {
+      "text": "Finally visiting the village my great-grandmother left 🇮🇪",
+      "meaning": "A heritage trip by someone of Irish descent."
+    },
+    {
+      "text": "It's green FIRST. That's the Ivory Coast, lads 🇮🇪",
+      "meaning": "Correcting someone who posted the wrong tricolor."
+    },
+    {
+      "text": "Gold for Ireland in the ring!! 🇮🇪🥊",
+      "meaning": "Celebrating an Irish Olympic boxing medal."
+    },
+    {
+      "text": "Mam sent Barry's Tea and Tayto to Vancouver 🇮🇪😭",
+      "meaning": "An emigrant delighted by a package from home."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇮🇪☘️",
+      "meaning": "Irishness in full, especially on St. Patrick's Day."
+    },
+    {
+      "combo": "🇮🇪🍻",
+      "meaning": "A night at the pub, Irish style."
+    },
+    {
+      "combo": "🇮🇪💚",
+      "meaning": "Affection for Ireland or pride in Irish roots."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-cote-divoire",
+      "difference": "🇨🇮 Côte d'Ivoire's stripes run orange, white, green from the pole, the exact reverse of Ireland's. This is by far the most common error, and it happens mostly in March."
+    },
+    {
+      "slug": "flag-italy",
+      "difference": "🇮🇹 Italy's tricolor starts with green and white too, but ends in red. Orange and red look alike on small or low-contrast screens."
+    },
+    {
+      "slug": "flag-india",
+      "difference": "🇮🇳 India shares the three colors in horizontal bands with a blue wheel in the middle. The orientation and the wheel separate it from Ireland at a glance."
+    }
+  ],
+  "avoid": [
+    "Do not use it for Northern Ireland or for the UK; neither is represented by the tricolor, and the subject is sensitive.",
+    "Skip leprechaun and drunkenness jokes when addressing Irish people directly; the stereotypes wear thin."
+  ],
+  "design": "Three equal vertical bands, green at the hoist, white in the center, and orange at the fly. There is no emblem. Emoji sets render it uniformly, though the orange varies from amber to a deeper shade. On Windows the flag is shown as the letters IE.",
+  "faqs": [
+    {
+      "q": "How do I tell the Ireland flag emoji from the Ivory Coast one?",
+      "a": "Read from the left. Ireland is green, white, orange. Côte d'Ivoire is orange, white, green. If you are posting for St. Patrick's Day, the stripe nearest the pole should be green."
+    },
+    {
+      "q": "What do the colors of the Irish flag mean?",
+      "a": "Green represents Ireland's Gaelic and Catholic tradition, orange the Protestant supporters of William of Orange, and white the hope for peace between the two communities."
+    },
+    {
+      "q": "Why does my Irish flag show up as “IE”?",
+      "a": "The emoji is a pair of regional indicator letters, I and E, from Ireland's country code. Windows cannot draw country flags with its default font, so it shows the code. The emoji has been supported on phones since 2015."
+    },
+    {
+      "q": "Is 🍀 or ☘️ the Irish symbol?",
+      "a": "The shamrock ☘️, with three leaves, is the traditional emblem linked to St. Patrick. The four-leaf clover 🍀 is a general good-luck charm. People use both with the flag, but the shamrock is the accurate one."
+    }
+  ],
+  "related": [
+    "flag-cote-divoire",
+    "flag-united-kingdom",
+    "flag-italy",
+    "shamrock",
+    "four-leaf-clover",
+    "clinking-beer-mugs"
+  ]
+}

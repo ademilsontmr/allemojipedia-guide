@@ -1,0 +1,28 @@
+---
+import Page from "@/layouts/Page.astro";
+import { emojis, emojiPages } from "@/lib/emoji";
+const pages = await emojiPages();
+---
+<Page title="About Allemojipedia" description="Who is behind Allemojipedia, what the site covers, where its emoji data comes from and how the meaning pages are written and reviewed." path="/about/" heading="About Allemojipedia" lead="An independent reference for what emojis mean in real conversations.">
+  <h2>What this site is</h2>
+  <p>Allemojipedia explains emojis the way people actually use them. The Unicode Standard gives every emoji an official name and a code point, but it says nothing about tone, slang or etiquette. That is the part most people are looking for when they search for an emoji, and it is the part we write about.</p>
+  <p>The site currently has in-depth meaning pages for {pages.size} of the most used emojis, copy-and-paste lists for all {emojis.length.toLocaleString("en-US")} emojis in nine categories, a set of longer <a href="/guides/">guides</a>, and a <a href="/flag-emoji-quiz/">flag emoji quiz</a>.</p>
+
+  <h2>Who writes it</h2>
+  <p>Pages are written and maintained by the Allemojipedia editorial team, a small independent group that has been publishing emoji explanations on this domain since early 2026. We are not affiliated with the Unicode Consortium, Emojipedia, or any phone or app maker.</p>
+  <p>We use AI tools to help draft and check copy. Every page is written to a detailed editorial brief, checked against Unicode and CLDR data, and reviewed before publication; our <a href="/editorial-policy/">editorial policy</a> explains the process and how to report an error.</p>
+
+  <h2>Where the data comes from</h2>
+  <ul>
+    <li><strong>Names, code points and release versions</strong> come from the Unicode Consortium's emoji data files and CLDR annotations.</li>
+    <li><strong>Categories and ordering</strong> follow Unicode's official emoji ordering, the same grouping phone keyboards use.</li>
+    <li><strong>Shortcodes</strong> are the ones used by GitHub, Slack and Discord.</li>
+    <li><strong>Meanings</strong> are editorial. They describe common usage as we observe it in messaging and on social platforms, and usage changes, so pages carry a “last reviewed” date.</li>
+  </ul>
+
+  <h2>How the site is funded</h2>
+  <p>Allemojipedia is free to use and is supported by advertising served through Google AdSense. Advertisers have no influence on what we write. See the <a href="/privacy/">privacy policy</a> for details on cookies and ads.</p>
+
+  <h2>Get in touch</h2>
+  <p>Found a mistake or a meaning we missed? Please <a href="/contact/">contact us</a>. Corrections are welcome and we act on them.</p>
+</Page>

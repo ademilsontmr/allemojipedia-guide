@@ -1,0 +1,56 @@
+{
+  "slug": "taco",
+  "title": "Taco Emoji 🌮 Meaning: Taco Tuesday and Beyond",
+  "description": "🌮 means tacos, Mexican food and Taco Tuesday, with an occasional slang use for a vulva. See how the taco emoji is used and how it reached the keyboard.",
+  "summary": "The 🌮 taco emoji means tacos and, more broadly, Mexican food, Taco Tuesday and festive casual eating. It is nearly always literal and upbeat. In sexual slang a taco can refer to a vulva, a meaning that shows up occasionally, mostly in jokes.",
+  "meaning": [
+    "For years, people who wanted to text about tacos had to settle for a burrito-less, taco-less keyboard, and they complained about it. Taco Bell ran a petition asking for the emoji, which gathered tens of thousands of signatures, and in 2015 the taco arrived. That history explains the enthusiasm that still surrounds it. 🌮 is a celebratory food emoji, used for dinner plans, food trucks, cravings and the weekly ritual of Taco Tuesday.",
+    "It also represents Mexican cuisine as a whole. Restaurants put it in their names, travelers use it for trips to Mexico, and it appears on Cinco de Mayo and at parties with margaritas. Here some care is useful, because the emoji depicts the crunchy, U-shaped shell of American-style tacos, not the soft corn tortillas typical in Mexico. People who know the difference sometimes joke about it; either way the emoji is the accepted symbol.",
+    "The slang sense is narrower. “Taco” is a long-standing crude term for a vulva, and the emoji can be used that way, often with 🌭 or 🍆 as a counterpart. Some LGBTQ women use it playfully among themselves. This reading needs clear contextual signals to apply. Without them, a taco is dinner, and it is one of the least risky things you can send."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Mostly it organizes meals. “🌮?” on a Tuesday afternoon is an invitation that barely needs an answer. Coworkers use it for lunch runs, families for dinner announcements. A string of tacos expresses hunger or happiness. It also works as a mood lifter, as in promising someone tacos after a bad day."
+    },
+    {
+      "label": "On dating apps",
+      "body": "“Taco enthusiast” is a familiar profile line, and 🌮 in a bio signals a fun, unfussy eater, much as the pizza emoji does. Suggesting tacos and margaritas is a popular first-date pitch. The sexual slang is rare on profiles, though a pointed 🌮😏 would be read as suggestive."
+    },
+    {
+      "label": "On holidays",
+      "body": "It spikes on Cinco de Mayo and on National Taco Day in the United States each October, when chains run promotions. For Cinco de Mayo, be thoughtful: the emoji is fine for food, but pairing it with sombrero or mustache caricatures can turn appreciation into stereotype."
+    }
+  ],
+  "examples": [
+    { "text": "It's Tuesday. You know what that means 🌮🌮🌮", "meaning": "Announcing Taco Tuesday plans with enthusiasm." },
+    { "text": "Tacos and margs after work? 🌮🍹", "meaning": "A casual happy-hour invitation." },
+    { "text": "Found the best taco truck in LA 🌮🔥", "meaning": "Recommending a great street-food spot." },
+    { "text": "Bad day. Need 🌮 immediately", "meaning": "Seeking comfort in a favorite food." },
+    { "text": "Every day is taco day if you believe in yourself 🌮✨", "meaning": "A lighthearted declaration of love for tacos." }
+  ],
+  "combos": [
+    { "combo": "🌮🍹", "meaning": "Tacos and margaritas, a classic night out." },
+    { "combo": "🌮🌶️", "meaning": "Spicy tacos or hot salsa." },
+    { "combo": "🌮🥑", "meaning": "Tacos with guacamole." },
+    { "combo": "🌮🌭", "meaning": "A crude sexual pairing using slang for female and male anatomy." }
+  ],
+  "confusedWith": [
+    { "slug": "burrito", "difference": "🌯 is a wrapped tortilla cylinder, sometimes shown in foil. Burritos suggest a big, portable meal; tacos suggest small, shareable ones and the Taco Tuesday tradition." },
+    { "slug": "stuffed-flatbread", "difference": "🥙 depicts a pita or similar pocket bread with fillings, like a gyro, kebab or falafel wrap. It represents Mediterranean and Middle Eastern food, not Mexican." },
+    { "slug": "tamale", "difference": "🫔 shows a corn-husk-wrapped tamale, another Mexican and Latin American staple. It is a newer emoji used more specifically, often around Christmas." }
+  ],
+  "avoid": [
+    "Don't use it as a stand-in for Mexican people or as a punchline about them; that reduces a culture to a stereotype.",
+    "Avoid the anatomical slang with anyone who has not made that kind of joking welcome."
+  ],
+  "design": "The emoji shows a hard-shell taco standing on its curved edge, filled with ground meat, lettuce, tomato and shredded cheese. That is the American fast-food style, and every major vendor follows it with minor changes in the fillings' arrangement. No platform depicts a soft tortilla taco, a point that has drawn comment from fans of the Mexican original.",
+  "faqs": [
+    { "q": "What does 🌮 mean in slang?", "a": "Occasionally it refers to a vulva, following an older English slang use of the word taco. This is far less common than the literal meaning and normally comes with other suggestive emojis. In most messages it is simply food." },
+    { "q": "When did the taco emoji come out?", "a": "It was released in 2015 as part of Emoji 1.0, following a public campaign that included a petition promoted by Taco Bell. It arrived together with the burrito and the hot dog." },
+    { "q": "What does 🌮 mean from a guy or girl?", "a": "Almost certainly that they want tacos or are inviting you to get some. It is a common, friendly date suggestion. Only an obviously flirtatious setup would point to the slang meaning." },
+    { "q": "Why is the taco emoji a hard shell?", "a": "The design reflects the crispy-shell taco familiar from American fast food, which is where much of the push for the emoji came from. Traditional Mexican tacos use soft tortillas, but no vendor has adopted that look." },
+    { "q": "What is Taco Tuesday?", "a": "It is a custom, especially in the United States, of eating tacos on Tuesdays, encouraged by restaurant specials. The phrase is a staple of group chats and menus, and 🌮 is how most people write it." }
+  ],
+  "related": ["burrito", "avocado", "hot-pepper", "tropical-drink", "flag-mexico", "pizza"]
+}

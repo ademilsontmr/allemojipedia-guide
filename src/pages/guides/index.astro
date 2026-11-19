@@ -1,0 +1,30 @@
+---
+import Base from "@/layouts/Base.astro";
+import GuideCard from "@/components/GuideCard.astro";
+import { getCollection } from "astro:content";
+import { abs } from "@/lib/site";
+const guides = (await getCollection("guides")).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const ORDER = ["Meanings", "Platforms", "How-to", "Culture", "Flags", "Holidays"] as const;
+const BLURB: Record<string, string> = {
+  Meanings: "What emojis signal in real conversations", Platforms: "How emoji use differs from app to app", "How-to": "Typing, fixing and using emojis well",
+  Culture: "History, standards and emoji around the world", Flags: "How flag emojis work and how to tell them apart", Holidays: "Seasonal and faith-related emojis",
+};
+const groups = ORDER.map((c) => ({ name: c, items: guides.filter((g) => g.data.category === c) })).filter((g) => g.items.length);
+const title = "Emoji Guides: Meanings, Etiquette and How-Tos";
+const description = "In-depth emoji guides: what emojis mean in texting, heart colors, Gen Z slang, emojis at work, flags, typing emojis on any device and more.";
+const schema = [{ "@type": "Blog", name: title, description, url: abs("/guides/"), blogPost: guides.map((g) => ({ "@type": "BlogPosting", headline: g.data.title, url: abs(`/guides/${g.id}/`) })) }];
+---
+<Base title={title} description={description} path="/guides/" section="guides" schema={schema} crumbs={[{ name: "Guides" }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <h1>Emoji guides</h1>
+      <p class="lead">Longer reads for when a single emoji page is not enough: how tone works in text, what changes between apps and generations, and practical how-tos.</p>
+    </header>
+    {groups.map((g) => (
+      <section aria-labelledby={`g-${g.name}`}>
+        <div class="section-head"><h2 id={`g-${g.name}`}>{g.name}</h2><span class="muted">{BLURB[g.name]}</span></div>
+        <ul class="grid cols-wide">{g.items.map((x) => <li><GuideCard guide={x} /></li>)}</ul>
+      </section>
+    ))}
+  </div>
+</Base>

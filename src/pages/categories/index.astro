@@ -1,0 +1,37 @@
+---
+import Base from "@/layouts/Base.astro";
+import { abs } from "@/lib/site";
+import { emojis, categories, categoryUrl } from "@/lib/emoji";
+const title = "Emoji Categories: Browse and Copy Every Emoji";
+const description = `All ${emojis.length.toLocaleString("en-US")} emojis organized into the nine official Unicode groups. Pick a category to copy and paste emojis or read their meanings.`;
+const schema = [{ "@type": "CollectionPage", name: title, description, url: abs("/categories/") }];
+---
+<Base title={title} description={description} path="/categories/" section="categories" schema={schema} crumbs={[{ name: "Categories" }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <h1>Emoji categories</h1>
+      <p class="lead">Unicode sorts every emoji into nine groups, the same ones your phone keyboard uses. Choose a group to see all of its emojis, copy any of them with one tap, and open the popular ones for a full explanation.</p>
+    </header>
+    <ul class="grid cols-wide">
+      {categories.map((c) => {
+        const items = emojis.filter((e) => e.category === c.slug);
+        return (
+          <li>
+            <a class="linkcard" href={categoryUrl(c.slug)}>
+              <span class="em" aria-hidden="true">{c.icon}</span>
+              <strong>{c.name}</strong>
+              <span class="desc">{c.description}</span>
+              <span class="em" aria-hidden="true" style="font-size:1.3rem;letter-spacing:.15em">{items.slice(0, 9).map((e) => e.emoji).join("")}</span>
+              <span class="meta">{items.length} emojis</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+    <section class="prose">
+      <h2>How emoji categories work</h2>
+      <p>The grouping comes from the Unicode Consortium's emoji ordering data, which every major keyboard follows. Each group is divided into subgroups (for example, <em>Smileys &amp; Emotion</em> contains smiling faces, affectionate faces, hearts and more), and emojis inside a subgroup are ordered so that related characters sit together.</p>
+      <p>A few placements surprise people. Fire, sparkles, the sun and the moon are filed under <a href="/categories/travel-and-places/">Travel &amp; Places</a> because that group includes sky and weather. Hearts live in <a href="/categories/smileys-and-emotion/">Smileys &amp; Emotion</a>, not Symbols. The party popper and the trophy are <a href="/categories/activities/">Activities</a>. If you cannot find an emoji where you expect it, <a href="/search/">search by name or keyword</a> instead.</p>
+    </section>
+  </div>
+</Base>

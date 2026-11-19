@@ -1,0 +1,51 @@
+{
+  "slug": "right-anger-bubble",
+  "title": "Right Anger Bubble Emoji 🗯️ Meaning: Comic-Book Shouting",
+  "description": "🗯️ is the spiky comic balloon for yelling. It stands for angry outbursts, rants and loud announcements. See how it differs from 💢 and 💬 and when to use it.",
+  "summary": "The 🗯️ right anger bubble emoji is a jagged-edged speech balloon, the kind comics use for shouting. It means angry or forceful words: a rant, an outburst, someone yelling. It is also used without anger for anything said loudly, such as a bold announcement or an exclamation.",
+  "meaning": [
+    "Cartoonists change the outline of a speech balloon to show how a line is delivered. Smooth means ordinary talk, a cloud means thought, and sharp spikes mean volume. 🗯️ is the spiky kind. As an emoji it tells the reader that the words nearby should be heard as a shout, and by default that shout is angry: a rant about bad service, a parent's raised voice, a fan screaming at a referee.",
+    "It is a mild, stylized way to show temper. The bubble contains no face and no insult, so it describes shouting more than it performs it. People use it to narrate, as in “and then my boss went 🗯️,” or to flag their own venting before it starts. It is lighter than 🤬, which shows a furious face with censored swearing.",
+    "The spikes do not have to mean rage. In comics the same burst shape carries any loud line: a cry of surprise, a cheer, a sound effect. So the emoji also fits headlines, hot takes and “listen up” moments, where it works like a megaphone. Design-minded users choose it simply as a more dynamic alternative to a plain speech bubble.",
+    "Usage is light compared with other anger emojis. It came from a set of symbol-font pictographs and often displays as a black outline unless the emoji style is requested. The “right” in the name describes the tail, at the bottom right. A matching left anger bubble exists in Unicode as a text symbol but was never made into an emoji."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It announces a rant. “Okay, 🗯️ incoming” warns a friend that venting is about to happen. It can also describe someone else's outburst secondhand. The comic styling keeps it from sounding truly hostile, so it suits annoyances like traffic, group projects and customer service calls." },
+    { "label": "In arguments and debates", "body": "Paired with a normal bubble, it shows a conversation turning heated: 🗨️ then 🗯️. Commenters use it to characterize a thread full of yelling, or to tag their own strong opinion as deliberately loud. It labels the volume of a disagreement without attacking anyone personally." },
+    { "label": "In comics and fandom", "body": "Artists, comic shops and pop-art accounts use it as a genre marker, alongside 💥 and 💬. It evokes hand-lettered “WHAT?!” panels and superhero covers. In these posts it is affectionate and nostalgic, with no anger involved, a nod to the look of printed comics." },
+    { "label": "In announcements", "body": "Some marketers and community managers use it to make a notice feel emphatic, like a shout across a room. This works when the tone is playful. Because the symbol is formally an anger bubble, it is a poor fit for sensitive news or anything requiring calm." }
+  ],
+  "examples": [
+    { "text": "Rant incoming 🗯️ the airline lost my bag AGAIN", "meaning": "Warning that an angry complaint follows." },
+    { "text": "Coach at halftime: 🗯️🗯️🗯️", "meaning": "Describing someone shouting at length." },
+    { "text": "🗯️ HOT TAKE: the sequel was better", "meaning": "Flagging a loudly stated opinion; not truly angry." },
+    { "text": "Me: can you take the trash out? Him: 🗯️", "meaning": "The other person overreacted with yelling." },
+    { "text": "New issue out Wednesday 💥🗯️", "meaning": "Comic-book flavor for a release announcement." },
+    { "text": "Sorry for the 🗯️ earlier, I was stressed", "meaning": "Apologizing for having shouted or snapped." }
+  ],
+  "combos": [
+    { "combo": "🗨️🗯️", "meaning": "A calm statement met with an angry reply; a conversation escalating." },
+    { "combo": "🗯️💢", "meaning": "Shouting with visible temper, in full manga style." },
+    { "combo": "😤🗯️", "meaning": "Fuming and about to say so loudly." },
+    { "combo": "💥🗯️", "meaning": "Comic-book energy: action, noise and dramatic dialogue." }
+  ],
+  "confusedWith": [
+    { "slug": "anger-symbol", "difference": "💢 is the red vein mark that shows a character is angry. 🗯️ is the container for angry words. The first is a feeling; the second is speech. Comics routinely use both in the same panel." },
+    { "slug": "speech-balloon", "difference": "💬 has smooth edges and means neutral talk, comments or messages. 🗯️ has spikes and implies raised voices. Swapping them changes a polite “let's chat” into something that sounds like a confrontation." },
+    { "slug": "collision", "difference": "💥 is also a spiky burst, but it has no tail and represents physical impact or explosion. 🗯️ always has a pointer to a speaker, which marks it as dialogue." }
+  ],
+  "avoid": [
+    "Do not use it when you want to de-escalate; it signals shouting.",
+    "Avoid it for serious grievances, where the cartoon style can make your anger look unserious.",
+    "Check how it renders before using it in a design, because some systems show only a thin outline."
+  ],
+  "design": "A speech balloon with a zigzag, burst-like outline and a pointed tail at the lower right. Vendors usually draw it in white with a dark or grey outline, and the number and sharpness of the spikes vary. It carries no text or symbols inside. Without the emoji variation selector it may appear as a monochrome glyph. It was added in 2014.",
+  "faqs": [
+    { "q": "What does 🗯️ mean?", "a": "It represents shouted or angry speech, shown as the jagged balloon comics use for yelling. People use it for rants, outbursts and heated arguments, and sometimes just to make a statement feel loud." },
+    { "q": "Is the anger bubble always angry?", "a": "No. Although the name says anger, the burst shape in comics covers any loud exclamation. It is regularly used for excitement, emphasis and bold opinions. Context shows whether the volume comes from fury or enthusiasm." },
+    { "q": "What is the difference between 🗯️ and 💢?", "a": "The anger bubble holds angry words and points to a speaker. The anger symbol is a manga mark for a throbbing vein and shows the emotion on a character. One is speech, the other is body language." },
+    { "q": "Why is it called the right anger bubble?", "a": "The tail points to the bottom right, as if the speaker were on that side. Unicode also encodes a left-facing version as a plain symbol, but only the right-facing one was given emoji status." },
+    { "q": "Why does 🗯️ look like a plain outline on my screen?", "a": "Many systems default to text presentation for this character. It needs an added invisible selector to display as a full emoji. When that is missing or ignored, you see a simple black-and-white shape." }
+  ],
+  "related": ["anger-symbol", "speech-balloon", "left-speech-bubble", "face-with-symbols-on-mouth", "enraged-face", "collision"]
+}

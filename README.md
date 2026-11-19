@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+# Allemojipedia
 
-## Project info
+Static emoji reference site built with [Astro](https://astro.build). Every page is plain HTML;
+JavaScript is used only for copy buttons, search and the flag quiz.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Commands
 
-## How can I edit this code?
+| Command | What it does |
+|---|---|
+| `npm run dev` | Local dev server at http://localhost:4321 |
+| `npm run build` | Builds `dist/` and writes `dist/_redirects` (old URLs → new) |
+| `npm run validate` | Checks emoji pages and guides against the writing briefs |
+| `npm run data` | Regenerates `src/data/emojis.json` and `curated.json` from Unicode data |
+| `npm run deploy` | Build and deploy to Cloudflare Pages |
 
-There are several ways of editing your application.
+## Content
 
-**Use Lovable**
+- `src/content/emoji/<slug>.json`: editorial copy for one emoji page (`/emojis/<slug>/`). Brief: `docs/emoji-page-brief.md`.
+- `src/content/guides/<slug>.md`: long-form guides (`/guides/<slug>/`). Brief: `docs/guide-brief.md`.
+- `scripts/curated-picks.txt`: which emojis get their own page. An emoji needs both an entry here and a content file.
+- `src/data/categories.json`: the nine category pages (`/categories/<slug>/`), which list every emoji for copy and paste.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Set `updated` (emoji JSON) or `updatedDate` (guide frontmatter) only when the content really changes;
+the sitemap's `lastmod` comes from those dates, not from the build date.
 
-Changes made via Lovable will be committed automatically to this repo.
+## URLs
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+`/`, `/emojis/`, `/emojis/<slug>/`, `/categories/`, `/categories/<slug>/`, `/guides/`, `/guides/<slug>/`,
+`/flag-emoji-quiz/`, `/search/` (noindex), `/about/`, `/editorial-policy/`, `/contact/`, `/privacy/`, `/sitemap.xml`.

@@ -1,0 +1,107 @@
+{
+  "slug": "white-flag",
+  "title": "🏳️ White Flag Emoji Meaning: “I Give Up” in One Tap",
+  "description": "The white flag emoji 🏳️ means surrender or a truce: “you win,” “I give up,” “let's stop fighting.” Learn its tone, its uses, and why it sometimes looks blank.",
+  "summary": "The white flag emoji 🏳️ means surrender. People send it to concede an argument, admit defeat by a task or a Monday, or offer a truce after a fight. It draws on the white flag of real warfare, a long-recognized signal that someone wants to stop fighting and talk.",
+  "meaning": [
+    "In messages, 🏳️ is nearly always a concession. “Fine, you were right 🏳️” ends a debate about a movie plot; “this spreadsheet wins 🏳️” gives up on a task; a lone 🏳️ after a playful roast means the sender has no comeback. The surrender is usually comic and exaggerated. Nobody waving this emoji is in real danger. They are tired, outmatched by a toddler, or done arguing about pineapple on pizza.",
+    "A second, more sincere use is the peace offering. After a real disagreement, 🏳️ can open a message that amounts to “I don't want to fight anymore.” That follows the flag's actual function: in armed conflict a white flag signals a wish to parley or surrender, and the laws of war protect those who carry it. The emoji keeps that sense of lowering your weapons first, which is why it lands as humble instead of sarcastic when paired with an apology.",
+    "The character also has a technical life most people never see. It is the base of two other emojis: add a rainbow and software draws the Pride flag, add the transgender symbol and it draws the trans flag. When a device or app does not support those combinations, they fall apart into a plain 🏳️ followed by 🌈 or ⚧️. A stray white flag next to a rainbow is almost always that, not a coded message."
+  ],
+  "contexts": [
+    {
+      "label": "In arguments and banter",
+      "body": "This is the home turf of 🏳️. It closes group-chat debates, concedes fantasy league trash talk, and answers a devastating meme. Sent alone, it means “I have nothing.” Sent with 😭 or 😂, it admits defeat while making clear there are no hard feelings, which is why it rarely escalates anything."
+    },
+    {
+      "label": "After a real fight",
+      "body": "Between partners, friends, or siblings, 🏳️ can be a low-pressure way to reopen contact. It says the sender is willing to stop keeping score. It works best followed by actual words; an emoji truce with no apology attached can look like dodging the conversation."
+    },
+    {
+      "label": "In sports and gaming",
+      "body": "Fans post 🏳️ when their team is being blown out, and commentators use it for a club that has effectively written off its season. In games it stands in for forfeiting or “gg, I'm out.” The phrase “waving the white flag” does the same work in headlines."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Okay okay you win, we'll get Thai 🏳️",
+      "meaning": "The sender gives in on where to eat and ends the back-and-forth."
+    },
+    {
+      "text": "Day 3 of assembling this wardrobe 🏳️",
+      "meaning": "A joke about being defeated by flat-pack furniture."
+    },
+    {
+      "text": "🏳️ can we talk? I hate that we left it like that",
+      "meaning": "A sincere truce offer after an argument."
+    },
+    {
+      "text": "Down 5-0 at halftime 🏳️😭",
+      "meaning": "A fan conceding that the match is already lost."
+    },
+    {
+      "text": "My inbox has 400 unread. 🏳️",
+      "meaning": "Humorous surrender to an overwhelming workload."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🏳️😭",
+      "meaning": "Total, dramatic defeat, usually played for laughs."
+    },
+    {
+      "combo": "🏳️🤝",
+      "meaning": "A truce: let's call it even and move on."
+    },
+    {
+      "combo": "🏳️🕊️",
+      "meaning": "A peace offering, or a wish for a ceasefire in a real conflict."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "rainbow-flag",
+      "difference": "🏳️‍🌈 is built from the white flag plus a rainbow, so older systems may show the two pieces separately. The white flag alone has no connection to Pride; it means surrender or truce."
+    },
+    {
+      "slug": "black-flag",
+      "difference": "🏴 is the same waving shape in black and carries very different associations: piracy, anarchism, mourning, or defiance. It is close to the opposite of surrendering."
+    },
+    {
+      "slug": "dove",
+      "difference": "🕊️ expresses peace as a hope or ideal. The white flag is more specific: one side conceding or asking to stop."
+    }
+  ],
+  "avoid": [
+    "Avoid joking with it about real wars or hostage situations, where surrender is not a punchline.",
+    "Do not send it alone to end a serious argument if the other person is still upset; it can look like you are refusing to engage.",
+    "Be aware it nearly vanishes on white or light backgrounds, so it is a poor choice for graphics and light-mode bios."
+  ],
+  "design": "A plain white rectangular flag ripples from a gray or dark pole, with light shading to suggest folds. Every major vendor draws it this way, and the main practical difference is visibility: on light backgrounds the white cloth can be hard to see. The character is usually sent with an invisible variation selector that requests the color emoji style; without it, some systems show a small text-style outline.",
+  "faqs": [
+    {
+      "q": "Is the white flag emoji rude?",
+      "a": "No. It is self-deprecating by nature, since the sender is the one giving up. The only risk is sarcasm: “whatever, 🏳️” can come across as dismissive if the other person wanted a real answer."
+    },
+    {
+      "q": "Why do I see a white flag next to a rainbow?",
+      "a": "Your device or app does not support the rainbow flag emoji, which is stored as a white flag joined to a rainbow. Software that cannot merge them displays both parts. Updating the operating system or app normally fixes it."
+    },
+    {
+      "q": "Does a white flag mean peace or surrender?",
+      "a": "Traditionally it signals a request to stop fighting, whether to surrender or to negotiate. In emoji use, surrender dominates: “I give up.” For peace as a general wish, people more often choose 🕊️ or ☮️."
+    },
+    {
+      "q": "When was the white flag emoji added?",
+      "a": "The white flag joined Unicode in 2014 and reached most phones over the following couple of years. It became more important in 2016, when the rainbow flag was created by combining it with the rainbow emoji."
+    }
+  ],
+  "related": [
+    "black-flag",
+    "rainbow-flag",
+    "transgender-flag",
+    "dove",
+    "handshake",
+    "peace-symbol"
+  ]
+}

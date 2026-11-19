@@ -1,0 +1,50 @@
+{
+  "slug": "locked",
+  "title": "Locked Emoji 🔒 Meaning: Private, Secure or “Locked In”",
+  "description": "The 🔒 locked emoji means private, secure or closed, and in slang it means “locked in”: focused or committed. See examples, combos and similar lock emojis.",
+  "summary": "The 🔒 locked emoji shows a closed padlock. It signals that something is secure, private, confirmed or off-limits. In current slang it also means “locked in”: fully focused, committed to a plan, or exclusive with a partner. Browsers and apps use a similar icon for secure connections and private accounts.",
+  "meaning": [
+    "Security is the base meaning. A padlock next to a web address has long told users a connection is encrypted, and private social accounts carry a lock badge. People borrow the emoji for the same ideas: “account's on 🔒” means only approved followers can see it, and “🔒 secure checkout” reassures customers on a shop page.",
+    "From there it stretches to anything settled and not to be reopened. “Dates are 🔒” means the plans are final. “My lips are 🔒” promises a secret is safe. In sports talk, a “lock” is a sure thing, so bettors and fans post 🔒 beside a pick they consider guaranteed, and a defender who shuts down an opponent is said to have them in “lockdown,” often written with one or two padlocks.",
+    "The newest layer is “locked in.” Among younger users, being locked in means total concentration on a goal, whether a game, an exam, a workout or a work sprint. “I'm 🔒 in this semester” announces discipline, and a simple “🔒” as a reply can mean “focused, don't distract me.” The phrase spread widely through gaming, sports and study content on TikTok.",
+    "Romance has its own version. Calling a relationship “locked down” or putting 🔒 beside a partner's name or an anniversary date in a bio means the person is taken and committed. A heart with a lock says the same thing more sweetly, and matching lock-and-key bios split the symbol between the two people involved."
+  ],
+  "contexts": [
+    { "label": "On TikTok and Instagram", "body": "“Locked in 🔒” captions sit on gym clips, study vlogs, pre-game footage and productivity routines. The mood is serious and self-motivating. Separately, creators who make accounts private, or restrict a video to close friends, mention the padlock so followers know why something is not visible." },
+    { "label": "In sports and gaming", "body": "A 🔒 next to a team or score is a confident prediction. “He's 🔒” praises a defender nobody can score on or a player in a streak of flawless form. Teammates type it before a match to say they are concentrating and expect everyone else to do the same." },
+    { "label": "In relationships", "body": "A name or date followed by 🔒 in a bio is a public claim of exclusivity. In texts, “you're 🔒” or “got you on lock” is possessive in a way some people find romantic and others find controlling, so it lands best when both partners already agree where they stand." },
+    { "label": "At work", "body": "Teams use it to show that a document is finalized, a decision is closed or content is confidential: “pricing is 🔒 until launch.” IT and security staff use it in reminders about passwords and device locking. It is an unambiguous, professional signal." }
+  ],
+  "examples": [
+    { "text": "Phone off, door shut, I'm locked in 🔒", "meaning": "Announcing complete focus on a task." },
+    { "text": "Flights booked, hotel booked, it's 🔒", "meaning": "The plans are confirmed and final." },
+    { "text": "Chiefs by 10, that's a 🔒", "meaning": "A confident prediction that a bet is guaranteed to win." },
+    { "text": "Your secret's safe 🔒", "meaning": "Promising not to tell anyone." },
+    { "text": "Went private for a while 🔒", "meaning": "The account is now visible only to approved followers." },
+    { "text": "M 🔒 06.14.24", "meaning": "A bio line showing commitment to a partner since that date." }
+  ],
+  "combos": [
+    { "combo": "🔒🔑", "meaning": "Lock and key: a secret kept safe, or a couple who belong together." },
+    { "combo": "🤐🔒", "meaning": "Sworn to secrecy; not saying a word." },
+    { "combo": "🔒🎯", "meaning": "Locked in on a target; fully focused on one goal." },
+    { "combo": "❤️🔒", "meaning": "A committed, exclusive relationship." }
+  ],
+  "confusedWith": [
+    { "slug": "unlocked", "difference": "The 🔓 unlocked padlock has its shackle open and means access granted, a secret revealed or a feature now available. It is the direct opposite of 🔒." },
+    { "slug": "locked-with-key", "difference": "The 🔐 locked with key shows a closed padlock beside a key. It emphasizes secure access, such as logins and encryption, where 🔒 only says “closed” or “private.”" },
+    { "slug": "locked-with-pen", "difference": "The 🔏 locked with pen pairs a padlock with a fountain pen and was designed for privacy or signed, protected documents. It is rarely used; 🔒 is the everyday choice." }
+  ],
+  "avoid": [
+    "Don't call a wager a 🔒 to someone who might stake real money on your confidence; no bet is guaranteed.",
+    "Avoid telling a new partner they are “on lock 🔒” before exclusivity has been discussed, since it can come across as possessive."
+  ],
+  "design": "The glyph is a closed padlock seen from the front: a gold or yellow body with a silver or gray shackle and usually a small keyhole. Body shade and shackle thickness differ by platform, with some using a more orange gold. All vendors show it shut, which is the only thing distinguishing it from 🔓.",
+  "faqs": [
+    { "q": "What does 🔒 mean in slang?", "a": "Most often “locked in,” meaning intensely focused or fully committed to something. It can also mean a sure thing, particularly in sports predictions, or that a person is in an exclusive relationship." },
+    { "q": "What does 🔒 mean in someone's bio next to a name?", "a": "It means they are in a committed relationship with that person. Couples frequently add the date they got together after the padlock, sometimes with a matching key emoji on the partner's profile." },
+    { "q": "What does the lock mean on a social media account?", "a": "A lock badge shows the account is private or protected. Only approved followers can see its posts, and those posts generally cannot be reshared publicly." },
+    { "q": "What does it mean when someone replies with just 🔒?", "a": "Depending on the conversation: “it's confirmed,” “I won't tell anyone,” or “I'm focused.” If you asked them to keep a secret, it is a promise. If you invited them out during exam week, it is a polite no." },
+    { "q": "What is the difference between 🔒 and 🔐?", "a": "🔒 is a padlock alone. 🔐 adds a key and leans toward the idea of authorized access, like password protection. For privacy, commitment or focus, people use the plain 🔒." }
+  ],
+  "related": ["unlocked", "locked-with-key", "key", "zipper-mouth-face", "chains", "bullseye"]
+}

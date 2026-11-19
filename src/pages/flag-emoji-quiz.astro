@@ -1,0 +1,182 @@
+---
+import Base from "@/layouts/Base.astro";
+import Faq from "@/components/Faq.astro";
+import { abs } from "@/lib/site";
+import { emojis, emojiPages, emojiUrl } from "@/lib/emoji";
+import classic from "@/data/flag-quiz-classic.json";
+
+const pages = await emojiPages();
+const countries = emojis.filter((e) => e.subgroup === "country-flag" || e.subgroup === "subdivision-flag");
+const all = countries.map((e) => ({ e: e.emoji, n: e.name.replace(/^Flag: /, ""), h: e.hex.toLowerCase() }));
+const hexOf = new Map(countries.map((e) => [e.emoji, e.hex.toLowerCase()]));
+const easy = classic.map((q) => ({ e: q.emoji, n: q.country, o: q.options, h: hexOf.get(q.emoji) ?? "" })).filter((q) => q.h);
+const data = JSON.stringify({ all, easy }).replace(/</g, "\\u003c");
+const flagLink = (slug: string, label: string) => (pages.has(slug) ? `<a href="${emojiUrl(slug)}">${label}</a>` : label);
+const lookalikes = [
+  ["🇹🇩", "Chad", "🇷🇴", "Romania", "Both are blue, yellow and red vertical stripes. Chad's blue is a darker indigo; at emoji size they are nearly impossible to separate."],
+  ["🇮🇩", "Indonesia", "🇲🇨", "Monaco", "Both are red over white. Monaco's flag is squarer. Poland 🇵🇱 is the reverse: white over red."],
+  ["🇮🇪", "Ireland", "🇨🇮", "Côte d’Ivoire", "Ireland starts with green at the flagpole side; Côte d’Ivoire starts with orange."],
+  ["🇦🇺", "Australia", "🇳🇿", "New Zealand", "Australia has six white stars, including a large seven-pointed one under the Union Jack. New Zealand has four red stars edged in white."],
+  ["🇳🇱", "Netherlands", "🇱🇺", "Luxembourg", "Same red, white and blue horizontal stripes. Luxembourg uses a lighter sky blue."],
+  ["🇲🇱", "Mali", "🇬🇳", "Guinea", "Mali runs green, yellow, red. Guinea is the mirror image: red, yellow, green. Senegal 🇸🇳 adds a green star in the middle."],
+  ["🇨🇴", "Colombia", "🇪🇨", "Ecuador", "Both have a double-height yellow stripe over blue and red. Ecuador has a coat of arms in the center; Colombia is plain."],
+  ["🇳🇴", "Norway", "🇮🇸", "Iceland", "Norway is a blue cross on red. Iceland swaps the colors: a red cross on blue."],
+  ["🇮🇹", "Italy", "🇲🇽", "Mexico", "Both are green, white and red. Mexico has an eagle on a cactus in the white stripe."],
+];
+const faqs = [
+  { q: "How many flag emojis are there?", a: `Unicode's recommended emoji set has 258 country and region flags, plus three subdivision flags for England, Scotland and Wales, and a handful of non-country flags such as the rainbow, transgender, pirate, white, black, checkered and triangular flags. The “all flags” mode in this quiz uses the ${all.length} country, region and subdivision flags.` },
+  { q: "Why do I see two letters instead of flags?", a: "Windows does not include country flag designs in its emoji font, so browsers on Windows show the two-letter country code instead (for example BR for Brazil). When this quiz detects that, it automatically swaps in flag images so the letters do not give the answer away." },
+  { q: "Which flag emojis are hardest to tell apart?", a: "Chad and Romania are effectively identical at emoji size. Indonesia and Monaco, Ireland and Côte d’Ivoire, Australia and New Zealand, and Mali and Guinea are the other pairs that catch most players. The look-alike table on this page explains the difference for each pair." },
+  { q: "Does the quiz save my score?", a: "Your best score for each mode is saved in your own browser only, using local storage. Nothing is sent to a server, there is no account, and clearing your browser data resets it." },
+  { q: "Are territories and regions included?", a: "Yes. Flag emojis follow ISO 3166 two-letter codes, which cover territories and special regions such as Puerto Rico, Hong Kong, Greenland and the European Union as well as sovereign countries. The classic mode sticks to widely known countries." },
+];
+const title = "Flag Emoji Quiz: Can You Name the Country?";
+const description = "Free flag emoji quiz. Guess the country from its flag in classic or all-flags mode, track your best score, and learn the look-alike flags.";
+const schema = [
+  { "@type": "WebApplication", name: "Flag Emoji Quiz", url: abs("/flag-emoji-quiz/"), description, applicationCategory: "GameApplication", operatingSystem: "Any", offers: { "@type": "Offer", price: "0", priceCurrency: "USD" } },
+  { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={title} description={description} path="/flag-emoji-quiz/" section="quiz" schema={schema} crumbs={[{ name: "Flag emoji quiz" }]}>
+  <div class="wrap">
+    <header class="hero" style="padding-bottom:6px">
+      <h1>Flag emoji quiz</h1>
+      <p class="lead">One flag, four countries, pick the right one. Ten questions per round.</p>
+    </header>
+
+    <section class="quiz card" id="quiz" aria-live="polite">
+      <div id="q-start">
+        <div class="flag em" aria-hidden="true">🌍</div>
+        <p>Choose a mode to start.</p>
+        <div class="modes">
+          <button class="btn" type="button" data-mode="easy">Classic ({easy.length} well-known flags)</button>
+          <button class="btn ghost" type="button" data-mode="all">All flags ({all.length})</button>
+        </div>
+        <p class="muted" id="q-best"></p>
+      </div>
+      <div id="q-play" hidden>
+        <div class="stats"><span id="q-count"></span><span id="q-score"></span></div>
+        <div class="bar"><i id="q-bar"></i></div>
+        <div class="flag em" id="q-flag"></div>
+        <p class="sr-only" id="q-prompt">Which country or region does this flag belong to?</p>
+        <div class="opts" id="q-opts" role="group" aria-labelledby="q-prompt"></div>
+        <p class="feedback" id="q-feedback"></p>
+        <button class="btn" type="button" id="q-next" hidden>Next flag</button>
+      </div>
+      <div id="q-end" hidden>
+        <div class="flag em" id="q-medal" aria-hidden="true">🏆</div>
+        <h2 style="margin-top:0" id="q-result"></h2>
+        <p class="muted" id="q-verdict"></p>
+        <div class="review" id="q-review"></div>
+        <div class="modes">
+          <button class="btn" type="button" id="q-again">Play again</button>
+          <button class="btn ghost" type="button" id="q-switch">Change mode</button>
+        </div>
+      </div>
+      <noscript><p class="note">The quiz needs JavaScript. You can still browse every flag in the <a href="/categories/flags/">flags category</a>.</p></noscript>
+    </section>
+
+    <div class="prose" style="margin-inline:auto">
+      <h2>How the quiz works</h2>
+      <p>Each round shows ten flag emojis, one at a time, with four possible answers. <strong>Classic</strong> mode draws from {easy.length} widely recognized countries, and the wrong answers are chosen to be plausible: neighbors, former colonies and flags with similar colors. <strong>All flags</strong> mode draws from all {all.length} country, region and subdivision flags in Unicode, so expect small islands and territories.</p>
+      <p>You get instant feedback after each answer, and at the end you see every flag you missed with the correct name so you can learn it for next time. Your best score per mode is stored only in your browser.</p>
+
+      <h2>Flags that look alike</h2>
+      <p>Most wrong answers come from a small number of near-twin flags. These are the pairs worth memorizing.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Pair</th><th scope="col">How to tell them apart</th></tr></thead>
+          <tbody>
+            {lookalikes.map(([a, an, b, bn, tip]) => <tr><td style="white-space:nowrap"><span class="em">{a}</span> {an}<br /><span class="em">{b}</span> {bn}</td><td>{tip}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Tips for learning flags faster</h2>
+      <ul>
+        <li><strong>Learn families, not single flags.</strong> Nordic crosses, Pan-African green-yellow-red, Pan-Arab red-white-black-green and Pan-Slavic white-blue-red each cover a whole region. Once you know the family, you only need the detail that separates its members.</li>
+        <li><strong>Look at the flagpole side first.</strong> Stripe order from the hoist is what separates Ireland from Côte d’Ivoire and Mali from Guinea.</li>
+        <li><strong>Notice the emblem.</strong> Coats of arms, stars and crescents are the tiebreakers: Ecuador versus Colombia, Mexico versus Italy, Slovakia versus Russia.</li>
+        <li><strong>Review your misses.</strong> The end-of-round list shows exactly which flags you got wrong. Replaying right away is the quickest way to make them stick.</li>
+      </ul>
+
+      <h2>About flag emojis</h2>
+      <p>A country flag emoji is not one character. It is a pair of “regional indicator” letters that spell the place's two-letter ISO code: 🇧🇷 is B + R, 🇯🇵 is J + P. Phones and Macs draw that pair as a flag; Windows shows the letters. England, Scotland and Wales use a different, longer mechanism called a tag sequence.</p>
+      <p>You can copy any flag from the <a href="/categories/flags/">flags category</a>. Popular flags have their own pages, including <Fragment set:html={[flagLink("flag-united-states", "the United States"), flagLink("flag-brazil", "Brazil"), flagLink("flag-japan", "Japan"), flagLink("flag-ireland", "Ireland")].join(", ")} /> and the <Fragment set:html={flagLink("rainbow-flag", "rainbow flag")} />.</p>
+
+      <h2 id="faq">Flag quiz FAQ</h2>
+      <Faq faqs={faqs} />
+    </div>
+  </div>
+  <script type="application/json" id="quiz-data" set:html={data} />
+  <script is:inline>
+    (function () {
+      var D = JSON.parse(document.getElementById("quiz-data").textContent), ROUND = 10;
+      var $ = function (id) { return document.getElementById(id); };
+      var mode, questions, i, score, misses, locked;
+      // Windows has no flag glyphs: detect that and fall back to images.
+      var useImg = (function () {
+        try {
+          var c = document.createElement("canvas"); c.width = c.height = 32; var x = c.getContext("2d", { willReadFrequently: true });
+          x.font = "24px sans-serif"; x.textBaseline = "top"; x.fillText("🇺🇸", 0, 4);
+          var p = x.getImageData(0, 0, 32, 32).data;
+          for (var k = 0; k < p.length; k += 4) if (p[k + 3] > 0 && (p[k] !== p[k + 1] || p[k + 1] !== p[k + 2])) return false;
+          return true;
+        } catch (e) { return false; }
+      })();
+      function shuffle(a) { a = a.slice(); for (var j = a.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)); var t = a[j]; a[j] = a[r]; a[r] = t; } return a; }
+      function best() { try { return +localStorage.getItem("flagquiz-best-" + mode) || 0; } catch (e) { return 0; } }
+      function showBest() {
+        var parts = [];
+        ["easy", "all"].forEach(function (m) { var b = 0; try { b = +localStorage.getItem("flagquiz-best-" + m) || 0; } catch (e) {} if (b) parts.push((m === "easy" ? "Classic" : "All flags") + " best: " + b + "/" + ROUND); });
+        $("q-best").textContent = parts.join(" · ");
+      }
+      function view(name) { ["start", "play", "end"].forEach(function (v) { $("q-" + v).hidden = v !== name; }); }
+      function start(m) {
+        mode = m; i = 0; score = 0; misses = [];
+        questions = shuffle(D[m]).slice(0, ROUND).map(function (q) {
+          var opts = q.o ? q.o : [q.n].concat(shuffle(D.all.filter(function (x) { return x.n !== q.n; })).slice(0, 3).map(function (x) { return x.n; }));
+          return { e: q.e, n: q.n, h: q.h, o: shuffle(opts) };
+        });
+        view("play"); ask();
+      }
+      function ask() {
+        var q = questions[i]; locked = false;
+        $("q-count").textContent = "Flag " + (i + 1) + " of " + ROUND;
+        $("q-score").textContent = "Score: " + score;
+        $("q-bar").style.width = (i / ROUND) * 100 + "%";
+        $("q-flag").innerHTML = useImg ? '<img alt="Flag to identify" width="150" height="150" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/' + q.h + '.svg">' : q.e;
+        $("q-feedback").textContent = ""; $("q-next").hidden = true;
+        var box = $("q-opts"); box.innerHTML = "";
+        q.o.forEach(function (name) {
+          var b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.textContent = name;
+          b.addEventListener("click", function () { answer(b, name); }); box.appendChild(b);
+        });
+      }
+      function answer(btn, name) {
+        if (locked) return; locked = true;
+        var q = questions[i], ok = name === q.n;
+        [].forEach.call($("q-opts").children, function (b) { b.disabled = true; if (b.textContent === q.n) b.classList.add("right"); });
+        if (ok) { score++; $("q-feedback").textContent = "Correct! That is " + q.n + "."; }
+        else { btn.classList.add("wrong"); misses.push(q); $("q-feedback").textContent = "Not quite. That is " + q.n + "."; }
+        $("q-score").textContent = "Score: " + score;
+        $("q-bar").style.width = ((i + 1) / ROUND) * 100 + "%";
+        var n = $("q-next"); n.textContent = i + 1 < ROUND ? "Next flag" : "See results"; n.hidden = false; n.focus();
+      }
+      function end() {
+        var prev = best(), record = score > prev;
+        if (record) try { localStorage.setItem("flagquiz-best-" + mode, score); } catch (e) {}
+        $("q-medal").textContent = score === ROUND ? "🏆" : score >= 7 ? "🥇" : score >= 4 ? "🥈" : "🌍";
+        $("q-result").textContent = "You scored " + score + " out of " + ROUND;
+        $("q-verdict").textContent = (score === ROUND ? "A perfect round." : score >= 7 ? "Strong round." : score >= 4 ? "Decent, and the misses below are the ones to learn." : "Tough round. Review the flags below and try again.") + (record ? " New personal best!" : prev ? " Your best is " + prev + "/" + ROUND + "." : "");
+        $("q-review").innerHTML = misses.length ? "<h3>Flags you missed</h3><ul>" + misses.map(function (q) { return '<li><span class="em">' + (useImg ? "" : q.e + " ") + "</span><strong>" + q.n + "</strong></li>"; }).join("") + "</ul>" : "";
+        view("end"); showBest();
+      }
+      document.querySelectorAll("[data-mode]").forEach(function (b) { b.addEventListener("click", function () { start(b.getAttribute("data-mode")); }); });
+      $("q-next").addEventListener("click", function () { i++; if (i < ROUND) ask(); else end(); });
+      $("q-again").addEventListener("click", function () { start(mode); });
+      $("q-switch").addEventListener("click", function () { view("start"); });
+      showBest();
+    })();
+  </script>
+</Base>

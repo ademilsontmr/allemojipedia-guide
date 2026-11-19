@@ -1,0 +1,76 @@
+---
+import Base from "@/layouts/Base.astro";
+import Faq from "@/components/Faq.astro";
+import GuideCard from "@/components/GuideCard.astro";
+import EmojiTile from "@/components/EmojiTile.astro";
+import { getCollection, render } from "astro:content";
+import { SITE, abs, fmtDate } from "@/lib/site";
+import { emojiPages, getEmoji } from "@/lib/emoji";
+
+export async function getStaticPaths() {
+  const guides = await getCollection("guides");
+  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide } }));
+}
+const { guide } = Astro.props;
+const d = guide.data;
+const { Content, headings } = await render(guide);
+const all = await getCollection("guides");
+const pages = await emojiPages();
+const path = `/guides/${guide.id}/`;
+const published = d.pubDate.toISOString().slice(0, 10);
+const updated = (d.updatedDate ?? d.pubDate).toISOString().slice(0, 10);
+const words = (guide.body ?? "").split(/\s+/).length;
+const minutes = Math.max(1, Math.round(words / 220));
+const toc = headings.filter((h) => h.depth === 2);
+let related = d.related.map((s) => all.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g);
+if (related.length < 3) related = [...related, ...all.filter((g) => g.id !== guide.id && g.data.category === d.category && !related.includes(g))].slice(0, 3);
+const mentioned = [...new Set([...(guide.body ?? "").matchAll(/\(\/emojis\/([a-z0-9-]+)\/\)/g)].map((m) => m[1]))]
+  .map((s) => getEmoji(s)).filter((e): e is NonNullable<typeof e> => !!e && pages.has(e.slug)).slice(0, 16);
+const schema = [
+  { "@type": "BlogPosting", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
+    datePublished: published, dateModified: updated, wordCount: words, articleSection: d.category, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") } },
+  { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={d.title} description={d.description} path={path} ogType="article" section="guides" schema={schema}
+  crumbs={[{ name: "Guides", href: "/guides/" }, { name: d.title }]}>
+  <article class="wrap">
+    <header class="article-hero prose">
+      <span class="em" aria-hidden="true">{d.heroEmoji}</span>
+      <p class="eyebrow">{d.category} guide</p>
+      <h1>{d.title}</h1>
+      <p class="lead">{d.excerpt}</p>
+      <p class="byline"><span>By the <a href="/about/">{SITE.team}</a></span><span>Updated <time datetime={updated}>{fmtDate(updated)}</time></span><span>{minutes} min read</span></p>
+    </header>
+    <div class="layout">
+      <div class="prose article">
+        <div class="takeaways">
+          <h2>Key takeaways</h2>
+          <ul>{d.keyTakeaways.map((t) => <li>{t}</li>)}</ul>
+        </div>
+        <Content />
+        <h2 id="faq">Frequently asked questions</h2>
+        <Faq faqs={d.faqs} />
+      </div>
+      <aside class="aside">
+        <nav class="card toc" aria-label="In this guide">
+          <h2>In this guide</h2>
+          <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}<li><a href="#faq">FAQ</a></li></ol>
+        </nav>
+      </aside>
+    </div>
+    {mentioned.length > 0 && (
+      <section aria-labelledby="mentioned">
+        <h2 id="mentioned">Emojis in this guide</h2>
+        <ul class="grid cols-tiles">{mentioned.map((e) => <li><EmojiTile emoji={e} hasPage={true} /></li>)}</ul>
+      </section>
+    )}
+    {related.length > 0 && (
+      <section aria-labelledby="related">
+        <h2 id="related">Keep reading</h2>
+        <ul class="grid cols-wide">{related.map((g) => <li><GuideCard guide={g} /></li>)}</ul>
+      </section>
+    )}
+  </article>
+</Base>

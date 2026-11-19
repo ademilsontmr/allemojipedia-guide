@@ -1,0 +1,60 @@
+{
+  "slug": "hourglass-not-done",
+  "title": "Hourglass Emoji ⏳ Meaning: Waiting and Time Running",
+  "description": "⏳ shows sand still falling through an hourglass. It means waiting, patience, a countdown or time running out. Learn how it differs from ⌛ and from ⏰.",
+  "summary": "⏳ is an hourglass with sand still flowing. It means something is in progress and not finished: a wait, a countdown, a loading period or a deadline approaching. It can be patient (“almost there”) or anxious (“we're running out of time”) depending on the message.",
+  "meaning": [
+    "Waiting is the core idea. The emoji stands for the stretch between starting and finishing: test results on the way, a package in transit, an application under review, a baby due any day. “Pending ⏳” is a complete status update. It borrows from software, where an hourglass cursor long told computer users to hold on while the machine worked, so it also means loading or processing.",
+    "With a deadline in view, the same picture becomes a countdown. Sand piling up at the bottom means time is nearly gone, and ⏳ expresses that pressure in posts about exams, sales ending, tickets selling out or the last days of a trip. On Snapchat, an hourglass icon beside a friend's name warns that a streak will expire soon unless both people send a snap.",
+    "The hourglass is also one of the oldest symbols of mortality and the passing of time. People use ⏳ in reflective posts about aging, children growing up or making the most of the years they have, which may be why the emoji's keywords include yolo. In anticipation posts it builds suspense for something coming: a release date, a reveal, an announcement not yet made."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "A lone ⏳ can answer “any news?” with “not yet.” It tells someone you are working on it, or that you are waiting on them. Sent to a slow replier it is a mild, humorous prod. Before a date or trip it marks excited impatience, often next to a number of days."
+    },
+    {
+      "label": "At work",
+      "body": "In project updates, ⏳ labels items in progress, between a check mark for done and a cross or pause sign for blocked. Many teams use it as a status reaction meaning “on it, give me a moment.” It is neutral and professional as long as the wait it implies is reasonable."
+    },
+    {
+      "label": "On Snapchat and social apps",
+      "body": "Snapchat's streak warning is the best-known use: the hourglass appears when roughly a day has nearly passed without an exchange. Elsewhere, creators use ⏳ in countdown captions and teaser posts, and shops use it when stock or time is limited, a softer cue than the ringing alarm clock."
+    },
+    {
+      "label": "For reflection",
+      "body": "Birthday posts, graduation messages and tributes sometimes include the hourglass for time passing quickly. Paired with a quote about not wasting a day, it becomes a small memento mori. In this use it is thoughtful, not urgent, and tends to sit at the end of a longer caption."
+    }
+  ],
+  "examples": [
+    { "text": "Interview went well, now we wait ⏳", "meaning": "The outcome is pending and the sender is being patient." },
+    { "text": "3 days ⏳ until I see you", "meaning": "Counting down eagerly to a reunion." },
+    { "text": "Send me a snap, our streak has the ⏳", "meaning": "Warning that a Snapchat streak is about to expire." },
+    { "text": "Still rendering ⏳ will send the file in 20", "meaning": "A task is processing and the result will follow shortly." },
+    { "text": "How is she starting kindergarten already ⏳", "meaning": "Reflecting on how fast time passes." },
+    { "text": "Early bird pricing ends tonight ⏳", "meaning": "A reminder that an offer is about to close." }
+  ],
+  "combos": [
+    { "combo": "⏳👀", "meaning": "Waiting and watching closely for an update." },
+    { "combo": "⏳🔜", "meaning": "Coming soon; not ready yet but close." },
+    { "combo": "⏳😬", "meaning": "Nervous as a deadline or result approaches." },
+    { "combo": "⏳✅", "meaning": "In progress, then done; a task moving to completion." }
+  ],
+  "confusedWith": [
+    { "slug": "hourglass-done", "difference": "⌛ shows the sand fully run through to the bottom: time is up, the wait is over. ⏳ still has sand falling, so it means ongoing. They look alike at small sizes and are often used interchangeably." },
+    { "slug": "alarm-clock", "difference": "⏰ signals a specific moment, an alert or a wake-up call. ⏳ depicts duration, the slow passing of time before that moment arrives." },
+    { "slug": "timer-clock", "difference": "⏲️ is a kitchen-style timer dial used for cooking and timed activities. It is practical and short-term, without the hourglass's overtones of patience or fate." }
+  ],
+  "avoid": [
+    "Avoid sending it to someone who is already anxious about how long you are taking; it can look like you are counting.",
+    "Do not use it in sympathy messages about terminal illness, where “time running out” imagery is painful."
+  ],
+  "design": "A glass timer in a wooden or metal frame with sand in both bulbs and a thin stream falling between them. Sand color varies by platform, commonly gold, tan or pink, and the frame may be brown, blue or gray. The sand remaining in the upper bulb is the feature that separates it from ⌛.",
+  "faqs": [
+    { "q": "What does the ⏳ mean on Snapchat?", "a": "An hourglass next to a friend's name means your Snapstreak with them is close to ending. Both of you need to send a snap, not just a chat message, before the remaining time runs out to keep it going." },
+    { "q": "What is the difference between ⏳ and ⌛?", "a": "In ⏳ the sand is still falling, meaning time remains and something is in progress. In ⌛ all the sand is at the bottom, meaning time has run out. Many people ignore the distinction." },
+    { "q": "What does ⏳ mean from a guy or a girl?", "a": "That they are waiting for something, counting down to it, or asking for patience. Before plans with you, it suggests they are looking forward to it. It has no hidden meaning." },
+    { "q": "Does ⏳ mean loading?", "a": "Yes, informally. Older computer systems showed an hourglass while a program was busy, so people use the emoji for anything processing, buffering or pending." }
+  ],
+  "related": ["hourglass-done", "alarm-clock", "timer-clock", "stopwatch", "watch", "eyes"]
+}

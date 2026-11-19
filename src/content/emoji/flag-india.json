@@ -1,0 +1,106 @@
+{
+  "slug": "flag-india",
+  "title": "🇮🇳 India Flag Emoji Meaning: Tiranga and Its Wheel",
+  "description": "The India flag emoji 🇮🇳 shows the saffron, white and green Tiranga with the Ashoka Chakra. Learn what it means, when it's used, and which flags resemble it.",
+  "summary": "The 🇮🇳 emoji is the flag of India, known as the Tiranga or tricolor: horizontal bands of saffron, white, and green with a navy blue wheel, the Ashoka Chakra, at the center. It represents Indian identity and pride, especially around cricket, Independence Day, Republic Day, and the global Indian diaspora.",
+  "meaning": [
+    "With well over a billion people and one of the largest diasporas anywhere, India puts 🇮🇳 in front of a vast audience daily. It marks nationality in bios, signals pride when an Indian company, scientist, film, or athlete makes news, and tags travel from Kerala backwaters to Himalayan treks. Space missions are a notable trigger: successful launches and landings by the Indian space agency fill social media with the flag.",
+    "Cricket is the emoji's loudest stage. India matches, above all against Pakistan or in World Cup knockouts, produce enormous volumes of 🇮🇳, and Indian Premier League stars carry it into replies year-round. Other sports are growing sources too, from Olympic javelin and badminton to chess, where Indian grandmasters have a passionate online following.",
+    "The flag was adopted in July 1947, weeks before independence. The saffron band is commonly associated with courage and sacrifice, white with peace and truth, and green with faith and the fertility of the land. The wheel in the middle has twenty-four spokes and is taken from the Lion Capital of Ashoka, an ancient sculpture that is also the national emblem. Indian law and custom treat the flag with considerable formality, which carries over into mostly respectful emoji use."
+  ],
+  "contexts": [
+    {
+      "label": "On national days",
+      "body": "August 15, Independence Day, and January 26, Republic Day, are the two peaks. Profile pictures, school events, parade clips, and greetings all carry 🇮🇳, often with “Jai Hind.” Government campaigns encouraging citizens to display the Tiranga around Independence Day amplify the trend."
+    },
+    {
+      "label": "In cricket",
+      "body": "Match threads, memes, and victory posts use 🇮🇳 as punctuation. A row of flags after a final ball needs no words. During the IPL, when teams are city-based, the flag retreats and returns for international fixtures. The women's national team now draws the same treatment during its tournaments."
+    },
+    {
+      "label": "Among the diaspora",
+      "body": "Indians in the US, UK, Canada, the Gulf, and elsewhere pair 🇮🇳 with a second flag in bios. It marks festivals celebrated abroad, such as Diwali and Holi gatherings, and homecoming trips, wedding seasons, and airport reunions. Second-generation users add it to posts about Bollywood, food, and visits to grandparents."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Happy Independence Day! Jai Hind 🇮🇳",
+      "meaning": "A greeting for August 15."
+    },
+    {
+      "text": "WHAT A CHASE. Champions!! 🇮🇳🇮🇳🇮🇳",
+      "meaning": "Celebrating an Indian cricket victory."
+    },
+    {
+      "text": "Soft landing confirmed, goosebumps 🇮🇳🚀",
+      "meaning": "Pride in a successful Indian space mission."
+    },
+    {
+      "text": "Home for Diwali after three years 🇮🇳🪔",
+      "meaning": "A diaspora member returning to India for the festival."
+    },
+    {
+      "text": "Desi in Toronto 🇮🇳🇨🇦",
+      "meaning": "A bio line describing Indian Canadian identity."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇮🇳🏏",
+      "meaning": "Indian cricket."
+    },
+    {
+      "combo": "🇮🇳🪔",
+      "meaning": "Diwali or Indian festivals more broadly."
+    },
+    {
+      "combo": "🇮🇳🙏",
+      "meaning": "Respectful national pride or gratitude; common in patriotic greetings."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-niger",
+      "difference": "🇳🇪 Niger's flag has nearly the same horizontal bands of orange, white, and green. Its central emblem is a solid orange circle, where India's is a blue spoked wheel."
+    },
+    {
+      "slug": "flag-ireland",
+      "difference": "🇮🇪 Ireland uses green, white, and orange too, but in vertical stripes and with no emblem. The shared palette causes occasional mis-taps on a flag keyboard."
+    },
+    {
+      "slug": "flag-cote-divoire",
+      "difference": "🇨🇮 Côte d'Ivoire has vertical orange, white, and green stripes. Again there is no wheel, and the stripes run the other way."
+    }
+  ],
+  "avoid": [
+    "Avoid using it flippantly or in mocking edits; many Indians regard disrespect toward the flag as a serious matter.",
+    "Do not use it to stand for all of South Asia; Pakistan, Bangladesh, Sri Lanka, and Nepal have their own flags and identities."
+  ],
+  "design": "Three equal horizontal stripes, saffron on top, white in the middle, green at the bottom, with a small navy wheel centered on the white. The twenty-four spokes cannot be drawn at emoji scale, so the chakra appears as a blue ring or dot. On Windows the emoji shows as the letters IN.",
+  "faqs": [
+    {
+      "q": "What is the wheel on the Indian flag?",
+      "a": "It is the Ashoka Chakra, a twenty-four-spoke wheel taken from an ancient pillar capital erected under the emperor Ashoka. It is generally understood to represent the wheel of dharma, or righteous law, and constant forward movement."
+    },
+    {
+      "q": "What is the India flag emoji made of?",
+      "a": "Two regional indicator symbols, I and N, matching India's country code. Software that supports flags displays the Tiranga. The letters appear instead on Windows and on a few older systems."
+    },
+    {
+      "q": "Which flag looks like India's?",
+      "a": "Niger's is the closest, with the same three colors in horizontal bands and a circle in the center. Ireland and Côte d'Ivoire share the colors but arrange them vertically."
+    },
+    {
+      "q": "When did the Indian flag emoji become available?",
+      "a": "It arrived in 2015, when emoji keyboards expanded from about ten country flags to nearly all of them. It has worked on iPhones and Android phones ever since."
+    }
+  ],
+  "related": [
+    "flag-united-kingdom",
+    "flag-united-states",
+    "flag-canada",
+    "cricket-game",
+    "diya-lamp",
+    "folded-hands"
+  ]
+}

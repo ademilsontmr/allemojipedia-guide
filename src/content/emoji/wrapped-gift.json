@@ -1,0 +1,57 @@
+{
+  "slug": "wrapped-gift",
+  "title": "Wrapped Gift Emoji 🎁 Meaning: Presents and Surprises",
+  "description": "The 🎁 wrapped gift emoji means a present or surprise: birthdays, Christmas, giveaways and freebies. See what it signals in texts, apps and brand promotions.",
+  "summary": "The 🎁 wrapped gift emoji stands for presents and surprises. It appears in birthday and holiday messages, gift-exchange planning and thank-you notes. Brands and apps use it for giveaways, rewards and free bonuses. Affectionately, it can call a person or a moment “a gift.”",
+  "meaning": [
+    "A box with a bow needs little interpretation. People send 🎁 when giving, receiving or shopping for presents, most heavily in December and around birthdays. It hints at something not yet revealed, so it often accompanies teasing lines like “I got you something 🎁” or “wait until you see what arrived.” The surprise is half the point of the picture.",
+    "Online, the emoji has a commercial career. Giveaway posts lead with it, loyalty programs use it for rewards, and games show a gift icon for daily bonuses and in-app presents. On livestream platforms, viewers send paid virtual gifts to creators, and 🎁 refers to that system. When a marketing email subject contains it, the message is promising a freebie or discount.",
+    "It also works as a compliment. Telling someone “you’re a 🎁” or captioning a newborn’s photo with it borrows the idea of a blessing. Good weather on a wedding day, a canceled meeting or an unexpectedly easy exam might each be called a gift. Ironic uses exist as well, such as describing bad news as “a little 🎁 from the universe.”"
+  ],
+  "contexts": [
+    {
+      "label": "On holidays",
+      "body": "Christmas, Hanukkah, Eid, Diwali, Valentine’s Day, Mother’s Day and Father’s Day all bring it out. Secret Santa organizers use it in sign-up messages and budget reminders. It pairs naturally with the tree for Christmas morning and with hearts for romantic occasions, and it marks shopping lists and wish lists alike."
+    },
+    {
+      "label": "In texting",
+      "body": "It asks and answers practical questions: “what do you want for your birthday? 🎁” or “your 🎁 is on the way.” It can also thank someone, as in “got it, I love it 🎁❤️.” From a partner, a lone gift emoji before a date usually means a surprise is planned."
+    },
+    {
+      "label": "On social media and in apps",
+      "body": "Giveaways, unboxing videos and haul posts rely on 🎁. TikTok and other live platforms use gifting as a way to tip creators, so viewers may be asked to “send a 🎁.” Shopping apps place the icon on promotions and referral bonuses. Be cautious with unsolicited messages promising a free 🎁, a common scam hook."
+    }
+  ],
+  "examples": [
+    { "text": "Don’t open the closet. Your 🎁 is in there", "meaning": "A playful warning that a hidden present should stay a surprise." },
+    { "text": "Secret Santa limit is $25 🎁", "meaning": "Setting the budget for a group gift exchange." },
+    { "text": "GIVEAWAY 🎁 follow and tag a friend to enter", "meaning": "A brand or creator announcing a prize draw." },
+    { "text": "A snow day on exam week? What a 🎁", "meaning": "Calling a lucky break a gift." },
+    { "text": "Thank you so much, it’s perfect 🎁🥹", "meaning": "Touched gratitude after receiving a thoughtful present." },
+    { "text": "Any ideas for Mom? 🎁 I’m stuck", "meaning": "Asking for help choosing a present." }
+  ],
+  "combos": [
+    { "combo": "🎁🎄", "meaning": "Christmas presents under the tree." },
+    { "combo": "🎂🎁", "meaning": "Birthday celebrations with cake and gifts." },
+    { "combo": "🎁👀", "meaning": "A surprise is coming and the sender is teasing it." },
+    { "combo": "🛍️🎁", "meaning": "Out shopping for presents." }
+  ],
+  "confusedWith": [
+    { "slug": "package", "difference": "📦 is a plain cardboard box for deliveries, shipping and moving. 🎁 is wrapped and ribboned, so it means a present. An online order arriving is 📦 until it is meant for someone." },
+    { "slug": "ribbon", "difference": "🎀 is only the bow, usually pink, and has come to represent girly and coquette style. The gift box is about the present inside and the act of giving." },
+    { "slug": "heart-with-ribbon", "difference": "💝 is a heart tied with a ribbon and means giving your love, especially on Valentine’s Day. 🎁 is a general present with no built-in romance." }
+  ],
+  "avoid": [
+    "Do not promise a 🎁 in marketing unless there is an actual free item, since people feel tricked by bait.",
+    "Avoid hinting with it to someone who may feel pressured to buy you something."
+  ],
+  "design": "The emoji is a square box wrapped in paper and tied with a ribbon and bow on top. Colors differ a good deal: some platforms show gold or yellow paper with a red ribbon, others blue, red or patterned wrapping. Since no single scheme is standard, the gift is not tied visually to any one holiday.",
+  "faqs": [
+    { "q": "What does 🎁 mean from a guy or a girl?", "a": "Either they have a present or surprise for you, or they are calling you a gift, meaning they feel lucky to have you. Before a birthday or holiday the first is likelier; in a sweet message with hearts, the second." },
+    { "q": "What does 🎁 mean on TikTok?", "a": "It usually refers to virtual gifts that viewers buy and send to creators during live videos, which convert into earnings. It is also used for giveaways and unboxing content." },
+    { "q": "What does the gift icon mean in apps?", "a": "Typically a reward: a daily bonus in a game, a referral credit, a promotional offer or the option to send something to another user. Tapping it usually opens whatever is being offered." },
+    { "q": "Is 🎁 a Christmas emoji?", "a": "It is used most at Christmas, but nothing in the design is Christmas-specific. It serves equally for birthdays, weddings, baby showers and any occasion where presents are exchanged." },
+    { "q": "Is a message with 🎁 and a link safe?", "a": "Treat it with care. Scammers use gift emojis and “you’ve won” wording to get clicks. If you did not enter a contest or do not know the sender, do not tap the link or share personal details." }
+  ],
+  "related": ["ribbon", "christmas-tree", "birthday-cake", "balloon", "party-popper", "heart-with-ribbon"]
+}

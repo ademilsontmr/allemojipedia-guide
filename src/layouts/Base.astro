@@ -1,0 +1,141 @@
+---
+import "@/styles/global.css";
+import { SITE, abs } from "@/lib/site";
+import { categories, categoryUrl } from "@/lib/emoji";
+
+interface Crumb { name: string; href?: string }
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  crumbs?: Crumb[];
+  schema?: Record<string, unknown>[];
+  ogType?: "website" | "article";
+  noindex?: boolean;
+  section?: "emojis" | "categories" | "guides" | "quiz" | "search";
+}
+const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section } = Astro.props;
+const canonical = abs(path);
+// Long titles already fill the search snippet; only short ones get the brand suffix.
+const fullTitle = path === "/" || [...title].length > 46 ? title : `${title} | ${SITE.name}`;
+const trail = crumbs.length ? [{ name: "Home", href: "/" }, ...crumbs] : [];
+const graph: Record<string, unknown>[] = [
+  { "@type": "WebSite", "@id": abs("/#website"), url: abs("/"), name: SITE.name, description: SITE.description, inLanguage: "en", publisher: { "@id": abs("/#org") } },
+  { "@type": "Organization", "@id": abs("/#org"), name: SITE.name, url: abs("/"), logo: { "@type": "ImageObject", url: abs("/icon-512.png"), width: 512, height: 512 } },
+  ...schema,
+];
+if (trail.length)
+  graph.push({ "@type": "BreadcrumbList", itemListElement: trail.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: abs(c.href ?? path) })) });
+const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replace(/</g, "\\u003c");
+const nav = [
+  { href: "/emojis/", label: "Emojis", key: "emojis" },
+  { href: "/categories/", label: "Categories", key: "categories" },
+  { href: "/guides/", label: "Guides", key: "guides" },
+  { href: "/flag-emoji-quiz/", label: "Flag quiz", key: "quiz" },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1"} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={abs(SITE.ogImage)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <script type="application/ld+json" set:html={jsonLd} />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/" aria-label={`${SITE.name} home`}><span class="em" aria-hidden="true">😀</span><span>{SITE.name}</span></a>
+        <nav class="nav" aria-label="Main">
+          {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
+          <a class="search-link" href="/search/" aria-label="Search emojis" aria-current={section === "search" ? "page" : undefined}>Search</a>
+        </nav>
+      </div>
+    </header>
+    {trail.length > 0 && (
+      <nav class="crumbs wrap" aria-label="Breadcrumb">
+        <ol>{trail.map((c, i) => <li>{c.href && i < trail.length - 1 ? <a href={c.href}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>)}</ol>
+      </nav>
+    )}
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h2>Categories</h2>
+            <ul>{categories.map((c) => <li><a href={categoryUrl(c.slug)}><span class="em" aria-hidden="true">{c.icon}</span> {c.name}</a></li>)}</ul>
+          </div>
+          <div>
+            <h2>Explore</h2>
+            <ul>
+              <li><a href="/emojis/">All emoji meanings</a></li>
+              <li><a href="/categories/">Browse by category</a></li>
+              <li><a href="/guides/">Guides</a></li>
+              <li><a href="/flag-emoji-quiz/">Flag emoji quiz</a></li>
+              <li><a href="/search/">Search</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>About</h2>
+            <ul>
+              <li><a href="/about/">About us</a></li>
+              <li><a href="/editorial-policy/">Editorial policy</a></li>
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/privacy/">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="legal">© {new Date().getFullYear()} {SITE.name}. Emoji names and code points follow the Unicode Standard and CLDR. Emoji designs belong to their respective platform owners; this site displays your device's own emoji font. {SITE.name} is independent and not affiliated with the Unicode Consortium or Emojipedia.</p>
+      </div>
+    </footer>
+    <div id="toast" class="sr-only" role="status" aria-live="polite"></div>
+    <script is:inline>
+      document.addEventListener("click", function (e) {
+        var el = e.target.closest("[data-copy]");
+        if (!el) return;
+        var text = el.getAttribute("data-copy");
+        var done = function () {
+          el.classList.add("copied");
+          document.getElementById("toast").textContent = "Copied " + text;
+          var label = el.querySelector("[data-copy-label]"), old = label && label.textContent;
+          if (label) label.textContent = "Copied!";
+          setTimeout(function () { el.classList.remove("copied"); if (label) label.textContent = old; }, 1200);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () {});
+        else { var t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand("copy"); done(); } catch (x) {} t.remove(); }
+      });
+    </script>
+    <script is:inline define:vars={{ client: SITE.adsenseClient }}>
+      // Ads load after the page is interactive so they never block content.
+      (function () {
+        var loaded = false;
+        function load() {
+          if (loaded) return; loaded = true;
+          var s = document.createElement("script"); s.async = true; s.crossOrigin = "anonymous";
+          s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + client;
+          document.head.appendChild(s);
+        }
+        ["scroll", "pointerdown", "keydown", "touchstart"].forEach(function (ev) { addEventListener(ev, load, { once: true, passive: true }); });
+        addEventListener("load", function () { setTimeout(load, 4000); });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "slug": "books",
+  "title": "Books Emoji 📚 Meaning: Study Mode and BookTok Hauls",
+  "description": "The 📚 books emoji means studying, reading or school. See how students, teachers and BookTok readers use it, with examples, pairings and similar emojis.",
+  "summary": "The 📚 books emoji is a stack of colorful hardcovers. It stands for studying, school, homework and exams, and equally for reading as a hobby: book hauls, reading lists, libraries and recommendations. In bios it marks students, teachers, writers and devoted readers.",
+  "meaning": [
+    "Students own this emoji for most of the academic year. “📚 all weekend” means exams are coming; “back to the 📚” ends a break. It describes the activity, hitting the books, as much as the objects, and it is the default symbol for school in general when the school building emoji feels too literal.",
+    "Readers use it very differently, with pride instead of dread. On BookTok and Bookstagram, 📚 tags hauls, monthly wrap-ups, to-be-read piles and shelf tours. A stack suits those communities well, since the point is often quantity: how many were read this month, how many are waiting. Authors use it when announcing releases, and libraries and bookstores put it on nearly every post.",
+    "Figuratively, it signals knowledge. Replying 📚 to a well-researched comment says “you've done the reading.” Telling someone to “read a 📚” is a familiar insult suggesting they are uninformed. Debate threads use it both ways, as applause for a sourced argument and as a put-down for a lazy one, so the wording around it matters.",
+    "It has no risqué or coded meaning, which makes it safe in classrooms, parent newsletters and workplace training material. The only real variation is emotional: the same stack can mean joy to a fantasy reader and misery to someone facing organic chemistry, and the surrounding emojis usually tell you which of those two people is typing."
+  ],
+  "contexts": [
+    { "label": "In school", "body": "Teachers add 📚 to homework reminders, reading logs and back-to-school announcements. Students use it in group chats to coordinate study sessions or to explain why they can't go out. During finals it travels with coffee cups, crying faces and the occasional skull to show how the revision is going." },
+    { "label": "On TikTok and Instagram", "body": "Book communities treat it as their flag. Hashtags and captions for reviews, annotated copies, book club picks and reading challenges nearly always include it. Creators stack 📚 with genre hints, such as a dragon for fantasy or a heart for romance, to show what the recommendation list contains." },
+    { "label": "In bios", "body": "A 📚 in a profile says “student,” “teacher,” “librarian,” “author” or just “bookworm.” Followed by a subject or degree it specifies what is being studied. Tutors and education businesses use it as a category marker so parents can tell at a glance what they offer." },
+    { "label": "In texting", "body": "It works as a short status: “📚 rn” means busy studying, “need new 📚” asks for recommendations. Between friends who read, sending 📚 with a title is a nudge to borrow or buy it. Parents text it to ask, not very subtly, whether homework is done." }
+  ],
+  "examples": [
+    { "text": "Can't come out, finals week 📚😩", "meaning": "Too busy studying for exams to socialize." },
+    { "text": "October reading wrap-up 📚 seven books!", "meaning": "Sharing how many books the poster finished this month." },
+    { "text": "Library haul 📚 wish me luck finishing these before they're due", "meaning": "Showing off a stack of borrowed books." },
+    { "text": "First day of grad school tomorrow 📚", "meaning": "Announcing the start of a new academic chapter." },
+    { "text": "Any recs? Need something for the flight 📚", "meaning": "Asking friends to suggest a good book." },
+    { "text": "Maybe pick up a 📚 before commenting", "meaning": "A jab implying the other person is uninformed." }
+  ],
+  "combos": [
+    { "combo": "📚☕", "meaning": "A study session or a cozy reading afternoon with coffee." },
+    { "combo": "📚✏️", "meaning": "Homework, note-taking or exam preparation." },
+    { "combo": "📚🎓", "meaning": "Working toward a degree, or studying that leads to graduation." },
+    { "combo": "📚🐛", "meaning": "Bookworm: someone who reads constantly." }
+  ],
+  "confusedWith": [
+    { "slug": "open-book", "difference": "The 📖 open book shows a single volume mid-read. It suits the act of reading right now, or a specific text such as a scripture, while 📚 suggests many books, studying or a collection." },
+    { "slug": "notebook", "difference": "The 📓 notebook is for writing in: class notes, journals, planning. 📚 is for material you read. Students often pair the two, but they are not interchangeable." },
+    { "slug": "closed-book", "difference": "The 📕 closed book is one red volume, often used for a single title or a finished read. 📚 widens the meaning to a whole pile, a course load or a library." }
+  ],
+  "avoid": [
+    "Don't tell someone to “read a 📚” in a disagreement unless you intend to insult their intelligence.",
+    "Avoid using it for e-books or audiobooks in product listings where buyers might expect a physical copy."
+  ],
+  "design": "Most platforms draw three or four closed hardcovers stacked or leaning together, each a different bright color such as red, green, blue and orange. Apple and Google stack them flat in a pile; some other vendors stand them upright as on a shelf. No titles appear on the spines.",
+  "faqs": [
+    { "q": "What does 📚 mean from a girl or a guy?", "a": "Nothing romantic by itself. It nearly always means they are studying, busy with school or talking about a book. If they send it with a title, they are recommending something to you." },
+    { "q": "What does 📚 mean on TikTok?", "a": "It identifies BookTok content: reviews, recommendations, hauls and reading vlogs. On study-focused accounts it marks revision tips and study-with-me videos filmed at a desk." },
+    { "q": "What is the difference between 📚 and 📖?", "a": "📚 is a stack of closed books and points to study or reading in general. 📖 is one open book, better for “I'm reading right now” or for referring to a particular text." },
+    { "q": "Can 📚 be used as an insult?", "a": "Occasionally. “Read a 📚” or “try a 📚” implies the other person lacks knowledge. Outside that phrasing, the emoji is entirely neutral and friendly." },
+    { "q": "Is there one emoji for studying?", "a": "There is no dedicated “studying” emoji, so 📚 fills the role. People commonly combine it with a pencil, a memo or a laptop to show the kind of work involved." }
+  ],
+  "related": ["open-book", "notebook", "graduation-cap", "memo", "pencil", "nerd-face"]
+}

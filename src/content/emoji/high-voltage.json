@@ -1,0 +1,62 @@
+{
+  "slug": "high-voltage",
+  "title": "Lightning Bolt Emoji ⚡ Meaning: Energy, Speed, Power",
+  "description": "Officially called High Voltage, the ⚡ lightning bolt emoji means electricity, speed, energy and sudden impact. See what it signals in texts, tech and fandoms.",
+  "summary": "⚡ is a yellow zigzag bolt. Its Unicode name is High Voltage, after the electrical hazard sign, but people use it as a lightning bolt meaning energy, speed, power and sudden inspiration. It also marks storms, fast charging, flash sales and several famous logos and characters.",
+  "meaning": [
+    "Speed and energy are what the bolt mostly communicates. A “⚡ quick question,” a lightning round, a flash sale, a rapid delivery: the emoji compresses the idea of fast into one character. Fitness posts use it for intensity, and people describe a high-energy person or performance as electric with it. It gives a message a jolt in the same way fire gives it heat, but with an emphasis on quickness rather than quality.",
+    "The literal territory is electricity and weather. Thunderstorm reports, power cuts, electricians' ads, charging stations and electric vehicles all use ⚡. Tech writing uses it for fast charging and performance. In cryptocurrency circles it is the badge of Bitcoin's Lightning Network, and users add it to their names to show they accept payments that way. The original warning-sign meaning, danger from high voltage, survives mainly on actual signage.",
+    "Pop culture has claimed the shape many times over. It is Harry Potter's scar, the Flash's emblem, the slash in AC/DC, David Bowie's Aladdin Sane makeup and the logo of the Los Angeles Chargers, and fans of each use the emoji as a tag. It can also describe chemistry between people, a spark that hit suddenly, and the instant a good idea arrives."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Friends use ⚡ to say something was quick (“that was ⚡ fast”), to hype a plan, or to report a storm overhead. As a reply it means energized agreement. It occasionally stands for shock, the feeling of being zapped by news, though the exploding head or shocked faces are more usual for that."
+    },
+    {
+      "label": "In tech and marketing",
+      "body": "Product pages use the bolt for charging speed, quick setup and instant results. Retailers put it on limited-time offers. In developer tools and release notes it flags performance gains. The association is so settled that a small ⚡ next to a feature name is understood as “faster” without any further text."
+    },
+    {
+      "label": "In sports and fandoms",
+      "body": "Chargers and Tampa Bay Lightning supporters use it as a team emoji, as do fans of Oklahoma City's Thunder. Sprinters and anyone nicknamed for speed get tagged with it. Harry Potter readers use it in bios and birthday posts, and comic fans for the Flash and other electrically powered heroes."
+    },
+    {
+      "label": "From a crush",
+      "body": "A bolt in a flirty message points to a spark: instant attraction or electric chemistry. “Felt that ⚡” after a first date is a positive sign. It is less common than fire for attraction, and where fire says someone looks good, the bolt says something happened between you."
+    }
+  ],
+  "examples": [
+    { "text": "⚡ quick one: are we still on for 3?", "meaning": "Flagging a brief question that needs only a fast answer." },
+    { "text": "Power's out on our whole street ⚡😩", "meaning": "Reporting an electrical outage, probably caused by a storm." },
+    { "text": "0 to 80% in 18 minutes ⚡", "meaning": "Advertising or praising fast battery charging." },
+    { "text": "First date and there was definitely a ⚡", "meaning": "Saying the sender felt immediate chemistry with someone." },
+    { "text": "Bolt Up ⚡⚡ let's go Chargers", "meaning": "A fan cheering on the NFL team whose logo is a lightning bolt." },
+    { "text": "Flash sale ⚡ 40% off until midnight", "meaning": "A store promoting a short, urgent discount." }
+  ],
+  "combos": [
+    { "combo": "⚡⚡⚡", "meaning": "Extreme speed or energy; also a storm with repeated lightning." },
+    { "combo": "🌩️⚡", "meaning": "A thunderstorm in progress." },
+    { "combo": "🔋⚡", "meaning": "Charging, recharged, or full of energy after rest." },
+    { "combo": "🧙‍♂️⚡", "meaning": "A Harry Potter reference, pointing to the character's lightning-shaped scar." }
+  ],
+  "confusedWith": [
+    { "slug": "cloud-with-lightning", "difference": "🌩️ is a storm cloud with a bolt beneath it and is specifically weather. ⚡ is the bolt alone, free to mean speed, power and electricity in any setting." },
+    { "slug": "fire", "difference": "🔥 means hot, excellent or attractive and suggests something sustained. ⚡ is about a sudden strike: fast, energetic, electric. A great song is fire; a blistering sprint is lightning." },
+    { "slug": "collision", "difference": "💥 is a comic-book burst for impact, crashes and explosions. It shows the hit itself, while ⚡ shows the energy or quickness behind it." }
+  ],
+  "avoid": [
+    "Do not double the bolt in a way that mimics the SS insignia; paired angular lightning bolts are a Nazi symbol and are read as such in extremist contexts.",
+    "Avoid it for real electrical safety warnings in documents, where the proper hazard sign and clear wording are needed.",
+    "Skip it in news about people injured by lightning or electrocution."
+  ],
+  "design": "A single jagged bolt in bright yellow or gold, angled from upper right to lower left with one or two sharp bends. That is consistent across platforms; variations are limited to thickness, an orange outline, or a slight gradient. The shape matches the bolt printed on electrical hazard signs, which is where the official name High Voltage comes from.",
+  "faqs": [
+    { "q": "Why is the lightning emoji called High Voltage?", "a": "Unicode named it after the high voltage warning sign, which uses this bolt to signal electrical danger. In everyday use almost everyone treats it as a lightning bolt, and most keyboards find it when you search lightning." },
+    { "q": "What does ⚡ mean next to a name on social media?", "a": "It depends on the community. Among Bitcoin users it signals the Lightning Network. Elsewhere it may be a team, a fandom such as Harry Potter, or simply a claim to high energy." },
+    { "q": "What does ⚡ mean from a guy or a girl?", "a": "Often excitement or speed. In a romantic conversation it suggests they felt a spark or strong chemistry. Check the sentence, since it is just as likely to mean a storm or a quick favor." },
+    { "q": "Is there a difference between ⚡ and 🌩️?", "a": "Yes. 🌩️ includes a cloud and reports stormy weather. ⚡ is only the bolt and is the one used for energy, power, charging and logos." },
+    { "q": "Does ⚡ have a drug meaning?", "a": "It is not a widely recognized drug code. Slang shifts constantly and small groups invent their own, but the general public reads the bolt as energy, speed or electricity." }
+  ],
+  "related": ["cloud-with-lightning", "fire", "collision", "battery", "electric-plug", "dashing-away"]
+}

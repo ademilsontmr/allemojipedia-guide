@@ -1,0 +1,56 @@
+{
+  "slug": "cloud",
+  "title": "Cloud Emoji ☁️ Meaning: Weather, Dreams and Vape Talk",
+  "description": "The ☁️ cloud emoji means overcast skies, but also daydreaming, cloud nine, cloud storage and vaping. See which meaning fits, with examples and comparisons.",
+  "summary": "☁️ is a single white or gray cloud. It reports overcast weather and, figuratively, covers soft and dreamy moods, being on cloud nine or having your head in the clouds. It also labels cloud computing and storage, and in some circles it refers to vape or smoke clouds.",
+  "meaning": [
+    "As a weather symbol the cloud means gray skies, no sun and possibly rain later. Forecast screenshots, grumbles about a ruined beach day and gloomy commute updates all use it. Because overcast weather drags on mood, ☁️ can describe feeling flat or foggy without being as heavy as a rain cloud. It is the mildest of the bad-weather set.",
+    "Clouds also float, and that gives the emoji a lighter side. Soft, pale, pillowy things attract it: fluffy pets, bedding, whipped coffee, pastel outfits. It is central to a gentle, airy style of profile that mixes clouds with white hearts and angel wings. Being on cloud nine after good news and drifting off with your head in the clouds are both expressed with it, and memorial posts use it for heaven.",
+    "Two modern meanings sit far from the sky. In technology, the cloud is remote storage and computing, and ☁️ marks backups, sync and hosted services in documentation and casual tech talk. In vaping and cannabis culture, clouds are the plumes of exhaled vapor or smoke; “blowing ☁️” refers to that, and vape shops use the emoji in promotions. The surrounding words usually make the intended sense obvious."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Day to day, ☁️ answers “what's it like out?” and sets expectations for plans. It also carries mood: a cloudy head after poor sleep, or a dreamy state after a great date. Sent with a relaxed face and little else, it may hint that someone is high."
+    },
+    {
+      "label": "On TikTok and Instagram",
+      "body": "Creators use clouds as soft decoration around captions and names, for sky photography, and for the fluffy textures popular in food and craft videos, like cloud bread and cloud slime. It is also a quiet way to tag vape tricks, since the emoji draws less attention than naming the product."
+    },
+    {
+      "label": "At work",
+      "body": "In IT and software teams the cloud is literal jargon. “Moved it to the ☁️” means a file or system now lives on remote servers. Product marketing uses it for sync and backup features. Outside tech departments, a work message with ☁️ is likely about the weather for an outdoor event."
+    }
+  ],
+  "examples": [
+    { "text": "☁️ all day, bring a jacket", "meaning": "A forecast: overcast and cool." },
+    { "text": "He said yes!! I'm on ☁️ nine", "meaning": "The sender is ecstatically happy." },
+    { "text": "Photos are backed up to the ☁️, you can wipe the phone", "meaning": "Files are saved in online storage." },
+    { "text": "New duvet feels like sleeping on a ☁️", "meaning": "Describing something extremely soft and comfortable." },
+    { "text": "Brain is pure ☁️ today, sorry if I'm slow", "meaning": "Feeling foggy and unfocused." },
+    { "text": "Blowing ☁️☁️ on the patio", "meaning": "A reference to vaping or smoking." }
+  ],
+  "combos": [
+    { "combo": "☁️☁️☁️", "meaning": "Heavily overcast skies, or a thick haze of vapor." },
+    { "combo": "☁️🤍", "meaning": "A soft, pale, angelic aesthetic." },
+    { "combo": "☁️9️⃣", "meaning": "Cloud nine; blissfully happy." },
+    { "combo": "☁️💻", "meaning": "Cloud computing or online storage." }
+  ],
+  "confusedWith": [
+    { "slug": "cloud-with-rain", "difference": "🌧️ adds raindrops and means wet weather or a sad, heavy mood. ☁️ is dry and neutral: gray skies, soft things, or the tech sense of the word." },
+    { "slug": "dashing-away", "difference": "💨 is a puff of air showing speed, wind or exhaled smoke. It is the more common vaping and “running off” emoji; ☁️ is a still cloud in the sky." },
+    { "slug": "fog", "difference": "🌫️ shows horizontal bands of mist and means low visibility or mental haze. It looks like streaks, not a puffy shape, and suits fog or smog reports better than ☁️." }
+  ],
+  "avoid": [
+    "Do not use it as a tech icon in messages to people who will read it as a weather report.",
+    "Avoid vape-related cloud posts on accounts followed by employers or younger family members."
+  ],
+  "design": "One rounded, puffy cloud with a flat base, in white with blue or gray shading on most platforms and solid gray on a few. It has no rain, sun or face. The character existed as a text weather symbol before emoji, so some apps show a simple black outline unless emoji presentation is applied.",
+  "faqs": [
+    { "q": "What does ☁️ mean from a guy or a girl?", "a": "Often the weather or a dreamy, relaxed mood. It can suggest they are daydreaming about something, feeling foggy, or, in some contexts, smoking or vaping. It is not a recognized flirting signal." },
+    { "q": "What does ☁️ mean on TikTok?", "a": "It is mostly decorative, part of a soft, airy style in captions and usernames. It also appears in vape content and in videos about fluffy foods or textures. Check the video itself for the intended meaning." },
+    { "q": "Does the cloud emoji mean heaven?", "a": "In tributes, yes. People use ☁️, often with a dove or angel, to refer to a loved one who has died. The cloud here stands for the sky and a peaceful afterlife." },
+    { "q": "Is there a cloud emoji for cloud storage?", "a": "There is no separate one. The ordinary ☁️ is used for cloud computing in casual writing, sometimes next to a laptop, folder or arrow to make the technical meaning clear." }
+  ],
+  "related": ["cloud-with-rain", "sun-behind-cloud", "fog", "dashing-away", "face-in-clouds", "cloud-with-lightning"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "face-with-crossed-out-eyes",
+  "title": "Face with Crossed-Out Eyes Emoji 😵: Knocked Out, Stunned",
+  "description": "😵 has X-shaped eyes and an open mouth. It means shocked, knocked out, wiped out or figuratively dead. See how it differs from the spiral-eyed 😵‍💫 version.",
+  "summary": "The 😵 face with crossed-out eyes means knocked out. People use it when they are stunned by news, flattened by exhaustion, overwhelmed by a workload or, as an exaggeration, dead from laughter or embarrassment. It was long known as the dizzy face, and some still use it for dizziness.",
+  "meaning": [
+    "Xs for eyes are the comic-strip mark of a character who has been knocked unconscious or killed, and that is the image here. 😵 says something hit the sender hard. It might be a piece of shocking gossip, a brutal exam, a price tag or a day so long that they collapsed the moment they got home.",
+    "The emoji's history explains its mixed use. For years its common name was dizzy face, and some platforms drew it with swirls instead of Xs. When a separate face with spiral eyes was introduced, this one was renamed to describe what most vendors actually showed: crossed-out eyes. Many people still pick it for vertigo or confusion out of habit.",
+    "In current usage the knocked-out meanings dominate. It appears for hangovers, for shock in the sense of I can't believe what I just read, and for being overwhelmed, as when a to-do list has defeated you. It is close in spirit to the skull emoji's I'm dead, but with more surprise and less laughter.",
+    "It also has a literal place in talk about fights, falls and fainting. Boxing and wrestling fans use it for a knockout, gamers for an eliminated character, and it sometimes marks something as lethal, such as a hot sauce or a workout. The face itself is cartoonish, so it rarely feels morbid."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "It works as a compact reaction to overwhelming information. A friend sends the cost of their car repair and you answer 😵. It also describes your own state after a double shift or a long drive. A single one is usually enough; it already implies you have nothing left to add." },
+    { "label": "In gaming and sports", "body": "Players use it when their character is taken out, when they lose badly or when an opponent pulls off something they did not see coming. In combat sports it marks a knockout. It is a common shorthand in kill feeds and stream chats for getting eliminated." },
+    { "label": "On social media", "body": "It reacts to jaw-dropping reveals, plot twists and prices. Fitness creators caption punishing workouts with it. It is used less for laughter than 💀 or 😭, so in comment sections it tends to signal real shock or exhaustion rather than amusement." },
+    { "label": "At work", "body": "Among colleagues it is a relatable way to say your inbox, calendar or week has flattened you. It is informal but not offensive. Avoid it in reply to a specific request, where it can look like you are complaining about the person asking." }
+  ],
+  "examples": [
+    { "text": "Rent is going up $400 😵", "meaning": "The sender is stunned by bad financial news." },
+    { "text": "Just finished a 12-hour shift 😵", "meaning": "Completely wiped out from work." },
+    { "text": "Wait she's his SISTER?? 😵", "meaning": "Shock at an unexpected revelation." },
+    { "text": "That spin class 😵", "meaning": "The workout was intense enough to finish them off." },
+    { "text": "Got one-shot by a sniper across the map 😵", "meaning": "Their character was eliminated instantly in a game." },
+    { "text": "47 unread emails after one day off 😵", "meaning": "Overwhelmed by the amount waiting for them." }
+  ],
+  "combos": [
+    { "combo": "😵💫", "meaning": "Seeing stars after a hit or a shock; on older devices this is also how the spiral-eyes emoji appears." },
+    { "combo": "😵🥊", "meaning": "Knocked out, literally in a fight or figuratively by events." },
+    { "combo": "😵🍻", "meaning": "Destroyed by a night of drinking." },
+    { "combo": "😵📚", "meaning": "Flattened by studying or an exam." }
+  ],
+  "confusedWith": [
+    { "slug": "face-with-spiral-eyes", "difference": "😵‍💫 has hypnotic swirls for eyes and means dizzy, disoriented or confused. 😵 has Xs and means knocked out or stunned. The first is still spinning; the second has already hit the floor." },
+    { "slug": "skull", "difference": "💀 says I'm dead mostly from laughter or secondhand embarrassment and is the favorite of younger users. 😵 covers shock and exhaustion, and is seldom used to say something was funny." },
+    { "slug": "astonished-face", "difference": "😲 is wide-eyed and gasping, still upright and taking the news in. 😵 has gone past surprise to collapse. Use 😲 for wow and 😵 for that finished me." }
+  ],
+  "avoid": [
+    "Do not use it in conversations about a real death, overdose or serious accident.",
+    "Avoid it when describing someone else as passed out drunk in a public post.",
+    "If you are truly faint or unwell, say so in words instead of relying on a cartoon face."
+  ],
+  "design": "A yellow face with two X marks in place of eyes and a round, open mouth. Current designs from the major vendors all use the Xs. Before the spiral-eyed emoji existed, some platforms showed this character with swirling eyes instead, which is why older screenshots and descriptions call it the dizzy face.",
+  "faqs": [
+    { "q": "What does 😵 mean in texting?", "a": "That the sender is stunned, overwhelmed or worn out to the point of collapse. It is an exaggeration in nearly every case. Read it as I can't handle this, said about news, work, a workout or a hangover." },
+    { "q": "Is 😵 the dead emoji?", "a": "It can stand for figuratively dead, since X eyes are a cartoon sign for it. In practice most people use the skull 💀 for that joke. 😵 leans toward shocked or knocked out, and is a less common choice for dying of laughter." },
+    { "q": "What is the difference between 😵 and 😵‍💫?", "a": "The newer 😵‍💫 was created specifically for dizziness and has spiral eyes. 😵 kept the X eyes and the knocked-out sense. Technically the spiral version is built from 😵 joined with the dizzy symbol 💫, so the two are related under the hood." },
+    { "q": "Why did the dizzy face emoji change?", "a": "It did not so much change as get clarified. Vendors had drawn it inconsistently, some with Xs and some with spirals. Adding a dedicated spiral-eyes emoji let this one settle on crossed-out eyes, and its descriptive name was updated to match." }
+  ],
+  "related": ["face-with-spiral-eyes", "skull", "astonished-face", "woozy-face", "dizzy", "exploding-head"]
+}

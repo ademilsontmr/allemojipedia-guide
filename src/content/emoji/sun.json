@@ -1,0 +1,56 @@
+{
+  "slug": "sun",
+  "title": "Sun Emoji ☀️ Meaning: Sunny Weather and Warm Moods",
+  "description": "The ☀️ sun emoji means sunshine, summer and heat, and by extension a bright mood or a person who lights up your day. See examples, combos and similar emojis.",
+  "summary": "☀️ is a plain sun with rays and no face. It reports sunny weather, summer and hot days, and stands for warmth and positivity more broadly. People also use it as a pet name, calling someone their sunshine, and to wish others a good morning.",
+  "meaning": [
+    "This is the weather-forecast sun, and a lot of its use is exactly that: a clear day, a heat wave, the first properly warm weekend of spring. It introduces beach plans and barbecue invitations, and in travel talk it describes a destination's main selling point. Used several times in a row it starts to mean too hot, the visual equivalent of fanning yourself.",
+    "Mood follows weather. ☀️ lends a message brightness the way an exclamation point lends it energy, so it turns up in cheerful greetings, congratulations and thank-yous. Calling a person “my ☀️” borrows from the old song about someone being your sunshine; parents say it of children, partners of each other. In wellness posts it marks time outdoors, vitamin D and the lift people feel when winter ends.",
+    "Because it has no face, the emoji stays neutral in a way its smiling sibling does not. That makes it the safer option in professional settings, schedules and forecasts. It is also the standard partner to the crescent moon for day-and-night pairs: opposites, a couple with contrasting temperaments, or a schedule that runs around the clock. Astrology fans use it for sun signs."
+  ],
+  "contexts": [
+    {
+      "label": "In weather and plans",
+      "body": "Group chats use ☀️ to justify outdoor plans: park, pool, rooftop. Weather apps and local news accounts use it as the literal symbol for clear skies. A sun followed by a temperature is a full sentence. In regions where sunshine is rare, a single ☀️ can read as an excited announcement all by itself."
+    },
+    {
+      "label": "In captions",
+      "body": "Summer photo dumps, tan lines, garden updates and vacation shots collect the sun. It works as a seasonal tag in the same way the snowflake does for winter. Fashion and beauty accounts use it for warm-weather collections and for sunscreen reminders, where it stands for UV exposure."
+    },
+    {
+      "label": "As a nickname",
+      "body": "“Morning ☀️” addressed to a person is an endearment, close to “hello, sunshine.” It is affectionate without being overtly romantic, so it suits friends and family as well as partners. In fan communities, a warm and upbeat celebrity or character may be called a sun, with the emoji as their unofficial tag."
+    }
+  ],
+  "examples": [
+    { "text": "26 and ☀️ all weekend, beach?", "meaning": "Reporting a warm, clear forecast and suggesting an outing." },
+    { "text": "Good morning ☀️ hope today's a good one", "meaning": "A bright, friendly start-of-day greeting." },
+    { "text": "You are my ☀️", "meaning": "An affectionate line telling someone they bring happiness." },
+    { "text": "☀️☀️☀️ I am melting", "meaning": "Complaining, with some humor, about extreme heat." },
+    { "text": "He's the ☀️ to my 🌙", "meaning": "Describing a relationship between two people with opposite, complementary personalities." },
+    { "text": "Leo ☀️ Scorpio 🌙", "meaning": "Listing astrological placements: sun sign Leo, moon sign Scorpio." }
+  ],
+  "combos": [
+    { "combo": "☀️🌙", "meaning": "Day and night; two opposites who balance each other, or sun and moon signs." },
+    { "combo": "☀️🕶️", "meaning": "Bright weather and a relaxed, cool summer mood." },
+    { "combo": "☀️🧴", "meaning": "A reminder to wear sunscreen." },
+    { "combo": "☀️🌊", "meaning": "A beach day: sunshine and sea." }
+  ],
+  "confusedWith": [
+    { "slug": "sun-with-face", "difference": "🌞 has a smiling face and feels playful, sometimes cheeky. ☀️ is the neutral symbol used in forecasts and calm, sincere messages. Choose the face for personality and the plain sun for information." },
+    { "slug": "sun-behind-cloud", "difference": "⛅ is partly cloudy: some sun, some cover. Figuratively it suggests a mixed or uncertain mood, where ☀️ is all clear." },
+    { "slug": "glowing-star", "difference": "🌟 is a shining star used for praise and excellence. The sun is about warmth, weather and daytime, though both get used to say someone brightens a room." }
+  ],
+  "avoid": [
+    "Avoid cheerful suns in posts about dangerous heat waves, drought or wildfire conditions.",
+    "Do not use it to brush off someone's low mood with forced positivity; it can feel dismissive."
+  ],
+  "design": "The glyph is a yellow or orange disc ringed by rays, which are drawn as triangles or short lines depending on the platform, typically eight of them. It has no face on any major system. The character predates emoji as a text weather symbol, so in some apps and fonts it appears as a simple black outline unless emoji styling is applied.",
+  "faqs": [
+    { "q": "What does ☀️ mean from a girl or a guy?", "a": "Usually a warm, happy tone or a comment on the weather. If they call you ☀️ directly, it is a term of endearment meaning you make them feel good. It is affectionate but not necessarily romantic." },
+    { "q": "What is the difference between ☀️ and 🌞?", "a": "🌞 has a face and a jollier, more cartoonish feel. ☀️ is the plain weather symbol. They overlap for summer and good-morning messages, but the faceless sun fits forecasts and formal contexts better." },
+    { "q": "What does ☀️ mean in astrology posts?", "a": "It labels a person's sun sign, the zodiac sign set by their birth date. You will see it listed with a moon for the moon sign and an upward arrow for the rising sign." },
+    { "q": "Why does the sun emoji sometimes show without color?", "a": "The sun was a typographic symbol before it was an emoji. Software that renders it as text shows a monochrome outline. Sending it from an emoji keyboard normally produces the colored version." }
+  ],
+  "related": ["sun-with-face", "sun-behind-cloud", "sunrise", "crescent-moon", "sunglasses", "sunflower"]
+}

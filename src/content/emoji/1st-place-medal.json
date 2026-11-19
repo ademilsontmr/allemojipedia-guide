@@ -1,0 +1,58 @@
+{
+  "slug": "1st-place-medal",
+  "title": "1st Place Medal Emoji 🥇 Meaning: Gold and Number One",
+  "description": "The 🥇 first place medal emoji means gold, a win or “you’re number one.” Find out how it differs from 🏆 and 🏅, when it reads as bragging and how to use it.",
+  "summary": "The 🥇 1st place medal emoji stands for finishing first: a gold medal at the Olympics, the top spot in a ranking or the best in a group. People also award it affectionately, telling a friend, partner or pet they are number one in their eyes.",
+  "meaning": [
+    "The gold medal has one job, and the emoji does it without ambiguity: somebody came first. It is the standard marker in Olympic medal tables, race results, school competitions and leaderboards, where it is typically followed by 🥈 and 🥉 to complete the podium. Added to Unicode in 2016, it arrived alongside those silver and bronze companions, shortly before that year’s Summer Games.",
+    "Away from sport, 🥇 ranks things. Listicles and social posts use the three medals as bullet points for a top three, whether the subject is pizza places, albums or holiday destinations. Reviewers hand out gold to a favorite product, and businesses add it beside “#1 rated” claims. It works because a medal with a 1 on it needs no translation.",
+    "The emoji also gets personal. “Best mom 🥇” or “you’re my 🥇” gives someone a symbolic first place, a compliment that feels a little more earned than a heart. Self-awarded gold is common for small victories, like being first to arrive, and is meant to be funny. As with the trophy, it can turn sarcastic when presented for something unimpressive."
+  ],
+  "contexts": [
+    {
+      "label": "In sports",
+      "body": "During the Olympics and world championships, 🥇 appears beside athlete names and country flags the moment a final ends. Running clubs, swim teams and school sports days use it for individual event winners. It fits individual and podium sports better than leagues, where the champion lifts a cup rather than wearing a medal."
+    },
+    {
+      "label": "In captions and rankings",
+      "body": "Top-three lists are the emoji’s second home. Creators number their picks with 🥇🥈🥉 instead of 1, 2, 3, which makes a ranking look like a result rather than an opinion. Food bloggers, book reviewers and travel accounts use the format constantly, and the gold slot is where the strongest recommendation goes."
+    },
+    {
+      "label": "In texting",
+      "body": "Between friends and couples, the medal is praise. “Girlfriend of the year 🥇” thanks someone for going above and beyond. It also settles playful competitions: first to finish dinner, first to text good morning, first to guess the plot twist. Sent alone as a reply, it means “winner” or “that was the best one.”"
+    }
+  ],
+  "examples": [
+    { "text": "She did it!! 🥇 in the 400m", "meaning": "Celebrating an athlete who won gold in her race." },
+    { "text": "🥇 tacos in the city, no debate", "meaning": "Declaring a restaurant the very best in a personal ranking." },
+    { "text": "You drove three hours to bring me soup. Best friend 🥇", "meaning": "Thanking a friend by awarding them symbolic first place." },
+    { "text": "First one at the office again 🥇", "meaning": "A joking self-award for a trivial daily win." },
+    { "text": "🥇 Maya 🥈 Jon 🥉 me, somehow", "meaning": "Reporting the results of a friendly contest, podium style." },
+    { "text": "Gold medal in overthinking 🥇", "meaning": "Self-deprecating humor about being exceptionally good at a bad habit." }
+  ],
+  "combos": [
+    { "combo": "🥇🥈🥉", "meaning": "A full podium or a top-three ranking of anything, in order." },
+    { "combo": "🥇🇺🇸", "meaning": "A gold medal won for a country; swap in any national flag." },
+    { "combo": "🥇🏆", "meaning": "Complete domination: first place and the championship along with it." },
+    { "combo": "🥇❤️", "meaning": "You are my number one, said with affection to a partner, friend or family member." }
+  ],
+  "confusedWith": [
+    { "slug": "sports-medal", "difference": "🏅 is a plain medal with no number, used for general athletic achievement or taking part. 🥇 specifically shows a 1 and means the winner, so the two are not interchangeable in results." },
+    { "slug": "trophy", "difference": "🏆 is a cup for champions and “best overall” awards. The gold medal is for placing first in a single event or ranking, and it comes with silver and bronze siblings the trophy lacks." },
+    { "slug": "military-medal", "difference": "🎖️ hangs from a striped ribbon bar and represents honors for service, not competition. It suits veterans’ tributes and commendations, while 🥇 belongs on a podium." }
+  ],
+  "avoid": [
+    "Do not attach 🥇 to “#1” business claims you cannot support, since it implies an actual ranking.",
+    "Avoid giving yourself gold in a group message about shared work; it can look like taking the credit.",
+    "Skip it when consoling someone who just missed first place, where it only underlines the result."
+  ],
+  "design": "The emoji is a round gold medal stamped with the numeral 1, hanging from a ribbon. Ribbon colors differ between platforms; Apple’s is blue, while others use red or a blue-and-red pairing. The silver 🥈 and bronze 🥉 medals share each vendor’s template with the metal color and number changed, so the three always look like a matched set.",
+  "faqs": [
+    { "q": "What is the difference between 🥇 and 🏅?", "a": "🥇 is specifically first place, with a 1 on the medal. 🏅 is a generic sports medal that can mean any award, a finisher’s medal from a marathon or athletic achievement in general, without saying where someone placed." },
+    { "q": "What does 🥇 mean from a guy or a girl?", "a": "They are telling you that you are the best, or their favorite. Partners use it for “number one in my life,” friends for “you won that one.” It is a compliment with a competitive wink." },
+    { "q": "Are there silver and bronze medal emojis?", "a": "Yes. 🥈 is the 2nd place medal and 🥉 is the 3rd place medal. All three were approved together in 2016, and they are usually found next to one another on the emoji keyboard." },
+    { "q": "Can 🥇 be used sarcastically?", "a": "It can. “Gold medal in being late 🥇” mocks a flaw by pretending to honor it. People aim this at themselves more than at others, which keeps it funny instead of mean." },
+    { "q": "Is the gold medal emoji only for the Olympics?", "a": "No. The Olympics are its biggest moment, but it works for any first-place finish or top ranking, from a spelling bee to a list of the year’s best films." }
+  ],
+  "related": ["trophy", "crown", "hundred-points", "glowing-star", "flexed-biceps", "clapping-hands"]
+}

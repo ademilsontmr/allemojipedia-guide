@@ -1,0 +1,50 @@
+{
+  "slug": "link",
+  "title": "Link Emoji 🔗 Meaning: Link in Bio, URLs and “Link Up”",
+  "description": "The 🔗 link emoji marks a web link, as in “link in bio,” and stands for connection. Learn the “link up” slang, see examples and how it differs from ⛓️ chains.",
+  "summary": "The 🔗 link emoji shows two joined chain links. It nearly always refers to a hyperlink: a URL in a post, a “link in bio,” a source or a download. It also represents connection between people or ideas, and it illustrates the slang “link” or “link up,” meaning to meet.",
+  "meaning": [
+    "Web design has used a chain-link icon for hyperlinks since early browsers and word processors, and the emoji carries that over directly. On Instagram and TikTok, where captions cannot hold clickable addresses, “🔗 in bio” tells followers where to tap. On other platforms it sits right before a URL, or in a reply that says “🔗 below,” to show where the article, product or sign-up page can be found.",
+    "It doubles as a request. Commenting “🔗?” under a post asks the creator where to buy the item or find the source. “Drop the 🔗” is the same demand with more urgency. In group chats it flags a shared document, a meeting room or a playlist, and reacting with it can mean “please send the link.”",
+    "Slang gives it a social meaning. To “link” or “link up,” common in British, Caribbean-influenced and American urban speech, is to meet in person, and “a link” can be a casual romantic partner or a contact who can get you something. “We should 🔗” is therefore an invitation to hang out. In business talk the same image covers networking and partnerships.",
+    "Symbolically, linked rings suggest a bond. Couples and close friends use 🔗 for being connected or inseparable, and writers use it for a connection between two ideas, as in “the 🔗 between sleep and mood.” Blockchain and supply-chain posts use it literally for chains of linked records or steps in a process."
+  ],
+  "contexts": [
+    { "label": "On TikTok and Instagram", "body": "“Link in bio 🔗” is one of the most repeated phrases on both apps. Creators use it for shops, affiliate pages, petitions, tickets and long-form content. Some caption a post with only the emoji, trusting followers to know the routine. Story stickers for links use a similar icon." },
+    { "label": "At work", "body": "It precedes URLs in chat, labels resource lists and marks where a document or ticket lives. “🔗 to the deck” saves a sentence. It is fully professional. In project tools, a link icon also indicates related or dependent tasks, and teams borrow the emoji for that sense." },
+    { "label": "In texting", "body": "“Send the 🔗” asks for a web address, a location pin or an invite. In slang-heavy chats, “🔗 later?” proposes meeting up. Friends sharing a video or article often put the emoji first so the recipient knows a link, not a long message, is coming." },
+    { "label": "From a crush", "body": "Being asked to “link 🔗” means they want to see you in person, usually casually. Calling someone “my link” implies an informal arrangement, not an official relationship. If the emoji appears with hearts or a lock, it leans toward commitment and being bonded." }
+  ],
+  "examples": [
+    { "text": "Full recipe is up, 🔗 in bio", "meaning": "Directing followers to a link on the profile page." },
+    { "text": "Where's that jacket from? 🔗 please", "meaning": "Asking for a link to buy an item." },
+    { "text": "🔗 https://example.com/signup", "meaning": "Marking a URL in a message." },
+    { "text": "You free Saturday? Let's 🔗", "meaning": "Suggesting meeting up in person." },
+    { "text": "Agenda and notes are in the 🔗 above", "meaning": "Pointing colleagues to a shared document." },
+    { "text": "There's definitely a 🔗 between my coffee intake and my mood", "meaning": "Noting a connection between two things." }
+  ],
+  "combos": [
+    { "combo": "🔗👆", "meaning": "The link is above, usually in the bio or a pinned post." },
+    { "combo": "🔗⬇️", "meaning": "Link below: check the comments or description." },
+    { "combo": "🔗🛒", "meaning": "A shopping link; where to buy." },
+    { "combo": "🔗❤️", "meaning": "A strong bond between two people." }
+  ],
+  "confusedWith": [
+    { "slug": "chains", "difference": "The ⛓️ chains emoji shows longer lengths of heavy chain and conveys restraint, toughness or being bound. 🔗 is just two links and is overwhelmingly used for hyperlinks and connection." },
+    { "slug": "paperclip", "difference": "The 📎 paperclip means an attached file. If you are sending a document itself, use the clip; if you are sending an address that leads to it, use 🔗." },
+    { "slug": "linked-paperclips", "difference": "The 🖇️ linked paperclips emoji shows two clips hooked together and suggests attachment or joined items. It is rare, and is sometimes used as a stylized alternative to the link." }
+  ],
+  "avoid": [
+    "Don't tap links from unknown accounts just because a comment says “🔗 in bio”; that phrasing is common in phishing and spam.",
+    "Avoid “let's 🔗” with people unfamiliar with the slang, who may wait for you to send a URL."
+  ],
+  "design": "The emoji is a pair of interlocked oval chain links placed diagonally. Most platforms render them in silver or gray metal; some earlier and alternative designs used blue, matching the traditional color of hyperlinks. The two-link form mirrors the icon found in text editors and browsers for inserting or copying a link.",
+  "faqs": [
+    { "q": "What does 🔗 mean on Instagram and TikTok?", "a": "It points to a clickable link, usually the one in the account's bio, since captions on those apps do not make URLs tappable. It tells you where to find the product, article or page mentioned." },
+    { "q": "What does “link 🔗” mean in slang?", "a": "To meet up. “Let's link” means “let's get together.” As a noun, a “link” can be a casual partner or a useful contact. The usage is especially common in the UK." },
+    { "q": "What does it mean when someone comments 🔗?", "a": "They are asking for the link: where to buy something, read more or find the original. Creators often answer by pointing to their bio or sending a direct message." },
+    { "q": "What is the difference between 🔗 and ⛓️?", "a": "🔗 is two small links and stands for web links and connections. ⛓️ is heavy chain, used for restraint, strength, edgy aesthetics or jewelry. They are not interchangeable." },
+    { "q": "What does 🔗 mean from a guy or girl?", "a": "Either they are sending or requesting a link, or they are suggesting you meet. If the message is about weekend plans and contains no URL, it is the meet-up meaning." }
+  ],
+  "related": ["chains", "paperclip", "linked-paperclips", "pushpin", "backhand-index-pointing-up", "handshake"]
+}

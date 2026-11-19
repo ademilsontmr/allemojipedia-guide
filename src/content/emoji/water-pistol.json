@@ -1,0 +1,61 @@
+{
+  "slug": "water-pistol",
+  "title": "Water Pistol Emoji 🔫 Meaning: Why the Gun Became a Toy",
+  "description": "The 🔫 emoji was a realistic handgun until Apple made it a green water pistol in 2016. Here is what it means now, how it is used and why context matters.",
+  "summary": "The 🔫 water pistol emoji shows a toy squirt gun on most platforms. People use it for playful threats, dark humor, exasperation, summer water fights and shooter video games. It began as a realistic handgun, so it can still be read as a weapon, and threatening messages are taken seriously.",
+  "meaning": [
+    "This emoji has changed more than almost any other. It was standardized in 2010 as a pistol and drawn as a real handgun. In 2016 Apple replaced its design with a bright green water gun, and in 2018 Google, Samsung, Microsoft, Twitter and Facebook followed. The official name was later updated to Water Pistol. X has since returned to a realistic handgun on its own platform.",
+    "Usage sits between the old meaning and the new picture. Among friends, 🔫 is mostly comic exaggeration: mock threats like “delete that photo 🔫,” or pointing it at one’s own frustration after a long day. The toy design keeps the joke light. It also serves literally for water fights, pool days and summer camps, which is the use the redesign was intended to encourage.",
+    "People still use it to mean a firearm. Gamers use it for shooters, and news commenters, hunters and sport shooters use it for guns in general because nothing else is available. It can appear in discussions of violence and in slang about “pulling up” on someone. Recipients, schools, employers and courts have treated gun emojis in threatening messages as real threats, toy or not."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "The common tone is mock menace between people who trust each other: “tell me the gossip 🔫” or “if you spoil the finale 🔫.” It is also aimed at annoying tasks and alarm clocks. Some people pair it with their own face emoji to express being fed up, a kind of dark humor that not every reader will find funny."
+    },
+    {
+      "label": "In gaming",
+      "body": "First-person shooters, battle royale matches and paintball or laser tag plans use 🔫 as the genre’s icon. Players use it for loadouts, eliminations and squad invites. Because nearly every platform shows a toy, the effect is slightly comic, and gamers often add 💥 or 🎯 to restore the intended punch."
+    },
+    {
+      "label": "On social media",
+      "body": "Meme formats use it for feigned intimidation, such as demanding a creator post more often. A popular one puts it beside a harmless emoji, like 🐥🔫, to show a tiny character making demands. Appearance varies by platform, so a post written with a toy in mind can display as a real gun on X."
+    },
+    {
+      "label": "In summer and play",
+      "body": "Water balloon fights, backyard sprinklers, pool parties and the Thai New Year festival of Songkran, known for street water fights, give the emoji a fully innocent job. Parents and camp organizers use it in event plans. Here it sits with 💦 and ☀️ and has no edge at all."
+    }
+  ],
+  "examples": [
+    { "text": "Send me the recipe 🔫", "meaning": "A joking demand; the sender is pretending to threaten a friend for something they want." },
+    { "text": "Water fight in the yard at 3, bring towels 🔫💦", "meaning": "A literal invitation to play with squirt guns." },
+    { "text": "Three meetings before lunch 😐🔫", "meaning": "Dark humor about being worn out by their schedule." },
+    { "text": "Ranked tonight? 🔫", "meaning": "Asking a friend to play a competitive shooter game." },
+    { "text": "🐥🔫 hand over the snacks", "meaning": "A meme-style mock holdup using a cute character." }
+  ],
+  "combos": [
+    { "combo": "🔫💦", "meaning": "A water fight or squirting someone; summer fun." },
+    { "combo": "👉🔫", "meaning": "Mock-threatening someone to do something, said in jest." },
+    { "combo": "🔫🎮", "meaning": "Playing a shooter video game." },
+    { "combo": "🤠🔫", "meaning": "Cowboys, Westerns or a playful “this town ain’t big enough” standoff." }
+  ],
+  "confusedWith": [
+    { "slug": "bomb", "difference": "💣 is a cartoon bomb used for something explosive, shocking or “the bomb.” Like the pistol it is risky in any message that could be read as a threat, but it does not imply aiming at a person." },
+    { "slug": "dagger", "difference": "🗡️ is a blade, used for betrayal, fantasy games and dramatic menace. It was never redesigned as a toy, so it can look more serious than the water gun in a joke." },
+    { "slug": "sweat-droplets", "difference": "💦 is splashing water, often paired with 🔫 for water fights. Alone it means sweat or effort and has a well-known sexual meaning that the pistol does not share." }
+  ],
+  "avoid": [
+    "Never send 🔫 with anything that could be read as a real threat; people have faced school discipline and criminal charges over gun emojis.",
+    "Avoid aiming it at yourself in messages to someone who might worry about your safety.",
+    "Do not use it in workplace chat, where even joking violence is usually against conduct policies."
+  ],
+  "design": "Apple, Google, Samsung, Microsoft and WhatsApp show a plastic water pistol, green on Apple, orange on Google and similarly bright colors elsewhere. Before 2016 to 2018 these platforms showed a realistic metal handgun or revolver. X now displays a real pistol again, so the same character can look like a toy to the sender and a firearm to the reader.",
+  "faqs": [
+    { "q": "Why did the gun emoji change to a water gun?", "a": "Apple redesigned it in 2016 amid public concern about gun violence and about emoji being used in threats. Other major companies adopted toy designs in 2018 so that the emoji would not look harmless on one phone and lethal on another." },
+    { "q": "Is there still a real gun emoji?", "a": "There is no separate one. The single pistol character is drawn as a toy by most vendors. X switched its own artwork back to a realistic handgun, so the emoji appears as a real gun when viewed there." },
+    { "q": "What does 🔫 mean from a guy or a girl?", "a": "Almost always a joke: a mock threat, playful impatience or exaggerated frustration. With gaming talk it means a shooter. If the message feels actually menacing, treat it that way regardless of the cartoonish design." },
+    { "q": "Can you get in trouble for sending the 🔫 emoji?", "a": "Yes. Messages are judged in context, and gun emojis combined with threatening words have led to arrests, suspensions and firings. A toy design is not a defense if the recipient reasonably felt threatened." },
+    { "q": "What does 🔫 next to a face emoji mean?", "a": "It is gallows humor meaning “I can’t take this anymore,” usually about boredom or stress. It is not normally literal, but if someone seems to be struggling, it is right to check in with them directly." }
+  ],
+  "related": ["bomb", "sweat-droplets", "collision", "skull", "bullseye", "video-game"]
+}

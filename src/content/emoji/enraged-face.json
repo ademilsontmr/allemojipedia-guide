@@ -1,0 +1,62 @@
+{
+  "slug": "enraged-face",
+  "title": "Enraged Face Emoji 😡 Meaning: What the Red Face Says",
+  "description": "The red 😡 enraged face emoji means real anger or outrage. Find out how it differs from the yellow 😠, why it was called “pouting face,” and when to hold back.",
+  "summary": "The 😡 enraged face is a deep red face with a scowl and sharply angled eyebrows. It means the sender is furious or outraged, a step above the yellow angry face. People use it for real grievances, for venting about news and bad service, and sometimes for exaggerated mock fury between friends.",
+  "meaning": [
+    "Red is the difference. Turning the whole face crimson borrows the idea of someone so angry their blood is up, and it makes 😡 the strongest ordinary anger emoji short of the swearing face. It gets sent after betrayals, insults, scams, parking tickets and referee decisions, any moment when irritation has boiled over into “I am livid.”",
+    "Its formal name used to be “pouting face,” a translation of the original Japanese concept, in which a red, puffed-up face shows someone sulking or indignant. That gentler sense has mostly been lost in English, where the color reads as rage. Unicode later renamed it “enraged face” to match how people actually use it.",
+    "It is not always serious. Friends send 😡 as theatrical outrage over stolen fries or spoilers, and the exaggeration is the joke. Online, it is a staple of complaint posts and replies to companies and politicians, and Facebook's “Angry” reaction uses a similar red, scowling face. Since tone is hard to judge, an unexplained 😡 from someone who rarely uses it should be assumed to be real."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It marks strong anger at a situation or person: “they charged me twice 😡.” When directed at the reader, it is a clear signal that a line was crossed. In playful exchanges it is mock fury, usually obvious from the trivial subject and often followed by a laughing emoji to defuse it."
+    },
+    {
+      "label": "On social media",
+      "body": "It is the emoji of public complaint. Customers attach it to posts about delayed flights and broken products, and commenters use it under news that provokes outrage. Used in bulk, it signals pile-on anger. Brands monitoring replies treat it as a clear sign of an unhappy customer."
+    },
+    {
+      "label": "From a crush or partner",
+      "body": "Context decides everything. After teasing, 😡 is a pretend tantrum and part of the flirting. After a canceled date or a hurtful comment, it means they are properly upset. If no joke preceded it, respond to the anger instead of laughing it off."
+    },
+    {
+      "label": "At work",
+      "body": "Avoid it almost entirely. Aimed at a colleague, it is aggressive; aimed at a client or policy, it leaves a record of you losing your temper. If something is unacceptable, state the problem in words and leave the red face out."
+    }
+  ],
+  "examples": [
+    { "text": "Someone dented my car and just drove off 😡", "meaning": "Furious about being wronged." },
+    { "text": "Third time this month my package was “delivered” to nobody 😡", "meaning": "Angry complaint about repeated bad service." },
+    { "text": "You ate my leftovers 😡", "meaning": "Mock outrage over something minor." },
+    { "text": "How was that not a foul?! 😡", "meaning": "A fan's fury at a referee's decision." },
+    { "text": "Don't ever speak to my sister like that again 😡", "meaning": "Serious anger and a warning." },
+    { "text": "😡😡 no spoilers!!", "meaning": "Exaggerated, mostly playful protest." }
+  ],
+  "combos": [
+    { "combo": "😡🤬", "meaning": "Anger escalating to cursing; the sender is beyond furious." },
+    { "combo": "😡💢", "meaning": "Bursting with rage, using the comic-book anger mark for emphasis." },
+    { "combo": "😡👊", "meaning": "Angry enough to fight, usually figuratively." },
+    { "combo": "😡😂", "meaning": "Pretend anger immediately undercut by laughter." }
+  ],
+  "confusedWith": [
+    { "slug": "angry-face", "difference": "😠 has the same scowl on a yellow face and means annoyed or mad. 😡 is red and signals a higher level: outrage or fury. Choose by intensity." },
+    { "slug": "face-with-symbols-on-mouth", "difference": "🤬 covers its mouth with censor symbols, showing someone actually swearing. 😡 is silent rage. The swearing face is the more extreme of the two." },
+    { "slug": "hot-face", "difference": "🥵 is also red, but it is sweating with its tongue out and means overheated or attracted. 😡 has a scowl and lowered brows and means anger only." }
+  ],
+  "avoid": [
+    "Do not send it in professional messages, even about a third party.",
+    "Avoid using it as a joke with people who cannot hear your tone, such as new acquaintances.",
+    "It is a poor way to start a difficult conversation; say what upset you instead."
+  ],
+  "design": "A face colored red or deep orange-red with furrowed, steeply angled eyebrows, narrowed eyes and a tight frown. Apple, Google, Samsung and Microsoft all render it red, which is what separates it from the otherwise similar yellow angry face. Shading varies from flat red to a gradient that darkens toward the top of the head.",
+  "faqs": [
+    { "q": "What is the difference between 😡 and 😠?", "a": "Color and strength. 😠 is yellow and expresses anger or annoyance. 😡 is red and expresses rage. Many people treat 😠 as “I'm mad” and 😡 as “I'm furious.”" },
+    { "q": "Why is 😡 called the pouting face?", "a": "That was its original Unicode name, based on a Japanese expression for a sulky, red-faced pout. Because most of the world uses it for intense anger, it was later renamed “enraged face.” Some apps and shortcodes still use “pout” or “rage.”" },
+    { "q": "What does 😡 mean from a girl?", "a": "Either she is truly angry or she is exaggerating for effect. If you were joking around, it is likely playful. If it follows something that could have hurt her, treat it as real and address it." },
+    { "q": "What does 😡 mean from a guy?", "a": "The same two possibilities apply: real anger, often about something external like sports or work, or mock outrage in banter. An isolated 😡 with no explanation deserves a direct question." },
+    { "q": "Is 😡 the angriest emoji?", "a": "It is the strongest plain angry face. 🤬, the face with symbols on its mouth, goes further by implying swearing, and 👿 adds menace. For most purposes 😡 is the upper limit of everyday anger." }
+  ],
+  "related": ["angry-face", "face-with-symbols-on-mouth", "face-with-steam-from-nose", "anger-symbol", "angry-face-with-horns", "pouting-cat"]
+}

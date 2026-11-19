@@ -1,0 +1,50 @@
+{
+  "slug": "memo",
+  "title": "Memo Emoji 📝 Meaning: “Noted” and Taking Notes",
+  "description": "The 📝 memo emoji means writing something down: notes, lists, homework or “noted.” Learn its joking “taking notes” use, examples, and how it differs from ✏️.",
+  "summary": "The 📝 memo emoji shows a pencil writing on a sheet of paper. It means taking notes, making a list, doing homework or drafting something. As a reply it says “noted” or, jokingly, “writing that down,” when someone shares a tip, a comeback or a piece of gossip worth remembering.",
+  "meaning": [
+    "At face value 📝 covers every kind of everyday writing: to-do lists, meeting minutes, exam papers, sign-up forms, journal entries, song lyrics in progress. It is the emoji people reach for when they mean the act of writing something down, as opposed to the pencil or pen alone, which name the tool.",
+    "Its best-known conversational use is the “taking notes” reply. Someone posts a clever flirting line, a recipe shortcut or a savage response to an ex, and the comments fill with “📝📝📝” or “writing this down 📝.” The joke is that the reader is studying the post like a lecture. It is a compliment: your advice is worth keeping. The same reply can be dry when aimed at bad behavior, as in “noted 📝” after a friend cancels again, meaning the slight has been recorded.",
+    "In workplaces and schools it has a formatting job. “📝 Notes from today's call,” “📝 Homework,” “📝 Sign up below” all use it as a heading icon. Writers, bloggers, journalists and editors add it to bios, and it frequently announces a new article, a changelog or a newsletter issue waiting to be read.",
+    "The emoji predates most slang built around it and has stayed clean. No coded or adult meaning attaches to it. Tone comes entirely from context: earnest in a study group, admiring under a tutorial, and faintly threatening when someone tells you they are keeping a list of everything you have said."
+  ],
+  "contexts": [
+    { "label": "In comments and replies", "body": "Rows of 📝 under a post mean the audience is taking the advice seriously, or pretending to for comic effect. It appears constantly under dating tips, outfit formulas, interview advice and celebrity interviews with quotable lines. Adding “say less” or “noted” makes the admiration explicit." },
+    { "label": "At work", "body": "It marks action items, agendas and summaries in chat tools, and reacting to a message with 📝 tells the sender you have recorded the task. That makes it a useful, low-effort acknowledgment that is a little more specific than a thumbs up. It is appropriate at every level of formality where emojis are used at all." },
+    { "label": "In school", "body": "Teachers put it on assignment posts and exam reminders; students use it for essays, revision and note-sharing. “📝 due Friday” is clear to everyone. During exam season it shows up with books and anxious faces to describe a test that either went fine or very much did not." },
+    { "label": "In texting", "body": "Friends use it to confirm plans (“📝 7pm, your place”), to collect a shopping list, or to tease. “Adding that to the list 📝” after someone says something embarrassing implies it will be brought up again later. Songwriters and poets send it when sharing a draft." }
+  ],
+  "examples": [
+    { "text": "“Never double text before noon” 📝📝", "meaning": "Pretending to write down someone's dating advice because it is that good." },
+    { "text": "Noted 📝", "meaning": "Acknowledging information, sometimes with a hint that it will be remembered." },
+    { "text": "📝 Agenda for Thursday: budget, hiring, launch date", "meaning": "Using the emoji as a heading for meeting notes." },
+    { "text": "Three essays due this week 📝😵", "meaning": "Complaining about a heavy writing workload." },
+    { "text": "Grocery list 📝 text me if you think of anything", "meaning": "Compiling a list and inviting additions." },
+    { "text": "Oh you forgot my birthday? 📝", "meaning": "Jokingly recording a grievance for later." }
+  ],
+  "combos": [
+    { "combo": "📝👀", "meaning": "Paying close attention and taking notes on what is being said." },
+    { "combo": "📝✅", "meaning": "A checklist finished or a task ticked off." },
+    { "combo": "📚📝", "meaning": "Studying, homework or exam preparation." },
+    { "combo": "🤓📝", "meaning": "Eagerly learning; the keen student scribbling everything down." }
+  ],
+  "confusedWith": [
+    { "slug": "pencil", "difference": "The ✏️ pencil is only the writing tool and often means “edit” in apps and interfaces. 📝 shows the pencil on paper and means the note, list or document being written." },
+    { "slug": "clipboard", "difference": "The 📋 clipboard suggests forms, checklists, inspections and copy-paste in software. 📝 is more personal and active: someone writing in the moment." },
+    { "slug": "page-facing-up", "difference": "The 📄 page facing up is a finished printed document, such as a file or a report. 📝 implies the writing is still happening or handwritten." }
+  ],
+  "avoid": [
+    "Don't reply “noted 📝” to an apology or a vulnerable message; it can sound cold, as if you are filing a complaint.",
+    "Avoid it as the only response to detailed instructions from a manager when they need confirmation that you understood the specifics."
+  ],
+  "design": "The image is a sheet of white or cream paper with lines of writing and a yellow pencil resting on it at an angle, as if mid-sentence. Some platforms curl a corner of the page; a few have shown a notepad instead of a loose sheet. The pencil-on-paper composition is the same across all major vendors.",
+  "faqs": [
+    { "q": "What does 📝 mean in a comment?", "a": "It means “taking notes.” The commenter finds the post useful, quotable or instructive and is pretending to copy it down. Several in a row signal stronger approval." },
+    { "q": "What does “noted 📝” mean in a text?", "a": "Literally, that the information has been recorded. Depending on tone it is either a tidy acknowledgment or a pointed remark that the sender will remember what you just said or did." },
+    { "q": "What does 📝 mean from a guy or a girl?", "a": "If it follows something you said about your likes or dislikes, they are playfully showing that they are paying attention and will remember it. That is often a sign of interest, though not proof." },
+    { "q": "Is 📝 the same as the pencil emoji?", "a": "No. ✏️ is a pencil by itself and commonly marks an edit button. 📝 includes paper and stands for the writing: notes, lists, essays and memos." },
+    { "q": "Why is it called “memo”?", "a": "That is its official Unicode name, reflecting its origin as a symbol for a short written note on Japanese phones. Many people call it the note, notepad or pencil-and-paper emoji instead." }
+  ],
+  "related": ["pencil", "clipboard", "books", "writing-hand", "pushpin", "notebook"]
+}

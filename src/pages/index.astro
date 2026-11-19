@@ -1,0 +1,83 @@
+---
+import Base from "@/layouts/Base.astro";
+import EmojiTile from "@/components/EmojiTile.astro";
+import GuideCard from "@/components/GuideCard.astro";
+import { getCollection } from "astro:content";
+import { SITE } from "@/lib/site";
+import { emojiPages, emojis, categories, categoryUrl, getEmoji } from "@/lib/emoji";
+const pages = await emojiPages();
+const POPULAR = ["face-with-tears-of-joy", "red-heart", "skull", "loudly-crying-face", "fire", "pleading-face", "sparkles", "folded-hands", "thumbs-up", "smiling-face-with-heart-eyes", "melting-face", "saluting-face", "heart-hands", "eyes", "moai", "clown-face", "upside-down-face", "slightly-smiling-face", "smirking-face", "face-holding-back-tears", "hundred-points", "nail-polish", "goat", "peach"];
+const popular = POPULAR.map((s) => getEmoji(s)).filter((e): e is NonNullable<typeof e> => !!e && pages.has(e.slug));
+const HEARTS = ["red-heart", "pink-heart", "orange-heart", "yellow-heart", "green-heart", "blue-heart", "light-blue-heart", "purple-heart", "black-heart", "white-heart", "brown-heart", "grey-heart", "broken-heart", "heart-on-fire", "mending-heart", "two-hearts", "sparkling-heart", "growing-heart"];
+const hearts = HEARTS.map((s) => getEmoji(s)).filter((e): e is NonNullable<typeof e> => !!e && pages.has(e.slug));
+const guides = (await getCollection("guides")).sort((a, b) => a.id.localeCompare(b.id));
+const FEATURED = ["emoji-meanings-in-texting", "heart-emoji-colors-meaning", "gen-z-emoji-slang", "passive-aggressive-emojis", "emojis-at-work-etiquette", "how-to-type-emojis-on-any-device"];
+const featured = [...FEATURED.map((s) => guides.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g), ...guides.filter((g) => !FEATURED.includes(g.id))].slice(0, 6);
+const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
+---
+<Base title={title} description={SITE.description} path="/">
+  <div class="wrap">
+    <section class="hero">
+      <p class="eyebrow">The emoji dictionary</p>
+      <h1>What does that emoji actually mean?</h1>
+      <p class="lead">Plain-English meanings for the emojis people really send, with examples, look-alikes and the unwritten rules. Plus one-tap copy for all {emojis.length.toLocaleString("en-US")} emojis.</p>
+      <form class="searchbox" action="/search/" method="get" role="search">
+        <label class="sr-only" for="q">Search emojis</label>
+        <input id="q" name="q" type="search" placeholder="Search an emoji: skull, heart, 🙏 …" autocomplete="off" />
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </section>
+
+    {popular.length > 0 && (
+      <section aria-labelledby="popular">
+        <div class="section-head"><h2 id="popular">Most looked-up emojis</h2><a href="/emojis/">All {pages.size} emoji meanings →</a></div>
+        <ul class="grid cols-tiles">{popular.map((e) => <li><EmojiTile emoji={e} hasPage={true} /></li>)}</ul>
+      </section>
+    )}
+
+    <section aria-labelledby="cats">
+      <div class="section-head"><h2 id="cats">Browse by category</h2><a href="/categories/">All categories →</a></div>
+      <ul class="grid cols-cards">
+        {categories.map((c) => (
+          <li>
+            <a class="linkcard" href={categoryUrl(c.slug)}>
+              <span class="em" aria-hidden="true">{c.icon}</span>
+              <strong>{c.name}</strong>
+              <span class="meta">{emojis.filter((e) => e.category === c.slug).length} emojis · copy &amp; meanings</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {hearts.length > 0 && (
+      <section aria-labelledby="hearts">
+        <div class="section-head"><h2 id="hearts">Heart emojis by color</h2>{guides.some((g) => g.id === "heart-emoji-colors-meaning") && <a href="/guides/heart-emoji-colors-meaning/">Heart color guide →</a>}</div>
+        <p class="prose muted">The color of a heart changes the message. Red is romantic, yellow is friendly, black is dry humor or grief. Open any heart for the details.</p>
+        <ul class="grid cols-tiles">{hearts.map((e) => <li><EmojiTile emoji={e} hasPage={true} /></li>)}</ul>
+      </section>
+    )}
+
+    <section aria-labelledby="quiz">
+      <div class="card" style="display:grid;gap:10px;margin-top:56px;text-align:center;padding:36px 20px">
+        <span class="em" aria-hidden="true" style="font-size:2.6rem;letter-spacing:.12em">🇧🇷🇯🇵🇳🇬🇮🇪🇨🇦</span>
+        <h2 id="quiz" style="margin:0">Can you name the flag?</h2>
+        <p class="muted" style="margin:0 auto;max-width:520px">Test yourself on country flag emojis, from the easy ones to the look-alikes that trip everyone up.</p>
+        <p style="margin:6px 0 0"><a class="btn" href="/flag-emoji-quiz/">Play the flag emoji quiz</a></p>
+      </div>
+    </section>
+
+    {featured.length > 0 && (
+      <section aria-labelledby="guides">
+        <div class="section-head"><h2 id="guides">Guides</h2><a href="/guides/">All guides →</a></div>
+        <ul class="grid cols-wide">{featured.map((g) => <li><GuideCard guide={g} /></li>)}</ul>
+      </section>
+    )}
+
+    <section class="prose" aria-labelledby="about">
+      <h2 id="about">How {SITE.name} works</h2>
+      <p>An emoji's official name tells you what it depicts, not what people mean by it. 💀 is officially “skull”, but in a group chat it almost always means someone is laughing. 🙂 is “slightly smiling face”, and plenty of people read it as cold. {SITE.name} documents that gap between the picture and the message.</p>
+      <p>Each meaning page is written by our editors and covers how the emoji is used in texting, on social apps and at work, what it gets confused with, and when it is better left out. Names, code points and release years come straight from Unicode and CLDR data. Read more in our <a href="/editorial-policy/">editorial policy</a>.</p>
+    </section>
+  </div>
+</Base>

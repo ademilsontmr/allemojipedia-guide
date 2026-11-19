@@ -1,0 +1,49 @@
+{
+  "slug": "sunglasses",
+  "title": "Sunglasses Emoji 🕶️ Meaning: Cool, Shady or Just Sunny",
+  "description": "The 🕶️ sunglasses emoji means sunny weather, vacation, looking cool or staying incognito. See how it differs from the 😎 face and when each one fits best.",
+  "summary": "The 🕶️ sunglasses emoji shows a pair of dark shades with no face attached. It signals sunshine, summer and beach days, a cool or stylish attitude, and sometimes going incognito or “throwing shade.” Compared with the smiling 😎 face, it is quieter and more about the object or the look.",
+  "meaning": [
+    "Start with the weather. A bright forecast, a pool day, a road trip with the windows down: 🕶️ sets the scene the way a sun or palm tree would. Travel captions use it constantly, and it is a staple of summer sale ads and vacation countdowns. In these uses it means nothing more than “sunny and good.”",
+    "Attitude is the second meaning. Dark glasses have signified cool since film stars and jazz musicians wore them indoors, and the emoji borrows that. Adding 🕶️ after a statement gives it a deadpan swagger: “aced it 🕶️.” It is less goofy than the grinning sunglasses face, which smiles; the bare shades stay expressionless, which some people find cooler and others find a bit aloof.",
+    "Shades also hide the eyes, and a cluster of uses comes from that. Someone lying low after an embarrassing night, a celebrity avoiding cameras, a hungover friend at brunch, a spy or bodyguard joke, all get 🕶️. “Throwing shade,” meaning a subtle insult, is sometimes illustrated with it. So is the idea that something is so bright, or someone so radiant, that eye protection is required.",
+    "Fashion uses it literally. Eyewear brands, outfit posts and “what's in my bag” lists need a sunglasses symbol, and this is it. The emoji arrived in 2014, after the face version was already established, which partly explains why it is the less used of the two and why many people never think to look for it."
+  ],
+  "contexts": [
+    { "label": "In captions", "body": "Beach photos, rooftop drinks, festival outfits and convertible selfies carry it. It pairs naturally with the sun, a palm tree or a tropical drink. Minimalist captions often use it alone, where it reads as “no caption needed, life is good.”" },
+    { "label": "In texting", "body": "As a sign-off it adds understated confidence: “handled 🕶️.” After a rough night it explains itself, the sender is hiding behind shades. In reply to a friend's glowing news or a very bright outfit, it jokes that they are dazzling." },
+    { "label": "On TikTok and Instagram", "body": "Outfit-of-the-day creators and eyewear reviewers use it as a product tag. It decorates “main character” and “off duty” aesthetics, and celebrity-spotting posts use it for stars dodging photographers. In comment sections it can mark a remark as shade, a pointed observation delivered coolly." },
+    { "label": "On holidays", "body": "Summer vacations, spring break, Memorial Day and Fourth of July weekends, and any trip toward the sun bring it out. Out-of-office messages and travel announcements use it to say the sender will be unreachable and happily unbothered for a while." }
+  ],
+  "examples": [
+    { "text": "85 and sunny all weekend 🕶️☀️", "meaning": "Looking forward to bright, warm weather." },
+    { "text": "Presentation done. Nailed it 🕶️", "meaning": "A cool, confident report of success." },
+    { "text": "Brunch in an hour, I'll be the one hiding behind 🕶️", "meaning": "Admitting to a hangover or tiredness the sender plans to conceal." },
+    { "text": "Out of office until the 20th 🕶️🌴", "meaning": "Announcing a vacation." },
+    { "text": "That highlighter yellow jacket… I need 🕶️", "meaning": "Teasing that an outfit is blindingly bright." },
+    { "text": "New frames just came in 🕶️", "meaning": "Showing off a new pair of sunglasses." }
+  ],
+  "combos": [
+    { "combo": "🕶️☀️", "meaning": "A sunny day and the shades to match." },
+    { "combo": "🕶️🌴", "meaning": "Vacation mode in a warm place." },
+    { "combo": "🕶️🤫", "meaning": "Staying incognito; keeping a low profile." },
+    { "combo": "🧢🕶️", "meaning": "A disguise or a casual, off-duty look." }
+  ],
+  "confusedWith": [
+    { "slug": "smiling-face-with-sunglasses", "difference": "The 😎 face wears shades and smiles, so it expresses a feeling: proud, relaxed, pleased with itself. 🕶️ is only the accessory, making it better for weather, fashion and a cooler, flatter tone." },
+    { "slug": "glasses", "difference": "The 👓 glasses are clear prescription spectacles, used for reading, studying or a nerdy look. 🕶️ has dark lenses and belongs to sunshine and style." },
+    { "slug": "disguised-face", "difference": "The 🥸 disguised face wears novelty glasses with a fake nose and mustache and is a comic disguise. Sunglasses suggest low-key anonymity, not a costume." }
+  ],
+  "avoid": [
+    "Don't add 🕶️ to an apology or a serious update; its detached coolness can make you look like you don't care.",
+    "Avoid assuming everyone reads it as “shade,” since most people will see only sunny weather or style."
+  ],
+  "design": "All platforms show a single pair of sunglasses with black or very dark lenses and frames, viewed from the front or at a slight three-quarter angle. Apple's has a classic wayfarer shape; others are more rounded or aviator-like. Some versions add a small highlight on the lenses. No face is shown.",
+  "faqs": [
+    { "q": "What is the difference between 🕶️ and 😎?", "a": "😎 is a smiling face in sunglasses and conveys an emotion, mostly confidence or contentment. 🕶️ is the glasses alone. Use the face for how you feel and the object for sun, fashion or a more deadpan cool." },
+    { "q": "What does 🕶️ mean from a guy or girl?", "a": "Usually that they are feeling cool, relaxed or on holiday. After a compliment to you, it can mean you look so good they need shades. It is casual and rarely romantic." },
+    { "q": "Does 🕶️ mean throwing shade?", "a": "Sometimes. Because of the word “shades,” people occasionally attach it to a sly dig. This is a minority use, and without clear context most readers will not pick up on it." },
+    { "q": "Why does the sunglasses emoji sometimes look like a plain black symbol?", "a": "The character can display in a text style without color when it is sent without its emoji variation selector, or on older systems. Up-to-date phones show the full-color version." }
+  ],
+  "related": ["smiling-face-with-sunglasses", "glasses", "sun", "desert-island", "disguised-face", "sun-with-face"]
+}

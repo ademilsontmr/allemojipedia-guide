@@ -1,0 +1,50 @@
+{
+  "slug": "microphone",
+  "title": "Microphone Emoji 🎤 Meaning: Karaoke, Mic Drops and Bars",
+  "description": "The 🎤 microphone emoji means singing, karaoke, performing or speaking up, and powers the “mic drop.” See examples, combos and how it differs from 🎙️.",
+  "summary": "The 🎤 microphone emoji shows a handheld stage mic. It stands for singing, karaoke, rap, stand-up and live performance, and for having the floor to speak. A “mic drop,” usually written 🎤⬇️ or just 🎤, declares that the last word has been said.",
+  "meaning": [
+    "Performance is the literal ground. Singers announce shows with it, karaoke nights are organized around it, and comedians and spoken-word poets use it for open mics. In hip-hop, 🎤 marks an MC, a freestyle or a standout verse. Fans add it to an artist's name to praise vocals, sometimes with a fire emoji to stress that they sang or rapped live and did it well.",
+    "The mic drop gave the emoji its attitude. Dropping the microphone after a devastating line is a stage gesture from comedy and rap that crossed into general use in the 2010s. Online, ending a post with 🎤 or “*drops mic* 🎤” claims the argument is won and no reply is needed. It is cocky by design and often used with self-awareness.",
+    "It also means “your turn to talk.” Passing someone the 🎤 invites them to explain, confess or give their opinion: “okay, 🎤 is yours.” Street-interview videos, where a creator holds a mic toward strangers, made this framing common, and captions like “🎤 so tell me” introduce Q&A sessions and story times.",
+    "Announcers, podcasters and public speakers use it for any amplified speech, though a separate studio microphone emoji exists for broadcasting. In fan culture it marks the “vocalist” of a group, and concert-goers use it when a singer points the mic at the crowd and lets the audience take the chorus."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Plans for karaoke or a concert are the usual occasion. After a friend delivers a perfect comeback in the group chat, someone will reply 🎤 to award the mic drop. “🎤 go ahead” invites a full explanation, often with mock patience, when somebody has some explaining to do." },
+    { "label": "On TikTok and Instagram", "body": "Singers posting covers, rappers posting verses and comedians posting sets all use it in captions and bios. Interview-style creators use it as their signature. Under a devastating reply or a well-argued video, commenters leave a mic and a down arrow." },
+    { "label": "In music fandoms", "body": "Stans use 🎤 to defend live vocals and to mark favorite performances. Award show and tour posts carry it. In K-pop communities it often labels the main vocalist or rapper line, and fans debate whose “mic was on” after a concert clip circulates." },
+    { "label": "At work", "body": "Conference organizers and speakers use it for talks, panels and all-hands meetings. “You have the 🎤” hands over a presentation. It is friendly and appropriate, although the mic drop is best kept for informal channels, since declaring victory over colleagues can grate." }
+  ],
+  "examples": [
+    { "text": "Karaoke Thursday, I'm signing us up 🎤", "meaning": "Inviting friends to sing at a karaoke night." },
+    { "text": "And that's why I don't lend him money anymore 🎤⬇️", "meaning": "Ending a story with a decisive mic drop." },
+    { "text": "She sang that whole set live 🎤🔥", "meaning": "Praising a singer's live vocals." },
+    { "text": "So where were you last night? 🎤", "meaning": "Handing someone the floor to explain themselves." },
+    { "text": "Open mic debut tonight, wish me luck 🎤", "meaning": "Announcing a first performance." },
+    { "text": "Speaking at the design summit next week 🎤", "meaning": "Sharing news of a public talk." }
+  ],
+  "combos": [
+    { "combo": "🎤⬇️", "meaning": "Mic drop: point made, conversation over." },
+    { "combo": "🎤🎶", "meaning": "Singing or a vocal performance." },
+    { "combo": "🎤🔥", "meaning": "An outstanding verse or vocal." },
+    { "combo": "🎤👀", "meaning": "Waiting for someone to speak up or spill details." }
+  ],
+  "confusedWith": [
+    { "slug": "studio-microphone", "difference": "The 🎙️ studio microphone is a large broadcast mic on a stand, used for podcasts, radio and voice-over work. 🎤 is handheld and belongs to stages, karaoke and mic drops." },
+    { "slug": "loudspeaker", "difference": "The 📢 loudspeaker is for public announcements addressed to everyone. The microphone focuses on the performer or speaker, not the broadcast." },
+    { "slug": "musical-notes", "difference": "The 🎶 musical notes show that music is in the air. 🎤 specifies a voice: someone is singing, rapping or talking into a mic." }
+  ],
+  "avoid": [
+    "Don't mic-drop in a disagreement you want to resolve; it tells the other person their reply is unwelcome.",
+    "Avoid using 🎤 for podcast or radio promotion if you want the clearer broadcasting symbol, which is 🎙️."
+  ],
+  "design": "The emoji is a handheld vocal microphone drawn diagonally: a dark handle topped with a rounded metal mesh head in silver or gray. Some platforms add a colored band or a switch on the handle. All designs clearly depict a stage microphone, not a studio model.",
+  "faqs": [
+    { "q": "What does 🎤 mean in a text?", "a": "Either something about singing or performing, such as karaoke or a concert, or a mic drop that punctuates a strong final statement. It can also invite you to speak." },
+    { "q": "What does a mic drop 🎤 mean?", "a": "It imitates a performer dropping the microphone after an unbeatable line. Used after a comment, it means “I've said it all, nothing more to add,” with deliberate swagger." },
+    { "q": "What is the difference between 🎤 and 🎙️?", "a": "🎤 is a handheld microphone for stage use. 🎙️ is a studio microphone associated with podcasts, radio and recording. Singers choose the first; broadcasters the second." },
+    { "q": "What does 🎤 mean on TikTok?", "a": "It appears on singing and rap videos, on street interviews, and in comments awarding a mic drop. In a bio it often identifies a vocalist, performer or host." },
+    { "q": "What does 🎤 mean from a guy or girl?", "a": "Typically they are talking about music or inviting you to karaoke. If it follows a question, they are passing you the floor and want to hear your side." }
+  ],
+  "related": ["studio-microphone", "musical-notes", "musical-note", "headphone", "speaking-head", "guitar"]
+}

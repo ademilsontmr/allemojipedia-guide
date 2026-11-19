@@ -1,0 +1,23 @@
+---
+import Base from "@/layouts/Base.astro";
+import { categories, categoryUrl } from "@/lib/emoji";
+---
+<Base title="Page Not Found" description="This page does not exist. Search for an emoji or browse the categories." path="/404.html" noindex>
+  <div class="wrap">
+    <section class="hero">
+      <div class="em" aria-hidden="true" style="font-size:4.5rem;line-height:1">🫥</div>
+      <h1>That page isn't here</h1>
+      <p class="lead">The address may have changed when the site was rebuilt. Try a search, or pick a category.</p>
+      <form class="searchbox" action="/search/" method="get" role="search">
+        <label class="sr-only" for="q">Search emojis</label>
+        <input id="q" name="q" type="search" placeholder="Search an emoji…" autocomplete="off" />
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <ul class="chips" style="justify-content:center;margin-top:24px">
+        <li><a class="chip" href="/emojis/">All emoji meanings</a></li>
+        {categories.map((c) => <li><a class="chip" href={categoryUrl(c.slug)}><span class="em" aria-hidden="true">{c.icon}</span>{c.name}</a></li>)}
+        <li><a class="chip" href="/guides/">Guides</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>

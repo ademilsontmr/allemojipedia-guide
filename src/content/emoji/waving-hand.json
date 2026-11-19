@@ -1,0 +1,63 @@
+{
+  "slug": "waving-hand",
+  "title": "Waving Hand Emoji 👋 Meaning: Hello, Goodbye or Dismissal",
+  "description": "👋 means hi or bye, and it can be friendly or a pointed “goodbye, we're done.” What the waving hand emoji means in texts, at work and on apps like WeChat.",
+  "summary": "The 👋 waving hand emoji means hello or goodbye. It opens conversations, greets new people in a group, and signs off at the end of a chat. With a dry tone it becomes a dismissive “bye,” a way of waving someone or something off for good.",
+  "meaning": [
+    "Greeting is the default. “Hey 👋” is friendlier than the word alone and has become the stock opening for first messages, from dating app openers to introductions in a new Slack channel. It works because a wave is among the first social gestures anyone learns. It asks for nothing and commits to nothing beyond “I see you, hello.”",
+    "The same hand says farewell. At the end of a chat it means see you later, and a few in a row can show reluctance to go or extra warmth. Because a wave covers arriving and leaving, the surrounding message carries the meaning: with “morning!” it greets, and with “off to bed” it departs.",
+    "Then comes the sarcastic wave. “Okay, bye 👋” ends an argument with a slammed door. It is used to dismiss an ex, a bad job, a subscription price hike or an unwelcome opinion. In this mode the emoji is not polite at all. It announces that the sender is finished, or tells someone else they should leave.",
+    "Cultural habits differ. On Chinese platforms such as WeChat, the waving hand is commonly read as a cold goodbye, a sign that the sender no longer wants to talk, and younger Chinese users may take offense at it. There is also an attention-getting use, “hello?? 👋,” waved in front of someone who has not answered."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It marks the start and end of conversations. It is a gentle way to reconnect after a long silence (“long time 👋”) and a soft exit when you need to go. Sent alone to someone you have not spoken to in a while, it is a low-pressure check-in that leaves it to the other person to pick up the thread."
+    },
+    {
+      "label": "At work",
+      "body": "A standard opener in chat tools and one of the safest emojis for professional use. New hires are welcomed with a row of waves, and “Hi team 👋” softens announcements. It is also used when joining or leaving a video call, where typing a full greeting would interrupt."
+    },
+    {
+      "label": "On dating apps",
+      "body": "Sending only “hey 👋” is the most common first message and, for that reason, the least memorable. It signals interest without effort. Some apps include a wave button for exactly this purpose. It does the job of opening a door, but people generally respond better when a question or comment follows it."
+    },
+    {
+      "label": "As a brush-off",
+      "body": "In arguments, breakup posts and comment-section spats, 👋 means “goodbye and good riddance.” It often follows a blunt statement such as “unfollowing” or “not my problem anymore.” The tone is final and a little smug. If you receive one after a disagreement, the sender is ending the discussion, not inviting a reply."
+    }
+  ],
+  "examples": [
+    { "text": "Hey 👋 are you free this weekend?", "meaning": "A friendly greeting leading into a question." },
+    { "text": "Hi everyone 👋 I'm Sam, just joined the design team", "meaning": "Introducing oneself to a new group." },
+    { "text": "Gotta run, talk tomorrow 👋", "meaning": "A casual goodbye." },
+    { "text": "If that's how you feel, bye 👋", "meaning": "A dismissive farewell that ends an argument." },
+    { "text": "Hello?? 👋 Did you see my message?", "meaning": "Waving for attention after being ignored." },
+    { "text": "👋 2020, won't miss you", "meaning": "Waving off something the sender is glad to leave behind." }
+  ],
+  "combos": [
+    { "combo": "👋😊", "meaning": "A warm, clearly friendly hello." },
+    { "combo": "👋😘", "meaning": "An affectionate goodbye." },
+    { "combo": "✌️👋", "meaning": "Peace out; leaving with finality or flair." },
+    { "combo": "👋😢", "meaning": "A sad farewell, such as someone moving away or a show ending." }
+  ],
+  "confusedWith": [
+    { "slug": "raised-hand", "difference": "✋ is a still, upright palm meaning stop, wait, a high five or a raised hand in class. 👋 is tilted with motion lines and means hello or goodbye. The stillness or movement is the whole difference." },
+    { "slug": "raised-back-of-hand", "difference": "🤚 shows the back of a raised hand with no motion. It gets used for raising a hand to volunteer or showing off a ring, but not for greeting. 👋 is the only hand that actually waves." },
+    { "slug": "hand-with-fingers-splayed", "difference": "🖐️ is an open hand with fingers spread wide, used for the number five, a high five or “stop.” It has no motion marks. 👋 is angled and animated, specifically a greeting or farewell." }
+  ],
+  "avoid": [
+    "Do not send a lone 👋 after a tense exchange unless you mean to end the conversation coldly.",
+    "Be careful on WeChat and with Chinese contacts, where it can be read as “I'm done talking to you.”",
+    "Avoid it as your entire opening message when you actually need something; say what you want."
+  ],
+  "design": "An open hand tilted to one side with small curved lines beside it to show side-to-side movement. Platforms vary in which way the hand leans and how the motion lines are drawn, but every major design is clearly a wave. The hand is yellow by default and supports skin tones.",
+  "faqs": [
+    { "q": "Does 👋 mean hello or goodbye?", "a": "Both. The message around it decides: at the start of a chat it is hello, and at the end it is goodbye. Standing alone as a first message, it is nearly always a greeting." },
+    { "q": "What does 👋 mean from a guy or a girl?", "a": "Usually a simple, friendly hi. On dating apps or after a long gap, it shows they want to start a conversation. After an argument, it may be a curt “bye,” so consider what was said just before." },
+    { "q": "Is the waving emoji rude?", "a": "It can be when used as a dismissal, as in “bye 👋” after a disagreement. In greetings and normal sign-offs it is polite. In Chinese messaging culture it has a reputation as a cold way to end a chat." },
+    { "q": "What does 👋 mean on Snapchat or Instagram?", "a": "It is commonly a quick greeting to a new follower or friend, a way to say hi without writing a message. Some apps offer a dedicated wave button for this. Replying with a wave returns the hello." },
+    { "q": "Is 👋 okay to use in work messages?", "a": "Yes. It is one of the most accepted emojis in professional chat, especially for greetings, introductions and welcoming new colleagues. It keeps a message friendly without being too familiar." }
+  ],
+  "related": ["raised-hand", "raised-back-of-hand", "hand-with-fingers-splayed", "victory-hand", "smiling-face-with-smiling-eyes", "saluting-face"]
+}

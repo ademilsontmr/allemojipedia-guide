@@ -1,0 +1,56 @@
+{
+  "slug": "new-moon-face",
+  "title": "New Moon Face Emoji 🌚 Meaning: Shade and Side-Eye",
+  "description": "The 🌚 dark moon face is the internet's sly side-eye: awkward, shady, suggestive or creepy on purpose. See what it means in texts and when to avoid it.",
+  "summary": "🌚 is a dark moon with a faint smile and eyes glancing sideways. People use it as a reaction, not as a moon: for throwing shade, awkward silence, knowing innuendo or deliberately creepy humor. It usually means “I'm not saying anything, but you know.”",
+  "meaning": [
+    "Almost nobody uses this emoji for astronomy. Its expression, a small closed smile with eyes sliding to one side, made it a reaction face, and a strange one. The classic use is implication. After a suggestive comment or a pointed remark, 🌚 says the sender knows exactly what they did. It works like a smirk, but the dark, round face makes it odder and funnier, which is the appeal.",
+    "It also handles awkwardness. When someone exposes themselves, asks a question that lands badly, or has to admit something embarrassing, 🌚 is the silent stare that follows. “I may have eaten your leftovers 🌚” is a confession delivered with a guilty grin. In group chats it marks the moment everyone is thinking the same thing and nobody wants to type it.",
+    "The moon face is big in meme culture, where its slightly unsettling look is played up for creepy or absurd jokes. It often appears with its bright twin 🌝 as a pair of opposites or a double dose of smugness. Some people have used the dark face in jokes about dark skin, including self-referential ones; used about others, that can be offensive, so the emoji is best kept as an expression, not a description."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Between friends, 🌚 follows teasing, mischief and half-admissions. It softens a cheeky message by showing the sender is joking. In flirting it points at a double meaning without spelling it out, a step subtler than the smirking face. A lone 🌚 in reply means “I saw that” or “no comment.”"
+    },
+    {
+      "label": "On TikTok and Instagram",
+      "body": "Comment sections use it for shade: a quiet judgment under someone's questionable post, or a reaction to gossip. It is also part of the deliberately weird emoji humor in which moon faces, the moai and others replace ordinary smileys for comic effect. A string of 🌚🌚🌚 signals collective side-eye."
+    },
+    {
+      "label": "From a crush",
+      "body": "If someone you like sends 🌚 after a playful or suggestive line, they are flirting with deniability. It hints that there is more they could say. If it comes after you said something awkward, it is gentle teasing. It is rarely hostile, but it is never fully innocent either."
+    }
+  ],
+  "examples": [
+    { "text": "So who were you with last night 🌚", "meaning": "Teasing a friend while implying the sender already suspects the answer." },
+    { "text": "I might have told her about the surprise 🌚", "meaning": "A sheepish confession to doing something they should not have." },
+    { "text": "Come over, my roommates are out 🌚", "meaning": "A suggestive invitation with an unmistakable hint." },
+    { "text": "Not me checking his page again 🌚", "meaning": "Admitting to slightly embarrassing behavior with self-aware humor." },
+    { "text": "She said she's “just tired” 🌚", "meaning": "Expressing doubt and quiet shade about someone's excuse." }
+  ],
+  "combos": [
+    { "combo": "🌚🌝", "meaning": "The moon-face duo: double smugness, or two opposite reactions to the same thing." },
+    { "combo": "👀🌚", "meaning": "Watching drama unfold and silently judging it." },
+    { "combo": "🌚👉👈", "meaning": "Shyly or slyly hinting at wanting something." },
+    { "combo": "🌚💀", "meaning": "An awkward moment so bad it is funny." }
+  ],
+  "confusedWith": [
+    { "slug": "full-moon-face", "difference": "🌝 is the bright version with the same sideways smile. It reads as sunnier and more smug, where 🌚 is shadier and more awkward. Many people alternate them purely for effect." },
+    { "slug": "smirking-face", "difference": "😏 is a direct, confident smirk and clearly flirtatious or self-satisfied. 🌚 conveys similar innuendo with more irony and weirdness, and it leaves more room to pretend nothing was meant." },
+    { "slug": "new-moon", "difference": "🌑 is the faceless dark moon phase used for astronomy and astrology. It has none of the humor; it is the one to use for an actual new moon." }
+  ],
+  "avoid": [
+    "Do not use it to refer to a person's skin color.",
+    "Avoid it in professional messages, where its suggestive and shady overtones are easy to misread.",
+    "Skip it when you need to be taken at your word; it makes any sentence sound like it has a second meaning."
+  ],
+  "design": "A dark gray or blue-black disc with a human-like face: heavy-lidded eyes looking to one side, a prominent nose and a small closed smile. Shading suggests craters on some platforms. The direction of the gaze and the degree of smile vary a little, and those small differences affect how creepy or friendly it looks on a given device.",
+  "faqs": [
+    { "q": "What does 🌚 mean from a guy or a girl?", "a": "It usually means they are being cheeky, hinting at something flirtatious, or reacting to an awkward moment. Look at the message it follows: after a suggestive line it is innuendo, after a confession it is guilt." },
+    { "q": "Is 🌚 a creepy emoji?", "a": "Its look is a little eerie, and people use it that way on purpose for humor. Among friends it is playful. From a stranger, attached to a suggestive comment, it can certainly come across as creepy." },
+    { "q": "What is the difference between 🌚 and 🌝?", "a": "They share an expression but differ in color and feel. The dark one suits shade, secrets and awkwardness; the yellow one suits smug cheerfulness. Together they act as a matched pair in jokes." },
+    { "q": "When was the new moon face added?", "a": "It has been in the emoji standard since version 1.0 in 2015, introduced with its bright counterpart, the full moon face, and the sun with face." }
+  ],
+  "related": ["full-moon-face", "smirking-face", "eyes", "new-moon", "moai", "upside-down-face"]
+}

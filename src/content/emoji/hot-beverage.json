@@ -1,0 +1,62 @@
+{
+  "slug": "hot-beverage",
+  "title": "Coffee Emoji ☕ Meaning: Caffeine, Gossip and Shade",
+  "description": "The ☕ hot beverage emoji means coffee or tea, mornings and catch-ups. It is also used for “spilling the tea” and sipping in silent judgment. Full guide.",
+  "summary": "The ☕ hot beverage emoji, usually called the coffee emoji, means coffee or tea, mornings, caffeine and café meetups. It also stands for gossip (“tea”) and for sipping quietly while passing judgment. In some meme formats it follows a word to dismiss that subject with mock disdain.",
+  "meaning": [
+    "Officially this is a “hot beverage,” so it can be coffee, tea, cocoa or anything steaming in a cup. In practice most English speakers treat ☕ as coffee. It is the emoji of mornings, of not being functional yet, of work breaks and study sessions. “☕?” is an invitation to meet, with the useful vagueness of “let's get coffee”: it might be a date, a networking chat or a long-overdue catch-up.",
+    "The gossip meaning comes through tea. In slang that grew out of Black drag culture, “tea” is the truth or the juicy details, and to “spill the tea” is to share them. The keyboard lacked a Western-style teacup, so ☕ took the role alongside 🍵. Asking “what's the ☕?” requests the story; posting it with 👀 says you are listening closely.",
+    "A related use is the knowing sip. A well-known meme shows Kermit the Frog drinking tea with the line “but that's none of my business,” and 🐸☕ reproduces it: you make a pointed observation, then feign indifference. Shortened to a lone ☕ after a comment, it signals shade. A harsher variant puts ☕ after a single word, as in a format that mocked women around 2020, to express contempt for a whole group. That version is meant to provoke."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Morning greetings, energy levels and plans account for most of it. “Need ☕” explains a slow reply. It is a comfortable way to suggest meeting someone new, since coffee is short and low pressure. Followed by a pastry or a laptop, it describes where the sender is right now."
+    },
+    {
+      "label": "On X, TikTok and Instagram",
+      "body": "Here the gossip and shade meanings thrive. Celebrity drama accounts use ☕ in their names and captions. Under a messy post, a row of cups means the commenters are enjoying the revelations. A single cup after a blunt statement works like a raised eyebrow, saying “just an observation.”"
+    },
+    {
+      "label": "At work",
+      "body": "It is among the most accepted emojis in professional chat. Colleagues use it for coffee runs, virtual coffee chats and status messages meaning a short break. On LinkedIn it accompanies “let's connect over ☕.” The gossip sense is uncommon in that setting, so it rarely causes confusion."
+    },
+    {
+      "label": "From a crush",
+      "body": "A coffee invitation is the classic low-stakes first date, so ☕ from someone you like often tests the waters. A “good morning ☕” text each day is a small ritual of attention. It is warm and steady in tone, with nothing suggestive about it."
+    }
+  ],
+  "examples": [
+    { "text": "Don't talk to me until I've had my ☕", "meaning": "The sender is not yet awake enough to socialize." },
+    { "text": "Okay what's the ☕ on those two??", "meaning": "Asking for the gossip about a couple." },
+    { "text": "Funny how he's always “busy” when it's his turn to pay 🐸☕", "meaning": "A pointed remark followed by pretending not to care." },
+    { "text": "Free Thursday? Let's grab ☕", "meaning": "A casual invitation to meet up." },
+    { "text": "Rainy Sunday, book, ☕. Perfect", "meaning": "Describing a cozy, quiet moment." },
+    { "text": "brb ☕", "meaning": "Stepping away briefly for a coffee break." }
+  ],
+  "combos": [
+    { "combo": "🐸☕", "meaning": "“But that's none of my business”: throwing shade, then acting detached." },
+    { "combo": "☕👀", "meaning": "Ready to hear the gossip." },
+    { "combo": "☕🥐", "meaning": "Coffee and a pastry; a café breakfast." },
+    { "combo": "☕📚", "meaning": "Studying or reading with coffee." }
+  ],
+  "confusedWith": [
+    { "slug": "teacup-without-handle", "difference": "🍵 is specifically green tea in a handleless cup. It is the more literal choice for tea and matcha and is used for “tea” gossip as well. ☕ is the general hot drink and the default for coffee." },
+    { "slug": "bubble-tea", "difference": "🧋 is a cold milk tea with tapioca pearls, tied to boba shops and casual hangouts. It has no gossip or shade meaning." },
+    { "slug": "popcorn", "difference": "🍿 says you are watching drama as it happens. ☕ refers to the gossip itself or to commenting on it slyly. People often use them together." }
+  ],
+  "avoid": [
+    "Avoid the one-word-plus-☕ format aimed at a group of people; it is read as open contempt.",
+    "Don't drop a shady ☕ on a friend's sincere post unless you want to start an argument.",
+    "Be clear when a coffee invitation is professional, since ☕ alone can leave the intent ambiguous."
+  ],
+  "design": "A cup of dark liquid on a saucer with steam rising above it is the shared design. The cup is typically white, though colors and handle direction differ, and some versions omit the saucer. Because the character existed as a text symbol before emoji, a few systems can show it as a plain black-and-white glyph unless it is forced to the color style.",
+  "faqs": [
+    { "q": "Is ☕ coffee or tea?", "a": "Either. Its official name is Hot Beverage, and the designs do not specify the drink. Most people in the United States use it for coffee, while in Britain and elsewhere it often stands for a cup of tea." },
+    { "q": "What does ☕ mean on TikTok?", "a": "Usually gossip or shade. It can ask for the “tea,” signal that a comment was a sly dig, or mark a storytime video about drama. In a meme format, a word followed by ☕ expresses dismissive scorn for that thing." },
+    { "q": "What does the frog and coffee emoji mean?", "a": "🐸☕ refers to the Kermit the Frog meme captioned “but that's none of my business.” People use it after making a judgmental or revealing observation, pretending they are staying out of it." },
+    { "q": "What does ☕ mean from a guy or girl?", "a": "Commonly an invitation to get coffee, which may or may not be a date, or a simple good-morning gesture. If you had been discussing other people, they may be asking for gossip. It is not a suggestive emoji." },
+    { "q": "When was the coffee emoji added?", "a": "It has been part of the standard emoji set since 2010. The underlying symbol is older than most emojis, which is why it sometimes appears in a monochrome text style on certain platforms." }
+  ],
+  "related": ["teacup-without-handle", "bubble-tea", "frog", "croissant", "eyes", "popcorn"]
+}

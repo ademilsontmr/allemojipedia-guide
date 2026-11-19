@@ -1,0 +1,55 @@
+{
+  "slug": "anguished-face",
+  "title": "Anguished Face Emoji 😧 Meaning: Shock Mixed With Dread",
+  "description": "What does 😧 mean? The anguished face emoji shows alarm, distress or a horrified “oh no.” See examples and how it compares with 😦, 😨 and 😱 in real texts.",
+  "summary": "The 😧 anguished face has an open, downturned mouth and raised, worried eyebrows. It conveys distress with a jolt of surprise: realizing you forgot something important, hearing alarming news, or watching a situation go wrong. Despite the heavy name, people mostly use it for everyday “oh no” moments.",
+  "meaning": [
+    "“Anguish” suggests deep suffering, but the emoji rarely carries that weight. What it shows is the instant of alarm: brows shoot up, the jaw drops, and the stomach follows. Typical triggers are forgetting a birthday, seeing a cracked phone screen, or reading a message that begins “we need to talk.”",
+    "Compared with its neighbors on the keyboard, 😧 occupies a middle position. It is more upset than the gasp of 😮, less terrified than 😨 with its blue forehead, and much less theatrical than 😱. That makes it useful for concern about someone else, too. “You drove home in that storm? 😧” expresses worry and disbelief at once.",
+    "It has no notable slang meaning, and it is among the less frequently used faces, partly because it is hard to distinguish from 😦 at small sizes. People who choose it usually want to show that they are shaken, not merely surprised, without tipping into the comic exaggeration that the screaming face brings."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Use it for the realization that something has gone wrong. “I left my passport at home 😧” lets the reader feel the drop. As a reply, it signals worried shock at what the other person just shared, and it usually invites them to explain further. Follow it with words if the situation is serious."
+    },
+    {
+      "label": "On social media",
+      "body": "It appears under posts about close calls, medical stories, shocking prices and true-crime details, where commenters want to register horror without being flippant. It is also used for secondhand embarrassment, as a wince at someone else's disastrous date or job interview."
+    },
+    {
+      "label": "At work",
+      "body": "In a team chat it can acknowledge a problem honestly, like a server going down or a shipment arriving damaged. It reads as “this is bad” without assigning blame. Senior people should use it carefully, since visible alarm from a manager tends to spread."
+    }
+  ],
+  "examples": [
+    { "text": "I just realized the rent was due yesterday 😧", "meaning": "A sudden, anxious realization of a missed obligation." },
+    { "text": "You've been waiting outside for an hour? 😧", "meaning": "Dismayed concern, with a hint of guilt." },
+    { "text": "The vet said it might need surgery 😧", "meaning": "Worried and shaken by troubling news." },
+    { "text": "😧 that's the third layoff round this year", "meaning": "Alarm at news that could affect the sender too." },
+    { "text": "Saw the photos from the accident 😧 so glad you're okay", "meaning": "Horrified by what happened and relieved it was not worse." }
+  ],
+  "combos": [
+    { "combo": "😧😰", "meaning": "Alarm turning into sustained anxiety about what happens next." },
+    { "combo": "😧📅", "meaning": "Just remembered a date or deadline that slipped by." },
+    { "combo": "😧🙏", "meaning": "Worried and hoping things turn out all right." }
+  ],
+  "confusedWith": [
+    { "slug": "frowning-face-with-open-mouth", "difference": "😦 shares the open frown but usually lacks eyebrows, so it looks stunned and blank. The raised brows on 😧 add worry and pain, making it the stronger of the two." },
+    { "slug": "fearful-face", "difference": "😨 has a blue-tinted forehead, the cartoon sign of blood draining from the face, and means being scared. 😧 stays fully yellow and suggests distress or dismay more than fear." },
+    { "slug": "worried-face", "difference": "😟 keeps its mouth closed in a frown and shows ongoing, low-level concern. 😧 has the mouth open, capturing the moment the bad news arrives." }
+  ],
+  "avoid": [
+    "Do not use it for deep grief or tragedy; despite the name, it looks too much like simple surprise.",
+    "Avoid sending it alone when someone needs reassurance, because it mirrors their panic instead of calming it.",
+    "Skip it for good surprises, where its frown will confuse the reader."
+  ],
+  "design": "A yellow face with oval eyes, an open mouth turned down at the corners, and eyebrows raised and angled in worry. Designs agree closely across vendors. The eyebrows are the key feature: on Apple and several other platforms they are the only visible difference from the frowning face with open mouth, which is why the two are so often mixed up.",
+  "faqs": [
+    { "q": "What does 😧 mean in a text?", "a": "That the sender is alarmed or distressed by something they just learned or remembered. It often accompanies an “oh no” moment, such as a forgotten appointment, or reacts with concern to someone else's bad news." },
+    { "q": "Is 😧 the same as 😦?", "a": "Nearly. They are separate characters with the same mouth, but 😧 adds worried eyebrows. That small change makes it read as more pained or frightened, while 😦 looks merely taken aback." },
+    { "q": "Is the anguished face emoji serious?", "a": "It is more serious than joking faces like 😱, but it is not reserved for tragedy. Most uses involve ordinary stress and worry. For a real crisis, add words so the other person knows how bad things are." },
+    { "q": "When did 😧 become an emoji?", "a": "It appears in Emoji 1.0, the first official emoji list from 2015, alongside the similar 😦. Both had already been supported on major phone platforms before that list formalized them." }
+  ],
+  "related": ["frowning-face-with-open-mouth", "fearful-face", "worried-face", "anxious-face-with-sweat", "face-screaming-in-fear", "astonished-face"]
+}

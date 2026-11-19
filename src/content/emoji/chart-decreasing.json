@@ -1,0 +1,50 @@
+{
+  "slug": "chart-decreasing",
+  "title": "Chart Decreasing Emoji 📉 Meaning: Losses and Decline",
+  "description": "The 📉 chart decreasing emoji means something is dropping: stocks, grades, energy, a reputation. See serious and joking uses, examples and how it differs from 📈.",
+  "summary": "The 📉 chart decreasing emoji shows a line graph sloping downward. It means a fall: lower sales, a market drop, shrinking numbers, fading interest. In casual use it describes anything in decline, such as motivation, bank balance or a celebrity's standing, usually with a gloomy sense of humor.",
+  "meaning": [
+    "Financial bad news is the textbook use. A sell-off, a bad earnings report, a crypto crash or a personal portfolio in the red all get 📉. Traders post it with a crying face or a clown, depending on whether they are sad or blaming themselves. Economic reporting on social media uses it in headlines about falling indexes, confidence or employment.",
+    "Most people, though, meet it as a joke format. Put any noun in front of the chart and you have a complaint: “motivation 📉,” “battery 📉,” “my will to cook 📉.” It is a tidy way to say you are fading without sounding too serious. Students use it for grades after midterms, and office workers for energy at three in the afternoon.",
+    "Reputation is a favorite subject. When a public figure says something unpopular, commenters declare their “stock 📉.” Sports fans do the same to a slumping player, and fandoms to a show that has lost its way. “Aura 📉,” from the slang sense of aura as someone's cool factor, describes an embarrassing moment that cost a person social points.",
+    "A falling line is not always bad. Lower prices, a dropping fever, reduced debt, weight loss someone wanted and declining crime are all good news that the same emoji can report. As with its rising twin, the meaning depends on what is being measured, and writers usually add a second emoji to show which way to feel."
+  ],
+  "contexts": [
+    { "label": "At work", "body": "It marks a metric that has fallen: churn, costs, response times, or less happily, revenue and sign-ups. Because a drop in costs is welcome and a drop in sales is not, most teams follow the emoji with a brief explanation. It is acceptable in professional chat but can seem flippant in a message announcing layoffs or losses." },
+    { "label": "In investing talk", "body": "Bearish posts, loss screenshots and market-crash memes feature it. “Buy the dip 📉” treats a fall as an opportunity. Communities that joke about their own bad trades use it as a badge of shared pain, typically alongside the money-with-wings emoji." },
+    { "label": "On TikTok and Instagram", "body": "It appears in self-deprecating captions about sleep, productivity and social battery. Commenters apply it to creators or celebrities whose popularity is slipping. “Aura 📉” and “rizz 📉” are current formulas for an awkward fail, used mostly by teenagers and young adults." },
+    { "label": "In texting", "body": "Friends use it to report a mood or energy crash without drama: “today 📉.” It can describe a date going downhill, a team losing or savings after a holiday. Replying 📉 to someone's bad idea predicts how it will turn out." }
+  ],
+  "examples": [
+    { "text": "Motivation after lunch 📉", "meaning": "Energy and focus have dropped off." },
+    { "text": "Portfolio check was a mistake 📉😭", "meaning": "Investments have lost value." },
+    { "text": "Tripped walking up to get my diploma. Aura 📉", "meaning": "An embarrassing moment cost the sender their cool." },
+    { "text": "Gas finally under $3 📉🙌", "meaning": "Celebrating a drop in prices." },
+    { "text": "His stock after that interview 📉", "meaning": "Someone's reputation has taken a hit." },
+    { "text": "Support tickets down 30% since the update 📉", "meaning": "A positive decline reported at work." }
+  ],
+  "combos": [
+    { "combo": "📉😭", "meaning": "Painful losses or a rough decline." },
+    { "combo": "📉💸", "meaning": "Money disappearing as values fall." },
+    { "combo": "📈📉", "meaning": "Volatility; things keep swinging up and down." },
+    { "combo": "📉🤡", "meaning": "A self-inflicted loss; feeling foolish about a bad call." }
+  ],
+  "confusedWith": [
+    { "slug": "chart-increasing", "difference": "The 📈 chart increasing has the line rising and signals growth. They are mirror images, and their line colors differ on some platforms, but the slope is the reliable way to tell them apart." },
+    { "slug": "bar-chart", "difference": "The 📊 bar chart represents data or statistics without direction. Use it for reports and polls, and 📉 only when the point is that something went down." },
+    { "slug": "down-right-arrow", "difference": "The ↘️ down-right arrow points diagonally downward and is a navigation or direction symbol. It can hint at decline, but 📉 is the clear choice for trends and numbers." }
+  ],
+  "avoid": [
+    "Don't post 📉 as a joke under someone's news about losing a job, a business or savings.",
+    "Avoid it without context in work updates, since a falling line could be good or bad and readers may assume the worst."
+  ],
+  "design": "The graphic is a line chart on a pale grid with the line zigzagging from upper left down to lower right. On Apple's design the falling line is blue, the counterpart to its red rising chart, echoing East Asian market colors; other vendors have used red, green or blue. Axes appear without labels.",
+  "faqs": [
+    { "q": "What does 📉 mean in a text?", "a": "Something is decreasing. It could be literal, like prices or stocks, or figurative, like energy, mood or patience. The word before it tells you what is falling." },
+    { "q": "What does “aura 📉” mean?", "a": "In youth slang, “aura” is a person's coolness or presence. Losing aura means doing something embarrassing. The falling chart humorously shows the points being deducted." },
+    { "q": "Is 📉 always negative?", "a": "No. A decline in costs, wait times, debt or illness is good news. The emoji only shows direction, so writers often add a happy or sad emoji to make the feeling clear." },
+    { "q": "Why is the line a different color from 📈 on my phone?", "a": "Some platforms follow East Asian stock market conventions, where red marks a rise and blue or green a fall. Others choose colors independently. The slope carries the meaning, not the color." },
+    { "q": "What does 📉 mean from a guy or girl?", "a": "They are telling you something is going downhill, often their own mood, energy or luck. It is usually wry humor. If it refers to the conversation or the relationship, it is worth asking what is wrong." }
+  ],
+  "related": ["chart-increasing", "bar-chart", "money-with-wings", "down-right-arrow", "loudly-crying-face", "clown-face"]
+}

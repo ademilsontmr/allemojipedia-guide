@@ -1,0 +1,113 @@
+{
+  "slug": "warning",
+  "title": "Warning Emoji ⚠️ Meaning: Caution, Alerts and Spoilers",
+  "description": "The ⚠️ warning emoji is the yellow hazard triangle. It flags danger, spoilers, content warnings, and jokes about chaos. Here is how and when people use it.",
+  "summary": "The ⚠️ warning emoji is a yellow triangle with an exclamation mark, the standard sign for caution. People use it to flag hazards, scams, spoilers, and sensitive content, and jokingly to warn that a rant, a bad opinion, or a chaotic person is approaching.",
+  "meaning": [
+    "⚠️ borrows its authority from real life. A triangle with an exclamation mark is the general warning sign on roads, machinery, chemical labels, and software dialogs, so the emoji needs no explanation: stop and pay attention, something here could go wrong. In messages it prefaces genuine cautions such as severe weather, phishing attempts, recalled products, or an icy driveway.",
+    "Online, its most established job is the content warning. Posts that discuss violence, self-harm, eating disorders, flashing imagery, or other difficult material often open with ⚠️ followed by \"TW\" or \"CW\" and the topic, giving readers a chance to scroll past. The same convention covers spoilers: \"⚠️ finale spoilers below\" is a courtesy fans expect.",
+    "The symbol is just as often used tongue in cheek. People announce \"⚠️ unpopular opinion,\" \"⚠️ long post,\" or \"⚠️ I have had three coffees\" to dramatize something harmless. In dating and friendship talk it labels a person as trouble, in the same spirit as calling something a red flag. The humor works because the sign is so official-looking.",
+    "In technical settings ⚠️ has a precise meaning that sits between success and failure. Status pages, logs, and dashboards use it for a problem that has not broken anything yet: degraded performance, a deprecated feature, a setting that needs review. Paired with ✅ and ❌, it forms a three-level system that most office workers read instantly."
+  ],
+  "contexts": [
+    {
+      "label": "On social media",
+      "body": "Content and trigger warnings are the main use, typically as the first characters of a caption or thread so they appear before any preview cuts off. News and community accounts use ⚠️ for scam alerts, road closures, and safety notices. Meme accounts use it ironically to brace followers for a controversial food take."
+    },
+    {
+      "label": "In texting",
+      "body": "Among friends it is a heads-up with a wink: \"⚠️ Mom is in a mood\" or \"⚠️ incoming voice note, it's seven minutes.\" It can also be sincere, flagging a suspicious link or a dangerous stretch of road. The emoji makes a warning scannable, which helps in a busy group chat."
+    },
+    {
+      "label": "At work",
+      "body": "⚠️ marks risks in project updates, caveats in documentation, and anything that needs care before someone proceeds, like a migration that cannot be undone. Many documentation tools have a dedicated warning callout that uses this icon. It reads as professional and neutral, provided it is reserved for real risks."
+    }
+  ],
+  "examples": [
+    {
+      "text": "⚠️ Spoilers for the season finale below",
+      "meaning": "A courtesy notice so people who have not watched can stop reading."
+    },
+    {
+      "text": "⚠️ TW: discussion of disordered eating",
+      "meaning": "A trigger warning letting readers decide whether to engage with the post."
+    },
+    {
+      "text": "Black ice on Route 9 this morning ⚠️ drive slow",
+      "meaning": "A literal safety warning about dangerous road conditions."
+    },
+    {
+      "text": "⚠️ unpopular opinion: cereal is better dry",
+      "meaning": "A joking alert that a mildly controversial take is coming."
+    },
+    {
+      "text": "That text from \"your bank\" is fake ⚠️ don't click it",
+      "meaning": "The sender is flagging a phishing attempt."
+    },
+    {
+      "text": "⚠️ Disk usage at 91% on the staging server",
+      "meaning": "A work alert about a problem that needs attention before it causes an outage."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "⚠️🚨",
+      "meaning": "A serious, urgent alert; breaking news or an emergency notice."
+    },
+    {
+      "combo": "⚠️🚩",
+      "meaning": "Warning signs in a person or situation; relationship red flags."
+    },
+    {
+      "combo": "⚠️🔞",
+      "meaning": "Adult or explicit content ahead; not suitable for minors."
+    },
+    {
+      "combo": "⚠️🚧",
+      "meaning": "Work in progress or an unfinished page; proceed knowing things may break."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "red-exclamation-mark",
+      "difference": "❗ is plain emphasis and can be happy or urgent. ⚠️ specifically warns of risk or sensitive material. If nothing could go wrong and you only want attention, ❗ is the better fit."
+    },
+    {
+      "slug": "prohibited",
+      "difference": "🚫 forbids something outright. ⚠️ does not say no; it says be careful. A wet floor gets ⚠️, while a closed area gets 🚫."
+    },
+    {
+      "slug": "police-car-light",
+      "difference": "🚨 is a flashing siren used for emergencies, breaking news, and hype announcements. ⚠️ is calmer and more informational, a standing caution rather than an alarm going off right now."
+    }
+  ],
+  "avoid": [
+    "Do not use ⚠️ to mock or trivialize content warnings on posts about trauma, since people rely on that convention.",
+    "Avoid putting it on every work update; overuse trains readers to skim past real risks.",
+    "Do not bury the warning after the sensitive content, because its whole purpose is to appear first."
+  ],
+  "design": "A yellow or amber triangle with rounded corners, a dark border, and a black exclamation mark in the center, modeled on standard hazard signage. Platform versions differ only slightly in border thickness and shade of yellow. The underlying character is a text symbol, so the emoji is technically that symbol plus a variation selector requesting the colored form; without it, some systems show a plain black outline.",
+  "faqs": [
+    {
+      "q": "What does ⚠️ mean on TikTok?",
+      "a": "Usually a content or trigger warning in the caption or on-screen text, such as flashing lights, fake blood, or an upsetting topic. It is also used jokingly to warn viewers about cringe, loud audio, or a controversial opinion."
+    },
+    {
+      "q": "What does ⚠️ mean when used about a person?",
+      "a": "That the person is considered risky: likely to cause drama, break hearts, or be a bad influence. It overlaps with the red flag emoji. Depending on tone, it can be a real caution to a friend or an affectionate tease."
+    },
+    {
+      "q": "Why does ⚠️ sometimes appear as a black and white triangle?",
+      "a": "The character existed as a plain text symbol before emoji. If the invisible variation selector that requests emoji style is missing, or the font does not support it, you see the monochrome version. Picking it from an emoji keyboard normally gives the yellow one."
+    },
+    {
+      "q": "What is the difference between TW and CW with ⚠️?",
+      "a": "TW means trigger warning and CW means content warning. CW is the broader term for anything some readers may wish to avoid, while TW is used for material that may provoke a strong trauma-related reaction. Either is commonly prefixed with ⚠️."
+    },
+    {
+      "q": "Is ⚠️ okay in professional messages?",
+      "a": "Yes. It is one of the most accepted emoji in workplace writing because it mirrors standard signage and software icons. Use it for real caveats and risks, and state the issue plainly right after it."
+    }
+  ],
+  "related": ["prohibited", "no-entry", "red-exclamation-mark", "triangular-flag", "sos-button", "high-voltage"]
+}

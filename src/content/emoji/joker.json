@@ -1,0 +1,57 @@
+{
+  "slug": "joker",
+  "title": "Joker Emoji 🃏 Meaning: Wild Card, Trickster, Villain",
+  "description": "The 🃏 joker emoji is a playing card that means wild card, unpredictability or a prank. It also references the Joker from Batman and card games. Learn more.",
+  "summary": "The 🃏 joker emoji shows the joker from a deck of playing cards. It means a wild card: someone or something unpredictable. People use it for card games and gambling, for jokes and pranks, and as a reference to the Joker, the Batman villain, and the memes around him.",
+  "meaning": [
+    "In many card games the joker can stand in for any other card, which makes it the original wild card. The emoji carries that sense into conversation. Calling a friend 🃏 says nobody knows what they will do next, usually with affection. A “joker up my sleeve” is a hidden advantage, and “playing the 🃏” means making an unexpected move.",
+    "The jester printed on the card ties it to humor. People add 🃏 to a prank, a practical joke or a message that should not be taken seriously, where it works like “just kidding” with a mischievous edge. It can also dismiss someone: “okay, joker” treats a person’s statement as a joke. In this role it sits close to the clown face but feels less insulting.",
+    "A third meaning comes from comics and film. The Joker, Batman’s enemy, is one of fiction’s most recognizable villains, and the emoji is used for the character, the movies and the “Joker moment” meme, which jokingly describes being pushed past your limit by society or bad luck. Among younger users this ironic, self-dramatizing use is common, especially after a minor inconvenience."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Friends use it to tease: “you’re such a 🃏” after a ridiculous comment or stunt. It softens a joke that might otherwise sound harsh. Someone describing their own chaotic choices may sign off with it. When plans are uncertain, “Saturday is a 🃏” means anything could happen."
+    },
+    {
+      "label": "In gaming and cards",
+      "body": "Poker nights, rummy, euchre and casino trips all take 🃏, since there is no generic deck-of-cards emoji and the individual suit symbols are plainer. Players of collectible and deck-building video games use it for wild cards and lucky draws. Magicians use it for card tricks alongside the wand."
+    },
+    {
+      "label": "On social media",
+      "body": "Meme accounts pair it with lines about society, villain arcs and being misunderstood, almost always tongue in cheek. Film fans use it when discussing portrayals of the character. In bios it can mark a prankster, a gambler or someone who identifies as the unpredictable member of the group."
+    }
+  ],
+  "examples": [
+    { "text": "You never know what he’ll say at dinner. Total 🃏", "meaning": "Describing someone as an unpredictable wild card." },
+    { "text": "Poker at mine Friday, buy-in is $10 🃏", "meaning": "Inviting friends to a card game." },
+    { "text": "They got my coffee order wrong again. Joker moment 🃏", "meaning": "Ironically treating a small annoyance as a villain origin story." },
+    { "text": "Relax, I was kidding 🃏", "meaning": "Clarifying that an earlier remark was a joke." },
+    { "text": "I still have one 🃏 left to play", "meaning": "Hinting at a secret advantage or backup plan." },
+    { "text": "Rewatching The Dark Knight tonight 🃏🦇", "meaning": "Planning to watch a Batman film featuring the Joker." }
+  ],
+  "combos": [
+    { "combo": "🃏🦇", "meaning": "The Joker and Batman; a reference to the comics or films." },
+    { "combo": "🃏♠️", "meaning": "Card games, poker night or a deck of cards." },
+    { "combo": "🃏🎰", "meaning": "Gambling and casinos; taking chances." },
+    { "combo": "🃏😈", "meaning": "Mischief is planned; a prank or sly trick is coming." }
+  ],
+  "confusedWith": [
+    { "slug": "clown-face", "difference": "🤡 calls someone a fool, often yourself after a bad decision. 🃏 suggests a trickster or wild card, which implies cleverness and unpredictability more than embarrassment." },
+    { "slug": "flower-playing-cards", "difference": "🎴 is a hanafuda card from a traditional Japanese deck, showing a moon over a hill. It is a different game entirely and has none of the joker’s trickster meaning." },
+    { "slug": "performing-arts", "difference": "🎭 shows theater masks and means acting, drama or hiding feelings. The joker is a single card about wild chance and jokes, though both can hint at a false face." }
+  ],
+  "avoid": [
+    "Do not call someone a 🃏 in a serious disagreement, where it reads as saying their view is a joke.",
+    "Avoid the “villain” meme around people who may take talk of snapping literally."
+  ],
+  "design": "The emoji is a playing card bearing a jester figure or jester’s head in a belled cap, sometimes labeled with the word JOKER or a corner letter. The jester’s style and colors differ between platforms, from a full dancing figure to a simple face. Each design is clearly a card, not the film character.",
+  "faqs": [
+    { "q": "What does 🃏 mean in slang?", "a": "Usually “wild card,” meaning an unpredictable person or situation. It can also mean a joke or prank, or reference the “Joker moment” meme, where someone jokingly claims a frustration has turned them into a villain." },
+    { "q": "What does 🃏 mean from a guy or a girl?", "a": "They are joking, teasing you or describing themselves as unpredictable. Some use it to suggest they are a bit of a troublemaker. If the conversation is about a game or a film, it is literal." },
+    { "q": "Is 🃏 the Joker from Batman?", "a": "The emoji depicts the playing card, not the character. People nevertheless use it for the villain because it is the nearest match, usually alongside a bat or a clown to make the reference plain." },
+    { "q": "What does the joker card mean?", "a": "In card games it is typically a wild card that can represent any other card, or an extra trump. Symbolically it stands for chance, foolery and breaking the rules, which is why the emoji leans toward mischief." },
+    { "q": "Is there an emoji for a full deck of cards?", "a": "No. The options are 🃏, the four suit symbols ♠️ ♥️ ♦️ ♣️ and the Japanese flower card 🎴. Most people use the joker or the spade to mean playing cards in general." }
+  ],
+  "related": ["clown-face", "game-die", "slot-machine", "smiling-face-with-horns", "performing-arts", "spade-suit"]
+}

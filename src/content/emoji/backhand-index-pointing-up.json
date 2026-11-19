@@ -1,0 +1,58 @@
+{
+  "slug": "backhand-index-pointing-up",
+  "title": "Pointing Up Emoji 👆 Meaning: “This” and “See Above”",
+  "description": "👆 points up at the message above: “this,” “what they said,” or “scroll up.” See how the backhand pointing up emoji differs from ☝️ and when to use each.",
+  "summary": "The 👆 backhand index pointing up emoji points at something above it. In chats it endorses or refers to the previous message: “this,” “what she said,” “see above.” It also tells people to scroll up, tap something higher on the screen, or look at a pinned post or header.",
+  "meaning": [
+    "Chat conversations stack upward, with older messages sitting above newer ones. 👆 makes use of that layout. Sent right after someone else's comment, it means “I agree with that” or “this is the important one.” It grew out of typing a caret or the word “this” under a post, and it remains the most compact way to co-sign a statement without repeating it.",
+    "It is equally common as a reference pointer. “Details 👆” or “address is in the message 👆” spares the sender from repeating information already given. When a person asks a question that was just answered, a lone 👆 is the patient, or not so patient, reply: scroll up, it is right there.",
+    "On platforms where content has a fixed top, it directs the eye there: a profile link, a pinned tweet, a video playing above the comments, a banner. Livestream hosts and story creators use it to point at buttons and stickers placed higher on the screen. The related phrase “tap 👆” comes from the finger-press look of the emoji.",
+    "People do swap it with ☝️, though the two differ. This one shows the back of the hand and is a pure pointer. The other shows the palm side with a raised finger and carries meanings such as “one,” “wait” or “listen.” Most users pick whichever comes up first on their keyboard, so the distinction is a tendency rather than a rule."
+  ],
+  "contexts": [
+    {
+      "label": "In group chats",
+      "body": "It serves as a vote and a signpost. Several people dropping 👆 beneath a suggestion shows consensus quickly. It also redirects latecomers to information they missed. Since replies can drift far from the original message, many people now use the reply or quote feature along with it so the target of the pointing stays clear."
+    },
+    {
+      "label": "On social media",
+      "body": "In comment sections it backs up the comment above or points at the post itself: “the caption 👆 says it all.” Creators use it for links placed at the top of a profile and for “watch the video 👆.” In reply chains, 👆 under a well-made argument means “everyone should read this.”"
+    },
+    {
+      "label": "At work",
+      "body": "A handy, neutral tool. “See my note 👆” or “per the thread 👆” keeps channels tidy, and reacting with it signals agreement with a proposal. Take care with tone when answering a repeated question. A bare 👆 can read as “as I already said,” which some colleagues will find curt."
+    }
+  ],
+  "examples": [
+    { "text": "👆 this. Exactly this.", "meaning": "Strong agreement with the previous message." },
+    { "text": "Address and gate code are in the message 👆", "meaning": "Referring back to information already sent." },
+    { "text": "What time are we meeting? / 👆", "meaning": "The answer is right above; scroll up." },
+    { "text": "Full recipe in the video 👆", "meaning": "Directing viewers to content positioned above the caption." },
+    { "text": "👆👆 listen to her, she's been there", "meaning": "Endorsing someone else's advice." },
+    { "text": "Tap 👆 to turn on notifications", "meaning": "An instruction to press something higher on the screen." }
+  ],
+  "combos": [
+    { "combo": "👆👆👆", "meaning": "Emphatic agreement; everyone should read the message above." },
+    { "combo": "👆💯", "meaning": "The above is completely right." },
+    { "combo": "👆👀", "meaning": "Look up there; do not miss what was just posted." },
+    { "combo": "👆😂", "meaning": "The previous message is hilarious, or painfully accurate." }
+  ],
+  "confusedWith": [
+    { "slug": "index-pointing-up", "difference": "☝️ shows the hand from the palm side with one finger raised and can mean the number one, “wait a second,” or a point being made. 👆 shows the back of the hand and simply points to something located above." },
+    { "slug": "up-arrow", "difference": "⬆️ is a plain arrow for direction, increases and “scroll up.” 👆 is a hand, so it reads as a person pointing, which is why it works as “I agree with this” in a way an arrow does not." },
+    { "slug": "middle-finger", "difference": "🖕 has a similar back-of-hand view but raises the middle finger as an obscene insult. The two sit near each other on some keyboards, so check before sending 👆 to your boss." }
+  ],
+  "avoid": [
+    "Do not answer a sincere question with only 👆 if the person may feel scolded for not scrolling.",
+    "Avoid it when messages are arriving quickly and the one “above” may no longer be the one you meant.",
+    "Check that you have not selected the middle finger, which looks similar at small sizes."
+  ],
+  "design": "A hand shown from the back with the index finger pointing straight up and the other fingers curled down. All major platforms use the same orientation. It differs from ☝️, which shows the front of the hand. The default is yellow, with skin tones supported.",
+  "faqs": [
+    { "q": "What does 👆 mean in a text?", "a": "It refers to the message directly above. Usually it means “this,” showing agreement, or “see above,” pointing back at information that was already shared. It can also mean scroll up." },
+    { "q": "What is the difference between 👆 and ☝️?", "a": "👆 shows the back of the hand and points to something above. ☝️ shows the palm side with one finger up, meaning “one,” “hold on,” or drawing attention to a point. In casual use, people often treat them as the same." },
+    { "q": "What does 👆 mean on TikTok or Instagram?", "a": "It usually points at the video, the caption or a comment above, meaning “watch this” or “I agree with this.” Creators also use it to direct followers to a link or button placed higher on the page." },
+    { "q": "Is 👆 rude?", "a": "Not in itself. It can seem impatient when it is the only reply to a question that was already answered, as it implies the person did not read. Adding a few words keeps it friendly." }
+  ],
+  "related": ["index-pointing-up", "backhand-index-pointing-down", "backhand-index-pointing-right", "backhand-index-pointing-left", "up-arrow", "hundred-points"]
+}

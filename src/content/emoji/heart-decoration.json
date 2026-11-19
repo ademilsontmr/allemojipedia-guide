@@ -1,0 +1,45 @@
+{
+  "slug": "heart-decoration",
+  "title": "Heart Decoration Emoji 💟 Meaning: The Heart in a Box",
+  "description": "The 💟 heart decoration emoji is a white heart on a purple square. It is an ornamental heart used in bios, captions and aesthetic layouts. Here is how.",
+  "summary": "The 💟 heart decoration emoji is a white heart inside a purple or pink rounded square. As the name says, it is ornamental: a heart-shaped badge used to dress up bios, captions, lists, and usernames. It conveys general love and cuteness without a specific emotional nuance.",
+  "meaning": [
+    "Most hearts say something about a feeling. 💟 mainly says 'this looks nice.' It is a decorative symbol inherited from Japanese mobile phone emoji, where ornamental marks were used to brighten up text messages, and it kept that role when it entered Unicode in 2010. People use it as a bullet point, a divider between lines in a bio, or a frame around a name.",
+    "It is one of the least used hearts, and that rarity is part of its appeal. Someone who chooses 💟 is usually making a deliberate style decision: matching a purple color scheme, building a tidy aesthetic profile, or looking for a heart that few others use. It suits kawaii, pastel, and retro-web looks. Fans of artists associated with purple sometimes use it alongside 💜 for that reason.",
+    "As a message of affection it is mild. It can stand in for 'love' in a general way, and a few people use it like an app icon or a 'like' button because of its square shape. If you receive one in a text, take it as a friendly, slightly quirky heart. Nothing about it is coded, flirtatious, or negative."
+  ],
+  "contexts": [
+    { "label": "In bios and usernames", "body": "This is where 💟 is most at home. It separates items in a profile, such as age, pronouns, and interests, or bookends a display name. Its boxed shape lines up neatly with other square symbols, which makes it handy for symmetrical layouts." },
+    { "label": "In captions and lists", "body": "People use it as a bullet for favorites, wish lists, and playlists, or to end a caption with a decorative flourish. It works well in posts with a purple or pastel palette, where a red heart would clash with the visual theme of the feed." },
+    { "label": "In texting", "body": "It is uncommon in conversation. When it does appear, it is usually from someone who likes less obvious emojis or uses purple as a signature color. It reads as light affection or simply as a pretty closing mark, closer to a sticker than to a statement." }
+  ],
+  "examples": [
+    { "text": "💟 art 💟 tea 💟 cats", "meaning": "A bio listing interests, with the emoji used as a decorative separator." },
+    { "text": "New post is up 💟", "meaning": "A creator adding an ornamental, friendly sign-off." },
+    { "text": "Thank you for 10k 💟💜", "meaning": "Gratitude to followers in a purple-themed style." },
+    { "text": "💟 Self-care Sunday checklist 💟", "meaning": "A decorative header for a list." },
+    { "text": "Night night 💟", "meaning": "A soft, slightly quirky affectionate goodnight." }
+  ],
+  "combos": [
+    { "combo": "💟💜", "meaning": "A purple love theme, popular in fandom and aesthetic posts." },
+    { "combo": "💟✨", "meaning": "Cute decoration for a caption or heading." },
+    { "combo": "💟🔮", "meaning": "A purple, mystical, or witchy aesthetic." }
+  ],
+  "confusedWith": [
+    { "slug": "purple-heart", "difference": "💜 is a plain purple heart that carries its own meanings, including support, admiration, and fandom love. 💟 is a white heart on a purple tile and works as ornament. Use 💜 to express a feeling and 💟 to decorate." },
+    { "slug": "white-heart", "difference": "🤍 is a standalone white heart used for purity, sympathy, and minimalist aesthetics. 💟 contains a white heart but inside a colored box, and it lacks those associations." },
+    { "slug": "heart-suit", "difference": "♥️ is the playing-card heart, a flat red symbol used for card games and as a simple heart. 💟 is likewise more symbol than sentiment, but it is purple, boxed, and purely decorative." }
+  ],
+  "avoid": [
+    "Do not count on it to express strong love or sympathy, because readers see it as decoration.",
+    "Avoid using it where clarity matters, since its design differs enough across devices that some people will not recognize it."
+  ],
+  "design": "The emoji is a white heart centered on a rounded square. The square is purple on most platforms, in some sets leaning toward pink or magenta. It resembles an app icon or a button. A few older designs showed a heart with small accents instead of a box, but current versions are largely consistent.",
+  "faqs": [
+    { "q": "What does 💟 mean in texting?", "a": "It is a decorative heart that adds a general feeling of love or cuteness. It does not have a specific message like romance or friendship. People mostly send it because they like how it looks." },
+    { "q": "What does 💟 mean from a girl or a guy?", "a": "Usually nothing more than friendly affection or a taste for unusual emojis. It is not a recognized flirting signal. If they like purple, that may be the whole explanation." },
+    { "q": "Why is the heart decoration emoji purple?", "a": "The Unicode standard only specifies a decorative heart, not a color. Vendors settled on a white heart on a purple or pinkish square, and that convention has stuck across major platforms." },
+    { "q": "Is 💟 a like button?", "a": "No app officially uses it that way, but its square shape makes it look like an icon, so some people use it to mean 'liked' or 'favorite' in lists and captions." }
+  ],
+  "related": ["purple-heart", "white-heart", "sparkling-heart", "heart-suit", "two-hearts", "heart-exclamation"]
+}

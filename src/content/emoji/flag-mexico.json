@@ -1,0 +1,102 @@
+{
+  "slug": "flag-mexico",
+  "title": "🇲🇽 Mexico Flag Emoji: Meaning, Eagle and Italy Mix-Up",
+  "description": "The Mexico flag emoji 🇲🇽 shows green, white and red with an eagle on a cactus. See what it means, when Mexicans use it, and how it differs from Italy's flag.",
+  "summary": "The 🇲🇽 emoji is the flag of Mexico, a green, white, and red vertical tricolor with the national coat of arms in the center: an eagle perched on a cactus with a snake. It expresses Mexican identity and heritage, and it tags food, football, music, travel, and Independence Day on September 16.",
+  "meaning": [
+    "For Mexicans and the very large Mexican diaspora, 🇲🇽 is first a statement of belonging. It appears in bios, often paired with 🇺🇸 by Mexican Americans, and in posts about family, hometown states, and visits back. Pride posts spike on September 15 and 16, when the Grito de Dolores is reenacted and Independence Day is celebrated, and whenever a Mexican boxer, driver, or film wins on the world stage.",
+    "The wider internet uses 🇲🇽 as shorthand for Mexican culture. Taco nights, mezcal tastings, Día de Muertos altars, mariachi and regional Mexican music, and beach trips to Cancún or Oaxaca all carry it. Football is constant: the national team, El Tri, has a devoted following on both sides of the border, and the flag fills replies during World Cups and Gold Cups.",
+    "The emblem at the center comes from the founding legend of Tenochtitlan, the Aztec capital that became Mexico City. The Mexica were said to have been told to settle where they found an eagle on a prickly pear cactus, and the image has identified the nation since independence. That emblem is the practical difference from Italy's flag, which uses similar colors and no symbol. Mexico's green and red are also darker, and the real flag is proportionally longer."
+  ],
+  "contexts": [
+    {
+      "label": "On Mexican holidays",
+      "body": "September 16 is Independence Day and the peak for 🇲🇽, with green, white, and red everywhere. Día de Muertos in early November pairs it with marigolds and skulls. Cinco de Mayo, which commemorates the 1862 Battle of Puebla, is a bigger occasion in the United States than in most of Mexico."
+    },
+    {
+      "label": "In sports",
+      "body": "El Tri matches, boxing nights featuring Mexican fighters, and Formula 1 races with a Mexican driver all draw waves of 🇲🇽. Fans in US stadiums use it heavily, since the national team regularly plays to large crowds there. Mexico has hosted the men's World Cup more than once, which adds host-nation pride to the mix."
+    },
+    {
+      "label": "Food and travel",
+      "body": "Restaurant reviews, recipe videos, and vacation photos use 🇲🇽 as a simple label. It often sits next to a taco, an avocado, or a chili pepper. Mexican cooks sometimes add it to distinguish regional dishes from Tex-Mex versions. Posts about Mexico City's restaurant scene have become a genre of their own."
+    }
+  ],
+  "examples": [
+    {
+      "text": "¡Viva México! 🇲🇽🎉 feliz 16 de septiembre",
+      "meaning": "Celebrating Mexican Independence Day."
+    },
+    {
+      "text": "Abuela's mole recipe, finally written down 🇲🇽",
+      "meaning": "Sharing a family dish with pride in its origin."
+    },
+    {
+      "text": "Two weeks in Oaxaca booked 🇲🇽✈️",
+      "meaning": "Announcing a trip to Mexico."
+    },
+    {
+      "text": "Gol de México!!! 🇲🇽🇲🇽",
+      "meaning": "Cheering a goal by the national football team."
+    },
+    {
+      "text": "Proud daughter of immigrants 🇲🇽🇺🇸",
+      "meaning": "Describing Mexican American identity."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇲🇽🌮",
+      "meaning": "Mexican food, from street tacos to a home-cooked dinner."
+    },
+    {
+      "combo": "🇲🇽🇺🇸",
+      "meaning": "Mexican American identity or cross-border topics."
+    },
+    {
+      "combo": "🇲🇽⚽",
+      "meaning": "El Tri and Mexican football."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-italy",
+      "difference": "🇮🇹 Italy's tricolor has the same color order but no emblem and lighter shades. In a small emoji the brown eagle in Mexico's white stripe is the quickest way to tell them apart."
+    },
+    {
+      "slug": "flag-spain",
+      "difference": "🇪🇸 Spain is sometimes chosen to mean “Spanish language,” which leads to it being used for Mexican content. The flags look nothing alike: Spain's is red and yellow in horizontal bands."
+    }
+  ],
+  "avoid": [
+    "Do not use it for all of Latin America or for Spanish speakers in general; each country has its own flag.",
+    "Avoid attaching it to caricatures such as sombrero-and-mustache jokes, which many Mexicans find tired or insulting."
+  ],
+  "design": "Three vertical bands of green, white, and red, with a small brown and green emblem in the middle that represents the eagle, cactus, and snake. Detail in the coat of arms is lost at emoji size, so it looks like a brownish smudge on most platforms. Windows renders the letters MX and no flag.",
+  "faqs": [
+    {
+      "q": "What is the difference between the Mexico and Italy flag emojis?",
+      "a": "Mexico's has a coat of arms in the central white stripe; Italy's is plain. Mexico's colors are also deeper. If the middle stripe of a green-white-red emoji is empty, it is Italy."
+    },
+    {
+      "q": "What does the eagle on the Mexican flag mean?",
+      "a": "It depicts the legend of the founding of Tenochtitlan, where the Mexica settled after seeing an eagle on a cactus. The scene has been Mexico's national emblem since the nineteenth century."
+    },
+    {
+      "q": "Is Cinco de Mayo Mexico's independence day?",
+      "a": "No. Independence Day is September 16. Cinco de Mayo marks a Mexican victory over French forces at Puebla in 1862, and it is celebrated far more widely in the United States than nationwide in Mexico."
+    },
+    {
+      "q": "Why do I see “MX” where the flag should be?",
+      "a": "The emoji consists of the regional indicator letters M and X. Devices with flag artwork merge them into Mexico's flag. Windows lacks that artwork in its emoji font and shows the two letters. The flag has been supported on phones since 2015."
+    }
+  ],
+  "related": [
+    "flag-united-states",
+    "flag-spain",
+    "flag-italy",
+    "taco",
+    "hot-pepper",
+    "cactus"
+  ]
+}

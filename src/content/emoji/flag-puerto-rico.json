@@ -1,0 +1,106 @@
+{
+  "slug": "flag-puerto-rico",
+  "title": "🇵🇷 Puerto Rico Flag Emoji: Boricua Pride Explained",
+  "description": "The Puerto Rico flag emoji 🇵🇷 has red and white stripes and a star on a blue triangle. See what it means, who uses it, and how it differs from Cuba's flag.",
+  "summary": "The 🇵🇷 emoji is the flag of Puerto Rico: five red and white stripes with a blue triangle at the pole holding one white star. Puerto Ricans on the island and across the mainland United States use it to express Boricua pride, and it follows the island's music, baseball, boxing, and food.",
+  "meaning": [
+    "Few flags are displayed with as much everyday devotion. Puerto Ricans hang it from car mirrors, wear it, tattoo it, and post 🇵🇷 constantly: in bios, under family photos, on recipes for mofongo and pasteles. The word that goes with it is Boricua, from Borikén, the Taíno name for the island. For the large communities in New York, Florida, Chicago, and elsewhere, the emoji states an identity that is distinct even though Puerto Ricans are US citizens.",
+    "Music has made the flag globally familiar. Reggaeton grew out of Puerto Rico, and artists like Daddy Yankee and Bad Bunny put the island at the center of their work; salsa legends did the same a generation earlier. Fans everywhere tag releases and concerts with 🇵🇷. Sport contributes too: baseball greats, world champion boxers, and the team's runs in the World Baseball Classic, when much of the island famously bleached its hair blond in support.",
+    "The flag dates from 1895, when Puerto Rican exiles in New York adopted a design modeled on the Cuban flag with the colors switched. It became the official flag in 1952. Puerto Rico is a territory of the United States, not a state or an independent country, and its future status is a long-running debate. It has an emoji because emoji flags are assigned by international region code, and Puerto Rico has its own: PR."
+  ],
+  "contexts": [
+    {
+      "label": "In music and nightlife",
+      "body": "New reggaeton and Latin trap releases bring 🇵🇷 to comment sections worldwide, as do salsa nights and festival sets. When a Puerto Rican artist headlines a major event, the flag works as a collective cheer from the island and the diaspora at once."
+    },
+    {
+      "label": "Parades and holidays",
+      "body": "New York's National Puerto Rican Day Parade each June is the emoji's biggest single day on the mainland. On the island, the long Christmas season, running into January with Three Kings Day and the San Sebastián Street Festival, generates steady use with food and music posts."
+    },
+    {
+      "label": "In sports",
+      "body": "Baseball and boxing lead. World Baseball Classic games, title fights, and Olympic moments such as the island's gold medals in tennis and hurdles set off rows of 🇵🇷. Puerto Rico fields its own Olympic team, separate from the United States, which gives these wins special weight."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Yo soy Boricua, pa' que tú lo sepas 🇵🇷",
+      "meaning": "Declaring Puerto Rican pride with a well-known chant."
+    },
+    {
+      "text": "New album at midnight, the island is not sleeping 🇵🇷🔥",
+      "meaning": "Anticipating a release from a Puerto Rican artist."
+    },
+    {
+      "text": "Abuela's pasteles are in the freezer, Christmas is saved 🇵🇷",
+      "meaning": "Looking forward to a traditional holiday dish."
+    },
+    {
+      "text": "See you at the parade on Fifth Ave Sunday 🇵🇷🇵🇷",
+      "meaning": "Making plans for the Puerto Rican Day Parade in New York."
+    },
+    {
+      "text": "Flying home to San Juan for Three Kings 🇵🇷✈️",
+      "meaning": "Returning to the island for the January holiday."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇵🇷🎶",
+      "meaning": "Reggaeton, salsa, and Puerto Rican music."
+    },
+    {
+      "combo": "🇵🇷🌴",
+      "meaning": "The island itself: beaches, home, or a trip there."
+    },
+    {
+      "combo": "🇵🇷⚾",
+      "meaning": "Puerto Rican baseball."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-cuba",
+      "difference": "🇨🇺 Cuba's flag is the same design with the colors exchanged: blue and white stripes and a red triangle. Puerto Rico has red and white stripes and a blue triangle. They are easily confused at emoji size."
+    },
+    {
+      "slug": "flag-united-states",
+      "difference": "🇺🇸 The US flag shares red and white stripes, blue, and white stars, and Puerto Rico is a US territory. The single star in a triangle is what identifies the Puerto Rican flag."
+    },
+    {
+      "slug": "flag-philippines",
+      "difference": "🇵🇭 The Philippines sits beside Puerto Rico in code order and also has a triangle at the hoist. Its triangle is white with a sun, and its bands are blue and red."
+    }
+  ],
+  "avoid": [
+    "Do not call Puerto Ricans foreigners or immigrants in US contexts; they are American citizens by birth.",
+    "Avoid swapping in the Cuban flag, a mistake that Puerto Ricans and Cubans both notice immediately."
+  ],
+  "design": "Five horizontal stripes alternate red and white, three red and two white. A blue triangle based on the hoist side contains a single white five-pointed star. Emoji vendors differ in the shade of blue, which reflects real life, where both light and dark blue versions are flown. Windows displays the letters PR.",
+  "faqs": [
+    {
+      "q": "How do I tell the Puerto Rico flag emoji from Cuba's?",
+      "a": "Look at the triangle. Puerto Rico's is blue with red stripes beside it. Cuba's is red with blue stripes. The layouts are otherwise the same because the Puerto Rican flag was modeled on the Cuban one."
+    },
+    {
+      "q": "Why does Puerto Rico have a flag emoji if it is not a country?",
+      "a": "Flag emojis are based on two-letter international region codes, not on political independence. Puerto Rico has the code PR, so it has a flag emoji, as do other territories such as Guam and the US Virgin Islands."
+    },
+    {
+      "q": "What does Boricua mean?",
+      "a": "It means Puerto Rican. The term comes from Borikén, the indigenous Taíno name for the island, and it is used with pride by Puerto Ricans everywhere, frequently next to 🇵🇷."
+    },
+    {
+      "q": "When was the Puerto Rico flag emoji added, and why do I see “PR”?",
+      "a": "It was added in 2015. The emoji is the letters P and R in special regional indicator form. Windows shows those letters because its emoji font has no country or territory flag images."
+    }
+  ],
+  "related": [
+    "flag-cuba",
+    "flag-united-states",
+    "flag-dominican-republic",
+    "musical-notes",
+    "palm-tree",
+    "baseball"
+  ]
+}

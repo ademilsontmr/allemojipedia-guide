@@ -1,0 +1,47 @@
+{
+  "slug": "ogre",
+  "title": "Ogre Emoji 👹 Meaning: The Red Oni Mask Explained",
+  "description": "The 👹 ogre emoji shows a Japanese oni, a horned red demon. See what it means in texts, why it signals rage or mischief, and how it differs from 👺 and 😈.",
+  "summary": "The 👹 ogre emoji shows an oni, the horned red demon of Japanese folklore. In everyday messages it stands for a monster: someone furious, a terrifying boss, a bratty kid, or the sender's own feral mood. It also appears literally around Japanese festivals, anime, horror, and Halloween.",
+  "meaning": [
+    "Most people who send 👹 have no idea it is an oni. They see a snarling red face with horns and fangs and use it as shorthand for 'monster.' That covers a lot of ground: a parent describing a toddler before nap time, a worker describing a manager on deadline day, or someone warning the group chat that they have not eaten yet and should not be approached. The tone is nearly always exaggerated and comic rather than a sincere threat.",
+    "The original reference is specific. Oni are ogre-like demons in Japanese folk stories, usually red or blue, carrying iron clubs and wearing tiger-skin loincloths. They are central to Setsubun, the early February tradition where families throw roasted soybeans and chant for demons to leave and good fortune to come in, often at a relative wearing a paper oni mask. The emoji came from Japanese carrier sets, which is why Unicode first called it Japanese Ogre.",
+    "Outside Japan, the emoji has picked up a second life in anime and gaming circles, where demons and oni characters are everywhere, and in tattoo and streetwear posts featuring oni mask art. Some people also use it for ugliness, either as a self-deprecating joke about a bad photo or, less kindly, as an insult. Because the face is so intense, a lone 👹 with no words can read as hostile, so it works best with a clear joke around it."
+  ],
+  "contexts": [
+    { "label": "In texting", "body": "Friends use 👹 to announce a foul mood in a way that invites laughter instead of concern. 'Me before coffee 👹' is the standard format. It is also a popular label for other people behaving badly: the ex, the landlord, the sibling who ate the leftovers. The demon face softens a complaint by turning it into a cartoon." },
+    { "label": "On TikTok and Instagram", "body": "Captions pair 👹 with gym footage, 'demon time' jokes, intense makeup looks, and oni mask tattoos. In fandom spaces it tags content about demon characters from anime and games. It also shows up in ironic comment spam, where the unsettling face is the whole joke and no deeper meaning is intended." },
+    { "label": "In Japan and on holidays", "body": "Japanese users reach for 👹 around Setsubun in early February, usually next to beans or the phrase 'oni wa soto.' It can describe a strict teacher or coach too, since calling someone an oni in Japanese is a common way to say they are merciless. Elsewhere, the emoji gets a seasonal bump at Halloween as a generic monster mask." }
+  ],
+  "examples": [
+    { "text": "Do not talk to me until I've eaten 👹", "meaning": "The sender is hangry and jokingly warns that they are a monster right now." },
+    { "text": "My boss when someone schedules over lunch 👹", "meaning": "A boss who turns scary and furious over a small offense, told as a joke." },
+    { "text": "Leg day unlocked something in me 👹🔥", "meaning": "The sender felt ferocious and unstoppable during a workout." },
+    { "text": "Happy Setsubun! Beans are ready 👹🫘", "meaning": "A literal reference to the Japanese bean-throwing tradition for driving out demons." },
+    { "text": "The twins skipped their nap. Pray for me 👹👹", "meaning": "Two overtired children are behaving like little demons." },
+    { "text": "Just saw my passport photo 👹", "meaning": "Self-deprecating humor: the sender thinks they look monstrous in the picture." }
+  ],
+  "combos": [
+    { "combo": "👹👺", "meaning": "The classic Japanese monster pair, used for folklore, masks, or two troublemakers acting together." },
+    { "combo": "👹🔥", "meaning": "Demon mode: fierce energy for a workout, a game, or a heated argument." },
+    { "combo": "👹🫘", "meaning": "Setsubun, when beans are thrown to chase oni out of the house." },
+    { "combo": "😴➡️👹", "meaning": "A transformation joke about turning monstrous when woken up or disturbed." }
+  ],
+  "confusedWith": [
+    { "slug": "goblin", "difference": "👺 is a tengu, a different Japanese creature with a long nose and a scowl. People treat the two as a set, but the ogre reads as raw fury and brute force while the goblin leans toward arrogance, grumpiness, and trolling." },
+    { "slug": "angry-face-with-horns", "difference": "👿 is a purple smiley-style devil that expresses a person's own grumpy or wicked feeling. 👹 depicts a separate creature, so it more often labels someone or something as a monster than describes a passing emotion." }
+  ],
+  "avoid": [
+    "Skip it when you are actually angry with someone, because the cartoon monster can make a real grievance look like a joke or like a threat.",
+    "Do not attach it to a photo of another person unless you are sure they will take being called a monster as teasing.",
+    "Leave it out of professional messages, where a snarling demon face has no reading that helps you."
+  ],
+  "design": "Every major platform draws a red face with two horns, bulging eyes, a wide grimace, and fangs, usually framed by wild dark hair. The style is closer to a festival mask than a living creature, and Apple's version is often compared to the namahage masks of northern Japan. Colors and hair differ a little between vendors, but the red skin and horns are constant.",
+  "faqs": [
+    { "q": "What does 👹 mean from a guy or a girl?", "a": "Gender does not change it. Whoever sends it is usually joking that they, or someone they are describing, is being a monster: angry, hungry, cranky, or wild. In flirty chats it can mean 'I am trouble,' similar to 😈 but stranger and less smooth." },
+    { "q": "Is the ogre emoji a devil?", "a": "Not in the Christian sense. It depicts an oni, a demon from Japanese folklore that is closer to an ogre or troll. Oni are villains in many stories, but they also appear as protective figures on roof tiles and in festivals." },
+    { "q": "Why is the ogre emoji red?", "a": "Red is the most familiar oni color in Japanese art and children's stories, where a red oni and a blue oni often appear together. Emoji designers followed that convention, and all major vendors kept the red skin." },
+    { "q": "When was the 👹 emoji added?", "a": "It became part of the Unicode standard in 2010, carried over from emoji sets used by Japanese mobile carriers. Its original Unicode name was Japanese Ogre, later shortened to Ogre in emoji listings." }
+  ],
+  "related": ["goblin", "angry-face-with-horns", "smiling-face-with-horns", "ghost", "skull", "enraged-face"]
+}

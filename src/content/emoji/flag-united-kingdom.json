@@ -1,0 +1,106 @@
+{
+  "slug": "flag-united-kingdom",
+  "title": "🇬🇧 UK Flag Emoji Meaning: Union Jack, Not England",
+  "description": "The UK flag emoji 🇬🇧 shows the Union Jack and stands for Britain as a whole. Learn how it differs from the England, Scotland and Wales flags and how it's used.",
+  "summary": "The 🇬🇧 emoji is the Union Jack, flag of the United Kingdom of Great Britain and Northern Ireland. It is used for British identity, London trips, royal occasions, Team GB, British music and television, and jokes about tea and queueing. It represents the whole UK, not England alone.",
+  "meaning": [
+    "People reach for 🇬🇧 whenever “British” is the point: a holiday in London, a new season of a BBC drama, a royal wedding or coronation, a Eurovision entry, a parcel shipping from the UK. It labels British English in language menus and British accents in comment sections. Fashion and music lean on it too, since the Union Jack has been a pop-culture motif from the mod era through Britpop and the Spice Girls.",
+    "A running joke attaches to it as well. In recent years meme accounts have used 🇬🇧 to tease British accents and habits, spelling out dropped consonants in phrases like “bo'le o' wa'er.” A lone 🇬🇧 replying to a photo of beans on toast or a drizzly beach is this kind of gentle mockery. Britons generally play along, and plenty of the jokes are written by them.",
+    "The flag combines three older crosses: the red cross of St George for England, the white diagonal cross of St Andrew for Scotland, and the red diagonal cross of St Patrick for Ireland. Its present form dates from 1801. Wales is not separately represented. Because the UK's nations often compete on their own, especially in football and rugby, fans frequently skip 🇬🇧 in favor of the individual England, Scotland, or Wales flag emojis. Northern Ireland has no flag emoji."
+  ],
+  "contexts": [
+    {
+      "label": "In sports",
+      "body": "At the Olympics the UK competes together as Team GB, so 🇬🇧 is the right flag for medal posts. In football, rugby, and the Commonwealth Games the home nations play separately, and using the Union Jack for an England match is a common slip that Scottish and Welsh fans will point out."
+    },
+    {
+      "label": "Royal and national events",
+      "body": "Coronations, jubilees, royal weddings, and funerals fill timelines with 🇬🇧, as do Remembrance Sunday and the Last Night of the Proms. Bunting and street-party photos get the same treatment. In these posts the flag is ceremonial and usually sincere. Coverage of royal tours abroad uses it the same way."
+    },
+    {
+      "label": "Travel and culture",
+      "body": "Tourists tag London, Edinburgh, and Belfast trips with 🇬🇧, often beside a red bus, a guard, or a cup of tea. Fans use it for British bands, panel shows, and bake-off seasons. Sellers and streaming services use it to mean UK release dates, UK pricing, or UK-only availability."
+    }
+  ],
+  "examples": [
+    {
+      "text": "London for the weekend, send pub recs 🇬🇧",
+      "meaning": "Announcing a trip to the UK and asking for suggestions."
+    },
+    {
+      "text": "Team GB taking gold in the velodrome again 🇬🇧🥇",
+      "meaning": "Celebrating a British Olympic cycling win."
+    },
+    {
+      "text": "Queued forty minutes for a sandwich and didn't complain once 🇬🇧",
+      "meaning": "A self-mocking joke about British manners."
+    },
+    {
+      "text": "UK tour dates announced!! 🇬🇧 Manchester I'm coming",
+      "meaning": "A fan excited about concerts in Britain."
+    },
+    {
+      "text": "It's chewsday innit 🇬🇧",
+      "meaning": "Teasing a British accent, in the style of a popular meme."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🇬🇧☕",
+      "meaning": "Tea-drinking Britishness, usually affectionate stereotype."
+    },
+    {
+      "combo": "🇬🇧👑",
+      "meaning": "The monarchy or a royal event."
+    },
+    {
+      "combo": "🇬🇧🇺🇸",
+      "meaning": "British-American ties, a transatlantic relationship, or a comparison between the two."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "flag-england",
+      "difference": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England's flag is a red cross on white. England is one of four parts of the UK, so the Union Jack is not interchangeable with it, particularly in football."
+    },
+    {
+      "slug": "flag-australia",
+      "difference": "🇦🇺 Australia's flag carries a small Union Jack in its corner on a blue field with white stars. New Zealand's does too. In a tiny emoji the corner can make them look British at a glance."
+    },
+    {
+      "slug": "flag-scotland",
+      "difference": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland's saltire, a white diagonal cross on blue, is one ingredient of the Union Jack. Scots posting about Scotland specifically usually choose the saltire."
+    }
+  ],
+  "avoid": [
+    "Do not use it to mean England only, or for Ireland; the Republic of Ireland is a separate country with its own flag 🇮🇪.",
+    "Be thoughtful with it in Northern Ireland contexts, where flags carry strong and divided political meanings."
+  ],
+  "design": "The emoji shows the Union Jack: a blue field with a red cross edged in white laid over red and white diagonals. Vendors draw it waving or flat, and at small sizes the offset of the red diagonals is often simplified. On Windows the flag is replaced by the letters GB.",
+  "faqs": [
+    {
+      "q": "Why is the UK flag emoji “GB” and not “UK”?",
+      "a": "Flag emojis are built from two-letter ISO country codes, and the United Kingdom's code is GB. The emoji is formed by the regional indicator letters G and B, which is also why Windows displays those letters in place of the flag."
+    },
+    {
+      "q": "Is 🇬🇧 the flag of England?",
+      "a": "No. It is the flag of the whole United Kingdom: England, Scotland, Wales, and Northern Ireland. England has its own emoji, a red cross on a white background, added later than the Union Jack."
+    },
+    {
+      "q": "Is it Union Jack or Union Flag?",
+      "a": "Both names are in common use and both are accepted as correct in Britain. Union Jack is far more familiar internationally, and it is the term most people search for."
+    },
+    {
+      "q": "What does 🇬🇧 mean on TikTok?",
+      "a": "Often it simply tags British content. In comments it is also a punchline that pokes fun at British food, weather, and accents. The tone is nearly always teasing and not hostile."
+    }
+  ],
+  "related": [
+    "flag-england",
+    "flag-scotland",
+    "flag-wales",
+    "flag-ireland",
+    "crown",
+    "hot-beverage"
+  ]
+}

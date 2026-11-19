@@ -1,0 +1,56 @@
+{
+  "slug": "video-game",
+  "title": "Video Game Emoji 🎮 Meaning: Gaming, Streams and “Hop On”",
+  "description": "The 🎮 video game emoji means gaming: “hop on tonight,” stream schedules, new releases and gamer bios. See what it signals in texts and how it differs from 🕹️.",
+  "summary": "The 🎮 video game emoji shows a controller and means gaming of any kind. People send it to invite friends online, announce a stream, celebrate a new release or label themselves as gamers. Occasionally it accuses someone of “playing games” with another person’s feelings.",
+  "meaning": [
+    "A controller is the universal sign for “I’m playing,” so 🎮 covers the whole hobby regardless of platform. It appears in messages arranging a session, in status lines explaining why someone is unavailable and in posts about consoles, PC titles and mobile games alike. Even players who only use a keyboard and mouse use it, because no emoji represents gaming more clearly.",
+    "Much of its use is social scheduling. “🎮?” in a group chat asks whether anyone wants to get online, and a reply of 🎮 means yes. Streamers put it in titles and going-live announcements, and Discord servers use it to name channels and roles. In dating and social bios it tells people that gaming is a real part of the person’s life, not a passing interest.",
+    "There is one figurative meaning worth knowing. Because “playing games” describes manipulative or inconsistent behavior in relationships, 🎮 sometimes accompanies an accusation like “I’m done with the games.” A related use is the “player,” someone juggling several romantic interests. These are occasional twists; in the overwhelming majority of messages the emoji is about actual games."
+  ],
+  "contexts": [
+    {
+      "label": "In gaming",
+      "body": "Players use 🎮 for squad invites, release-day excitement, patch news and clips of good plays. It often sits beside 🎧 for voice chat and 🔥 for a winning run. In community spaces it tags looking-for-group posts. The emoji is platform neutral, so it does not start arguments about which console is best."
+    },
+    {
+      "label": "In texting",
+      "body": "With friends it is an invitation or an explanation: “on in ten 🎮” or “sorry, was mid-match 🎮.” Parents use it when negotiating screen time. Partners sometimes send it with a sigh, as in “he’s 🎮 again,” to say the other person is occupied for the evening and not to expect quick replies."
+    },
+    {
+      "label": "From a crush",
+      "body": "If someone you like sends 🎮 with an invite, they are offering to spend time together in a low-pressure way, since playing online is a common way to hang out. In an argument, though, “no more 🎮” means they feel toyed with and want straight answers about where things stand."
+    }
+  ],
+  "examples": [
+    { "text": "Hop on at 9? 🎮", "meaning": "Inviting a friend to play online together tonight." },
+    { "text": "Day off + new release = don’t text me 🎮", "meaning": "They plan to spend the whole day playing a game that just came out." },
+    { "text": "Live in 5 🎮 come hang out", "meaning": "A streamer announcing a broadcast is about to start." },
+    { "text": "I’m too old for the 🎮, just tell me if you’re interested", "meaning": "They want honesty and are tired of mixed signals." },
+    { "text": "Finally beat the last boss 🎮😮‍💨", "meaning": "Relief and pride after finishing a difficult part of a game." }
+  ],
+  "combos": [
+    { "combo": "🎮🎧", "meaning": "Headset on, in voice chat and locked into a session." },
+    { "combo": "🎮🍕", "meaning": "A game night with food, at home or with friends over." },
+    { "combo": "🎮🌙", "meaning": "A late-night session that will probably run longer than intended." },
+    { "combo": "🎮❤️", "meaning": "Love of gaming, or affection for a partner who plays alongside you." }
+  ],
+  "confusedWith": [
+    { "slug": "joystick", "difference": "🕹️ is an arcade-style stick with a red ball top. It suggests retro games, arcades and nostalgia, while 🎮 is the modern gamepad used for gaming in general." },
+    { "slug": "alien-monster", "difference": "👾 is a pixelated creature in the style of early arcade invaders. It represents retro games and gaming culture as a mascot, not the act of playing, which is what the controller conveys." },
+    { "slug": "game-die", "difference": "🎲 covers board games, tabletop role-playing and chance. If the plan involves a table and snacks rather than a screen, the die is the better pick." }
+  ],
+  "avoid": [
+    "Do not send 🎮 as an excuse after ignoring someone’s serious message; it tells them a game ranked higher.",
+    "Avoid the “playing games” use in professional settings, where it sounds accusatory and unclear."
+  ],
+  "design": "The emoji depicts a two-handled gamepad with a directional pad and face buttons. Colors and inspiration vary: designs range from black and dark gray to white or lighter gray, and some older designs clearly echoed specific classic consoles. None carries a brand logo, and every version is immediately recognizable as a game controller.",
+  "faqs": [
+    { "q": "What does 🎮 mean from a guy or a girl?", "a": "Most likely that they are gaming or want to game with you. An invite with 🎮 is a friendly, sometimes flirty offer to spend time together online. Only when paired with words about honesty does it mean “stop playing games.”" },
+    { "q": "What is the difference between 🎮 and 🕹️?", "a": "The controller stands for gaming now: consoles, PC and online play. The joystick evokes arcades and older machines. Retro channels and nostalgia posts favor 🕹️; nearly everything else uses 🎮." },
+    { "q": "What does 🎮 mean in a bio?", "a": "It identifies the person as a gamer. Streamers, competitive players and casual fans all use it, often followed by favorite titles or a gamertag. On dating apps it also hints at how they like to spend free evenings." },
+    { "q": "Does 🎮 ever mean a “player” in dating?", "a": "Sometimes. Calling someone a 🎮 or saying they have “too much game” can mean they flirt with many people or are not serious. This slang is far less common than the literal meaning, so do not assume it." },
+    { "q": "Which controller is the emoji based on?", "a": "None officially. Unicode only specifies a video game controller, and each company draws its own. Some designs have resembled well-known gamepads over the years, but they are deliberately unbranded." }
+  ],
+  "related": ["alien-monster", "joystick", "headphone", "game-die", "trophy", "robot"]
+}
