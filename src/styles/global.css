@@ -165,7 +165,7 @@ details.faq .a p:last-child { margin: 0; }
 .takeaways h2 { margin: 0 0 .6em; font-size: 1.05rem; }
 .takeaways ul { margin: 0; }
 .article-hero { padding: 26px 0 6px; }
-.article-hero .em { font-size: 3.4rem; line-height: 1; display: block; margin-bottom: 10px; }
+.article-hero > .em { font-size: 3.4rem; line-height: 1; display: block; margin-bottom: 10px; }
 
 /* quiz */
 .quiz { max-width: 620px; margin: 0 auto; text-align: center; }

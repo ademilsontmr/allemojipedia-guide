@@ -1,0 +1,108 @@
+{
+  "slug": "orthodox-cross",
+  "title": "Orthodox Cross Emoji ☦️ Meaning: Three Bars, Explained",
+  "description": "☦️ is the three-bar cross of Orthodox Christianity. Learn what each bar means, who uses it for Pascha and saints' days, and how it differs from the Latin cross ✝️.",
+  "summary": "The ☦️ Orthodox cross emoji shows a cross with three horizontal bars, the lowest one slanted. It is the cross of Eastern Orthodox Christianity, especially in Slavic churches, and of Eastern Catholics who share that tradition. People use it to express faith, mark Pascha and feast days, and offer prayers.",
+  "meaning": [
+    "The three bars each have a meaning in tradition. The short top bar represents the sign Pilate placed above Jesus, inscribed \"Jesus of Nazareth, King of the Jews.\" The long middle bar is where his arms were nailed. The slanted lower bar is the footrest, and a common explanation is that it tilts up toward the thief who repented and down toward the one who did not.",
+    "This form is most associated with Russian, Ukrainian, Belarusian, Serbian, and other Slavic Orthodox churches, and it appears on onion domes, icons, and gravestones throughout Eastern Europe. Greek Orthodox Christians more often use a simple equal-armed cross, so ☦️ is not the only Orthodox cross. Ukrainian Greek Catholics and other Eastern Catholics, who are in communion with Rome, also use the three-bar cross.",
+    "Online, ☦️ works like ✝️ does for Western Christians: an identity marker in bios, a sign-off on prayers, and a symbol on religious holidays. It is used heavily around Pascha, the Orthodox Easter, which often falls on a different Sunday from Western Easter because the date is calculated with the Julian calendar. Christmas posts on January 7, the date many Orthodox churches keep, use it too.",
+    "In recent years the emoji has also become a recognizable badge for converts and young believers who discuss Orthodoxy online, sometimes with a jokey self-awareness about being enthusiastic newcomers. That usage is still sincere in faith terms; the emoji itself carries no irony. Families in the diaspora use it just as much, often beside a national flag, to mark faith and heritage together."
+  ],
+  "contexts": [
+    {
+      "label": "On Pascha and feast days",
+      "body": "The traditional Paschal greeting, \"Christ is risen!\" answered with \"Truly He is risen!\", is posted in many languages with ☦️. It also marks Theophany, the Dormition, saints' days, and name days, which many Orthodox families celebrate like birthdays. Church accounts use it for service times and Lenten schedules."
+    },
+    {
+      "label": "In bios",
+      "body": "A ☦️ in a profile identifies the person as Orthodox Christian, or as an Eastern Catholic of the Byzantine tradition. It is often combined with a flag, a parish name, or a short prayer. For many in diaspora communities it signals both faith and cultural heritage."
+    },
+    {
+      "label": "In memorials",
+      "body": "Orthodox death notices and memorial posts often use ☦️, and the cross after a name can mark that the person has died. Memorial services held on set days after a death, such as the fortieth day, are announced with it. The usual reply is \"May their memory be eternal.\""
+    }
+  ],
+  "examples": [
+    {
+      "text": "Христос воскресе! Christ is risen! ☦️",
+      "meaning": "The Paschal greeting, posted in Church Slavonic and English."
+    },
+    {
+      "text": "Happy name day, Nikolai ☦️🎉",
+      "meaning": "Celebrating the feast of the saint someone is named after."
+    },
+    {
+      "text": "Merry Christmas to everyone celebrating today, January 7 ☦️🎄",
+      "meaning": "Christmas greetings on the Julian calendar date."
+    },
+    {
+      "text": "Memory eternal, Baba ☦️🕯️",
+      "meaning": "An Orthodox memorial message for a grandmother who died."
+    },
+    {
+      "text": "Divine Liturgy at 9:30 this Sunday ☦️",
+      "meaning": "A parish announcement of the main Sunday service."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "☦️🕯️",
+      "meaning": "Prayer before an icon, a lit candle in church, or remembrance of the dead."
+    },
+    {
+      "combo": "☦️🥚",
+      "meaning": "Pascha, when Orthodox families crack red-dyed eggs."
+    },
+    {
+      "combo": "☦️🙏",
+      "meaning": "Orthodox prayer, offered for someone or requested."
+    },
+    {
+      "combo": "☦️⛪",
+      "meaning": "Going to church or Divine Liturgy."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "latin-cross",
+      "difference": "✝️ has a single crossbar and is the main cross of Catholic and Protestant Christianity. ☦️ has three bars with a slanted bottom and belongs to the Eastern tradition. Both point to the same faith in Christ."
+    },
+    {
+      "slug": "star-of-david",
+      "difference": "✡️ is a six-pointed star, the symbol of Judaism. It sits in the same purple-tiled religion group as ☦️, which is the only reason people sometimes tap the wrong one."
+    }
+  ],
+  "avoid": [
+    "Do not use ☦️ as a decorative or edgy symbol; it is a sacred sign for millions of believers.",
+    "Avoid assuming every Orthodox Christian uses it, since Greek and some other traditions prefer a plain cross.",
+    "Keep it out of political arguments unless your meaning is clear, because national and church identity often overlap in sensitive ways."
+  ],
+  "design": "A white cross on a purple square on most platforms, matching the other religious symbols. It has a short bar near the top, a long main crossbar, and a short slanted bar near the base. The base character is an old text symbol, so without emoji styling it can appear as a plain black glyph.",
+  "faqs": [
+    {
+      "q": "Why is the bottom bar of ☦️ slanted?",
+      "a": "It represents the footrest of the cross. One common explanation is that it points upward toward the thief who repented and was promised paradise, and downward toward the thief who mocked Jesus."
+    },
+    {
+      "q": "Do Catholics use ☦️?",
+      "a": "Some do. Eastern Catholics, such as Ukrainian Greek Catholics and Ruthenians, use the three-bar cross because they share the Byzantine tradition while being in communion with Rome. Most Roman Catholics use ✝️."
+    },
+    {
+      "q": "Why do Orthodox Christians celebrate Easter on a different date?",
+      "a": "Orthodox churches calculate Pascha using the Julian calendar, so it often falls one or more weeks after Western Easter. In some years the two dates coincide."
+    },
+    {
+      "q": "When was ☦️ added as an emoji?",
+      "a": "The character has existed in Unicode as a text symbol since the early 1990s. It received emoji status in 2015 with Emoji 1.0, which is why it is supported on all modern devices."
+    }
+  ],
+  "related": [
+    "latin-cross",
+    "church",
+    "candle",
+    "folded-hands",
+    "star-of-david",
+    "prayer-beads"
+  ]
+}

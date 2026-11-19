@@ -1,0 +1,57 @@
+{
+  "slug": "church",
+  "title": "Church Emoji ⛪ Meaning: Mass Times, Weddings and Faith",
+  "description": "⛪ stands for a church building: Sunday Mass, parish news, weddings and baptisms. See how people use the church emoji and how it differs from 🛐 and ✝️.",
+  "summary": "The ⛪ church emoji shows a Christian church building with a steeple and a cross. People use it for going to church or Mass, sharing parish news and service times, announcing weddings and baptisms, and generally pointing to Christian worship as a place and a community rather than a belief.",
+  "meaning": [
+    "⛪ is about the building and what happens inside it. \"Church at 10 ⛪\" is a plan, not a creed. That makes it different from ✝️, which states faith directly. People reach for the church when they are talking about attending: Sunday service, Saturday vigil Mass, choir practice, youth group, a funeral, or simply \"heading to church with Grandma.\"",
+    "Parishes and congregations lean on it heavily. Bulletins shared on Facebook, WhatsApp groups for parish volunteers, and Instagram posts from churches use ⛪ to flag Mass and confession times, holiday schedules, fish fries, and fundraisers. Catholic parishes often post it ahead of holy days of obligation, Ash Wednesday, Holy Week, and Christmas, when schedules change and extra liturgies are added.",
+    "Life events are the other big use. Weddings are the classic case: \"Church at 2, reception at 6 ⛪💒.\" Baptisms, First Communions, confirmations, and funerals all get the emoji when people share the where and when. In Japan, where the emoji originated, it is also associated with chapel-style weddings, which are popular regardless of the couple's religion.",
+    "Slang use is modest. Some people answer a strong opinion with \"Church!\" or \"Say it louder for the people in the back ⛪\" in the sense of \"preach\" or \"amen to that,\" borrowing the call-and-response energy of a sermon. Others use it jokingly for any ritual they treat as sacred, like Sunday football or a favorite brunch spot."
+  ],
+  "contexts": [
+    {
+      "label": "In parish posts",
+      "body": "Parish social accounts and bulletins use ⛪ next to Mass times, confession hours, adoration schedules, and event notices. \"Christmas Mass schedule ⛪: Vigil 4 p.m., Midnight Mass, Christmas Day 9 and 11.\" It works as a visual label that tells scrolling parishioners the post is about the church calendar rather than general news."
+    },
+    {
+      "label": "In family group chats",
+      "body": "It is the shorthand for plans: who is going to Mass, which service, and who is saving seats. Grandparents use it to remind grandchildren about Sunday, and families coordinate Easter and Christmas attendance with it. A lone ⛪ reply to \"where are you?\" means the sender is at church and will answer later."
+    },
+    {
+      "label": "On wedding and baptism days",
+      "body": "Invitations, countdowns, and day-of updates use ⛪ for the ceremony itself, often beside 💒 for the wedding or 💍 for the ring. Godparents and relatives post it with photos outside the church after a baptism or First Communion, marking a milestone tied to that particular place."
+    }
+  ],
+  "examples": [
+    { "text": "Saturday vigil Mass is at 5 this week, not 5:30 ⛪", "meaning": "A parish or family reminder about a changed service time." },
+    { "text": "Picking you up for church at 9:15 ⛪", "meaning": "Plain logistics for attending Sunday service together." },
+    { "text": "Ceremony at St. Joseph's at 2, reception at the hall after ⛪💒", "meaning": "Wedding details, with the church as the ceremony venue." },
+    { "text": "Baby's baptism this Sunday! ⛪💧", "meaning": "Announcing a baptism and inviting family to the church." },
+    { "text": "Can't talk, in church ⛪", "meaning": "The sender is at a service and will reply afterward." },
+    { "text": "\"Pineapple doesn't belong on pizza.\" Church ⛪", "meaning": "Joking agreement, like saying \"preach\" or \"amen to that.\"" }
+  ],
+  "combos": [
+    { "combo": "⛪🙏", "meaning": "Going to pray, or asking for prayers at the next service." },
+    { "combo": "⛪💒", "meaning": "A church wedding, from the ceremony to the celebration." },
+    { "combo": "⛪🔔", "meaning": "Church bells, a call to Mass, or a wedding about to begin." },
+    { "combo": "⛪🎄", "meaning": "Christmas services, such as Midnight Mass or a Christmas Eve vigil." }
+  ],
+  "confusedWith": [
+    { "slug": "place-of-worship", "difference": "🛐 is a generic worship symbol, usually a figure in prayer on a purple tile, and is not tied to one religion. ⛪ is specifically a Christian church building with a cross on the steeple." },
+    { "slug": "latin-cross", "difference": "✝️ is the cross on its own and states Christian faith or identity. ⛪ names the place and the gathering, so it suits service times, plans, and events better than a bare cross." },
+    { "slug": "classical-building", "difference": "🏛️ shows columns and a pediment, used for courts, museums, banks, and government. It is sometimes picked by mistake for a church, but it has no religious meaning." }
+  ],
+  "avoid": [
+    "Do not use ⛪ for a mosque, synagogue, or temple; 🕌, 🕍, and 🛕 exist for those.",
+    "Avoid it as a joke reply in a conversation about someone's funeral or church-related grief, where it can read as flippant."
+  ],
+  "design": "A small church with a pitched roof, an arched door, and a steeple topped by a cross. Most platforms draw it in white or light stone with a colored roof, and some add a round rose window or a bell in the tower. Designs are broadly consistent, and all show a Western-style church rather than a cathedral or an Orthodox onion dome.",
+  "faqs": [
+    { "q": "What is the difference between ⛪ and 💒?", "a": "💒 is the wedding emoji: a chapel with a heart above it, used for weddings and marriage itself. ⛪ is a plain church used for services, Mass, and any church event. For a church wedding, people often use both together." },
+    { "q": "Is ⛪ only for Catholic churches?", "a": "No. It represents any Christian church building, Catholic, Protestant, or otherwise. Catholic parishes use it for Mass times just as Baptist or Methodist congregations use it for Sunday services." },
+    { "q": "What does it mean when someone replies \"Church\" with ⛪?", "a": "It is slang for strong agreement, like \"preach\" or \"amen.\" The idea is that the statement was so true it deserves a congregation's response. It is playful, not literally religious." },
+    { "q": "When was the church emoji added?", "a": "⛪ was part of the first wave of emojis standardized in 2010, which drew on the Japanese mobile carrier sets. It has been supported on virtually every phone and computer for many years." }
+  ],
+  "related": ["latin-cross", "folded-hands", "place-of-worship", "bell", "prayer-beads", "orthodox-cross"]
+}

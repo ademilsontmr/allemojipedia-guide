@@ -19,6 +19,7 @@ export const GET: APIRoute = async () => {
     ...[...pages.values()].map((e): [string, string] => [emojiUrl(e.data.slug), e.data.updated ?? SITE.launched]),
     ["/guides/", latest(guideDates)],
     ...guides.map((g): [string, string] => [`/guides/${g.id}/`, iso(g.data.updatedDate ?? g.data.pubDate)]),
+    ["/emoji-copy-and-paste/", SITE.launched],
     ["/flag-emoji-quiz/", SITE.launched],
     ["/about/", SITE.launched],
     ["/editorial-policy/", SITE.launched],

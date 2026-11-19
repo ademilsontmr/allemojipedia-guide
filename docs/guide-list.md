@@ -35,3 +35,5 @@
 | thanksgiving-emojis | Thanksgiving emojis: copy-and-paste sets, meanings, greetings and captions (US Thanksgiving, also note Canada's in October) |
 | black-friday-emojis | Black Friday and Cyber Monday emojis: copy sets, meanings, and how shops and shoppers use them (deal posts, subject lines, captions) |
 | new-years-emojis | New Year's Eve and New Year emojis: copy sets, countdown and midnight messages, resolutions, and celebrations around the world |
+| nativity-emojis | Nativity scene emojis: building the manger scene in emoji (👶 🐂 🫏 🐑 🐪 🛖 🌟 👼), the Star of Bethlehem, the Magi, and how Christians use them in Advent and Christmas posts |
+| all-saints-all-souls-emojis | All Saints' Day (Nov 1) and All Souls' Day (Nov 2) emojis: what each day commemorates, respectful emojis for remembering the dead, and how they differ from Halloween and Día de los Muertos |

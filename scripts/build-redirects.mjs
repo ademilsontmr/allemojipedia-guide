@@ -38,7 +38,11 @@ for (const [from, slug] of [
   ["/blog/flag-emojis-complete-guide", "flag-emojis-explained"], ["/blog/european-flags-that-look-similar", "flags-that-look-alike"],
   ["/blog/complete-guide-emoji-keyboards", "how-to-type-emojis-on-any-device"], ["/blog/iphone-emojis-on-android", "iphone-vs-android-emojis"],
   ["/blog/emoji-combinations", "emoji-combos-ideas"],
-  ["/blog/thanksgiving-emoji-meaning", "thanksgiving-emojis"], ["/blog/new-year-emoji-meanings", "new-years-emojis"],
+  ["/blog/thanksgiving-emoji-meaning", "thanksgiving-emojis"],
+  // Linked from catholicbibleonline.com and guidecatholic.com
+  ["/blog/catholic-holiday-emojis", "christian-emojis-meanings"], ["/blog/nativity-scene-meaning", "nativity-emojis"],
+  ["/blog/star-of-bethlehem-meaning", "nativity-emojis"], ["/blog/all-saints-all-souls-emojis", "all-saints-all-souls-emojis"],
+  ["/emoji-combos/christmas-combo", "christmas-emojis-meanings"], ["/blog/new-year-emoji-meanings", "new-years-emojis"],
   ["/blog/christmas-emojis-meaning", "christmas-emojis-meanings"], ["/blog/christmas-emoji-combos", "christmas-emojis-meanings"],
   ["/blog/christmas-tree-emoji-meaning", "christmas-emojis-meanings"], ["/blog/catholic-christmas-advent-emojis", "christian-emojis-meanings"],
   ["/blog/advent-wreath-meaning", "christian-emojis-meanings"], ["/blog/advent-christmas-candle-meaning", "christian-emojis-meanings"],
@@ -50,8 +54,9 @@ for (const [from, slug] of [
 lines.push("", "# Other old sections");
 for (const [from, to] of [
   ["/flag-quiz", "/flag-emoji-quiz/"], ["/blog", "/guides/"], ["/emoji-meanings", "/emojis/"], ["/emoji-comparisons", "/emojis/"],
-  ["/emoji-copy-and-paste", "/categories/"], ["/copy-iphone-emojis", "/categories/"], ["/copy-android-emojis", "/categories/"],
-  ["/copy-samsung-emojis", "/categories/"], ["/people", "/categories/people-and-body/"], ["/sitemap", "/categories/"],
+  ["/copy-iphone-emojis", "/emoji-copy-and-paste/"], ["/copy-android-emojis", "/emoji-copy-and-paste/"],
+  ["/copy-samsung-emojis", "/emoji-copy-and-paste/"], ["/blog/skull-emoji-meaning", "/emojis/skull/"],
+  ["/emoji-combos/thank-you-prayer-combo", "/emojis/folded-hands/"], ["/people", "/categories/people-and-body/"], ["/sitemap", "/categories/"],
 ]) add(`${from}/`, to);
 lines.push("", "# Dynamic rules (after every static rule above)");
 for (const r of [

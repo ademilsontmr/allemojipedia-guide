@@ -1,0 +1,57 @@
+{
+  "slug": "open-book",
+  "title": "Open Book Emoji 📖 Meaning: Reading, Study and Scripture",
+  "description": "📖 means reading in progress: a novel, homework, BookTok reviews or a daily Bible verse. Learn how the open book emoji is used and how it differs from 📚 and 📕.",
+  "summary": "The 📖 open book emoji means reading or studying. People use it for the book they are currently reading, homework and exam prep, book club plans, and story time with kids. In Christian posts it often marks Scripture: a daily verse, the Sunday readings, or a Bible study.",
+  "meaning": [
+    "The pages are spread open, so 📖 is about the act of reading rather than books as objects. \"Currently reading 📖\" posts, reading-challenge updates, and \"finally finished it 📖\" all use it this way. A closed book like 📕 or a stack like 📚 suggests a collection, a library, or schoolwork in general, while the open book says someone is in the middle of something.",
+    "Studying is the second big use. Students post 📖 for late-night cramming and assigned chapters, often paired with ✏️, ☕, or a crying face in exam season. Teachers and libraries use it for reading lists, story time, and literacy events. On BookTok and Bookstagram it labels reviews, quotes, and trope lists, usually beside star ratings or 🔥 for a book that hooked the reader.",
+    "For many Christians, 📖 stands for the Bible. Verse-of-the-day posts, Bible study invitations, and parish posts about the Sunday readings use it, often next to ✝️ or 🙏. Catholics share the daily Mass readings with it, and Lectio Divina, the slow prayerful reading of Scripture, is a natural fit. It also appears with other sacred texts, including the Quran and the Torah, when people share passages.",
+    "There is a smaller playful use. In drag and ballroom slang, \"reading\" someone means insulting them cleverly, and \"the library is open\" announces that the reading is about to begin. 📖 occasionally shows up in that sense, especially in comments under a sharp clapback. It also marks storytelling in general, such as \"story time 📖\" before a long anecdote."
+  ],
+  "contexts": [
+    {
+      "label": "On BookTok and Bookstagram",
+      "body": "Book creators open captions with 📖 to signal a review, a monthly wrap-up, or a quote card. It sits alongside star ratings, page counts, and genre tags. \"Currently reading 📖\" is a recurring post format, and readers in comments use it to say they picked up a book on someone's recommendation."
+    },
+    {
+      "label": "In church and Bible study",
+      "body": "Parish and ministry accounts use 📖 for Sunday readings, Gospel reflections, and study group announcements. Individuals post a verse reference with it each morning. During Advent and Lent, groups doing daily reading plans check in with 📖 to show they kept up with the day's passage."
+    },
+    {
+      "label": "At school",
+      "body": "Students text 📖 to say they are studying and cannot go out, or to share which chapters are on the test. Teachers use it in class newsletters and reading logs. It is neutral and professional enough for school group chats and parent updates."
+    }
+  ],
+  "examples": [
+    { "text": "Currently reading 📖 and I can't put it down", "meaning": "The sender is absorbed in a book right now." },
+    { "text": "Today's Gospel: Luke 2:1-14 📖✝️", "meaning": "Sharing the day's Scripture reading, in this case the Christmas story." },
+    { "text": "Can't come tonight, chem final tomorrow 📖😩", "meaning": "The sender is stuck studying and stressed about an exam." },
+    { "text": "Book club picks the next one Thursday 📖", "meaning": "A reminder about a reading group meeting and vote." },
+    { "text": "Story time 📖 so this happened at work today", "meaning": "A long anecdote is coming; the book frames it as a story." },
+    { "text": "Bible study moved to the parish hall this week 📖", "meaning": "A practical update for a church study group." }
+  ],
+  "combos": [
+    { "combo": "📖☕", "meaning": "A cozy reading session, often a weekend morning with a book and coffee." },
+    { "combo": "📖✝️", "meaning": "Scripture reading, a Bible verse, or Bible study." },
+    { "combo": "📖✏️", "meaning": "Studying or doing homework, notes in hand." },
+    { "combo": "📖⭐", "meaning": "A book review or rating, common on BookTok and Goodreads-style posts." }
+  ],
+  "confusedWith": [
+    { "slug": "books", "difference": "📚 is a stack of closed books, used for school in general, a reading list, or a love of books. 📖 shows one book open and suggests reading or studying happening right now." },
+    { "slug": "closed-book", "difference": "📕 is a single red book with its cover shut. It can mean finishing a book, a textbook, or a book as a thing. 📖 focuses on the pages and the act of reading." },
+    { "slug": "notebook", "difference": "📓 is a notebook for writing in, used for journaling, notes, and planning. 📖 is a printed book for reading, though students sometimes swap the two for studying." }
+  ],
+  "avoid": [
+    "Do not assume 📖 always means the Bible; in most chats it is just reading or studying.",
+    "Avoid using it to mock how slowly or how little someone reads, which can come across as condescending."
+  ],
+  "design": "A book lying open with both pages visible, usually viewed from slightly above, with lines suggesting text. Most platforms give it a colored cover, often blue or green, peeking out at the edges. Designs are consistent across Apple, Google, Samsung, and Microsoft, and none depict a specific book or sacred text.",
+  "faqs": [
+    { "q": "Does 📖 mean the Bible?", "a": "It can. Christians often use it for Scripture, daily verses, and Bible study, and it is common in parish posts about the Sunday readings. Without that context, though, it simply means reading or studying any book." },
+    { "q": "What does 📖 mean on BookTok?", "a": "It labels book content: what the creator is reading, a review, a quote, or a recommendation. \"Currently reading 📖\" is a standard caption, often followed by a star rating or tropes." },
+    { "q": "What is the difference between 📖 and 📚?", "a": "📖 is one open book and means reading right now. 📚 is a stack and means books in general, a library, school, or a big reading list. Students often use either for studying." },
+    { "q": "Is 📖 used for 'reading' someone?", "a": "Sometimes. In drag and ballroom slang, reading means delivering a witty insult. The open book occasionally appears under a sharp comeback in that sense, but most people use it literally." }
+  ],
+  "related": ["books", "closed-book", "latin-cross", "folded-hands", "graduation-cap", "memo"]
+}

@@ -1,0 +1,60 @@
+---
+import Base from "@/layouts/Base.astro";
+import Faq from "@/components/Faq.astro";
+import { abs, SITE } from "@/lib/site";
+import { emojiPages, emojis, categories, categoryUrl, emojiUrl } from "@/lib/emoji";
+
+const pages = await emojiPages();
+// The emojis people copy most: every emoji that has a meaning page, grouped by Unicode category.
+const groups = categories
+  .map((c) => ({ cat: c, items: emojis.filter((e) => e.category === c.slug && pages.has(e.slug)) }))
+  .filter((g) => g.items.length);
+const total = groups.reduce((n, g) => n + g.items.length, 0);
+const faqs = [
+  { q: "How do I copy and paste an emoji?", a: "Tap or click any emoji on this page and it is copied to your clipboard; a short confirmation appears. Then go to your message, post or document and paste it: long-press and choose Paste on a phone, or press Ctrl+V on Windows and Cmd+V on a Mac." },
+  { q: "Will a copied emoji look the same for the person I send it to?", a: "The character is the same, but each platform draws it in its own style, so an emoji copied here can look slightly different on an iPhone, an Android phone or a Windows PC. Very new emojis may show as an empty box on devices that have not been updated yet." },
+  { q: "Can I copy several emojis at once?", a: "Yes. Every row on this page has a Copy all button that copies the whole group in one go. You can also tap several emojis one after another and paste after each tap." },
+  { q: "Where are the emojis that are not listed here?", a: `This page shows the ${total} emojis people use most, each with its own meaning page. Every one of the ${emojis.length.toLocaleString("en-US")} emojis, including skin tones and rarer symbols, can be copied from the category pages or found with search.` },
+  { q: "Is there a faster way to type emojis than copy and paste?", a: "Most devices have a built-in emoji picker: Windows key + period on Windows, Control + Command + Space or the Globe key on a Mac, and the emoji key on iPhone and Android keyboards. Our guide on typing emojis on any device covers each one." },
+];
+const title = "Emoji Copy and Paste: One-Tap Copy for Every Popular Emoji";
+const description = `Copy and paste ${total} popular emojis with one tap: faces, hearts, hands, animals, food, symbols and flags. Copy a single emoji or a whole row at once.`;
+const schema = [
+  { "@type": "WebPage", name: title, description, url: abs("/emoji-copy-and-paste/") },
+  { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={title} description={description} path="/emoji-copy-and-paste/" schema={schema} crumbs={[{ name: "Emoji copy and paste" }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <span class="em" aria-hidden="true">📋</span>
+      <h1>Emoji copy and paste</h1>
+      <p class="lead">Tap any emoji to copy it, or use <strong>Copy all</strong> to grab a whole row. {total} of the most used emojis, grouped the way your keyboard groups them.</p>
+      <p>Each emoji below is a real Unicode character, so it pastes into WhatsApp, Instagram, TikTok, email, Word or any other app. Want to know what one means before you send it? Every emoji here has its own page: use the <em>Meaning</em> links under each group, or browse <a href="/emojis/">all emoji meanings</a>. For skin tones and the full set of {emojis.length.toLocaleString("en-US")} emojis, open the <a href="/categories/">category pages</a>.</p>
+      <ul class="chips">{groups.map((g) => <li><a class="chip" href={`#${g.cat.slug}`}><span class="em" aria-hidden="true">{g.cat.icon}</span> {g.cat.name}</a></li>)}</ul>
+    </header>
+
+    <section class="copyset prose" aria-label="Emojis to copy">
+      {groups.map((g) => (
+        <div class="copyrow" id={g.cat.slug}>
+          <div class="copyrow-head">
+            <h2 style="margin:0;font-size:1.1rem"><span class="em" aria-hidden="true">{g.cat.icon}</span> {g.cat.name} emojis</h2>
+            <button class="chip" type="button" data-copy={g.items.map((e) => e.emoji).join("")}><span data-copy-label>Copy all</span></button>
+          </div>
+          <ul class="copygrid">{g.items.map((e) => <li><button type="button" class="copyem em" data-copy={e.emoji} title={`Copy ${e.name}`} aria-label={`Copy ${e.name}`}>{e.emoji}</button></li>)}</ul>
+          <p class="muted" style="margin:10px 0 0;font-size:.9rem">Meanings: {g.items.slice(0, 8).map((e, i) => <>{i > 0 && ", "}<a href={emojiUrl(e.slug)}>{e.name.replace(/^Flag: /, "")}</a></>)}, and <a href={categoryUrl(g.cat.slug)}>every {g.cat.name.toLowerCase()} emoji</a>.</p>
+        </div>
+      ))}
+    </section>
+
+    <div class="prose">
+      <h2>How copy and paste works on each device</h2>
+      <p>On an <strong>iPhone or Android phone</strong>, tap an emoji above, switch to your app, then long-press the text field and choose <em>Paste</em>. On <strong>Windows</strong>, click an emoji and press <kbd>Ctrl</kbd> + <kbd>V</kbd>; on a <strong>Mac</strong>, press <kbd>Cmd</kbd> + <kbd>V</kbd>. If nothing pastes, your browser may have blocked clipboard access: tap the emoji again, or select it and copy it the usual way.</p>
+      <p>If you send emojis often, the built-in pickers are quicker than copy and paste. Our guide to <a href="/guides/how-to-type-emojis-on-any-device/">typing emojis on any device</a> lists the shortcuts, and <a href="/guides/emoji-combos-ideas/">emoji combos</a> has ready-made combinations to copy.</p>
+      <h2>Why an emoji can look different after you paste it</h2>
+      <p>Copying moves the character, not the picture. Apple, Google, Samsung and Microsoft each draw emojis in their own style, so the same emoji can look a little different on the other person's screen. Newer emojis can appear as a blank box on older phones; our guide on <a href="/guides/why-emojis-show-as-boxes/">why emojis show as boxes</a> explains how to fix that.</p>
+      <h2 id="faq">Emoji copy and paste FAQ</h2>
+      <Faq faqs={faqs} />
+    </div>
+  </div>
+</Base>

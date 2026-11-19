@@ -1,0 +1,55 @@
+{
+  "slug": "donkey",
+  "title": "Donkey Emoji 🫏 Meaning: Nativity, Palm Sunday and Insults",
+  "description": "🫏 can be the donkey of the nativity and Palm Sunday, a stubborn friend, Shrek's sidekick or a political mascot. Here is how the donkey emoji is used and read.",
+  "summary": "The 🫏 donkey emoji shows a gray donkey with long ears. It is used for the animal itself, for stubbornness or foolishness, for the U.S. Democratic Party mascot, and in Christian posts for the donkey of the nativity scene and the one Jesus rode into Jerusalem on Palm Sunday.",
+  "meaning": [
+    "Donkeys arrived late to the emoji keyboard, in 2022, so for years people improvised with 🐴. Now 🫏 covers farm life, hiking trips with pack animals, and sanctuaries that rescue donkeys. It is also a ready-made insult. Calling someone a donkey, or using 🫏 after a bad decision, means fool or idiot, and in British football slang a clumsy player is a donkey.",
+    "In Christian tradition the donkey has two big moments. Jesus enters Jerusalem riding a donkey, the event remembered on Palm Sunday, fulfilling the prophecy in Zechariah of a king coming humbly on a colt. The donkey also stands beside the manger in nativity scenes, together with the ox. That pairing is not in the Gospel accounts; it draws on Isaiah 1:3, where the ox knows its owner and the donkey its master's crib.",
+    "Popular tradition adds more. Mary is usually pictured riding a donkey to Bethlehem, and Christmas pageants and carols such as \"Little Donkey\" keep that image alive. The Holy Family's flight into Egypt is also traditionally shown with a donkey. Parish and family Christmas posts use 🫏 alongside 🐂, 👶, and ⭐ to build the scene.",
+    "In American politics the donkey is the Democratic Party's symbol, popularized by cartoonist Thomas Nast in the 1870s, opposite the Republican elephant. 🫏 appears in election posts in that sense. Pop culture adds Donkey from the Shrek films, quoted endlessly online, and Gordon Ramsay's habit of yelling \"you donkey!\" at cooks."
+  ],
+  "contexts": [
+    {
+      "label": "On Palm Sunday and at Christmas",
+      "body": "Parishes use 🫏 for Palm Sunday processions, often with 🌿 or 🌴, and in Christmas posts about the nativity. Children's pageants frequently include a donkey costume, and families share those photos. It is a gentle, cheerful emoji in this context, emphasizing the humility of the story."
+    },
+    {
+      "label": "As an insult or tease",
+      "body": "🫏 calls someone a fool, usually affectionately among friends. Sports fans use it for a player who keeps missing chances. Fans of cooking shows send it to quote Gordon Ramsay. It can come across as rude to people who do not know you well."
+    },
+    {
+      "label": "In politics",
+      "body": "During U.S. election seasons 🫏 is shorthand for the Democratic Party, set against 🐘 for Republicans. Political accounts and commentators use it in polls and results threads. In mixed company it can signal a partisan stance, so read the room before using it this way."
+    }
+  ],
+  "examples": [
+    { "text": "Palm Sunday procession starts at the parish hall at 9:45 🫏🌿", "meaning": "A church announcement recalling Jesus' entry into Jerusalem on a donkey." },
+    { "text": "Our nativity is complete: ox, donkey and the baby Jesus 🐂🫏👶", "meaning": "Sharing a finished Christmas crib scene at home or in church." },
+    { "text": "You locked the keys in the car again? 🫏", "meaning": "Teasing a friend for a foolish mistake." },
+    { "text": "Visited the donkey sanctuary today and I'm in love 🫏❤️", "meaning": "Literal enthusiasm for real donkeys." },
+    { "text": "Are we there yet? Are we there yet? 🫏", "meaning": "Quoting Donkey from Shrek during a long trip." }
+  ],
+  "combos": [
+    { "combo": "🫏🌴", "meaning": "Palm Sunday and the entry into Jerusalem." },
+    { "combo": "🐂🫏⭐", "meaning": "The stable at Bethlehem in a nativity scene." },
+    { "combo": "🫏🐘", "meaning": "U.S. Democrats and Republicans, as party mascots." },
+    { "combo": "🫏🤦", "meaning": "Someone made a silly mistake; calling them a donkey." }
+  ],
+  "confusedWith": [
+    { "slug": "horse-face", "difference": "🐴 is a horse's head, used for horses, long faces, and before 2022 as a stand-in for donkeys. 🫏 is a full donkey with long ears, the accurate choice for nativity and Palm Sunday posts." },
+    { "slug": "horse", "difference": "🐎 is a galloping horse, linked to racing, speed, and riding. 🫏 is a slower working animal associated with humility, stubbornness, and rural life." }
+  ],
+  "avoid": [
+    "Do not use 🫏 to call a coworker or stranger a fool; it reads as an insult.",
+    "Avoid the party-mascot meaning in family or parish chats unless you intend to bring politics in."
+  ],
+  "design": "A whole gray donkey shown in side view, standing on four legs, with long upright ears, a pale muzzle, and a short mane. Because it is a recent addition, the designs are fairly uniform across platforms, and older devices may show an empty box instead.",
+  "faqs": [
+    { "q": "Why is there a donkey in the nativity scene?", "a": "The Gospels do not mention one, but tradition placed an ox and a donkey by the manger, drawing on Isaiah 1:3. Popular piety also pictures Mary riding a donkey to Bethlehem, so the animal became a fixture of crib scenes." },
+    { "q": "Why did Jesus ride a donkey on Palm Sunday?", "a": "The Gospels connect it to Zechariah's prophecy of a king arriving humbly on a donkey's colt. A donkey suggested peace and humility, in contrast to a warhorse, which is why the image is central to Palm Sunday." },
+    { "q": "What does 🫏 mean from a friend?", "a": "Usually a teasing \"you fool\" after a goofy mistake, or a Shrek quote. Between friends it is playful. From someone you barely know, it may be a genuine insult." },
+    { "q": "When was the donkey emoji added?", "a": "🫏 was added in Emoji 15.0 in 2022. Before that, people used 🐴 for donkeys, which is why older nativity emoji strings often show a horse." }
+  ],
+  "related": ["ox", "ewe", "baby", "palm-tree", "horse-face", "camel"]
+}
