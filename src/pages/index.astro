@@ -14,7 +14,7 @@ const guides = (await getCollection("guides")).sort((a, b) => a.id.localeCompare
 const FEATURED = ["emoji-meanings-in-texting", "heart-emoji-colors-meaning", "gen-z-emoji-slang", "passive-aggressive-emojis", "emojis-at-work-etiquette", "how-to-type-emojis-on-any-device"];
 const featured = [...FEATURED.map((s) => guides.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g), ...guides.filter((g) => !FEATURED.includes(g.id))].slice(0, 6);
 // Seasonal guides, listed in calendar order from today; only the ones that exist are shown.
-const SEASONAL = [["thanksgiving-emojis", "11-26"], ["black-friday-emojis", "11-27"], ["christmas-emojis-meanings", "12-25"], ["new-years-emojis", "12-31"]];
+const SEASONAL = [["thanksgiving-emojis", "11-26"], ["black-friday-emojis", "11-27"], ["advent-emojis", "11-29"], ["christmas-emojis-meanings", "12-25"], ["new-years-emojis", "12-31"]];
 const today = new Date().toISOString().slice(5, 10);
 const seasonal = SEASONAL.map(([s, md]) => ({ g: guides.find((x) => x.id === s), md }))
   .filter((x) => x.g).sort((a, b) => ((a.md < today ? "1" : "0") + a.md).localeCompare((b.md < today ? "1" : "0") + b.md)).map((x) => x.g!);

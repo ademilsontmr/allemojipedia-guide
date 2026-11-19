@@ -75,7 +75,7 @@ The [candle](/emojis/candle/) covers a great deal of Christian practice: lightin
 
 ### Prayer beads 📿
 
-The Unicode name is deliberately general, since strings of beads are used for prayer in several religions. Catholics use it for the rosary: "Rosary at 7 tonight 📿." It pairs naturally with the [rose](/emojis/rose/) 🌹, a traditional symbol of Mary and the origin of the word rosary, and with a blue heart, blue being the color most associated with her in Western art.
+The Unicode name is deliberately general, since strings of beads are used for prayer in several religions. Catholics use it for the rosary: "Rosary at 7 tonight 📿." It pairs naturally with the [rose](/emojis/rose/) 🌹, a traditional symbol of Mary and the origin of the word rosary, and with a blue heart, blue being the color most associated with her in Western art. If you are inviting people to pray it, link a clear explainer such as Guide Catholic's [complete guide to the rosary](https://guidecatholic.com/blog/complete-rosary-guide/), since 📿 alone does not tell newcomers what to do.
 
 ## Symbols drawn from scripture and tradition
 
@@ -185,6 +185,9 @@ Religious symbols are read as sincere statements, so a few habits are worth keep
 - **Be accurate about traditions.** ☦️ for an Orthodox friend, the right date for their Easter, 📿 for a Catholic praying the rosary. Small accuracy reads as respect.
 - **Remember that readers differ.** In mixed groups, such as a workplace chat, religious symbols can feel out of place to some colleagues; [emojis at work](/guides/emojis-at-work-etiquette/) discusses where the lines usually sit. Symbols also shift meaning between countries, as [emojis across cultures](/guides/emojis-across-cultures/) shows.
 - **Offering prayer is not the same as imposing it.** "Praying for you 🙏" from a believer is a kindness in most settings. If you know the recipient would rather not, "Thinking of you 🤍" says what you mean.
+
+
+Parish bulletins, diocesan newsletters and Catholic magazines face the same questions in print and online; Catholic Bible Online looks at them in [emojis in religious publications](https://catholicbibleonline.com/blog/emojis-in-religious-publications-catholic-meanings/).
 
 ## Quick reference: which emoji for which message
 

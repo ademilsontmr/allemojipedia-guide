@@ -37,3 +37,5 @@
 | new-years-emojis | New Year's Eve and New Year emojis: copy sets, countdown and midnight messages, resolutions, and celebrations around the world |
 | nativity-emojis | Nativity scene emojis: building the manger scene in emoji (👶 🐂 🫏 🐑 🐪 🛖 🌟 👼), the Star of Bethlehem, the Magi, and how Christians use them in Advent and Christmas posts |
 | all-saints-all-souls-emojis | All Saints' Day (Nov 1) and All Souls' Day (Nov 2) emojis: what each day commemorates, respectful emojis for remembering the dead, and how they differ from Halloween and Día de los Muertos |
+| advent-emojis | Advent emojis: the four weeks before Christmas (Advent 2026 begins Sunday, November 29), the Advent wreath and its candles, liturgical colors, Gaudete Sunday, O Antiphons, and ready-to-post emoji captions for each week |
+| lent-and-easter-emojis | Lent, Holy Week and Easter emojis: Ash Wednesday (February 10, 2027), the Lenten practices, Palm Sunday, the Triduum, Easter Sunday (March 28, 2027) and the Easter season, with respectful captions and combos |

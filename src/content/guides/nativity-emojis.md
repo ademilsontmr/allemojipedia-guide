@@ -92,6 +92,9 @@ Joined emojis such as 👩‍🍼 and 👨‍👩‍👦 are built from several 
 
 Catholics often add a [blue heart](/emojis/blue-heart/) 💙 for Mary, reflecting the blue mantle she wears in much religious art, and a [white heart](/emojis/white-heart/) 🤍 for the white of the Christmas season. The Feast of the Holy Family falls on the Sunday after Christmas (or December 30 when there is no Sunday in between), which makes it a natural day for a 👩👶🧔🤍 post.
 
+
+If you are writing a Christmas post about the Child in the manger, Guide Catholic's [prayer to the Baby Jesus](https://guidecatholic.com/blog/prayer-to-baby-jesus-nativity-catholic-guide/) pairs naturally with 👶 🙏 ✨.
+
 ## The Star of Bethlehem: no emoji, three good stand-ins
 
 The Gospel of Matthew tells of a star that went before the Magi until "it stopped over the place where the child was." Unicode has never encoded a specific Star of Bethlehem, so people pick from the star emojis that exist.
@@ -119,6 +122,8 @@ A shepherds' line might read: 🌃🐑🐑🔥 ➡️ 👼✨🎶 ➡️ 🛖�
 The visit of the Magi comes from the Gospel of Matthew, not Luke. Matthew calls them Magi "from the East," says they followed a star, and lists three gifts: gold, frankincense, and myrrh. He does not say how many there were or that they were kings. The tradition of three kings, often named Caspar, Melchior, and Balthasar, grew up later from the three gifts and from Old Testament passages such as Psalm 72 and Isaiah 60, which also mentions camels.
 
 The Church celebrates their visit at Epiphany, traditionally January 6, the twelfth day after Christmas. In the United States and some other countries, Catholic dioceses keep the Solemnity of the Epiphany on the Sunday between January 2 and January 8. In Spain and much of Latin America, January 6 is Three Kings' Day (Día de Reyes), when children receive gifts. Many Orthodox Christians on the Julian calendar celebrate Christmas itself on January 7.
+
+For the Gospel background, the star and the Church's traditions about the visitors from the East, Catholic Bible Online has a detailed [guide to the Three Wise Men and the Star of Bethlehem](https://catholicbibleonline.com/blog/three-wise-men-magi-star-of-bethlehem-guide/).
 
 Emoji for the Magi:
 

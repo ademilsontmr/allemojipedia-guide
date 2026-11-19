@@ -45,7 +45,7 @@ for (const [from, slug] of [
   ["/emoji-combos/christmas-combo", "christmas-emojis-meanings"], ["/blog/new-year-emoji-meanings", "new-years-emojis"],
   ["/blog/christmas-emojis-meaning", "christmas-emojis-meanings"], ["/blog/christmas-emoji-combos", "christmas-emojis-meanings"],
   ["/blog/christmas-tree-emoji-meaning", "christmas-emojis-meanings"], ["/blog/catholic-christmas-advent-emojis", "christian-emojis-meanings"],
-  ["/blog/advent-wreath-meaning", "christian-emojis-meanings"], ["/blog/advent-christmas-candle-meaning", "christian-emojis-meanings"],
+  ["/blog/advent-wreath-meaning", "advent-emojis"], ["/blog/advent-christmas-candle-meaning", "advent-emojis"],
   ["/blog/christmas-angel-meaning", "christian-emojis-meanings"], ["/blog/christmas-tree-christian-meaning", "christian-emojis-meanings"], ["/emoji-meanings-in-texting", "emoji-meanings-in-texting"],
   ["/emoji-kitchen", "emoji-kitchen-guide"], ["/tiktok-emojis", "tiktok-emoji-meanings"], ["/emoji-combos", "emoji-combos-ideas"],
   ["/platforms", "iphone-vs-android-emojis"], ["/apple", "iphone-vs-android-emojis"], ["/iphone-emojis", "iphone-vs-android-emojis"],

@@ -54,6 +54,8 @@ This guide explains what each day commemorates in Catholic and other Christian t
 
 **Other Christian traditions.** Many Anglican, Lutheran, and Methodist churches keep All Saints' Day, often on November 1 or the following Sunday, and some read aloud the names of members who died during the past year. The Church of England also keeps the Commemoration of the Faithful Departed on November 2. Eastern Orthodox churches observe an All Saints' Sunday on the first Sunday after Pentecost and pray for the dead on several Saturdays of the year rather than on November 2.
 
+For the history, the Mass readings and the customs of both days in more depth, see Guide Catholic's [guide to All Saints' Day and All Souls' Day](https://guidecatholic.com/blog/all-saints-day-all-souls-day/) and Catholic Bible Online's [All Saints' Day feast guide](https://catholicbibleonline.com/blog/all-saints-day-catholic-feast-guide/).
+
 | | All Saints' Day | All Souls' Day |
 |---|---|---|
 | Date | November 1 | November 2 |
