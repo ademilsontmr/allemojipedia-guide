@@ -12,9 +12,11 @@ interface Props {
   schema?: Record<string, unknown>[];
   ogType?: "website" | "article";
   noindex?: boolean;
+  published?: string;
+  modified?: string;
   section?: "emojis" | "categories" | "guides" | "quiz" | "search";
 }
-const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section } = Astro.props;
+const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified } = Astro.props;
 const canonical = abs(path);
 // Long titles already fill the search snippet; only short ones get the brand suffix.
 const fullTitle = path === "/" || [...title].length > 46 ? title : `${title} | ${SITE.name}`;
@@ -45,6 +47,9 @@ const nav = [
     <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1"} />
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content="en_US" />
+    {published && <meta property="article:published_time" content={published} />}
+    {modified && <meta property="article:modified_time" content={modified} />}
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
@@ -52,11 +57,16 @@ const nav = [
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={abs(SITE.ogImage)} />
     <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} guides`} href="/guides/rss.xml" />
+    <link rel="manifest" href="/site.webmanifest" />
     <script type="application/ld+json" set:html={jsonLd} />
   </head>
   <body>

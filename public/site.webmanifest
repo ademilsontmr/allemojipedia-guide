@@ -1,0 +1,13 @@
+{
+  "name": "Allemojipedia",
+  "short_name": "Allemojipedia",
+  "description": "Emoji meanings, explained properly.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fbfaf7",
+  "theme_color": "#4338ca",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

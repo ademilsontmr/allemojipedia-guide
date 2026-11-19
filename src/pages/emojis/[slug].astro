@@ -53,12 +53,14 @@ const toc = [
 const schema = [
   { "@type": "Article", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
     datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    isPartOf: { "@id": abs("/#website") }, articleSection: cat.name, keywords: [e.name, ...e.tags].join(", "),
+    wordCount: [d.summary, ...d.meaning, ...d.contexts.map((c) => c.body), d.design, ...d.faqs.map((f) => f.a)].join(" ").split(/\s+/).length,
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
     about: { "@type": "DefinedTerm", name: `${e.name} emoji`, termCode: codepoints(e.hex), description: d.summary, inDefinedTermSet: abs("/emojis/") } },
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" section="emojis" schema={schema}
+<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} section="emojis" schema={schema}
   crumbs={[{ name: "Emojis", href: "/emojis/" }, { name: cat.name, href: categoryUrl(cat.slug) }, { name: shortName }]}>
   <article class="wrap">
     <header class="emoji-hero">

@@ -29,11 +29,12 @@ const mentioned = [...new Set([...(guide.body ?? "").matchAll(/\(\/emojis\/([a-z
 const schema = [
   { "@type": "BlogPosting", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
     datePublished: published, dateModified: updated, wordCount: words, articleSection: d.category, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    isPartOf: { "@id": abs("/#website") },
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") } },
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" section="guides" schema={schema}
+<Base title={d.title} description={d.description} path={path} ogType="article" published={published} modified={updated} section="guides" schema={schema}
   crumbs={[{ name: "Guides", href: "/guides/" }, { name: d.title }]}>
   <article class="wrap">
     <header class="article-hero prose">
