@@ -25,6 +25,10 @@ faqs:
   - q: "Can I change the friend emojis on Snapchat?"
     a: "Yes. Open your profile, tap the gear icon, and look for Customize Emojis on Android or Friend Emojis under the Manage section on iPhone. Tap any relationship, such as Super BFF or Snapstreak, and choose a replacement. The change only affects what you see, and a reset option restores the defaults."
 related: ["tiktok-emoji-meanings", "instagram-emoji-meanings", "heart-emoji-colors-meaning"]
+keywords:
+  - "snapchat friend emojis"
+  - "snapchat emojis meaning"
+  - "snapchat streak emoji"
 ---
 
 Snapchat friend emojis are small symbols the app places next to a friend's name to describe how the two of you use Snapchat together. Hearts and smiley faces rank best friends, the fire emoji tracks a Snapstreak, and the hourglass warns that a streak is about to die. Snapchat assigns them automatically from your Snap and Chat activity, they update on their own, and only you can see the ones on your list.

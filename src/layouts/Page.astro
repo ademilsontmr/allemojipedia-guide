@@ -1,10 +1,10 @@
 ---
 import Base from "@/layouts/Base.astro";
 import { SITE, fmtDate } from "@/lib/site";
-interface Props { title: string; description: string; path: string; heading: string; lead?: string; noindex?: boolean }
-const { title, description, path, heading, lead, noindex } = Astro.props;
+interface Props { title: string; description: string; path: string; heading: string; lead?: string; noindex?: boolean; keywords?: string[] }
+const { title, description, path, heading, lead, noindex, keywords } = Astro.props;
 ---
-<Base title={title} description={description} path={path} noindex={noindex} crumbs={noindex ? [] : [{ name: heading }]}>
+<Base title={title} description={description} path={path} noindex={noindex} keywords={keywords} crumbs={noindex ? [] : [{ name: heading }]}>
   <article class="wrap">
     <div class="prose article" style="margin-inline:auto">
       <header class="article-hero">

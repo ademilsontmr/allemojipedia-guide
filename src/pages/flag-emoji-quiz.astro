@@ -37,7 +37,7 @@ const schema = [
   { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={title} description={description} path="/flag-emoji-quiz/" section="quiz" schema={schema} crumbs={[{ name: "Flag emoji quiz" }]}>
+<Base title={title} description={description} path="/flag-emoji-quiz/" keywords={["flag emoji quiz", "guess the flag emoji", "flag quiz"]} section="quiz" schema={schema} crumbs={[{ name: "Flag emoji quiz" }]}>
   <div class="wrap">
     <header class="hero" style="padding-bottom:6px">
       <h1>Flag emoji quiz</h1>

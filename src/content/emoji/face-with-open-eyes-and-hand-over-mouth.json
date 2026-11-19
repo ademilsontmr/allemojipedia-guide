@@ -1,7 +1,7 @@
 {
   "slug": "face-with-open-eyes-and-hand-over-mouth",
-  "title": "🫢 Emoji Meaning: The Gasp Behind the Hand Over Mouth",
-  "description": "🫢 is a gasp: wide eyes and a hand clapped over the mouth for shock, scandal or “I can't believe you said that.” See examples and how it differs from 🤭.",
+  "title": "Hand Over Mouth Emoji 🫢 Meaning: The Shocked Gasp",
+  "description": "The hand over mouth emoji 🫢 is a gasp: wide eyes and a hand clapped over the mouth for shock, scandal or “I can't believe you said that.” See how it differs from 🤭.",
   "summary": "🫢 shows a wide-eyed face with a hand clapped over its mouth. It means a gasp. People use it for shock, disbelief, scandalous news, and the moment right after blurting out something they should not have said. It is surprise with a hint of drama.",
   "meaning": [
     "The gesture is one everybody recognizes: something shocking happens and a hand flies up to cover an open mouth. 🫢 puts that in a message. It reacts to plot twists, breakups nobody saw coming, a friend's wild confession, or a public figure saying something outrageous. The tone is “oh my god,” and it can be delighted or dismayed depending on the news.",
@@ -24,23 +24,62 @@
     }
   ],
   "examples": [
-    { "text": "They're getting DIVORCED?? 🫢", "meaning": "Real shock at unexpected news about a couple." },
-    { "text": "I just called my boss by my ex's name 🫢", "meaning": "Mortified at a slip of the tongue the moment it happened." },
-    { "text": "Wait, that was supposed to be a surprise? 🫢", "meaning": "Realizing too late that a secret was given away." },
-    { "text": "You paid HOW much for those tickets 🫢", "meaning": "Exaggerated astonishment at a price." },
-    { "text": "She said that to his face 🫢", "meaning": "Scandalized and entertained by someone's bold comment." },
-    { "text": "Your hair!! 🫢 it looks incredible", "meaning": "A gasp of admiration at a dramatic change." }
+    {
+      "text": "They're getting DIVORCED?? 🫢",
+      "meaning": "Real shock at unexpected news about a couple."
+    },
+    {
+      "text": "I just called my boss by my ex's name 🫢",
+      "meaning": "Mortified at a slip of the tongue the moment it happened."
+    },
+    {
+      "text": "Wait, that was supposed to be a surprise? 🫢",
+      "meaning": "Realizing too late that a secret was given away."
+    },
+    {
+      "text": "You paid HOW much for those tickets 🫢",
+      "meaning": "Exaggerated astonishment at a price."
+    },
+    {
+      "text": "She said that to his face 🫢",
+      "meaning": "Scandalized and entertained by someone's bold comment."
+    },
+    {
+      "text": "Your hair!! 🫢 it looks incredible",
+      "meaning": "A gasp of admiration at a dramatic change."
+    }
   ],
   "combos": [
-    { "combo": "🫢☕", "meaning": "Gossip is being shared and the sender is shocked and eager for more." },
-    { "combo": "🫢😳", "meaning": "Stunned and embarrassed at once, often after seeing or saying something awkward." },
-    { "combo": "👀🫢", "meaning": "The sender just noticed something scandalous and cannot look away." },
-    { "combo": "🫢🤐", "meaning": "A secret nearly escaped, and the sender is now sealing their lips." }
+    {
+      "combo": "🫢☕",
+      "meaning": "Gossip is being shared and the sender is shocked and eager for more."
+    },
+    {
+      "combo": "🫢😳",
+      "meaning": "Stunned and embarrassed at once, often after seeing or saying something awkward."
+    },
+    {
+      "combo": "👀🫢",
+      "meaning": "The sender just noticed something scandalous and cannot look away."
+    },
+    {
+      "combo": "🫢🤐",
+      "meaning": "A secret nearly escaped, and the sender is now sealing their lips."
+    }
   ],
   "confusedWith": [
-    { "slug": "face-with-hand-over-mouth", "difference": "🤭 has smiling eyes and hides a giggle, so it suits teasing and playful oops moments. 🫢 has round, startled eyes and hides a gasp. The hand is the same; the eyes tell you whether it is laughter or shock." },
-    { "slug": "face-with-open-mouth", "difference": "😮 shows plain surprise with nothing hidden. 🫢 adds the hand, which implies the thing is scandalous, embarrassing or not supposed to be said out loud. It carries more drama and a sense of secrecy." },
-    { "slug": "face-screaming-in-fear", "difference": "😱 grips its face with both hands and screams, for horror or over-the-top panic. 🫢 is quieter: one hand, a held breath, and shock that is more social than frightened." }
+    {
+      "slug": "face-with-hand-over-mouth",
+      "difference": "🤭 has smiling eyes and hides a giggle, so it suits teasing and playful oops moments. 🫢 has round, startled eyes and hides a gasp. The hand is the same; the eyes tell you whether it is laughter or shock."
+    },
+    {
+      "slug": "face-with-open-mouth",
+      "difference": "😮 shows plain surprise with nothing hidden. 🫢 adds the hand, which implies the thing is scandalous, embarrassing or not supposed to be said out loud. It carries more drama and a sense of secrecy."
+    },
+    {
+      "slug": "face-screaming-in-fear",
+      "difference": "😱 grips its face with both hands and screams, for horror or over-the-top panic. 🫢 is quieter: one hand, a held breath, and shock that is more social than frightened."
+    }
   ],
   "avoid": [
     "Do not reply with it to tragic news, because a theatrical gasp can look like you are treating someone's loss as gossip.",
@@ -49,10 +88,29 @@
   ],
   "design": "A yellow face with wide, round eyes and raised eyebrows, one hand pressed flat over its mouth. It deliberately mirrors the layout of 🤭 with only the eyes changed. Designs are closely aligned across Apple, Google, Samsung and Microsoft. On devices that predate it, the emoji may appear as an empty box or a question mark.",
   "faqs": [
-    { "q": "What is the difference between 🫢 and 🤭?", "a": "🫢 is shock and 🤭 is laughter. Both cover the mouth with a hand, but 🫢 has open, alarmed eyes and 🤭 has happy, crinkled ones. Send 🫢 for “no way!” and 🤭 for “hehe, oops.”" },
-    { "q": "Does 🫢 mean something bad happened?", "a": "Not necessarily. It only says the sender is surprised. The surprise can be thrilled, as with an engagement, or dismayed, as with a firing. The words around it, or the news it replies to, tell you which." },
-    { "q": "Is 🫢 sarcastic?", "a": "It often is. People use it to fake being scandalized by trivial things, like a friend admitting they dislike pizza. That mock outrage is one of its most common uses, and it is meant to be funny, not judgmental." },
-    { "q": "Why does 🫢 show up as a box on my phone?", "a": "It was approved in 2021 and reached phones in system updates the following year. Devices and apps that have not been updated since then lack the image and display a placeholder square or question mark in its place." }
+    {
+      "q": "What is the difference between 🫢 and 🤭?",
+      "a": "🫢 is shock and 🤭 is laughter. Both cover the mouth with a hand, but 🫢 has open, alarmed eyes and 🤭 has happy, crinkled ones. Send 🫢 for “no way!” and 🤭 for “hehe, oops.”"
+    },
+    {
+      "q": "Does 🫢 mean something bad happened?",
+      "a": "Not necessarily. It only says the sender is surprised. The surprise can be thrilled, as with an engagement, or dismayed, as with a firing. The words around it, or the news it replies to, tell you which."
+    },
+    {
+      "q": "Is 🫢 sarcastic?",
+      "a": "It often is. People use it to fake being scandalized by trivial things, like a friend admitting they dislike pizza. That mock outrage is one of its most common uses, and it is meant to be funny, not judgmental."
+    },
+    {
+      "q": "Why does 🫢 show up as a box on my phone?",
+      "a": "It was approved in 2021 and reached phones in system updates the following year. Devices and apps that have not been updated since then lack the image and display a placeholder square or question mark in its place."
+    }
   ],
-  "related": ["face-with-hand-over-mouth", "face-with-peeking-eye", "face-with-open-mouth", "astonished-face", "flushed-face", "exploding-head"]
+  "related": [
+    "face-with-hand-over-mouth",
+    "face-with-peeking-eye",
+    "face-with-open-mouth",
+    "astonished-face",
+    "flushed-face",
+    "exploding-head"
+  ]
 }

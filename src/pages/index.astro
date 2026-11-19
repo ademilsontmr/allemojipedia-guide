@@ -20,7 +20,7 @@ const seasonal = SEASONAL.map(([s, md]) => ({ g: guides.find((x) => x.id === s),
   .filter((x) => x.g).sort((a, b) => ((a.md < today ? "1" : "0") + a.md).localeCompare((b.md < today ? "1" : "0") + b.md)).map((x) => x.g!);
 const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
 ---
-<Base title={title} description={SITE.description} path="/">
+<Base title={title} description={SITE.description} path="/" keywords={["emoji meanings explained", "emoji dictionary", "what does this emoji mean"]}>
   <div class="wrap">
     <section class="hero">
       <p class="eyebrow">The emoji dictionary</p>

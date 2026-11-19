@@ -1,6 +1,6 @@
 ---
 title: "iPhone vs Android Emojis: Why They Look Different"
-description: "Why the same emoji looks different on Apple, Google, Samsung and Microsoft devices, which ones cause mix-ups, and what gets lost between different phones."
+description: "iPhone vs Android emojis: why the same emoji looks different on Apple, Google, Samsung and Microsoft devices, which ones cause mix-ups, and what gets lost."
 excerpt: "The same emoji is drawn differently by Apple, Google, Samsung and Microsoft. Here is why, which designs cause misunderstandings, and what breaks in transit."
 pubDate: 2026-11-18
 category: "Platforms"
@@ -25,6 +25,10 @@ faqs:
   - q: "Which emojis are most often misread between platforms?"
     a: "Faces with ambiguous mouths cause the most trouble, especially the grimacing face and the beaming face with smiling eyes, along with the smirk, the flushed face and the face with rolling eyes. Hand gestures and objects are generally safe. If the tone of a message depends on one subtle face, add a few words to make it unmistakable."
 related: ["why-emojis-show-as-boxes", "how-to-type-emojis-on-any-device", "emoji-kitchen-guide"]
+keywords:
+  - "iphone vs android emojis"
+  - "why emojis look different on android"
+  - "apple vs google emojis"
 ---
 
 Emojis look different on iPhone and Android because what travels between phones is a code, not a picture. Each device draws that code using its own emoji font, and Apple, Google, Samsung and Microsoft each design their own artwork. The meaning is supposed to be the same everywhere, but small differences in expression, color and detail can shift the tone of a message.

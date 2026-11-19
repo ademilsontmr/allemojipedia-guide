@@ -40,6 +40,11 @@ copyList:
     emojis: "🍀 🤞 🙏 🌠 🌈 🧿 🔮 💰 ❤️ 🫶"
   - title: "Around the world"
     emojis: "🧧 🏮 🐐 🎍 🍇 🐖 🌏 🌍 🌎 🗽 🥟"
+keywords:
+  - "new year emojis"
+  - "happy new year emojis"
+  - "new years eve emojis"
+  - "2027 emoji"
 ---
 
 The New Year's emojis people reach for most are fireworks 🎆, sparkles ✨, the party popper 🎉, clinking glasses 🥂, and the bottle with popping cork 🍾, with clocks and keycap numbers for the countdown. There is no emoji for 2027 itself, so the year is usually spelled with keycap digits (2️⃣0️⃣2️⃣7️⃣) or written in plain text next to a festive symbol. The rest of this guide covers what each emoji signals, how to build countdown and midnight messages, and greetings you can send to family, friends, and coworkers.

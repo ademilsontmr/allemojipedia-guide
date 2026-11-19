@@ -25,6 +25,10 @@ faqs:
   - q: "When were the pink, light blue and grey hearts added?"
     a: "The plain pink heart, light blue heart and grey heart were approved by the Unicode Consortium in Emoji 15.0 in 2022 and reached most phones during 2023. Before that, people who wanted a simple pink heart had to use decorated versions such as the growing heart or sparkling heart. Very old devices may still show these three as empty boxes."
 related: ["emoji-meanings-in-texting", "flirty-emojis-guide", "snapchat-friend-emojis-explained"]
+keywords:
+  - "heart emoji colors"
+  - "what each heart emoji means"
+  - "heart emoji meanings"
 ---
 
 The red heart means love, most often romantic love, and it is the only heart color with a meaning nearly everyone agrees on. Every other color is a way of adjusting that message: warmer or cooler, friendlier, sadder, more ironic, or matched to a team, a cause or a photo. The color tells the reader how much romance to assume.

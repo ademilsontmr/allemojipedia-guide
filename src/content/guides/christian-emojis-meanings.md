@@ -25,6 +25,11 @@ faqs:
   - q: "Is it appropriate to send a cross emoji in a condolence message?"
     a: "Only when you know the person or the family is Christian; then it can be a real comfort alongside a line such as 'praying for you.' If you are unsure of their beliefs, choose symbols that carry no specific creed: a candle 🕯️, a dove 🕊️, or a white heart 🤍. The words of the message matter far more than the symbol."
 related: ["christmas-emojis-meanings", "emojis-across-cultures", "heart-emoji-colors-meaning"]
+keywords:
+  - "christian emojis"
+  - "religious emojis meaning"
+  - "cross emoji meaning"
+  - "church year emojis"
 ---
 
 The emojis most used for Christian faith are the Latin cross ✝️, folded hands 🙏, the dove 🕊️, the candle 🕯️, the church ⛪, and the open book 📖 standing in for the Bible. Only the crosses and the church are specifically Christian in design; the others are general symbols that carry Christian meaning because of scripture and long tradition. Which ones people reach for changes with the church year: candles in Advent, the cross in Holy Week, a sunrise at Easter, fire and the dove at Pentecost.

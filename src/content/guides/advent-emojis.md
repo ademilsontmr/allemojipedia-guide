@@ -40,6 +40,11 @@ faqs:
   - q: "Is it okay to post Christmas emojis during Advent?"
     a: "Nobody will mind a 🎄 in a photo of your living room, and secular Christmas season starts well before December 25. Many Christians, though, keep religious posts in Advent focused on waiting, with candles, violet, and prayer, and save 👶, 🌟, and 'Merry Christmas' for Christmas Eve. Parishes in particular tend to follow that rhythm."
 related: ["christian-emojis-meanings", "nativity-emojis", "christmas-emojis-meanings"]
+keywords:
+  - "advent emojis"
+  - "advent wreath emoji"
+  - "advent candle emoji"
+  - "first sunday of advent emoji"
 ---
 
 There is no Advent wreath emoji or Advent candle emoji, so people build the wreath themselves: one 🕯️ for each Sunday, a bit of green such as 🌲 or 🌿, and colored hearts for the candles, 💜 for violet and 🩷 for the rose candle of the third Sunday. In 2026, Advent begins on Sunday, November 29, so the first line to post is something like 🌿🕯️💜 "First Sunday of Advent."

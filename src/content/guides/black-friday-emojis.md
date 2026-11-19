@@ -42,6 +42,11 @@ faqs:
   - q: "Are Black Friday emojis appropriate in a work Slack?"
     a: "Usually, in casual channels. Sharing a team deal on software or reacting to a coworker's haul with 🔥 or 👀 is common. Keep it out of client threads and formal announcements, and avoid joking about money troubles in a way that could land badly with colleagues whose budgets are tighter."
 related: ["emojis-in-marketing", "thanksgiving-emojis", "christmas-emojis-meanings"]
+keywords:
+  - "black friday emojis"
+  - "cyber monday emojis"
+  - "sale emojis"
+  - "shopping emojis"
 ---
 
 There is no single Black Friday emoji, so shops and shoppers build the message from a handful of familiar ones: 🛍️ shopping bags or 🛒 a cart for shopping, 🏷️ a label for prices, 🖤 a black heart for the name, 🔥 for hot deals and ⏰ for deadlines. Pick one or two that add real information, put the offer itself in words, and the emojis will do their job. The rest of this guide covers what each common emoji signals, how stores use them in subject lines, push, SMS and social posts, and how shoppers use them in deal chats.

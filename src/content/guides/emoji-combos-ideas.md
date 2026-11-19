@@ -25,6 +25,11 @@ faqs:
   - q: "What are aesthetic emoji combos used for?"
     a: "They decorate rather than communicate: people put them in social media bios, usernames, captions, playlist titles and folder names to set a mood. A typical set has three to five emojis that share colors and a theme, such as autumn leaves, a hot drink and a candle for a cozy fall look."
 related: ["emoji-kitchen-guide", "gen-z-emoji-slang", "emoji-meanings-in-texting"]
+keywords:
+  - "emoji combos"
+  - "emoji combinations"
+  - "aesthetic emoji combos"
+  - "emoji combo meanings"
 ---
 
 An emoji combo is two or more emojis placed together so that the group means something the individual emojis do not. Some are fixed expressions with a shared meaning, like 👉👈 for shyness. Others tell a tiny story or set a visual mood. The ones that work follow a few simple rules about order, length and shared references, and you can use those rules to build your own.

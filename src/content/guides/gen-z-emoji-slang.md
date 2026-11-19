@@ -1,6 +1,6 @@
 ---
 title: "Gen Z Emoji Slang Explained: Skull, Clown, Moai and More"
-description: "How Gen Z uses emojis: why 💀 and 😭 mean laughing, what 🤡, 🗿, 🧢 and 🥀 stand for, where the meme emojis came from, and how to use them without trying too hard."
+description: "Gen Z emoji slang decoded: why 💀 and 😭 mean laughing, what 🤡, 🗿, 🧢 and 🥀 stand for, where the meme emojis came from, and how to use them without trying too hard."
 excerpt: "For Gen Z, the skull is a laugh, the smile is a threat and the moai is a blank stare. A plain-English decoder for emoji slang and the memes behind it."
 pubDate: 2026-11-19
 category: "Culture"
@@ -25,6 +25,10 @@ faqs:
   - q: "What do 🥀 and 💔 mean in recent memes?"
     a: "The wilted flower and broken heart are used together for exaggerated, mock-tragic disappointment, often about something trivial. Writing 'they were out of fries 🥀💔' performs heartbreak as a joke. The pair spread widely across TikTok and other platforms in 2025. Sent with a sincere message about real loss, both emojis keep their original meanings."
 related: ["laughing-and-crying-emojis", "tiktok-emoji-meanings", "emoji-meanings-in-texting"]
+keywords:
+  - "gen z emoji slang"
+  - "gen z emoji meanings"
+  - "emojis gen z uses"
 ---
 
 Gen Z, roughly people born from the late 1990s to the early 2010s, uses emojis less as pictures of feelings and more as punchlines. The skull means laughing, the crying face means laughing harder, the plain smile often means the opposite of a smile, and a stone statue means "no comment." If you read these emojis literally, most messages from a younger person will seem alarming or baffling.

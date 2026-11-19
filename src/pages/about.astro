@@ -3,7 +3,7 @@ import Page from "@/layouts/Page.astro";
 import { emojis, emojiPages } from "@/lib/emoji";
 const pages = await emojiPages();
 ---
-<Page title="About Allemojipedia" description="Who is behind Allemojipedia, what the site covers, where its emoji data comes from and how the meaning pages are written and reviewed." path="/about/" heading="About Allemojipedia" lead="An independent reference for what emojis mean in real conversations.">
+<Page title="About Allemojipedia" description="About Allemojipedia: who is behind it, what the site covers, where its emoji data comes from and how the meaning pages are written and reviewed." path="/about/" keywords={["about allemojipedia", "allemojipedia emoji dictionary"]} heading="About Allemojipedia" lead="An independent reference for what emojis mean in real conversations.">
   <h2>What this site is</h2>
   <p>Allemojipedia explains emojis the way people actually use them. The Unicode Standard gives every emoji an official name and a code point, but it says nothing about tone, slang or etiquette. That is the part most people are looking for when they search for an emoji, and it is the part we write about.</p>
   <p>The site currently has in-depth meaning pages for {pages.size} of the most used emojis, copy-and-paste lists for all {emojis.length.toLocaleString("en-US")} emojis in nine categories, a set of longer <a href="/guides/">guides</a>, and a <a href="/flag-emoji-quiz/">flag emoji quiz</a>.</p>

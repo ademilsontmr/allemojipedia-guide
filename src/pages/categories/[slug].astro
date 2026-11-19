@@ -13,13 +13,13 @@ const items = emojis.filter((e) => e.category === cat.slug);
 const subgroups = [...new Set(items.map((e) => e.subgroup))].map((id) => ({ id, label: subgroupLabel(id), items: items.filter((e) => e.subgroup === id) }));
 const explained = items.filter((e) => pages.has(e.slug));
 const path = categoryUrl(cat.slug);
-const noun = cat.slug === "flags" ? "Flag" : cat.name;
+const noun = cat.seoName;
 const title = `${noun} Emojis: Meanings and Copy & Paste List`;
 const others = categories.filter((c) => c.slug !== cat.slug);
 const schema = [{ "@type": "CollectionPage", name: title, description: cat.description, url: abs(path),
   mainEntity: { "@type": "ItemList", numberOfItems: explained.length, itemListElement: explained.slice(0, 100).map((e, i) => ({ "@type": "ListItem", position: i + 1, url: abs(emojiUrl(e.slug)), name: `${e.emoji} ${e.name}` })) } }];
 ---
-<Base title={title} description={cat.description} path={path} section="categories" schema={schema}
+<Base title={title} description={cat.description} path={path} keywords={cat.keywords} section="categories" schema={schema}
   crumbs={[{ name: "Categories", href: "/categories/" }, { name: cat.name }]}>
   <div class="wrap">
     <header class="article-hero prose">

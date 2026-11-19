@@ -3,10 +3,10 @@ import Base from "@/layouts/Base.astro";
 import { abs } from "@/lib/site";
 import { emojis, categories, categoryUrl } from "@/lib/emoji";
 const title = "Emoji Categories: Browse and Copy Every Emoji";
-const description = `All ${emojis.length.toLocaleString("en-US")} emojis organized into the nine official Unicode groups. Pick a category to copy and paste emojis or read their meanings.`;
+const description = `Emoji categories: all ${emojis.length.toLocaleString("en-US")} emojis organized into the nine official Unicode groups. Pick a category to copy and paste emojis or read their meanings.`;
 const schema = [{ "@type": "CollectionPage", name: title, description, url: abs("/categories/") }];
 ---
-<Base title={title} description={description} path="/categories/" section="categories" schema={schema} crumbs={[{ name: "Categories" }]}>
+<Base title={title} description={description} path="/categories/" keywords={["emoji categories", "all emojis by category", "every emoji list"]} section="categories" schema={schema} crumbs={[{ name: "Categories" }]}>
   <div class="wrap">
     <header class="article-hero prose">
       <h1>Emoji categories</h1>

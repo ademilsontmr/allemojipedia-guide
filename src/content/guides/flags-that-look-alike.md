@@ -24,6 +24,10 @@ faqs:
   - q: "Why do some flag emojis appear twice in my keyboard?"
     a: "A few territories have their own region code but use the flag of the country that governs them. Bouvet Island and Svalbard and Jan Mayen show Norway's flag, and the US Outlying Islands show the US flag. They are separate emoji with identical pictures on most platforms, so you may see the same flag more than once."
 related: ["flag-emojis-explained", "emojis-across-cultures", "iphone-vs-android-emojis"]
+keywords:
+  - "flags that look alike"
+  - "similar flag emojis"
+  - "look alike flags"
 ---
 
 Most look-alike flags can be separated by checking one detail: the order of the stripes, the color nearest the pole, or a small emblem in the center. A few pairs, including Chad and Romania and Indonesia and Monaco, are close to identical at emoji size, and for those the only reliable method is to check the emoji's name before you send it.

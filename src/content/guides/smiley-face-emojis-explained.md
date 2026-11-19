@@ -1,6 +1,6 @@
 ---
 title: "Smiley Face Emojis Explained: 🙂 vs 😊 vs 😄 vs 😁 vs ☺️"
-description: "A side-by-side comparison of every smile emoji: how 🙂, 😊, ☺️, 😀, 😃, 😄, and 😁 differ in design and tone, and which one to send to friends, family, or your boss."
+description: "Smiley face emojis compared side by side: how 🙂, 😊, ☺️, 😀, 😃, 😄 and 😁 differ in design and tone, and which one to send to friends, family, or your boss."
 excerpt: "Every smile emoji compared side by side: what separates 🙂, 😊, ☺️, 😀, 😃, 😄, and 😁, and which one fits which message."
 pubDate: 2026-11-18
 category: "Meanings"
@@ -25,6 +25,10 @@ faqs:
   - q: "Do smiley emojis look the same on iPhone and Android?"
     a: "No. Apple, Google, Samsung, and Microsoft each draw their own versions, so eye shape, mouth width, blush, and even the shade of yellow differ. The differences are smaller than they were a decade ago, since vendors have moved their designs closer together, but subtle smiles such as 🙂 can still look friendlier on one phone than on another."
 related: ["passive-aggressive-emojis", "laughing-and-crying-emojis", "emoji-meanings-in-texting"]
+keywords:
+  - "smiley face emojis"
+  - "smiley face emoji meanings"
+  - "smiling face emojis difference"
 ---
 
 The smile emojis differ mainly in two things: whether the eyes are smiling and how wide the mouth is open. 🙂 is a small, neutral smile that can read as polite or cold; 😊 and ☺️ are warm, blushing smiles; 😀, 😃, and 😄 are open-mouth grins of rising enthusiasm; and 😁 is a toothy beam that covers both excitement and awkwardness. If you only remember one rule, pick a face with curved eyes when you want to sound warm.

@@ -1,6 +1,6 @@
 ---
 title: "Why Emojis Show as Boxes or Question Marks, and the Fix"
-description: "Why emojis appear as empty boxes, question marks, odd symbols or split into pieces on your phone or PC, what each symptom means, and how to fix every case."
+description: "Why emojis show as boxes, question marks or odd symbols, or split into pieces, on your phone or PC, what each symptom means, and how to fix every case."
 excerpt: "An empty box, a question mark or an emoji broken into parts each point to a different cause. Match your symptom to the reason and the fix in this guide."
 pubDate: 2026-11-18
 category: "Platforms"
@@ -25,6 +25,10 @@ faqs:
   - q: "Why did my emoji turn into a row of question marks after I saved it?"
     a: "The website or app stored your text in a format that cannot hold emoji characters, so each one was replaced with a question mark when saving. This is a problem on the service's side, commonly an older database character setting. You cannot fix it yourself other than by leaving the emoji out."
 related: ["iphone-vs-android-emojis", "flag-emojis-explained", "new-emojis-2026"]
+keywords:
+  - "why emojis show as boxes"
+  - "emoji question mark box"
+  - "why emojis not showing"
 ---
 
 An emoji shows as a box when your device receives a character it has no picture for. The most common reason is that the sender's phone has a newer emoji set than yours; other causes are an emoji sequence your system only partly understands, a font that lacks emojis, or text that was damaged by a wrong encoding somewhere between sender and screen. Each cause produces a recognizable symptom, so the fastest route to a fix is to identify which kind of broken emoji you are looking at.

@@ -36,6 +36,8 @@ const guides = defineCollection({
     keyTakeaways: z.array(z.string()),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })),
     related: z.array(z.string()).default([]),
+    /** Search terms this guide targets; the first is its unique primary keyword (see scripts/guide-keywords.json). */
+    keywords: z.array(z.string()).min(1),
     /** Optional copy-and-paste sets shown above the article (holiday and collection guides). */
     copyList: z.array(z.object({ title: z.string(), emojis: z.string() })).optional(),
   }),

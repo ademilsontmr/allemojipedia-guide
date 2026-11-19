@@ -25,6 +25,12 @@ const path = emojiUrl(e.slug);
 const hasImg = hasTwemoji(e.hex);
 const og = hasImg ? ogPath("emojis", e.slug) : SITE.ogImage;
 const imgAlt = `${e.name} emoji ${char}`;
+// The name people search for is the one the title leads with ("Rain Cloud"), which can differ from
+// the Unicode name ("Cloud With Rain"); the Unicode name is kept as a secondary keyword.
+const titleName = (d.title.match(/^(.*?)\s+Emoji\b/)?.[1] ?? shortName).replace(/[^\p{L}\p{N}\s'’&.-]/gu, "").trim() || shortName;
+const kwName = titleName.toLowerCase();
+const unicodeName = shortName.toLowerCase();
+const keywords = [...new Set([`${kwName} emoji meaning`, `${char} meaning`, `what does ${char} mean`, `${kwName} emoji`, `${unicodeName} emoji`])];
 
 const confused = d.confusedWith.map((c) => ({ ...c, emoji: getEmoji(c.slug) })).filter((c) => c.emoji);
 const related = d.related.map((s) => getEmoji(s)).filter((x): x is NonNullable<typeof x> => !!x && x.slug !== e.slug);
@@ -59,20 +65,20 @@ const schema = [
   { "@type": "Article", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
     datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path),
     image: hasImg ? [{ "@type": "ImageObject", url: abs(og), width: 1200, height: 630, caption: imgAlt }, { "@type": "ImageObject", url: abs(emojiImagePath(e.slug)), caption: `${imgAlt} (Twemoji design)`, license: "https://creativecommons.org/licenses/by/4.0/", creditText: "Twemoji" }] : abs(SITE.ogImage),
-    isPartOf: { "@id": abs("/#website") }, articleSection: cat.name, keywords: [e.name, ...e.tags].join(", "),
+    isPartOf: { "@id": abs("/#website") }, articleSection: cat.name, keywords: keywords.join(", "),
     wordCount: [d.summary, ...d.meaning, ...d.contexts.map((c) => c.body), d.design, ...d.faqs.map((f) => f.a)].join(" ").split(/\s+/).length,
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
     about: { "@type": "DefinedTerm", name: `${e.name} emoji`, termCode: codepoints(e.hex), description: d.summary, inDefinedTermSet: abs("/emojis/") } },
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} ogImage={og} ogImageAlt={imgAlt} section="emojis" schema={schema}
+<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} ogImage={og} ogImageAlt={imgAlt} keywords={keywords} section="emojis" schema={schema}
   crumbs={[{ name: "Emojis", href: "/emojis/" }, { name: cat.name, href: categoryUrl(cat.slug) }, { name: shortName }]}>
   <article class="wrap">
     <header class="emoji-hero">
       <div class="glyph em" role="img" aria-label={`${e.name} emoji`}>{char}</div>
       <div>
-        <h1>{shortName} Emoji Meaning</h1>
+        <h1>{titleName} Emoji Meaning</h1>
         <p class="lead">{e.name} · {codepoints(e.hex)} · {cat.name}</p>
         <div class="actions">
           <button class="btn" type="button" data-copy={char}><span class="em" aria-hidden="true">{char}</span><span data-copy-label>Copy emoji</span></button>

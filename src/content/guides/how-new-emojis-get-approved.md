@@ -1,6 +1,6 @@
 ---
 title: "How New Emojis Get Approved: The Unicode Process Explained"
-description: "Who decides which emojis get made, how to submit a proposal to the Unicode Consortium, what gets rejected, and why approval to phone takes about two years."
+description: "How new emojis get approved: who decides, how to submit a proposal to the Unicode Consortium, what gets rejected, and why approval to phone takes about two years."
 excerpt: "Anyone can propose an emoji, but the Unicode Consortium decides. Here is how a proposal moves from a PDF to your keyboard, and why most fail."
 pubDate: 2026-11-18
 category: "Culture"
@@ -25,6 +25,10 @@ faqs:
   - q: "Do petitions help get an emoji added?"
     a: "No. Unicode's guidelines say explicitly that petitions and counts of social media requests are not considered evidence, because they are easy to inflate and say little about long-term use. What counts is data showing that the concept is frequently searched for and written about, compared against emoji that already exist."
 related: ["history-of-emoji", "new-emojis-2026", "why-emojis-show-as-boxes"]
+keywords:
+  - "how new emojis get approved"
+  - "how new emojis are made"
+  - "unicode emoji proposal"
 ---
 
 New emojis are approved by the Unicode Consortium, a nonprofit that maintains the standard for digital text. Anyone can submit a proposal, a working group of volunteers and company representatives picks a small number each year, and after formal approval each platform draws its own version and ships it in a software update. The whole trip usually takes about two years.

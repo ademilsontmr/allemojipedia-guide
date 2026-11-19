@@ -1,6 +1,6 @@
 ---
 title: "Emoji Skin Tones Explained: How They Work and Etiquette"
-description: "How the five emoji skin tone modifiers work, which emojis support them, how to set a default on iPhone, Android, Windows and Slack, and the etiquette."
+description: "How the five emoji skin tones work as modifiers, which emojis support them, how to set a default on iPhone, Android, Windows and Slack, and the etiquette."
 excerpt: "The five skin tone modifiers, the emojis that accept them, how to set a default on every major platform, and honest answers to the etiquette questions."
 pubDate: 2026-11-18
 category: "How-to"
@@ -25,6 +25,10 @@ faqs:
   - q: "Do skin tone emojis use more characters in a text or post?"
     a: "Under the hood, yes. A toned emoji is two Unicode code points instead of one, so it takes more room in an SMS segment and in strict character counters. Some platforms normalize this; X, for example, counts every emoji as two characters whether or not it has a modifier."
 related: ["hand-gesture-emojis-meaning", "why-emojis-show-as-boxes", "emojis-at-work-etiquette"]
+keywords:
+  - "emoji skin tones"
+  - "how to change emoji skin tone"
+  - "default skin tone emoji"
 ---
 
 Emoji skin tones are five modifier characters that attach to a human emoji and recolor it from the default yellow to one of five shades, from light to dark. They were added to the Unicode Standard in 2015, they work on every major platform, and you pick one by long-pressing an emoji (phones) or choosing a default in the emoji picker (Windows, Slack, Discord, Teams). The rest of this guide covers how the system actually works, where it does not apply, and how to handle the etiquette questions people quietly worry about.

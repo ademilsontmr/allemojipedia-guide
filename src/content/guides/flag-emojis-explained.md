@@ -25,6 +25,10 @@ faqs:
   - q: "Can I make a flag emoji by typing letters?"
     a: "Not with ordinary letters. Flags use special regional indicator letters, which are separate characters from A to Z. Some apps, including Slack and Discord, let you type a shortcode such as :flag-us: or :flag_us: and convert it for you. Otherwise use your emoji keyboard and search by country name."
 related: ["flags-that-look-alike", "why-emojis-show-as-boxes", "how-to-type-emojis-on-any-device"]
+keywords:
+  - "how flag emojis work"
+  - "regional indicator symbols"
+  - "why flag emojis show as letters"
 ---
 
 A country flag emoji is not a single character. It is a pair of special letters that spell a two-letter region code, and your device replaces the pair with a picture of the flag if it has one. The [United States flag](/emojis/flag-united-states/) is the letters U and S; the [Japan flag](/emojis/flag-japan/) is J and P. That one design decision explains why flags turn into letters on Windows, why some flags do not exist, and why deleting a flag sometimes leaves half of it behind.

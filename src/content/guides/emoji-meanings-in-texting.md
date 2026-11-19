@@ -25,6 +25,10 @@ faqs:
   - q: "How many emojis are too many in one text?"
     a: "There is no fixed number, but a useful rule is to match the other person. One emoji at the end of a message sets tone without clutter. Repeating the same emoji three times adds intensity. Mixing five different ones in a single line reads as chaotic or juvenile to most adults, and screen readers announce every one of them out loud."
 related: ["passive-aggressive-emojis", "laughing-and-crying-emojis", "smiley-face-emojis-explained"]
+keywords:
+  - "what emojis mean in texting"
+  - "what emojis mean in text messages"
+  - "emoji tone in texts"
 ---
 
 In a text message, an emoji almost never means the object it shows. It tells the reader how to take the words around it: joking, warm, embarrassed, annoyed, or done with the conversation. The confusion starts when the sender and the reader learned different conventions, which is why the mildest-looking emojis, such as 🙂 and 👍, cause the most arguments.

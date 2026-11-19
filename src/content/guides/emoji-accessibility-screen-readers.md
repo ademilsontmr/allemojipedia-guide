@@ -1,6 +1,6 @@
 ---
 title: "Emoji Accessibility: How Screen Readers Read Emojis"
-description: "What VoiceOver, TalkBack, JAWS and NVDA actually say when they reach an emoji, the habits that make posts painful to hear, and how to write accessibly."
+description: "Emoji accessibility explained: what VoiceOver, TalkBack, JAWS and NVDA say when they reach an emoji, the habits that make posts painful to hear, and how to fix them."
 excerpt: "Screen readers speak every emoji's name out loud. Here is what that sounds like, which habits cause trouble, and how to keep emojis without shutting people out."
 pubDate: 2026-11-18
 category: "How-to"
@@ -25,6 +25,10 @@ faqs:
   - q: "Can blind people use and enjoy emojis?"
     a: "Yes. Blind and low-vision people send emojis, search for them by name on their keyboards, and generally do not want them banned. The common request is moderation and thoughtful placement, not removal. An occasional well-chosen emoji adds tone for a listener just as it does for a reader."
 related: ["emojis-at-work-etiquette", "emojis-in-marketing", "emoji-skin-tones-explained"]
+keywords:
+  - "emoji accessibility"
+  - "screen readers and emojis"
+  - "accessible emoji use"
 ---
 
 A screen reader handles an emoji by speaking its name: 😂 becomes "face with tears of joy," 🙏 becomes "folded hands," and 👍🏽 becomes "thumbs up, medium skin tone." That works well for one or two emojis and badly for a string of twelve, emojis wedged between words, or emojis standing in for words. Writing accessibly does not mean giving emojis up; it means using few, placing them at the end, and making sure the sentence still makes sense when each picture is replaced by a short phrase.

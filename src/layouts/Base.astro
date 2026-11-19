@@ -14,11 +14,13 @@ interface Props {
   noindex?: boolean;
   published?: string;
   ogImage?: string;
+  /** First item is the page's unique primary keyword. */
+  keywords?: string[];
   ogImageAlt?: string;
   modified?: string;
   section?: "emojis" | "categories" | "guides" | "quiz" | "search";
 }
-const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified, ogImage = SITE.ogImage, ogImageAlt } = Astro.props;
+const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified, ogImage = SITE.ogImage, ogImageAlt, keywords = [] } = Astro.props;
 const canonical = abs(path);
 // Long titles already fill the search snippet; only short ones get the brand suffix.
 const fullTitle = path === "/" || [...title].length > 46 ? title : `${title} | ${SITE.name}`;
@@ -45,6 +47,7 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
     <link rel="canonical" href={canonical} />
     <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1"} />
     <meta property="og:type" content={ogType} />

@@ -1,6 +1,6 @@
 ---
 title: "Emojis in Marketing: Subject Lines, Push and Social Posts"
-description: "A practical guide to using emojis in email subject lines, push notifications, SMS and social captions: what tends to work, what backfires, and how to test."
+description: "A practical guide to emojis in marketing: email subject lines, push notifications, SMS and social captions, what tends to work, what backfires, and how to test."
 excerpt: "Where emojis help in subject lines, push notifications and captions, where they hurt, the technical traps, and a simple way to test them on your own audience."
 pubDate: 2026-11-18
 category: "How-to"
@@ -25,6 +25,10 @@ faqs:
   - q: "Do emojis work in B2B marketing?"
     a: "They can, in moderation. A check mark, calendar or chart in a webinar reminder is widely accepted. The tolerance is lower in finance, legal, healthcare and enterprise procurement, and lower still in sales outreach to someone who has never heard of you. Match the register your customers use when they write to you."
 related: ["emojis-at-work-etiquette", "instagram-emoji-meanings", "emoji-accessibility-screen-readers"]
+keywords:
+  - "emojis in marketing"
+  - "emojis in email subject lines"
+  - "emojis in push notifications"
 ---
 
 Emojis can help marketing copy in two ways: they catch the eye in a crowded inbox or notification tray, and they set a tone that plain text takes more words to establish. They hurt when they replace the actual message, clash with the brand or the moment, break on the recipient's device, or carry a second meaning the writer did not know about. There is no universal rule that emojis raise or lower response, so the practical approach is to learn the constraints of each channel, pick emojis that add something specific, and test.

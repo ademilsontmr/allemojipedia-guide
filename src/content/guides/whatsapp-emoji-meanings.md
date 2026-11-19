@@ -25,6 +25,10 @@ faqs:
   - q: "Is a thumbs up rude on WhatsApp?"
     a: "Generally no. In family groups and among older users it is a sincere yes or acknowledgment, and as a reaction it is the standard way to confirm a plan. Some younger users find a lone thumbs up curt when it answers a long or emotional message. If someone wrote several lines, add a few words alongside it."
 related: ["emoji-meanings-in-texting", "emojis-across-cultures", "iphone-vs-android-emojis"]
+keywords:
+  - "whatsapp emoji meanings"
+  - "whatsapp reaction emojis"
+  - "whatsapp emoji tone"
 ---
 
 Emojis on WhatsApp are the same Unicode emojis used everywhere else, so there is no separate WhatsApp code to learn. What differs is the setting: WhatsApp is where grandparents, parents, classmates, coworkers, and neighbors all share one app, across many countries, so the same emoji gets read very differently depending on which chat you are in. Literal meanings dominate in family groups, slang dominates among younger friends, and reactions have their own etiquette.

@@ -1,6 +1,6 @@
 ---
 title: "The History of Emoji: From Japanese Phones to Unicode"
-description: "How emoji went from 1990s Japanese phone carriers to a global Unicode standard: the 1997 and 1999 sets, the 2010 turning point, and what changed after."
+description: "The history of emoji, from 1990s Japanese phone carriers to a global Unicode standard: the 1997 and 1999 sets, the 2010 turning point, and what changed after."
 excerpt: "Emoji began on Japanese mobile phones in the late 1990s and went global when Unicode standardized them in 2010. Here is the full timeline."
 pubDate: 2026-11-18
 category: "Culture"
@@ -25,6 +25,10 @@ faqs:
   - q: "How many emojis are there now?"
     a: "It depends how you count. Counting every skin tone, gender and flag combination that Unicode recommends for general support, the total passed 3,700 with Emoji 16.0 in 2024 and grew again with Emoji 17.0 in 2025. Counting only distinct concepts without variations, the number is closer to 1,900. Unicode publishes the full list on its website."
 related: ["how-new-emojis-get-approved", "new-emojis-2026", "iphone-vs-android-emojis"]
+keywords:
+  - "history of emoji"
+  - "who invented emoji"
+  - "first emoji"
 ---
 
 Emoji started as a competitive feature on Japanese mobile phones in the late 1990s, spent a decade as an incompatible mess of carrier-specific symbols, and became a worldwide writing tool after the Unicode Consortium standardized them in October 2010. The familiar origin story credits Shigetaka Kurita and NTT DoCoMo in 1999, but the first phone emoji set shipped two years earlier, and the idea of adding pictures to text is older still.

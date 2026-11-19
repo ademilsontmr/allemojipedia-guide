@@ -25,6 +25,10 @@ faqs:
   - q: "Which hand emojis should I avoid with international contacts?"
     a: "Be careful with 👌, which is obscene in Brazil and Turkey; 🤘, which implies an unfaithful spouse in Italy, Spain, and some other countries; and ✋ aimed at someone in Greece. 👍 and 🤞 also have vulgar readings in a few regions. With people you do not know well, words plus a smile emoji are the safer choice."
 related: ["emojis-across-cultures", "passive-aggressive-emojis", "emoji-skin-tones-explained"]
+keywords:
+  - "hand emoji meanings"
+  - "hand gesture emojis"
+  - "hand emojis meaning chart"
 ---
 
 Hand gesture emojis mostly mean what the physical gesture means: 👍 is approval, 🙏 is prayer or thanks, 🤞 is hoping for luck, 🤟 is "I love you," 🤙 is "call me" or "hang loose," 🫶 is love and support, and 🤌 is the Italian "what do you want?" The complications come from look-alike pairs, from second meanings that grew up online, and from gestures that are friendly in one country and offensive in another.

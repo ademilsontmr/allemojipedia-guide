@@ -25,6 +25,11 @@ faqs:
   - q: "How many emojis should I put in a Christmas message?"
     a: "Two to four is a good range for a greeting, placed at the end of the sentence rather than between every word. That is enough to look festive without burying the message. Long rows of repeated trees and Santas are slow to read, and screen readers announce every single one by name, which makes the message tedious for some recipients."
 related: ["christian-emojis-meanings", "emoji-combos-ideas", "emojis-in-marketing"]
+keywords:
+  - "christmas emojis"
+  - "christmas emoji meanings"
+  - "christmas emoji combos"
+  - "merry christmas emoji"
 ---
 
 The main Christmas emojis are the Christmas tree 🎄, Santa Claus 🎅, the wrapped gift 🎁, the bell 🔔, the star ⭐, and the snowman ☃️, supported by winter symbols like the snowflake ❄️ and by red and green hearts. Most of them mean exactly what they show, so the useful questions are which one fits which message, what to use for the many Christmas symbols that have no emoji, and how to greet people who celebrate something else in December.

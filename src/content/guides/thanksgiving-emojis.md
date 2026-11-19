@@ -38,6 +38,10 @@ faqs:
   - q: "Is it OK to use Thanksgiving emojis in work messages?"
     a: "Yes, in moderation. A single 🍂 or 🦃 in an out-of-office note or a holiday-hours message is friendly and clear. For clients, keep it to the end of the sentence and pick neutral seasonal symbols like 🍁, 🍂, or 🙏. Skip jokes about overeating and naps, which are fine with friends but can feel overfamiliar in a business message."
 related: ["christmas-emojis-meanings", "black-friday-emojis", "emoji-combos-ideas"]
+keywords:
+  - "thanksgiving emojis"
+  - "turkey emoji"
+  - "thanksgiving emojis copy and paste"
 ---
 
 The core Thanksgiving emojis are the turkey 🦃, the pie 🥧, the ear of corn 🌽, the fallen leaf 🍂, and folded hands 🙏 for gratitude. Copy them from the sets above, add two or three to the end of a greeting, and the message reads as Thanksgiving at a glance. US Thanksgiving 2026 is Thursday, November 26.

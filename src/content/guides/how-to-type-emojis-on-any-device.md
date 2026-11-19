@@ -25,6 +25,10 @@ faqs:
   - q: "Why does an emoji I typed look different or show as a box for someone else?"
     a: "Each company draws its own emoji artwork, so the same character looks different on Apple, Google, Samsung and Microsoft devices. A box or question mark means the receiving device is too old to know that emoji. Sticking to emojis that are a few years old avoids most missing-character problems."
 related: ["why-emojis-show-as-boxes", "iphone-vs-android-emojis", "emoji-skin-tones-explained"]
+keywords:
+  - "how to type emojis"
+  - "emoji keyboard shortcut"
+  - "emoji shortcut windows mac"
 ---
 
 Every current operating system has a built-in emoji picker, and each one opens with a shortcut: **Windows key + period** on Windows, **Control + Command + Space** or the **Globe key** on a Mac, the **smiley key** on iPhone and Android keyboards, and **Search + Shift + Space** on a Chromebook. Once the picker is open, type a word such as "fire" to search rather than scrolling.

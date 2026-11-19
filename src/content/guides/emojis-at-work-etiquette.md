@@ -25,6 +25,11 @@ faqs:
   - q: "What does the eyes emoji mean in Slack?"
     a: "On most teams, reacting with the eyes emoji means 'I am looking at this' or 'I have seen it and will pick it up.' It is a convention rather than a built-in feature, so the meaning depends on your team. Some groups write the convention down so that a request with an eyes reaction is understood as claimed and nobody duplicates the work."
 related: ["passive-aggressive-emojis", "emojis-across-cultures", "emojis-in-marketing"]
+keywords:
+  - "emojis at work"
+  - "emoji etiquette at work"
+  - "slack emoji etiquette"
+  - "emojis in professional emails"
 ---
 
 Emojis are acceptable in most workplaces as long as they do a job: acknowledging a message, showing warmth in a short reply, or marking status. The etiquette comes down to three habits. Use reactions for acknowledgment, mirror the person you are talking to, and keep emojis away from bad news, formal decisions, and anyone you have not yet built a rapport with.

@@ -11,7 +11,7 @@ const description = `In-depth meanings for ${total} of the most used emojis, wit
 const schema = [{ "@type": "CollectionPage", name: title, description, url: abs("/emojis/"),
   mainEntity: { "@type": "ItemList", numberOfItems: total, itemListElement: groups.flatMap((g) => g.items).slice(0, 100).map((e, i) => ({ "@type": "ListItem", position: i + 1, url: abs(emojiUrl(e.slug)), name: `${e.emoji} ${e.name}` })) } }];
 ---
-<Base title={title} description={description} path="/emojis/" section="emojis" schema={schema} crumbs={[{ name: "Emojis" }]}>
+<Base title={title} description={description} path="/emojis/" keywords={["emoji meanings", "what emojis mean", "emoji meanings list"]} section="emojis" schema={schema} crumbs={[{ name: "Emojis" }]}>
   <div class="wrap">
     <header class="article-hero prose">
       <h1>Emoji meanings</h1>

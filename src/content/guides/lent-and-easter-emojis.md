@@ -40,6 +40,11 @@ copyList:
     emojis: "✝️ 🕊️ 🤍 🌅 ✨ 🐣 🥚 💐 🌷 🐑 🕯️ 🙌 ☀️ 🎉"
   - title: "Easter season to Pentecost"
     emojis: "🕊️ 🔥 ❤️ 🌬️ ☁️ ✝️ 🤍 🙌 💧 🌍"
+keywords:
+  - "lent emojis"
+  - "easter emojis"
+  - "ash wednesday emoji"
+  - "holy week emojis"
 ---
 
 Lent and Easter are written in emoji with a small, steady set of symbols: the [Latin cross](/emojis/latin-cross/) ✝️, [folded hands](/emojis/folded-hands/) 🙏 and a [purple heart](/emojis/purple-heart/) 💜 for the forty days of Lent, a palm tree 🌴 for Palm Sunday, a quiet ✝️ and candle 🕯️ for Good Friday, and ✝️ 🌅 🕊️ 🤍 ✨ for Easter morning. The main rule is to let the emojis follow the mood of the day: restrained through Lent and Holy Week, joyful from Easter Sunday on.

@@ -40,6 +40,11 @@ faqs:
   - q: "Why does the donkey emoji show as a box?"
     a: "The donkey 🫏 was approved in Emoji 15.0 in 2022, so phones and apps that have not been updated since then do not have a picture for it and show an empty box or a question mark instead. If you are posting to a broad audience, you can use the horse face 🐴 as a fallback, or simply leave the donkey out and keep the ox 🐂 and sheep."
 related: ["christmas-emojis-meanings", "christian-emojis-meanings", "new-years-emojis"]
+keywords:
+  - "nativity emojis"
+  - "nativity scene emoji"
+  - "star of bethlehem emoji"
+  - "three wise men emoji"
 ---
 
 There is no single nativity emoji, so the manger scene is built from pieces: 👶 for the Christ Child, 🛖 for the stable, 🐂 and 🫏 for the ox and donkey, 🐑 for the shepherds' flock, 👼 for the angels, 👑 and 🐪 for the Magi, and 🌟 for the Star of Bethlehem, which also has no emoji of its own. A short line such as 🌟🛖👶🐂🫏🐑 is instantly readable as a crèche to anyone who has seen one.

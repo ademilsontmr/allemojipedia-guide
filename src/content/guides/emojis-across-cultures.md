@@ -1,6 +1,6 @@
 ---
 title: "Emojis Across Cultures: Gestures That Change Meaning Abroad"
-description: "Which emojis and hand gestures mean something different in other countries, from thumbs up and the OK sign to bowing, smiles and colors, and how to adapt."
+description: "Emojis across cultures: which emojis and hand gestures mean something else abroad, from thumbs up and the OK sign to bowing, smiles and colors, and how to adapt."
 excerpt: "A thumbs up, an OK sign or a simple smile can land very differently outside your own country. Here are the emojis that shift meaning and how to avoid a misfire."
 pubDate: 2026-11-18
 category: "Culture"
@@ -25,6 +25,10 @@ faqs:
   - q: "Do emoji meanings differ between generations as well as countries?"
     a: "Yes, and the two effects overlap. A reading that is described as Chinese or American is often really the reading of younger users in that country. The plain smile, the thumbs up and the tears of joy face are all examples where age changes interpretation at least as much as nationality does."
 related: ["hand-gesture-emojis-meaning", "flag-emojis-explained", "history-of-emoji"]
+keywords:
+  - "emojis across cultures"
+  - "emoji meanings in different cultures"
+  - "offensive emojis in other countries"
 ---
 
 Emojis are standardized as characters, not as meanings. The Unicode Consortium defines that 👍 is "thumbs up"; it does not and cannot define what a raised thumb means to the person receiving it. Hand gestures keep the regional meanings of the physical gestures they depict, a number of emojis carry Japanese meanings that the rest of the world never learned, and colors, numbers and even a plain smile shift by country. This guide lists the differences that are well documented and explains how to write for a mixed audience.

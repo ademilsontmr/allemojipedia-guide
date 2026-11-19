@@ -25,6 +25,10 @@ faqs:
   - q: "How can I tell if someone is really crying or just joking?"
     a: "Look at the sentence first. Jokes, memes, compliments, and all-caps excitement with 😭 are not sadness. Real distress tends to come with plain statements, lowercase, fewer emojis, and quieter faces such as 😢 or 😞. If a message could be read either way and the person matters to you, ask a simple question instead of guessing."
 related: ["gen-z-emoji-slang", "smiley-face-emojis-explained", "emoji-meanings-in-texting"]
+keywords:
+  - "laughing emojis"
+  - "crying laughing emoji"
+  - "laughing emoji meanings"
 ---
 
 😂 and 🤣 mean straightforward laughter; 😭 and 💀 usually mean laughter too, in an exaggerated "I'm crying, I'm dead" way that younger users favor; and 🥲 means smiling through something that hurts. Real sadness is more often shown with the quieter 😢 or with no emoji at all. The meanings overlap, so the words around the emoji and the age of the sender tell you which reading applies.

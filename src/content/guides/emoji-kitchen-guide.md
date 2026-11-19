@@ -25,6 +25,11 @@ faqs:
   - q: "Is Emoji Kitchen the same as Apple's Genmoji?"
     a: "No. Emoji Kitchen offers a fixed catalog of designer-made blends of two existing emojis and is free in Gboard and Google Search. Genmoji, on recent iPhones that support Apple Intelligence, generates a new image from a text description. Both produce images rather than standard emoji characters, so both depend on the receiving app to display them."
 related: ["emoji-combos-ideas", "iphone-vs-android-emojis", "how-to-type-emojis-on-any-device"]
+keywords:
+  - "emoji kitchen"
+  - "gboard emoji mix"
+  - "how to use emoji kitchen"
+  - "emoji mashup"
 ---
 
 Emoji Kitchen is a Google feature that fuses two emojis into one custom sticker, for example a ghost wearing a cowboy hat or a cactus with heart eyes. It is built into Gboard, Google's keyboard for Android, and there is a web version inside Google Search that works on any phone or computer. The results are images rather than real emoji characters, which explains nearly every limit described below.

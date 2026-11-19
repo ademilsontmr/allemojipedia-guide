@@ -25,6 +25,10 @@ faqs:
   - q: "When will the next new emojis come out?"
     a: "Unicode approves a new emoji version roughly once a year, usually in September, and phones receive it over the following months. That means emojis approved in a given autumn mostly reach users the next year. Unicode publishes candidates and final lists on its website, which is the reliable place to check what is coming next."
 related: ["how-new-emojis-get-approved", "why-emojis-show-as-boxes", "iphone-vs-android-emojis"]
+keywords:
+  - "new emojis 2026"
+  - "emoji 17.0"
+  - "new emojis list"
 ---
 
 The new emojis on phones in 2026 come from **Emoji 17.0**, which the Unicode Consortium approved on September 9, 2025. It added eight new characters: distorted face, fight cloud, hairy creature, orca, trombone, landslide, treasure chest and apple core. It also added a ballet dancer and new skin tone options for two existing emoji. They rolled out to devices between late 2025 and 2026, depending on the platform.

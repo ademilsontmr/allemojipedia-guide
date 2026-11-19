@@ -25,6 +25,10 @@ faqs:
   - q: "What does it mean when someone stops using emojis with me?"
     a: "A sudden drop can mean they are busy, stressed, upset, or pulling back, and you cannot tell which from the texts alone. Check whether reply length and speed changed too. If everything cooled at once, a simple check-in such as asking whether everything is okay is reasonable. If only the emojis changed for a day or two, it is probably nothing."
 related: ["flirty-emojis-guide", "emoji-meanings-in-texting", "heart-emoji-colors-meaning"]
+keywords:
+  - "emojis from a guy"
+  - "emojis from a girl"
+  - "what emojis mean from a crush"
 ---
 
 An emoji does not mean one thing from a guy and something else from a girl. A winking face is playful from anyone, and a red heart is affection from anyone. What differs between people, and to a modest degree between men and women on average, is how freely they use each emoji, and that is what determines whether the one you received is a signal or a habit.

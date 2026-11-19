@@ -40,6 +40,10 @@ faqs:
   - q: "How is Halloween related to All Saints' Day?"
     a: "The name Halloween comes from All Hallows' Eve, the evening before All Hallows' Day, an older English name for All Saints' Day; 'hallow' means a holy person or saint. Over time Halloween developed its own customs of costumes, pumpkins, and trick-or-treating, which have little to do with the religious feast, so the two use very different emojis."
 related: ["christian-emojis-meanings", "heart-emoji-colors-meaning", "gen-z-emoji-slang"]
+keywords:
+  - "all saints day emojis"
+  - "all souls day emojis"
+  - "emojis for remembering the dead"
 ---
 
 All Saints' Day (November 1) celebrates all the saints in heaven, and All Souls' Day (November 2) is a day of prayer for everyone who has died, so the emojis that suit them are quiet ones: the candle 🕯️, folded hands 🙏, the cross ✝️, a white heart 🤍, flowers 🌹 💐, and prayer beads 📿. The ones to avoid are the jokey and spooky symbols that fill the same week online, above all the skull 💀, which in chat usually means laughter rather than death.

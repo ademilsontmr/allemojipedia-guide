@@ -1,6 +1,6 @@
 ---
 title: "Passive-Aggressive Emojis: Which Ones Read as Cold and Why"
-description: "Why the slightly smiling face, thumbs up, upside-down face and a few others can read as cold or sarcastic, how to tell if it was meant, and what to send instead."
+description: "Why passive aggressive emojis like the slightly smiling face, thumbs up and upside-down face read as cold or sarcastic, how to tell if it's meant, and what to send."
 excerpt: "The emojis that read as cold, curt, or sarcastic, the reasons behind each one, and how to tell real irritation from an innocent habit."
 pubDate: 2026-11-18
 category: "Meanings"
@@ -25,6 +25,10 @@ faqs:
   - q: "Is it passive-aggressive to reply with just an emoji?"
     a: "Not usually. An emoji-only reply is normal when the message needed only acknowledgment, such as a time, a link, or a plan. It starts to feel pointed when the message was long, vulnerable, or asked a real question, because the effort is so mismatched. In those cases add a sentence, even a short one."
 related: ["smiley-face-emojis-explained", "emoji-meanings-in-texting", "emojis-at-work-etiquette"]
+keywords:
+  - "passive aggressive emojis"
+  - "rude emojis"
+  - "slightly smiling face passive aggressive"
 ---
 
 The emojis most often read as passive-aggressive are the slightly smiling face 🙂, a lone thumbs up 👍, and the upside-down face 🙃, followed by a handful of flat or smug faces such as 😐, 🙄, and 😏. None of them is hostile by design. They feel cold when a cheerful or neutral symbol is attached to a situation that plainly is not cheerful, or when a one-character reply answers a message that deserved more.

@@ -25,6 +25,10 @@ faqs:
   - q: "Is liking a story the same as reacting to it?"
     a: "No. The heart button on a story sends a like that appears in the viewer list for the person who posted it and does not create a message. An emoji reaction, chosen from the row that appears when you tap the message field, is delivered to their DMs as a private message. A like is the quieter of the two."
 related: ["tiktok-emoji-meanings", "flirty-emojis-guide", "emoji-combos-ideas"]
+keywords:
+  - "instagram emoji meanings"
+  - "emojis in instagram comments"
+  - "instagram caption emojis"
 ---
 
 Emojis on Instagram mostly work as fast, public applause. A fire or heart-eyes comment is a compliment, clapping hands are congratulations, and a crying or skull face usually means something was funny or overwhelming. What changes the meaning is where the emoji appears: the same symbol is casual in a public comment, pointed in a story reaction, and personal in a DM.

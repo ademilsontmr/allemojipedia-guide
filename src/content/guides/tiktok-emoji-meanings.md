@@ -25,6 +25,10 @@ faqs:
   - q: "Do TikTok emoji meanings apply on other apps?"
     a: "Partly. Slang such as the skull for laughter and sparkles for sarcastic emphasis has spread to Instagram, X, and group chats. The bracket code emojis do not travel at all, since they exist only inside TikTok. Algospeak emojis are understood mainly by people who spend time on TikTok, so they can confuse readers elsewhere."
 related: ["gen-z-emoji-slang", "instagram-emoji-meanings", "laughing-and-crying-emojis"]
+keywords:
+  - "tiktok emoji meanings"
+  - "tiktok secret emojis"
+  - "tiktok comment emojis"
 ---
 
 On TikTok, emojis in the comments are mostly jokes, reactions, and coded slang, and many do not mean what they show. The skull and the crying face mean laughter, the moai means a deadpan stare, corn stands in for a word people avoid typing, and a blue baseball cap means "that's a lie." TikTok also has a set of hidden emojis of its own that appear when you type a code such as `[smile]` in square brackets.
