@@ -12,6 +12,7 @@ JavaScript is used only for copy buttons, search and the flag quiz.
 | `npm run validate` | Checks emoji pages and guides against the writing briefs |
 | `npm run data` | Regenerates `src/data/emojis.json` and `curated.json` from Unicode data |
 | `npm run deploy` | Build and deploy to Cloudflare Pages |
+| `npm run indexnow` | Submit every sitemap URL to IndexNow (Bing, Yandex) after a deploy |
 
 ## Content
 
