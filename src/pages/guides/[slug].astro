@@ -5,7 +5,8 @@ import GuideCard from "@/components/GuideCard.astro";
 import EmojiTile from "@/components/EmojiTile.astro";
 import { getCollection, render } from "astro:content";
 import { SITE, abs, fmtDate } from "@/lib/site";
-import { emojiPages, getEmoji } from "@/lib/emoji";
+import { emojiPages, getEmoji, getEmojiByChar } from "@/lib/emoji";
+import { hasTwemoji, ogPath } from "@/lib/twemoji.mjs";
 
 export async function getStaticPaths() {
   const guides = await getCollection("guides");
@@ -21,6 +22,8 @@ const published = d.pubDate.toISOString().slice(0, 10);
 const updated = (d.updatedDate ?? d.pubDate).toISOString().slice(0, 10);
 const words = (guide.body ?? "").split(/\s+/).length;
 const minutes = Math.max(1, Math.round(words / 220));
+const heroE = getEmojiByChar(d.heroEmoji);
+const og = heroE && hasTwemoji(heroE.hex) ? ogPath("guides", guide.id) : SITE.ogImage;
 const toc = headings.filter((h) => h.depth === 2);
 let related = d.related.map((s) => all.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g);
 if (related.length < 3) related = [...related, ...all.filter((g) => g.id !== guide.id && g.data.category === d.category && !related.includes(g))].slice(0, 3);
@@ -28,13 +31,13 @@ const mentioned = [...new Set([...(guide.body ?? "").matchAll(/\(\/emojis\/([a-z
   .map((s) => getEmoji(s)).filter((e): e is NonNullable<typeof e> => !!e && pages.has(e.slug)).slice(0, 16);
 const schema = [
   { "@type": "BlogPosting", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
-    datePublished: published, dateModified: updated, wordCount: words, articleSection: d.category, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    datePublished: published, dateModified: updated, wordCount: words, articleSection: d.category, mainEntityOfPage: abs(path), image: { "@type": "ImageObject", url: abs(og), width: 1200, height: 630 },
     isPartOf: { "@id": abs("/#website") },
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") } },
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" published={published} modified={updated} section="guides" schema={schema}
+<Base title={d.title} description={d.description} path={path} ogType="article" published={published} modified={updated} ogImage={og} ogImageAlt={d.title} section="guides" schema={schema}
   crumbs={[{ name: "Guides", href: "/guides/" }, { name: d.title }]}>
   <article class="wrap">
     <header class="article-hero prose">
@@ -56,7 +59,7 @@ const schema = [
       </div>
       <aside class="aside">
         <nav class="card toc" aria-label="In this guide">
-          <h2>In this guide</h2>
+          <p class="fh">In this guide</p>
           <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}<li><a href="#faq">FAQ</a></li></ol>
         </nav>
       </aside>

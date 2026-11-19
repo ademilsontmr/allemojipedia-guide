@@ -5,6 +5,7 @@ import Faq from "@/components/Faq.astro";
 import GuideCard from "@/components/GuideCard.astro";
 import { getCollection } from "astro:content";
 import { SITE, abs, fmtDate } from "@/lib/site";
+import { hasTwemoji, emojiImagePath, ogPath } from "@/lib/twemoji.mjs";
 import { emojiPages, emojis, getEmoji, getCategory, categoryUrl, emojiUrl, subgroupLabel, codepoints, htmlEntity, cssEscape, jsEscape, emojiVersion, addedLabel, SKIN_TONES } from "@/lib/emoji";
 
 export async function getStaticPaths() {
@@ -20,6 +21,9 @@ const char = e.emoji;
 const shortName = e.name.replace(/^Flag: /, "") + (e.category === "flags" && e.name.startsWith("Flag: ") ? " Flag" : "");
 const updated = d.updated ?? SITE.launched;
 const path = emojiUrl(e.slug);
+const hasImg = hasTwemoji(e.hex);
+const og = hasImg ? ogPath("emojis", e.slug) : SITE.ogImage;
+const imgAlt = `${e.name} emoji ${char}`;
 
 const confused = d.confusedWith.map((c) => ({ ...c, emoji: getEmoji(c.slug) })).filter((c) => c.emoji);
 const related = d.related.map((s) => getEmoji(s)).filter((x): x is NonNullable<typeof x> => !!x && x.slug !== e.slug);
@@ -52,7 +56,8 @@ const toc = [
 ];
 const schema = [
   { "@type": "Article", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
-    datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path), image: abs(SITE.ogImage),
+    datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path),
+    image: hasImg ? [{ "@type": "ImageObject", url: abs(og), width: 1200, height: 630, caption: imgAlt }, { "@type": "ImageObject", url: abs(emojiImagePath(e.slug)), caption: `${imgAlt} (Twemoji design)`, license: "https://creativecommons.org/licenses/by/4.0/", creditText: "Twemoji" }] : abs(SITE.ogImage),
     isPartOf: { "@id": abs("/#website") }, articleSection: cat.name, keywords: [e.name, ...e.tags].join(", "),
     wordCount: [d.summary, ...d.meaning, ...d.contexts.map((c) => c.body), d.design, ...d.faqs.map((f) => f.a)].join(" ").split(/\s+/).length,
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
@@ -60,7 +65,7 @@ const schema = [
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} section="emojis" schema={schema}
+<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} ogImage={og} ogImageAlt={imgAlt} section="emojis" schema={schema}
   crumbs={[{ name: "Emojis", href: "/emojis/" }, { name: cat.name, href: categoryUrl(cat.slug) }, { name: shortName }]}>
   <article class="wrap">
     <header class="emoji-hero">
@@ -119,6 +124,12 @@ const schema = [
         <ul class="avoid">{d.avoid.map((a) => <li>{a}</li>)}</ul>
 
         <h2 id="design">How {char} looks across platforms</h2>
+        {hasImg && (
+          <figure class="design-fig">
+            <img src={emojiImagePath(e.slug)} alt={`${imgAlt} as drawn in the Twemoji design`} width="96" height="96" loading="lazy" decoding="async" />
+            <figcaption>{e.name} in the open-source <a href="https://github.com/jdecked/twemoji" rel="noopener">Twemoji</a> design used on X (formerly Twitter). Graphics licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener license">CC-BY 4.0</a>.</figcaption>
+          </figure>
+        )}
         <p>{d.design}</p>
         <p class="note">The {char} on this page is drawn by your own device's emoji font, so it may look slightly different on an iPhone, an Android phone, a Samsung Galaxy or a Windows PC. The meaning is the same everywhere.</p>
 
@@ -150,11 +161,11 @@ const schema = [
 
       <aside class="aside">
         <nav class="card toc" aria-label="On this page">
-          <h2>On this page</h2>
+          <p class="fh">On this page</p>
           <ol>{toc.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}</ol>
         </nav>
         <div class="card facts">
-          <h2>Quick facts</h2>
+          <p class="fh">Quick facts</p>
           <dl>
             <dt>Emoji</dt><dd class="em">{char}</dd>
             <dt>Name</dt><dd>{e.name}</dd>

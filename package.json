@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/build-redirects.mjs",
+    "build": "astro build && node scripts/build-redirects.mjs && node scripts/build-images.mjs",
     "preview": "astro preview",
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name=allemojipedia --branch=main",
     "data": "node scripts/build-data.mjs",
@@ -15,6 +15,8 @@
     "astro": "^7.4.13"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@twemoji/svg": "^15.0.0",
     "emojibase-data": "^18.0.0"
   },
   "engines": {

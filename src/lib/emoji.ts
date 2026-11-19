@@ -11,6 +11,8 @@ export const emojis: Emoji[] = all;
 export const categories: Category[] = categoriesData;
 const bySlug = new Map(emojis.map((e) => [e.slug, e]));
 export const getEmoji = (slug: string) => bySlug.get(slug);
+const byChar = new Map(emojis.map((e) => [e.emoji.replace(/\uFE0F/g, ""), e]));
+export const getEmojiByChar = (c: string) => byChar.get(c.trim().replace(/\uFE0F/g, ""));
 export const getCategory = (slug: string) => categories.find((c) => c.slug === slug)!;
 
 let pageCache: Map<string, EmojiEntry> | undefined;
@@ -32,7 +34,16 @@ const SUBGROUP_LABELS: Record<string, string> = {
   "face-glasses": "Faces with glasses", "face-costume": "Costume faces", "hand-fingers-open": "Open hands",
   "hand-fingers-partial": "Finger gestures", "hand-single-finger": "Pointing fingers", "hand-fingers-closed": "Fists & thumbs",
   "hand-prop": "Hands with objects", "person-symbol": "People symbols", "plant-flower": "Flowers", "plant-other": "Plants & leaves",
-  "food-asian": "Asian food", "food-marine": "Seafood", "food-sweet": "Sweets & desserts", "food-prepared": "Prepared food",
+  "food-asian": "Asian food", "food-fruit": "Fruit", "food-vegetable": "Vegetables", drink: "Drinks", dishware: "Dishware & utensils",
+  "animal-mammal": "Mammals", "animal-bird": "Birds", "animal-amphibian": "Amphibians", "animal-reptile": "Reptiles", "animal-marine": "Sea animals", "animal-bug": "Bugs & insects",
+  "face-smiling": "Smiling faces", "face-affection": "Affectionate faces", "face-tongue": "Faces with tongue", "face-sleepy": "Sleepy faces", "face-unwell": "Unwell faces",
+  "face-concerned": "Worried & sad faces", "face-negative": "Angry faces", "cat-face": "Cat faces", "monkey-face": "Monkey faces", heart: "Hearts", emotion: "Emotion symbols",
+  hands: "Hands", "body-parts": "Body parts", person: "People", "person-gesture": "Gestures", "person-role": "Jobs & roles", "person-fantasy": "Fantasy characters",
+  "person-activity": "Activities", "person-sport": "Sports", "person-resting": "Resting", family: "Couples & families", "hair-style": "Hair styles",
+  "place-geographic": "Landscapes", "transport-air": "Air transport", time: "Time & clocks", event: "Events & celebrations", sport: "Sports", game: "Games",
+  clothing: "Clothing", sound: "Sound", music: "Music", "musical-instrument": "Musical instruments", phone: "Phones", computer: "Computers", money: "Money", mail: "Mail",
+  "writing": "Writing", office: "Office", lock: "Locks", tool: "Tools", science: "Science", medical: "Medical", household: "Household", warning: "Warnings", arrow: "Arrows",
+  religion: "Religion", zodiac: "Zodiac signs", gender: "Gender", math: "Math", punctuation: "Punctuation", currency: "Currency", keycap: "Keycaps", alphanum: "Letters & numbers", geometric: "Shapes", "food-marine": "Seafood", "food-sweet": "Sweets & desserts", "food-prepared": "Prepared food",
   "place-map": "Globes & maps", "place-geographic": "Landscapes", "place-building": "Buildings", "place-religious": "Places of worship",
   "place-other": "Other places", "transport-ground": "Ground transport", "transport-water": "Water transport", "transport-air": "Air transport",
   "sky-weather": "Sky & weather", "award-medal": "Awards & medals", "arts-crafts": "Arts & crafts", "light-video": "Light & video",

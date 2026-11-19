@@ -13,10 +13,12 @@ interface Props {
   ogType?: "website" | "article";
   noindex?: boolean;
   published?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
   modified?: string;
   section?: "emojis" | "categories" | "guides" | "quiz" | "search";
 }
-const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified } = Astro.props;
+const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified, ogImage = SITE.ogImage, ogImageAlt } = Astro.props;
 const canonical = abs(path);
 // Long titles already fill the search snippet; only short ones get the brand suffix.
 const fullTitle = path === "/" || [...title].length > 46 ? title : `${title} | ${SITE.name}`;
@@ -53,13 +55,14 @@ const nav = [
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={abs(SITE.ogImage)} />
+    <meta property="og:image" content={abs(ogImage)} />
+    {ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={abs(SITE.ogImage)} />
+    <meta name="twitter:image" content={abs(ogImage)} />
     <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
@@ -90,11 +93,11 @@ const nav = [
       <div class="wrap">
         <div class="footer-grid">
           <div>
-            <h2>Categories</h2>
+            <p class="fh">Categories</p>
             <ul>{categories.map((c) => <li><a href={categoryUrl(c.slug)}><span class="em" aria-hidden="true">{c.icon}</span> {c.name}</a></li>)}</ul>
           </div>
           <div>
-            <h2>Explore</h2>
+            <p class="fh">Explore</p>
             <ul>
               <li><a href="/emojis/">All emoji meanings</a></li>
               <li><a href="/categories/">Browse by category</a></li>
@@ -104,7 +107,7 @@ const nav = [
             </ul>
           </div>
           <div>
-            <h2>About</h2>
+            <p class="fh">About</p>
             <ul>
               <li><a href="/about/">About us</a></li>
               <li><a href="/editorial-policy/">Editorial policy</a></li>
@@ -113,7 +116,7 @@ const nav = [
             </ul>
           </div>
         </div>
-        <p class="legal">© {new Date().getFullYear()} {SITE.name}. Emoji names and code points follow the Unicode Standard and CLDR. Emoji designs belong to their respective platform owners; this site displays your device's own emoji font. {SITE.name} is independent and not affiliated with the Unicode Consortium or Emojipedia.</p>
+        <p class="legal">© {new Date().getFullYear()} {SITE.name}. Emoji names and code points follow the Unicode Standard and CLDR. Emoji designs belong to their respective platform owners; this site displays your device's own emoji font. Emoji images on meaning pages: Twemoji, CC-BY 4.0. {SITE.name} is independent and not affiliated with the Unicode Consortium or Emojipedia.</p>
       </div>
     </footer>
     <div id="toast" class="sr-only" role="status" aria-live="polite"></div>
