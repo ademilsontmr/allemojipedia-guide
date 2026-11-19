@@ -1,6 +1,7 @@
 // Validates src/content/guides/*.md against docs/guide-brief.md. Usage: node scripts/validate-guides.mjs [slug ...]
 import { readFileSync, existsSync } from "node:fs";
 const curated = new Set(JSON.parse(readFileSync("src/data/curated.json", "utf8")));
+const allChars = new Set(JSON.parse(readFileSync("src/data/emojis.json", "utf8")).flatMap((e) => [e.emoji, ...e.skins.map((x) => x.emoji)]).map((c) => c.replace(/\uFE0F/g, "")));
 const guides = [...readFileSync("docs/guide-list.md", "utf8").matchAll(/^\| ([a-z0-9-]+) \|/gm)].map((m) => m[1]).filter((s) => s !== "slug");
 const CATS = ["smileys-and-emotion", "people-and-body", "animals-and-nature", "food-and-drink", "travel-and-places", "activities", "objects", "symbols", "flags"];
 const want = process.argv.slice(2).length ? process.argv.slice(2) : guides;
@@ -35,6 +36,11 @@ for (const slug of want) {
     else if (!["/flag-emoji-quiz/", "/categories/", "/guides/", "/emojis/", "/"].includes(l)) err(slug, `unknown internal link: ${l}`);
   }
   for (const r of (fm.match(/^related:\s*\[(.*)\]/m) || ["", ""])[1].split(",").map((s) => s.trim().replace(/"/g, "")).filter(Boolean)) if (!guides.includes(r) || r === slug) err(slug, `bad related: ${r}`);
+  for (const m of fm.matchAll(/^\s*emojis:\s*"(.*)"\s*$/gm)) {
+    for (const g of new Intl.Segmenter("en", { granularity: "grapheme" }).segment(m[1])) {
+      const c = g.segment.trim(); if (c && !allChars.has(c.replace(/\uFE0F/g, ""))) err(slug, `copyList has non-emoji or unknown: ${c}`);
+    }
+  }
   const ext = [...body.matchAll(/\]\((https?:[^)]*)\)/g)]; if (ext.length > 3) err(slug, `${ext.length} external links (max 3)`);
   for (const b of [/in today'?s digital/i, /let'?s dive/i, /game-?changer/i, /ever-evolving/i, /it'?s important to note/i]) if (b.test(body)) err(slug, `banned phrase ${b}`);
 }

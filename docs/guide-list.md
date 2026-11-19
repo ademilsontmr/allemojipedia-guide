@@ -32,3 +32,6 @@
 | laughing-and-crying-emojis | 😂 vs 🤣 vs 😭 vs 💀 vs 🥲: what each laugh/cry signals and generational shifts |
 | hand-gesture-emojis-meaning | Hand gestures decoded: 👍 🙏 🤞 🤟 🤙 🫶 🤌 and the ones that offend |
 | why-emojis-show-as-boxes | Why emojis appear as boxes, question marks or split pieces, and how to fix it |
+| thanksgiving-emojis | Thanksgiving emojis: copy-and-paste sets, meanings, greetings and captions (US Thanksgiving, also note Canada's in October) |
+| black-friday-emojis | Black Friday and Cyber Monday emojis: copy sets, meanings, and how shops and shoppers use them (deal posts, subject lines, captions) |
+| new-years-emojis | New Year's Eve and New Year emojis: copy sets, countdown and midnight messages, resolutions, and celebrations around the world |

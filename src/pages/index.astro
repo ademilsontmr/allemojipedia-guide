@@ -13,6 +13,11 @@ const hearts = HEARTS.map((s) => getEmoji(s)).filter((e): e is NonNullable<typeo
 const guides = (await getCollection("guides")).sort((a, b) => a.id.localeCompare(b.id));
 const FEATURED = ["emoji-meanings-in-texting", "heart-emoji-colors-meaning", "gen-z-emoji-slang", "passive-aggressive-emojis", "emojis-at-work-etiquette", "how-to-type-emojis-on-any-device"];
 const featured = [...FEATURED.map((s) => guides.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g), ...guides.filter((g) => !FEATURED.includes(g.id))].slice(0, 6);
+// Seasonal guides, listed in calendar order from today; only the ones that exist are shown.
+const SEASONAL = [["thanksgiving-emojis", "11-26"], ["black-friday-emojis", "11-27"], ["christmas-emojis-meanings", "12-25"], ["new-years-emojis", "12-31"]];
+const today = new Date().toISOString().slice(5, 10);
+const seasonal = SEASONAL.map(([s, md]) => ({ g: guides.find((x) => x.id === s), md }))
+  .filter((x) => x.g).sort((a, b) => ((a.md < today ? "1" : "0") + a.md).localeCompare((b.md < today ? "1" : "0") + b.md)).map((x) => x.g!);
 const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
 ---
 <Base title={title} description={SITE.description} path="/">
@@ -32,6 +37,15 @@ const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
       <section aria-labelledby="popular">
         <div class="section-head"><h2 id="popular">Most looked-up emojis</h2><a href="/emojis/">All {pages.size} emoji meanings →</a></div>
         <ul class="grid cols-tiles">{popular.map((e) => <li><EmojiTile emoji={e} hasPage={true} /></li>)}</ul>
+      </section>
+    )}
+
+    {seasonal.length > 0 && (
+      <section aria-labelledby="season">
+        <div class="section-head"><h2 id="season">Holiday emojis to copy</h2><a href="/guides/#g-Holidays">All holiday guides →</a></div>
+        <ul class="grid cols-cards">{seasonal.map((g) => (
+          <li><a class="linkcard" href={`/guides/${g.id}/`}><span class="em" aria-hidden="true">{g.data.heroEmoji}</span> <strong>{g.data.title.split(":")[0]}</strong><span class="meta">Copy &amp; paste lists, meanings, messages</span></a></li>
+        ))}</ul>
       </section>
     )}
 

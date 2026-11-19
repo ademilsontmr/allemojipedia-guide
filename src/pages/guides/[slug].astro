@@ -49,6 +49,21 @@ const schema = [
     </header>
     <div class="layout">
       <div class="prose article">
+        {d.copyList && (
+          <section class="copyset" aria-labelledby="copy-h">
+            <h2 id="copy-h" style="margin-top:0">Copy and paste {d.title.split(":")[0].replace(/ Emojis?.*$/i, "")} emojis</h2>
+            <p class="muted">Tap any emoji to copy it, or copy a whole row at once.</p>
+            {d.copyList.map((set) => {
+              const list = [...new Intl.Segmenter("en", { granularity: "grapheme" }).segment(set.emojis)].map((x) => x.segment).filter((x) => x.trim());
+              return (
+                <div class="copyrow">
+                  <div class="copyrow-head"><h3>{set.title}</h3><button class="chip" type="button" data-copy={list.join("")}><span data-copy-label>Copy all</span></button></div>
+                  <ul class="copygrid">{list.map((em) => <li><button type="button" class="copyem em" data-copy={em} title={`Copy ${em}`}>{em}</button></li>)}</ul>
+                </div>
+              );
+            })}
+          </section>
+        )}
         <div class="takeaways">
           <h2>Key takeaways</h2>
           <ul>{d.keyTakeaways.map((t) => <li>{t}</li>)}</ul>

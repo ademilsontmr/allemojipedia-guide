@@ -132,8 +132,13 @@ const nav = [
           if (label) label.textContent = "Copied!";
           setTimeout(function () { el.classList.remove("copied"); if (label) label.textContent = old; }, 1200);
         };
-        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () {});
-        else { var t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand("copy"); done(); } catch (x) {} t.remove(); }
+        var legacy = function () {
+          var t = document.createElement("textarea"); t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+          document.body.appendChild(t); t.select(); try { if (document.execCommand("copy")) done(); } catch (x) {} t.remove();
+        };
+        // Some browsers and embedded views refuse the async Clipboard API; fall back to execCommand.
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, legacy);
+        else legacy();
       });
     </script>
     <script is:inline define:vars={{ client: SITE.adsenseClient }}>

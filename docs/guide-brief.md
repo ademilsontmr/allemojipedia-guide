@@ -52,3 +52,18 @@ related: ["three-other", "guide-slugs", "from-the-list"]
 ## Validate
 
 Run `node scripts/validate-guides.mjs <slug> ...` and fix every error it reports.
+
+## Holiday and collection guides (copyList)
+
+Guides about a holiday or an emoji collection add an optional `copyList` to the frontmatter. The template
+renders it as tap-to-copy rows ABOVE the article body, under the heading "Copy and paste ... emojis",
+so do not repeat the full lists as plain text in the body.
+
+```yaml
+copyList:
+  - title: "Food and the feast"
+    emojis: "🦃 🥧 🌽 🍠 🥔 🍗 🍞 🥖 🧈 🍷 🍽️"
+```
+
+Use 5-8 rows of 6-16 emojis each, grouped the way a reader would want them. Only real emoji that exist in
+`src/data/emojis.json` (no kaomoji or text symbols). Put the most expected emojis first in each row.

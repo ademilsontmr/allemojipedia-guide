@@ -193,3 +193,17 @@ details.faq .a p:last-child { margin: 0; }
 .design-fig { display: flex; align-items: center; gap: 18px; margin: 0 0 1.2em; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); }
 .design-fig img { flex: none; width: 96px; height: 96px; }
 .design-fig figcaption { font-size: .9rem; color: var(--muted); }
+.copyset { margin: 8px 0 28px; }
+.copyset h2 { margin-top: 1em; }
+.copyrow { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 12px; }
+.copyrow-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.copyrow-head h3 { margin: 0; font-size: 1rem; }
+.copygrid { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.copygrid li { margin: 0; }
+.copyem { font-size: 1.7rem; line-height: 1; width: 48px; height: 48px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); cursor: pointer; transition: transform .1s, border-color .1s; }
+.copyem:hover { transform: translateY(-2px); border-color: var(--accent); }
+.copyem.copied { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 15%, var(--bg)); }
+@media (max-width: 400px) {
+  .nav a { padding: .4em .4em; font-size: .8rem; }
+  .brand img { width: 28px; height: 28px; }
+}
