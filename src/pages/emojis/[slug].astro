@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import EmojiTile from "@/components/EmojiTile.astro";
 import Faq from "@/components/Faq.astro";
+import AdUnit from "@/components/AdUnit.astro";
 import GuideCard from "@/components/GuideCard.astro";
 import { getCollection } from "astro:content";
 import { SITE, abs, fmtDate } from "@/lib/site";
@@ -84,10 +85,12 @@ const schema = [
     <div class="layout">
       <div class="prose">
         <div class="answer"><strong class="k">Quick answer</strong><p>{d.summary}</p></div>
+        <AdUnit slot="3886878228" name="emoji Quick answer" />
 
         <h2 id="meaning">What does the {char} {shortName.toLowerCase()} emoji mean?</h2>
         {d.meaning.map((p) => <p>{p}</p>)}
 
+        <AdUnit slot="6561530067" name="emoji meaning by context" />
         <h2 id="contexts">{char} meaning by context</h2>
         {d.contexts.map((c) => (<><h3>{c.label}</h3><p>{c.body}</p></>))}
 
@@ -174,6 +177,7 @@ const schema = [
             <dt>Group</dt><dd><a href={categoryUrl(cat.slug)}>{cat.name}</a></dd>
           </dl>
         </div>
+        <AdUnit slot="4461593291" name="emoji sidebar" variant="sidebar" />
       </aside>
     </div>
 

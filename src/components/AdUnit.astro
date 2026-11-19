@@ -1,0 +1,12 @@
+---
+// One AdSense display unit. The adsbygoogle.js loader is added once, lazily, by Base.astro;
+// pushing here only queues the slot, so it fills as soon as the loader arrives.
+import { SITE } from "@/lib/site";
+interface Props { slot: string; name: string; variant?: "sidebar" | "inline" }
+const { slot, name, variant = "inline" } = Astro.props;
+---
+<div class:list={["ad-slot", `ad-${variant}`]} data-ad-name={name}>
+  <p class="ad-label">Advertisement</p>
+  <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>

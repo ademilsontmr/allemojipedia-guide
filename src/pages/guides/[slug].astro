@@ -1,6 +1,7 @@
 ---
 import Base from "@/layouts/Base.astro";
 import Faq from "@/components/Faq.astro";
+import AdUnit from "@/components/AdUnit.astro";
 import GuideCard from "@/components/GuideCard.astro";
 import EmojiTile from "@/components/EmojiTile.astro";
 import { getCollection, render } from "astro:content";
@@ -77,6 +78,7 @@ const schema = [
           <p class="fh">In this guide</p>
           <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}<li><a href="#faq">FAQ</a></li></ol>
         </nav>
+        <AdUnit slot="4461593291" name="emoji sidebar" variant="sidebar" />
       </aside>
     </div>
     {mentioned.length > 0 && (
