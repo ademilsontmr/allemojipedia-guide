@@ -76,7 +76,7 @@ const nav = [
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/" aria-label={`${SITE.name} home`}><span class="em" aria-hidden="true">😀</span><span>{SITE.name}</span></a>
+        <a class="brand" href="/" aria-label={`${SITE.name} home`}><img src="/icon-192.png" alt="" width="32" height="32" decoding="async" /><span>{SITE.name}</span></a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
           <a class="search-link" href="/search/" aria-label="Search emojis" aria-current={section === "search" ? "page" : undefined}>Search</a>

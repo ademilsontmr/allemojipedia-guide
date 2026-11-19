@@ -45,7 +45,7 @@ code, kbd { font: .9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 .site-header { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(1.4) blur(12px); border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; gap: 12px; min-height: 64px; }
 .brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.12rem; color: var(--ink); text-decoration: none; letter-spacing: -.02em; }
-.brand .em { font-size: 1.5rem; }
+.brand img { width: 32px; height: 32px; flex: none; }
 .nav { display: flex; gap: 2px; margin-left: auto; align-items: center; }
 .nav a { color: var(--ink); text-decoration: none; padding: .5em .8em; border-radius: 999px; font-weight: 600; font-size: .95rem; white-space: nowrap; }
 .nav a:hover, .nav a[aria-current="page"] { background: var(--surface-2); }
