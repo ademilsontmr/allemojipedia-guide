@@ -1,10 +1,11 @@
 ---
 import Page from "@/layouts/Page.astro";
+import { SITE } from "@/lib/site";
 ---
-<Page title="Contact Allemojipedia" description="Contact the Allemojipedia editorial team to report an error, suggest an emoji meaning, ask about the site or raise a privacy or copyright concern." path="/contact/" keywords={["contact allemojipedia"]} heading="Contact Allemojipedia" lead="Corrections, suggestions and questions are all welcome.">
+<Page pageType="ContactPage" title="Contact Allemojipedia" description="Contact the Allemojipedia editorial team to report an error, suggest an emoji meaning, ask about the site or raise a privacy or copyright concern." path="/contact/" keywords={["contact allemojipedia"]} heading="Contact Allemojipedia" lead="Corrections, suggestions and questions are all welcome.">
   <h2>Email</h2>
-  <p>General questions and partnerships: <a href="mailto:contact@allemojipedia.com">contact@allemojipedia.com</a></p>
-  <p>Corrections and feedback on a page: <a href="mailto:feedback@allemojipedia.com">feedback@allemojipedia.com</a></p>
+  <p>General questions and partnerships: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+  <p>Corrections and feedback on a page: <a href={`mailto:${SITE.email}?subject=Correction`}>{SITE.email}</a></p>
 
   <h2>Reporting an error</h2>
   <p>To help us fix a mistake quickly, please include:</p>

@@ -6,6 +6,7 @@ export const SITE = {
   /** Date the rebuilt site's content was written; used when a page has no later `updated` date. */
   launched: "2026-11-19",
   team: "Allemojipedia Editorial Team",
+  email: "smartxdigitalx@gmail.com",
   adsenseClient: "ca-pub-7369074864505211",
   ogImage: "/og-image.png",
 };

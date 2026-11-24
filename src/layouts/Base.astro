@@ -19,17 +19,24 @@ interface Props {
   ogImageAlt?: string;
   modified?: string;
   section?: "emojis" | "categories" | "guides" | "quiz" | "search";
+  /** schema.org type for the page node added when `schema` is empty (e.g. "AboutPage"). */
+  pageType?: string;
 }
-const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified, ogImage = SITE.ogImage, ogImageAlt, keywords = [] } = Astro.props;
+const { title, description, path, crumbs = [], schema = [], ogType = "website", noindex = false, section, published, modified, ogImage = SITE.ogImage, ogImageAlt = ogImage === SITE.ogImage ? `${SITE.name}: ${SITE.tagline}` : undefined, keywords = [], pageType = "WebPage" } = Astro.props;
 const canonical = abs(path);
 // Long titles already fill the search snippet; only short ones get the brand suffix.
 const fullTitle = path === "/" || [...title].length > 46 ? title : `${title} | ${SITE.name}`;
 const trail = crumbs.length ? [{ name: "Home", href: "/" }, ...crumbs] : [];
 const graph: Record<string, unknown>[] = [
   { "@type": "WebSite", "@id": abs("/#website"), url: abs("/"), name: SITE.name, description: SITE.description, inLanguage: "en", publisher: { "@id": abs("/#org") } },
-  { "@type": "Organization", "@id": abs("/#org"), name: SITE.name, url: abs("/"), logo: { "@type": "ImageObject", url: abs("/icon-512.png"), width: 512, height: 512 } },
+  { "@type": "Organization", "@id": abs("/#org"), name: SITE.name, url: abs("/"), email: SITE.email,
+    logo: { "@type": "ImageObject", url: abs("/icon-512.png"), width: 512, height: 512 },
+    contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: SITE.email, url: abs("/contact/"), availableLanguage: "en" } },
   ...schema,
 ];
+// Pages that bring no page-level node of their own (home, about, contact...) still get one.
+if (!schema.length && !noindex)
+  graph.push({ "@type": pageType, "@id": `${canonical}#webpage`, url: canonical, name: title, description, inLanguage: "en", isPartOf: { "@id": abs("/#website") }, primaryImageOfPage: { "@type": "ImageObject", url: abs(ogImage), width: 1200, height: 630 } });
 if (trail.length)
   graph.push({ "@type": "BreadcrumbList", itemListElement: trail.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: abs(c.href ?? path) })) });
 const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replace(/</g, "\\u003c");
@@ -79,7 +86,7 @@ const nav = [
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/" aria-label={`${SITE.name} home`}><img src="/icon-192.png" alt="" width="32" height="32" decoding="async" /><span>{SITE.name}</span></a>
+        <a class="brand" href="/" aria-label={`${SITE.name} home`}><img src="/logo-64.png" alt="" width="32" height="32" decoding="async" /><span>{SITE.name}</span></a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
           <a class="search-link" href="/search/" aria-label="Search emojis" aria-current={section === "search" ? "page" : undefined}>Search</a>
