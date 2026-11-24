@@ -1,0 +1,61 @@
+{
+  "slug": "crab",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Crab Emoji 🦀 Meaning: Crab Rave, Rust and Seafood",
+  "description": "The crab emoji 🦀 shows a crab, but online it also means “X is gone” from the Crab Rave meme, the Rust language, Cancer season and a grumpy mood. Here is each use.",
+  "summary": "🦀 is a red crab. People use it for seafood boils, beach days and the Cancer zodiac sign, and online it carries several in-jokes: the “🦀 X is gone 🦀” celebration from the Crab Rave meme, the Rust programming community’s crab mascot, and being crabby or sidestepping a question.",
+  "meaning": [
+    "Start with the literal crab. It labels crab legs, crab cakes, Maryland blue crabs, Dungeness season on the West Coast, Cajun seafood boils and tide-pool finds at the beach. Restaurants and fish markets post it on specials boards. Because the sign for Cancer, which runs from late June to late July, is a crab, astrology accounts and Cancer birthdays use 🦀 almost as often as the official ♋ symbol, and with more personality.",
+    "The best-known internet use comes from Crab Rave, an electronic track by Noisestorm whose video of dancing computer-generated crabs became a meme in 2018. Fans reworked it into a template: a line of crabs around a phrase announcing that something unpopular is gone, as in “🦀 MONDAY IS GONE 🦀”. The format is triumphant and a little absurd, and it still turns up when a rival team is knocked out, a hated feature is removed or a semester ends.",
+    "Programmers know a different crab. The Rust language’s unofficial mascot is Ferris, a friendly orange crab, and Rust developers call themselves Rustaceans. A 🦀 in a bio, a commit message or a conference talk title usually signals Rust. Elsewhere the crab stands for being crabby, for scuttling sideways out of a topic, and for the idea of crabs in a bucket, where people pull down anyone trying to climb out.",
+    "Crabs is also an informal name for pubic lice, so the emoji occasionally appears in jokes about that infestation. It is a minor use, but worth knowing before sending a crab to someone after a date. Biology fans add one more joke: carcinization, the observation that several unrelated crustaceans evolved crab-like bodies, spawned the meme that everything eventually becomes a crab."
+  ],
+  "contexts": [
+    {
+      "label": "In memes and comment sections",
+      "body": "A comment that is nothing but crabs, or crabs wrapped around a capitalized phrase, is a Crab Rave reference. It celebrates something ending or someone being defeated, and it can be pointed: fans use it when a rival coach is fired or a disliked character dies. Read it as gleeful mockery rather than anything about seafood."
+    },
+    {
+      "label": "In tech",
+      "body": "On developer forums, GitHub profiles and social bios, 🦀 is shorthand for Rust. Projects rewritten in Rust announce it with a crab, and jokes about rewriting everything in Rust usually carry one. If the conversation is about code, assume the crab means the language, not the animal."
+    },
+    {
+      "label": "Around food and summer",
+      "body": "Crab feasts with mallets and newspaper on the table, seafood boils, sushi orders and crab shack road trips all get the emoji. It sits naturally next to 🦞 and 🦐 in menus and next to 🌊 and 🏖️ in beach captions. In coastal towns it also marks the opening of local crab seasons."
+    }
+  ],
+  "examples": [
+    { "text": "🦀 FINALS ARE GONE 🦀", "meaning": "Crab Rave format: the sender is celebrating the end of exams in an exaggerated, meme-style way." },
+    { "text": "Crab boil at my uncle’s Saturday, bring a bib 🦀🌽", "meaning": "A literal invitation to a seafood boil with corn and crab." },
+    { "text": "Happy birthday to my favorite Cancer 🦀♋", "meaning": "Wishing a happy birthday to someone born under the crab zodiac sign." },
+    { "text": "Finally shipped the parser rewrite 🦀", "meaning": "A developer saying the code was rewritten in Rust, whose mascot is a crab." },
+    { "text": "Sorry for being so 🦀 this morning, hadn’t had coffee", "meaning": "Apologizing for being grumpy or irritable, playing on the word crabby." },
+    { "text": "You’re sidestepping again 🦀", "meaning": "Calling out someone for dodging a direct question, the way crabs walk sideways." }
+  ],
+  "combos": [
+    { "combo": "🦀🦀🦀", "meaning": "Pure Crab Rave energy; celebrating that something is over or someone lost." },
+    { "combo": "🦀🦞🦐", "meaning": "A seafood platter, boil or night out for shellfish." },
+    { "combo": "🦀♋", "meaning": "Cancer season or a Cancer birthday, doubling up on the zodiac crab." },
+    { "combo": "🦀😤", "meaning": "Feeling crabby and irritated." }
+  ],
+  "confusedWith": [
+    { "slug": "lobster", "difference": "🦞 has a long body, a tail fan and large front claws on an elongated frame. It means lobster dinners and Maine. 🦀 is the compact, round-bodied crab and carries the meme and Rust meanings the lobster lacks." },
+    { "slug": "cancer", "difference": "♋ is the astrological glyph for Cancer, a symbol of two curled marks. It only means the zodiac sign. 🦀 can also stand for Cancer, but it is a drawing of the animal and has many other uses." },
+    { "slug": "shrimp", "difference": "🦐 is a curled pink or orange shrimp used for shrimp dishes and occasionally to tease someone about bad posture. It has no claws or sideways walk, so it does not do the crab’s jokes." }
+  ],
+  "avoid": [
+    "Skip it after a date or hookup unless you are certain the other person will not read it as a joke about pubic lice.",
+    "Do not use the Crab Rave format about a person who has died or lost a job if anyone close to them might see it.",
+    "Leave it out of messages to anyone with a shellfish allergy when the topic is what to eat."
+  ],
+  "design": "A front-facing crab, usually red or orange, with a wide oval shell, two raised pincers and four or more legs on each side. Most platforms draw it as a cooked-red crab rather than the bluish or brown tones of a live one, and the claws are typically held up as if waving. Differences between vendors are mostly in shading and how cartoonish the eyes look.",
+  "faqs": [
+    { "q": "What does “🦀 X is gone 🦀” mean?", "a": "It comes from the Crab Rave meme, based on a 2018 Noisestorm track and its video of dancing crabs. Surrounding a phrase with crabs announces, triumphantly and a bit absurdly, that something annoying or unwanted is finally gone." },
+    { "q": "Why do programmers use the crab emoji?", "a": "The Rust programming language has a crab mascot named Ferris, and its community calls itself Rustaceans. A crab in a developer’s bio or post usually means they write Rust or are talking about it." },
+    { "q": "Is 🦀 the Cancer zodiac emoji?", "a": "Unofficially, yes. The official zodiac emoji is ♋, but because Cancer is represented by a crab, many people prefer 🦀 for Cancer season posts, horoscopes and birthday wishes because it is more recognizable." },
+    { "q": "Can the crab emoji mean something rude?", "a": "Occasionally. “Crabs” is slang for pubic lice, so a crab can be a joke about that. It can also mean someone is crabby. In most messages, though, it is about seafood, the zodiac or a meme." },
+    { "q": "When was the crab emoji added?", "a": "🦀 arrived with Emoji 1.0 in 2015, so it is older than the lobster and shrimp it is often grouped with in seafood messages. Every major phone, computer and messaging app supports it today." }
+  ],
+  "related": ["lobster", "shrimp", "octopus", "cancer", "water-wave", "desert-island"]
+}

@@ -30,7 +30,7 @@ const schema = [
       <span class="em" aria-hidden="true">📋</span>
       <h1>Emoji copy and paste</h1>
       <p class="lead">Tap any emoji to copy it, or use <strong>Copy all</strong> to grab a whole row. {total} of the most used emojis, grouped the way your keyboard groups them.</p>
-      <p>Each emoji below is a real Unicode character, so it pastes into WhatsApp, Instagram, TikTok, email, Word or any other app. Want to know what one means before you send it? Every emoji here has its own page: use the <em>Meaning</em> links under each group, or browse <a href="/emojis/">all emoji meanings</a>. For skin tones and the full set of {emojis.length.toLocaleString("en-US")} emojis, open the <a href="/categories/">category pages</a>.</p>
+      <p>Each emoji below is a real Unicode character, so it pastes into WhatsApp, Instagram, TikTok, email, Word or any other app. Want to know what one means before you send it? Every emoji here has its own page: use the <em>Meaning</em> links under each group, or browse <a href="/emojis/">all emoji meanings</a>. Looking for text symbols such as ♡ ★ ✓ or kaomoji such as (^_^)? See <a href="/text-symbols/">text symbols to copy</a> and <a href="/kaomoji/">kaomoji</a>. For skin tones and the full set of {emojis.length.toLocaleString("en-US")} emojis, open the <a href="/categories/">category pages</a>.</p>
       <ul class="chips">{groups.map((g) => <li><a class="chip" href={`#${g.cat.slug}`}><span class="em" aria-hidden="true">{g.cat.icon}</span> {g.cat.name}</a></li>)}</ul>
     </header>
 

@@ -2,6 +2,8 @@
 import Base from "@/layouts/Base.astro";
 import EmojiTile from "@/components/EmojiTile.astro";
 import GuideCard from "@/components/GuideCard.astro";
+import PostCard from "@/components/PostCard.astro";
+import { allPosts } from "@/lib/blog";
 import { getCollection } from "astro:content";
 import { SITE } from "@/lib/site";
 import { emojiPages, emojis, categories, categoryUrl, getEmoji } from "@/lib/emoji";
@@ -11,6 +13,9 @@ const popular = POPULAR.map((s) => getEmoji(s)).filter((e): e is NonNullable<typ
 const HEARTS = ["red-heart", "pink-heart", "orange-heart", "yellow-heart", "green-heart", "blue-heart", "light-blue-heart", "purple-heart", "black-heart", "white-heart", "brown-heart", "grey-heart", "broken-heart", "heart-on-fire", "mending-heart", "two-hearts", "sparkling-heart", "growing-heart"];
 const hearts = HEARTS.map((s) => getEmoji(s)).filter((e): e is NonNullable<typeof e> => !!e && pages.has(e.slug));
 const guides = (await getCollection("guides")).sort((a, b) => a.id.localeCompare(b.id));
+const latestPosts = (await allPosts()).slice(0, 3);
+const SYMBOL_ORDER = ["text-symbols", "kaomoji", "heart-symbols", "cute-symbols", "star-symbols"];
+const symbolSets = (await getCollection("symbols")).sort((a, b) => SYMBOL_ORDER.indexOf(a.id) - SYMBOL_ORDER.indexOf(b.id));
 const FEATURED = ["emoji-meanings-in-texting", "heart-emoji-colors-meaning", "gen-z-emoji-slang", "passive-aggressive-emojis", "emojis-at-work-etiquette", "how-to-type-emojis-on-any-device"];
 const featured = [...FEATURED.map((s) => guides.find((g) => g.id === s)).filter((g): g is NonNullable<typeof g> => !!g), ...guides.filter((g) => !FEATURED.includes(g.id))].slice(0, 6);
 // Seasonal guides, listed in calendar order from today; only the ones that exist are shown.
@@ -31,6 +36,7 @@ const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
         <input id="q" name="q" type="search" placeholder="Search an emoji: skull, heart, 🙏 …" autocomplete="off" />
         <button class="btn" type="submit">Search</button>
       </form>
+      <p class="muted" style="margin-top:14px">Got an emoji you can't read? <a href="/what-does-this-emoji-mean/">Paste it into the emoji meaning finder</a>.</p>
     </section>
 
     {popular.length > 0 && (
@@ -72,6 +78,15 @@ const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
       </section>
     )}
 
+    {symbolSets.length > 0 && (
+      <section aria-labelledby="symbols">
+        <div class="section-head"><h2 id="symbols">Text symbols and kaomoji to copy</h2><a href="/text-symbols/">All symbols →</a></div>
+        <ul class="grid cols-cards">{symbolSets.map((x) => (
+          <li><a class="linkcard" href={`/${x.id}/`}><span class="em" aria-hidden="true">{x.data.hero}</span> <strong>{x.data.h1}</strong><span class="meta">{x.data.sets.length} sets · tap to copy</span></a></li>
+        ))}</ul>
+      </section>
+    )}
+
     <section aria-labelledby="quiz">
       <div class="card" style="display:grid;gap:10px;margin-top:56px;text-align:center;padding:36px 20px">
         <span class="em" aria-hidden="true" style="font-size:2.6rem;letter-spacing:.12em">🇧🇷🇯🇵🇳🇬🇮🇪🇨🇦</span>
@@ -80,6 +95,13 @@ const title = `${SITE.name}: Emoji Meanings, Explained Properly`;
         <p style="margin:6px 0 0"><a class="btn" href="/flag-emoji-quiz/">Play the flag emoji quiz</a></p>
       </div>
     </section>
+
+    {latestPosts.length > 0 && (
+      <section aria-labelledby="news">
+        <div class="section-head"><h2 id="news">Latest emoji news</h2><a href="/blog/">All news →</a></div>
+        <ul class="post-grid">{latestPosts.map((p) => <li><PostCard post={p} headingLevel="h3" /></li>)}</ul>
+      </section>
+    )}
 
     {featured.length > 0 && (
       <section aria-labelledby="guides">

@@ -1,0 +1,116 @@
+{
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "slug": "spaghetti",
+  "title": "Spaghetti Emoji 🍝 Meaning: Pasta Night to Spaghetti Code",
+  "description": "The spaghetti emoji 🍝 means pasta night and Italian comfort food, plus jokes about spaghetti code and wobbly legs. See its uses, pairings and how it differs from 🍜.",
+  "summary": "🍝 shows a plate of spaghetti with tomato sauce, sometimes with meatballs. It means pasta, Italian or Italian-American dinners, comfort food and cooking at home. Figuratively it shows up in jokes about tangled code or wiring, weak “spaghetti” arms and legs, and the famous shared-noodle kiss from Lady and the Tramp.",
+  "meaning": [
+    "Most of the time 🍝 just means dinner. It covers a weeknight bowl of pasta, a Sunday sauce simmered for hours, a trip to an Italian restaurant and the jar-sauce meals of student life. Because pasta is cheap and familiar, the emoji often has a homey, family-table feel rather than a fancy one. Home cooks use it to show off a fresh batch, and parents use it to announce the one dinner every child will eat.",
+    "The emoji also carries an Italian-American accent. Spaghetti and meatballs is an immigrant dish more associated with New York red-sauce restaurants than with Italy, and several platform designs add the meatballs. That gives 🍝 a slightly different meaning from pizza or the Italian flag: it often points to nonna-style cooking, big family meals and old-school trattorias. Italians sometimes joke about foreigners breaking spaghetti or putting ketchup on it, and the emoji turns up in those debates too.",
+    "Figurative uses come from the shape. Programmers call messy, tangled logic spaghetti code, and a 🍝 reply to a pull request is a gentle roast. A desk of crossed cables is cable spaghetti. Legs that feel like wet noodles after a workout or a nervous moment get the emoji as well. Romantic posts borrow the Lady and the Tramp scene, where two dogs meet in the middle of a single strand."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "It answers dinner questions and shares cravings. “🍝?” is an invitation to come over and eat, and a photo of a steaming pot with the emoji is a status update that the cook is proud of. It is also a comfort signal: after a breakup or a long shift, people say they need carbs, and 🍝 is the shorthand for that."
+    },
+    {
+      "label": "At work and in tech",
+      "body": "Developers use 🍝 to describe tangled code, sprawling dependencies or a confusing diagram, usually with affection rather than malice. Reacting with it to your own commit is a confession. Outside tech, office chats use it for lunch orders or team dinners at Italian places. It stays light, though calling a colleague's work spaghetti in front of others can sting."
+    },
+    {
+      "label": "On dates and anniversaries",
+      "body": "Pasta dinners are a classic date, and the emoji often joins 🍷 and 🕯️ in posts about candlelit Italian meals. Couples recreate the shared-noodle moment from Lady and the Tramp, captioning it with 🍝 and a heart. Cooking pasta for someone at home is read as a caring gesture, and the emoji announces that plan."
+    }
+  ],
+  "examples": [
+    {
+      "text": "Making my grandma's Sunday sauce, come over at 6 🍝",
+      "meaning": "An invitation to a homemade, family-style pasta dinner."
+    },
+    {
+      "text": "Leg day destroyed me, legs are pure 🍝",
+      "meaning": "The sender's legs feel weak and wobbly, like cooked noodles."
+    },
+    {
+      "text": "This function calls itself from four places. Who wrote this 🍝",
+      "meaning": "A joking complaint about tangled, hard-to-follow code."
+    },
+    {
+      "text": "Date night: candles, wine, 🍝",
+      "meaning": "Describing a romantic Italian dinner at home or out."
+    },
+    {
+      "text": "Bad day. Need a giant bowl of 🍝 and a nap",
+      "meaning": "Asking for comfort food after something stressful."
+    },
+    {
+      "text": "The cables behind my TV are a whole plate of 🍝",
+      "meaning": "A self-deprecating comment on messy wiring."
+    }
+  ],
+  "combos": [
+    {
+      "combo": "🍝🍷",
+      "meaning": "Pasta and wine, a cozy dinner or a date night."
+    },
+    {
+      "combo": "🍝🇮🇹",
+      "meaning": "Italian food, a trip to Italy, or pride in Italian or Italian-American heritage."
+    },
+    {
+      "combo": "🍝🐶❤️",
+      "meaning": "A nod to the Lady and the Tramp spaghetti kiss, used for romantic or cute posts."
+    },
+    {
+      "combo": "🍝💻",
+      "meaning": "Spaghetti code: tangled software that is hard to follow or maintain."
+    }
+  ],
+  "confusedWith": [
+    {
+      "slug": "steaming-bowl",
+      "difference": "🍜 is a bowl of hot noodle soup with chopsticks, used for ramen, pho and similar dishes. 🍝 is pasta on a plate with sauce, which reads as Italian or Italian-American food."
+    },
+    {
+      "slug": "pizza",
+      "difference": "🍕 is the other big Italian food emoji, but it signals takeout and casual hangouts. 🍝 leans toward sit-down dinners, home cooking and family meals."
+    },
+    {
+      "slug": "curry-rice",
+      "difference": "🍛 shows rice with curry sauce on a plate. At small sizes the two plated dishes with sauce can look alike, but curry means Japanese or South Asian curry, not pasta."
+    }
+  ],
+  "avoid": [
+    "Think twice before calling a coworker's project 🍝 in a public channel, since it reads as criticism even when meant kindly.",
+    "Avoid using it as a stand-in for Italian people, which can come off as a lazy stereotype."
+  ],
+  "design": "A plate or shallow bowl of long yellow noodles topped with red tomato sauce, sometimes with a fork twirled into it. Several designs add meatballs, which ties the emoji to the Italian-American dish, while others show plain marinara or a sprig of basil. Unicode files the emoji with Asian foods because it arrived with the original Japanese carrier sets, but every major platform draws it as Western-style pasta.",
+  "faqs": [
+    {
+      "q": "What does 🍝 mean in slang?",
+      "a": "Most uses are literal. The slang uses come from the shape: spaghetti code for tangled programming, spaghetti legs or arms for weak, wobbly limbs, and cable spaghetti for messy wiring. All of them are lighthearted."
+    },
+    {
+      "q": "Why is the spaghetti emoji in the Asian food group?",
+      "a": "Unicode's food subgroups follow where an emoji came from. 🍝 entered the standard in 2010 from Japanese mobile carrier sets, which included Western dishes served in Japan, so it was filed with those foods despite looking Italian."
+    },
+    {
+      "q": "What does 🍝 mean from a guy or a girl?",
+      "a": "Usually an offer to cook or to go out for Italian food. If they say they will make pasta for you, the emoji signals a homey, caring date rather than anything suggestive."
+    },
+    {
+      "q": "What is the difference between 🍝 and 🍜?",
+      "a": "🍝 is pasta on a plate with sauce. 🍜 is a hot bowl of noodle soup, usually ramen. Use the bowl for Asian noodle soups and the plate for spaghetti, linguine and similar pastas."
+    }
+  ],
+  "related": [
+    "pizza",
+    "wine-glass",
+    "flag-italy",
+    "steaming-bowl",
+    "cheese-wedge",
+    "bread"
+  ]
+}

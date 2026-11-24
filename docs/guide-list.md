@@ -39,3 +39,6 @@
 | all-saints-all-souls-emojis | All Saints' Day (Nov 1) and All Souls' Day (Nov 2) emojis: what each day commemorates, respectful emojis for remembering the dead, and how they differ from Halloween and Día de los Muertos |
 | advent-emojis | Advent emojis: the four weeks before Christmas (Advent 2026 begins Sunday, November 29), the Advent wreath and its candles, liturgical colors, Gaudete Sunday, O Antiphons, and ready-to-post emoji captions for each week |
 | lent-and-easter-emojis | Lent, Holy Week and Easter emojis: Ash Wednesday (February 10, 2027), the Lenten practices, Palm Sunday, the Triduum, Easter Sunday (March 28, 2027) and the Easter season, with respectful captions and combos |
+| is-there-a-seahorse-emoji | Is there a seahorse emoji? No, not even in Emoji 18.0 (2026): the Mandela effect, why chatbots loop on it, what people use instead (🐠 🐟 🐉 🦄 🌊) and how a new emoji gets proposed |
+| how-to-get-emojis-on-mac | How to get and type emojis on a Mac: Globe key, Control-Command-Space, Edit menu, Character Viewer, favorites, skin tones, text replacement, fixes when the picker will not open |
+| how-to-do-emojis-on-chromebook | How to do emojis on a Chromebook: Search/Launcher + Shift + Space, right-click Emoji, on-screen and tablet keyboard, GIFs and symbols, skin tones, fixes when it does not work |

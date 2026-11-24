@@ -6,7 +6,7 @@ import AdUnit from "@/components/AdUnit.astro";
 import GuideCard from "@/components/GuideCard.astro";
 import { getCollection } from "astro:content";
 import { SITE, abs, fmtDate } from "@/lib/site";
-import { hasTwemoji, emojiImagePath, ogPath } from "@/lib/twemoji.mjs";
+import { hasTwemoji, emojiImagePath, ogPath, TWEMOJI_LICENSE } from "@/lib/twemoji.mjs";
 import { emojiPages, emojis, getEmoji, getCategory, categoryUrl, emojiUrl, subgroupLabel, codepoints, htmlEntity, cssEscape, jsEscape, emojiVersion, addedLabel, SKIN_TONES } from "@/lib/emoji";
 
 export async function getStaticPaths() {
@@ -20,7 +20,8 @@ const pages = await emojiPages();
 const cat = getCategory(e.category);
 const char = e.emoji;
 const shortName = e.name.replace(/^Flag: /, "") + (e.category === "flags" && e.name.startsWith("Flag: ") ? " Flag" : "");
-const updated = d.updated ?? SITE.launched;
+const published = d.published ?? SITE.launched;
+const updated = d.updated ?? published;
 const path = emojiUrl(e.slug);
 const hasImg = hasTwemoji(e.hex);
 const og = hasImg ? ogPath("emojis", e.slug) : SITE.ogImage;
@@ -29,8 +30,10 @@ const imgAlt = `${e.name} emoji ${char}`;
 // the Unicode name ("Cloud With Rain"); the Unicode name is kept as a secondary keyword.
 const titleName = (d.title.match(/^(.*?)\s+Emoji\b/)?.[1] ?? shortName).replace(/[^\p{L}\p{N}\s'’&.-]/gu, "").trim() || shortName;
 const kwName = titleName.toLowerCase();
+// The <title>, og:title, JSON-LD headline and H1 are the same text.
+const heading = `${titleName} Emoji ${char} Meaning and Copy and Paste`;
 const unicodeName = shortName.toLowerCase();
-const keywords = [...new Set([`${kwName} emoji meaning`, `${char} meaning`, `what does ${char} mean`, `${kwName} emoji`, `${unicodeName} emoji`])];
+const keywords = [...new Set([`${kwName} emoji meaning`, `${char} meaning`, `what does ${char} mean`, `${kwName} emoji copy and paste`, `${kwName} emoji`, `${unicodeName} emoji`])];
 
 const confused = d.confusedWith.map((c) => ({ ...c, emoji: getEmoji(c.slug) })).filter((c) => c.emoji);
 const related = d.related.map((s) => getEmoji(s)).filter((x): x is NonNullable<typeof x> => !!x && x.slug !== e.slug);
@@ -62,9 +65,9 @@ const toc = [
   ["faq", "FAQ"],
 ];
 const schema = [
-  { "@type": "Article", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
-    datePublished: SITE.launched, dateModified: updated, mainEntityOfPage: abs(path),
-    image: hasImg ? [{ "@type": "ImageObject", url: abs(og), width: 1200, height: 630, caption: imgAlt }, { "@type": "ImageObject", url: abs(emojiImagePath(e.slug)), caption: `${imgAlt} (Twemoji design)`, license: "https://creativecommons.org/licenses/by/4.0/", creditText: "Twemoji" }] : abs(SITE.ogImage),
+  { "@type": "Article", "@id": abs(path) + "#article", headline: heading, description: d.description, inLanguage: "en",
+    datePublished: published, dateModified: updated, mainEntityOfPage: abs(path),
+    image: hasImg ? [{ "@type": "ImageObject", url: abs(og), width: 1200, height: 630, caption: imgAlt, ...TWEMOJI_LICENSE }, { "@type": "ImageObject", url: abs(emojiImagePath(e.slug)), caption: `${imgAlt} (Twemoji design)`, ...TWEMOJI_LICENSE }] : abs(SITE.ogImage),
     isPartOf: { "@id": abs("/#website") }, articleSection: cat.name, keywords: keywords.join(", "),
     wordCount: [d.summary, ...d.meaning, ...d.contexts.map((c) => c.body), d.design, ...d.faqs.map((f) => f.a)].join(" ").split(/\s+/).length,
     author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
@@ -72,16 +75,16 @@ const schema = [
   { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
 ];
 ---
-<Base title={d.title} description={d.description} path={path} ogType="article" published={SITE.launched} modified={updated} ogImage={og} ogImageAlt={imgAlt} keywords={keywords} section="emojis" schema={schema}
+<Base title={heading} exactTitle articleSection={cat.name} description={d.description} path={path} ogType="article" published={published} modified={updated} ogImage={og} ogImageAlt={imgAlt} keywords={keywords} section="emojis" schema={schema}
   crumbs={[{ name: "Emojis", href: "/emojis/" }, { name: cat.name, href: categoryUrl(cat.slug) }, { name: shortName }]}>
   <article class="wrap">
     <header class="emoji-hero">
       <div class="glyph em" role="img" aria-label={`${e.name} emoji`}>{char}</div>
       <div>
-        <h1>{titleName} Emoji Meaning</h1>
+        <h1>{titleName} Emoji <span class="em">{char}</span> Meaning and Copy and Paste</h1>
         <p class="lead">{e.name} · {codepoints(e.hex)} · {cat.name}</p>
         <div class="actions">
-          <button class="btn" type="button" data-copy={char}><span class="em" aria-hidden="true">{char}</span><span data-copy-label>Copy emoji</span></button>
+          <button class="btn" type="button" data-copy={char}><span data-copy-label>Copy and paste {char}</span></button>
           <a class="btn ghost" href={categoryUrl(cat.slug)}>More {cat.name.toLowerCase()}</a>
         </div>
         <p class="byline"><span>By the <a href="/about/">{SITE.team}</a></span><span>Last reviewed <time datetime={updated}>{fmtDate(updated)}</time></span></p>
@@ -166,6 +169,7 @@ const schema = [
 
         <h2 id="faq">{shortName} emoji FAQ</h2>
         <Faq faqs={d.faqs} />
+        <p class="note">Got a message with an emoji you can't read? Paste the whole thing into the <a href="/what-does-this-emoji-mean/">emoji meaning finder</a> and it explains every emoji in it.</p>
       </div>
 
       <aside class="aside">

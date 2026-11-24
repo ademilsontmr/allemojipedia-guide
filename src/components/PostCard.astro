@@ -1,0 +1,17 @@
+---
+import { postUrl, iso, readMinutes, heroChars, type Post } from "@/lib/blog";
+import { fmtDate } from "@/lib/site";
+interface Props { post: Post; featured?: boolean; headingLevel?: "h2" | "h3" }
+const { post, featured = false, headingLevel = "h2" } = Astro.props;
+const d = post.data;
+const H = headingLevel;
+---
+<article class:list={["postcard", featured && "featured"]}>
+  <a class="post-hero em" href={postUrl(post)} aria-hidden="true" tabindex="-1">{heroChars(d.hero).map((c) => <span>{c}</span>)}</a>
+  <div class="postcard-body">
+    <p class="post-cat">{d.category}</p>
+    <H class="postcard-title"><a href={postUrl(post)}>{d.title}</a></H>
+    <p class="postcard-dek">{d.dek}</p>
+    <p class="post-meta"><time datetime={iso(d.pubDate)}>{fmtDate(d.pubDate)}</time> · {readMinutes(post)} min read</p>
+  </div>
+</article>

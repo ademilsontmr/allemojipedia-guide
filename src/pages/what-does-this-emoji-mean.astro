@@ -1,0 +1,186 @@
+---
+import Base from "@/layouts/Base.astro";
+import Faq from "@/components/Faq.astro";
+import { abs, SITE, fmtDate } from "@/lib/site";
+import { emojiPages, emojis, getEmoji, emojiUrl } from "@/lib/emoji";
+
+const pages = await emojiPages();
+// The emojis whose meaning people look up most, each with a one-line editorial meaning, so the page
+// carries real meanings in its HTML, not only in the script-driven results.
+const ASKED: [string, string][] = [
+  ["skull", "“I'm dead”: something is so funny or absurd it figuratively killed the sender."],
+  ["face-with-tears-of-joy", "Laughing so hard you cry."],
+  ["loudly-crying-face", "Overwhelmed, more often by laughter or cuteness than by sadness."],
+  ["red-heart", "Love in its plainest form, romantic or affectionate."],
+  ["slightly-smiling-face", "A polite smile that many people read as cold, forced or passive-aggressive."],
+  ["upside-down-face", "Sarcasm or quiet frustration: “this is fine” when it is not."],
+  ["melting-face", "Overwhelmed, embarrassed or worn down while trying to look okay."],
+  ["pleading-face", "Begging for a favor, being touched by something sweet, or acting cute on purpose."],
+  ["face-holding-back-tears", "Deeply moved: proud, grateful or touched."],
+  ["folded-hands", "Please, thank you or prayer."],
+  ["thumbs-up", "Approval or “got it”; a lone 👍 can read as curt to some people."],
+  ["eyes", "Watching closely: drama, gossip or “I see what you did there.”"],
+  ["clown-face", "Someone is being foolish, often the sender admitting they were naive."],
+  ["saluting-face", "“Yes, sir”: accepting a task or honoring someone's effort, often with irony."],
+  ["smirking-face", "Innuendo, flirting or smug satisfaction."],
+  ["moai", "A deadpan stare in reply to something absurd or awkward."],
+  ["hundred-points", "Complete agreement or total honesty: “keep it 100.”"],
+  ["nail-polish", "Unbothered confidence or sass, as well as actual manicures."],
+  ["goat", "Greatest of all time: crowning the best at something."],
+  ["sparkles", "Emphasis, excitement or something new; around a word it can turn ironic."],
+  ["fire", "Excellent, exciting or attractive: “that's fire.”"],
+  ["woman-shrugging", "“I don't know” or “whatever,” chosen by women to represent themselves."],
+  ["peach", "Usually a butt; also the fruit, summer and the state of Georgia."],
+  ["eggplant", "Almost always sexual innuendo; rarely the vegetable."],
+];
+const asked = ASKED.map(([slug, meaning]) => ({ e: getEmoji(slug), meaning })).filter((x): x is { e: NonNullable<ReturnType<typeof getEmoji>>; meaning: string } => !!x.e && pages.has(x.e.slug));
+const published = "2026-11-24";
+const updated = "2026-11-24";
+const EXAMPLES = ["💀", "🙂", "🫠", "🥺", "👀", "🫡", "💅", "🗿"];
+const path = "/what-does-this-emoji-mean/";
+const title = "What Does This Emoji Mean? Paste Any Emoji to Find Out";
+const description = "What does this emoji mean? Paste any emoji, or a whole message, and see each emoji's name, what people mean by it in texts and a link to the full meaning.";
+const faqs = [
+  { q: "How do I find out what an emoji means?", a: "Copy the emoji from the message, paste it into the box at the top of this page and press Find meaning. You will see its official name, the category it belongs to, the year it was added and, for the emojis people ask about most, a plain-English summary of how it is used in texts with a link to the full explanation." },
+  { q: "Can I paste a whole message instead of one emoji?", a: "Yes. Paste the full text and the tool picks out every emoji in it, in order, and explains each one once. Letters, numbers and punctuation are ignored, so you do not need to delete the words around the emojis first." },
+  { q: "Why does the tool show a different meaning from the emoji's name?", a: "The Unicode name describes the picture, not the message. 💀 is officially a skull, but in a group chat it usually means someone is laughing hard. 🙂 is a slightly smiling face, yet many people read it as cold or passive-aggressive. The summary explains how the emoji is actually used." },
+  { q: "What if the emoji shows up as a box or a question mark?", a: "A box means your device does not have artwork for that emoji, usually because it is newer than your software. You can still copy the box and paste it here: the character underneath is intact, so the tool can usually still name it. Updating your phone or computer normally makes it display." },
+  { q: "Is the finder free, and does it save what I paste?", a: "It is free and needs no account. The lookup runs entirely in your browser: the list of emojis is downloaded once and your text is matched on your own device, so nothing you paste is sent to us or stored anywhere. The address bar keeps your text only so you can share or bookmark the result." },
+  { q: "Can it explain kaomoji like (^_^) or symbols like ♡?", a: "No. The finder reads emoji characters, the colored pictures from the Unicode emoji list. Kaomoji are built from ordinary letters and punctuation, and symbols such as ♡ or ★ are text characters, so neither has an emoji meaning. Our kaomoji and text symbol pages explain those instead." },
+  { q: "Does the meaning change with skin tone?", a: "No. A skin tone changes how the person or hand looks, not what the gesture means, so 👍🏽 means the same as 👍. The tool recognizes skin-tone versions and shows the meaning of the base emoji. Our skin tone guide explains how people choose a tone and the etiquette around it." },
+];
+const og = "/og/pages/what-does-this-emoji-mean.png";
+const schema = [
+  { "@type": "WebPage", "@id": abs(path) + "#webpage", url: abs(path), name: title, description, inLanguage: "en", datePublished: published, dateModified: updated,
+    isPartOf: { "@id": abs("/#website") }, mainEntity: { "@id": abs(path) + "#app" }, primaryImageOfPage: { "@type": "ImageObject", url: abs(og), width: 1200, height: 630 },
+    author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") } },
+  { "@type": "WebApplication", "@id": abs(path) + "#app", name: "Emoji meaning finder", alternateName: "What does this emoji mean?", url: abs(path), description, inLanguage: "en",
+    applicationCategory: "ReferenceApplication", operatingSystem: "Any", browserRequirements: "Requires JavaScript", isAccessibleForFree: true,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, image: abs(og), datePublished: published, dateModified: updated,
+    featureList: ["Explains every emoji in a pasted message", "Recognizes skin tones and flags", `Covers all ${emojis.length} Unicode emojis`, "Editorial meaning summaries with links to full explanations", "Runs in the browser; nothing is uploaded"],
+    publisher: { "@id": abs("/#org") } },
+  { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={title} description={description} path={path} published={published} modified={updated} ogImage={og} ogImageAlt="Emoji meaning finder: paste an emoji to see what it means" keywords={["what does this emoji mean", "emoji meaning finder", "what emoji is this", "emoji identifier"]} schema={schema} crumbs={[{ name: "What does this emoji mean?" }]}>
+  <div class="wrap">
+    <header class="hero" style="padding-bottom:8px">
+      <p class="eyebrow">Emoji meaning finder</p>
+      <h1>What does this emoji mean?</h1>
+      <p class="lead">Paste an emoji, or a whole message, and see what each emoji means in real conversations. Works with all {emojis.length.toLocaleString("en-US")} emojis, including skin tones and flags.</p>
+      <form class="searchbox" id="ef" action={path} method="get" role="search">
+        <label class="sr-only" for="e">Paste an emoji or a message</label>
+        <input id="e" name="e" type="text" placeholder="Paste an emoji or a message: 💀🙏 …" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" maxlength="500" aria-describedby="trust" />
+        <button class="btn" type="submit">Find meaning</button>
+      </form>
+      <p class="muted" style="margin-top:14px">Try one:
+        {EXAMPLES.map((c) => <button type="button" class="copyem em" data-try={c} aria-label={`Look up ${c}`} style="display:inline-grid;width:40px;height:40px;font-size:1.4rem;margin:0 2px;vertical-align:middle">{c}</button>)}
+      </p>
+      <p id="trust" class="muted" style="font-size:.9rem;margin-top:10px">Meanings written by our editors, not generated by AI. What you paste stays in your browser.</p>
+      <p class="byline" style="justify-content:center"><span>By the <a href="/about/">{SITE.team}</a></span><span>Updated <time datetime={updated}>{fmtDate(updated)}</time></span></p>
+    </header>
+
+    <div class="prose" style="margin-inline:auto">
+      <p id="es" class="muted" role="status" aria-live="polite" style="text-align:center"></p>
+      <section id="er" aria-label="Emoji meanings found"></section>
+      <noscript><p class="note">The finder needs JavaScript. You can still look emojis up in <a href="/emojis/">all emoji meanings</a> or <a href="/categories/">browse by category</a>.</p></noscript>
+
+      <h2>How to use the emoji meaning finder</h2>
+      <ol>
+        <li><strong>Copy the emoji.</strong> On a phone, long-press the message and choose Copy. On a computer, select the emoji with the mouse and press <kbd>Ctrl</kbd> + <kbd>C</kbd> or <kbd>Cmd</kbd> + <kbd>C</kbd>.</li>
+        <li><strong>Paste it above</strong> and press Find meaning. You can paste several emojis, or the whole message with the words still in it.</li>
+        <li><strong>Read the result.</strong> Each emoji gets its official name, its category and the year it arrived. For the {pages.size} emojis people ask about most, you also get a short summary of how it is used and a link to the full meaning page, with examples, combos and look-alikes.</li>
+      </ol>
+
+      <h2>Why an emoji's name is not its meaning</h2>
+      <p>Every emoji has an official name from the Unicode Standard, and that name only describes the picture. The meaning comes from how people use it. 💀 is “skull”, but it mostly means “I'm dead”, as in laughing too hard. 🙂 is “slightly smiling face”, and plenty of people read it as cold. 🗿 is a statue from Easter Island that became a deadpan reaction. 🥺 is “pleading face”, which can be sweet, guilt-tripping or flirty depending on who sends it.</p>
+      <p>That is why the finder shows both. The name tells you what you are looking at; the summary tells you what the sender most likely meant. If you want the full picture, the meaning page covers how the emoji is used in texting, on social apps and at work, and when it is better not to send it.</p>
+
+      <h2>Reading an emoji in context</h2>
+      <p>The same emoji can mean different things from different people. Before you decide what a message meant, check four things:</p>
+      <ul>
+        <li><strong>Who sent it.</strong> Age, friendship and habits matter. A parent's 🙂 is usually just a smile; a coworker's 🙂 after a disagreement may not be.</li>
+        <li><strong>What it is attached to.</strong> 😭 after a joke is laughter, after bad news it is sadness. The words around an emoji almost always decide which meaning applies.</li>
+        <li><strong>How many there are.</strong> One 😂 is polite, a row of them is real laughter. Repetition usually turns the volume up.</li>
+        <li><strong>What it is paired with.</strong> Combos carry their own meanings, such as 👉👈 for shy asking. Our <a href="/guides/emoji-combos-ideas/">emoji combos guide</a> decodes the common ones, and <a href="/guides/emoji-meanings-in-texting/">what emojis mean in texting</a> covers tone in general.</li>
+      </ul>
+
+      <h2>When you cannot copy the emoji</h2>
+      <p>Some apps make copying awkward, and sometimes all you have is a screenshot. Search by what you see instead: type a plain word such as “skull”, “melting” or “salute” into the <a href="/search/">emoji search</a>, or browse the <a href="/categories/">category pages</a>, which list every emoji grouped the way phone keyboards group them. If the emoji appears as an empty box or a question mark, your device is missing its artwork; our guide to <a href="/guides/why-emojis-show-as-boxes/">why emojis show as boxes</a> explains the fix.</p>
+
+      <h2 id="most-asked">What the most-asked emojis mean</h2>
+      <p>These are the emojis people look up most often. The short answer is below; open any name for real examples, combos, look-alikes and when not to send it.</p>
+      <div class="table-wrap">
+        <table class="meanings">
+          <caption class="sr-only">Common emojis and what they usually mean</caption>
+          <thead><tr><th scope="col">Emoji</th><th scope="col">Name</th><th scope="col">What it usually means</th></tr></thead>
+          <tbody>{asked.map(({ e, meaning }) => (
+            <tr><td class="em" style="font-size:1.6rem">{e.emoji}</td><th scope="row"><a href={emojiUrl(e.slug)}>{e.name}</a></th><td>{meaning}</td></tr>
+          ))}</tbody>
+        </table>
+      </div>
+      <p>Not finding yours? Every emoji with a full explanation is listed on <a href="/emojis/">all emoji meanings</a>. If what you were sent looks like (^_^) or ♡ rather than a colored picture, it is not an emoji: see <a href="/kaomoji/">kaomoji</a> and <a href="/text-symbols/">text symbols</a>.</p>
+
+      <h2 id="faq">Emoji meaning finder FAQ</h2>
+      <Faq faqs={faqs} />
+      <p class="note">Names, categories and release years come from Unicode and CLDR data. Meanings are written by the {SITE.name} editors; see our <a href="/editorial-policy/">editorial policy</a>.</p>
+    </div>
+  </div>
+  <script is:inline>
+    (function () {
+      var input = document.getElementById("e"), out = document.getElementById("er"), status = document.getElementById("es"), data = null, idx = null;
+      var strip = function (s) { return s.replace(/️/g, ""); };
+      var pageBase = ["", "emojis", ""].join("/");
+      function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+      function graphemes(s) {
+        if (window.Intl && Intl.Segmenter) return Array.from(new Intl.Segmenter("en", { granularity: "grapheme" }).segment(s), function (x) { return x.segment; });
+        return Array.from(s);
+      }
+      function find(g) {
+        var k = strip(g);
+        return idx.hasOwnProperty(k) ? data.e[idx[k]] : null;
+      }
+      function card(r, shown) {
+        var link = r[5]
+          ? '<p>' + esc(r[5]) + '</p><p><a class="btn" href="' + pageBase + r[2] + '/">Full meaning of ' + esc(r[1].replace(/^Flag: /, "")) + ' →</a></p>'
+          : '<p class="muted">We have not written a full meaning page for this emoji yet. People generally use it for what it shows: ' + esc(r[1].replace(/^Flag: /, "flag of ").toLowerCase()) + '.</p>';
+        return '<div class="answer"><strong class="k">' + esc(r[3]) + ' · added ' + esc(r[4]) + '</strong><p style="margin:0 0 .4em"><span class="em" style="font-size:2.2rem;vertical-align:middle;margin-right:.3em">' + shown + '</span> <strong>' + esc(r[1]) + '</strong></p>' + link + '</div>';
+      }
+      function run() {
+        if (!data) { status.textContent = "Loading…"; load(); return; }
+        var text = input.value.trim();
+        if (!text) { out.innerHTML = ""; status.textContent = ""; return; }
+        var seen = {}, cards = [], unknown = 0;
+        graphemes(text).forEach(function (g) {
+          if (!/\p{Extended_Pictographic}|\p{Regional_Indicator}|⃣/u.test(g)) return;
+          var r = find(g);
+          if (!r) { unknown++; return; }
+          if (seen[r[2]]) return;
+          seen[r[2]] = 1; cards.push(card(r, g));
+        });
+        out.innerHTML = cards.join("");
+        status.textContent = cards.length ? (cards.length === 1 ? "1 emoji found" : cards.length + " emojis found") + (unknown ? ", plus " + unknown + " we could not identify" : "") + "." : "No emoji found. Paste the emoji itself, not its name, or try the emoji search.";
+        if (history.replaceState) history.replaceState(null, "", "?e=" + encodeURIComponent(text.slice(0, 200)));
+      }
+      document.getElementById("ef").addEventListener("submit", function (ev) { ev.preventDefault(); run(); });
+      document.addEventListener("click", function (ev) { var b = ev.target.closest("[data-try]"); if (b) { input.value = b.getAttribute("data-try"); run(); } });
+      input.value = new URLSearchParams(location.search).get("e") || "";
+      var loading = false;
+      function load() {
+        if (loading) return; loading = true;
+        fetch("/emoji-lookup.json").then(function (r) { return r.json(); }).then(function (d) {
+        data = d; idx = {};
+        d.e.forEach(function (r, i) { idx[strip(r[0])] = i; });
+        Object.keys(d.s).forEach(function (v) { idx[strip(v)] = d.s[v]; });
+          if (input.value) run();
+        });
+      }
+      // The 330 KB lookup table loads on first interaction, or when the browser is idle, not with the page.
+      ["focus", "input", "pointerdown"].forEach(function (ev) { input.addEventListener(ev, load, { once: true, passive: true }); });
+      document.addEventListener("pointerdown", function (ev) { if (ev.target.closest("[data-try]")) load(); }, { passive: true });
+      if (input.value) load();
+      else if ("requestIdleCallback" in window) requestIdleCallback(load, { timeout: 4000 });
+      else setTimeout(load, 2500);
+    })();
+  </script>
+</Base>

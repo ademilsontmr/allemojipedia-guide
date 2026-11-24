@@ -1,0 +1,59 @@
+{
+  "slug": "green-square",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Green Square Emoji 🟩 Meaning: Wordle Grids and Go",
+  "description": "The green square emoji 🟩 is best known from Wordle results, where it marks a correct letter in the right spot. It also builds pixel art and means go or done.",
+  "summary": "🟩 is a plain green square. Most people meet it in shared Wordle results, where each green tile is a letter guessed in the correct position, so a full row of five means the puzzle was solved. It also works as a pixel for emoji art, a status light meaning go or done, and a color swatch.",
+  "meaning": [
+    "The square was added in 2019 as one of a set of colored squares and circles, mostly for building patterns and charts out of emoji. It stayed obscure until Wordle, the once-a-day five-letter word game created by Josh Wardle, went viral around the start of 2022 and was later bought by The New York Times. Its share button copies a spoiler-free grid of colored squares, and 🟩 is the color everyone hopes to see.",
+    "In that grid, green means a letter is in the word and in the right place, yellow 🟨 means the letter is in the word but in the wrong place, and a dark or white square means the letter is not in the word at all. Each row is one guess. Friends read the pattern like a story: a row of all green on line two is a brag, while green appearing only on the last line is a narrow escape.",
+    "Other puzzle games borrowed the format, so a block of colored squares in a group chat usually means someone is posting a daily score. Outside games, 🟩 does what green does in traffic lights and dashboards: approved, healthy, on track, available. Teams use it in status updates beside 🟨 and 🟥, and people stack many squares into simple pixel pictures such as flags, frogs or landscapes."
+  ],
+  "contexts": [
+    {
+      "label": "In group chats",
+      "body": "Daily Wordle and copycat scores are the main reason people paste 🟩 at all. Group chats of friends or family share results every morning, compare how many rows it took, and tease whoever failed. Because the grid shows only colors, it lets players compare without giving away the answer to anyone who has not played yet."
+    },
+    {
+      "label": "At work",
+      "body": "Project trackers, standup notes and incident channels use colored squares as a quick traffic-light code. 🟩 beside a task means it is done or healthy, 🟨 means at risk and 🟥 means blocked. It reads faster than a word in a long list, though teams should agree on the meaning first."
+    },
+    {
+      "label": "In emoji art",
+      "body": "Because it fills its whole cell, the square tiles cleanly with other colored squares. People use it to draw grass under a row of 🟦 sky, to recreate flags like Nigeria’s green-white-green bands, or to make simple pixel sprites in a message. It looks best on platforms where squares sit edge to edge."
+    }
+  ],
+  "examples": [
+    { "text": "Wordle 3/6\n⬛🟨⬛⬛🟩\n🟩🟩⬛🟩🟩\n🟩🟩🟩🟩🟩", "meaning": "A shared Wordle result: the player found the five-letter word on the third guess." },
+    { "text": "Got it in 2 🟩🟩🟩🟩🟩 not even sorry", "meaning": "Bragging about solving the daily word puzzle on the second try." },
+    { "text": "Deploy status: API 🟩 web 🟩 billing 🟨", "meaning": "A work update using colors: two systems are fine, one needs attention." },
+    { "text": "Payment came through 🟩 we’re good to go", "meaning": "Signaling approval or a green light, like a go signal." },
+    { "text": "🟦🟦🟦🟦\n🟩🟩🟩🟩", "meaning": "Simple emoji art showing blue sky above a green field." }
+  ],
+  "combos": [
+    { "combo": "🟩🟨⬛", "meaning": "The three Wordle tile colors: correct spot, wrong spot, not in the word." },
+    { "combo": "🟩🟨🟥", "meaning": "A traffic-light status scale of good, caution and problem." },
+    { "combo": "🟩🟩🟩🟩🟩", "meaning": "A perfect Wordle row; the answer was found." },
+    { "combo": "🟩✅", "meaning": "Done and approved, used in checklists and status reports." }
+  ],
+  "confusedWith": [
+    { "slug": "green-circle", "difference": "🟢 is a green circle, usually read as online, available or go, like a status dot in a chat app. It does not appear in Wordle grids and does not tile seamlessly for pixel art the way 🟩 does." },
+    { "slug": "check-mark-button", "difference": "✅ is a green box containing a white check mark, the standard emoji for done or confirmed. 🟩 is an empty colored square, so on its own it only means green unless context such as a status list explains it." },
+    { "slug": "green-heart", "difference": "💚 is a green heart for affection, nature, envy or fandoms that use green. It expresses feeling, while 🟩 is a neutral block of color with no emotion attached." }
+  ],
+  "avoid": [
+    "Do not post someone else’s Wordle answer alongside the grid, since the squares are meant to stay spoiler free.",
+    "Avoid relying on green alone to carry meaning in work updates, because people with red-green color blindness may not tell it apart from other colors.",
+    "Long walls of squares are hard to read for anyone using a screen reader, which announces each one by name."
+  ],
+  "design": "A solid green square with slightly rounded corners and no border, sized to fill most of its cell so neighboring squares line up into a grid. Platforms differ mainly in the exact shade, from bright grass green to a deeper emerald, which can make a Wordle grid look slightly different on each phone. It arrived with six other colored squares, joining the older large black and white squares.",
+  "faqs": [
+    { "q": "What does the green square mean in Wordle?", "a": "A green tile means that letter is in the answer and in exactly the right position. Yellow means the letter is in the word but in a different spot, and a gray, black or white tile means the letter is not in the word." },
+    { "q": "How do I share my Wordle with green squares?", "a": "After finishing the puzzle, tap the Share button on the results screen. The game copies your grid as text made of emoji squares, which you can paste into any chat or post without revealing the word." },
+    { "q": "What is the difference between 🟩 and 🟢?", "a": "The square fills its space and tiles into grids, so it suits game results and pixel art. The circle reads more like an indicator light and is common for online status, voting or yes." },
+    { "q": "Why do some Wordle grids show orange and blue instead of green?", "a": "Wordle has a high contrast mode for players who find green and yellow hard to distinguish. With it switched on, correct letters appear orange and misplaced ones blue, and the shared grid uses 🟧 and 🟦 instead." },
+    { "q": "When was the green square emoji added?", "a": "It came with Emoji 12.0 in 2019 as part of a group of colored squares and circles. Wordle made it widely used about two years later." }
+  ],
+  "related": ["green-circle", "check-mark-button", "green-heart", "puzzle-piece", "brain", "thinking-face"]
+}

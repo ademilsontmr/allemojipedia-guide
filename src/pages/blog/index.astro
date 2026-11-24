@@ -1,0 +1,27 @@
+---
+import Base from "@/layouts/Base.astro";
+import PostCard from "@/components/PostCard.astro";
+import { abs, SITE } from "@/lib/site";
+import { allPosts, postUrl, iso } from "@/lib/blog";
+
+const posts = await allPosts();
+const [lead, ...rest] = posts;
+const title = "Emoji News: Unicode Releases, Platform Updates and More";
+const description = "Emoji news from the Allemojipedia editors: what each new Unicode emoji release adds, when new emojis reach your phone, platform design changes and site updates.";
+const schema = [
+  { "@type": "Blog", "@id": abs("/blog/#blog"), name: `${SITE.name} Blog`, description, url: abs("/blog/"), inLanguage: "en", publisher: { "@id": abs("/#org") },
+    blogPost: posts.map((p) => ({ "@type": "BlogPosting", headline: p.data.title, url: abs(postUrl(p)), datePublished: iso(p.data.pubDate) })) },
+];
+---
+<Base title={title} description={description} path="/blog/" keywords={["emoji news", "new emoji news", "unicode emoji updates"]} section="blog" schema={schema} crumbs={[{ name: "Blog" }]}>
+  <div class="wrap">
+    <header class="article-hero prose">
+      <p class="eyebrow">Allemojipedia Blog</p>
+      <h1>Emoji news</h1>
+      <p class="lead">What changed in emoji and why it matters: new Unicode releases, when they reach your phone, platform design updates and news from {SITE.name}. Looking for how-tos and meanings? Those live in our <a href="/guides/">guides</a>.</p>
+    </header>
+    {lead && <PostCard post={lead} featured />}
+    {rest.length > 0 && <ul class="post-grid">{rest.map((p) => <li><PostCard post={p} /></li>)}</ul>}
+    <p class="muted" style="margin-top:32px">Follow along with the <a href="/blog/rss.xml">blog RSS feed</a>.</p>
+  </div>
+</Base>

@@ -13,6 +13,7 @@ JavaScript is used only for copy buttons, search and the flag quiz.
 | `npm run data` | Regenerates `src/data/emojis.json` and `curated.json` from Unicode data |
 | `npm run deploy` | Build and deploy to Cloudflare Pages |
 | `python3 -I scripts/audit-keywords.py` | After a build: checks every page has a unique primary keyword present in its title, H1 and description |
+| `python3 -I scripts/audit-html.py` | After a build: HTML structure and accessibility checks (ids, alt text, labels, heading order, link text) |
 | `npm run indexnow` | Submit every sitemap URL to IndexNow (Bing, Yandex) after a deploy |
 
 ## Content

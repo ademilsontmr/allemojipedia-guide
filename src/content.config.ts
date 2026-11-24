@@ -18,6 +18,8 @@ const emoji = defineCollection({
     design: z.string(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })),
     related: z.array(z.string()),
+    /** ISO date the page first went live; pages from the 2026-11-19 relaunch omit it. */
+    published: z.string().optional(),
     /** ISO date of the last real editorial change; falls back to the launch date. */
     updated: z.string().optional(),
   }),
@@ -43,4 +45,50 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { emoji, guides };
+/** Copy-and-paste pages for text symbols and kaomoji, served at /<slug>/. Brief: docs/symbol-page-brief.md */
+const symbols = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./src/content/symbols" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    h1: z.string(),
+    /** Two or three sentences that answer the search directly; shown above the sets. */
+    lead: z.string(),
+    hero: z.string(),
+    keywords: z.array(z.string()).min(1),
+    published: z.string(),
+    updated: z.string().optional(),
+    sets: z.array(z.object({
+      id: z.string(),
+      title: z.string(),
+      note: z.string().optional(),
+      /** Single symbols separated by spaces. */
+      chars: z.string().optional(),
+      /** Multi-character items such as kaomoji, one per entry. */
+      items: z.array(z.string()).optional(),
+    })).min(4),
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })),
+    related: z.array(z.string()).default([]),
+  }),
+});
+
+/** News blog at /blog/<slug>/: dated reporting on Unicode releases, platform updates and site news. Brief: docs/blog-brief.md */
+const blog = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./src/content/blog" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    /** One or two sentences under the headline and on the listing card. */
+    dek: z.string(),
+    category: z.enum(["Unicode Emoji Update", "Platform Emoji Update", "Emoji Culture", "Allemojipedia News"]),
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    /** 3-8 emojis for the header collage and social image; must have Twemoji artwork. */
+    hero: z.string(),
+    keywords: z.array(z.string()).min(1),
+    sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
+    related: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { emoji, guides, symbols, blog };

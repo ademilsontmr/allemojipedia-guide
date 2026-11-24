@@ -50,6 +50,9 @@ code, kbd { font: .9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 .nav a { color: var(--ink); text-decoration: none; padding: .5em .8em; border-radius: 999px; font-weight: 600; font-size: .95rem; white-space: nowrap; }
 .nav a:hover, .nav a[aria-current="page"] { background: var(--surface-2); }
 .nav .search-link { background: var(--accent); color: var(--accent-ink); }
+.nav .search-link:hover, .nav .search-link[aria-current="page"] { background: var(--accent); color: var(--accent-ink); filter: brightness(1.12); }
+.nav .search-link:active { filter: brightness(.95); }
+.nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (max-width: 640px) { .nav a { padding: .45em .55em; font-size: .88rem; } .brand span:last-child { display: none; } }
 
 /* footer */
@@ -212,3 +215,38 @@ details.faq .a p:last-child { margin: 0; }
 .ad-label { margin: 0 0 6px; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; }
 .ad-sidebar { width: 100%; position: sticky; top: 84px; }
 @media (max-width: 960px) { .ad-sidebar { position: static; margin: 8px 0 0; } }
+/* Text symbol and kaomoji copy pages */
+.sym-hero { font-size: 2.6rem; }
+.copyem.sym { font-family: ui-sans-serif, system-ui, "Segoe UI Symbol", "Apple Symbols", "Noto Sans Symbols 2", sans-serif, var(--emoji); font-size: 1.5rem; }
+.copygrid.wide { gap: 8px; }
+.copytext { font: 1.05rem/1.2 ui-sans-serif, system-ui, sans-serif; padding: .55em .8em; min-height: 44px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); cursor: pointer; white-space: nowrap; transition: transform .1s, border-color .1s; }
+.copytext:hover { transform: translateY(-2px); border-color: var(--accent); }
+.copytext.copied { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 15%, var(--bg)); }
+/* Blog: emoji news */
+.post-cat { font-size: .78rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin: 0 0 .4em; }
+.post-meta { font-size: .88rem; color: var(--muted); margin: .6em 0 0; }
+.post-hero { display: flex; flex-wrap: wrap; justify-content: center; align-content: center; gap: .2em .35em; padding: 28px 20px; border-radius: var(--radius); text-decoration: none; line-height: 1.1; font-size: 2.6rem;
+  background: radial-gradient(circle at 15% 20%, #ffd54a55, transparent 45%), radial-gradient(circle at 85% 30%, #a5b4fc77, transparent 50%), radial-gradient(circle at 50% 100%, #f9a8d455, transparent 55%), var(--accent-soft); }
+.post-hero span { display: inline-block; filter: drop-shadow(0 4px 6px rgb(0 0 0 / .15)); }
+.post-hero span:nth-child(3n+1) { transform: rotate(-8deg); }
+.post-hero span:nth-child(3n+2) { transform: translateY(6px) rotate(6deg); }
+.post-hero.big { font-size: clamp(2.6rem, 7vw, 4.4rem); min-height: 200px; margin: 18px 0 8px; }
+.postcard { display: grid; gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; height: 100%; }
+.postcard .post-hero { min-height: 150px; }
+.postcard-title { font-size: 1.15rem; line-height: 1.25; margin: 0; }
+.postcard-title a { color: var(--ink); text-decoration: none; }
+.postcard-title a:hover { color: var(--accent); }
+.postcard-dek { color: var(--muted); margin: .5em 0 0; font-size: .95rem; }
+.postcard.featured { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; gap: 28px; padding: 18px; margin-bottom: 28px; }
+.postcard.featured .post-hero { min-height: 300px; font-size: 3.4rem; }
+.postcard.featured .postcard-title { font-size: clamp(1.5rem, 3vw, 2.1rem); }
+.postcard.featured .postcard-dek { font-size: 1.05rem; }
+.post-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.post-grid li { margin: 0; }
+.post-header { padding: 26px 0 0; }
+.post-body { margin-inline: auto; }
+@media (max-width: 760px) { .postcard.featured { grid-template-columns: 1fr; } .postcard.featured .post-hero { min-height: 200px; } }
+.table-wrap { overflow-x: auto; margin: 1em 0; }
+.meanings tbody th { background: none; font-weight: 600; white-space: nowrap; }
+.meanings td.em { width: 3rem; text-align: center; }
+@media (max-width: 560px) { .meanings tbody th { white-space: normal; } }

@@ -12,7 +12,8 @@ const BLURB: Record<string, string> = {
 const groups = ORDER.map((c) => ({ name: c, items: guides.filter((g) => g.data.category === c) })).filter((g) => g.items.length);
 const title = "Emoji Guides: Meanings, Etiquette and How-Tos";
 const description = "In-depth emoji guides: what emojis mean in texting, heart colors, Gen Z slang, emojis at work, flags, typing emojis on any device and more.";
-const schema = [{ "@type": "Blog", name: title, description, url: abs("/guides/"), blogPost: guides.map((g) => ({ "@type": "BlogPosting", headline: g.data.title, url: abs(`/guides/${g.id}/`) })) }];
+const schema = [{ "@type": "CollectionPage", name: title, description, url: abs("/guides/"),
+  mainEntity: { "@type": "ItemList", numberOfItems: guides.length, itemListElement: guides.map((g, i) => ({ "@type": "ListItem", position: i + 1, name: g.data.title, url: abs(`/guides/${g.id}/`) })) } }];
 ---
 <Base title={title} description={description} path="/guides/" keywords={["emoji guides", "emoji etiquette", "how to use emojis"]} section="guides" schema={schema} crumbs={[{ name: "Guides" }]}>
   <div class="wrap">

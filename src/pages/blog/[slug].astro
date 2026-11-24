@@ -1,0 +1,60 @@
+---
+import Base from "@/layouts/Base.astro";
+import PostCard from "@/components/PostCard.astro";
+import AdUnit from "@/components/AdUnit.astro";
+import { render } from "astro:content";
+import { SITE, abs, fmtDate } from "@/lib/site";
+import { allPosts, postUrl, iso, readMinutes, heroChars } from "@/lib/blog";
+import { TWEMOJI_LICENSE } from "@/lib/twemoji.mjs";
+
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const d = post.data;
+const { Content } = await render(post);
+const posts = await allPosts();
+const path = postUrl(post);
+const published = iso(d.pubDate);
+const updated = iso(d.updatedDate ?? d.pubDate);
+const og = `/og/blog/${post.id}.png`;
+let related = d.related.map((s) => posts.find((p) => p.id === s)).filter((p): p is NonNullable<typeof p> => !!p);
+if (related.length < 2) related = [...related, ...posts.filter((p) => p.id !== post.id && !related.includes(p))].slice(0, 2);
+const schema = [
+  { "@type": "BlogPosting", "@id": abs(path) + "#article", headline: d.title, description: d.description, inLanguage: "en",
+    datePublished: published, dateModified: updated, articleSection: d.category, mainEntityOfPage: abs(path),
+    image: { "@type": "ImageObject", url: abs(og), width: 1200, height: 630, ...TWEMOJI_LICENSE }, wordCount: (post.body ?? "").split(/\s+/).length,
+    isPartOf: { "@id": abs("/blog/#blog") }, keywords: d.keywords.join(", "),
+    author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") },
+    ...(d.sources.length ? { citation: d.sources.map((s) => ({ "@type": "CreativeWork", name: s.name, url: s.url })) } : {}) },
+];
+---
+<Base title={d.title} description={d.description} path={path} ogType="article" articleSection={d.category} published={published} modified={updated} ogImage={og} ogImageAlt={d.title} keywords={d.keywords} section="blog" schema={schema}
+  crumbs={[{ name: "Blog", href: "/blog/" }, { name: d.title }]}>
+  <article class="wrap">
+    <header class="post-header prose">
+      <p class="post-cat">{d.category}</p>
+      <h1>{d.title}</h1>
+      <p class="lead">{d.dek}</p>
+      <p class="byline"><span>By the <a href="/about/">{SITE.team}</a></span><span>Published <time datetime={published}>{fmtDate(published)}</time></span>{updated !== published && <span>Updated <time datetime={updated}>{fmtDate(updated)}</time></span>}<span>{readMinutes(post)} min read</span></p>
+    </header>
+    <div class="post-hero em big" aria-hidden="true">{heroChars(d.hero).map((c) => <span>{c}</span>)}</div>
+    <div class="prose article post-body">
+      <Content />
+      <AdUnit slot="3886878228" name="blog after article" />
+      {d.sources.length > 0 && (
+        <section class="note" aria-labelledby="sources">
+          <h2 id="sources" style="margin-top:0;font-size:1rem">Sources</h2>
+          <ul>{d.sources.map((s) => <li><a href={s.url} rel="noopener">{s.name}</a></li>)}</ul>
+        </section>
+      )}
+    </div>
+    {related.length > 0 && (
+      <section aria-labelledby="more-news">
+        <h2 id="more-news">More emoji news</h2>
+        <ul class="post-grid">{related.map((p) => <li><PostCard post={p} headingLevel="h3" /></li>)}</ul>
+      </section>
+    )}
+  </article>
+</Base>

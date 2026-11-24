@@ -1,0 +1,89 @@
+---
+// Copy-and-paste pages for text symbols and kaomoji (src/content/symbols/<slug>.md), served at /<slug>/.
+import Base from "@/layouts/Base.astro";
+import Faq from "@/components/Faq.astro";
+import AdUnit from "@/components/AdUnit.astro";
+import { getCollection, render } from "astro:content";
+import { SITE, abs, fmtDate } from "@/lib/site";
+import names from "@/data/symbol-names.json";
+
+export async function getStaticPaths() {
+  const sets = await getCollection("symbols");
+  return sets.map((entry) => ({ params: { symbolset: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const d = entry.data;
+const { Content, headings } = await render(entry);
+const all = await getCollection("symbols");
+const path = `/${entry.id}/`;
+const updated = d.updated ?? d.published;
+const nameOf = (s: string) => (names as Record<string, string>)[s];
+const seg = (s: string) => [...new Intl.Segmenter("en", { granularity: "grapheme" }).segment(s)].map((x) => x.segment).filter((x) => x.trim());
+const sets = d.sets.map((s) => {
+  const list = s.items ?? seg(s.chars ?? "");
+  return { ...s, list, wide: !!s.items };
+});
+const count = sets.reduce((n, s) => n + s.list.length, 0);
+const related = d.related.map((s) => all.find((x) => x.id === s)).filter((x): x is NonNullable<typeof x> => !!x);
+const isHub = entry.id === "text-symbols";
+const crumbs = isHub ? [{ name: "Text symbols" }] : [{ name: "Text symbols", href: "/text-symbols/" }, { name: d.h1 }];
+const words = (entry.body ?? "").split(/\s+/).length;
+const schema = [
+  { "@type": "WebPage", "@id": abs(path) + "#webpage", url: abs(path), name: d.title, description: d.description, inLanguage: "en",
+    datePublished: d.published, dateModified: updated, isPartOf: { "@id": abs("/#website") }, keywords: d.keywords.join(", "),
+    primaryImageOfPage: { "@type": "ImageObject", url: abs(SITE.ogImage), width: 1200, height: 630 },
+    mainEntity: { "@type": "ItemList", name: d.h1, numberOfItems: sets.length, itemListElement: sets.map((s, i) => ({ "@type": "ListItem", position: i + 1, name: s.title, url: `${abs(path)}#${s.id}` })) },
+    author: { "@type": "Organization", name: SITE.team, url: abs("/about/") }, publisher: { "@id": abs("/#org") } },
+  { "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={d.title} description={d.description} path={path} published={d.published} modified={updated} keywords={d.keywords} schema={schema} crumbs={crumbs}>
+  <article class="wrap">
+    <header class="article-hero prose">
+      <span class="em sym-hero" aria-hidden="true">{d.hero}</span>
+      <p class="eyebrow">Copy and paste</p>
+      <h1>{d.h1}</h1>
+      <div class="answer"><p>{d.lead}</p></div>
+      <p class="byline"><span>By the <a href="/about/">{SITE.team}</a></span><span>Updated <time datetime={updated}>{fmtDate(updated)}</time></span><span>{count} to copy</span></p>
+      <ul class="chips">{sets.map((s) => <li><a class="chip" href={`#${s.id}`}>{s.title}</a></li>)}</ul>
+      <p class="muted" style="font-size:.93rem">Tap any symbol to copy it, or use <strong>Copy all</strong> for a whole row.</p>
+    </header>
+
+    <section class="copyset" aria-label={`${d.h1} to copy`}>
+      {sets.map((s, i) => (
+        <>
+          <div class="copyrow" id={s.id}>
+            <div class="copyrow-head">
+              <h2 style="margin:0;font-size:1.05rem">{s.title}</h2>
+              <button class="chip" type="button" data-copy={s.list.join(s.wide ? "\n" : " ")}><span data-copy-label>Copy all</span></button>
+            </div>
+            {s.note && <p class="muted" style="margin:6px 0 0;font-size:.9rem">{s.note}</p>}
+            <ul class:list={["copygrid", s.wide && "wide"]}>
+              {s.list.map((x) => {
+                const n = nameOf(x);
+                return <li><button type="button" class:list={[s.wide ? "copytext" : "copyem sym"]} data-copy={x} title={n ? `Copy ${x} (${n})` : `Copy ${x}`} aria-label={n ? `Copy ${n}` : `Copy ${x}`}>{x}</button></li>;
+              })}
+            </ul>
+          </div>
+          {i === 1 && <AdUnit slot="3886878228" name="symbols after second set" />}
+        </>
+      ))}
+    </section>
+
+    <div class="prose article">
+      <Content />
+      <h2 id="faq">Frequently asked questions</h2>
+      <Faq faqs={d.faqs} />
+      <p class="note">Symbol names come from the Unicode Standard. Whether a symbol displays depends on the fonts on the reader's device; see <a href="/guides/why-emojis-show-as-boxes/">why some characters show as boxes</a>.</p>
+    </div>
+
+    {related.length > 0 && (
+      <section aria-labelledby="more-symbols">
+        <h2 id="more-symbols">More symbols to copy</h2>
+        <ul class="grid cols-cards">{related.map((r) => (
+          <li><a class="linkcard" href={`/${r.id}/`}><span class="em" aria-hidden="true">{r.data.hero}</span> <strong>{r.data.h1}</strong><span class="meta">{r.data.sets.length} sets to copy</span></a></li>
+        ))}</ul>
+      </section>
+    )}
+  </article>
+</Base>

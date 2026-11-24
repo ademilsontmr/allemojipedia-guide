@@ -3,6 +3,7 @@ title: "How to Type Emojis on Any Device: Shortcuts and Pickers"
 description: "The fastest way to type emojis on Windows, Mac, iPhone, Android, Chromebook and Linux, with keyboard shortcuts, search tips, skin tones and fixes."
 excerpt: "Every built-in emoji shortcut and picker, by device: Windows, Mac, iPhone, Android, Chromebook and Linux, plus tricks that work in any app."
 pubDate: 2026-11-18
+updatedDate: 2026-11-24
 category: "How-to"
 heroEmoji: "⌨️"
 keyTakeaways:
@@ -87,7 +88,7 @@ Useful extras:
 - **Text replacements.** In **System Settings > Keyboard > Text Replacements**, you can make a shortcut such as `:shrug:` expand to any emoji or string. Replacements sync to your iPhone and iPad through iCloud.
 - **Touch Bar models.** MacBook Pros with a Touch Bar show an emoji button there in apps like Messages.
 
-Exact layout of the picker has changed across macOS versions, so yours may look slightly different, but the shortcut has stayed the same for years.
+Exact layout of the picker has changed across macOS versions, so yours may look slightly different, but the shortcut has stayed the same for years. For favorites, text replacements by app and fixes when the Globe key misbehaves, see the full guide on [how to get emojis on a Mac](/guides/how-to-get-emojis-on-mac/).
 
 ## iPhone and iPad
 
@@ -142,7 +143,7 @@ On current ChromeOS versions there are two routes:
 
 The picker has a search field at the top and tabs for emoji, symbols and kaomoji; newer versions add GIFs. Emojis that support skin tones show a small indicator; click and hold or open the variant menu to pick one. In tablet mode, the on-screen keyboard has its own smiley button.
 
-Some Chromebook models have a dedicated emoji picker key on the top row. If the shortcut does nothing, check that your device is up to date in **Settings > About ChromeOS**, since the picker was added and redesigned across several releases.
+Some recent models, including many Chromebook Plus laptops, have a Quick Insert key that can also bring up emojis, depending on the model. If the shortcut does nothing, check that your device is up to date in **Settings > About ChromeOS**, since the picker was added and redesigned across several releases. Our [Chromebook emoji guide](/guides/how-to-do-emojis-on-chromebook/) goes further, including school-managed devices and tablet mode.
 
 ## Linux
 

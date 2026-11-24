@@ -1,0 +1,56 @@
+{
+  "slug": "mango",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Mango Emoji 🥭 Meaning: Summer Fruit With a Home Crowd",
+  "description": "The mango emoji 🥭 stands for the fruit, summer and tropical flavor, and for pride in India, Pakistan, the Philippines and Mexico. Here is how people really use it.",
+  "summary": "🥭 is a ripe mango, green blushing to red and yellow. People use it for the fruit, mango season, smoothies, lassis and tropical flavors. In South Asian, Filipino, Caribbean and Latin American communities it carries real cultural pride, since mangoes are a beloved staple and a national fruit in several countries.",
+  "meaning": [
+    "For many senders the mango is not just a fruit but a season. In India and Pakistan, summer means arguing over the best variety, whether Alphonso, Chaunsa, Langra or Sindhri, and boxes of mangoes are given as gifts to family and neighbors. The emoji shows up in those debates, in photos of crates on the kitchen floor, and in messages from relatives asking if the mangoes have arrived yet.",
+    "The same warmth exists elsewhere. Mango is the national fruit of India, Pakistan and the Philippines, and Filipinos abroad use 🥭 for dried mango, mango float and the sweet Carabao variety. In Mexico and among Mexican Americans it means mango on a stick with chili powder, or a mangonada with chamoy. Caribbean users post it for backyard trees that drop more fruit than anyone can eat.",
+    "Outside those contexts, 🥭 is a flavor tag. Smoothie shops, bubble tea menus, sorbet flavors and hot sauce labels all use it. Because it arrived in 2018, years after 🍑 and 🍊, some people still reach for those older fruits out of habit when they mean mango. It has no widespread slang meaning, though it occasionally appears in the same fruity innuendo that peaches and cherries attract."
+  ],
+  "contexts": [
+    {
+      "label": "In family group chats",
+      "body": "South Asian and Filipino family chats light up with 🥭 when the season starts. Messages coordinate who is buying a box, compare prices, and settle which variety is superior. Relatives abroad send it to show what they miss from home, and the replies are often a wave of mangoes and crying faces."
+    },
+    {
+      "label": "On menus and food posts",
+      "body": "Cafes, juice bars and dessert shops tag mango items with it: lassis, smoothie bowls, sticky rice, sorbet, mochi and salsa. Food bloggers use it in recipe titles. It quickly tells a scrolling reader that a drink or dish is fruity and tropical."
+    },
+    {
+      "label": "In texting",
+      "body": "Day to day, 🥭 shares a craving or a small joy: a perfectly ripe mango, juice dripping down a wrist, a hack for cutting it into cubes. It also says summer, the way 🍉 does for many people in colder countries."
+    }
+  ],
+  "examples": [
+    { "text": "Nani sent a whole box of Alphonsos 🥭🥭 come over", "meaning": "Inviting someone to share a gift of prized mangoes from a grandmother." },
+    { "text": "Chaunsa > Alphonso, I will not be taking questions 🥭", "meaning": "Joining the friendly debate about which mango variety is best." },
+    { "text": "Mangonada with extra chamoy 🥭🌶️ perfect day", "meaning": "Enjoying a Mexican-style mango drink with chili and tangy sauce." },
+    { "text": "Miss the mango tree in our yard back home 🥭🥺", "meaning": "Nostalgia for home, often in a diaspora context." },
+    { "text": "New flavor this week: mango passionfruit 🥭", "meaning": "A shop or brand announcing a mango-flavored product." }
+  ],
+  "combos": [
+    { "combo": "🥭🌶️", "meaning": "Mango with chili, Mexican or South Asian style." },
+    { "combo": "🥭🥛", "meaning": "Mango lassi or a mango milkshake." },
+    { "combo": "🥭🍍🥥", "meaning": "Tropical fruit, smoothies or a beach vacation mood." },
+    { "combo": "🥭🇮🇳", "meaning": "Mango season in India or pride in Indian mangoes." }
+  ],
+  "confusedWith": [
+    { "slug": "peach", "difference": "🍑 is a fuzzy peach with a leaf, now widely used as slang for buttocks. 🥭 is smoother and more oblong with a green-to-red blush and is overwhelmingly used for the actual fruit." },
+    { "slug": "tangerine", "difference": "🍊 is a round orange citrus fruit, used for oranges, tangerines and vitamin C. Before 2018 people sometimes used it for mango, but the two have different shapes and flavors." }
+  ],
+  "avoid": [
+    "Avoid it when you mean peach or orange, since many readers will notice the difference.",
+    "Do not use it to stand in for a whole culture; it works best when it is about the fruit people actually love."
+  ],
+  "design": "An oval, slightly kidney-shaped mango with skin that shifts from green near the stem to orange, yellow and red, often with a small brown stem on top. Platforms differ mainly in how much red blush they show and whether a leaf is attached, but all of them depict a whole, uncut fruit.",
+  "faqs": [
+    { "q": "Does the mango emoji have a hidden meaning?", "a": "Not really. Unlike 🍑 or 🍆, it has no established slang meaning. It occasionally appears in flirty fruit jokes, but in almost all messages it simply means mango, summer or a tropical flavor." },
+    { "q": "Why do Indian and Pakistani people use 🥭 so much?", "a": "Mangoes are central to summer in South Asia. It is the national fruit of both countries, families gift boxes to each other, and debates over the best variety are a beloved tradition, so the emoji carries real excitement." },
+    { "q": "What did people use before the mango emoji existed?", "a": "Many used 🍑 or 🍊 as a stand-in. Some typed the word instead. 🥭 was added in 2018, so it can be missing on very old phones." },
+    { "q": "When was the mango emoji added?", "a": "🥭 was added with Emoji 11.0 in 2018, making it a relative latecomer among fruit emoji. Phones that have not received a software update since then may show an empty box instead." }
+  ],
+  "related": ["peach", "pineapple", "coconut", "banana", "flag-india", "watermelon"]
+}

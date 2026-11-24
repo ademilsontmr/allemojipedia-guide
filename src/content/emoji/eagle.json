@@ -1,0 +1,60 @@
+{
+  "slug": "eagle",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Eagle Emoji 🦅 Meaning: Freedom, America and Fly Eagles Fly",
+  "description": "The 🦅 eagle emoji means freedom and American patriotism, Philadelphia Eagles pride, Albanian heritage, a golf score two under par, or soaring ambition. See examples.",
+  "summary": "🦅 is an eagle with outstretched wings. In the United States it mostly means freedom and patriotism, a nod to the bald eagle as a national symbol, and it is the rallying emoji of Philadelphia Eagles fans. Albanians use it for their double-headed eagle, golfers for two under par, and others for soaring ambition.",
+  "meaning": [
+    "Patriotism is the loudest use. The bald eagle appears on the Great Seal of the United States and has long served as a national emblem, so 🦅 often stands next to 🇺🇸 on the Fourth of July, Memorial Day and Veterans Day. It is also used half-jokingly to signal over-the-top Americanness: monster trucks, fireworks, oversized portions, the internet's “freedom” meme where eagles screech in the background.",
+    "Football gives it a second constituency. Philadelphia Eagles fans post it relentlessly on game days, usually with the chant Fly Eagles Fly, and other teams called the Eagles borrow it too. Outside Philadelphia, a stray 🦅 in a sports thread during NFL season is more likely about the team than the bird.",
+    "Several other communities claim the eagle. Albania's flag shows a black double-headed eagle, and Albanians and Kosovo Albanians use 🦅 alongside their flags as a heritage symbol, sometimes together with the two-handed eagle gesture. Mexico's flag also has an eagle, so it appears in Mexican pride posts. In golf, an eagle is a hole finished two strokes under par, and golfers celebrate one with this emoji.",
+    "Beyond specific groups, the eagle means rising above: ambition, vision, freedom and independence. Motivational posts use it the way others use a rocket, and graduates and new business owners add it to “time to soar” captions. Birders and wildlife photographers, of course, post it for real eagles. The Apollo 11 line “The Eagle has landed” also gets quoted for any triumphant arrival."
+  ],
+  "contexts": [
+    {
+      "label": "On holidays",
+      "body": "American national holidays are its peak season. Fourth of July captions pair it with fireworks and the flag; military and veteran tributes use it more solemnly. On social media it is also a tongue-in-cheek symbol of exaggerated patriotism, so the same emoji can be sincere or satirical depending on the poster."
+    },
+    {
+      "label": "In sports",
+      "body": "Philadelphia Eagles fans use it more than anyone, with green hearts and the team chant. Albania's national football team and its fans treat it as their symbol, and celebrations with the double-headed eagle gesture have drawn attention at international tournaments. In golf, a 🦅 in a group chat means someone scored an eagle on a hole."
+    },
+    {
+      "label": "Around the world",
+      "body": "The eagle is a national symbol in many places, including the United States, Mexico, Albania, Germany and Poland, so the emoji's meaning follows the flag beside it. In Albanian communities abroad it is a strong identity marker, posted on Independence Day on November 28 and in diaspora celebrations."
+    }
+  ],
+  "examples": [
+    { "text": "Happy 4th everybody 🦅🇺🇸🎆", "meaning": "Patriotic Independence Day greeting." },
+    { "text": "Fly Eagles Fly 🦅💚", "meaning": "Cheering for the Philadelphia Eagles on game day." },
+    { "text": "Eagle on 14!! 🦅⛳", "meaning": "The golfer finished hole 14 two strokes under par." },
+    { "text": "Kuq e zi forever 🦅🇦🇱", "meaning": "Albanian pride; the phrase refers to the red and black of the flag." },
+    { "text": "Quit the job, launching my own studio. Time to fly 🦅", "meaning": "Announcing a bold, independent new start." },
+    { "text": "Two bald eagles on the river this morning 🦅", "meaning": "A literal wildlife sighting." }
+  ],
+  "combos": [
+    { "combo": "🦅🇺🇸", "meaning": "American freedom and patriotism, sincere or ironic." },
+    { "combo": "🦅💚", "meaning": "Philadelphia Eagles support." },
+    { "combo": "🦅🇦🇱", "meaning": "Albanian heritage and the double-headed eagle." },
+    { "combo": "🦅⛳", "meaning": "Scoring an eagle in golf." }
+  ],
+  "confusedWith": [
+    { "slug": "owl", "difference": "🦉 is a round-faced night bird linked with wisdom, studying and staying up late. 🦅 is a soaring raptor tied to national pride, power and sports teams." },
+    { "slug": "dove", "difference": "🕊️ is a white dove, a symbol of peace, the Holy Spirit and remembrance. It is gentle, while 🦅 signals strength and independence." },
+    { "slug": "flag-albania", "difference": "🇦🇱 is Albania's flag, a black double-headed eagle on red. Albanians use both together, but the flag states nationality directly, while 🦅 alone is ambiguous outside that context." }
+  ],
+  "avoid": [
+    "Do not assume everyone shares the patriotic reading; outside the US it may read as American chest-thumping.",
+    "Avoid the joking freedom meme in genuinely solemn tributes such as funerals or memorials.",
+    "Be aware that in a sports chat it can be read as backing a specific team."
+  ],
+  "design": "A large bird of prey shown in flight or mid-takeoff with broad wings spread, a hooked yellow beak and strong talons. The Unicode name is just Eagle, not a particular species, so users supply the bald eagle, golden eagle or heraldic eagle from context. It is always a single-headed eagle, so Albanian users rely on context or the flag for the double-headed version.",
+  "faqs": [
+    { "q": "What does 🦅 mean on social media?", "a": "In the US it mostly means freedom and patriotism, sometimes ironically. It also means Philadelphia Eagles support, Albanian pride, an eagle in golf, or ambition and independence, depending on the flag, team or caption beside it." },
+    { "q": "Why do Albanians use the eagle emoji?", "a": "Albania's flag and national symbol is a black double-headed eagle, and Albanians call their homeland the land of eagles. The emoji, together with the flag and the eagle hand gesture, expresses ethnic and national pride." },
+    { "q": "What does an eagle mean in golf?", "a": "An eagle is a score two strokes under par on a single hole, such as a three on a par five. Golfers send 🦅 to celebrate one, a step up from a birdie." },
+    { "q": "When was the eagle emoji added?", "a": "The eagle arrived with Unicode 9.0 in 2016, released as Emoji 3.0, in the same group of animal additions as the owl, the duck and the bat." }
+  ],
+  "related": ["flag-united-states", "owl", "dove", "flag-albania", "fireworks", "american-football"]
+}

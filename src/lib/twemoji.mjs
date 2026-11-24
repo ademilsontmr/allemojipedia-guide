@@ -14,3 +14,12 @@ export function twemojiFile(hex) {
 export const hasTwemoji = (hex) => existsSync(twemojiFile(hex));
 export const emojiImagePath = (slug) => `/img/emoji/${slug}.svg`;
 export const ogPath = (kind, slug) => `/og/${kind}/${slug}.png`;
+
+/** License metadata for images that are, or are built from, Twemoji artwork (CC BY 4.0). */
+export const TWEMOJI_LICENSE = {
+  license: "https://creativecommons.org/licenses/by/4.0/",
+  acquireLicensePage: "https://github.com/jdecked/twemoji#license",
+  creditText: "Twemoji",
+  creator: { "@type": "Organization", name: "Twemoji contributors", url: "https://github.com/jdecked/twemoji" },
+  copyrightNotice: "Twemoji graphics licensed under CC BY 4.0",
+};

@@ -1,0 +1,57 @@
+{
+  "slug": "coconut",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Coconut Emoji 🥥 Meaning: Beaches, Piña Coladas and Memes",
+  "description": "The coconut emoji 🥥 means tropical drinks, beaches and coconut water, plus the 2024 coconut tree meme. Also why “coconut” can be an insult and when to avoid it.",
+  "summary": "🥥 is a coconut split open to show its white flesh. It mostly means tropical vacations, coconut drinks and coconut flavored food. In 2024 it became a political meme tied to Kamala Harris’s “coconut tree” remark, and as a word, coconut is also an ethnic insult, so context matters.",
+  "meaning": [
+    "The literal meanings come first. A coconut says beach bar, island trip and piña colada, the cocktail named in its Unicode keywords. Health and food accounts use it for coconut water, coconut oil, coconut milk curries, macaroons and dairy-free desserts. In Hawaii, the Pacific Islands, South India, Southeast Asia and the Caribbean it is an everyday ingredient rather than a vacation symbol.",
+    "In 2024 the coconut picked up a new life. A clip of Kamala Harris recounting her mother’s saying, “You think you just fell out of a coconut tree?”, about everyone existing in the context of what came before them, went viral during her presidential campaign. Supporters adopted 🥥 and 🌴 in usernames and comments as a show of support. In political replies from that period, a coconut usually signals that meaning.",
+    "There is an older, harsher use. Calling someone a coconut, brown on the outside and white on the inside, is an insult aimed at people of South Asian, Latino, Black or Pacific Islander background who are accused of abandoning their culture. The emoji is sometimes used that way in arguments. Understanding the slur helps readers recognize it, but it should not be sent casually about a person."
+  ],
+  "contexts": [
+    {
+      "label": "In vacation captions",
+      "body": "Poolside drinks served in a shell, palm-lined beaches and island hopping all earn a 🥥. It sits beside 🌴, 🏝️ and 🍹 in travel posts and countdowns to a trip. Resorts and tiki bars use it in promotions for the same carefree feeling."
+    },
+    {
+      "label": "In food and wellness",
+      "body": "Smoothie bowls, vegan baking, coconut yogurt and electrolyte drinks are tagged with it. Recipe creators flag coconut as an ingredient so readers with allergies or preferences can spot it. Haircare and skincare brands use it for coconut-scented shampoos, oils and body lotions."
+    },
+    {
+      "label": "In politics",
+      "body": "During the 2024 US election, coconut and palm emoji became shorthand for support of Kamala Harris, after the coconut tree quote spread widely online. Some supporters still keep them in their bios. Opponents occasionally used the same emoji mockingly, so tone has to be judged from the rest of the post."
+    }
+  ],
+  "examples": [
+    { "text": "Two more weeks until Maui 🥥🌴", "meaning": "Counting down to a tropical vacation." },
+    { "text": "Fresh coconut water straight from the shell, nothing beats it 🥥", "meaning": "Enjoying the literal drink, often on a trip or at a market." },
+    { "text": "Made a Thai curry with coconut milk tonight 🥥🍛", "meaning": "Sharing a dish that uses coconut as an ingredient." },
+    { "text": "You think you just fell out of a coconut tree? 🥥🌴", "meaning": "Quoting the 2024 viral Kamala Harris line, often as a show of political support." },
+    { "text": "Piña colada season is officially open 🥥🍍", "meaning": "Announcing summer drinks or a beach-bar mood." }
+  ],
+  "combos": [
+    { "combo": "🥥🌴", "meaning": "Tropical getaways, or the 2024 coconut tree meme in political posts." },
+    { "combo": "🥥🍍🍹", "meaning": "A piña colada or a tropical cocktail in general." },
+    { "combo": "🥥🏝️", "meaning": "Island life, beaches and slow vacation days." },
+    { "combo": "🥥💧", "meaning": "Coconut water, hydration and wellness drinks." }
+  ],
+  "confusedWith": [
+    { "slug": "palm-tree", "difference": "🌴 is the tree that grows coconuts and stands for beaches and vacations generally. 🥥 is the fruit itself and points more specifically to food, drinks and the coconut tree quote." },
+    { "slug": "chestnut", "difference": "🌰 is a small brown chestnut, used for autumn, roasting chestnuts and occasionally nuts in general. It is not split open and has nothing tropical about it." }
+  ],
+  "avoid": [
+    "Do not call or tag a person with 🥥 about their race or identity; it reads as the coconut slur.",
+    "Be careful with it in mixed political company, since many readers still associate it with the 2024 campaign.",
+    "Use a clear label rather than the emoji alone when warning about coconut as an allergen."
+  ],
+  "design": "A coconut cracked in half, showing a hairy brown husk outside and bright white flesh inside, sometimes with a hint of clear water in the middle. Most platforms draw one half facing the viewer and the other behind it or turned away. Shading and husk texture vary, but the split, white-centered look is consistent.",
+  "faqs": [
+    { "q": "What does 🥥🌴 mean in politics?", "a": "It refers to the viral 2024 clip of Kamala Harris quoting her mother: “You think you just fell out of a coconut tree?” Supporters used the coconut and palm tree as a playful sign of support during her campaign." },
+    { "q": "Is the coconut emoji offensive?", "a": "Usually not. It is normally about food or vacations. However, “coconut” is also a slur for someone of color accused of acting white, so using it to describe a person can be offensive." },
+    { "q": "Why are piña coladas linked to the coconut emoji?", "a": "A piña colada is made with coconut cream and pineapple, and “piña colada” is among the official keywords for 🥥. Pairing it with 🍍 or 🍹 makes the drink meaning obvious." },
+    { "q": "When was the coconut emoji added?", "a": "🥥 was released with Emoji 5.0 in 2017. Devices that have not been updated since before then may show a blank box or a question mark instead of the fruit." }
+  ],
+  "related": ["palm-tree", "pineapple", "mango", "cocktail-glass", "desert-island", "banana"]
+}

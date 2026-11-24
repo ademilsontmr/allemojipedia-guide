@@ -25,6 +25,8 @@ for (const [oldSlug, char] of Object.entries(legacy)) {
   if (e && e.slug !== oldSlug && hasPage(e.slug)) add(`/emoji/${oldSlug}/`, `/emojis/${e.slug}/`);
 }
 const guide = (from, slug, fallback = "/guides/") => add(`${from}/`, hasGuide(slug) ? `/guides/${slug}/` : fallback);
+// /blog/ is the news blog again (2026-11-24): only old posts with a successor are redirected, and no
+// /blog/* catch-all, because Cloudflare Pages applies redirects even when a page exists at the path.
 lines.push("", "# Old blog posts and hubs with a direct successor");
 for (const [from, slug] of [
   ["/blog/heart-emoji-meanings-guide", "heart-emoji-colors-meaning"], ["/blog/gen-z-emoji-meanings-decoded", "gen-z-emoji-slang"],
@@ -53,7 +55,7 @@ for (const [from, slug] of [
 ]) guide(from, slug);
 lines.push("", "# Other old sections");
 for (const [from, to] of [
-  ["/flag-quiz", "/flag-emoji-quiz/"], ["/blog", "/guides/"], ["/emoji-meanings", "/emojis/"], ["/emoji-comparisons", "/emojis/"],
+  ["/flag-quiz", "/flag-emoji-quiz/"], ["/emoji-meanings", "/emojis/"], ["/emoji-comparisons", "/emojis/"],
   ["/copy-iphone-emojis", "/emoji-copy-and-paste/"], ["/copy-android-emojis", "/emoji-copy-and-paste/"],
   ["/copy-samsung-emojis", "/emoji-copy-and-paste/"], ["/blog/skull-emoji-meaning", "/emojis/skull/"],
   ["/emoji-combos/thank-you-prayer-combo", "/emojis/folded-hands/"], ["/people", "/categories/people-and-body/"], ["/sitemap", "/categories/"],
@@ -61,7 +63,7 @@ for (const [from, to] of [
 lines.push("", "# Dynamic rules (after every static rule above)");
 for (const r of [
   "/emoji/:slug/ /emojis/:slug/ 301", "/emoji/:slug /emojis/:slug/ 301", "/category/:slug/ /categories/:slug/ 301",
-  "/blog/* /guides/ 301", "/emoji-meanings/* /emojis/ 301", "/emoji-combos/* /guides/ 301", "/people/* /categories/people-and-body/ 301",
+  "/emoji-meanings/* /emojis/ 301", "/emoji-combos/* /guides/ 301", "/people/* /categories/people-and-body/ 301",
   "/platforms/* /guides/ 301", "/emoji-meanings-in-texting/* /emojis/ 301",
 ]) { lines.push(r); n++; }
 lines.push("");

@@ -1,0 +1,58 @@
+{
+  "slug": "hourglass-done",
+  "published": "2026-11-24",
+  "updated": "2026-11-24",
+  "title": "Hourglass Done Emoji ⌛ Meaning: Time's Up, Not Loading",
+  "description": "The hourglass done emoji ⌛ means time has run out: a deadline passed, a wait is over or a chance is gone. Learn how it differs from ⏳ and when people mix them up.",
+  "summary": "⌛ is an hourglass whose sand has finished falling, so its strict meaning is “time’s up.” People use it for expired deadlines, ended waits, missed chances and the passage of time in general. Many also send it simply to mean waiting, which really belongs to its twin ⏳.",
+  "meaning": [
+    "The difference between the two hourglass emojis comes down to sand. In ⏳ the grains are still pouring, so the timer is running. In ⌛ the top chamber is empty, so the timer has stopped. That makes ⌛ the emoji for endings: an offer that closed at midnight, a quiz that is over, a waiting period that finally finished, a friend who took too long to reply and lost their chance.",
+    "In practice, plenty of people treat the two as interchangeable and send ⌛ for “still waiting” or “hurry up.” Part of the reason is size: on a phone keyboard the two glyphs look nearly identical. Another is that the older Windows wait cursor was an hourglass, so the shape itself says loading to many people. Readers usually work out the intent from the words around it.",
+    "There is also a reflective use. An hourglass is a classic symbol of mortality and the limits of time, and ⌛ appears in posts about getting older, the last week of a job, the final days of summer or a countdown that has reached zero. Here it reads as quiet and a little bittersweet rather than impatient."
+  ],
+  "contexts": [
+    {
+      "label": "In texting",
+      "body": "Between friends it often closes a door with a wink. “Offer expired ⌛” after someone dithers about weekend plans means the moment has passed. It can also be a gentle nudge in the form of a joke, sent after a long silence to say “you took forever.” Sent alone, it is usually impatience."
+    },
+    {
+      "label": "At work",
+      "body": "Teams use it in status updates for deadlines that have passed, trials that ended or approvals that timed out. Because some colleagues will read it as “in progress,” it is clearer to pair it with words such as closed, expired or ended. For tasks still underway, ⏳ is the accurate choice."
+    },
+    {
+      "label": "In gaming and online sales",
+      "body": "Limited-time events, flash sales and drops borrow the hourglass to show that a window has shut. Streamers and communities post ⌛ when a giveaway closes or a season pass ends. Players also use it to mock a teammate who is slow to make a move, borrowing the idea of a turn timer running out."
+    }
+  ],
+  "examples": [
+    { "text": "Early bird pricing is over ⌛ regular tickets only now", "meaning": "A deadline has passed and the discounted option is no longer available." },
+    { "text": "You had all week to say yes ⌛", "meaning": "Teasing a friend who waited too long; the chance has run out." },
+    { "text": "Last shift at the cafe tomorrow ⌛🥲", "meaning": "A bittersweet note that a chapter of life is coming to an end." },
+    { "text": "Sooo are we leaving or ⌛", "meaning": "Impatience; the sender is tired of waiting, even though ⏳ would be the stricter choice." },
+    { "text": "Voting closed ⌛ results in an hour", "meaning": "Announcing that a time-limited window has officially ended." }
+  ],
+  "combos": [
+    { "combo": "⌛❌", "meaning": "Expired or closed; the opportunity is no longer available." },
+    { "combo": "⌛🥲", "meaning": "Bittersweet that something good has reached its end." },
+    { "combo": "⏳⌛", "meaning": "Time running out and then done, a tiny countdown story in two glyphs." },
+    { "combo": "⌛😤", "meaning": "Fed up with waiting for someone who is running late." }
+  ],
+  "confusedWith": [
+    { "slug": "hourglass-not-done", "difference": "⏳ has sand still falling, so it means waiting, in progress or loading. ⌛ has all the sand in the bottom, so strictly it means finished or time’s up, even though many people use them interchangeably." },
+    { "slug": "alarm-clock", "difference": "⏰ is a ringing alarm clock for waking up, reminders and urgent deadlines that are about to hit. ⌛ looks back at time already spent rather than sounding an alert." },
+    { "slug": "stopwatch", "difference": "⏱️ is a stopwatch for precise timing, races, workouts and speedruns. It measures seconds, while ⌛ is about a period of time running out." }
+  ],
+  "avoid": [
+    "Do not use it to mean “loading” or “in progress” in a work update where the reader needs to know the status exactly; use ⏳ instead.",
+    "Avoid it in condolence messages, where a symbol of time running out can feel blunt rather than reflective.",
+    "Do not send it to rush someone who is dealing with something stressful; it reads as impatience."
+  ],
+  "design": "A classic hourglass: two glass bulbs joined at a narrow waist and held in a wooden or metal frame, with all of the sand collected in the lower bulb. Platforms draw it in amber, tan or gold tones. At small sizes the empty top chamber is the only clue that separates it from ⏳, which is why the pair is so often swapped.",
+  "faqs": [
+    { "q": "What is the difference between ⌛ and ⏳?", "a": "⏳ is the hourglass still running, with sand falling from top to bottom; it means waiting or in progress. ⌛ is the hourglass done, with the sand fully settled; it means time is up or something has ended. Check which chamber is empty." },
+    { "q": "What does ⌛ mean in a text?", "a": "Usually that time has run out: a chance expired, a deadline passed or a wait is over. Some senders use it to mean they are waiting on you, so if the sentence asks a question or complains about lateness, read it as impatience." },
+    { "q": "Is the hourglass emoji rude?", "a": "Not by itself, but sent alone to someone who has not replied, it says “hurry up” and can feel pushy. With a friend it lands as a joke. With a boss or a client, write the deadline out instead." },
+    { "q": "When was ⌛ added?", "a": "⌛ was among the first emojis adopted from Japanese phone carriers, listed as emoji version 0.6 in 2010, so it displays on practically every device. Its running counterpart ⏳ belongs to the same early set." }
+  ],
+  "related": ["hourglass-not-done", "alarm-clock", "stopwatch", "timer-clock", "watch", "spiral-calendar"]
+}
