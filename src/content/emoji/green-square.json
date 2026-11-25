@@ -51,7 +51,7 @@
   "faqs": [
     { "q": "What does the green square mean in Wordle?", "a": "A green tile means that letter is in the answer and in exactly the right position. Yellow means the letter is in the word but in a different spot, and a gray, black or white tile means the letter is not in the word." },
     { "q": "How do I share my Wordle with green squares?", "a": "After finishing the puzzle, tap the Share button on the results screen. The game copies your grid as text made of emoji squares, which you can paste into any chat or post without revealing the word." },
-    { "q": "What is the difference between 🟩 and 🟢?", "a": "The square fills its space and tiles into grids, so it suits game results and pixel art. The circle reads more like an indicator light and is common for online status, voting or yes." },
+    { "q": "🟩 vs 🟢: what is the difference?", "a": "The square fills its space and tiles into grids, so it suits game results and pixel art. The circle reads more like an indicator light and is common for online status, voting or yes." },
     { "q": "Why do some Wordle grids show orange and blue instead of green?", "a": "Wordle has a high contrast mode for players who find green and yellow hard to distinguish. With it switched on, correct letters appear orange and misplaced ones blue, and the shared grid uses 🟧 and 🟦 instead." },
     { "q": "When was the green square emoji added?", "a": "It came with Emoji 12.0 in 2019 as part of a group of colored squares and circles. Wordle made it widely used about two years later." }
   ],

@@ -77,7 +77,7 @@
   "design": "A single heavy tick stroke with no background. Its color is the main variable: some platforms draw it black or dark gray, and others use green or blue. Without emoji styling it may fall back to a thin monochrome text character. The Unicode name is \"heavy check mark,\" and the usual shortcode is :heavy_check_mark:.",
   "faqs": [
     {
-      "q": "What is the difference between ✔️ and ✅?",
+      "q": "What separates ✔️ from ✅?",
       "a": "They mean the same thing, but ✅ is green and boxed while ✔️ is a plain stroke. Choose ✅ for visibility in chat and status updates, and ✔️ for neat lists or a more formal look."
     },
     {

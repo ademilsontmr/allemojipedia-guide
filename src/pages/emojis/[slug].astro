@@ -5,7 +5,7 @@ import Faq from "@/components/Faq.astro";
 import AdUnit from "@/components/AdUnit.astro";
 import GuideCard from "@/components/GuideCard.astro";
 import { getCollection } from "astro:content";
-import { SITE, abs, fmtDate } from "@/lib/site";
+import { SITE, abs, fmtDate, reviewDate } from "@/lib/site";
 import { hasTwemoji, emojiImagePath, ogPath, TWEMOJI_LICENSE } from "@/lib/twemoji.mjs";
 import { emojiPages, emojis, getEmoji, getCategory, categoryUrl, emojiUrl, subgroupLabel, codepoints, htmlEntity, cssEscape, jsEscape, emojiVersion, addedLabel, SKIN_TONES } from "@/lib/emoji";
 
@@ -21,7 +21,7 @@ const cat = getCategory(e.category);
 const char = e.emoji;
 const shortName = e.name.replace(/^Flag: /, "") + (e.category === "flags" && e.name.startsWith("Flag: ") ? " Flag" : "");
 const published = d.published ?? SITE.launched;
-const updated = d.updated ?? published;
+const updated = reviewDate(d);
 const path = emojiUrl(e.slug);
 const hasImg = hasTwemoji(e.hex);
 const og = hasImg ? ogPath("emojis", e.slug) : SITE.ogImage;
@@ -30,8 +30,11 @@ const imgAlt = `${e.name} emoji ${char}`;
 // the Unicode name ("Cloud With Rain"); the Unicode name is kept as a secondary keyword.
 const titleName = (d.title.match(/^(.*?)\s+Emoji\b/)?.[1] ?? shortName).replace(/[^\p{L}\p{N}\s'’&.-]/gu, "").trim() || shortName;
 const kwName = titleName.toLowerCase();
-// The <title>, og:title, JSON-LD headline and H1 are the same text.
-const heading = `${titleName} Emoji ${char} Meaning and Copy and Paste`;
+// The <title>, og:title, JSON-LD headline and H1 are the same text: the page's own written title
+// (validated to contain the name, "Emoji" and the character), not a shared template.
+const heading = d.title;
+const [h1Before, ...h1Rest] = heading.split(char);
+const h1After = h1Rest.join(char);
 const unicodeName = shortName.toLowerCase();
 const keywords = [...new Set([`${kwName} emoji meaning`, `${char} meaning`, `what does ${char} mean`, `${kwName} emoji copy and paste`, `${kwName} emoji`, `${unicodeName} emoji`])];
 
@@ -81,7 +84,7 @@ const schema = [
     <header class="emoji-hero">
       <div class="glyph em" role="img" aria-label={`${e.name} emoji`}>{char}</div>
       <div>
-        <h1>{titleName} Emoji <span class="em">{char}</span> Meaning and Copy and Paste</h1>
+        <h1>{h1Rest.length ? <>{h1Before}<span class="em">{char}</span>{h1After}</> : heading}</h1>
         <p class="lead">{e.name} · {codepoints(e.hex)} · {cat.name}</p>
         <div class="actions">
           <button class="btn" type="button" data-copy={char}><span data-copy-label>Copy and paste {char}</span></button>

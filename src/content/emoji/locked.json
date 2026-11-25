@@ -44,7 +44,7 @@
     { "q": "What does 🔒 mean in someone's bio next to a name?", "a": "It means they are in a committed relationship with that person. Couples frequently add the date they got together after the padlock, sometimes with a matching key emoji on the partner's profile." },
     { "q": "What does the lock mean on a social media account?", "a": "A lock badge shows the account is private or protected. Only approved followers can see its posts, and those posts generally cannot be reshared publicly." },
     { "q": "What does it mean when someone replies with just 🔒?", "a": "Depending on the conversation: “it's confirmed,” “I won't tell anyone,” or “I'm focused.” If you asked them to keep a secret, it is a promise. If you invited them out during exam week, it is a polite no." },
-    { "q": "What is the difference between 🔒 and 🔐?", "a": "🔒 is a padlock alone. 🔐 adds a key and leans toward the idea of authorized access, like password protection. For privacy, commitment or focus, people use the plain 🔒." }
+    { "q": "What separates 🔒 from 🔐?", "a": "🔒 is a padlock alone. 🔐 adds a key and leans toward the idea of authorized access, like password protection. For privacy, commitment or focus, people use the plain 🔒." }
   ],
   "related": ["unlocked", "locked-with-key", "key", "zipper-mouth-face", "chains", "bullseye"]
 }

@@ -43,7 +43,7 @@
   "faqs": [
     { "q": "What does 🗯️ mean?", "a": "It represents shouted or angry speech, shown as the jagged balloon comics use for yelling. People use it for rants, outbursts and heated arguments, and sometimes just to make a statement feel loud." },
     { "q": "Is the anger bubble always angry?", "a": "No. Although the name says anger, the burst shape in comics covers any loud exclamation. It is regularly used for excitement, emphasis and bold opinions. Context shows whether the volume comes from fury or enthusiasm." },
-    { "q": "What is the difference between 🗯️ and 💢?", "a": "The anger bubble holds angry words and points to a speaker. The anger symbol is a manga mark for a throbbing vein and shows the emotion on a character. One is speech, the other is body language." },
+    { "q": "How can I tell 🗯️ and 💢 apart?", "a": "The anger bubble holds angry words and points to a speaker. The anger symbol is a manga mark for a throbbing vein and shows the emotion on a character. One is speech, the other is body language." },
     { "q": "Why is it called the right anger bubble?", "a": "The tail points to the bottom right, as if the speaker were on that side. Unicode also encodes a left-facing version as a plain symbol, but only the right-facing one was given emoji status." },
     { "q": "Why does 🗯️ look like a plain outline on my screen?", "a": "Many systems default to text presentation for this character. It needs an added invisible selector to display as a full emoji. When that is missing or ignored, you see a simple black-and-white shape." }
   ],

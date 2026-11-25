@@ -41,7 +41,7 @@
   ],
   "design": "A rectangular or rounded speech bubble drawn mostly as an outline, with a small tail at the lower left. Apple shows it in grey and white; other vendors use dark outlines or a flat fill. Without the emoji variation selector it can fall back to a monochrome text glyph. Its unadorned style reflects its origin as a symbol-font icon.",
   "faqs": [
-    { "q": "What is the difference between 🗨️ and 💬?", "a": "Functionally nothing: both mean speech, messages or comments. 💬 is older as an emoji, more colorful and far more widely used. 🗨️ is a simpler outline with its tail on the left, and it is also a component of the eye-in-speech-bubble emoji." },
+    { "q": "How is 🗨️ different from 💬?", "a": "Functionally nothing: both mean speech, messages or comments. 💬 is older as an emoji, more colorful and far more widely used. 🗨️ is a simpler outline with its tail on the left, and it is also a component of the eye-in-speech-bubble emoji." },
     { "q": "Why is it called the left speech bubble?", "a": "Because the tail points to the left, indicating a speaker on that side. Unicode also defines a right speech bubble and other directional bubbles as text symbols, though those were not made into emojis." },
     { "q": "Why does 🗨️ look black and white on my device?", "a": "The character defaults to text style on many systems. It needs an extra, invisible code to request the colorful emoji version. If an app leaves that out or does not honor it, you see a plain outline glyph." },
     { "q": "Does 🗨️ have a hidden or slang meaning?", "a": "No. It is one of the most literal emojis and simply indicates talking or commenting. Any deeper meaning comes from pairing it with other symbols, most notably the eye in 👁️‍🗨️." },

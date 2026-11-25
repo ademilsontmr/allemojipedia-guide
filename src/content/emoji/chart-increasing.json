@@ -44,7 +44,7 @@
     { "q": "Why is the line red on the 📈 emoji?", "a": "The design follows Japanese stock market convention, in which red indicates a price increase. Emoji originated in Japan and many platforms kept that color, even though Western charts often use green for gains." },
     { "q": "What does “stonks 📈” mean?", "a": "It is a meme phrase, a deliberate misspelling of “stocks,” used to joke about questionable money decisions as though they were clever investments." },
     { "q": "What does 📈 mean on someone's profile?", "a": "Typically an interest or job in finance, trading, marketing or growth strategy. On personal accounts it can simply signal a self-improvement mindset." },
-    { "q": "What is the difference between 📈 and 💹?", "a": "💹 includes a yen symbol and refers to markets or exchange rates. 📈 is the general-purpose rising graph and is the one used for everyday trends." }
+    { "q": "How do 📈 and 💹 differ?", "a": "💹 includes a yen symbol and refers to markets or exchange rates. 📈 is the general-purpose rising graph and is the one used for everyday trends." }
   ],
   "related": ["chart-decreasing", "bar-chart", "chart-increasing-with-yen", "rocket", "money-bag", "up-right-arrow"]
 }

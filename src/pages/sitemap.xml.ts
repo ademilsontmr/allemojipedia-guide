@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
-import { SITE, abs } from "@/lib/site";
+import { SITE, abs, reviewDate } from "@/lib/site";
 import { emojiPages, categories, emojiUrl, categoryUrl, getEmoji, getEmojiByChar } from "@/lib/emoji";
 import { hasTwemoji, emojiImagePath, ogPath } from "@/lib/twemoji.mjs";
 import { allPosts, postUrl } from "@/lib/blog";
@@ -13,15 +13,15 @@ export const GET: APIRoute = async () => {
   const posts = await allPosts();
   const iso = (d: Date) => d.toISOString().slice(0, 10);
   const postDates = posts.map((p) => iso(p.data.updatedDate ?? p.data.pubDate));
-  const emojiDates = [...pages.values()].map((e) => e.data.updated ?? e.data.published ?? SITE.launched);
+  const emojiDates = [...pages.values()].map((e) => reviewDate(e.data));
   const guideDates = guides.map((g) => iso(g.data.updatedDate ?? g.data.pubDate));
   const latest = (dates: string[]) => dates.reduce((a, b) => (a > b ? a : b), SITE.launched);
   const urls: [string, string][] = [
     ["/", latest([...emojiDates, ...guideDates])],
     ["/emojis/", latest(emojiDates)],
     ["/categories/", SITE.launched],
-    ...categories.map((c): [string, string] => [categoryUrl(c.slug), latest([...pages.values()].filter((e) => getEmoji(e.data.slug)?.category === c.slug).map((e) => e.data.updated ?? e.data.published ?? SITE.launched))]),
-    ...[...pages.values()].map((e): [string, string] => [emojiUrl(e.data.slug), e.data.updated ?? e.data.published ?? SITE.launched]),
+    ...categories.map((c): [string, string] => [categoryUrl(c.slug), latest([...pages.values()].filter((e) => getEmoji(e.data.slug)?.category === c.slug).map((e) => reviewDate(e.data)))]),
+    ...[...pages.values()].map((e): [string, string] => [emojiUrl(e.data.slug), reviewDate(e.data)]),
     ["/guides/", latest(guideDates)],
     ...(posts.length ? [["/blog/", latest(postDates)] as [string, string]] : []),
     ...posts.map((p): [string, string] => [postUrl(p), iso(p.data.updatedDate ?? p.data.pubDate)]),
